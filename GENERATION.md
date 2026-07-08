@@ -74,6 +74,23 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
 
 ---
 
+## Publication (git)
+
+Décision permanente de Pierre (8 juillet 2026) : **automatiser complètement**. Chaque
+exécution de la tâche du matin doit :
+
+1. Commiter `edition.json` et `recent-words.json` avec un message clair (ex. « Edition
+   du [date] »).
+2. **Pousser directement sur `main`** — pas de branche intermédiaire, pas de pull
+   request, pas de validation manuelle à attendre. Ce dépôt n'a ni CI ni collaborateurs ;
+   le risque est faible et la volonté explicite de Pierre est de ne plus avoir à cliquer
+   « merge » chaque jour.
+
+Cette règle s'applique quelle que soit la session qui exécute la tâche (nouvelle session
+ou session reprise), tant qu'elle n'est pas explicitement révoquée par Pierre.
+
+---
+
 ## Pourquoi une mémoire séparée ?
 
 L'app n'a pas besoin de connaître l'historique des mots (elle n'affiche que celui du
