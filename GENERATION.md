@@ -81,7 +81,11 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
      Fierce Healthcare, BioPharma Dive, Labiotech, BeBeez, HTWorld, Endpoints News,
      StatNews, ainsi que la presse française spécialisée (Maddyness, French Tech
      Journal, La Tribune, Les Echos). Interroger chaque source pour la date du jour et
-     la veille, pas seulement des requêtes génériques par mois.
+     la veille, pas seulement des requêtes génériques par mois. **Sources en anglais
+     et en français toutes les deux acceptées sans restriction** (Pierre lit les
+     deux) — ne pas se limiter à la presse francophone ni exclure les sources
+     anglophones, la priorité reste la fraîcheur et la pertinence du deal, pas la
+     langue de l'article.
      Si, malgré une recherche réellement approfondie sur toutes ces sources, le quota
      n'est vraiment pas atteignable un jour donné avec des news fraîches, **publier
      moins d'items plutôt que de tricher sur la fraîcheur** — et le signaler dans le
