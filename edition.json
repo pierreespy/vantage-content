@@ -106,60 +106,60 @@
     }
   ],
   "word": {
-    "term": "ADC",
-    "full": "Antibody-Drug Conjugate",
-    "fr": "Anticorps-médicament conjugué",
-    "field": "Modalités thérapeutiques",
-    "definition": "Un ADC combine un anticorps ciblant une protéine spécifique des cellules tumorales avec une molécule chimiothérapeutique toxique (le « payload »), reliés par un linker chimique — pour livrer le poison à l'intérieur de la cellule cancéreuse tout en épargnant les tissus sains.",
+    "term": "Venture debt",
+    "full": "Venture debt",
+    "fr": "Dette de capital-risque",
+    "field": "Business santé",
+    "definition": "Un prêt réservé aux startups déjà soutenues par des investisseurs en capital-risque, qui complète une levée en equity sans (ou peu) diluer les actionnaires — souvent assorti de warrants donnant au prêteur le droit de souscrire des actions à un prix fixé à l'avance.",
     "parts": [
       {
-        "label": "Anticorps",
-        "role": "le GPS qui cible la cellule tumorale"
+        "label": "Prêt",
+        "role": "la brique de financement non-dilutive"
       },
       {
-        "label": "Linker",
-        "role": "l'attache chimique stable dans le sang"
+        "label": "Warrants",
+        "role": "la contrepartie en equity pour le prêteur"
       },
       {
-        "label": "Payload",
-        "role": "la charge toxique livrée dans la cellule"
+        "label": "Runway",
+        "role": "la piste financière allongée sans nouveau tour"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Ciblage",
-        "t": "L'anticorps se lie spécifiquement à un antigène présent à la surface des cellules tumorales."
+        "h": "Éligibilité",
+        "t": "La société doit avoir déjà bouclé un tour en equity auprès d'investisseurs reconnus, preuve de traction qui rassure le prêteur."
       },
       {
         "n": "2",
-        "h": "Internalisation",
-        "t": "Le complexe anticorps-payload est absorbé par la cellule cancéreuse ciblée."
+        "h": "Structuration",
+        "t": "Le prêt, souvent 20 à 40 % du dernier tour equity, est accordé avec un taux d'intérêt et parfois des warrants sur une petite fraction du capital."
       },
       {
         "n": "3",
-        "h": "Libération",
-        "t": "Le linker se rompt à l'intérieur de la cellule, libérant le payload cytotoxique qui la détruit."
+        "h": "Usage",
+        "t": "Les fonds financent la croissance — industrialisation, essais cliniques, expansion commerciale — entre deux tours, sans rouvrir une négociation de valorisation."
       }
     ],
-    "why": "Les ADC de nouvelle génération, comme la plateforme de payloads NMTi de Myricx Bio rachetée par Novartis cette semaine, cherchent à élargir la fenêtre thérapeutique — moins de toxicité hors cible, plus de puissance — un axe de différenciation clé pour justifier des valorisations élevées dans une classe déjà encombrée.",
+    "why": "Le venture debt gagne du terrain dans la biotech et la medtech européennes — comme le prêt de 20 M€ de la BEI à BioLamina cette semaine — car il permet aux fondateurs de financer l'industrialisation sans diluer davantage leur capital, un enjeu clé quand les tours equity se font plus rares et plus chers.",
     "deals": [
       {
-        "buyer": "Pfizer",
-        "target": "Seagen",
-        "amount": "43 Md$",
-        "year": "2023"
+        "buyer": "BEI (EIB)",
+        "target": "IO Biotech",
+        "amount": "57,5 M€",
+        "year": "2025"
       },
       {
-        "buyer": "AbbVie",
-        "target": "ImmunoGen",
-        "amount": "10,1 Md$",
+        "buyer": "BEI (EIB)",
+        "target": "Nyxoah",
+        "amount": "37,5 M€",
         "year": "2024"
       },
       {
-        "buyer": "Novartis",
-        "target": "Myricx Bio",
-        "amount": "jusqu'à 1,5 Md$",
+        "buyer": "BEI (EIB)",
+        "target": "BioLamina",
+        "amount": "20 M€",
         "year": "2026"
       }
     ]
