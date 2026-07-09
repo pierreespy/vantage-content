@@ -66,14 +66,26 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
      `"IPO"`…). L'app **mémorise** ce stade par société et l'affiche sur la carte Favoris.
      Ainsi le stade reste **dynamique et exact** (mis à jour à chaque nouvelle levée),
      plutôt que gravé en dur. À remplir dès que le round est connu.
-   - **Quota quotidien de brèves** (décision permanente de Pierre, 9 juillet 2026) :
-     **`brefsEurope` doit contenir 5 items et `brefsIntl` 3 items, tous les jours**,
-     en plus de `lead` et `deal`. Fenêtre de fraîcheur cible : 24–72h. **Si l'actualité
-     strictement fraîche ne suffit pas pour remplir le quota** (ce qui arrive souvent
-     côté Europe), **élargir la recherche jusqu'à ~2 semaines en arrière**, en
-     priorisant systématiquement les items les plus récents et en évitant les sociétés/
-     deals déjà couverts dans une édition précédente. Ne jamais laisser le quota
-     incomplet sans avoir élargi la fenêtre au préalable.
+   - **Quota quotidien de brèves** (décision permanente de Pierre, 9 juillet 2026,
+     précisée le même jour) : viser **5 items dans `brefsEurope` et 3 dans
+     `brefsIntl`, tous les jours**, en plus de `lead` et `deal`. **Fenêtre de
+     fraîcheur non négociable : 24–72h.** Le quota est une cible, pas une excuse pour
+     publier du remplissage — **interdiction absolue d'élargir la fenêtre temporelle
+     pour combler un manque** (pas de vieux deals de plusieurs semaines/mois pour
+     faire du nombre).
+     Avant de conclure qu'il manque d'actu : **creuser beaucoup plus large et beaucoup
+     plus fort**. Il y a presque toujours assez d'actualité fraîche healthtech VC dans
+     le monde — le problème vient d'une recherche trop étroite, pas d'un manque de
+     news. Multiplier les sources et les angles de recherche : au minimum EU-Startups,
+     Sifted, Tech.eu, MedCity News, MobiHealthNews, MedTech Dive, Fierce Biotech/
+     Fierce Healthcare, BioPharma Dive, Labiotech, BeBeez, HTWorld, Endpoints News,
+     StatNews, ainsi que la presse française spécialisée (Maddyness, French Tech
+     Journal, La Tribune, Les Echos). Interroger chaque source pour la date du jour et
+     la veille, pas seulement des requêtes génériques par mois.
+     Si, malgré une recherche réellement approfondie sur toutes ces sources, le quota
+     n'est vraiment pas atteignable un jour donné avec des news fraîches, **publier
+     moins d'items plutôt que de tricher sur la fraîcheur** — et le signaler dans le
+     commit.
 5. **Écrire les deux fichiers** :
    - `edition.json` (l'édition du jour) ;
    - `recent-words.json` **mis à jour** : ajouter `{ "term", "full", "date" }` (date du
