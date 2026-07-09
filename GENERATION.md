@@ -66,6 +66,14 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
      `"IPO"`…). L'app **mémorise** ce stade par société et l'affiche sur la carte Favoris.
      Ainsi le stade reste **dynamique et exact** (mis à jour à chaque nouvelle levée),
      plutôt que gravé en dur. À remplir dès que le round est connu.
+   - **Quota quotidien de brèves** (décision permanente de Pierre, 9 juillet 2026) :
+     **`brefsEurope` doit contenir 5 items et `brefsIntl` 3 items, tous les jours**,
+     en plus de `lead` et `deal`. Fenêtre de fraîcheur cible : 24–72h. **Si l'actualité
+     strictement fraîche ne suffit pas pour remplir le quota** (ce qui arrive souvent
+     côté Europe), **élargir la recherche jusqu'à ~2 semaines en arrière**, en
+     priorisant systématiquement les items les plus récents et en évitant les sociétés/
+     deals déjà couverts dans une édition précédente. Ne jamais laisser le quota
+     incomplet sans avoir élargi la fenêtre au préalable.
 5. **Écrire les deux fichiers** :
    - `edition.json` (l'édition du jour) ;
    - `recent-words.json` **mis à jour** : ajouter `{ "term", "full", "date" }` (date du
