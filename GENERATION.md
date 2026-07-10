@@ -124,20 +124,22 @@ palier étendu se débloque avec le **code du jour**, que Pierre distribue à la
 **On ne publie que le hash salé, jamais le code en clair.** C'est de la friction (rotation
 quotidienne), pas de la sécurité forte. L'app vérifie le code **hors-ligne** contre ce hash.
 
-Procédure (en plus des fichiers d'édition) :
+Procédure (en plus des fichiers d'édition) — **le hash est calculé par un script
+déterministe, jamais à la main** :
 
 1. **Choisir la passphrase du jour** — lisible, NOUVELLE chaque jour : 2-3 mots ASCII
    minuscules + un nombre, tirets, sans caractères ambigus (pas de `o/0`, `l/1/I`), ex.
    `quorum-heron-73`.
-2. **Sel** : `node -e 'console.log(require("crypto").randomBytes(9).toString("hex"))'`.
-3. **Hash** (canonicalisation identique à l'app : trim + minuscules + espaces compactés) :
+2. **Lancer le script** (il génère le sel, calcule le hash avec la canonicalisation exacte
+   de l'app, et écrit `access.json`) :
    ```bash
-   node -e 'const{createHash}=require("crypto");const c=s=>s.trim().toLowerCase().replace(/\s+/g," ");console.log(createHash("sha256").update(process.argv[1]+":"+c(process.argv[2])).digest("hex"))' "<sel>" "<passphrase>"
+   node gen-access.mjs "<passphrase-du-jour>"
    ```
-4. **Écrire `access.json`** = `{ "date":"AAAA-MM-JJ", "algo":"sha256", "salt":"<sel>", "hash":"<hash>", "hint":"…" }`.
-   Le `hint` ne révèle **jamais** le code.
-5. **Transmettre le code en clair à Pierre hors dépôt** (résumé de fin), pour distribution.
-   Ne jamais écrire le code en clair dans un fichier committé.
+   Il **affiche le code en clair sur stdout** et écrit `access.json` avec **le hash salé
+   uniquement** (jamais le clair — `access.json` est servi publiquement via GitHub Pages).
+3. **Committer `access.json`** avec les fichiers d'édition (`git add … access.json`).
+4. **Transmettre le code en clair à Pierre hors dépôt** : reprends-le dans le résumé de fin
+   de run. Ne l'écris **jamais** dans un fichier ni un commit.
 
 > Le palier étendu = **6** favoris. Ce cap doit rester en phase avec `EXTENDED_LIMIT` (app)
 > et les règles Firestore (`size() <= 6`). Contrat complet : `docs/perso-favoris.md`.
