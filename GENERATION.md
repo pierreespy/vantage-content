@@ -103,8 +103,8 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
 Décision permanente de Pierre (8 juillet 2026) : **automatiser complètement**. Chaque
 exécution de la tâche du matin doit :
 
-1. Commiter `edition.json` et `recent-words.json` avec un message clair (ex. « Edition
-   du [date] »).
+1. Commiter `edition.json`, `recent-words.json` **et `access.json`** (voir « Le code
+   d'accès quotidien » ci-dessous) avec un message clair (ex. « Edition du [date] »).
 2. **Pousser directement sur `main`** — pas de branche intermédiaire, pas de pull
    request, pas de validation manuelle à attendre. Ce dépôt n'a ni CI ni collaborateurs ;
    le risque est faible et la volonté explicite de Pierre est de ne plus avoir à cliquer
@@ -112,6 +112,35 @@ exécution de la tâche du matin doit :
 
 Cette règle s'applique quelle que soit la session qui exécute la tâche (nouvelle session
 ou session reprise), tant qu'elle n'est pas explicitement révoquée par Pierre.
+
+---
+
+## Le code d'accès quotidien — `access.json`
+
+L'onglet Favoris a deux paliers : *restreint* (**1** startup) et *étendu* (**6**). Le
+palier étendu se débloque avec le **code du jour**, que Pierre distribue à la demande
+(LinkedIn). Chaque matin, la tâche produit **aussi** `access.json`, à côté de `edition.json`.
+
+**On ne publie que le hash salé, jamais le code en clair.** C'est de la friction (rotation
+quotidienne), pas de la sécurité forte. L'app vérifie le code **hors-ligne** contre ce hash.
+
+Procédure (en plus des fichiers d'édition) :
+
+1. **Choisir la passphrase du jour** — lisible, NOUVELLE chaque jour : 2-3 mots ASCII
+   minuscules + un nombre, tirets, sans caractères ambigus (pas de `o/0`, `l/1/I`), ex.
+   `quorum-heron-73`.
+2. **Sel** : `node -e 'console.log(require("crypto").randomBytes(9).toString("hex"))'`.
+3. **Hash** (canonicalisation identique à l'app : trim + minuscules + espaces compactés) :
+   ```bash
+   node -e 'const{createHash}=require("crypto");const c=s=>s.trim().toLowerCase().replace(/\s+/g," ");console.log(createHash("sha256").update(process.argv[1]+":"+c(process.argv[2])).digest("hex"))' "<sel>" "<passphrase>"
+   ```
+4. **Écrire `access.json`** = `{ "date":"AAAA-MM-JJ", "algo":"sha256", "salt":"<sel>", "hash":"<hash>", "hint":"…" }`.
+   Le `hint` ne révèle **jamais** le code.
+5. **Transmettre le code en clair à Pierre hors dépôt** (résumé de fin), pour distribution.
+   Ne jamais écrire le code en clair dans un fichier committé.
+
+> Le palier étendu = **6** favoris. Ce cap doit rester en phase avec `EXTENDED_LIMIT` (app)
+> et les règles Firestore (`size() <= 6`). Contrat complet : `docs/perso-favoris.md`.
 
 ---
 
