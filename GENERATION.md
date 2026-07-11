@@ -62,6 +62,10 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
    `why` (pourquoi c'est en vogue, angle VC), `startups` (3-4 **startups réelles et
    actuelles** qui utilisent la techno/le process du jour : `name` + `use` (une ligne : ce
    qu'elles en font) + `place` optionnel. Noms précis et vérifiés, Europe d'abord).
+   **Vérification obligatoire par recherche web, à chaque édition** : chaque startup existe,
+   utilise vraiment la techno, et est **encore indépendante** — si elle vient d'être rachetée
+   par une pharma (Tubulis→Gilead, Mersana→Day One, Myricx→Novartis…), la remplacer par une
+   autre encore indépendante. Le `use` = un fait vérifié, jamais une généralité.
 4. **Générer le reste de l'édition** (`dateLong`, `ticker`, `lead`, `deal`,
    `brefsEurope`, `brefsIntl`) — **règle éditoriale permanente : noms précis** (société,
    montant, investisseur en lead), jamais de descriptions vagues.

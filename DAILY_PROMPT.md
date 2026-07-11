@@ -156,6 +156,13 @@ MOT DU JOUR (word)
   chacune : name + use (une ligne concrète : ce qu'elle en fait) + place optionnel (ville/pays)).
   Noms précis et vérifiés, pas d'invention ; privilégier des sociétés early-stage → growth,
   Europe d'abord.
+  VÉRIFICATION OBLIGATOIRE — recherche web pour CHAQUE startup, à chaque édition :
+    (a) elle existe et utilise RÉELLEMENT cette techno/ce process ;
+    (b) elle est ENCORE INDÉPENDANTE — si elle vient d'être RACHETÉE / absorbée par une pharma
+        (ex. Tubulis→Gilead, Mersana→Day One, Myricx→Novartis), NE la présente PAS comme startup :
+        remplace-la par une autre société encore indépendante ;
+    (c) le `use` reflète un FAIT vérifié (plateforme, cible, tour de financement, stade),
+        jamais une généralité inventée. En cas de doute non levé par la recherche, retire la startup.
 
 SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable tel quel) :
 
