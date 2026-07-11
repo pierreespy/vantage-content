@@ -38,8 +38,29 @@ service cloud.firestore {
       allow create, update: if isOwner(uid) && isValidFollow();
     }
 
+    // Morning push notifications: one Expo push token per install, doc id == uid.
+    // Same shape of guarantee as `follows` — a client can only ever write its own row,
+    // never read any row. The 07:30 sender reads the collection via the Admin SDK.
+    match /pushTokens/{uid} {
+
+      allow read: if false;
+      allow delete: if false;
+
+      allow create, update: if isOwner(uid) && isValidToken();
+    }
+
     function isOwner(uid) {
       return request.auth != null && request.auth.uid == uid;
+    }
+
+    // Payload contract: exactly { token: string, platform: string, updatedAt: <server ts> }.
+    // `token` is an Expo push token ("ExponentPushToken[...]"), always well under 200 chars.
+    function isValidToken() {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['token', 'platform', 'updatedAt'])
+        && d.token is string && d.token.size() <= 200
+        && d.platform is string && d.platform.size() <= 16
+        && d.updatedAt == request.time;
     }
 
     // Payload contract: exactly { startups: string[<=6], updatedAt: <server ts> }.

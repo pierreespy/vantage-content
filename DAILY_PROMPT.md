@@ -164,6 +164,18 @@ MOT DU JOUR (word)
     (c) le `use` reflète un FAIT vérifié (plateforme, cible, tour de financement, stade),
         jamais une généralité inventée. En cas de doute non levé par la recherche, retire la startup.
 
+ACCROCHE NOTIFICATION (pushTeaser)
+- À quoi ça sert : chaque matin à 7h30, l'app envoie UNE notification push. Son texte est
+  `pushTeaser` ; un job séparé l'envoie (tu ne fais que l'écrire ici, dans edition.json).
+- Sujet : TOUJOURS la UNE (le `lead`). Jamais le mot du jour, jamais une brève.
+- Objectif : donner envie d'ouvrir l'app. Percutant, concret, une info qui accroche.
+- Deux champs :
+  - `title` : court, ex. "La une du jour", "Ce matin", "Vantage · <date courte>".
+  - `body` : UNE ligne, ~90 caractères max. Applique la règle « noms précis » : société +
+    chiffre (montant / round) + angle. Jamais de formule vague ("grosse levée", "actualité
+    santé"). Ex. : "Cyllene Therapeutics lève 33 M€ (Series C, M Ventures) pour sa thérapie
+    génique de la vessie." — pas de guillemets internes, pas de retour à la ligne.
+
 SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable tel quel) :
 
 {
@@ -198,6 +210,10 @@ SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable t
       "title": "Titre précis", "summary": "1-2 phrases précises.",
       "url": "https://media-source.com/article-precis" }
   ],
+  "pushTeaser": {
+    "title": "La une du jour",
+    "body": "Société lève X M€ (round, lead) — angle en une ligne, ~90 car. max."
+  },
   "word": {
     "term": "ADC",
     "full": "Antibody-Drug Conjugate",
