@@ -6,7 +6,10 @@ Chaque matin, une tâche Claude produit deux fichiers, déposés à l'URL de con
 
 - **`edition.json`** — le contenu affiché par l'app (voir `example-edition.json` pour le
   gabarit exact ; le format est défini par le type `Edition` dans `src/content/types.ts`).
-- **`recent-words.json`** — la **mémoire** des mots du jour récents, pour ne pas se répéter.
+- **`recent-words.json`** — la **mémoire des mots du jour** récents (~30 j), pour ne pas répéter un terme.
+- **`recent-articles.json`** — la **mémoire des articles** publiés dans l'édition (~14 j),
+  pour ne pas republier les mêmes actus d'un jour à l'autre. Mise à jour par
+  `remember-articles.mjs` (voir « Mémoire des articles » plus bas).
 
 > Tant que l'automatisation n'est pas branchée, ces fichiers se remplacent à la main.
 > La tâche du matin, elle, suit la procédure ci-dessous à la lettre.
@@ -90,11 +93,19 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
      n'est vraiment pas atteignable un jour donné avec des news fraîches, **publier
      moins d'items plutôt que de tricher sur la fraîcheur** — et le signaler dans le
      commit.
-5. **Écrire les deux fichiers** :
+5. **Écrire les fichiers + mémoires** :
    - `edition.json` (l'édition du jour) ;
    - `recent-words.json` **mis à jour** : ajouter `{ "term", "full", "date" }` (date du
      jour au format `AAAA-MM-JJ`) **en tête** de `recent`, puis **tronquer aux ~30 plus
-     récents**.
+     récents** ;
+   - `recent-articles.json` **mis à jour** de façon déterministe : lancer
+     `node remember-articles.mjs edition.json` (ajoute les articles du jour, dédoublonne
+     par URL, élague > 14 j). Ne pas l'éditer à la main.
+
+   > **Anti-répétition (impératif) :** avant de choisir (étape 2-4), lire aussi
+   > `recent-articles.json` et **exclure tout article dont l'`url` y figure**, et **ne pas
+   > re-couvrir une affaire déjà publiée dans les 14 derniers jours** sauf développement
+   > réellement nouveau. Chaque édition doit être neuve par rapport aux 14 jours passés.
 
 ---
 
@@ -103,8 +114,8 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
 Décision permanente de Pierre (8 juillet 2026) : **automatiser complètement**. Chaque
 exécution de la tâche du matin doit :
 
-1. Commiter `edition.json`, `recent-words.json` **et `access.json`** (voir « Le code
-   d'accès quotidien » ci-dessous) avec un message clair (ex. « Edition du [date] »).
+1. Commiter `edition.json`, `recent-words.json`, `recent-articles.json` **et `access.json`**
+   (voir « Le code d'accès quotidien » ci-dessous) avec un message clair (ex. « Edition du [date] »).
 2. **Pousser directement sur `main`** — pas de branche intermédiaire, pas de pull
    request, pas de validation manuelle à attendre. Ce dépôt n'a ni CI ni collaborateurs ;
    le risque est faible et la volonté explicite de Pierre est de ne plus avoir à cliquer
@@ -146,9 +157,36 @@ déterministe, jamais à la main** :
 
 ---
 
+## Mémoire des articles — `recent-articles.json` (fenêtre 14 j)
+
+Symétrique de `recent-words.json`, mais pour les **articles** : elle empêche l'édition de
+republier les mêmes actus d'un jour à l'autre (surtout les jours creux).
+
+```jsonc
+{
+  "articles": [
+    { "date": "2026-07-11", "company": "Owkin",
+      "title": "Owkin lève 30 M€ menée par Fidelity",
+      "url": "https://…" }
+    // une entrée par article de l'édition qui porte une URL
+  ]
+}
+```
+
+- **Contenu** : les articles de la une, du deal du jour et des brèves (Europe + International).
+  Le ticker et les `word.deals` n'ont pas d'URL → non mémorisés.
+- **Lecture (par la génération)** : exclure tout candidat dont l'`url` est déjà là, et ne pas
+  re-couvrir une affaire présente dans les 14 derniers jours (sauf vrai nouveau développement).
+- **Écriture (déterministe)** : `node remember-articles.mjs edition.json` ajoute les articles du
+  jour, **dédoublonne par URL** et **élague au-delà de 14 jours**. Ne jamais éditer le fichier à
+  la main (comme `access.json` / `gen-access.mjs`).
+- **Rétention 14 j** : au-delà, une affaire peut légitimement revenir si elle refait l'actu.
+
+---
+
 ## Pourquoi une mémoire séparée ?
 
-L'app n'a pas besoin de connaître l'historique des mots (elle n'affiche que celui du
-jour). C'est **la génération** qui en a besoin, pour ne pas se répéter. On garde donc
-cette mémoire dans son propre fichier, à côté de `edition.json`, plutôt que de la mêler
-au contenu affiché.
+L'app n'a pas besoin de connaître l'historique des mots ni des articles (elle n'affiche que
+le jour). C'est **la génération** qui en a besoin, pour ne pas se répéter. On garde donc ces
+mémoires dans leurs propres fichiers, à côté de `edition.json`, plutôt que de les mêler au
+contenu affiché.

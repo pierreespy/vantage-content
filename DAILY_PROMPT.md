@@ -21,7 +21,10 @@ CONTEXTE D'EXÉCUTION
 - Tu as accès à la recherche web et le droit de commit/push sur ce dépôt.
 
 ÉTAPES À EXÉCUTER (dans l'ordre)
-1. Lis le fichier `recent-words.json` du dépôt (mémoire des mots du jour récents).
+1. Lis DEUX mémoires du dépôt :
+   - `recent-words.json` — mots du jour des ~30 derniers jours (pour ne pas répéter un terme) ;
+   - `recent-articles.json` — articles publiés dans l'édition sur les ~14 derniers jours
+     (liste `{ date, company, title, url }`) : sert à NE PAS republier les mêmes articles.
 2. Recherche sur le web les VRAIES actualités des dernières 24 à 72 h du capital-risque santé :
    levées de fonds, M&A/rachats, réglementaire (EMA, HAS, FDA, Swissmedic…). Priorité Europe,
    plus l'international pour les mouvements majeurs.
@@ -35,20 +38,27 @@ CONTEXTE D'EXÉCUTION
    - Objectif : réunir une LISTE de candidats plus large que nécessaire, pour ensuite
      SÉLECTIONNER les meilleurs via le FILTRE DE PERTINENCE VC — pas retenir les premiers résultats.
 3. Applique le FILTRE DE PERTINENCE VC (ci-dessous) pour choisir et classer les articles.
+   EXCLUSION MÉMOIRE (impérative) : n'utilise AUCUN article dont l'`url` figure déjà dans
+   `recent-articles.json`, et ne RE-COUVRE PAS une affaire/société déjà présente dans les 14
+   derniers jours — SAUF s'il y a un développement réellement NOUVEAU et distinct (nouveau tour,
+   nouveau jalon). Chaque édition doit apporter des articles neufs par rapport aux 14 jours passés.
 4. Rédige le contenu du jour (voir RÈGLES + SCHÉMA ci-dessous).
 5. Écris/écrase le fichier `edition.json` du dépôt avec le nouvel objet JSON.
 6. Mets à jour `recent-words.json` : ajoute en TÊTE de "recent"
    { "term": "…", "full": "…", "date": "AAAA-MM-JJ" } (date du jour), tronque aux 30 plus récents.
-7. Génère le CODE D'ACCÈS DU JOUR (voir section CODE D'ACCÈS DU JOUR ci-dessous) :
+7. Mets à jour la mémoire des articles, de façon déterministe (n'édite pas le fichier à la main) :
+   `node remember-articles.mjs edition.json`
+   → ajoute les articles du jour dans `recent-articles.json`, dédoublonne par URL, élague > 14 j.
+8. Génère le CODE D'ACCÈS DU JOUR (voir section CODE D'ACCÈS DU JOUR ci-dessous) :
    - choisis la passphrase du jour selon les règles de cette section ;
    - lance : node gen-access.mjs "<passphrase-du-jour>"
    - le script écrit access.json (hash salé UNIQUEMENT) et affiche le code en clair sur stdout.
      N'écris JAMAIS le code en clair dans un fichier et ne modifie pas access.json à la main.
-8. Publie : `git add edition.json recent-words.json access.json` puis
+9. Publie : `git add edition.json recent-words.json recent-articles.json access.json` puis
    `git commit -m "Édition du <dateLong>"` puis `git push`.
    Vérifie que le push a réussi (réessaie une fois en cas d'échec réseau).
-9. Dans ton RÉSUMÉ FINAL de run, indique le CODE DU JOUR EN CLAIR (celui affiché par le script)
-   pour que Pierre puisse le distribuer sur LinkedIn. Jamais dans un fichier, jamais dans un commit.
+10. Dans ton RÉSUMÉ FINAL de run, indique le CODE DU JOUR EN CLAIR (celui affiché par le script)
+    pour que Pierre puisse le distribuer sur LinkedIn. Jamais dans un fichier, jamais dans un commit.
 
 CODE D'ACCÈS DU JOUR (access.json)
 - À quoi ça sert : l'onglet Favoris a deux paliers — restreint (1 startup) et étendu (6). Le
