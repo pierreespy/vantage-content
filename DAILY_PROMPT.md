@@ -208,7 +208,7 @@ SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable t
       { "n": "3", "h": "Libération", "t": "…" }
     ],
     "why": "Pourquoi c'est en vogue, angle VC.",
-    "startups": [ { "name": "Tubulis", "use": "Plateforme d'ADC à linkers propriétaires", "place": "Munich" } ]
+    "startups": [ { "name": "Adcytherix", "use": "Startup ADC ; grosse Série A européenne", "place": "France" } ]
   }
 }
 
