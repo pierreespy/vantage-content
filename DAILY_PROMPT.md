@@ -49,13 +49,19 @@ CONTEXTE D'EXÉCUTION
 7. Mets à jour la mémoire des articles, de façon déterministe (n'édite pas le fichier à la main) :
    `node remember-articles.mjs edition.json`
    → ajoute les articles du jour dans `recent-articles.json`, dédoublonne par URL, élague > 14 j.
+7bis. Mets à jour le GLOSSAIRE, de façon déterministe (n'édite pas le fichier à la main) :
+   `node remember-word.mjs edition.json`
+   → ajoute le `word` complet du jour dans `words.json` (dédup par terme, le plus récent
+   gagne, AUCUNE rétention — le glossaire grossit indéfiniment). C'est ce fichier que
+   l'app affiche dans l'écran Glossaire. Distinct de `recent-words.json` (qui, lui, ne sert
+   qu'à éviter de répéter un terme sur 30 j).
 8. Génère le CODE D'ACCÈS DU JOUR (voir section CODE D'ACCÈS DU JOUR ci-dessous) :
    - choisis la passphrase du jour selon les règles de cette section ;
    - lance : node gen-access.mjs "<passphrase-du-jour>"
    - le script écrit access.json (hash salé UNIQUEMENT) et affiche le code en clair sur stdout.
      N'écris JAMAIS le code en clair dans un fichier et ne modifie pas access.json à la main.
-9. Publie : `git add edition.json recent-words.json recent-articles.json access.json` puis
-   `git commit -m "Édition du <dateLong>"` puis `git push`.
+9. Publie : `git add edition.json recent-words.json recent-articles.json words.json access.json`
+   puis `git commit -m "Édition du <dateLong>"` puis `git push`.
    Vérifie que le push a réussi (réessaie une fois en cas d'échec réseau).
 10. Dans ton RÉSUMÉ FINAL de run, indique le CODE DU JOUR EN CLAIR (celui affiché par le script)
     pour que Pierre puisse le distribuer sur LinkedIn. Jamais dans un fichier, jamais dans un commit.

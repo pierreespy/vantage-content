@@ -106,6 +106,10 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
    - `recent-articles.json` **mis à jour** de façon déterministe : lancer
      `node remember-articles.mjs edition.json` (ajoute les articles du jour, dédoublonne
      par URL, élague > 14 j). Ne pas l'éditer à la main.
+   - `words.json` (le **glossaire**) **mis à jour** de façon déterministe : lancer
+     `node remember-word.mjs edition.json` (ajoute le `word` complet du jour, dédup par
+     terme, le plus récent gagne, **aucune rétention**). Ne pas l'éditer à la main. C'est le
+     fichier que l'app affiche dans l'écran Glossaire — distinct de `recent-words.json`.
 
    > **Anti-répétition (impératif) :** avant de choisir (étape 2-4), lire aussi
    > `recent-articles.json` et **exclure tout article dont l'`url` y figure**, et **ne pas
@@ -119,8 +123,9 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
 Décision permanente de Pierre (8 juillet 2026) : **automatiser complètement**. Chaque
 exécution de la tâche du matin doit :
 
-1. Commiter `edition.json`, `recent-words.json`, `recent-articles.json` **et `access.json`**
-   (voir « Le code d'accès quotidien » ci-dessous) avec un message clair (ex. « Edition du [date] »).
+1. Commiter `edition.json`, `recent-words.json`, `recent-articles.json`, `words.json` **et
+   `access.json`** (voir « Le code d'accès quotidien » ci-dessous) avec un message clair
+   (ex. « Edition du [date] »).
 2. **Pousser directement sur `main`** — pas de branche intermédiaire, pas de pull
    request, pas de validation manuelle à attendre. Ce dépôt n'a ni CI ni collaborateurs ;
    le risque est faible et la volonté explicite de Pierre est de ne plus avoir à cliquer
@@ -186,6 +191,35 @@ republier les mêmes actus d'un jour à l'autre (surtout les jours creux).
   jour, **dédoublonne par URL** et **élague au-delà de 14 jours**. Ne jamais éditer le fichier à
   la main (comme `access.json` / `gen-access.mjs`).
 - **Rétention 14 j** : au-delà, une affaire peut légitimement revenir si elle refait l'actu.
+
+---
+
+## Glossaire — `words.json` (sans rétention, grossit indéfiniment)
+
+Le **lexique** que l'app affiche dans l'écran Glossaire : chaque « mot du jour » passé avec
+son **explication complète** (hero, anatomie, mécanisme, angle VC, startups). À ne pas
+confondre avec `recent-words.json`, qui ne garde que `term/full/date` sur 30 j pour éviter de
+répéter un terme.
+
+```jsonc
+{
+  "generatedAt": "2026-07-11",
+  "words": [
+    { "term": "ADC", "full": "…", "fr": "…", "field": "…", "definition": "…",
+      "parts": [...], "how": [...], "why": "…", "startups": [...],
+      "date": "2026-07-11", "dateLong": "11 juil. 2026" }
+    // le word complet de l'édition + sa date ; le plus récent en tête
+  ]
+}
+```
+
+- **Contenu** : le `word` complet de chaque édition, enrichi de `date` (AAAA-MM-JJ) et
+  `dateLong` (libellé FR). Newest-first.
+- **Écriture (déterministe)** : `node remember-word.mjs edition.json` ajoute le mot du jour,
+  **dédoublonne par terme** (le plus récent gagne), **sans aucune rétention**. Ne jamais éditer
+  le fichier à la main.
+- **Lecture** : par l'app (`config.wordsUrl`), pas par la génération. Servi publiquement via
+  GitHub Pages, comme `edition.json`.
 
 ---
 

@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-07-11",
+  "words": [
+    {
+      "term": "ADC",
+      "full": "Antibody-Drug Conjugate",
+      "fr": "Anticorps-médicament conjugué",
+      "field": "Oncologie de précision",
+      "definition": "Un anticorps monoclonal relié chimiquement à une molécule cytotoxique, conçu pour livrer une chimiothérapie puissante directement à l'intérieur des cellules tumorales ciblées tout en épargnant les tissus sains.",
+      "parts": [
+        {
+          "label": "Anticorps",
+          "role": "le guidage vers l'antigène tumoral"
+        },
+        {
+          "label": "Linker",
+          "role": "l'attache chimique, stable jusqu'à la cible"
+        },
+        {
+          "label": "Payload",
+          "role": "la charge cytotoxique, l'ogive thérapeutique"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "L'anticorps se lie spécifiquement à un antigène présent à la surface des cellules tumorales, épargnant en théorie les cellules saines qui ne l'expriment pas."
+        },
+        {
+          "n": "2",
+          "h": "Internalisation",
+          "t": "Le complexe anticorps-charge est absorbé par la cellule cancéreuse, qui l'importe sans reconnaître la menace qu'il transporte."
+        },
+        {
+          "n": "3",
+          "h": "Libération",
+          "t": "Le linker se rompt à l'intérieur de la cellule, libérant la charge cytotoxique qui détruit la cellule tumorale de l'intérieur."
+        }
+      ],
+      "why": "Le rachat de Myricx Bio par Novartis (jusqu'à 1,5 Md$, annoncé cette semaine) confirme que la prochaine bataille des ADC se joue sur le payload : au-delà des auristatines et inhibiteurs de topoisomérase déjà commercialisés, des plateformes de nouvelle génération comme le NMTi de Myricx attirent des chèques massifs pour élargir la fenêtre thérapeutique — un thème que tout VC oncologie doit suivre de près.",
+      "startups": [
+        {
+          "name": "Adcytherix",
+          "place": "France",
+          "use": "Startup ADC française ; plus grosse Série A ADC d’Europe (105 M€, 2025), entrée en clinique visée en 2026."
+        },
+        {
+          "name": "Iksuda Therapeutics",
+          "place": "Newcastle",
+          "use": "Linkers stables (techno PermaLink) pour viser des cibles tumorales difficiles."
+        },
+        {
+          "name": "VALANX Biotech",
+          "place": "Vienne",
+          "use": "Plateforme de conjugaison GoldenSite ; ADC anti-LIV-1 pour le cancer du sein triple négatif."
+        },
+        {
+          "name": "Sidewinder",
+          "place": "États-Unis",
+          "use": "ADCs bispécifiques « de précision » ; 137 M$ levés (OrbiMed)."
+        }
+      ],
+      "date": "2026-07-11",
+      "dateLong": "11 juil. 2026"
+    }
+  ]
+}
