@@ -59,8 +59,9 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
 3. **Rédiger le bloc `word`** (mêmes champs que le gabarit) :
    `term`, `full`, `fr`, `field`, `definition` (vulgarisée, une phrase claire),
    `parts` (3 briques : label + rôle), `how` (3 étapes du mécanisme),
-   `why` (pourquoi c'est en vogue, angle VC), `deals` (M&A/levées de référence, avec
-   `year`).
+   `why` (pourquoi c'est en vogue, angle VC), `startups` (3-4 **startups réelles et
+   actuelles** qui utilisent la techno/le process du jour : `name` + `use` (une ligne : ce
+   qu'elles en font) + `place` optionnel. Noms précis et vérifiés, Europe d'abord).
 4. **Générer le reste de l'édition** (`dateLong`, `ticker`, `lead`, `deal`,
    `brefsEurope`, `brefsIntl`) — **règle éditoriale permanente : noms précis** (société,
    montant, investisseur en lead), jamais de descriptions vagues.
@@ -174,7 +175,7 @@ republier les mêmes actus d'un jour à l'autre (surtout les jours creux).
 ```
 
 - **Contenu** : les articles de la une, du deal du jour et des brèves (Europe + International).
-  Le ticker et les `word.deals` n'ont pas d'URL → non mémorisés.
+  Le ticker et les `word.startups` n'ont pas d'URL → non mémorisés.
 - **Lecture (par la génération)** : exclure tout candidat dont l'`url` est déjà là, et ne pas
   re-couvrir une affaire présente dans les 14 derniers jours (sauf vrai nouveau développement).
 - **Écriture (déterministe)** : `node remember-articles.mjs edition.json` ajoute les articles du

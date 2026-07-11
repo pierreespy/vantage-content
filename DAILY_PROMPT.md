@@ -151,7 +151,11 @@ MOT DU JOUR (word)
 - INTERDICTION : n'utilise aucun terme présent dans le recent-words.json que tu as lu (étape 1).
   Fais tourner les familles d'un jour à l'autre.
 - Remplis tous les champs : term, full, fr, field, definition (vulgarisée, 1 phrase),
-  parts (3 : label + rôle), how (3 étapes), why (angle VC), deals (3-4, chacune avec year).
+  parts (3 : label + rôle), how (3 étapes), why (angle VC),
+  startups (3-4 startups RÉELLES et ACTUELLES qui utilisent la techno/le process du jour ;
+  chacune : name + use (une ligne concrète : ce qu'elle en fait) + place optionnel (ville/pays)).
+  Noms précis et vérifiés, pas d'invention ; privilégier des sociétés early-stage → growth,
+  Europe d'abord.
 
 SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable tel quel) :
 
@@ -204,12 +208,12 @@ SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable t
       { "n": "3", "h": "Libération", "t": "…" }
     ],
     "why": "Pourquoi c'est en vogue, angle VC.",
-    "deals": [ { "buyer": "Pfizer", "target": "Seagen", "amount": "43 Md$", "year": "2023" } ]
+    "startups": [ { "name": "Tubulis", "use": "Plateforme d'ADC à linkers propriétaires", "place": "Munich" } ]
   }
 }
 
 Comptes attendus : brefsEurope = 5, brefsIntl = 3, ticker = 6, word.parts = 3, word.how = 3,
-word.deals = 3 à 4.
+word.startups = 3 à 4.
 
 CONTRAINTES JSON (impératives)
 - JSON strict : guillemets doubles, aucune virgule finale, aucun commentaire.
