@@ -1,0 +1,74 @@
+rules_version = '2';
+
+// Vantage — anonymous favorites reporting.
+//
+// Threat model: the write endpoint must not be openly spammable and a client
+// must never be able to read, overwrite, or forge another client's document.
+//
+// Design:
+//   collection `follows`, one document per client, document id == the client's
+//   Firebase Anonymous Auth uid. Because Firestore lets us pin the write to
+//   `request.auth.uid`, a client can only ever write the doc whose id equals its
+//   own uid — there is no "write any doc" hole.
+//
+//   Clients never read. The union is read only by the generation job through the
+//   Admin SDK (a service account), which bypasses these rules. So client reads
+//   are denied outright.
+//
+//   App Check is enforced (see enforcement note at bottom) so only builds of the
+//   real app can obtain tokens, throttling scripted abuse on top of auth.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Deny everything by default. Only the explicit rule below opens a hole.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    match /follows/{uid} {
+
+      // No client reads, ever. The generation job uses the Admin SDK.
+      allow read: if false;
+
+      allow delete: if false;
+
+      // A signed-in anonymous client may create/update ONLY its own document
+      // (doc id must equal its uid) and only with a well-formed payload.
+      allow create, update: if isOwner(uid) && isValidFollow();
+    }
+
+    function isOwner(uid) {
+      return request.auth != null && request.auth.uid == uid;
+    }
+
+    // Payload contract: exactly { startups: string[<=6], updatedAt: <server ts> }.
+    // The cap is 6 — the app's EXTENDED_LIMIT (see src/state/favorites.tsx). Keep the
+    // two in lockstep: a larger followed set than this would be rejected outright,
+    // silently dropping the install from the union.
+    // anonId is NOT a stored field — the doc id already IS the anon id (the uid),
+    // so we reject any extra keys to keep the surface minimal / no PII smuggling.
+    function isValidFollow() {
+      let d = request.resource.data;
+      return d.keys().hasOnly(['startups', 'updatedAt'])
+        && d.startups is list
+        && d.startups.size() <= 6
+        && allStrings(d.startups)
+        // Must be the server clock, not a client-supplied time — this is what
+        // makes the 30-day expiry trustworthy.
+        && d.updatedAt == request.time;
+    }
+
+    // Firestore rules have no "for all" over a list, but the length guard caps
+    // the cost. Check each slot up to the max of 6: each must be a string AND be
+    // short enough to be a plausible startup name (no arbitrary-blob smuggling).
+    function allStrings(list) {
+      return (list.size() < 1 || (list[0] is string && list[0].size() <= 80))
+        && (list.size() < 2 || (list[1] is string && list[1].size() <= 80))
+        && (list.size() < 3 || (list[2] is string && list[2].size() <= 80))
+        && (list.size() < 4 || (list[3] is string && list[3].size() <= 80))
+        && (list.size() < 5 || (list[4] is string && list[4].size() <= 80))
+        && (list.size() < 6 || (list[5] is string && list[5].size() <= 80));
+    }
+  }
+}

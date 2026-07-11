@@ -1,0 +1,19 @@
+{
+  "name": "vantage-news-routine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Server-side cron that maintains startup-news.json in vantage-content. NOT part of the Expo app bundle.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node run.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "firebase-admin": "^13.0.0",
+    "simple-git": "^3.27.0"
+  }
+}
