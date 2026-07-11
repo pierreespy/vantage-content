@@ -1,146 +1,186 @@
 {
-  "dateLong": "10 juil. 2026",
+  "dateLong": "11 juil. 2026",
   "ticker": [
     {
-      "company": "ALCHEMAB THERAPEUTICS",
-      "amount": "£25M",
+      "company": "CYLLENE THERAPEUTICS",
+      "amount": "€33M",
       "kind": "lev"
     },
     {
-      "company": "SCIPHER MEDICINE",
-      "amount": "150 M$",
+      "company": "PEARL HEALTH",
+      "amount": "110 M$",
+      "kind": "lev"
+    },
+    {
+      "company": "NOVARTIS / MYRICX BIO",
+      "amount": "1,5 Md$",
       "kind": "mna"
     },
     {
-      "company": "CRINETICS PHARMACEUTICALS",
-      "amount": "10 Md$",
+      "company": "PURELABS / SUNMED",
+      "amount": "€12M",
       "kind": "mna"
+    },
+    {
+      "company": "EN CARTA DIAGNOSTICS",
+      "amount": "€5M",
+      "kind": "lev"
+    },
+    {
+      "company": "CELEA THERAPEUTICS",
+      "amount": "180 M$",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Series A (extension) · IA & anticorps",
-    "title": "Alchemab Therapeutics décroche 25 M£ de la British Business Bank, plus gros pari jamais fait par la banque en life sciences",
-    "deck": "L'extension de Series A, qui porte le tour total à 109 M£ (128 M€), finance l'expansion de la base de données propriétaire d'Alchemab au-delà du milliard de séquences d'anticorps et l'avancée clinique d'ATLX-1282 contre la SLA. La biotech londonienne s'appuie sur sa plateforme Resiliome, pilotée par IA, pour repérer des anticorps protecteurs chez des individus naturellement résistants à des maladies difficiles à traiter — une approche déjà validée par un deal de licensing avec Eli Lilly.",
-    "company": "Alchemab Therapeutics",
-    "url": "https://www.eu-startups.com/2026/07/londons-alchemab-therapeutics-secures-e29-3-million-as-british-business-bank-makes-its-largest-life-sciences-investment-yet/",
-    "stage": "Series A"
+    "kicker": "Series C · Thérapie génique",
+    "title": "Cyllene Therapeutics (ex-EG 427) boucle 33 M€ en Series C pour son traitement génique de la vessie neurogène",
+    "deck": "Le tour est mené par deux nouveaux entrants, GordonMD Global Investments et M Ventures — le bras de capital-risque de Merck KGaA — aux côtés des historiques Andera Partners, Bpifrance (fonds InnoBio 3) et Lamond Ventures. La biotech francilienne, qui se rebaptise au passage, finance la poursuite du développement clinique d'EG110A, sa thérapie génique HSV-1 non réplicative contre l'hyperactivité neurogène du détrusor, en s'inspirant du modèle commercial déjà validé par l'américain Krystal Biotech.",
+    "company": "Cyllene Therapeutics",
+    "stage": "Series C",
+    "url": "https://endpoints.news/french-gene-therapy-biotech-gets-e33m-to-follow-krystals-blueprint/"
   },
   "deal": {
-    "company": "Scipher Medicine (ex-Chemomab Therapeutics)",
-    "amount": "150 M$",
+    "company": "Myricx Bio",
+    "amount": "1,5 Md$",
     "round": "M&A",
-    "thesis": "Chemomab Therapeutics et Scipher Medicine fusionnent dans une opération 100 % actions valorisant l'ensemble à 150 M$ avant financement, complétée par un placement privé de 30 M$. La société combinée, qui gardera le nom et le ticker Nasdaq de Scipher (SCIP), va faire avancer le nebokitug — un anticorps anti-CCL24 first-in-class — en Phase 2 dans la polyarthrite rhumatoïde, en stratifiant les patients grâce au test compagnon PrismRA de Scipher.",
-    "url": "https://www.biospace.com/press-releases/chemomab-therapeutics-and-precision-medicine-pioneer-scipher-medicine-announce-merger-agreement-to-advance-nebokitug-in-an-ai-powered-phase-2-trial-in-rheumatoid-arthritis"
+    "thesis": "Novartis met jusqu'à 1,5 Md$ sur la table (1,1 Md$ cash à la signature) pour racheter Myricx Bio, spin-off londonien d'Imperial College soutenu par Novo Holdings, et mettre la main sur sa plateforme de payloads ADC de nouvelle génération (inhibiteurs de NMT, first-in-class). Une exit propre pour le capital-risque santé européen, et le signal que la bataille des ADC se déplace désormais du ciblage vers la charge cytotoxique elle-même.",
+    "url": "https://endpoints.news/novartis-commits-1-1b-upfront-to-take-myricx-bio-and-its-next-gen-adc-platform/"
   },
   "brefsEurope": [
     {
-      "company": "Boehringer Ingelheim",
-      "place": "Ingelheim, Allemagne",
-      "sector": "Réglementaire",
-      "title": "Le régulateur britannique autorise le Jascayd (nerandomilast) de Boehringer Ingelheim dans la fibrose pulmonaire",
-      "summary": "La MHRA accorde l'autorisation à Jascayd (nerandomilast), un inhibiteur de PDE4B, pour traiter la fibrose pulmonaire idiopathique et la fibrose pulmonaire progressive chez l'adulte, quelques mois après une première autorisation américaine. Le comprimé, pris deux fois par jour, cible le remodelage tissulaire pulmonaire et élargit l'arsenal thérapeutique face à un pronostic aujourd'hui sombre.",
-      "url": "https://www.gov.uk/government/news/nerandomilast-jascayd-approved-to-treat-adult-patients-with-idiopathic-pulmonary-fibrosis-and-progressive-pulmonary-fibrosis"
+      "company": "En Carta Diagnostics",
+      "place": "Paris, France",
+      "sector": "Diagnostics",
+      "stage": "Seed",
+      "title": "En Carta Diagnostics lève 5 M€ pour ses tests moléculaires à domicile contre la maladie de Lyme et les IST",
+      "summary": "Ce tour, mené par Blue Forest Ventures avec Ring Capital, CentraleSupélec Venture et 50 Partners Health, capitalise sur la désignation Breakthrough Device obtenue en janvier auprès de la FDA. La technologie promet la précision d'une PCR de laboratoire dans un format de test rapide utilisable à domicile.",
+      "url": "https://www.eu-startups.com/2026/07/en-carta-diagnostics-raises-e5-million-to-bring-at-home-molecular-tests-for-lyme-disease-and-stis-to-market/"
     },
     {
-      "company": "Respiro Diagnostics",
-      "place": "Royaume-Uni",
-      "sector": "Levée de fonds",
-      "title": "Respiro Diagnostics lève 1 M£ pour son diagnostic du cancer du poumon par l'haleine",
-      "summary": "Ce tour pre-seed, mené par Zinc Venture Capital et SFC Capital avec Amadeus Capital Partners et le Francis Crick Institute (via KQ Labs), finance le développement clinique précoce d'un test de détection du cancer du poumon à partir de biomarqueurs volatils dans l'haleine — une alternative non invasive au dépistage actuel par imagerie.",
-      "url": "https://tech.eu/2026/07/08/respiro-diagnostics-secures-ps1m-to-advance-lung-diagnostics/",
-      "stage": "Pre-seed"
+      "company": "PureLabs / Sunmed Group",
+      "place": "Rome, Italie",
+      "sector": "MedTech · M&A",
+      "title": "PureLabs obtient 12 M€ de Banco BPM et rachète Sunmed Group pour consolider le diagnostic ambulatoire italien",
+      "summary": "Ce financement d'acquisition, renouvelé auprès de Banco BPM, permet au consolidateur italien de centres médicaux multi-spécialités d'absorber Sunmed Group, actif dans l'imagerie diagnostique et la chirurgie ambulatoire à Rome — nouvelle brique d'une stratégie de roll-up qui vise 30 sites en trois ans.",
+      "url": "https://bebeez.it/club-deal/purelabs-si-assicura-finanziamento-da-12-mln-euro-da-banco-bpm-e-compra-sunmed-group/"
     },
     {
-      "company": "CurifyLabs",
-      "place": "Helsinki, Finlande",
-      "sector": "Levée de fonds",
-      "title": "CurifyLabs lève 12 M€ pour industrialiser l'impression 3D de médicaments personnalisés",
-      "summary": "Le tour de Series A, codirigé par Sandwater et HealthCap avec Tesi et Lifeline Ventures, finance l'expansion américaine de la plateforme finlandaise, qui imprime en 3D des doses de médicaments sur mesure directement en pharmacie. L'opération marque le deuxième tour de la jeune pousse en 14 mois.",
-      "url": "https://www.eu-startups.com/2026/07/finlands-curifylabs-raises-e12-million-to-expand-3d-printing-based-medicine-compounding/",
-      "stage": "Series A"
+      "company": "Banyan Biotech",
+      "place": "Italie",
+      "sector": "Biotech",
+      "stage": "Seed",
+      "title": "Banyan Biotech lève 1 M€ en seed pour ses thérapies contre l'arthrose",
+      "summary": "Le tour, souscrit par Berrier Capital, finance les premiers développements précliniques de la jeune biotech italienne, qui vise des traitements innovants de l'arthrose — un marché aujourd'hui limité à la gestion symptomatique.",
+      "url": "https://bebeez.it/venture-capital/banyan-biotech-chiude-round-seed-da-un-mln-euro-lo-sottoscrive-berrier-capital/"
     },
     {
-      "company": "Teva Pharmaceutical / Polpharma Biologics",
-      "place": "Tel Aviv, Israël / Gdańsk, Pologne",
-      "sector": "Autre",
-      "title": "Teva s'assure les droits mondiaux du biosimilaire de l'Ocrevus développé par la polonaise Polpharma Biologics",
-      "summary": "Teva obtient la licence exclusive pour commercialiser, sous réserve d'autorisation, le biosimilaire de l'ocrelizumab (Ocrevus de Roche) développé par Polpharma Biologics, dans ses versions intraveineuse et sous-cutanée. Polpharma reste responsable du développement et de la fabrication ; Teva pilotera les soumissions réglementaires et la commercialisation en Europe, aux États-Unis et sur plusieurs autres marchés.",
-      "url": "https://www.biospace.com/press-releases/teva-and-polpharma-biologics-announce-global-licensing-agreement-for-a-biosimilar-candidate-to-ocrevus-ocrelizumab-for-multiple-sclerosis"
+      "company": "Azalea Vision",
+      "place": "Belgique",
+      "sector": "MedTech",
+      "title": "Azalea Vision décroche jusqu'à 7,5 M€ de l'EIC Accelerator pour sa lentille de contact intelligente",
+      "summary": "Le financement européen, qui combine 2,5 M€ de subvention et jusqu'à 5 M€ en equity, doit faire passer la lentille connectée de la medtech belge en développement clinique — une approche non invasive pour le suivi de pathologies oculaires chroniques.",
+      "url": "https://www.businesswire.com/news/home/20260701144267/en/Azalea-Vision-Awarded-Prestigious-EIC-Accelerator-Funding-to-Advance-Smart-Contact-Lens-into-Clinical-Development"
+    },
+    {
+      "company": "Epitome Therapeutics",
+      "place": "Vienne, Autriche",
+      "sector": "Biotech",
+      "stage": "Pre-seed",
+      "title": "Epitome Therapeutics, spin-off de l'EMBL, lève 4 M€ pour son édition épigénomique",
+      "summary": "Le tour, co-mené par XISTA Science Ventures et Caesar Ventures (2 M€ en equity, complétés par 2 M€ de financement non-dilutif), finance les premiers programmes de la biotech viennoise, qui reprogramme l'expression des gènes sans toucher à la séquence d'ADN elle-même.",
+      "url": "https://www.eu-startups.com/2026/06/austrian-biotech-startup-epitome-therapeutics-announces-e4-million-in-funding-to-advance-programmes-and-grow-team/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Crinetics Pharmaceuticals",
-      "place": "San Diego, États-Unis",
-      "sector": "M&A",
-      "title": "Vertex Pharmaceuticals rachète Crinetics Pharmaceuticals pour 10 Md$, sa plus grosse acquisition",
-      "summary": "Vertex paie 85 $ par action en cash, soit environ 10 Md$, pour mettre la main sur Crinetics et son traitement déjà commercialisé de l'acromégalie, Palsonify, ainsi que sur son pipeline de maladies endocriniennes rares. L'opération, plus importante que le rachat d'Alpine Immune Sciences en 2024, doit se conclure au troisième trimestre 2026.",
-      "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/"
+      "company": "Pearl Health",
+      "place": "New York, États-Unis",
+      "sector": "Digital Health",
+      "stage": "Growth",
+      "title": "Pearl Health lève 110 M$ (equity + dette) pour son IA de soins à risque partagé Medicare",
+      "summary": "L'opération combine 50 M$ d'equity emmenés par Andreessen Horowitz (avec Viking Global, AlleyCorp et Ulysses Capital) et 60 M$ de dette via Trinity Capital. Pearl, rentable depuis 2025, pilote environ 3,6 Md$ de dépenses médicales annualisées pour plus de 250 000 bénéficiaires Medicare.",
+      "url": "https://medcitynews.com/2026/07/pearl-health-funding/"
     },
     {
-      "company": "CliniComp",
-      "place": "San Diego, États-Unis",
-      "sector": "Réglementaire",
-      "title": "La FDA autorise le visualiseur PACS de CliniComp, imagerie et IA native réunies dans un seul dossier patient",
-      "summary": "Le feu vert 510(k) permet à CliniComp d'intégrer un visualiseur d'imagerie diagnostique directement dans son dossier patient New Era, aux côtés de sa suite d'IA native. Les cliniciens peuvent désormais croiser images, résultats de laboratoire et antécédents sans changer de logiciel, un pari sur la consolidation des systèmes hospitaliers autour de plateformes tout-en-un.",
-      "url": "https://www.prnewswire.com/news-releases/fda-clears-clinicomp-pacs-viewer-mimps-unifying-diagnostic-imaging-enterprise-ehr-and-native-ai-in-a-single-platform-302818723.html"
+      "company": "Celea Therapeutics",
+      "place": "Boston, États-Unis",
+      "sector": "Biotech",
+      "title": "Celea Therapeutics, spin-off de PureTech, lève 180 M$ pour sa Phase 3 dans la fibrose pulmonaire",
+      "summary": "L'un des plus gros financements inauguraux de l'année, mené par RA Capital Management et Leaps by Bayer aux côtés de PureTech Health, finance l'essai de Phase 3 SURPASS-IPF du deupirfenidone — une version retravaillée du pirfenidone de Roche (Esbriet) contre la fibrose pulmonaire idiopathique.",
+      "url": "https://www.biopharmadive.com/news/celea-puretech-idiopathic-pulmonary-fibrosis-raise/824330/"
+    },
+    {
+      "company": "Beeline Medicines",
+      "place": "Boston, États-Unis",
+      "sector": "Biotech",
+      "stage": "Series A",
+      "title": "Beeline Medicines ajoute 126,3 M$ à sa Series A pour son portefeuille auto-immun (total 426,3 M$)",
+      "summary": "Bain Capital, la Caisse de dépôt canadienne CPP Investments et Bristol Myers Squibb rechargent la biotech, qui prépare le développement pivot de l'afimetoran dans le lupus au sein d'un portefeuille immunologique élargi.",
+      "url": "https://endpoints.news/beeline-adds-126m-to-bain-backed-immunology-pipeline-from-bristol-myers/"
     }
   ],
   "word": {
-    "term": "IA de découverte de médicaments",
-    "full": "AI-driven drug discovery",
-    "fr": "Intelligence artificielle appliquée à la découverte de médicaments",
-    "field": "Plateformes / technos",
-    "definition": "Des modèles d'IA entraînés sur des données biologiques et chimiques qui prédisent des cibles thérapeutiques, la structure de protéines ou des molécules candidates in silico, pour raccourcir et fiabiliser les étapes précliniques de la découverte de médicaments.",
+    "term": "ADC",
+    "full": "Antibody-Drug Conjugate",
+    "fr": "Anticorps-médicament conjugué",
+    "field": "Oncologie de précision",
+    "definition": "Un anticorps monoclonal relié chimiquement à une molécule cytotoxique, conçu pour livrer une chimiothérapie puissante directement à l'intérieur des cellules tumorales ciblées tout en épargnant les tissus sains.",
     "parts": [
       {
-        "label": "Données",
-        "role": "la matière première biologique — séquences, structures, essais passés"
+        "label": "Anticorps",
+        "role": "le guidage vers l'antigène tumoral"
       },
       {
-        "label": "Modèle",
-        "role": "le moteur prédictif qui repère cibles et molécules"
+        "label": "Linker",
+        "role": "l'attache chimique, stable jusqu'à la cible"
       },
       {
-        "label": "Validation",
-        "role": "l'étape expérimentale qui confirme (ou infirme) les prédictions"
+        "label": "Payload",
+        "role": "la charge cytotoxique, l'ogive thérapeutique"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Entraînement",
-        "t": "Le modèle apprend sur de vastes bases de données biologiques et chimiques — séquences protéiques, essais cliniques, littérature — pour repérer des motifs invisibles à l'œil humain."
+        "h": "Ciblage",
+        "t": "L'anticorps se lie spécifiquement à un antigène présent à la surface des cellules tumorales, épargnant en théorie les cellules saines qui ne l'expriment pas."
       },
       {
         "n": "2",
-        "h": "Génération",
-        "t": "L'IA propose des cibles thérapeutiques ou des molécules candidates, parfois entièrement inédites, en quelques semaines plutôt qu'en plusieurs années de criblage classique."
+        "h": "Internalisation",
+        "t": "Le complexe anticorps-charge est absorbé par la cellule cancéreuse, qui l'importe sans reconnaître la menace qu'il transporte."
       },
       {
         "n": "3",
-        "h": "Priorisation",
-        "t": "Chimistes et biologistes valident expérimentalement les meilleures propositions, resserrant la boucle entre calcul et paillasse avant l'entrée en développement préclinique."
+        "h": "Libération",
+        "t": "Le linker se rompt à l'intérieur de la cellule, libérant la charge cytotoxique qui détruit la cellule tumorale de l'intérieur."
       }
     ],
-    "why": "L'IA de découverte de médicaments continue d'attirer des tickets record — comme les 25 M£ apportés cette semaine par la British Business Bank à Alchemab Therapeutics pour sa plateforme Resiliome, déjà validée par un deal de licensing avec Eli Lilly — car elle promet de raccourcir le chemin, coûteux et incertain, entre une cible biologique et un candidat-médicament clinique.",
+    "why": "Le rachat de Myricx Bio par Novartis (jusqu'à 1,5 Md$, annoncé cette semaine) confirme que la prochaine bataille des ADC se joue sur le payload : au-delà des auristatines et inhibiteurs de topoisomérase déjà commercialisés, des plateformes de nouvelle génération comme le NMTi de Myricx attirent des chèques massifs pour élargir la fenêtre thérapeutique — un thème que tout VC oncologie doit suivre de près.",
     "deals": [
       {
-        "buyer": "British Business Bank",
-        "target": "Alchemab Therapeutics",
-        "amount": "25 M£",
+        "buyer": "Pfizer",
+        "target": "Seagen",
+        "amount": "43 Md$",
+        "year": "2023"
+      },
+      {
+        "buyer": "Novartis",
+        "target": "Myricx Bio",
+        "amount": "1,5 Md$",
         "year": "2026"
       },
       {
-        "buyer": "Thrive Capital",
-        "target": "Isomorphic Labs",
-        "amount": "600 M$",
-        "year": "2025"
+        "buyer": "AbbVie",
+        "target": "ImmunoGen",
+        "amount": "10,1 Md$",
+        "year": "2024"
       },
       {
-        "buyer": "Recursion Pharmaceuticals",
-        "target": "Exscientia",
-        "amount": "688 M$ (fusion)",
+        "buyer": "Genmab",
+        "target": "ProfoundBio",
+        "amount": "1,8 Md$",
         "year": "2024"
       }
     ]
