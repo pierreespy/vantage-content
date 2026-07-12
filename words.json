@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-11",
+  "generatedAt": "2026-07-12",
   "words": [
+    {
+      "term": "RPT",
+      "full": "Radioligand Therapy",
+      "fr": "Thérapie par radioligand",
+      "field": "Oncologie de précision · Médecine nucléaire",
+      "definition": "Une thérapie qui attache un isotope radioactif à une molécule qui reconnaît spécifiquement la tumeur, pour irradier les cellules cancéreuses de l'intérieur sans toucher les tissus sains.",
+      "parts": [
+        {
+          "label": "Ligand vecteur",
+          "role": "reconnaît la cible tumorale"
+        },
+        {
+          "label": "Chélateur",
+          "role": "attache chimiquement l'isotope au ligand"
+        },
+        {
+          "label": "Isotope radioactif",
+          "role": "détruit la cellule par rayonnement de courte portée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le ligand se fixe sur un récepteur surexprimé à la surface des cellules tumorales."
+        },
+        {
+          "n": "2",
+          "h": "Irradiation locale",
+          "t": "L'isotope émet un rayonnement à très courte portée qui détruit la cellule ciblée et ses voisines immédiates, en épargnant les tissus sains."
+        },
+        {
+          "n": "3",
+          "h": "Élimination",
+          "t": "La fraction non fixée est éliminée par voie rénale, ce qui limite la toxicité systémique par rapport à une chimiothérapie classique."
+        }
+      ],
+      "why": "Validée à grande échelle par Novartis (Pluvicto), la RPT attire désormais un capital massif malgré une contrainte industrielle rare : la pénurie mondiale d'isotopes médicaux, qui ouvre un nouveau front d'investissement en amont, sur la production elle-même (cf. Astral Systems aujourd'hui).",
+      "startups": [
+        {
+          "name": "Nuclidium",
+          "place": "Bâle, Suisse",
+          "use": "Plateforme théranostique au cuivre (imagerie Cu-61 / thérapie Cu-67) ; Series B étendue à CHF 105M en mai 2026."
+        },
+        {
+          "name": "Full-Life Technologies",
+          "place": "Belgique / Allemagne",
+          "use": "Radiothérapeutiques à l'actinium-225 via sa plateforme de découverte UniRDC ; 150 M$ en Series D (mai 2026)."
+        },
+        {
+          "name": "Astral Systems",
+          "place": "Bristol, Royaume-Uni",
+          "use": "Produit des isotopes médicaux critiques via des réacteurs à fusion compacts, pour sécuriser l'approvisionnement de la filière RPT."
+        }
+      ],
+      "date": "2026-07-12",
+      "dateLong": "12 juil. 2026"
+    },
     {
       "term": "ADC",
       "full": "Antibody-Drug Conjugate",
