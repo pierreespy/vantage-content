@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-12",
+  "generatedAt": "2026-07-13",
   "words": [
+    {
+      "term": "COV",
+      "full": "Volatile Organic Compounds",
+      "fr": "Composés organiques volatils",
+      "field": "Diagnostic non invasif · Oncologie respiratoire",
+      "definition": "Des molécules gazeuses présentes dans l'air expiré, dont certaines combinaisons signent une inflammation ou la présence de cellules cancéreuses, ce qui permet de diagnostiquer une maladie à partir d'un simple souffle.",
+      "parts": [
+        {
+          "label": "Prélèvement du souffle",
+          "role": "collecte standardisée de l'air expiré"
+        },
+        {
+          "label": "Capteur ou spectromètre",
+          "role": "détecte et sépare les molécules volatiles"
+        },
+        {
+          "label": "Modèle IA",
+          "role": "identifie la signature associée à la maladie"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Le patient souffle dans un dispositif qui capture les composés volatils de son haleine, en quelques minutes en cabinet."
+        },
+        {
+          "n": "2",
+          "h": "Analyse moléculaire",
+          "t": "Un nez électronique ou un spectromètre de masse identifie et quantifie chaque composé présent dans l'échantillon."
+        },
+        {
+          "n": "3",
+          "h": "Classification IA",
+          "t": "Un modèle entraîné sur une base de référence compare la signature obtenue à des profils pathologiques connus pour rendre un diagnostic."
+        }
+      ],
+      "why": "La biopsie respiratoire promet un dépistage aussi simple qu'un test de glycémie, sans acte invasif ni délai de laboratoire — un vrai levier de scale pour les diagnostics de précision, illustré aujourd'hui par le pre-seed de Respiro Diagnostics.",
+      "startups": [
+        {
+          "name": "Respiro Diagnostics",
+          "place": "Royaume-Uni",
+          "use": "Diagnostic moléculaire (ADN/ARN/protéines) du cancer du poumon à partir de l'air expiré ; 1,15 M€ en pre-seed (juil. 2026)."
+        },
+        {
+          "name": "Owlstone Medical",
+          "place": "Cambridge, Royaume-Uni",
+          "use": "Pionnier de la Breath Biopsy (VOC) ; 49,1 M$ de subvention ARPA-H pour un test multi-cancers à domicile."
+        },
+        {
+          "name": "Breathomix",
+          "place": "Leiden, Pays-Bas",
+          "use": "Nez électronique BreathBase/SpiroNose pour diagnostiquer maladies respiratoires et cancer du poumon en quelques secondes."
+        }
+      ],
+      "date": "2026-07-13",
+      "dateLong": "13 juil. 2026"
+    },
     {
       "term": "RPT",
       "full": "Radioligand Therapy",
