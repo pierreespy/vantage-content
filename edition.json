@@ -1,179 +1,153 @@
 {
-  "dateLong": "13 juil. 2026",
+  "dateLong": "14 juil. 2026",
   "ticker": [
     {
-      "company": "MINDRANK AI",
-      "amount": "52 M$",
+      "company": "DOCTORSA",
+      "amount": "1 M€",
       "kind": "lev"
     },
     {
-      "company": "VERTEX / CRINETICS",
-      "amount": "10 Md$",
-      "kind": "mna"
-    },
-    {
-      "company": "REFINED DIAGNOSTICS",
-      "amount": "2,9 M€",
+      "company": "DRUG FARM",
+      "amount": "55 M$",
       "kind": "lev"
     },
     {
-      "company": "VITALIS ORTHO",
-      "amount": "1,4 M€",
+      "company": "TELUM THERAPEUTICS",
+      "amount": "18 M€",
       "kind": "lev"
     },
     {
-      "company": "RESPIRO DIAGNOSTICS",
-      "amount": "1,15 M€",
+      "company": "OMNIX MEDICAL",
+      "amount": "8 M€",
       "kind": "lev"
     },
     {
-      "company": "SURGIQ",
-      "amount": "410 K€",
+      "company": "BALANCE",
+      "amount": "3 M€",
+      "kind": "lev"
+    },
+    {
+      "company": "MAHZI THERAPEUTICS",
+      "amount": "jusqu'à 1,2 M$",
       "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Pre-seed · Diagnostic respiratoire",
-    "title": "Respiro Diagnostics lève 1,15 M€ pour détecter le cancer du poumon dans l'air expiré",
-    "deck": "Zinc Venture Capital et SFC Capital co-mènent ce tour pre-seed pour la biotech britannique, qui analyse l'ADN, l'ARN et les protéines présents dans l'air expiré pour détecter et profiler moléculairement le cancer du poumon sans prélèvement invasif. Après une preuve de concept en mésothéliome, Respiro lance sa première étude clinique en septembre 2026 à l'hôpital universitaire d'Aalborg — un pari précoce sur la biopsie liquide nouvelle génération.",
-    "company": "Respiro Diagnostics",
+    "kicker": "Pre-seed · Télémédecine voyageurs",
+    "title": "Doctorsa lève 1 M€ pour offrir une téléconsultation d'urgence aux voyageurs dans 33 pays",
+    "deck": "PranaVentures mène ce premier tour pre-seed aux côtés de Vento et 40Jemz Ventures pour la startup milanaise, qui connecte en moins de cinq minutes un voyageur malade à un médecin local dans l'un des 33 pays où elle opère. Après plus de 100 000 consultations depuis son lancement en 2020, Doctorsa vise désormais une expansion aux États-Unis et des partenariats B2B avec des acteurs du tourisme.",
+    "company": "Doctorsa",
     "stage": "Pre-seed",
-    "url": "https://tech.eu/2026/07/08/respiro-diagnostics-secures-ps1m-to-advance-lung-diagnostics/"
+    "url": "https://www.innlifes.com/pills/doctorsa-1-milione-pranaventures/"
   },
   "deal": {
-    "company": "Crinetics Pharmaceuticals",
-    "amount": "10 Md$",
-    "round": "M&A",
-    "thesis": "Vertex signe la plus grosse acquisition de son histoire pour mettre la main sur Crinetics et son traitement déjà commercialisé de l'acromégalie (Palsonify), plus un pipeline de candidats en endocrinologie rare. Le montant, supérieur au rachat d'Alpine Immune Sciences (4,9 Md$ en 2024), confirme que l'endocrinologie de précision devient une cible de choix pour le M&A pharma — un signal de sortie à surveiller pour qui est positionné sur des biotechs early-stage du secteur.",
-    "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/"
+    "company": "Insilico Medicine",
+    "amount": "~1,2 Md RMB (≈165 M$, jalons)",
+    "round": "Collaboration IA (licensing)",
+    "thesis": "Insilico Medicine touchera jusqu'à environ 1,2 Md RMB (~165 M$) de jalons et royalties de China Medical System Holdings, qui licencie une cible neurologique inédite identifiée par sa plateforme PandaOmics — la deuxième collaboration du genre entre les deux groupes en moins de trois mois. Sans equity ni tour de table classique, ce deal illustre comment les biotechs IA-natives monétisent leurs découvertes directement auprès de la pharma, un modèle que les VCs spécialisés en TechBio surveillent de près.",
+    "url": "https://www.techtimes.com/articles/320317/20260713/ai-finds-novel-brain-disease-target-165m-deal-insilico-adds-second-cms-pact.htm"
   },
   "brefsEurope": [
     {
-      "company": "Refined Diagnostics",
-      "place": "Münster, Allemagne",
-      "sector": "MedTech · Diagnostic du cancer",
+      "company": "Telum Therapeutics",
+      "place": "Espagne",
+      "sector": "Biotech · Résistance aux antimicrobiens",
+      "stage": "Series A",
+      "title": "Telum Therapeutics lève 18 M€ en Series A pour combattre les pneumonies hospitalières résistantes",
+      "summary": "L'AMR Action Fund mène ce tour aux côtés du nouvel entrant Inveready et des historiques Invivo Partners, CDTI (Innvierte), Clave Capital et Sodena, pour faire avancer en clinique le programme phare de la biotech espagnole contre Acinetobacter baumannii, pathogène multirésistant classé priorité critique par l'OMS.",
+      "url": "https://www.biospace.com/press-releases/telum-therapeutics-secures-18-million-series-a-financing-to-advance-lead-antimicrobial-program-into-clinical-development"
+    },
+    {
+      "company": "Balance",
+      "place": "Espagne",
+      "sector": "Digital Health · Obésité",
       "stage": "Seed",
-      "title": "Refined Diagnostics lève 2,9 M€ pour un diagnostic du cancer par laser Raman en quelques minutes",
-      "summary": "Ce tour, mené par le réseau de business angels Companisto, est complété par 2,6 M€ de subventions publiques (UE, État fédéral, Rhénanie-du-Nord-Westphalie). Cette spin-off de l'Université de Münster développe une imagerie basée sur la spectroscopie Raman — distinguée par un prix Nobel — couplée à l'IA pour différencier tissu sain et tissu cancéreux en quelques minutes ; entrée sur le marché visée en 2027.",
-      "url": "https://www.startbase.com/news/refined-diagnostics-sammelt-29-millionen-euro-ein-und-bereitet-markteintritt-fuer-ki-gestuetzte-krebsdiagnostik-vor"
-    },
-    {
-      "company": "Vitalis Ortho",
-      "place": "Londres, Royaume-Uni",
-      "sector": "MedTech · Orthopédie",
-      "stage": "Pre-seed",
-      "title": "Vitalis Ortho lève 1,4 M€ (£1,2M) pour traiter l'arthrose du genou avant la prothèse",
-      "summary": "Zinc et l'Aligned Syndicate co-mènent ce tour pre-seed pour un dispositif destiné aux patients en échec de traitement conservateur mais pas encore indiqués pour une prothèse totale — une chirurgie qui comporte un risque de révision à vie d'un sur trois lorsqu'elle est pratiquée trop tôt. Les fondateurs, Olly Morgan et Mac Tuncer, avaient déjà cédé Meshworks Implants en 2024.",
-      "url": "https://cambridgebiocapital.substack.com/p/rq-bio-raises-115m-to-fight-flu-astral"
-    },
-    {
-      "company": "SurgiQ",
-      "place": "Italie",
-      "sector": "Digital Health · Logistique hospitalière",
-      "stage": "Pre-seed",
-      "title": "SurgiQ lève 410 000 € pour digitaliser la planification des hôpitaux publics italiens",
-      "summary": "Le tour associe CDP Venture Capital (programme AccelerORA), l'incubateur coté Digital Magics et le programme européen EIT Health Headstart, complétés par un syndicat d'entrepreneurs de la santé privée mené par Michele Nicchio (Aiop Giovani). La startup aide hôpitaux publics et praticiens à planifier leur activité — un ticket capital-efficient sur un maillon encore largement sous-digitalisé.",
-      "url": "https://bebeez.it/venture-capital/la-startup-di-digital-health-surgiq-incassa-un-round-da-410-mila-euro-lo-sottoscrivono-cdp-venture-capital-digital-magics-e-il-programma-eith-health-headstart/"
-    },
-    {
-      "company": "ALP Bio",
-      "place": "Suisse",
-      "sector": "TechBio · Sécurité des biomédicaments",
-      "title": "ALP Bio décroche 161 000 CHF de Venture Kick pour sécuriser les biomédicaments par l'IA",
-      "summary": "Ce financement non-dilutif du programme suisse Venture Kick complète le pre-seed de 1,75 MCHF mené par 42CAP en avril. ALP Bio combine tissus immunitaires humains et IA pour repérer en amont les risques toxicologiques des anticorps et biomédicaments — un pari capital-efficient sur la réduction des échecs cliniques coûteux.",
-      "url": "https://tech.eu/2026/07/03/alp-bio-raises-eur161k-from-venture-kick-to-improve-the-safety-of-biologic-medicines/"
-    },
-    {
-      "company": "ProfesorCBD / Cannabioteacher",
-      "place": "Pays basque, Espagne",
-      "sector": "MedTech · Cannabis médical",
-      "title": "ProfesorCBD sécurise 207 000 € pour le premier dispositif médical à base de cannabis en Espagne",
-      "summary": "Le financement, garanti par Elkargi après certification d'innovation BEAZ (gouvernement provincial de Biscaye), lance via la filiale Cannabioteacher le développement d'un dispositif d'administration de cannabis thérapeutique — une première espagnole sur un horizon de 3 à 4 ans. Structuré en dette garantie plutôt qu'en capital, c'est ici un signal d'ouverture réglementaire à suivre plus qu'un pari VC classique.",
-      "url": "https://elreferente.es/inversiones/profesorcbd-obtiene-207-000-euros-para-desarrollar-el-primer-dispositivo-medico-de-cannabis-medicinal-en-espana/"
+      "title": "Balance lève 3 M€ pour son suivi intégral de l'obésité, avant une Series A visée en 2027",
+      "summary": "Shilling VC et JME Ventures mènent ce tour d'amorçage pour la plateforme espagnole qui connecte patients et professionnels de santé (endocrinologues, nutritionnistes, psychologues) autour du traitement de l'obésité — un pari capital-efficient sur la coordination des soins plutôt que sur la molécule, dans un secteur dominé par les GLP-1.",
+      "url": "https://forbes.es/ultima-hora/975562/balance-la-plataforma-tecnologica-para-el-tratamiento-integral-de-la-obesidad-levanta-tres-millones-y-apunta-a-una-serie-a-en-2027/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "MindRank AI",
-      "place": "Shanghai, Chine",
-      "sector": "Biotech · IA & obésité",
-      "stage": "Series B",
-      "title": "MindRank AI lève 52 M$ pour son GLP-1 oral conçu par IA, déjà en Phase III",
-      "summary": "Le tour, souscrit par un groupe de fonds institutionnels et spécialistes santé (Kaiwu Capital en conseil financier), finance la plateforme Molecule Arts (MAP) et son candidat phare MDR-001, un agoniste oral du récepteur GLP-1 déjà entré en Phase III en Chine — la preuve que l'IA de découverte peut rivaliser sur le terrain ultra-disputé de l'obésité, avec 3 IND déjà obtenus et 5 candidats précliniques additionnels.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325291/0/en/mindrank-announces-52-million-series-b-financing.html"
+      "company": "Drug Farm",
+      "place": "Chine",
+      "sector": "Biotech · Maladies rares / Oncologie",
+      "stage": "Growth",
+      "title": "Drug Farm lève 55 M$ en Series D pour son inhibiteur ALPK1 à double indication",
+      "summary": "Un syndicat d'investisseurs chinois (Shanghai Pudong Leading Area Investment Center, BioVeda China Fund, Keyuan Pharma, YD Capital, Wedo Capital, Biometas notamment) finance l'avancée clinique de DF-003 (Phase 3 dans le syndrome de ROSAH) et DF-006, un candidat en Phase 2 contre l'hépatite B et le carcinome hépatocellulaire.",
+      "url": "https://www.fiercebiotech.com/biotech/fierce-biotech-fundraising-tracker-26"
     },
     {
-      "company": "Anodyne Nanotech",
+      "company": "Omnix Medical",
+      "place": "Israël",
+      "sector": "Biotech · Anti-infectieux",
+      "title": "Omnix Medical lance le consortium européen PEPTAMR pour ses peptides anti-infectieux",
+      "summary": "La biotech israélienne obtient environ 8 M€ de financement Horizon Europe pour piloter ce consortium ciblant Acinetobacter baumannii, pathogène résistant classé priorité critique par l'OMS — un signal de l'appétit non dilutif (UE, HERA) pour l'antibiorésistance, thème que les VCs santé suivent de près faute d'économie de marché favorable aux nouveaux antibiotiques.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/13/3325938/0/en/Omnix-Medical-Launches-New-Horizon-Europe-PEPTAMR-Infectious-Disease-Consortium.html"
+    },
+    {
+      "company": "Mahzi Therapeutics",
       "place": "États-Unis",
-      "sector": "Biotech · Obésité",
+      "sector": "Biotech · Thérapie génique / Maladies rares",
       "stage": "Series A",
-      "title": "Anodyne Nanotech lève 12,6 M$ pour son patch hebdomadaire au GLP-1",
-      "summary": "Velocity Partners VC mène ce tour, co-mené par Evercurious VC avec Relativity Healthcare Partners. La biotech développe une plateforme transdermique pour délivrer peptides, anticorps et thérapies à ARN sans injection — à commencer par ANN-101, un patch GLP-1 hebdomadaire qui entre en Phase I, alternative capital-efficiente à l'injectable dans la course à l'obésité.",
-      "url": "https://www.businesswire.com/news/home/20260624176542/en/Anodyne-Nanotech-Closed-a-$12.6-Million-Series-A-to-Advance-Once-Weekly-GLP-1-Patch-into-Phase-I-Clinical-Trials"
-    },
-    {
-      "company": "Ladder Health",
-      "place": "Boston, États-Unis",
-      "sector": "Digital Health · Pédiatrie",
-      "stage": "Seed",
-      "title": "Ladder Health lève 7 M$ pour résorber les listes d'attente en thérapie pédiatrique",
-      "summary": "Nina Capital mène ce tour d'amorçage, aux côtés de 25madison Health, Hatteras Venture Partners et Create Health Ventures. La startup met en réseau des thérapeutes indépendants pour absorber la demande en orthophonie, ergothérapie et kinésithérapie pédiatriques — un goulot d'étranglement chronique du système de santé américain, sur un modèle capital-efficient de mise en réseau plutôt que de possession d'actifs.",
-      "url": "https://www.prnewswire.com/news-releases/ladder-health-raises-7m-to-fix-pediatric-therapys-waitlist-crisis-302807679.html"
+      "title": "Mahzi Therapeutics ouvre son capital aux familles de patients pour financer sa thérapie génique",
+      "summary": "La biotech californienne lève jusqu'à 1,2 M$ via une campagne de crowdfunding actionnarial (Reg CF, Wefunder) aux conditions de sa Series A, pour faire entrer au capital les familles concernées par le syndrome de Pitt-Hopkins — un modèle de financement non-consensuel pour des maladies rares trop petites pour l'appétit classique du capital-risque.",
+      "url": "https://www.forbes.com/sites/geristengel/2026/07/13/this-biotech-lets-rare-disease-families-invest-in-its-gene-therapy/"
     }
   ],
   "word": {
-    "term": "COV",
-    "full": "Volatile Organic Compounds",
-    "fr": "Composés organiques volatils",
-    "field": "Diagnostic non invasif · Oncologie respiratoire",
-    "definition": "Des molécules gazeuses présentes dans l'air expiré, dont certaines combinaisons signent une inflammation ou la présence de cellules cancéreuses, ce qui permet de diagnostiquer une maladie à partir d'un simple souffle.",
+    "term": "AMR",
+    "full": "Antimicrobial Resistance",
+    "fr": "Résistance aux antimicrobiens",
+    "field": "Maladies infectieuses · Politique de santé publique",
+    "definition": "Le phénomène par lequel bactéries, virus, champignons et parasites cessent de répondre aux traitements existants, rendant inefficaces des antibiotiques qui soignaient autrefois des infections courantes.",
     "parts": [
       {
-        "label": "Prélèvement du souffle",
-        "role": "collecte standardisée de l'air expiré"
+        "label": "Pathogène résistant",
+        "role": "la cible clinique prioritaire (ex. Acinetobacter baumannii)"
       },
       {
-        "label": "Capteur ou spectromètre",
-        "role": "détecte et sépare les molécules volatiles"
+        "label": "Nouvelle molécule ou peptide",
+        "role": "contourne le mécanisme de résistance"
       },
       {
-        "label": "Modèle IA",
-        "role": "identifie la signature associée à la maladie"
+        "label": "Financement non dilutif",
+        "role": "subventionne le développement quand le marché seul ne paie pas"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Collecte",
-        "t": "Le patient souffle dans un dispositif qui capture les composés volatils de son haleine, en quelques minutes en cabinet."
+        "h": "Criblage",
+        "t": "Les équipes identifient une molécule ou un peptide actif contre le pathogène résistant, via une bibliothèque ciblée ou un design computationnel."
       },
       {
         "n": "2",
-        "h": "Analyse moléculaire",
-        "t": "Un nez électronique ou un spectromètre de masse identifie et quantifie chaque composé présent dans l'échantillon."
+        "h": "Validation clinique",
+        "t": "Le candidat est testé en essais de phase précoce, en général sur une indication hospitalière étroite (pneumonies, infections urinaires) pour prouver l'efficacité rapidement."
       },
       {
         "n": "3",
-        "h": "Classification IA",
-        "t": "Un modèle entraîné sur une base de référence compare la signature obtenue à des profils pathologiques connus pour rendre un diagnostic."
+        "h": "Financement mixte",
+        "t": "Subventions publiques (UE, HERA, BARDA) et capital-risque spécialisé se combinent pour couvrir un développement que le marché seul ne rémunère pas correctement."
       }
     ],
-    "why": "La biopsie respiratoire promet un dépistage aussi simple qu'un test de glycémie, sans acte invasif ni délai de laboratoire — un vrai levier de scale pour les diagnostics de précision, illustré aujourd'hui par le pre-seed de Respiro Diagnostics.",
+    "why": "Le marché des antibiotiques reste structurellement peu rentable (usage restreint, prix bas), donc les tours combinent argent public et privé — un thème contra-cyclique porté par la politique publique, à suivre par les VCs santé qui cherchent des dossiers moins corrélés à la bulle GLP-1/oncologie.",
     "startups": [
       {
-        "name": "Respiro Diagnostics",
-        "place": "Royaume-Uni",
-        "use": "Diagnostic moléculaire (ADN/ARN/protéines) du cancer du poumon à partir de l'air expiré ; 1,15 M€ en pre-seed (juil. 2026)."
+        "name": "Telum Therapeutics",
+        "place": "Espagne",
+        "use": "Programme antimicrobien de tête contre les pneumonies hospitalières à Acinetobacter baumannii ; 18 M€ en Series A (juil. 2026)."
       },
       {
-        "name": "Owlstone Medical",
-        "place": "Cambridge, Royaume-Uni",
-        "use": "Pionnier de la Breath Biopsy (VOC) ; 49,1 M$ de subvention ARPA-H pour un test multi-cancers à domicile."
+        "name": "ShanX Medtech",
+        "place": "Eindhoven, Pays-Bas",
+        "use": "Diagnostic de susceptibilité antimicrobienne en 1h, priorité infections urinaires ; 24 M€ dont subvention HERA."
       },
       {
-        "name": "Breathomix",
-        "place": "Leiden, Pays-Bas",
-        "use": "Nez électronique BreathBase/SpiroNose pour diagnostiquer maladies respiratoires et cancer du poumon en quelques secondes."
+        "name": "Omnix Medical",
+        "place": "Israël",
+        "use": "Peptides anti-infectieux nouvelle génération (OMN6) contre les pathogènes multirésistants ; consortium Horizon Europe PEPTAMR, 8 M€ (juil. 2026)."
       }
     ]
   }

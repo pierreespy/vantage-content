@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-13",
+  "generatedAt": "2026-07-14",
   "words": [
+    {
+      "term": "AMR",
+      "full": "Antimicrobial Resistance",
+      "fr": "Résistance aux antimicrobiens",
+      "field": "Maladies infectieuses · Politique de santé publique",
+      "definition": "Le phénomène par lequel bactéries, virus, champignons et parasites cessent de répondre aux traitements existants, rendant inefficaces des antibiotiques qui soignaient autrefois des infections courantes.",
+      "parts": [
+        {
+          "label": "Pathogène résistant",
+          "role": "la cible clinique prioritaire (ex. Acinetobacter baumannii)"
+        },
+        {
+          "label": "Nouvelle molécule ou peptide",
+          "role": "contourne le mécanisme de résistance"
+        },
+        {
+          "label": "Financement non dilutif",
+          "role": "subventionne le développement quand le marché seul ne paie pas"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Criblage",
+          "t": "Les équipes identifient une molécule ou un peptide actif contre le pathogène résistant, via une bibliothèque ciblée ou un design computationnel."
+        },
+        {
+          "n": "2",
+          "h": "Validation clinique",
+          "t": "Le candidat est testé en essais de phase précoce, en général sur une indication hospitalière étroite (pneumonies, infections urinaires) pour prouver l'efficacité rapidement."
+        },
+        {
+          "n": "3",
+          "h": "Financement mixte",
+          "t": "Subventions publiques (UE, HERA, BARDA) et capital-risque spécialisé se combinent pour couvrir un développement que le marché seul ne rémunère pas correctement."
+        }
+      ],
+      "why": "Le marché des antibiotiques reste structurellement peu rentable (usage restreint, prix bas), donc les tours combinent argent public et privé — un thème contra-cyclique porté par la politique publique, à suivre par les VCs santé qui cherchent des dossiers moins corrélés à la bulle GLP-1/oncologie.",
+      "startups": [
+        {
+          "name": "Telum Therapeutics",
+          "place": "Espagne",
+          "use": "Programme antimicrobien de tête contre les pneumonies hospitalières à Acinetobacter baumannii ; 18 M€ en Series A (juil. 2026)."
+        },
+        {
+          "name": "ShanX Medtech",
+          "place": "Eindhoven, Pays-Bas",
+          "use": "Diagnostic de susceptibilité antimicrobienne en 1h, priorité infections urinaires ; 24 M€ dont subvention HERA."
+        },
+        {
+          "name": "Omnix Medical",
+          "place": "Israël",
+          "use": "Peptides anti-infectieux nouvelle génération (OMN6) contre les pathogènes multirésistants ; consortium Horizon Europe PEPTAMR, 8 M€ (juil. 2026)."
+        }
+      ],
+      "date": "2026-07-14",
+      "dateLong": "14 juil. 2026"
+    },
     {
       "term": "COV",
       "full": "Volatile Organic Compounds",
