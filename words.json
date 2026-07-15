@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-14",
+  "generatedAt": "2026-07-15",
   "words": [
+    {
+      "term": "Modulateur allostérique",
+      "full": "Allosteric Modulator",
+      "fr": "Modulateur allostérique",
+      "field": "Neuropsychiatrie · Découverte de médicaments",
+      "definition": "Une molécule qui se fixe à côté du site actif d'un récepteur pour en ajuster finement la sensibilité, plutôt que de l'activer ou de le bloquer complètement comme un médicament classique.",
+      "parts": [
+        {
+          "label": "Récepteur cible",
+          "role": "la porte à régler (ex. AMPA, GABA-A, M4)"
+        },
+        {
+          "label": "Site allostérique",
+          "role": "le point d'ancrage, distinct du site actif"
+        },
+        {
+          "label": "Modulateur (PAM/NAM)",
+          "role": "amplifie ou atténue la réponse au signal naturel"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Criblage",
+          "t": "Identification d'une petite molécule capable de se lier à une poche distincte du site actif du récepteur ciblé."
+        },
+        {
+          "n": "2",
+          "h": "Liaison allostérique",
+          "t": "Le modulateur se fixe sur ce site secondaire et modifie la conformation du récepteur sans en occuper le site principal."
+        },
+        {
+          "n": "3",
+          "h": "Ajustement fin",
+          "t": "La réponse au neurotransmetteur naturel est amplifiée (PAM) ou atténuée (NAM), avec une fenêtre thérapeutique en principe plus propre qu'un agoniste ou antagoniste classique."
+        }
+      ],
+      "why": "Après la vague kétamine/psychédéliques, les modulateurs allostériques portent une deuxième thèse de precision psychiatry : cibler un récepteur précis avec moins d'effets systémiques. Draig (205 M$ levés en un an) et Newleos (actifs Roche recyclés) montrent que des VCs généralistes et spécialisés reviennent sur le CNS, un secteur longtemps boudé pour son taux d'échec clinique élevé.",
+      "startups": [
+        {
+          "name": "Draig Therapeutics",
+          "place": "Cardiff, Royaume-Uni",
+          "use": "Modulateurs des récepteurs AMPA et GABA-A pour la dépression majeure (DT-101, Phase II) ; 65 M$ en Series B (juil. 2026)."
+        },
+        {
+          "name": "Neurosterix",
+          "place": "Genève, Suisse",
+          "use": "Spin-off d'Addex Therapeutics ; PAM du récepteur muscarinique M4 (NTX-253) pour la schizophrénie, Phase 1 attendue mi-2026."
+        },
+        {
+          "name": "Newleos Therapeutics",
+          "place": "Boston, États-Unis",
+          "use": "PAM GABA-A-γ1 (NTX-1955) issu d'un portefeuille Roche, en Phase Ib pour l'anxiété généralisée ; 93,5 M$ en Series A."
+        }
+      ],
+      "date": "2026-07-15",
+      "dateLong": "15 juil. 2026"
+    },
     {
       "term": "AMR",
       "full": "Antimicrobial Resistance",
