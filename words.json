@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-15",
+  "generatedAt": "2026-07-16",
   "words": [
+    {
+      "term": "LNP",
+      "full": "Lipid Nanoparticle",
+      "fr": "Nanoparticule lipidique",
+      "field": "Délivrance de médicaments · Biotechnologie ARN",
+      "definition": "Une capsule graisseuse microscopique qui protège un ARN thérapeutique dans le sang et le fait entrer dans la cellule cible — la techno qui a rendu les vaccins ARNm possibles, aujourd'hui réinventée pour sortir du foie.",
+      "parts": [
+        {
+          "label": "Lipide ionisable",
+          "role": "encapsule l'ARN et se charge pour le libérer dans la cellule"
+        },
+        {
+          "label": "Lipide PEGylé",
+          "role": "le bouclier furtif qui stabilise la particule dans le sang"
+        },
+        {
+          "label": "Ligand de ciblage",
+          "role": "le GPS qui oriente la particule vers un organe ou un type cellulaire précis"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Formulation",
+          "t": "L'ARN est mélangé à un cocktail de lipides qui s'auto-assemblent en nanoparticule sphérique de quelques dizaines de nanomètres."
+        },
+        {
+          "n": "2",
+          "h": "Circulation",
+          "t": "Injectée par voie intraveineuse ou inhalée, la particule échappe à la dégradation immédiate et circule jusqu'à son tissu cible."
+        },
+        {
+          "n": "3",
+          "h": "Entrée cellulaire et libération",
+          "t": "La cellule cible internalise la particule ; le lipide ionisable déstabilise l'endosome et libère l'ARN dans le cytoplasme pour qu'il soit traduit ou qu'il inhibe sa cible."
+        }
+      ],
+      "why": "Les LNP ont prouvé leur capacité à passer à l'échelle industrielle avec les vaccins Covid, mais la plupart des formulations finissent par défaut dans le foie. La nouvelle vague de biotechs — dont Nava Therapeutics, qui vient de lever 89 M$ — construit des LNP capables d'atteindre les lymphocytes T, le rein, le poumon ou le muscle : c'est là que se joue la prochaine génération de brevets et de deals pharma, et où les VCs cherchent le prochain Moderna.",
+      "startups": [
+        {
+          "name": "Nava Therapeutics",
+          "place": "Cambridge/Philadelphie, États-Unis",
+          "use": "CAR-T in vivo et délivrance rénale par LNP ; 89 M$ en sortie de stealth (juil. 2026)."
+        },
+        {
+          "name": "Sixfold Bioscience",
+          "place": "Londres, Royaume-Uni",
+          "use": "Plateforme Mergo de siARN/ARNm programmable pour sortir du tropisme hépatique ; financée par Innovate UK et Wellcome Leap."
+        },
+        {
+          "name": "etherna (ex-eTheRNA immunotherapies)",
+          "place": "Niel, Belgique",
+          "use": "Plateforme mRNA/LNP intratumorale ; programme LAD116 nominé par Almirall contre le cancer cutané non-mélanome."
+        },
+        {
+          "name": "ReCode Therapeutics",
+          "place": "Dallas, États-Unis",
+          "use": "Plateforme LNP SORT ciblant le poumon ; RCT2100 inhalé en Phase 2 dans la mucoviscidose."
+        }
+      ],
+      "date": "2026-07-16",
+      "dateLong": "16 juil. 2026"
+    },
     {
       "term": "Modulateur allostérique",
       "full": "Allosteric Modulator",
