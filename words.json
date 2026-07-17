@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-16",
+  "generatedAt": "2026-07-17",
   "words": [
+    {
+      "term": "Agentic AI",
+      "full": "Agentic Artificial Intelligence",
+      "fr": "IA agentique",
+      "field": "Opérations cliniques et administratives pilotées par IA",
+      "definition": "Des systèmes d'IA qui ne se contentent plus de suggérer une action au clinicien : ils l'exécutent eux-mêmes, de bout en bout, dans les systèmes hospitaliers existants.",
+      "parts": [
+        {
+          "label": "Perception",
+          "role": "capter l'information (voix, scanner, fax, dossier)"
+        },
+        {
+          "label": "Raisonnement",
+          "role": "décider de la tâche à accomplir"
+        },
+        {
+          "label": "Action",
+          "role": "exécuter directement dans l'EHR ou la facturation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Détection",
+          "t": "L'agent identifie un événement à traiter — un nodule incident sur un scanner, un fax entrant, une demande de pré-autorisation."
+        },
+        {
+          "n": "2",
+          "h": "Décision",
+          "t": "Il croise le contexte clinique ou administratif pour déterminer l'action appropriée, sans script rigide."
+        },
+        {
+          "n": "3",
+          "h": "Exécution",
+          "t": "Il agit directement dans les systèmes en place (dossier patient, facturation, adressage) et documente la traçabilité de son action."
+        }
+      ],
+      "why": "Les hôpitaux croulent sous la charge administrative et les listes d'attente de suivi ; les VCs santé financent désormais des agents mesurés en ETP économisés et en workflows automatisés de bout en bout, pas seulement en taux d'adoption d'un copilote — un changement de critère d'investissement.",
+      "startups": [
+        {
+          "name": "Nabla",
+          "use": "Agents IA pour les workflows cliniques au-delà du compte-rendu ambiant ; 85 000+ cliniciens, Series C 70 M$ menée par HV Capital",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Corti",
+          "use": "Copilote IA temps réel pour la documentation clinique et le codage médical ; Series B 60 M$ (Prosus Ventures, Atomico)",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Ambience Healthcare",
+          "use": "Agents dédiés au fax, à la pré-autorisation et au recouvrement patient, intégrés à Epic et Oracle Cerner ; Series C 243 M$",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Bunkerhill Health",
+          "use": "Plateforme Carebricks : agents pour le suivi des découvertes incidentes et la pré-autorisation, déployée chez Mayo Clinic et Cleveland Clinic",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-07-17",
+      "dateLong": "17 juil. 2026"
+    },
     {
       "term": "LNP",
       "full": "Lipid Nanoparticle",
