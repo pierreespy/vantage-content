@@ -1,112 +1,108 @@
 {
-  "dateLong": "17 juil. 2026",
+  "dateLong": "18 juil. 2026",
   "ticker": [
-    {
-      "company": "BUNKERHILL HEALTH",
-      "amount": "25 M$",
-      "kind": "lev"
-    },
-    {
-      "company": "MWYNGIL THERAPEUTICS",
-      "amount": "60 M$",
-      "kind": "lev"
-    },
-    {
-      "company": "TYTOCARE",
-      "amount": "25 M$",
-      "kind": "lev"
-    },
-    {
-      "company": "RIME",
-      "amount": "24 M$",
-      "kind": "lev"
-    },
-    {
-      "company": "AUXILIUM HEALTH",
-      "amount": "3,4 M$",
-      "kind": "lev"
-    },
-    {
-      "company": "ATAIBECKLEY",
-      "amount": "jusqu'à 3,8 Md$",
-      "kind": "mna"
-    }
+    { "company": "JUNO BIO", "amount": "3,8 M$", "kind": "lev" },
+    { "company": "SIGHTERA BIOSCIENCES", "amount": "3 M€", "kind": "lev" },
+    { "company": "BECERTAIN", "amount": "1,7 M£", "kind": "lev" },
+    { "company": "RAPIDPULSE", "amount": "48 M$", "kind": "lev" },
+    { "company": "XENTER", "amount": "58,25 M$", "kind": "lev" },
+    { "company": "JASPER / KIRA", "amount": "132 M$", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series B · IA hospitalière",
-    "title": "Bunkerhill Health lève 25 M$ pour déployer des agents IA à l'intérieur des hôpitaux américains",
-    "deck": "Khosla Ventures mène ce tour aux côtés de Sequoia, Felicis, Optum Ventures et Y Combinator, portant le financement total à 55 M$. Sa plateforme Carebricks fait passer l'IA hospitalière du copilote qui suggère à l'agent qui agit : repérer un nodule pulmonaire incident sur un scanner, croiser l'historique du patient, rédiger l'adressage au bon spécialiste et documenter le tout dans le dossier — déjà déployée chez UTMB Health, Cleveland Clinic et Mayo Clinic.",
-    "company": "Bunkerhill Health",
-    "stage": "Series B",
-    "url": "https://fortune.com/2026/07/16/bunkerhill-health-raises-55-million-ai-agents-work-inside-hospitals/"
+    "kicker": "Seed · Santé féminine",
+    "title": "Juno Bio lève 3,8 M$ pour son test du microbiome vaginal et ouvre le premier labo de séquençage dédié à la santé féminine",
+    "deck": "Ada Ventures mène ce tour de seed aux côtés d'Artesian, Illumina Accelerator et Entrepreneur First, pour la biotech londonienne qui ouvre son premier laboratoire certifié CLIA entièrement consacré à la santé féminine. Son test séquence le microbiome vaginal (près de 10 000 bactéries et champignons) et 4 IST courantes, pour combler un vrai manque de données cliniques sur les infections récurrentes, la fertilité et la périménopause.",
+    "company": "Juno Bio",
+    "stage": "Seed",
+    "url": "https://tech.eu/2026/07/16/juno-bio-secures-38m-and-opens-first-sequencing-lab-dedicated-to-womens-health/"
   },
   "deal": {
-    "company": "AtaiBeckley",
-    "amount": "jusqu'à 3,8 Md$",
-    "round": "M&A",
-    "thesis": "Eli Lilly rachète AtaiBeckley pour 6,75 $/action en cash (≈2,8 Md$ upfront), plus jusqu'à 2,50 $/action (≈1 Md$) si son candidat phare BPL-003 — un spray nasal de DMT de synthèse évalué en dépression — franchit des jalons cliniques et réglementaires. Ce complément de prix conditionnel montre comment les gros laboratoires font désormais entrer les psychédéliques dans leur pipeline mainstream, sur les traces de J&J et de son eskétamine : un signal de normalisation pour les VCs santé mentale.",
-    "url": "https://www.fiercebiotech.com/biotech/eli-lilly-inks-28b-ataibeckley-buyout-challenge-jj-psychedelic-mental-health-market"
+    "company": "RapidPulse",
+    "amount": "48 M$",
+    "round": "Series B",
+    "thesis": "Medtronic co-mène, aux côtés de fonds spécialistes santé (S3 Ventures, Santé Ventures, Epidarex Capital), ce tour sursouscrit pour une technologie d'aspiration de nouvelle génération contre l'AVC ischémique aigu. Un industriel du dispositif médical qui sécurise directement l'innovation en thrombectomie plutôt que d'attendre un rachat : un comparable utile pour jauger la valorisation du secteur neurovasculaire.",
+    "url": "https://www.globenewswire.com/news-release/2026/07/16/3328436/0/en/RapidPulse-Secures-Oversubscribed-48M-Series-B-Financing-to-Advance-Clinical-Development-of-Next-Generation-Stroke-Aspiration-Technology.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Sightera Biosciences",
+      "place": "Anvers, Belgique",
+      "sector": "Biotech",
+      "stage": "Pre-seed",
+      "title": "Sightera Biosciences lève 3 M€ en pre-seed pour sa plateforme d'IA entraînée sur la biologie de patients résistants",
+      "summary": "Entourage, Anacura et QBIC financent cette spin-off de l'Université d'Anvers/UZA, qui conçoit des colles moléculaires en oncologie et fibrose à partir de données de patients ayant résisté aux traitements existants — un angle patient-first plutôt que la chimie combinatoire classique.",
+      "url": "https://tech.eu/2026/07/17/sightera-biosciences-closes-eur3m-pre-seed-to-expand-its-patient-derived-ai-drug-discovery-platform/"
+    },
+    {
+      "company": "BeCertain",
+      "place": "Londres / Guildford, Royaume-Uni",
+      "sector": "Digital Health",
+      "stage": "Pre-seed",
+      "title": "BeCertain lève 1,7 M£ pour amener une IA de diagnostic dentaire de qualité clinique en cabinet",
+      "summary": "Sure Valley Ventures mène ce tour de pré-amorçage, avec le programme Innovate UK, pour cette spin-off de King's College London et de l'University of Surrey qui interprète les radios dentaires 2D avec des scores de confiance calibrés — de quoi réduire un taux d'erreur diagnostique dentaire estimé à plus de 50 %.",
+      "url": "https://www.kcl.ac.uk/news/university-spin-out-becertain-raises-1.7-million-to-bring-clinical-grade-ai-to-dental-diagnostics"
+    },
+    {
+      "company": "Cornea Sense",
+      "place": "Espoo, Finlande",
+      "sector": "MedTech",
+      "stage": "Pre-seed",
+      "title": "Cornea Sense lève plus de 1,1 M€ pour son diagnostic ophtalmologique non invasif par térahertz",
+      "summary": "Innovestor Angel CoFund et des business angels spécialisés financent cette spin-off d'Aalto University, qui combine capteurs térahertz et OCT pour mesurer l'hydratation cornéenne sans contact — un nouveau biomarqueur diagnostique pour les maladies de la surface oculaire.",
+      "url": "https://arcticstartup.com/cornea-sense-raises-e1-1m-seed/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Mwyngil Therapeutics",
-      "place": "Boston / Delaware, États-Unis",
-      "sector": "Biotech",
-      "title": "Mwyngil Therapeutics lève 60 M$ pour attaquer l'obésité sans passer par le GLP-1",
-      "summary": "Torrey Pines Investment et OrbiMed financent une biotech née d'une collaboration avec le DZNE allemand, qui développe deux candidats non-GLP-1 : un inhibiteur de PTP1B et un agoniste inverse du récepteur GPR75. Une thèse à contre-courant dans un secteur saturé de me-too GLP-1.",
-      "url": "https://www.statnews.com/2026/07/15/mwyngil-therapeutics-weight-loss-drugs-startup/"
-    },
-    {
-      "company": "TytoCare",
-      "place": "Netanya, Israël",
-      "sector": "Digital Health",
-      "stage": "Growth",
-      "title": "TytoCare lève plus de 25 M$ et nomme Adam Pellegrini (ex-Kaia Health) CEO",
-      "summary": "Insight Partners mène ce tour de croissance pour la plateforme d'examen physique à distance certifiée FDA, qui pivote vers un modèle d'« enablement clinique » intégré aux parcours de soins des hôpitaux et payeurs — insuffisance cardiaque, BPCO, suivi post-chirurgical.",
-      "url": "https://hitconsultant.net/2026/07/16/tytocare-closes-25-million-growth-round-ceo-pellegrini/"
-    },
-    {
-      "company": "Rime",
-      "place": "San Francisco, États-Unis",
-      "sector": "Digital Health · IA vocale",
-      "stage": "Series A",
-      "title": "Rime lève 24 M$ pour son modèle vocal IA de bout en bout, déjà utilisé par la Mayo Clinic",
-      "summary": "M13 Ventures mène ce tour, avec Twilio Ventures et Unusual Ventures. Le modèle de parole-à-parole de Rime équipe déjà les centres d'appels de la Mayo Clinic — signe que l'IA vocale conversationnelle s'installe comme infrastructure clinique, au-delà des cas d'usage grand public.",
-      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/"
-    },
-    {
-      "company": "Auxilium Health",
-      "place": "Cleveland, États-Unis",
+      "company": "Xenter",
+      "place": "Draper, États-Unis",
       "sector": "MedTech",
-      "stage": "Seed",
-      "title": "Auxilium Health lève 3,4 M$ pour sa plateforme de biomatériaux Aer",
-      "summary": "Tour d'amorçage sursouscrit, sans lead nommé, pour cette spin-off du Cleveland Clinic Global Innovation Center qui développe des bioaérogels imitant la matrice extracellulaire — cicatrisation des plaies sans antibiotiques, régénération osseuse — avec un premier produit en route vers une autorisation FDA.",
-      "url": "https://www.biospace.com/press-releases/auxilium-health-closes-oversubscribed-3-4-million-seed-round-to-advance-its-aer-biomaterial-platform"
+      "stage": "Series B",
+      "title": "Xenter boucle 58,25 M$ en Series B pour sa plateforme TechMed",
+      "summary": "Actionnaires existants et family offices santé refinancent Xenter, qui combine dispositifs médicaux, infrastructure de données et IA clinique, et lance XenFi pour accélérer son déploiement commercial.",
+      "url": "https://www.prnewswire.com/news-releases/xenter-closes-series-b-financing-raising-58-25-million-to-accelerate-commercial-expansion-of-its-techmed-platform-302827156.html"
+    },
+    {
+      "company": "Jasper Therapeutics / Kira Pharmaceuticals",
+      "place": "États-Unis",
+      "sector": "Biotech",
+      "stage": "Growth",
+      "title": "Jasper Therapeutics fusionne avec Kira Pharmaceuticals autour d'un financement PIPE de 132 M$",
+      "summary": "Affinity Asset Advisors et Ikarian Capital mènent ce placement privé qui accompagne la fusion all-stock des deux biotechs en immunologie, portefeuille anti-C5a pour maladies rares déjà en partie sous-licencié à Mirador Therapeutics — signal que les fusions cotées deviennent une voie de financement alternative pour les biotechs privées en quête de liquidité.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/16/3328849/0/en/jasper-therapeutics-announces-merger-with-kira-pharmaceuticals.html"
+    },
+    {
+      "company": "Latigo Biotherapeutics",
+      "place": "États-Unis",
+      "sector": "Biotech",
+      "stage": "IPO",
+      "title": "Latigo Biotherapeutics dépose son introduction en Bourse pour ses antidouleurs non opioïdes",
+      "summary": "La biotech vise le Nasdaq (ticker LTGO) pour financer son inhibiteur Nav1.8, une alternative non addictive aux opioïdes contre la douleur — signe que la fenêtre d'IPO biotech se rouvre, un comparable utile pour jauger l'appétit des marchés publics sur les thèses de spécialité.",
+      "url": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/"
     }
   ],
   "word": {
-    "term": "Agentic AI",
-    "full": "Agentic Artificial Intelligence",
-    "fr": "IA agentique",
-    "field": "Opérations cliniques et administratives pilotées par IA",
-    "definition": "Des systèmes d'IA qui ne se contentent plus de suggérer une action au clinicien : ils l'exécutent eux-mêmes, de bout en bout, dans les systèmes hospitaliers existants.",
+    "term": "CDx",
+    "full": "Companion Diagnostic",
+    "fr": "Diagnostic compagnon",
+    "field": "Oncologie de précision et sélection des patients",
+    "definition": "Un test diagnostique associé à un médicament, qui identifie avant traitement les patients susceptibles d'y répondre.",
     "parts": [
-      { "label": "Perception", "role": "capter l'information (voix, scanner, fax, dossier)" },
-      { "label": "Raisonnement", "role": "décider de la tâche à accomplir" },
-      { "label": "Action", "role": "exécuter directement dans l'EHR ou la facturation" }
+      { "label": "Biomarqueur", "role": "la cible mesurée dans le tissu ou le sang" },
+      { "label": "Plateforme de test", "role": "l'outil qui le détecte et le quantifie" },
+      { "label": "Seuil clinique", "role": "le critère validé qui oriente la décision de traitement" }
     ],
     "how": [
-      { "n": "1", "h": "Détection", "t": "L'agent identifie un événement à traiter — un nodule incident sur un scanner, un fax entrant, une demande de pré-autorisation." },
-      { "n": "2", "h": "Décision", "t": "Il croise le contexte clinique ou administratif pour déterminer l'action appropriée, sans script rigide." },
-      { "n": "3", "h": "Exécution", "t": "Il agit directement dans les systèmes en place (dossier patient, facturation, adressage) et documente la traçabilité de son action." }
+      { "n": "1", "h": "Profilage", "t": "L'échantillon du patient (tissu, sang) est analysé pour détecter le biomarqueur d'intérêt." },
+      { "n": "2", "h": "Seuil", "t": "Le résultat est comparé à un seuil validé cliniquement lors des essais du médicament associé." },
+      { "n": "3", "h": "Orientation", "t": "Le clinicien décide de traiter ou non le patient avec le médicament, sur la base de ce résultat." }
     ],
-    "why": "Les hôpitaux croulent sous la charge administrative et les listes d'attente de suivi ; les VCs santé financent désormais des agents mesurés en ETP économisés et en workflows automatisés de bout en bout, pas seulement en taux d'adoption d'un copilote — un changement de critère d'investissement.",
+    "why": "La médecine de précision fait du CDx un actif co-développé avec le médicament et un verrou réglementaire qui peut faire ou défaire une AMM — d'où une vague de rachats de pépites IA en pathologie computationnelle par les diagnostiqueurs et la pharma (Roche/PathAI, mai 2026). Les VCs santé regardent donc les indépendantes qui restent, à la croisée data/IA et validation clinique, comme la prochaine génération de cibles ou de partenaires stratégiques.",
     "startups": [
-      { "name": "Nabla", "use": "Agents IA pour les workflows cliniques au-delà du compte-rendu ambiant ; 85 000+ cliniciens, Series C 70 M$ menée par HV Capital", "place": "Paris, France" },
-      { "name": "Corti", "use": "Copilote IA temps réel pour la documentation clinique et le codage médical ; Series B 60 M$ (Prosus Ventures, Atomico)", "place": "Copenhague, Danemark" },
-      { "name": "Ambience Healthcare", "use": "Agents dédiés au fax, à la pré-autorisation et au recouvrement patient, intégrés à Epic et Oracle Cerner ; Series C 243 M$", "place": "États-Unis" },
-      { "name": "Bunkerhill Health", "use": "Plateforme Carebricks : agents pour le suivi des découvertes incidentes et la pré-autorisation, déployée chez Mayo Clinic et Cleveland Clinic", "place": "États-Unis" }
+      { "name": "Waiv", "use": "Spin-out d'Owkin (mars 2026, 33 M$) ; tests de précision par IA sur lames histopathologiques — MSIntuit (statut MSI), BRCAura (statut BRCA), RlapsRisk BC (risque de rechute)", "place": "Paris, France" },
+      { "name": "Aignostics", "use": "Plateforme de pathologie computationnelle pour développer des diagnostics compagnons en oncologie avec l'industrie pharma ; Series B 34 M$ (ATHOS, Mayo Clinic, Boehringer Ingelheim Venture Fund)", "place": "Berlin, Allemagne" },
+      { "name": "Mindpeak", "use": "Algorithmes IA de quantification de biomarqueurs (IHC) intégrés à des diagnostics compagnons en immuno-oncologie ; Series A 15,3 M$ (ZEISS Ventures)", "place": "Hambourg, Allemagne" },
+      { "name": "Panakeia", "use": "Produits marqués UKCA (PANProfiler Breast, PANProfiler Colorectal) détectant des biomarqueurs cancer sur lames de tissu par IA pour sélectionner les patients éligibles ; validation clinique NHS publiée janvier 2026", "place": "Cambridge / Londres, Royaume-Uni" }
     ]
   }
 }

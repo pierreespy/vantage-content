@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-17",
+  "generatedAt": "2026-07-18",
   "words": [
+    {
+      "term": "CDx",
+      "full": "Companion Diagnostic",
+      "fr": "Diagnostic compagnon",
+      "field": "Oncologie de précision et sélection des patients",
+      "definition": "Un test diagnostique associé à un médicament, qui identifie avant traitement les patients susceptibles d'y répondre.",
+      "parts": [
+        {
+          "label": "Biomarqueur",
+          "role": "la cible mesurée dans le tissu ou le sang"
+        },
+        {
+          "label": "Plateforme de test",
+          "role": "l'outil qui le détecte et le quantifie"
+        },
+        {
+          "label": "Seuil clinique",
+          "role": "le critère validé qui oriente la décision de traitement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Profilage",
+          "t": "L'échantillon du patient (tissu, sang) est analysé pour détecter le biomarqueur d'intérêt."
+        },
+        {
+          "n": "2",
+          "h": "Seuil",
+          "t": "Le résultat est comparé à un seuil validé cliniquement lors des essais du médicament associé."
+        },
+        {
+          "n": "3",
+          "h": "Orientation",
+          "t": "Le clinicien décide de traiter ou non le patient avec le médicament, sur la base de ce résultat."
+        }
+      ],
+      "why": "La médecine de précision fait du CDx un actif co-développé avec le médicament et un verrou réglementaire qui peut faire ou défaire une AMM — d'où une vague de rachats de pépites IA en pathologie computationnelle par les diagnostiqueurs et la pharma (Roche/PathAI, mai 2026). Les VCs santé regardent donc les indépendantes qui restent, à la croisée data/IA et validation clinique, comme la prochaine génération de cibles ou de partenaires stratégiques.",
+      "startups": [
+        {
+          "name": "Waiv",
+          "use": "Spin-out d'Owkin (mars 2026, 33 M$) ; tests de précision par IA sur lames histopathologiques — MSIntuit (statut MSI), BRCAura (statut BRCA), RlapsRisk BC (risque de rechute)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Aignostics",
+          "use": "Plateforme de pathologie computationnelle pour développer des diagnostics compagnons en oncologie avec l'industrie pharma ; Series B 34 M$ (ATHOS, Mayo Clinic, Boehringer Ingelheim Venture Fund)",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Mindpeak",
+          "use": "Algorithmes IA de quantification de biomarqueurs (IHC) intégrés à des diagnostics compagnons en immuno-oncologie ; Series A 15,3 M$ (ZEISS Ventures)",
+          "place": "Hambourg, Allemagne"
+        },
+        {
+          "name": "Panakeia",
+          "use": "Produits marqués UKCA (PANProfiler Breast, PANProfiler Colorectal) détectant des biomarqueurs cancer sur lames de tissu par IA pour sélectionner les patients éligibles ; validation clinique NHS publiée janvier 2026",
+          "place": "Cambridge / Londres, Royaume-Uni"
+        }
+      ],
+      "date": "2026-07-18",
+      "dateLong": "18 juil. 2026"
+    },
     {
       "term": "Agentic AI",
       "full": "Agentic Artificial Intelligence",
