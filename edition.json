@@ -1,108 +1,57 @@
 {
-  "dateLong": "18 juil. 2026",
+  "dateLong": "19 juil. 2026",
   "ticker": [
-    { "company": "JUNO BIO", "amount": "3,8 M$", "kind": "lev" },
-    { "company": "SIGHTERA BIOSCIENCES", "amount": "3 M€", "kind": "lev" },
-    { "company": "BECERTAIN", "amount": "1,7 M£", "kind": "lev" },
-    { "company": "RAPIDPULSE", "amount": "48 M$", "kind": "lev" },
-    { "company": "XENTER", "amount": "58,25 M$", "kind": "lev" },
-    { "company": "JASPER / KIRA", "amount": "132 M$", "kind": "mna" }
+    { "company": "MISSION THERAPEUTICS", "amount": "292 M$", "kind": "mna" },
+    { "company": "PFLEGIA", "amount": "Majoritaire (n.d.)", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Seed · Santé féminine",
-    "title": "Juno Bio lève 3,8 M$ pour son test du microbiome vaginal et ouvre le premier labo de séquençage dédié à la santé féminine",
-    "deck": "Ada Ventures mène ce tour de seed aux côtés d'Artesian, Illumina Accelerator et Entrepreneur First, pour la biotech londonienne qui ouvre son premier laboratoire certifié CLIA entièrement consacré à la santé féminine. Son test séquence le microbiome vaginal (près de 10 000 bactéries et champignons) et 4 IST courantes, pour combler un vrai manque de données cliniques sur les infections récurrentes, la fertilité et la périménopause.",
-    "company": "Juno Bio",
-    "stage": "Seed",
-    "url": "https://tech.eu/2026/07/16/juno-bio-secures-38m-and-opens-first-sequencing-lab-dedicated-to-womens-health/"
+    "kicker": "Cession d'actif · Néphrologie/SNC",
+    "title": "Mission Therapeutics cède son actif rénal à l'australien Dimerix pour financer son pipeline SNC sans dilution",
+    "deck": "La biotech britannique cède à Dimerix les droits sur MTX652, son inhibiteur USP30 en Phase 2 dans l'insuffisance rénale aiguë, contre un paiement initial et jusqu'à 292 M$ de jalons de développement, réglementaires et commerciaux, plus des royalties à deux chiffres. Plutôt que de lever un tour dilutif dans un marché actions encore fermé, Mission Therapeutics réalloue ce capital non-dilutif vers son programme prioritaire en SNC, MTX325, actuellement en Phase 1 dans la maladie de Parkinson.",
+    "company": "Mission Therapeutics",
+    "stage": "Growth",
+    "url": "https://www.globenewswire.com/news-release/2026/07/17/3328928/0/en/Mission-Therapeutics-strikes-deal-worth-up-to-292-million-for-Dimerix-Ltd-to-develop-Acute-Kidney-Injury-asset-MTX652-sharpens-focus-on-its-CNS-pipeline.html"
   },
   "deal": {
-    "company": "RapidPulse",
-    "amount": "48 M$",
-    "round": "Series B",
-    "thesis": "Medtronic co-mène, aux côtés de fonds spécialistes santé (S3 Ventures, Santé Ventures, Epidarex Capital), ce tour sursouscrit pour une technologie d'aspiration de nouvelle génération contre l'AVC ischémique aigu. Un industriel du dispositif médical qui sécurise directement l'innovation en thrombectomie plutôt que d'attendre un rachat : un comparable utile pour jauger la valorisation du secteur neurovasculaire.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/16/3328436/0/en/RapidPulse-Secures-Oversubscribed-48M-Series-B-Financing-to-Advance-Clinical-Development-of-Next-Generation-Stroke-Aspiration-Technology.html"
+    "company": "Pflegia",
+    "amount": "Non divulgué",
+    "round": "M&A (participation majoritaire)",
+    "thesis": "Ardian prend une participation majoritaire dans Pflegia, plateforme allemande de « reverse recruiting » alimentée par IA qui met en relation plus de 900 000 soignants inscrits avec plus de 10 000 établissements de santé. L'opération valide les plateformes RH spécialisées santé comme catégorie investissable à part entière face à la pénurie structurelle de personnel soignant en Europe — un comparable utile pour tout VC qui regarde l'infrastructure logicielle du système de santé plutôt que le soin lui-même.",
+    "url": "https://www.ardian.com/news-insights/press-releases/ardian-acquires-majority-stake-pflegia-germanys-leading-digital"
   },
   "brefsEurope": [
     {
-      "company": "Sightera Biosciences",
-      "place": "Anvers, Belgique",
-      "sector": "Biotech",
-      "stage": "Pre-seed",
-      "title": "Sightera Biosciences lève 3 M€ en pre-seed pour sa plateforme d'IA entraînée sur la biologie de patients résistants",
-      "summary": "Entourage, Anacura et QBIC financent cette spin-off de l'Université d'Anvers/UZA, qui conçoit des colles moléculaires en oncologie et fibrose à partir de données de patients ayant résisté aux traitements existants — un angle patient-first plutôt que la chimie combinatoire classique.",
-      "url": "https://tech.eu/2026/07/17/sightera-biosciences-closes-eur3m-pre-seed-to-expand-its-patient-derived-ai-drug-discovery-platform/"
-    },
-    {
-      "company": "BeCertain",
-      "place": "Londres / Guildford, Royaume-Uni",
-      "sector": "Digital Health",
-      "stage": "Pre-seed",
-      "title": "BeCertain lève 1,7 M£ pour amener une IA de diagnostic dentaire de qualité clinique en cabinet",
-      "summary": "Sure Valley Ventures mène ce tour de pré-amorçage, avec le programme Innovate UK, pour cette spin-off de King's College London et de l'University of Surrey qui interprète les radios dentaires 2D avec des scores de confiance calibrés — de quoi réduire un taux d'erreur diagnostique dentaire estimé à plus de 50 %.",
-      "url": "https://www.kcl.ac.uk/news/university-spin-out-becertain-raises-1.7-million-to-bring-clinical-grade-ai-to-dental-diagnostics"
-    },
-    {
-      "company": "Cornea Sense",
-      "place": "Espoo, Finlande",
-      "sector": "MedTech",
-      "stage": "Pre-seed",
-      "title": "Cornea Sense lève plus de 1,1 M€ pour son diagnostic ophtalmologique non invasif par térahertz",
-      "summary": "Innovestor Angel CoFund et des business angels spécialisés financent cette spin-off d'Aalto University, qui combine capteurs térahertz et OCT pour mesurer l'hydratation cornéenne sans contact — un nouveau biomarqueur diagnostique pour les maladies de la surface oculaire.",
-      "url": "https://arcticstartup.com/cornea-sense-raises-e1-1m-seed/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Xenter",
-      "place": "Draper, États-Unis",
-      "sector": "MedTech",
-      "stage": "Series B",
-      "title": "Xenter boucle 58,25 M$ en Series B pour sa plateforme TechMed",
-      "summary": "Actionnaires existants et family offices santé refinancent Xenter, qui combine dispositifs médicaux, infrastructure de données et IA clinique, et lance XenFi pour accélérer son déploiement commercial.",
-      "url": "https://www.prnewswire.com/news-releases/xenter-closes-series-b-financing-raising-58-25-million-to-accelerate-commercial-expansion-of-its-techmed-platform-302827156.html"
-    },
-    {
-      "company": "Jasper Therapeutics / Kira Pharmaceuticals",
-      "place": "États-Unis",
-      "sector": "Biotech",
+      "company": "EQT Life Sciences",
+      "place": "Londres, Royaume-Uni",
+      "sector": "MedTech / Digital Health",
       "stage": "Growth",
-      "title": "Jasper Therapeutics fusionne avec Kira Pharmaceuticals autour d'un financement PIPE de 132 M$",
-      "summary": "Affinity Asset Advisors et Ikarian Capital mènent ce placement privé qui accompagne la fusion all-stock des deux biotechs en immunologie, portefeuille anti-C5a pour maladies rares déjà en partie sous-licencié à Mirador Therapeutics — signal que les fusions cotées deviennent une voie de financement alternative pour les biotechs privées en quête de liquidité.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/16/3328849/0/en/jasper-therapeutics-announces-merger-with-kira-pharmaceuticals.html"
-    },
-    {
-      "company": "Latigo Biotherapeutics",
-      "place": "États-Unis",
-      "sector": "Biotech",
-      "stage": "IPO",
-      "title": "Latigo Biotherapeutics dépose son introduction en Bourse pour ses antidouleurs non opioïdes",
-      "summary": "La biotech vise le Nasdaq (ticker LTGO) pour financer son inhibiteur Nav1.8, une alternative non addictive aux opioïdes contre la douleur — signe que la fenêtre d'IPO biotech se rouvre, un comparable utile pour jauger l'appétit des marchés publics sur les thèses de spécialité.",
-      "url": "https://endpoints.news/tagrisso-chasing-blossomhill-enters-nasdaq-queue-as-biotech-ipos-flourish/"
+      "title": "British Business Bank engage 25 M€ dans le fonds medtech EQT Health Economics 3",
+      "summary": "La banque publique britannique rejoint le fonds d'EQT Life Sciences dédié aux medtech et digital health en Europe, qui a déjà co-investi aux côtés de la BBB dans Phagenesis (Series D, 42 M$) et Cyted Health (Series B, 44 M$) — un signal de capital institutionnel supplémentaire pour financer la prochaine vague de tours growth medtech au Royaume-Uni.",
+      "url": "https://tech.eu/2026/07/17/british-business-bank-backs-eqt-life-sciences-with-eur25m-commitment/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "CDx",
-    "full": "Companion Diagnostic",
-    "fr": "Diagnostic compagnon",
-    "field": "Oncologie de précision et sélection des patients",
-    "definition": "Un test diagnostique associé à un médicament, qui identifie avant traitement les patients susceptibles d'y répondre.",
+    "term": "Out-licensing",
+    "full": "Out-licensing (Non-Dilutive Asset Monetization)",
+    "fr": "Concession de licence sortante",
+    "field": "Financement biotech / Business development",
+    "definition": "Une biotech cède les droits d'un actif non prioritaire à un tiers contre un paiement initial, des jalons et des royalties, pour financer son pipeline sans émettre de nouvelles actions.",
     "parts": [
-      { "label": "Biomarqueur", "role": "la cible mesurée dans le tissu ou le sang" },
-      { "label": "Plateforme de test", "role": "l'outil qui le détecte et le quantifie" },
-      { "label": "Seuil clinique", "role": "le critère validé qui oriente la décision de traitement" }
+      { "label": "Actif cédé", "role": "le programme jugé non-core (souvent validé cliniquement mais hors thèse prioritaire)" },
+      { "label": "Contrepartie", "role": "upfront + jalons de développement/réglementaires/commerciaux + royalties" },
+      { "label": "Capital préservé", "role": "trésorerie réallouée au pipeline prioritaire, sans dilution actionnariale" }
     ],
     "how": [
-      { "n": "1", "h": "Profilage", "t": "L'échantillon du patient (tissu, sang) est analysé pour détecter le biomarqueur d'intérêt." },
-      { "n": "2", "h": "Seuil", "t": "Le résultat est comparé à un seuil validé cliniquement lors des essais du médicament associé." },
-      { "n": "3", "h": "Orientation", "t": "Le clinicien décide de traiter ou non le patient avec le médicament, sur la base de ce résultat." }
+      { "n": "1", "h": "Priorisation", "t": "Le board identifie l'actif qui ne s'aligne plus avec la thèse ou les ressources internes de la société." },
+      { "n": "2", "h": "Négociation", "t": "Un repreneur (souvent une société cotée en quête de pipeline) structure upfront, jalons et royalties." },
+      { "n": "3", "h": "Réallocation", "t": "Le capital non-dilutif obtenu finance directement le programme jugé le plus prometteur, sans nouveau tour." }
     ],
-    "why": "La médecine de précision fait du CDx un actif co-développé avec le médicament et un verrou réglementaire qui peut faire ou défaire une AMM — d'où une vague de rachats de pépites IA en pathologie computationnelle par les diagnostiqueurs et la pharma (Roche/PathAI, mai 2026). Les VCs santé regardent donc les indépendantes qui restent, à la croisée data/IA et validation clinique, comme la prochaine génération de cibles ou de partenaires stratégiques.",
+    "why": "Dans un marché actions biotech encore sélectif, l'out-licensing devient une tactique de survie et d'optimisation pour les biotechs VC-backed : il étire la trésorerie sans diluer les investisseurs existants, tout en révélant quels actifs deviennent \"orphelins\" faute de capital pour tout développer en interne. Pour un VC santé, suivre ces cessions permet de repérer à la fois les repreneurs actifs (souvent d'anciens acteurs cotés en quête de pipeline) et les biotechs de portefeuille qui pilotent intelligemment leur capital plutôt que de multiplier les tours dilutifs.",
     "startups": [
-      { "name": "Waiv", "use": "Spin-out d'Owkin (mars 2026, 33 M$) ; tests de précision par IA sur lames histopathologiques — MSIntuit (statut MSI), BRCAura (statut BRCA), RlapsRisk BC (risque de rechute)", "place": "Paris, France" },
-      { "name": "Aignostics", "use": "Plateforme de pathologie computationnelle pour développer des diagnostics compagnons en oncologie avec l'industrie pharma ; Series B 34 M$ (ATHOS, Mayo Clinic, Boehringer Ingelheim Venture Fund)", "place": "Berlin, Allemagne" },
-      { "name": "Mindpeak", "use": "Algorithmes IA de quantification de biomarqueurs (IHC) intégrés à des diagnostics compagnons en immuno-oncologie ; Series A 15,3 M$ (ZEISS Ventures)", "place": "Hambourg, Allemagne" },
-      { "name": "Panakeia", "use": "Produits marqués UKCA (PANProfiler Breast, PANProfiler Colorectal) détectant des biomarqueurs cancer sur lames de tissu par IA pour sélectionner les patients éligibles ; validation clinique NHS publiée janvier 2026", "place": "Cambridge / Londres, Royaume-Uni" }
+      { "name": "Mission Therapeutics", "use": "A cédé son actif rénal MTX652 (Phase 2) à Dimerix en juillet 2026 pour financer sans dilution son programme SNC MTX325 (Parkinson, Phase 1)", "place": "Cambridge, Royaume-Uni" },
+      { "name": "Immunitas Therapeutics", "use": "A concédé sous licence à Boehringer Ingelheim un programme d'anticorps précliniques en maladies auto-immunes (juin 2026), tout en restant indépendante et en poursuivant son actif clinique phare IMT-009", "place": "Boston, États-Unis" },
+      { "name": "leadXpro AG", "use": "Prépare, via un accord de collaboration avec Partex.AI, la future concession de licence de son antagoniste du récepteur A2B (A2BR) issu de sa plateforme de protéines membranaires", "place": "Villigen, Suisse" }
     ]
   }
 }

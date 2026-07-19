@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-18",
+  "generatedAt": "2026-07-19",
   "words": [
+    {
+      "term": "Out-licensing",
+      "full": "Out-licensing (Non-Dilutive Asset Monetization)",
+      "fr": "Concession de licence sortante",
+      "field": "Financement biotech / Business development",
+      "definition": "Une biotech cède les droits d'un actif non prioritaire à un tiers contre un paiement initial, des jalons et des royalties, pour financer son pipeline sans émettre de nouvelles actions.",
+      "parts": [
+        {
+          "label": "Actif cédé",
+          "role": "le programme jugé non-core (souvent validé cliniquement mais hors thèse prioritaire)"
+        },
+        {
+          "label": "Contrepartie",
+          "role": "upfront + jalons de développement/réglementaires/commerciaux + royalties"
+        },
+        {
+          "label": "Capital préservé",
+          "role": "trésorerie réallouée au pipeline prioritaire, sans dilution actionnariale"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Priorisation",
+          "t": "Le board identifie l'actif qui ne s'aligne plus avec la thèse ou les ressources internes de la société."
+        },
+        {
+          "n": "2",
+          "h": "Négociation",
+          "t": "Un repreneur (souvent une société cotée en quête de pipeline) structure upfront, jalons et royalties."
+        },
+        {
+          "n": "3",
+          "h": "Réallocation",
+          "t": "Le capital non-dilutif obtenu finance directement le programme jugé le plus prometteur, sans nouveau tour."
+        }
+      ],
+      "why": "Dans un marché actions biotech encore sélectif, l'out-licensing devient une tactique de survie et d'optimisation pour les biotechs VC-backed : il étire la trésorerie sans diluer les investisseurs existants, tout en révélant quels actifs deviennent \"orphelins\" faute de capital pour tout développer en interne. Pour un VC santé, suivre ces cessions permet de repérer à la fois les repreneurs actifs (souvent d'anciens acteurs cotés en quête de pipeline) et les biotechs de portefeuille qui pilotent intelligemment leur capital plutôt que de multiplier les tours dilutifs.",
+      "startups": [
+        {
+          "name": "Mission Therapeutics",
+          "use": "A cédé son actif rénal MTX652 (Phase 2) à Dimerix en juillet 2026 pour financer sans dilution son programme SNC MTX325 (Parkinson, Phase 1)",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Immunitas Therapeutics",
+          "use": "A concédé sous licence à Boehringer Ingelheim un programme d'anticorps précliniques en maladies auto-immunes (juin 2026), tout en restant indépendante et en poursuivant son actif clinique phare IMT-009",
+          "place": "Boston, États-Unis"
+        },
+        {
+          "name": "leadXpro AG",
+          "use": "Prépare, via un accord de collaboration avec Partex.AI, la future concession de licence de son antagoniste du récepteur A2B (A2BR) issu de sa plateforme de protéines membranaires",
+          "place": "Villigen, Suisse"
+        }
+      ],
+      "date": "2026-07-19",
+      "dateLong": "19 juil. 2026"
+    },
     {
       "term": "CDx",
       "full": "Companion Diagnostic",
