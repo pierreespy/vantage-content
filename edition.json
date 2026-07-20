@@ -1,57 +1,125 @@
 {
-  "dateLong": "19 juil. 2026",
+  "dateLong": "20 juil. 2026",
   "ticker": [
-    { "company": "MISSION THERAPEUTICS", "amount": "292 M$", "kind": "mna" },
-    { "company": "PFLEGIA", "amount": "Majoritaire (n.d.)", "kind": "mna" }
+    { "company": "BIONYRA PHARMA", "amount": "165 M$", "kind": "lev" },
+    { "company": "MEDTRONIC / SPR THERAPEUTICS", "amount": "650 M$", "kind": "mna" },
+    { "company": "RQ BIO", "amount": "115 M$", "kind": "lev" },
+    { "company": "HMNC BRAIN HEALTH", "amount": "50 M$", "kind": "lev" },
+    { "company": "HEMISPHERIC", "amount": "52 M$", "kind": "lev" },
+    { "company": "LYRIC / CONCERT", "amount": "Non divulgué", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Cession d'actif · Néphrologie/SNC",
-    "title": "Mission Therapeutics cède son actif rénal à l'australien Dimerix pour financer son pipeline SNC sans dilution",
-    "deck": "La biotech britannique cède à Dimerix les droits sur MTX652, son inhibiteur USP30 en Phase 2 dans l'insuffisance rénale aiguë, contre un paiement initial et jusqu'à 292 M$ de jalons de développement, réglementaires et commerciaux, plus des royalties à deux chiffres. Plutôt que de lever un tour dilutif dans un marché actions encore fermé, Mission Therapeutics réalloue ce capital non-dilutif vers son programme prioritaire en SNC, MTX325, actuellement en Phase 1 dans la maladie de Parkinson.",
-    "company": "Mission Therapeutics",
-    "stage": "Growth",
-    "url": "https://www.globenewswire.com/news-release/2026/07/17/3328928/0/en/Mission-Therapeutics-strikes-deal-worth-up-to-292-million-for-Dimerix-Ltd-to-develop-Acute-Kidney-Injury-asset-MTX652-sharpens-focus-on-its-CNS-pipeline.html"
+    "kicker": "Series A · Immunologie",
+    "title": "Bionyra Pharma lève 165 M$ en Series A, la plus importante de l'histoire de la biotech française",
+    "deck": "Co-menée par Sofinnova Partners et Jeito Capital, avec Sanofi Ventures et Arkin Bio au tour de table, cette Series A sursouscrite finance des anticorps et biologiques de nouvelle génération contre les maladies inflammatoires à médiation immunitaire (dermatite atopique, MICI). Elle confirme l'appétit retrouvé des investisseurs pour l'immunologie de précision en Europe, à contre-courant d'un marché biotech encore sélectif.",
+    "company": "Bionyra Pharma",
+    "stage": "Series A",
+    "url": "https://www.businesswire.com/news/home/20260622319137/en/Bionyra-Pharma-Launches-with-$165-million-Oversubscribed-Series-A-to-Advance-Clinical-Stage-Pipeline-of-Next-Generation-Biologics-for-Immune-Mediated-Inflammatory-Diseases"
   },
   "deal": {
-    "company": "Pflegia",
-    "amount": "Non divulgué",
-    "round": "M&A (participation majoritaire)",
-    "thesis": "Ardian prend une participation majoritaire dans Pflegia, plateforme allemande de « reverse recruiting » alimentée par IA qui met en relation plus de 900 000 soignants inscrits avec plus de 10 000 établissements de santé. L'opération valide les plateformes RH spécialisées santé comme catégorie investissable à part entière face à la pénurie structurelle de personnel soignant en Europe — un comparable utile pour tout VC qui regarde l'infrastructure logicielle du système de santé plutôt que le soin lui-même.",
-    "url": "https://www.ardian.com/news-insights/press-releases/ardian-acquires-majority-stake-pflegia-germanys-leading-digital"
+    "company": "Medtronic / SPR Therapeutics",
+    "amount": "650 M$",
+    "round": "M&A",
+    "thesis": "Medtronic boucle le rachat de SPR Therapeutics, pionnier de la neurostimulation périphérique percutanée pour la douleur chronique et aiguë sans opioïdes — sa troisième acquisition medtech de 2026. L'opération valide à gros multiple les thérapies non-opioïdes contre la douleur comme catégorie de sortie prisée par les majors, un comparable direct pour tout VC qui finance des startups de neuromodulation ou de gestion de la douleur en phase clinique.",
+    "url": "https://news.medtronic.com/2026-07-16-Medtronic-completes-acquisition-of-SPR,-expanding-patient-access-to-minimally-invasive,-non-opioid-treatment-of-chronic-and-acute-pain"
   },
   "brefsEurope": [
     {
-      "company": "EQT Life Sciences",
+      "company": "RQ Bio",
       "place": "Londres, Royaume-Uni",
-      "sector": "MedTech / Digital Health",
+      "sector": "Biotech",
+      "stage": "Series A",
+      "title": "RQ Bio lève 115 M$ en Series A pour son anticorps longue durée contre la grippe",
+      "summary": "La biotech londonienne développe RQB01, un anticorps à action prolongée visant à protéger les personnes immunodéprimées sur une saison grippale entière. Tour mené par Frazier Life Sciences, avec EQT Life Sciences, Forbion, Monograph et Wellington Management.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/24/3316603/0/en/rq-bio-announces-115-million-85-5-million-series-a-financing-to-advance-long-acting-antibody-programme-rqb01-for-full-season-influenza-prevention.html"
+    },
+    {
+      "company": "HMNC Brain Health",
+      "place": "Munich, Allemagne",
+      "sector": "Biotech",
+      "stage": "Series B",
+      "title": "HMNC Brain Health boucle un premier closing de 50 M$ en Series B et s'allie à MEDICE",
+      "summary": "Le laboratoire pharmaceutique familial MEDICE mène ce tour pour accompagner le développement clinique de fin de stade de Ketabon (kétamine orale à libération prolongée) et Nelivabon, deux candidats contre la dépression résistante au traitement.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/15/3311651/0/en/hmnc-brain-health-announces-50-million-first-closing-of-series-b-financing-and-a-strategic-partnership-with-medice.html"
+    },
+    {
+      "company": "Nuclidium",
+      "place": "Bâle, Suisse",
+      "sector": "Biotech / Radiopharma",
+      "stage": "Series B",
+      "title": "Nuclidium étend sa Series B à 105 MCHF pour ses radiothéranostiques au cuivre",
+      "summary": "La biotech bâloise développe des radioligands diagnostiques et thérapeutiques à base de cuivre-61 et cuivre-67. L'extension, menée par Kurma Growth Opportunities Fund, Angelini Ventures et la facilité de coinvestissement de la BEI, finance l'expansion de son réseau de production.",
+      "url": "https://www.globenewswire.com/news-release/2026/05/27/3301676/0/en/nuclidium-announces-closing-of-series-b-extension-bringing-total-round-to-chf-105-million.html"
+    },
+    {
+      "company": "Coultreon Biopharma",
+      "place": "Louvain, Belgique",
+      "sector": "Biotech",
+      "stage": "Series A",
+      "title": "Coultreon Biopharma lève 125 M$ en Series A pour ressusciter un actif immunologique cédé par Galapagos",
+      "summary": "Menée par Sofinnova Investments avec Forbion et Novo Holdings en co-lead, la biotech belge (ex-Onco3R) avance COL-5671, un inhibiteur SIK3 oral issu du pipeline abandonné de Galapagos, vers la Phase 2 dans le psoriasis et la rectocolite hémorragique.",
+      "url": "https://www.globenewswire.com/news-release/2026/04/28/3282440/0/en/coultreon-biopharma-raises-125-million-in-series-a-financing-to-advance-immunology-pipeline.html"
+    },
+    {
+      "company": "Rem3dy Health",
+      "place": "Birmingham, Royaume-Uni",
+      "sector": "Digital Health / Nutrition",
       "stage": "Growth",
-      "title": "British Business Bank engage 25 M€ dans le fonds medtech EQT Health Economics 3",
-      "summary": "La banque publique britannique rejoint le fonds d'EQT Life Sciences dédié aux medtech et digital health en Europe, qui a déjà co-investi aux côtés de la BBB dans Phagenesis (Series D, 42 M$) et Cyted Health (Series B, 44 M$) — un signal de capital institutionnel supplémentaire pour financer la prochaine vague de tours growth medtech au Royaume-Uni.",
-      "url": "https://tech.eu/2026/07/17/british-business-bank-backs-eqt-life-sciences-with-eur25m-commitment/"
+      "title": "Rem3dy Health lève 16 M€ pour son impression 3D de nutrition personnalisée",
+      "summary": "La healthtech britannique (marque Nourished) combine data science, impression 3D et automatisation pour livrer des compléments personnalisés à l'échelle. Le tour, mené par un syndicat d'investisseurs stratégiques (Suntory, Apollo Hospitals, UPSA), finance son expansion aux États-Unis, au Moyen-Orient et en Inde.",
+      "url": "https://www.eu-startups.com/2026/06/uk-based-rem3dy-health-raises-e16-million-to-support-expansion-into-key-markets/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Hemispheric",
+      "place": "Tel Aviv, Israël",
+      "sector": "Digital Health / NeuroAI",
+      "stage": "Seed",
+      "title": "Hemispheric sort de six ans de stealth avec 52 M$ pour son modèle de fondation du cerveau",
+      "summary": "Fondée par le co-inventeur de Face ID d'Apple, la startup israélienne lance Descartes, un modèle NeuroAI de 6 milliards de paramètres entraîné sur 250 000 heures d'EEG pour objectiver le diagnostic de troubles psychiatriques et neurologiques (TSPT, dépression, Alzheimer).",
+      "url": "https://www.businesswire.com/news/home/20260715241532/en/Hemispheric-Emerges-from-Stealth-with-$52M-in-Funding-to-Launch-Descartes-the-First-Frontier-NeuroAI-Model-for-Decoding-the-Human-Brain"
+    },
+    {
+      "company": "Osanni Bio",
+      "place": "Boston, États-Unis",
+      "sector": "Biotech",
+      "stage": "Series B",
+      "title": "Osanni Bio boucle 190 M$ en Series B pour son pipeline ophtalmologie-cardiologie",
+      "summary": "Menée par Patient Square Capital trois ans après sa Series A, la biotech américaine avance un actif de phase clinique contre la DMLA sèche et prépare l'extension de sa plateforme de découverte vers la cardiologie — un comparable de valorisation pour les VC santé qui suivent les plateformes propriétaires de découverte de médicaments.",
+      "url": "https://www.businesswire.com/news/home/20260623418949/en/Osanni-Bio-Closes-$190-Million-Series-B-Financing-Led-by-Patient-Square-Capital"
+    },
+    {
+      "company": "Flare Therapeutics",
+      "place": "Cambridge, États-Unis",
+      "sector": "Biotech",
+      "stage": "Series C",
+      "title": "Flare Therapeutics lève 85 M$ en Series C et nomme Anna Protopapas CEO",
+      "summary": "Le tour, mené par les investisseurs historiques Third Rock Ventures et Nextech Invest avec la participation de Pfizer Ventures, Eli Lilly et Novartis, finance le dégradeur AR de nouvelle génération de la biotech contre le cancer de la prostate.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/30/3319591/0/en/flare-therapeutics-secures-85m-in-insider-led-series-c-financing-and-appoints-anna-protopapas-as-chief-executive-officer.html"
+    }
+  ],
   "word": {
-    "term": "Out-licensing",
-    "full": "Out-licensing (Non-Dilutive Asset Monetization)",
-    "fr": "Concession de licence sortante",
-    "field": "Financement biotech / Business development",
-    "definition": "Une biotech cède les droits d'un actif non prioritaire à un tiers contre un paiement initial, des jalons et des royalties, pour financer son pipeline sans émettre de nouvelles actions.",
+    "term": "NeuroAI",
+    "full": "Neuro Artificial Intelligence (Foundation Models for the Brain)",
+    "fr": "IA neuronale (modèles de fondation du cerveau)",
+    "field": "Neurotechnologie / Santé mentale computationnelle",
+    "definition": "Des modèles de fondation entraînés sur de vastes corpus de signaux cérébraux (EEG, imagerie) pour objectiver et automatiser le diagnostic de troubles neurologiques et psychiatriques, à la manière dont les grands modèles de langage ont transformé le traitement du texte.",
     "parts": [
-      { "label": "Actif cédé", "role": "le programme jugé non-core (souvent validé cliniquement mais hors thèse prioritaire)" },
-      { "label": "Contrepartie", "role": "upfront + jalons de développement/réglementaires/commerciaux + royalties" },
-      { "label": "Capital préservé", "role": "trésorerie réallouée au pipeline prioritaire, sans dilution actionnariale" }
+      { "label": "Corpus d'entraînement", "role": "des dizaines à centaines de milliers d'heures de signaux cérébraux (EEG, IRMf) annotés" },
+      { "label": "Modèle de fondation", "role": "un réseau pré-entraîné à grande échelle qui apprend la structure générique de l'activité cérébrale" },
+      { "label": "Fine-tuning clinique", "role": "adaptation du modèle à une tâche diagnostique précise (dépression, épilepsie, TSPT...)" }
     ],
     "how": [
-      { "n": "1", "h": "Priorisation", "t": "Le board identifie l'actif qui ne s'aligne plus avec la thèse ou les ressources internes de la société." },
-      { "n": "2", "h": "Négociation", "t": "Un repreneur (souvent une société cotée en quête de pipeline) structure upfront, jalons et royalties." },
-      { "n": "3", "h": "Réallocation", "t": "Le capital non-dilutif obtenu finance directement le programme jugé le plus prometteur, sans nouveau tour." }
+      { "n": "1", "h": "Collecte", "t": "Des casques EEG légers ou des dispositifs d'imagerie enregistrent l'activité cérébrale de dizaines de milliers de volontaires." },
+      { "n": "2", "h": "Pré-entraînement", "t": "Un modèle de fondation apprend à représenter les signaux cérébraux de façon générique, indépendamment de la tâche finale." },
+      { "n": "3", "h": "Spécialisation", "t": "Le modèle est affiné pour une application clinique précise — diagnostic, stratification des patients, suivi longitudinal d'un traitement." }
     ],
-    "why": "Dans un marché actions biotech encore sélectif, l'out-licensing devient une tactique de survie et d'optimisation pour les biotechs VC-backed : il étire la trésorerie sans diluer les investisseurs existants, tout en révélant quels actifs deviennent \"orphelins\" faute de capital pour tout développer en interne. Pour un VC santé, suivre ces cessions permet de repérer à la fois les repreneurs actifs (souvent d'anciens acteurs cotés en quête de pipeline) et les biotechs de portefeuille qui pilotent intelligemment leur capital plutôt que de multiplier les tours dilutifs.",
+    "why": "Après le langage et l'imagerie médicale, le cerveau devient le prochain terrain des modèles de fondation : un signal biologique jusque-là illisible à l'échelle devient un biomarqueur quantitatif exploitable. Pour un VC santé, c'est une thèse à surveiller de près — data moats propriétaires, applications en psychiatrie/neurologie sous-diagnostiquées, et un chemin clair vers la pharma (stratification de patients pour essais cliniques) et les payeurs.",
     "startups": [
-      { "name": "Mission Therapeutics", "use": "A cédé son actif rénal MTX652 (Phase 2) à Dimerix en juillet 2026 pour financer sans dilution son programme SNC MTX325 (Parkinson, Phase 1)", "place": "Cambridge, Royaume-Uni" },
-      { "name": "Immunitas Therapeutics", "use": "A concédé sous licence à Boehringer Ingelheim un programme d'anticorps précliniques en maladies auto-immunes (juin 2026), tout en restant indépendante et en poursuivant son actif clinique phare IMT-009", "place": "Boston, États-Unis" },
-      { "name": "leadXpro AG", "use": "Prépare, via un accord de collaboration avec Partex.AI, la future concession de licence de son antagoniste du récepteur A2B (A2BR) issu de sa plateforme de protéines membranaires", "place": "Villigen, Suisse" }
+      { "name": "Hemispheric", "use": "Modèle NeuroAI Descartes (6 Md de paramètres) entraîné sur 250 000 heures d'EEG pour objectiver le diagnostic de troubles psychiatriques et neurologiques ; 52 M$ levés en juillet 2026", "place": "Tel Aviv, Israël" },
+      { "name": "Piramidal", "use": "Modèle de fondation entraîné sur des corpus d'EEG, dont le premier produit est un copilote de diagnostic de l'épilepsie pour les neurologues ; passée par Y Combinator", "place": "New York, États-Unis" },
+      { "name": "Merge Labs", "use": "Startup d'interface cerveau-machine cofondée par Sam Altman, développe avec OpenAI des modèles de fondation scientifiques pour des interfaces neuronales non invasives à ultrasons ; 252 M$ levés en janvier 2026", "place": "San Francisco, États-Unis" }
     ]
   }
 }

@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-19",
+  "generatedAt": "2026-07-20",
   "words": [
+    {
+      "term": "NeuroAI",
+      "full": "Neuro Artificial Intelligence (Foundation Models for the Brain)",
+      "fr": "IA neuronale (modèles de fondation du cerveau)",
+      "field": "Neurotechnologie / Santé mentale computationnelle",
+      "definition": "Des modèles de fondation entraînés sur de vastes corpus de signaux cérébraux (EEG, imagerie) pour objectiver et automatiser le diagnostic de troubles neurologiques et psychiatriques, à la manière dont les grands modèles de langage ont transformé le traitement du texte.",
+      "parts": [
+        {
+          "label": "Corpus d'entraînement",
+          "role": "des dizaines à centaines de milliers d'heures de signaux cérébraux (EEG, IRMf) annotés"
+        },
+        {
+          "label": "Modèle de fondation",
+          "role": "un réseau pré-entraîné à grande échelle qui apprend la structure générique de l'activité cérébrale"
+        },
+        {
+          "label": "Fine-tuning clinique",
+          "role": "adaptation du modèle à une tâche diagnostique précise (dépression, épilepsie, TSPT...)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Des casques EEG légers ou des dispositifs d'imagerie enregistrent l'activité cérébrale de dizaines de milliers de volontaires."
+        },
+        {
+          "n": "2",
+          "h": "Pré-entraînement",
+          "t": "Un modèle de fondation apprend à représenter les signaux cérébraux de façon générique, indépendamment de la tâche finale."
+        },
+        {
+          "n": "3",
+          "h": "Spécialisation",
+          "t": "Le modèle est affiné pour une application clinique précise — diagnostic, stratification des patients, suivi longitudinal d'un traitement."
+        }
+      ],
+      "why": "Après le langage et l'imagerie médicale, le cerveau devient le prochain terrain des modèles de fondation : un signal biologique jusque-là illisible à l'échelle devient un biomarqueur quantitatif exploitable. Pour un VC santé, c'est une thèse à surveiller de près — data moats propriétaires, applications en psychiatrie/neurologie sous-diagnostiquées, et un chemin clair vers la pharma (stratification de patients pour essais cliniques) et les payeurs.",
+      "startups": [
+        {
+          "name": "Hemispheric",
+          "use": "Modèle NeuroAI Descartes (6 Md de paramètres) entraîné sur 250 000 heures d'EEG pour objectiver le diagnostic de troubles psychiatriques et neurologiques ; 52 M$ levés en juillet 2026",
+          "place": "Tel Aviv, Israël"
+        },
+        {
+          "name": "Piramidal",
+          "use": "Modèle de fondation entraîné sur des corpus d'EEG, dont le premier produit est un copilote de diagnostic de l'épilepsie pour les neurologues ; passée par Y Combinator",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "Merge Labs",
+          "use": "Startup d'interface cerveau-machine cofondée par Sam Altman, développe avec OpenAI des modèles de fondation scientifiques pour des interfaces neuronales non invasives à ultrasons ; 252 M$ levés en janvier 2026",
+          "place": "San Francisco, États-Unis"
+        }
+      ],
+      "date": "2026-07-20",
+      "dateLong": "20 juil. 2026"
+    },
     {
       "term": "Out-licensing",
       "full": "Out-licensing (Non-Dilutive Asset Monetization)",
