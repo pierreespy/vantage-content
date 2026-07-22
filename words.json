@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-20",
+  "generatedAt": "2026-07-22",
   "words": [
+    {
+      "term": "OoC",
+      "full": "Organ-on-Chip",
+      "fr": "Organe sur puce",
+      "field": "Technologies précliniques / Alternatives à l'expérimentation animale",
+      "definition": "Un Organ-on-Chip est un dispositif microfluidique de la taille d'une clé USB, tapissé de cellules humaines vivantes, qui reproduit la microarchitecture et les fonctions physiologiques d'un organe pour tester des médicaments sans passer par l'animal.",
+      "parts": [
+        {
+          "label": "Puce microfluidique",
+          "role": "canaux miniaturisés en PDMS ou plastique qui font circuler des fluides pour nourrir les cellules et simuler le flux sanguin"
+        },
+        {
+          "label": "Cellules humaines primaires ou iPSC",
+          "role": "tissus vivants organisés en 3D qui recréent l'architecture et les interactions cellulaires d'un organe réel"
+        },
+        {
+          "label": "Contraintes biomécaniques",
+          "role": "étirement, pression ou péristaltisme reproduits mécaniquement pour restituer le fonctionnement physiologique de l'organe"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Conception de la puce",
+          "t": "Ingénierie d'un circuit microfluidique dédié à l'organe ciblé, avec chambres cellulaires et canaux vasculaires."
+        },
+        {
+          "n": "2",
+          "h": "Ensemencement cellulaire",
+          "t": "Culture de cellules humaines primaires ou dérivées d'iPSC directement sur la puce, en 3D et en flux continu."
+        },
+        {
+          "n": "3",
+          "h": "Test et lecture",
+          "t": "Exposition à une molécule candidate puis mesure de la toxicité, de l'efficacité ou de la pharmacocinétique par imagerie ou biomarqueurs."
+        }
+      ],
+      "why": "La FDA pousse activement à réduire les tests sur l'animal, portée par le FDA Modernization Act 2.0 qui autorise légalement les alternatives non-animales pour l'approbation de médicaments. Pour un VC santé, c'est un changement de paradigme réglementaire qui ouvre un marché préclinique en forte croissance : les organ-on-chip deviennent un outil de dé-risking pour les biotechs et une classe d'actifs de plateforme scalable, vendable en B2B pharma (CRO nouvelle génération).",
+      "startups": [
+        {
+          "name": "MIMETAS",
+          "use": "Plateforme OrganoPlate (culture 3D multi-tissus : foie, rein, intestin, cerveau) ; a lancé une offre Foundry-as-a-Service pour la pharma",
+          "place": "Leiden, Pays-Bas"
+        },
+        {
+          "name": "CN Bio",
+          "use": "Plateforme PhysioMimix, avec le lancement de PhysioMimix Core, système tout-en-un couvrant organe unique et multi-organes",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Vivodyne",
+          "use": "Plateforme robotisée et IA automatisant culture, dosage et analyse de tissus humains à grande échelle ; Série A de 40 M$ menée par Khosla Ventures",
+          "place": "Philadelphie, États-Unis"
+        },
+        {
+          "name": "AlveoliX",
+          "use": "Lung-on-Chip qui reproduit la mécanique respiratoire (étirement alvéolaire) pour la recherche anti-fibrose",
+          "place": "Berne, Suisse"
+        }
+      ],
+      "date": "2026-07-22",
+      "dateLong": "22 juil. 2026"
+    },
     {
       "term": "NeuroAI",
       "full": "Neuro Artificial Intelligence (Foundation Models for the Brain)",
