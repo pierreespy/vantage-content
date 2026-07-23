@@ -1,106 +1,79 @@
 {
-  "dateLong": "22 juil. 2026",
+  "dateLong": "23 juil. 2026",
   "ticker": [
-    { "company": "ENDO TOOLS THERAPEUTICS", "amount": "23 M$", "kind": "lev" },
-    { "company": "KAROO HEALTH", "amount": "16,2 M$", "kind": "lev" },
-    { "company": "TEMPUS AI / PERSONALIS", "amount": "1,7 Md$", "kind": "mna" },
-    { "company": "TRELLIS BIOSCIENCE", "amount": "9 M$", "kind": "lev" },
-    { "company": "ELSE SOLUTIONS / RADIUS", "amount": "Non divulgué", "kind": "mna" },
-    { "company": "410 MEDICAL", "amount": "12 M$", "kind": "lev" }
+    { "company": "ALAN", "amount": "€480M", "kind": "lev" },
+    { "company": "CANDID HEALTH", "amount": "$120M", "kind": "lev" },
+    { "company": "BRENUS PHARMA", "amount": "€11M", "kind": "lev" },
+    { "company": "TYBR HEALTH", "amount": "$30M", "kind": "lev" },
+    { "company": "IMMITRA BIO", "amount": "CHF 2,4M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series C · MedTech / Endoscopie interventionnelle",
-    "title": "Endo Tools Therapeutics lève 23 M$ en Series C pour déployer EZFuse, son système d'agrafage endoscopique tout juste autorisé par la FDA",
-    "deck": "Menée par Capricorn Healthtech Fund II aux côtés de MGFO, cette Series C sursouscrite finance la commercialisation aux États-Unis, en Europe et au Moyen-Orient de la plateforme endomina, dont le nouveau système EZFuse vient de recevoir une autorisation FDA — avec en ligne de mire une indication en perte de poids. Un exemple net du schéma catalyseur réglementaire puis tour de croissance que les VC santé recherchent.",
-    "company": "Endo Tools Therapeutics",
-    "stage": "Series C",
-    "url": "https://www.prnewswire.com/news-releases/endo-tools-therapeutics-secures-23-million-in-series-c-financing-to-advance-the-endomina-technology-and-commercialization-of-new-endomina-ezfuse-system-302826965.html"
+    "kicker": "Series G · Healthtech / Assurance santé",
+    "title": "Alan boucle un tour de 480 M€ mené par Prosus et devient la healthtech privée la plus valorisée d'Europe",
+    "deck": "Le tour est mené par Prosus, avec la participation de Teachers' Venture Growth, Index Ventures et du nouvel entrant Dara Holdings, et valorise l'assureur-santé français 5,5 Md€. Un signal fort pour la thèse « prévention » : Alan dépasse 800 M€ d'ARR (+53% sur un an), franchit 1,1M de membres et est déjà profitable en France.",
+    "company": "Alan",
+    "stage": "Growth",
+    "url": "https://sifted.eu/articles/alan-prosus-raise-series-g-valuation-health-tech"
   },
   "deal": {
-    "company": "Tempus AI / Personalis",
-    "amount": "1,7 Md$",
-    "round": "M&A",
-    "thesis": "Tempus AI rachète Personalis en titres pour intégrer plus étroitement sa techno NeXT Personal de suivi de la maladie résiduelle minimale (MRD) à sa plateforme d'oncologie de précision. Un comparable direct de valorisation pour tout VC qui suit le diagnostic moléculaire et la biopsie liquide en oncologie : la bataille se déplace du diagnostic initial vers le suivi longitudinal post-traitement.",
-    "url": "https://www.tempus.com/news/pr/tempus-to-acquire-personalis-integrating-mrd/"
+    "company": "Brenus Pharma",
+    "amount": "€11M",
+    "round": "Series A (extension)",
+    "thesis": "La biotech lyonnaise étend sa Series A pour faire avancer STC-1010, un vaccin thérapeutique en vivo qui mime l'expression protéique tumorale pour déclencher une réponse immunitaire multi-spécifique contre les cancers colorectaux MSS, jusqu'ici quasi inaccessibles à l'immunothérapie. Le tour, porté par les investisseurs historiques (Bpifrance, Crédit Agricole, Noshaq) et deux entrants internationaux (Sambrinvest, Korea Omega Investment Corp), signale un intérêt croissant hors d'Europe pour la thèse du vaccin anti-récidive.",
+    "url": "https://www.eu-startups.com/2026/07/frances-brenus-pharma-raises-e11-million-series-a-extension-to-advance-immunotherapy-for-hard-to-treat-solid-tumours/"
   },
   "brefsEurope": [
     {
-      "company": "Else Solutions / Radius",
-      "place": "Bologne, Italie",
-      "sector": "MedTech / Imagerie & radiothérapie",
-      "title": "Else Solutions (21 Invest Healthcare) rachète Radius pour consolider la distribution italienne d'imagerie et radiothérapie",
-      "summary": "Le groupe italien de dispositifs médicaux, détenu par le fonds 21 Invest Healthcare, prend 100 % du bolonais Radius, spécialiste de la distribution et production d'équipements de médecine nucléaire et radiothérapie. Un build-up de taille modeste (35 M€ de CA combiné visé) mais révélateur de la consolidation en cours dans la medtech italienne.",
-      "url": "https://bebeez.it/private-equity/else-solutions-21-invest-healthcare-rileva-il-100-della-bolognese-radius-il-fondatore-reinveste/"
-    },
-    {
-      "company": "CriteriaCaixa (Criteria Capital Risc)",
-      "place": "Barcelone, Espagne",
-      "sector": "Fonds / Biotech & DeepTech",
-      "title": "CriteriaCaixa lance Criteria Bio Ventures, un fonds de 300 M€ pour la biotech ibérique",
-      "summary": "La holding de la fondation bancaire la Caixa rebaptise son bras VC Criteria Capital Risc et le scinde en deux véhicules — Criteria Bio Ventures pour la biotech/santé, Criteria Venture Tech pour l'IA et la deeptech — avec un objectif combiné de 300 M€ déployés d'ici 2030 en Espagne et au Portugal. Un nouveau réservoir de capital domestique pour les biotechs ibériques en quête de lead investors locaux.",
-      "url": "https://www.eu-startups.com/2026/07/e300-million-for-iberian-biotech-and-deeptech-as-criteriacaixa-rebrands-its-vc-arm/"
-    },
-    {
-      "company": "Ingenix",
-      "place": "Varsovie, Pologne",
-      "sector": "Biotech / IA de développement de médicaments",
-      "stage": "Seed",
-      "title": "Ingenix lève 13 M€ menés par Sofinnova Partners pour son IA de simulation d'essais cliniques par jumeaux numériques",
-      "summary": "La biotech polonaise développe Modality Fusion, une architecture d'IA générative qui simule des essais cliniques via des jumeaux numériques de patients pour accélérer le développement de médicaments. Extension de seed menée par Sofinnova Partners, avec Inovo VC et OTB VC — un pari sur une géographie encore peu couverte par le capital santé spécialisé.",
-      "url": "https://sofinnovapartners.com/news/ingenix-raises-eur13m-from-sofinnova-partners-led-syndicate-to-scale-modality-fusion-a-novel-architecture-for-drug-development"
+      "company": "Immitra Bio",
+      "place": "Zurich, Suisse",
+      "sector": "Biotech / Édition génique",
+      "stage": "Pre-seed",
+      "title": "Immitra Bio lève CHF 2,4M pour son édition génique in vivo sans vecteur viral",
+      "summary": "Ce spin-out du laboratoire de Jacob Corn (ETH Zurich) développe une plateforme d'édition génique in vivo « mutation-agnostic » et non-virale, une alternative aux approches AAV classiques. Les fonds financent les preuves de concept précliniques d'IB-003, candidat visant une anémie héréditaire.",
+      "url": "https://www.eu-startups.com/2026/07/zurich-based-immitra-bio-secures-e2-58-million-to-scale-its-scalable-in-vivo-genetic-medicine-platform/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Karoo Health",
-      "place": "Albuquerque, États-Unis",
-      "sector": "Digital Health / Cardiologie",
-      "stage": "Series A",
-      "title": "Karoo Health lève 16,2 M$ en Series A pour son OS IA de cardiologie value-based",
-      "summary": "Co-menée par 7wire Ventures et Allumia Ventures, cette Series A sursouscrite finance une plateforme qui connecte payeurs, prestataires et patients pour la détection précoce et la coordination des soins cardiovasculaires — un comparable direct pour les VC qui suivent les plateformes value-based en cardiologie.",
-      "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html"
-    },
-    {
-      "company": "Trellis Bioscience",
-      "place": "Redwood City, États-Unis",
-      "sector": "Biotech / Anti-infectieux",
-      "stage": "Series C",
-      "title": "Trellis Bioscience lève 9 M$ pour son anticorps anti-biofilm contre les infections de prothèses articulaires",
-      "summary": "Rejointe par l'AMR Action Fund et The Doctor Group aux côtés des investisseurs historiques New Science Ventures et Easton Capital, la biotech avance calpurbatug (TRL1068) en Phase 2 — une thèse anti-résistance antimicrobienne qui reste sous-financée malgré l'urgence clinique.",
-      "url": "https://www.biospace.com/press-releases/trellis-bioscience-raises-9-million-to-advance-clinical-development-of-calpurbatug-trl1068"
-    },
-    {
-      "company": "410 Medical",
-      "place": "Durham, États-Unis",
-      "sector": "MedTech / Soins critiques",
+      "company": "Candid Health",
+      "place": "San Francisco, États-Unis",
+      "sector": "Digital Health / Cycle de revenus",
       "stage": "Growth",
-      "title": "410 Medical lève 12 M$ menés par des fonds de systèmes hospitaliers pour son dispositif LifeFlow contre le choc hémorragique",
-      "summary": "Mené par Orlando Health Ventures avec une dizaine de fonds de systèmes de santé (Ballad Health, OSF Healthcare, Tampa General...), ce tour de croissance illustre la montée en puissance du corporate venture hospitalier comme lead investor sur des dispositifs déjà déployés en clinique (500+ hôpitaux).",
-      "url": "https://www.biospace.com/press-releases/410-medical-secures-12-million-in-growth-financing-to-accelerate-commercial-expansion"
+      "title": "Candid Health lève 120 M$ en Series D menée par Sixth Street Growth",
+      "summary": "La plateforme de facturation médicale automatisée par IA triple sa valorisation par rapport à sa Series C 2025, portée par une croissance de revenu contracté de 190% sur un an. Un comparable utile sur l'appétit investisseur pour l'automatisation du cycle de revenus santé, thème adjacent qui chauffe côté growth.",
+      "url": "https://fortune.com/2026/07/22/candid-health-raises-120-million-to-take-on-americas-280-billion-medical-billing-mess/"
+    },
+    {
+      "company": "TYBR Health",
+      "place": "Houston, États-Unis",
+      "sector": "MedTech / Chirurgie",
+      "stage": "Series A",
+      "title": "TYBR Health lève 30 M$ pour son hydrogel chirurgical B3 GEL",
+      "summary": "Le tour, mené par Vensana Capital et Mutual Capital Partners, finance l'expansion commerciale de ce gel matriciel résorbable qui protège tendons et tissus mous pendant la cicatrisation post-chirurgicale, déjà autorisé par la FDA.",
+      "url": "https://www.prnewswire.com/news-releases/tybr-health-announces-30-million-series-a-financing-to-expand-access-to-the-b3-gel-system-302830733.html"
     }
   ],
   "word": {
-    "term": "OoC",
-    "full": "Organ-on-Chip",
-    "fr": "Organe sur puce",
-    "field": "Technologies précliniques / Alternatives à l'expérimentation animale",
-    "definition": "Un Organ-on-Chip est un dispositif microfluidique de la taille d'une clé USB, tapissé de cellules humaines vivantes, qui reproduit la microarchitecture et les fonctions physiologiques d'un organe pour tester des médicaments sans passer par l'animal.",
+    "term": "AAV",
+    "full": "Adeno-Associated Virus",
+    "fr": "Virus adéno-associé",
+    "field": "Thérapie génique / Vecteurs viraux",
+    "definition": "Un AAV est un virus inoffensif pour l'humain, vidé de son propre matériel génétique et rechargé avec un gène thérapeutique, utilisé comme véhicule pour livrer ce gène directement dans les cellules du patient.",
     "parts": [
-      { "label": "Puce microfluidique", "role": "canaux miniaturisés en PDMS ou plastique qui font circuler des fluides pour nourrir les cellules et simuler le flux sanguin" },
-      { "label": "Cellules humaines primaires ou iPSC", "role": "tissus vivants organisés en 3D qui recréent l'architecture et les interactions cellulaires d'un organe réel" },
-      { "label": "Contraintes biomécaniques", "role": "étirement, pression ou péristaltisme reproduits mécaniquement pour restituer le fonctionnement physiologique de l'organe" }
+      { "label": "Capside", "role": "l'enveloppe protéique qui détermine quels tissus le vecteur va cibler (le tropisme)" },
+      { "label": "Génome recombinant", "role": "l'ADN synthétique inséré à la place du génome viral, qui porte le gène thérapeutique" },
+      { "label": "Sérotype", "role": "la variante naturelle ou bio-ingéniérée du virus, choisie pour atteindre un organe précis (œil, foie, cerveau, cœur)" }
     ],
     "how": [
-      { "n": "1", "h": "Conception de la puce", "t": "Ingénierie d'un circuit microfluidique dédié à l'organe ciblé, avec chambres cellulaires et canaux vasculaires." },
-      { "n": "2", "h": "Ensemencement cellulaire", "t": "Culture de cellules humaines primaires ou dérivées d'iPSC directement sur la puce, en 3D et en flux continu." },
-      { "n": "3", "h": "Test et lecture", "t": "Exposition à une molécule candidate puis mesure de la toxicité, de l'efficacité ou de la pharmacocinétique par imagerie ou biomarqueurs." }
+      { "n": "1", "h": "Ingénierie du vecteur", "t": "Conception d'une capside (naturelle ou bio-ingéniérée) associée à un transgène thérapeutique, pour maximiser le ciblage tissulaire et minimiser la réponse immunitaire." },
+      { "n": "2", "h": "Administration", "t": "Injection systémique (intraveineuse) ou locale (sous-rétinienne, intracérébrale) selon l'organe visé." },
+      { "n": "3", "h": "Expression durable", "t": "Le vecteur transduit les cellules cibles et le gène s'y exprime durablement, parfois à vie, sans s'intégrer au génome de l'hôte dans la majorité des cas." }
     ],
-    "why": "La FDA pousse activement à réduire les tests sur l'animal, portée par le FDA Modernization Act 2.0 qui autorise légalement les alternatives non-animales pour l'approbation de médicaments. Pour un VC santé, c'est un changement de paradigme réglementaire qui ouvre un marché préclinique en forte croissance : les organ-on-chip deviennent un outil de dé-risking pour les biotechs et une classe d'actifs de plateforme scalable, vendable en B2B pharma (CRO nouvelle génération).",
+    "why": "Après un coup de froid ces dernières années (plusieurs pharmas ont réduit leurs paris AAV face aux limites de sécurité et de re-dosage), le sujet revient en force côté VC grâce à une nouvelle génération de capsides bio-ingéniérées qui promettent un meilleur ciblage tissulaire, moins de toxicité hépatique et une évasion immunitaire améliorée. Pour un VC santé, c'est un pari sur la plateforme plus que sur l'actif : qui résout le problème de capside générique gagne le droit de le licencier à toute la pharma.",
     "startups": [
-      { "name": "MIMETAS", "use": "Plateforme OrganoPlate (culture 3D multi-tissus : foie, rein, intestin, cerveau) ; a lancé une offre Foundry-as-a-Service pour la pharma", "place": "Leiden, Pays-Bas" },
-      { "name": "CN Bio", "use": "Plateforme PhysioMimix, avec le lancement de PhysioMimix Core, système tout-en-un couvrant organe unique et multi-organes", "place": "Cambridge, Royaume-Uni" },
-      { "name": "Vivodyne", "use": "Plateforme robotisée et IA automatisant culture, dosage et analyse de tissus humains à grande échelle ; Série A de 40 M$ menée par Khosla Ventures", "place": "Philadelphie, États-Unis" },
-      { "name": "AlveoliX", "use": "Lung-on-Chip qui reproduit la mécanique respiratoire (étirement alvéolaire) pour la recherche anti-fibrose", "place": "Berne, Suisse" }
+      { "name": "SparingVision", "use": "Thérapies géniques AAV « mutation-agnostic » pour la rétinite pigmentaire et la DMLA sèche ; a levé €75M pour financer ses essais cliniques", "place": "Paris, France" },
+      { "name": "Coave Therapeutics", "use": "Plateforme de capside universelle OneAAV, découplant ciblage tissulaire et sérotype pour les maladies rares oculaires et du SNC", "place": "Paris, France" },
+      { "name": "Affinia Therapeutics", "use": "Capsides AAV de nouvelle génération pour l'insuffisance cardiaque (AFTX-201, IND FDA acceptée) ; Series C de 40 M$ menée par NEA avec Eli Lilly", "place": "Waltham, États-Unis" }
     ]
   }
 }

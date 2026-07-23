@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-22",
+  "generatedAt": "2026-07-23",
   "words": [
+    {
+      "term": "AAV",
+      "full": "Adeno-Associated Virus",
+      "fr": "Virus adéno-associé",
+      "field": "Thérapie génique / Vecteurs viraux",
+      "definition": "Un AAV est un virus inoffensif pour l'humain, vidé de son propre matériel génétique et rechargé avec un gène thérapeutique, utilisé comme véhicule pour livrer ce gène directement dans les cellules du patient.",
+      "parts": [
+        {
+          "label": "Capside",
+          "role": "l'enveloppe protéique qui détermine quels tissus le vecteur va cibler (le tropisme)"
+        },
+        {
+          "label": "Génome recombinant",
+          "role": "l'ADN synthétique inséré à la place du génome viral, qui porte le gène thérapeutique"
+        },
+        {
+          "label": "Sérotype",
+          "role": "la variante naturelle ou bio-ingéniérée du virus, choisie pour atteindre un organe précis (œil, foie, cerveau, cœur)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ingénierie du vecteur",
+          "t": "Conception d'une capside (naturelle ou bio-ingéniérée) associée à un transgène thérapeutique, pour maximiser le ciblage tissulaire et minimiser la réponse immunitaire."
+        },
+        {
+          "n": "2",
+          "h": "Administration",
+          "t": "Injection systémique (intraveineuse) ou locale (sous-rétinienne, intracérébrale) selon l'organe visé."
+        },
+        {
+          "n": "3",
+          "h": "Expression durable",
+          "t": "Le vecteur transduit les cellules cibles et le gène s'y exprime durablement, parfois à vie, sans s'intégrer au génome de l'hôte dans la majorité des cas."
+        }
+      ],
+      "why": "Après un coup de froid ces dernières années (plusieurs pharmas ont réduit leurs paris AAV face aux limites de sécurité et de re-dosage), le sujet revient en force côté VC grâce à une nouvelle génération de capsides bio-ingéniérées qui promettent un meilleur ciblage tissulaire, moins de toxicité hépatique et une évasion immunitaire améliorée. Pour un VC santé, c'est un pari sur la plateforme plus que sur l'actif : qui résout le problème de capside générique gagne le droit de le licencier à toute la pharma.",
+      "startups": [
+        {
+          "name": "SparingVision",
+          "use": "Thérapies géniques AAV « mutation-agnostic » pour la rétinite pigmentaire et la DMLA sèche ; a levé €75M pour financer ses essais cliniques",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Coave Therapeutics",
+          "use": "Plateforme de capside universelle OneAAV, découplant ciblage tissulaire et sérotype pour les maladies rares oculaires et du SNC",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Affinia Therapeutics",
+          "use": "Capsides AAV de nouvelle génération pour l'insuffisance cardiaque (AFTX-201, IND FDA acceptée) ; Series C de 40 M$ menée par NEA avec Eli Lilly",
+          "place": "Waltham, États-Unis"
+        }
+      ],
+      "date": "2026-07-23",
+      "dateLong": "23 juil. 2026"
+    },
     {
       "term": "OoC",
       "full": "Organ-on-Chip",
