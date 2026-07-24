@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-23",
+  "generatedAt": "2026-07-24",
   "words": [
+    {
+      "term": "iPSC",
+      "full": "Induced Pluripotent Stem Cell",
+      "fr": "Cellule souche pluripotente induite",
+      "field": "Médecine régénérative / Thérapie cellulaire",
+      "definition": "Une iPSC est une cellule adulte ordinaire (peau, sang) reprogrammée en laboratoire pour retrouver un état quasi-embryonnaire, capable ensuite de se différencier en n'importe quel type de cellule du corps humain.",
+      "parts": [
+        {
+          "label": "Reprogrammation",
+          "role": "le retour en arrière — une cellule adulte redevient pluripotente sous l'action de facteurs de transcription"
+        },
+        {
+          "label": "Différenciation dirigée",
+          "role": "l'aiguillage — des protocoles chimiques orientent l'iPSC vers le type cellulaire ciblé (neurone, cellule rénale, myocyte...)"
+        },
+        {
+          "label": "Banque cellulaire allogénique",
+          "role": "le passage à l'échelle — une même lignée iPSC produit des lots standardisés utilisables chez de nombreux patients, sans prélèvement individuel"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement & reprogrammation",
+          "t": "Des cellules somatiques (peau, sang) sont reprogrammées en iPSC via l'expression forcée de facteurs de transcription (type Yamanaka), effaçant leur mémoire cellulaire."
+        },
+        {
+          "n": "2",
+          "h": "Différenciation dirigée",
+          "t": "Des cocktails de facteurs de croissance et petites molécules guident les iPSC vers le type cellulaire voulu — neurones, cellules bêta, myocytes, cellules rénales."
+        },
+        {
+          "n": "3",
+          "h": "Production & greffe",
+          "t": "Les cellules différenciées sont amplifiées en banques standardisées « sur étagère », puis administrées au patient par greffe, perfusion ou injection locale."
+        }
+      ],
+      "why": "Après une première vague de scepticisme sur l'immunogénicité et la reproductibilité, les iPSC reviennent en force côté VC car elles promettent ce que le CAR-T autologue ne peut pas offrir : une thérapie allogénique standardisée, produite à l'échelle industrielle et donc économiquement viable au-delà de l'oncologie — vers le rein, le muscle ou le système nerveux central.",
+      "startups": [
+        {
+          "name": "Bit.bio",
+          "use": "Plateforme opti-ox™ de reprogrammation d'iPSC en types cellulaires matures à la demande, pour la découverte de médicaments ; 50 M$ en Series C menée par M&G en 2026",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Anagenesis Biotechnologies",
+          "use": "Différenciation d'iPSC en précurseurs myogéniques (P2MC) pour les maladies musculaires génétiques ; technologie licenciée à CRISPR Therapeutics pour la dystrophie de Duchenne",
+          "place": "Illkirch-Graffenstaden, France"
+        },
+        {
+          "name": "Rege Nephro",
+          "use": "Programme RN-032 de médecine régénérative rénale dérivée d'iPSC, aux côtés de son candidat clinique RN-014 pour la polykystose rénale ; vient de lever 10,6 M$",
+          "place": "Kyoto, Japon"
+        }
+      ],
+      "date": "2026-07-24",
+      "dateLong": "24 juil. 2026"
+    },
     {
       "term": "AAV",
       "full": "Adeno-Associated Virus",

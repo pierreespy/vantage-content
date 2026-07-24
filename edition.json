@@ -1,79 +1,88 @@
 {
-  "dateLong": "23 juil. 2026",
+  "dateLong": "24 juil. 2026",
   "ticker": [
-    { "company": "ALAN", "amount": "€480M", "kind": "lev" },
-    { "company": "CANDID HEALTH", "amount": "$120M", "kind": "lev" },
-    { "company": "BRENUS PHARMA", "amount": "€11M", "kind": "lev" },
-    { "company": "TYBR HEALTH", "amount": "$30M", "kind": "lev" },
-    { "company": "IMMITRA BIO", "amount": "CHF 2,4M", "kind": "lev" }
+    { "company": "HILO", "amount": "$19M", "kind": "lev" },
+    { "company": "CRYSTALYS THERAPEUTICS", "amount": "$130M", "kind": "lev" },
+    { "company": "SCANCELL / NEUPHORIA", "amount": "$89M", "kind": "mna" },
+    { "company": "ASSURED", "amount": "$19M", "kind": "lev" },
+    { "company": "TIKVA ALLOCELL", "amount": "$8M", "kind": "lev" },
+    { "company": "REGE NEPHRO", "amount": "$10,6M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series G · Healthtech / Assurance santé",
-    "title": "Alan boucle un tour de 480 M€ mené par Prosus et devient la healthtech privée la plus valorisée d'Europe",
-    "deck": "Le tour est mené par Prosus, avec la participation de Teachers' Venture Growth, Index Ventures et du nouvel entrant Dara Holdings, et valorise l'assureur-santé français 5,5 Md€. Un signal fort pour la thèse « prévention » : Alan dépasse 800 M€ d'ARR (+53% sur un an), franchit 1,1M de membres et est déjà profitable en France.",
-    "company": "Alan",
-    "stage": "Growth",
-    "url": "https://sifted.eu/articles/alan-prosus-raise-series-g-valuation-health-tech"
+    "kicker": "Series B (extension) · MedTech / Santé cardiovasculaire connectée",
+    "title": "Hilo lève 19 M$ pour son bracelet de tension artérielle sans brassard, désormais commercialisé aux États-Unis",
+    "deck": "L'extension de Series B, menée par le family office de Michael Dell aux côtés des investisseurs historiques, porte le financement total de la biotech suisse à plus de 119 M$. Hilo Core, son système poignet + brassard connecté validé par huit études cliniques et déjà utilisé par plus de 200 000 personnes, ambitionne de remplacer la mesure ponctuelle au brassard par un suivi tensionnel continu — un pari sur la prochaine génération de diagnostics cardiovasculaires.",
+    "company": "Hilo (Aktiia)",
+    "stage": "Series B",
+    "url": "https://techfundingnews.com/hilo-raises-19m-series-b-extension-for-fitbit-style-blood-pressure-health-system-can-it-replace-145-year-old-cuff-technology/"
   },
   "deal": {
-    "company": "Brenus Pharma",
-    "amount": "€11M",
-    "round": "Series A (extension)",
-    "thesis": "La biotech lyonnaise étend sa Series A pour faire avancer STC-1010, un vaccin thérapeutique en vivo qui mime l'expression protéique tumorale pour déclencher une réponse immunitaire multi-spécifique contre les cancers colorectaux MSS, jusqu'ici quasi inaccessibles à l'immunothérapie. Le tour, porté par les investisseurs historiques (Bpifrance, Crédit Agricole, Noshaq) et deux entrants internationaux (Sambrinvest, Korea Omega Investment Corp), signale un intérêt croissant hors d'Europe pour la thèse du vaccin anti-récidive.",
-    "url": "https://www.eu-startups.com/2026/07/frances-brenus-pharma-raises-e11-million-series-a-extension-to-advance-immunotherapy-for-hard-to-treat-solid-tumours/"
+    "company": "Scancell Holdings / Neuphoria Therapeutics",
+    "amount": "$89M",
+    "round": "M&A + Financement (fusion inversée + PIPE/dette)",
+    "thesis": "Le biotech britannique Scancell absorbe l'américaine Neuphoria Therapeutics (ex-Bionomics, déjà cotée au Nasdaq) pour obtenir un accès direct au marché boursier américain — une manœuvre de plus en plus courante pour les biotechs européennes face à un marché de l'IPO classique toujours étroit. L'opération est adossée à un financement hybride pouvant atteindre 89 M$ (placement privé, PIPE, offre de détail et jusqu'à 25 M$ de dette via BlackRock) pour financer la Phase 3 de son vaccin thérapeutique en mélanome iSCIB1+ et étendre la trésorerie jusqu'en 2029.",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331958/0/en/Scancell-and-Neuphoria-Therapeutics-Announce-Merger-Agreement-and-Financing.html"
   },
-  "brefsEurope": [
-    {
-      "company": "Immitra Bio",
-      "place": "Zurich, Suisse",
-      "sector": "Biotech / Édition génique",
-      "stage": "Pre-seed",
-      "title": "Immitra Bio lève CHF 2,4M pour son édition génique in vivo sans vecteur viral",
-      "summary": "Ce spin-out du laboratoire de Jacob Corn (ETH Zurich) développe une plateforme d'édition génique in vivo « mutation-agnostic » et non-virale, une alternative aux approches AAV classiques. Les fonds financent les preuves de concept précliniques d'IB-003, candidat visant une anémie héréditaire.",
-      "url": "https://www.eu-startups.com/2026/07/zurich-based-immitra-bio-secures-e2-58-million-to-scale-its-scalable-in-vivo-genetic-medicine-platform/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Candid Health",
-      "place": "San Francisco, États-Unis",
-      "sector": "Digital Health / Cycle de revenus",
-      "stage": "Growth",
-      "title": "Candid Health lève 120 M$ en Series D menée par Sixth Street Growth",
-      "summary": "La plateforme de facturation médicale automatisée par IA triple sa valorisation par rapport à sa Series C 2025, portée par une croissance de revenu contracté de 190% sur un an. Un comparable utile sur l'appétit investisseur pour l'automatisation du cycle de revenus santé, thème adjacent qui chauffe côté growth.",
-      "url": "https://fortune.com/2026/07/22/candid-health-raises-120-million-to-take-on-americas-280-billion-medical-billing-mess/"
+      "company": "Crystalys Therapeutics",
+      "place": "San Diego, États-Unis",
+      "sector": "Biotech / Rhumatologie",
+      "stage": "Series B",
+      "title": "Crystalys Therapeutics lève 130 M$ en Series B pour son inhibiteur oral de l'urate contre la goutte réfractaire",
+      "summary": "Le tour, mené par Frazier Life Sciences avec un syndicat incluant Wellington Management, HBM Healthcare Investments et Novo Holdings, finance le développement tardif de dotinurad, un inhibiteur d'URAT1 une fois par jour visant la goutte chronique — une pathologie où peu de nouveaux mécanismes ont émergé depuis des décennies.",
+      "url": "https://www.finsmes.com/2026/07/crystalys-therapeutics-raises-130m-in-series-b-funding.html"
     },
     {
-      "company": "TYBR Health",
-      "place": "Houston, États-Unis",
-      "sector": "MedTech / Chirurgie",
+      "company": "Assured",
+      "place": "États-Unis",
+      "sector": "Digital Health / Opérations santé (IA agentique)",
       "stage": "Series A",
-      "title": "TYBR Health lève 30 M$ pour son hydrogel chirurgical B3 GEL",
-      "summary": "Le tour, mené par Vensana Capital et Mutual Capital Partners, finance l'expansion commerciale de ce gel matriciel résorbable qui protège tendons et tissus mous pendant la cicatrisation post-chirurgicale, déjà autorisé par la FDA.",
-      "url": "https://www.prnewswire.com/news-releases/tybr-health-announces-30-million-series-a-financing-to-expand-access-to-the-b3-gel-system-302830733.html"
+      "title": "Assured lève 19 M$ en Series A pour remplacer le credentialing manuel des médecins par des agents IA autonomes",
+      "summary": "Mené par Insight Partners aux côtés de First Round Capital et Kindred Ventures, ce tour porte le financement total à 25 M$. Les agents d'Assured vérifient automatiquement les données de praticiens sur plus de 2 000 sources primaires, promettant d'accélérer de 30% la mise en réseau des médecins auprès des payeurs — un cas d'usage concret de l'IA agentique dans les coûts d'exploitation santé.",
+      "url": "https://www.mobihealthnews.com/news/assured-raises-19m-ai-provider-operations-platform"
+    },
+    {
+      "company": "Tikva Allocell",
+      "place": "Singapour",
+      "sector": "Biotech / Thérapie cellulaire allogénique",
+      "stage": "Series A",
+      "title": "Tikva Allocell lève 8 M$ en Series A pour sa thérapie cellulaire allogénique « prête à l'emploi » contre les tumeurs solides",
+      "summary": "Menée par Kantharos Capital, cette première levée institutionnelle finance les études réglementaires en vue d'un dépôt d'IND fin 2026 pour TAVST01, candidat ciblant B7-H3 dans les cancers du poumon, du sein, de la prostate et le pancréas. Contrairement aux CAR-T autologues, la plateforme EBVST (licenciée de Baylor College of Medicine) mise sur l'allogénique pour sortir la thérapie cellulaire de ses limites historiques dans les tumeurs solides.",
+      "url": "https://www.prnewswire.com/news-releases/tikva-allocell-closes-8-million-series-a-financing-to-advance-engineered-ebv-specific-t-cell-therapy-for-solid-tumors-302831469.html"
+    },
+    {
+      "company": "Rege Nephro",
+      "place": "Kyoto, Japon",
+      "sector": "Biotech / Médecine régénérative rénale",
+      "stage": "Growth",
+      "title": "Rege Nephro sécurise 10,6 M$ pour commercialiser son traitement de la polykystose rénale et avancer sa pipeline dérivée d'iPSC",
+      "summary": "Financé par émission de J-KISS auprès d'un large syndicat japonais (JAFCO, Mitsubishi UFJ Capital, SPARX Asset Management), ce tour prépare la commercialisation de RN-014, son candidat pour la polykystose rénale autosomique dominante qui vient de terminer sa Phase 2a, et finance RN-032, un programme de médecine régénérative dérivé de cellules iPS.",
+      "url": "https://www.prnewswire.com/news-releases/rege-nephro-secures-approximately-us10-6-million-to-advance-rn-014-toward-commercialization-302828464.html"
     }
   ],
   "word": {
-    "term": "AAV",
-    "full": "Adeno-Associated Virus",
-    "fr": "Virus adéno-associé",
-    "field": "Thérapie génique / Vecteurs viraux",
-    "definition": "Un AAV est un virus inoffensif pour l'humain, vidé de son propre matériel génétique et rechargé avec un gène thérapeutique, utilisé comme véhicule pour livrer ce gène directement dans les cellules du patient.",
+    "term": "iPSC",
+    "full": "Induced Pluripotent Stem Cell",
+    "fr": "Cellule souche pluripotente induite",
+    "field": "Médecine régénérative / Thérapie cellulaire",
+    "definition": "Une iPSC est une cellule adulte ordinaire (peau, sang) reprogrammée en laboratoire pour retrouver un état quasi-embryonnaire, capable ensuite de se différencier en n'importe quel type de cellule du corps humain.",
     "parts": [
-      { "label": "Capside", "role": "l'enveloppe protéique qui détermine quels tissus le vecteur va cibler (le tropisme)" },
-      { "label": "Génome recombinant", "role": "l'ADN synthétique inséré à la place du génome viral, qui porte le gène thérapeutique" },
-      { "label": "Sérotype", "role": "la variante naturelle ou bio-ingéniérée du virus, choisie pour atteindre un organe précis (œil, foie, cerveau, cœur)" }
+      { "label": "Reprogrammation", "role": "le retour en arrière — une cellule adulte redevient pluripotente sous l'action de facteurs de transcription" },
+      { "label": "Différenciation dirigée", "role": "l'aiguillage — des protocoles chimiques orientent l'iPSC vers le type cellulaire ciblé (neurone, cellule rénale, myocyte...)" },
+      { "label": "Banque cellulaire allogénique", "role": "le passage à l'échelle — une même lignée iPSC produit des lots standardisés utilisables chez de nombreux patients, sans prélèvement individuel" }
     ],
     "how": [
-      { "n": "1", "h": "Ingénierie du vecteur", "t": "Conception d'une capside (naturelle ou bio-ingéniérée) associée à un transgène thérapeutique, pour maximiser le ciblage tissulaire et minimiser la réponse immunitaire." },
-      { "n": "2", "h": "Administration", "t": "Injection systémique (intraveineuse) ou locale (sous-rétinienne, intracérébrale) selon l'organe visé." },
-      { "n": "3", "h": "Expression durable", "t": "Le vecteur transduit les cellules cibles et le gène s'y exprime durablement, parfois à vie, sans s'intégrer au génome de l'hôte dans la majorité des cas." }
+      { "n": "1", "h": "Prélèvement & reprogrammation", "t": "Des cellules somatiques (peau, sang) sont reprogrammées en iPSC via l'expression forcée de facteurs de transcription (type Yamanaka), effaçant leur mémoire cellulaire." },
+      { "n": "2", "h": "Différenciation dirigée", "t": "Des cocktails de facteurs de croissance et petites molécules guident les iPSC vers le type cellulaire voulu — neurones, cellules bêta, myocytes, cellules rénales." },
+      { "n": "3", "h": "Production & greffe", "t": "Les cellules différenciées sont amplifiées en banques standardisées « sur étagère », puis administrées au patient par greffe, perfusion ou injection locale." }
     ],
-    "why": "Après un coup de froid ces dernières années (plusieurs pharmas ont réduit leurs paris AAV face aux limites de sécurité et de re-dosage), le sujet revient en force côté VC grâce à une nouvelle génération de capsides bio-ingéniérées qui promettent un meilleur ciblage tissulaire, moins de toxicité hépatique et une évasion immunitaire améliorée. Pour un VC santé, c'est un pari sur la plateforme plus que sur l'actif : qui résout le problème de capside générique gagne le droit de le licencier à toute la pharma.",
+    "why": "Après une première vague de scepticisme sur l'immunogénicité et la reproductibilité, les iPSC reviennent en force côté VC car elles promettent ce que le CAR-T autologue ne peut pas offrir : une thérapie allogénique standardisée, produite à l'échelle industrielle et donc économiquement viable au-delà de l'oncologie — vers le rein, le muscle ou le système nerveux central.",
     "startups": [
-      { "name": "SparingVision", "use": "Thérapies géniques AAV « mutation-agnostic » pour la rétinite pigmentaire et la DMLA sèche ; a levé €75M pour financer ses essais cliniques", "place": "Paris, France" },
-      { "name": "Coave Therapeutics", "use": "Plateforme de capside universelle OneAAV, découplant ciblage tissulaire et sérotype pour les maladies rares oculaires et du SNC", "place": "Paris, France" },
-      { "name": "Affinia Therapeutics", "use": "Capsides AAV de nouvelle génération pour l'insuffisance cardiaque (AFTX-201, IND FDA acceptée) ; Series C de 40 M$ menée par NEA avec Eli Lilly", "place": "Waltham, États-Unis" }
+      { "name": "Bit.bio", "use": "Plateforme opti-ox™ de reprogrammation d'iPSC en types cellulaires matures à la demande, pour la découverte de médicaments ; 50 M$ en Series C menée par M&G en 2026", "place": "Cambridge, Royaume-Uni" },
+      { "name": "Anagenesis Biotechnologies", "use": "Différenciation d'iPSC en précurseurs myogéniques (P2MC) pour les maladies musculaires génétiques ; technologie licenciée à CRISPR Therapeutics pour la dystrophie de Duchenne", "place": "Illkirch-Graffenstaden, France" },
+      { "name": "Rege Nephro", "use": "Programme RN-032 de médecine régénérative rénale dérivée d'iPSC, aux côtés de son candidat clinique RN-014 pour la polykystose rénale ; vient de lever 10,6 M$", "place": "Kyoto, Japon" }
     ]
   }
 }
