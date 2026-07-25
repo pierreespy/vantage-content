@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-24",
+  "generatedAt": "2026-07-25",
   "words": [
+    {
+      "term": "Molecular Glue",
+      "full": "Molecular Glue Degrader",
+      "fr": "Colle moléculaire (dégradeur protéique)",
+      "field": "Oncologie / Protéomique ciblée",
+      "definition": "Une petite molécule qui ne bloque pas sa cible comme un médicament classique, mais colle deux protéines l'une à l'autre pour forcer la cellule à détruire elle-même la protéine indésirable.",
+      "parts": [
+        {
+          "label": "Colle (petite molécule)",
+          "role": "l'agent qui rapproche les deux protéines"
+        },
+        {
+          "label": "E3 ligase",
+          "role": "la machinerie cellulaire de dégradation recrutée de force"
+        },
+        {
+          "label": "Protéine cible",
+          "role": "la protéine pathogène marquée pour destruction"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Recrutement",
+          "t": "La molécule colle rapproche physiquement la protéine cible et une E3 ligase, deux protéines qui ne s'associent jamais naturellement."
+        },
+        {
+          "n": "2",
+          "h": "Ubiquitination",
+          "t": "La E3 ligase, ainsi détournée, étiquette la protéine cible avec des chaînes d'ubiquitine, le signal cellulaire de « à détruire »."
+        },
+        {
+          "n": "3",
+          "h": "Dégradation",
+          "t": "Le protéasome de la cellule reconnaît l'étiquette et détruit la protéine cible, qui peut alors être recyclée pour dégrader une nouvelle copie — un mode d'action catalytique, pas stœchiométrique."
+        }
+      ],
+      "why": "Contrairement à un inhibiteur classique qui doit se loger dans une poche active, une colle moléculaire n'a besoin que d'une surface d'interaction — ce qui ouvre des cibles longtemps jugées « indruggables » (facteurs de transcription, protéines d'échafaudage). D'où l'appétit croissant de la pharma (Novartis, Merck KGaA, Eli Lilly, Pfizer) pour des plateformes encore privées : la modalité change la taille du marché adressable, pas seulement la molécule.",
+      "startups": [
+        {
+          "name": "Neomorph",
+          "use": "Plateforme de colles moléculaires ; a bouclé une Series B de 100 M$ en avril 2026 menée par Deerfield pour son candidat clinique NEO-811",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "Amphista Therapeutics",
+          "use": "Plateforme « Targeted Glue » ; programmes précliniques SMARCA2 et TEAD présentés à l'AACR 2026, partenariats avec Novartis et Eli Lilly",
+          "place": "Écosse, Royaume-Uni"
+        },
+        {
+          "name": "Proxygen",
+          "use": "Découverte de colles moléculaires ; accord de recherche pouvant atteindre 554 M$ avec Merck KGaA",
+          "place": "Vienne, Autriche"
+        }
+      ],
+      "date": "2026-07-25",
+      "dateLong": "25 juil. 2026"
+    },
     {
       "term": "iPSC",
       "full": "Induced Pluripotent Stem Cell",

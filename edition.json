@@ -1,88 +1,89 @@
 {
-  "dateLong": "24 juil. 2026",
+  "dateLong": "25 juil. 2026",
   "ticker": [
-    { "company": "HILO", "amount": "$19M", "kind": "lev" },
-    { "company": "CRYSTALYS THERAPEUTICS", "amount": "$130M", "kind": "lev" },
-    { "company": "SCANCELL / NEUPHORIA", "amount": "$89M", "kind": "mna" },
-    { "company": "ASSURED", "amount": "$19M", "kind": "lev" },
-    { "company": "TIKVA ALLOCELL", "amount": "$8M", "kind": "lev" },
-    { "company": "REGE NEPHRO", "amount": "$10,6M", "kind": "lev" }
+    { "company": "TIDALSENSE", "amount": "€16,6M", "kind": "lev" },
+    { "company": "MENTARI THERAPEUTICS", "amount": "$200M", "kind": "lev" },
+    { "company": "NEURIMMUNE", "amount": "$425M", "kind": "lev" },
+    { "company": "PROSPER MEDICAL", "amount": "$16M", "kind": "lev" },
+    { "company": "IPSEN / MEMO THERAPEUTICS", "amount": "900M€", "kind": "mna" },
+    { "company": "REPLIGEN / BIOLIFE SOLUTIONS", "amount": "$1,5Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series B (extension) · MedTech / Santé cardiovasculaire connectée",
-    "title": "Hilo lève 19 M$ pour son bracelet de tension artérielle sans brassard, désormais commercialisé aux États-Unis",
-    "deck": "L'extension de Series B, menée par le family office de Michael Dell aux côtés des investisseurs historiques, porte le financement total de la biotech suisse à plus de 119 M$. Hilo Core, son système poignet + brassard connecté validé par huit études cliniques et déjà utilisé par plus de 200 000 personnes, ambitionne de remplacer la mesure ponctuelle au brassard par un suivi tensionnel continu — un pari sur la prochaine génération de diagnostics cardiovasculaires.",
-    "company": "Hilo (Aktiia)",
-    "stage": "Series B",
-    "url": "https://techfundingnews.com/hilo-raises-19m-series-b-extension-for-fitbit-style-blood-pressure-health-system-can-it-replace-145-year-old-cuff-technology/"
+    "kicker": "Growth · Diagnostic respiratoire IA",
+    "title": "TidalSense lève 16,6 M€ pour exporter aux États-Unis son diagnostic respiratoire par IA",
+    "deck": "Le tour accueille l'entrant Cross-Border Impact Ventures aux côtés des historiques BGF, Airstream Capital et Foresight Group, portant le financement total de la medtech de Cambridge à 35 M€. De quoi accélérer la commercialisation de son capteur breveté N-Tidal, qui transforme un simple souffle en biomarqueur numérique pour diagnostiquer BPCO et asthme sans passer par un laboratoire.",
+    "company": "TidalSense",
+    "stage": "Growth",
+    "url": "https://www.eu-startups.com/2026/07/cambridge-based-tidalsense-raises-e16-6-million-to-take-its-ai-respiratory-diagnostic-technology-global/"
   },
   "deal": {
-    "company": "Scancell Holdings / Neuphoria Therapeutics",
-    "amount": "$89M",
-    "round": "M&A + Financement (fusion inversée + PIPE/dette)",
-    "thesis": "Le biotech britannique Scancell absorbe l'américaine Neuphoria Therapeutics (ex-Bionomics, déjà cotée au Nasdaq) pour obtenir un accès direct au marché boursier américain — une manœuvre de plus en plus courante pour les biotechs européennes face à un marché de l'IPO classique toujours étroit. L'opération est adossée à un financement hybride pouvant atteindre 89 M$ (placement privé, PIPE, offre de détail et jusqu'à 25 M$ de dette via BlackRock) pour financer la Phase 3 de son vaccin thérapeutique en mélanome iSCIB1+ et étendre la trésorerie jusqu'en 2029.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/23/3331958/0/en/Scancell-and-Neuphoria-Therapeutics-Announce-Merger-Agreement-and-Financing.html"
+    "company": "Memo Therapeutics",
+    "amount": "Jusqu'à 900 M€",
+    "round": "M&A",
+    "thesis": "Ipsen boucle le rachat de la biotech zurichoise Memo Therapeutics (200 M€ upfront, jusqu'à 700 M€ de milestones) pour mettre la main sur le potravitug, un anticorps first-in-class contre la réactivation du polyomavirus BK chez les greffés rénaux — un besoin non couvert qui touche 30% des transplantés. Signal utile pour un VC santé : les groupes pharma paient cher des actifs first-in-class en maladies rares sortis de labos suisses, même en Phase II, dès lors que le mécanisme est net et le marché de niche mais captif.",
+    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331074/0/en/Ipsen-completes-acquisition-of-Memo-Therapeutics-AG-adding-first-in-class-asset-to-Ipsen-s-Rare-Disease-pipeline.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Neurimmune",
+      "place": "Zurich, Suisse",
+      "sector": "Biotech / Financement non-dilutif",
+      "stage": "Growth",
+      "title": "Neurimmune cède une part de ses royalties sur le cliramitug à Royalty Pharma pour 425 M$",
+      "summary": "La biotech suisse monétise jusqu'à 425 M$ (dont 125 M$ upfront) de ses futures royalties sur cet anticorps anti-amylose développé avec AstraZeneca, sans diluer son capital. Un exemple concret de financement non-dilutif pour une biotech privée qui a déjà un actif partenarié en aval.",
+      "url": "https://www.prnewswire.com/news-releases/neurimmune-sells-a-portion-of-its-royalty-interest-in-cliramitug-to-royalty-pharma-302831337.html"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Crystalys Therapeutics",
-      "place": "San Diego, États-Unis",
-      "sector": "Biotech / Rhumatologie",
-      "stage": "Series B",
-      "title": "Crystalys Therapeutics lève 130 M$ en Series B pour son inhibiteur oral de l'urate contre la goutte réfractaire",
-      "summary": "Le tour, mené par Frazier Life Sciences avec un syndicat incluant Wellington Management, HBM Healthcare Investments et Novo Holdings, finance le développement tardif de dotinurad, un inhibiteur d'URAT1 une fois par jour visant la goutte chronique — une pathologie où peu de nouveaux mécanismes ont émergé depuis des décennies.",
-      "url": "https://www.finsmes.com/2026/07/crystalys-therapeutics-raises-130m-in-series-b-funding.html"
-    },
-    {
-      "company": "Assured",
-      "place": "États-Unis",
-      "sector": "Digital Health / Opérations santé (IA agentique)",
-      "stage": "Series A",
-      "title": "Assured lève 19 M$ en Series A pour remplacer le credentialing manuel des médecins par des agents IA autonomes",
-      "summary": "Mené par Insight Partners aux côtés de First Round Capital et Kindred Ventures, ce tour porte le financement total à 25 M$. Les agents d'Assured vérifient automatiquement les données de praticiens sur plus de 2 000 sources primaires, promettant d'accélérer de 30% la mise en réseau des médecins auprès des payeurs — un cas d'usage concret de l'IA agentique dans les coûts d'exploitation santé.",
-      "url": "https://www.mobihealthnews.com/news/assured-raises-19m-ai-provider-operations-platform"
-    },
-    {
-      "company": "Tikva Allocell",
-      "place": "Singapour",
-      "sector": "Biotech / Thérapie cellulaire allogénique",
-      "stage": "Series A",
-      "title": "Tikva Allocell lève 8 M$ en Series A pour sa thérapie cellulaire allogénique « prête à l'emploi » contre les tumeurs solides",
-      "summary": "Menée par Kantharos Capital, cette première levée institutionnelle finance les études réglementaires en vue d'un dépôt d'IND fin 2026 pour TAVST01, candidat ciblant B7-H3 dans les cancers du poumon, du sein, de la prostate et le pancréas. Contrairement aux CAR-T autologues, la plateforme EBVST (licenciée de Baylor College of Medicine) mise sur l'allogénique pour sortir la thérapie cellulaire de ses limites historiques dans les tumeurs solides.",
-      "url": "https://www.prnewswire.com/news-releases/tikva-allocell-closes-8-million-series-a-financing-to-advance-engineered-ebv-specific-t-cell-therapy-for-solid-tumors-302831469.html"
-    },
-    {
-      "company": "Rege Nephro",
-      "place": "Kyoto, Japon",
-      "sector": "Biotech / Médecine régénérative rénale",
+      "company": "Mentari Therapeutics",
+      "place": "Waltham, États-Unis",
+      "sector": "Biotech / Neurologie (migraine)",
       "stage": "Growth",
-      "title": "Rege Nephro sécurise 10,6 M$ pour commercialiser son traitement de la polykystose rénale et avancer sa pipeline dérivée d'iPSC",
-      "summary": "Financé par émission de J-KISS auprès d'un large syndicat japonais (JAFCO, Mitsubishi UFJ Capital, SPARX Asset Management), ce tour prépare la commercialisation de RN-014, son candidat pour la polykystose rénale autosomique dominante qui vient de terminer sa Phase 2a, et finance RN-032, un programme de médecine régénérative dérivé de cellules iPS.",
-      "url": "https://www.prnewswire.com/news-releases/rege-nephro-secures-approximately-us10-6-million-to-advance-rn-014-toward-commercialization-302828464.html"
+      "title": "Mentari Therapeutics ajoute 200 M$ en placement privé, portant son financement à 490 M$ avant sa cotation au Nasdaq",
+      "summary": "Le tour, souscrit par Fairmount, RTW Investments, Vivo Capital et BB Biotech entre autres, finance MT-001 et MT-002, des candidats anti-PACAP visant à prévenir la migraine par un mécanisme distinct du CGRP déjà exploité par la concurrence. Un pari sur une deuxième vague de cibles en prévention migraineuse.",
+      "url": "https://www.prnewswire.com/news-releases/mentari-therapeutics-announces-200-million-private-placement-for-migraine-prevention-pipeline-302832045.html"
+    },
+    {
+      "company": "Prosper Medical",
+      "place": "San Francisco, États-Unis",
+      "sector": "Digital Health / Soins primaires",
+      "stage": "Seed",
+      "title": "Prosper Medical lève 16 M$ pour une médecine de concierge boostée à l'IA, remboursée par les assurances",
+      "summary": "Fondée par les ex-cofondateurs de PlushCare (racheté 450 M$ par Accolade), la startup mise sur l'IA pour offrir un suivi médecin-patient façon concierge à un coût proche du système assurantiel classique. Tour mené par FUSE, avec Aurum Partners, Better.vc et Latitude Capital.",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/prosper-medical-banks-16m-scale-ai-driven-concierge-care-platform"
+    },
+    {
+      "company": "Repligen / BioLife Solutions",
+      "place": "Bothell, États-Unis",
+      "sector": "MedTech / Outils thérapie cellulaire",
+      "stage": "Growth",
+      "title": "Repligen rachète BioLife Solutions pour 1,5 Md$ et met la main sur la biopréservation cellulaire",
+      "summary": "Cash-and-stock deal pour le fabricant de CryoStor, milieu de biopréservation utilisé dans la majorité des essais de thérapie cellulaire commerciaux aux États-Unis. Comparable utile sur la valorisation des « pelles et pioches » de la thérapie cellulaire, un sous-secteur qui intéresse de plus en plus les VC en quête de modèles moins risqués que l'actif thérapeutique lui-même.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/22/3331162/0/en/repligen-to-acquire-biolife-solutions-expanding-its-cell-therapy-capabilities-with-market-leading-biopreservation-media.html"
     }
   ],
   "word": {
-    "term": "iPSC",
-    "full": "Induced Pluripotent Stem Cell",
-    "fr": "Cellule souche pluripotente induite",
-    "field": "Médecine régénérative / Thérapie cellulaire",
-    "definition": "Une iPSC est une cellule adulte ordinaire (peau, sang) reprogrammée en laboratoire pour retrouver un état quasi-embryonnaire, capable ensuite de se différencier en n'importe quel type de cellule du corps humain.",
+    "term": "Molecular Glue",
+    "full": "Molecular Glue Degrader",
+    "fr": "Colle moléculaire (dégradeur protéique)",
+    "field": "Oncologie / Protéomique ciblée",
+    "definition": "Une petite molécule qui ne bloque pas sa cible comme un médicament classique, mais colle deux protéines l'une à l'autre pour forcer la cellule à détruire elle-même la protéine indésirable.",
     "parts": [
-      { "label": "Reprogrammation", "role": "le retour en arrière — une cellule adulte redevient pluripotente sous l'action de facteurs de transcription" },
-      { "label": "Différenciation dirigée", "role": "l'aiguillage — des protocoles chimiques orientent l'iPSC vers le type cellulaire ciblé (neurone, cellule rénale, myocyte...)" },
-      { "label": "Banque cellulaire allogénique", "role": "le passage à l'échelle — une même lignée iPSC produit des lots standardisés utilisables chez de nombreux patients, sans prélèvement individuel" }
+      { "label": "Colle (petite molécule)", "role": "l'agent qui rapproche les deux protéines" },
+      { "label": "E3 ligase", "role": "la machinerie cellulaire de dégradation recrutée de force" },
+      { "label": "Protéine cible", "role": "la protéine pathogène marquée pour destruction" }
     ],
     "how": [
-      { "n": "1", "h": "Prélèvement & reprogrammation", "t": "Des cellules somatiques (peau, sang) sont reprogrammées en iPSC via l'expression forcée de facteurs de transcription (type Yamanaka), effaçant leur mémoire cellulaire." },
-      { "n": "2", "h": "Différenciation dirigée", "t": "Des cocktails de facteurs de croissance et petites molécules guident les iPSC vers le type cellulaire voulu — neurones, cellules bêta, myocytes, cellules rénales." },
-      { "n": "3", "h": "Production & greffe", "t": "Les cellules différenciées sont amplifiées en banques standardisées « sur étagère », puis administrées au patient par greffe, perfusion ou injection locale." }
+      { "n": "1", "h": "Recrutement", "t": "La molécule colle rapproche physiquement la protéine cible et une E3 ligase, deux protéines qui ne s'associent jamais naturellement." },
+      { "n": "2", "h": "Ubiquitination", "t": "La E3 ligase, ainsi détournée, étiquette la protéine cible avec des chaînes d'ubiquitine, le signal cellulaire de « à détruire »." },
+      { "n": "3", "h": "Dégradation", "t": "Le protéasome de la cellule reconnaît l'étiquette et détruit la protéine cible, qui peut alors être recyclée pour dégrader une nouvelle copie — un mode d'action catalytique, pas stœchiométrique." }
     ],
-    "why": "Après une première vague de scepticisme sur l'immunogénicité et la reproductibilité, les iPSC reviennent en force côté VC car elles promettent ce que le CAR-T autologue ne peut pas offrir : une thérapie allogénique standardisée, produite à l'échelle industrielle et donc économiquement viable au-delà de l'oncologie — vers le rein, le muscle ou le système nerveux central.",
+    "why": "Contrairement à un inhibiteur classique qui doit se loger dans une poche active, une colle moléculaire n'a besoin que d'une surface d'interaction — ce qui ouvre des cibles longtemps jugées « indruggables » (facteurs de transcription, protéines d'échafaudage). D'où l'appétit croissant de la pharma (Novartis, Merck KGaA, Eli Lilly, Pfizer) pour des plateformes encore privées : la modalité change la taille du marché adressable, pas seulement la molécule.",
     "startups": [
-      { "name": "Bit.bio", "use": "Plateforme opti-ox™ de reprogrammation d'iPSC en types cellulaires matures à la demande, pour la découverte de médicaments ; 50 M$ en Series C menée par M&G en 2026", "place": "Cambridge, Royaume-Uni" },
-      { "name": "Anagenesis Biotechnologies", "use": "Différenciation d'iPSC en précurseurs myogéniques (P2MC) pour les maladies musculaires génétiques ; technologie licenciée à CRISPR Therapeutics pour la dystrophie de Duchenne", "place": "Illkirch-Graffenstaden, France" },
-      { "name": "Rege Nephro", "use": "Programme RN-032 de médecine régénérative rénale dérivée d'iPSC, aux côtés de son candidat clinique RN-014 pour la polykystose rénale ; vient de lever 10,6 M$", "place": "Kyoto, Japon" }
+      { "name": "Neomorph", "use": "Plateforme de colles moléculaires ; a bouclé une Series B de 100 M$ en avril 2026 menée par Deerfield pour son candidat clinique NEO-811", "place": "San Diego, États-Unis" },
+      { "name": "Amphista Therapeutics", "use": "Plateforme « Targeted Glue » ; programmes précliniques SMARCA2 et TEAD présentés à l'AACR 2026, partenariats avec Novartis et Eli Lilly", "place": "Écosse, Royaume-Uni" },
+      { "name": "Proxygen", "use": "Découverte de colles moléculaires ; accord de recherche pouvant atteindre 554 M$ avec Merck KGaA", "place": "Vienne, Autriche" }
     ]
   }
 }
