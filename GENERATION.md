@@ -68,19 +68,34 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
    autre encore indépendante. Le `use` = un fait vérifié, jamais une généralité.
 4. **Générer le reste de l'édition** (`dateLong`, `ticker`, `lead`, `deal`,
    `brefsEurope`, `brefsIntl`) — **règle éditoriale permanente : noms précis** (société,
-   montant, investisseur en lead), jamais de descriptions vagues.
+   montant, investisseur lead ; ou, pour un signal faible, LE FAIT précis : désignation
+   réglementaire, phase/endpoint d'essai, partenaire, dirigeant, brevet), jamais de
+   descriptions vagues.
+   - **Élargissement aux signaux faibles + rééquilibrage MedTech** (décision de Pierre,
+     juillet 2026) : ne pas se limiter aux levées / M&A (signaux *tardifs* — « trop tard »
+     pour entrer). Capter en priorité les **signaux faibles en amont** : réglementaire
+     (FDA 510(k)/PMA/De Novo, Breakthrough Device, marquage CE ; EMA orphelines/EPAR ; HAS),
+     clinique (changement de statut d'essai), remboursement, brevets, publications/preprints,
+     nominations de dirigeants (wires officiels), partenariats/pilotes. Le **MedTech doit être
+     au moins à parité avec la biotech** sur l'édition. Détail : `docs/signals-plan.md` (dépôt
+     `vantage`).
+   - **Champs `signalType` + `strength`** sur `lead` et chaque brève : le **type** de signal et
+     sa **force** (1–5). `signalType` ∈ `leadership_hire | regulatory_milestone |
+     clinical_update | reimbursement | patent_filing | publication_preprint |
+     conference_abstract | early_partnership | funding_round | acquisition`. Barème dans
+     `DAILY_PROMPT.md`. L'app badge le type (signaux précoces en accent, funding/M&A atténués).
    - **Champ `stage`** (optionnel) sur `lead` et chaque brève : le round de l'opération
      (`"Pre-seed"`, `"Seed"`, `"Series A"`, `"Series B"`, `"Series C"`, `"Growth"`,
      `"IPO"`…). L'app **mémorise** ce stade par société et l'affiche sur la carte Favoris.
      Ainsi le stade reste **dynamique et exact** (mis à jour à chaque nouvelle levée),
      plutôt que gravé en dur. À remplir dès que le round est connu.
-   - **Quota quotidien de brèves** (décision permanente de Pierre, 9 juillet 2026,
-     précisée le même jour) : viser **5 items dans `brefsEurope` et 3 dans
-     `brefsIntl`, tous les jours**, en plus de `lead` et `deal`. **Fenêtre de
-     fraîcheur non négociable : 24–72h.** Le quota est une cible, pas une excuse pour
-     publier du remplissage — **interdiction absolue d'élargir la fenêtre temporelle
-     pour combler un manque** (pas de vieux deals de plusieurs semaines/mois pour
-     faire du nombre).
+   - **Volume de brèves** (décision de Pierre, juillet 2026 — **remplace** le quota 5/3
+     précédent) : **JUSQU'À 3 dans `brefsEurope` et JUSQU'À 3 dans `brefsIntl`** — un
+     **maximum, pas un minimum**. QUALITÉ > QUANTITÉ : mieux vaut 1–2 signaux forts que 3
+     tièdes ; le plafond de 3 n'a pas à être atteint. **Fenêtre de fraîcheur non négociable :
+     24–72h.** Jamais de remplissage — **interdiction absolue d'élargir la fenêtre temporelle
+     pour combler un manque** (pas de vieux deals de plusieurs semaines/mois pour faire du
+     nombre).
      Avant de conclure qu'il manque d'actu : **creuser beaucoup plus large et beaucoup
      plus fort**. Il y a presque toujours assez d'actualité fraîche healthtech VC dans
      le monde — le problème vient d'une recherche trop étroite, pas d'un manque de
