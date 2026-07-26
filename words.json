@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-25",
+  "generatedAt": "2026-07-26",
   "words": [
+    {
+      "term": "RWE",
+      "full": "Real-World Evidence",
+      "fr": "Preuve en vie réelle",
+      "field": "Diagnostic & Données de santé",
+      "definition": "Une preuve clinique construite à partir de données collectées hors des essais cliniques classiques — dossiers médicaux, objets connectés, remboursements — pour démontrer l'efficacité ou la sécurité d'un traitement en conditions réelles.",
+      "parts": [
+        {
+          "label": "Sources de données (RWD)",
+          "role": "dossiers médicaux électroniques, capteurs, remboursements, registres patients"
+        },
+        {
+          "label": "Curation & structuration",
+          "role": "la donnée brute transformée en preuve exploitable statistiquement"
+        },
+        {
+          "label": "Preneurs de décision",
+          "role": "régulateurs et payeurs qui s'appuient sur la preuve pour trancher"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Agréger des données de vie réelle (EHR, objets connectés, registres, remboursements) auprès de milliers de patients suivis hors essai clinique."
+        },
+        {
+          "n": "2",
+          "h": "Structuration",
+          "t": "Nettoyer et harmoniser ces données hétérogènes, souvent via IA/NLP sur des dossiers non structurés, pour les rendre exploitables."
+        },
+        {
+          "n": "3",
+          "h": "Preuve",
+          "t": "Produire des analyses (comparateur externe, suivi de sécurité post-AMM, extension d'indication) acceptées par les régulateurs et les payeurs."
+        }
+      ],
+      "why": "La RWE réduit le coût et le risque du développement clinique — un bras comparateur externe peut remplacer un bras placebo, accélérer une extension d'indication ou justifier un remboursement. D'où l'appétit des grands groupes pour des plateformes RWE indépendantes : Dassault Systèmes vient d'illustrer la thèse en rachetant ArisGlobal (~2 Md$) pour connecter molécule, patient et données de vie réelle — signe que la donnée clinique structurée devient un actif stratégique à part entière, pas un sous-produit de l'essai.",
+      "startups": [
+        {
+          "name": "Kap Code",
+          "use": "Mine les témoignages patients sur les réseaux sociaux via son NLP propriétaire Detec't pour détecter des signaux faibles de pharmacovigilance et alimenter des études RWE pharma",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Aparito",
+          "use": "Sa plateforme Atom5 capte biomarqueurs numériques et rapports patients à distance pour transformer des essais décentralisés en preuve de vie réelle ; partenariat avec Duchenne UK sur la myopathie de Duchenne",
+          "place": "Pays de Galles, Royaume-Uni"
+        },
+        {
+          "name": "TriNetX",
+          "use": "Opère un réseau fédéré de données de vie réelle (300M+ patients, 13 000+ établissements dans 20+ pays) ; Regeneron y a pris une participation stratégique en avril 2026",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "date": "2026-07-26",
+      "dateLong": "26 juil. 2026"
+    },
     {
       "term": "Molecular Glue",
       "full": "Molecular Glue Degrader",

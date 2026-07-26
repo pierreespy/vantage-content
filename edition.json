@@ -1,89 +1,101 @@
 {
-  "dateLong": "25 juil. 2026",
+  "dateLong": "26 juil. 2026",
   "ticker": [
-    { "company": "TIDALSENSE", "amount": "€16,6M", "kind": "lev" },
-    { "company": "MENTARI THERAPEUTICS", "amount": "$200M", "kind": "lev" },
-    { "company": "NEURIMMUNE", "amount": "$425M", "kind": "lev" },
-    { "company": "PROSPER MEDICAL", "amount": "$16M", "kind": "lev" },
-    { "company": "IPSEN / MEMO THERAPEUTICS", "amount": "900M€", "kind": "mna" },
-    { "company": "REPLIGEN / BIOLIFE SOLUTIONS", "amount": "$1,5Md", "kind": "mna" }
+    { "company": "MAGNENDO", "amount": "$18M", "kind": "lev" },
+    { "company": "DASSAULT SYSTÈMES / ARISGLOBAL", "amount": "$2Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Growth · Diagnostic respiratoire IA",
-    "title": "TidalSense lève 16,6 M€ pour exporter aux États-Unis son diagnostic respiratoire par IA",
-    "deck": "Le tour accueille l'entrant Cross-Border Impact Ventures aux côtés des historiques BGF, Airstream Capital et Foresight Group, portant le financement total de la medtech de Cambridge à 35 M€. De quoi accélérer la commercialisation de son capteur breveté N-Tidal, qui transforme un simple souffle en biomarqueur numérique pour diagnostiquer BPCO et asthme sans passer par un laboratoire.",
-    "company": "TidalSense",
-    "stage": "Growth",
-    "url": "https://www.eu-startups.com/2026/07/cambridge-based-tidalsense-raises-e16-6-million-to-take-its-ai-respiratory-diagnostic-technology-global/"
+    "kicker": "Signal RH · Obésité / Cardiométabolique",
+    "title": "Verdiva Bio recrute l'ex-CMO de Metsera à l'approche de résultats cliniques clés sur son GLP-1 oral",
+    "deck": "La biotech londonienne, qui détient le plus gros tour de Series A jamais bouclé par une biotech britannique (410 M$, mené par Forbion et General Atlantic), nomme Steve Marso — CMO de Metsera jusqu'à son rachat par Pfizer — ainsi que Jason Mallory (ex-SVP Clinical Development de Metsera) en pleine préparation de résultats déterminants pour VRB-101, son GLP-1 oral hebdomadaire. Un renfort de dirigeants venus d'un exit à plusieurs milliards, signe que Verdiva se positionne pour la prochaine étape de financement avant même la lecture des données.",
+    "company": "Verdiva Bio",
+    "stage": "Series A",
+    "signalType": "leadership_hire",
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/verdiva-bio-appoints-cardiometabolic-leader-steve-marso-as-chief-medical-officer"
   },
   "deal": {
-    "company": "Memo Therapeutics",
-    "amount": "Jusqu'à 900 M€",
-    "round": "M&A",
-    "thesis": "Ipsen boucle le rachat de la biotech zurichoise Memo Therapeutics (200 M€ upfront, jusqu'à 700 M€ de milestones) pour mettre la main sur le potravitug, un anticorps first-in-class contre la réactivation du polyomavirus BK chez les greffés rénaux — un besoin non couvert qui touche 30% des transplantés. Signal utile pour un VC santé : les groupes pharma paient cher des actifs first-in-class en maladies rares sortis de labos suisses, même en Phase II, dès lors que le mécanisme est net et le marché de niche mais captif.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/22/3331074/0/en/Ipsen-completes-acquisition-of-Memo-Therapeutics-AG-adding-first-in-class-asset-to-Ipsen-s-Rare-Disease-pipeline.html"
+    "company": "Magnendo",
+    "amount": "$18M",
+    "round": "Series A",
+    "thesis": "Ce spin-off du MIT boucle une Series A de 18 M$ menée par Penumbra — le leader mondial de la thrombectomie — pour sa plateforme de navigation robotique magnétique en neuro-endovasculaire, conçue pour raccourcir le temps d'accès au caillot lors d'un AVC ischémique. Signal utile pour un VC santé : un industriel medtech coté investit tôt, avant le premier essai chez l'humain, pour sécuriser un accès stratégique à une techno qui pourrait redéfinir le geste qu'il domine déjà.",
+    "url": "https://www.massdevice.com/magnendo-18m-magnetic-robotic-tech-penumbra/"
   },
   "brefsEurope": [
     {
-      "company": "Neurimmune",
-      "place": "Zurich, Suisse",
-      "sector": "Biotech / Financement non-dilutif",
-      "stage": "Growth",
-      "title": "Neurimmune cède une part de ses royalties sur le cliramitug à Royalty Pharma pour 425 M$",
-      "summary": "La biotech suisse monétise jusqu'à 425 M$ (dont 125 M$ upfront) de ses futures royalties sur cet anticorps anti-amylose développé avec AstraZeneca, sans diluer son capital. Un exemple concret de financement non-dilutif pour une biotech privée qui a déjà un actif partenarié en aval.",
-      "url": "https://www.prnewswire.com/news-releases/neurimmune-sells-a-portion-of-its-royalty-interest-in-cliramitug-to-royalty-pharma-302831337.html"
+      "company": "Fresenius Ventures",
+      "place": "Bad Homburg, Allemagne",
+      "sector": "Fonds",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Fresenius lance Fresenius Ventures, un fonds corporate de plus de 200 M€ pour la santé",
+      "summary": "Le groupe allemand se dote d'un véhicule de capital-risque dédié — plus de 200 M€ sur cinq ans — piloté par Thomas Michael Thestrup (ex-Angelini Ventures), ciblant biopharma, medtech, prise en charge et nutrition de précision. Un nouvel entrant corporate crédible dans le co-investissement santé européen, à repérer pour tout fondateur en levée.",
+      "url": "https://www.prnewswire.com/news-releases/fresenius-establishes-venture-fund-of-more-than-200-million-to-drive-healthcare-innovation-302833182.html"
+    },
+    {
+      "company": "Dassault Systèmes / ArisGlobal",
+      "place": "Paris, France",
+      "sector": "Digital Health / Données de vie réelle",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Dassault Systèmes rachète ArisGlobal pour environ 2 Md$ et met la main sur une plateforme IA de pharmacovigilance",
+      "summary": "Le géant français du logiciel industriel absorbe ArisGlobal (propriété de Nordic Capital), dont la plateforme conforme traite plus de 12 millions de signalements de pharmacovigilance par an pour la moitié des 50 plus gros biopharma mondiaux. Comparable utile : la donnée clinique structurée et la RWE deviennent un actif stratégique que les grands groupes tech paient cher pour intégrer, pas un sous-produit administratif de l'essai.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3331852/0/en/Dassault-Syst%C3%A8mes-to-acquire-ArisGlobal-creating-a-unified-AI-intelligence-platform-for-the-Life-Sciences-industry-connecting-molecule-patient-and-real-world-outcomes.html"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Mentari Therapeutics",
-      "place": "Waltham, États-Unis",
-      "sector": "Biotech / Neurologie (migraine)",
-      "stage": "Growth",
-      "title": "Mentari Therapeutics ajoute 200 M$ en placement privé, portant son financement à 490 M$ avant sa cotation au Nasdaq",
-      "summary": "Le tour, souscrit par Fairmount, RTW Investments, Vivo Capital et BB Biotech entre autres, finance MT-001 et MT-002, des candidats anti-PACAP visant à prévenir la migraine par un mécanisme distinct du CGRP déjà exploité par la concurrence. Un pari sur une deuxième vague de cibles en prévention migraineuse.",
-      "url": "https://www.prnewswire.com/news-releases/mentari-therapeutics-announces-200-million-private-placement-for-migraine-prevention-pipeline-302832045.html"
+      "company": "Atsena Therapeutics",
+      "place": "Durham, États-Unis",
+      "sector": "Biotech / Thérapie génique",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Atsena Therapeutics décroche deux désignations orphelines de l'EMA pour ses thérapies géniques AAV rétiniennes",
+      "summary": "L'EMA accorde la désignation orpheline à ATSN-101 (amaurose congénitale de Leber de type 1) et ATSN-201 (rétinoschisis liée à l'X), deux candidats AAV en approche de la Phase 3. Un double feu vert réglementaire européen pour une biotech américaine encore privée, qui ouvre droit à des incitatifs avant tout dépôt d'AMM.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332096/0/en/Atsena-Therapeutics-Receives-Orphan-Designation-from-the-European-Medicines-Agency-EMA-for-ATSN-101-and-ATSN-201.html"
     },
     {
-      "company": "Prosper Medical",
-      "place": "San Francisco, États-Unis",
-      "sector": "Digital Health / Soins primaires",
-      "stage": "Seed",
-      "title": "Prosper Medical lève 16 M$ pour une médecine de concierge boostée à l'IA, remboursée par les assurances",
-      "summary": "Fondée par les ex-cofondateurs de PlushCare (racheté 450 M$ par Accolade), la startup mise sur l'IA pour offrir un suivi médecin-patient façon concierge à un coût proche du système assurantiel classique. Tour mené par FUSE, avec Aurum Partners, Better.vc et Latitude Capital.",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/prosper-medical-banks-16m-scale-ai-driven-concierge-care-platform"
+      "company": "Inhibikase Therapeutics",
+      "place": "Atlanta, États-Unis",
+      "sector": "Biotech / Cardiovasculaire",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Inhibikase décroche la désignation Orphan Drug de la FDA pour IKT-001 dans l'hypertension artérielle pulmonaire",
+      "summary": "La FDA accorde la désignation au prodrogue d'imatinib d'Inhibikase, dont l'essai pivot de Phase 3 IMPROVE-PAH recrute déjà sur environ 180 sites. Un signal réglementaire amont qui sécurise incitatifs et exclusivité avant la lecture des données pivots.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332076/0/en/Inhibikase-Therapeutics-Announces-FDA-Orphan-Drug-Designation-Granted-to-IKT-001-for-the-Treatment-of-PAH.html"
     },
     {
-      "company": "Repligen / BioLife Solutions",
-      "place": "Bothell, États-Unis",
-      "sector": "MedTech / Outils thérapie cellulaire",
-      "stage": "Growth",
-      "title": "Repligen rachète BioLife Solutions pour 1,5 Md$ et met la main sur la biopréservation cellulaire",
-      "summary": "Cash-and-stock deal pour le fabricant de CryoStor, milieu de biopréservation utilisé dans la majorité des essais de thérapie cellulaire commerciaux aux États-Unis. Comparable utile sur la valorisation des « pelles et pioches » de la thérapie cellulaire, un sous-secteur qui intéresse de plus en plus les VC en quête de modèles moins risqués que l'actif thérapeutique lui-même.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/22/3331162/0/en/repligen-to-acquire-biolife-solutions-expanding-its-cell-therapy-capabilities-with-market-leading-biopreservation-media.html"
+      "company": "Autonomix Medical",
+      "place": "The Woodlands, États-Unis",
+      "sector": "MedTech / Neuromodulation",
+      "signalType": "patent_filing",
+      "strength": 2,
+      "title": "Autonomix Medical décroche un nouveau brevet américain pour sa plateforme de neuromodulation de précision",
+      "summary": "Le brevet US n°12 471 776 protège les méthodes de détection du système nerveux autonome au cœur de la plateforme d'Autonomix, qui guide l'ablation de nerfs par cathéter en temps réel. Un renforcement de barrière IP en amont d'un pivot commercial, typique des signaux à surveiller avant qu'une medtech n'attire un tour plus large.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332038/0/en/Autonomix-Medical-Secures-New-U-S-Patent-Strengthening-Next-Generation-Precision-Neuromodulation-Platform.html"
     }
   ],
   "word": {
-    "term": "Molecular Glue",
-    "full": "Molecular Glue Degrader",
-    "fr": "Colle moléculaire (dégradeur protéique)",
-    "field": "Oncologie / Protéomique ciblée",
-    "definition": "Une petite molécule qui ne bloque pas sa cible comme un médicament classique, mais colle deux protéines l'une à l'autre pour forcer la cellule à détruire elle-même la protéine indésirable.",
+    "term": "RWE",
+    "full": "Real-World Evidence",
+    "fr": "Preuve en vie réelle",
+    "field": "Diagnostic & Données de santé",
+    "definition": "Une preuve clinique construite à partir de données collectées hors des essais cliniques classiques — dossiers médicaux, objets connectés, remboursements — pour démontrer l'efficacité ou la sécurité d'un traitement en conditions réelles.",
     "parts": [
-      { "label": "Colle (petite molécule)", "role": "l'agent qui rapproche les deux protéines" },
-      { "label": "E3 ligase", "role": "la machinerie cellulaire de dégradation recrutée de force" },
-      { "label": "Protéine cible", "role": "la protéine pathogène marquée pour destruction" }
+      { "label": "Sources de données (RWD)", "role": "dossiers médicaux électroniques, capteurs, remboursements, registres patients" },
+      { "label": "Curation & structuration", "role": "la donnée brute transformée en preuve exploitable statistiquement" },
+      { "label": "Preneurs de décision", "role": "régulateurs et payeurs qui s'appuient sur la preuve pour trancher" }
     ],
     "how": [
-      { "n": "1", "h": "Recrutement", "t": "La molécule colle rapproche physiquement la protéine cible et une E3 ligase, deux protéines qui ne s'associent jamais naturellement." },
-      { "n": "2", "h": "Ubiquitination", "t": "La E3 ligase, ainsi détournée, étiquette la protéine cible avec des chaînes d'ubiquitine, le signal cellulaire de « à détruire »." },
-      { "n": "3", "h": "Dégradation", "t": "Le protéasome de la cellule reconnaît l'étiquette et détruit la protéine cible, qui peut alors être recyclée pour dégrader une nouvelle copie — un mode d'action catalytique, pas stœchiométrique." }
+      { "n": "1", "h": "Collecte", "t": "Agréger des données de vie réelle (EHR, objets connectés, registres, remboursements) auprès de milliers de patients suivis hors essai clinique." },
+      { "n": "2", "h": "Structuration", "t": "Nettoyer et harmoniser ces données hétérogènes, souvent via IA/NLP sur des dossiers non structurés, pour les rendre exploitables." },
+      { "n": "3", "h": "Preuve", "t": "Produire des analyses (comparateur externe, suivi de sécurité post-AMM, extension d'indication) acceptées par les régulateurs et les payeurs." }
     ],
-    "why": "Contrairement à un inhibiteur classique qui doit se loger dans une poche active, une colle moléculaire n'a besoin que d'une surface d'interaction — ce qui ouvre des cibles longtemps jugées « indruggables » (facteurs de transcription, protéines d'échafaudage). D'où l'appétit croissant de la pharma (Novartis, Merck KGaA, Eli Lilly, Pfizer) pour des plateformes encore privées : la modalité change la taille du marché adressable, pas seulement la molécule.",
+    "why": "La RWE réduit le coût et le risque du développement clinique — un bras comparateur externe peut remplacer un bras placebo, accélérer une extension d'indication ou justifier un remboursement. D'où l'appétit des grands groupes pour des plateformes RWE indépendantes : Dassault Systèmes vient d'illustrer la thèse en rachetant ArisGlobal (~2 Md$) pour connecter molécule, patient et données de vie réelle — signe que la donnée clinique structurée devient un actif stratégique à part entière, pas un sous-produit de l'essai.",
     "startups": [
-      { "name": "Neomorph", "use": "Plateforme de colles moléculaires ; a bouclé une Series B de 100 M$ en avril 2026 menée par Deerfield pour son candidat clinique NEO-811", "place": "San Diego, États-Unis" },
-      { "name": "Amphista Therapeutics", "use": "Plateforme « Targeted Glue » ; programmes précliniques SMARCA2 et TEAD présentés à l'AACR 2026, partenariats avec Novartis et Eli Lilly", "place": "Écosse, Royaume-Uni" },
-      { "name": "Proxygen", "use": "Découverte de colles moléculaires ; accord de recherche pouvant atteindre 554 M$ avec Merck KGaA", "place": "Vienne, Autriche" }
+      { "name": "Kap Code", "use": "Mine les témoignages patients sur les réseaux sociaux via son NLP propriétaire Detec't pour détecter des signaux faibles de pharmacovigilance et alimenter des études RWE pharma", "place": "Paris, France" },
+      { "name": "Aparito", "use": "Sa plateforme Atom5 capte biomarqueurs numériques et rapports patients à distance pour transformer des essais décentralisés en preuve de vie réelle ; partenariat avec Duchenne UK sur la myopathie de Duchenne", "place": "Pays de Galles, Royaume-Uni" },
+      { "name": "TriNetX", "use": "Opère un réseau fédéré de données de vie réelle (300M+ patients, 13 000+ établissements dans 20+ pays) ; Regeneron y a pris une participation stratégique en avril 2026", "place": "Cambridge, États-Unis" }
     ]
   }
 }
