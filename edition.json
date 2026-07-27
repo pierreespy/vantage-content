@@ -1,101 +1,92 @@
 {
-  "dateLong": "26 juil. 2026",
+  "dateLong": "27 juil. 2026",
   "ticker": [
-    { "company": "MAGNENDO", "amount": "$18M", "kind": "lev" },
-    { "company": "DASSAULT SYSTÈMES / ARISGLOBAL", "amount": "$2Md", "kind": "mna" }
+    { "company": "SAMSUNG BIOLOGICS / POLYPEPTIDE", "amount": "$1,8Md", "kind": "mna" },
+    { "company": "INSTINCT BIO", "amount": "$288M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Signal RH · Obésité / Cardiométabolique",
-    "title": "Verdiva Bio recrute l'ex-CMO de Metsera à l'approche de résultats cliniques clés sur son GLP-1 oral",
-    "deck": "La biotech londonienne, qui détient le plus gros tour de Series A jamais bouclé par une biotech britannique (410 M$, mené par Forbion et General Atlantic), nomme Steve Marso — CMO de Metsera jusqu'à son rachat par Pfizer — ainsi que Jason Mallory (ex-SVP Clinical Development de Metsera) en pleine préparation de résultats déterminants pour VRB-101, son GLP-1 oral hebdomadaire. Un renfort de dirigeants venus d'un exit à plusieurs milliards, signe que Verdiva se positionne pour la prochaine étape de financement avant même la lecture des données.",
-    "company": "Verdiva Bio",
-    "stage": "Series A",
-    "signalType": "leadership_hire",
-    "strength": 3,
-    "url": "https://www.biospace.com/press-releases/verdiva-bio-appoints-cardiometabolic-leader-steve-marso-as-chief-medical-officer"
+    "kicker": "Marquage CE · Neurotech / Rétine",
+    "title": "Science Corp obtient le marquage CE et lance en Europe PRIMA, la première interface cerveau-machine qui restaure la vision centrale",
+    "deck": "L'implant rétinien PRIMA de la medtech californienne Science Corporation obtient le marquage CE sous le règlement européen des dispositifs médicaux (via DEKRA), ouvrant sa commercialisation dans 30 pays européens — les premiers patients seront implantés en Allemagne. Sur les données de l'essai pivot (38 patients, 17 sites, 5 pays), 84% des porteurs retrouvent la capacité de lire lettres et mots, avec un gain moyen de 25,5 lettres sur l'échelle ETDRS : la première preuve clinique ET réglementaire qu'une interface cerveau-machine peut restaurer une fonction sensorielle et non plus seulement motrice — un précédent que tout investisseur neurotech doit désormais intégrer à sa thèse.",
+    "company": "Science Corp",
+    "stage": "Growth",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.businesswire.com/news/home/20260722965902/en/Science-Corp.-Announces-European-Commercial-Launch-of-PRIMA-the-Only-Treatment-to-Restore-Functional-Central-Vision-to-Patients-with-Geographic-Atrophy-Caused-by-Age-Related-Macular-Degeneration-a-Leading-Cause-of-Blindness"
   },
   "deal": {
-    "company": "Magnendo",
-    "amount": "$18M",
-    "round": "Series A",
-    "thesis": "Ce spin-off du MIT boucle une Series A de 18 M$ menée par Penumbra — le leader mondial de la thrombectomie — pour sa plateforme de navigation robotique magnétique en neuro-endovasculaire, conçue pour raccourcir le temps d'accès au caillot lors d'un AVC ischémique. Signal utile pour un VC santé : un industriel medtech coté investit tôt, avant le premier essai chez l'humain, pour sécuriser un accès stratégique à une techno qui pourrait redéfinir le geste qu'il domine déjà.",
-    "url": "https://www.massdevice.com/magnendo-18m-magnetic-robotic-tech-penumbra/"
+    "company": "Samsung Biologics / PolyPeptide",
+    "amount": "$1,8 Md",
+    "round": "M&A",
+    "thesis": "Samsung Biologics lance une offre 100% cash à 44,31 CHF par action (environ 1,8 Md$ de valeur d'entreprise) pour racheter la totalité de PolyPeptide Group, CDMO suisse spécialiste des peptides, dont l'actionnaire de référence (55,65% du capital) s'est déjà engagé à apporter ses titres. La thèse : la ruée sur les GLP-1 a transformé la capacité de fabrication peptidique en goulot d'étranglement stratégique mondial — un comparable direct pour toute biotech ou medtech qui dépend d'un CDMO peptides pour scaler son actif vers la commercialisation.",
+    "url": "https://www.prnewswire.com/news-releases/samsung-biologics-announces-all-cash-offer-to-acquire-polypeptide-accelerating-multi-modality-strategy-and-expanding-global-network-across-us-europe-and-india-302829249.html"
   },
   "brefsEurope": [
     {
-      "company": "Fresenius Ventures",
-      "place": "Bad Homburg, Allemagne",
-      "sector": "Fonds",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Fresenius lance Fresenius Ventures, un fonds corporate de plus de 200 M€ pour la santé",
-      "summary": "Le groupe allemand se dote d'un véhicule de capital-risque dédié — plus de 200 M€ sur cinq ans — piloté par Thomas Michael Thestrup (ex-Angelini Ventures), ciblant biopharma, medtech, prise en charge et nutrition de précision. Un nouvel entrant corporate crédible dans le co-investissement santé européen, à repérer pour tout fondateur en levée.",
-      "url": "https://www.prnewswire.com/news-releases/fresenius-establishes-venture-fund-of-more-than-200-million-to-drive-healthcare-innovation-302833182.html"
-    },
-    {
-      "company": "Dassault Systèmes / ArisGlobal",
+      "company": "Nabla",
       "place": "Paris, France",
-      "sector": "Digital Health / Données de vie réelle",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Dassault Systèmes rachète ArisGlobal pour environ 2 Md$ et met la main sur une plateforme IA de pharmacovigilance",
-      "summary": "Le géant français du logiciel industriel absorbe ArisGlobal (propriété de Nordic Capital), dont la plateforme conforme traite plus de 12 millions de signalements de pharmacovigilance par an pour la moitié des 50 plus gros biopharma mondiaux. Comparable utile : la donnée clinique structurée et la RWE deviennent un actif stratégique que les grands groupes tech paient cher pour intégrer, pas un sous-produit administratif de l'essai.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/23/3331852/0/en/Dassault-Syst%C3%A8mes-to-acquire-ArisGlobal-creating-a-unified-AI-intelligence-platform-for-the-Life-Sciences-industry-connecting-molecule-patient-and-real-world-outcomes.html"
+      "sector": "Digital Health / IA clinique",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Nabla nomme Brian Manning, ex-dirigeant de scale-up tech, CEO pour sa phase de croissance",
+      "summary": "L'éditeur franco-américain d'IA ambiante de documentation clinique installe un nouveau CEO fort de vingt ans d'expérience en scale-up technologique. Un renfort de leadership qui prépare typiquement une nouvelle étape — commerciale ou capitalistique — pour l'un des acteurs européens les plus reconnus de l'IA médicale ambiante.",
+      "url": "https://www.prnewswire.com/news-releases/nabla-appoints-brian-manning-as-chief-executive-officer-to-lead-next-phase-of-growth-302829992.html"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Atsena Therapeutics",
-      "place": "Durham, États-Unis",
-      "sector": "Biotech / Thérapie génique",
+      "company": "Nuvectis Pharma",
+      "place": "Fort Lee, États-Unis",
+      "sector": "Biotech / Hématologie",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Atsena Therapeutics décroche deux désignations orphelines de l'EMA pour ses thérapies géniques AAV rétiniennes",
-      "summary": "L'EMA accorde la désignation orpheline à ATSN-101 (amaurose congénitale de Leber de type 1) et ATSN-201 (rétinoschisis liée à l'X), deux candidats AAV en approche de la Phase 3. Un double feu vert réglementaire européen pour une biotech américaine encore privée, qui ouvre droit à des incitatifs avant tout dépôt d'AMM.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332096/0/en/Atsena-Therapeutics-Receives-Orphan-Designation-from-the-European-Medicines-Agency-EMA-for-ATSN-101-and-ATSN-201.html"
+      "strength": 5,
+      "title": "Nuvectis Pharma décroche la première approbation mondiale du ciprocopan, en Chine, contre l'hémoglobinurie paroxystique nocturne",
+      "summary": "Licencié à Haisco pour le marché chinois, cet inhibiteur oral quotidien du facteur B du complément devient la première thérapie de sa classe approuvée au monde. Une preuve de concept réglementaire qui valide la voie orale en HPN et illustre le pattern licence-in Chine / développement Occident.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332189/0/en/Correction-Title-Correction-Nuvectis-Announces-Marketing-Approval-of-Ciprocopan-NXP100-in-China-for-the-Treatment-of-Patients-with-PNH-Previously-Untreated-with-Complement-Inhibito.html"
     },
     {
-      "company": "Inhibikase Therapeutics",
-      "place": "Atlanta, États-Unis",
-      "sector": "Biotech / Cardiovasculaire",
+      "company": "Ibex Medical Analytics",
+      "place": "Tel Aviv, Israël",
+      "sector": "Diagnostics / IA pathologie",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Inhibikase décroche la désignation Orphan Drug de la FDA pour IKT-001 dans l'hypertension artérielle pulmonaire",
-      "summary": "La FDA accorde la désignation au prodrogue d'imatinib d'Inhibikase, dont l'essai pivot de Phase 3 IMPROVE-PAH recrute déjà sur environ 180 sites. Un signal réglementaire amont qui sécurise incitatifs et exclusivité avant la lecture des données pivots.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332076/0/en/Inhibikase-Therapeutics-Announces-FDA-Orphan-Drug-Designation-Granted-to-IKT-001-for-the-Treatment-of-PAH.html"
+      "strength": 4,
+      "title": "Ibex Medical Analytics obtient la certification CE-IVDR complète pour son panel IA du cancer du sein",
+      "summary": "La certification couvre désormais les trois biomarqueurs ER, PR et Ki67 en immunohistochimie, complétant la suite « Breast » de la plateforme Ibex 4 sur le marché européen sous le règlement IVDR. Une validation réglementaire qui consolide un pure-player IA en pathologie digitale, sous-secteur diagnostics en pleine consolidation.",
+      "url": "https://www.businesswire.com/news/home/20260722517555/en/Ibex-Medical-Analytics-Achieves-CE-IVDR-Certification-for-Breast-Panel-IHCs-Elevating-the-Standard-of-Care-in-AI-Powered-Breast-Cancer-Diagnostics"
     },
     {
-      "company": "Autonomix Medical",
-      "place": "The Woodlands, États-Unis",
-      "sector": "MedTech / Neuromodulation",
-      "signalType": "patent_filing",
-      "strength": 2,
-      "title": "Autonomix Medical décroche un nouveau brevet américain pour sa plateforme de neuromodulation de précision",
-      "summary": "Le brevet US n°12 471 776 protège les méthodes de détection du système nerveux autonome au cœur de la plateforme d'Autonomix, qui guide l'ablation de nerfs par cathéter en temps réel. Un renforcement de barrière IP en amont d'un pivot commercial, typique des signaux à surveiller avant qu'une medtech n'attire un tour plus large.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332038/0/en/Autonomix-Medical-Secures-New-U-S-Patent-Strengthening-Next-Generation-Precision-Neuromodulation-Platform.html"
+      "company": "Oncolytics Biotech",
+      "place": "Calgary, Canada",
+      "sector": "Biotech / Oncologie",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Oncolytics Biotech décroche la désignation Fast Track de la FDA pour pelareorep dans le cancer anal",
+      "summary": "La FDA accorde le Fast Track à pelareorep associé à un inhibiteur de checkpoint, en deuxième ligne et au-delà, dans le carcinome épidermoïde du canal anal — ouvrant droit à une revue accélérée et à un dépôt en continu du futur dossier BLA. Un jalon réglementaire amont à surveiller avant tout dépôt pivot.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/20/3329774/0/en/Oncolytics-Biotech-Receives-Fast-Track-Designation-for-Pelareorep-in-Second-Line-and-Later-Anal-Cancer.html"
     }
   ],
   "word": {
-    "term": "RWE",
-    "full": "Real-World Evidence",
-    "fr": "Preuve en vie réelle",
-    "field": "Diagnostic & Données de santé",
-    "definition": "Une preuve clinique construite à partir de données collectées hors des essais cliniques classiques — dossiers médicaux, objets connectés, remboursements — pour démontrer l'efficacité ou la sécurité d'un traitement en conditions réelles.",
+    "term": "BCI",
+    "full": "Brain-Computer Interface",
+    "fr": "Interface cerveau-machine",
+    "field": "Neurotech / Ophtalmologie",
+    "definition": "Un dispositif qui capte l'activité électrique du cerveau ou d'un nerf et la traduit en commandes ou en perceptions artificielles, pour restaurer un mouvement, un sens ou une communication perdus.",
     "parts": [
-      { "label": "Sources de données (RWD)", "role": "dossiers médicaux électroniques, capteurs, remboursements, registres patients" },
-      { "label": "Curation & structuration", "role": "la donnée brute transformée en preuve exploitable statistiquement" },
-      { "label": "Preneurs de décision", "role": "régulateurs et payeurs qui s'appuient sur la preuve pour trancher" }
+      { "label": "Électrode / capteur", "role": "capte le signal neuronal — en surface, en profondeur ou par voie endovasculaire" },
+      { "label": "Décodeur algorithmique", "role": "traduit le signal brut en intention ou en information exploitable" },
+      { "label": "Interface de sortie", "role": "restitue l'information au patient (image, stimulation) ou pilote un effecteur externe" }
     ],
     "how": [
-      { "n": "1", "h": "Collecte", "t": "Agréger des données de vie réelle (EHR, objets connectés, registres, remboursements) auprès de milliers de patients suivis hors essai clinique." },
-      { "n": "2", "h": "Structuration", "t": "Nettoyer et harmoniser ces données hétérogènes, souvent via IA/NLP sur des dossiers non structurés, pour les rendre exploitables." },
-      { "n": "3", "h": "Preuve", "t": "Produire des analyses (comparateur externe, suivi de sécurité post-AMM, extension d'indication) acceptées par les régulateurs et les payeurs." }
+      { "n": "1", "h": "Captation", "t": "Un réseau d'électrodes (implanté, cortical de surface ou endovasculaire) enregistre l'activité électrique du cerveau ou d'un nerf périphérique." },
+      { "n": "2", "h": "Décodage", "t": "Un algorithme, souvent de machine learning, isole le signal utile et le traduit en commande ou en information structurée." },
+      { "n": "3", "h": "Restitution", "t": "Le système agit en retour : stimulation sensorielle (vision, toucher), pilotage d'un membre ou d'un curseur, ou expression via un ordinateur." }
     ],
-    "why": "La RWE réduit le coût et le risque du développement clinique — un bras comparateur externe peut remplacer un bras placebo, accélérer une extension d'indication ou justifier un remboursement. D'où l'appétit des grands groupes pour des plateformes RWE indépendantes : Dassault Systèmes vient d'illustrer la thèse en rachetant ArisGlobal (~2 Md$) pour connecter molécule, patient et données de vie réelle — signe que la donnée clinique structurée devient un actif stratégique à part entière, pas un sous-produit de l'essai.",
+    "why": "Longtemps cantonnée à la restauration du mouvement chez les patients paralysés, la BCI change d'échelle avec le marquage CE de PRIMA : la preuve qu'elle peut aussi restaurer un sens — la vue — ouvre un marché bien plus large que la paralysie (des millions de patients atteints de DMLA sèche rien qu'en Europe). Les tickets suivent : Synchron a bouclé 200 M$ en Series D fin 2025, Precision Neuroscience a obtenu une clearance FDA sur son interface corticale. Pour un VC santé, la BCI n'est plus une thèse de science-fiction à horizon 2035 : c'est une catégorie medtech qui vient de passer son premier vrai test réglementaire et commercial grand public.",
     "startups": [
-      { "name": "Kap Code", "use": "Mine les témoignages patients sur les réseaux sociaux via son NLP propriétaire Detec't pour détecter des signaux faibles de pharmacovigilance et alimenter des études RWE pharma", "place": "Paris, France" },
-      { "name": "Aparito", "use": "Sa plateforme Atom5 capte biomarqueurs numériques et rapports patients à distance pour transformer des essais décentralisés en preuve de vie réelle ; partenariat avec Duchenne UK sur la myopathie de Duchenne", "place": "Pays de Galles, Royaume-Uni" },
-      { "name": "TriNetX", "use": "Opère un réseau fédéré de données de vie réelle (300M+ patients, 13 000+ établissements dans 20+ pays) ; Regeneron y a pris une participation stratégique en avril 2026", "place": "Cambridge, États-Unis" }
+      { "name": "Synchron", "use": "Développe la Stentrode, une BCI motrice posée par voie endovasculaire (sans craniotomie) pour redonner leur autonomie numérique aux patients paralysés ; 200 M$ en Series D fin 2025, essai pivot FDA en 2026", "place": "New York, États-Unis" },
+      { "name": "Precision Neuroscience", "use": "Sa Layer 7 Cortical Interface, une bande de 1024 électrodes glissée par une incision sous-millimétrique, a obtenu une clearance FDA comme premier implant temporaire de nouvelle génération", "place": "New York, États-Unis" },
+      { "name": "INBRAIN Neuroelectronics", "use": "Interface cerveau-machine à base de graphène ; a complété en 2026 son premier essai chez l'humain (cartographie peropératoire de tumeurs cérébrales) et collabore avec la Mayo Clinic", "place": "Barcelone, Espagne" },
+      { "name": "Onward Medical", "use": "Stimulation de la moelle épinière (ARC-EX, ARC-BCI) pour restaurer mouvement et sensation après une lésion médullaire ; système déjà commercialisé aux États-Unis et en Europe", "place": "Eindhoven, Pays-Bas" }
     ]
   }
 }

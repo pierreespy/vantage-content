@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-26",
+  "generatedAt": "2026-07-27",
   "words": [
+    {
+      "term": "BCI",
+      "full": "Brain-Computer Interface",
+      "fr": "Interface cerveau-machine",
+      "field": "Neurotech / Ophtalmologie",
+      "definition": "Un dispositif qui capte l'activité électrique du cerveau ou d'un nerf et la traduit en commandes ou en perceptions artificielles, pour restaurer un mouvement, un sens ou une communication perdus.",
+      "parts": [
+        {
+          "label": "Électrode / capteur",
+          "role": "capte le signal neuronal — en surface, en profondeur ou par voie endovasculaire"
+        },
+        {
+          "label": "Décodeur algorithmique",
+          "role": "traduit le signal brut en intention ou en information exploitable"
+        },
+        {
+          "label": "Interface de sortie",
+          "role": "restitue l'information au patient (image, stimulation) ou pilote un effecteur externe"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Captation",
+          "t": "Un réseau d'électrodes (implanté, cortical de surface ou endovasculaire) enregistre l'activité électrique du cerveau ou d'un nerf périphérique."
+        },
+        {
+          "n": "2",
+          "h": "Décodage",
+          "t": "Un algorithme, souvent de machine learning, isole le signal utile et le traduit en commande ou en information structurée."
+        },
+        {
+          "n": "3",
+          "h": "Restitution",
+          "t": "Le système agit en retour : stimulation sensorielle (vision, toucher), pilotage d'un membre ou d'un curseur, ou expression via un ordinateur."
+        }
+      ],
+      "why": "Longtemps cantonnée à la restauration du mouvement chez les patients paralysés, la BCI change d'échelle avec le marquage CE de PRIMA : la preuve qu'elle peut aussi restaurer un sens — la vue — ouvre un marché bien plus large que la paralysie (des millions de patients atteints de DMLA sèche rien qu'en Europe). Les tickets suivent : Synchron a bouclé 200 M$ en Series D fin 2025, Precision Neuroscience a obtenu une clearance FDA sur son interface corticale. Pour un VC santé, la BCI n'est plus une thèse de science-fiction à horizon 2035 : c'est une catégorie medtech qui vient de passer son premier vrai test réglementaire et commercial grand public.",
+      "startups": [
+        {
+          "name": "Synchron",
+          "use": "Développe la Stentrode, une BCI motrice posée par voie endovasculaire (sans craniotomie) pour redonner leur autonomie numérique aux patients paralysés ; 200 M$ en Series D fin 2025, essai pivot FDA en 2026",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "Precision Neuroscience",
+          "use": "Sa Layer 7 Cortical Interface, une bande de 1024 électrodes glissée par une incision sous-millimétrique, a obtenu une clearance FDA comme premier implant temporaire de nouvelle génération",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "INBRAIN Neuroelectronics",
+          "use": "Interface cerveau-machine à base de graphène ; a complété en 2026 son premier essai chez l'humain (cartographie peropératoire de tumeurs cérébrales) et collabore avec la Mayo Clinic",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "Onward Medical",
+          "use": "Stimulation de la moelle épinière (ARC-EX, ARC-BCI) pour restaurer mouvement et sensation après une lésion médullaire ; système déjà commercialisé aux États-Unis et en Europe",
+          "place": "Eindhoven, Pays-Bas"
+        }
+      ],
+      "date": "2026-07-27",
+      "dateLong": "27 juil. 2026"
+    },
     {
       "term": "RWE",
       "full": "Real-World Evidence",
