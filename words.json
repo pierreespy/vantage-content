@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-07-27",
+  "generatedAt": "2026-07-28",
   "words": [
+    {
+      "term": "Spatial Omics",
+      "full": "Spatial Transcriptomics / Spatial Genomics",
+      "fr": "Génomique spatiale (transcriptomique spatiale)",
+      "field": "Diagnostics de précision / Outils de recherche",
+      "definition": "Une technologie qui cartographie l'expression des gènes ou des protéines cellule par cellule, directement sur une coupe de tissu intacte, sans perdre l'information de localisation.",
+      "parts": [
+        {
+          "label": "Tissu intact",
+          "role": "le support"
+        },
+        {
+          "label": "Sondes moléculaires",
+          "role": "le marquage"
+        },
+        {
+          "label": "Imagerie + IA",
+          "role": "la lecture"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Préparation",
+          "t": "Une coupe de tissu est fixée sans dissociation cellulaire, préservant l'architecture native."
+        },
+        {
+          "n": "2",
+          "h": "Marquage in situ",
+          "t": "Des sondes fluorescentes s'hybrident aux ARN ou protéines cibles directement dans le tissu."
+        },
+        {
+          "n": "3",
+          "h": "Cartographie",
+          "t": "Imagerie haute résolution et algorithmes reconstruisent une carte spatiale de l'expression, cellule par cellule."
+        }
+      ],
+      "why": "Contrairement au séquençage en vrac, la génomique spatiale conserve le contexte tissulaire — microenvironnement tumoral, interface immunitaire — devenu central pour la découverte de biomarqueurs et les diagnostics compagnons. Les gros outils de vie (Bio-Techne, Quanterix, Takara) rachètent les pure-players à un rythme soutenu, un signal de consolidation que tout investisseur outils/diagnostics doit suivre.",
+      "startups": [
+        {
+          "name": "Resolve Biosciences",
+          "use": "Plateforme Molecular Cartography de transcriptomique spatiale sub-cellulaire ; Series B de 71 M$",
+          "place": "Monheim am Rhein, Allemagne"
+        },
+        {
+          "name": "Vizgen",
+          "use": "Plateforme MERSCOPE de génomique spatiale mono-cellulaire ; 48 M$ levés en janvier 2026",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Rebus Biosystems",
+          "use": "Plateforme Esper d'omique spatiale automatisée combinant imagerie, fluidique et bio-informatique",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-07-28",
+      "dateLong": "28 juil. 2026"
+    },
     {
       "term": "BCI",
       "full": "Brain-Computer Interface",

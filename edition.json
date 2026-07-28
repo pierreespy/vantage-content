@@ -1,92 +1,81 @@
 {
-  "dateLong": "27 juil. 2026",
+  "dateLong": "28 juil. 2026",
   "ticker": [
-    { "company": "SAMSUNG BIOLOGICS / POLYPEPTIDE", "amount": "$1,8Md", "kind": "mna" },
-    { "company": "INSTINCT BIO", "amount": "$288M", "kind": "mna" }
+    { "company": "ARGENX / FORTE BIOSCIENCES", "amount": "$2,2Md", "kind": "mna" },
+    { "company": "WOMED", "amount": "€7,1M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Marquage CE · Neurotech / Rétine",
-    "title": "Science Corp obtient le marquage CE et lance en Europe PRIMA, la première interface cerveau-machine qui restaure la vision centrale",
-    "deck": "L'implant rétinien PRIMA de la medtech californienne Science Corporation obtient le marquage CE sous le règlement européen des dispositifs médicaux (via DEKRA), ouvrant sa commercialisation dans 30 pays européens — les premiers patients seront implantés en Allemagne. Sur les données de l'essai pivot (38 patients, 17 sites, 5 pays), 84% des porteurs retrouvent la capacité de lire lettres et mots, avec un gain moyen de 25,5 lettres sur l'échelle ETDRS : la première preuve clinique ET réglementaire qu'une interface cerveau-machine peut restaurer une fonction sensorielle et non plus seulement motrice — un précédent que tout investisseur neurotech doit désormais intégrer à sa thèse.",
-    "company": "Science Corp",
+    "kicker": "CAR-T · Auto-immunité",
+    "title": "AbelZeta décroche le feu vert de la FDA pour l'essai pivot de son CAR-T anti-CD20/BCMA contre le lupus, quelques jours après la désignation PRIME de l'EMA",
+    "deck": "La biotech privée AbelZeta Pharma obtient l'autorisation de la FDA pour lancer l'essai de Phase II à vocation d'enregistrement de C-CAR168, un CAR-T bispécifique, dans la néphrite lupique réfractaire — une semaine après avoir décroché la désignation PRIME de l'Agence européenne du médicament sur ce même actif. Doublement adoubée par les régulateurs américain et européen, la société illustre la bascule du CAR-T de l'oncologie vers l'auto-immunité, un axe déjà financé chez elle par des accords de co-développement avec J&J et AstraZeneca.",
+    "company": "AbelZeta Pharma",
     "stage": "Growth",
     "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.businesswire.com/news/home/20260722965902/en/Science-Corp.-Announces-European-Commercial-Launch-of-PRIMA-the-Only-Treatment-to-Restore-Functional-Central-Vision-to-Patients-with-Geographic-Atrophy-Caused-by-Age-Related-Macular-Degeneration-a-Leading-Cause-of-Blindness"
+    "strength": 4,
+    "url": "https://www.prnewswire.com/news-releases/abelzeta-receives-fda-clearance-of-registrational-phase-ii-trial-for-c-car168-in-refractory-lupus-nephritis-302835248.html"
   },
   "deal": {
-    "company": "Samsung Biologics / PolyPeptide",
-    "amount": "$1,8 Md",
+    "company": "argenx / Forte Biosciences",
+    "amount": "$2,2Md",
     "round": "M&A",
-    "thesis": "Samsung Biologics lance une offre 100% cash à 44,31 CHF par action (environ 1,8 Md$ de valeur d'entreprise) pour racheter la totalité de PolyPeptide Group, CDMO suisse spécialiste des peptides, dont l'actionnaire de référence (55,65% du capital) s'est déjà engagé à apporter ses titres. La thèse : la ruée sur les GLP-1 a transformé la capacité de fabrication peptidique en goulot d'étranglement stratégique mondial — un comparable direct pour toute biotech ou medtech qui dépend d'un CDMO peptides pour scaler son actif vers la commercialisation.",
-    "url": "https://www.prnewswire.com/news-releases/samsung-biologics-announces-all-cash-offer-to-acquire-polypeptide-accelerating-multi-modality-strategy-and-expanding-global-network-across-us-europe-and-india-302829249.html"
+    "thesis": "argenx paie 86% de prime pour mettre la main sur Forte Biosciences et son FB102, un anticorps anti-CD122 first-in-class avec preuve de concept clinique en vitiligo et maladie coeliaque. Le prix payé pour un actif encore en Phase II confirme l'appétit des gros pharma pour l'auto-immunité au-delà des indications déjà validées — un signal de marché à intégrer à toute thèse sur les anticorps ciblant l'axe IL-2/IL-15.",
+    "url": "https://www.biopharmadive.com/news/argenx-acquire-forte-biosciences-immune-drug-CD122/826221/"
   },
   "brefsEurope": [
     {
-      "company": "Nabla",
-      "place": "Paris, France",
-      "sector": "Digital Health / IA clinique",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Nabla nomme Brian Manning, ex-dirigeant de scale-up tech, CEO pour sa phase de croissance",
-      "summary": "L'éditeur franco-américain d'IA ambiante de documentation clinique installe un nouveau CEO fort de vingt ans d'expérience en scale-up technologique. Un renfort de leadership qui prépare typiquement une nouvelle étape — commerciale ou capitalistique — pour l'un des acteurs européens les plus reconnus de l'IA médicale ambiante.",
-      "url": "https://www.prnewswire.com/news-releases/nabla-appoints-brian-manning-as-chief-executive-officer-to-lead-next-phase-of-growth-302829992.html"
+      "company": "Womed",
+      "place": "Montpellier, France",
+      "sector": "MedTech / Santé féminine",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Womed boucle un tour de plus de 7 M€ pour ses traitements de l'infertilité utérine",
+      "summary": "La medtech montpelliéraine, dont le dispositif Womed Leaf (issu du CNRS, 21 brevets) est déjà commercialisé en Europe et validé par la FDA, lève 5 M€ auprès d'IRDI Capital Investissement, CEMAG et CANTRAK, complétés par 2,1 M€ de financement participatif, pour développer deux nouveaux traitements dont un contre les fibromes utérins sans chirurgie ni hormones.",
+      "url": "https://www.lejournaldesentreprises.com/breve/la-femtech-womed-leve-plus-de-7-millions-deuros-pour-la-sante-uterine-2146795"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Nuvectis Pharma",
-      "place": "Fort Lee, États-Unis",
-      "sector": "Biotech / Hématologie",
+      "company": "SurGenTec",
+      "place": "Boca Raton, États-Unis",
+      "sector": "MedTech / Chirurgie du rachis",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "Nuvectis Pharma décroche la première approbation mondiale du ciprocopan, en Chine, contre l'hémoglobinurie paroxystique nocturne",
-      "summary": "Licencié à Haisco pour le marché chinois, cet inhibiteur oral quotidien du facteur B du complément devient la première thérapie de sa classe approuvée au monde. Une preuve de concept réglementaire qui valide la voie orale en HPN et illustre le pattern licence-in Chine / développement Occident.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/23/3332189/0/en/Correction-Title-Correction-Nuvectis-Announces-Marketing-Approval-of-Ciprocopan-NXP100-in-China-for-the-Treatment-of-Patients-with-PNH-Previously-Untreated-with-Complement-Inhibito.html"
+      "title": "SurGenTec décroche une clearance FDA pour la navigation robotique de son système de fixation facettaire ION-L",
+      "summary": "Nouvelle clearance 510(k) pour cette medtech privée, qui rend son système de fixation facettaire lombaire mini-invasif compatible avec la navigation peropératoire — sa troisième autorisation FDA en un an sur la gamme ION, une cadence réglementaire qui prépare typiquement un tour de table.",
+      "url": "https://orthospinenews.com/2026/07/24/surgentec-secures-fda-clearance-for-ion-l-lumbar-navigation-compatible/"
     },
     {
-      "company": "Ibex Medical Analytics",
-      "place": "Tel Aviv, Israël",
-      "sector": "Diagnostics / IA pathologie",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Ibex Medical Analytics obtient la certification CE-IVDR complète pour son panel IA du cancer du sein",
-      "summary": "La certification couvre désormais les trois biomarqueurs ER, PR et Ki67 en immunohistochimie, complétant la suite « Breast » de la plateforme Ibex 4 sur le marché européen sous le règlement IVDR. Une validation réglementaire qui consolide un pure-player IA en pathologie digitale, sous-secteur diagnostics en pleine consolidation.",
-      "url": "https://www.businesswire.com/news/home/20260722517555/en/Ibex-Medical-Analytics-Achieves-CE-IVDR-Certification-for-Breast-Panel-IHCs-Elevating-the-Standard-of-Care-in-AI-Powered-Breast-Cancer-Diagnostics"
-    },
-    {
-      "company": "Oncolytics Biotech",
-      "place": "Calgary, Canada",
-      "sector": "Biotech / Oncologie",
-      "signalType": "regulatory_milestone",
+      "company": "Kinaset Therapeutics",
+      "place": "Medfield, États-Unis",
+      "sector": "Biotech / Respiratoire",
+      "signalType": "clinical_update",
       "strength": 3,
-      "title": "Oncolytics Biotech décroche la désignation Fast Track de la FDA pour pelareorep dans le cancer anal",
-      "summary": "La FDA accorde le Fast Track à pelareorep associé à un inhibiteur de checkpoint, en deuxième ligne et au-delà, dans le carcinome épidermoïde du canal anal — ouvrant droit à une revue accélérée et à un dépôt en continu du futur dossier BLA. Un jalon réglementaire amont à surveiller avant tout dépôt pivot.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/20/3329774/0/en/Oncolytics-Biotech-Receives-Fast-Track-Designation-for-Pelareorep-in-Second-Line-and-Later-Anal-Cancer.html"
+      "title": "Kinaset Therapeutics dose son premier patient dans l'essai de Phase IIb de son inhibiteur JAK inhalé contre l'asthme sévère",
+      "summary": "PANAIRAMA, l'essai de recherche de dose du frevecitinib (KN-002), démarre chez cette biotech privée qui avait bouclé un Series B de 103 M$ en janvier — une étape clinique qui rapproche l'actif d'un développement pivot et d'un futur tour de financement.",
+      "url": "https://www.biospace.com/press-releases/kinaset-therapeutics-announces-first-patient-dosed-in-phase-2b-panairama-trial-of-frevecitinib-kn-002-in-patients-with-severe-asthma"
     }
   ],
   "word": {
-    "term": "BCI",
-    "full": "Brain-Computer Interface",
-    "fr": "Interface cerveau-machine",
-    "field": "Neurotech / Ophtalmologie",
-    "definition": "Un dispositif qui capte l'activité électrique du cerveau ou d'un nerf et la traduit en commandes ou en perceptions artificielles, pour restaurer un mouvement, un sens ou une communication perdus.",
+    "term": "Spatial Omics",
+    "full": "Spatial Transcriptomics / Spatial Genomics",
+    "fr": "Génomique spatiale (transcriptomique spatiale)",
+    "field": "Diagnostics de précision / Outils de recherche",
+    "definition": "Une technologie qui cartographie l'expression des gènes ou des protéines cellule par cellule, directement sur une coupe de tissu intacte, sans perdre l'information de localisation.",
     "parts": [
-      { "label": "Électrode / capteur", "role": "capte le signal neuronal — en surface, en profondeur ou par voie endovasculaire" },
-      { "label": "Décodeur algorithmique", "role": "traduit le signal brut en intention ou en information exploitable" },
-      { "label": "Interface de sortie", "role": "restitue l'information au patient (image, stimulation) ou pilote un effecteur externe" }
+      { "label": "Tissu intact", "role": "le support" },
+      { "label": "Sondes moléculaires", "role": "le marquage" },
+      { "label": "Imagerie + IA", "role": "la lecture" }
     ],
     "how": [
-      { "n": "1", "h": "Captation", "t": "Un réseau d'électrodes (implanté, cortical de surface ou endovasculaire) enregistre l'activité électrique du cerveau ou d'un nerf périphérique." },
-      { "n": "2", "h": "Décodage", "t": "Un algorithme, souvent de machine learning, isole le signal utile et le traduit en commande ou en information structurée." },
-      { "n": "3", "h": "Restitution", "t": "Le système agit en retour : stimulation sensorielle (vision, toucher), pilotage d'un membre ou d'un curseur, ou expression via un ordinateur." }
+      { "n": "1", "h": "Préparation", "t": "Une coupe de tissu est fixée sans dissociation cellulaire, préservant l'architecture native." },
+      { "n": "2", "h": "Marquage in situ", "t": "Des sondes fluorescentes s'hybrident aux ARN ou protéines cibles directement dans le tissu." },
+      { "n": "3", "h": "Cartographie", "t": "Imagerie haute résolution et algorithmes reconstruisent une carte spatiale de l'expression, cellule par cellule." }
     ],
-    "why": "Longtemps cantonnée à la restauration du mouvement chez les patients paralysés, la BCI change d'échelle avec le marquage CE de PRIMA : la preuve qu'elle peut aussi restaurer un sens — la vue — ouvre un marché bien plus large que la paralysie (des millions de patients atteints de DMLA sèche rien qu'en Europe). Les tickets suivent : Synchron a bouclé 200 M$ en Series D fin 2025, Precision Neuroscience a obtenu une clearance FDA sur son interface corticale. Pour un VC santé, la BCI n'est plus une thèse de science-fiction à horizon 2035 : c'est une catégorie medtech qui vient de passer son premier vrai test réglementaire et commercial grand public.",
+    "why": "Contrairement au séquençage en vrac, la génomique spatiale conserve le contexte tissulaire — microenvironnement tumoral, interface immunitaire — devenu central pour la découverte de biomarqueurs et les diagnostics compagnons. Les gros outils de vie (Bio-Techne, Quanterix, Takara) rachètent les pure-players à un rythme soutenu, un signal de consolidation que tout investisseur outils/diagnostics doit suivre.",
     "startups": [
-      { "name": "Synchron", "use": "Développe la Stentrode, une BCI motrice posée par voie endovasculaire (sans craniotomie) pour redonner leur autonomie numérique aux patients paralysés ; 200 M$ en Series D fin 2025, essai pivot FDA en 2026", "place": "New York, États-Unis" },
-      { "name": "Precision Neuroscience", "use": "Sa Layer 7 Cortical Interface, une bande de 1024 électrodes glissée par une incision sous-millimétrique, a obtenu une clearance FDA comme premier implant temporaire de nouvelle génération", "place": "New York, États-Unis" },
-      { "name": "INBRAIN Neuroelectronics", "use": "Interface cerveau-machine à base de graphène ; a complété en 2026 son premier essai chez l'humain (cartographie peropératoire de tumeurs cérébrales) et collabore avec la Mayo Clinic", "place": "Barcelone, Espagne" },
-      { "name": "Onward Medical", "use": "Stimulation de la moelle épinière (ARC-EX, ARC-BCI) pour restaurer mouvement et sensation après une lésion médullaire ; système déjà commercialisé aux États-Unis et en Europe", "place": "Eindhoven, Pays-Bas" }
+      { "name": "Resolve Biosciences", "use": "Plateforme Molecular Cartography de transcriptomique spatiale sub-cellulaire ; Series B de 71 M$", "place": "Monheim am Rhein, Allemagne" },
+      { "name": "Vizgen", "use": "Plateforme MERSCOPE de génomique spatiale mono-cellulaire ; 48 M$ levés en janvier 2026", "place": "États-Unis" },
+      { "name": "Rebus Biosystems", "use": "Plateforme Esper d'omique spatiale automatisée combinant imagerie, fluidique et bio-informatique", "place": "États-Unis" }
     ]
   }
 }
