@@ -1,81 +1,88 @@
 {
-  "dateLong": "28 juil. 2026",
+  "dateLong": "29 juil. 2026",
   "ticker": [
-    { "company": "ARGENX / FORTE BIOSCIENCES", "amount": "$2,2Md", "kind": "mna" },
-    { "company": "WOMED", "amount": "€7,1M", "kind": "lev" }
+    { "company": "XELTIS", "amount": "€20,5M", "kind": "lev" },
+    { "company": "CLARIS BIO", "amount": "$118M", "kind": "lev" },
+    { "company": "FLOURISH HEALTH", "amount": "$26M", "kind": "lev" },
+    { "company": "CORE BIOMEDICINE", "amount": "$21M", "kind": "lev" },
+    { "company": "DITTO", "amount": "€5,2M", "kind": "lev" },
+    { "company": "AVANOS MEDICAL", "amount": "$1,27Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "CAR-T · Auto-immunité",
-    "title": "AbelZeta décroche le feu vert de la FDA pour l'essai pivot de son CAR-T anti-CD20/BCMA contre le lupus, quelques jours après la désignation PRIME de l'EMA",
-    "deck": "La biotech privée AbelZeta Pharma obtient l'autorisation de la FDA pour lancer l'essai de Phase II à vocation d'enregistrement de C-CAR168, un CAR-T bispécifique, dans la néphrite lupique réfractaire — une semaine après avoir décroché la désignation PRIME de l'Agence européenne du médicament sur ce même actif. Doublement adoubée par les régulateurs américain et européen, la société illustre la bascule du CAR-T de l'oncologie vers l'auto-immunité, un axe déjà financé chez elle par des accords de co-développement avec J&J et AstraZeneca.",
-    "company": "AbelZeta Pharma",
+    "kicker": "Financement · MedTech cardiovasculaire restaurative",
+    "title": "Xeltis lève 20,5 M€ pour porter son implant vasculaire résorbable aXess jusqu'à l'autorisation FDA et son lancement commercial américain",
+    "deck": "La medtech néerlando-suisse Xeltis referme un tour de 20,5 M€ mené par le nouvel entrant Horizon 3 Healthcare, aux côtés de l'EIC, d'Invest-NL, de VI Partners et d'EQT Life Sciences, pour porter aXess — son greffon vasculaire déjà marqué CE, qui se résorbe pour laisser place au tissu propre du patient — jusqu'à l'autorisation FDA et son lancement commercial aux États-Unis. Les fonds financent aussi l'avancée clinique de ses programmes de pontage coronarien (XABG) et d'artère périphérique (XPAD), fondés sur sa plateforme propriétaire de restauration tissulaire endogène.",
+    "company": "Xeltis",
     "stage": "Growth",
-    "signalType": "regulatory_milestone",
+    "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.prnewswire.com/news-releases/abelzeta-receives-fda-clearance-of-registrational-phase-ii-trial-for-c-car168-in-refractory-lupus-nephritis-302835248.html"
+    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334018/0/en/xeltis-raises-an-additional-20-5m-of-funding-to-advance-axess-toward-fda-approval-and-us-commercial-launch.html"
   },
   "deal": {
-    "company": "argenx / Forte Biosciences",
-    "amount": "$2,2Md",
-    "round": "M&A",
-    "thesis": "argenx paie 86% de prime pour mettre la main sur Forte Biosciences et son FB102, un anticorps anti-CD122 first-in-class avec preuve de concept clinique en vitiligo et maladie coeliaque. Le prix payé pour un actif encore en Phase II confirme l'appétit des gros pharma pour l'auto-immunité au-delà des indications déjà validées — un signal de marché à intégrer à toute thèse sur les anticorps ciblant l'axe IL-2/IL-15.",
-    "url": "https://www.biopharmadive.com/news/argenx-acquire-forte-biosciences-immune-drug-CD122/826221/"
+    "company": "Claris Biotherapeutics",
+    "amount": "$118M",
+    "round": "Series B",
+    "thesis": "Claris Biotherapeutics boucle un Series B de 118 M$ co-mené par deux nouveaux entrants, Samsara Biocapital et Catalio Capital Management, rejoints par Adage Capital, Sofinnova Investments, Aisling Capital et ADAR1 Capital, aux côtés de ses soutiens historiques Novo Holdings, Janus Henderson et Mass General Brigham Ventures. Un syndicat aussi dense pour financer l'étude pivot de CSB-001 dans la déficience en cellules souches limbiques — une maladie orpheline de la surface oculaire sans traitement approuvé — signale la conviction des investisseurs santé sur l'ophtalmologie rare, longtemps restée à l'ombre de la rétine.",
+    "url": "https://www.biopharmadive.com/news/claris-series-b-limbal-stem-cell-deficiency/826263/"
   },
   "brefsEurope": [
     {
-      "company": "Womed",
-      "place": "Montpellier, France",
-      "sector": "MedTech / Santé féminine",
+      "company": "DITTO",
+      "place": "Londres, Royaume-Uni",
+      "sector": "Femtech / Santé menstruelle",
       "signalType": "funding_round",
-      "strength": 4,
-      "title": "Womed boucle un tour de plus de 7 M€ pour ses traitements de l'infertilité utérine",
-      "summary": "La medtech montpelliéraine, dont le dispositif Womed Leaf (issu du CNRS, 21 brevets) est déjà commercialisé en Europe et validé par la FDA, lève 5 M€ auprès d'IRDI Capital Investissement, CEMAG et CANTRAK, complétés par 2,1 M€ de financement participatif, pour développer deux nouveaux traitements dont un contre les fibromes utérins sans chirurgie ni hormones.",
-      "url": "https://www.lejournaldesentreprises.com/breve/la-femtech-womed-leve-plus-de-7-millions-deuros-pour-la-sante-uterine-2146795"
+      "strength": 2,
+      "stage": "Seed",
+      "title": "DITTO lève 5,2 M€ pour combler les angles morts de la recherche en santé menstruelle",
+      "summary": "La femtech londonienne, fondée par la neuroscientifique Alice van der Schoot et Adam Kugler (ex-L'Oréal), boucle un tour de seed mené par FoodLabs aux côtés d'Eka Ventures pour étendre ses essais cliniques explorant le lien entre TDAH et troubles prémenstruels, et sa gamme de compléments à visée scientifique.",
+      "url": "https://www.eu-startups.com/2026/07/ditto-raises-e5-2-million-to-tackle-menstrual-health-gaps-with-research-and-targeted-supplements/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "SurGenTec",
-      "place": "Boca Raton, États-Unis",
-      "sector": "MedTech / Chirurgie du rachis",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "SurGenTec décroche une clearance FDA pour la navigation robotique de son système de fixation facettaire ION-L",
-      "summary": "Nouvelle clearance 510(k) pour cette medtech privée, qui rend son système de fixation facettaire lombaire mini-invasif compatible avec la navigation peropératoire — sa troisième autorisation FDA en un an sur la gamme ION, une cadence réglementaire qui prépare typiquement un tour de table.",
-      "url": "https://orthospinenews.com/2026/07/24/surgentec-secures-fda-clearance-for-ion-l-lumbar-navigation-compatible/"
+      "company": "CORE Biomedicine",
+      "place": "États-Unis / Japon",
+      "sector": "Biotech / Oncologie de précision",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Series A",
+      "title": "CORE Biomedicine lève 21 M$ en Series A pour ses thérapies oncologiques fondées sur le lignage cellulaire",
+      "summary": "La biotech, positionnée sur l'oncologie de précision par traçage du lignage cellulaire, boucle un tour co-mené par UTokyo Innovation Platform et Elikon Venture, rejoints par Mitsubishi UFJ Capital et un syndicat sino-japonais, et reçoit en parallèle une subvention de l'agence japonaise AMED — double signal de traction académique et industrielle en Asie.",
+      "url": "http://www.prnewswire.com/news-releases/core-biomedicine-secures-21-million-series-a-venture-financing-and-receives-amed-grant-award-to-advance-novel-cancer-therapeutics-302836054.html"
     },
     {
-      "company": "Kinaset Therapeutics",
-      "place": "Medfield, États-Unis",
-      "sector": "Biotech / Respiratoire",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Kinaset Therapeutics dose son premier patient dans l'essai de Phase IIb de son inhibiteur JAK inhalé contre l'asthme sévère",
-      "summary": "PANAIRAMA, l'essai de recherche de dose du frevecitinib (KN-002), démarre chez cette biotech privée qui avait bouclé un Series B de 103 M$ en janvier — une étape clinique qui rapproche l'actif d'un développement pivot et d'un futur tour de financement.",
-      "url": "https://www.biospace.com/press-releases/kinaset-therapeutics-announces-first-patient-dosed-in-phase-2b-panairama-trial-of-frevecitinib-kn-002-in-patients-with-severe-asthma"
+      "company": "Avanos Medical",
+      "place": "Alpharetta, États-Unis",
+      "sector": "MedTech / Private Equity",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "American Industrial Partners boucle le rachat d'Avanos Medical pour 1,27 Md$ et le retire de la cote",
+      "summary": "Le fonds de private equity finalise le take-private du fabricant de dispositifs médicaux à 25 $/action (99,75% des voix), qui quitte le NYSE — un signal de l'appétit du capital-investissement pour des medtechs matures et capital-efficientes, à surveiller pour toute thèse de sortie hors IPO.",
+      "url": "https://www.prnewswire.com/news-releases/american-industrial-partners-completes-acquisition-of-avanos-medical-inc-302835264.html"
     }
   ],
   "word": {
-    "term": "Spatial Omics",
-    "full": "Spatial Transcriptomics / Spatial Genomics",
-    "fr": "Génomique spatiale (transcriptomique spatiale)",
-    "field": "Diagnostics de précision / Outils de recherche",
-    "definition": "Une technologie qui cartographie l'expression des gènes ou des protéines cellule par cellule, directement sur une coupe de tissu intacte, sans perdre l'information de localisation.",
+    "term": "Digital Twin",
+    "full": "Patient Digital Twin",
+    "fr": "Jumeau numérique (patient virtuel)",
+    "field": "IA appliquée à la santé / Essais cliniques",
+    "definition": "Une réplique virtuelle et dynamique d'un patient, d'un organe ou d'un système physiologique, construite à partir de ses données individuelles, pour simuler sa réponse à un traitement sans l'exposer au risque réel.",
     "parts": [
-      { "label": "Tissu intact", "role": "le support" },
-      { "label": "Sondes moléculaires", "role": "le marquage" },
-      { "label": "Imagerie + IA", "role": "la lecture" }
+      { "label": "Données individuelles", "role": "l'input" },
+      { "label": "Modèle biophysique / génératif", "role": "le moteur" },
+      { "label": "Simulation prédictive", "role": "la sortie" }
     ],
     "how": [
-      { "n": "1", "h": "Préparation", "t": "Une coupe de tissu est fixée sans dissociation cellulaire, préservant l'architecture native." },
-      { "n": "2", "h": "Marquage in situ", "t": "Des sondes fluorescentes s'hybrident aux ARN ou protéines cibles directement dans le tissu." },
-      { "n": "3", "h": "Cartographie", "t": "Imagerie haute résolution et algorithmes reconstruisent une carte spatiale de l'expression, cellule par cellule." }
+      { "n": "1", "h": "Acquisition", "t": "Imagerie, biomarqueurs, génétique et données comportementales du patient sont collectées et structurées." },
+      { "n": "2", "h": "Calibration", "t": "Un modèle biophysique ou génératif calibre un jumeau virtuel spécifique à ce patient à partir de ces données." },
+      { "n": "3", "h": "Simulation", "t": "Le jumeau prédit une réponse — dose optimale, risque, évolution clinique — sans exposer le patient réel à l'intervention." }
     ],
-    "why": "Contrairement au séquençage en vrac, la génomique spatiale conserve le contexte tissulaire — microenvironnement tumoral, interface immunitaire — devenu central pour la découverte de biomarqueurs et les diagnostics compagnons. Les gros outils de vie (Bio-Techne, Quanterix, Takara) rachètent les pure-players à un rythme soutenu, un signal de consolidation que tout investisseur outils/diagnostics doit suivre.",
+    "why": "Le jumeau numérique attaque directement le coût et la durée des essais cliniques — bras de contrôle synthétiques qualifiés par l'EMA, cohortes réduites — tout en ouvrant un marché de dosage personnalisé et de prévention métabolique. Un thème porté par un nombre croissant de deals à la croisée du logiciel et du soin, avec une barrière réglementaire qui protège les premiers entrants qualifiés.",
     "startups": [
-      { "name": "Resolve Biosciences", "use": "Plateforme Molecular Cartography de transcriptomique spatiale sub-cellulaire ; Series B de 71 M$", "place": "Monheim am Rhein, Allemagne" },
-      { "name": "Vizgen", "use": "Plateforme MERSCOPE de génomique spatiale mono-cellulaire ; 48 M$ levés en janvier 2026", "place": "États-Unis" },
-      { "name": "Rebus Biosystems", "use": "Plateforme Esper d'omique spatiale automatisée combinant imagerie, fluidique et bio-informatique", "place": "États-Unis" }
+      { "name": "Unlearn.AI", "use": "Génère des jumeaux numériques de participants d'essais cliniques comme bras de contrôle synthétiques ; méthodologie qualifiée par l'EMA", "place": "San Francisco, États-Unis" },
+      { "name": "Twin Health", "use": "Jumeau numérique métabolique corps-entier pour inverser diabète de type 2 et obésité ; Series E de 53 M$, valorisation ~950 M$", "place": "États-Unis" },
+      { "name": "Sim&Cure", "use": "Jumeau numérique et IA pour planifier le traitement endovasculaire des anévrismes cérébraux ; Series A de 2,3 M€", "place": "Montpellier, France" },
+      { "name": "ebenbuild", "use": "Jumeau numérique pulmonaire patient-spécifique pour prédire la dose locale des médicaments inhalés ; étude de validation publiée dans Nature Communications Medicine", "place": "Munich, Allemagne" }
     ]
   }
 }

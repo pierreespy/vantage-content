@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-28",
+  "generatedAt": "2026-07-29",
   "words": [
+    {
+      "term": "Digital Twin",
+      "full": "Patient Digital Twin",
+      "fr": "Jumeau numérique (patient virtuel)",
+      "field": "IA appliquée à la santé / Essais cliniques",
+      "definition": "Une réplique virtuelle et dynamique d'un patient, d'un organe ou d'un système physiologique, construite à partir de ses données individuelles, pour simuler sa réponse à un traitement sans l'exposer au risque réel.",
+      "parts": [
+        {
+          "label": "Données individuelles",
+          "role": "l'input"
+        },
+        {
+          "label": "Modèle biophysique / génératif",
+          "role": "le moteur"
+        },
+        {
+          "label": "Simulation prédictive",
+          "role": "la sortie"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Acquisition",
+          "t": "Imagerie, biomarqueurs, génétique et données comportementales du patient sont collectées et structurées."
+        },
+        {
+          "n": "2",
+          "h": "Calibration",
+          "t": "Un modèle biophysique ou génératif calibre un jumeau virtuel spécifique à ce patient à partir de ces données."
+        },
+        {
+          "n": "3",
+          "h": "Simulation",
+          "t": "Le jumeau prédit une réponse — dose optimale, risque, évolution clinique — sans exposer le patient réel à l'intervention."
+        }
+      ],
+      "why": "Le jumeau numérique attaque directement le coût et la durée des essais cliniques — bras de contrôle synthétiques qualifiés par l'EMA, cohortes réduites — tout en ouvrant un marché de dosage personnalisé et de prévention métabolique. Un thème porté par un nombre croissant de deals à la croisée du logiciel et du soin, avec une barrière réglementaire qui protège les premiers entrants qualifiés.",
+      "startups": [
+        {
+          "name": "Unlearn.AI",
+          "use": "Génère des jumeaux numériques de participants d'essais cliniques comme bras de contrôle synthétiques ; méthodologie qualifiée par l'EMA",
+          "place": "San Francisco, États-Unis"
+        },
+        {
+          "name": "Twin Health",
+          "use": "Jumeau numérique métabolique corps-entier pour inverser diabète de type 2 et obésité ; Series E de 53 M$, valorisation ~950 M$",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Sim&Cure",
+          "use": "Jumeau numérique et IA pour planifier le traitement endovasculaire des anévrismes cérébraux ; Series A de 2,3 M€",
+          "place": "Montpellier, France"
+        },
+        {
+          "name": "ebenbuild",
+          "use": "Jumeau numérique pulmonaire patient-spécifique pour prédire la dose locale des médicaments inhalés ; étude de validation publiée dans Nature Communications Medicine",
+          "place": "Munich, Allemagne"
+        }
+      ],
+      "date": "2026-07-29",
+      "dateLong": "29 juil. 2026"
+    },
     {
       "term": "Spatial Omics",
       "full": "Spatial Transcriptomics / Spatial Genomics",
