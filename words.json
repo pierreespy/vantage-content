@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-29",
+  "generatedAt": "2026-07-30",
   "words": [
+    {
+      "term": "Raman",
+      "full": "Raman Spectroscopy",
+      "fr": "Spectroscopie Raman",
+      "field": "Diagnostics rapides / Point-of-care",
+      "definition": "Une technique laser qui lit l'empreinte vibratoire des molécules d'un échantillon pour identifier un pathogène, un biomarqueur ou un tissu en quelques minutes, sans marquage ni culture bactérienne.",
+      "parts": [
+        {
+          "label": "Laser d'excitation",
+          "role": "la source"
+        },
+        {
+          "label": "Diffusion inélastique (effet Raman)",
+          "role": "le signal"
+        },
+        {
+          "label": "Spectre moléculaire",
+          "role": "la lecture"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Excitation",
+          "t": "Un laser monochromatique illumine l'échantillon (sang, tissu, cellule) sans le détruire."
+        },
+        {
+          "n": "2",
+          "h": "Diffusion",
+          "t": "Une infime fraction de la lumière est réémise avec un décalage d'énergie propre aux liaisons chimiques présentes."
+        },
+        {
+          "n": "3",
+          "h": "Identification",
+          "t": "Un algorithme compare ce spectre à une bibliothèque de référence pour identifier le pathogène ou le tissu en quelques minutes."
+        }
+      ],
+      "why": "Sans marquage, sans culture, sans consommable coûteux : le Raman attaque le goulot d'étranglement diagnostique — des jours d'attente en culture bactérienne — qui coûte des vies en réanimation. Couplé à l'IA, il ouvre un segment de diagnostics rapides au chevet du patient, moins capital-intensif qu'un développement thérapeutique classique : une thèse « picks and shovels » qui revient dans le radar des VCs santé.",
+      "startups": [
+        {
+          "name": "Vivid Dx",
+          "use": "Diagnostic direct-du-sang par Raman + IA pour identifier pathogènes résistants et guider l'antibiothérapie ; $15M en seed",
+          "place": "Oxford, Royaume-Uni"
+        },
+        {
+          "name": "River Diagnostics",
+          "use": "Identification microbienne par Raman (IDRaman) pour laboratoires cliniques et pharmaceutiques, alternative à la culture bactérienne",
+          "place": "Rotterdam, Pays-Bas"
+        },
+        {
+          "name": "Cambridge Raman Imaging",
+          "use": "Imagerie Raman haute vitesse assistée par IA pour le diagnostic du cancer ; subvention européenne de 400 k€",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Verisante Technology",
+          "use": "Sonde Raman temps réel (Aura) pour distinguer lésions cutanées bénignes et malignes en une seconde ; approuvée Canada/UE/Australie, dépôt FDA de novo prévu",
+          "place": "Vancouver, Canada"
+        }
+      ],
+      "date": "2026-07-30",
+      "dateLong": "30 juil. 2026"
+    },
     {
       "term": "Digital Twin",
       "full": "Patient Digital Twin",

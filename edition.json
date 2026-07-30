@@ -1,88 +1,98 @@
 {
-  "dateLong": "29 juil. 2026",
+  "dateLong": "30 juil. 2026",
   "ticker": [
-    { "company": "XELTIS", "amount": "€20,5M", "kind": "lev" },
-    { "company": "CLARIS BIO", "amount": "$118M", "kind": "lev" },
-    { "company": "FLOURISH HEALTH", "amount": "$26M", "kind": "lev" },
-    { "company": "CORE BIOMEDICINE", "amount": "$21M", "kind": "lev" },
-    { "company": "DITTO", "amount": "€5,2M", "kind": "lev" },
-    { "company": "AVANOS MEDICAL", "amount": "$1,27Md", "kind": "mna" }
+    { "company": "QUREIGHT", "amount": "$20M", "kind": "lev" },
+    { "company": "VIVID DX", "amount": "$15M", "kind": "lev" },
+    { "company": "EPITEL", "amount": "$26M", "kind": "lev" },
+    { "company": "DOPL TECHNOLOGIES", "amount": "$6,3M", "kind": "lev" },
+    { "company": "HEALIA", "amount": "$14M", "kind": "lev" },
+    { "company": "AMERICAN BABY CO", "amount": "$4M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Financement · MedTech cardiovasculaire restaurative",
-    "title": "Xeltis lève 20,5 M€ pour porter son implant vasculaire résorbable aXess jusqu'à l'autorisation FDA et son lancement commercial américain",
-    "deck": "La medtech néerlando-suisse Xeltis referme un tour de 20,5 M€ mené par le nouvel entrant Horizon 3 Healthcare, aux côtés de l'EIC, d'Invest-NL, de VI Partners et d'EQT Life Sciences, pour porter aXess — son greffon vasculaire déjà marqué CE, qui se résorbe pour laisser place au tissu propre du patient — jusqu'à l'autorisation FDA et son lancement commercial aux États-Unis. Les fonds financent aussi l'avancée clinique de ses programmes de pontage coronarien (XABG) et d'artère périphérique (XPAD), fondés sur sa plateforme propriétaire de restauration tissulaire endogène.",
-    "company": "Xeltis",
-    "stage": "Growth",
+    "kicker": "Series B · MedTech / Imagerie IA pour essais cliniques",
+    "title": "Qureight lève 20 M$ en Series B pour faire de l'imagerie IA un endpoint standard des essais cliniques pulmonaires et cardiaques",
+    "deck": "La medtech britannique referme un Series B de 20 M$ mené par le nouvel entrant Molten Ventures, aux côtés de Hargreave Hale AIM VCT, XTX Ventures, Guinness Ventures, Meltwind et Ascension, pour construire un laboratoire d'imagerie IA et étendre sa plateforme de lecture IRM/scanner pulmonaire et cardiaque — déjà utilisée comme critère d'évaluation dans des essais — à l'asthme, l'hypertension pulmonaire et la bronchiectasie. Un pari sur l'imagerie comme infrastructure d'essai clinique : plus vite un promoteur lit un endpoint fiable, plus vite un traitement avance, un goulot d'étranglement que peu de startups attaquent de front.",
+    "company": "Qureight",
+    "stage": "Series B",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/07/28/3334018/0/en/xeltis-raises-an-additional-20-5m-of-funding-to-advance-axess-toward-fda-approval-and-us-commercial-launch.html"
+    "url": "https://tech.eu/2026/07/29/qureight-secures-20m-series-b-to-expand-ai-powered-imaging-platform-for-clinical-trials/"
   },
   "deal": {
-    "company": "Claris Biotherapeutics",
-    "amount": "$118M",
-    "round": "Series B",
-    "thesis": "Claris Biotherapeutics boucle un Series B de 118 M$ co-mené par deux nouveaux entrants, Samsara Biocapital et Catalio Capital Management, rejoints par Adage Capital, Sofinnova Investments, Aisling Capital et ADAR1 Capital, aux côtés de ses soutiens historiques Novo Holdings, Janus Henderson et Mass General Brigham Ventures. Un syndicat aussi dense pour financer l'étude pivot de CSB-001 dans la déficience en cellules souches limbiques — une maladie orpheline de la surface oculaire sans traitement approuvé — signale la conviction des investisseurs santé sur l'ophtalmologie rare, longtemps restée à l'ombre de la rétine.",
-    "url": "https://www.biopharmadive.com/news/claris-series-b-limbal-stem-cell-deficiency/826263/"
+    "company": "Vivid Dx",
+    "amount": "$15M",
+    "round": "Seed",
+    "thesis": "Ce spin-out d'Oxford referme un tour de seed de 15 M$ co-mené par Oxford Science Enterprises et Cedars-Sinai Intellectual Property Co., rejoints par Jameel Investment Management Company, pour son plateau direct-du-sang combinant spectroscopie Raman et IA : identifier un pathogène résistant et l'antibiotique efficace en quelques heures plutôt qu'en jours de culture. Le double ancrage capital-risque et hôpital académique (Cedars-Sinai) signale une demande clinique réelle pour accélérer la lutte contre l'antibiorésistance, un axe où un diagnostic plus rapide vaut autant qu'une nouvelle molécule.",
+    "url": "https://www.360dx.com/business-news/vivid-dx-raises-15m-advance-sepsis-diagnosis-platform-appoints-new-ceo"
   },
   "brefsEurope": [
     {
-      "company": "DITTO",
-      "place": "Londres, Royaume-Uni",
-      "sector": "Femtech / Santé menstruelle",
-      "signalType": "funding_round",
+      "company": "VERAXA Biotech",
+      "place": "Heidelberg, Allemagne",
+      "sector": "Biotech / Oncologie (ADC & T-cell engagers)",
+      "signalType": "patent_filing",
       "strength": 2,
-      "stage": "Seed",
-      "title": "DITTO lève 5,2 M€ pour combler les angles morts de la recherche en santé menstruelle",
-      "summary": "La femtech londonienne, fondée par la neuroscientifique Alice van der Schoot et Adam Kugler (ex-L'Oréal), boucle un tour de seed mené par FoodLabs aux côtés d'Eka Ventures pour étendre ses essais cliniques explorant le lien entre TDAH et troubles prémenstruels, et sa gamme de compléments à visée scientifique.",
-      "url": "https://www.eu-startups.com/2026/07/ditto-raises-e5-2-million-to-tackle-menstrual-health-gaps-with-research-and-targeted-supplements/"
+      "title": "VERAXA Biotech dépose de nouveaux brevets pour ses plateformes BiTAC-TCE et BiTAC-ADC",
+      "summary": "La biotech allemande a déposé au premier semestre 2026 ses premières demandes de brevet sur sa nouvelle génération de T-cell engagers et d'anticorps-conjugués, portant son portefeuille à plus de 50 brevets accordés dans 14 pays — une protection qui s'étendra jusqu'en 2047 une fois ces dépôts accordés.",
+      "url": "https://www.biospace.com/press-releases/veraxa-biotech-strengthens-patent-portfolio-to-protect-core-technology-platforms-and-product-candidates"
     }
   ],
   "brefsIntl": [
     {
-      "company": "CORE Biomedicine",
-      "place": "États-Unis / Japon",
-      "sector": "Biotech / Oncologie de précision",
+      "company": "Epitel",
+      "place": "Salt Lake City, États-Unis",
+      "sector": "MedTech / Neurologie",
       "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Series A",
-      "title": "CORE Biomedicine lève 21 M$ en Series A pour ses thérapies oncologiques fondées sur le lignage cellulaire",
-      "summary": "La biotech, positionnée sur l'oncologie de précision par traçage du lignage cellulaire, boucle un tour co-mené par UTokyo Innovation Platform et Elikon Venture, rejoints par Mitsubishi UFJ Capital et un syndicat sino-japonais, et reçoit en parallèle une subvention de l'agence japonaise AMED — double signal de traction académique et industrielle en Asie.",
-      "url": "http://www.prnewswire.com/news-releases/core-biomedicine-secures-21-million-series-a-venture-financing-and-receives-amed-grant-award-to-advance-novel-cancer-therapeutics-302836054.html"
+      "strength": 4,
+      "stage": "Series B",
+      "title": "Epitel lève 26 M$ en Series B pour son EEG sans fil, alors que seuls 27% des hôpitaux américains peuvent réaliser un EEG",
+      "summary": "Catalyst Health Ventures et Genoa Ventures, qui avaient déjà mené sa Series A, recomposent ce tour pour étendre REMI, son système de monitoring EEG sans fil longue durée couplé à une détection de crises par IA — une thèse d'accès à la neurologie plus qu'une rupture technologique.",
+      "url": "https://www.businesswire.com/news/home/20260728724496/en/Epitel-Secures-%2426-Million-Series-B-to-Expand-Remote-Wireless-EEG-Monitoring"
     },
     {
-      "company": "Avanos Medical",
-      "place": "Alpharetta, États-Unis",
-      "sector": "MedTech / Private Equity",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "American Industrial Partners boucle le rachat d'Avanos Medical pour 1,27 Md$ et le retire de la cote",
-      "summary": "Le fonds de private equity finalise le take-private du fabricant de dispositifs médicaux à 25 $/action (99,75% des voix), qui quitte le NYSE — un signal de l'appétit du capital-investissement pour des medtechs matures et capital-efficientes, à surveiller pour toute thèse de sortie hors IPO.",
-      "url": "https://www.prnewswire.com/news-releases/american-industrial-partners-completes-acquisition-of-avanos-medical-inc-302835264.html"
+      "company": "Capricor Therapeutics",
+      "place": "Beverly Hills, États-Unis",
+      "sector": "Biotech / Thérapie cellulaire",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "The Lancet publie les données de Phase 3 de Capricor : le deramiocel ralentit de 54% le déclin fonctionnel dans la myopathie de Duchenne",
+      "summary": "L'essai pivot HOPE-3 (106 patients) atteint son critère principal, à quelques semaines de la décision FDA attendue le 22 août sur la BLA du deramiocel — un catalyseur réglementaire imminent, sur fond d'inspection FDA ayant soulevé une observation mineure sur les procédures.",
+      "url": "https://www.capricor.com/investors/news-events/press-releases/detail/350/the-lancet-publishes-hope-3-data-for-capricor"
+    },
+    {
+      "company": "Dopl Technologies",
+      "place": "Bothell, États-Unis",
+      "sector": "MedTech / Imagerie robotique",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Seed",
+      "title": "Dopl Technologies lève 6,3 M$ pour son échographie robotisée à distance, en visant la clearance FDA",
+      "summary": "Mené par SpringTide Ventures, ce tour de seed finance le dossier FDA de Traverse, un système d'échographie téléopérée destiné aux patients ruraux privés d'accès à un sonographe — une thèse d'accès capital-efficiente plutôt qu'un pari technologique lourd.",
+      "url": "https://www.businesswire.com/news/home/20260727545043/en/Dopl-Technologies-Raises-$6.3M-in-Seed-Funding-to-Advance-Proprietary-Telerobotic-Ultrasound-Toward-FDA-Clearance"
     }
   ],
   "word": {
-    "term": "Digital Twin",
-    "full": "Patient Digital Twin",
-    "fr": "Jumeau numérique (patient virtuel)",
-    "field": "IA appliquée à la santé / Essais cliniques",
-    "definition": "Une réplique virtuelle et dynamique d'un patient, d'un organe ou d'un système physiologique, construite à partir de ses données individuelles, pour simuler sa réponse à un traitement sans l'exposer au risque réel.",
+    "term": "Raman",
+    "full": "Raman Spectroscopy",
+    "fr": "Spectroscopie Raman",
+    "field": "Diagnostics rapides / Point-of-care",
+    "definition": "Une technique laser qui lit l'empreinte vibratoire des molécules d'un échantillon pour identifier un pathogène, un biomarqueur ou un tissu en quelques minutes, sans marquage ni culture bactérienne.",
     "parts": [
-      { "label": "Données individuelles", "role": "l'input" },
-      { "label": "Modèle biophysique / génératif", "role": "le moteur" },
-      { "label": "Simulation prédictive", "role": "la sortie" }
+      { "label": "Laser d'excitation", "role": "la source" },
+      { "label": "Diffusion inélastique (effet Raman)", "role": "le signal" },
+      { "label": "Spectre moléculaire", "role": "la lecture" }
     ],
     "how": [
-      { "n": "1", "h": "Acquisition", "t": "Imagerie, biomarqueurs, génétique et données comportementales du patient sont collectées et structurées." },
-      { "n": "2", "h": "Calibration", "t": "Un modèle biophysique ou génératif calibre un jumeau virtuel spécifique à ce patient à partir de ces données." },
-      { "n": "3", "h": "Simulation", "t": "Le jumeau prédit une réponse — dose optimale, risque, évolution clinique — sans exposer le patient réel à l'intervention." }
+      { "n": "1", "h": "Excitation", "t": "Un laser monochromatique illumine l'échantillon (sang, tissu, cellule) sans le détruire." },
+      { "n": "2", "h": "Diffusion", "t": "Une infime fraction de la lumière est réémise avec un décalage d'énergie propre aux liaisons chimiques présentes." },
+      { "n": "3", "h": "Identification", "t": "Un algorithme compare ce spectre à une bibliothèque de référence pour identifier le pathogène ou le tissu en quelques minutes." }
     ],
-    "why": "Le jumeau numérique attaque directement le coût et la durée des essais cliniques — bras de contrôle synthétiques qualifiés par l'EMA, cohortes réduites — tout en ouvrant un marché de dosage personnalisé et de prévention métabolique. Un thème porté par un nombre croissant de deals à la croisée du logiciel et du soin, avec une barrière réglementaire qui protège les premiers entrants qualifiés.",
+    "why": "Sans marquage, sans culture, sans consommable coûteux : le Raman attaque le goulot d'étranglement diagnostique — des jours d'attente en culture bactérienne — qui coûte des vies en réanimation. Couplé à l'IA, il ouvre un segment de diagnostics rapides au chevet du patient, moins capital-intensif qu'un développement thérapeutique classique : une thèse « picks and shovels » qui revient dans le radar des VCs santé.",
     "startups": [
-      { "name": "Unlearn.AI", "use": "Génère des jumeaux numériques de participants d'essais cliniques comme bras de contrôle synthétiques ; méthodologie qualifiée par l'EMA", "place": "San Francisco, États-Unis" },
-      { "name": "Twin Health", "use": "Jumeau numérique métabolique corps-entier pour inverser diabète de type 2 et obésité ; Series E de 53 M$, valorisation ~950 M$", "place": "États-Unis" },
-      { "name": "Sim&Cure", "use": "Jumeau numérique et IA pour planifier le traitement endovasculaire des anévrismes cérébraux ; Series A de 2,3 M€", "place": "Montpellier, France" },
-      { "name": "ebenbuild", "use": "Jumeau numérique pulmonaire patient-spécifique pour prédire la dose locale des médicaments inhalés ; étude de validation publiée dans Nature Communications Medicine", "place": "Munich, Allemagne" }
+      { "name": "Vivid Dx", "use": "Diagnostic direct-du-sang par Raman + IA pour identifier pathogènes résistants et guider l'antibiothérapie ; $15M en seed", "place": "Oxford, Royaume-Uni" },
+      { "name": "River Diagnostics", "use": "Identification microbienne par Raman (IDRaman) pour laboratoires cliniques et pharmaceutiques, alternative à la culture bactérienne", "place": "Rotterdam, Pays-Bas" },
+      { "name": "Cambridge Raman Imaging", "use": "Imagerie Raman haute vitesse assistée par IA pour le diagnostic du cancer ; subvention européenne de 400 k€", "place": "Cambridge, Royaume-Uni" },
+      { "name": "Verisante Technology", "use": "Sonde Raman temps réel (Aura) pour distinguer lésions cutanées bénignes et malignes en une seconde ; approuvée Canada/UE/Australie, dépôt FDA de novo prévu", "place": "Vancouver, Canada" }
     ]
   }
 }
