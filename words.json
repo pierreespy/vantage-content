@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-30",
+  "generatedAt": "2026-07-31",
   "words": [
+    {
+      "term": "TCE",
+      "full": "T-Cell Engager",
+      "fr": "Engageur de lymphocytes T",
+      "field": "Oncologie / Immuno-oncologie",
+      "definition": "Un anticorps bispécifique (ou multispécifique) qui accroche simultanément une cellule cancéreuse et un lymphocyte T pour forcer ce dernier à la détruire, sans modification génétique préalable de la cellule immunitaire.",
+      "parts": [
+        {
+          "label": "Bras anti-CD3",
+          "role": "l'accroche T"
+        },
+        {
+          "label": "Bras anti-antigène tumoral",
+          "role": "la cible"
+        },
+        {
+          "label": "Charpente multispécifique",
+          "role": "le pont"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "Le bras anti-tumeur se lie à un antigène de surface exprimé par la cellule cancéreuse."
+        },
+        {
+          "n": "2",
+          "h": "Pontage",
+          "t": "Le bras anti-CD3 recrute simultanément un lymphocyte T à proximité immédiate, formant une synapse artificielle."
+        },
+        {
+          "n": "3",
+          "h": "Activation",
+          "t": "Cette synapse déclenche l'activation du lymphocyte T, qui libère des enzymes cytotoxiques et détruit la cellule tumorale."
+        }
+      ],
+      "why": "Après les CAR-T (sur-mesure, lents, coûteux) et les ADC (chimie complexe), les TCE offrent une puissance cytotoxique comparable en médicament 'off-the-shelf' — pas de fabrication cellule par cellule, donc un chemin plus rapide vers la clinique et la rentabilité. Ce différentiel explique la vague actuelle de deals de plateforme (AbCellera/Vertex) et de tours multimillion-dollar (Crossbow, Cytospire) sur le segment.",
+      "startups": [
+        {
+          "name": "AbCellera",
+          "use": "Plateforme TCE propriétaire ; vient de signer un partenariat de découverte avec Vertex (28 M$ upfront) sur des TCE multispécifiques auto-immuns",
+          "place": "Vancouver, Canada"
+        },
+        {
+          "name": "Numab Therapeutics",
+          "use": "Plateforme trispécifique TriTE ; sept partenariats pharma actifs dont Boehringer Ingelheim et Ono Pharmaceutical",
+          "place": "Wädenswil, Suisse"
+        },
+        {
+          "name": "Crossbow Therapeutics",
+          "use": "Anticorps TCR-mimétiques (T-Bolt) ciblant des complexes peptide-HLA intracellulaires ; 77 M$ en Series B",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Cytospire",
+          "use": "Nouvelle plateforme de T-cell engagers ; 83 M$ levés pour l'avancer en clinique",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "date": "2026-07-31",
+      "dateLong": "31 juil. 2026"
+    },
     {
       "term": "Raman",
       "full": "Raman Spectroscopy",
