@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-07-31",
+  "generatedAt": "2026-08-01",
   "words": [
+    {
+      "term": "lncRNA",
+      "full": "Long Non-Coding RNA",
+      "fr": "ARN long non codant",
+      "field": "Génomique / nouvelles modalités ARN",
+      "definition": "Une molécule d'ARN qui ne code aucune protéine mais régule l'activité d'autres gènes — une classe entière de cibles thérapeutiques restée invisible tant qu'on ne cherchait que des protéines à bloquer.",
+      "parts": [
+        {
+          "label": "lncRNA cible",
+          "role": "le régulateur dérégulé"
+        },
+        {
+          "label": "Modulateur (ASO ou petite molécule)",
+          "role": "l'outil qui l'inhibe ou le restaure"
+        },
+        {
+          "label": "Gène en aval",
+          "role": "l'expression corrigée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cartographie",
+          "t": "Un lncRNA anormalement actif ou éteint est identifié dans le tissu malade — par exemple WISPER, surexprimé dans le cœur en stress."
+        },
+        {
+          "n": "2",
+          "h": "Modulation",
+          "t": "Un oligonucléotide antisens ou une petite molécule se lie au lncRNA pour bloquer ou restaurer sa fonction, sans toucher à la séquence d'ADN."
+        },
+        {
+          "n": "3",
+          "h": "Correction",
+          "t": "L'expression du ou des gènes qu'il régule revient vers la normale, avec un effet réversible et souvent spécifique au tissu ciblé."
+        }
+      ],
+      "why": "Contrairement à CRISPR, qui édite l'ADN de façon permanente, moduler un lncRNA agit sur l'expression génique de manière réversible et tissu-spécifique — un profil de risque plus proche d'un médicament classique. Les gros pharma l'ont remarqué : Lilly a investi chez MiNA, Bayer a payé jusqu'à 547 M$ à NextRNA. Pour un VC, c'est une classe de cibles quasi vierge où la donnée de plateforme se monétise tôt, avant preuve clinique complète.",
+      "startups": [
+        {
+          "name": "HAYA Therapeutics",
+          "use": "Thérapies antisens ciblant des lncRNA tissu-spécifiques ; HTX-001 vient de décrocher la Fast Track FDA en cardiomyopathie",
+          "place": "Lausanne, Suisse / San Diego, États-Unis"
+        },
+        {
+          "name": "Amaroq Therapeutics",
+          "use": "Petites molécules ciblant des lncRNA spécifiques aux cellules cancéreuses (sein, colorectal, foie) ; 14 M$ levés auprès de Brandon Capital",
+          "place": "Dunedin, Nouvelle-Zélande"
+        },
+        {
+          "name": "MiNA Therapeutics",
+          "use": "Plateforme d'activation par ARN (saRNA) sur des cibles régulatrices ; partenariat de recherche avec Eli Lilly",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Rgenta Therapeutics",
+          "use": "Petites molécules orales modulant l'épissage et l'expression de l'ARN ; RGT-61159 en Phase 1a/b pour le carcinome adénoïde kystique",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "date": "2026-08-01",
+      "dateLong": "1 août 2026"
+    },
     {
       "term": "TCE",
       "full": "T-Cell Engager",
