@@ -1,76 +1,106 @@
 {
-  "dateLong": "1 août 2026",
+  "dateLong": "2 août 2026",
   "ticker": [
-    { "company": "ADJUVIA THERAPEUTICS", "amount": "$8M", "kind": "lev" },
-    { "company": "RACTIGEN THERAPEUTICS", "amount": "$31M", "kind": "lev" },
-    { "company": "MEDYRIA", "amount": "CHF 3,5M", "kind": "lev" },
-    { "company": "N-ZYME BIOMEDICAL", "amount": "$4,6M", "kind": "lev" },
-    { "company": "MIMEDX / SANARA MEDTECH", "amount": "$350M", "kind": "mna" },
-    { "company": "CALDERA / SYNLOGIC", "amount": "$278M", "kind": "mna" }
+    { "company": "SOUNDHEALTH", "amount": "$12,25M", "kind": "lev" },
+    { "company": "NAVI MEDICAL TECHNOLOGIES", "amount": "A$6,8M", "kind": "lev" },
+    { "company": "PROCESSA PHARMACEUTICALS", "amount": "$200M", "kind": "lev" },
+    { "company": "BEYOND AIR", "amount": "$30,1M", "kind": "lev" },
+    { "company": "HCW BIOLOGICS", "amount": "$1,6M", "kind": "lev" },
+    { "company": "FIREFLY BIO / J&J", "amount": "$1Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Fast Track FDA · Cardiologie de précision",
-    "title": "HAYA Therapeutics décroche la Fast Track de la FDA pour sa thérapie anti-lncRNA dans la cardiomyopathie",
-    "deck": "La biotech basée à Lausanne et San Diego cible WISPER, un ARN long non codant surexprimé dans le cœur en stress, avec HTX-001 — un mécanisme first-in-class actuellement en Phase 1a/b pour la cardiomyopathie hypertrophique non obstructive. La désignation accélère les échanges avec la FDA avant même l'ouverture d'un prochain tour : l'archétype du signal faible qu'un VC santé veut repérer avant tout le monde.",
-    "company": "HAYA Therapeutics",
-    "signalType": "regulatory_milestone",
+    "kicker": "Premier implant humain · Neurotech",
+    "title": "ABILITY Neurotech réalise la première procédure humaine de son interface cerveau-machine sous-cutanée",
+    "deck": "La spin-off genevoise du Wyss Center a implanté son BCI longue durée chez un premier patient au CHU universitaire de la TU Munich, dans une étude portant sur cinq patients opérés d'une tumeur cérébrale. Un jalon clinique précoce et concret pour une techno encore privée, avant toute levée de croissance — exactement le type de signal qu'un VC santé veut repérer en amont.",
+    "company": "ABILITY Neurotech",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://www.businesswire.com/news/home/20260728393451/en/HAYA-Therapeutics-Receives-FDA-Fast-Track-Designation-for-HTX-001"
+    "url": "https://med-techinsights.com/2026/07/29/ability-neurotech-announces-first-in-human-testing-for-novel-brain-computer-interface-technology/"
   },
   "deal": {
-    "company": "Sanara MedTech",
-    "amount": "$350M",
+    "company": "Firefly Bio",
+    "amount": "$1Md",
     "round": "M&A",
-    "thesis": "MIMEDX absorbe Sanara MedTech (350 M$ en cash et titres, prime de 35 $/action) pour bâtir un portefeuille chirurgical élargi — pansements en collagène, irrigation de plaies, fixation osseuse. Un comparable plutôt qu'une opportunité d'entrée : le wound care régénératif devient assez mature pour justifier des rapprochements entre acteurs cotés, ce qui dessine une porte de sortie par acquisition pour les medtechs du secteur encore privées.",
-    "url": "https://www.globenewswire.com/news-release/2026/07/29/3335544/0/en/MIMEDX-to-Acquire-Sanara-MedTech.html"
+    "thesis": "J&J boucle le rachat de Firefly Bio (1 Md$ cash) pour mettre la main sur Firelink, une plateforme de « degrader-antibody conjugates » (DAC) : au lieu de délivrer une chimio classique, l'anticorps livre une molécule qui détruit une protéine ciblée dans la cellule tumorale, y compris des cibles jugées jusqu'ici non médicamentables (dont KRAS). Un comparable plutôt qu'une opportunité d'entrée, mais qui valide en argent frais toute une nouvelle classe de plateformes ADC de nouvelle génération encore portées par des starts-up indépendantes.",
+    "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-completes-acquisition-of-firefly-bio-inc-to-advance-next-generation-oncology-innovation"
   },
   "brefsEurope": [
     {
-      "company": "Medyria",
-      "place": "Winterthour, Suisse",
-      "sector": "MedTech",
+      "company": "GenePlanet",
+      "place": "Ljubljana, Slovénie",
+      "sector": "Diagnostics",
       "signalType": "funding_round",
-      "strength": 3,
-      "title": "Medyria lève CHF 3,5 M pour boucler son dossier FDA et lancer PyCath aux États-Unis",
-      "summary": "Ce tour, qui suit un financement de CHF 1,5 M en 2025, finance la soumission 510(k) et le lancement commercial américain du cathéter PyCath — un capteur de vélocité sanguine couplé à la navigation, pensé pour la cardiologie interventionnelle. Une trajectoire capital-efficace, jalon par jalon, typique du financement medtech européen actuel.",
-      "url": "https://www.startupticker.ch/en/news/medyria-raises-chf-3-5-million"
+      "strength": 4,
+      "stage": "Growth",
+      "title": "GenePlanet sécurise un investissement stratégique de Lauxera Capital Partners, en route vers le statut de licorne slovène",
+      "summary": "Le fonds santé spécialiste Lauxera (520 M€ levés en mai) entre au capital de cette plateforme de tests génétiques et de séquençage active dans plus de 50 marchés, pendant que l'investisseur historique BlackPeak Capital cède une partie de sa participation. L'argent doit financer l'extension vers l'oncologie et les maladies rares, et l'accélération réglementaire aux États-Unis — un profil de croissance capital-efficace rare en Europe centrale et orientale.",
+      "url": "https://www.eu-startups.com/2026/07/now-there-is-a-real-chance-to-become-a-unicorn-slovenias-geneplanet-secures-strategic-investment-from-lauxera/"
+    },
+    {
+      "company": "Hi-D Imaging",
+      "place": "Zurich, Suisse",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Hi-D Imaging étend sa clearance FDA à l'analyse automatisée de l'accès vasculaire pour le TAVR",
+      "summary": "La spin-off de l'ETH Zurich ajoute à son logiciel IA de planification cardiaque déjà autorisé (analyse de la racine aortique) une nouvelle fonction couvrant tout le trajet fémoro-iliaque. Un jalon réglementaire incrémental mais net, qui densifie une plateforme cloud unique pour le TAVR plutôt que de miser sur une seule autorisation ponctuelle.",
+      "url": "https://www.startupticker.ch/en/news/four-swiss-medtechs-mark-commercial-regulatory-and-clinical-milestones"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Ractigen Therapeutics",
-      "place": "Nankin, Chine",
+      "company": "Hopstem Biotechnology",
+      "place": "Hangzhou, Chine / Houston, États-Unis",
       "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Hopstem décroche l'IND et la Fast Track de la FDA pour sa thérapie cellulaire iPSC contre les séquelles motrices d'AVC hémorragique",
+      "summary": "hNPC01 devient le premier produit de cellules souches neurales dérivées d'iPSC à obtenir un feu vert clinique à la fois en Chine et aux États-Unis, pour l'AVC hémorragique et les traumatismes crâniens. Un signal réglementaire précoce sur une plateforme encore privée, avant toute levée de croissance internationale.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/29/3334982/0/en/Hopstem-Receives-U-S-FDA-IND-Clearance-and-Fast-Track-designations-for-hNPC01-in-Hemorrhagic-Stroke-and-Traumatic-Brain-Injury-Expanding-Clinical-Development-Across-Three-Major-Bra.html"
+    },
+    {
+      "company": "SoundHealth",
+      "place": "États-Unis",
+      "sector": "Digital Health",
       "signalType": "funding_round",
       "strength": 4,
       "stage": "Series A",
-      "title": "Ractigen Therapeutics clôture plus de 31 M$ pour son pipeline saRNA clinique",
-      "summary": "Mené par Guozhong Capital, avec IDG Capital et China Everbright Limited au tour de table, ce financement fait avancer RAG-01 en Phase 2 et pousse un nouveau candidat systémique vers l'IND — sur une plateforme de délivrance saRNA extrahépatique encore rare hors du foie. Un signal à suivre pour qui regarde au-delà du siRNA hépatique déjà saturé.",
-      "url": "https://www.prnewswire.com/news-releases/ractigen-therapeutics-closes-over-31-million-financing-to-advance-clinical-stage-sarna-pipeline-and-proprietary-extrahepatic-delivery-platforms-302837867.html"
+      "title": "SoundHealth clôture une Series A sursouscrite pour ses wearables acoustiques certifiés FDA",
+      "summary": "Menée par Shangbay Capital, cette levée porte le financement total à 12,25 M$ pour étendre Sonu, un bandeau à résonance acoustique déjà utilisé pour plus de 500 000 séances de traitement du sommeil et de la respiration. Un dispositif médical grand public capital-efficace, avec autorisation FDA déjà en poche avant la levée.",
+      "url": "https://hitconsultant.net/2026/07/29/soundhealth-raises-series-a-shangbay-capital-sonu-wearable/"
+    },
+    {
+      "company": "Navi Medical Technologies",
+      "place": "Melbourne, Australie / Boston, États-Unis",
+      "sector": "MedTech",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Navi Medical lève A$6,8 M pour lancer aux États-Unis son dispositif d'accès vasculaire pédiatrique, juste après sa clearance FDA",
+      "summary": "Mené par le fonds santé KP Rx, ce tour finance la montée en production et la structure commerciale américaine de Neonav, une techno de guidage vasculaire pour nouveau-nés. L'enchaînement clearance FDA puis levée, jalon par jalon, est l'archétype du financement medtech capital-efficace que la thèse de l'app cherche à repérer tôt.",
+      "url": "https://www.morningstar.com/news/pr-newswire/20260728cn13486/australian-medtech-navi-raises-a68-million-to-commercialise-breakthrough-paediatric-technology-in-the-us"
     }
   ],
   "word": {
-    "term": "lncRNA",
-    "full": "Long Non-Coding RNA",
-    "fr": "ARN long non codant",
-    "field": "Génomique / nouvelles modalités ARN",
-    "definition": "Une molécule d'ARN qui ne code aucune protéine mais régule l'activité d'autres gènes — une classe entière de cibles thérapeutiques restée invisible tant qu'on ne cherchait que des protéines à bloquer.",
+    "term": "DAC",
+    "full": "Degrader-Antibody Conjugate",
+    "fr": "Conjugué anticorps-dégradeur",
+    "field": "Oncologie de précision / nouvelle génération d'ADC",
+    "definition": "Un anticorps qui, au lieu de délivrer une chimiothérapie classique, livre à l'intérieur de la cellule cancéreuse une molécule qui détruit une protéine ciblée — l'évolution logique de l'ADC.",
     "parts": [
-      { "label": "lncRNA cible", "role": "le régulateur dérégulé" },
-      { "label": "Modulateur (ASO ou petite molécule)", "role": "l'outil qui l'inhibe ou le restaure" },
-      { "label": "Gène en aval", "role": "l'expression corrigée" }
+      { "label": "Anticorps", "role": "le guidage vers la cellule tumorale" },
+      { "label": "Linker clivable", "role": "l'attache qui libère la charge une fois à l'intérieur" },
+      { "label": "Dégradeur (PROTAC / colle moléculaire)", "role": "la charge qui détruit la protéine visée plutôt que de l'inhiber" }
     ],
     "how": [
-      { "n": "1", "h": "Cartographie", "t": "Un lncRNA anormalement actif ou éteint est identifié dans le tissu malade — par exemple WISPER, surexprimé dans le cœur en stress." },
-      { "n": "2", "h": "Modulation", "t": "Un oligonucléotide antisens ou une petite molécule se lie au lncRNA pour bloquer ou restaurer sa fonction, sans toucher à la séquence d'ADN." },
-      { "n": "3", "h": "Correction", "t": "L'expression du ou des gènes qu'il régule revient vers la normale, avec un effet réversible et souvent spécifique au tissu ciblé." }
+      { "n": "1", "h": "Ciblage", "t": "L'anticorps se lie à un antigène de surface propre à la cellule cancéreuse." },
+      { "n": "2", "h": "Internalisation", "t": "Le complexe est absorbé dans la cellule, où le linker se clive et libère le dégradeur." },
+      { "n": "3", "h": "Dégradation", "t": "Le dégradeur recrute la machinerie de dégradation protéique de la cellule pour détruire la protéine ciblée, avec un effet catalytique répété plutôt qu'une simple inhibition." }
     ],
-    "why": "Contrairement à CRISPR, qui édite l'ADN de façon permanente, moduler un lncRNA agit sur l'expression génique de manière réversible et tissu-spécifique — un profil de risque plus proche d'un médicament classique. Les gros pharma l'ont remarqué : Lilly a investi chez MiNA, Bayer a payé jusqu'à 547 M$ à NextRNA. Pour un VC, c'est une classe de cibles quasi vierge où la donnée de plateforme se monétise tôt, avant preuve clinique complète.",
+    "why": "Un ADC classique délivre un poison cellulaire générique ; un DAC détruit une protéine précise en la dégradant, un mode d'action catalytique qui peut atteindre des cibles jugées non médicamentables et contourner certaines résistances aux ADC de première génération. J&J vient de payer 1 Md$ pour Firefly Bio et sa plateforme Firelink — la validation par un grand groupe, seulement quelques années après les premières preuves de concept, fait de cette classe de plateformes un axe à surveiller avant la prochaine levée.",
     "startups": [
-      { "name": "HAYA Therapeutics", "use": "Thérapies antisens ciblant des lncRNA tissu-spécifiques ; HTX-001 vient de décrocher la Fast Track FDA en cardiomyopathie", "place": "Lausanne, Suisse / San Diego, États-Unis" },
-      { "name": "Amaroq Therapeutics", "use": "Petites molécules ciblant des lncRNA spécifiques aux cellules cancéreuses (sein, colorectal, foie) ; 14 M$ levés auprès de Brandon Capital", "place": "Dunedin, Nouvelle-Zélande" },
-      { "name": "MiNA Therapeutics", "use": "Plateforme d'activation par ARN (saRNA) sur des cibles régulatrices ; partenariat de recherche avec Eli Lilly", "place": "Londres, Royaume-Uni" },
-      { "name": "Rgenta Therapeutics", "use": "Petites molécules orales modulant l'épissage et l'expression de l'ARN ; RGT-61159 en Phase 1a/b pour le carcinome adénoïde kystique", "place": "Cambridge, États-Unis" }
+      { "name": "3C Therapeutics", "use": "Plateforme DAC modulaire « plug-and-play » (linker TriCore) pour conjuguer des dégradeurs à n'importe quel anticorps ; spin-off de UBC", "place": "Vancouver, Canada" },
+      { "name": "Fortitude Biomedicines", "use": "ADC à charge dégradeur (colle moléculaire) pour contourner la résistance aux ADC classiques et étendre l'approche à l'auto-immunité ; 13 M$ en seed", "place": "Waltham, États-Unis" },
+      { "name": "Ubix Therapeutics", "use": "Dégradeurs bifonctionnels « Degraducer » conjugués à des anticorps (programme ADeC avec Debiopharm) pour la dégradation ciblée de protéines oncogènes", "place": "Séoul, Corée du Sud" }
     ]
   }
 }

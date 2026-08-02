@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-01",
+  "generatedAt": "2026-08-02",
   "words": [
+    {
+      "term": "DAC",
+      "full": "Degrader-Antibody Conjugate",
+      "fr": "Conjugué anticorps-dégradeur",
+      "field": "Oncologie de précision / nouvelle génération d'ADC",
+      "definition": "Un anticorps qui, au lieu de délivrer une chimiothérapie classique, livre à l'intérieur de la cellule cancéreuse une molécule qui détruit une protéine ciblée — l'évolution logique de l'ADC.",
+      "parts": [
+        {
+          "label": "Anticorps",
+          "role": "le guidage vers la cellule tumorale"
+        },
+        {
+          "label": "Linker clivable",
+          "role": "l'attache qui libère la charge une fois à l'intérieur"
+        },
+        {
+          "label": "Dégradeur (PROTAC / colle moléculaire)",
+          "role": "la charge qui détruit la protéine visée plutôt que de l'inhiber"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "L'anticorps se lie à un antigène de surface propre à la cellule cancéreuse."
+        },
+        {
+          "n": "2",
+          "h": "Internalisation",
+          "t": "Le complexe est absorbé dans la cellule, où le linker se clive et libère le dégradeur."
+        },
+        {
+          "n": "3",
+          "h": "Dégradation",
+          "t": "Le dégradeur recrute la machinerie de dégradation protéique de la cellule pour détruire la protéine ciblée, avec un effet catalytique répété plutôt qu'une simple inhibition."
+        }
+      ],
+      "why": "Un ADC classique délivre un poison cellulaire générique ; un DAC détruit une protéine précise en la dégradant, un mode d'action catalytique qui peut atteindre des cibles jugées non médicamentables et contourner certaines résistances aux ADC de première génération. J&J vient de payer 1 Md$ pour Firefly Bio et sa plateforme Firelink — la validation par un grand groupe, seulement quelques années après les premières preuves de concept, fait de cette classe de plateformes un axe à surveiller avant la prochaine levée.",
+      "startups": [
+        {
+          "name": "3C Therapeutics",
+          "use": "Plateforme DAC modulaire « plug-and-play » (linker TriCore) pour conjuguer des dégradeurs à n'importe quel anticorps ; spin-off de UBC",
+          "place": "Vancouver, Canada"
+        },
+        {
+          "name": "Fortitude Biomedicines",
+          "use": "ADC à charge dégradeur (colle moléculaire) pour contourner la résistance aux ADC classiques et étendre l'approche à l'auto-immunité ; 13 M$ en seed",
+          "place": "Waltham, États-Unis"
+        },
+        {
+          "name": "Ubix Therapeutics",
+          "use": "Dégradeurs bifonctionnels « Degraducer » conjugués à des anticorps (programme ADeC avec Debiopharm) pour la dégradation ciblée de protéines oncogènes",
+          "place": "Séoul, Corée du Sud"
+        }
+      ],
+      "date": "2026-08-02",
+      "dateLong": "2 août 2026"
+    },
     {
       "term": "lncRNA",
       "full": "Long Non-Coding RNA",
