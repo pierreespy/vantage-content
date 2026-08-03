@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-02",
+  "generatedAt": "2026-08-03",
   "words": [
+    {
+      "term": "OV",
+      "full": "Oncolytic Virus",
+      "fr": "Virus oncolytique",
+      "field": "Immuno-oncologie",
+      "definition": "Un virus modifié pour infecter et détruire sélectivement les cellules tumorales, tout en déclenchant une réponse immunitaire contre le cancer.",
+      "parts": [
+        {
+          "label": "Sélectivité tumorale",
+          "role": "le virus infecte préférentiellement la cellule cancéreuse, en épargnant les tissus sains"
+        },
+        {
+          "label": "Lyse oncolytique",
+          "role": "la réplication virale détruit directement la cellule tumorale de l'intérieur"
+        },
+        {
+          "label": "Activation immunitaire",
+          "role": "les antigènes libérés par la lyse recrutent le système immunitaire, y compris contre des métastases non injectées"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Administration",
+          "t": "Le virus modifié (souvent un HSV-1 ou une vaccine atténués) est injecté dans la tumeur ou administré par voie systémique."
+        },
+        {
+          "n": "2",
+          "h": "Réplication ciblée",
+          "t": "Le virus se réplique sélectivement dans les cellules cancéreuses, grâce à des délétions génétiques exploitant des voies dérégulées propres au cancer, puis les détruit."
+        },
+        {
+          "n": "3",
+          "h": "Réponse systémique",
+          "t": "La lyse libère antigènes tumoraux et signaux de danger : le système immunitaire est recruté, souvent en combinaison avec un checkpoint inhibitor, pour un effet qui dépasse le site injecté."
+        }
+      ],
+      "why": "Après deux rejets de la FDA, Replimune vient d'obtenir un vote de comité consultatif favorable pour RP1 — la preuve que l'agence peut accepter des données d'essai non randomisé pour cette modalité. Un signal de marché qui rouvre la voie réglementaire pour toute une classe encore largement portée par des biotechs indépendantes.",
+      "startups": [
+        {
+          "name": "Akamis Bio",
+          "use": "Plateforme d'adénovirus oncolytique armé (NG-350A) en développement clinique dans le cancer rectal pMMR ; 185 M$ levés, investisseurs dont Lundbeckfonden et Bristol Myers Squibb",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "KaliVir Immunotherapeutics",
+          "use": "Plateforme de vaccine oncolytique modifiée (VET) ; accord de recherche clinique avec Roche sur la combinaison avec l'atezolizumab",
+          "place": "Pittsburgh, États-Unis"
+        },
+        {
+          "name": "Genelux Corporation",
+          "use": "Vaccine oncolytique Olvi-Vec en essai de Phase 3 registrationnel dans le cancer de l'ovaire résistant au platine",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "Candel Therapeutics",
+          "use": "HSV-1 oncolytique de nouvelle génération (linoserpaturev) dans le glioblastome, dépôt de BLA prévu au T4 2026",
+          "place": "Needham, États-Unis"
+        }
+      ],
+      "date": "2026-08-03",
+      "dateLong": "3 août 2026"
+    },
     {
       "term": "DAC",
       "full": "Degrader-Antibody Conjugate",

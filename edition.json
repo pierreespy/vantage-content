@@ -1,106 +1,98 @@
 {
-  "dateLong": "2 août 2026",
+  "dateLong": "3 août 2026",
   "ticker": [
-    { "company": "SOUNDHEALTH", "amount": "$12,25M", "kind": "lev" },
-    { "company": "NAVI MEDICAL TECHNOLOGIES", "amount": "A$6,8M", "kind": "lev" },
-    { "company": "PROCESSA PHARMACEUTICALS", "amount": "$200M", "kind": "lev" },
-    { "company": "BEYOND AIR", "amount": "$30,1M", "kind": "lev" },
-    { "company": "HCW BIOLOGICS", "amount": "$1,6M", "kind": "lev" },
-    { "company": "FIREFLY BIO / J&J", "amount": "$1Md", "kind": "mna" }
+    { "company": "CURIFYLABS", "amount": "€12M", "kind": "lev" },
+    { "company": "SIGHTERA BIOSCIENCES", "amount": "€3M", "kind": "lev" },
+    { "company": "BUNKERHILL HEALTH", "amount": "$55M", "kind": "lev" },
+    { "company": "THRONE SCIENCE", "amount": "$10M", "kind": "lev" },
+    { "company": "PEARL HEALTH", "amount": "$110M", "kind": "lev" },
+    { "company": "STEREOTAXIS / ROBOCATH", "amount": "$45M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Premier implant humain · Neurotech",
-    "title": "ABILITY Neurotech réalise la première procédure humaine de son interface cerveau-machine sous-cutanée",
-    "deck": "La spin-off genevoise du Wyss Center a implanté son BCI longue durée chez un premier patient au CHU universitaire de la TU Munich, dans une étude portant sur cinq patients opérés d'une tumeur cérébrale. Un jalon clinique précoce et concret pour une techno encore privée, avant toute levée de croissance — exactement le type de signal qu'un VC santé veut repérer en amont.",
-    "company": "ABILITY Neurotech",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://med-techinsights.com/2026/07/29/ability-neurotech-announces-first-in-human-testing-for-novel-brain-computer-interface-technology/"
+    "kicker": "Series A · Pharmacie de précision",
+    "title": "CurifyLabs lève 12 M€ pour industrialiser la pharmacie de préparation personnalisée et attaquer les États-Unis",
+    "deck": "Le finlandais, dont la plateforme d'impression 3D de préparations magistrales équipe déjà des pharmacies dans 21 États américains, boucle une Series A co-menée par Sandwater et le fonds santé spécialiste HealthCap, avec Tesi et Lifeline Ventures. De quoi financer l'expansion américaine sur un segment — la médecine sur-mesure pour enfants, patients oncologiques ou intolérants aux formes standard — que peu de VCs santé suivent encore de près.",
+    "company": "CurifyLabs",
+    "stage": "Series A",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.eu-startups.com/2026/07/finlands-curifylabs-raises-e12-million-to-expand-3d-printing-based-medicine-compounding/"
   },
   "deal": {
-    "company": "Firefly Bio",
-    "amount": "$1Md",
-    "round": "M&A",
-    "thesis": "J&J boucle le rachat de Firefly Bio (1 Md$ cash) pour mettre la main sur Firelink, une plateforme de « degrader-antibody conjugates » (DAC) : au lieu de délivrer une chimio classique, l'anticorps livre une molécule qui détruit une protéine ciblée dans la cellule tumorale, y compris des cibles jugées jusqu'ici non médicamentables (dont KRAS). Un comparable plutôt qu'une opportunité d'entrée, mais qui valide en argent frais toute une nouvelle classe de plateformes ADC de nouvelle génération encore portées par des starts-up indépendantes.",
-    "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-completes-acquisition-of-firefly-bio-inc-to-advance-next-generation-oncology-innovation"
+    "company": "Bunkerhill Health",
+    "amount": "$55M",
+    "round": "Series B",
+    "thesis": "Khosla Ventures mène ce tour (avec Sequoia, Felicis, Optum Ventures et Y Combinator) pour Carebricks, une plateforme qui permet aux hôpitaux de construire eux-mêmes leurs agents IA cliniques et opérationnels — de la relecture d'imagerie cardiologique au suivi des autorisations préalables. Déjà déployée à la Cleveland Clinic, à UTMB et chez Intermountain Health, elle porte le pari que l'IA agentique en santé se gagnera par l'infrastructure plutôt que par l'outil ponctuel.",
+    "url": "https://www.businesswire.com/news/home/20260716806874/en/Bunkerhill-Health-Raises-$55-Million-to-Help-Health-Systems-Turn-Their-Best-Ideas-into-Reality"
   },
   "brefsEurope": [
     {
-      "company": "GenePlanet",
-      "place": "Ljubljana, Slovénie",
-      "sector": "Diagnostics",
+      "company": "Sightera Biosciences",
+      "place": "Anvers, Belgique",
+      "sector": "Biotech",
       "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Growth",
-      "title": "GenePlanet sécurise un investissement stratégique de Lauxera Capital Partners, en route vers le statut de licorne slovène",
-      "summary": "Le fonds santé spécialiste Lauxera (520 M€ levés en mai) entre au capital de cette plateforme de tests génétiques et de séquençage active dans plus de 50 marchés, pendant que l'investisseur historique BlackPeak Capital cède une partie de sa participation. L'argent doit financer l'extension vers l'oncologie et les maladies rares, et l'accélération réglementaire aux États-Unis — un profil de croissance capital-efficace rare en Europe centrale et orientale.",
-      "url": "https://www.eu-startups.com/2026/07/now-there-is-a-real-chance-to-become-a-unicorn-slovenias-geneplanet-secures-strategic-investment-from-lauxera/"
-    },
-    {
-      "company": "Hi-D Imaging",
-      "place": "Zurich, Suisse",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Hi-D Imaging étend sa clearance FDA à l'analyse automatisée de l'accès vasculaire pour le TAVR",
-      "summary": "La spin-off de l'ETH Zurich ajoute à son logiciel IA de planification cardiaque déjà autorisé (analyse de la racine aortique) une nouvelle fonction couvrant tout le trajet fémoro-iliaque. Un jalon réglementaire incrémental mais net, qui densifie une plateforme cloud unique pour le TAVR plutôt que de miser sur une seule autorisation ponctuelle.",
-      "url": "https://www.startupticker.ch/en/news/four-swiss-medtechs-mark-commercial-regulatory-and-clinical-milestones"
+      "strength": 3,
+      "stage": "Pre-seed",
+      "title": "Sightera Biosciences lève 3 M€ pour entraîner son IA de découverte de médicaments sur des données de patients réfractaires",
+      "summary": "Spin-off de l'université d'Anvers et de son hôpital universitaire (UZA), la biotech mise sur une approche à contre-courant : plutôt que des jeux de données publics, elle utilise des échantillons de patients en échec thérapeutique pour construire des organoïdes et cibler oncologie et fibrose. Tour mené par Entourage, Anacura et QBIC — un signal précoce sur une thèse de données propriétaires qui commence à essaimer en Europe.",
+      "url": "https://tech.eu/2026/07/17/sightera-biosciences-closes-eur3m-pre-seed-to-expand-its-patient-derived-ai-drug-discovery-platform/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Hopstem Biotechnology",
-      "place": "Hangzhou, Chine / Houston, États-Unis",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Hopstem décroche l'IND et la Fast Track de la FDA pour sa thérapie cellulaire iPSC contre les séquelles motrices d'AVC hémorragique",
-      "summary": "hNPC01 devient le premier produit de cellules souches neurales dérivées d'iPSC à obtenir un feu vert clinique à la fois en Chine et aux États-Unis, pour l'AVC hémorragique et les traumatismes crâniens. Un signal réglementaire précoce sur une plateforme encore privée, avant toute levée de croissance internationale.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/29/3334982/0/en/Hopstem-Receives-U-S-FDA-IND-Clearance-and-Fast-Track-designations-for-hNPC01-in-Hemorrhagic-Stroke-and-Traumatic-Brain-Injury-Expanding-Clinical-Development-Across-Three-Major-Bra.html"
-    },
-    {
-      "company": "SoundHealth",
-      "place": "États-Unis",
+      "company": "Throne Science",
+      "place": "Austin, États-Unis",
       "sector": "Digital Health",
       "signalType": "funding_round",
       "strength": 4,
       "stage": "Series A",
-      "title": "SoundHealth clôture une Series A sursouscrite pour ses wearables acoustiques certifiés FDA",
-      "summary": "Menée par Shangbay Capital, cette levée porte le financement total à 12,25 M$ pour étendre Sonu, un bandeau à résonance acoustique déjà utilisé pour plus de 500 000 séances de traitement du sommeil et de la respiration. Un dispositif médical grand public capital-efficace, avec autorisation FDA déjà en poche avant la levée.",
-      "url": "https://hitconsultant.net/2026/07/29/soundhealth-raises-series-a-shangbay-capital-sonu-wearable/"
+      "title": "Throne Science lève 10 M$ pour son capteur de toilette qui traque la santé digestive à chaque passage",
+      "summary": "Cofondé par l'ex-CTO de Whoop, le dispositif s'installe sur n'importe quelles toilettes et utilise la vision par ordinateur pour suivre hydratation, transit et marqueurs digestifs sans wearable. Tour mené par Will Ventures — un pari sur le monitoring passif comme prochaine frontière du digital health grand public, au-delà des trackers portés.",
+      "url": "https://www.businesswire.com/news/home/20260728282605/en/Throne-Science-Maker-of-Smart-Toilet-Sensor-Announces-$10-Million-Series-A-Fundraise"
     },
     {
-      "company": "Navi Medical Technologies",
-      "place": "Melbourne, Australie / Boston, États-Unis",
+      "company": "Replimune Group",
+      "place": "Woburn, États-Unis",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Replimune obtient un vote favorable du comité consultatif de la FDA pour RP1, après deux rejets",
+      "summary": "Le comité CTGTAC de la FDA a voté 10 contre 3 en faveur de l'efficacité clinique de RP1 (virus oncolytique HSV-1) associé au nivolumab dans le mélanome avancé, propulsant le titre de +127% en une séance. La décision finale de la FDA est attendue sous peu — un cas d'école sur ce que l'agence est prête à accepter comme preuve d'efficacité pour la virothérapie oncolytique, une classe encore largement portée par des biotechs privées.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/30/3336537/0/en/Replimune-Announces-Favorable-Outcome-of-FDA-s-Cellular-Tissue-and-Gene-Therapies-Advisory-Committee-Meeting-for-RP1-in-Advanced-Melanoma.html"
+    },
+    {
+      "company": "Smith+Nephew",
+      "place": "Watford, Royaume-Uni",
       "sector": "MedTech",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Navi Medical lève A$6,8 M pour lancer aux États-Unis son dispositif d'accès vasculaire pédiatrique, juste après sa clearance FDA",
-      "summary": "Mené par le fonds santé KP Rx, ce tour finance la montée en production et la structure commerciale américaine de Neonav, une techno de guidage vasculaire pour nouveau-nés. L'enchaînement clearance FDA puis levée, jalon par jalon, est l'archétype du financement medtech capital-efficace que la thèse de l'app cherche à repérer tôt.",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260728cn13486/australian-medtech-navi-raises-a68-million-to-commercialise-breakthrough-paediatric-technology-in-the-us"
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Smith+Nephew obtient la classification De Novo de la FDA pour TESSA, sa plateforme de navigation chirurgicale par IA",
+      "summary": "Première indication autorisée : le positionnement du tunnel fémoral en reconstruction du ligament croisé antérieur, guidé par un modèle 3D patient-spécifique superposé en direct à la vidéo arthroscopique. La classification crée une nouvelle catégorie réglementaire pour la navigation stéréotaxique intra-articulaire — un jalon de laboratoire déjà établi, mais qui fixe la barre que devront suivre les start-up de navigation chirurgicale IA encore indépendantes.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/29/3335378/0/en/Smith-Nephew-s-TESSA-Spatial-Surgery-System-granted-De-Novo-classification-by-the-FDA-sparking-a-generational-leap-in-Sports-Medicine-for-personalized-planning-and-procedural-innovation.html"
     }
   ],
   "word": {
-    "term": "DAC",
-    "full": "Degrader-Antibody Conjugate",
-    "fr": "Conjugué anticorps-dégradeur",
-    "field": "Oncologie de précision / nouvelle génération d'ADC",
-    "definition": "Un anticorps qui, au lieu de délivrer une chimiothérapie classique, livre à l'intérieur de la cellule cancéreuse une molécule qui détruit une protéine ciblée — l'évolution logique de l'ADC.",
+    "term": "OV",
+    "full": "Oncolytic Virus",
+    "fr": "Virus oncolytique",
+    "field": "Immuno-oncologie",
+    "definition": "Un virus modifié pour infecter et détruire sélectivement les cellules tumorales, tout en déclenchant une réponse immunitaire contre le cancer.",
     "parts": [
-      { "label": "Anticorps", "role": "le guidage vers la cellule tumorale" },
-      { "label": "Linker clivable", "role": "l'attache qui libère la charge une fois à l'intérieur" },
-      { "label": "Dégradeur (PROTAC / colle moléculaire)", "role": "la charge qui détruit la protéine visée plutôt que de l'inhiber" }
+      { "label": "Sélectivité tumorale", "role": "le virus infecte préférentiellement la cellule cancéreuse, en épargnant les tissus sains" },
+      { "label": "Lyse oncolytique", "role": "la réplication virale détruit directement la cellule tumorale de l'intérieur" },
+      { "label": "Activation immunitaire", "role": "les antigènes libérés par la lyse recrutent le système immunitaire, y compris contre des métastases non injectées" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "L'anticorps se lie à un antigène de surface propre à la cellule cancéreuse." },
-      { "n": "2", "h": "Internalisation", "t": "Le complexe est absorbé dans la cellule, où le linker se clive et libère le dégradeur." },
-      { "n": "3", "h": "Dégradation", "t": "Le dégradeur recrute la machinerie de dégradation protéique de la cellule pour détruire la protéine ciblée, avec un effet catalytique répété plutôt qu'une simple inhibition." }
+      { "n": "1", "h": "Administration", "t": "Le virus modifié (souvent un HSV-1 ou une vaccine atténués) est injecté dans la tumeur ou administré par voie systémique." },
+      { "n": "2", "h": "Réplication ciblée", "t": "Le virus se réplique sélectivement dans les cellules cancéreuses, grâce à des délétions génétiques exploitant des voies dérégulées propres au cancer, puis les détruit." },
+      { "n": "3", "h": "Réponse systémique", "t": "La lyse libère antigènes tumoraux et signaux de danger : le système immunitaire est recruté, souvent en combinaison avec un checkpoint inhibitor, pour un effet qui dépasse le site injecté." }
     ],
-    "why": "Un ADC classique délivre un poison cellulaire générique ; un DAC détruit une protéine précise en la dégradant, un mode d'action catalytique qui peut atteindre des cibles jugées non médicamentables et contourner certaines résistances aux ADC de première génération. J&J vient de payer 1 Md$ pour Firefly Bio et sa plateforme Firelink — la validation par un grand groupe, seulement quelques années après les premières preuves de concept, fait de cette classe de plateformes un axe à surveiller avant la prochaine levée.",
+    "why": "Après deux rejets de la FDA, Replimune vient d'obtenir un vote de comité consultatif favorable pour RP1 — la preuve que l'agence peut accepter des données d'essai non randomisé pour cette modalité. Un signal de marché qui rouvre la voie réglementaire pour toute une classe encore largement portée par des biotechs indépendantes.",
     "startups": [
-      { "name": "3C Therapeutics", "use": "Plateforme DAC modulaire « plug-and-play » (linker TriCore) pour conjuguer des dégradeurs à n'importe quel anticorps ; spin-off de UBC", "place": "Vancouver, Canada" },
-      { "name": "Fortitude Biomedicines", "use": "ADC à charge dégradeur (colle moléculaire) pour contourner la résistance aux ADC classiques et étendre l'approche à l'auto-immunité ; 13 M$ en seed", "place": "Waltham, États-Unis" },
-      { "name": "Ubix Therapeutics", "use": "Dégradeurs bifonctionnels « Degraducer » conjugués à des anticorps (programme ADeC avec Debiopharm) pour la dégradation ciblée de protéines oncogènes", "place": "Séoul, Corée du Sud" }
+      { "name": "Akamis Bio", "use": "Plateforme d'adénovirus oncolytique armé (NG-350A) en développement clinique dans le cancer rectal pMMR ; 185 M$ levés, investisseurs dont Lundbeckfonden et Bristol Myers Squibb", "place": "Royaume-Uni" },
+      { "name": "KaliVir Immunotherapeutics", "use": "Plateforme de vaccine oncolytique modifiée (VET) ; accord de recherche clinique avec Roche sur la combinaison avec l'atezolizumab", "place": "Pittsburgh, États-Unis" },
+      { "name": "Genelux Corporation", "use": "Vaccine oncolytique Olvi-Vec en essai de Phase 3 registrationnel dans le cancer de l'ovaire résistant au platine", "place": "San Diego, États-Unis" },
+      { "name": "Candel Therapeutics", "use": "HSV-1 oncolytique de nouvelle génération (linoserpaturev) dans le glioblastome, dépôt de BLA prévu au T4 2026", "place": "Needham, États-Unis" }
     ]
   }
 }
