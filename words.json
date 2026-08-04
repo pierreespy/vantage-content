@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-03",
+  "generatedAt": "2026-08-04",
   "words": [
+    {
+      "term": "Théranostique",
+      "full": "Theranostics (Therapeutics + Diagnostics)",
+      "fr": "Théranostique",
+      "field": "Médecine nucléaire / Oncologie de précision",
+      "definition": "Une paire de radiopharmaceutiques ciblant la même molécule tumorale : un traceur pour voir la tumeur par imagerie, puis un radio-isotope thérapeutique pour la détruire — le patient ne reçoit le traitement que si le diagnostic confirme la cible.",
+      "parts": [
+        {
+          "label": "Traceur diagnostique",
+          "role": "confirme par imagerie que la tumeur exprime la cible"
+        },
+        {
+          "label": "Vecteur moléculaire",
+          "role": "la même molécule guide le diagnostic et le traitement"
+        },
+        {
+          "label": "Radio-isotope thérapeutique",
+          "role": "délivre la dose destructrice une fois la cible confirmée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sélection du patient",
+          "t": "Un scan PET/CT avec traceur radioactif confirme que la tumeur du patient exprime bien la cible moléculaire visée (ex. PSMA en cancer de la prostate)."
+        },
+        {
+          "n": "2",
+          "h": "Appariement thérapeutique",
+          "t": "Seuls les patients positifs à l'imagerie reçoivent le radiopharmaceutique thérapeutique, qui utilise le même vecteur moléculaire mais un isotope émetteur de rayonnement destructeur (bêta ou alpha)."
+        },
+        {
+          "n": "3",
+          "h": "Irradiation ciblée",
+          "t": "L'isotope délivre sa dose directement aux cellules tumorales fixées, en épargnant largement les tissus sains alentour."
+        }
+      ],
+      "why": "Le M&A à 8 Md$ entre Curium et Lantheus, annoncé cette semaine, acte la bascule du secteur vers cette convergence diagnostic-thérapie. Pour les VCs santé, la théranostique offre un double avantage : un taux d'échec clinique plus faible (le patient est présélectionné par l'imagerie) et une thèse de sortie de plus en plus lisible, à mesure que Big Pharma et les majors du radiopharma consolident le secteur.",
+      "startups": [
+        {
+          "name": "Nuclidium",
+          "use": "Plateforme théranostique au cuivre-61/67 ciblant PSMA en cancer de la prostate ; Série B étendue à 105 MCHF avec Kurma, Angelini Ventures et la BEI",
+          "place": "Bâle, Suisse"
+        },
+        {
+          "name": "Full-Life Technologies",
+          "use": "Radiothérapeutiques à l'actinium-225 (alpha) et plateforme de production intégrée ; Série D de 150 M$ en mai 2026, accord de licence avec SK Biopharmaceuticals",
+          "place": "Belgique / Allemagne"
+        },
+        {
+          "name": "Convergent Therapeutics",
+          "use": "CONV01-α, radioligand alpha ciblant PSMA en cancer de la prostate métastatique résistant à la castration ; données de Phase 2 positives présentées à l'ASCO 2026",
+          "place": "Boston, États-Unis"
+        }
+      ],
+      "date": "2026-08-04",
+      "dateLong": "4 août 2026"
+    },
     {
       "term": "OV",
       "full": "Oncolytic Virus",

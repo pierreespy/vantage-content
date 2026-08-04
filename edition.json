@@ -1,98 +1,85 @@
 {
-  "dateLong": "3 août 2026",
+  "dateLong": "4 août 2026",
   "ticker": [
-    { "company": "CURIFYLABS", "amount": "€12M", "kind": "lev" },
-    { "company": "SIGHTERA BIOSCIENCES", "amount": "€3M", "kind": "lev" },
-    { "company": "BUNKERHILL HEALTH", "amount": "$55M", "kind": "lev" },
-    { "company": "THRONE SCIENCE", "amount": "$10M", "kind": "lev" },
-    { "company": "PEARL HEALTH", "amount": "$110M", "kind": "lev" },
-    { "company": "STEREOTAXIS / ROBOCATH", "amount": "$45M", "kind": "mna" }
+    { "company": "ONALABS", "amount": "€9,3M", "kind": "lev" },
+    { "company": "AIFORIA", "amount": "€20M", "kind": "lev" },
+    { "company": "INOCRAS", "amount": "$31M", "kind": "lev" },
+    { "company": "CURIUM / LANTHEUS", "amount": "$8,0Md", "kind": "mna" },
+    { "company": "KKR / INTEGER", "amount": "$5,7Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series A · Pharmacie de précision",
-    "title": "CurifyLabs lève 12 M€ pour industrialiser la pharmacie de préparation personnalisée et attaquer les États-Unis",
-    "deck": "Le finlandais, dont la plateforme d'impression 3D de préparations magistrales équipe déjà des pharmacies dans 21 États américains, boucle une Series A co-menée par Sandwater et le fonds santé spécialiste HealthCap, avec Tesi et Lifeline Ventures. De quoi financer l'expansion américaine sur un segment — la médecine sur-mesure pour enfants, patients oncologiques ou intolérants aux formes standard — que peu de VCs santé suivent encore de près.",
-    "company": "CurifyLabs",
+    "kicker": "Series A · Diagnostic non invasif",
+    "title": "Onalabs lève 9,3 M€ pour son diagnostic par la sueur — avec l'État espagnol au capital",
+    "deck": "La medtech barcelonaise fait entrer la SETT, le véhicule d'investissement du ministère espagnol de la Transformation numérique, aux côtés du fonds autrichien 1921 Ventures (fondé par le créateur de mySugr) et du singapourien nPrime. De quoi industrialiser ONAVITAL, son capteur de biomarqueurs métaboliques par la sueur, après le succès commercial de sa version sport ONASPORT.",
+    "company": "Onalabs",
     "stage": "Series A",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.eu-startups.com/2026/07/finlands-curifylabs-raises-e12-million-to-expand-3d-printing-based-medicine-compounding/"
+    "url": "https://www.sgieurope.com/financing/onalabs-raises-more-than-93m-to-scale-continuous-health-monitoring/122451.article"
   },
   "deal": {
-    "company": "Bunkerhill Health",
-    "amount": "$55M",
-    "round": "Series B",
-    "thesis": "Khosla Ventures mène ce tour (avec Sequoia, Felicis, Optum Ventures et Y Combinator) pour Carebricks, une plateforme qui permet aux hôpitaux de construire eux-mêmes leurs agents IA cliniques et opérationnels — de la relecture d'imagerie cardiologique au suivi des autorisations préalables. Déjà déployée à la Cleveland Clinic, à UTMB et chez Intermountain Health, elle porte le pari que l'IA agentique en santé se gagnera par l'infrastructure plutôt que par l'outil ponctuel.",
-    "url": "https://www.businesswire.com/news/home/20260716806874/en/Bunkerhill-Health-Raises-$55-Million-to-Help-Health-Systems-Turn-Their-Best-Ideas-into-Reality"
+    "company": "Curium",
+    "amount": "$8,0Md",
+    "round": "M&A",
+    "thesis": "Le radiopharma parisien Curium rachète l'américain coté Lantheus (102,50 $/action en cash, plus un CVR pouvant porter le total à 8 Md$) pour réunir sous un même toit un leader du diagnostic radioactif et un poids lourd de la thérapie ciblée. Le deal confirme la bascule du secteur vers la théranostique — diagnostiquer et traiter avec la même molécule —, un thème que des biotechs privées comme Nuclidium ou Convergent Therapeutics travaillent depuis plusieurs années et qui devient une thèse de sortie de plus en plus lisible pour leurs investisseurs.",
+    "url": "https://www.biospace.com/press-releases/curium-announces-definitive-agreement-to-merge-with-lantheus"
   },
   "brefsEurope": [
     {
-      "company": "Sightera Biosciences",
-      "place": "Anvers, Belgique",
-      "sector": "Biotech",
+      "company": "Aiforia",
+      "place": "Helsinki, Finlande",
+      "sector": "Digital Health",
       "signalType": "funding_round",
       "strength": 3,
-      "stage": "Pre-seed",
-      "title": "Sightera Biosciences lève 3 M€ pour entraîner son IA de découverte de médicaments sur des données de patients réfractaires",
-      "summary": "Spin-off de l'université d'Anvers et de son hôpital universitaire (UZA), la biotech mise sur une approche à contre-courant : plutôt que des jeux de données publics, elle utilise des échantillons de patients en échec thérapeutique pour construire des organoïdes et cibler oncologie et fibrose. Tour mené par Entourage, Anacura et QBIC — un signal précoce sur une thèse de données propriétaires qui commence à essaimer en Europe.",
-      "url": "https://tech.eu/2026/07/17/sightera-biosciences-closes-eur3m-pre-seed-to-expand-its-patient-derived-ai-drug-discovery-platform/"
+      "title": "La BEI injecte 20 M€ de dette de croissance dans le pathologiste IA finlandais Aiforia",
+      "summary": "Financement structuré en trois tranches sous le programme InvestEU de la Commission européenne, assorti d'un mécanisme de warrant synthétique qui évite toute dilution immédiate — un instrument que l'UE pousse pour financer la mise à l'échelle commerciale des plateformes de diagnostic IA en pathologie, sans passer par une levée en equity classique.",
+      "url": "https://www.eu-startups.com/2026/08/helsinki-based-aiforia-secures-e20-million-eib-financing-to-advance-ai-powered-cancer-diagnostics"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Throne Science",
-      "place": "Austin, États-Unis",
-      "sector": "Digital Health",
+      "company": "Inocras",
+      "place": "San Diego, États-Unis",
+      "sector": "Diagnostics",
       "signalType": "funding_round",
       "strength": 4,
-      "stage": "Series A",
-      "title": "Throne Science lève 10 M$ pour son capteur de toilette qui traque la santé digestive à chaque passage",
-      "summary": "Cofondé par l'ex-CTO de Whoop, le dispositif s'installe sur n'importe quelles toilettes et utilise la vision par ordinateur pour suivre hydratation, transit et marqueurs digestifs sans wearable. Tour mené par Will Ventures — un pari sur le monitoring passif comme prochaine frontière du digital health grand public, au-delà des trackers portés.",
-      "url": "https://www.businesswire.com/news/home/20260728282605/en/Throne-Science-Maker-of-Smart-Toilet-Sensor-Announces-$10-Million-Series-A-Fundraise"
+      "stage": "Series B",
+      "title": "Inocras boucle 31 M$ pour imposer le séquençage du génome entier en oncologie de précision",
+      "summary": "Série B-3 sursouscrite (total levé désormais ~100 M$), avec l'entrée d'investisseurs coréens — IMM Investment, Korea Investment & Securities — aux côtés du fonds stratégique Aimed Bio. La plateforme équipe déjà plus de 100 centres anticancer et une trentaine d'hôpitaux sud-coréens : un pari sur le séquençage du génome entier comme standard diagnostique plutôt que les panels ciblés plus étroits.",
+      "url": "https://hitconsultant.net/2026/08/03/inocras-raises-31m-series-b3-funding-whole-genome-oncology/"
     },
     {
-      "company": "Replimune Group",
-      "place": "Woburn, États-Unis",
+      "company": "AusperBio",
+      "place": "Boston, États-Unis / Shanghai, Chine",
       "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Replimune obtient un vote favorable du comité consultatif de la FDA pour RP1, après deux rejets",
-      "summary": "Le comité CTGTAC de la FDA a voté 10 contre 3 en faveur de l'efficacité clinique de RP1 (virus oncolytique HSV-1) associé au nivolumab dans le mélanome avancé, propulsant le titre de +127% en une séance. La décision finale de la FDA est attendue sous peu — un cas d'école sur ce que l'agence est prête à accepter comme preuve d'efficacité pour la virothérapie oncolytique, une classe encore largement portée par des biotechs privées.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/30/3336537/0/en/Replimune-Announces-Favorable-Outcome-of-FDA-s-Cellular-Tissue-and-Gene-Therapies-Advisory-Committee-Meeting-for-RP1-in-Advanced-Melanoma.html"
-    },
-    {
-      "company": "Smith+Nephew",
-      "place": "Watford, Royaume-Uni",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Smith+Nephew obtient la classification De Novo de la FDA pour TESSA, sa plateforme de navigation chirurgicale par IA",
-      "summary": "Première indication autorisée : le positionnement du tunnel fémoral en reconstruction du ligament croisé antérieur, guidé par un modèle 3D patient-spécifique superposé en direct à la vidéo arthroscopique. La classification crée une nouvelle catégorie réglementaire pour la navigation stéréotaxique intra-articulaire — un jalon de laboratoire déjà établi, mais qui fixe la barre que devront suivre les start-up de navigation chirurgicale IA encore indépendantes.",
-      "url": "https://www.globenewswire.com/news-release/2026/07/29/3335378/0/en/Smith-Nephew-s-TESSA-Spatial-Surgery-System-granted-De-Novo-classification-by-the-FDA-sparking-a-generational-leap-in-Sports-Medicine-for-personalized-planning-and-procedural-innovation.html"
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "AusperBio dose son premier patient avec AHB-171, second candidat siRNA contre l'hépatite B chronique",
+      "summary": "Premier patient dosé sur sa plateforme propriétaire Au-HALO de ciblage hépatocytaire — la biotech élargit son pipeline HBV au-delà de son actif phare AHB-137, déjà en Phase III, et diversifie son pari sur les thérapies siRNA de nouvelle génération pour la cure fonctionnelle de l'hépatite B.",
+      "url": "https://www.prnewswire.com/news-releases/ausperbio-announces-first-patient-dosed-in-clinical-study-of-investigational-hbv-candidate-ahb-171-302841062.html"
     }
   ],
   "word": {
-    "term": "OV",
-    "full": "Oncolytic Virus",
-    "fr": "Virus oncolytique",
-    "field": "Immuno-oncologie",
-    "definition": "Un virus modifié pour infecter et détruire sélectivement les cellules tumorales, tout en déclenchant une réponse immunitaire contre le cancer.",
+    "term": "Théranostique",
+    "full": "Theranostics (Therapeutics + Diagnostics)",
+    "fr": "Théranostique",
+    "field": "Médecine nucléaire / Oncologie de précision",
+    "definition": "Une paire de radiopharmaceutiques ciblant la même molécule tumorale : un traceur pour voir la tumeur par imagerie, puis un radio-isotope thérapeutique pour la détruire — le patient ne reçoit le traitement que si le diagnostic confirme la cible.",
     "parts": [
-      { "label": "Sélectivité tumorale", "role": "le virus infecte préférentiellement la cellule cancéreuse, en épargnant les tissus sains" },
-      { "label": "Lyse oncolytique", "role": "la réplication virale détruit directement la cellule tumorale de l'intérieur" },
-      { "label": "Activation immunitaire", "role": "les antigènes libérés par la lyse recrutent le système immunitaire, y compris contre des métastases non injectées" }
+      { "label": "Traceur diagnostique", "role": "confirme par imagerie que la tumeur exprime la cible" },
+      { "label": "Vecteur moléculaire", "role": "la même molécule guide le diagnostic et le traitement" },
+      { "label": "Radio-isotope thérapeutique", "role": "délivre la dose destructrice une fois la cible confirmée" }
     ],
     "how": [
-      { "n": "1", "h": "Administration", "t": "Le virus modifié (souvent un HSV-1 ou une vaccine atténués) est injecté dans la tumeur ou administré par voie systémique." },
-      { "n": "2", "h": "Réplication ciblée", "t": "Le virus se réplique sélectivement dans les cellules cancéreuses, grâce à des délétions génétiques exploitant des voies dérégulées propres au cancer, puis les détruit." },
-      { "n": "3", "h": "Réponse systémique", "t": "La lyse libère antigènes tumoraux et signaux de danger : le système immunitaire est recruté, souvent en combinaison avec un checkpoint inhibitor, pour un effet qui dépasse le site injecté." }
+      { "n": "1", "h": "Sélection du patient", "t": "Un scan PET/CT avec traceur radioactif confirme que la tumeur du patient exprime bien la cible moléculaire visée (ex. PSMA en cancer de la prostate)." },
+      { "n": "2", "h": "Appariement thérapeutique", "t": "Seuls les patients positifs à l'imagerie reçoivent le radiopharmaceutique thérapeutique, qui utilise le même vecteur moléculaire mais un isotope émetteur de rayonnement destructeur (bêta ou alpha)." },
+      { "n": "3", "h": "Irradiation ciblée", "t": "L'isotope délivre sa dose directement aux cellules tumorales fixées, en épargnant largement les tissus sains alentour." }
     ],
-    "why": "Après deux rejets de la FDA, Replimune vient d'obtenir un vote de comité consultatif favorable pour RP1 — la preuve que l'agence peut accepter des données d'essai non randomisé pour cette modalité. Un signal de marché qui rouvre la voie réglementaire pour toute une classe encore largement portée par des biotechs indépendantes.",
+    "why": "Le M&A à 8 Md$ entre Curium et Lantheus, annoncé cette semaine, acte la bascule du secteur vers cette convergence diagnostic-thérapie. Pour les VCs santé, la théranostique offre un double avantage : un taux d'échec clinique plus faible (le patient est présélectionné par l'imagerie) et une thèse de sortie de plus en plus lisible, à mesure que Big Pharma et les majors du radiopharma consolident le secteur.",
     "startups": [
-      { "name": "Akamis Bio", "use": "Plateforme d'adénovirus oncolytique armé (NG-350A) en développement clinique dans le cancer rectal pMMR ; 185 M$ levés, investisseurs dont Lundbeckfonden et Bristol Myers Squibb", "place": "Royaume-Uni" },
-      { "name": "KaliVir Immunotherapeutics", "use": "Plateforme de vaccine oncolytique modifiée (VET) ; accord de recherche clinique avec Roche sur la combinaison avec l'atezolizumab", "place": "Pittsburgh, États-Unis" },
-      { "name": "Genelux Corporation", "use": "Vaccine oncolytique Olvi-Vec en essai de Phase 3 registrationnel dans le cancer de l'ovaire résistant au platine", "place": "San Diego, États-Unis" },
-      { "name": "Candel Therapeutics", "use": "HSV-1 oncolytique de nouvelle génération (linoserpaturev) dans le glioblastome, dépôt de BLA prévu au T4 2026", "place": "Needham, États-Unis" }
+      { "name": "Nuclidium", "use": "Plateforme théranostique au cuivre-61/67 ciblant PSMA en cancer de la prostate ; Série B étendue à 105 MCHF avec Kurma, Angelini Ventures et la BEI", "place": "Bâle, Suisse" },
+      { "name": "Full-Life Technologies", "use": "Radiothérapeutiques à l'actinium-225 (alpha) et plateforme de production intégrée ; Série D de 150 M$ en mai 2026, accord de licence avec SK Biopharmaceuticals", "place": "Belgique / Allemagne" },
+      { "name": "Convergent Therapeutics", "use": "CONV01-α, radioligand alpha ciblant PSMA en cancer de la prostate métastatique résistant à la castration ; données de Phase 2 positives présentées à l'ASCO 2026", "place": "Boston, États-Unis" }
     ]
   }
 }
