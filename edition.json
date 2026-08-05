@@ -1,85 +1,98 @@
 {
-  "dateLong": "4 août 2026",
+  "dateLong": "5 août 2026",
   "ticker": [
-    { "company": "ONALABS", "amount": "€9,3M", "kind": "lev" },
-    { "company": "AIFORIA", "amount": "€20M", "kind": "lev" },
-    { "company": "INOCRAS", "amount": "$31M", "kind": "lev" },
-    { "company": "CURIUM / LANTHEUS", "amount": "$8,0Md", "kind": "mna" },
-    { "company": "KKR / INTEGER", "amount": "$5,7Md", "kind": "mna" }
+    { "company": "QUANTHEALTH", "amount": "$45M", "kind": "lev" },
+    { "company": "FUNCTION HEALTH", "amount": "$450M", "kind": "lev" },
+    { "company": "DASH BIO", "amount": "$30M", "kind": "lev" },
+    { "company": "RATIO THERAPEUTICS", "amount": "$70M", "kind": "lev" },
+    { "company": "NIINO", "amount": "€1,26M", "kind": "lev" },
+    { "company": "SUPERNUS / INDIVIOR", "amount": "$2,2Md CA", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series A · Diagnostic non invasif",
-    "title": "Onalabs lève 9,3 M€ pour son diagnostic par la sueur — avec l'État espagnol au capital",
-    "deck": "La medtech barcelonaise fait entrer la SETT, le véhicule d'investissement du ministère espagnol de la Transformation numérique, aux côtés du fonds autrichien 1921 Ventures (fondé par le créateur de mySugr) et du singapourien nPrime. De quoi industrialiser ONAVITAL, son capteur de biomarqueurs métaboliques par la sueur, après le succès commercial de sa version sport ONASPORT.",
-    "company": "Onalabs",
-    "stage": "Series A",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.sgieurope.com/financing/onalabs-raises-more-than-93m-to-scale-continuous-health-monitoring/122451.article"
+    "kicker": "Partenariat · Femtech / Digital Health",
+    "title": "WHOOP intègre Natural Cycles à son abonnement — la contraception hormone-free s'invite dans les wearables grand public",
+    "deck": "Le bracelet WHOOP partage désormais en continu la température cutanée nocturne avec l'app suédoise Natural Cycles, seule contraception numérique certifiée FDA, offerte un an aux nouveaux abonnés. Pour Natural Cycles, dont la santé féminine pèse déjà 24% des nouveaux membres WHOOP (+111% sur un an), c'est une distribution gratuite à l'échelle d'un des plus gros écosystèmes wearables — le type de traction commerciale qui prépare un prochain tour plutôt que ne le remplace.",
+    "company": "Natural Cycles",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://www.mobihealthnews.com/news/whoop-partners-natural-cycles-fertility-tracking"
   },
   "deal": {
-    "company": "Curium",
-    "amount": "$8,0Md",
-    "round": "M&A",
-    "thesis": "Le radiopharma parisien Curium rachète l'américain coté Lantheus (102,50 $/action en cash, plus un CVR pouvant porter le total à 8 Md$) pour réunir sous un même toit un leader du diagnostic radioactif et un poids lourd de la thérapie ciblée. Le deal confirme la bascule du secteur vers la théranostique — diagnostiquer et traiter avec la même molécule —, un thème que des biotechs privées comme Nuclidium ou Convergent Therapeutics travaillent depuis plusieurs années et qui devient une thèse de sortie de plus en plus lisible pour leurs investisseurs.",
-    "url": "https://www.biospace.com/press-releases/curium-announces-definitive-agreement-to-merge-with-lantheus"
+    "company": "QuantHealth",
+    "amount": "$45M",
+    "round": "Series B",
+    "thesis": "La medtech israélienne lève 45 M$ menés par Qumra Capital (avec Sanofi Ventures et Pitango HealthTech) pour son moteur de simulation IA d'essais cliniques, qui travaille déjà avec 12 des 20 plus grands laboratoires mondiaux. Le pari : plus de 90% des molécules cliniques échouent, essentiellement sur l'efficacité ou la sécurité — un logiciel qui teste virtuellement un protocole avant d'enroller le premier patient réduit le risque binaire qui plombe la thèse d'investissement de toute la biotech clinique.",
+    "url": "https://hitconsultant.net/2026/08/04/beyond-real-world-trial-iteration-quanthealth-secures-45m-for-ai-clinical-simulation/"
   },
   "brefsEurope": [
     {
-      "company": "Aiforia",
-      "place": "Helsinki, Finlande",
-      "sector": "Digital Health",
+      "company": "Niino",
+      "place": "Turin, Italie",
+      "sector": "MedTech",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "La BEI injecte 20 M€ de dette de croissance dans le pathologiste IA finlandais Aiforia",
-      "summary": "Financement structuré en trois tranches sous le programme InvestEU de la Commission européenne, assorti d'un mécanisme de warrant synthétique qui évite toute dilution immédiate — un instrument que l'UE pousse pour financer la mise à l'échelle commerciale des plateformes de diagnostic IA en pathologie, sans passer par une levée en equity classique.",
-      "url": "https://www.eu-startups.com/2026/08/helsinki-based-aiforia-secures-e20-million-eib-financing-to-advance-ai-powered-cancer-diagnostics"
+      "stage": "Pre-seed",
+      "title": "Niino lève 1,26 M€ pour ubériser le transport sanitaire non urgent en Italie",
+      "summary": "Tour de pre-seed mené par 40 Jemz Ventures, avec une base de business angels italiens, pour une plateforme qui organise les trajets non urgents (dialyse, sorties d'hôpital) entre patients, ambulances et coopératives — un segment logistique de la santé encore largement artisanal en Europe du Sud.",
+      "url": "https://bebeez.it/venture-capital/niino-startup-dei-trasporti-sanitari-non-urgenti-chiude-round-pre-seed-da-13-mln-di-euro-guidato-da-40-jemz-ventures/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Inocras",
-      "place": "San Diego, États-Unis",
-      "sector": "Diagnostics",
+      "company": "Dash Bio",
+      "place": "Waltham, États-Unis",
+      "sector": "Biotech",
       "signalType": "funding_round",
       "strength": 4,
-      "stage": "Series B",
-      "title": "Inocras boucle 31 M$ pour imposer le séquençage du génome entier en oncologie de précision",
-      "summary": "Série B-3 sursouscrite (total levé désormais ~100 M$), avec l'entrée d'investisseurs coréens — IMM Investment, Korea Investment & Securities — aux côtés du fonds stratégique Aimed Bio. La plateforme équipe déjà plus de 100 centres anticancer et une trentaine d'hôpitaux sud-coréens : un pari sur le séquençage du génome entier comme standard diagnostique plutôt que les panels ciblés plus étroits.",
-      "url": "https://hitconsultant.net/2026/08/03/inocras-raises-31m-series-b3-funding-whole-genome-oncology/"
+      "stage": "Series A",
+      "title": "Dash Bio lève 30 M$ pour automatiser la bioanalyse et livrer des résultats GLP en jours plutôt qu'en semaines",
+      "summary": "Série A menée par Oak HC/FT pour cette spin-off fondée par d'anciens artisans de l'infrastructure numérique de Moderna : en neuf mois d'activité commerciale, la plateforme a déjà signé plus de 30 clients, dont 4 des 15 plus gros laboratoires pharmaceutiques mondiaux — la preuve qu'un pari d'infrastructure capital-efficace peut sortir vite du stade expérimental.",
+      "url": "https://www.biospace.com/press-releases/dash-bio-raises-30m-series-a-to-accelerate-drug-development-timelines"
     },
     {
-      "company": "AusperBio",
-      "place": "Boston, États-Unis / Shanghai, Chine",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "AusperBio dose son premier patient avec AHB-171, second candidat siRNA contre l'hépatite B chronique",
-      "summary": "Premier patient dosé sur sa plateforme propriétaire Au-HALO de ciblage hépatocytaire — la biotech élargit son pipeline HBV au-delà de son actif phare AHB-137, déjà en Phase III, et diversifie son pari sur les thérapies siRNA de nouvelle génération pour la cure fonctionnelle de l'hépatite B.",
-      "url": "https://www.prnewswire.com/news-releases/ausperbio-announces-first-patient-dosed-in-clinical-study-of-investigational-hbv-candidate-ahb-171-302841062.html"
+      "company": "Function Health",
+      "place": "New York, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 5,
+      "stage": "Growth",
+      "title": "Function Health sécurise 450 M$ de financement non dilutif pour ses bilans de santé complets grand public",
+      "summary": "Financement de croissance apporté par le Customer Value Fund de General Catalyst, huit mois seulement après une Série B de 298 M$ — un modèle non dilutif qui finance l'acquisition clients (bilans sanguins, imagerie corps entier, analyse IA) sans diluer davantage le cap table, à surveiller comme gabarit de financement pour la santé directe au consommateur.",
+      "url": "https://hitconsultant.net/2026/08/03/function-health-secures-450m-growth-financing-general-catalyst/"
+    },
+    {
+      "company": "Sight Sciences",
+      "place": "Menlo Park, États-Unis",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Sight Sciences décroche la clearance FDA de l'OMNI Ultra, premier dispositif MIGS pour une canaloplastie circonférentielle en un seul passage",
+      "summary": "La clearance 510(k) élargit le portefeuille de chirurgie du glaucome de la medtech cotée, avec un lancement commercial visé au quatrième trimestre — un comparable utile pour toute jeune pousse MIGS qui vise le même chemin réglementaire vers la commercialisation.",
+      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/sight-sciences-receives-fda-510k-clearance-of-the-omni-ultra-surgical-system/2398541"
     }
   ],
   "word": {
-    "term": "Théranostique",
-    "full": "Theranostics (Therapeutics + Diagnostics)",
-    "fr": "Théranostique",
-    "field": "Médecine nucléaire / Oncologie de précision",
-    "definition": "Une paire de radiopharmaceutiques ciblant la même molécule tumorale : un traceur pour voir la tumeur par imagerie, puis un radio-isotope thérapeutique pour la détruire — le patient ne reçoit le traitement que si le diagnostic confirme la cible.",
+    "term": "In Silico Trial",
+    "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",
+    "fr": "Essai clinique in silico",
+    "field": "IA de développement clinique",
+    "definition": "Une simulation informatique qui prédit comment un protocole d'essai clinique va se comporter — issue, taille de cohorte, risque d'échec — avant même d'enroller le premier patient réel.",
     "parts": [
-      { "label": "Traceur diagnostique", "role": "confirme par imagerie que la tumeur exprime la cible" },
-      { "label": "Vecteur moléculaire", "role": "la même molécule guide le diagnostic et le traitement" },
-      { "label": "Radio-isotope thérapeutique", "role": "délivre la dose destructrice une fois la cible confirmée" }
+      { "label": "Modèle mécanistique", "role": "encode la biologie et la pharmacologie connues de la maladie et du traitement" },
+      { "label": "Jumeau numérique de patient", "role": "simule la réponse individuelle d'une cohorte virtuelle représentative" },
+      { "label": "Boucle de calibration", "role": "recale le modèle sur des données réelles (essais passés, real-world data) pour affiner ses prédictions" }
     ],
     "how": [
-      { "n": "1", "h": "Sélection du patient", "t": "Un scan PET/CT avec traceur radioactif confirme que la tumeur du patient exprime bien la cible moléculaire visée (ex. PSMA en cancer de la prostate)." },
-      { "n": "2", "h": "Appariement thérapeutique", "t": "Seuls les patients positifs à l'imagerie reçoivent le radiopharmaceutique thérapeutique, qui utilise le même vecteur moléculaire mais un isotope émetteur de rayonnement destructeur (bêta ou alpha)." },
-      { "n": "3", "h": "Irradiation ciblée", "t": "L'isotope délivre sa dose directement aux cellules tumorales fixées, en épargnant largement les tissus sains alentour." }
+      { "n": "1", "h": "Construction du modèle", "t": "Le logiciel absorbe les données d'essais historiques, la littérature et parfois des données real-world pour bâtir un modèle mécanistique de la maladie et du candidat médicament." },
+      { "n": "2", "h": "Simulation du protocole", "t": "Le protocole envisagé (dose, durée, critères d'inclusion, bras de contrôle) est testé virtuellement sur des milliers de patients synthétiques." },
+      { "n": "3", "h": "Optimisation avant le premier patient", "t": "Les résultats orientent le design final — taille de cohorte, dose, endpoint — avant d'engager le capital et les patients réels dans l'essai." }
     ],
-    "why": "Le M&A à 8 Md$ entre Curium et Lantheus, annoncé cette semaine, acte la bascule du secteur vers cette convergence diagnostic-thérapie. Pour les VCs santé, la théranostique offre un double avantage : un taux d'échec clinique plus faible (le patient est présélectionné par l'imagerie) et une thèse de sortie de plus en plus lisible, à mesure que Big Pharma et les majors du radiopharma consolident le secteur.",
+    "why": "La levée de 45 M$ de QuantHealth cette semaine illustre une thèse simple : plus de 90% des molécules cliniques échouent, souvent pour des raisons de design d'essai évitables. Un logiciel qui réduit ce risque binaire avant le premier euro de dépense clinique change l'équation de retour pour tout VC exposé à la biotech clinique — et transforme un pari sur la molécule en pari sur la donnée.",
     "startups": [
-      { "name": "Nuclidium", "use": "Plateforme théranostique au cuivre-61/67 ciblant PSMA en cancer de la prostate ; Série B étendue à 105 MCHF avec Kurma, Angelini Ventures et la BEI", "place": "Bâle, Suisse" },
-      { "name": "Full-Life Technologies", "use": "Radiothérapeutiques à l'actinium-225 (alpha) et plateforme de production intégrée ; Série D de 150 M$ en mai 2026, accord de licence avec SK Biopharmaceuticals", "place": "Belgique / Allemagne" },
-      { "name": "Convergent Therapeutics", "use": "CONV01-α, radioligand alpha ciblant PSMA en cancer de la prostate métastatique résistant à la castration ; données de Phase 2 positives présentées à l'ASCO 2026", "place": "Boston, États-Unis" }
+      { "name": "Novadiscovery", "use": "Plateforme Jinkō de simulation d'essais cliniques par modèles mécanistiques + IA ; Série A de 5 M€ menée par Debiopharm", "place": "Lyon, France" },
+      { "name": "InSilicoTrials Technologies", "use": "Plateforme cloud de modélisation et simulation pour le développement de médicaments et dispositifs, pilote le consortium CARDIOVERSE (cœur virtuel, 30 M$ ARPA-H)", "place": "Milan, Italie" },
+      { "name": "QuantHealth", "use": "Simulation IA de protocoles d'essais cliniques pour 12 des 20 plus grands laboratoires mondiaux ; Série B de 45 M$ menée par Qumra Capital", "place": "Tel-Aviv, Israël" },
+      { "name": "VeriSIM Life", "use": "Plateforme BIOiSIM de biosimulation IA pour prédire la traduction préclinique-clinique des candidats médicaments", "place": "San Francisco, États-Unis" }
     ]
   }
 }

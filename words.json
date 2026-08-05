@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-04",
+  "generatedAt": "2026-08-05",
   "words": [
+    {
+      "term": "In Silico Trial",
+      "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",
+      "fr": "Essai clinique in silico",
+      "field": "IA de développement clinique",
+      "definition": "Une simulation informatique qui prédit comment un protocole d'essai clinique va se comporter — issue, taille de cohorte, risque d'échec — avant même d'enroller le premier patient réel.",
+      "parts": [
+        {
+          "label": "Modèle mécanistique",
+          "role": "encode la biologie et la pharmacologie connues de la maladie et du traitement"
+        },
+        {
+          "label": "Jumeau numérique de patient",
+          "role": "simule la réponse individuelle d'une cohorte virtuelle représentative"
+        },
+        {
+          "label": "Boucle de calibration",
+          "role": "recale le modèle sur des données réelles (essais passés, real-world data) pour affiner ses prédictions"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Construction du modèle",
+          "t": "Le logiciel absorbe les données d'essais historiques, la littérature et parfois des données real-world pour bâtir un modèle mécanistique de la maladie et du candidat médicament."
+        },
+        {
+          "n": "2",
+          "h": "Simulation du protocole",
+          "t": "Le protocole envisagé (dose, durée, critères d'inclusion, bras de contrôle) est testé virtuellement sur des milliers de patients synthétiques."
+        },
+        {
+          "n": "3",
+          "h": "Optimisation avant le premier patient",
+          "t": "Les résultats orientent le design final — taille de cohorte, dose, endpoint — avant d'engager le capital et les patients réels dans l'essai."
+        }
+      ],
+      "why": "La levée de 45 M$ de QuantHealth cette semaine illustre une thèse simple : plus de 90% des molécules cliniques échouent, souvent pour des raisons de design d'essai évitables. Un logiciel qui réduit ce risque binaire avant le premier euro de dépense clinique change l'équation de retour pour tout VC exposé à la biotech clinique — et transforme un pari sur la molécule en pari sur la donnée.",
+      "startups": [
+        {
+          "name": "Novadiscovery",
+          "use": "Plateforme Jinkō de simulation d'essais cliniques par modèles mécanistiques + IA ; Série A de 5 M€ menée par Debiopharm",
+          "place": "Lyon, France"
+        },
+        {
+          "name": "InSilicoTrials Technologies",
+          "use": "Plateforme cloud de modélisation et simulation pour le développement de médicaments et dispositifs, pilote le consortium CARDIOVERSE (cœur virtuel, 30 M$ ARPA-H)",
+          "place": "Milan, Italie"
+        },
+        {
+          "name": "QuantHealth",
+          "use": "Simulation IA de protocoles d'essais cliniques pour 12 des 20 plus grands laboratoires mondiaux ; Série B de 45 M$ menée par Qumra Capital",
+          "place": "Tel-Aviv, Israël"
+        },
+        {
+          "name": "VeriSIM Life",
+          "use": "Plateforme BIOiSIM de biosimulation IA pour prédire la traduction préclinique-clinique des candidats médicaments",
+          "place": "San Francisco, États-Unis"
+        }
+      ],
+      "date": "2026-08-05",
+      "dateLong": "5 août 2026"
+    },
     {
       "term": "Théranostique",
       "full": "Theranostics (Therapeutics + Diagnostics)",
