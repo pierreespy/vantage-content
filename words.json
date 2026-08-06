@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-05",
+  "generatedAt": "2026-08-06",
   "words": [
+    {
+      "term": "PROTAC",
+      "full": "Proteolysis-Targeting Chimera",
+      "fr": "Chimère ciblant la protéolyse",
+      "field": "Dégradation ciblée de protéines / Oncologie",
+      "definition": "Une molécule bifonctionnelle qui ne bloque pas une protéine pathogène comme un inhibiteur classique, mais détourne la machinerie de recyclage naturelle de la cellule pour la détruire entièrement.",
+      "parts": [
+        {
+          "label": "Ligand cible",
+          "role": "s'accroche à la protéine pathogène à éliminer"
+        },
+        {
+          "label": "Linker",
+          "role": "relie chimiquement les deux extrémités de la molécule"
+        },
+        {
+          "label": "Ligand E3 ligase",
+          "role": "recrute l'enzyme qui marque la protéine pour destruction"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Liaison bifonctionnelle",
+          "t": "Le PROTAC se lie simultanément à la protéine cible et à une E3 ubiquitine ligase, rapprochant les deux dans l'espace."
+        },
+        {
+          "n": "2",
+          "h": "Ubiquitination",
+          "t": "La ligase marque la protéine cible avec des chaînes d'ubiquitine, l'étiquette cellulaire de « à détruire »."
+        },
+        {
+          "n": "3",
+          "h": "Dégradation catalytique",
+          "t": "Le protéasome détruit la protéine marquée et libère le PROTAC intact, qui peut enchaîner un nouveau cycle sur une autre copie de la cible."
+        }
+      ],
+      "why": "Contrairement à un inhibiteur qui doit rester collé en permanence, un PROTAC agit en catalyseur et peut donc fonctionner à dose bien plus faible, tout en atteignant des protéines longtemps jugées « non-druggables ». L'accord signé cette semaine entre AstraZeneca et Pathos AI sur AZD4241, un PROTAC oral anti-récepteur aux œstrogènes, illustre l'appétit des grands groupes pharma pour externaliser le développement clinique de leurs actifs de dégradation ciblée vers des biotechs IA-natives — un sous-secteur (TPD) que les VCs santé suivent de près pour ses effets de plateforme.",
+      "startups": [
+        {
+          "name": "Amphista Therapeutics",
+          "use": "Plateforme Eclipsys de dégradation ciblée indépendante des E3 ligases classiques ; premier essai clinique visé au S2 2026 après une Série B",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Plexium",
+          "use": "Plateforme de criblage cellulaire à très haut débit pour découvrir des dégradeurs directs monovalents et des colles moléculaires",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "Pathos AI",
+          "use": "Vient de licencier AZD4241, un PROTAC oral anti-ER, auprès d'AstraZeneca pour en piloter le développement clinique via sa plateforme IA Foundry",
+          "place": "Chicago, États-Unis"
+        }
+      ],
+      "date": "2026-08-06",
+      "dateLong": "6 août 2026"
+    },
     {
       "term": "In Silico Trial",
       "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",

@@ -1,98 +1,73 @@
 {
-  "dateLong": "5 août 2026",
+  "dateLong": "6 août 2026",
   "ticker": [
-    { "company": "QUANTHEALTH", "amount": "$45M", "kind": "lev" },
-    { "company": "FUNCTION HEALTH", "amount": "$450M", "kind": "lev" },
-    { "company": "DASH BIO", "amount": "$30M", "kind": "lev" },
-    { "company": "RATIO THERAPEUTICS", "amount": "$70M", "kind": "lev" },
-    { "company": "NIINO", "amount": "€1,26M", "kind": "lev" },
-    { "company": "SUPERNUS / INDIVIOR", "amount": "$2,2Md CA", "kind": "mna" }
+    { "company": "LATIGO BIOTHERAPEUTICS", "amount": "$272M", "kind": "lev" },
+    { "company": "BLOSSOMHILL THERAPEUTICS", "amount": "$111,7M", "kind": "lev" },
+    { "company": "VOGENX", "amount": "$67,8M", "kind": "lev" },
+    { "company": "PATHOS AI / ALPHAMAB", "amount": "$2,09Md", "kind": "mna" },
+    { "company": "ADJUVIA THERAPEUTICS", "amount": "$8M", "kind": "lev" },
+    { "company": "BIOSCAN RESEARCH", "amount": "$1M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Partenariat · Femtech / Digital Health",
-    "title": "WHOOP intègre Natural Cycles à son abonnement — la contraception hormone-free s'invite dans les wearables grand public",
-    "deck": "Le bracelet WHOOP partage désormais en continu la température cutanée nocturne avec l'app suédoise Natural Cycles, seule contraception numérique certifiée FDA, offerte un an aux nouveaux abonnés. Pour Natural Cycles, dont la santé féminine pèse déjà 24% des nouveaux membres WHOOP (+111% sur un an), c'est une distribution gratuite à l'échelle d'un des plus gros écosystèmes wearables — le type de traction commerciale qui prépare un prochain tour plutôt que ne le remplace.",
-    "company": "Natural Cycles",
-    "signalType": "early_partnership",
+    "kicker": "Gouvernance · Biotech mRNA",
+    "title": "BioNTech tourne la page de ses fondateurs : Guido Oelkers, ex-CEO de Sobi, prend la direction générale",
+    "deck": "Après près de vingt ans à la tête de BioNTech et le vaccin ARNm qui a changé la donne face au Covid-19, Ugur Sahin cède la direction générale à Guido Oelkers, jusque-là CEO du suédois Sobi (Swedish Orphan Biovitrum), où il a quadruplé le chiffre d'affaires en neuf ans. Le signal : BioNTech bascule d'une gouvernance de fondateurs-scientifiques vers un profil d'exécution commerciale à mesure que la biotech de Mayence diversifie sa plateforme ARNm vers l'oncologie — un repère pour tout VC qui suit la maturation des plateformes biotech européennes de rang mondial.",
+    "company": "BioNTech",
+    "signalType": "leadership_hire",
     "strength": 3,
-    "url": "https://www.mobihealthnews.com/news/whoop-partners-natural-cycles-fertility-tracking"
+    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337277/0/en/biontech-announces-appointment-of-guido-oelkers-to-management-board-as-chief-executive-officer.html"
   },
   "deal": {
-    "company": "QuantHealth",
-    "amount": "$45M",
-    "round": "Series B",
-    "thesis": "La medtech israélienne lève 45 M$ menés par Qumra Capital (avec Sanofi Ventures et Pitango HealthTech) pour son moteur de simulation IA d'essais cliniques, qui travaille déjà avec 12 des 20 plus grands laboratoires mondiaux. Le pari : plus de 90% des molécules cliniques échouent, essentiellement sur l'efficacité ou la sécurité — un logiciel qui teste virtuellement un protocole avant d'enroller le premier patient réduit le risque binaire qui plombe la thèse d'investissement de toute la biotech clinique.",
-    "url": "https://hitconsultant.net/2026/08/04/beyond-real-world-trial-iteration-quanthealth-secures-45m-for-ai-clinical-simulation/"
+    "company": "Pathos AI",
+    "amount": "$2,09 Md",
+    "round": "Licensing",
+    "thesis": "Pathos AI, la biotech de Chicago qui utilise sa plateforme IA Foundry pour prioriser puis piloter les essais cliniques d'actifs licenciés plutôt que découverts en interne, récupère JSKN016 — un ADC bispécifique TROP2/HER3 en développement avancé contre le cancer du sein — auprès du chinois Alphamab Oncology : 125 M$ upfront, jusqu'à 2,09 Md$ avec les jalons, plus redevances. Le même jour, Pathos signe aussi avec AstraZeneca pour piloter le développement clinique d'AZD4241, un PROTAC oral anti-récepteur aux œstrogènes : deux accords en 48h qui testent une thèse que les VCs santé regardent de près — une IA de sélection et de design d'essais peut remplacer une partie du capital de découverte interne.",
+    "url": "https://www.businesswire.com/news/home/20260803012674/en/Pathos-AI-Enters-Global-Licensing-Agreement-with-Alphamab-Oncology-on-JSKN016-a-First-in-Class-TROP2HER3-Bispecific-ADC"
   },
-  "brefsEurope": [
-    {
-      "company": "Niino",
-      "place": "Turin, Italie",
-      "sector": "MedTech",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Pre-seed",
-      "title": "Niino lève 1,26 M€ pour ubériser le transport sanitaire non urgent en Italie",
-      "summary": "Tour de pre-seed mené par 40 Jemz Ventures, avec une base de business angels italiens, pour une plateforme qui organise les trajets non urgents (dialyse, sorties d'hôpital) entre patients, ambulances et coopératives — un segment logistique de la santé encore largement artisanal en Europe du Sud.",
-      "url": "https://bebeez.it/venture-capital/niino-startup-dei-trasporti-sanitari-non-urgenti-chiude-round-pre-seed-da-13-mln-di-euro-guidato-da-40-jemz-ventures/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Dash Bio",
-      "place": "Waltham, États-Unis",
+      "company": "Aravax",
+      "place": "Melbourne, Australie",
       "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "Dash Bio lève 30 M$ pour automatiser la bioanalyse et livrer des résultats GLP en jours plutôt qu'en semaines",
-      "summary": "Série A menée par Oak HC/FT pour cette spin-off fondée par d'anciens artisans de l'infrastructure numérique de Moderna : en neuf mois d'activité commerciale, la plateforme a déjà signé plus de 30 clients, dont 4 des 15 plus gros laboratoires pharmaceutiques mondiaux — la preuve qu'un pari d'infrastructure capital-efficace peut sortir vite du stade expérimental.",
-      "url": "https://www.biospace.com/press-releases/dash-bio-raises-30m-series-a-to-accelerate-drug-development-timelines"
-    },
-    {
-      "company": "Function Health",
-      "place": "New York, États-Unis",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 5,
-      "stage": "Growth",
-      "title": "Function Health sécurise 450 M$ de financement non dilutif pour ses bilans de santé complets grand public",
-      "summary": "Financement de croissance apporté par le Customer Value Fund de General Catalyst, huit mois seulement après une Série B de 298 M$ — un modèle non dilutif qui finance l'acquisition clients (bilans sanguins, imagerie corps entier, analyse IA) sans diluer davantage le cap table, à surveiller comme gabarit de financement pour la santé directe au consommateur.",
-      "url": "https://hitconsultant.net/2026/08/03/function-health-secures-450m-growth-financing-general-catalyst/"
-    },
-    {
-      "company": "Sight Sciences",
-      "place": "Menlo Park, États-Unis",
-      "sector": "MedTech",
       "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Sight Sciences décroche la clearance FDA de l'OMNI Ultra, premier dispositif MIGS pour une canaloplastie circonférentielle en un seul passage",
-      "summary": "La clearance 510(k) élargit le portefeuille de chirurgie du glaucome de la medtech cotée, avec un lancement commercial visé au quatrième trimestre — un comparable utile pour toute jeune pousse MIGS qui vise le même chemin réglementaire vers la commercialisation.",
-      "url": "https://www.manilatimes.net/2026/08/05/tmt-newswire/globenewswire/sight-sciences-receives-fda-510k-clearance-of-the-omni-ultra-surgical-system/2398541"
+      "strength": 3,
+      "title": "Aravax décroche la Fast Track de la FDA pour PVX108, son immunothérapie peptidique contre l'allergie à l'arachide",
+      "summary": "Soutenue par le Novartis Venture Fund et Brandon Capital, la biotech australo-britannique voit son candidat de Phase 2 — une immunothérapie intradermique mensuelle sans escalade de dose — accéder à un canal de communication renforcé avec la FDA, avec des données clés attendues d'ici fin 2026.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337248/0/en/Aravax-Awarded-FDA-Fast-Track-Designation-for-PVX108-a-Next-Generation-Immunotherapy-for-the-Treatment-of-Peanut-Allergy.html"
+    },
+    {
+      "company": "Amae Health",
+      "place": "Los Angeles, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Amae Health branche les données wearables de Google Health Enterprise sur son modèle de psychiatrie de précision",
+      "summary": "La startup de soins intégrés pour les maladies mentales sévères capte en continu variabilité cardiaque, sommeil et activité via Google Health et Fitbit pour anticiper les rechutes avant qu'elles ne surviennent — un pari sur un score de risque comportemental calqué sur le score cardiaque, appuyé sur ses partenariats cliniques avec Cedars-Sinai et Mass General Brigham.",
+      "url": "https://hitconsultant.net/2026/08/04/amae-health-partners-google-health-enterprise-wearable-precision-psychiatry/"
     }
   ],
   "word": {
-    "term": "In Silico Trial",
-    "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",
-    "fr": "Essai clinique in silico",
-    "field": "IA de développement clinique",
-    "definition": "Une simulation informatique qui prédit comment un protocole d'essai clinique va se comporter — issue, taille de cohorte, risque d'échec — avant même d'enroller le premier patient réel.",
+    "term": "PROTAC",
+    "full": "Proteolysis-Targeting Chimera",
+    "fr": "Chimère ciblant la protéolyse",
+    "field": "Dégradation ciblée de protéines / Oncologie",
+    "definition": "Une molécule bifonctionnelle qui ne bloque pas une protéine pathogène comme un inhibiteur classique, mais détourne la machinerie de recyclage naturelle de la cellule pour la détruire entièrement.",
     "parts": [
-      { "label": "Modèle mécanistique", "role": "encode la biologie et la pharmacologie connues de la maladie et du traitement" },
-      { "label": "Jumeau numérique de patient", "role": "simule la réponse individuelle d'une cohorte virtuelle représentative" },
-      { "label": "Boucle de calibration", "role": "recale le modèle sur des données réelles (essais passés, real-world data) pour affiner ses prédictions" }
+      { "label": "Ligand cible", "role": "s'accroche à la protéine pathogène à éliminer" },
+      { "label": "Linker", "role": "relie chimiquement les deux extrémités de la molécule" },
+      { "label": "Ligand E3 ligase", "role": "recrute l'enzyme qui marque la protéine pour destruction" }
     ],
     "how": [
-      { "n": "1", "h": "Construction du modèle", "t": "Le logiciel absorbe les données d'essais historiques, la littérature et parfois des données real-world pour bâtir un modèle mécanistique de la maladie et du candidat médicament." },
-      { "n": "2", "h": "Simulation du protocole", "t": "Le protocole envisagé (dose, durée, critères d'inclusion, bras de contrôle) est testé virtuellement sur des milliers de patients synthétiques." },
-      { "n": "3", "h": "Optimisation avant le premier patient", "t": "Les résultats orientent le design final — taille de cohorte, dose, endpoint — avant d'engager le capital et les patients réels dans l'essai." }
+      { "n": "1", "h": "Liaison bifonctionnelle", "t": "Le PROTAC se lie simultanément à la protéine cible et à une E3 ubiquitine ligase, rapprochant les deux dans l'espace." },
+      { "n": "2", "h": "Ubiquitination", "t": "La ligase marque la protéine cible avec des chaînes d'ubiquitine, l'étiquette cellulaire de « à détruire »." },
+      { "n": "3", "h": "Dégradation catalytique", "t": "Le protéasome détruit la protéine marquée et libère le PROTAC intact, qui peut enchaîner un nouveau cycle sur une autre copie de la cible." }
     ],
-    "why": "La levée de 45 M$ de QuantHealth cette semaine illustre une thèse simple : plus de 90% des molécules cliniques échouent, souvent pour des raisons de design d'essai évitables. Un logiciel qui réduit ce risque binaire avant le premier euro de dépense clinique change l'équation de retour pour tout VC exposé à la biotech clinique — et transforme un pari sur la molécule en pari sur la donnée.",
+    "why": "Contrairement à un inhibiteur qui doit rester collé en permanence, un PROTAC agit en catalyseur et peut donc fonctionner à dose bien plus faible, tout en atteignant des protéines longtemps jugées « non-druggables ». L'accord signé cette semaine entre AstraZeneca et Pathos AI sur AZD4241, un PROTAC oral anti-récepteur aux œstrogènes, illustre l'appétit des grands groupes pharma pour externaliser le développement clinique de leurs actifs de dégradation ciblée vers des biotechs IA-natives — un sous-secteur (TPD) que les VCs santé suivent de près pour ses effets de plateforme.",
     "startups": [
-      { "name": "Novadiscovery", "use": "Plateforme Jinkō de simulation d'essais cliniques par modèles mécanistiques + IA ; Série A de 5 M€ menée par Debiopharm", "place": "Lyon, France" },
-      { "name": "InSilicoTrials Technologies", "use": "Plateforme cloud de modélisation et simulation pour le développement de médicaments et dispositifs, pilote le consortium CARDIOVERSE (cœur virtuel, 30 M$ ARPA-H)", "place": "Milan, Italie" },
-      { "name": "QuantHealth", "use": "Simulation IA de protocoles d'essais cliniques pour 12 des 20 plus grands laboratoires mondiaux ; Série B de 45 M$ menée par Qumra Capital", "place": "Tel-Aviv, Israël" },
-      { "name": "VeriSIM Life", "use": "Plateforme BIOiSIM de biosimulation IA pour prédire la traduction préclinique-clinique des candidats médicaments", "place": "San Francisco, États-Unis" }
+      { "name": "Amphista Therapeutics", "use": "Plateforme Eclipsys de dégradation ciblée indépendante des E3 ligases classiques ; premier essai clinique visé au S2 2026 après une Série B", "place": "Cambridge, Royaume-Uni" },
+      { "name": "Plexium", "use": "Plateforme de criblage cellulaire à très haut débit pour découvrir des dégradeurs directs monovalents et des colles moléculaires", "place": "San Diego, États-Unis" },
+      { "name": "Pathos AI", "use": "Vient de licencier AZD4241, un PROTAC oral anti-ER, auprès d'AstraZeneca pour en piloter le développement clinique via sa plateforme IA Foundry", "place": "Chicago, États-Unis" }
     ]
   }
 }
