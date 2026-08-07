@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-06",
+  "generatedAt": "2026-08-07",
   "words": [
+    {
+      "term": "Nitinol",
+      "full": "Nickel-Titanium (Shape Memory Alloy)",
+      "fr": "Alliage à mémoire de forme nickel-titane",
+      "field": "MedTech / Implants mini-invasifs",
+      "definition": "Un alliage métallique qui se laisse comprimer pour franchir un accès minimal, puis reprend automatiquement sa forme d'origine une fois réchauffé à la température du corps.",
+      "parts": [
+        {
+          "label": "Superélasticité",
+          "role": "encaisse une déformation extrême sans casser ni se déformer plastiquement"
+        },
+        {
+          "label": "Mémoire de forme",
+          "role": "retrouve sa géométrie programmée au contact de la chaleur corporelle"
+        },
+        {
+          "label": "Biocompatibilité",
+          "role": "toléré durablement par les tissus, sans corrosion ni réaction immunitaire majeure"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Programmation",
+          "t": "Le fil ou le treillis est chauffé et façonné dans sa forme finale « mémorisée » en usine, à haute température."
+        },
+        {
+          "n": "2",
+          "h": "Déformation à froid",
+          "t": "Refroidi, l'implant est redressé ou comprimé dans un cathéter ou une gaine pour passer par un accès percutané minimal."
+        },
+        {
+          "n": "3",
+          "h": "Réactivation",
+          "t": "Au contact de la chaleur corporelle (37 °C), l'alliage reprend sa forme mémorisée et assure fixation ou ouverture mécanique in situ."
+        }
+      ],
+      "why": "Le nitinol permet de faire glisser des actes du bloc opératoire ouvert vers le mini-invasif ambulatoire sans sacrifier la tenue mécanique — un levier d'efficience capital que les VCs medtech surveillent, car il raccourcit le chemin vers le remboursement et l'adoption hospitalière. Meduloc, qui referme aujourd'hui une Series B pour son implant intramédullaire flexible en nitinol, illustre cette thèse : la clearance FDA est acquise avant le tour de croissance, pas l'inverse.",
+      "startups": [
+        {
+          "name": "Meduloc",
+          "use": "Implant intramédullaire flexible en nitinol pour fractures des os longs ; Series B de 4 M$ menée par GenHenn Capital annoncée aujourd'hui",
+          "place": "West Chester, États-Unis"
+        },
+        {
+          "name": "Ancora Heart",
+          "use": "Système AccuCinch : ancrages et câble en nitinol pour réduire par cathéter la taille du ventricule gauche en insuffisance cardiaque ; essai pivot CORCINCH-HF en cours",
+          "place": "Santa Clara, États-Unis"
+        },
+        {
+          "name": "Shape Memory Medical",
+          "use": "Bouchons d'embolisation vasculaire combinant polymère à mémoire de forme et ancre hélicoïdale en nitinol ; plus de 70 M$ levés en Series C",
+          "place": "Santa Clara, États-Unis"
+        }
+      ],
+      "date": "2026-08-07",
+      "dateLong": "7 août 2026"
+    },
     {
       "term": "PROTAC",
       "full": "Proteolysis-Targeting Chimera",

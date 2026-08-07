@@ -1,73 +1,92 @@
 {
-  "dateLong": "6 août 2026",
+  "dateLong": "7 août 2026",
   "ticker": [
-    { "company": "LATIGO BIOTHERAPEUTICS", "amount": "$272M", "kind": "lev" },
-    { "company": "BLOSSOMHILL THERAPEUTICS", "amount": "$111,7M", "kind": "lev" },
-    { "company": "VOGENX", "amount": "$67,8M", "kind": "lev" },
-    { "company": "PATHOS AI / ALPHAMAB", "amount": "$2,09Md", "kind": "mna" },
-    { "company": "ADJUVIA THERAPEUTICS", "amount": "$8M", "kind": "lev" },
-    { "company": "BIOSCAN RESEARCH", "amount": "$1M", "kind": "lev" }
+    { "company": "MEDULOC", "amount": "$4M", "kind": "lev" },
+    { "company": "WELLINKS", "amount": "$10M", "kind": "lev" },
+    { "company": "HINGE HEALTH / CYLINDER HEALTH", "amount": "$105M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Gouvernance · Biotech mRNA",
-    "title": "BioNTech tourne la page de ses fondateurs : Guido Oelkers, ex-CEO de Sobi, prend la direction générale",
-    "deck": "Après près de vingt ans à la tête de BioNTech et le vaccin ARNm qui a changé la donne face au Covid-19, Ugur Sahin cède la direction générale à Guido Oelkers, jusque-là CEO du suédois Sobi (Swedish Orphan Biovitrum), où il a quadruplé le chiffre d'affaires en neuf ans. Le signal : BioNTech bascule d'une gouvernance de fondateurs-scientifiques vers un profil d'exécution commerciale à mesure que la biotech de Mayence diversifie sa plateforme ARNm vers l'oncologie — un repère pour tout VC qui suit la maturation des plateformes biotech européennes de rang mondial.",
-    "company": "BioNTech",
-    "signalType": "leadership_hire",
-    "strength": 3,
-    "url": "https://www.globenewswire.com/news-release/2026/08/03/3337277/0/en/biontech-announces-appointment-of-guido-oelkers-to-management-board-as-chief-executive-officer.html"
+    "kicker": "Series B · MedTech orthopédique",
+    "title": "Meduloc boucle une Series B de 4 M$ pour lancer sa plateforme de fixation osseuse en nitinol",
+    "deck": "Le fabricant de dispositifs orthopédiques de West Chester (Pennsylvanie) referme un tour mené par GenHenn Capital, avec Life Sciences Greenhouse Investments et Ben Franklin Technology Partners of Southeastern Pennsylvania, pour financer le lancement alpha contrôlé de son implant intramédullaire flexible en nitinol. La clearance FDA 510(k) est déjà acquise avant ce tour de croissance — pas l'inverse — un schéma d'efficience capital que les VCs medtech recherchent en priorité.",
+    "company": "Meduloc",
+    "stage": "Series B",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.prnewswire.com/news-releases/meduloc-closes-4-million-series-b-financing-led-by-genhenn-capital-302844919.html"
   },
   "deal": {
-    "company": "Pathos AI",
-    "amount": "$2,09 Md",
-    "round": "Licensing",
-    "thesis": "Pathos AI, la biotech de Chicago qui utilise sa plateforme IA Foundry pour prioriser puis piloter les essais cliniques d'actifs licenciés plutôt que découverts en interne, récupère JSKN016 — un ADC bispécifique TROP2/HER3 en développement avancé contre le cancer du sein — auprès du chinois Alphamab Oncology : 125 M$ upfront, jusqu'à 2,09 Md$ avec les jalons, plus redevances. Le même jour, Pathos signe aussi avec AstraZeneca pour piloter le développement clinique d'AZD4241, un PROTAC oral anti-récepteur aux œstrogènes : deux accords en 48h qui testent une thèse que les VCs santé regardent de près — une IA de sélection et de design d'essais peut remplacer une partie du capital de découverte interne.",
-    "url": "https://www.businesswire.com/news/home/20260803012674/en/Pathos-AI-Enters-Global-Licensing-Agreement-with-Alphamab-Oncology-on-JSKN016-a-First-in-Class-TROP2HER3-Bispecific-ADC"
+    "company": "Hinge Health",
+    "amount": "$105M",
+    "round": "M&A",
+    "thesis": "Hinge Health, coté en bourse depuis mai 2025 sur la thèse MSK + IA, rachète Cylinder Health — près de 100 clients, deux millions de vies couvertes, contrats avec deux des trois plus gros PBM américains — pour lancer un programme de soins digestifs intégré aux côtés de ses programmes musculo-squelettique et migraine. La thèse : transformer une « point solution » de télésanté MSK en plateforme multi-pathologies vendue aux mêmes employeurs et assureurs, un chemin de croissance par acquisition que les VCs digital health surveillent de près à mesure que le secteur se consolide.",
+    "url": "https://www.businesswire.com/news/home/20260804144447/en/Hinge-Health-to-acquire-Cylinder-Health-expanding-into-gastrointestinal-care"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Relu",
+      "place": "Louvain, Belgique",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Relu lève 1,75 M$ supplémentaires pour accélérer son expansion américaine",
+      "summary": "La startup belge d'automatisation par IA des cas de laboratoires dentaires (plus d'un million de cas traités par an dans 82 pays) reçoit un nouveau chèque de son investisseur historique, le fonds sectoriel Dental Innovation Alliance — un doublement de mise stratégique à surveiller avant un tour plus large.",
+      "url": "https://www.eu-startups.com/2026/08/belgian-ai-dental-startup-relu-lands-e1-51-million-to-accelerate-us-expansion/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Aravax",
-      "place": "Melbourne, Australie",
+      "company": "Genesis MedTech",
+      "place": "Singapour",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Genesis MedTech obtient le marquage CE pour un vidéo-endoscope 8 mm en 3D/4K, ouvrant la voie à son entrée en Europe",
+      "summary": "Soutenue par Edwards Lifesciences et des fonds d'État chinois, la medtech de Singapour miniaturise l'imagerie chirurgicale 3D/4K avec fluorescence dans un diamètre de 8 mm — un accès CE qui lui ouvre le marché européen face aux ténors occidentaux de l'endoscopie chirurgicale.",
+      "url": "https://www.prnewswire.com/news-releases/genesis-medtech-receives-ce-mark-approval-for-8-mm-video-endoscope-302843706.html"
+    },
+    {
+      "company": "BriaCell Therapeutics",
+      "place": "Philadelphie, États-Unis",
       "sector": "Biotech",
       "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Aravax décroche la Fast Track de la FDA pour PVX108, son immunothérapie peptidique contre l'allergie à l'arachide",
-      "summary": "Soutenue par le Novartis Venture Fund et Brandon Capital, la biotech australo-britannique voit son candidat de Phase 2 — une immunothérapie intradermique mensuelle sans escalade de dose — accéder à un canal de communication renforcé avec la FDA, avec des données clés attendues d'ici fin 2026.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337248/0/en/Aravax-Awarded-FDA-Fast-Track-Designation-for-PVX108-a-Next-Generation-Immunotherapy-for-the-Treatment-of-Peanut-Allergy.html"
+      "title": "BriaCell décroche le feu vert de la FDA pour lancer l'essai de Bria-PROS+, son immunothérapie cellulaire « sur étagère » contre le cancer de la prostate",
+      "summary": "Bâtie sur la même plateforme Bria-OTS+ que son actif phare en cancer du sein, cette immunothérapie personnalisée activant lymphocytes T naïfs, cellules dendritiques et cellules NK entre en Phase 1/2a — une nouvelle indication pour une plateforme allogénique que BriaCell décline candidat par candidat.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/05/3339216/0/en/briacell-receives-fda-clearance-to-initiate-bria-pros-clinical-study-in-prostate-cancer.html"
     },
     {
-      "company": "Amae Health",
-      "place": "Los Angeles, États-Unis",
-      "sector": "Digital Health",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Amae Health branche les données wearables de Google Health Enterprise sur son modèle de psychiatrie de précision",
-      "summary": "La startup de soins intégrés pour les maladies mentales sévères capte en continu variabilité cardiaque, sommeil et activité via Google Health et Fitbit pour anticiper les rechutes avant qu'elles ne surviennent — un pari sur un score de risque comportemental calqué sur le score cardiaque, appuyé sur ses partenariats cliniques avec Cedars-Sinai et Mass General Brigham.",
-      "url": "https://hitconsultant.net/2026/08/04/amae-health-partners-google-health-enterprise-wearable-precision-psychiatry/"
+      "company": "Synthekine",
+      "place": "Menlo Park, États-Unis",
+      "sector": "Biotech",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Synthekine nomme Susan Molineaux (vétérane biotech) CEO pour porter son agoniste partiel d'IL-2 en phase tardive contre le cancer du poumon",
+      "summary": "Alors que STK-012 entre en développement clinique tardif dans le NSCLC, la biotech financée à 100 M$ en Series C par The Column Group confie les commandes à une dirigeante chevronnée — signal classique de préparation à un tour de croissance ou à une sortie.",
+      "url": "https://www.businesswire.com/news/home/20260805238202/en/Synthekine-Appoints-Veteran-Biotech-Leader-Susan-M.-Molineaux-Ph.D.-as-Chief-Executive-Officer"
     }
   ],
   "word": {
-    "term": "PROTAC",
-    "full": "Proteolysis-Targeting Chimera",
-    "fr": "Chimère ciblant la protéolyse",
-    "field": "Dégradation ciblée de protéines / Oncologie",
-    "definition": "Une molécule bifonctionnelle qui ne bloque pas une protéine pathogène comme un inhibiteur classique, mais détourne la machinerie de recyclage naturelle de la cellule pour la détruire entièrement.",
+    "term": "Nitinol",
+    "full": "Nickel-Titanium (Shape Memory Alloy)",
+    "fr": "Alliage à mémoire de forme nickel-titane",
+    "field": "MedTech / Implants mini-invasifs",
+    "definition": "Un alliage métallique qui se laisse comprimer pour franchir un accès minimal, puis reprend automatiquement sa forme d'origine une fois réchauffé à la température du corps.",
     "parts": [
-      { "label": "Ligand cible", "role": "s'accroche à la protéine pathogène à éliminer" },
-      { "label": "Linker", "role": "relie chimiquement les deux extrémités de la molécule" },
-      { "label": "Ligand E3 ligase", "role": "recrute l'enzyme qui marque la protéine pour destruction" }
+      { "label": "Superélasticité", "role": "encaisse une déformation extrême sans casser ni se déformer plastiquement" },
+      { "label": "Mémoire de forme", "role": "retrouve sa géométrie programmée au contact de la chaleur corporelle" },
+      { "label": "Biocompatibilité", "role": "toléré durablement par les tissus, sans corrosion ni réaction immunitaire majeure" }
     ],
     "how": [
-      { "n": "1", "h": "Liaison bifonctionnelle", "t": "Le PROTAC se lie simultanément à la protéine cible et à une E3 ubiquitine ligase, rapprochant les deux dans l'espace." },
-      { "n": "2", "h": "Ubiquitination", "t": "La ligase marque la protéine cible avec des chaînes d'ubiquitine, l'étiquette cellulaire de « à détruire »." },
-      { "n": "3", "h": "Dégradation catalytique", "t": "Le protéasome détruit la protéine marquée et libère le PROTAC intact, qui peut enchaîner un nouveau cycle sur une autre copie de la cible." }
+      { "n": "1", "h": "Programmation", "t": "Le fil ou le treillis est chauffé et façonné dans sa forme finale « mémorisée » en usine, à haute température." },
+      { "n": "2", "h": "Déformation à froid", "t": "Refroidi, l'implant est redressé ou comprimé dans un cathéter ou une gaine pour passer par un accès percutané minimal." },
+      { "n": "3", "h": "Réactivation", "t": "Au contact de la chaleur corporelle (37 °C), l'alliage reprend sa forme mémorisée et assure fixation ou ouverture mécanique in situ." }
     ],
-    "why": "Contrairement à un inhibiteur qui doit rester collé en permanence, un PROTAC agit en catalyseur et peut donc fonctionner à dose bien plus faible, tout en atteignant des protéines longtemps jugées « non-druggables ». L'accord signé cette semaine entre AstraZeneca et Pathos AI sur AZD4241, un PROTAC oral anti-récepteur aux œstrogènes, illustre l'appétit des grands groupes pharma pour externaliser le développement clinique de leurs actifs de dégradation ciblée vers des biotechs IA-natives — un sous-secteur (TPD) que les VCs santé suivent de près pour ses effets de plateforme.",
+    "why": "Le nitinol permet de faire glisser des actes du bloc opératoire ouvert vers le mini-invasif ambulatoire sans sacrifier la tenue mécanique — un levier d'efficience capital que les VCs medtech surveillent, car il raccourcit le chemin vers le remboursement et l'adoption hospitalière. Meduloc, qui referme aujourd'hui une Series B pour son implant intramédullaire flexible en nitinol, illustre cette thèse : la clearance FDA est acquise avant le tour de croissance, pas l'inverse.",
     "startups": [
-      { "name": "Amphista Therapeutics", "use": "Plateforme Eclipsys de dégradation ciblée indépendante des E3 ligases classiques ; premier essai clinique visé au S2 2026 après une Série B", "place": "Cambridge, Royaume-Uni" },
-      { "name": "Plexium", "use": "Plateforme de criblage cellulaire à très haut débit pour découvrir des dégradeurs directs monovalents et des colles moléculaires", "place": "San Diego, États-Unis" },
-      { "name": "Pathos AI", "use": "Vient de licencier AZD4241, un PROTAC oral anti-ER, auprès d'AstraZeneca pour en piloter le développement clinique via sa plateforme IA Foundry", "place": "Chicago, États-Unis" }
+      { "name": "Meduloc", "use": "Implant intramédullaire flexible en nitinol pour fractures des os longs ; Series B de 4 M$ menée par GenHenn Capital annoncée aujourd'hui", "place": "West Chester, États-Unis" },
+      { "name": "Ancora Heart", "use": "Système AccuCinch : ancrages et câble en nitinol pour réduire par cathéter la taille du ventricule gauche en insuffisance cardiaque ; essai pivot CORCINCH-HF en cours", "place": "Santa Clara, États-Unis" },
+      { "name": "Shape Memory Medical", "use": "Bouchons d'embolisation vasculaire combinant polymère à mémoire de forme et ancre hélicoïdale en nitinol ; plus de 70 M$ levés en Series C", "place": "Santa Clara, États-Unis" }
     ]
   }
 }
