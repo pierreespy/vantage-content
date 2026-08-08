@@ -1,92 +1,85 @@
 {
-  "dateLong": "7 août 2026",
+  "dateLong": "8 août 2026",
   "ticker": [
-    { "company": "MEDULOC", "amount": "$4M", "kind": "lev" },
-    { "company": "WELLINKS", "amount": "$10M", "kind": "lev" },
-    { "company": "HINGE HEALTH / CYLINDER HEALTH", "amount": "$105M", "kind": "mna" }
+    { "company": "SKINBIT", "amount": "$6M", "kind": "lev" },
+    { "company": "ATTOVIA THERAPEUTICS", "amount": "$332M", "kind": "lev" },
+    { "company": "LATIGO BIOTHERAPEUTICS", "amount": "$346M", "kind": "lev" },
+    { "company": "BRAVEHEART BIO", "amount": "$383M", "kind": "lev" },
+    { "company": "TARSUS / ALKEUS", "amount": "$800M", "kind": "mna" },
+    { "company": "HEALTHSNAP", "amount": "$25M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series B · MedTech orthopédique",
-    "title": "Meduloc boucle une Series B de 4 M$ pour lancer sa plateforme de fixation osseuse en nitinol",
-    "deck": "Le fabricant de dispositifs orthopédiques de West Chester (Pennsylvanie) referme un tour mené par GenHenn Capital, avec Life Sciences Greenhouse Investments et Ben Franklin Technology Partners of Southeastern Pennsylvania, pour financer le lancement alpha contrôlé de son implant intramédullaire flexible en nitinol. La clearance FDA 510(k) est déjà acquise avant ce tour de croissance — pas l'inverse — un schéma d'efficience capital que les VCs medtech recherchent en priorité.",
-    "company": "Meduloc",
-    "stage": "Series B",
+    "kicker": "Pre-seed · Diagnostics dermatologie",
+    "title": "SkinBit lève 6 M$ en pre-seed pour installer le dépistage du mélanome par imagerie corporelle totale dans les cliniques",
+    "deck": "La startup américaine, fondée par un survivant du mélanome et ex-CPO de Life360, referme un tour mené par Boost VC, Cleo Capital, Manna Ventures et Profluent Capital, avec neuf dermatologues certifiés au capital. Le pari : déployer des scanners corporels complets dans les med spas et cliniques de longévité pour rendre le dépistage systématique accessible hors du seul cabinet dermatologique.",
+    "company": "SkinBit",
+    "stage": "Pre-seed",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.prnewswire.com/news-releases/meduloc-closes-4-million-series-b-financing-led-by-genhenn-capital-302844919.html"
+    "strength": 2,
+    "url": "https://www.citybiz.co/article/884894/skinbit-raises-6-million-pre-seed-round-to-expand-ai-driven-skin-cancer-screening-platform/"
   },
   "deal": {
-    "company": "Hinge Health",
-    "amount": "$105M",
-    "round": "M&A",
-    "thesis": "Hinge Health, coté en bourse depuis mai 2025 sur la thèse MSK + IA, rachète Cylinder Health — près de 100 clients, deux millions de vies couvertes, contrats avec deux des trois plus gros PBM américains — pour lancer un programme de soins digestifs intégré aux côtés de ses programmes musculo-squelettique et migraine. La thèse : transformer une « point solution » de télésanté MSK en plateforme multi-pathologies vendue aux mêmes employeurs et assureurs, un chemin de croissance par acquisition que les VCs digital health surveillent de près à mesure que le secteur se consolide.",
-    "url": "https://www.businesswire.com/news/home/20260804144447/en/Hinge-Health-to-acquire-Cylinder-Health-expanding-into-gastrointestinal-care"
+    "company": "Braveheart Bio",
+    "amount": "$383M",
+    "round": "IPO",
+    "thesis": "Soutenue par a16z, la biotech de San Francisco a bondi de plus de 65% lors de ses débuts au Nasdaq après avoir bouclé une IPO élargie à 383 M$. Sa thèse : un candidat in-licencié du chinois Hengrui Pharma pour concurrencer le Camzyos de Bristol Myers Squibb (plus de 2 Md$ de ventes) dans la cardiomyopathie hypertrophique — un pari sur l'arbitrage d'actifs cliniques chinois, alors que la fenêtre IPO biotech se rouvre nettement (Attovia, Latigo et Braveheart en une semaine).",
+    "url": "https://www.biopharmadive.com/news/braveheart-cardiac-drugs-ipo-pricing/826973/"
   },
-  "brefsEurope": [
-    {
-      "company": "Relu",
-      "place": "Louvain, Belgique",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Relu lève 1,75 M$ supplémentaires pour accélérer son expansion américaine",
-      "summary": "La startup belge d'automatisation par IA des cas de laboratoires dentaires (plus d'un million de cas traités par an dans 82 pays) reçoit un nouveau chèque de son investisseur historique, le fonds sectoriel Dental Innovation Alliance — un doublement de mise stratégique à surveiller avant un tour plus large.",
-      "url": "https://www.eu-startups.com/2026/08/belgian-ai-dental-startup-relu-lands-e1-51-million-to-accelerate-us-expansion/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Genesis MedTech",
-      "place": "Singapour",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Genesis MedTech obtient le marquage CE pour un vidéo-endoscope 8 mm en 3D/4K, ouvrant la voie à son entrée en Europe",
-      "summary": "Soutenue par Edwards Lifesciences et des fonds d'État chinois, la medtech de Singapour miniaturise l'imagerie chirurgicale 3D/4K avec fluorescence dans un diamètre de 8 mm — un accès CE qui lui ouvre le marché européen face aux ténors occidentaux de l'endoscopie chirurgicale.",
-      "url": "https://www.prnewswire.com/news-releases/genesis-medtech-receives-ce-mark-approval-for-8-mm-video-endoscope-302843706.html"
+      "company": "Body Vision Medical",
+      "place": "Tel-Aviv, Israël",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Body Vision Medical boucle un tour de croissance non dévoilé pour son imagerie IA peropératoire pulmonaire",
+      "summary": "Mené par Business Asia Consultants et le singapourien Sprim Global Investments, ce tour finance l'expansion internationale de LungVision, sa plateforme de guidage par IA qui améliore la précision des biopsies pulmonaires mini-invasives.",
+      "url": "https://www.prnewswire.com/news-releases/body-vision-medical-closes-new-funding-round-to-accelerate-global-expansion-of-ai-powered-intraoperative-imaging-302844448.html"
     },
     {
-      "company": "BriaCell Therapeutics",
-      "place": "Philadelphie, États-Unis",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
+      "company": "HealthSnap",
+      "place": "Miami, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
       "strength": 3,
-      "title": "BriaCell décroche le feu vert de la FDA pour lancer l'essai de Bria-PROS+, son immunothérapie cellulaire « sur étagère » contre le cancer de la prostate",
-      "summary": "Bâtie sur la même plateforme Bria-OTS+ que son actif phare en cancer du sein, cette immunothérapie personnalisée activant lymphocytes T naïfs, cellules dendritiques et cellules NK entre en Phase 1/2a — une nouvelle indication pour une plateforme allogénique que BriaCell décline candidat par candidat.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/05/3339216/0/en/briacell-receives-fda-clearance-to-initiate-bria-pros-clinical-study-in-prostate-cancer.html"
+      "title": "HealthSnap sécurise 25 M$ de dette de croissance pour scaler son management de soins virtuels par IA",
+      "summary": "Menée par Eastward Capital Partners, cette facilité refinance la dette existante et finance l'IA de la plateforme APCM, déjà déployée dans plus de 200 systèmes de santé américains — un schéma capital-efficace typique d'une plateforme de remote patient monitoring arrivée à maturité commerciale.",
+      "url": "https://www.prnewswire.com/news-releases/healthsnap-secures-25-million-growth-financing-to-accelerate-ai-powered-virtual-care-management-leadership-302845017.html"
     },
     {
-      "company": "Synthekine",
-      "place": "Menlo Park, États-Unis",
+      "company": "Oblenio Bio",
+      "place": "Cambridge, États-Unis",
       "sector": "Biotech",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Synthekine nomme Susan Molineaux (vétérane biotech) CEO pour porter son agoniste partiel d'IL-2 en phase tardive contre le cancer du poumon",
-      "summary": "Alors que STK-012 entre en développement clinique tardif dans le NSCLC, la biotech financée à 100 M$ en Series C par The Column Group confie les commandes à une dirigeante chevronnée — signal classique de préparation à un tour de croissance ou à une sortie.",
-      "url": "https://www.businesswire.com/news/home/20260805238202/en/Synthekine-Appoints-Veteran-Biotech-Leader-Susan-M.-Molineaux-Ph.D.-as-Chief-Executive-Officer"
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Oblenio Bio dose ses premiers patients en Allemagne pour LBL-051, son T-cell engager trispécifique contre les maladies auto-immunes réfractaires",
+      "summary": "Financée par Aditum Bio et Leads Biolabs, la biotech démarre en Europe (protocole validé par le Paul-Ehrlich-Institut) la Phase 1a de son actif unique, conçu pour un reset immunitaire durable par déplétion des lymphocytes B et plasmocytes — un actif early-stage à suivre avant un futur tour.",
+      "url": "https://www.biospace.com/press-releases/oblenio-announces-first-patients-dosed-in-innovative-phase-1a-trial-of-lbl-051-in-refractory-autoimmune-diseases"
     }
   ],
   "word": {
-    "term": "Nitinol",
-    "full": "Nickel-Titanium (Shape Memory Alloy)",
-    "fr": "Alliage à mémoire de forme nickel-titane",
-    "field": "MedTech / Implants mini-invasifs",
-    "definition": "Un alliage métallique qui se laisse comprimer pour franchir un accès minimal, puis reprend automatiquement sa forme d'origine une fois réchauffé à la température du corps.",
+    "term": "TBP",
+    "full": "Total-Body Photography",
+    "fr": "Photographie corporelle totale",
+    "field": "Dermatologie / Diagnostic précoce du mélanome",
+    "definition": "Une technique d'imagerie qui capture la totalité de la surface cutanée en une séance standardisée, pour comparer automatiquement chaque grain de beauté d'un examen à l'autre et repérer les évolutions suspectes.",
     "parts": [
-      { "label": "Superélasticité", "role": "encaisse une déformation extrême sans casser ni se déformer plastiquement" },
-      { "label": "Mémoire de forme", "role": "retrouve sa géométrie programmée au contact de la chaleur corporelle" },
-      { "label": "Biocompatibilité", "role": "toléré durablement par les tissus, sans corrosion ni réaction immunitaire majeure" }
+      { "label": "Capture standardisée", "role": "des dizaines de clichés haute résolution pris sous angles et éclairages fixes pour couvrir toute la peau" },
+      { "label": "Cartographie des lésions", "role": "chaque grain de beauté est géolocalisé sur un avatar corporel et suivi dans le temps" },
+      { "label": "Triage assisté", "role": "un algorithme signale les lésions ayant changé de forme, taille ou couleur pour prioriser la lecture par le dermatologue" }
     ],
     "how": [
-      { "n": "1", "h": "Programmation", "t": "Le fil ou le treillis est chauffé et façonné dans sa forme finale « mémorisée » en usine, à haute température." },
-      { "n": "2", "h": "Déformation à froid", "t": "Refroidi, l'implant est redressé ou comprimé dans un cathéter ou une gaine pour passer par un accès percutané minimal." },
-      { "n": "3", "h": "Réactivation", "t": "Au contact de la chaleur corporelle (37 °C), l'alliage reprend sa forme mémorisée et assure fixation ou ouverture mécanique in situ." }
+      { "n": "1", "h": "Capture initiale", "t": "Le patient passe 10 à 20 minutes dans un scanner ou une cabine pour établir une cartographie de référence de sa peau." },
+      { "n": "2", "h": "Suivi longitudinal", "t": "À chaque visite ultérieure, une nouvelle capture est comparée automatiquement à la précédente pour détecter les changements." },
+      { "n": "3", "h": "Triage et confirmation", "t": "Les lésions signalées comme suspectes sont transmises à un dermatologue pour confirmation clinique ou biopsie." }
     ],
-    "why": "Le nitinol permet de faire glisser des actes du bloc opératoire ouvert vers le mini-invasif ambulatoire sans sacrifier la tenue mécanique — un levier d'efficience capital que les VCs medtech surveillent, car il raccourcit le chemin vers le remboursement et l'adoption hospitalière. Meduloc, qui referme aujourd'hui une Series B pour son implant intramédullaire flexible en nitinol, illustre cette thèse : la clearance FDA est acquise avant le tour de croissance, pas l'inverse.",
+    "why": "La TBP déplace le dépistage du mélanome hors du seul cabinet dermatologique vers des lieux à fort trafic (med spas, cliniques de longévité, pharmacies) — un modèle de distribution capital-efficace et récurrent que les VCs santé préventive apprécient, porté aujourd'hui par la pre-seed de SkinBit.",
     "startups": [
-      { "name": "Meduloc", "use": "Implant intramédullaire flexible en nitinol pour fractures des os longs ; Series B de 4 M$ menée par GenHenn Capital annoncée aujourd'hui", "place": "West Chester, États-Unis" },
-      { "name": "Ancora Heart", "use": "Système AccuCinch : ancrages et câble en nitinol pour réduire par cathéter la taille du ventricule gauche en insuffisance cardiaque ; essai pivot CORCINCH-HF en cours", "place": "Santa Clara, États-Unis" },
-      { "name": "Shape Memory Medical", "use": "Bouchons d'embolisation vasculaire combinant polymère à mémoire de forme et ancre hélicoïdale en nitinol ; plus de 70 M$ levés en Series C", "place": "Santa Clara, États-Unis" }
+      { "name": "SkinBit", "use": "Scanner corporel complet en 20 minutes déployé en med spas et cliniques de longévité ; pre-seed de 6 M$ annoncée aujourd'hui", "place": "États-Unis" },
+      { "name": "SquareMind", "use": "Swan, robot de dermoscopie corporelle totale marqué CE ; 18 M$ levés menés par Sonder Capital (Fred Moll)", "place": "Paris, France" },
+      { "name": "Miiskin", "use": "Application de suivi photographique de la peau à domicile, plus de 500 000 utilisateurs, première app accréditée par la Skin Health Alliance", "place": "Copenhague, Danemark" },
+      { "name": "SkinIO", "use": "Application capturant 90% de la surface cutanée en 10 minutes pour un suivi dermatologique à distance", "place": "Chicago, États-Unis" }
     ]
   }
 }

@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-08",
   "words": [
+    {
+      "term": "TBP",
+      "full": "Total-Body Photography",
+      "fr": "Photographie corporelle totale",
+      "field": "Dermatologie / Diagnostic précoce du mélanome",
+      "definition": "Une technique d'imagerie qui capture la totalité de la surface cutanée en une séance standardisée, pour comparer automatiquement chaque grain de beauté d'un examen à l'autre et repérer les évolutions suspectes.",
+      "parts": [
+        {
+          "label": "Capture standardisée",
+          "role": "des dizaines de clichés haute résolution pris sous angles et éclairages fixes pour couvrir toute la peau"
+        },
+        {
+          "label": "Cartographie des lésions",
+          "role": "chaque grain de beauté est géolocalisé sur un avatar corporel et suivi dans le temps"
+        },
+        {
+          "label": "Triage assisté",
+          "role": "un algorithme signale les lésions ayant changé de forme, taille ou couleur pour prioriser la lecture par le dermatologue"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture initiale",
+          "t": "Le patient passe 10 à 20 minutes dans un scanner ou une cabine pour établir une cartographie de référence de sa peau."
+        },
+        {
+          "n": "2",
+          "h": "Suivi longitudinal",
+          "t": "À chaque visite ultérieure, une nouvelle capture est comparée automatiquement à la précédente pour détecter les changements."
+        },
+        {
+          "n": "3",
+          "h": "Triage et confirmation",
+          "t": "Les lésions signalées comme suspectes sont transmises à un dermatologue pour confirmation clinique ou biopsie."
+        }
+      ],
+      "why": "La TBP déplace le dépistage du mélanome hors du seul cabinet dermatologique vers des lieux à fort trafic (med spas, cliniques de longévité, pharmacies) — un modèle de distribution capital-efficace et récurrent que les VCs santé préventive apprécient, porté aujourd'hui par la pre-seed de SkinBit.",
+      "startups": [
+        {
+          "name": "SkinBit",
+          "use": "Scanner corporel complet en 20 minutes déployé en med spas et cliniques de longévité ; pre-seed de 6 M$ annoncée aujourd'hui",
+          "place": "États-Unis"
+        },
+        {
+          "name": "SquareMind",
+          "use": "Swan, robot de dermoscopie corporelle totale marqué CE ; 18 M$ levés menés par Sonder Capital (Fred Moll)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Miiskin",
+          "use": "Application de suivi photographique de la peau à domicile, plus de 500 000 utilisateurs, première app accréditée par la Skin Health Alliance",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "SkinIO",
+          "use": "Application capturant 90% de la surface cutanée en 10 minutes pour un suivi dermatologique à distance",
+          "place": "Chicago, États-Unis"
+        }
+      ],
+      "date": "2026-08-08",
+      "dateLong": "8 août 2026"
+    },
     {
       "term": "Nitinol",
       "full": "Nickel-Titanium (Shape Memory Alloy)",
