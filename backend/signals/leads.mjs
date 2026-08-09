@@ -47,6 +47,13 @@ const INSTITUTION_NAME = new RegExp(
     'stiftung', 'stichting', 'association', 'onlus', '\\btrust\\b', '\\bcouncil\\b',
     'college', 'school', 'academy', 'acad[ée]mie',
     'ministry', 'minist[èe]re', '\\bnhs\\b', '\\binserm\\b', '\\bcnrs\\b',
+    // Latin-language forms of "institute". `institut` alone is left OUT on
+    // purpose: plenty of small French labs are named "Institut de …" and could
+    // plausibly spin out, whereas "Instituto de Salud Carlos III" is a ministry.
+    'instituto', 'istituto', '\\birccs\\b', // IRCCS = Italian research hospital
+    // Anything "national" is a state body by construction — it caught
+    // "The National Brain Mapping Laboratory" in the first live run.
+    '\\bnational', '\\bnacional', '\\bnazionale', '\\bnationaal',
   ].join('|'),
   'i'
 );

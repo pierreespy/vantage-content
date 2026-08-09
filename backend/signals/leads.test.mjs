@@ -190,6 +190,10 @@ test('universities, hospitals and foundations are never leads — nobody pitches
     'ADIR Association',
     'Fondation Ophtalmologique Rothschild',
     'Assistance Publique - Hôpitaux de Paris',
+    // Seen slipping through in the first live CI run:
+    'Instituto de Salud Carlos III',
+    'The National Brain Mapping Laboratory (NBML)',
+    'Istituto Nazionale dei Tumori',
   ]) {
     const { entities, records } = academicSponsorFixture(name);
     assert.deepEqual(buildLeads({ entities, records, now: NOW }).leads, [], name);
