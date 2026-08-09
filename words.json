@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-08",
+  "generatedAt": "2026-08-09",
   "words": [
+    {
+      "term": "TNFR2",
+      "full": "Tumor Necrosis Factor Receptor 2",
+      "fr": "Récepteur de type 2 du TNF",
+      "field": "Immuno-oncologie / Immunologie des Treg",
+      "definition": "Un récepteur porté par les lymphocytes T régulateurs (Treg) qui infiltrent les tumeurs, devenu une cible d'anticorps pour soit les éliminer en oncologie, soit au contraire les activer dans les maladies inflammatoires.",
+      "parts": [
+        {
+          "label": "Treg intratumoral",
+          "role": "la cellule immunosuppressive ciblée"
+        },
+        {
+          "label": "Anticorps anti-TNFR2",
+          "role": "le déclencheur, déplétant ou agoniste selon le mécanisme visé"
+        },
+        {
+          "label": "Cellules effectrices (CD8+, myéloïdes, NK)",
+          "role": "réactivées une fois le frein immunitaire levé"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "L'anticorps se lie spécifiquement à TNFR2, très exprimé à la surface des Treg intratumoraux mais rare sur les autres cellules."
+        },
+        {
+          "n": "2",
+          "h": "Bascule immunitaire",
+          "t": "Selon sa conception, l'anticorps déplète les Treg immunosuppresseurs en oncologie, ou au contraire les active dans les maladies auto-immunes et inflammatoires."
+        },
+        {
+          "n": "3",
+          "h": "Réponse réactivée",
+          "t": "Le microenvironnement rebascule en faveur des lymphocytes CD8+ et des cellules myéloïdes, souvent en synergie avec un anti-PD-1."
+        }
+      ],
+      "why": "TNFR2 ouvre une classe de checkpoint au-delà de PD-1/CTLA-4, avec deux lectures opposées du même récepteur — déplétion en oncologie, activation en inflammation — un angle plateforme qui attire aussi bien le capital-risque biotech que le corporate venture de big pharma (Bristol Myers Squibb, Eli Lilly, Johnson & Johnson et Pfizer déjà au capital d'un des acteurs du secteur), avec un boulevard réglementaire (Fast Track, Orphan Drug) pour des tumeurs encore mal desservies.",
+      "startups": [
+        {
+          "name": "BioInvent International",
+          "use": "Anti-TNFR2 déplétant (BI-1808) en Phase 2a dans l'ovaire et le CTCL ; Fast Track FDA obtenue le 7 août 2026",
+          "place": "Lund, Suède"
+        },
+        {
+          "name": "HiFiBiO Therapeutics",
+          "use": "Emunkitug (HFB200301), agoniste TNFR2 first-in-class, en Phase 1 dans les tumeurs solides avancées, seul et associé au tislélizumab",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "TRexBio",
+          "use": "TRB-061, agoniste TNFR2 activant les Treg, en Phase 1b dans la dermatite atopique modérée à sévère",
+          "place": "South San Francisco, États-Unis"
+        },
+        {
+          "name": "Odyssey Therapeutics",
+          "use": "OD-00910, agoniste TNFR2 tétravalent, développé après un Series D de 213 M$",
+          "place": "Boston, États-Unis"
+        }
+      ],
+      "date": "2026-08-09",
+      "dateLong": "9 août 2026"
+    },
     {
       "term": "TBP",
       "full": "Total-Body Photography",
