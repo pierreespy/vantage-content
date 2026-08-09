@@ -1,0 +1,62 @@
+// node --test backend/signals/config.test.mjs
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { loadConfig } from './config.mjs';
+import { RECENT_COMPANY_DAYS } from './score.mjs';
+
+test('defaults are sane with a completely empty environment', () => {
+  const config = loadConfig({});
+  assert.equal(config.lookbackDays, 30);
+  assert.equal(config.maxPages, 5);
+  assert.equal(config.port, 8787);
+  assert.equal(config.dryRun, false);
+  assert.deepEqual(config.enabledSources, [
+    'pubmed',
+    'europepmc',
+    'epo',
+    'clinicaltrials',
+    'grants',
+    'pappers',
+  ]);
+  // No credentials configured: those sources will skip themselves, not crash.
+  assert.equal(config.epo.key, '');
+  assert.equal(config.pappers.apiToken, '');
+});
+
+test('the slow lookback covers the whole "société créée < 6 mois" window', () => {
+  // Drift guard: if the registry window were shorter than the rule window,
+  // companies aged just under six months would be invisible to the very rule
+  // that is about them — and nothing else would fail.
+  assert.ok(
+    loadConfig({}).slowLookbackDays >= RECENT_COMPANY_DAYS,
+    `slowLookbackDays must be >= RECENT_COMPANY_DAYS (${RECENT_COMPANY_DAYS})`
+  );
+});
+
+test('numeric env vars are parsed, and garbage falls back to the default', () => {
+  assert.equal(loadConfig({ SIGNALS_LOOKBACK_DAYS: '60' }).lookbackDays, 60);
+  assert.equal(loadConfig({ SIGNALS_LOOKBACK_DAYS: 'soon' }).lookbackDays, 30);
+  assert.equal(loadConfig({ SIGNALS_CACHE_TTL_MIN: '30' }).cacheTtlMs, 30 * 60_000);
+});
+
+test('list env vars are split and trimmed', () => {
+  assert.deepEqual(loadConfig({ SIGNALS_SOURCES: 'pubmed, pappers ' }).enabledSources, [
+    'pubmed',
+    'pappers',
+  ]);
+  assert.deepEqual(loadConfig({ EPO_IPC_CLASSES: 'A61B,G16H' }).epo.ipcClasses, ['A61B', 'G16H']);
+  // An empty override must not become `['']` — that would query nothing.
+  assert.equal(loadConfig({ EPO_IPC_CLASSES: '  ' }).epo.ipcClasses, undefined);
+});
+
+test('grant feed overrides are only set for the vars actually provided', () => {
+  assert.deepEqual(loadConfig({}).grants.overrides, {});
+  assert.deepEqual(loadConfig({ GRANTS_EIC_URL: 'https://x/eic.json' }).grants.overrides, {
+    'eic-accelerator': 'https://x/eic.json',
+  });
+});
+
+test('DRY_RUN=1 matches the favorites routine convention', () => {
+  assert.equal(loadConfig({ DRY_RUN: '1' }).dryRun, true);
+  assert.equal(loadConfig({ DRY_RUN: 'true' }).dryRun, false, 'only "1", like backend/routine');
+});

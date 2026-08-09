@@ -1,0 +1,59 @@
+[
+  {
+    "id": "i-lab",
+    "program": "i-Lab",
+    "country": "FR",
+    "format": "csv",
+    "url": "file:data/i-lab-laureates.csv",
+    "programUrl": "https://www.bpifrance.fr/nos-appels-a-projets-concours/concours-dinnovation-i-lab",
+    "mapping": {
+      "id": "id",
+      "title": "projet",
+      "company": "entreprise",
+      "people": "laureats",
+      "date": "date",
+      "country": "pays",
+      "keywords": "thematique",
+      "amount": "montant",
+      "url": "url"
+    }
+  },
+  {
+    "id": "i-phd",
+    "program": "i-PhD",
+    "country": "FR",
+    "format": "csv",
+    "url": "file:data/i-phd-laureates.csv",
+    "programUrl": "https://www.bpifrance.fr/nos-appels-a-projets-concours/concours-dinnovation-i-phd",
+    "mapping": {
+      "id": "id",
+      "title": "projet",
+      "company": "laboratoire",
+      "people": "laureats",
+      "date": "date",
+      "country": "pays",
+      "keywords": "thematique",
+      "url": "url"
+    }
+  },
+  {
+    "id": "eic-accelerator",
+    "program": "EIC Accelerator",
+    "country": "",
+    "format": "json",
+    "url": "file:data/eic-accelerator-beneficiaries.json",
+    "programUrl": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+    "rowsPath": "results",
+    "mapping": {
+      "id": "projectId",
+      "title": "projectTitle",
+      "company": "beneficiaryName",
+      "people": "contactNames",
+      "date": "signatureDate",
+      "country": "country",
+      "keywords": "topics",
+      "amount": "ecContribution",
+      "url": "projectUrl"
+    }
+  }
+]

@@ -1,0 +1,76 @@
+name: medtech-signals
+
+# Runs the deterministic MedTech weak-signal pipeline (backend/signals/) and
+# commits its two outputs back into THIS repo:
+#
+#   signal-state/*.json   what we already knew (the diffing memory)
+#   medtech-leads.json    the scored leads, served statically to the app
+#
+# Cadence: every morning at 04:00 UTC, ahead of the 06:00 favoris-news job, so
+# the editorial routine can read fresh candidate signals when it runs.
+#
+# Zero dependencies: the pipeline is plain Node ESM with no packages, so there is
+# no install step and nothing to audit — just checkout, test, run, commit.
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+# This job commits to its OWN repo, so it needs write on contents.
+permissions:
+  contents: write
+
+# Two overlapping runs would race on the state files and produce a merge
+# conflict on push. Queue them instead.
+concurrency:
+  group: medtech-signals
+  cancel-in-progress: false
+
+jobs:
+  signals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Cheap (no network, no installs) and it runs before anything is written:
+      # a regression in the scoring rules or a parser must never reach a commit.
+      - name: Run the pipeline test suite
+        working-directory: backend/signals
+        run: node --test
+
+      - name: Run the pipeline
+        working-directory: backend/signals
+        env:
+          # Optional — each unset key just skips its source with a warning.
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
+          EPO_OPS_KEY: ${{ secrets.EPO_OPS_KEY }}
+          EPO_OPS_SECRET: ${{ secrets.EPO_OPS_SECRET }}
+          PAPPERS_API_KEY: ${{ secrets.PAPPERS_API_KEY }}
+          GRANTS_ILAB_URL: ${{ vars.GRANTS_ILAB_URL }}
+          GRANTS_IPHD_URL: ${{ vars.GRANTS_IPHD_URL }}
+          GRANTS_EIC_URL: ${{ vars.GRANTS_EIC_URL }}
+          SIGNALS_SOURCES: ${{ vars.SIGNALS_SOURCES }}
+          SIGNALS_LOOKBACK_DAYS: ${{ vars.SIGNALS_LOOKBACK_DAYS }}
+        run: node run.mjs
+
+      - name: Commit the refreshed state and leads
+        run: |
+          git config user.name 'vantage-signals-bot'
+          git config user.email 'bot@vantage.local'
+          git add signal-state medtech-leads.json
+          if git diff --staged --quiet; then
+            echo 'No signal changed today — nothing to commit.'
+            exit 0
+          fi
+          git commit -m "chore(signals): refresh medtech leads ($(date -u +%F))"
+          # Another job (e.g. the daily edition) may have pushed while we ran.
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"

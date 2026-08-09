@@ -1,0 +1,8 @@
+node_modules/
+
+# Disposable HTTP response cache for the MedTech signal pipeline. Safe to delete
+# at any time — it only saves free-tier quota on repeated runs.
+.cache/
+
+# Local credentials. `.env.example` is the committed template.
+.env

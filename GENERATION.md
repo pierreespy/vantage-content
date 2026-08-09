@@ -82,8 +82,15 @@ d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
    - **Champs `signalType` + `strength`** sur `lead` et chaque brève : le **type** de signal et
      sa **force** (1–5). `signalType` ∈ `leadership_hire | regulatory_milestone |
      clinical_update | reimbursement | patent_filing | publication_preprint |
-     conference_abstract | early_partnership | funding_round | acquisition`. Barème dans
+     conference_abstract | early_partnership | grant_award | company_incorporation |
+     funding_round | acquisition`. Barème dans
      `DAILY_PROMPT.md`. L'app badge le type (signaux précoces en accent, funding/M&A atténués).
+   - **Candidats-signaux déterministes** : le pipeline `backend/signals/` publie chaque
+     matin `medtech-leads.json` (leads scorés, avec le détail des signaux qui ont déclenché
+     le score, et un drapeau `isNew` par signal). C'est une **source d'amorçage** pour les
+     brèves : y piocher les signaux `isNew` de priorité haute/moyenne, puis les vérifier et
+     les rédiger normalement (noms précis, fenêtre 24–72 h). Ne jamais recopier un lead tel
+     quel — c'est un candidat, pas une brève.
    - **Champ `stage`** (optionnel) sur `lead` et chaque brève : le round de l'opération
      (`"Pre-seed"`, `"Seed"`, `"Series A"`, `"Series B"`, `"Series C"`, `"Growth"`,
      `"IPO"`…). L'app **mémorise** ce stade par société et l'affiche sur la carte Favoris.

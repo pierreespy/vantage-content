@@ -1,0 +1,15 @@
+{
+  "name": "vantage-medtech-signals",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MedTech weak-signal pipeline: public-API ingestion, entity resolution, scoring and the leads endpoint. Server-side only — NOT part of the Expo app bundle.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node run.mjs",
+    "serve": "node api/serve.mjs",
+    "test": "node --test"
+  }
+}

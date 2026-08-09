@@ -260,11 +260,12 @@ SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable t
 SIGNAUX — `signalType` (sur lead + chaque brève) et `strength` (entier 1–5) :
 - signalType ∈ leadership_hire | regulatory_milestone | clinical_update | reimbursement |
   patent_filing | publication_preprint | conference_abstract | early_partnership |
-  funding_round | acquisition.
+  grant_award | company_incorporation | funding_round | acquisition.
 - Barème `strength` :
     5 = levée late-stage bouclée · M&A · clearance FDA obtenue · remboursement (CPT III / NTAP)
     4 = Breakthrough Device/Therapy · endpoint primaire atteint · Series A/B bouclée
-    3 = soumission FDA/IND · nomination CEO/CSO · co-développement grand groupe
+    3 = soumission FDA/IND · nomination CEO/CSO · co-développement grand groupe ·
+        subvention i-Lab / i-PhD / EIC · création de société par un chercheur
     2 = dépôt de brevet · preprint / publication · pilote hospitalier · advisor stratégique
     1 = abstract de congrès · signal isolé non confirmé
 - `sector` : privilégie "MedTech" / "Digital Health" / "Diagnostics" pour tenir le rééquilibrage ;
