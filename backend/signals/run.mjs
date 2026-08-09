@@ -56,6 +56,19 @@ export async function runPipeline(opts = {}) {
   const { records, bySource, errors } = await ingestAll({ http, config, now, sources, logger });
   logger.log?.(`ingest: ${records.length} record(s) across ${Object.keys(bySource).length} source(s)`);
 
+  // A run that ingests NOTHING while reporting no error is the worst failure
+  // mode there is: the job goes green, commits an empty file, and nobody
+  // notices. It happened on the very first live run (an unset env var collapsed
+  // every lookback window to a single day), so it now says so, loudly.
+  if (!records.length && !errors.length) {
+    logger.warn?.(
+      'WARNING: every source returned 0 records and none reported an error.\n' +
+        `  Check the windows actually queried: lookbackDays=${config.lookbackDays}, ` +
+        `slowLookbackDays=${config.slowLookbackDays}, maxPages=${config.maxPages}.\n` +
+        '  A zero or tiny value here silently empties the run.'
+    );
+  }
+
   // 2. Diff against stored state, per source.
   const store = createStateStore({ dir: config.stateDir });
   const emittedKeys = new Set();

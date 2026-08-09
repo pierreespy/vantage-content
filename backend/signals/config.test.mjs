@@ -39,6 +39,21 @@ test('numeric env vars are parsed, and garbage falls back to the default', () =>
   assert.equal(loadConfig({ SIGNALS_CACHE_TTL_MIN: '30' }).cacheTtlMs, 30 * 60_000);
 });
 
+test('an EMPTY numeric env var falls back — it must never be read as zero', () => {
+  // Regression guard for the first live CI run, which went green having ingested
+  // nothing: GitHub Actions injects an unset `${{ vars.X }}` as an empty string,
+  // and `Number('')` is 0, so the lookback collapsed to a single day.
+  assert.equal(loadConfig({ SIGNALS_LOOKBACK_DAYS: '' }).lookbackDays, 30);
+  assert.equal(loadConfig({ SIGNALS_LOOKBACK_DAYS: '   ' }).lookbackDays, 30);
+  assert.equal(loadConfig({ SIGNALS_MAX_PAGES: '' }).maxPages, 5);
+  assert.equal(loadConfig({ SIGNALS_SLOW_LOOKBACK_DAYS: '' }).slowLookbackDays, 183);
+  assert.equal(loadConfig({ SIGNALS_CACHE_TTL_MIN: '' }).cacheTtlMs, 720 * 60_000);
+  assert.equal(loadConfig({ SIGNALS_PORT: '' }).port, 8787);
+
+  // An explicit zero is still honoured — it is a real setting for the cache.
+  assert.equal(loadConfig({ SIGNALS_CACHE_TTL_MIN: '0' }).cacheTtlMs, 0);
+});
+
 test('list env vars are split and trimmed', () => {
   assert.deepEqual(loadConfig({ SIGNALS_SOURCES: 'pubmed, pappers ' }).enabledSources, [
     'pubmed',

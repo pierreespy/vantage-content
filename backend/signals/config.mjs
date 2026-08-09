@@ -12,7 +12,18 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 /** Repo root, i.e. two levels above `backend/signals`. */
 const REPO_ROOT = resolve(HERE, '../..');
 
+/**
+ * Parse a numeric env var, falling back when it is absent or unusable.
+ *
+ * The empty-string guard is load-bearing, not defensive noise. GitHub Actions
+ * injects an UNSET `${{ vars.X }}` as an EMPTY STRING, and `Number('')` is `0`,
+ * not `NaN` — so without it, an unset `SIGNALS_LOOKBACK_DAYS` silently became a
+ * lookback of ZERO days. Every source then queried a single day, found nothing,
+ * threw no error, and the whole run went green having ingested nothing at all.
+ * Pinned by config.test.mjs.
+ */
 function num(value, fallback) {
+  if (value === undefined || value === null || String(value).trim() === '') return fallback;
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : fallback;
 }
