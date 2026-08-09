@@ -2,27 +2,27 @@
   "generatedAt": "2026-08-09",
   "generatedAtLong": "9 août 2026",
   "counts": {
-    "total": 0,
+    "total": 115,
     "high": 0,
-    "medium": 0,
-    "low": 0,
-    "withNewSignal": 0,
-    "entities": 0,
-    "records": 0
+    "medium": 103,
+    "low": 12,
+    "withNewSignal": 115,
+    "entities": 5571,
+    "records": 1200
   },
   "sources": [
     {
       "id": "pubmed",
       "label": "PubMed (NCBI E-utilities)",
-      "records": 0,
-      "added": 0,
+      "records": 200,
+      "added": 200,
       "changed": 0
     },
     {
       "id": "europepmc",
       "label": "Europe PMC",
-      "records": 0,
-      "added": 0,
+      "records": 500,
+      "added": 500,
       "changed": 0
     },
     {
@@ -35,8 +35,8 @@
     {
       "id": "clinicaltrials",
       "label": "ClinicalTrials.gov v2",
-      "records": 0,
-      "added": 0,
+      "records": 500,
+      "added": 500,
       "changed": 0
     },
     {
@@ -55,5 +55,6201 @@
     }
   ],
   "errors": [],
-  "leads": []
+  "leads": [
+    {
+      "id": "company:instituto:493d3c6d",
+      "kind": "company",
+      "name": "Instituto de Salud Carlos III",
+      "aliases": [],
+      "company": "Instituto de Salud Carlos III",
+      "companies": [],
+      "country": "ES",
+      "countries": [
+        "ES"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-07 sans structure commerciale identifiée (promoteur Cudeca Hospice Foundation) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07753668",
+          "title": "Better Communication, Better Care Using SICG Assistant Based on Artificial Intelligence",
+          "url": "https://clinicaltrials.gov/study/NCT07753668",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "cancer care providers",
+        "palliative care",
+        "cancer care facilities",
+        "artificial intelligence",
+        "interdisciplinary communication",
+        "decision making, shared",
+        "machine learning"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:national:207d05fb",
+      "kind": "company",
+      "name": "The National Brain Mapping Laboratory (NBML)",
+      "aliases": [],
+      "company": "The National Brain Mapping Laboratory (NBML)",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-07 sans structure commerciale identifiée (promoteur The National Brain Mapping Laboratory (NBML)) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07752316",
+          "title": "Gamma tACS to Improve Cognitive Function in Mild Cognitive Impairment",
+          "url": "https://clinicaltrials.gov/study/NCT07752316",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mild cognitive impairment (mci)"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:alicia martinez rodriguez:3ca6e5d9",
+      "kind": "person",
+      "name": "Alicia Martínez-Rodríguez, Lecrurer",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "ES",
+      "countries": [
+        "ES"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-05-14 sans structure commerciale identifiée (promoteur Universidade da Coruña) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07588191",
+          "title": "Effects of Transcutaneous Vagus Nerve Stimulation in Parkinson´s Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07588191",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "transcutaneous vagal nerve stimulation (tvns)",
+        "parkinson disease (pd)",
+        "transcutaneous electrical nerve stimulation",
+        "vagus nerve",
+        "parkinson disease",
+        "speech therapy",
+        "physical therapy modalities",
+        "deglutition",
+        "tremor",
+        "posture",
+        "gait",
+        "quality of life",
+        "cognition",
+        "cough",
+        "sialorrhea",
+        "xerostomia",
+        "heart rate",
+        "voice disorders",
+        "ear"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:dr suman sheraz:0904a789",
+      "kind": "person",
+      "name": "Dr. Suman Sheraz, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur Riphah International University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07738627",
+          "title": "Effects of IMT on Cardiopulmonary Endurance and Functional Mobility in KOA",
+          "url": "https://clinicaltrials.gov/study/NCT07738627",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "knee osteoarthritis",
+        "inspiratory muscle training",
+        "cardiopulmonary endurance",
+        "aerobic capacity",
+        "respiratory muscle strength",
+        "functional mobility",
+        "6-minute walk test",
+        "womac",
+        "tug test"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:olalla bello:7ac2f1f0",
+      "kind": "person",
+      "name": "Olalla Bello, Lecurer",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "ES",
+      "countries": [
+        "ES"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-05-14 sans structure commerciale identifiée (promoteur Universidade da Coruña) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07588191",
+          "title": "Effects of Transcutaneous Vagus Nerve Stimulation in Parkinson´s Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07588191",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "transcutaneous vagal nerve stimulation (tvns)",
+        "parkinson disease (pd)",
+        "transcutaneous electrical nerve stimulation",
+        "vagus nerve",
+        "parkinson disease",
+        "speech therapy",
+        "physical therapy modalities",
+        "deglutition",
+        "tremor",
+        "posture",
+        "gait",
+        "quality of life",
+        "cognition",
+        "cough",
+        "sialorrhea",
+        "xerostomia",
+        "heart rate",
+        "voice disorders",
+        "ear"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:sebnem dirikan ipci:16b5321e",
+      "kind": "person",
+      "name": "Şebnem Dirikan İpçi, Prof.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-07 sans structure commerciale identifiée (promoteur Altinbas University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07751211",
+          "title": "Effects of Low-Level Laser Therapy and Hyaluronic Acid After Free Gingival Graft",
+          "url": "https://clinicaltrials.gov/study/NCT07751211",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "gingival recession, mucogingival surgery",
+        "insufficient keratinized gingiva",
+        "low-level laser therapy",
+        "hyaluronic acid",
+        "graft shrinkage",
+        "postoperative pain",
+        "keratinized gingiva"
+      ],
+      "firstEvidence": "2026-08-07",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:irccs:040f7f03",
+      "kind": "company",
+      "name": "IRCCS San Raffaele",
+      "aliases": [],
+      "company": "IRCCS San Raffaele",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur Università Vita-Salute San Raffaele) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07750314",
+          "title": "Development of a Soft Robotic Device for Rehabilitation and Assistance of the Upper Limb for People With Neurological Disorders",
+          "url": "https://clinicaltrials.gov/study/NCT07750314",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07722169",
+          "title": "Telerehabilitation in Alzheimer's Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07722169",
+          "date": "2026-08-03",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "acquired brain injury",
+        "alzheimer",
+        "cognitive training",
+        "telerehabilitation",
+        "virtual reality",
+        "alzheimer's disease",
+        "cognitive functions",
+        "caregiver"
+      ],
+      "firstEvidence": "2026-08-03",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:ratchadapiseksompotch:41a70be3",
+      "kind": "company",
+      "name": "Ratchadapiseksompotch Fund",
+      "aliases": [],
+      "company": "Ratchadapiseksompotch Fund",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur Chulalongkorn University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07748949",
+          "title": "Effectiveness of a Low-Calorie Diet Combined With Intensive Lifestyle Intervention Using Integrated Personalized Diabetes Management for Achieving Diabetes Remission in Patients With Type 2 Diabetes Mellitus",
+          "url": "https://clinicaltrials.gov/study/NCT07748949",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "type 2 diabetes",
+        "obesity & overweight",
+        "remission",
+        "lifestyle intervention",
+        "diabetes remission",
+        "obesity"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:aurelio seidita:43427bd4",
+      "kind": "person",
+      "name": "Aurelio Seidita, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur University of Palermo) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07750535",
+          "title": "LIVER STEATOSIS AND FIBROSIS IN NON-CELIAC WHEAT SENSITIVITY PATIENTS: A PROSPECTIVE STUDY",
+          "url": "https://clinicaltrials.gov/study/NCT07750535",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "metabolic dysfunction-associated steatotic liver disease",
+        "non celiac wheat sensitivity",
+        "irritable bowel syndrome",
+        "functional dyspepsia",
+        "celiac disease",
+        "non-celiac wheat sensitivity"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:gizem suna tuncer:997da268",
+      "kind": "person",
+      "name": "Gizem Suna Tuncer, MD, Specialist Physician",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur Ankara Etlik City Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07749066",
+          "title": "HILT in Greater Trochanteric Pain Syndrome",
+          "url": "https://clinicaltrials.gov/study/NCT07749066",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "greater trochanteric pain syndrome",
+        "gtps",
+        "high-intensity laser therapy",
+        "hilt",
+        "lateral hip pain"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:laszlo asztalos:ab444694",
+      "kind": "person",
+      "name": "László Asztalos, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur University of Debrecen) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07750405",
+          "title": "A Comparative Study of the Next-Generation TetraGraph® and Mechanomyography Neuromuscular Monitors in Clinical Settings",
+          "url": "https://clinicaltrials.gov/study/NCT07750405",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "patients undergoing general anesthesia",
+        "neuromuscular monitoring",
+        "mmg",
+        "emg"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:manan pareek:a0b4fcab",
+      "kind": "person",
+      "name": "Manan Pareek, MD, MSc PhD, FAHA, FESC, FACC",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "DK",
+      "countries": [
+        "DK"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-27 sans structure commerciale identifiée (promoteur Herlev and Gentofte Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07727135",
+          "title": "Rapid or Ultra-rapid Diagnosis of Myocardial Infarction Using High-Sensitivity Cardiac Troponin on Hospital Presentation",
+          "url": "https://clinicaltrials.gov/study/NCT07727135",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "coronary syndrome, acute",
+        "myocardial infarction",
+        "coronary artery disease",
+        "cardiovascular diseases",
+        "cardiovascular disease acute",
+        "troponin",
+        "biomarker",
+        "clinical assessment",
+        "myocardial injury",
+        "coronary syndrome"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:necmettin y ld z:0335b397",
+      "kind": "person",
+      "name": "Necmettin Yıldız, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-03 sans structure commerciale identifiée (promoteur Pamukkale University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07742176",
+          "title": "Transcutaneous Tibial Nerve Stimulation for Urinary Incontinence After Radical Prostatectomy",
+          "url": "https://clinicaltrials.gov/study/NCT07742176",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "urinary incontinence (ui)",
+        "prostatectomy",
+        "radical prostatectomy",
+        "urinary incontinence",
+        "pelvic floor muscle training",
+        "transcutaneous tibial nerve stimulation"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:pasquale mansueto:5fe0cd04",
+      "kind": "person",
+      "name": "Pasquale Mansueto, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur University of Palermo) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07750535",
+          "title": "LIVER STEATOSIS AND FIBROSIS IN NON-CELIAC WHEAT SENSITIVITY PATIENTS: A PROSPECTIVE STUDY",
+          "url": "https://clinicaltrials.gov/study/NCT07750535",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "metabolic dysfunction-associated steatotic liver disease",
+        "non celiac wheat sensitivity",
+        "irritable bowel syndrome",
+        "functional dyspepsia",
+        "celiac disease",
+        "non-celiac wheat sensitivity"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:juliana:11b0fcfc",
+      "kind": "company",
+      "name": "Juliana Caldas",
+      "aliases": [],
+      "company": "Juliana Caldas",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-05 sans structure commerciale identifiée (promoteur Juliana Caldas) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07747636",
+          "title": "Non-Invasive Triage for Intracranial Hypertension in Prehospital Care",
+          "url": "https://clinicaltrials.gov/study/NCT07747636",
+          "date": "2026-08-05",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "intracranial hypertension",
+        "acute brain injury",
+        "stroke",
+        "traumatic brain injury",
+        "subarachnoid hemorrhage",
+        "non-invasive intracranial pressure monitoring",
+        "brain4care",
+        "optic nerve sheath diameter",
+        "prehospital triage",
+        "emergency medical services",
+        "neurocritical care",
+        "intracranial pressure waveform"
+      ],
+      "firstEvidence": "2026-08-05",
+      "latestEvidence": "2026-08-05",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:amitha domalpally:341612b9",
+      "kind": "person",
+      "name": "Amitha Domalpally, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-05 sans structure commerciale identifiée (promoteur University of Wisconsin, Madison) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07747662",
+          "title": "Adaptive Optics Scanning Light Ophthalmoscopy (AOSLO) and Microperimetry (MP) Sub-study",
+          "url": "https://clinicaltrials.gov/study/NCT07747662",
+          "date": "2026-08-05",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "geographic atrophy"
+      ],
+      "firstEvidence": "2026-08-05",
+      "latestEvidence": "2026-08-05",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:shyangbo:3f892a76",
+      "kind": "person",
+      "name": "Ranjila Shyangbo",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-05 sans structure commerciale identifiée (promoteur University of California, Berkeley) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07747311",
+          "title": "Contact Lenses to Slow Myopia Progression in Adults",
+          "url": "https://clinicaltrials.gov/study/NCT07747311",
+          "date": "2026-08-05",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "myopia",
+        "myopia progression",
+        "adult myopia",
+        "misight"
+      ],
+      "firstEvidence": "2026-08-05",
+      "latestEvidence": "2026-08-05",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:singh:05ecb9ea",
+      "kind": "person",
+      "name": "Sarah Singh",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-05 sans structure commerciale identifiée (promoteur University of California, Berkeley) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07747311",
+          "title": "Contact Lenses to Slow Myopia Progression in Adults",
+          "url": "https://clinicaltrials.gov/study/NCT07747311",
+          "date": "2026-08-05",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "myopia",
+        "myopia progression",
+        "adult myopia",
+        "misight"
+      ],
+      "firstEvidence": "2026-08-05",
+      "latestEvidence": "2026-08-05",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:trio:149d3908",
+      "kind": "company",
+      "name": "Trio Fertility",
+      "aliases": [],
+      "company": "Trio Fertility",
+      "companies": [],
+      "country": "CA",
+      "countries": [
+        "CA"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-20 sans structure commerciale identifiée (promoteur Trio Fertility) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07713797",
+          "title": "Biomarkers for Endometriosis",
+          "url": "https://clinicaltrials.gov/study/NCT07713797",
+          "date": "2026-08-03",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "endometriosis",
+        "biomarkers",
+        "bcl6",
+        "sncg"
+      ],
+      "firstEvidence": "2026-08-03",
+      "latestEvidence": "2026-08-03",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:stephane doutreleau:2c30ce0d",
+      "kind": "person",
+      "name": "stephane DOUTRELEAU, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "FR",
+      "countries": [
+        "FR"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-30 sans structure commerciale identifiée (promoteur University Hospital, Grenoble) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07677241",
+          "title": "Validation of a New System for Measuring Ventilation and CO₂ Production",
+          "url": "https://clinicaltrials.gov/study/NCT07677241",
+          "date": "2026-08-03",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "healhty",
+        "exercise",
+        "ventilatory measurement"
+      ],
+      "firstEvidence": "2026-08-03",
+      "latestEvidence": "2026-08-03",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:alashker:c59c9718",
+      "kind": "person",
+      "name": "Donia Alashker",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur Mansoura University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07739498",
+          "title": "Posterior Resin Bite Turbos Effect on Maxillary Expansion Using a HYRAX Expander in Early Adolescents",
+          "url": "https://clinicaltrials.gov/study/NCT07739498",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "maxillary transverse deficiency requiring rapid maxillary expansion in early ado",
+        "maxillary transverse deficiency - rapid maxillary expansion - hyrax expander - b"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:dagoberto ojeda:6b663567",
+      "kind": "person",
+      "name": "Dagoberto Ojeda, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur Clínica Dávila) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07739862",
+          "title": "Acceleromyography Versus Electromyography for Neuromuscular Recovery Assessment at the End of Surgery",
+          "url": "https://clinicaltrials.gov/study/NCT07739862",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "neuromuscular blockade",
+        "cholecystectomy",
+        "acceleromyography",
+        "electromyography",
+        "train-of-four",
+        "tof ratio",
+        "neuromuscular monitoring",
+        "residual neuromuscular blockade",
+        "general anesthesia",
+        "laparoscopic cholecystectomy",
+        "bland-altman analysis",
+        "diagnostic agreement"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:guilherme sant anna:56427838",
+      "kind": "person",
+      "name": "Guilherme Sant'Anna, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur McGill University Health Centre/Research Institute of the McGill University Health Centre) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07739823",
+          "title": "Validation of a Wireless Wearable Vital Signs Monitor in Pediatric Patient",
+          "url": "https://clinicaltrials.gov/study/NCT07739823",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07739810",
+          "title": "Miniaturized Vital Sign Monitoring for Newborns in the Delivery Room",
+          "url": "https://clinicaltrials.gov/study/NCT07739810",
+          "date": "2026-07-31",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vital signs monitoring",
+        "physiologic monitoring",
+        "wireless monitoring",
+        "wearable sensors",
+        "pediatric",
+        "neonate",
+        "infant",
+        "intensive care",
+        "newborn monitoring",
+        "vital signs",
+        "newborn",
+        "delivery room",
+        "wearable sensor",
+        "electrocardiography",
+        "respiratory rate",
+        "skin temperature"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:john bent:b52f9258",
+      "kind": "person",
+      "name": "John Bent, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-09 sans structure commerciale identifiée (promoteur Montefiore Medical Center) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07635719",
+          "title": "Coblator Wand Comparative Analysis",
+          "url": "https://clinicaltrials.gov/study/NCT07635719",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "tonsillectomy",
+        "adenoidectomy",
+        "coblator wand",
+        "product performance",
+        "usability"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:mostafa hamed mostafa abd el hameed abd el hameed:99bba93c",
+      "kind": "person",
+      "name": "Mostafa Hamed Mostafa Abd El-Hameed Abd El-Hameed, BDS, MSc",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur Tanta University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07740265",
+          "title": "Effect of Scanning Techniques on Accuracy of Mandibular Fixed Detachable Prostheses",
+          "url": "https://clinicaltrials.gov/study/NCT07740265",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "dental prosthesis, implant-supported",
+        "prosthodontics",
+        "complete edentulism",
+        "full arch implant rehabilitation",
+        "intraoral scanner",
+        "digital impression",
+        "passive fit",
+        "auxiliary geometric device",
+        "fixed detachable prosthesis",
+        "implant scan body",
+        "full-arch implant",
+        "horizontal scan body"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:centro:66fa8f53",
+      "kind": "company",
+      "name": "Centro di Pronta Accoglienza Dipendenze Patologiche Palermo",
+      "aliases": [],
+      "company": "Centro di Pronta Accoglienza Dipendenze Patologiche Palermo",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-30 sans structure commerciale identifiée (promoteur Azienda Ospedaliera Universitaria Policlinico Paolo Giaccone Palermo) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07735923",
+          "title": "NEUROphysiology of CRACK Use Disorder in ITaly",
+          "url": "https://clinicaltrials.gov/study/NCT07735923",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "crack cocaine use",
+        "neurofeedback",
+        "inibitory control",
+        "craving",
+        "quantitative eeg (qeeg)",
+        "crack cocaine use disorder"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:iss:44379a70",
+      "kind": "company",
+      "name": "ISS Istituto per la Sicurezza Sociale, San Marino",
+      "aliases": [],
+      "company": "ISS Istituto per la Sicurezza Sociale, San Marino",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur University Hospital of Ferrara) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07716553",
+          "title": "Study of Transanal Irrigation vs Standard Care for Constipation, Gut Microbiota, and Motor Disorders in Parkinson's Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07716553",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "parkinson disease",
+        "constipation",
+        "parkinson",
+        "transanal irrigation",
+        "gut micriobiome",
+        "tai"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:istituto:1a536183",
+      "kind": "company",
+      "name": "Istituto Medicina Fisica E Riabilitazione Gervasutta, Udine",
+      "aliases": [],
+      "company": "Istituto Medicina Fisica E Riabilitazione Gervasutta, Udine",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur University Hospital of Ferrara) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07716553",
+          "title": "Study of Transanal Irrigation vs Standard Care for Constipation, Gut Microbiota, and Motor Disorders in Parkinson's Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07716553",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "parkinson disease",
+        "constipation",
+        "parkinson",
+        "transanal irrigation",
+        "gut micriobiome",
+        "tai"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:agah b ozturk:b3e1c29b",
+      "kind": "person",
+      "name": "Agah B ÖZTÜRK, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-28 sans structure commerciale identifiée (promoteur Kayseri City Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07731373",
+          "title": "Biomarker Panel for PCOS-Associated Liver Steatosis in Adolescent Girls (COMPASS-pedPCOS)",
+          "url": "https://clinicaltrials.gov/study/NCT07731373",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "polycystic ovary syndrome (pcos)",
+        "metabolic dysfunction-associated steatotic liver disease",
+        "pediatric obesity",
+        "hyperandrogenism",
+        "insulin resistance syndrome",
+        "hsd17b13",
+        "pnpla3",
+        "11-oxygenated androgens",
+        "gdf-15",
+        "scd163",
+        "ck-18",
+        "visfatin",
+        "adiponectin",
+        "fgf-21",
+        "fetuin-a",
+        "pcos",
+        "adipokine",
+        "hepatokine",
+        "transient elastography",
+        "controlled attenuation parameter"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:ahmed abdelmohsen younis:54e6c948",
+      "kind": "person",
+      "name": "Ahmed Abdelmohsen Younis, Associate Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-30 sans structure commerciale identifiée (promoteur Suez Canal University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07736430",
+          "title": "Evaluation of Pin Buckle Bone Plates for Management of Anterior Mandibular Fractures",
+          "url": "https://clinicaltrials.gov/study/NCT07736430",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mandibular fractures",
+        "symphysis fractures",
+        "parasymphysis fractures",
+        "anterior mandibular fracture",
+        "parasymphysis fracture",
+        "symphysis fracture",
+        "pin buckle bone plate",
+        "conventional miniplate",
+        "internal fixation",
+        "maxillofacial trauma",
+        "bone plate",
+        "computed tomography",
+        "randomized clinical trial",
+        "open reduction and internal fixation"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:luay alshara:510d0340",
+      "kind": "person",
+      "name": "Luay Alshara, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-05-12 sans structure commerciale identifiée (promoteur Weill Medical College of Cornell University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07580963",
+          "title": "Stent Related Symptoms Defined by Ureteral Stent Symptom Questionnaire in Patients With Image-Informed Ureteral Stent Lengths",
+          "url": "https://clinicaltrials.gov/study/NCT07580963",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "ureteral stent-related symptom"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:mohamed abdelnaby:b0a2f03b",
+      "kind": "person",
+      "name": "Mohamed Abdelnaby, B.S.D",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-30 sans structure commerciale identifiée (promoteur Suez Canal University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07736430",
+          "title": "Evaluation of Pin Buckle Bone Plates for Management of Anterior Mandibular Fractures",
+          "url": "https://clinicaltrials.gov/study/NCT07736430",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mandibular fractures",
+        "symphysis fractures",
+        "parasymphysis fractures",
+        "anterior mandibular fracture",
+        "parasymphysis fracture",
+        "symphysis fracture",
+        "pin buckle bone plate",
+        "conventional miniplate",
+        "internal fixation",
+        "maxillofacial trauma",
+        "bone plate",
+        "computed tomography",
+        "randomized clinical trial",
+        "open reduction and internal fixation"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:mohamed said hamed:9365c266",
+      "kind": "person",
+      "name": "Mohamed Said Hamed, Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-30 sans structure commerciale identifiée (promoteur Suez Canal University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07736430",
+          "title": "Evaluation of Pin Buckle Bone Plates for Management of Anterior Mandibular Fractures",
+          "url": "https://clinicaltrials.gov/study/NCT07736430",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mandibular fractures",
+        "symphysis fractures",
+        "parasymphysis fractures",
+        "anterior mandibular fracture",
+        "parasymphysis fracture",
+        "symphysis fracture",
+        "pin buckle bone plate",
+        "conventional miniplate",
+        "internal fixation",
+        "maxillofacial trauma",
+        "bone plate",
+        "computed tomography",
+        "randomized clinical trial",
+        "open reduction and internal fixation"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:nero:a895d382",
+      "kind": "person",
+      "name": "Camilla Nero",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-30 sans structure commerciale identifiée (promoteur Fondazione Policlinico Universitario Agostino Gemelli IRCCS) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07736300",
+          "title": "Epigenomic and Transcriptomic Analysis in BRCA Mutated Carriers With and Without Serous Tubal Intraepithelial Carcinoma",
+          "url": "https://clinicaltrials.gov/study/NCT07736300",
+          "date": "2026-07-30",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "epigenomics",
+        "transcriptomics",
+        "brca mutations"
+      ],
+      "firstEvidence": "2026-07-30",
+      "latestEvidence": "2026-07-30",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:endometrics:f1f499e0",
+      "kind": "company",
+      "name": "Endometrics",
+      "aliases": [],
+      "company": "Endometrics",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-29 sans structure commerciale identifiée (promoteur Samantha Batman) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07733557",
+          "title": "HPV Detection Using Self-Collected Menstrual Blood",
+          "url": "https://clinicaltrials.gov/study/NCT07733557",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "human papillomavirus (hpv) infection"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:juliane:3c6314ed",
+      "kind": "company",
+      "name": "Juliane Lisboa Pereira",
+      "aliases": [],
+      "company": "Juliane Lisboa Pereira",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-29 sans structure commerciale identifiée (promoteur Juliane Lisboa Pereira) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07732673",
+          "title": "The Use of Transcranial Direct Current Stimulation in the Rehabilitation of Post-Stroke Dysphagia During the Subacute Phase in Hospitalized Patients: A Randomized Clinical Trial",
+          "url": "https://clinicaltrials.gov/study/NCT07732673",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "stroke",
+        "dysphagia",
+        "tdcs"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:samantha:743a46e5",
+      "kind": "company",
+      "name": "Samantha Batman",
+      "aliases": [],
+      "company": "Samantha Batman",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-29 sans structure commerciale identifiée (promoteur Samantha Batman) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07733557",
+          "title": "HPV Detection Using Self-Collected Menstrual Blood",
+          "url": "https://clinicaltrials.gov/study/NCT07733557",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "human papillomavirus (hpv) infection"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:universidade:276ef6c8",
+      "kind": "company",
+      "name": "Universidade do Estado do Para",
+      "aliases": [],
+      "company": "Universidade do Estado do Para",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-29 sans structure commerciale identifiée (promoteur Juliane Lisboa Pereira) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07732673",
+          "title": "The Use of Transcranial Direct Current Stimulation in the Rehabilitation of Post-Stroke Dysphagia During the Subacute Phase in Hospitalized Patients: A Randomized Clinical Trial",
+          "url": "https://clinicaltrials.gov/study/NCT07732673",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "stroke",
+        "dysphagia",
+        "tdcs"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:hae ra han:a7a51037",
+      "kind": "person",
+      "name": "Hae-Ra Han, PhD, RN",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur Johns Hopkins University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07699146",
+          "title": "HEARS Maryland: Extending Capacity for Affordable, Accessible Hearing Care Through Older Adult Peer Mentorship",
+          "url": "https://clinicaltrials.gov/study/NCT07699146",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "hearing loss",
+        "hearing impairment",
+        "age related hearing loss",
+        "age-related hearing impairment"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:dawes:08bcfd3d",
+      "kind": "person",
+      "name": "Helen Dawes",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "GB",
+      "countries": [
+        "GB"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-28 sans structure commerciale identifiée (promoteur University of Exeter) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07731971",
+          "title": "Digital Outcome Assessment Using AI Active Gaming and Motion Capture in Friedreich Ataxia",
+          "url": "https://clinicaltrials.gov/study/NCT07731971",
+          "date": "2026-07-28",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "friedreich ataxia",
+        "digital clinical outcome assessment",
+        "markerless motion capture",
+        "artificial intelligence",
+        "active video gaming",
+        "virtual reality",
+        "motor performance",
+        "test-retest reliability",
+        "balance and coordination",
+        "rare disease"
+      ],
+      "firstEvidence": "2026-07-28",
+      "latestEvidence": "2026-07-28",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:lasse bremholm hansen:1e3a3264",
+      "kind": "person",
+      "name": "Lasse Bremholm Hansen, PhD,ass.prof",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "DK",
+      "countries": [
+        "DK"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-27 sans structure commerciale identifiée (promoteur Zealand University Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07727226",
+          "title": "Endoscopists' Perspectives on the Use of Single-Use Gastroscopes in Elective and Subacute Patients in the Endoscopy Unit",
+          "url": "https://clinicaltrials.gov/study/NCT07727226",
+          "date": "2026-07-28",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "upper gastrointestinal disorder",
+        "gastroscopy",
+        "upper endoscopy",
+        "gastroscope",
+        "single-use",
+        "reusable"
+      ],
+      "firstEvidence": "2026-07-28",
+      "latestEvidence": "2026-07-28",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:nemeth:9af77589",
+      "kind": "person",
+      "name": "Andrea Nemeth",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "GB",
+      "countries": [
+        "GB"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-28 sans structure commerciale identifiée (promoteur University of Exeter) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07731971",
+          "title": "Digital Outcome Assessment Using AI Active Gaming and Motion Capture in Friedreich Ataxia",
+          "url": "https://clinicaltrials.gov/study/NCT07731971",
+          "date": "2026-07-28",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "friedreich ataxia",
+        "digital clinical outcome assessment",
+        "markerless motion capture",
+        "artificial intelligence",
+        "active video gaming",
+        "virtual reality",
+        "motor performance",
+        "test-retest reliability",
+        "balance and coordination",
+        "rare disease"
+      ],
+      "firstEvidence": "2026-07-28",
+      "latestEvidence": "2026-07-28",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:polito:358e8335",
+      "kind": "person",
+      "name": "Cristina Polito",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-28 sans structure commerciale identifiée (promoteur Fondazione Don Carlo Gnocchi ETS) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07731334",
+          "title": "Prevalence of Mild Cognitive Impairment and Dementia in Patients Admitted to Non-neurological Rehabilitation Wards",
+          "url": "https://clinicaltrials.gov/study/NCT07731334",
+          "date": "2026-07-28",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mci",
+        "mild cognitive impairment (mci)",
+        "mild cognitive impairment",
+        "cognitive deficit",
+        "cognitive decline",
+        "cognitive screening",
+        "multimodal assessment",
+        "cognitive trajectories",
+        "dementia",
+        "non-neurological rehabilitation",
+        "plasma biomarkers",
+        "neurodegeneration",
+        "neurophysiological measures",
+        "longitudinal study",
+        "apoe genotype",
+        "moca"
+      ],
+      "firstEvidence": "2026-07-28",
+      "latestEvidence": "2026-07-28",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:william chi wai wong:c492b847",
+      "kind": "person",
+      "name": "William Chi Wai Wong, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CN",
+      "countries": [
+        "CN"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-22 sans structure commerciale identifiée (promoteur The University of Hong Kong) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07718867",
+          "title": "Point-of-care Capillary HbA1c Testing for Type 2 Diabetes Screening Among At-risk Individuals in Rural Dali, China",
+          "url": "https://clinicaltrials.gov/study/NCT07718867",
+          "date": "2026-07-28",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "type 2 diabetes",
+        "pre-diabetes",
+        "poct",
+        "hba1c",
+        "diabetes screening",
+        "effectiveness",
+        "cost-effectiveness",
+        "rural china",
+        "cluster randomised controlled trial"
+      ],
+      "firstEvidence": "2026-07-28",
+      "latestEvidence": "2026-07-28",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:james gammie:d45c1fc4",
+      "kind": "person",
+      "name": "James Gammie, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-24 sans structure commerciale identifiée (promoteur Johns Hopkins University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07726173",
+          "title": "Transventricular Off-pump Mitral Valve Repair",
+          "url": "https://clinicaltrials.gov/study/NCT07726173",
+          "date": "2026-07-24",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mitral valve (mv) regurgitation"
+      ],
+      "firstEvidence": "2026-07-24",
+      "latestEvidence": "2026-07-24",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:jennnifer velloza:e584ee57",
+      "kind": "person",
+      "name": "Jennnifer Velloza, PhD, MPH",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-24 sans structure commerciale identifiée (promoteur University of Washington) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07725679",
+          "title": "A Hybrid Effectiveness-Implementation Trial of Urine Point-of-Care Assay to Increase PrEP Adherence Among Women in Kenya",
+          "url": "https://clinicaltrials.gov/study/NCT07725679",
+          "date": "2026-07-24",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "prep adherence monitoring"
+      ],
+      "firstEvidence": "2026-07-24",
+      "latestEvidence": "2026-07-24",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:sheng tzung tsai:4a518754",
+      "kind": "person",
+      "name": "Sheng-Tzung Tsai, M.D., Ph.D.",
+      "aliases": [
+        "Sheng-Tzung Tsai, M.D., Ph.D"
+      ],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Buddhist Tzu Chi General Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07722429",
+          "title": "Exploration of the Effectiveness and Mechanism of Personalized Epidural Electrical Stimulation in Improving Upper Limb Function in Participants With Spinal Cord Injury",
+          "url": "https://clinicaltrials.gov/study/NCT07722429",
+          "date": "2026-07-24",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05433064",
+          "title": "Spinal Cord Stimulation for Spinal Cord Injury Patients - Regain Walk and Alleviate Pain",
+          "url": "https://clinicaltrials.gov/study/NCT05433064",
+          "date": "2026-07-22",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "spinal cord injury(sci)",
+        "spinal cord injury"
+      ],
+      "firstEvidence": "2026-07-22",
+      "latestEvidence": "2026-07-24",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:antonio:03f52922",
+      "kind": "company",
+      "name": "Antonio Galante",
+      "aliases": [],
+      "company": "Antonio Galante",
+      "companies": [],
+      "country": "CH",
+      "countries": [
+        "CH"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Antonio Galante) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07721454",
+          "title": "AI-ACLD Study: Artificial Intelligence in Advanced Chronic Liver Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07721454",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "advance chronic liver disease (acld)"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:children:5dcda7fa",
+      "kind": "company",
+      "name": "Children's National Research Institute",
+      "aliases": [],
+      "company": "Children's National Research Institute",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-24 sans structure commerciale identifiée (promoteur Children's National Research Institute) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07664176",
+          "title": "NgFUS NIVO: NeuroNavigation-Guided Focused Ultrasound With Nivolumab in Relapsed and Progressive DMG and Other High Grade Brain Tumors",
+          "url": "https://clinicaltrials.gov/study/NCT07664176",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "diffuse midline glioma or diffuse intrinsic pontine glioma",
+        "high grade gliomas",
+        "medulloblastoma recurrent",
+        "ependymoma recurrent",
+        "atypical teratoid/rhabdoid tumor (atrt) of the cns",
+        "brain tumor recurrent",
+        "focused ultrasound",
+        "pediatrics",
+        "diffuse midline glioma",
+        "dmg",
+        "diffuse intrinsic pontine glioma",
+        "dipg",
+        "high grade glioma",
+        "hgg",
+        "nivolumab"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:national:423b40de",
+      "kind": "company",
+      "name": "National Science Centre, Poland",
+      "aliases": [],
+      "company": "National Science Centre, Poland",
+      "companies": [],
+      "country": "PL",
+      "countries": [
+        "PL"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Medical University of Bialystok) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07723144",
+          "title": "Identification of Biomarkers of Obstructive Sleep Apnea.",
+          "url": "https://clinicaltrials.gov/study/NCT07723144",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "obstructive sleep apnea",
+        "obstructive sleep apnea (osa)",
+        "obstructive sleep apnea (osas)",
+        "obstructive sleep apnea (saos)",
+        "obstructive sleep apnea (moderate to severe)",
+        "osa",
+        "positive airway pressure therapy",
+        "cpap",
+        "blood biomarkers",
+        "polysomnography",
+        "inflammation",
+        "oxidative stress",
+        "metabolomics",
+        "precision medicine"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:bushra naseem:b3f06229",
+      "kind": "person",
+      "name": "Bushra naseem, DPT, MSAPT (In progress)",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Dow University of Health Sciences) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07723586",
+          "title": "TENS Versus Ultrasound With Exercise for Mechanical Neck Pain.",
+          "url": "https://clinicaltrials.gov/study/NCT07723586",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mechanical neck pain",
+        "tens",
+        "therapeutic ultrasound",
+        "algometer"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:hasini weerathunge:6816db42",
+      "kind": "person",
+      "name": "Hasini Weerathunge, Ph.D.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-25 sans structure commerciale identifiée (promoteur University of Michigan) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07668882",
+          "title": "Noninvasive Thalamocortical Neuromodulation With Low-Intensity Focused Ultrasound for Persistent Developmental Stuttering",
+          "url": "https://clinicaltrials.gov/study/NCT07668882",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "stuttering",
+        "developmental stuttering",
+        "low intensity focused ultrasound",
+        "thalamus",
+        "neuromodulation"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:juan f agudelo:8663e4b8",
+      "kind": "person",
+      "name": "Juan F Agudelo, Electrophysiologist",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-24 sans structure commerciale identifiée (promoteur Clinica Cardio VID) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07664189",
+          "title": "LBBP + CSP Versus LBBP Alone for Cardiac Resynchronization Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT07664189",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "heart failure low output",
+        "left bundle branch optimized crt,",
+        "left bundle branch area pacing",
+        "left ventricular ejection fraction",
+        "quality of life",
+        "heart failure"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:soo eun chang:7c3ba18d",
+      "kind": "person",
+      "name": "Soo-Eun Chang, Ph.D.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-25 sans structure commerciale identifiée (promoteur University of Michigan) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07668882",
+          "title": "Noninvasive Thalamocortical Neuromodulation With Low-Intensity Focused Ultrasound for Persistent Developmental Stuttering",
+          "url": "https://clinicaltrials.gov/study/NCT07668882",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "stuttering",
+        "developmental stuttering",
+        "low intensity focused ultrasound",
+        "thalamus",
+        "neuromodulation"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:susana rios:19e5d038",
+      "kind": "person",
+      "name": "Susana Rios, Medical Epidemiologist",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-24 sans structure commerciale identifiée (promoteur Clinica Cardio VID) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07664189",
+          "title": "LBBP + CSP Versus LBBP Alone for Cardiac Resynchronization Therapy",
+          "url": "https://clinicaltrials.gov/study/NCT07664189",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "heart failure low output",
+        "left bundle branch optimized crt,",
+        "left bundle branch area pacing",
+        "left ventricular ejection fraction",
+        "quality of life",
+        "heart failure"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:zofia gross:8379c4cc",
+      "kind": "person",
+      "name": "Zofia GROSS, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "FR",
+      "countries": [
+        "FR"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Hospices Civils de Lyon) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07721350",
+          "title": "Prospective Evaluation of Subcutaneous Administration of Daratumumab by the FreedomEDGE® Infusion System",
+          "url": "https://clinicaltrials.gov/study/NCT07721350",
+          "date": "2026-07-23",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "multiple myeloma or amyloidosis",
+        "multiple myeloma",
+        "amyloidosis",
+        "daratumumab",
+        "subcutaneous administration",
+        "drug delivery device",
+        "mechanical infusion system",
+        "freedomedge®",
+        "infusion pump",
+        "clinical research",
+        "medical device evaluation",
+        "patient experience",
+        "patient satisfaction",
+        "nursing practice",
+        "healthcare professionals",
+        "treatment administration",
+        "injection comfort",
+        "device performance",
+        "adverse events",
+        "feasibility study"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-23",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:gulraiz zulfiqar:c19190fa",
+      "kind": "person",
+      "name": "Gulraiz Zulfiqar, BDS, FCPS OMFS, CHPE",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-22 sans structure commerciale identifiée (promoteur Allama Iqbal Medical College) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07719270",
+          "title": "Management of Postoperative Complications After Mandibular Third Molar Extraction Using Submucosal Triamcinolone Injection, Kinesiology Taping, and Standard Care",
+          "url": "https://clinicaltrials.gov/study/NCT07719270",
+          "date": "2026-07-22",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "trismus",
+        "edema",
+        "pain",
+        "triamcinolone acetonide",
+        "kinesiology taping",
+        "third molar extraction",
+        "maxillofacial surgery"
+      ],
+      "firstEvidence": "2026-07-22",
+      "latestEvidence": "2026-07-22",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:berkeley:1d9f967a",
+      "kind": "company",
+      "name": "Berkeley Eye Center",
+      "aliases": [],
+      "company": "Berkeley Eye Center",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-09 sans structure commerciale identifiée (promoteur Berkeley Eye Center) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07693205",
+          "title": "A Prospective, Randomized, Subject- and Examiner-Masked, Multicenter Study Comparing Bilateral Clareon TruPlus and Bilateral Clareon Monofocal Intraocular Lens Implantation (Spherical and Toric) in Cataract Subjects",
+          "url": "https://clinicaltrials.gov/study/NCT07693205",
+          "date": "2026-07-21",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "cataract"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-07-21",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:ayman abdallah:fd9e7f12",
+      "kind": "person",
+      "name": "Ayman abdallah., phd",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-12 sans structure commerciale identifiée (promoteur Beni-Suef University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07645482",
+          "title": "Frequency Rhythmic Electrical Modulated Stimulation Effect in Peripheral Neuropathy Patients Severity of Cases and Qol.",
+          "url": "https://clinicaltrials.gov/study/NCT07645482",
+          "date": "2026-07-21",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "peripheral neuropathy with type 2 diabetes"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-07-21",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:giovanni tringali:78bfd65d",
+      "kind": "person",
+      "name": "Giovanni Tringali, M.D.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "IT",
+      "countries": [
+        "IT"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur ARNAS Civico Di Cristina Benfratelli Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07717827",
+          "title": "Connectome-guided Onco-functional Resection With Tractography-Extended Neuronavigation in Brain Tumor Surgery",
+          "url": "https://clinicaltrials.gov/study/NCT07717827",
+          "date": "2026-07-21",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "brain (nervous system) cancers",
+        "glioma",
+        "brain metastasases",
+        "brain connectivity",
+        "diffusion mri",
+        "tractography",
+        "neuronavigation",
+        "connectome",
+        "eloquent cortex",
+        "brain tumor surgery",
+        "white matter",
+        "brain metastasis",
+        "extent of resection",
+        "onco-functional balance",
+        "network neuroscience",
+        "neural networks",
+        "cortex"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-07-21",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:robert sinto:39bc5811",
+      "kind": "person",
+      "name": "Robert Sinto, MD, DPhil",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur Oxford University Clinical Research Unit Indonesia) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07717372",
+          "title": "The C-reactive Protein (CRP) Point of Care Testing (POCT) Implementation to Adult Patients Presenting With Symptoms of the Acute Respiratory Tract Infection (ARTI) in Eight Primary Health Care (PHC) in Jakarta.",
+          "url": "https://clinicaltrials.gov/study/NCT07717372",
+          "date": "2026-07-21",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "adults",
+        "acute respiratory tract infection",
+        "antibiotic prescriptions",
+        "antibiotics",
+        "accute respiratory track infections",
+        "primary health care",
+        "antibiotic prescribing",
+        "c-reactive protein point of care testing"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-07-21",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:cui:37178538",
+      "kind": "company",
+      "name": "Cui Hong Zheng",
+      "aliases": [],
+      "company": "Cui Hong Zheng",
+      "companies": [],
+      "country": "CN",
+      "countries": [
+        "CN"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-25 sans structure commerciale identifiée (promoteur Cui Hong Zheng) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07669623",
+          "title": "Effects of Different Acupuncture Techniques on the Success Rate in Patients With Recurrent Implantation Failure",
+          "url": "https://clinicaltrials.gov/study/NCT07669623",
+          "date": "2026-07-20",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "implantation failure"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-07-20",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:instituto:fb7a693b",
+      "kind": "company",
+      "name": "Instituto Nacional de Rehabilitacion",
+      "aliases": [],
+      "company": "Instituto Nacional de Rehabilitacion",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-20 sans structure commerciale identifiée (promoteur Instituto Nacional de Rehabilitacion) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07713693",
+          "title": "Dysphagia and Dysphonia in Anterior Cervical Spinal Surgery",
+          "url": "https://clinicaltrials.gov/study/NCT07713693",
+          "date": "2026-07-20",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "dysphagia after anterior cervical decompression and fusion of the spine",
+        "dysphonia",
+        "anterior cervical spinal surgery",
+        "dysphagia"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-07-20",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:arjumand bano:43c74936",
+      "kind": "person",
+      "name": "Arjumand Bano, MS",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-20 sans structure commerciale identifiée (promoteur Riphah International University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07713043",
+          "title": "Effects of Autogenic Drainage and Flutter Device in COPD",
+          "url": "https://clinicaltrials.gov/study/NCT07713043",
+          "date": "2026-07-20",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "copd (chronic obstructive pulmonary disease)",
+        "autogenic drainage",
+        "copd",
+        "dyspnea",
+        "flutter device",
+        "functional capacity",
+        "pulmonary function test"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-07-20",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:elisa de la cruz:75078bb8",
+      "kind": "person",
+      "name": "Elisa DE LA CRUZ, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-15 sans structure commerciale identifiée (promoteur University Hospital, Montpellier) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07706270",
+          "title": "Serum Neurofilaments in the Diagnosis of Amyotrophic Lateral Sclerosis",
+          "url": "https://clinicaltrials.gov/study/NCT07706270",
+          "date": "2026-07-20",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "amyotrophic lateral sclerosis (als)",
+        "neurodegenerative disorders",
+        "motor neuron diseases",
+        "amyotrophic lateral sclerosis",
+        "neurofilament proteins",
+        "glial fibrillary acid protein",
+        "early diagnosis"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-07-20",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:fernando martinez sagasti:8b997416",
+      "kind": "person",
+      "name": "Fernando Martínez-Sagasti, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "ES",
+      "countries": [
+        "ES"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-20 sans structure commerciale identifiée (promoteur Miguel Sanchez Garcia) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07715110",
+          "title": "Biological Effects of Hemoadsorption in Septic Shock",
+          "url": "https://clinicaltrials.gov/study/NCT07715110",
+          "date": "2026-07-20",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "septic shock, vasopressor resistance",
+        "multiple organ dysfunction",
+        "sepsis",
+        "hemoperfusion",
+        "hemoadsorption",
+        "randomized",
+        "septic shock",
+        "refractory septic shock"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-07-20",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:austin:d584eadb",
+      "kind": "company",
+      "name": "Austin Health",
+      "aliases": [],
+      "company": "Austin Health",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Olivia Newton-John Cancer Research Institute) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07712770",
+          "title": "Pilot Radioembolisation Clinical Trial Assessing Safety and Efficacy in Recurrent Glioma",
+          "url": "https://clinicaltrials.gov/study/NCT07712770",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "recurrent glioblastoma idh wildtype",
+        "recurrent glioblastoma",
+        "glioblastoma",
+        "sir-spheres",
+        "selective internal radiation therapy",
+        "sirt",
+        "transarterial radioembolisation",
+        "tare",
+        "radioembolisation"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:olivia:5c340991",
+      "kind": "company",
+      "name": "Olivia Newton-John Cancer Research Institute",
+      "aliases": [],
+      "company": "Olivia Newton-John Cancer Research Institute",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Olivia Newton-John Cancer Research Institute) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07712770",
+          "title": "Pilot Radioembolisation Clinical Trial Assessing Safety and Efficacy in Recurrent Glioma",
+          "url": "https://clinicaltrials.gov/study/NCT07712770",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "recurrent glioblastoma idh wildtype",
+        "recurrent glioblastoma",
+        "glioblastoma",
+        "sir-spheres",
+        "selective internal radiation therapy",
+        "sirt",
+        "transarterial radioembolisation",
+        "tare",
+        "radioembolisation"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:anthony mikula:9adf7ed7",
+      "kind": "person",
+      "name": "Anthony Mikula, M.D.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Mayo Clinic) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07712666",
+          "title": "SALVAGE Trial (Safety And cLinical Value of AutoloGous rEinfusion)",
+          "url": "https://clinicaltrials.gov/study/NCT07712666",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "adult spinal deformity surgery"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:antoine av verger:46d5c9cd",
+      "kind": "person",
+      "name": "Antoine AV VERGER, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-30 sans structure commerciale identifiée (promoteur Central Hospital, Nancy, France) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07676448",
+          "title": "Performance of Amino Acid Positons Emission Tomography in Brain Metastases",
+          "url": "https://clinicaltrials.gov/study/NCT07676448",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "pet-ct"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:doran:8d05cb50",
+      "kind": "person",
+      "name": "Muhsin Doran",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Liv Hospital Vadistanbul) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07711392",
+          "title": "Transcutaneous Auricular Vagus Nerve Stimulation Added to Rehabilitation for Complex Regional Pain Syndrome Type I",
+          "url": "https://clinicaltrials.gov/study/NCT07711392",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07711353",
+          "title": "Transcutaneous Auricular Vagus Nerve Stimulation Added to Physiotherapy for Adhesive Capsulitis",
+          "url": "https://clinicaltrials.gov/study/NCT07711353",
+          "date": "2026-07-17",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "complex regional pain syndrome type i",
+        "adhesive capsulitis of the shoulder"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:hany mohamed hamed:c27ef329",
+      "kind": "person",
+      "name": "Hany Mohamed Hamed, Associate Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-09 sans structure commerciale identifiée (promoteur Cairo University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07636967",
+          "title": "Isokinetic Profile of Ankle Joint Muscles in Chronic Non Specific Low Back Pain Patients",
+          "url": "https://clinicaltrials.gov/study/NCT07636967",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "chronic non-specific low back pain",
+        "isokinetics",
+        "muscle performance",
+        "power parameter",
+        "torque parameter",
+        "time parameter"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:maha mostafa alibeiny:91ef78aa",
+      "kind": "person",
+      "name": "Maha Mostafa Alibeiny, Associate Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-09 sans structure commerciale identifiée (promoteur Cairo University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07636967",
+          "title": "Isokinetic Profile of Ankle Joint Muscles in Chronic Non Specific Low Back Pain Patients",
+          "url": "https://clinicaltrials.gov/study/NCT07636967",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "chronic non-specific low back pain",
+        "isokinetics",
+        "muscle performance",
+        "power parameter",
+        "torque parameter",
+        "time parameter"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:matthieu bailly:1e4006ad",
+      "kind": "person",
+      "name": "Matthieu BAILLY, Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "FR",
+      "countries": [
+        "FR"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Régional d'Orléans) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708805",
+          "title": "Quantitative Myocardial Perfusion Imaging Assessment by SPECT/CT",
+          "url": "https://clinicaltrials.gov/study/NCT07708805",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "coronary artery disease",
+        "chronic coronary syndrome",
+        "myocardial perfusion spect",
+        "myocardial flow reserve",
+        "standardized uptake value"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:peter hegyi:9eb486eb",
+      "kind": "person",
+      "name": "Péter Hegyi, Prof. Dr.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Semmelweis University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07711197",
+          "title": "Effects of Hemoadsorption on Vascular Integrity in Septic Shock",
+          "url": "https://clinicaltrials.gov/study/NCT07711197",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "septic shock",
+        "sepsis",
+        "hemoadsorption",
+        "cytosorb",
+        "endothelial dysfunction",
+        "syndecan-1",
+        "vasoplegia"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:yuan:8a5358dd",
+      "kind": "person",
+      "name": "Jin Yuan",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CN",
+      "countries": [
+        "CN"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Beijing Tongren Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07709832",
+          "title": "A Randomized Controlled Trial of Autostereoscopic 3D Vision Therapy for Amblyopia",
+          "url": "https://clinicaltrials.gov/study/NCT07709832",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "amblyopia",
+        "visual training",
+        "visual functions",
+        "visual health"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:zsolt molnar:70a58cea",
+      "kind": "person",
+      "name": "Zsolt Molnár, Prof. Dr.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-17 sans structure commerciale identifiée (promoteur Semmelweis University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07711197",
+          "title": "Effects of Hemoadsorption on Vascular Integrity in Septic Shock",
+          "url": "https://clinicaltrials.gov/study/NCT07711197",
+          "date": "2026-07-17",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "septic shock",
+        "sepsis",
+        "hemoadsorption",
+        "cytosorb",
+        "endothelial dysfunction",
+        "syndecan-1",
+        "vasoplegia"
+      ],
+      "firstEvidence": "2026-07-17",
+      "latestEvidence": "2026-07-17",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:daniel:94acda57",
+      "kind": "company",
+      "name": "Daniel Bauer",
+      "aliases": [],
+      "company": "Daniel Bauer",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Daniel Bauer) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708350",
+          "title": "Hematopoietic Stem Cell BCL11A Enhancer Gene Editing for Sickle Cell Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07708350",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "sickle cell disease",
+        "sickle cell anemia (hbss, or hbsβ-thalassemia0)",
+        "gene therapy",
+        "stem cell transplant",
+        "bone marrow transplant",
+        "autologous hematopoietic stem cell transplant",
+        "gene editing",
+        "hematopoietic stem cell transplant"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:fiammengo:48df714f",
+      "kind": "person",
+      "name": "Fabio Fiammengo",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire Vaudois) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708688",
+          "title": "Clinical Phenotype and Prevalence of VEXAS Syndrome in Internal Medicine",
+          "url": "https://clinicaltrials.gov/study/NCT07708688",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vexas syndrome",
+        "uba1 mutation",
+        "systemic inflammation",
+        "prevalence",
+        "incidence"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:giacomo emmi:2ba51838",
+      "kind": "person",
+      "name": "Giacomo Emmi, MD, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire Vaudois) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708688",
+          "title": "Clinical Phenotype and Prevalence of VEXAS Syndrome in Internal Medicine",
+          "url": "https://clinicaltrials.gov/study/NCT07708688",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vexas syndrome",
+        "uba1 mutation",
+        "systemic inflammation",
+        "prevalence",
+        "incidence"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:luminita lazar:7a861092",
+      "kind": "person",
+      "name": "LUMINITA LAZAR, PhD, Professor",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-11 sans structure commerciale identifiée (promoteur George Emil Palade University of Medicine, Pharmacy, Sciences and Technology of Targu Mures) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07642037",
+          "title": "Marginal Biofilm Distribution and Periodontal Response to Supragingival and Juxtagingival Aligner Designs",
+          "url": "https://clinicaltrials.gov/study/NCT07642037",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "periodontal diseases",
+        "dental plaque",
+        "gingivitis",
+        "clear aligner",
+        "trimming line",
+        "aligner trimming-line design",
+        "gingival margin",
+        "supragingival",
+        "juxtagingival",
+        "festooned margin",
+        "bleeding on probing",
+        "biofilm distribution",
+        "soft-tissue plaque",
+        "marginal gingiva",
+        "split-mouth",
+        "periodontal response",
+        "turesky-quigley-hein plaque index",
+        "photographic assessment",
+        "marginal demarcation pattern"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:tommasini:ada8c191",
+      "kind": "person",
+      "name": "Alberto Tommasini",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire Vaudois) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708688",
+          "title": "Clinical Phenotype and Prevalence of VEXAS Syndrome in Internal Medicine",
+          "url": "https://clinicaltrials.gov/study/NCT07708688",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vexas syndrome",
+        "uba1 mutation",
+        "systemic inflammation",
+        "prevalence",
+        "incidence"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:urban:36a65fa2",
+      "kind": "person",
+      "name": "Maria Letizia Urban",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire Vaudois) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708688",
+          "title": "Clinical Phenotype and Prevalence of VEXAS Syndrome in Internal Medicine",
+          "url": "https://clinicaltrials.gov/study/NCT07708688",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vexas syndrome",
+        "uba1 mutation",
+        "systemic inflammation",
+        "prevalence",
+        "incidence"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:zaja:070b0228",
+      "kind": "person",
+      "name": "Francesco Zaja",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-16 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire Vaudois) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07708688",
+          "title": "Clinical Phenotype and Prevalence of VEXAS Syndrome in Internal Medicine",
+          "url": "https://clinicaltrials.gov/study/NCT07708688",
+          "date": "2026-07-16",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vexas syndrome",
+        "uba1 mutation",
+        "systemic inflammation",
+        "prevalence",
+        "incidence"
+      ],
+      "firstEvidence": "2026-07-16",
+      "latestEvidence": "2026-07-16",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:sergey:e7f873c7",
+      "kind": "company",
+      "name": "Sergey Savko",
+      "aliases": [],
+      "company": "Sergey Savko",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-18 sans structure commerciale identifiée (promoteur Sergey Savko) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07657767",
+          "title": "Extracorporeal cfDNA Removal in Septic Shock Patients With Elevated DNA Levels",
+          "url": "https://clinicaltrials.gov/study/NCT07657767",
+          "date": "2026-07-15",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "sepsis",
+        "extracorporeal therapy",
+        "cfdna",
+        "non-selective hemoperfusion"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-07-15",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:chawla:1fbb4ff7",
+      "kind": "person",
+      "name": "Dr. Shiwani Chawla",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-14 sans structure commerciale identifiée (promoteur Postgraduate Institute of Dental Sciences Rohtak) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07702942",
+          "title": "Comparative Evaluation of NeoPUTTY and MTA Pulpotomy in Mature Permanent Molars With Irreversible Pulpitis",
+          "url": "https://clinicaltrials.gov/study/NCT07702942",
+          "date": "2026-07-15",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "irreversible pulpitis",
+        "pulpotomy",
+        "neoputty",
+        "mta",
+        "pediatric dentistry",
+        "vital pulp therapy",
+        "permanent molars"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-07-15",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:hilal tuzer:3d700b77",
+      "kind": "person",
+      "name": "Hilal Tüzer, Assoc. Prof.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-15 sans structure commerciale identifiée (promoteur Ankara Yildirim Beyazıt University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07704008",
+          "title": "The Effect of Virtual Reality Glasses Applied to Hemodialysis Patients on Vital Signs and Anxiety Level",
+          "url": "https://clinicaltrials.gov/study/NCT07704008",
+          "date": "2026-07-15",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "kidney failure",
+        "hemodialysis",
+        "virtual reality",
+        "virtual reality glasses",
+        "anxiety",
+        "vital signs",
+        "nursing",
+        "randomized controlled trial"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-07-15",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:korkmaz:6ca68c4e",
+      "kind": "person",
+      "name": "Nurdan Korkmaz",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-15 sans structure commerciale identifiée (promoteur Gaziler Physical Medicine and Rehabilitation Education and Research Hospital) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07705490",
+          "title": "High-Intensity Peripheral Magnetic Stimulation in Traumatic Peripheral Nerve Injury",
+          "url": "https://clinicaltrials.gov/study/NCT07705490",
+          "date": "2026-07-15",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "peripheral nerve injuries",
+        "traumatic peripheral nerve injury",
+        "neuropathic pain",
+        "peripheral nerve injuries, traumatic",
+        "peripheral magnetic stimulation",
+        "high-intensity magnetic stimulation",
+        "nerve injury",
+        "rehabilitation",
+        "electrophysiology",
+        "sham-controlled trial"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-07-15",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:sterling:7db164e5",
+      "kind": "company",
+      "name": "Sterling McPherson",
+      "aliases": [],
+      "company": "Sterling McPherson",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-14 sans structure commerciale identifiée (promoteur Sterling McPherson) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07701928",
+          "title": "Daridorexant for People With Insomnia and Alcohol Use Disorder Study",
+          "url": "https://clinicaltrials.gov/study/NCT07701928",
+          "date": "2026-07-14",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "alcohol use disorder",
+        "insomnia",
+        "aud",
+        "contingency management"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-07-14",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:rachel gicquelais:23c13894",
+      "kind": "person",
+      "name": "Rachel Gicquelais, PhD, MPH",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-16 sans structure commerciale identifiée (promoteur University of Wisconsin, Madison) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07649278",
+          "title": "The ENHANCE Project Toolkit",
+          "url": "https://clinicaltrials.gov/study/NCT07649278",
+          "date": "2026-07-14",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "substance related disorder",
+        "drug overdose",
+        "ehealth",
+        "substance use disorder",
+        "opioid use disorder"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-07-14",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:ryan westergaard:bd264735",
+      "kind": "person",
+      "name": "Ryan Westergaard, MD, PhD, MPH",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-16 sans structure commerciale identifiée (promoteur University of Wisconsin, Madison) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07649278",
+          "title": "The ENHANCE Project Toolkit",
+          "url": "https://clinicaltrials.gov/study/NCT07649278",
+          "date": "2026-07-14",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "substance related disorder",
+        "drug overdose",
+        "ehealth",
+        "substance use disorder",
+        "opioid use disorder"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-07-14",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:umar:dd81799c",
+      "kind": "person",
+      "name": "Azra Umar",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-14 sans structure commerciale identifiée (promoteur Saidu College of Dentistry) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07703410",
+          "title": "Pain During Infiltration Injection in Anterior Maxillary Region by Transcodent Painless Needle Tips Versus Regular Needle Tips",
+          "url": "https://clinicaltrials.gov/study/NCT07703410",
+          "date": "2026-07-14",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "pain",
+        "post endodontic pain",
+        "anxiety"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-07-14",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:daniel cobian:4046c074",
+      "kind": "person",
+      "name": "Daniel Cobian, DPT, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-30 sans structure commerciale identifiée (promoteur University of Wisconsin, Madison) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07674784",
+          "title": "Interventions to Enhance Quadriceps Output After ACLR",
+          "url": "https://clinicaltrials.gov/study/NCT07674784",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "acl",
+        "aclr",
+        "quadriceps",
+        "neuromuscular electrical stimulation",
+        "vibration"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:etienne ojardias:e50d6bf1",
+      "kind": "person",
+      "name": "Etienne OJARDIAS, Dr",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "FR",
+      "countries": [
+        "FR"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-06-05 sans structure commerciale identifiée (promoteur Centre Hospitalier Universitaire de Saint Etienne) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07629674",
+          "title": "Visual Stimulation Through Video Therapy to Enhance Lower Limb Motor Recovery After Stroke",
+          "url": "https://clinicaltrials.gov/study/NCT07629674",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "hemiparetic stroke",
+        "videotherapy",
+        "lower limb rehabilitation",
+        "hemiplegic/hemiparetic",
+        "single case experimental design"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:heba ahmed elgyar:8f9e23af",
+      "kind": "person",
+      "name": "heba ahmed elgyar, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur Cairo University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07699458",
+          "title": "Impact of Adding Integrated Neuromuscular Inhibition Technique to Cervical Stabilization Exercise in Chronic Mechanical Neck Pain",
+          "url": "https://clinicaltrials.gov/study/NCT07699458",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mechanical neck pain"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:husam i alahmadi:7f4dd353",
+      "kind": "person",
+      "name": "Husam I Alahmadi, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur King Abdulaziz University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07698873",
+          "title": "Wearable Resistance Vest for Strengthening Respiratory Muscles",
+          "url": "https://clinicaltrials.gov/study/NCT07698873",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "healthy adult male",
+        "wearable resistance vest",
+        "respiratory muscle training",
+        "maximal inspiratory pressure",
+        "maximal expiratory pressure",
+        "thoracic loading"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:hytham mohammed elhafez:18f1f0ea",
+      "kind": "person",
+      "name": "Hytham mohammed elhafez, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur Cairo University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07699458",
+          "title": "Impact of Adding Integrated Neuromuscular Inhibition Technique to Cervical Stabilization Exercise in Chronic Mechanical Neck Pain",
+          "url": "https://clinicaltrials.gov/study/NCT07699458",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mechanical neck pain"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:rania reda mohammed:d438e205",
+      "kind": "person",
+      "name": "rania reda mohammed, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur Cairo University) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07699458",
+          "title": "Impact of Adding Integrated Neuromuscular Inhibition Technique to Cervical Stabilization Exercise in Chronic Mechanical Neck Pain",
+          "url": "https://clinicaltrials.gov/study/NCT07699458",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "mechanical neck pain"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:thomas turgeon:479341d1",
+      "kind": "person",
+      "name": "Thomas Turgeon, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CA",
+      "countries": [
+        "CA"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-13 sans structure commerciale identifiée (promoteur Canadian Radiostereometric Analysis Network) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07698717",
+          "title": "Prospective Catalystem CT-RSA",
+          "url": "https://clinicaltrials.gov/study/NCT07698717",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "hip osteoarthritis",
+        "hip replacement",
+        "catalystem",
+        "ct-rsa"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:simona:b52a2c0b",
+      "kind": "company",
+      "name": "Simona Ascanelli",
+      "aliases": [],
+      "company": "Simona Ascanelli",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Simona Ascanelli) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07696689",
+          "title": "Evaluating the Optimal Timing of Trans-Anal Irrigation for Low Anterior Resection Syndrome Post-rectal Cancer Surgery",
+          "url": "https://clinicaltrials.gov/study/NCT07696689",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "low anterior resection syndrome (lars)",
+        "lars",
+        "trans-anal irrigation",
+        "rectal cancer",
+        "low anterior resection syndrome",
+        "constipation",
+        "bowel movements",
+        "fecal incontinence",
+        "tai",
+        "peristeen plus"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:jens eckstein:e6fac4e3",
+      "kind": "person",
+      "name": "Jens Eckstein, Prof. Dr.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CH",
+      "countries": [
+        "CH"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur University Hospital, Basel, Switzerland) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07694570",
+          "title": "Feasibility Study: Continuous ECG and Blood Pressure Monitoring With the M2VS Sensor System",
+          "url": "https://clinicaltrials.gov/study/NCT07694570",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "atrial fibrillation (paroxysmal)",
+        "hypertension",
+        "feasibilty study",
+        "m2vs system",
+        "ecg",
+        "electrocardiogram"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:robert chen:e90cd30d",
+      "kind": "person",
+      "name": "Robert Chen, MD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CA",
+      "countries": [
+        "CA"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Robert Chen) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07695233",
+          "title": "Pedunculopontine Nucleus Transcranial Ultrasound Stimulation as a Treatment of Freezing of Gait in Parkinson's Disease",
+          "url": "https://clinicaltrials.gov/study/NCT07695233",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "parkinson disease",
+        "freezing of gait symptoms in parkinson disease"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:shahida khawaja:11b8876d",
+      "kind": "person",
+      "name": "Shahida Khawaja, MBBS, FCPS",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-09 sans structure commerciale identifiée (promoteur University of Health Sciences Lahore) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07691554",
+          "title": "Comparison of Short-Axis and Long-Axis Internal Jugular Vein Cannulation for First-Pass Success",
+          "url": "https://clinicaltrials.gov/study/NCT07691554",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "cannulation of internal jugular vein",
+        "internal jugular vein",
+        "catheterization, central venous",
+        "ultrasonography",
+        "ultrasound-guided procedures",
+        "central venous catheters"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:xu:05d97c83",
+      "kind": "person",
+      "name": "Yu H Xu",
+      "aliases": [
+        "Xu YH"
+      ],
+      "company": "",
+      "companies": [],
+      "country": "CN",
+      "countries": [
+        "CN"
+      ],
+      "score": 40,
+      "priority": "low",
+      "rules": [],
+      "reasons": [
+        "Corroboré par 2 sources indépendantes (+5)."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06331923",
+          "title": "Assessing the Effectiveness of Continuous Glucose Monitoring in Enhancing Surgical Outcomes for Patients With Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT06331923",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "publication_preprint",
+          "strength": 2,
+          "recordKind": "publication",
+          "source": "europepmc",
+          "sourceId": "MED:42443654",
+          "title": "Short-term hot spring balneotherapy ameliorates sleep disorders: wrist-worn wearable-assessed sleep improvement associated with neuroimmune, tryptophan metabolic and gut microbiome alterations.",
+          "url": "https://doi.org/10.1007/s00484-026-03273-7",
+          "date": "2026-07-13",
+          "contribution": 15,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials",
+        "europepmc"
+      ],
+      "keywords": [
+        "comprehensive complication index",
+        "continuous glucose monitoring",
+        "perioperative",
+        "prognosis",
+        "biomarkers",
+        "balneotherapy",
+        "gut microbiota",
+        "sleep quality",
+        "wearable monitoring"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:yang:404e9261",
+      "kind": "person",
+      "name": "Jin C Yang",
+      "aliases": [
+        "Yang J"
+      ],
+      "company": "",
+      "companies": [],
+      "country": "CN",
+      "countries": [
+        "CN"
+      ],
+      "score": 40,
+      "priority": "low",
+      "rules": [],
+      "reasons": [
+        "Corroboré par 2 sources indépendantes (+5)."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06331923",
+          "title": "Assessing the Effectiveness of Continuous Glucose Monitoring in Enhancing Surgical Outcomes for Patients With Diabetes",
+          "url": "https://clinicaltrials.gov/study/NCT06331923",
+          "date": "2026-07-29",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "publication_preprint",
+          "strength": 2,
+          "recordKind": "publication",
+          "source": "europepmc",
+          "sourceId": "MED:42493197",
+          "title": "Development and validation of a nomogram predicting all-cause mortality for patients with an implantable cardioverter defibrillator.",
+          "url": "https://doi.org/10.1136/openhrt-2026-003966",
+          "date": "2026-07-23",
+          "contribution": 15,
+          "isNew": true
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials",
+        "europepmc"
+      ],
+      "keywords": [
+        "comprehensive complication index",
+        "continuous glucose monitoring",
+        "perioperative",
+        "prognosis",
+        "tachycardia, ventricular",
+        "defibrillators, implantable",
+        "death, sudden, cardiac"
+      ],
+      "firstEvidence": "2026-07-23",
+      "latestEvidence": "2026-07-29",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:boston:eed3d363",
+      "kind": "company",
+      "name": "Boston Scientific Corporation",
+      "aliases": [],
+      "company": "Boston Scientific Corporation",
+      "companies": [
+        "Boston Scientific Corporation"
+      ],
+      "country": "US",
+      "countries": [
+        "US",
+        "BE",
+        "FR"
+      ],
+      "score": 32,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07575269",
+          "title": "Evaluation of the FARAFLEX Mapping and Pulsed Field Ablation System in Subjects With Atrial Fibrillation",
+          "url": "https://clinicaltrials.gov/study/NCT07575269",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07349121",
+          "title": "OPTION-EMEA Clinical Trial",
+          "url": "https://clinicaltrials.gov/study/NCT07349121",
+          "date": "2026-08-05",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04790344",
+          "title": "LUX-Dx TRENDS Evaluates Diagnostics Sensors in Heart Failure Patients Receiving Boston Scientific's Investigational ICM System.",
+          "url": "https://clinicaltrials.gov/study/NCT04790344",
+          "date": "2026-08-04",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07209852",
+          "title": "Safety, Performance, and Clinical Benefit of Pacing the Left Bundle Branch Area - Post-Market Clinical Follow-up",
+          "url": "https://clinicaltrials.gov/study/NCT07209852",
+          "date": "2026-08-04",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT03664609",
+          "title": "Deep Brain Stimulation (DBS) Retrospective Outcomes Study",
+          "url": "https://clinicaltrials.gov/study/NCT03664609",
+          "date": "2026-08-04",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06192758",
+          "title": "Dose Escalation Study Evaluating Safety of TheraSphere Prostate Cancer (PCa) Device",
+          "url": "https://clinicaltrials.gov/study/NCT06192758",
+          "date": "2026-07-31",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06710223",
+          "title": "Cryoablation and Arterial Infusion of SD-101 in Combination With Durvalumab and Tremelimumab",
+          "url": "https://clinicaltrials.gov/study/NCT06710223",
+          "date": "2026-07-28",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06510556",
+          "title": "Feasibility Study of the FARAFLEX Mapping and PFA System",
+          "url": "https://clinicaltrials.gov/study/NCT06510556",
+          "date": "2026-07-27",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06750146",
+          "title": "Hot AXIOS™ for Bile Duct Drainage in Malignant Stenosis",
+          "url": "https://clinicaltrials.gov/study/NCT06750146",
+          "date": "2026-07-24",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07353710",
+          "title": "A Study on the Acquisition of 2D ICE Images With the CHORUS IDx System in Subjects Undergoing an Ablation Procedure",
+          "url": "https://clinicaltrials.gov/study/NCT07353710",
+          "date": "2026-07-23",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06335082",
+          "title": "A Registry Based Collaborative to Measure Efficiency, Effectiveness, and Safety of Farapulse PFA Technology for AF",
+          "url": "https://clinicaltrials.gov/study/NCT06335082",
+          "date": "2026-07-23",
+          "contribution": 0,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04147884",
+          "title": "A Feasibility Study of the Millipede Transcatheter Annuloplasty Ring System in Patients With Functional Mitral Regurgitation",
+          "url": "https://clinicaltrials.gov/study/NCT04147884",
+          "date": "2026-07-22",
+          "contribution": 0,
+          "isNew": true
+        }
+      ],
+      "signalCount": 13,
+      "newSignalCount": 13,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "paroxysmal atrial fibrillation (paf)",
+        "persistent atrial fibrillation",
+        "pulsed field ablation",
+        "atrial fibrillation (af)",
+        "stroke prevention in patients with atrial fibrillation",
+        "left atrial appendage closure",
+        "atrial fibrillation ablation procedure",
+        "concomitant procedures",
+        "watchman",
+        "farapulse",
+        "concomitant",
+        "pfa",
+        "laac",
+        "heart failure",
+        "bradycardia",
+        "atrioventricular block",
+        "sinus node dysfunction",
+        "bundle-branch block",
+        "left bundle branch area pacing (lbbap)",
+        "ingevity+ lead"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:natera:683d43ca",
+      "kind": "company",
+      "name": "Natera, Inc.",
+      "aliases": [],
+      "company": "Natera, Inc.",
+      "companies": [
+        "Natera, Inc."
+      ],
+      "country": "US",
+      "countries": [
+        "US",
+        "FR"
+      ],
+      "score": 29,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07689812",
+          "title": "A Multicenter Randomized Open-Label Trial Evaluating ctDNA-Guided Interruption Versus Standard of Care Immune-Checkpoint Inhibitor (ICI) Therapy In Patients With Advanced / Metastatic Solid Tumors.",
+          "url": "https://clinicaltrials.gov/study/NCT07689812",
+          "date": "2026-08-04",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05174169",
+          "title": "Colon Adjuvant Chemotherapy Based on Evaluation of Residual Disease",
+          "url": "https://clinicaltrials.gov/study/NCT05174169",
+          "date": "2026-08-04",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07718633",
+          "title": "Immunosuppression Optimization Using The Prospera Assay In Kidney Transplant Recipients (IMPAKT)",
+          "url": "https://clinicaltrials.gov/study/NCT07718633",
+          "date": "2026-07-22",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06450314",
+          "title": "Decreasing Treatment for Metastatic HER2-Positive Breast Cancer With Undectable Cancer Levels in Blood Tests.",
+          "url": "https://clinicaltrials.gov/study/NCT06450314",
+          "date": "2026-07-21",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 4,
+      "newSignalCount": 4,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "nsclc (advanced non-small cell lung cancer)",
+        "nsclc (non-small cell lung cancer)",
+        "nsclc (non-small cell lung carcinoma)",
+        "nsclc",
+        "melanoma (skin cancer)",
+        "melanoma (skin) stage iv",
+        "crc",
+        "msi high colorectal cancer",
+        "dmmr colorectal cancer",
+        "rcc, renal cell cancer",
+        "rcc",
+        "solid tumors",
+        "metastatic solid tumors",
+        "advanced solid tumors",
+        "advanced solid tumors cancer",
+        "ctdna",
+        "circulating tumor dna",
+        "immune checkpoint inhibitor",
+        "ici",
+        "non-small cell lung cancer"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-08-04",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:ban leong sng:e4d894cb",
+      "kind": "person",
+      "name": "Ban Leong Sng, FANZCA",
+      "aliases": [],
+      "company": "Renew Group",
+      "companies": [
+        "Renew Group"
+      ],
+      "country": "",
+      "countries": [],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT03750318",
+          "title": "Validation Study on RENEW's Aingeal at KK Women's and Children's Hospital",
+          "url": "https://clinicaltrials.gov/study/NCT03750318",
+          "date": "2026-08-07",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04025918",
+          "title": "Closed-loop Double-vasopressor Automated System to Treat Hypotension During Spinal Anaesthesia for Caesarean Section",
+          "url": "https://clinicaltrials.gov/study/NCT04025918",
+          "date": "2026-08-06",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT03167905",
+          "title": "CODEPAD (Collaborative Outcomes of DEpression and Pain Associated With Delivery)",
+          "url": "https://clinicaltrials.gov/study/NCT03167905",
+          "date": "2026-08-06",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "vital sign",
+        "heart rate",
+        "respiratory rate",
+        "vital sign monitoring",
+        "hypotension",
+        "spinal anesthesia",
+        "cesarean section",
+        "phenylephrine",
+        "ephedrine",
+        "closed-loop system",
+        "continuous non-invasive monitor",
+        "depression, postpartum",
+        "analgesia, obstetrical",
+        "anesthesia, obstetrical",
+        "epidural anesthesia",
+        "postnatal depression",
+        "persistent pain"
+      ],
+      "firstEvidence": "2026-08-06",
+      "latestEvidence": "2026-08-07",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:abbott:50e8db46",
+      "kind": "company",
+      "name": "Abbott Medical Devices",
+      "aliases": [],
+      "company": "Abbott Medical Devices",
+      "companies": [
+        "Abbott Medical Devices"
+      ],
+      "country": "US",
+      "countries": [
+        "US",
+        "BE"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06223789",
+          "title": "VOLT-AF IDE Clinical Study",
+          "url": "https://clinicaltrials.gov/study/NCT06223789",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07523620",
+          "title": "Comprehensive LEFt Atrial Appendage Occlusion With Rhythm Restoration",
+          "url": "https://clinicaltrials.gov/study/NCT07523620",
+          "date": "2026-07-13",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06008080",
+          "title": "Post-Market Clinical Follow Up Study With Navitor Valve",
+          "url": "https://clinicaltrials.gov/study/NCT06008080",
+          "date": "2026-07-10",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "atrial arrhythmia",
+        "atrial fibrillation",
+        "paroxysmal atrial fibrillation",
+        "persistent atrial fibrillation",
+        "paroxysmal af",
+        "pfa",
+        "pulsed field ablation",
+        "atrial fibrillation (af)",
+        "left atrial appendage",
+        "aortic stenosis",
+        "navitor",
+        "transcatheter aortic valve implantation (tavi)",
+        "cardiovascular disease"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:hoffmann:28112917",
+      "kind": "company",
+      "name": "Hoffmann-La Roche",
+      "aliases": [],
+      "company": "Hoffmann-La Roche",
+      "companies": [
+        "Hoffmann-La Roche"
+      ],
+      "country": "PL",
+      "countries": [
+        "PL",
+        "CN",
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05562947",
+          "title": "A Study of the Efficacy, Safety, and Pharmacokinetics (PK) of the Port Delivery System With Ranibizumab (PDS) in Chinese Participants With Neovascular Age-related Macular Degeneration (nAMD)",
+          "url": "https://clinicaltrials.gov/study/NCT05562947",
+          "date": "2026-08-04",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06704672",
+          "title": "Clinical Study to Evaluate the Impact of the Accu-Chek SmartGuide CGM Solution on the Mean Change in Time in Range Compared With Self-Monitoring of Blood Glucose in Participants With Type 1 and Type 2 Diabetes Mellitus",
+          "url": "https://clinicaltrials.gov/study/NCT06704672",
+          "date": "2026-07-29",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04929223",
+          "title": "A Study Evaluating the Safety and Efficacy of Targeted Therapies in Subpopulations of Patients With Metastatic Colorectal Cancer (INTRINSIC)",
+          "url": "https://clinicaltrials.gov/study/NCT04929223",
+          "date": "2026-07-20",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "neovascular age-related macular degeneration",
+        "namd",
+        "type 1 diabetes mellitus",
+        "type 2 diabetes mellitus",
+        "metastatic colorectal cancer",
+        "kras g12c"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-08-04",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:trials:8f3f6bc4",
+      "kind": "person",
+      "name": "Clinical Trials",
+      "aliases": [],
+      "company": "Hoffmann-La Roche",
+      "companies": [
+        "Hoffmann-La Roche",
+        "Roche Diabetes Care"
+      ],
+      "country": "PL",
+      "countries": [
+        "PL",
+        "CN",
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05562947",
+          "title": "A Study of the Efficacy, Safety, and Pharmacokinetics (PK) of the Port Delivery System With Ranibizumab (PDS) in Chinese Participants With Neovascular Age-related Macular Degeneration (nAMD)",
+          "url": "https://clinicaltrials.gov/study/NCT05562947",
+          "date": "2026-08-04",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06704672",
+          "title": "Clinical Study to Evaluate the Impact of the Accu-Chek SmartGuide CGM Solution on the Mean Change in Time in Range Compared With Self-Monitoring of Blood Glucose in Participants With Type 1 and Type 2 Diabetes Mellitus",
+          "url": "https://clinicaltrials.gov/study/NCT06704672",
+          "date": "2026-07-29",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04929223",
+          "title": "A Study Evaluating the Safety and Efficacy of Targeted Therapies in Subpopulations of Patients With Metastatic Colorectal Cancer (INTRINSIC)",
+          "url": "https://clinicaltrials.gov/study/NCT04929223",
+          "date": "2026-07-20",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "neovascular age-related macular degeneration",
+        "namd",
+        "type 1 diabetes mellitus",
+        "type 2 diabetes mellitus",
+        "metastatic colorectal cancer",
+        "kras g12c"
+      ],
+      "firstEvidence": "2026-07-20",
+      "latestEvidence": "2026-08-04",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:edwards:9e6e75b6",
+      "kind": "company",
+      "name": "Edwards Lifesciences",
+      "aliases": [],
+      "company": "Edwards Lifesciences",
+      "companies": [
+        "Edwards Lifesciences"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07742839",
+          "title": "CLAARITY is a Prospective, Observational, Single-arm, Multi-center, Post-market US Study Designed to Evaluate the Safety and Performance of the ECLIPTIS Left Atrial Appendage Exclusion System for Exclusion of the Left Atrial Appendage (LAA) During Concomitant Open-heart Cardiac Surgery.",
+          "url": "https://clinicaltrials.gov/study/NCT07742839",
+          "date": "2026-08-03",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05172973",
+          "title": "ALLIANCE AVIV: Safety and Effectiveness of the SAPIEN X4 Transcatheter Heart Valve in Failing Aortic Bioprosthetic Valves",
+          "url": "https://clinicaltrials.gov/study/NCT05172973",
+          "date": "2026-07-27",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06932640",
+          "title": "Continuous Assessment of Brain Blood Perfusion in Subarachnoid Hemorrhage Patients Using Near-Infrared Spectroscopy (NIRS)",
+          "url": "https://clinicaltrials.gov/study/NCT06932640",
+          "date": "2026-07-14",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "atrial appendage",
+        "aortic valve insufficiency",
+        "aortic valve stenosis",
+        "transcatheter aortic valve replacement (tavr)",
+        "transcatheter aortic valve implantation (tavi)",
+        "sapien x4/x4s",
+        "valve-in-valve",
+        "subarachnoid hemorrhage, aneurysmal"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-08-03",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:shockwave:ccbd1059",
+      "kind": "company",
+      "name": "Shockwave Medical, Inc.",
+      "aliases": [],
+      "company": "Shockwave Medical, Inc.",
+      "companies": [
+        "Shockwave Medical, Inc."
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06662500",
+          "title": "FORWARD CAD IDE Study",
+          "url": "https://clinicaltrials.gov/study/NCT06662500",
+          "date": "2026-08-03",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07062471",
+          "title": "Study of the Shockwave Medical SkyRunner Carotid Intravascular Lithotripsy (IVL) System for the Treatment of Calcified Carotid Arteries Prior to Trans-Carotid Stenting (SKYWARD Trans-Carotid IDE [Investigational Device Exemption] Study)",
+          "url": "https://clinicaltrials.gov/study/NCT07062471",
+          "date": "2026-07-31",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05858905",
+          "title": "FORWARD PAD IDE Study With the Shockwave Javelin IVL Catheter",
+          "url": "https://clinicaltrials.gov/study/NCT05858905",
+          "date": "2026-07-14",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "coronary arterial disease (cad)",
+        "intravascular lithotripsy",
+        "carotid artery calcification",
+        "carotid artery diseases",
+        "ivl",
+        "carotid calcification",
+        "calcification",
+        "peripheral arterial disease"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-08-03",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "company:medtronic:fcd54379",
+      "kind": "company",
+      "name": "Medtronic Cardiac Ablation Solutions",
+      "aliases": [],
+      "company": "Medtronic Cardiac Ablation Solutions",
+      "companies": [
+        "Medtronic Cardiac Ablation Solutions"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07298473",
+          "title": "Conquer-AF Protocol for Redo Ablation Procedures in Recurrent Paroxysmal and Persistent Atrial Fibrillation Using the Sphere-9 Catheter and Affera Ablation System (Conquer-AF)",
+          "url": "https://clinicaltrials.gov/study/NCT07298473",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05227053",
+          "title": "STOP AF First Post-Approval Study",
+          "url": "https://clinicaltrials.gov/study/NCT05227053",
+          "date": "2026-07-22",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06578104",
+          "title": "PULSED AF Post-Approval Study",
+          "url": "https://clinicaltrials.gov/study/NCT06578104",
+          "date": "2026-07-10",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "atrial fibrillation (af)",
+        "persistent atrial fibrillation",
+        "paroxysmal atrial fibrillation (paf)",
+        "sphere-9 catheter",
+        "affera ablation system",
+        "affera mapping system",
+        "pulsed field ablation (pfa)",
+        "radiofrequency ablation (rfa)",
+        "dual-energy ablation",
+        "atrial fibrillation",
+        "paroxysmal atrial fibrillation",
+        "redo ablation",
+        "repeat ablation",
+        "electrophysiology mapping",
+        "3d cardiac mapping",
+        "left atrial ablation",
+        "redo af ablation",
+        "repeat ablation procedures"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    },
+    {
+      "id": "person:khaldoun tarakji:6da35125",
+      "kind": "person",
+      "name": "Khaldoun Tarakji, MD",
+      "aliases": [],
+      "company": "Medtronic Cardiac Ablation Solutions",
+      "companies": [
+        "Medtronic Cardiac Ablation Solutions"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07298473",
+          "title": "Conquer-AF Protocol for Redo Ablation Procedures in Recurrent Paroxysmal and Persistent Atrial Fibrillation Using the Sphere-9 Catheter and Affera Ablation System (Conquer-AF)",
+          "url": "https://clinicaltrials.gov/study/NCT07298473",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05227053",
+          "title": "STOP AF First Post-Approval Study",
+          "url": "https://clinicaltrials.gov/study/NCT05227053",
+          "date": "2026-07-22",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06578104",
+          "title": "PULSED AF Post-Approval Study",
+          "url": "https://clinicaltrials.gov/study/NCT06578104",
+          "date": "2026-07-10",
+          "contribution": 3,
+          "isNew": true
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 3,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "atrial fibrillation (af)",
+        "persistent atrial fibrillation",
+        "paroxysmal atrial fibrillation (paf)",
+        "sphere-9 catheter",
+        "affera ablation system",
+        "affera mapping system",
+        "pulsed field ablation (pfa)",
+        "radiofrequency ablation (rfa)",
+        "dual-energy ablation",
+        "atrial fibrillation",
+        "paroxysmal atrial fibrillation",
+        "redo ablation",
+        "repeat ablation",
+        "electrophysiology mapping",
+        "3d cardiac mapping",
+        "left atrial ablation",
+        "redo af ablation",
+        "repeat ablation procedures"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-09"
+    }
+  ]
 }
