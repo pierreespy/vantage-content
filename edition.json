@@ -1,86 +1,85 @@
 {
-  "dateLong": "9 août 2026",
+  "dateLong": "10 août 2026",
   "ticker": [
-    { "company": "CARVOLIX", "amount": "€30M", "kind": "lev" },
-    { "company": "VEDANTA BIOSCIENCES", "amount": "$60M", "kind": "lev" },
-    { "company": "RATIO THERAPEUTICS", "amount": "$70M", "kind": "lev" },
-    { "company": "BLOSSOMHILL THERAPEUTICS", "amount": "$150M", "kind": "lev" },
-    { "company": "WELLINKS", "amount": "$10M", "kind": "lev" },
-    { "company": "INTEGER HOLDINGS / KKR", "amount": "$5,7Md", "kind": "mna" }
+    { "company": "VEXEV", "amount": "$6M", "kind": "lev" },
+    { "company": "LIFEMINE THERAPEUTICS", "amount": "$263M", "kind": "lev" },
+    { "company": "EXPEDITION THERAPEUTICS", "amount": "$115M", "kind": "lev" },
+    { "company": "KAROO HEALTH", "amount": "$16,2M", "kind": "lev" },
+    { "company": "TYBR HEALTH", "amount": "$30M", "kind": "lev" },
+    { "company": "CLARYX", "amount": "$3,5M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Growth debt · MedTech cardiovasculaire",
-    "title": "Carvolix lève jusqu'à 30 M€ de dette de croissance pour porter Tavipilot jusqu'au marché américain",
-    "deck": "Claret Capital Partners, plus gros fonds de dette de croissance indépendant d'Europe, structure un financement mixte (obligations convertibles, amortissables et bons de souscription) pour la medtech française d'Aix-en-Provence : environ 30% ira à la commercialisation américaine de Tavipilot, le reste au développement clinique des trois autres actifs de son portefeuille cardiovasculaire et neurovasculaire (Kalios, Artus, Artedrone).",
-    "company": "Carvolix",
-    "stage": "Growth",
+    "kicker": "Series A · MedTech robotique (Australie)",
+    "title": "Vexev lève 6 M$ pour porter son échographie vasculaire robotisée jusqu'à la clearance FDA",
+    "deck": "Le medtech australien Vexev, soutenu par Blackbird Ventures, porte son financement total à 19 M$ pour financer les activités réglementaires et la commercialisation américaine de VxWave, une plateforme qui automatise par robotique et IA l'échographie vasculaire — déjà validée à 94% de réussite par du personnel non spécialisé lors d'une étude multicentrique avec l'opérateur de dialyse américain US Renal Care.",
+    "company": "Vexev",
+    "stage": "Series A",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/08/06/3340103/0/en/Claret-Capital-Partners-provides-30m-financing-to-Carvolix-to-accelerate-commercialization-of-medtech-portfolio.html"
+    "url": "https://www.prnewswire.com/news-releases/vexev-raises-6m-to-accelerate-us-commercialization-of-autonomous-vascular-imaging-platform-302842976.html"
   },
   "deal": {
-    "company": "Vedanta Biosciences",
-    "amount": "$60 M",
-    "round": "Financement de croissance (pont vers la Phase 3)",
-    "thesis": "Vedanta lève 60 M$ — dont 20 M$ non dilutifs via la BARDA — juste avant la lecture pivot de VE303 dans la prévention des récidives de C. difficile, un pari calculé après qu'un comité de surveillance indépendant a déjà validé l'efficacité intermédiaire de l'essai face au seuil de futilité. La thèse VC n'est pas ici le risque scientifique, déjà largement purgé, mais l'art de financer le dernier kilomètre avant une lecture de Phase 3 au meilleur coût du capital.",
-    "url": "https://www.businesswire.com/news/home/20260805317893/en/Vedanta-Biosciences-Secures-$60-Million-in-Funding-and-Strengthens-Leadership-Team-Ahead-of-Pivotal-Phase-3-Data"
+    "company": "LifeMine Therapeutics",
+    "amount": "$263 M",
+    "round": "Series D + Series E ($263 M combinés)",
+    "thesis": "Le fonds Milky Way Investments mène un tour oversubscrit rassemblant ARCH Venture Partners, GSK, Bezos Expeditions et Gates Frontier autour de LIFE-001, un inhibiteur de l'activation de la calcineurine structurellement inédit, conçu pour éviter la toxicité rénale et neurologique des immunosuppresseurs historiques (ciclosporine, tacrolimus) qui pèsent depuis 40 ans sur la survie des greffons. Avec plus de 120 patients déjà exposés en Phase 1 et un profil amélioré démontré, le capital finance directement l'entrée en Phase 2 rénale — la thèse n'est plus le risque scientifique mais la course pour remplacer un standard de soins vieux d'une génération.",
+    "url": "https://www.businesswire.com/news/home/20260805424364/en/LifeMine-Raises-$263-Million-to-Accelerate-the-Clinical-Development-of-LIFE-001-a-Structurally-and-Mechanistically-Novel-Calcineurin-Activation-Inhibitor-Designed-to-Transform-Organ-Transplantation"
   },
-  "brefsEurope": [
-    {
-      "company": "BioInvent International",
-      "place": "Lund, Suède",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "BioInvent décroche la Fast Track de la FDA pour son anticorps anti-TNFR2 dans le cancer de l'ovaire",
-      "summary": "BI-1808, associé au pembrolizumab, affichait déjà 24% de réponse objective et 56% de contrôle de la maladie chez des patientes en échec thérapeutique avancé ; l'extension de cohorte cible désormais les sous-types séreux de haut grade et à cellules claires, avec une nouvelle lecture attendue au second semestre.",
-      "url": "https://www.biospace.com/press-releases/bioinvent-receives-fda-fast-track-designation-for-bi-1808-for-the-treatment-of-ovarian-cancer"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Replimune",
-      "place": "Woburn, États-Unis",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Replimune décroche l'approbation accélérée de la FDA pour sa virothérapie oncolytique, après deux rejets en 13 mois",
-      "summary": "Associé au nivolumab dans le mélanome avancé après échec d'un anti-PD-1, Tudriqev devient la première thérapie approuvée depuis la création de Replimune en 2015 — la validation clinique d'une modalité, la virothérapie oncolytique, que peu d'investisseurs osaient encore financer il y a un an.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340656/0/en/replimune-announces-fda-accelerated-approval-of-tudriqevtm-in-combination-with-nivolumab-for-unresectable-advanced-cutaneous-melanoma-after-progression-on-an-anti-pd-1-based-regime.html"
+      "company": "Karoo Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Karoo Health clôture une Series A de 16,2 M$ pour sa plateforme cardiovasculaire pilotée par IA",
+      "summary": "Menée par 7wire Ventures et Allumia Ventures, la levée finance l'extension d'une plateforme qui connecte payeurs, cardiologues et patients pour détecter plus tôt le risque cardiovasculaire ; sur les programmes déjà déployés auprès de plus de 600 cardiologues dans 11 États américains, les analyses indépendantes rapportent plus de 40% de réduction des passages aux urgences et hospitalisations, et plus de 10% de baisse du coût total de soins.",
+      "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html"
     },
     {
-      "company": "Ceribell",
-      "place": "Sunnyvale, États-Unis",
-      "sector": "MedTech",
-      "signalType": "reimbursement",
-      "strength": 5,
-      "title": "Ceribell obtient un remboursement CMS (NTAP) pour son moniteur de délirium au chevet du patient",
-      "summary": "Premier dispositif jamais autorisé par la FDA pour le dépistage du délirium, il touchera jusqu'à 2 171 $ par patient Medicare éligible dès octobre — la preuve qu'un signal réglementaire précoce se transforme, des mois plus tard, en remboursement : l'étape où un dispositif devient réellement adoptable à l'hôpital.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/03/3337359/0/en/Ceribell-Secures-CMS-New-Technology-Add-On-Payment-NTAP-for-Breakthrough-Point-of-Care-Delirium-Monitor-System.html"
+      "company": "Expedition Therapeutics",
+      "place": "États-Unis",
+      "sector": "Biotech",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Expedition Therapeutics boucle 115 M$ en Series B pour son inhibiteur DPP1 licencié en Chine",
+      "summary": "General Atlantic mène ce tour oversubscrit aux côtés de Sanofi, Novo Holdings et Sofinnova, quelques jours après le dosage du premier patient d'un essai de Phase 2 mondial dans la BPCO pour EXPD-101 — un actif licencié en 2025 à Fosun Pharma pour 17 M$ upfront, symptomatique d'un modèle de « China NewCo » où le capital-risque occidental finance le développement global d'une molécule chinoise déjà en Phase 2 sur son marché domestique.",
+      "url": "https://www.businesswire.com/news/home/20260805154316/en/Expedition-Therapeutics-Announces-Oversubscribed-%24115-Million-Series-B-Financing-to-Advance-Next-Generation-DPP1-Inhibitor-for-COPD"
+    },
+    {
+      "company": "Claryx",
+      "place": "États-Unis",
+      "sector": "Diagnostics",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Claryx sort de stealth avec 3,5 M$ pour tracer les épidémies hospitalières par séquençage génomique",
+      "summary": "Menée par Outlander VC, l'amorçage finance CloneLink, une plateforme qui séquence en continu le génome des pathogènes pour relier des infections apparemment isolées et guider l'intervention des équipes d'hygiène hospitalière ; une étude de deux ans à l'UPMC Presbyterian citée par la société a permis d'identifier 172 foyers de transmission jusque-là invisibles et d'éviter environ 62 infections.",
+      "url": "https://www.businesswire.com/news/home/20260804346238/en/Claryx-Raises-$3.5-Million-Led-by-Outlander-to-Stop-Hospital-Outbreaks-Before-They-Start"
     }
   ],
   "word": {
-    "term": "TNFR2",
-    "full": "Tumor Necrosis Factor Receptor 2",
-    "fr": "Récepteur de type 2 du TNF",
-    "field": "Immuno-oncologie / Immunologie des Treg",
-    "definition": "Un récepteur porté par les lymphocytes T régulateurs (Treg) qui infiltrent les tumeurs, devenu une cible d'anticorps pour soit les éliminer en oncologie, soit au contraire les activer dans les maladies inflammatoires.",
+    "term": "POCUS",
+    "full": "Point-of-Care Ultrasound",
+    "fr": "Échographie au point d'intervention",
+    "field": "Imagerie médicale / Diagnostic embarqué",
+    "definition": "Une échographie réalisée directement au chevet du patient — dialyse, urgences, domicile — par un personnel non spécialisé, de plus en plus guidée par la robotique et l'IA plutôt que par un sonographe expert en service de radiologie.",
     "parts": [
-      { "label": "Treg intratumoral", "role": "la cellule immunosuppressive ciblée" },
-      { "label": "Anticorps anti-TNFR2", "role": "le déclencheur, déplétant ou agoniste selon le mécanisme visé" },
-      { "label": "Cellules effectrices (CD8+, myéloïdes, NK)", "role": "réactivées une fois le frein immunitaire levé" }
+      { "label": "Sonde connectée", "role": "l'organe de capture, miniaturisé, filaire ou robotisé" },
+      { "label": "Guidage IA ou bras robotisé", "role": "compense l'absence d'un opérateur expert en corrigeant angle et pression en temps réel" },
+      { "label": "Algorithme d'interprétation", "role": "transforme le signal brut en mesure clinique exploitable en quelques secondes" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "L'anticorps se lie spécifiquement à TNFR2, très exprimé à la surface des Treg intratumoraux mais rare sur les autres cellules." },
-      { "n": "2", "h": "Bascule immunitaire", "t": "Selon sa conception, l'anticorps déplète les Treg immunosuppresseurs en oncologie, ou au contraire les active dans les maladies auto-immunes et inflammatoires." },
-      { "n": "3", "h": "Réponse réactivée", "t": "Le microenvironnement rebascule en faveur des lymphocytes CD8+ et des cellules myéloïdes, souvent en synergie avec un anti-PD-1." }
+      { "n": "1", "h": "Positionnement", "t": "La sonde est placée sur la zone d'intérêt, manuellement ou via un bras robotisé autonome." },
+      { "n": "2", "h": "Correction en temps réel", "t": "Un modèle d'IA ajuste l'angle et la pression pour obtenir une image diagnostique, même entre des mains non expertes." },
+      { "n": "3", "h": "Restitution clinique", "t": "Le débit vasculaire, la taille d'un organe ou la présence d'un fluide est renvoyé en quelques secondes, sans attendre un radiologue." }
     ],
-    "why": "TNFR2 ouvre une classe de checkpoint au-delà de PD-1/CTLA-4, avec deux lectures opposées du même récepteur — déplétion en oncologie, activation en inflammation — un angle plateforme qui attire aussi bien le capital-risque biotech que le corporate venture de big pharma (Bristol Myers Squibb, Eli Lilly, Johnson & Johnson et Pfizer déjà au capital d'un des acteurs du secteur), avec un boulevard réglementaire (Fast Track, Orphan Drug) pour des tumeurs encore mal desservies.",
+    "why": "Le POCUS robotisé et piloté par IA répond à la pénurie mondiale de sonographes qualifiés en déplaçant le diagnostic échographique du service de radiologie vers le lit du patient ou la dialyse — un axe qui attire à la fois des medtech pures (Vexev) et des plateformes IA d'imagerie (Exo Imaging, EchoNous), avec une voie réglementaire FDA 510(k) souvent plus rapide qu'un nouveau dispositif de radiologie classique.",
     "startups": [
-      { "name": "BioInvent International", "use": "Anti-TNFR2 déplétant (BI-1808) en Phase 2a dans l'ovaire et le CTCL ; Fast Track FDA obtenue le 7 août 2026", "place": "Lund, Suède" },
-      { "name": "HiFiBiO Therapeutics", "use": "Emunkitug (HFB200301), agoniste TNFR2 first-in-class, en Phase 1 dans les tumeurs solides avancées, seul et associé au tislélizumab", "place": "Cambridge, États-Unis" },
-      { "name": "TRexBio", "use": "TRB-061, agoniste TNFR2 activant les Treg, en Phase 1b dans la dermatite atopique modérée à sévère", "place": "South San Francisco, États-Unis" },
-      { "name": "Odyssey Therapeutics", "use": "OD-00910, agoniste TNFR2 tétravalent, développé après un Series D de 213 M$", "place": "Boston, États-Unis" }
+      { "name": "Vexev", "use": "VxWave, plateforme robotisée d'échographie vasculaire automatisée pour l'accès de dialyse ; 6 M$ levés en août 2026 pour la clearance FDA 510(k)", "place": "Sydney, Australie" },
+      { "name": "Fraiya", "use": "FraiyaScan, couche logicielle IA guidant l'échographie prénatale, marquée CE et déployée avec Canon Medical Systems Europe dans un essai NHS sur 4 hôpitaux", "place": "Londres, Royaume-Uni" },
+      { "name": "Exo Imaging", "use": "Écosystème d'échographie portable guidée par IA (Exo Iris) ; plus de 300 M$ levés et collaboration stratégique avec Samsung", "place": "Redwood City, États-Unis" },
+      { "name": "EchoNous", "use": "Kosmos, plateforme d'échographie portable assistée par IA ; extension 2026 vers les indications OB/GYN et vasculaires", "place": "Redmond, États-Unis" }
     ]
   }
 }

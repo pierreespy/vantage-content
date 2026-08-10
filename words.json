@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-09",
+  "generatedAt": "2026-08-10",
   "words": [
+    {
+      "term": "POCUS",
+      "full": "Point-of-Care Ultrasound",
+      "fr": "Échographie au point d'intervention",
+      "field": "Imagerie médicale / Diagnostic embarqué",
+      "definition": "Une échographie réalisée directement au chevet du patient — dialyse, urgences, domicile — par un personnel non spécialisé, de plus en plus guidée par la robotique et l'IA plutôt que par un sonographe expert en service de radiologie.",
+      "parts": [
+        {
+          "label": "Sonde connectée",
+          "role": "l'organe de capture, miniaturisé, filaire ou robotisé"
+        },
+        {
+          "label": "Guidage IA ou bras robotisé",
+          "role": "compense l'absence d'un opérateur expert en corrigeant angle et pression en temps réel"
+        },
+        {
+          "label": "Algorithme d'interprétation",
+          "role": "transforme le signal brut en mesure clinique exploitable en quelques secondes"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Positionnement",
+          "t": "La sonde est placée sur la zone d'intérêt, manuellement ou via un bras robotisé autonome."
+        },
+        {
+          "n": "2",
+          "h": "Correction en temps réel",
+          "t": "Un modèle d'IA ajuste l'angle et la pression pour obtenir une image diagnostique, même entre des mains non expertes."
+        },
+        {
+          "n": "3",
+          "h": "Restitution clinique",
+          "t": "Le débit vasculaire, la taille d'un organe ou la présence d'un fluide est renvoyé en quelques secondes, sans attendre un radiologue."
+        }
+      ],
+      "why": "Le POCUS robotisé et piloté par IA répond à la pénurie mondiale de sonographes qualifiés en déplaçant le diagnostic échographique du service de radiologie vers le lit du patient ou la dialyse — un axe qui attire à la fois des medtech pures (Vexev) et des plateformes IA d'imagerie (Exo Imaging, EchoNous), avec une voie réglementaire FDA 510(k) souvent plus rapide qu'un nouveau dispositif de radiologie classique.",
+      "startups": [
+        {
+          "name": "Vexev",
+          "use": "VxWave, plateforme robotisée d'échographie vasculaire automatisée pour l'accès de dialyse ; 6 M$ levés en août 2026 pour la clearance FDA 510(k)",
+          "place": "Sydney, Australie"
+        },
+        {
+          "name": "Fraiya",
+          "use": "FraiyaScan, couche logicielle IA guidant l'échographie prénatale, marquée CE et déployée avec Canon Medical Systems Europe dans un essai NHS sur 4 hôpitaux",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Exo Imaging",
+          "use": "Écosystème d'échographie portable guidée par IA (Exo Iris) ; plus de 300 M$ levés et collaboration stratégique avec Samsung",
+          "place": "Redwood City, États-Unis"
+        },
+        {
+          "name": "EchoNous",
+          "use": "Kosmos, plateforme d'échographie portable assistée par IA ; extension 2026 vers les indications OB/GYN et vasculaires",
+          "place": "Redmond, États-Unis"
+        }
+      ],
+      "date": "2026-08-10",
+      "dateLong": "10 août 2026"
+    },
     {
       "term": "TNFR2",
       "full": "Tumor Necrosis Factor Receptor 2",
