@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-09",
-  "generatedAtLong": "9 août 2026",
+  "generatedAt": "2026-08-10",
+  "generatedAtLong": "10 août 2026",
   "counts": {
-    "total": 115,
+    "total": 120,
     "high": 0,
-    "medium": 103,
-    "low": 12,
-    "withNewSignal": 115,
-    "entities": 5571,
+    "medium": 105,
+    "low": 15,
+    "withNewSignal": 5,
+    "entities": 6196,
     "records": 1200
   },
   "sources": [
@@ -15,14 +15,14 @@
       "id": "pubmed",
       "label": "PubMed (NCBI E-utilities)",
       "records": 200,
-      "added": 200,
+      "added": 52,
       "changed": 0
     },
     {
       "id": "europepmc",
       "label": "Europe PMC",
       "records": 500,
-      "added": 500,
+      "added": 24,
       "changed": 0
     },
     {
@@ -36,7 +36,7 @@
       "id": "clinicaltrials",
       "label": "ClinicalTrials.gov v2",
       "records": 500,
-      "added": 500,
+      "added": 28,
       "changed": 0
     },
     {
@@ -56,100 +56,6 @@
   ],
   "errors": [],
   "leads": [
-    {
-      "id": "company:instituto:493d3c6d",
-      "kind": "company",
-      "name": "Instituto de Salud Carlos III",
-      "aliases": [],
-      "company": "Instituto de Salud Carlos III",
-      "companies": [],
-      "country": "ES",
-      "countries": [
-        "ES"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-08-07 sans structure commerciale identifiée (promoteur Cudeca Hospice Foundation) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07753668",
-          "title": "Better Communication, Better Care Using SICG Assistant Based on Artificial Intelligence",
-          "url": "https://clinicaltrials.gov/study/NCT07753668",
-          "date": "2026-08-07",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "cancer care providers",
-        "palliative care",
-        "cancer care facilities",
-        "artificial intelligence",
-        "interdisciplinary communication",
-        "decision making, shared",
-        "machine learning"
-      ],
-      "firstEvidence": "2026-08-07",
-      "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:national:207d05fb",
-      "kind": "company",
-      "name": "The National Brain Mapping Laboratory (NBML)",
-      "aliases": [],
-      "company": "The National Brain Mapping Laboratory (NBML)",
-      "companies": [],
-      "country": "",
-      "countries": [],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-08-07 sans structure commerciale identifiée (promoteur The National Brain Mapping Laboratory (NBML)) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07752316",
-          "title": "Gamma tACS to Improve Cognitive Function in Mild Cognitive Impairment",
-          "url": "https://clinicaltrials.gov/study/NCT07752316",
-          "date": "2026-08-07",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "mild cognitive impairment (mci)"
-      ],
-      "firstEvidence": "2026-08-07",
-      "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
-    },
     {
       "id": "person:alicia martinez rodriguez:3ca6e5d9",
       "kind": "person",
@@ -180,11 +86,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07588191",
           "date": "2026-08-07",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -211,7 +117,7 @@
       ],
       "firstEvidence": "2026-08-07",
       "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:dr suman sheraz:0904a789",
@@ -241,11 +147,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07738627",
           "date": "2026-08-07",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -262,7 +168,7 @@
       ],
       "firstEvidence": "2026-08-07",
       "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:olalla bello:7ac2f1f0",
@@ -294,11 +200,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07588191",
           "date": "2026-08-07",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -325,7 +231,7 @@
       ],
       "firstEvidence": "2026-08-07",
       "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:sebnem dirikan ipci:16b5321e",
@@ -355,11 +261,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07751211",
           "date": "2026-08-07",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -374,71 +280,7 @@
       ],
       "firstEvidence": "2026-08-07",
       "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:irccs:040f7f03",
-      "kind": "company",
-      "name": "IRCCS San Raffaele",
-      "aliases": [],
-      "company": "IRCCS San Raffaele",
-      "companies": [],
-      "country": "IT",
-      "countries": [
-        "IT"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-08-06 sans structure commerciale identifiée (promoteur Università Vita-Salute San Raffaele) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07750314",
-          "title": "Development of a Soft Robotic Device for Rehabilitation and Assistance of the Upper Limb for People With Neurological Disorders",
-          "url": "https://clinicaltrials.gov/study/NCT07750314",
-          "date": "2026-08-06",
-          "contribution": 20,
-          "isNew": true
-        },
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07722169",
-          "title": "Telerehabilitation in Alzheimer's Disease",
-          "url": "https://clinicaltrials.gov/study/NCT07722169",
-          "date": "2026-08-03",
-          "contribution": 3,
-          "isNew": true
-        }
-      ],
-      "signalCount": 2,
-      "newSignalCount": 2,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "acquired brain injury",
-        "alzheimer",
-        "cognitive training",
-        "telerehabilitation",
-        "virtual reality",
-        "alzheimer's disease",
-        "cognitive functions",
-        "caregiver"
-      ],
-      "firstEvidence": "2026-08-03",
-      "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:ratchadapiseksompotch:41a70be3",
@@ -468,11 +310,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07748949",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -486,7 +328,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:aurelio seidita:43427bd4",
@@ -518,11 +360,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07750535",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -536,7 +378,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:gizem suna tuncer:997da268",
@@ -566,11 +408,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07749066",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -583,7 +425,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:laszlo asztalos:ab444694",
@@ -613,11 +455,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07750405",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -629,7 +471,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:manan pareek:a0b4fcab",
@@ -661,11 +503,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07727135",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -683,7 +525,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:necmettin y ld z:0335b397",
@@ -713,11 +555,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07742176",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -731,7 +573,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:pasquale mansueto:5fe0cd04",
@@ -763,11 +605,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07750535",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -781,7 +623,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:juliana:11b0fcfc",
@@ -811,11 +653,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07747636",
           "date": "2026-08-05",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -835,7 +677,7 @@
       ],
       "firstEvidence": "2026-08-05",
       "latestEvidence": "2026-08-05",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:amitha domalpally:341612b9",
@@ -867,11 +709,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07747662",
           "date": "2026-08-05",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -880,7 +722,7 @@
       ],
       "firstEvidence": "2026-08-05",
       "latestEvidence": "2026-08-05",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:shyangbo:3f892a76",
@@ -912,11 +754,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07747311",
           "date": "2026-08-05",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -928,7 +770,7 @@
       ],
       "firstEvidence": "2026-08-05",
       "latestEvidence": "2026-08-05",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:singh:05ecb9ea",
@@ -960,11 +802,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07747311",
           "date": "2026-08-05",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -976,7 +818,69 @@
       ],
       "firstEvidence": "2026-08-05",
       "latestEvidence": "2026-08-05",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:centro:3d00db91",
+      "kind": "company",
+      "name": "Centro de Tratamiento e Investigación sobre Cáncer, Luis Carlos Sarmiento Angulo",
+      "aliases": [],
+      "company": "Centro de Tratamiento e Investigación sobre Cáncer, Luis Carlos Sarmiento Angulo",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-08-03 sans structure commerciale identifiée (promoteur Centro de Tratamiento e Investigación sobre Cáncer, Luis Carlos Sarmiento Angulo) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07741435",
+          "title": "Methylation Profile Test (Methylscape) in Body Fluids for Multi-Cancer Detection and Monitoring in Colombia",
+          "url": "https://clinicaltrials.gov/study/NCT07741435",
+          "date": "2026-08-03",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "neoplasms",
+        "solid tumor",
+        "breast neoplasms",
+        "lung neoplasms",
+        "stomach neoplasms",
+        "uterine cervical neoplasms",
+        "colorectal neoplasms",
+        "urologic neoplasms",
+        "head and neck neoplasms",
+        "early detection of cancer",
+        "neoplasm recurrence, local",
+        "dna methylation",
+        "liquid biopsy",
+        "cell-free dna (cfdna)",
+        "multi-cancer early detection (mced)",
+        "methylscape",
+        "cancer signal origin",
+        "minimal residual disease",
+        "methylation biomarker",
+        "cancer screening"
+      ],
+      "firstEvidence": "2026-08-03",
+      "latestEvidence": "2026-08-03",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:trio:149d3908",
@@ -1008,11 +912,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07713797",
           "date": "2026-08-03",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1024,7 +928,7 @@
       ],
       "firstEvidence": "2026-08-03",
       "latestEvidence": "2026-08-03",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:stephane doutreleau:2c30ce0d",
@@ -1056,11 +960,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07677241",
           "date": "2026-08-03",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1071,7 +975,7 @@
       ],
       "firstEvidence": "2026-08-03",
       "latestEvidence": "2026-08-03",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:alashker:c59c9718",
@@ -1101,11 +1005,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07739498",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1115,7 +1019,7 @@
       ],
       "firstEvidence": "2026-07-31",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:dagoberto ojeda:6b663567",
@@ -1145,11 +1049,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07739862",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1169,7 +1073,7 @@
       ],
       "firstEvidence": "2026-07-31",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:guilherme sant anna:56427838",
@@ -1199,7 +1103,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07739823",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -1211,11 +1115,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07739810",
           "date": "2026-07-31",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 2,
-      "newSignalCount": 2,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1239,7 +1143,7 @@
       ],
       "firstEvidence": "2026-07-31",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:john bent:b52f9258",
@@ -1271,11 +1175,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07635719",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1288,7 +1192,55 @@
       ],
       "firstEvidence": "2026-07-31",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:josep rodes cabau:ea0503cd",
+      "kind": "person",
+      "name": "Josep Rodes-Cabau, MSc",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "CA",
+      "countries": [
+        "CA"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-31 sans structure commerciale identifiée (promoteur Institut universitaire de cardiologie et de pneumologie de Québec, University Laval) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07739316",
+          "title": "Systematic Ambulatory ECG Monitoring Following TAVI",
+          "url": "https://clinicaltrials.gov/study/NCT07739316",
+          "date": "2026-07-31",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "aortic stenosis",
+        "conduction disturbances",
+        "tavi",
+        "ambulatory electrocardiographic monitoring"
+      ],
+      "firstEvidence": "2026-07-31",
+      "latestEvidence": "2026-07-31",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:mostafa hamed mostafa abd el hameed abd el hameed:99bba93c",
@@ -1318,11 +1270,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07740265",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1342,7 +1294,7 @@
       ],
       "firstEvidence": "2026-07-31",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:centro:66fa8f53",
@@ -1374,11 +1326,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07735923",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1392,107 +1344,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:iss:44379a70",
-      "kind": "company",
-      "name": "ISS Istituto per la Sicurezza Sociale, San Marino",
-      "aliases": [],
-      "company": "ISS Istituto per la Sicurezza Sociale, San Marino",
-      "companies": [],
-      "country": "IT",
-      "countries": [
-        "IT"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur University Hospital of Ferrara) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07716553",
-          "title": "Study of Transanal Irrigation vs Standard Care for Constipation, Gut Microbiota, and Motor Disorders in Parkinson's Disease",
-          "url": "https://clinicaltrials.gov/study/NCT07716553",
-          "date": "2026-07-30",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "parkinson disease",
-        "constipation",
-        "parkinson",
-        "transanal irrigation",
-        "gut micriobiome",
-        "tai"
-      ],
-      "firstEvidence": "2026-07-30",
-      "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:istituto:1a536183",
-      "kind": "company",
-      "name": "Istituto Medicina Fisica E Riabilitazione Gervasutta, Udine",
-      "aliases": [],
-      "company": "Istituto Medicina Fisica E Riabilitazione Gervasutta, Udine",
-      "companies": [],
-      "country": "IT",
-      "countries": [
-        "IT"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-21 sans structure commerciale identifiée (promoteur University Hospital of Ferrara) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07716553",
-          "title": "Study of Transanal Irrigation vs Standard Care for Constipation, Gut Microbiota, and Motor Disorders in Parkinson's Disease",
-          "url": "https://clinicaltrials.gov/study/NCT07716553",
-          "date": "2026-07-30",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "parkinson disease",
-        "constipation",
-        "parkinson",
-        "transanal irrigation",
-        "gut micriobiome",
-        "tai"
-      ],
-      "firstEvidence": "2026-07-30",
-      "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:agah b ozturk:b3e1c29b",
@@ -1522,11 +1374,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07731373",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1554,7 +1406,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:ahmed abdelmohsen younis:54e6c948",
@@ -1584,11 +1436,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07736430",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1610,7 +1462,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:luay alshara:510d0340",
@@ -1642,11 +1494,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07580963",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1655,7 +1507,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:mohamed abdelnaby:b0a2f03b",
@@ -1685,11 +1537,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07736430",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1711,7 +1563,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:mohamed said hamed:9365c266",
@@ -1741,11 +1593,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07736430",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1767,7 +1619,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:nero:a895d382",
@@ -1797,11 +1649,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07736300",
           "date": "2026-07-30",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1812,7 +1664,7 @@
       ],
       "firstEvidence": "2026-07-30",
       "latestEvidence": "2026-07-30",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:endometrics:f1f499e0",
@@ -1844,11 +1696,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07733557",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1857,7 +1709,7 @@
       ],
       "firstEvidence": "2026-07-29",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:juliane:3c6314ed",
@@ -1887,11 +1739,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07732673",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1902,7 +1754,7 @@
       ],
       "firstEvidence": "2026-07-29",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:samantha:743a46e5",
@@ -1934,11 +1786,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07733557",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1947,7 +1799,7 @@
       ],
       "firstEvidence": "2026-07-29",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:universidade:276ef6c8",
@@ -1977,11 +1829,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07732673",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -1992,7 +1844,7 @@
       ],
       "firstEvidence": "2026-07-29",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:hae ra han:a7a51037",
@@ -2022,11 +1874,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07699146",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2038,7 +1890,7 @@
       ],
       "firstEvidence": "2026-07-29",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:dawes:08bcfd3d",
@@ -2070,11 +1922,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07731971",
           "date": "2026-07-28",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2092,7 +1944,7 @@
       ],
       "firstEvidence": "2026-07-28",
       "latestEvidence": "2026-07-28",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:lasse bremholm hansen:1e3a3264",
@@ -2124,11 +1976,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07727226",
           "date": "2026-07-28",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2142,7 +1994,7 @@
       ],
       "firstEvidence": "2026-07-28",
       "latestEvidence": "2026-07-28",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:nemeth:9af77589",
@@ -2174,11 +2026,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07731971",
           "date": "2026-07-28",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2196,7 +2048,7 @@
       ],
       "firstEvidence": "2026-07-28",
       "latestEvidence": "2026-07-28",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:polito:358e8335",
@@ -2228,11 +2080,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07731334",
           "date": "2026-07-28",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2256,7 +2108,7 @@
       ],
       "firstEvidence": "2026-07-28",
       "latestEvidence": "2026-07-28",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:william chi wai wong:c492b847",
@@ -2288,11 +2140,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07718867",
           "date": "2026-07-28",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2309,7 +2161,7 @@
       ],
       "firstEvidence": "2026-07-28",
       "latestEvidence": "2026-07-28",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:james gammie:d45c1fc4",
@@ -2341,11 +2193,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07726173",
           "date": "2026-07-24",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2354,7 +2206,7 @@
       ],
       "firstEvidence": "2026-07-24",
       "latestEvidence": "2026-07-24",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:jennnifer velloza:e584ee57",
@@ -2384,11 +2236,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07725679",
           "date": "2026-07-24",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2397,7 +2249,7 @@
       ],
       "firstEvidence": "2026-07-24",
       "latestEvidence": "2026-07-24",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:sheng tzung tsai:4a518754",
@@ -2429,7 +2281,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07722429",
           "date": "2026-07-24",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -2441,11 +2293,11 @@
           "url": "https://clinicaltrials.gov/study/NCT05433064",
           "date": "2026-07-22",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 2,
-      "newSignalCount": 2,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2455,7 +2307,7 @@
       ],
       "firstEvidence": "2026-07-22",
       "latestEvidence": "2026-07-24",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:antonio:03f52922",
@@ -2487,11 +2339,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07721454",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2500,122 +2352,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:children:5dcda7fa",
-      "kind": "company",
-      "name": "Children's National Research Institute",
-      "aliases": [],
-      "company": "Children's National Research Institute",
-      "companies": [],
-      "country": "",
-      "countries": [],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-06-24 sans structure commerciale identifiée (promoteur Children's National Research Institute) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07664176",
-          "title": "NgFUS NIVO: NeuroNavigation-Guided Focused Ultrasound With Nivolumab in Relapsed and Progressive DMG and Other High Grade Brain Tumors",
-          "url": "https://clinicaltrials.gov/study/NCT07664176",
-          "date": "2026-07-23",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "diffuse midline glioma or diffuse intrinsic pontine glioma",
-        "high grade gliomas",
-        "medulloblastoma recurrent",
-        "ependymoma recurrent",
-        "atypical teratoid/rhabdoid tumor (atrt) of the cns",
-        "brain tumor recurrent",
-        "focused ultrasound",
-        "pediatrics",
-        "diffuse midline glioma",
-        "dmg",
-        "diffuse intrinsic pontine glioma",
-        "dipg",
-        "high grade glioma",
-        "hgg",
-        "nivolumab"
-      ],
-      "firstEvidence": "2026-07-23",
-      "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:national:423b40de",
-      "kind": "company",
-      "name": "National Science Centre, Poland",
-      "aliases": [],
-      "company": "National Science Centre, Poland",
-      "companies": [],
-      "country": "PL",
-      "countries": [
-        "PL"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-23 sans structure commerciale identifiée (promoteur Medical University of Bialystok) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07723144",
-          "title": "Identification of Biomarkers of Obstructive Sleep Apnea.",
-          "url": "https://clinicaltrials.gov/study/NCT07723144",
-          "date": "2026-07-23",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "obstructive sleep apnea",
-        "obstructive sleep apnea (osa)",
-        "obstructive sleep apnea (osas)",
-        "obstructive sleep apnea (saos)",
-        "obstructive sleep apnea (moderate to severe)",
-        "osa",
-        "positive airway pressure therapy",
-        "cpap",
-        "blood biomarkers",
-        "polysomnography",
-        "inflammation",
-        "oxidative stress",
-        "metabolomics",
-        "precision medicine"
-      ],
-      "firstEvidence": "2026-07-23",
-      "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:bushra naseem:b3f06229",
@@ -2645,11 +2382,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07723586",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2661,7 +2398,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:hasini weerathunge:6816db42",
@@ -2693,11 +2430,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07668882",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2710,7 +2447,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:juan f agudelo:8663e4b8",
@@ -2740,11 +2477,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07664189",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2758,7 +2495,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:soo eun chang:7c3ba18d",
@@ -2790,11 +2527,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07668882",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2807,7 +2544,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:susana rios:19e5d038",
@@ -2837,11 +2574,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07664189",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2855,7 +2592,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:zofia gross:8379c4cc",
@@ -2887,11 +2624,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07721350",
           "date": "2026-07-23",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2919,7 +2656,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-23",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:gulraiz zulfiqar:c19190fa",
@@ -2949,11 +2686,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07719270",
           "date": "2026-07-22",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -2968,7 +2705,7 @@
       ],
       "firstEvidence": "2026-07-22",
       "latestEvidence": "2026-07-22",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:berkeley:1d9f967a",
@@ -3000,11 +2737,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07693205",
           "date": "2026-07-21",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3013,7 +2750,7 @@
       ],
       "firstEvidence": "2026-07-21",
       "latestEvidence": "2026-07-21",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:ayman abdallah:fd9e7f12",
@@ -3043,11 +2780,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07645482",
           "date": "2026-07-21",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3056,7 +2793,7 @@
       ],
       "firstEvidence": "2026-07-21",
       "latestEvidence": "2026-07-21",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:giovanni tringali:78bfd65d",
@@ -3088,11 +2825,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07717827",
           "date": "2026-07-21",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3117,7 +2854,7 @@
       ],
       "firstEvidence": "2026-07-21",
       "latestEvidence": "2026-07-21",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:robert sinto:39bc5811",
@@ -3147,11 +2884,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07717372",
           "date": "2026-07-21",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3167,7 +2904,7 @@
       ],
       "firstEvidence": "2026-07-21",
       "latestEvidence": "2026-07-21",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:cui:37178538",
@@ -3199,11 +2936,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07669623",
           "date": "2026-07-20",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3212,53 +2949,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-07-20",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:instituto:fb7a693b",
-      "kind": "company",
-      "name": "Instituto Nacional de Rehabilitacion",
-      "aliases": [],
-      "company": "Instituto Nacional de Rehabilitacion",
-      "companies": [],
-      "country": "",
-      "countries": [],
-      "score": 50,
-      "priority": "medium",
-      "rules": [
-        "new_trial_no_company"
-      ],
-      "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-20 sans structure commerciale identifiée (promoteur Instituto Nacional de Rehabilitacion) — spin-out possible."
-      ],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07713693",
-          "title": "Dysphagia and Dysphonia in Anterior Cervical Spinal Surgery",
-          "url": "https://clinicaltrials.gov/study/NCT07713693",
-          "date": "2026-07-20",
-          "contribution": 20,
-          "isNew": true
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 1,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "dysphagia after anterior cervical decompression and fusion of the spine",
-        "dysphonia",
-        "anterior cervical spinal surgery",
-        "dysphagia"
-      ],
-      "firstEvidence": "2026-07-20",
-      "latestEvidence": "2026-07-20",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:arjumand bano:43c74936",
@@ -3288,11 +2979,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07713043",
           "date": "2026-07-20",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3307,7 +2998,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-07-20",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:elisa de la cruz:75078bb8",
@@ -3337,11 +3028,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07706270",
           "date": "2026-07-20",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3356,7 +3047,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-07-20",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:fernando martinez sagasti:8b997416",
@@ -3388,11 +3079,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07715110",
           "date": "2026-07-20",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3408,7 +3099,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-07-20",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:austin:d584eadb",
@@ -3438,11 +3129,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07712770",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3459,7 +3150,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:olivia:5c340991",
@@ -3489,11 +3180,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07712770",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3510,7 +3201,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:anthony mikula:9adf7ed7",
@@ -3540,11 +3231,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07712666",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3553,7 +3244,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:antoine av verger:46d5c9cd",
@@ -3583,11 +3274,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07676448",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3596,7 +3287,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:doran:8d05cb50",
@@ -3626,7 +3317,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07711392",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -3638,11 +3329,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07711353",
           "date": "2026-07-17",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 2,
-      "newSignalCount": 2,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3652,7 +3343,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:hany mohamed hamed:c27ef329",
@@ -3682,11 +3373,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07636967",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3700,7 +3391,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:maha mostafa alibeiny:91ef78aa",
@@ -3730,11 +3421,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07636967",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3748,7 +3439,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:matthieu bailly:1e4006ad",
@@ -3780,11 +3471,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708805",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3797,7 +3488,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:peter hegyi:9eb486eb",
@@ -3827,11 +3518,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07711197",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3846,7 +3537,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:yuan:8a5358dd",
@@ -3878,11 +3569,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07709832",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3894,7 +3585,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:zsolt molnar:70a58cea",
@@ -3924,11 +3615,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07711197",
           "date": "2026-07-17",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3943,7 +3634,7 @@
       ],
       "firstEvidence": "2026-07-17",
       "latestEvidence": "2026-07-17",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:daniel:94acda57",
@@ -3975,11 +3666,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708350",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -3995,7 +3686,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:fiammengo:48df714f",
@@ -4025,11 +3716,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708688",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4042,7 +3733,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:giacomo emmi:2ba51838",
@@ -4072,11 +3763,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708688",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4089,7 +3780,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:luminita lazar:7a861092",
@@ -4119,11 +3810,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07642037",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4150,7 +3841,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:tommasini:ada8c191",
@@ -4180,11 +3871,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708688",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4197,7 +3888,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:urban:36a65fa2",
@@ -4227,11 +3918,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708688",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4244,7 +3935,7 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:zaja:070b0228",
@@ -4274,11 +3965,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07708688",
           "date": "2026-07-16",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4291,7 +3982,60 @@
       ],
       "firstEvidence": "2026-07-16",
       "latestEvidence": "2026-07-16",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:malaysia:ae9b9ba2",
+      "kind": "company",
+      "name": "Malaysia Palm Oil Board",
+      "aliases": [],
+      "company": "Malaysia Palm Oil Board",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Monash University Malaysia) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07694583",
+          "title": "Evaluating the Efficacy of a Tocotrienols-Loaded Dressing in Wound Care for Pressure Ulcers",
+          "url": "https://clinicaltrials.gov/study/NCT07694583",
+          "date": "2026-07-15",
+          "contribution": 20,
+          "isNew": true
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 1,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "pressure ulcer stage 1",
+        "pressure ulcers stage ii",
+        "pressure injuries",
+        "dressing membrane",
+        "tocotrienols",
+        "wound care",
+        "pressure ulcer",
+        "hydrocolloid",
+        "pressure injury",
+        "push score",
+        "wound size reduction"
+      ],
+      "firstEvidence": "2026-07-15",
+      "latestEvidence": "2026-07-15",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:sergey:e7f873c7",
@@ -4321,11 +4065,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07657767",
           "date": "2026-07-15",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4337,7 +4081,7 @@
       ],
       "firstEvidence": "2026-07-15",
       "latestEvidence": "2026-07-15",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:chawla:1fbb4ff7",
@@ -4367,11 +4111,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07702942",
           "date": "2026-07-15",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4386,7 +4130,7 @@
       ],
       "firstEvidence": "2026-07-15",
       "latestEvidence": "2026-07-15",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:hilal tuzer:3d700b77",
@@ -4416,11 +4160,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07704008",
           "date": "2026-07-15",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4436,7 +4180,7 @@
       ],
       "firstEvidence": "2026-07-15",
       "latestEvidence": "2026-07-15",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:korkmaz:6ca68c4e",
@@ -4466,11 +4210,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07705490",
           "date": "2026-07-15",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4488,7 +4232,7 @@
       ],
       "firstEvidence": "2026-07-15",
       "latestEvidence": "2026-07-15",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:sterling:7db164e5",
@@ -4520,11 +4264,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07701928",
           "date": "2026-07-14",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4536,7 +4280,7 @@
       ],
       "firstEvidence": "2026-07-14",
       "latestEvidence": "2026-07-14",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:rachel gicquelais:23c13894",
@@ -4568,11 +4312,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07649278",
           "date": "2026-07-14",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4585,7 +4329,7 @@
       ],
       "firstEvidence": "2026-07-14",
       "latestEvidence": "2026-07-14",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:ryan westergaard:bd264735",
@@ -4617,11 +4361,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07649278",
           "date": "2026-07-14",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4634,7 +4378,7 @@
       ],
       "firstEvidence": "2026-07-14",
       "latestEvidence": "2026-07-14",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:umar:dd81799c",
@@ -4664,11 +4408,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07703410",
           "date": "2026-07-14",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4679,7 +4423,7 @@
       ],
       "firstEvidence": "2026-07-14",
       "latestEvidence": "2026-07-14",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:daniel cobian:4046c074",
@@ -4711,11 +4455,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07674784",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4728,7 +4472,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:etienne ojardias:e50d6bf1",
@@ -4760,11 +4504,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07629674",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4777,7 +4521,68 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:eui sik suh:e37d42b1",
+      "kind": "person",
+      "name": "Eui Sik Suh, MBBS MChem(Oxon) PhD FRCP",
+      "aliases": [
+        "Eui-Sik Suh, MBBS MChem(Oxon) PhD FRCP"
+      ],
+      "company": "",
+      "companies": [],
+      "country": "GB",
+      "countries": [
+        "GB"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Guy's and St Thomas' NHS Foundation Trust) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06834581",
+          "title": "Effects of Vibrating Mesh Nebulisation in Patients on Long-term Tracheostomy Ventilation: a Pilot Randomised Crossover Trial",
+          "url": "https://clinicaltrials.gov/study/NCT06834581",
+          "date": "2026-07-13",
+          "contribution": 20,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06884228",
+          "title": "Effects of Vibrating Mesh Nebulisation in Patients With COPD During Non-invasive Ventilation (VMN-NIV)",
+          "url": "https://clinicaltrials.gov/study/NCT06884228",
+          "date": "2026-07-10",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 2,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "long-term tracheostomy ventilated patients",
+        "vibrating mesh nebuliser",
+        "jet nebuliser"
+      ],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-13",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:heba ahmed elgyar:8f9e23af",
@@ -4807,11 +4612,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07699458",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4820,7 +4625,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:husam i alahmadi:7f4dd353",
@@ -4850,11 +4655,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07698873",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4868,7 +4673,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:hytham mohammed elhafez:18f1f0ea",
@@ -4898,11 +4703,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07699458",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4911,7 +4716,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:rania reda mohammed:d438e205",
@@ -4941,11 +4746,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07699458",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -4954,7 +4759,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:thomas turgeon:479341d1",
@@ -4986,11 +4791,11 @@
           "url": "https://clinicaltrials.gov/study/NCT07698717",
           "date": "2026-07-13",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5002,7 +4807,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-13",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:simona:b52a2c0b",
@@ -5019,7 +4824,7 @@
         "new_trial_no_company"
       ],
       "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Simona Ascanelli) — spin-out possible."
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
       ],
       "signals": [
         {
@@ -5032,29 +4837,147 @@
           "url": "https://clinicaltrials.gov/study/NCT07696689",
           "date": "2026-07-10",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
-      "keywords": [
-        "low anterior resection syndrome (lars)",
-        "lars",
-        "trans-anal irrigation",
-        "rectal cancer",
-        "low anterior resection syndrome",
-        "constipation",
-        "bowel movements",
-        "fecal incontinence",
-        "tai",
-        "peristeen plus"
-      ],
+      "keywords": [],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-10",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:ann marie rosland:2f95fcba",
+      "kind": "person",
+      "name": "Ann-Marie Rosland, MD, MS",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06848361",
+          "title": "Helping Adults With Type 2 Diabetes Use Their Health Data for Healthy Diabetes Self-Management",
+          "url": "https://clinicaltrials.gov/study/NCT06848361",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:carissa low:1a234db9",
+      "kind": "person",
+      "name": "Carissa Low, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06848361",
+          "title": "Helping Adults With Type 2 Diabetes Use Their Health Data for Healthy Diabetes Self-Management",
+          "url": "https://clinicaltrials.gov/study/NCT06848361",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:christos papadelis:3e6811d2",
+      "kind": "person",
+      "name": "Christos Papadelis, PhD",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06450158",
+          "title": "Robot-assisted Training in Children With CP",
+          "url": "https://clinicaltrials.gov/study/NCT06450158",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:jens eckstein:e6fac4e3",
@@ -5073,7 +4996,7 @@
         "new_trial_no_company"
       ],
       "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur University Hospital, Basel, Switzerland) — spin-out possible."
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
       ],
       "signals": [
         {
@@ -5086,25 +5009,102 @@
           "url": "https://clinicaltrials.gov/study/NCT07694570",
           "date": "2026-07-10",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
-      "keywords": [
-        "atrial fibrillation (paroxysmal)",
-        "hypertension",
-        "feasibilty study",
-        "m2vs system",
-        "ecg",
-        "electrocardiogram"
-      ],
+      "keywords": [],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-10",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:jonathan m hernandez:ebb53b4f",
+      "kind": "person",
+      "name": "Jonathan M Hernandez, M.D.",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05286814",
+          "title": "PDS01ADC in Combination With Hepatic Artery Infusion Pump (HAIP) and Systemic Therapy for Subjects With Metastatic Colorectal Cancer, Intrahepatic Cholangiocarcinoma, or Metastatic Adrenocortical Carcinoma",
+          "url": "https://clinicaltrials.gov/study/NCT05286814",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:lozada:68876cfb",
+      "kind": "person",
+      "name": "Jaime Lozada",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "",
+      "countries": [],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07032259",
+          "title": "Regenerative Outcomes for Peri-implant Bony Defects Using Amnion-chorion Barrier vs. Collagen Membrane",
+          "url": "https://clinicaltrials.gov/study/NCT07032259",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:robert chen:e90cd30d",
@@ -5123,7 +5123,7 @@
         "new_trial_no_company"
       ],
       "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur Robert Chen) — spin-out possible."
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
       ],
       "signals": [
         {
@@ -5136,21 +5136,18 @@
           "url": "https://clinicaltrials.gov/study/NCT07695233",
           "date": "2026-07-10",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
-      "keywords": [
-        "parkinson disease",
-        "freezing of gait symptoms in parkinson disease"
-      ],
+      "keywords": [],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-10",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:shahida khawaja:11b8876d",
@@ -5167,7 +5164,7 @@
         "new_trial_no_company"
       ],
       "reasons": [
-        "Nouvel essai clinique enregistré le 2026-07-09 sans structure commerciale identifiée (promoteur University of Health Sciences Lahore) — spin-out possible."
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
       ],
       "signals": [
         {
@@ -5180,25 +5177,140 @@
           "url": "https://clinicaltrials.gov/study/NCT07691554",
           "date": "2026-07-10",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 1,
-      "newSignalCount": 1,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
-      "keywords": [
-        "cannulation of internal jugular vein",
-        "internal jugular vein",
-        "catheterization, central venous",
-        "ultrasonography",
-        "ultrasound-guided procedures",
-        "central venous catheters"
-      ],
+      "keywords": [],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-10",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "person:wuite:f3db0e2c",
+      "kind": "person",
+      "name": "Sander Wuite",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "BE",
+      "countries": [
+        "BE"
+      ],
+      "score": 50,
+      "priority": "medium",
+      "rules": [
+        "new_trial_no_company"
+      ],
+      "reasons": [
+        "Nouvel essai clinique enregistré le 2026-07-10 sans structure commerciale identifiée (promoteur académique) — spin-out possible."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06260813",
+          "title": "Biomechanical and Morphological Characterization of PTTD",
+          "url": "https://clinicaltrials.gov/study/NCT06260813",
+          "date": "2026-07-10",
+          "contribution": 20,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [],
+      "firstEvidence": "2026-07-10",
+      "latestEvidence": "2026-07-10",
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:bausch:53999876",
+      "kind": "company",
+      "name": "Bausch & Lomb Incorporated",
+      "aliases": [
+        "Bausch M"
+      ],
+      "orcid": "0000-0002-0188-3816",
+      "company": "Bausch & Lomb Incorporated",
+      "companies": [
+        "Bausch & Lomb Incorporated"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 43,
+      "priority": "low",
+      "rules": [],
+      "reasons": [
+        "Corroboré par 2 sources indépendantes (+5)."
+      ],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05325931",
+          "title": "1-Week Dispensing Evaluation of Kalifilcon A Daily Disposable Multifocal Compared to Ultra for Presbyopia",
+          "url": "https://clinicaltrials.gov/study/NCT05325931",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": false
+        },
+        {
+          "signalType": "publication_preprint",
+          "strength": 2,
+          "recordKind": "publication",
+          "source": "europepmc",
+          "sourceId": "MED:42495826",
+          "title": "Seizure detection devices in outpatient epilepsy care: High demand, low use, and the need for specialized counseling.",
+          "url": "https://doi.org/10.1002/epd2.70346",
+          "date": "2026-07-24",
+          "contribution": 15,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06333015",
+          "title": "Study to Evaluate the Safety and Effectiveness of the enVista® Beyond (EY) EDF Intraocular Lens in Subjects Undergoing Cataract Extraction",
+          "url": "https://clinicaltrials.gov/study/NCT06333015",
+          "date": "2026-07-13",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials",
+        "europepmc"
+      ],
+      "keywords": [
+        "presbyopia",
+        "patient acceptance",
+        "sudep",
+        "mhealth",
+        "user perspectives",
+        "wearable devices",
+        "cataract"
+      ],
+      "firstEvidence": "2026-07-13",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:xu:05d97c83",
@@ -5230,7 +5342,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06331923",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "publication_preprint",
@@ -5242,11 +5354,11 @@
           "url": "https://doi.org/10.1007/s00484-026-03273-7",
           "date": "2026-07-13",
           "contribution": 15,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 2,
-      "newSignalCount": 2,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials",
         "europepmc"
@@ -5264,7 +5376,7 @@
       ],
       "firstEvidence": "2026-07-13",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:yang:404e9261",
@@ -5296,7 +5408,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06331923",
           "date": "2026-07-29",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "publication_preprint",
@@ -5308,11 +5420,11 @@
           "url": "https://doi.org/10.1136/openhrt-2026-003966",
           "date": "2026-07-23",
           "contribution": 15,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 2,
-      "newSignalCount": 2,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials",
         "europepmc"
@@ -5328,7 +5440,7 @@
       ],
       "firstEvidence": "2026-07-23",
       "latestEvidence": "2026-07-29",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:boston:eed3d363",
@@ -5360,7 +5472,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07575269",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5372,7 +5484,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07349121",
           "date": "2026-08-05",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5384,7 +5496,7 @@
           "url": "https://clinicaltrials.gov/study/NCT04790344",
           "date": "2026-08-04",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5396,7 +5508,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07209852",
           "date": "2026-08-04",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5408,7 +5520,7 @@
           "url": "https://clinicaltrials.gov/study/NCT03664609",
           "date": "2026-08-04",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5420,7 +5532,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06192758",
           "date": "2026-07-31",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5432,7 +5544,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06710223",
           "date": "2026-07-28",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5444,7 +5556,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06510556",
           "date": "2026-07-27",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5456,7 +5568,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06750146",
           "date": "2026-07-24",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5468,7 +5580,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07353710",
           "date": "2026-07-23",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5480,7 +5592,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06335082",
           "date": "2026-07-23",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5492,11 +5604,11 @@
           "url": "https://clinicaltrials.gov/study/NCT04147884",
           "date": "2026-07-22",
           "contribution": 0,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 13,
-      "newSignalCount": 13,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5524,7 +5636,196 @@
       ],
       "firstEvidence": "2026-07-15",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:edwards:9e6e75b6",
+      "kind": "company",
+      "name": "Edwards Lifesciences",
+      "aliases": [],
+      "company": "Edwards Lifesciences",
+      "companies": [
+        "Edwards Lifesciences"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 32,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04902053",
+          "title": "INSPIRIS RESILIA Aortic Valve, Valve-in-Valve Surveillance Study",
+          "url": "https://clinicaltrials.gov/study/NCT04902053",
+          "date": "2026-08-04",
+          "contribution": 20,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07742839",
+          "title": "CLAARITY is a Prospective, Observational, Single-arm, Multi-center, Post-market US Study Designed to Evaluate the Safety and Performance of the ECLIPTIS Left Atrial Appendage Exclusion System for Exclusion of the Left Atrial Appendage (LAA) During Concomitant Open-heart Cardiac Surgery.",
+          "url": "https://clinicaltrials.gov/study/NCT07742839",
+          "date": "2026-08-03",
+          "contribution": 3,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05172973",
+          "title": "ALLIANCE AVIV: Safety and Effectiveness of the SAPIEN X4 Transcatheter Heart Valve in Failing Aortic Bioprosthetic Valves",
+          "url": "https://clinicaltrials.gov/study/NCT05172973",
+          "date": "2026-07-27",
+          "contribution": 3,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07466745",
+          "title": "Autus Valve Continued Access Study (CAS)",
+          "url": "https://clinicaltrials.gov/study/NCT07466745",
+          "date": "2026-07-17",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06932640",
+          "title": "Continuous Assessment of Brain Blood Perfusion in Subarachnoid Hemorrhage Patients Using Near-Infrared Spectroscopy (NIRS)",
+          "url": "https://clinicaltrials.gov/study/NCT06932640",
+          "date": "2026-07-14",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 5,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "aortic valve replacement",
+        "invivity",
+        "resilia",
+        "inspiris",
+        "valve in valve",
+        "tavr",
+        "aortic transcatheter",
+        "atrial appendage",
+        "aortic valve insufficiency",
+        "aortic valve stenosis",
+        "transcatheter aortic valve replacement (tavr)",
+        "transcatheter aortic valve implantation (tavi)",
+        "sapien x4/x4s",
+        "valve-in-valve",
+        "congenital heart disease",
+        "subarachnoid hemorrhage, aneurysmal"
+      ],
+      "firstEvidence": "2026-07-14",
+      "latestEvidence": "2026-08-04",
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:xeltis:c5461058",
+      "kind": "company",
+      "name": "Xeltis",
+      "aliases": [],
+      "company": "Xeltis",
+      "companies": [
+        "Xeltis"
+      ],
+      "country": "US",
+      "countries": [
+        "US",
+        "BE"
+      ],
+      "score": 29,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT03022708",
+          "title": "Xeltis Bioabsorbable Pulmonary Valved Conduit Pivotal Study",
+          "url": "https://clinicaltrials.gov/study/NCT03022708",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06494631",
+          "title": "Xeltis Hemodialysis Access Graft (aXess) US Study",
+          "url": "https://clinicaltrials.gov/study/NCT06494631",
+          "date": "2026-07-29",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT04545112",
+          "title": "Xeltis Coronary Artery Bypass Graft (XABG) First in Human (FIH)",
+          "url": "https://clinicaltrials.gov/study/NCT04545112",
+          "date": "2026-07-29",
+          "contribution": 3,
+          "isNew": true
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07716020",
+          "title": "XPAD European Feasibility Study",
+          "url": "https://clinicaltrials.gov/study/NCT07716020",
+          "date": "2026-07-21",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 4,
+      "newSignalCount": 2,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "heart defect, congenital",
+        "end stage renal disease",
+        "multi vessel coronary artery disease",
+        "peripheral arterial disease"
+      ],
+      "firstEvidence": "2026-07-21",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:natera:683d43ca",
@@ -5555,7 +5856,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07689812",
           "date": "2026-08-04",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5567,7 +5868,7 @@
           "url": "https://clinicaltrials.gov/study/NCT05174169",
           "date": "2026-08-04",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5579,7 +5880,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07718633",
           "date": "2026-07-22",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5591,11 +5892,11 @@
           "url": "https://clinicaltrials.gov/study/NCT06450314",
           "date": "2026-07-21",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 4,
-      "newSignalCount": 4,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5623,7 +5924,7 @@
       ],
       "firstEvidence": "2026-07-21",
       "latestEvidence": "2026-08-04",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:ban leong sng:e4d894cb",
@@ -5651,7 +5952,7 @@
           "url": "https://clinicaltrials.gov/study/NCT03750318",
           "date": "2026-08-07",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5663,7 +5964,7 @@
           "url": "https://clinicaltrials.gov/study/NCT04025918",
           "date": "2026-08-06",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5675,11 +5976,11 @@
           "url": "https://clinicaltrials.gov/study/NCT03167905",
           "date": "2026-08-06",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5704,7 +6005,7 @@
       ],
       "firstEvidence": "2026-08-06",
       "latestEvidence": "2026-08-07",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:abbott:50e8db46",
@@ -5735,7 +6036,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06223789",
           "date": "2026-08-06",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5747,7 +6048,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07523620",
           "date": "2026-07-13",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5759,11 +6060,11 @@
           "url": "https://clinicaltrials.gov/study/NCT06008080",
           "date": "2026-07-10",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5776,15 +6077,86 @@
         "pfa",
         "pulsed field ablation",
         "atrial fibrillation (af)",
-        "left atrial appendage",
-        "aortic stenosis",
-        "navitor",
-        "transcatheter aortic valve implantation (tavi)",
-        "cardiovascular disease"
+        "left atrial appendage"
       ],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-08-06",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
+    },
+    {
+      "id": "company:abbvie:f5a594a5",
+      "kind": "company",
+      "name": "AbbVie",
+      "aliases": [
+        "ABBVIE INC."
+      ],
+      "company": "AbbVie",
+      "companies": [
+        "AbbVie",
+        "AbbVie"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 26,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06575192",
+          "title": "Evaluation of the Safety and Effectiveness of ARTIA Reconstructive Tissue Matrix Breast Reconstruction (ADORA) in Adult Participants",
+          "url": "https://clinicaltrials.gov/study/NCT06575192",
+          "date": "2026-08-06",
+          "contribution": 20,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06575192",
+          "title": "Evaluation of the Safety and Effectiveness of ARTIA Reconstructive Tissue Matrix Breast Reconstruction (ADORA) in Adult Participants",
+          "url": "https://clinicaltrials.gov/study/NCT06575192",
+          "date": "2026-08-06",
+          "contribution": 3,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT05796388",
+          "title": "A Study of Virtual Reality and Linaclotide for IBS-C",
+          "url": "https://clinicaltrials.gov/study/NCT05796388",
+          "date": "2026-07-29",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 3,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "breast reconstruction",
+        "adora",
+        "artia",
+        "irritable bowel syndrome with constipation",
+        "virtual reality",
+        "ibs-c"
+      ],
+      "firstEvidence": "2026-07-29",
+      "latestEvidence": "2026-08-06",
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:hoffmann:28112917",
@@ -5816,7 +6188,7 @@
           "url": "https://clinicaltrials.gov/study/NCT05562947",
           "date": "2026-08-04",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5828,7 +6200,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06704672",
           "date": "2026-07-29",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5840,11 +6212,11 @@
           "url": "https://clinicaltrials.gov/study/NCT04929223",
           "date": "2026-07-20",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5858,7 +6230,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-08-04",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:trials:8f3f6bc4",
@@ -5891,7 +6263,7 @@
           "url": "https://clinicaltrials.gov/study/NCT05562947",
           "date": "2026-08-04",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5903,7 +6275,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06704672",
           "date": "2026-07-29",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -5915,11 +6287,11 @@
           "url": "https://clinicaltrials.gov/study/NCT04929223",
           "date": "2026-07-20",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -5933,81 +6305,7 @@
       ],
       "firstEvidence": "2026-07-20",
       "latestEvidence": "2026-08-04",
-      "updatedAt": "2026-08-09"
-    },
-    {
-      "id": "company:edwards:9e6e75b6",
-      "kind": "company",
-      "name": "Edwards Lifesciences",
-      "aliases": [],
-      "company": "Edwards Lifesciences",
-      "companies": [
-        "Edwards Lifesciences"
-      ],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 26,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT07742839",
-          "title": "CLAARITY is a Prospective, Observational, Single-arm, Multi-center, Post-market US Study Designed to Evaluate the Safety and Performance of the ECLIPTIS Left Atrial Appendage Exclusion System for Exclusion of the Left Atrial Appendage (LAA) During Concomitant Open-heart Cardiac Surgery.",
-          "url": "https://clinicaltrials.gov/study/NCT07742839",
-          "date": "2026-08-03",
-          "contribution": 20,
-          "isNew": true
-        },
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT05172973",
-          "title": "ALLIANCE AVIV: Safety and Effectiveness of the SAPIEN X4 Transcatheter Heart Valve in Failing Aortic Bioprosthetic Valves",
-          "url": "https://clinicaltrials.gov/study/NCT05172973",
-          "date": "2026-07-27",
-          "contribution": 3,
-          "isNew": true
-        },
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT06932640",
-          "title": "Continuous Assessment of Brain Blood Perfusion in Subarachnoid Hemorrhage Patients Using Near-Infrared Spectroscopy (NIRS)",
-          "url": "https://clinicaltrials.gov/study/NCT06932640",
-          "date": "2026-07-14",
-          "contribution": 3,
-          "isNew": true
-        }
-      ],
-      "signalCount": 3,
-      "newSignalCount": 3,
-      "sources": [
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "atrial appendage",
-        "aortic valve insufficiency",
-        "aortic valve stenosis",
-        "transcatheter aortic valve replacement (tavr)",
-        "transcatheter aortic valve implantation (tavi)",
-        "sapien x4/x4s",
-        "valve-in-valve",
-        "subarachnoid hemorrhage, aneurysmal"
-      ],
-      "firstEvidence": "2026-07-14",
-      "latestEvidence": "2026-08-03",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:shockwave:ccbd1059",
@@ -6037,7 +6335,7 @@
           "url": "https://clinicaltrials.gov/study/NCT06662500",
           "date": "2026-08-03",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6049,7 +6347,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07062471",
           "date": "2026-07-31",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6061,11 +6359,11 @@
           "url": "https://clinicaltrials.gov/study/NCT05858905",
           "date": "2026-07-14",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -6081,7 +6379,7 @@
       ],
       "firstEvidence": "2026-07-14",
       "latestEvidence": "2026-08-03",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "company:medtronic:fcd54379",
@@ -6111,7 +6409,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07298473",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6123,7 +6421,7 @@
           "url": "https://clinicaltrials.gov/study/NCT05227053",
           "date": "2026-07-22",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6135,11 +6433,11 @@
           "url": "https://clinicaltrials.gov/study/NCT06578104",
           "date": "2026-07-10",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -6165,7 +6463,7 @@
       ],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     },
     {
       "id": "person:khaldoun tarakji:6da35125",
@@ -6195,7 +6493,7 @@
           "url": "https://clinicaltrials.gov/study/NCT07298473",
           "date": "2026-07-31",
           "contribution": 20,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6207,7 +6505,7 @@
           "url": "https://clinicaltrials.gov/study/NCT05227053",
           "date": "2026-07-22",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         },
         {
           "signalType": "clinical_update",
@@ -6219,11 +6517,11 @@
           "url": "https://clinicaltrials.gov/study/NCT06578104",
           "date": "2026-07-10",
           "contribution": 3,
-          "isNew": true
+          "isNew": false
         }
       ],
       "signalCount": 3,
-      "newSignalCount": 3,
+      "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
       ],
@@ -6249,7 +6547,7 @@
       ],
       "firstEvidence": "2026-07-10",
       "latestEvidence": "2026-07-31",
-      "updatedAt": "2026-08-09"
+      "updatedAt": "2026-08-10"
     }
   ]
 }
