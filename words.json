@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-10",
+  "generatedAt": "2026-08-11",
   "words": [
+    {
+      "term": "Hospital-at-Home",
+      "full": "Hospital-at-Home (Hospital in the Home)",
+      "fr": "Hospitalisation à domicile augmentée",
+      "field": "Soins virtuels / Monitoring connecté",
+      "definition": "Un modèle de soins où un patient normalement hospitalisé reste chez lui, relié à l'hôpital par des capteurs connectés et une équipe clinique à distance qui surveille ses constantes en continu.",
+      "parts": [
+        {
+          "label": "Biocapteur porté",
+          "role": "capte en continu les constantes vitales au domicile"
+        },
+        {
+          "label": "Plateforme d'orchestration clinique",
+          "role": "centralise les alertes et organise les visites soignantes"
+        },
+        {
+          "label": "Logistique inversée",
+          "role": "livre matériel médical, oxygène et perfusions jusqu'au lit du patient"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Éligibilité",
+          "t": "Le patient est sélectionné à l'admission selon des critères cliniques stricts (pathologie stable, domicile compatible)."
+        },
+        {
+          "n": "2",
+          "h": "Bascule à domicile",
+          "t": "Un kit de capteurs et de télécommunication est installé chez le patient, connecté au centre de pilotage de l'hôpital."
+        },
+        {
+          "n": "3",
+          "h": "Surveillance continue",
+          "t": "Une équipe clinique à distance suit les constantes en temps réel et déclenche une visite ou un retour à l'hôpital si besoin."
+        }
+      ],
+      "why": "Les systèmes de santé européens, sous pression de capacité hospitalière, poussent ce modèle pour libérer des lits sans dégrader le suivi — un thème que Philips vient de renforcer en ouvrant son écosystème de monitoring à six biosensoristes indépendants d'un coup, dont deux scale-ups européennes. Pour un VC santé, c'est un sous-secteur en pleine consolidation autour des grands groupes, où la thèse d'investissement se joue sur qui devient le partenaire technologique préféré avant la prochaine levée.",
+      "startups": [
+        {
+          "name": "Doccla",
+          "use": "Plateforme de virtual wards pour le NHS ; Series B de £35M en 2024, plus de 1 000 lits virtuels déployés avec NHS Greater Glasgow and Clyde",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "smartQare",
+          "use": "Capteur multiparamétrique viQtor/Healthdot ; partenaire de l'écosystème ouvert de monitoring Philips depuis 2024, élargi en août 2026",
+          "place": "Pays-Bas"
+        },
+        {
+          "name": "Cuviva",
+          "use": "Plateforme IT d'hospitalisation à domicile certifiée MDR classe IIa ; partenaire du volet Hospital@Home de Philips depuis août 2026",
+          "place": "Suède"
+        }
+      ],
+      "date": "2026-08-11",
+      "dateLong": "11 août 2026"
+    },
     {
       "term": "POCUS",
       "full": "Point-of-Care Ultrasound",

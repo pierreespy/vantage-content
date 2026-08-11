@@ -1,85 +1,96 @@
 {
-  "dateLong": "10 août 2026",
+  "dateLong": "11 août 2026",
   "ticker": [
-    { "company": "VEXEV", "amount": "$6M", "kind": "lev" },
-    { "company": "LIFEMINE THERAPEUTICS", "amount": "$263M", "kind": "lev" },
-    { "company": "EXPEDITION THERAPEUTICS", "amount": "$115M", "kind": "lev" },
-    { "company": "KAROO HEALTH", "amount": "$16,2M", "kind": "lev" },
-    { "company": "TYBR HEALTH", "amount": "$30M", "kind": "lev" },
-    { "company": "CLARYX", "amount": "$3,5M", "kind": "lev" }
+    { "company": "AVERE THERAPEUTICS", "amount": "$500M", "kind": "lev" },
+    { "company": "VITALCONNECT", "amount": "$287,5M", "kind": "mna" },
+    { "company": "INTEGER HOLDINGS", "amount": "$5,7Md", "kind": "mna" },
+    { "company": "ENSYSCE BIOSCIENCES", "amount": "$77M", "kind": "lev" },
+    { "company": "WELLINKS", "amount": "$10M", "kind": "lev" },
+    { "company": "GLUCOTRACK", "amount": "$5,5M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series A · MedTech robotique (Australie)",
-    "title": "Vexev lève 6 M$ pour porter son échographie vasculaire robotisée jusqu'à la clearance FDA",
-    "deck": "Le medtech australien Vexev, soutenu par Blackbird Ventures, porte son financement total à 19 M$ pour financer les activités réglementaires et la commercialisation américaine de VxWave, une plateforme qui automatise par robotique et IA l'échographie vasculaire — déjà validée à 94% de réussite par du personnel non spécialisé lors d'une étude multicentrique avec l'opérateur de dialyse américain US Renal Care.",
-    "company": "Vexev",
-    "stage": "Series A",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.prnewswire.com/news-releases/vexev-raises-6m-to-accelerate-us-commercialization-of-autonomous-vascular-imaging-platform-302842976.html"
+    "kicker": "Partenariat stratégique · Monitoring connecté (Pays-Bas)",
+    "title": "smartQare rejoint l'écosystème ouvert de monitoring hospitalier de Philips",
+    "deck": "Philips élargit son Patient Information Center iX à six biosensoristes indépendants — dont le scale-up néerlandais smartQare, qui lui avait racheté son activité Healthdot en 2024 — pour prolonger la surveillance continue du patient de la chambre d'hôpital jusqu'au domicile. Pour un jeune fournisseur de capteurs, entrer dans l'écosystème ouvert d'un leader mondial du monitoring avant son prochain tour est un signal d'entrée plus précoce qu'une levée déjà bouclée.",
+    "company": "smartQare",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://www.globenewswire.com/news-release/2026/08/06/3340318/0/en/philips-expands-open-patient-monitoring-ecosystem-to-help-health-systems-keep-sight-of-patients-beyond-the-bedside.html"
   },
   "deal": {
-    "company": "LifeMine Therapeutics",
-    "amount": "$263 M",
-    "round": "Series D + Series E ($263 M combinés)",
-    "thesis": "Le fonds Milky Way Investments mène un tour oversubscrit rassemblant ARCH Venture Partners, GSK, Bezos Expeditions et Gates Frontier autour de LIFE-001, un inhibiteur de l'activation de la calcineurine structurellement inédit, conçu pour éviter la toxicité rénale et neurologique des immunosuppresseurs historiques (ciclosporine, tacrolimus) qui pèsent depuis 40 ans sur la survie des greffons. Avec plus de 120 patients déjà exposés en Phase 1 et un profil amélioré démontré, le capital finance directement l'entrée en Phase 2 rénale — la thèse n'est plus le risque scientifique mais la course pour remplacer un standard de soins vieux d'une génération.",
-    "url": "https://www.businesswire.com/news/home/20260805424364/en/LifeMine-Raises-$263-Million-to-Accelerate-the-Clinical-Development-of-LIFE-001-a-Structurally-and-Mechanistically-Novel-Calcineurin-Activation-Inhibitor-Designed-to-Transform-Organ-Transplantation"
+    "company": "Avere Therapeutics (ex-NextCure)",
+    "amount": "$820 M",
+    "round": "Private Placement + Reverse Merger",
+    "thesis": "Un syndicat mené par Venrock Healthcare Capital Partners, General Atlantic, RTW Investments, Wellington Management et Janus Henderson engage 500 M$, complétés par 320 M$ déjà sécurisés, pour fusionner Avere dans la coquille cotée NextCure et financer jusqu'en 2029 le développement d'AVR-001, un antagoniste oral de l'IL-23 pris une fois par semaine, positif en Phase 1b dans le psoriasis. Le reverse merger dans un biotech public en difficulté plutôt qu'une IPO classique devient une voie de sortie standard pour le capital-risque santé en 2026, quand la fenêtre IPO reste étroite pour les actifs de taille moyenne.",
+    "url": "https://www.prnewswire.com/news-releases/avere-therapeutics-announces-500-million-private-placement-to-support-development-of-once-weekly-oral-il-23-therapy-avr-001-302846694.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Cuviva",
+      "place": "Suède",
+      "sector": "Digital Health",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Cuviva embarque sa plateforme d'hospitalisation à domicile dans l'écosystème ouvert de Philips",
+      "summary": "La medtech suédoise, dont la plateforme de monitoring à distance est certifiée MDR classe IIa, devient partenaire technologique du volet Hospital@Home du Patient Information Center iX de Philips, aux côtés de cinq autres biosensoristes indépendants.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340318/0/en/philips-expands-open-patient-monitoring-ecosystem-to-help-health-systems-keep-sight-of-patients-beyond-the-bedside.html"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Karoo Health",
+      "company": "Hopstem Biotechnology",
+      "place": "Chine",
+      "sector": "Biotech",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series C",
+      "title": "Hopstem boucle le premier closing de sa Series C pour sa thérapie cellulaire iPSC contre l'AVC",
+      "summary": "Tasly Capital, Haibang Investment et Guangzhou Health Industry Investment rejoignent l'actionnaire historique Longmen Capital pour financer hNPC01, une thérapie cellulaire dérivée d'iPSC désignée Fast Track et RMAT par la FDA, jusqu'à sa préparation à la fabrication commerciale.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/10/3341619/0/en/hopstem-announces-the-first-closing-of-series-c-financing-to-accelerate-the-development-of-ipsc-derived-forebrain-neural-cell-therapy.html"
+    },
+    {
+      "company": "Wellinks",
       "place": "États-Unis",
       "sector": "Digital Health",
       "signalType": "funding_round",
       "strength": 4,
-      "title": "Karoo Health clôture une Series A de 16,2 M$ pour sa plateforme cardiovasculaire pilotée par IA",
-      "summary": "Menée par 7wire Ventures et Allumia Ventures, la levée finance l'extension d'une plateforme qui connecte payeurs, cardiologues et patients pour détecter plus tôt le risque cardiovasculaire ; sur les programmes déjà déployés auprès de plus de 600 cardiologues dans 11 États américains, les analyses indépendantes rapportent plus de 40% de réduction des passages aux urgences et hospitalisations, et plus de 10% de baisse du coût total de soins.",
-      "url": "https://www.prnewswire.com/news-releases/karoo-health-announces-oversubscribed-16-2-million-series-a-co-led-by-7wire-ventures-and-allumia-ventures-302830121.html"
+      "stage": "Series B",
+      "title": "Wellinks lève 10 M$ pour son monitoring prédictif des maladies cardiopulmonaires",
+      "summary": "UMass Memorial Health rejoint les investisseurs historiques dans ce premier closing de Series B, qui finance l'extension du système de monitoring à distance FDA-cleared de Wellinks vers les zones rurales et sous-desservies, et son entrée dans l'insuffisance cardiaque.",
+      "url": "https://www.prnewswire.com/news-releases/wellinks-closed-10-million-series-b-funding-from-umass-memorial-health-and-inside-investors-302842712.html"
     },
     {
-      "company": "Expedition Therapeutics",
+      "company": "Elicio Therapeutics",
       "place": "États-Unis",
       "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Expedition Therapeutics boucle 115 M$ en Series B pour son inhibiteur DPP1 licencié en Chine",
-      "summary": "General Atlantic mène ce tour oversubscrit aux côtés de Sanofi, Novo Holdings et Sofinnova, quelques jours après le dosage du premier patient d'un essai de Phase 2 mondial dans la BPCO pour EXPD-101 — un actif licencié en 2025 à Fosun Pharma pour 17 M$ upfront, symptomatique d'un modèle de « China NewCo » où le capital-risque occidental finance le développement global d'une molécule chinoise déjà en Phase 2 sur son marché domestique.",
-      "url": "https://www.businesswire.com/news/home/20260805154316/en/Expedition-Therapeutics-Announces-Oversubscribed-%24115-Million-Series-B-Financing-to-Advance-Next-Generation-DPP1-Inhibitor-for-COPD"
-    },
-    {
-      "company": "Claryx",
-      "place": "États-Unis",
-      "sector": "Diagnostics",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Claryx sort de stealth avec 3,5 M$ pour tracer les épidémies hospitalières par séquençage génomique",
-      "summary": "Menée par Outlander VC, l'amorçage finance CloneLink, une plateforme qui séquence en continu le génome des pathogènes pour relier des infections apparemment isolées et guider l'intervention des équipes d'hygiène hospitalière ; une étude de deux ans à l'UPMC Presbyterian citée par la société a permis d'identifier 172 foyers de transmission jusque-là invisibles et d'éviter environ 62 infections.",
-      "url": "https://www.businesswire.com/news/home/20260804346238/en/Claryx-Raises-$3.5-Million-Led-by-Outlander-to-Stop-Hospital-Outbreaks-Before-They-Start"
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Elicio Therapeutics active un essai de phase 1 en néoadjuvant dans le cancer du pancréas",
+      "summary": "Financé par la Lustgarten Foundation et mené par le Memorial Sloan Kettering, cet essai investigateur-initié teste ELI-002 7P associé à une chimiothérapie et, pour un bras, à un anti-PD-1, chez des patients opérables ou à la limite de la résécabilité.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/10/3341758/0/en/elicio-therapeutics-announces-activation-of-the-investigator-initiated-phase-1-study-of-neoadjuvant-eli-002-7p-for-pancreatic-ductal-adenocarcinoma.html"
     }
   ],
   "word": {
-    "term": "POCUS",
-    "full": "Point-of-Care Ultrasound",
-    "fr": "Échographie au point d'intervention",
-    "field": "Imagerie médicale / Diagnostic embarqué",
-    "definition": "Une échographie réalisée directement au chevet du patient — dialyse, urgences, domicile — par un personnel non spécialisé, de plus en plus guidée par la robotique et l'IA plutôt que par un sonographe expert en service de radiologie.",
+    "term": "Hospital-at-Home",
+    "full": "Hospital-at-Home (Hospital in the Home)",
+    "fr": "Hospitalisation à domicile augmentée",
+    "field": "Soins virtuels / Monitoring connecté",
+    "definition": "Un modèle de soins où un patient normalement hospitalisé reste chez lui, relié à l'hôpital par des capteurs connectés et une équipe clinique à distance qui surveille ses constantes en continu.",
     "parts": [
-      { "label": "Sonde connectée", "role": "l'organe de capture, miniaturisé, filaire ou robotisé" },
-      { "label": "Guidage IA ou bras robotisé", "role": "compense l'absence d'un opérateur expert en corrigeant angle et pression en temps réel" },
-      { "label": "Algorithme d'interprétation", "role": "transforme le signal brut en mesure clinique exploitable en quelques secondes" }
+      { "label": "Biocapteur porté", "role": "capte en continu les constantes vitales au domicile" },
+      { "label": "Plateforme d'orchestration clinique", "role": "centralise les alertes et organise les visites soignantes" },
+      { "label": "Logistique inversée", "role": "livre matériel médical, oxygène et perfusions jusqu'au lit du patient" }
     ],
     "how": [
-      { "n": "1", "h": "Positionnement", "t": "La sonde est placée sur la zone d'intérêt, manuellement ou via un bras robotisé autonome." },
-      { "n": "2", "h": "Correction en temps réel", "t": "Un modèle d'IA ajuste l'angle et la pression pour obtenir une image diagnostique, même entre des mains non expertes." },
-      { "n": "3", "h": "Restitution clinique", "t": "Le débit vasculaire, la taille d'un organe ou la présence d'un fluide est renvoyé en quelques secondes, sans attendre un radiologue." }
+      { "n": "1", "h": "Éligibilité", "t": "Le patient est sélectionné à l'admission selon des critères cliniques stricts (pathologie stable, domicile compatible)." },
+      { "n": "2", "h": "Bascule à domicile", "t": "Un kit de capteurs et de télécommunication est installé chez le patient, connecté au centre de pilotage de l'hôpital." },
+      { "n": "3", "h": "Surveillance continue", "t": "Une équipe clinique à distance suit les constantes en temps réel et déclenche une visite ou un retour à l'hôpital si besoin." }
     ],
-    "why": "Le POCUS robotisé et piloté par IA répond à la pénurie mondiale de sonographes qualifiés en déplaçant le diagnostic échographique du service de radiologie vers le lit du patient ou la dialyse — un axe qui attire à la fois des medtech pures (Vexev) et des plateformes IA d'imagerie (Exo Imaging, EchoNous), avec une voie réglementaire FDA 510(k) souvent plus rapide qu'un nouveau dispositif de radiologie classique.",
+    "why": "Les systèmes de santé européens, sous pression de capacité hospitalière, poussent ce modèle pour libérer des lits sans dégrader le suivi — un thème que Philips vient de renforcer en ouvrant son écosystème de monitoring à six biosensoristes indépendants d'un coup, dont deux scale-ups européennes. Pour un VC santé, c'est un sous-secteur en pleine consolidation autour des grands groupes, où la thèse d'investissement se joue sur qui devient le partenaire technologique préféré avant la prochaine levée.",
     "startups": [
-      { "name": "Vexev", "use": "VxWave, plateforme robotisée d'échographie vasculaire automatisée pour l'accès de dialyse ; 6 M$ levés en août 2026 pour la clearance FDA 510(k)", "place": "Sydney, Australie" },
-      { "name": "Fraiya", "use": "FraiyaScan, couche logicielle IA guidant l'échographie prénatale, marquée CE et déployée avec Canon Medical Systems Europe dans un essai NHS sur 4 hôpitaux", "place": "Londres, Royaume-Uni" },
-      { "name": "Exo Imaging", "use": "Écosystème d'échographie portable guidée par IA (Exo Iris) ; plus de 300 M$ levés et collaboration stratégique avec Samsung", "place": "Redwood City, États-Unis" },
-      { "name": "EchoNous", "use": "Kosmos, plateforme d'échographie portable assistée par IA ; extension 2026 vers les indications OB/GYN et vasculaires", "place": "Redmond, États-Unis" }
+      { "name": "Doccla", "use": "Plateforme de virtual wards pour le NHS ; Series B de £35M en 2024, plus de 1 000 lits virtuels déployés avec NHS Greater Glasgow and Clyde", "place": "Londres, Royaume-Uni" },
+      { "name": "smartQare", "use": "Capteur multiparamétrique viQtor/Healthdot ; partenaire de l'écosystème ouvert de monitoring Philips depuis 2024, élargi en août 2026", "place": "Pays-Bas" },
+      { "name": "Cuviva", "use": "Plateforme IT d'hospitalisation à domicile certifiée MDR classe IIa ; partenaire du volet Hospital@Home de Philips depuis août 2026", "place": "Suède" }
     ]
   }
 }
