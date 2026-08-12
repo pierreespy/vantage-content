@@ -1,96 +1,97 @@
 {
-  "dateLong": "11 août 2026",
+  "dateLong": "12 août 2026",
   "ticker": [
-    { "company": "AVERE THERAPEUTICS", "amount": "$500M", "kind": "lev" },
-    { "company": "VITALCONNECT", "amount": "$287,5M", "kind": "mna" },
-    { "company": "INTEGER HOLDINGS", "amount": "$5,7Md", "kind": "mna" },
-    { "company": "ENSYSCE BIOSCIENCES", "amount": "$77M", "kind": "lev" },
-    { "company": "WELLINKS", "amount": "$10M", "kind": "lev" },
-    { "company": "GLUCOTRACK", "amount": "$5,5M", "kind": "lev" }
+    { "company": "VADERIS THERAPEUTICS", "amount": "$152M", "kind": "lev" },
+    { "company": "ACTIO BIOSCIENCES", "amount": "$820M", "kind": "mna" },
+    { "company": "EPICRISPR BIOTECHNOLOGIES", "amount": "$90M", "kind": "lev" },
+    { "company": "AUREKA BIOTECHNOLOGIES", "amount": "$100M", "kind": "lev" },
+    { "company": "FLAGLER HEALTH", "amount": "$50M", "kind": "lev" },
+    { "company": "EVAX AG", "amount": "n.d.", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Partenariat stratégique · Monitoring connecté (Pays-Bas)",
-    "title": "smartQare rejoint l'écosystème ouvert de monitoring hospitalier de Philips",
-    "deck": "Philips élargit son Patient Information Center iX à six biosensoristes indépendants — dont le scale-up néerlandais smartQare, qui lui avait racheté son activité Healthdot en 2024 — pour prolonger la surveillance continue du patient de la chambre d'hôpital jusqu'au domicile. Pour un jeune fournisseur de capteurs, entrer dans l'écosystème ouvert d'un leader mondial du monitoring avant son prochain tour est un signal d'entrée plus précoce qu'une levée déjà bouclée.",
-    "company": "smartQare",
-    "signalType": "early_partnership",
-    "strength": 3,
-    "url": "https://www.globenewswire.com/news-release/2026/08/06/3340318/0/en/philips-expands-open-patient-monitoring-ecosystem-to-help-health-systems-keep-sight-of-patients-beyond-the-bedside.html"
+    "kicker": "Series B · Maladies vasculaires rares (Suisse)",
+    "title": "Vaderis Therapeutics boucle une Series B de 152 M$ et lance la Phase 3 mondiale de son candidat contre la télangiectasie hémorragique héréditaire",
+    "deck": "Le biotech bâlois referme un tour sursouscrit co-mené par Goldman Sachs Alternatives Life Sciences et TCGX, avec EQT Life Sciences, Perceptive Advisors, Omega Funds et les historiques Medicxi et Droia, pour lancer l'essai de Phase 3 mondial HEROIC de son inhibiteur oral d'AKT engasertib dans la HHT, une maladie vasculaire rare sans traitement approuvé. Un syndicat de ce calibre sur une Series B suisse, juste avant l'entrée en Phase 3, est le signal européen le plus actionnable du jour pour un VC santé.",
+    "company": "Vaderis Therapeutics",
+    "stage": "Series B",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.prnewswire.com/news-releases/vaderis-therapeutics-announces-oversubscribed-152-million-series-b-financing-and-initiation-of-the-global-phase-3-heroic-study-of-engasertib-for-hereditary-hemorrhagic-telangiectasia-302845188.html"
   },
   "deal": {
-    "company": "Avere Therapeutics (ex-NextCure)",
-    "amount": "$820 M",
-    "round": "Private Placement + Reverse Merger",
-    "thesis": "Un syndicat mené par Venrock Healthcare Capital Partners, General Atlantic, RTW Investments, Wellington Management et Janus Henderson engage 500 M$, complétés par 320 M$ déjà sécurisés, pour fusionner Avere dans la coquille cotée NextCure et financer jusqu'en 2029 le développement d'AVR-001, un antagoniste oral de l'IL-23 pris une fois par semaine, positif en Phase 1b dans le psoriasis. Le reverse merger dans un biotech public en difficulté plutôt qu'une IPO classique devient une voie de sortie standard pour le capital-risque santé en 2026, quand la fenêtre IPO reste étroite pour les actifs de taille moyenne.",
-    "url": "https://www.prnewswire.com/news-releases/avere-therapeutics-announces-500-million-private-placement-to-support-development-of-once-weekly-oral-il-23-therapy-avr-001-302846694.html"
+    "company": "Actio Biosciences",
+    "amount": "$820M (jusqu'à 1,32 Md$)",
+    "round": "M&A",
+    "thesis": "Jazz Pharmaceuticals rachète Actio Biosciences (San Diego) pour 820 M$ d'acompte, complétés par 500 M$ d'étapes potentielles, afin de mettre la main sur ABS-1230, un inhibiteur du canal ionique KCNT1 en développement clinique pour l'épilepsie rare associée à ce gène (~2 500 patients aux États-Unis). Fait notable pour un VC santé : au closing, Actio essaime une société privée indépendante, financée par ses investisseurs historiques (dont Regeneron Ventures et Deerfield Management) et minoritairement par Jazz, pour poursuivre ABS-0871, un inhibiteur de TRPV4 dans la maladie de Charcot-Marie-Tooth de type 2C — le M&A finance à la fois la sortie et le prochain tour de l'actif restant.",
+    "url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-to-acquire-actio-biosciences-expanding-rare-epilepsy-portfolio-302847060.html"
   },
   "brefsEurope": [
     {
-      "company": "Cuviva",
-      "place": "Suède",
-      "sector": "Digital Health",
-      "signalType": "early_partnership",
+      "company": "AC Immune",
+      "place": "Lausanne, Suisse",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Cuviva embarque sa plateforme d'hospitalisation à domicile dans l'écosystème ouvert de Philips",
-      "summary": "La medtech suédoise, dont la plateforme de monitoring à distance est certifiée MDR classe IIa, devient partenaire technologique du volet Hospital@Home du Patient Information Center iX de Philips, aux côtés de cinq autres biosensoristes indépendants.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/06/3340318/0/en/philips-expands-open-patient-monitoring-ecosystem-to-help-health-systems-keep-sight-of-patients-beyond-the-bedside.html"
+      "title": "AC Immune obtient le Fast Track et le feu vert IND de la FDA pour son immunothérapie active anti-alpha-synucléine dans le Parkinson précoce",
+      "summary": "La FDA accorde la désignation Fast Track et autorise l'IND pour ACI-7104, permettant l'extension aux États-Unis de l'essai de Phase 2 VacSYn — appuyée par des données intermédiaires à 76 semaines montrant 100% de patients répondeurs en immunogénicité et aucun signal de sécurité.",
+      "url": "https://www.biospace.com/press-releases/ac-immune-receives-fda-fast-track-designation-for-anti-alpha-synuclein-active-immunotherapy-aci-7104-to-treat-early-parkinsons-disease-pd"
+    },
+    {
+      "company": "Bracco Imaging",
+      "place": "Milan, Italie",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Bracco décroche la clearance FDA 510(k) de VueJect, premier système dédié d'injection de contraste échographique en cardiologie",
+      "summary": "Le groupe italien obtient en parallèle l'autorisation de Santé Canada pour VueJect, conçu pour standardiser l'administration de contraste ultrasonore lors des examens cardiologiques — un comparable qui révèle où l'imagerie cardiovasculaire augmentée capte l'attention des régulateurs, utile pour resituer les paris sur les scale-ups du secteur.",
+      "url": "https://www.biospace.com/press-releases/bracco-marks-major-global-milestone-with-u-s-fda-510k-clearance-and-health-canada-authorization-for-vueject-the-first-dedicated-ultrasound-contrast-delivery-system-to-support-cardiology-imaging"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Hopstem Biotechnology",
-      "place": "Chine",
+      "company": "Aidoc",
+      "place": "Tel Aviv / New York",
+      "sector": "Digital Health",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Douze systèmes hospitaliers américains, dont Cedars-Sinai et Mount Sinai, forment avec Aidoc un consortium IA diagnostique",
+      "summary": "Le consortium, qui couvre près de 20 millions de patients par an, doit produire d'ici 2027 des données de gouvernance sur l'usage clinique du modèle de fondation CARE et du dispositif First Read (désigné Breakthrough Device par la FDA) d'Aidoc — un format d'adoption à grande échelle qui consolide la position de la scale-up avant son prochain tour.",
+      "url": "https://www.itnonline.com/content/healthcare-systems-aidoc-create-diagnostic-ai-consortium"
+    },
+    {
+      "company": "Epicrispr Biotechnologies",
+      "place": "San Francisco, États-Unis",
       "sector": "Biotech",
       "signalType": "funding_round",
       "strength": 4,
       "stage": "Series C",
-      "title": "Hopstem boucle le premier closing de sa Series C pour sa thérapie cellulaire iPSC contre l'AVC",
-      "summary": "Tasly Capital, Haibang Investment et Guangzhou Health Industry Investment rejoignent l'actionnaire historique Longmen Capital pour financer hNPC01, une thérapie cellulaire dérivée d'iPSC désignée Fast Track et RMAT par la FDA, jusqu'à sa préparation à la fabrication commerciale.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/10/3341619/0/en/hopstem-announces-the-first-closing-of-series-c-financing-to-accelerate-the-development-of-ipsc-derived-forebrain-neural-cell-therapy.html"
-    },
-    {
-      "company": "Wellinks",
-      "place": "États-Unis",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "Wellinks lève 10 M$ pour son monitoring prédictif des maladies cardiopulmonaires",
-      "summary": "UMass Memorial Health rejoint les investisseurs historiques dans ce premier closing de Series B, qui finance l'extension du système de monitoring à distance FDA-cleared de Wellinks vers les zones rurales et sous-desservies, et son entrée dans l'insuffisance cardiaque.",
-      "url": "https://www.prnewswire.com/news-releases/wellinks-closed-10-million-series-b-funding-from-umass-memorial-health-and-inside-investors-302842712.html"
-    },
-    {
-      "company": "Elicio Therapeutics",
-      "place": "États-Unis",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Elicio Therapeutics active un essai de phase 1 en néoadjuvant dans le cancer du pancréas",
-      "summary": "Financé par la Lustgarten Foundation et mené par le Memorial Sloan Kettering, cet essai investigateur-initié teste ELI-002 7P associé à une chimiothérapie et, pour un bras, à un anti-PD-1, chez des patients opérables ou à la limite de la résécabilité.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/10/3341758/0/en/elicio-therapeutics-announces-activation-of-the-investigator-initiated-phase-1-study-of-neoadjuvant-eli-002-7p-for-pancreatic-ductal-adenocarcinoma.html"
+      "title": "Epicrispr Biotechnologies boucle une Series C sursouscrite de 90 M$ pour porter son édition épigénétique vers des études pivots dans la FSHD",
+      "summary": "Le tour, co-mené par Octagon Capital et Janus Henderson Investors avec la participation de Fidelity, Sanofi Ventures et Angelini Ventures, finance le passage en phase pivot d'EPI-321, qui fait taire le gène DUX4 sans couper l'ADN — trois patients ont gagné 0,5 à 1,3 lb de masse musculaire maigre six mois après une perfusion unique.",
+      "url": "https://www.biospace.com/press-releases/epicrispr-biotechnologies-closes-90-million-oversubscribed-series-c-financing-to-advance-first-in-class-epigenetic-therapy-toward-pivotal-studies-in-fshd"
     }
   ],
   "word": {
-    "term": "Hospital-at-Home",
-    "full": "Hospital-at-Home (Hospital in the Home)",
-    "fr": "Hospitalisation à domicile augmentée",
-    "field": "Soins virtuels / Monitoring connecté",
-    "definition": "Un modèle de soins où un patient normalement hospitalisé reste chez lui, relié à l'hôpital par des capteurs connectés et une équipe clinique à distance qui surveille ses constantes en continu.",
+    "term": "Epigenetic Editing",
+    "full": "Epigenetic Editing (Epigenome Editing)",
+    "fr": "Édition épigénétique",
+    "field": "Thérapie génique de nouvelle génération",
+    "definition": "Une technique qui utilise la machinerie CRISPR pour activer, éteindre ou moduler un gène en modifiant les marques chimiques qui l'entourent, sans jamais couper l'ADN.",
     "parts": [
-      { "label": "Biocapteur porté", "role": "capte en continu les constantes vitales au domicile" },
-      { "label": "Plateforme d'orchestration clinique", "role": "centralise les alertes et organise les visites soignantes" },
-      { "label": "Logistique inversée", "role": "livre matériel médical, oxygène et perfusions jusqu'au lit du patient" }
+      { "label": "Protéine guide catalytiquement inactive (dCas9/dCas12)", "role": "le repérage précis du gène, sans coupure" },
+      { "label": "Domaine effecteur épigénétique", "role": "le levier qui active, réprime ou verrouille l'expression du gène" },
+      { "label": "ARN guide", "role": "l'adresse exacte sur le génome" }
     ],
     "how": [
-      { "n": "1", "h": "Éligibilité", "t": "Le patient est sélectionné à l'admission selon des critères cliniques stricts (pathologie stable, domicile compatible)." },
-      { "n": "2", "h": "Bascule à domicile", "t": "Un kit de capteurs et de télécommunication est installé chez le patient, connecté au centre de pilotage de l'hôpital." },
-      { "n": "3", "h": "Surveillance continue", "t": "Une équipe clinique à distance suit les constantes en temps réel et déclenche une visite ou un retour à l'hôpital si besoin." }
+      { "n": "1", "h": "Ciblage", "t": "Le complexe protéine-ARN guide se positionne sur la séquence régulatrice du gène visé, sans la couper." },
+      { "n": "2", "h": "Recrutement", "t": "Le domaine effecteur greffé dépose ou retire des marques chimiques (méthylation, acétylation) sur la chromatine locale." },
+      { "n": "3", "h": "Modulation", "t": "L'expression du gène est activée, réduite ou verrouillée durablement — un mécanisme en théorie réversible." }
     ],
-    "why": "Les systèmes de santé européens, sous pression de capacité hospitalière, poussent ce modèle pour libérer des lits sans dégrader le suivi — un thème que Philips vient de renforcer en ouvrant son écosystème de monitoring à six biosensoristes indépendants d'un coup, dont deux scale-ups européennes. Pour un VC santé, c'est un sous-secteur en pleine consolidation autour des grands groupes, où la thèse d'investissement se joue sur qui devient le partenaire technologique préféré avant la prochaine levée.",
+    "why": "Contrairement au gene editing classique, il n'y a pas de coupure d'ADN à réparer : le profil de sécurité change, et l'approche convient aux maladies où il suffit d'éteindre ou de moduler un gène plutôt que de le corriger. Epicrispr vient de sursouscrire 90 M$ pour porter EPI-321 vers la Phase pivot dans la FSHD ; Tune Therapeutics avait levé plus de 175 M$ pour sa plateforme de silençage du VHB — un signal que les investisseurs santé positionnent cette classe comme le relais naturel de CRISPR.",
     "startups": [
-      { "name": "Doccla", "use": "Plateforme de virtual wards pour le NHS ; Series B de £35M en 2024, plus de 1 000 lits virtuels déployés avec NHS Greater Glasgow and Clyde", "place": "Londres, Royaume-Uni" },
-      { "name": "smartQare", "use": "Capteur multiparamétrique viQtor/Healthdot ; partenaire de l'écosystème ouvert de monitoring Philips depuis 2024, élargi en août 2026", "place": "Pays-Bas" },
-      { "name": "Cuviva", "use": "Plateforme IT d'hospitalisation à domicile certifiée MDR classe IIa ; partenaire du volet Hospital@Home de Philips depuis août 2026", "place": "Suède" }
+      { "name": "Epicrispr Biotechnologies", "use": "Plateforme GEMS d'édition épigénétique ; Series C de 90 M$ sursouscrite en août 2026 pour porter EPI-321 (silençage de DUX4) vers des études pivots dans la FSHD", "place": "San Francisco, États-Unis" },
+      { "name": "Tune Therapeutics", "use": "Silençage épigénétique du VHB (Tune-401) par lipides nanoparticulaires ; Series B de plus de 175 M$ menée par New Enterprise Associates", "place": "Durham / Seattle, États-Unis" },
+      { "name": "Epitome Therapeutics", "use": "Essaimage de l'EMBL ; plateforme CADENCE d'édition programmable de l'épigénome, pre-seed de 4 M€ co-mené par XISTA Science Ventures et Caesar Ventures", "place": "Vienne, Autriche" },
+      { "name": "Epigenic Therapeutics", "use": "Pipeline d'édition épigénétique en cardiovasculaire, métabolique et hépatite virale, fondé sur la techno CRISPR", "place": "Shanghai, Chine" }
     ]
   }
 }

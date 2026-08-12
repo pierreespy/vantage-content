@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-11",
+  "generatedAt": "2026-08-12",
   "words": [
+    {
+      "term": "Epigenetic Editing",
+      "full": "Epigenetic Editing (Epigenome Editing)",
+      "fr": "Édition épigénétique",
+      "field": "Thérapie génique de nouvelle génération",
+      "definition": "Une technique qui utilise la machinerie CRISPR pour activer, éteindre ou moduler un gène en modifiant les marques chimiques qui l'entourent, sans jamais couper l'ADN.",
+      "parts": [
+        {
+          "label": "Protéine guide catalytiquement inactive (dCas9/dCas12)",
+          "role": "le repérage précis du gène, sans coupure"
+        },
+        {
+          "label": "Domaine effecteur épigénétique",
+          "role": "le levier qui active, réprime ou verrouille l'expression du gène"
+        },
+        {
+          "label": "ARN guide",
+          "role": "l'adresse exacte sur le génome"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le complexe protéine-ARN guide se positionne sur la séquence régulatrice du gène visé, sans la couper."
+        },
+        {
+          "n": "2",
+          "h": "Recrutement",
+          "t": "Le domaine effecteur greffé dépose ou retire des marques chimiques (méthylation, acétylation) sur la chromatine locale."
+        },
+        {
+          "n": "3",
+          "h": "Modulation",
+          "t": "L'expression du gène est activée, réduite ou verrouillée durablement — un mécanisme en théorie réversible."
+        }
+      ],
+      "why": "Contrairement au gene editing classique, il n'y a pas de coupure d'ADN à réparer : le profil de sécurité change, et l'approche convient aux maladies où il suffit d'éteindre ou de moduler un gène plutôt que de le corriger. Epicrispr vient de sursouscrire 90 M$ pour porter EPI-321 vers la Phase pivot dans la FSHD ; Tune Therapeutics avait levé plus de 175 M$ pour sa plateforme de silençage du VHB — un signal que les investisseurs santé positionnent cette classe comme le relais naturel de CRISPR.",
+      "startups": [
+        {
+          "name": "Epicrispr Biotechnologies",
+          "use": "Plateforme GEMS d'édition épigénétique ; Series C de 90 M$ sursouscrite en août 2026 pour porter EPI-321 (silençage de DUX4) vers des études pivots dans la FSHD",
+          "place": "San Francisco, États-Unis"
+        },
+        {
+          "name": "Tune Therapeutics",
+          "use": "Silençage épigénétique du VHB (Tune-401) par lipides nanoparticulaires ; Series B de plus de 175 M$ menée par New Enterprise Associates",
+          "place": "Durham / Seattle, États-Unis"
+        },
+        {
+          "name": "Epitome Therapeutics",
+          "use": "Essaimage de l'EMBL ; plateforme CADENCE d'édition programmable de l'épigénome, pre-seed de 4 M€ co-mené par XISTA Science Ventures et Caesar Ventures",
+          "place": "Vienne, Autriche"
+        },
+        {
+          "name": "Epigenic Therapeutics",
+          "use": "Pipeline d'édition épigénétique en cardiovasculaire, métabolique et hépatite virale, fondé sur la techno CRISPR",
+          "place": "Shanghai, Chine"
+        }
+      ],
+      "date": "2026-08-12",
+      "dateLong": "12 août 2026"
+    },
     {
       "term": "Hospital-at-Home",
       "full": "Hospital-at-Home (Hospital in the Home)",
