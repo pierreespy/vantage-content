@@ -1,97 +1,84 @@
 {
-  "dateLong": "12 août 2026",
+  "dateLong": "13 août 2026",
   "ticker": [
-    { "company": "VADERIS THERAPEUTICS", "amount": "$152M", "kind": "lev" },
-    { "company": "ACTIO BIOSCIENCES", "amount": "$820M", "kind": "mna" },
-    { "company": "EPICRISPR BIOTECHNOLOGIES", "amount": "$90M", "kind": "lev" },
-    { "company": "AUREKA BIOTECHNOLOGIES", "amount": "$100M", "kind": "lev" },
-    { "company": "FLAGLER HEALTH", "amount": "$50M", "kind": "lev" },
-    { "company": "EVAX AG", "amount": "n.d.", "kind": "mna" }
+    { "company": "MEREO BIOPHARMA", "amount": "$475M", "kind": "mna" },
+    { "company": "ALZECURE PHARMA", "amount": "$12M", "kind": "mna" },
+    { "company": "INDUPRO", "amount": "$77M", "kind": "lev" },
+    { "company": "VERSA VASCULAR", "amount": "$15M", "kind": "lev" },
+    { "company": "AYATI DEVICES", "amount": "$1,8M", "kind": "lev" },
+    { "company": "VAREX IMAGING", "amount": "$1,1Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series B · Maladies vasculaires rares (Suisse)",
-    "title": "Vaderis Therapeutics boucle une Series B de 152 M$ et lance la Phase 3 mondiale de son candidat contre la télangiectasie hémorragique héréditaire",
-    "deck": "Le biotech bâlois referme un tour sursouscrit co-mené par Goldman Sachs Alternatives Life Sciences et TCGX, avec EQT Life Sciences, Perceptive Advisors, Omega Funds et les historiques Medicxi et Droia, pour lancer l'essai de Phase 3 mondial HEROIC de son inhibiteur oral d'AKT engasertib dans la HHT, une maladie vasculaire rare sans traitement approuvé. Un syndicat de ce calibre sur une Series B suisse, juste avant l'entrée en Phase 3, est le signal européen le plus actionnable du jour pour un VC santé.",
-    "company": "Vaderis Therapeutics",
-    "stage": "Series B",
-    "signalType": "funding_round",
+    "kicker": "Licensing · Maladies respiratoires rares (Royaume-Uni)",
+    "title": "Mereo BioPharma cède à Sentynl les droits américains de l'alvelestat, potentiel premier traitement oral de la déficience en alpha-1 antitrypsine",
+    "deck": "Le biopharma londonien signe avec la californienne Sentynl Therapeutics une option et licence pouvant atteindre 475 M$ (paiements initiaux, jalons de développement et redevances à deux chiffres), qui finance le programme de Phase 3 de l'inhibiteur de l'élastase neutrophile — Mereo garde les droits sur le reste du monde. Pour un VC santé, c'est le signal le plus actionnable du jour : un actif biopharma britannique prêt pour la Phase 3 vient d'être validé et financé par un acheteur spécialisé, avant même le prochain tour de table.",
+    "company": "Mereo BioPharma",
+    "signalType": "early_partnership",
     "strength": 4,
-    "url": "https://www.prnewswire.com/news-releases/vaderis-therapeutics-announces-oversubscribed-152-million-series-b-financing-and-initiation-of-the-global-phase-3-heroic-study-of-engasertib-for-hereditary-hemorrhagic-telangiectasia-302845188.html"
+    "url": "https://www.globenewswire.com/news-release/2026/08/11/3342646/0/en/mereo-biopharma-and-sentynl-therapeutics-announce-option-and-license-agreement-for-alvelestat-in-alpha-1-antitrypsin-deficiency-associated-lung-disease-aatd-ld.html"
   },
   "deal": {
-    "company": "Actio Biosciences",
-    "amount": "$820M (jusqu'à 1,32 Md$)",
-    "round": "M&A",
-    "thesis": "Jazz Pharmaceuticals rachète Actio Biosciences (San Diego) pour 820 M$ d'acompte, complétés par 500 M$ d'étapes potentielles, afin de mettre la main sur ABS-1230, un inhibiteur du canal ionique KCNT1 en développement clinique pour l'épilepsie rare associée à ce gène (~2 500 patients aux États-Unis). Fait notable pour un VC santé : au closing, Actio essaime une société privée indépendante, financée par ses investisseurs historiques (dont Regeneron Ventures et Deerfield Management) et minoritairement par Jazz, pour poursuivre ABS-0871, un inhibiteur de TRPV4 dans la maladie de Charcot-Marie-Tooth de type 2C — le M&A finance à la fois la sortie et le prochain tour de l'actif restant.",
-    "url": "https://www.prnewswire.com/news-releases/jazz-pharmaceuticals-to-acquire-actio-biosciences-expanding-rare-epilepsy-portfolio-302847060.html"
+    "company": "AlzeCure Pharma",
+    "amount": "12 M$ (jusqu'à 2,2 Md$ au total)",
+    "round": "Licensing",
+    "thesis": "La biotech suédoise encaisse 12 M$ (7 M$ cash + 5 M$ en actions à prime de 30%) de la danoise QuantumCell — backée par des VCs de premier plan et restée jusqu'ici en stealth — qui prend les droits mondiaux de la plateforme Alzheimer NeuroRestore et de son candidat clinique ACD856, pour un deal pouvant atteindre 2,2 Md$ en jalons et redevances. Pour un VC santé, l'intérêt n'est pas dans le montant : c'est dans l'acheteur — un nouvel entrant nordique qui mise gros sur un actif déjà cliniquement validé plutôt que de construire depuis zéro, une thèse de sourcing à surveiller.",
+    "url": "https://www.biospace.com/press-releases/alzecure-receives-a-total-upfront-payment-of-usd-12-million-and-completes-the-initial-transaction-with-quantumcell"
   },
-  "brefsEurope": [
-    {
-      "company": "AC Immune",
-      "place": "Lausanne, Suisse",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "AC Immune obtient le Fast Track et le feu vert IND de la FDA pour son immunothérapie active anti-alpha-synucléine dans le Parkinson précoce",
-      "summary": "La FDA accorde la désignation Fast Track et autorise l'IND pour ACI-7104, permettant l'extension aux États-Unis de l'essai de Phase 2 VacSYn — appuyée par des données intermédiaires à 76 semaines montrant 100% de patients répondeurs en immunogénicité et aucun signal de sécurité.",
-      "url": "https://www.biospace.com/press-releases/ac-immune-receives-fda-fast-track-designation-for-anti-alpha-synuclein-active-immunotherapy-aci-7104-to-treat-early-parkinsons-disease-pd"
-    },
-    {
-      "company": "Bracco Imaging",
-      "place": "Milan, Italie",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Bracco décroche la clearance FDA 510(k) de VueJect, premier système dédié d'injection de contraste échographique en cardiologie",
-      "summary": "Le groupe italien obtient en parallèle l'autorisation de Santé Canada pour VueJect, conçu pour standardiser l'administration de contraste ultrasonore lors des examens cardiologiques — un comparable qui révèle où l'imagerie cardiovasculaire augmentée capte l'attention des régulateurs, utile pour resituer les paris sur les scale-ups du secteur.",
-      "url": "https://www.biospace.com/press-releases/bracco-marks-major-global-milestone-with-u-s-fda-510k-clearance-and-health-canada-authorization-for-vueject-the-first-dedicated-ultrasound-contrast-delivery-system-to-support-cardiology-imaging"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Aidoc",
-      "place": "Tel Aviv / New York",
-      "sector": "Digital Health",
-      "signalType": "early_partnership",
+      "company": "Versa Vascular",
+      "place": "Santa Cruz, États-Unis",
+      "sector": "MedTech",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Douze systèmes hospitaliers américains, dont Cedars-Sinai et Mount Sinai, forment avec Aidoc un consortium IA diagnostique",
-      "summary": "Le consortium, qui couvre près de 20 millions de patients par an, doit produire d'ici 2027 des données de gouvernance sur l'usage clinique du modèle de fondation CARE et du dispositif First Read (désigné Breakthrough Device par la FDA) d'Aidoc — un format d'adoption à grande échelle qui consolide la position de la scale-up avant son prochain tour.",
-      "url": "https://www.itnonline.com/content/healthcare-systems-aidoc-create-diagnostic-ai-consortium"
+      "title": "Versa Vascular nomme Bill Shields directeur général pour porter sa réparation tricuspide transcathéter vers la pivotale",
+      "summary": "Le fabricant californien de l'implant AdapTR pour la régurgitation tricuspide sévère installe un nouveau CEO quelques mois après avoir porté sa Series C à 42 M$ au total — un renforcement de gouvernance qui précède souvent le prochain tour chez les medtechs en essai pivot.",
+      "url": "https://www.businesswire.com/news/home/20260811284926/en/Versa-Vascular-Appoints-Bill-Shields-as-Chief-Executive-Officer"
     },
     {
-      "company": "Epicrispr Biotechnologies",
-      "place": "San Francisco, États-Unis",
-      "sector": "Biotech",
+      "company": "Ayati Devices",
+      "place": "Bengaluru, Inde",
+      "sector": "Diagnostics",
       "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series C",
-      "title": "Epicrispr Biotechnologies boucle une Series C sursouscrite de 90 M$ pour porter son édition épigénétique vers des études pivots dans la FSHD",
-      "summary": "Le tour, co-mené par Octagon Capital et Janus Henderson Investors avec la participation de Fidelity, Sanofi Ventures et Angelini Ventures, finance le passage en phase pivot d'EPI-321, qui fait taire le gène DUX4 sans couper l'ADN — trois patients ont gagné 0,5 à 1,3 lb de masse musculaire maigre six mois après une perfusion unique.",
-      "url": "https://www.biospace.com/press-releases/epicrispr-biotechnologies-closes-90-million-oversubscribed-series-c-financing-to-advance-first-in-class-epigenetic-therapy-toward-pivotal-studies-in-fshd"
+      "strength": 3,
+      "title": "Ayati Devices lève 1,8 M$ en pré-Series A pour son diagnostic du pied diabétique, sa première levée institutionnelle",
+      "summary": "Le tour, mené par Inflexor Ventures, finance la commercialisation d'une plateforme de diagnostic précoce des complications du pied diabétique et de la maladie vasculaire périphérique — un signal amont sur un segment diagnostics où les gros tours institutionnels n'ont pas encore émergé.",
+      "url": "https://www.digitalhealthnews.com/ayati-devices-secures-inr-15-cr-pre-series-a-to-expand-ai-powered-diagnostics"
+    },
+    {
+      "company": "Varex Imaging",
+      "place": "Salt Lake City, États-Unis",
+      "sector": "MedTech",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Teledyne rachète Varex Imaging pour 1,1 Md$ et met la main sur un fournisseur clé de tubes à rayons X et détecteurs pour l'imagerie médicale",
+      "summary": "L'opération, entièrement en cash à 18,90 $/action, absorbe l'un des derniers fournisseurs indépendants de composants d'imagerie diagnostique — un comparable qui montre où les groupes industriels consolident la chaîne de valeur medtech, utile pour resituer la valorisation des scale-ups d'imagerie.",
+      "url": "https://www.vareximaging.com/news/teledyne-to-acquire-varex-imaging-corporation/"
     }
   ],
   "word": {
-    "term": "Epigenetic Editing",
-    "full": "Epigenetic Editing (Epigenome Editing)",
-    "fr": "Édition épigénétique",
-    "field": "Thérapie génique de nouvelle génération",
-    "definition": "Une technique qui utilise la machinerie CRISPR pour activer, éteindre ou moduler un gène en modifiant les marques chimiques qui l'entourent, sans jamais couper l'ADN.",
+    "term": "Masked Cytokine",
+    "full": "Masked Cytokine (Conditionally Activated Cytokine)",
+    "fr": "Cytokine masquée",
+    "field": "Immuno-oncologie",
+    "definition": "Une cytokine thérapeutique comme l'IL-2, rendue temporairement inactive par un masque protéique qui ne se détache qu'au contact de la tumeur, pour limiter la toxicité systémique qui a longtemps freiné cette classe.",
     "parts": [
-      { "label": "Protéine guide catalytiquement inactive (dCas9/dCas12)", "role": "le repérage précis du gène, sans coupure" },
-      { "label": "Domaine effecteur épigénétique", "role": "le levier qui active, réprime ou verrouille l'expression du gène" },
-      { "label": "ARN guide", "role": "l'adresse exacte sur le génome" }
+      { "label": "Cytokine sauvage (ex. IL-2)", "role": "le signal immunitaire actif" },
+      { "label": "Masque protéique", "role": "le verrou qui bloque l'activité en circulation" },
+      { "label": "Linker clivable (protéase)", "role": "le mécanisme de libération conditionnelle" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "Le complexe protéine-ARN guide se positionne sur la séquence régulatrice du gène visé, sans la couper." },
-      { "n": "2", "h": "Recrutement", "t": "Le domaine effecteur greffé dépose ou retire des marques chimiques (méthylation, acétylation) sur la chromatine locale." },
-      { "n": "3", "h": "Modulation", "t": "L'expression du gène est activée, réduite ou verrouillée durablement — un mécanisme en théorie réversible." }
+      { "n": "1", "h": "Circulation", "t": "Le masque maintient la cytokine inactive dans le sang, évitant l'activation systémique des lymphocytes et la toxicité qui limite l'IL-2 recombinante classique." },
+      { "n": "2", "h": "Ciblage", "t": "Au contact du microenvironnement tumoral, une protéase spécifique clive le linker et libère la cytokine active localement." },
+      { "n": "3", "h": "Activation", "t": "La cytokine démasquée stimule les lymphocytes T ou NK à proximité de la tumeur, avec une fenêtre thérapeutique élargie par rapport à la cytokine recombinante nue." }
     ],
-    "why": "Contrairement au gene editing classique, il n'y a pas de coupure d'ADN à réparer : le profil de sécurité change, et l'approche convient aux maladies où il suffit d'éteindre ou de moduler un gène plutôt que de le corriger. Epicrispr vient de sursouscrire 90 M$ pour porter EPI-321 vers la Phase pivot dans la FSHD ; Tune Therapeutics avait levé plus de 175 M$ pour sa plateforme de silençage du VHB — un signal que les investisseurs santé positionnent cette classe comme le relais naturel de CRISPR.",
+    "why": "Angle VC : l'IL-2 recombinante est efficace mais trop toxique à dose pleine ; le masquage promet la puissance sans la toxicité systémique. Le sous-secteur attire de gros syndicats sur les tours amont — Column Group, Sanofi et Eli Lilly viennent de soutenir la Series B de 77 M$ d'InduPro — et des jalons réglementaires qui rapprochent la classe de la clinique, comme l'IND que Xilio vient de faire lever pour son IL-2 masquée XTX501. Un signal que les investisseurs santé positionnent cette classe comme le relais le plus crédible après les checkpoint inhibitors classiques.",
     "startups": [
-      { "name": "Epicrispr Biotechnologies", "use": "Plateforme GEMS d'édition épigénétique ; Series C de 90 M$ sursouscrite en août 2026 pour porter EPI-321 (silençage de DUX4) vers des études pivots dans la FSHD", "place": "San Francisco, États-Unis" },
-      { "name": "Tune Therapeutics", "use": "Silençage épigénétique du VHB (Tune-401) par lipides nanoparticulaires ; Series B de plus de 175 M$ menée par New Enterprise Associates", "place": "Durham / Seattle, États-Unis" },
-      { "name": "Epitome Therapeutics", "use": "Essaimage de l'EMBL ; plateforme CADENCE d'édition programmable de l'épigénome, pre-seed de 4 M€ co-mené par XISTA Science Ventures et Caesar Ventures", "place": "Vienne, Autriche" },
-      { "name": "Epigenic Therapeutics", "use": "Pipeline d'édition épigénétique en cardiovasculaire, métabolique et hépatite virale, fondé sur la techno CRISPR", "place": "Shanghai, Chine" }
+      { "name": "Xilio Therapeutics", "use": "Bispécifique PD-1 / IL-2 masquée XTX501 ; IND FDA autorisé le 12 août 2026, Phase 1/2 attendue au second semestre", "place": "Waltham, États-Unis" },
+      { "name": "SOTIO Biotech", "use": "Immunocytokine SOT201, agoniste IL-15 fusionné à un anti-PD-1 ; brevet européen confirmé en juillet 2026 face à un recours de Sanofi, essai de Phase 1 VICTORIA-01 en cours", "place": "Prague, République tchèque" },
+      { "name": "Werewolf Therapeutics", "use": "Plateforme PREDATOR de cytokines masquées activées par protéase (programmes INDUKINE) ; recherche des partenaires stratégiques pour ses actifs cliniques en 2026", "place": "Watertown, États-Unis" },
+      { "name": "Asher Biotherapeutics", "use": "Cytokines ciblées CD8+ : IL-2 (AB248) et IL-21 (AB821) ; données de Phase 1a/b présentées à l'ASCO 2026, société au stade Series C", "place": "South San Francisco, États-Unis" }
     ]
   }
 }

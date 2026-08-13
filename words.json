@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-12",
+  "generatedAt": "2026-08-13",
   "words": [
+    {
+      "term": "Masked Cytokine",
+      "full": "Masked Cytokine (Conditionally Activated Cytokine)",
+      "fr": "Cytokine masquée",
+      "field": "Immuno-oncologie",
+      "definition": "Une cytokine thérapeutique comme l'IL-2, rendue temporairement inactive par un masque protéique qui ne se détache qu'au contact de la tumeur, pour limiter la toxicité systémique qui a longtemps freiné cette classe.",
+      "parts": [
+        {
+          "label": "Cytokine sauvage (ex. IL-2)",
+          "role": "le signal immunitaire actif"
+        },
+        {
+          "label": "Masque protéique",
+          "role": "le verrou qui bloque l'activité en circulation"
+        },
+        {
+          "label": "Linker clivable (protéase)",
+          "role": "le mécanisme de libération conditionnelle"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Circulation",
+          "t": "Le masque maintient la cytokine inactive dans le sang, évitant l'activation systémique des lymphocytes et la toxicité qui limite l'IL-2 recombinante classique."
+        },
+        {
+          "n": "2",
+          "h": "Ciblage",
+          "t": "Au contact du microenvironnement tumoral, une protéase spécifique clive le linker et libère la cytokine active localement."
+        },
+        {
+          "n": "3",
+          "h": "Activation",
+          "t": "La cytokine démasquée stimule les lymphocytes T ou NK à proximité de la tumeur, avec une fenêtre thérapeutique élargie par rapport à la cytokine recombinante nue."
+        }
+      ],
+      "why": "Angle VC : l'IL-2 recombinante est efficace mais trop toxique à dose pleine ; le masquage promet la puissance sans la toxicité systémique. Le sous-secteur attire de gros syndicats sur les tours amont — Column Group, Sanofi et Eli Lilly viennent de soutenir la Series B de 77 M$ d'InduPro — et des jalons réglementaires qui rapprochent la classe de la clinique, comme l'IND que Xilio vient de faire lever pour son IL-2 masquée XTX501. Un signal que les investisseurs santé positionnent cette classe comme le relais le plus crédible après les checkpoint inhibitors classiques.",
+      "startups": [
+        {
+          "name": "Xilio Therapeutics",
+          "use": "Bispécifique PD-1 / IL-2 masquée XTX501 ; IND FDA autorisé le 12 août 2026, Phase 1/2 attendue au second semestre",
+          "place": "Waltham, États-Unis"
+        },
+        {
+          "name": "SOTIO Biotech",
+          "use": "Immunocytokine SOT201, agoniste IL-15 fusionné à un anti-PD-1 ; brevet européen confirmé en juillet 2026 face à un recours de Sanofi, essai de Phase 1 VICTORIA-01 en cours",
+          "place": "Prague, République tchèque"
+        },
+        {
+          "name": "Werewolf Therapeutics",
+          "use": "Plateforme PREDATOR de cytokines masquées activées par protéase (programmes INDUKINE) ; recherche des partenaires stratégiques pour ses actifs cliniques en 2026",
+          "place": "Watertown, États-Unis"
+        },
+        {
+          "name": "Asher Biotherapeutics",
+          "use": "Cytokines ciblées CD8+ : IL-2 (AB248) et IL-21 (AB821) ; données de Phase 1a/b présentées à l'ASCO 2026, société au stade Series C",
+          "place": "South San Francisco, États-Unis"
+        }
+      ],
+      "date": "2026-08-13",
+      "dateLong": "13 août 2026"
+    },
     {
       "term": "Epigenetic Editing",
       "full": "Epigenetic Editing (Epigenome Editing)",
