@@ -1,84 +1,87 @@
 {
-  "dateLong": "13 août 2026",
+  "dateLong": "14 août 2026",
   "ticker": [
-    { "company": "MEREO BIOPHARMA", "amount": "$475M", "kind": "mna" },
-    { "company": "ALZECURE PHARMA", "amount": "$12M", "kind": "mna" },
-    { "company": "INDUPRO", "amount": "$77M", "kind": "lev" },
-    { "company": "VERSA VASCULAR", "amount": "$15M", "kind": "lev" },
-    { "company": "AYATI DEVICES", "amount": "$1,8M", "kind": "lev" },
-    { "company": "VAREX IMAGING", "amount": "$1,1Md", "kind": "mna" }
+    { "company": "INFINIMMUNE", "amount": "$75M", "kind": "lev" },
+    { "company": "MAPLIGHT THERAPEUTICS", "amount": "$150M", "kind": "lev" },
+    { "company": "FLAGLER HEALTH", "amount": "$50M", "kind": "lev" },
+    { "company": "REMEPY", "amount": "$36M", "kind": "lev" },
+    { "company": "AMPLIFICA HOLDINGS", "amount": "$26M", "kind": "lev" },
+    { "company": "SANGAMO THERAPEUTICS", "amount": "$264M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Licensing · Maladies respiratoires rares (Royaume-Uni)",
-    "title": "Mereo BioPharma cède à Sentynl les droits américains de l'alvelestat, potentiel premier traitement oral de la déficience en alpha-1 antitrypsine",
-    "deck": "Le biopharma londonien signe avec la californienne Sentynl Therapeutics une option et licence pouvant atteindre 475 M$ (paiements initiaux, jalons de développement et redevances à deux chiffres), qui finance le programme de Phase 3 de l'inhibiteur de l'élastase neutrophile — Mereo garde les droits sur le reste du monde. Pour un VC santé, c'est le signal le plus actionnable du jour : un actif biopharma britannique prêt pour la Phase 3 vient d'être validé et financé par un acheteur spécialisé, avant même le prochain tour de table.",
-    "company": "Mereo BioPharma",
-    "signalType": "early_partnership",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/08/11/3342646/0/en/mereo-biopharma-and-sentynl-therapeutics-announce-option-and-license-agreement-for-alvelestat-in-alpha-1-antitrypsin-deficiency-associated-lung-disease-aatd-ld.html"
+    "kicker": "MedTech · Neuromodulation implantable (États-Unis)",
+    "title": "BlueWind Medical décroche la clearance FDA pour Revi Extend, la nouvelle génération de son implant contre l'incontinence urinaire par urgenturie",
+    "deck": "La FDA accorde à la medtech de Salt Lake City (racines israéliennes, capital ouvert à Medtronic et au fonds Rainbow Medical) le 510(k) pour Revi Extend, l'extension nouvelle génération de son implant tibial activé par un porté externe — première évolution du système Revi depuis son autorisation initiale. Pour un VC santé, c'est le signal qu'une neuromodulation encore privée franchit une étape réglementaire clé avant sa prochaine levée ou sortie, dans un sous-secteur où Medtronic, Abbott et Boston Scientific sécurisent déjà des tickets minoritaires par crainte de rater le rachat.",
+    "company": "BlueWind Medical",
+    "stage": "Growth",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://med-techinsights.com/2026/08/12/bluewind-medical-receives-fda-510k-clearance-for-revi-extend-implant/"
   },
   "deal": {
-    "company": "AlzeCure Pharma",
-    "amount": "12 M$ (jusqu'à 2,2 Md$ au total)",
-    "round": "Licensing",
-    "thesis": "La biotech suédoise encaisse 12 M$ (7 M$ cash + 5 M$ en actions à prime de 30%) de la danoise QuantumCell — backée par des VCs de premier plan et restée jusqu'ici en stealth — qui prend les droits mondiaux de la plateforme Alzheimer NeuroRestore et de son candidat clinique ACD856, pour un deal pouvant atteindre 2,2 Md$ en jalons et redevances. Pour un VC santé, l'intérêt n'est pas dans le montant : c'est dans l'acheteur — un nouvel entrant nordique qui mise gros sur un actif déjà cliniquement validé plutôt que de construire depuis zéro, une thèse de sourcing à surveiller.",
-    "url": "https://www.biospace.com/press-releases/alzecure-receives-a-total-upfront-payment-of-usd-12-million-and-completes-the-initial-transaction-with-quantumcell"
+    "company": "Infinimmune",
+    "amount": "$75M",
+    "round": "Series A",
+    "thesis": "La biotech d'Alameda (Californie) boucle un Series A de 75 M$ co-mené par Regeneron Ventures et Playground Global pour faire avancer IFX-101 et IFX-201, deux anticorps entièrement humains issus de son criblage direct de cellules B mémoire — dont un vise IL-22, une cible jamais médicamentée avec succès jusqu'ici. L'intérêt est double pour un VC santé : la validation d'un pure player par le CVC d'un poids lourd de l'immunologie, et une thèse « why now » sur une cible dermatologique inexploitée dans la dermatite atopique.",
+    "url": "https://www.biospace.com/press-releases/infinimmune-raises-75-million-series-a-financing-to-advance-pipeline-of-human-derived-antibodies-for-atopic-dermatitis-and-inflammatory-disease"
   },
   "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Versa Vascular",
-      "place": "Santa Cruz, États-Unis",
-      "sector": "MedTech",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Versa Vascular nomme Bill Shields directeur général pour porter sa réparation tricuspide transcathéter vers la pivotale",
-      "summary": "Le fabricant californien de l'implant AdapTR pour la régurgitation tricuspide sévère installe un nouveau CEO quelques mois après avoir porté sa Series C à 42 M$ au total — un renforcement de gouvernance qui précède souvent le prochain tour chez les medtechs en essai pivot.",
-      "url": "https://www.businesswire.com/news/home/20260811284926/en/Versa-Vascular-Appoints-Bill-Shields-as-Chief-Executive-Officer"
-    },
-    {
-      "company": "Ayati Devices",
-      "place": "Bengaluru, Inde",
+      "company": "Freenome",
+      "place": "South San Francisco, États-Unis",
       "sector": "Diagnostics",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Ayati Devices lève 1,8 M$ en pré-Series A pour son diagnostic du pied diabétique, sa première levée institutionnelle",
-      "summary": "Le tour, mené par Inflexor Ventures, finance la commercialisation d'une plateforme de diagnostic précoce des complications du pied diabétique et de la maladie vasculaire périphérique — un signal amont sur un segment diagnostics où les gros tours institutionnels n'ont pas encore émergé.",
-      "url": "https://www.digitalhealthnews.com/ayati-devices-secures-inr-15-cr-pre-series-a-to-expand-ai-powered-diagnostics"
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "stage": "Growth",
+      "title": "Freenome décroche la Breakthrough Device Designation de la FDA pour SimpleScreen Lung, son test sanguin de dépistage du cancer du poumon",
+      "summary": "Le test combine méthylation, protéomique et classificateur IA/ML pour dépister les adultes à risque (50-80 ans, ≥20 paquets-années) qui échappent au dépistage recommandé ; il capitalise sur la technologie de SimpleScreen CRC, approuvé le mois dernier par la FDA pour le cancer colorectal. Un nouveau jalon réglementaire pour une licorne du diagnostic encore privée, qui rapproche son pipeline multi-cancer d'une éventuelle sortie.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/12/3343694/0/en/fda-grants-breakthrough-device-designation-to-freenome-s-blood-based-simplescreen-lung-cancer-screening-test.html"
     },
     {
-      "company": "Varex Imaging",
-      "place": "Salt Lake City, États-Unis",
-      "sector": "MedTech",
+      "company": "Flagler Health",
+      "place": "New York, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series B",
+      "title": "Flagler Health lève 50 M$ en Series B menée par Bessemer pour son système d'exploitation IA de la prise en charge musculosquelettique",
+      "summary": "Fondée par des médecins en 2023, la plateforme intègre les dossiers médicaux existants pour coordonner les workflows cliniques et administratifs de la MSK — 400 Md$ de dépenses de santé annuelles ciblées, et déjà 164 000 $ de revenu additionnel par prestataire en moyenne. Une levée capital-efficiente sur un segment où les VC cherchent des plateformes IA rentables plutôt que des paris purement technologiques.",
+      "url": "https://hitconsultant.net/2026/08/11/flagler-health-raises-50m-series-b-bessemer-ai-musculoskeletal-care/"
+    },
+    {
+      "company": "Sangamo Therapeutics",
+      "place": "Richmond, Californie, États-Unis",
+      "sector": "Biotech",
       "signalType": "acquisition",
       "strength": 5,
-      "title": "Teledyne rachète Varex Imaging pour 1,1 Md$ et met la main sur un fournisseur clé de tubes à rayons X et détecteurs pour l'imagerie médicale",
-      "summary": "L'opération, entièrement en cash à 18,90 $/action, absorbe l'un des derniers fournisseurs indépendants de composants d'imagerie diagnostique — un comparable qui montre où les groupes industriels consolident la chaîne de valeur medtech, utile pour resituer la valorisation des scale-ups d'imagerie.",
-      "url": "https://www.vareximaging.com/news/teledyne-to-acquire-varex-imaging-corporation/"
+      "title": "Sangamo Therapeutics vend ses actifs à PTC Therapeutics et Eli Lilly lors d'une vente aux enchères post-faillite, jusqu'à 264 M$",
+      "summary": "PTC rafle le programme Fabry ST-920 pour 111 M$ (plus 100 M$ de jalons), Lilly récupère les plateformes de capsides, doigts de zinc et MINT ainsi que le programme prion pour 50 M$ — Sangamo avait déposé le chapitre 11 en juin après l'échec de sa recherche d'alternatives stratégiques. Un comparable qui rappelle aux VC santé le risque de financement d'une biotech de plateforme sans actif clinique assez avancé pour lever seule.",
+      "url": "https://www.biospace.com/press-releases/sangamo-therapeutics-selects-successful-bidders-following-competitive-asset-auction-for-163-55-million-in-cash-consideration-at-closing-and-up-to-100-million-in-potential-milestones"
     }
   ],
   "word": {
-    "term": "Masked Cytokine",
-    "full": "Masked Cytokine (Conditionally Activated Cytokine)",
-    "fr": "Cytokine masquée",
-    "field": "Immuno-oncologie",
-    "definition": "Une cytokine thérapeutique comme l'IL-2, rendue temporairement inactive par un masque protéique qui ne se détache qu'au contact de la tumeur, pour limiter la toxicité systémique qui a longtemps freiné cette classe.",
+    "term": "Electroceutical",
+    "full": "Electroceutical (Bioelectronic Medicine)",
+    "fr": "Électronique thérapeutique (médecine bioélectronique)",
+    "field": "Neuromodulation / MedTech implantable",
+    "definition": "Un dispositif implanté ou porté qui délivre des impulsions électriques ciblées sur un nerf pour traiter une pathologie, en remplacement ou en complément d'un médicament.",
     "parts": [
-      { "label": "Cytokine sauvage (ex. IL-2)", "role": "le signal immunitaire actif" },
-      { "label": "Masque protéique", "role": "le verrou qui bloque l'activité en circulation" },
-      { "label": "Linker clivable (protéase)", "role": "le mécanisme de libération conditionnelle" }
+      { "label": "Électrode (lead)", "role": "l'interface qui délivre le courant au nerf ciblé" },
+      { "label": "Neurostimulateur", "role": "le générateur qui règle intensité et fréquence des impulsions" },
+      { "label": "Capteur de rétroaction", "role": "la mesure qui ajuste la thérapie en temps réel" }
     ],
     "how": [
-      { "n": "1", "h": "Circulation", "t": "Le masque maintient la cytokine inactive dans le sang, évitant l'activation systémique des lymphocytes et la toxicité qui limite l'IL-2 recombinante classique." },
-      { "n": "2", "h": "Ciblage", "t": "Au contact du microenvironnement tumoral, une protéase spécifique clive le linker et libère la cytokine active localement." },
-      { "n": "3", "h": "Activation", "t": "La cytokine démasquée stimule les lymphocytes T ou NK à proximité de la tumeur, avec une fenêtre thérapeutique élargie par rapport à la cytokine recombinante nue." }
+      { "n": "1", "h": "Implantation", "t": "Pose chirurgicale ou mini-invasive de l'électrode au contact du nerf ou du circuit neuronal ciblé." },
+      { "n": "2", "h": "Stimulation", "t": "Le neurostimulateur délivre des impulsions électriques calibrées pour moduler l'activité nerveuse et son signal vers l'organe cible." },
+      { "n": "3", "h": "Ajustement", "t": "Les systèmes de dernière génération («closed-loop») mesurent la réponse neurale et recalibrent automatiquement la thérapie." }
     ],
-    "why": "Angle VC : l'IL-2 recombinante est efficace mais trop toxique à dose pleine ; le masquage promet la puissance sans la toxicité systémique. Le sous-secteur attire de gros syndicats sur les tours amont — Column Group, Sanofi et Eli Lilly viennent de soutenir la Series B de 77 M$ d'InduPro — et des jalons réglementaires qui rapprochent la classe de la clinique, comme l'IND que Xilio vient de faire lever pour son IL-2 masquée XTX501. Un signal que les investisseurs santé positionnent cette classe comme le relais le plus crédible après les checkpoint inhibitors classiques.",
+    "why": "Angle VC : la classe attire des tickets stratégiques de Medtronic, Abbott ou Boston Scientific qui sécurisent une position minoritaire par crainte de rater le rachat, et les clearances FDA s'enchaînent en 2026 sur des indications jusque-là traitées uniquement par médicament — incontinence, polyarthrite rhumatoïde, tremblement essentiel. Une alternative capital-efficiente aux biologiques, avec un chemin de remboursement plus mature qu'en digital health pur.",
     "startups": [
-      { "name": "Xilio Therapeutics", "use": "Bispécifique PD-1 / IL-2 masquée XTX501 ; IND FDA autorisé le 12 août 2026, Phase 1/2 attendue au second semestre", "place": "Waltham, États-Unis" },
-      { "name": "SOTIO Biotech", "use": "Immunocytokine SOT201, agoniste IL-15 fusionné à un anti-PD-1 ; brevet européen confirmé en juillet 2026 face à un recours de Sanofi, essai de Phase 1 VICTORIA-01 en cours", "place": "Prague, République tchèque" },
-      { "name": "Werewolf Therapeutics", "use": "Plateforme PREDATOR de cytokines masquées activées par protéase (programmes INDUKINE) ; recherche des partenaires stratégiques pour ses actifs cliniques en 2026", "place": "Watertown, États-Unis" },
-      { "name": "Asher Biotherapeutics", "use": "Cytokines ciblées CD8+ : IL-2 (AB248) et IL-21 (AB821) ; données de Phase 1a/b présentées à l'ASCO 2026, société au stade Series C", "place": "South San Francisco, États-Unis" }
+      { "name": "BlueWind Medical", "use": "Implant tibial Revi / Revi Extend pour l'incontinence urinaire par urgenturie ; clearance FDA 510(k) obtenue le 12 août 2026", "place": "Salt Lake City, États-Unis" },
+      { "name": "SetPoint Medical", "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde ; approuvé par la FDA, 140 M$ levés avec Abbott et Boston Scientific au capital", "place": "Valencia, États-Unis" },
+      { "name": "Cala Health", "use": "Bracelet de neurostimulation portable kIQ Plus pour le tremblement essentiel et la maladie de Parkinson ; 50 M$ de financement de croissance en 2026", "place": "Burlingame, États-Unis" },
+      { "name": "Saluda Medical", "use": "Système Evoke de stimulation médullaire « closed-loop » pour la douleur chronique, mesure et ajuste la réponse neurale en temps réel ; 100 M$ levés", "place": "Sydney, Australie" }
     ]
   }
 }

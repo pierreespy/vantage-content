@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-13",
+  "generatedAt": "2026-08-14",
   "words": [
+    {
+      "term": "Electroceutical",
+      "full": "Electroceutical (Bioelectronic Medicine)",
+      "fr": "Électronique thérapeutique (médecine bioélectronique)",
+      "field": "Neuromodulation / MedTech implantable",
+      "definition": "Un dispositif implanté ou porté qui délivre des impulsions électriques ciblées sur un nerf pour traiter une pathologie, en remplacement ou en complément d'un médicament.",
+      "parts": [
+        {
+          "label": "Électrode (lead)",
+          "role": "l'interface qui délivre le courant au nerf ciblé"
+        },
+        {
+          "label": "Neurostimulateur",
+          "role": "le générateur qui règle intensité et fréquence des impulsions"
+        },
+        {
+          "label": "Capteur de rétroaction",
+          "role": "la mesure qui ajuste la thérapie en temps réel"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "Pose chirurgicale ou mini-invasive de l'électrode au contact du nerf ou du circuit neuronal ciblé."
+        },
+        {
+          "n": "2",
+          "h": "Stimulation",
+          "t": "Le neurostimulateur délivre des impulsions électriques calibrées pour moduler l'activité nerveuse et son signal vers l'organe cible."
+        },
+        {
+          "n": "3",
+          "h": "Ajustement",
+          "t": "Les systèmes de dernière génération («closed-loop») mesurent la réponse neurale et recalibrent automatiquement la thérapie."
+        }
+      ],
+      "why": "Angle VC : la classe attire des tickets stratégiques de Medtronic, Abbott ou Boston Scientific qui sécurisent une position minoritaire par crainte de rater le rachat, et les clearances FDA s'enchaînent en 2026 sur des indications jusque-là traitées uniquement par médicament — incontinence, polyarthrite rhumatoïde, tremblement essentiel. Une alternative capital-efficiente aux biologiques, avec un chemin de remboursement plus mature qu'en digital health pur.",
+      "startups": [
+        {
+          "name": "BlueWind Medical",
+          "use": "Implant tibial Revi / Revi Extend pour l'incontinence urinaire par urgenturie ; clearance FDA 510(k) obtenue le 12 août 2026",
+          "place": "Salt Lake City, États-Unis"
+        },
+        {
+          "name": "SetPoint Medical",
+          "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde ; approuvé par la FDA, 140 M$ levés avec Abbott et Boston Scientific au capital",
+          "place": "Valencia, États-Unis"
+        },
+        {
+          "name": "Cala Health",
+          "use": "Bracelet de neurostimulation portable kIQ Plus pour le tremblement essentiel et la maladie de Parkinson ; 50 M$ de financement de croissance en 2026",
+          "place": "Burlingame, États-Unis"
+        },
+        {
+          "name": "Saluda Medical",
+          "use": "Système Evoke de stimulation médullaire « closed-loop » pour la douleur chronique, mesure et ajuste la réponse neurale en temps réel ; 100 M$ levés",
+          "place": "Sydney, Australie"
+        }
+      ],
+      "date": "2026-08-14",
+      "dateLong": "14 août 2026"
+    },
     {
       "term": "Masked Cytokine",
       "full": "Masked Cytokine (Conditionally Activated Cytokine)",
