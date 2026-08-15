@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-14",
+  "generatedAt": "2026-08-15",
   "words": [
+    {
+      "term": "ASC",
+      "full": "Ambulatory Surgery Center",
+      "fr": "Centre de chirurgie ambulatoire",
+      "field": "MedTech · Modèles de soins",
+      "definition": "Une structure indépendante de l'hôpital, spécialisée dans la chirurgie sans nuitée, qui capte une part croissante du volume opératoire grâce à des dispositifs plus compacts et des parcours patients plus courts.",
+      "parts": [
+        {
+          "label": "Procédure éligible",
+          "role": "ce que CMS autorise à y opérer"
+        },
+        {
+          "label": "Dispositif compact",
+          "role": "ce qui tient dans une salle d'ASC"
+        },
+        {
+          "label": "Coût par cas",
+          "role": "l'argument qui fait basculer le volume"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Éligibilité CMS",
+          "t": "Une procédure rejoint la liste ASC-payable de Medicare, ouvrant la voie à sa pratique hors de l'hôpital."
+        },
+        {
+          "n": "2",
+          "h": "Équipement dédié",
+          "t": "Les fabricants conçoivent des dispositifs plus légers, mobiles et rapides à installer, pensés pour un centre à faible effectif."
+        },
+        {
+          "n": "3",
+          "h": "Bascule de volume",
+          "t": "Chirurgiens et patients migrent vers l'ASC, moins cher et plus rapide, réduisant d'autant le volume hospitalier classique."
+        }
+      ],
+      "why": "Le déplacement du volume chirurgical de l'hôpital vers l'ASC est l'une des thèses medtech les plus robustes de la décennie : coûts par cas divisés par 2 à 3, cycle de vente raccourci face à des centres plus agiles que les hôpitaux, et une nouvelle génération de dispositifs — robots compacts, systèmes de préservation d'organe portables — conçue dès l'origine pour ce marché plutôt que pour le bloc opératoire classique.",
+      "startups": [
+        {
+          "name": "Distalmotion",
+          "use": "Robot chirurgical Dexter conçu pour les procédures ambulatoires ; 4 clearances FDA en un an, dont la hernie ventrale en 2026",
+          "place": "Lausanne, Suisse"
+        },
+        {
+          "name": "Moon Surgical",
+          "use": "Assistant chirurgical compact Maestro, déployé dès 2024 dans le premier ASC au monde à l'avoir adopté",
+          "place": "Paris, France"
+        },
+        {
+          "name": "CMR Surgical",
+          "use": "Robot modulaire Versius Plus, en cours de déploiement dans des ASC américains après sa clearance FDA",
+          "place": "Cambridge, Royaume-Uni"
+        }
+      ],
+      "date": "2026-08-15",
+      "dateLong": "15 août 2026"
+    },
     {
       "term": "Electroceutical",
       "full": "Electroceutical (Bioelectronic Medicine)",

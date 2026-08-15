@@ -1,87 +1,85 @@
 {
-  "dateLong": "14 août 2026",
+  "dateLong": "15 août 2026",
   "ticker": [
-    { "company": "INFINIMMUNE", "amount": "$75M", "kind": "lev" },
-    { "company": "MAPLIGHT THERAPEUTICS", "amount": "$150M", "kind": "lev" },
-    { "company": "FLAGLER HEALTH", "amount": "$50M", "kind": "lev" },
-    { "company": "REMEPY", "amount": "$36M", "kind": "lev" },
-    { "company": "AMPLIFICA HOLDINGS", "amount": "$26M", "kind": "lev" },
-    { "company": "SANGAMO THERAPEUTICS", "amount": "$264M", "kind": "mna" }
+    { "company": "InduPro", "amount": "$77M", "kind": "lev" },
+    { "company": "Bridge to Life", "amount": "$110M", "kind": "lev" },
+    { "company": "Khartis Therapeutics", "amount": "$50M", "kind": "lev" },
+    { "company": "Remepy", "amount": "$36M", "kind": "lev" },
+    { "company": "Beyang Therapeutics", "amount": "$30M", "kind": "lev" },
+    { "company": "MapLight Therapeutics", "amount": "$150M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "MedTech · Neuromodulation implantable (États-Unis)",
-    "title": "BlueWind Medical décroche la clearance FDA pour Revi Extend, la nouvelle génération de son implant contre l'incontinence urinaire par urgenturie",
-    "deck": "La FDA accorde à la medtech de Salt Lake City (racines israéliennes, capital ouvert à Medtronic et au fonds Rainbow Medical) le 510(k) pour Revi Extend, l'extension nouvelle génération de son implant tibial activé par un porté externe — première évolution du système Revi depuis son autorisation initiale. Pour un VC santé, c'est le signal qu'une neuromodulation encore privée franchit une étape réglementaire clé avant sa prochaine levée ou sortie, dans un sous-secteur où Medtronic, Abbott et Boston Scientific sécurisent déjà des tickets minoritaires par crainte de rater le rachat.",
-    "company": "BlueWind Medical",
+    "kicker": "MedTech · Clearance FDA",
+    "title": "Distalmotion décroche sa 4e clearance FDA en un an pour Dexter, cette fois pour la hernie ventrale en ambulatoire",
+    "deck": "Après la cholécystectomie, l'hystérectomie et la hernie inguinale, le robot chirurgical suisse Dexter obtient la clearance FDA 510(k) pour la réparation de hernie ventrale — plus de 600 000 interventions par an aux États-Unis, dont 75% déjà réalisées en ambulatoire. Cette cadence réglementaire rapide place Distalmotion (Lausanne, 150 M$ levés en Series G) en position de force sur la bascule du volume chirurgical vers les centres de chirurgie ambulatoire.",
+    "company": "Distalmotion",
     "stage": "Growth",
     "signalType": "regulatory_milestone",
     "strength": 5,
-    "url": "https://med-techinsights.com/2026/08/12/bluewind-medical-receives-fda-510k-clearance-for-revi-extend-implant/"
+    "url": "https://www.surgicalroboticstechnology.com/news/distalmotion-announces-fda-clearance-for-ventral-hernia-repair-with-dexter-robotic-surgery-system/"
   },
   "deal": {
-    "company": "Infinimmune",
-    "amount": "$75M",
-    "round": "Series A",
-    "thesis": "La biotech d'Alameda (Californie) boucle un Series A de 75 M$ co-mené par Regeneron Ventures et Playground Global pour faire avancer IFX-101 et IFX-201, deux anticorps entièrement humains issus de son criblage direct de cellules B mémoire — dont un vise IL-22, une cible jamais médicamentée avec succès jusqu'ici. L'intérêt est double pour un VC santé : la validation d'un pure player par le CVC d'un poids lourd de l'immunologie, et une thèse « why now » sur une cible dermatologique inexploitée dans la dermatite atopique.",
-    "url": "https://www.biospace.com/press-releases/infinimmune-raises-75-million-series-a-financing-to-advance-pipeline-of-human-derived-antibodies-for-atopic-dermatitis-and-inflammatory-disease"
+    "company": "InduPro",
+    "amount": "$77M",
+    "round": "Series B",
+    "thesis": "Sanofi et Eli Lilly, déjà partenaires R&D d'InduPro sur des programmes bispécifiques distincts, ont aussi mis leur argent dans ce tour aux côtés de The Column Group et Vida Ventures. La biotech de Boston associe un anticorps bispécifique de proximité à un promoteur ADC pour améliorer la sélectivité tumorale, et vient de doser son premier patient en phase 1 dans le cancer du poumon non à petites cellules — un syndicat mêlant VCs spécialistes et Big Pharma stratégique est un signal rare de conviction partagée.",
+    "url": "https://www.biospace.com/press-releases/indupro-closes-77-million-series-b-financing-and-doses-first-patient-in-phase-1-study-of-lead-oncology-program-idp-001"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Valneva",
+      "place": "Saint-Herblain, France",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "L'EMA valide le dossier du vaccin contre la maladie de Lyme de Valneva et Pfizer",
+      "summary": "Le dossier d'autorisation de mise sur le marché du candidat-vaccin PF-07307405, qui affiche plus de 70% d'efficacité en phase 3, entre en évaluation à l'EMA — une étape clé vers ce qui serait le premier vaccin humain contre la maladie de Lyme depuis plus de vingt ans.",
+      "url": "https://www.biospace.com/press-releases/pfizer-and-valnevas-lyme-disease-vaccine-candidate-marketing-authorization-application-validated-by-european-medicines-agency"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Freenome",
-      "place": "South San Francisco, États-Unis",
-      "sector": "Diagnostics",
+      "company": "Phanes Therapeutics",
+      "place": "San Diego, États-Unis",
+      "sector": "Oncologie",
       "signalType": "regulatory_milestone",
       "strength": 4,
-      "stage": "Growth",
-      "title": "Freenome décroche la Breakthrough Device Designation de la FDA pour SimpleScreen Lung, son test sanguin de dépistage du cancer du poumon",
-      "summary": "Le test combine méthylation, protéomique et classificateur IA/ML pour dépister les adultes à risque (50-80 ans, ≥20 paquets-années) qui échappent au dépistage recommandé ; il capitalise sur la technologie de SimpleScreen CRC, approuvé le mois dernier par la FDA pour le cancer colorectal. Un nouveau jalon réglementaire pour une licorne du diagnostic encore privée, qui rapproche son pipeline multi-cancer d'une éventuelle sortie.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/12/3343694/0/en/fda-grants-breakthrough-device-designation-to-freenome-s-blood-based-simplescreen-lung-cancer-screening-test.html"
+      "title": "Phanes Therapeutics décroche la Fast Track de la FDA pour spevatamig dans le cancer des voies biliaires",
+      "summary": "Le bispécifique anti-claudine 18.2/CD47, déjà associé au Keytruda de Merck dans un essai combiné, obtient sa deuxième désignation Fast Track de l'année — un jalon qui consolide la thèse de Phanes comme cible de licensing pour un grand groupe.",
+      "url": "https://www.prnewswire.com/news-releases/phanes-therapeutics-receives-fda-fast-track-designation-for-spevatamig-in-advanced-and-metastatic-biliary-tract-carcinoma-302851460.html"
     },
     {
-      "company": "Flagler Health",
-      "place": "New York, États-Unis",
-      "sector": "Digital Health",
+      "company": "Bridge to Life",
+      "place": "Duluth, États-Unis",
+      "sector": "MedTech",
       "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "Flagler Health lève 50 M$ en Series B menée par Bessemer pour son système d'exploitation IA de la prise en charge musculosquelettique",
-      "summary": "Fondée par des médecins en 2023, la plateforme intègre les dossiers médicaux existants pour coordonner les workflows cliniques et administratifs de la MSK — 400 Md$ de dépenses de santé annuelles ciblées, et déjà 164 000 $ de revenu additionnel par prestataire en moyenne. Une levée capital-efficiente sur un segment où les VC cherchent des plateformes IA rentables plutôt que des paris purement technologiques.",
-      "url": "https://hitconsultant.net/2026/08/11/flagler-health-raises-50m-series-b-bessemer-ai-musculoskeletal-care/"
-    },
-    {
-      "company": "Sangamo Therapeutics",
-      "place": "Richmond, Californie, États-Unis",
-      "sector": "Biotech",
-      "signalType": "acquisition",
       "strength": 5,
-      "title": "Sangamo Therapeutics vend ses actifs à PTC Therapeutics et Eli Lilly lors d'une vente aux enchères post-faillite, jusqu'à 264 M$",
-      "summary": "PTC rafle le programme Fabry ST-920 pour 111 M$ (plus 100 M$ de jalons), Lilly récupère les plateformes de capsides, doigts de zinc et MINT ainsi que le programme prion pour 50 M$ — Sangamo avait déposé le chapitre 11 en juin après l'échec de sa recherche d'alternatives stratégiques. Un comparable qui rappelle aux VC santé le risque de financement d'une biotech de plateforme sans actif clinique assez avancé pour lever seule.",
-      "url": "https://www.biospace.com/press-releases/sangamo-therapeutics-selects-successful-bidders-following-competitive-asset-auction-for-163-55-million-in-cash-consideration-at-closing-and-up-to-100-million-in-potential-milestones"
+      "title": "Bridge to Life boucle 110 M$ pour généraliser la perfusion hypothermique oxygénée en transplantation hépatique",
+      "summary": "Menée par Soleus Capital et Lauxera Capital Partners, l'opération finance le déploiement commercial de VitaSmart, son système de préservation d'organe autorisé de novo par la FDA en janvier — la mécanique capital-efficiente d'un dispositif déjà adopté par les premiers centres de transplantation.",
+      "url": "https://www.medicaldevice-network.com/news/bridge-to-life-raises-110m-to-advance-liver-perfusion-system-roll-out/"
     }
   ],
   "word": {
-    "term": "Electroceutical",
-    "full": "Electroceutical (Bioelectronic Medicine)",
-    "fr": "Électronique thérapeutique (médecine bioélectronique)",
-    "field": "Neuromodulation / MedTech implantable",
-    "definition": "Un dispositif implanté ou porté qui délivre des impulsions électriques ciblées sur un nerf pour traiter une pathologie, en remplacement ou en complément d'un médicament.",
+    "term": "ASC",
+    "full": "Ambulatory Surgery Center",
+    "fr": "Centre de chirurgie ambulatoire",
+    "field": "MedTech · Modèles de soins",
+    "definition": "Une structure indépendante de l'hôpital, spécialisée dans la chirurgie sans nuitée, qui capte une part croissante du volume opératoire grâce à des dispositifs plus compacts et des parcours patients plus courts.",
     "parts": [
-      { "label": "Électrode (lead)", "role": "l'interface qui délivre le courant au nerf ciblé" },
-      { "label": "Neurostimulateur", "role": "le générateur qui règle intensité et fréquence des impulsions" },
-      { "label": "Capteur de rétroaction", "role": "la mesure qui ajuste la thérapie en temps réel" }
+      { "label": "Procédure éligible", "role": "ce que CMS autorise à y opérer" },
+      { "label": "Dispositif compact", "role": "ce qui tient dans une salle d'ASC" },
+      { "label": "Coût par cas", "role": "l'argument qui fait basculer le volume" }
     ],
     "how": [
-      { "n": "1", "h": "Implantation", "t": "Pose chirurgicale ou mini-invasive de l'électrode au contact du nerf ou du circuit neuronal ciblé." },
-      { "n": "2", "h": "Stimulation", "t": "Le neurostimulateur délivre des impulsions électriques calibrées pour moduler l'activité nerveuse et son signal vers l'organe cible." },
-      { "n": "3", "h": "Ajustement", "t": "Les systèmes de dernière génération («closed-loop») mesurent la réponse neurale et recalibrent automatiquement la thérapie." }
+      { "n": "1", "h": "Éligibilité CMS", "t": "Une procédure rejoint la liste ASC-payable de Medicare, ouvrant la voie à sa pratique hors de l'hôpital." },
+      { "n": "2", "h": "Équipement dédié", "t": "Les fabricants conçoivent des dispositifs plus légers, mobiles et rapides à installer, pensés pour un centre à faible effectif." },
+      { "n": "3", "h": "Bascule de volume", "t": "Chirurgiens et patients migrent vers l'ASC, moins cher et plus rapide, réduisant d'autant le volume hospitalier classique." }
     ],
-    "why": "Angle VC : la classe attire des tickets stratégiques de Medtronic, Abbott ou Boston Scientific qui sécurisent une position minoritaire par crainte de rater le rachat, et les clearances FDA s'enchaînent en 2026 sur des indications jusque-là traitées uniquement par médicament — incontinence, polyarthrite rhumatoïde, tremblement essentiel. Une alternative capital-efficiente aux biologiques, avec un chemin de remboursement plus mature qu'en digital health pur.",
+    "why": "Le déplacement du volume chirurgical de l'hôpital vers l'ASC est l'une des thèses medtech les plus robustes de la décennie : coûts par cas divisés par 2 à 3, cycle de vente raccourci face à des centres plus agiles que les hôpitaux, et une nouvelle génération de dispositifs — robots compacts, systèmes de préservation d'organe portables — conçue dès l'origine pour ce marché plutôt que pour le bloc opératoire classique.",
     "startups": [
-      { "name": "BlueWind Medical", "use": "Implant tibial Revi / Revi Extend pour l'incontinence urinaire par urgenturie ; clearance FDA 510(k) obtenue le 12 août 2026", "place": "Salt Lake City, États-Unis" },
-      { "name": "SetPoint Medical", "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde ; approuvé par la FDA, 140 M$ levés avec Abbott et Boston Scientific au capital", "place": "Valencia, États-Unis" },
-      { "name": "Cala Health", "use": "Bracelet de neurostimulation portable kIQ Plus pour le tremblement essentiel et la maladie de Parkinson ; 50 M$ de financement de croissance en 2026", "place": "Burlingame, États-Unis" },
-      { "name": "Saluda Medical", "use": "Système Evoke de stimulation médullaire « closed-loop » pour la douleur chronique, mesure et ajuste la réponse neurale en temps réel ; 100 M$ levés", "place": "Sydney, Australie" }
+      { "name": "Distalmotion", "use": "Robot chirurgical Dexter conçu pour les procédures ambulatoires ; 4 clearances FDA en un an, dont la hernie ventrale en 2026", "place": "Lausanne, Suisse" },
+      { "name": "Moon Surgical", "use": "Assistant chirurgical compact Maestro, déployé dès 2024 dans le premier ASC au monde à l'avoir adopté", "place": "Paris, France" },
+      { "name": "CMR Surgical", "use": "Robot modulaire Versius Plus, en cours de déploiement dans des ASC américains après sa clearance FDA", "place": "Cambridge, Royaume-Uni" }
     ]
   }
 }
