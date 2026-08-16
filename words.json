@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-15",
+  "generatedAt": "2026-08-16",
   "words": [
+    {
+      "term": "RLT",
+      "full": "Radioligand Therapy",
+      "fr": "Thérapie par radioligand",
+      "field": "Oncologie · Modalité thérapeutique",
+      "definition": "Une molécule vectrice se fixe spécifiquement sur les cellules tumorales pour y livrer un isotope radioactif qui les détruit de l'intérieur, en épargnant les tissus sains environnants.",
+      "parts": [
+        {
+          "label": "Vecteur ciblant",
+          "role": "reconnaît le récepteur surexprimé par la tumeur"
+        },
+        {
+          "label": "Chélateur",
+          "role": "arrime l'isotope au vecteur sans le relâcher prématurément"
+        },
+        {
+          "label": "Radioisotope",
+          "role": "l'émetteur (bêta ou alpha) qui délivre la dose létale localement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le vecteur (peptide, anticorps ou petite molécule) reconnaît un récepteur tumoral spécifique, par exemple PSMA, CXCR4 ou SSTR2."
+        },
+        {
+          "n": "2",
+          "h": "Fixation",
+          "t": "Le chélateur arrime l'isotope radioactif au vecteur pendant tout le trajet jusqu'à la tumeur."
+        },
+        {
+          "n": "3",
+          "h": "Irradiation locale",
+          "t": "L'isotope émet son rayonnement directement au contact des cellules tumorales, limitant la toxicité sur les tissus sains."
+        }
+      ],
+      "why": "La vague de M&A pharma dans le radioligand est sans précédent depuis 2023 (Lilly-POINT Biopharma, BMS-RayzeBio, Novartis-Mariana Oncology, AstraZeneca-Fusion), et Eli Lilly a été investisseur d'ancrage de l'IPO d'Aktis Oncology en janvier 2026. Pour un VC santé, la vraie barrière à l'entrée n'est plus la molécule mais la chaîne d'approvisionnement en isotopes et la capacité de fabrication — d'où des tours géants pour financer l'industrialisation, un profil capital-intensif inhabituel en biotech.",
+      "startups": [
+        {
+          "name": "Nuclidium",
+          "use": "Plateforme théranostique au cuivre (Cu-61 diagnostic / Cu-67 thérapeutique) ; extension de Series B à CHF 105M en mai 2026",
+          "place": "Bâle, Suisse"
+        },
+        {
+          "name": "ITM Isotope Technologies Munich",
+          "use": "Lu-177-edotreotide (ITM-11) en Phase 3 COMPETE, critère primaire validé, décision FDA attendue fin août 2026",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Pentixapharm",
+          "use": "Plateforme théranostique CXCR4 (PentixaFor/PentixaTher), Phase 3 US en préparation pour PentixaFor",
+          "place": "Würzburg, Allemagne"
+        },
+        {
+          "name": "Convergent Therapeutics",
+          "use": "Anticorps radioconjugué alpha CONV01-α (Ac-225) ciblant PSMA dans le cancer de la prostate avancé",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "date": "2026-08-16",
+      "dateLong": "16 août 2026"
+    },
     {
       "term": "ASC",
       "full": "Ambulatory Surgery Center",
