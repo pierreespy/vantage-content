@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-17",
   "words": [
+    {
+      "term": "SaMD",
+      "full": "Software as a Medical Device",
+      "fr": "Logiciel en tant que dispositif médical",
+      "field": "Réglementaire · Digital Health",
+      "definition": "Un logiciel qui remplit à lui seul une fonction médicale — diagnostiquer, guider un traitement — sans être intégré à un dispositif matériel, et qui est de ce fait régulé comme un dispositif médical à part entière.",
+      "parts": [
+        {
+          "label": "Capture",
+          "role": "la donnée d'entrée : imagerie, signal, dossier patient, saisie utilisateur"
+        },
+        {
+          "label": "Moteur algorithmique",
+          "role": "l'analyse — règles cliniques ou modèle d'IA/ML entraîné"
+        },
+        {
+          "label": "Sortie clinique",
+          "role": "le résultat actionnable : diagnostic, alerte, recommandation de dose"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Qualification",
+          "t": "Le logiciel est classé selon son risque clinique (catégories IMDRF I à IV), ce qui détermine la voie réglementaire à suivre."
+        },
+        {
+          "n": "2",
+          "h": "Validation clinique",
+          "t": "Une étude démontre la sécurité et la performance du logiciel sur son indication précise, souvent via un prédicat existant."
+        },
+        {
+          "n": "3",
+          "h": "Autorisation",
+          "t": "La FDA (510(k)/De Novo) ou un organisme notifié européen (marquage CE sous le MDR) valide la mise sur le marché."
+        }
+      ],
+      "why": "Le SaMD combine l'économie logicielle (coût marginal quasi nul, itération rapide) avec la barrière réglementaire d'un dispositif médical — une combinaison rare qui séduit les VC santé : la clearance FDA transforme une app en actif défendable, avec un vrai code de remboursement à la clé plutôt qu'un abonnement wellness fragile. 2026 marque un tournant avec la première clearance FDA d'un logiciel intégrant un LLM en interaction directe avec le patient.",
+      "startups": [
+        {
+          "name": "UpDoc",
+          "use": "Premier SaMD FDA-cleared (510(k), déc. 2025) intégrant un LLM en interaction directe avec le patient, pour la titration d'insuline dans le diabète de type 2 ; 18 M$ en seed",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Cognoa",
+          "use": "Canvas Dx, SaMD de dépistage des troubles du spectre autistique par analyse vidéo, autorisé par la FDA (De Novo)",
+          "place": "Palo Alto, États-Unis"
+        },
+        {
+          "name": "Median Technologies",
+          "use": "eyonis LCS, SaMD d'IA pour le dépistage du cancer du poumon, clearance FDA 510(k) et marquage CE obtenus en 2026",
+          "place": "Valbonne, France"
+        }
+      ],
+      "date": "2026-08-17",
+      "dateLong": "17 août 2026"
+    },
     {
       "term": "RLT",
       "full": "Radioligand Therapy",

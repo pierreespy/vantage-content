@@ -1,116 +1,59 @@
 {
-  "dateLong": "16 août 2026",
+  "dateLong": "17 août 2026",
   "ticker": [
-    { "company": "Khartis Therapeutics", "amount": "$95M", "kind": "lev" },
-    { "company": "Redx Pharma", "amount": "$125M", "kind": "mna" },
-    { "company": "Innate Pharma", "amount": "€30M", "kind": "lev" },
-    { "company": "Aligned Marketplace", "amount": "$20M", "kind": "lev" },
-    { "company": "MDxHealth", "amount": "$20M", "kind": "lev" },
-    { "company": "Trinity Biotech", "amount": "$7M", "kind": "lev" }
+    { "company": "Daré Bioscience", "amount": "$6M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Financement · Immuno-oncologie",
-    "title": "Innate Pharma boucle une augmentation de capital de 30 M€ menée par Bpifrance pour tenir jusqu'à 2028",
-    "deck": "Bpifrance Participations souscrit à l'émission de 17,6 millions d'actions nouvelles à 1,70€, une dilution de près de 19% qui étend la trésorerie de la biotech marseillaise jusqu'au premier trimestre 2028, combinée aux redevances de son partenariat avec Sobi. Le signal compte moins pour son montant que pour ce qu'il révèle : même une biotech commerciale au pipeline validé doit désormais s'appuyer sur l'investisseur public français plutôt que sur du capital-risque classique pour boucler son tour.",
-    "company": "Innate Pharma",
+    "kicker": "Clearance FDA · Robotique portable",
+    "title": "Wandercraft décroche la clearance FDA pour Eve, premier exosquelette personnel auto-équilibré au monde",
+    "deck": "La medtech française obtient l'autorisation de la FDA pour Eve, destiné aux utilisateurs de fauteuil roulant vivant avec une lésion médullaire à tout niveau, avec un lancement commercial visé au 17 septembre et une éligibilité au remboursement Medicare attendue sous 60 à 90 jours. Porté par une Series D de 75 M$, ce jalon réglementaire ouvre la voie d'accès au marché américain pour toute une génération d'exosquelettes personnels, un segment où la clearance FDA reste le principal verrou avant la commercialisation à grande échelle.",
+    "company": "Wandercraft",
     "stage": "Growth",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.businesswire.com/news/home/20260814551740/en/Innate-Pharma-Announces-Pricing-of-%E2%82%82%AC30-million-Offering-of-Ordinary-Shares"
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/wandercraft-receives-fda-clearance-for-eve-the-worlds-first-self-balancing-personal-exoskeleton-for-eligible-wheelchair-users-living-with-spinal-cord-injuries-at-any-level/2403113"
   },
   "deal": {
-    "company": "Redx Pharma",
-    "amount": "$125M",
-    "round": "M&A",
-    "thesis": "Skye Bioscience et Redx Pharma actent leur rapprochement au sein d'une nouvelle entité, Fibrx Therapeutics, avec un financement concomitant de 125 M$ par un syndicat d'investisseurs spécialistes santé pour porter RXC008, le candidat oral anti-fibrose de Redx, jusqu'aux données de Phase 2 attendues au second semestre 2028. Cette recapitalisation par fusion plutôt que par rachat cash devient un mécanisme récurrent pour refinancer des biotechs cliniques européennes sous-valorisées en bourse mais dotées d'un pipeline différenciant.",
-    "url": "https://www.globenewswire.com/news-release/2026/08/14/3345392/0/en/skye-bioscience-and-redx-pharma-announce-transaction-agreement-and-125-million-in-financings.html"
+    "company": "Daré Bioscience",
+    "amount": "$6,0 M",
+    "round": "Placement direct enregistré",
+    "thesis": "La biotech san-diegoise dédiée à la santé des femmes précise le 14 août les termes d'un placement direct enregistré de 6,0 M$ au prix du marché sous les règles Nasdaq, assorti de bons de souscription émis en placement privé concomitant, pour un closing visé au 17 août. Le montage — cash immédiat plus optionalité dilutive différée plutôt qu'un tour classique mené par un lead nommé — illustre la difficulté persistante des biotechs féminines cotées en microcap à lever du capital, forçant un recours à des financements de survie.",
+    "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/dare-bioscience-announces-pricing-of-60-million-registered-direct-offering-priced-at-the-market-under-nasdaq-rules/2405954/amp"
   },
-  "brefsEurope": [
-    {
-      "company": "MDxHealth",
-      "place": "Liège, Belgique",
-      "sector": "Diagnostics",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "MDxHealth lève 20 M$ pour accélérer ses tests de diagnostic moléculaire en urologie",
-      "summary": "Le diagnosticien belgo-américain clôture le 13 août un placement direct enregistré de 20 M$ auprès d'investisseurs institutionnels, pour poursuivre le développement commercial de ses tests de diagnostic moléculaire en urologie et cancer de la prostate.",
-      "url": "https://www.stocktitan.net/sec-filings/MDXH/6-k-m-dx-health-sa-current-report-foreign-issuer-3edd7bef981d.html"
-    },
-    {
-      "company": "Trinity Biotech",
-      "place": "Irlande",
-      "sector": "Diagnostics",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Trinity Biotech obtient 7 M$ supplémentaires de Perceptive Advisors et retrouve sa conformité Nasdaq",
-      "summary": "Le fonds spécialiste santé Perceptive Advisors renforce son soutien au diagnosticien irlandais avec 7 M$ additionnels (dette + intérêts capitalisés), lui permettant de retrouver le cours plancher minimum exigé par le Nasdaq — un sauvetage qui en dit long sur la tension de trésorerie qui touche une partie du diagnostic coté.",
-      "url": "https://www.manilatimes.net/2026/08/14/tmt-newswire/globenewswire/trinity-biotech-secures-additional-70-million-investment-from-perceptive-advisors-and-regains-compliance-with-nasdaq-minimum-bid-price-requirement/2405848/amp"
-    },
-    {
-      "company": "Kairos Discovery",
-      "place": "Lyon, France",
-      "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 1,
-      "title": "Kairos Discovery lève 850 000 € en financement participatif pour son candidat oral anticancéreux KDX-350",
-      "summary": "La biotech lyonnaise en développement préclinique a rallié 80 investisseurs sur la plateforme Capital Cell au 11 août, en amont d'une clôture visée en septembre — le signal amont, sans lead institutionnel, qu'un VC santé garde à l'œil avant un futur tour de Series A.",
-      "url": "https://www.lejournaldesentreprises.com/article/la-biotech-lyonnaise-kairos-discovery-cherche-lever-850-000-euros-pour-accelerer-son-developpement-2147162"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Vesalio",
-      "place": "Dallas, États-Unis",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Vesalio décroche la clearance FDA 510(k) de pVasc NET, nouvelle génération de thrombectomie mécanique périphérique",
-      "summary": "Le dispositif, doté d'un filtre distal intégré à double couche construit sur la plateforme propriétaire Drop Zone du fabricant, élargit son empreinte réglementaire dans la thrombectomie périphérique — un segment où la clearance FDA reste le principal jalon de dé-risking avant tout tour de croissance.",
-      "url": "https://www.prnewswire.com/news-releases/vesalio-announces-fda-510k-clearance-of-pvasc-net-a-next-generation-peripheral-mechanical-thrombectomy-device-with-integrated-distal-filter-302850307.html"
-    },
-    {
-      "company": "Celltrion",
-      "place": "Incheon, Corée du Sud",
+      "company": "Attralus",
+      "place": "South San Francisco, États-Unis",
       "sector": "Biotech",
       "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Les trois candidats ADC de Celltrion décrochent tous la Fast Track de la FDA",
-      "summary": "CT-P73, un ADC anti-tissue factor, obtient à son tour la désignation Fast Track, complétant un trio inédit avec CT-P70 et CT-P71 — un signal de validation réglementaire précoce sur toute une plateforme plutôt que sur un seul actif, à surveiller pour les deals de licensing à venir. Résultats topline attendus au premier semestre 2027.",
-      "url": "https://en.sedaily.com/culture/2026/08/13/celltrion-wins-us-fast-track-for-all-three-adc-candidates"
-    },
-    {
-      "company": "Fate Therapeutics",
-      "place": "San Diego, États-Unis",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
       "strength": 3,
-      "title": "Fate Therapeutics dose son premier patient dans l'essai potentiellement enregistrant de FT819 contre la néphrite lupique",
-      "summary": "La thérapie cellulaire CAR-T allogénique « sur étagère », administrée en ambulatoire avec sortie le jour même, entre dans l'essai RECLAIM-LN visant environ 53 patients — un changement de statut d'essai qui rapproche un peu plus les CAR-T allogéniques des maladies auto-immunes, au-delà de l'oncologie.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/14/3345223/24675/en/fate-therapeutics-initiates-potentially-registrational-reclaim-ln-clinical-trial-of-ft819-for-the-treatment-of-lupus-nephritis.html"
+      "title": "Attralus obtient la Fast Track de la FDA pour zamubafusp alfa (AT-02) dans l'amylose AL",
+      "summary": "Le candidat « pan-amyloid depleter » d'Attralus décroche le 12 août la désignation Fast Track de la FDA pour le traitement de l'amylose à chaînes légères (AL), une maladie rare et progressive, quelques semaines après avoir déjà reçu la désignation orpheline. Un jalon réglementaire qui accélère la voie vers l'enregistrement pour une biotech clinique encore indépendante.",
+      "url": "https://www.biospace.com/press-releases/attralus-has-been-granted-u-s-fda-fast-track-designation-for-zamubafusp-alfa-at-02-for-the-treatment-of-al-amyloidosis"
     }
   ],
   "word": {
-    "term": "RLT",
-    "full": "Radioligand Therapy",
-    "fr": "Thérapie par radioligand",
-    "field": "Oncologie · Modalité thérapeutique",
-    "definition": "Une molécule vectrice se fixe spécifiquement sur les cellules tumorales pour y livrer un isotope radioactif qui les détruit de l'intérieur, en épargnant les tissus sains environnants.",
+    "term": "SaMD",
+    "full": "Software as a Medical Device",
+    "fr": "Logiciel en tant que dispositif médical",
+    "field": "Réglementaire · Digital Health",
+    "definition": "Un logiciel qui remplit à lui seul une fonction médicale — diagnostiquer, guider un traitement — sans être intégré à un dispositif matériel, et qui est de ce fait régulé comme un dispositif médical à part entière.",
     "parts": [
-      { "label": "Vecteur ciblant", "role": "reconnaît le récepteur surexprimé par la tumeur" },
-      { "label": "Chélateur", "role": "arrime l'isotope au vecteur sans le relâcher prématurément" },
-      { "label": "Radioisotope", "role": "l'émetteur (bêta ou alpha) qui délivre la dose létale localement" }
+      { "label": "Capture", "role": "la donnée d'entrée : imagerie, signal, dossier patient, saisie utilisateur" },
+      { "label": "Moteur algorithmique", "role": "l'analyse — règles cliniques ou modèle d'IA/ML entraîné" },
+      { "label": "Sortie clinique", "role": "le résultat actionnable : diagnostic, alerte, recommandation de dose" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "Le vecteur (peptide, anticorps ou petite molécule) reconnaît un récepteur tumoral spécifique, par exemple PSMA, CXCR4 ou SSTR2." },
-      { "n": "2", "h": "Fixation", "t": "Le chélateur arrime l'isotope radioactif au vecteur pendant tout le trajet jusqu'à la tumeur." },
-      { "n": "3", "h": "Irradiation locale", "t": "L'isotope émet son rayonnement directement au contact des cellules tumorales, limitant la toxicité sur les tissus sains." }
+      { "n": "1", "h": "Qualification", "t": "Le logiciel est classé selon son risque clinique (catégories IMDRF I à IV), ce qui détermine la voie réglementaire à suivre." },
+      { "n": "2", "h": "Validation clinique", "t": "Une étude démontre la sécurité et la performance du logiciel sur son indication précise, souvent via un prédicat existant." },
+      { "n": "3", "h": "Autorisation", "t": "La FDA (510(k)/De Novo) ou un organisme notifié européen (marquage CE sous le MDR) valide la mise sur le marché." }
     ],
-    "why": "La vague de M&A pharma dans le radioligand est sans précédent depuis 2023 (Lilly-POINT Biopharma, BMS-RayzeBio, Novartis-Mariana Oncology, AstraZeneca-Fusion), et Eli Lilly a été investisseur d'ancrage de l'IPO d'Aktis Oncology en janvier 2026. Pour un VC santé, la vraie barrière à l'entrée n'est plus la molécule mais la chaîne d'approvisionnement en isotopes et la capacité de fabrication — d'où des tours géants pour financer l'industrialisation, un profil capital-intensif inhabituel en biotech.",
+    "why": "Le SaMD combine l'économie logicielle (coût marginal quasi nul, itération rapide) avec la barrière réglementaire d'un dispositif médical — une combinaison rare qui séduit les VC santé : la clearance FDA transforme une app en actif défendable, avec un vrai code de remboursement à la clé plutôt qu'un abonnement wellness fragile. 2026 marque un tournant avec la première clearance FDA d'un logiciel intégrant un LLM en interaction directe avec le patient.",
     "startups": [
-      { "name": "Nuclidium", "use": "Plateforme théranostique au cuivre (Cu-61 diagnostic / Cu-67 thérapeutique) ; extension de Series B à CHF 105M en mai 2026", "place": "Bâle, Suisse" },
-      { "name": "ITM Isotope Technologies Munich", "use": "Lu-177-edotreotide (ITM-11) en Phase 3 COMPETE, critère primaire validé, décision FDA attendue fin août 2026", "place": "Munich, Allemagne" },
-      { "name": "Pentixapharm", "use": "Plateforme théranostique CXCR4 (PentixaFor/PentixaTher), Phase 3 US en préparation pour PentixaFor", "place": "Würzburg, Allemagne" },
-      { "name": "Convergent Therapeutics", "use": "Anticorps radioconjugué alpha CONV01-α (Ac-225) ciblant PSMA dans le cancer de la prostate avancé", "place": "Cambridge, États-Unis" }
+      { "name": "UpDoc", "use": "Premier SaMD FDA-cleared (510(k), déc. 2025) intégrant un LLM en interaction directe avec le patient, pour la titration d'insuline dans le diabète de type 2 ; 18 M$ en seed", "place": "États-Unis" },
+      { "name": "Cognoa", "use": "Canvas Dx, SaMD de dépistage des troubles du spectre autistique par analyse vidéo, autorisé par la FDA (De Novo)", "place": "Palo Alto, États-Unis" },
+      { "name": "Median Technologies", "use": "eyonis LCS, SaMD d'IA pour le dépistage du cancer du poumon, clearance FDA 510(k) et marquage CE obtenus en 2026", "place": "Valbonne, France" }
     ]
   }
 }
