@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-18",
   "words": [
+    {
+      "term": "Bispecific CAR-T",
+      "full": "Bispecific Chimeric Antigen Receptor T-cell",
+      "fr": "Lymphocyte T à récepteur antigénique chimérique bispécifique",
+      "field": "Oncologie cellulaire",
+      "definition": "Un CAR-T conçu pour reconnaître deux antigènes tumoraux à la fois plutôt qu'un seul, afin d'empêcher la tumeur d'échapper au traitement en perdant juste une des deux cibles.",
+      "parts": [
+        {
+          "label": "Double domaine de liaison",
+          "role": "reconnaissance simultanée de deux antigènes"
+        },
+        {
+          "label": "Linker",
+          "role": "articulation flexible entre les deux domaines"
+        },
+        {
+          "label": "Domaine de signalisation",
+          "role": "activation et prolifération du lymphocyte T"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ingénierie",
+          "t": "Le gène du récepteur bispécifique est inséré dans les lymphocytes T du patient, ou d'un donneur pour une approche allogénique."
+        },
+        {
+          "n": "2",
+          "h": "Reconnaissance double",
+          "t": "Le CAR-T circule et se lie à l'une ou l'autre des deux cibles portées par la cellule tumorale, par exemple CD19 et CD20."
+        },
+        {
+          "n": "3",
+          "h": "Élimination robuste",
+          "t": "La tumeur ne peut plus échapper au traitement en perdant une seule cible, ce qui réduit le risque de rechute par échappement antigénique."
+        }
+      ],
+      "why": "L'échappement antigénique est la première cause de rechute des CAR-T CD19 mono-cible déjà approuvés ; le bispécifique est l'axe de différenciation que les investisseurs regardent pour juger si un nouvel entrant en cellulaire porte une vraie thèse de deuxième génération plutôt qu'un me-too.",
+      "startups": [
+        {
+          "name": "AbelZeta Pharma",
+          "use": "Développe C-CAR039 (Prizlon-cel), CAR-T bispécifique CD19/CD20, avec clearance IND FDA obtenue le 16 août 2026 pour le lymphome B diffus à grandes cellules",
+          "place": "Rockville, États-Unis / Shanghai, Chine"
+        },
+        {
+          "name": "AvenCell Therapeutics",
+          "use": "Développe AVC-203, CAR-T allogénique bispécifique CD19/CD20 switchable, avec premier patient dosé dans l'essai de phase 1 QUADvance",
+          "place": "Dresde, Allemagne"
+        },
+        {
+          "name": "iCell Gene Therapeutics",
+          "use": "Développe des CAR-T bispécifiques (CD19/CD22, CD19/BCMA) pour les hémopathies B réfractaires et les maladies auto-immunes",
+          "place": "New York, États-Unis"
+        }
+      ],
+      "date": "2026-08-18",
+      "dateLong": "18 août 2026"
+    },
     {
       "term": "SaMD",
       "full": "Software as a Medical Device",

@@ -1,59 +1,63 @@
 {
-  "dateLong": "17 août 2026",
+  "dateLong": "18 août 2026",
   "ticker": [
-    { "company": "Daré Bioscience", "amount": "$6M", "kind": "lev" }
+    { "company": "Khartis Therapeutics", "amount": "$50M", "kind": "lev" },
+    { "company": "CoreMap", "amount": "$37M", "kind": "lev" },
+    { "company": "Remepy", "amount": "$36M", "kind": "lev" },
+    { "company": "Beyang Therapeutics", "amount": "$30M", "kind": "lev" },
+    { "company": "Amplifica Holdings", "amount": "$26M", "kind": "lev" },
+    { "company": "Remedium Bio", "amount": "$10M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Clearance FDA · Robotique portable",
-    "title": "Wandercraft décroche la clearance FDA pour Eve, premier exosquelette personnel auto-équilibré au monde",
-    "deck": "La medtech française obtient l'autorisation de la FDA pour Eve, destiné aux utilisateurs de fauteuil roulant vivant avec une lésion médullaire à tout niveau, avec un lancement commercial visé au 17 septembre et une éligibilité au remboursement Medicare attendue sous 60 à 90 jours. Porté par une Series D de 75 M$, ce jalon réglementaire ouvre la voie d'accès au marché américain pour toute une génération d'exosquelettes personnels, un segment où la clearance FDA reste le principal verrou avant la commercialisation à grande échelle.",
-    "company": "Wandercraft",
-    "stage": "Growth",
+    "kicker": "IND FDA · CAR-T bispécifique",
+    "title": "AbelZeta Pharma décroche la clearance IND de la FDA pour son CAR-T bispécifique C-CAR039, après avoir repris tous les droits mondiaux du programme",
+    "deck": "Le CAR-T Prizlon-cel, qui cible simultanément CD19 et CD20 pour limiter le risque de rechute par échappement antigénique, entre en développement clinique américain contre le lymphome B diffus à grandes cellules, après qu'AbelZeta a repris en juillet l'intégralité des droits de développement, fabrication et licensing du programme. Ce doublé — reprise de droits puis feu vert réglementaire — montre comment une biotech mid-cap peut transformer un actif jugé secondaire par un partenaire en programme phare.",
+    "company": "AbelZeta Pharma",
     "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.manilatimes.net/2026/08/11/tmt-newswire/globenewswire/wandercraft-receives-fda-clearance-for-eve-the-worlds-first-self-balancing-personal-exoskeleton-for-eligible-wheelchair-users-living-with-spinal-cord-injuries-at-any-level/2403113"
+    "strength": 3,
+    "url": "https://www.prnewswire.com/news-releases/abelzeta-regains-global-rights-of-c-car039-prizlon-cel-and-receives-fda-clearance-of-ind-application-in-large-b-cell-lymphoma-302852423.html"
   },
   "deal": {
-    "company": "Daré Bioscience",
-    "amount": "$6,0 M",
-    "round": "Placement direct enregistré",
-    "thesis": "La biotech san-diegoise dédiée à la santé des femmes précise le 14 août les termes d'un placement direct enregistré de 6,0 M$ au prix du marché sous les règles Nasdaq, assorti de bons de souscription émis en placement privé concomitant, pour un closing visé au 17 août. Le montage — cash immédiat plus optionalité dilutive différée plutôt qu'un tour classique mené par un lead nommé — illustre la difficulté persistante des biotechs féminines cotées en microcap à lever du capital, forçant un recours à des financements de survie.",
-    "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/dare-bioscience-announces-pricing-of-60-million-registered-direct-offering-priced-at-the-market-under-nasdaq-rules/2405954/amp"
+    "company": "Khartis Therapeutics",
+    "amount": "$50 M",
+    "round": "Series B",
+    "thesis": "L'ex-chimiste Pfizer Robert Hoffman, codécouvreur du traitement anticancéreux Lorbrena, sort de stealth avec 95 M$ cumulés pour porter en clinique un candidat oral contre l'orbitopathie thyroïdienne, alternative aux biologiques injectables qui dominent le secteur. Le tour, mené par Forge Life Science Partners avec Longwood Fund et Alexandria Venture Investments, mise sur une équipe déjà passée par une sortie réussie (XinThera, racheté par Gilead en 2023) pour rejouer la martingale sur l'immunologie orale à petites molécules.",
+    "url": "https://www.biospace.com/press-releases/khartis-therapeutics-emerges-from-stealth-with-95-million-in-funding-to-advance-oral-small-molecule-immunology-pipeline"
   },
   "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Attralus",
-      "place": "South San Francisco, États-Unis",
+      "company": "Artelo Biosciences",
+      "place": "Solana Beach, États-Unis",
       "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Attralus obtient la Fast Track de la FDA pour zamubafusp alfa (AT-02) dans l'amylose AL",
-      "summary": "Le candidat « pan-amyloid depleter » d'Attralus décroche le 12 août la désignation Fast Track de la FDA pour le traitement de l'amylose à chaînes légères (AL), une maladie rare et progressive, quelques semaines après avoir déjà reçu la désignation orpheline. Un jalon réglementaire qui accélère la voie vers l'enregistrement pour une biotech clinique encore indépendante.",
-      "url": "https://www.biospace.com/press-releases/attralus-has-been-granted-u-s-fda-fast-track-designation-for-zamubafusp-alfa-at-02-for-the-treatment-of-al-amyloidosis"
+      "signalType": "patent_filing",
+      "strength": 2,
+      "title": "Artelo Biosciences obtient un avis d'admissibilité de l'USPTO pour la formulation commerciale de son candidat ART27.13",
+      "summary": "L'office américain des brevets autorise les revendications couvrant la formulation commerciale visée du cannabinoïde de synthèse ART27.13, actuellement en Phase 2 dans l'anorexie liée au cancer et en Phase 2 dans le glaucome. Verrouiller l'IP avant les données pivots sécurise la valeur de l'actif pour cette biotech microcap qui devra relever des fonds pour financer la suite.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/17/3346126/0/en/artelo-biosciences-receives-a-notice-of-allowance-from-the-u-s-patent-and-trademark-office-for-its-lead-investigational-drug-currently-in-two-phase-2-studies.html"
     }
   ],
   "word": {
-    "term": "SaMD",
-    "full": "Software as a Medical Device",
-    "fr": "Logiciel en tant que dispositif médical",
-    "field": "Réglementaire · Digital Health",
-    "definition": "Un logiciel qui remplit à lui seul une fonction médicale — diagnostiquer, guider un traitement — sans être intégré à un dispositif matériel, et qui est de ce fait régulé comme un dispositif médical à part entière.",
+    "term": "Bispecific CAR-T",
+    "full": "Bispecific Chimeric Antigen Receptor T-cell",
+    "fr": "Lymphocyte T à récepteur antigénique chimérique bispécifique",
+    "field": "Oncologie cellulaire",
+    "definition": "Un CAR-T conçu pour reconnaître deux antigènes tumoraux à la fois plutôt qu'un seul, afin d'empêcher la tumeur d'échapper au traitement en perdant juste une des deux cibles.",
     "parts": [
-      { "label": "Capture", "role": "la donnée d'entrée : imagerie, signal, dossier patient, saisie utilisateur" },
-      { "label": "Moteur algorithmique", "role": "l'analyse — règles cliniques ou modèle d'IA/ML entraîné" },
-      { "label": "Sortie clinique", "role": "le résultat actionnable : diagnostic, alerte, recommandation de dose" }
+      { "label": "Double domaine de liaison", "role": "reconnaissance simultanée de deux antigènes" },
+      { "label": "Linker", "role": "articulation flexible entre les deux domaines" },
+      { "label": "Domaine de signalisation", "role": "activation et prolifération du lymphocyte T" }
     ],
     "how": [
-      { "n": "1", "h": "Qualification", "t": "Le logiciel est classé selon son risque clinique (catégories IMDRF I à IV), ce qui détermine la voie réglementaire à suivre." },
-      { "n": "2", "h": "Validation clinique", "t": "Une étude démontre la sécurité et la performance du logiciel sur son indication précise, souvent via un prédicat existant." },
-      { "n": "3", "h": "Autorisation", "t": "La FDA (510(k)/De Novo) ou un organisme notifié européen (marquage CE sous le MDR) valide la mise sur le marché." }
+      { "n": "1", "h": "Ingénierie", "t": "Le gène du récepteur bispécifique est inséré dans les lymphocytes T du patient, ou d'un donneur pour une approche allogénique." },
+      { "n": "2", "h": "Reconnaissance double", "t": "Le CAR-T circule et se lie à l'une ou l'autre des deux cibles portées par la cellule tumorale, par exemple CD19 et CD20." },
+      { "n": "3", "h": "Élimination robuste", "t": "La tumeur ne peut plus échapper au traitement en perdant une seule cible, ce qui réduit le risque de rechute par échappement antigénique." }
     ],
-    "why": "Le SaMD combine l'économie logicielle (coût marginal quasi nul, itération rapide) avec la barrière réglementaire d'un dispositif médical — une combinaison rare qui séduit les VC santé : la clearance FDA transforme une app en actif défendable, avec un vrai code de remboursement à la clé plutôt qu'un abonnement wellness fragile. 2026 marque un tournant avec la première clearance FDA d'un logiciel intégrant un LLM en interaction directe avec le patient.",
+    "why": "L'échappement antigénique est la première cause de rechute des CAR-T CD19 mono-cible déjà approuvés ; le bispécifique est l'axe de différenciation que les investisseurs regardent pour juger si un nouvel entrant en cellulaire porte une vraie thèse de deuxième génération plutôt qu'un me-too.",
     "startups": [
-      { "name": "UpDoc", "use": "Premier SaMD FDA-cleared (510(k), déc. 2025) intégrant un LLM en interaction directe avec le patient, pour la titration d'insuline dans le diabète de type 2 ; 18 M$ en seed", "place": "États-Unis" },
-      { "name": "Cognoa", "use": "Canvas Dx, SaMD de dépistage des troubles du spectre autistique par analyse vidéo, autorisé par la FDA (De Novo)", "place": "Palo Alto, États-Unis" },
-      { "name": "Median Technologies", "use": "eyonis LCS, SaMD d'IA pour le dépistage du cancer du poumon, clearance FDA 510(k) et marquage CE obtenus en 2026", "place": "Valbonne, France" }
+      { "name": "AbelZeta Pharma", "use": "Développe C-CAR039 (Prizlon-cel), CAR-T bispécifique CD19/CD20, avec clearance IND FDA obtenue le 16 août 2026 pour le lymphome B diffus à grandes cellules", "place": "Rockville, États-Unis / Shanghai, Chine" },
+      { "name": "AvenCell Therapeutics", "use": "Développe AVC-203, CAR-T allogénique bispécifique CD19/CD20 switchable, avec premier patient dosé dans l'essai de phase 1 QUADvance", "place": "Dresde, Allemagne" },
+      { "name": "iCell Gene Therapeutics", "use": "Développe des CAR-T bispécifiques (CD19/CD22, CD19/BCMA) pour les hémopathies B réfractaires et les maladies auto-immunes", "place": "New York, États-Unis" }
     ]
   }
 }
