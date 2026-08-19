@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-18",
+  "generatedAt": "2026-08-19",
   "words": [
+    {
+      "term": "PARG",
+      "full": "Poly(ADP-ribose) Glycohydrolase",
+      "fr": "Poly(ADP-ribose) glycohydrolase",
+      "field": "Oncologie de précision · DNA Damage Response",
+      "definition": "Une enzyme de réparation de l'ADN dont l'inhibition pousse les cellules tumorales déficientes en recombinaison homologue (BRCA-mutées) vers une catastrophe réplicative fatale — un mécanisme distinct des anti-PARP, conçu pour contourner leurs résistances.",
+      "parts": [
+        {
+          "label": "PARG",
+          "role": "l'enzyme ciblée"
+        },
+        {
+          "label": "Chaînes PAR",
+          "role": "le signal qui s'accumule"
+        },
+        {
+          "label": "Fourche de réplication",
+          "role": "le point de rupture"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Inhibition",
+          "t": "La molécule bloque PARG, empêchant le nettoyage des chaînes PAR posées pendant la réparation de l'ADN."
+        },
+        {
+          "n": "2",
+          "h": "Accumulation",
+          "t": "Les chaînes PAR s'accumulent et bloquent la progression des fourches de réplication."
+        },
+        {
+          "n": "3",
+          "h": "Catastrophe",
+          "t": "Chez les tumeurs BRCA-mutées, incapables de réparer par une voie de secours, la fourche bloquée dégénère en mort cellulaire sélective."
+        }
+      ],
+      "why": "Après une décennie de succès commercial des anti-PARP (Lynparza, Zejula), les inhibiteurs de PARG visent le même terrain — tumeurs HRD/BRCA-mutées — par un mécanisme distinct, avec l'espoir de fonctionner là où les résistances aux anti-PARP se sont installées. Une validation clinique ouvrirait une nouvelle classe thérapeutique sur un marché déjà prouvé, ce qui explique l'appétit des spécialistes DDR pour ce créneau étroit mais bien balisé.",
+      "startups": [
+        {
+          "name": "858 Therapeutics",
+          "use": "PARG inhibiteur ETX-19477 en Phase 1/2, double Fast Track FDA obtenue (ovaire en janvier, sein BRCA-muté ce 18 août)",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "IDEAYA Biosciences",
+          "use": "PARG inhibiteur IDE161 en Phase 1, testé aussi en combinaison avec l'ADC anti-DLL3 IDE849",
+          "place": "South San Francisco, États-Unis"
+        },
+        {
+          "name": "FoRx Therapeutics",
+          "use": "PARG inhibiteur FORX-428 en Phase 1, Series A de 50 M$ menée par ses investisseurs historiques (EQT Life Sciences, Novartis Venture Fund, Pfizer Ventures)",
+          "place": "Suisse"
+        }
+      ],
+      "date": "2026-08-19",
+      "dateLong": "19 août 2026"
+    },
     {
       "term": "Bispecific CAR-T",
       "full": "Bispecific Chimeric Antigen Receptor T-cell",
