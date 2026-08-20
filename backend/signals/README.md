@@ -154,6 +154,20 @@ A floor is `max(score, floor)` — never a replacement — so a lead matching a 
 > is deliberate: the rules are a product promise, and a promise that depends on
 > weight tuning breaks the first time a weight is adjusted.
 
+**(c) a ceiling on the HIGH band.** A lead that matches no rule is capped at
+**79**, so `score >= 80` means `researcher_patent_newco` fired, and nothing else.
+
+The first live run with patents is why. Its only "priorité haute" lead was
+**B. Braun Melsungen** — an 8 B€ incumbent scoring 95 with ten signals across
+four sources and `rules: []`. A large industrial group files patents, publishes
+and runs trials continuously, so it out-accumulates precisely the emerging teams
+this pipeline exists to find. With the ceiling it scores 79 and sits at the top
+of the medium band, which is where it belongs.
+
+Matching the *medium* rule does not lift the ceiling either: only the
+high-priority pattern opens the 80-100 range, and within it the weighted sum
+still orders leads, so a corroborated match outranks a bare one.
+
 Signal types are the **app's own vocabulary** (`src/content/signalTypes.ts` in
 `vantage`), so a lead renders with the existing `SignalBadge`, no translation.
 

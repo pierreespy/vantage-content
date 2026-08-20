@@ -209,10 +209,11 @@ export function scoreLead(input) {
     reasons.push(`Corroboré par ${distinctSources} sources indépendantes (+${bonus}).`);
   }
 
-  let score = Math.round(Math.max(0, Math.min(100, total)));
+  const weighted = Math.round(Math.max(0, Math.min(100, total)));
 
-  // Rule floors, applied last so they can only ever raise the score.
+  // Which named rules matched.
   const rules = [];
+  let floor = 0;
   for (const match of [
     matchesHighPriority(signals, context, today),
     matchesMediumPriority(signals, context, today),
@@ -220,8 +221,19 @@ export function scoreLead(input) {
     if (!match) continue;
     rules.push(match.id);
     reasons.unshift(match.reason); // the rule is the headline reason
-    if (match.floor > score) score = match.floor;
+    floor = Math.max(floor, match.floor);
   }
+
+  // The HIGH band is RESERVED for the high-priority pattern. Without this
+  // ceiling the weighted sum alone reaches 80 by sheer accumulation, and the
+  // first live run with patents proved it: the only "priorité haute" lead was
+  // B. Braun Melsungen — an 8 B€ incumbent with ten signals and NO rule matched.
+  // A large industrial group files patents, publishes and runs trials
+  // continuously, so it out-accumulates exactly the emerging teams this pipeline
+  // exists to find. Score >= 80 now means "chercheur + brevet + société < 6 mois",
+  // and nothing else; the weighted sum still orders everything below it.
+  const ceiling = rules.includes('researcher_patent_newco') ? 100 : HIGH_PRIORITY_SCORE - 1;
+  const score = Math.min(ceiling, Math.max(weighted, floor));
 
   return { score, priority: priorityFor(score), signals, reasons, rules };
 }

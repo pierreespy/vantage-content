@@ -237,3 +237,64 @@ test('unknown record kinds are ignored rather than scored at zero weight', () =>
   assert.equal(result.signals.length, 0);
   assert.equal(result.score, 0);
 });
+
+test('the HIGH band is reserved for the pattern — accumulation alone caps at 79', () => {
+  // The B. Braun case from the first live run with patents: an incumbent with
+  // signals from four sources saturates the weighted sum, but matches no rule.
+  const incumbent = scoreLead({
+    records: [
+      rec('patent', '2026-08-01', { source: 'epo', sourceId: 'p1' }),
+      rec('patent', '2026-08-01', { source: 'epo', sourceId: 'p2' }),
+      rec('patent', '2026-08-01', { source: 'epo', sourceId: 'p3' }),
+      rec('publication', '2026-08-01', { source: 'pubmed', sourceId: 'a' }),
+      rec('publication', '2026-07-20', { source: 'europepmc', sourceId: 'b' }),
+      rec('trial', '2026-07-20', { source: 'clinicaltrials', sourceId: 'NCT1' }),
+      rec('grant', '2026-07-01', { source: 'grants', sourceId: 'g1' }),
+    ],
+    // An incumbent's trial is industry-sponsored, so the medium rule cannot fire.
+    context: { hasCommercialSponsor: true },
+    now: NOW,
+  });
+
+  assert.deepEqual(incumbent.rules, [], 'no rule matched');
+  assert.equal(incumbent.score, HIGH_PRIORITY_SCORE - 1, 'capped just below the high band');
+  assert.equal(incumbent.priority, 'medium');
+});
+
+test('matching the MEDIUM rule never reaches the high band either', () => {
+  const result = scoreLead({
+    records: [
+      rec('trial', '2026-08-05', { sourceId: 'NCT1', extra: { firstPostedAt: '2026-07-20' } }),
+      rec('patent', '2026-08-01', { source: 'epo', sourceId: 'p1' }),
+      rec('publication', '2026-08-01', { source: 'pubmed', sourceId: 'a' }),
+      rec('grant', '2026-08-01', { source: 'grants', sourceId: 'g1' }),
+    ],
+    context: { trialFirstPostedById: { NCT1: '2026-07-20' } },
+    now: NOW,
+  });
+  assert.ok(result.rules.includes('new_trial_no_company'));
+  assert.ok(result.score < HIGH_PRIORITY_SCORE, `score was ${result.score}`);
+});
+
+test('the high pattern keeps the FULL range above 80, not just the floor', () => {
+  // A rich lead that also matches the pattern must outrank a bare match.
+  const bare = scoreLead({
+    records: [rec('publication', '2026-03-02'), rec('patent', '2026-05-15')],
+    context: { linkedCompanies: [{ name: 'X', incorporatedAt: '2026-06-14' }] },
+    now: NOW,
+  });
+  const rich = scoreLead({
+    records: [
+      rec('publication', '2026-08-01', { source: 'pubmed' }),
+      rec('patent', '2026-08-01', { source: 'epo' }),
+      rec('company_creation', '2026-06-14', { source: 'pappers' }),
+      rec('grant', '2026-07-01', { source: 'grants' }),
+      rec('trial', '2026-07-20', { source: 'clinicaltrials' }),
+    ],
+    now: NOW,
+  });
+
+  assert.equal(bare.score, HIGH_PRIORITY_SCORE, 'a bare match sits on the floor');
+  assert.ok(rich.score > bare.score, 'a corroborated match ranks above it');
+  assert.equal(rich.priority, 'high');
+});
