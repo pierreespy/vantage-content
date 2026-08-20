@@ -19,12 +19,19 @@ test('defaults are sane with a completely empty environment', () => {
     'epo',
     'clinicaltrials',
     'grants',
+    // One registry per country: each closes the "création de société" leg for
+    // its own geography, and the high-priority rule can only fire where one runs.
     'inpi',
+    'companieshouse',
+    'brreg',
   ]);
   // No credentials configured: those sources will skip themselves, not crash.
   assert.equal(config.epo.key, '');
   assert.equal(config.inpi.username, '');
   assert.equal(config.inpi.password, '');
+  assert.equal(config.companieshouse.apiKey, '');
+  // Norway is the exception: fully open data, so it always runs.
+  assert.deepEqual(config.brreg, { naceCodes: undefined });
 });
 
 test('the slow lookback covers the whole "société créée < 6 mois" window', () => {

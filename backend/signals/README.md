@@ -44,8 +44,10 @@ sources/  ──▶  lib/state.mjs  ──▶  resolve/  ──▶  score.mjs  �
 | `patents.mjs` | EPO OPS (Espacenet) | **yes** (OAuth2) | patents + **inventors** |
 | `trials.mjs` | ClinicalTrials.gov v2 | no | new trials **and status changes** |
 | `grants.mjs` | i-Lab / i-PhD / EIC | configurable | grant laureates |
-| `inpi.mjs` | INPI — Registre National des Entreprises | **yes** (free account) | incorporations + **directors** |
-| `registry.mjs` | Pappers (same registry, **paid**) | yes | off by default — see below |
+| `inpi.mjs` | INPI — RNE (**FR**) | free account | incorporations + **directors** |
+| `companieshouse.mjs` | Companies House (**GB**) | free API key | incorporations + **directors** |
+| `brreg.mjs` | Brønnøysund (**NO**) | **none** | incorporations + **directors** |
+| `registry.mjs` | Pappers (FR, same registry, **paid**) | yes | off by default — see below |
 
 Every connector produces the same `SourceRecord` (`lib/record.mjs`), so adding a
 seventh source means writing one parser and nothing else.
@@ -53,9 +55,31 @@ seventh source means writing one parser and nothing else.
 **A missing credential is never fatal**: that source logs a warning, returns `[]`,
 and the run continues. Same for a source that throws.
 
-### On the two registry connectors
+### On geography
 
-Pappers was the original choice: its API is far friendlier than the INPI one.
+Four of the six signal families are worldwide (publications, patents, trials,
+and the EU-wide part of grants). The **incorporation** leg is not: business
+registers are national, so there is one connector per country and the
+high-priority rule can only fire where one of them runs.
+
+What is reachable **for free** was checked endpoint by endpoint rather than
+assumed:
+
+| Country | Status |
+|---|---|
+| **France** | INPI RNE — free with an account |
+| **United Kingdom** | Companies House — free with an API key; filters by SIC code AND incorporation date in one query |
+| **Norway** | Brønnøysund — fully open, no credentials at all |
+| Ireland | CRO API is alive but credential-gated; not wired |
+| Finland | PRH/YTJ answers openly, but **unknown query parameters are silently ignored** — `mainBusinessLineCode=32500` returns all 823 526 companies. Without documented code formatting a connector could ingest an entire national register, so it is deliberately not wired |
+| Germany, Netherlands, Sweden, Denmark, Belgium, Spain, Italy | no free API. Handelsregister is not openly queryable, KvK and Bolagsverket are paid, KBO publishes files rather than an API |
+| Pan-European | OpenCorporates covers 200+ jurisdictions but charges for commercial use; the EU's BRIS has no recent-incorporation API |
+
+Germany is the notable gap, and there is no free way to close it today.
+
+### On the registry connectors
+
+**Pappers** was the original choice for France: its API is far friendlier than the INPI one.
 It turned out to be **paid**, which collides with the plan's "0 €, aucune source
 payante" decision, so `inpi.mjs` became the default and `registry.mjs`
 (Pappers) is kept for anyone holding a key. **Never enable both** — each would

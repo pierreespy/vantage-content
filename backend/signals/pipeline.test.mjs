@@ -190,6 +190,10 @@ async function makeHarness(dir, counter) {
     stateDir: join(dir, 'signal-state'),
     leadsPath: join(dir, 'medtech-leads.json'),
     cacheTtlMs: 0, // no caching: each run must really re-query the stubs
+    // The scenario is FRENCH (INPI). The UK and Norwegian registries have their
+    // own unit tests; enabling them here would only add stub routes for sources
+    // this fixture says nothing about.
+    enabledSources: ['pubmed', 'europepmc', 'epo', 'clinicaltrials', 'grants', 'inpi'],
     epo: { key: 'k', secret: 's', ipcClasses: undefined },
     inpi: { username: 'a@b.c', password: 'pw', apeCodes: undefined },
   };

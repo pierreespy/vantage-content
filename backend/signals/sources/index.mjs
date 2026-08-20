@@ -21,6 +21,8 @@ import * as trials from './trials.mjs';
 import * as grants from './grants.mjs';
 import * as registry from './registry.mjs';
 import * as inpi from './inpi.mjs';
+import * as companieshouse from './companieshouse.mjs';
+import * as brreg from './brreg.mjs';
 
 /**
  * The six connectors, each reduced to `id` + how to run it from the config.
@@ -102,6 +104,32 @@ export const SOURCES = [
       }),
   },
   {
+    id: 'companieshouse',
+    label: 'Registre légal UK (Companies House)',
+    run: ({ http, config, now, logger }) =>
+      companieshouse.fetchCompanyCreations({
+        http,
+        now,
+        logger,
+        lookbackDays: config.slowLookbackDays,
+        maxPages: config.maxPages,
+        ...config.companieshouse,
+      }),
+  },
+  {
+    id: 'brreg',
+    label: 'Registre légal NO (Brønnøysund)',
+    run: ({ http, config, now, logger }) =>
+      brreg.fetchCompanyCreations({
+        http,
+        now,
+        logger,
+        lookbackDays: config.slowLookbackDays,
+        maxPages: config.maxPages,
+        ...config.brreg,
+      }),
+  },
+  {
     id: 'pappers',
     label: 'Registre légal (Pappers, payant)',
     run: ({ http, config, now, logger }) =>
@@ -128,6 +156,8 @@ export function hostIntervals(config) {
     [trials.HOST]: trials.MIN_INTERVAL_MS,
     [registry.HOST]: registry.MIN_INTERVAL_MS,
     [inpi.HOST]: inpi.MIN_INTERVAL_MS,
+    [companieshouse.HOST]: companieshouse.MIN_INTERVAL_MS,
+    [brreg.HOST]: brreg.MIN_INTERVAL_MS,
   };
 }
 

@@ -70,7 +70,11 @@ export function loadConfig(env = process.env) {
       'epo',
       'clinicaltrials',
       'grants',
+      // Registries, one per country. Each closes the "création de société" leg
+      // for its own geography; the high-priority rule can only fire where one runs.
       'inpi',
+      'companieshouse',
+      'brreg',
     ]),
 
     /** Per-source credentials and query overrides. */
@@ -103,6 +107,14 @@ export function loadConfig(env = process.env) {
       username: env.INPI_USERNAME || '',
       password: env.INPI_PASSWORD || '',
       apeCodes: list(env.INPI_APE_CODES, undefined),
+    },
+    companieshouse: {
+      apiKey: env.COMPANIES_HOUSE_API_KEY || '',
+      sicCodes: list(env.COMPANIES_HOUSE_SIC_CODES, undefined),
+    },
+    /** Norway needs no credentials at all — fully open data. */
+    brreg: {
+      naceCodes: list(env.BRREG_NACE_CODES, undefined),
     },
     /** Paid alternative to `inpi`, kept for anyone holding a key. */
     pappers: {
