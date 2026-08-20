@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-19",
+  "generatedAt": "2026-08-20",
   "words": [
+    {
+      "term": "NewCo",
+      "full": "Asset-Centric Biotech NewCo",
+      "fr": "Société-projet biotech mono-actif",
+      "field": "Biotech / Corporate Development",
+      "definition": "Une société créée de toutes pièces par des investisseurs autour d'un seul actif thérapeutique déjà licencié, plutôt qu'autour d'une plateforme ou d'une équipe de recherche propriétaire.",
+      "parts": [
+        {
+          "label": "L'actif",
+          "role": "le programme clinique in-licencié, souvent originaire de Chine"
+        },
+        {
+          "label": "Le capital dédié",
+          "role": "un tour unique dimensionné pour porter l'actif jusqu'à l'inflexion de valeur"
+        },
+        {
+          "label": "L'équipe resserrée",
+          "role": "des vétérans biopharma recrutés pour l'exécution, pas la découverte"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sourcing",
+          "t": "Un fonds ou un consortium identifie un actif prometteur en Phase 1/2a, souvent via une licence hors de Chine."
+        },
+        {
+          "n": "2",
+          "h": "Capitalisation",
+          "t": "La NewCo est créée et capitalisée en un seul tour, généralement entre 50 et 200 M$."
+        },
+        {
+          "n": "3",
+          "h": "Exécution vers l'exit",
+          "t": "L'équipe pousse l'actif vers un jalon clinique clé, puis vise IPO ou rachat stratégique."
+        }
+      ],
+      "why": "Le modèle promet des données de Phase 2 environ 25% plus vite et des coûts de structure environ 40% plus bas qu'une biotech plateforme classique — un calcul qui séduit des VCs en quête d'un rendement plus rapide, quitte à sacrifier la découverte propriétaire. La une du jour (Lindus Therapeutics) en est une illustration directe.",
+      "startups": [
+        {
+          "name": "Lindus Therapeutics",
+          "use": "L'ex-CRO londonien Lindus Health revend ses actifs de service à Curavit pour se relancer en pure NewCo d'in-licensing, premier deal visé d'ici fin 2026.",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Windward Bio",
+          "use": "NewCo bâtie autour de WIN378, actif respiratoire co-développé par Kelun-Biotech et Harbour BioMed ; 200 M$ en Series A puis 165 M$ en tour crossover.",
+          "place": "Bâle, Suisse"
+        },
+        {
+          "name": "Tortugas Neuroscience",
+          "use": "NewCo neuro construite sur des actifs cliniques licenciés de Hansoh Pharma et Eisai ; 106 M$ levés en seed/Series A.",
+          "place": "Boston, États-Unis"
+        }
+      ],
+      "date": "2026-08-20",
+      "dateLong": "20 août 2026"
+    },
     {
       "term": "PARG",
       "full": "Poly(ADP-ribose) Glycohydrolase",

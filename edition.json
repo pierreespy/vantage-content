@@ -1,85 +1,69 @@
 {
-  "dateLong": "19 août 2026",
+  "dateLong": "20 août 2026",
   "ticker": [
-    { "company": "Vogenx", "amount": "$81M", "kind": "lev" },
-    { "company": "Aureka Biotechnologies", "amount": "$100M", "kind": "lev" },
-    { "company": "Aligned Marketplace", "amount": "$20M", "kind": "lev" },
-    { "company": "CORE Biomedicine", "amount": "$21M", "kind": "lev" },
-    { "company": "VitalConnect", "amount": "$287,5M", "kind": "mna" },
-    { "company": "BWXT Medical", "amount": "$800M", "kind": "mna" }
+    { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
+    { "company": "Hopscotch Primary Care", "amount": "$53M", "kind": "lev" },
+    { "company": "Renata Medical", "amount": "$25M", "kind": "lev" },
+    { "company": "KaliVir Immunotherapeutics", "amount": "$14M", "kind": "lev" },
+    { "company": "Aisel Health", "amount": "€1,7M", "kind": "lev" },
+    { "company": "Alesta Therapeutics", "amount": "$275M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Fast Track FDA · Oncologie",
-    "title": "858 Therapeutics décroche une 2e Fast Track FDA pour son inhibiteur PARG, cette fois dans le cancer du sein BRCA-muté",
-    "deck": "Après une première Fast Track dans l'ovaire en janvier, la FDA accorde à 858 Therapeutics une nouvelle désignation pour ETX-19477 dans le cancer du sein HR+/HER2- BRCA-muté — une classe thérapeutique distincte des anti-PARP, conçue pour fonctionner là où leurs résistances s'installent. Un signal fort pour une biotech encore en Series B, à surveiller avant son prochain tour.",
-    "company": "858 Therapeutics",
-    "stage": "Series B",
-    "signalType": "regulatory_milestone",
-    "strength": 3,
-    "url": "https://www.biospace.com/press-releases/858-therapeutics-announces-fda-fast-track-designation-for-parg-inhibitor-etx-19477-for-the-treatment-of-patients-with-brca-mutated-hr-her2-unresectable-or-metastatic-breast-cancer"
+    "kicker": "Pivot stratégique · Clinical Trials → Biotech",
+    "title": "Lindus Health vend ses actifs de CRO à Curavit et se relance en biotech sous le nom Lindus Therapeutics",
+    "deck": "Le londonien Lindus Health, connu pour son positionnement « anti-CRO » et ses 55 M$ levés en Series B menée par Balderton Capital, cède son activité de prestation clinique à l'américain Curavit pour se repositionner entièrement sur l'in-licensing d'actifs prêts pour la Phase 1/2a. Premiers deals visés d'ici fin 2026, premiers essais en H1 2027 : une startup VC bien connue de l'écosystème santé européen change de nature sous nos yeux.",
+    "company": "Lindus Health",
+    "signalType": "acquisition",
+    "strength": 4,
+    "url": "https://www.biospace.com/press-releases/curavit-expands-clinical-research-capabilities-with-acquisition-of-lindus-health-cro-assets-accelerating-global-trial-execution-for-life-science-sponsors"
   },
   "deal": {
-    "company": "R1 RCM",
-    "amount": "Non divulgué",
+    "company": "Alesta Therapeutics",
+    "amount": "$275M (+ jusqu'à $215M de milestones)",
     "round": "M&A",
-    "thesis": "R1 rachète Humata Health pour fondre son automatisation IA des autorisations préalables dans sa plateforme Phare OS — signal de consolidation rapide sur l'IA de « prior authorization », l'un des segments les plus chauds du digital health américain. Rappel utile : les startups qui percent vite sur ce créneau deviennent des cibles de rachat avant même d'atteindre un tour growth.",
-    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346895/0/en/r1-to-acquire-humata-health-enhancing-phare-os-with-ai-powered-prior-authorization-automation-and-payer-provider-collaboration.html"
+    "thesis": "BioMarin met la main sur ALE1, une petite molécule orale visant à devenir le premier traitement de l'hypophosphatasie (HPP) qui ne soit pas un biologique injectable. Alesta, biotech néerlandaise fondée en 2021 à Leiden et soutenue par Droia Ventures et Frazier Life Sciences pour 67,5 M$, illustre un exit propre sur une thèse orpheline étroite et bien exécutée — le format qui continue de payer en 2026.",
+    "url": "https://www.cnbc.com/2026/08/19/biomarin-to-acquire-alesta-therapeutics-for-275-million.html"
   },
   "brefsEurope": [
-    {
-      "company": "Exobiosphere",
-      "place": "Luxembourg",
-      "sector": "Biotech",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Exobiosphere décroche 1 M€ de subvention JEI pour son criblage pharma en orbite",
-      "summary": "La biotech luxembourgeoise fait tourner des expériences de découverte de médicaments en microgravité via sa plateforme OHTS (plus de 2 000 expériences automatisées par mission). Cette subvention non-dilutive du régime JEI finance son expansion commerciale — un angle non-consensus sur la découverte de médicaments, à surveiller avant un tour privé.",
-      "url": "https://www.eu-startups.com/2026/08/luxembourgs-space-biotech-exobiosphere-secures-e1-million-to-find-cures-from-space"
-    }
+    { "company": "Aisel Health", "place": "Copenhague", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 2,
+      "title": "Aisel Health boucle un pre-seed de 1,7 M€ pour son OS clinique dédié à la psychiatrie",
+      "summary": "Mené par Caesar Ventures avec Nordic Web Ventures, LifeX et Angel Invest, aux côtés de Rockstart et l'EIFO déjà au capital, ce tour finance une plateforme pensée spécifiquement pour les workflows de santé mentale — un sous-secteur encore largement sous-outillé comparé à la médecine somatique.",
+      "url": "https://www.eu-startups.com/2026/08/copenhagens-aisel-health-raises-e1-7-million-to-scale-its-ai-operating-system-for-psychiatric-care" }
   ],
   "brefsIntl": [
-    {
-      "company": "UroGen Pharma",
-      "place": "Princeton, États-Unis",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "UroGen Pharma dépose une NDA pour UGN-103 dans le cancer de la vessie non invasif",
-      "summary": "Nouvelle formulation de mitomycine pour le traitement intravésical du LG-IR-NMIBC récidivant. Comparable utile pour jauger la vitesse de dépôt réglementaire sur un segment d'uro-oncologie de niche déjà identifié par les VCs spécialisés.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/17/3346054/0/en/urogen-submits-nda-for-ugn-103-an-investigational-treatment-of-recurrent-lg-ir-nmibc.html"
-    },
-    {
-      "company": "WHOOP",
-      "place": "Boston, États-Unis",
-      "sector": "Digital Health",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "WHOOP ouvre ses bilans sanguins aux non-abonnés et y ajoute le test multi-cancer Galleri de GRAIL",
-      "summary": "Convergence wearable grand public et dépistage précoce multi-cancer : un signal de marché sur la bancarisation du diagnostic préventif hors du parcours clinique classique, à suivre pour les VCs santé digitale.",
-      "url": "https://www.fiercehealthcare.com/health-tech/whoop-expands-advanced-labs-offering-non-members-adds-grails-multi-cancer-detection"
-    }
+    { "company": "NORROY Bioscience", "place": "Wuxi, Chine", "sector": "Diagnostics",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "NORROY décroche Breakthrough Therapy ET Fast Track de la FDA pour son imagerie du cancer du rein",
+      "summary": "68Ga-NYM096, agent d'imagerie TEP ciblant CAIX pour caractériser les masses rénales indéterminées, devient le premier radiopharmaceutique d'origine chinoise à obtenir la Breakthrough Therapy Designation de la FDA — un signal fort pour la théranostique en oncologie et pour l'accélération des actifs chinois vers les marchés occidentaux.",
+      "url": "https://www.prnewswire.com/news-releases/norroy-bioscience-granted-fda-breakthrough-therapy-and-fast-track-designations-for-kidney-cancer-imaging-product-302854931.html" },
+    { "company": "Amylyx Pharmaceuticals", "place": "Cambridge, MA", "sector": "Biotech",
+      "signalType": "clinical_update", "strength": 4,
+      "title": "Amylyx atteint son critère principal en Phase 3 sur l'hypoglycémie post-bariatrique",
+      "summary": "L'essai LUCIDITY (78 patients) montre une réduction de 55% des épisodes hypoglycémiques sévères sous avexitide, antagoniste du GLP-1, avec p=0,000003 — une validation clinique nette pour un segment en forte croissance à mesure que se multiplient chirurgies bariatriques et traitements GLP-1.",
+      "url": "https://www.morningstar.com/news/business-wire/20260817275387/amylyx-pharmaceuticals-announces-positive-topline-results-from-phase-3-lucidity-clinical-trial-of-avexitide-in-post-bariatric-hypoglycemia" }
   ],
   "word": {
-    "term": "PARG",
-    "full": "Poly(ADP-ribose) Glycohydrolase",
-    "fr": "Poly(ADP-ribose) glycohydrolase",
-    "field": "Oncologie de précision · DNA Damage Response",
-    "definition": "Une enzyme de réparation de l'ADN dont l'inhibition pousse les cellules tumorales déficientes en recombinaison homologue (BRCA-mutées) vers une catastrophe réplicative fatale — un mécanisme distinct des anti-PARP, conçu pour contourner leurs résistances.",
+    "term": "NewCo",
+    "full": "Asset-Centric Biotech NewCo",
+    "fr": "Société-projet biotech mono-actif",
+    "field": "Biotech / Corporate Development",
+    "definition": "Une société créée de toutes pièces par des investisseurs autour d'un seul actif thérapeutique déjà licencié, plutôt qu'autour d'une plateforme ou d'une équipe de recherche propriétaire.",
     "parts": [
-      { "label": "PARG", "role": "l'enzyme ciblée" },
-      { "label": "Chaînes PAR", "role": "le signal qui s'accumule" },
-      { "label": "Fourche de réplication", "role": "le point de rupture" }
+      { "label": "L'actif", "role": "le programme clinique in-licencié, souvent originaire de Chine" },
+      { "label": "Le capital dédié", "role": "un tour unique dimensionné pour porter l'actif jusqu'à l'inflexion de valeur" },
+      { "label": "L'équipe resserrée", "role": "des vétérans biopharma recrutés pour l'exécution, pas la découverte" }
     ],
     "how": [
-      { "n": "1", "h": "Inhibition", "t": "La molécule bloque PARG, empêchant le nettoyage des chaînes PAR posées pendant la réparation de l'ADN." },
-      { "n": "2", "h": "Accumulation", "t": "Les chaînes PAR s'accumulent et bloquent la progression des fourches de réplication." },
-      { "n": "3", "h": "Catastrophe", "t": "Chez les tumeurs BRCA-mutées, incapables de réparer par une voie de secours, la fourche bloquée dégénère en mort cellulaire sélective." }
+      { "n": "1", "h": "Sourcing", "t": "Un fonds ou un consortium identifie un actif prometteur en Phase 1/2a, souvent via une licence hors de Chine." },
+      { "n": "2", "h": "Capitalisation", "t": "La NewCo est créée et capitalisée en un seul tour, généralement entre 50 et 200 M$." },
+      { "n": "3", "h": "Exécution vers l'exit", "t": "L'équipe pousse l'actif vers un jalon clinique clé, puis vise IPO ou rachat stratégique." }
     ],
-    "why": "Après une décennie de succès commercial des anti-PARP (Lynparza, Zejula), les inhibiteurs de PARG visent le même terrain — tumeurs HRD/BRCA-mutées — par un mécanisme distinct, avec l'espoir de fonctionner là où les résistances aux anti-PARP se sont installées. Une validation clinique ouvrirait une nouvelle classe thérapeutique sur un marché déjà prouvé, ce qui explique l'appétit des spécialistes DDR pour ce créneau étroit mais bien balisé.",
+    "why": "Le modèle promet des données de Phase 2 environ 25% plus vite et des coûts de structure environ 40% plus bas qu'une biotech plateforme classique — un calcul qui séduit des VCs en quête d'un rendement plus rapide, quitte à sacrifier la découverte propriétaire. La une du jour (Lindus Therapeutics) en est une illustration directe.",
     "startups": [
-      { "name": "858 Therapeutics", "use": "PARG inhibiteur ETX-19477 en Phase 1/2, double Fast Track FDA obtenue (ovaire en janvier, sein BRCA-muté ce 18 août)", "place": "San Diego, États-Unis" },
-      { "name": "IDEAYA Biosciences", "use": "PARG inhibiteur IDE161 en Phase 1, testé aussi en combinaison avec l'ADC anti-DLL3 IDE849", "place": "South San Francisco, États-Unis" },
-      { "name": "FoRx Therapeutics", "use": "PARG inhibiteur FORX-428 en Phase 1, Series A de 50 M$ menée par ses investisseurs historiques (EQT Life Sciences, Novartis Venture Fund, Pfizer Ventures)", "place": "Suisse" }
+      { "name": "Lindus Therapeutics", "use": "L'ex-CRO londonien Lindus Health revend ses actifs de service à Curavit pour se relancer en pure NewCo d'in-licensing, premier deal visé d'ici fin 2026.", "place": "Londres, Royaume-Uni" },
+      { "name": "Windward Bio", "use": "NewCo bâtie autour de WIN378, actif respiratoire co-développé par Kelun-Biotech et Harbour BioMed ; 200 M$ en Series A puis 165 M$ en tour crossover.", "place": "Bâle, Suisse" },
+      { "name": "Tortugas Neuroscience", "use": "NewCo neuro construite sur des actifs cliniques licenciés de Hansoh Pharma et Eisai ; 106 M$ levés en seed/Series A.", "place": "Boston, États-Unis" }
     ]
   }
 }
