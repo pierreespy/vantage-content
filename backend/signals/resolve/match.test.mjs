@@ -126,3 +126,22 @@ test('affiliationTokens keeps only discriminating words', () => {
   assert.deepEqual([...affiliationTokens('Department of Medicine, University of Bordeaux')], ['bordeaux']);
   assert.deepEqual([...affiliationTokens('')], []);
 });
+
+test('a one-letter name is never a prefix match — it would bridge everything', () => {
+  // Regression guard from the first live run WITH patents: a junk organisation
+  // named "B" prefix-matched every company starting with B, and because a
+  // mention matching two clusters merges them, it welded "B S", "B G",
+  // "B. Braun Melsungen" and "B. Braun Avitum" into one entity.
+  for (const junk of ['B', 'B.', 'B S', 'A']) {
+    assert.ok(
+      !companiesMatch({ name: junk }, { name: 'B. Braun Melsungen AG' }),
+      `${junk} must not match B. Braun`
+    );
+  }
+});
+
+test('a substantial prefix still matches', () => {
+  // The behaviour the prefix rule exists for must survive the guard.
+  assert.ok(companiesMatch({ name: 'Neuroscan' }, { name: 'Neuroscan Medical' }));
+  assert.ok(companiesMatch({ name: 'B. Braun' }, { name: 'B. Braun Melsungen AG' }));
+});

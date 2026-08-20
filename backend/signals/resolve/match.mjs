@@ -31,6 +31,10 @@ export const PERSON_MATCH_THRESHOLD = 0.75;
 /** Companies are compared on their full normalized name, so the bar is higher. */
 export const COMPANY_MATCH_THRESHOLD = 0.88;
 
+/** Shortest normalized name allowed to act as a PREFIX match. Below this, a name
+ *  is too generic to identify a company: "B" is not evidence of "B. Braun". */
+const MIN_PREFIX_CHARS = 4;
+
 /**
  * Family names common enough that "same family name + same initial" is weak
  * evidence. Not exhaustive by design — it only has to cover the names that
@@ -183,9 +187,20 @@ export function matchCompanies(a, b) {
   }
 
   const overlap = jaccard(tokensA, tokensB);
+
   // One name being a strict prefix of the other ("Neuroscan" / "Neuroscan
-  // Medical") is the common real-world case and deserves the overlap score.
-  const contained = nameA.startsWith(`${nameB} `) || nameB.startsWith(`${nameA} `);
+  // Medical") is a common real-world case and deserves a high score — but ONLY
+  // when the prefix is substantial enough to identify anything.
+  //
+  // Without MIN_PREFIX_CHARS, a source emitting a one-letter organisation name
+  // ("B") prefix-matches EVERY company starting with that letter, and because a
+  // mention matching two clusters merges them, that single junk name bridged
+  // "B S", "B G", "B. Braun Melsungen" and "B. Braun Avitum" into one entity in
+  // the first live run with patents. A short name must earn its match through
+  // token overlap or string similarity instead.
+  const shorter = nameA.length <= nameB.length ? nameA : nameB;
+  const isPrefix = nameA.startsWith(`${nameB} `) || nameB.startsWith(`${nameA} `);
+  const contained = isPrefix && shorter.length >= MIN_PREFIX_CHARS;
 
   const score = Math.max(similarity * 0.95, overlap, contained ? 0.9 : 0);
   const reason = contained ? 'prefix' : overlap >= similarity ? 'token-overlap' : 'string-similar';
