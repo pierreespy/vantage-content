@@ -44,13 +44,34 @@ sources/  ──▶  lib/state.mjs  ──▶  resolve/  ──▶  score.mjs  �
 | `patents.mjs` | EPO OPS (Espacenet) | **yes** (OAuth2) | patents + **inventors** |
 | `trials.mjs` | ClinicalTrials.gov v2 | no | new trials **and status changes** |
 | `grants.mjs` | i-Lab / i-PhD / EIC | configurable | grant laureates |
-| `registry.mjs` | Pappers (French RNE/RCS) | **yes** | incorporations + **directors** |
+| `inpi.mjs` | INPI — Registre National des Entreprises | **yes** (free account) | incorporations + **directors** |
+| `registry.mjs` | Pappers (same registry, **paid**) | yes | off by default — see below |
 
 Every connector produces the same `SourceRecord` (`lib/record.mjs`), so adding a
 seventh source means writing one parser and nothing else.
 
 **A missing credential is never fatal**: that source logs a warning, returns `[]`,
 and the run continues. Same for a source that throws.
+
+### On the two registry connectors
+
+Pappers was the original choice: its API is far friendlier than the INPI one.
+It turned out to be **paid**, which collides with the plan's "0 €, aucune source
+payante" decision, so `inpi.mjs` became the default and `registry.mjs`
+(Pappers) is kept for anyone holding a key. **Never enable both** — each would
+emit a `company_creation` record for the same SIREN under a different source id.
+
+The INPI connector is written against the published OpenAPI spec (RNE 3.1.3,
+`/api/doc.json`). Two things that spec does not pin down are handled
+defensively: the key holding the result array in a paginated response
+(`SearchResponse` types only the pagination counters), and the token field name
+on the login response.
+
+The RNE document is deeply nested; the paths read are
+`content.personneMorale.identite.entreprise` for the company and
+`content.personneMorale.composition.pouvoirs[].individu.descriptionPersonne`
+for the officers — with the same sub-structure under `personnePhysique` for
+sole traders.
 
 ### On the grants connector
 

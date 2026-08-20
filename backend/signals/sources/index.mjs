@@ -20,6 +20,7 @@ import * as patents from './patents.mjs';
 import * as trials from './trials.mjs';
 import * as grants from './grants.mjs';
 import * as registry from './registry.mjs';
+import * as inpi from './inpi.mjs';
 
 /**
  * The six connectors, each reduced to `id` + how to run it from the config.
@@ -87,8 +88,22 @@ export const SOURCES = [
       }),
   },
   {
+    id: 'inpi',
+    label: 'Registre légal (INPI RNE)',
+    run: ({ http, config, now, logger }) =>
+      inpi.fetchCompanyCreations({
+        http,
+        now,
+        logger,
+        // Must span the 6 months the high-priority rule asks about.
+        lookbackDays: config.slowLookbackDays,
+        maxPages: config.maxPages,
+        ...config.inpi,
+      }),
+  },
+  {
     id: 'pappers',
-    label: 'Registre légal (Pappers)',
+    label: 'Registre légal (Pappers, payant)',
     run: ({ http, config, now, logger }) =>
       registry.fetchCompanyCreations({
         http,
@@ -112,6 +127,7 @@ export function hostIntervals(config) {
     [patents.HOST]: patents.MIN_INTERVAL_MS,
     [trials.HOST]: trials.MIN_INTERVAL_MS,
     [registry.HOST]: registry.MIN_INTERVAL_MS,
+    [inpi.HOST]: inpi.MIN_INTERVAL_MS,
   };
 }
 

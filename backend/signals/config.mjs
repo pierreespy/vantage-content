@@ -61,14 +61,16 @@ export function loadConfig(env = process.env) {
     /** Hard cap on pages per source, so a broad query can never run away. */
     maxPages: num(env.SIGNALS_MAX_PAGES, 5),
 
-    /** Sources to run; defaults to all of them. */
+    /** Sources to run. `pappers` is deliberately OUT of the default set: it is
+     *  paid, and `inpi` reads the same French registry for free. Enabling both
+     *  would emit two `company_creation` records per SIREN. */
     enabledSources: list(env.SIGNALS_SOURCES, [
       'pubmed',
       'europepmc',
       'epo',
       'clinicaltrials',
       'grants',
-      'pappers',
+      'inpi',
     ]),
 
     /** Per-source credentials and query overrides. */
@@ -97,6 +99,12 @@ export function loadConfig(env = process.env) {
         ...(env.GRANTS_EIC_URL ? { 'eic-accelerator': env.GRANTS_EIC_URL } : {}),
       },
     },
+    inpi: {
+      username: env.INPI_USERNAME || '',
+      password: env.INPI_PASSWORD || '',
+      apeCodes: list(env.INPI_APE_CODES, undefined),
+    },
+    /** Paid alternative to `inpi`, kept for anyone holding a key. */
     pappers: {
       apiToken: env.PAPPERS_API_KEY || '',
       nafCodes: list(env.PAPPERS_NAF_CODES, undefined),

@@ -7,7 +7,7 @@
 //
 // The scenario is the product's headline case: Jean-Marc Dupont publishes
 // (Europe PMC + PubMed), files a patent (EPO), and incorporates Neuroscan
-// Medical (Pappers) — while, separately, a CHU registers a new trial with no
+// Medical (INPI RNE) — while, separately, a CHU registers a new trial with no
 // company behind it. The run must end with one high-priority and one
 // medium-priority lead.
 import { test } from 'node:test';
@@ -120,17 +120,39 @@ const PAYLOADS = {
       },
     ],
   },
-  pappers: {
-    total: 1,
-    resultats: [
+  inpiLogin: { token: 'inpi-token' },
+  inpi: {
+    totalSize: 1,
+    page: 1,
+    maxPage: 1,
+    pageSize: 100,
+    results: [
       {
         siren: '987654321',
-        nom_entreprise: 'NEUROSCAN MEDICAL',
-        date_creation: '2026-06-14',
-        code_naf: '2660Z',
-        libelle_code_naf: "Fabrication d'équipements d'irradiation médicale",
-        siege: { ville: 'Bordeaux', code_postal: '33000', pays_code: 'FR' },
-        representants: [{ nom: 'Dupont', prenom: 'Jean-Marc', nom_complet: 'Jean-Marc Dupont', qualite: 'Président' }],
+        formeJuridique: '5710',
+        created: '2026-06-20T09:00:00.000Z',
+        content: {
+          natureCreation: { dateCreation: '2026-06-14' },
+          personneMorale: {
+            identite: {
+              entreprise: {
+                siren: '987654321',
+                denomination: 'NEUROSCAN MEDICAL',
+                codeApe: '2660Z',
+                dateImmat: '2026-06-14',
+                objet: 'Conception de capteurs cardiaques implantables',
+              },
+            },
+            composition: {
+              pouvoirs: [
+                {
+                  libelleRoleEntreprise: 'Président',
+                  individu: { descriptionPersonne: { nom: 'Dupont', prenoms: ['Jean-Marc'] } },
+                },
+              ],
+            },
+          },
+        },
       },
     ],
   },
@@ -147,7 +169,8 @@ function fakeFetch(counter = { calls: 0 }) {
       if (url.includes('ops.epo.org/3.2/auth')) return PAYLOADS.epoToken;
       if (url.includes('ops.epo.org')) return PAYLOADS.epoSearch;
       if (url.includes('clinicaltrials.gov')) return PAYLOADS.trials;
-      if (url.includes('pappers.fr')) return PAYLOADS.pappers;
+      if (url.includes('inpi.fr/api/sso/login')) return PAYLOADS.inpiLogin;
+      if (url.includes('inpi.fr')) return PAYLOADS.inpi;
       throw new Error(`unexpected url in test: ${url}`);
     })();
 
@@ -168,7 +191,7 @@ async function makeHarness(dir, counter) {
     leadsPath: join(dir, 'medtech-leads.json'),
     cacheTtlMs: 0, // no caching: each run must really re-query the stubs
     epo: { key: 'k', secret: 's', ipcClasses: undefined },
-    pappers: { apiToken: 't', nafCodes: undefined },
+    inpi: { username: 'a@b.c', password: 'pw', apeCodes: undefined },
   };
 
   const http = createPipelineHttp(config, {
@@ -242,7 +265,7 @@ test('the published file is written, well-formed and self-describing', async () 
     // Every connector reports what it contributed, so a degraded run is visible
     // in the git diff rather than silent.
     const byId = Object.fromEntries(published.sources.map((source) => [source.id, source]));
-    assert.equal(byId.pappers.records, 1);
+    assert.equal(byId.inpi.records, 1);
     assert.equal(byId.epo.records, 1);
     assert.equal(byId.clinicaltrials.records, 1);
     assert.equal(byId.grants.records, 0, 'the shipped grant feeds are empty placeholders');
@@ -291,7 +314,7 @@ test('one failing source degrades the run instead of aborting it', async () => {
     const base = fakeFetch();
     const http = createPipelineHttp(config, {
       fetchImpl: async (url, options) => {
-        if (url.includes('pappers.fr')) throw new Error('pappers is down');
+        if (url.includes('inpi.fr')) throw new Error('inpi is down');
         return base(url, options);
       },
       now: () => NOW,
@@ -300,7 +323,7 @@ test('one failing source degrades the run instead of aborting it', async () => {
 
     const { leads, stats } = await runPipeline({ config, http, now: NOW, logger: silent });
     assert.equal(stats.errors.length, 1);
-    assert.equal(stats.errors[0].source, 'pappers');
+    assert.equal(stats.errors[0].source, 'inpi');
     // Without the incorporation the high-priority rule cannot fire, but the
     // publication + patent lead still exists.
     const dupont = leads.find((lead) => lead.name.includes('Dupont'));

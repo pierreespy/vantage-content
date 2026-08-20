@@ -10,17 +10,21 @@ test('defaults are sane with a completely empty environment', () => {
   assert.equal(config.maxPages, 5);
   assert.equal(config.port, 8787);
   assert.equal(config.dryRun, false);
+  // `inpi` is the default registry, not `pappers`: Pappers is paid, and the
+  // plan's architecture decision is "aucune source payante". Running both would
+  // emit two company_creation records per SIREN.
   assert.deepEqual(config.enabledSources, [
     'pubmed',
     'europepmc',
     'epo',
     'clinicaltrials',
     'grants',
-    'pappers',
+    'inpi',
   ]);
   // No credentials configured: those sources will skip themselves, not crash.
   assert.equal(config.epo.key, '');
-  assert.equal(config.pappers.apiToken, '');
+  assert.equal(config.inpi.username, '');
+  assert.equal(config.inpi.password, '');
 });
 
 test('the slow lookback covers the whole "société créée < 6 mois" window', () => {

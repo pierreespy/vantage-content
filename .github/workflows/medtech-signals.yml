@@ -53,6 +53,8 @@ jobs:
           NCBI_EMAIL: ${{ vars.NCBI_EMAIL }}
           EPO_OPS_KEY: ${{ secrets.EPO_OPS_KEY }}
           EPO_OPS_SECRET: ${{ secrets.EPO_OPS_SECRET }}
+          INPI_USERNAME: ${{ secrets.INPI_USERNAME }}
+          INPI_PASSWORD: ${{ secrets.INPI_PASSWORD }}
           PAPPERS_API_KEY: ${{ secrets.PAPPERS_API_KEY }}
           GRANTS_ILAB_URL: ${{ vars.GRANTS_ILAB_URL }}
           GRANTS_IPHD_URL: ${{ vars.GRANTS_IPHD_URL }}
