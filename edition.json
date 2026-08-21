@@ -1,69 +1,69 @@
 {
-  "dateLong": "20 août 2026",
+  "dateLong": "21 août 2026",
   "ticker": [
-    { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
-    { "company": "Hopscotch Primary Care", "amount": "$53M", "kind": "lev" },
-    { "company": "Renata Medical", "amount": "$25M", "kind": "lev" },
-    { "company": "KaliVir Immunotherapeutics", "amount": "$14M", "kind": "lev" },
-    { "company": "Aisel Health", "amount": "€1,7M", "kind": "lev" },
-    { "company": "Alesta Therapeutics", "amount": "$275M", "kind": "mna" }
+    { "company": "Craif", "amount": "$33M", "kind": "lev" },
+    { "company": "Network Bio", "amount": "$50M", "kind": "lev" },
+    { "company": "Yapan Bio", "amount": "$8M", "kind": "mna" },
+    { "company": "Tanabe Pharma", "amount": "$435M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Pivot stratégique · Clinical Trials → Biotech",
-    "title": "Lindus Health vend ses actifs de CRO à Curavit et se relance en biotech sous le nom Lindus Therapeutics",
-    "deck": "Le londonien Lindus Health, connu pour son positionnement « anti-CRO » et ses 55 M$ levés en Series B menée par Balderton Capital, cède son activité de prestation clinique à l'américain Curavit pour se repositionner entièrement sur l'in-licensing d'actifs prêts pour la Phase 1/2a. Premiers deals visés d'ici fin 2026, premiers essais en H1 2027 : une startup VC bien connue de l'écosystème santé européen change de nature sous nos yeux.",
-    "company": "Lindus Health",
-    "signalType": "acquisition",
-    "strength": 4,
-    "url": "https://www.biospace.com/press-releases/curavit-expands-clinical-research-capabilities-with-acquisition-of-lindus-health-cro-assets-accelerating-global-trial-execution-for-life-science-sponsors"
+    "kicker": "De Novo FDA · Phlébotomie robotisée",
+    "title": "Vitestro obtient l'autorisation De Novo de la FDA pour Aletta, le premier robot autonome de prélèvement sanguin",
+    "deck": "Le néerlandais Vitestro, qui avait bouclé en mars une Series B de 70 M$ emmenée par Labcorp Venture Fund, Mayo Clinic et Sutter Health pour financer précisément ce dossier réglementaire, voit la FDA autoriser Aletta par la voie De Novo (sans prédicat) pour le prélèvement sanguin ambulatoire sans opérateur au contact du patient. Un jalon qui valide d'un coup la thèse et le calendrier promis aux investisseurs, pour une medtech européenne qui vise la pénurie américaine de phlébotomistes.",
+    "company": "Vitestro",
+    "stage": "Series B",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.medtechdive.com/news/vitestro-secures-fda-nod-for-robotic-blood-draw-device/828358/"
   },
   "deal": {
-    "company": "Alesta Therapeutics",
-    "amount": "$275M (+ jusqu'à $215M de milestones)",
-    "round": "M&A",
-    "thesis": "BioMarin met la main sur ALE1, une petite molécule orale visant à devenir le premier traitement de l'hypophosphatasie (HPP) qui ne soit pas un biologique injectable. Alesta, biotech néerlandaise fondée en 2021 à Leiden et soutenue par Droia Ventures et Frazier Life Sciences pour 67,5 M$, illustre un exit propre sur une thèse orpheline étroite et bien exécutée — le format qui continue de payer en 2026.",
-    "url": "https://www.cnbc.com/2026/08/19/biomarin-to-acquire-alesta-therapeutics-for-275-million.html"
+    "company": "Craif",
+    "amount": "$33M",
+    "round": "Series D",
+    "thesis": "Le japonais Craif, dont le test urinaire miSignal détecte des cancers à partir de microARN circulants, boucle un tour co-mené par Granite-Integral (JV Granite Asia / Integral Corp) et Tauns Co. pour financer son entrée sur le marché américain et son dossier réglementaire japonais sur le cancer du pancréas. Preuve que le diagnostic non invasif par ARN circulant attire un capital patient et international, loin des seules levées oncologiques classiques.",
+    "url": "https://www.globenewswire.com/news-release/2026/08/18/3346930/0/en/craif-raises-33m-to-accelerate-introduction-of-its-urine-based-cancer-test-to-the-u-s.html"
   },
   "brefsEurope": [
-    { "company": "Aisel Health", "place": "Copenhague", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 2,
-      "title": "Aisel Health boucle un pre-seed de 1,7 M€ pour son OS clinique dédié à la psychiatrie",
-      "summary": "Mené par Caesar Ventures avec Nordic Web Ventures, LifeX et Angel Invest, aux côtés de Rockstart et l'EIFO déjà au capital, ce tour finance une plateforme pensée spécifiquement pour les workflows de santé mentale — un sous-secteur encore largement sous-outillé comparé à la médecine somatique.",
-      "url": "https://www.eu-startups.com/2026/08/copenhagens-aisel-health-raises-e1-7-million-to-scale-its-ai-operating-system-for-psychiatric-care" }
+    { "company": "My Mental Wellbeing", "place": "Copenhague", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 2, "stage": "Pre-seed",
+      "title": "My Mental Wellbeing décroche sa première levée externe et ouvre un tour pre-seed",
+      "summary": "Le danois, qui prédit stress et burnout jusqu'à 6 semaines avant les symptômes, est valorisé 3,2 M€ lors de sa toute première levée externe après quatre ans en ONG et 10 clients en Europe. Un signal amont sur la santé mentale au travail, sous-secteur encore sous-outillé face à la médecine somatique.",
+      "url": "https://techsavvy.media/en/mental-health-ai-startup-launches-pre-seed-round-following-new-investment/" }
   ],
   "brefsIntl": [
-    { "company": "NORROY Bioscience", "place": "Wuxi, Chine", "sector": "Diagnostics",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "NORROY décroche Breakthrough Therapy ET Fast Track de la FDA pour son imagerie du cancer du rein",
-      "summary": "68Ga-NYM096, agent d'imagerie TEP ciblant CAIX pour caractériser les masses rénales indéterminées, devient le premier radiopharmaceutique d'origine chinoise à obtenir la Breakthrough Therapy Designation de la FDA — un signal fort pour la théranostique en oncologie et pour l'accélération des actifs chinois vers les marchés occidentaux.",
-      "url": "https://www.prnewswire.com/news-releases/norroy-bioscience-granted-fda-breakthrough-therapy-and-fast-track-designations-for-kidney-cancer-imaging-product-302854931.html" },
-    { "company": "Amylyx Pharmaceuticals", "place": "Cambridge, MA", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 4,
-      "title": "Amylyx atteint son critère principal en Phase 3 sur l'hypoglycémie post-bariatrique",
-      "summary": "L'essai LUCIDITY (78 patients) montre une réduction de 55% des épisodes hypoglycémiques sévères sous avexitide, antagoniste du GLP-1, avec p=0,000003 — une validation clinique nette pour un segment en forte croissance à mesure que se multiplient chirurgies bariatriques et traitements GLP-1.",
-      "url": "https://www.morningstar.com/news/business-wire/20260817275387/amylyx-pharmaceuticals-announces-positive-topline-results-from-phase-3-lucidity-clinical-trial-of-avexitide-in-post-bariatric-hypoglycemia" }
+    { "company": "Network Bio", "place": "Boston, États-Unis", "sector": "Diagnostics",
+      "signalType": "funding_round", "strength": 4,
+      "title": "Network Bio sort de stealth avec 50 M$ et un partenariat Nvidia pour bâtir des IA de biomarqueurs à partir des biobanques hospitalières",
+      "summary": "Soutenu par Section 32, Thiel Bio, Founders Fund et Breyer Capital, le lancement relie les biobanques de Mass General Brigham, l'UPenn et l'University of Colorado à une IA entraînée pour la découverte de biomarqueurs — avec un accord à 30 M$ auprès de Nvidia pour un modèle de fondation dédié à l'ARN acellulaire (cfRNA).",
+      "url": "https://www.genomeweb.com/business-news/network-bio-launches-50m-financing-forges-partnership-nvidia" },
+    { "company": "Moderna / Merck", "place": "Cambridge, États-Unis", "sector": "Biotech",
+      "signalType": "clinical_update", "strength": 5,
+      "title": "Moderna et Merck valident en Phase 3 le premier vaccin ARNm personnalisé contre le cancer, une première mondiale",
+      "summary": "L'essai INTerpath-001 (plus de 1 100 patients) atteint ses critères de survie sans récidive et sans métastase à distance dans le mélanome à haut risque, avec le vaccin néoantigénique intismeran associé au Keytruda. Un jalon de preuve de concept pour toute la vague de biotechs en vaccins néoantigéniques personnalisés — un comparable de marché à lire, pas une opportunité d'entrée directe.",
+      "url": "https://www.statnews.com/2026/08/19/mrna-cancer-vaccine-trial-melanoma-merck-moderna/" }
   ],
   "word": {
-    "term": "NewCo",
-    "full": "Asset-Centric Biotech NewCo",
-    "fr": "Société-projet biotech mono-actif",
-    "field": "Biotech / Corporate Development",
-    "definition": "Une société créée de toutes pièces par des investisseurs autour d'un seul actif thérapeutique déjà licencié, plutôt qu'autour d'une plateforme ou d'une équipe de recherche propriétaire.",
+    "term": "cfRNA",
+    "full": "Cell-Free RNA",
+    "fr": "ARN acellulaire (ARN circulant)",
+    "field": "Diagnostic / Biomarqueurs liquides",
+    "definition": "Des fragments d'ARN libérés dans le sang ou l'urine par les cellules, y compris tumorales, qui circulent hors de toute cellule et dont le séquençage permet de détecter une maladie sans biopsie invasive.",
     "parts": [
-      { "label": "L'actif", "role": "le programme clinique in-licencié, souvent originaire de Chine" },
-      { "label": "Le capital dédié", "role": "un tour unique dimensionné pour porter l'actif jusqu'à l'inflexion de valeur" },
-      { "label": "L'équipe resserrée", "role": "des vétérans biopharma recrutés pour l'exécution, pas la découverte" }
+      { "label": "Fragment d'ARN libéré", "role": "la source d'information moléculaire" },
+      { "label": "Matrice biologique (sang, urine)", "role": "le véhicule non invasif" },
+      { "label": "Modèle d'IA entraîné", "role": "le décodeur qui transforme le signal brut en diagnostic" }
     ],
     "how": [
-      { "n": "1", "h": "Sourcing", "t": "Un fonds ou un consortium identifie un actif prometteur en Phase 1/2a, souvent via une licence hors de Chine." },
-      { "n": "2", "h": "Capitalisation", "t": "La NewCo est créée et capitalisée en un seul tour, généralement entre 50 et 200 M$." },
-      { "n": "3", "h": "Exécution vers l'exit", "t": "L'équipe pousse l'actif vers un jalon clinique clé, puis vise IPO ou rachat stratégique." }
+      { "n": "1", "h": "Libération", "t": "Les cellules, y compris tumorales, libèrent des fragments d'ARN dégradé dans la circulation sanguine ou l'urine." },
+      { "n": "2", "h": "Séquençage", "t": "Un test capture et séquence ces fragments malgré leur faible quantité et leur instabilité chimique naturelle." },
+      { "n": "3", "h": "Interprétation IA", "t": "Un modèle entraîné sur de vastes bases de données identifie la signature associée à une maladie ou à un cancer spécifique." }
     ],
-    "why": "Le modèle promet des données de Phase 2 environ 25% plus vite et des coûts de structure environ 40% plus bas qu'une biotech plateforme classique — un calcul qui séduit des VCs en quête d'un rendement plus rapide, quitte à sacrifier la découverte propriétaire. La une du jour (Lindus Therapeutics) en est une illustration directe.",
+    "why": "Contrairement à l'ADN acellulaire qui ne montre que des mutations statiques, le cfRNA capture l'activité génique en temps réel — un signal plus riche mais plus instable, encore sans test approuvé en clinique. L'accord noué cette semaine entre Network Bio et Nvidia pour un modèle de fondation dédié au cfRNA, aux côtés de la Series D de Craif sur le diagnostic urinaire du cancer, illustre l'appétit des VCs santé pour cette classe de biomarqueurs liquides de nouvelle génération.",
     "startups": [
-      { "name": "Lindus Therapeutics", "use": "L'ex-CRO londonien Lindus Health revend ses actifs de service à Curavit pour se relancer en pure NewCo d'in-licensing, premier deal visé d'ici fin 2026.", "place": "Londres, Royaume-Uni" },
-      { "name": "Windward Bio", "use": "NewCo bâtie autour de WIN378, actif respiratoire co-développé par Kelun-Biotech et Harbour BioMed ; 200 M$ en Series A puis 165 M$ en tour crossover.", "place": "Bâle, Suisse" },
-      { "name": "Tortugas Neuroscience", "use": "NewCo neuro construite sur des actifs cliniques licenciés de Hansoh Pharma et Eisai ; 106 M$ levés en seed/Series A.", "place": "Boston, États-Unis" }
+      { "name": "Network Bio", "use": "Relie les biobanques hospitalières (Mass General Brigham, UPenn, Univ. of Colorado) à une IA de biomarqueurs ; collaboration à 30 M$ avec Nvidia pour un modèle de fondation cfRNA, financement de lancement de 50 M$ le 19 août 2026.", "place": "Boston, États-Unis" },
+      { "name": "Craif", "use": "miSignal, test du cancer par microARN urinaire ; Series D de 33 M$ annoncée le 18 août 2026 pour son lancement clinique aux États-Unis.", "place": "Japon" },
+      { "name": "Flomics Biotech", "use": "Sentinel, test sanguin cfRNA de dépistage multicancer (poumon, colorectal, pancréas, prostate, sein) dès le stade I ; prépare une Series A après son seed de 1,1 M€.", "place": "Barcelone, Espagne" },
+      { "name": "Exai Bio", "use": "Plateforme d'IA sur ARN non-codants orphelins dérivés du cfRNA pour la détection précoce du cancer ; Series A de 67,5 M$ menée par Section 32 et Casdin Capital.", "place": "South San Francisco, États-Unis" }
     ]
   }
 }

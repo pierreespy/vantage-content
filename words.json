@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "words": [
+    {
+      "term": "cfRNA",
+      "full": "Cell-Free RNA",
+      "fr": "ARN acellulaire (ARN circulant)",
+      "field": "Diagnostic / Biomarqueurs liquides",
+      "definition": "Des fragments d'ARN libérés dans le sang ou l'urine par les cellules, y compris tumorales, qui circulent hors de toute cellule et dont le séquençage permet de détecter une maladie sans biopsie invasive.",
+      "parts": [
+        {
+          "label": "Fragment d'ARN libéré",
+          "role": "la source d'information moléculaire"
+        },
+        {
+          "label": "Matrice biologique (sang, urine)",
+          "role": "le véhicule non invasif"
+        },
+        {
+          "label": "Modèle d'IA entraîné",
+          "role": "le décodeur qui transforme le signal brut en diagnostic"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Libération",
+          "t": "Les cellules, y compris tumorales, libèrent des fragments d'ARN dégradé dans la circulation sanguine ou l'urine."
+        },
+        {
+          "n": "2",
+          "h": "Séquençage",
+          "t": "Un test capture et séquence ces fragments malgré leur faible quantité et leur instabilité chimique naturelle."
+        },
+        {
+          "n": "3",
+          "h": "Interprétation IA",
+          "t": "Un modèle entraîné sur de vastes bases de données identifie la signature associée à une maladie ou à un cancer spécifique."
+        }
+      ],
+      "why": "Contrairement à l'ADN acellulaire qui ne montre que des mutations statiques, le cfRNA capture l'activité génique en temps réel — un signal plus riche mais plus instable, encore sans test approuvé en clinique. L'accord noué cette semaine entre Network Bio et Nvidia pour un modèle de fondation dédié au cfRNA, aux côtés de la Series D de Craif sur le diagnostic urinaire du cancer, illustre l'appétit des VCs santé pour cette classe de biomarqueurs liquides de nouvelle génération.",
+      "startups": [
+        {
+          "name": "Network Bio",
+          "use": "Relie les biobanques hospitalières (Mass General Brigham, UPenn, Univ. of Colorado) à une IA de biomarqueurs ; collaboration à 30 M$ avec Nvidia pour un modèle de fondation cfRNA, financement de lancement de 50 M$ le 19 août 2026.",
+          "place": "Boston, États-Unis"
+        },
+        {
+          "name": "Craif",
+          "use": "miSignal, test du cancer par microARN urinaire ; Series D de 33 M$ annoncée le 18 août 2026 pour son lancement clinique aux États-Unis.",
+          "place": "Japon"
+        },
+        {
+          "name": "Flomics Biotech",
+          "use": "Sentinel, test sanguin cfRNA de dépistage multicancer (poumon, colorectal, pancréas, prostate, sein) dès le stade I ; prépare une Series A après son seed de 1,1 M€.",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "Exai Bio",
+          "use": "Plateforme d'IA sur ARN non-codants orphelins dérivés du cfRNA pour la détection précoce du cancer ; Series A de 67,5 M$ menée par Section 32 et Casdin Capital.",
+          "place": "South San Francisco, États-Unis"
+        }
+      ],
+      "date": "2026-08-21",
+      "dateLong": "21 août 2026"
+    },
     {
       "term": "NewCo",
       "full": "Asset-Centric Biotech NewCo",
