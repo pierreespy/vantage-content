@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-21",
+  "generatedAt": "2026-08-22",
   "words": [
+    {
+      "term": "Focal Therapy",
+      "full": "Focal Therapy (Focal Ablation)",
+      "fr": "Thérapie focale (ablation ciblée d'organe)",
+      "field": "Urologie interventionnelle / MedTech",
+      "definition": "Un traitement qui détruit ou neutralise uniquement la zone pathologique identifiée dans un organe, en épargnant le tissu sain environnant et la fonction de l'organe.",
+      "parts": [
+        {
+          "label": "Imagerie de ciblage",
+          "role": "localise la lésion (IRM, échographie, fusion)"
+        },
+        {
+          "label": "Vecteur d'ablation",
+          "role": "détruit la zone ciblée (froid, chaleur, ultrasons, laser)"
+        },
+        {
+          "label": "Préservation fonctionnelle",
+          "role": "épargne le reste de l'organe et sa fonction"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cartographie",
+          "t": "Imagerie multiparamétrique et biopsie ciblée localisent précisément la lésion dans l'organe."
+        },
+        {
+          "n": "2",
+          "h": "Ablation",
+          "t": "Cryothérapie, ultrasons focalisés (HIFU), laser ou énergie thermique détruisent la zone ciblée en une seule séance, souvent ambulatoire."
+        },
+        {
+          "n": "3",
+          "h": "Surveillance",
+          "t": "Le reste de l'organe est préservé et suivi ; une ré-intervention focale reste possible en cas de récidive."
+        }
+      ],
+      "why": "Procédure ambulatoire, capital-efficiente, avec un chemin réglementaire souvent plus court qu'un traitement radical — un segment medtech où les dispositifs combinant diagnostic et thérapie en un seul geste attirent aussi bien des CVC stratégiques (Olympus chez MaxQ Medical cette semaine) que des fonds spécialistes santé.",
+      "startups": [
+        {
+          "name": "MaxQ Medical",
+          "use": "Système ambulatoire combinant imagerie et thérapie focale pour l'hypertrophie bénigne de la prostate, avec extension prévue au cancer de la prostate ; Series A de 31,5 M$ menée par Olympus Innovation Ventures (août 2026).",
+          "place": "Sunnyvale, États-Unis"
+        },
+        {
+          "name": "Avenda Health",
+          "use": "Plateforme d'IA Unfold AI qui cartographie la tumeur prostatique en 3D pour guider l'ablation focale au laser ; autorisée FDA sur l'ensemble du parcours de soin.",
+          "place": "Santa Monica, États-Unis"
+        },
+        {
+          "name": "Koelis",
+          "use": "Système Trinity de fusion IRM-échographie pour biopsie ciblée transpérinéale et guidage de thérapie focale du cancer de la prostate.",
+          "place": "Grenoble, France"
+        },
+        {
+          "name": "Channel Medsystems",
+          "use": "Cerene, cryothérapie endométriale non hormonale en 2,5 minutes pour les règles abondantes ; Series C portée à 30 M$ par InnovaHealth Partners (août 2026).",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-08-22",
+      "dateLong": "22 août 2026"
+    },
     {
       "term": "cfRNA",
       "full": "Cell-Free RNA",
