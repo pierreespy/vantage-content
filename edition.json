@@ -1,63 +1,84 @@
 {
-  "dateLong": "22 août 2026",
+  "dateLong": "24 août 2026",
   "ticker": [
-    { "company": "MaxQ Medical", "amount": "$31.5M", "kind": "lev" },
-    { "company": "Channel Medsystems", "amount": "$30M", "kind": "lev" },
-    { "company": "Pixelgen Technologies", "amount": "€13.3M", "kind": "lev" },
-    { "company": "Tolerance Bio", "amount": "$260M", "kind": "mna" }
+    { "company": "K2 Therapeutics", "amount": "$50M", "kind": "lev" },
+    { "company": "Aureka Biotechnologies", "amount": "$100M", "kind": "lev" },
+    { "company": "Bunkerhill Health", "amount": "$25M", "kind": "lev" },
+    { "company": "Corner Health", "amount": "$32,5M", "kind": "lev" },
+    { "company": "Weave Communications", "amount": "$650M", "kind": "mna" },
+    { "company": "Talkspace", "amount": "$835M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series B · Biologie spatiale",
-    "title": "Pixelgen Technologies boucle une Series B de 13,3 M€ pour cartographier les protéines de surface cellulaire",
-    "deck": "La medtech suédoise annonce un tour sursouscrit mené par le nouvel entrant Flat Capital, aux côtés d'Industrifonden et Navigare Ventures, pour accélérer la commercialisation mondiale de son kit Proxiome. Un signal net sur les outils de biologie spatiale monocellulaire, brique de fond pour l'immuno-oncologie et la thérapie cellulaire, avec deux renforts au board dont le CEO de Flat Capital.",
-    "company": "Pixelgen Technologies",
-    "stage": "Series B",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.eu-startups.com/2026/08/stockholms-pixelgen-technologies-secures-e13-26-million-to-advance-spatial-mapping-of-cell-surface-proteins"
+    "kicker": "Clearance FDA 510(k) · Imagerie cérébrale",
+    "title": "Cubresa décroche une clearance FDA pour son scanner BrainPET, un pari sur l'imagerie hybride low-capex",
+    "deck": "Le scanner canadien se greffe sur les IRM Siemens Biograph mMR déjà installées en hôpital, évitant l'achat d'un système hybride corps entier neuf. Un jalon réglementaire qui ouvre la voie au déploiement commercial et à un prochain tour de financement pour cette medtech indépendante.",
+    "company": "Cubresa",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.einpresswire.com/article/935756252/cubresa-announces-fda-510-k-clearance-for-the-cubresa-brainpet-scanner-opening-new-frontier-in-clinical-brain-imaging"
   },
   "deal": {
-    "company": "Tolerance Bio",
-    "amount": "$260M",
-    "round": "Licensing Deal",
-    "thesis": "Plutôt que d'originer un actif depuis la découverte, Tolerance Bio in-license l'efineptakin alfa (IL-7 longue durée) de NeoImmuneTech pour entrer directement en Phase II sur la préservation de la fonction thymique — jusqu'à 260 M$ de milestones, une prise de participation et des royalties pour NeoImmuneTech. Une illustration nette de la stratégie « asset-centric » : une biotech soutenue par du capital spécialisé (Columbus Venture Partners, Criteria Bio Ventures, Pacific 8 Ventures, BioAdvance Capital) achète des années de développement clinique plutôt que de les financer elle-même.",
-    "url": "https://www.businesswire.com/news/home/20260819138259/en/Tolerance-Bio-Licenses-Clinical-Stage-Long-Acting-Interleukin-7-Therapy-Efineptakin-Alfa-from-NeoImmuneTech-to-Advance-Programs-Targeting-Thymic-Function-and-Immune-Resilience"
+    "company": "K2 Therapeutics",
+    "amount": "$50M",
+    "round": "Seed",
+    "thesis": "Ying Huang, l'ex-CEO de Legend Biotech qui a mené le CAR-T Carvykti au marché, prend la tête de K2 avec 50 M$ de MPM BioImpact pour scouter et in-licencier des actifs partout dans le monde plutôt que les développer en interne. Un pari 'asset-centric' où l'investissement porte autant sur le dealmaker que sur la molécule — la variante seed du modèle NewCo qui structure de plus en plus le financement biotech.",
+    "url": "https://www.k2tx.com/news/k2-therapeutics/"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Nuvation Bio", "place": "New York, États-Unis", "sector": "Oncologie",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Nuvation Bio décroche la Fast Track de la FDA pour son inhibiteur d'IDH1 dans le gliome",
-      "summary": "Le safusidenib, inhibiteur oral d'IDH1 muté pénétrant la barrière hémato-encéphalique, obtient la désignation Fast Track sur la base de données de Phase 2 actualisées, élargissant le programme clinique dans le gliome IDH1-muté.",
-      "url": "https://www.prnewswire.com/news-releases/nuvation-bio-granted-fda-fast-track-designation-for-safusidenib-for-treatment-of-idh1-mutant-glioma-302855678.html" },
-    { "company": "Radiopharm Theranostics", "place": "Australie / États-Unis", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 2,
-      "title": "Radiopharm Theranostics avance au palier de dose supérieur dans son essai de radioligand HEAT",
-      "summary": "Le comité de surveillance des données recommande le passage à la cohorte 4 (180 mCi) du 177Lu-RAD202 en Phase 1 chez des patients à tumeurs solides avancées HER2+, sans toxicité limitante observée à ce stade.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/20/3348199/0/en/radiopharm-theranostics-receives-positive-recommendation-from-data-safety-and-monitoring-committee-to-advance-to-cohort-4-in-177lu-rad202-phase-1-heat-clinical-trial.html" }
+    {
+      "company": "Cadence",
+      "place": "New York, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Cadence devient la 2e société sélectionnée dans le pilote TEMPO de la FDA",
+      "summary": "Son logiciel HypertensionOS (SaMD de titration assistée par IA pour l'hypertension de stade 2) rejoint le programme FDA-CMS qui permet à des dispositifs numériques ciblés d'accéder aux patients Medicare avant l'autorisation complète, en échange de données en vie réelle.",
+      "url": "https://www.medtechdive.com/news/fda-names-second-participant-in-tempo-digital-health-pilot/828027/"
+    },
+    {
+      "company": "Adaptin Bio",
+      "place": "Charlotte, États-Unis",
+      "sector": "Biotech",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Adaptin Bio ouvre le recrutement de son essai de phase 1 en glioblastome",
+      "summary": "APTN-101, issu de la plateforme BRiTE développée à Duke University, entre en clinique chez des patients atteints de tumeurs cérébrales malignes après clearance IND — un jalon amont pour cette biotech de stade précoce.",
+      "url": "https://www.biospace.com/press-releases/adaptin-bio-announces-opening-of-enrollment-in-a-phase-1-clinical-trial-evaluating-treatment-of-malignant-brain-tumors-with-aptn-101"
+    },
+    {
+      "company": "Weave Communications",
+      "place": "Lehi, États-Unis",
+      "sector": "Digital Health",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Francisco Partners rachète Weave Communications pour 650 M$ et sort la SaaS santé de la Bourse",
+      "summary": "Le fonds de PE paie 7,40 $/action (+34 %) pour cette plateforme de communication, prise de rendez-vous et paiement dédiée aux cabinets dentaires et de santé (40 000 praticiens clients) — un comparable qui illustre l'appétit du private equity pour la SaaS verticale santé rentable, hors biotech/medtech pur.",
+      "url": "https://www.franciscopartners.com/media/weave-announces-acquisition-by-francisco-partners"
+    }
   ],
   "word": {
-    "term": "Focal Therapy",
-    "full": "Focal Therapy (Focal Ablation)",
-    "fr": "Thérapie focale (ablation ciblée d'organe)",
-    "field": "Urologie interventionnelle / MedTech",
-    "definition": "Un traitement qui détruit ou neutralise uniquement la zone pathologique identifiée dans un organe, en épargnant le tissu sain environnant et la fonction de l'organe.",
+    "term": "PDUFA",
+    "full": "Prescription Drug User Fee Act (date PDUFA)",
+    "fr": "Échéance réglementaire de décision FDA",
+    "field": "Réglementaire / Accès au marché",
+    "definition": "La date-butoir à laquelle la FDA doit rendre sa décision — approbation ou refus — sur un dossier de médicament, fixée dès l'acceptation du dossier déposé par la société.",
     "parts": [
-      { "label": "Imagerie de ciblage", "role": "localise la lésion (IRM, échographie, fusion)" },
-      { "label": "Vecteur d'ablation", "role": "détruit la zone ciblée (froid, chaleur, ultrasons, laser)" },
-      { "label": "Préservation fonctionnelle", "role": "épargne le reste de l'organe et sa fonction" }
+      { "label": "NDA / BLA", "role": "le dossier déposé" },
+      { "label": "Priority Review", "role": "le délai raccourci à 6 mois" },
+      { "label": "Goal Date", "role": "l'échéance fixée par la FDA" }
     ],
     "how": [
-      { "n": "1", "h": "Cartographie", "t": "Imagerie multiparamétrique et biopsie ciblée localisent précisément la lésion dans l'organe." },
-      { "n": "2", "h": "Ablation", "t": "Cryothérapie, ultrasons focalisés (HIFU), laser ou énergie thermique détruisent la zone ciblée en une seule séance, souvent ambulatoire." },
-      { "n": "3", "h": "Surveillance", "t": "Le reste de l'organe est préservé et suivi ; une ré-intervention focale reste possible en cas de récidive." }
+      { "n": "1", "h": "Dépôt", "t": "La société soumet son NDA (petite molécule) ou BLA (biologique) complet à la FDA." },
+      { "n": "2", "h": "Acceptation & fenêtre", "t": "La FDA accepte le dossier et fixe la date PDUFA : 10 mois en revue standard, 6 mois en priority review." },
+      { "n": "3", "h": "Décision", "t": "À l'échéance : approbation, Complete Response Letter (refus ou demande de données complémentaires), ou report annoncé." }
     ],
-    "why": "Procédure ambulatoire, capital-efficiente, avec un chemin réglementaire souvent plus court qu'un traitement radical — un segment medtech où les dispositifs combinant diagnostic et thérapie en un seul geste attirent aussi bien des CVC stratégiques (Olympus chez MaxQ Medical cette semaine) que des fonds spécialistes santé.",
+    "why": "Angle VC : une PDUFA qui approche est un catalyseur binaire — crossover rounds, pré-IPO et accords de commercialisation se calent sur cette date, qui peut faire ou défaire une valorisation en une seule journée.",
     "startups": [
-      { "name": "MaxQ Medical", "use": "Système ambulatoire combinant imagerie et thérapie focale pour l'hypertrophie bénigne de la prostate, avec extension prévue au cancer de la prostate ; Series A de 31,5 M$ menée par Olympus Innovation Ventures (août 2026).", "place": "Sunnyvale, États-Unis" },
-      { "name": "Avenda Health", "use": "Plateforme d'IA Unfold AI qui cartographie la tumeur prostatique en 3D pour guider l'ablation focale au laser ; autorisée FDA sur l'ensemble du parcours de soin.", "place": "Santa Monica, États-Unis" },
-      { "name": "Koelis", "use": "Système Trinity de fusion IRM-échographie pour biopsie ciblée transpérinéale et guidage de thérapie focale du cancer de la prostate.", "place": "Grenoble, France" },
-      { "name": "Channel Medsystems", "use": "Cerene, cryothérapie endométriale non hormonale en 2,5 minutes pour les règles abondantes ; Series C portée à 30 M$ par InnovaHealth Partners (août 2026).", "place": "États-Unis" }
+      { "name": "Zymeworks", "use": "PDUFA fixée au 25 août 2026 pour le zanidatamab en 1re ligne du cancer gastro-œsophagien HER2+, jusqu'à 250 M$ de milestone US à la clé", "place": "Vancouver, Canada" },
+      { "name": "Praxis Precision Medicines", "use": "PDUFA fixée au 27 septembre 2026 pour le relutrigine dans les épilepsies développementales SCN2A/SCN8A, en revue prioritaire", "place": "Boston, États-Unis" },
+      { "name": "Belite Bio", "use": "PDUFA fixée au 12 février 2027 pour le tinlarebant dans la maladie de Stargardt de type 1, NDA accepté en priority review", "place": "San Diego, États-Unis" },
+      { "name": "MoonLake Immunotherapeutics", "use": "BLA du sonelokimab dans l'hidradénite suppurée attendu fin septembre 2026 ; date PDUFA à suivre dès l'acceptation FDA", "place": "Zoug, Suisse" }
     ]
   }
 }

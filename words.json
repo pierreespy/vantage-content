@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-24",
   "words": [
+    {
+      "term": "PDUFA",
+      "full": "Prescription Drug User Fee Act (date PDUFA)",
+      "fr": "Échéance réglementaire de décision FDA",
+      "field": "Réglementaire / Accès au marché",
+      "definition": "La date-butoir à laquelle la FDA doit rendre sa décision — approbation ou refus — sur un dossier de médicament, fixée dès l'acceptation du dossier déposé par la société.",
+      "parts": [
+        {
+          "label": "NDA / BLA",
+          "role": "le dossier déposé"
+        },
+        {
+          "label": "Priority Review",
+          "role": "le délai raccourci à 6 mois"
+        },
+        {
+          "label": "Goal Date",
+          "role": "l'échéance fixée par la FDA"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Dépôt",
+          "t": "La société soumet son NDA (petite molécule) ou BLA (biologique) complet à la FDA."
+        },
+        {
+          "n": "2",
+          "h": "Acceptation & fenêtre",
+          "t": "La FDA accepte le dossier et fixe la date PDUFA : 10 mois en revue standard, 6 mois en priority review."
+        },
+        {
+          "n": "3",
+          "h": "Décision",
+          "t": "À l'échéance : approbation, Complete Response Letter (refus ou demande de données complémentaires), ou report annoncé."
+        }
+      ],
+      "why": "Angle VC : une PDUFA qui approche est un catalyseur binaire — crossover rounds, pré-IPO et accords de commercialisation se calent sur cette date, qui peut faire ou défaire une valorisation en une seule journée.",
+      "startups": [
+        {
+          "name": "Zymeworks",
+          "use": "PDUFA fixée au 25 août 2026 pour le zanidatamab en 1re ligne du cancer gastro-œsophagien HER2+, jusqu'à 250 M$ de milestone US à la clé",
+          "place": "Vancouver, Canada"
+        },
+        {
+          "name": "Praxis Precision Medicines",
+          "use": "PDUFA fixée au 27 septembre 2026 pour le relutrigine dans les épilepsies développementales SCN2A/SCN8A, en revue prioritaire",
+          "place": "Boston, États-Unis"
+        },
+        {
+          "name": "Belite Bio",
+          "use": "PDUFA fixée au 12 février 2027 pour le tinlarebant dans la maladie de Stargardt de type 1, NDA accepté en priority review",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "MoonLake Immunotherapeutics",
+          "use": "BLA du sonelokimab dans l'hidradénite suppurée attendu fin septembre 2026 ; date PDUFA à suivre dès l'acceptation FDA",
+          "place": "Zoug, Suisse"
+        }
+      ],
+      "date": "2026-08-24",
+      "dateLong": "24 août 2026"
+    },
     {
       "term": "Focal Therapy",
       "full": "Focal Therapy (Focal Ablation)",
