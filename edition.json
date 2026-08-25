@@ -1,84 +1,86 @@
 {
-  "dateLong": "24 août 2026",
+  "dateLong": "25 août 2026",
   "ticker": [
-    { "company": "K2 Therapeutics", "amount": "$50M", "kind": "lev" },
-    { "company": "Aureka Biotechnologies", "amount": "$100M", "kind": "lev" },
-    { "company": "Bunkerhill Health", "amount": "$25M", "kind": "lev" },
-    { "company": "Corner Health", "amount": "$32,5M", "kind": "lev" },
-    { "company": "Weave Communications", "amount": "$650M", "kind": "mna" },
-    { "company": "Talkspace", "amount": "$835M", "kind": "mna" }
+    { "company": "Gossamer Bio", "amount": "$250M", "kind": "lev" },
+    { "company": "Ambros Therapeutics", "amount": "$150M", "kind": "lev" },
+    { "company": "Cityblock Health", "amount": "$116M", "kind": "lev" },
+    { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
+    { "company": "Hanmi Pharmaceutical", "amount": "$2,3Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Clearance FDA 510(k) · Imagerie cérébrale",
-    "title": "Cubresa décroche une clearance FDA pour son scanner BrainPET, un pari sur l'imagerie hybride low-capex",
-    "deck": "Le scanner canadien se greffe sur les IRM Siemens Biograph mMR déjà installées en hôpital, évitant l'achat d'un système hybride corps entier neuf. Un jalon réglementaire qui ouvre la voie au déploiement commercial et à un prochain tour de financement pour cette medtech indépendante.",
-    "company": "Cubresa",
+    "kicker": "FDA Fast Track · Maladie rare (angio-œdème héréditaire)",
+    "title": "ADARx décroche une 2e désignation FDA pour son siRNA contre l'angio-œdème héréditaire, en pleine Phase 3",
+    "deck": "La Fast Track s'ajoute à la désignation orpheline obtenue en octobre 2025 pour l'onvuzosiran, un siRNA qui bloque la production de prékallikréine plasmatique responsable des crises. ADARx, valorisée près de 830 M$ sur le marché secondaire et déjà partenaire d'AbbVie (335 M$ upfront) sur sa plateforme ARN, cumule les catalyseurs réglementaires pendant que la Phase 3 STOP-HAE se poursuit — la trajectoire classique d'une biotech privée qui prépare sa prochaine sortie.",
+    "company": "ADARx Pharmaceuticals",
+    "stage": "Growth",
     "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.einpresswire.com/article/935756252/cubresa-announces-fda-510-k-clearance-for-the-cubresa-brainpet-scanner-opening-new-frontier-in-clinical-brain-imaging"
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/adarx-pharmaceuticals-receives-fda-fast-track-designation-for-onvuzosiran-for-the-treatment-of-hae"
   },
   "deal": {
-    "company": "K2 Therapeutics",
-    "amount": "$50M",
-    "round": "Seed",
-    "thesis": "Ying Huang, l'ex-CEO de Legend Biotech qui a mené le CAR-T Carvykti au marché, prend la tête de K2 avec 50 M$ de MPM BioImpact pour scouter et in-licencier des actifs partout dans le monde plutôt que les développer en interne. Un pari 'asset-centric' où l'investissement porte autant sur le dealmaker que sur la molécule — la variante seed du modèle NewCo qui structure de plus en plus le financement biotech.",
-    "url": "https://www.k2tx.com/news/k2-therapeutics/"
+    "company": "Hanmi Pharmaceutical",
+    "amount": "jusqu'à 2,3 Md$ (190 M$ upfront)",
+    "round": "Licensing Deal",
+    "thesis": "Roche verse 190 M$ cash immédiat et jusqu'à 2,3 Md$ en jalons pour licencier HM17321, un analogue UCN2 encore en développement précoce chez Hanmi, qui réduit la masse grasse tout en préservant le muscle — un mécanisme non-incrétine, alternatif au GLP-1. Le prix payé pour un actif aussi précoce fixe un nouveau point de référence pour toute biotech travaillant sur la préservation musculaire en marge de l'obésité, un sous-thème qui monte vite dans les thèses VC santé 2026.",
+    "url": "https://www.fiercebiotech.com/biotech/roche-pens-25b-pact-hanmis-clinical-stage-obesity-drug-targeting-less-used-mechanism"
   },
   "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Cadence",
-      "place": "New York, États-Unis",
+      "company": "Erasca",
+      "place": "San Diego, États-Unis",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "stage": "IPO",
+      "title": "Erasca décroche la Fast Track de la FDA pour sa colle moléculaire pan-RAS dans le cancer du pancréas",
+      "summary": "ERAS-0015, inhibiteur oral pan-RAS par dégradation ciblée, affiche 57% de réponse objective à 8 semaines chez des patients prétraités en 2L+ — la FDA accorde la Fast Track pour accélérer trois essais pivots à venir. La classe pan-RAS/molecular glue devient un nouveau front de compétition en oncologie, juste derrière les inhibiteurs KRAS G12C de 1re génération.",
+      "url": "https://investors.erasca.com/news-releases/news-release-details/erasca-granted-fda-fast-track-designation-pan-ras-molecular-glue"
+    },
+    {
+      "company": "CVRx",
+      "place": "Minneapolis, États-Unis",
+      "sector": "MedTech",
+      "signalType": "reimbursement",
+      "strength": 3,
+      "stage": "IPO",
+      "title": "CVRx obtient la couverture Medicare Advantage de Devoted Health pour sa neuromodulation cardiaque Barostim",
+      "summary": "Devoted Health (466 000 adhérents Medicare Advantage dans 29 États) publie une politique de couverture pour Barostim, qui s'ajoute à celle de Humana obtenue en mai — ensemble, ces deux payeurs représentent 21% des inscrits Medicare Advantage. Le signal à suivre pour tout portefeuille neuromodulation implantable : la vitesse à laquelle les payeurs privés emboîtent le pas au remboursement Medicare traditionnel.",
+      "url": "https://www.biospace.com/press-releases/cvrx-announces-devoted-health-medicare-advantage-coverage-policy-for-barostim-therapy"
+    },
+    {
+      "company": "Tempus AI",
+      "place": "Chicago, États-Unis",
       "sector": "Digital Health",
       "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Cadence devient la 2e société sélectionnée dans le pilote TEMPO de la FDA",
-      "summary": "Son logiciel HypertensionOS (SaMD de titration assistée par IA pour l'hypertension de stade 2) rejoint le programme FDA-CMS qui permet à des dispositifs numériques ciblés d'accéder aux patients Medicare avant l'autorisation complète, en échange de données en vie réelle.",
-      "url": "https://www.medtechdive.com/news/fda-names-second-participant-in-tempo-digital-health-pilot/828027/"
-    },
-    {
-      "company": "Adaptin Bio",
-      "place": "Charlotte, États-Unis",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Adaptin Bio ouvre le recrutement de son essai de phase 1 en glioblastome",
-      "summary": "APTN-101, issu de la plateforme BRiTE développée à Duke University, entre en clinique chez des patients atteints de tumeurs cérébrales malignes après clearance IND — un jalon amont pour cette biotech de stade précoce.",
-      "url": "https://www.biospace.com/press-releases/adaptin-bio-announces-opening-of-enrollment-in-a-phase-1-clinical-trial-evaluating-treatment-of-malignant-brain-tumors-with-aptn-101"
-    },
-    {
-      "company": "Weave Communications",
-      "place": "Lehi, États-Unis",
-      "sector": "Digital Health",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Francisco Partners rachète Weave Communications pour 650 M$ et sort la SaaS santé de la Bourse",
-      "summary": "Le fonds de PE paie 7,40 $/action (+34 %) pour cette plateforme de communication, prise de rendez-vous et paiement dédiée aux cabinets dentaires et de santé (40 000 praticiens clients) — un comparable qui illustre l'appétit du private equity pour la SaaS verticale santé rentable, hors biotech/medtech pur.",
-      "url": "https://www.franciscopartners.com/media/weave-announces-acquisition-by-francisco-partners"
+      "stage": "IPO",
+      "title": "Tempus AI décroche sa 3e clearance FDA cardio-IA, cette fois pour dépister l'hypertension pulmonaire à l'ECG",
+      "summary": "Tempus ECG-PH analyse un ECG 12 dérivations standard pour repérer les signes d'hypertension pulmonaire, évitant en 1re intention le cathétérisme cardiaque droit. Comparable de marché plus qu'opportunité d'entrée (Tempus pèse près de 10 Md$ en Bourse) : il valide la voie 510(k) comme trajectoire réglementaire crédible pour tout portefeuille cardio-IA en device-as-diagnostic.",
+      "url": "https://www.biospace.com/press-releases/tempus-receives-fda-clearance-for-its-ai-product-intended-to-detect-signs-of-pulmonary-hypertension-from-standard-ecgs"
     }
   ],
   "word": {
-    "term": "PDUFA",
-    "full": "Prescription Drug User Fee Act (date PDUFA)",
-    "fr": "Échéance réglementaire de décision FDA",
-    "field": "Réglementaire / Accès au marché",
-    "definition": "La date-butoir à laquelle la FDA doit rendre sa décision — approbation ou refus — sur un dossier de médicament, fixée dès l'acceptation du dossier déposé par la société.",
+    "term": "RNAi",
+    "full": "RNA Interference",
+    "fr": "Interférence par ARN (ARN interférent)",
+    "field": "Modalité thérapeutique / Plateforme",
+    "definition": "Une technologie qui utilise de courts brins d'ARN synthétiques (siRNA) pour désactiver sélectivement un gène responsable d'une maladie, en bloquant la traduction de son ARN messager en protéine.",
     "parts": [
-      { "label": "NDA / BLA", "role": "le dossier déposé" },
-      { "label": "Priority Review", "role": "le délai raccourci à 6 mois" },
-      { "label": "Goal Date", "role": "l'échéance fixée par la FDA" }
+      { "label": "siRNA", "role": "le brin qui cible le gène" },
+      { "label": "Complexe RISC", "role": "la machinerie qui exécute le silencing" },
+      { "label": "Conjugué GalNAc", "role": "le taxi qui livre le siRNA au foie" }
     ],
     "how": [
-      { "n": "1", "h": "Dépôt", "t": "La société soumet son NDA (petite molécule) ou BLA (biologique) complet à la FDA." },
-      { "n": "2", "h": "Acceptation & fenêtre", "t": "La FDA accepte le dossier et fixe la date PDUFA : 10 mois en revue standard, 6 mois en priority review." },
-      { "n": "3", "h": "Décision", "t": "À l'échéance : approbation, Complete Response Letter (refus ou demande de données complémentaires), ou report annoncé." }
+      { "n": "1", "h": "Reconnaissance", "t": "Le siRNA synthétique s'apparie par complémentarité à l'ARN messager de la protéine visée." },
+      { "n": "2", "h": "Clivage", "t": "Le complexe RISC utilise ce guide pour repérer et découper l'ARN messager cible." },
+      { "n": "3", "h": "Silencing", "t": "La protéine responsable de la maladie n'est plus produite, pendant plusieurs mois par injection." }
     ],
-    "why": "Angle VC : une PDUFA qui approche est un catalyseur binaire — crossover rounds, pré-IPO et accords de commercialisation se calent sur cette date, qui peut faire ou défaire une valorisation en une seule journée.",
+    "why": "Angle VC : après la validation commerciale d'Alnylam et de Novartis (Leqvio), l'ARNi attire à nouveau les gros tickets — dose peu fréquente, chimie modulaire réutilisable d'un programme à l'autre, et cible de choix pour le licensing en amont par la grande pharma (AbbVie-ADARx) avant même une preuve clinique tardive.",
     "startups": [
-      { "name": "Zymeworks", "use": "PDUFA fixée au 25 août 2026 pour le zanidatamab en 1re ligne du cancer gastro-œsophagien HER2+, jusqu'à 250 M$ de milestone US à la clé", "place": "Vancouver, Canada" },
-      { "name": "Praxis Precision Medicines", "use": "PDUFA fixée au 27 septembre 2026 pour le relutrigine dans les épilepsies développementales SCN2A/SCN8A, en revue prioritaire", "place": "Boston, États-Unis" },
-      { "name": "Belite Bio", "use": "PDUFA fixée au 12 février 2027 pour le tinlarebant dans la maladie de Stargardt de type 1, NDA accepté en priority review", "place": "San Diego, États-Unis" },
-      { "name": "MoonLake Immunotherapeutics", "use": "BLA du sonelokimab dans l'hidradénite suppurée attendu fin septembre 2026 ; date PDUFA à suivre dès l'acceptation FDA", "place": "Zoug, Suisse" }
+      { "name": "ADARx Pharmaceuticals", "use": "siRNA onvuzosiran en Phase 3 contre l'angio-œdème héréditaire (2e désignation FDA le 24 août 2026) ; plateforme ARN partenaire d'AbbVie pour 335 M$ upfront", "place": "San Diego, États-Unis" },
+      { "name": "Silence Therapeutics", "use": "siRNA divesiran en Phase 2 contre la polycythémie vraie (88% de réponse clinique vs 19% placebo) ; a repris en mars 2026 tous les droits mondiaux sur SLN312 auprès d'AstraZeneca", "place": "Londres, Royaume-Uni" },
+      { "name": "Ractigen Therapeutics", "use": "siRNA RAG-17 en essai clinique contre la SLA liée à une mutation SOD1, premier patient dosé en janvier 2026", "place": "Nankin, Chine" }
     ]
   }
 }
