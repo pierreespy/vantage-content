@@ -1,86 +1,87 @@
 {
-  "dateLong": "25 août 2026",
+  "dateLong": "26 août 2026",
   "ticker": [
-    { "company": "Gossamer Bio", "amount": "$250M", "kind": "lev" },
-    { "company": "Ambros Therapeutics", "amount": "$150M", "kind": "lev" },
+    { "company": "Solace Care", "amount": "€2,1M", "kind": "lev" },
+    { "company": "Switchboard Health", "amount": "$5M", "kind": "lev" },
+    { "company": "Immatics", "amount": "$150M", "kind": "lev" },
     { "company": "Cityblock Health", "amount": "$116M", "kind": "lev" },
     { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
-    { "company": "Hanmi Pharmaceutical", "amount": "$2,3Md", "kind": "mna" }
+    { "company": "Gossamer Bio", "amount": "$250M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "FDA Fast Track · Maladie rare (angio-œdème héréditaire)",
-    "title": "ADARx décroche une 2e désignation FDA pour son siRNA contre l'angio-œdème héréditaire, en pleine Phase 3",
-    "deck": "La Fast Track s'ajoute à la désignation orpheline obtenue en octobre 2025 pour l'onvuzosiran, un siRNA qui bloque la production de prékallikréine plasmatique responsable des crises. ADARx, valorisée près de 830 M$ sur le marché secondaire et déjà partenaire d'AbbVie (335 M$ upfront) sur sa plateforme ARN, cumule les catalyseurs réglementaires pendant que la Phase 3 STOP-HAE se poursuit — la trajectoire classique d'une biotech privée qui prépare sa prochaine sortie.",
-    "company": "ADARx Pharmaceuticals",
-    "stage": "Growth",
-    "signalType": "regulatory_milestone",
+    "kicker": "Pre-seed · Digital Health / InsurTech seniors",
+    "title": "Solace Care boucle le plus gros pre-seed jamais levé sur le « death-tech » européen, avec d'anciens dirigeants de l'assurance nordique au tour de table",
+    "deck": "La suédoise Solace Care, plateforme numérique de planification de fin de vie et d'accompagnement du deuil qui couvre déjà plus de 25 000 vies en Suède, en Finlande et en Norvège, lève 2,1 M€ menés par Spintop Ventures, avec Plug and Play Insurtech, Wave Ventures et plusieurs anciens CEO d'assureurs nordiques (ICA Försäkring, Fennia, Eir Insurance). Le syndicat révèle une thèse encore peu couverte : le vieillissement démographique européen ouvre un marché insurtech-santé sur l'après-vie, distribué via les assureurs plutôt qu'en direct au consommateur.",
+    "company": "Solace Care",
+    "stage": "Pre-seed",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.biospace.com/press-releases/adarx-pharmaceuticals-receives-fda-fast-track-designation-for-onvuzosiran-for-the-treatment-of-hae"
+    "url": "https://www.eu-startups.com/2026/08/europe-is-aging-rapidly-solace-care-raises-e2-1-million-in-largest-pre-seed-round-to-date-for-a-european-end-of-life-platform"
   },
   "deal": {
-    "company": "Hanmi Pharmaceutical",
-    "amount": "jusqu'à 2,3 Md$ (190 M$ upfront)",
-    "round": "Licensing Deal",
-    "thesis": "Roche verse 190 M$ cash immédiat et jusqu'à 2,3 Md$ en jalons pour licencier HM17321, un analogue UCN2 encore en développement précoce chez Hanmi, qui réduit la masse grasse tout en préservant le muscle — un mécanisme non-incrétine, alternatif au GLP-1. Le prix payé pour un actif aussi précoce fixe un nouveau point de référence pour toute biotech travaillant sur la préservation musculaire en marge de l'obésité, un sous-thème qui monte vite dans les thèses VC santé 2026.",
-    "url": "https://www.fiercebiotech.com/biotech/roche-pens-25b-pact-hanmis-clinical-stage-obesity-drug-targeting-less-used-mechanism"
+    "company": "Switchboard Health",
+    "amount": "5 M$+ (levée) + acquisition de Livara Health",
+    "round": "M&A + Financement",
+    "thesis": "Switchboard Health, plateforme de navigation vers des soins spécialisés à haute valeur, rachète Livara Health (ex-SpineZone) et boucle en parallèle un tour de 5 M$+ sursouscrit mené par First Trust Capital Partners, Route 66 Ventures, A1 Health Ventures, Allumia Ventures et Martin Ventures. Livara apporte un modèle clinique MSK multidisciplinaire validé par le Validation Institute à 43% de réduction des dépenses musculosquelettiques, embarqué directement dans le workflow de référencement des médecins traitants : Switchboard bascule ainsi d'un simple logiciel de référencement vers la délivrance directe de soins de spécialité en value-based care, une trajectoire de consolidation que les VC santé américains commencent à privilégier face au ralentissement des levées pures plateforme.",
+    "url": "https://www.citybiz.co/article/894017/switchboard-health-acquires-livara-health-raises-5m-to-expand-msk-care/"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Immatics",
+      "place": "Tübingen, Allemagne",
+      "sector": "Biotech",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "IPO",
+      "title": "Immatics lève 150 M$ pour financer ses programmes PRAME jusqu'à leurs prochains jalons cliniques",
+      "summary": "Le leader allemand du ciblage de précision de PRAME (thérapies cellulaires et bispécifiques en oncologie) place 150 M$ d'actions et de bons de souscription préfinancés, clôture prévue le 26 août. Signal que l'accès au marché actions reste ouvert pour la biotech européenne cotée à Wall Street, malgré un contexte de financement tendu pour les plateformes précliniques.",
+      "url": "https://www.biospace.com/press-releases/immatics-announces-150-million-underwritten-offering"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Erasca",
-      "place": "San Diego, États-Unis",
+      "company": "Jazz Pharmaceuticals",
+      "place": "Dublin, Irlande",
       "sector": "Biotech",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "stage": "IPO",
-      "title": "Erasca décroche la Fast Track de la FDA pour sa colle moléculaire pan-RAS dans le cancer du pancréas",
-      "summary": "ERAS-0015, inhibiteur oral pan-RAS par dégradation ciblée, affiche 57% de réponse objective à 8 semaines chez des patients prétraités en 2L+ — la FDA accorde la Fast Track pour accélérer trois essais pivots à venir. La classe pan-RAS/molecular glue devient un nouveau front de compétition en oncologie, juste derrière les inhibiteurs KRAS G12C de 1re génération.",
-      "url": "https://investors.erasca.com/news-releases/news-release-details/erasca-granted-fda-fast-track-designation-pan-ras-molecular-glue"
+      "strength": 5,
+      "title": "La FDA approuve Ziihera en 1re ligne du cancer gastro-œsophagien HER2+, sur la base du plus long OS jamais rapporté en Phase 3 dans l'indication",
+      "summary": "L'anticorps bispécifique zanidatamab, déjà approuvé en 2e ligne des voies biliaires, obtient son extension en 1re ligne (avec et sans tislelizumab) sur la base de l'essai HERIZON-GEA-01 (26,4 mois de survie globale médiane). Comparable de marché plus qu'opportunité d'entrée : il valide la classe des bispécifiques anti-HER2 comme franchise capable de s'étendre indication par indication, un schéma que plusieurs biotechs privées en late-stage cherchent à répliquer.",
+      "url": "https://www.prnewswire.com/news-releases/us-fda-approves-ziihera-zanidatamab-hrii-with-and-without-tislelizumab-plus-chemotherapy-in-first-line-her2-advanced-gastroesophageal-adenocarcinoma-302859470.html"
     },
     {
-      "company": "CVRx",
-      "place": "Minneapolis, États-Unis",
-      "sector": "MedTech",
-      "signalType": "reimbursement",
-      "strength": 3,
-      "stage": "IPO",
-      "title": "CVRx obtient la couverture Medicare Advantage de Devoted Health pour sa neuromodulation cardiaque Barostim",
-      "summary": "Devoted Health (466 000 adhérents Medicare Advantage dans 29 États) publie une politique de couverture pour Barostim, qui s'ajoute à celle de Humana obtenue en mai — ensemble, ces deux payeurs représentent 21% des inscrits Medicare Advantage. Le signal à suivre pour tout portefeuille neuromodulation implantable : la vitesse à laquelle les payeurs privés emboîtent le pas au remboursement Medicare traditionnel.",
-      "url": "https://www.biospace.com/press-releases/cvrx-announces-devoted-health-medicare-advantage-coverage-policy-for-barostim-therapy"
-    },
-    {
-      "company": "Tempus AI",
-      "place": "Chicago, États-Unis",
+      "company": "Cityblock Health",
+      "place": "New York, États-Unis",
       "sector": "Digital Health",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "stage": "IPO",
-      "title": "Tempus AI décroche sa 3e clearance FDA cardio-IA, cette fois pour dépister l'hypertension pulmonaire à l'ECG",
-      "summary": "Tempus ECG-PH analyse un ECG 12 dérivations standard pour repérer les signes d'hypertension pulmonaire, évitant en 1re intention le cathétérisme cardiaque droit. Comparable de marché plus qu'opportunité d'entrée (Tempus pèse près de 10 Md$ en Bourse) : il valide la voie 510(k) comme trajectoire réglementaire crédible pour tout portefeuille cardio-IA en device-as-diagnostic.",
-      "url": "https://www.biospace.com/press-releases/tempus-receives-fda-clearance-for-its-ai-product-intended-to-detect-signs-of-pulmonary-hypertension-from-standard-ecgs"
+      "signalType": "funding_round",
+      "strength": 5,
+      "stage": "Growth",
+      "title": "Cityblock Health rachète Homeward Health et lève 116 M$ en Series E pour étendre son modèle value-based du milieu urbain au rural",
+      "summary": "General Catalyst mène cette Series E, qui porte à environ 1 Md$ le capital total levé par Cityblock ; l'acquisition d'Homeward apporte un modèle Medicare Advantage rural-first et 50 000 membres attribués supplémentaires, portant la population combinée à près de 200 000 vies et 2,2 Md$ de revenus annualisés (+77% sur un an). Confirme que la consolidation autour de la donnée longitudinale de population reste la voie de sortie privilégiée en value-based care aux États-Unis.",
+      "url": "https://medcitynews.com/2026/08/cityblock-to-acquire-homeward-health-secures-116m-series-e/"
     }
   ],
   "word": {
-    "term": "RNAi",
-    "full": "RNA Interference",
-    "fr": "Interférence par ARN (ARN interférent)",
-    "field": "Modalité thérapeutique / Plateforme",
-    "definition": "Une technologie qui utilise de courts brins d'ARN synthétiques (siRNA) pour désactiver sélectivement un gène responsable d'une maladie, en bloquant la traduction de son ARN messager en protéine.",
+    "term": "VBC",
+    "full": "Value-Based Care",
+    "fr": "Soins fondés sur la valeur (paiement à la valeur)",
+    "field": "Modèle économique / Remboursement",
+    "definition": "Un modèle de rémunération des soins où le prestataire est payé selon les résultats de santé obtenus et les coûts évités, plutôt qu'à l'acte médical réalisé.",
     "parts": [
-      { "label": "siRNA", "role": "le brin qui cible le gène" },
-      { "label": "Complexe RISC", "role": "la machinerie qui exécute le silencing" },
-      { "label": "Conjugué GalNAc", "role": "le taxi qui livre le siRNA au foie" }
+      { "label": "Forfait / capitation", "role": "remplace le paiement à l'acte par un montant fixe par patient" },
+      { "label": "Partage du risque", "role": "le prestataire assume une part du risque financier sur les résultats" },
+      { "label": "Indicateurs de résultat", "role": "mesurent si le soin a effectivement amélioré l'état du patient" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "Le siRNA synthétique s'apparie par complémentarité à l'ARN messager de la protéine visée." },
-      { "n": "2", "h": "Clivage", "t": "Le complexe RISC utilise ce guide pour repérer et découper l'ARN messager cible." },
-      { "n": "3", "h": "Silencing", "t": "La protéine responsable de la maladie n'est plus produite, pendant plusieurs mois par injection." }
+      { "n": "1", "h": "Contractualisation", "t": "Le payeur (assureur, Medicare/Medicaid) et le prestataire fixent un forfait par patient ou par épisode de soin, plutôt qu'un tarif par acte." },
+      { "n": "2", "h": "Coordination du parcours", "t": "Rémunéré sur le résultat et non le volume, le prestataire réduit les actes inutiles et mise sur la prévention pour tenir son forfait." },
+      { "n": "3", "h": "Partage du gain ou de la perte", "t": "Si les coûts réels sont inférieurs au forfait et les indicateurs de qualité atteints, le prestataire capte une partie de l'économie réalisée ; sinon il en absorbe une partie." }
     ],
-    "why": "Angle VC : après la validation commerciale d'Alnylam et de Novartis (Leqvio), l'ARNi attire à nouveau les gros tickets — dose peu fréquente, chimie modulaire réutilisable d'un programme à l'autre, et cible de choix pour le licensing en amont par la grande pharma (AbbVie-ADARx) avant même une preuve clinique tardive.",
+    "why": "Angle VC : le value-based care devient un moteur de consolidation plutôt qu'un simple argument marketing — Switchboard Health vient d'acquérir Livara Health précisément pour passer d'un logiciel de référencement à un opérateur de soins rémunéré au résultat, et Cityblock rachète Homeward Health pour étendre son modèle en zone rurale. Un ROI mesurable en VBC devient le critère qui distingue les plateformes capables de lever au-delà de la Series B des paris qui restent de simples logiciels.",
     "startups": [
-      { "name": "ADARx Pharmaceuticals", "use": "siRNA onvuzosiran en Phase 3 contre l'angio-œdème héréditaire (2e désignation FDA le 24 août 2026) ; plateforme ARN partenaire d'AbbVie pour 335 M$ upfront", "place": "San Diego, États-Unis" },
-      { "name": "Silence Therapeutics", "use": "siRNA divesiran en Phase 2 contre la polycythémie vraie (88% de réponse clinique vs 19% placebo) ; a repris en mars 2026 tous les droits mondiaux sur SLN312 auprès d'AstraZeneca", "place": "Londres, Royaume-Uni" },
-      { "name": "Ractigen Therapeutics", "use": "siRNA RAG-17 en essai clinique contre la SLA liée à une mutation SOD1, premier patient dosé en janvier 2026", "place": "Nankin, Chine" }
+      { "name": "Cityblock Health", "use": "Plateforme de soins de proximité en value-based care pour populations Medicaid/Medicare ; vient de lever 116 M$ en Series E (25 août 2026) et rachète Homeward Health pour étendre le modèle en zone rurale", "place": "New York, États-Unis" },
+      { "name": "Sword Health", "use": "Programme de kinésithérapie virtuelle rémunéré à la réduction démontrée des coûts MSK pour payeurs et employeurs ; valorisée près de 4 Md$, reste indépendante après le rachat de Kaia Health en janvier 2026", "place": "Porto, Portugal / New York, États-Unis" },
+      { "name": "Vytalize Health", "use": "Structure des ACO Medicare pour cabinets de médecine générale indépendants, avec partage du risque sur les économies réalisées ; a levé plus de 280 M$ et revendique la profitabilité de son modèle VBC", "place": "Fort Lee, États-Unis" }
     ]
   }
 }

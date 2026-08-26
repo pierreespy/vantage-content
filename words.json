@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "words": [
+    {
+      "term": "VBC",
+      "full": "Value-Based Care",
+      "fr": "Soins fondés sur la valeur (paiement à la valeur)",
+      "field": "Modèle économique / Remboursement",
+      "definition": "Un modèle de rémunération des soins où le prestataire est payé selon les résultats de santé obtenus et les coûts évités, plutôt qu'à l'acte médical réalisé.",
+      "parts": [
+        {
+          "label": "Forfait / capitation",
+          "role": "remplace le paiement à l'acte par un montant fixe par patient"
+        },
+        {
+          "label": "Partage du risque",
+          "role": "le prestataire assume une part du risque financier sur les résultats"
+        },
+        {
+          "label": "Indicateurs de résultat",
+          "role": "mesurent si le soin a effectivement amélioré l'état du patient"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Contractualisation",
+          "t": "Le payeur (assureur, Medicare/Medicaid) et le prestataire fixent un forfait par patient ou par épisode de soin, plutôt qu'un tarif par acte."
+        },
+        {
+          "n": "2",
+          "h": "Coordination du parcours",
+          "t": "Rémunéré sur le résultat et non le volume, le prestataire réduit les actes inutiles et mise sur la prévention pour tenir son forfait."
+        },
+        {
+          "n": "3",
+          "h": "Partage du gain ou de la perte",
+          "t": "Si les coûts réels sont inférieurs au forfait et les indicateurs de qualité atteints, le prestataire capte une partie de l'économie réalisée ; sinon il en absorbe une partie."
+        }
+      ],
+      "why": "Angle VC : le value-based care devient un moteur de consolidation plutôt qu'un simple argument marketing — Switchboard Health vient d'acquérir Livara Health précisément pour passer d'un logiciel de référencement à un opérateur de soins rémunéré au résultat, et Cityblock rachète Homeward Health pour étendre son modèle en zone rurale. Un ROI mesurable en VBC devient le critère qui distingue les plateformes capables de lever au-delà de la Series B des paris qui restent de simples logiciels.",
+      "startups": [
+        {
+          "name": "Cityblock Health",
+          "use": "Plateforme de soins de proximité en value-based care pour populations Medicaid/Medicare ; vient de lever 116 M$ en Series E (25 août 2026) et rachète Homeward Health pour étendre le modèle en zone rurale",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "Sword Health",
+          "use": "Programme de kinésithérapie virtuelle rémunéré à la réduction démontrée des coûts MSK pour payeurs et employeurs ; valorisée près de 4 Md$, reste indépendante après le rachat de Kaia Health en janvier 2026",
+          "place": "Porto, Portugal / New York, États-Unis"
+        },
+        {
+          "name": "Vytalize Health",
+          "use": "Structure des ACO Medicare pour cabinets de médecine générale indépendants, avec partage du risque sur les économies réalisées ; a levé plus de 280 M$ et revendique la profitabilité de son modèle VBC",
+          "place": "Fort Lee, États-Unis"
+        }
+      ],
+      "date": "2026-08-26",
+      "dateLong": "26 août 2026"
+    },
     {
       "term": "RNAi",
       "full": "RNA Interference",
