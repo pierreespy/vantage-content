@@ -1,87 +1,86 @@
 {
-  "dateLong": "26 août 2026",
+  "dateLong": "27 août 2026",
   "ticker": [
-    { "company": "Solace Care", "amount": "€2,1M", "kind": "lev" },
-    { "company": "Switchboard Health", "amount": "$5M", "kind": "lev" },
-    { "company": "Immatics", "amount": "$150M", "kind": "lev" },
-    { "company": "Cityblock Health", "amount": "$116M", "kind": "lev" },
-    { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
-    { "company": "Gossamer Bio", "amount": "$250M", "kind": "lev" }
+    { "company": "Sentivera", "amount": "$1,5Md", "kind": "mna" },
+    { "company": "Biohaven", "amount": "$795M", "kind": "mna" },
+    { "company": "Onos Health", "amount": "$17M", "kind": "lev" },
+    { "company": "Hike Medical", "amount": "$22,5M", "kind": "lev" },
+    { "company": "Airway Therapeutics", "amount": "$50M", "kind": "lev" },
+    { "company": "Bioactivx", "amount": "$3M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Pre-seed · Digital Health / InsurTech seniors",
-    "title": "Solace Care boucle le plus gros pre-seed jamais levé sur le « death-tech » européen, avec d'anciens dirigeants de l'assurance nordique au tour de table",
-    "deck": "La suédoise Solace Care, plateforme numérique de planification de fin de vie et d'accompagnement du deuil qui couvre déjà plus de 25 000 vies en Suède, en Finlande et en Norvège, lève 2,1 M€ menés par Spintop Ventures, avec Plug and Play Insurtech, Wave Ventures et plusieurs anciens CEO d'assureurs nordiques (ICA Försäkring, Fennia, Eir Insurance). Le syndicat révèle une thèse encore peu couverte : le vieillissement démographique européen ouvre un marché insurtech-santé sur l'après-vie, distribué via les assureurs plutôt qu'en direct au consommateur.",
-    "company": "Solace Care",
-    "stage": "Pre-seed",
-    "signalType": "funding_round",
+    "kicker": "Fast Track FDA · ADC oncologie (sarcome)",
+    "title": "SOTIO décroche la Fast Track de la FDA pour son ADC anti-LRRC15 dans le sarcome des tissus mous, deuxième désignation en trois mois",
+    "deck": "SOTIO Biotech, filiale clinique du groupe tchèque PPF, obtient la Fast Track de la FDA pour SOT106, un anticorps-médicament conjugué ciblant LRRC15 (cible validée du stroma tumoral, présente dans de multiples sous-types de sarcome), quatre mois après avoir déjà décroché la désignation Orphan Drug pour l'ostéosarcome ; le premier essai chez l'humain est attendu d'ici fin 2026. Le signal à suivre pour un VC santé : SOT106 s'appuie sur la plateforme de conjugaison ConjuAll de la sud-coréenne LigaChem Biosciences, sous licence — chaque nouvelle désignation FDA obtenue par ses partenaires (SOTIO, mais aussi Celltrion sur trois autres candidats) valide un peu plus le modèle de licensing de plateformes ADC, une thèse actionnable avant la prochaine vague de deals de plateforme.",
+    "company": "SOTIO Biotech",
+    "stage": "Growth",
+    "signalType": "regulatory_milestone",
     "strength": 3,
-    "url": "https://www.eu-startups.com/2026/08/europe-is-aging-rapidly-solace-care-raises-e2-1-million-in-largest-pre-seed-round-to-date-for-a-european-end-of-life-platform"
+    "url": "https://www.globenewswire.com/news-release/2026/08/26/3351298/0/en/fda-grants-fast-track-designation-to-sotio-s-sot106-adc-for-soft-tissue-sarcoma-treatment-accelerating-clinical-development.html"
   },
   "deal": {
-    "company": "Switchboard Health",
-    "amount": "5 M$+ (levée) + acquisition de Livara Health",
-    "round": "M&A + Financement",
-    "thesis": "Switchboard Health, plateforme de navigation vers des soins spécialisés à haute valeur, rachète Livara Health (ex-SpineZone) et boucle en parallèle un tour de 5 M$+ sursouscrit mené par First Trust Capital Partners, Route 66 Ventures, A1 Health Ventures, Allumia Ventures et Martin Ventures. Livara apporte un modèle clinique MSK multidisciplinaire validé par le Validation Institute à 43% de réduction des dépenses musculosquelettiques, embarqué directement dans le workflow de référencement des médecins traitants : Switchboard bascule ainsi d'un simple logiciel de référencement vers la délivrance directe de soins de spécialité en value-based care, une trajectoire de consolidation que les VC santé américains commencent à privilégier face au ralentissement des levées pures plateforme.",
-    "url": "https://www.citybiz.co/article/894017/switchboard-health-acquires-livara-health-raises-5m-to-expand-msk-care/"
+    "company": "Sentivera",
+    "amount": "jusqu'à 1,5 Md$ (75,9 M$ cash + equity immédiats, jusqu'à 1,46 Md$ de milestones)",
+    "round": "Licensing · NewCo",
+    "thesis": "ARCH Venture Partners et Population Health Partners, architectes de Metsera (créée en 2022, vendue à Pfizer en 2025 au terme d'une guerre des enchères face à Novo Nordisk), répètent leur playbook de NewCo « asset-centric » : ils viennent d'armer Sentivera d'un actif préclinique anti-inflammatoire (Type 2) licencié à la chinoise Haisco Pharmaceutical, dont l'IND vient d'être validé en Chine, pour un deal pouvant atteindre 1,5 Md$. Le signal pour tout VC santé : le sourcing d'actifs précliniques chinois par du smart money américain redevient une thèse de création de valeur reproductible, pas un one-off Metsera.",
+    "url": "https://www.fiercebiotech.com/biotech/founded-metsera-backers-sentivera-emerges-15b-inflammatory-disease-deal"
   },
-  "brefsEurope": [
-    {
-      "company": "Immatics",
-      "place": "Tübingen, Allemagne",
-      "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "IPO",
-      "title": "Immatics lève 150 M$ pour financer ses programmes PRAME jusqu'à leurs prochains jalons cliniques",
-      "summary": "Le leader allemand du ciblage de précision de PRAME (thérapies cellulaires et bispécifiques en oncologie) place 150 M$ d'actions et de bons de souscription préfinancés, clôture prévue le 26 août. Signal que l'accès au marché actions reste ouvert pour la biotech européenne cotée à Wall Street, malgré un contexte de financement tendu pour les plateformes précliniques.",
-      "url": "https://www.biospace.com/press-releases/immatics-announces-150-million-underwritten-offering"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Jazz Pharmaceuticals",
-      "place": "Dublin, Irlande",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA approuve Ziihera en 1re ligne du cancer gastro-œsophagien HER2+, sur la base du plus long OS jamais rapporté en Phase 3 dans l'indication",
-      "summary": "L'anticorps bispécifique zanidatamab, déjà approuvé en 2e ligne des voies biliaires, obtient son extension en 1re ligne (avec et sans tislelizumab) sur la base de l'essai HERIZON-GEA-01 (26,4 mois de survie globale médiane). Comparable de marché plus qu'opportunité d'entrée : il valide la classe des bispécifiques anti-HER2 comme franchise capable de s'étendre indication par indication, un schéma que plusieurs biotechs privées en late-stage cherchent à répliquer.",
-      "url": "https://www.prnewswire.com/news-releases/us-fda-approves-ziihera-zanidatamab-hrii-with-and-without-tislelizumab-plus-chemotherapy-in-first-line-her2-advanced-gastroesophageal-adenocarcinoma-302859470.html"
-    },
-    {
-      "company": "Cityblock Health",
-      "place": "New York, États-Unis",
+      "company": "Onos Health",
+      "place": "San Francisco, États-Unis",
       "sector": "Digital Health",
       "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "Onos Health lève 17 M$ pour son IA clinique du comportement, déjà déployée chez Aetna",
+      "summary": "Costanoa mène ce tour de Series A avec CVS Health Ventures et Flare Capital Partners ; la plateforme extrait des signaux cliniques de notes non structurées pour le compte des payeurs et revendique déjà -6% de coûts sur les programmes de santé comportementale en 12 mois chez Aetna et trois des six plus grands assureurs américains. Un profil capital-efficient et déjà générateur de valeur chez les payeurs, exactement le type de tour que les VC santé recherchent en 2026.",
+      "url": "https://hitconsultant.net/2026/08/26/onos-health-raises-17m-series-a-behavioral-health-ai-costanoa-cvs-ventures/"
+    },
+    {
+      "company": "Hike Medical",
+      "place": "San Francisco, États-Unis",
+      "sector": "MedTech",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "Hike Medical lève 22,5 M$ pour numériser la chaîne d'approvisionnement des dispositifs médicaux, de la prescription à la livraison",
+      "summary": "Max Altman (Saga Ventures) mène ce tour seed + Series A, avec Indicator Ventures, Fifth Down Capital, RiverPark Ventures et le fabricant Orthofeet comme investisseur stratégique ; la plateforme relie prescripteurs, prise de mesure mobile et fabrication additive interne pour l'orthopédie/podiatrie et le matériel médical durable, un segment fragmenté que peu de VC santé couvrent encore.",
+      "url": "https://www.businesswire.com/news/home/20260825007382/en/Hike-Medical-Raises-$22.5M-to-Modernize-the-Medical-Device-Supply-Chain-from-Referral-to-Device-Delivery"
+    },
+    {
+      "company": "Biohaven",
+      "place": "New Haven, États-Unis",
+      "sector": "Pharma",
+      "signalType": "acquisition",
       "strength": 5,
-      "stage": "Growth",
-      "title": "Cityblock Health rachète Homeward Health et lève 116 M$ en Series E pour étendre son modèle value-based du milieu urbain au rural",
-      "summary": "General Catalyst mène cette Series E, qui porte à environ 1 Md$ le capital total levé par Cityblock ; l'acquisition d'Homeward apporte un modèle Medicare Advantage rural-first et 50 000 membres attribués supplémentaires, portant la population combinée à près de 200 000 vies et 2,2 Md$ de revenus annualisés (+77% sur un an). Confirme que la consolidation autour de la donnée longitudinale de population reste la voie de sortie privilégiée en value-based care aux États-Unis.",
-      "url": "https://medcitynews.com/2026/08/cityblock-to-acquire-homeward-health-secures-116m-series-e/"
+      "title": "Biohaven cède sa plateforme Kv7 et son candidat épilepsie opakalim à SK Biopharmaceuticals pour 795 M$",
+      "summary": "SK Biopharmaceuticals verse 350 M$ à la signature et 50 M$ en 2027, plus des redevances à deux chiffres, pour les droits mondiaux d'opakalim (BHV-7000) et de la plateforme de découverte Kv7 de Biohaven, en Phase 2/3 dans l'épilepsie focale. Comparable de marché plutôt qu'opportunité d'entrée : il revalorise la classe des activateurs de canaux Kv7 — aussi portée par les indépendantes QurAlis et Knopp Biosciences — une modalité neuro qui redevient investissable après des années centrées sur les anti-Nav.",
+      "url": "https://www.prnewswire.com/news-releases/biohaven-and-sk-biopharmaceuticals-enter-into-strategic-global-licensing-agreement-for-novel-kv7-ion-channel-platform-and-opakalim-lead-candidate-for-epilepsy-302860299.html"
     }
   ],
   "word": {
-    "term": "VBC",
-    "full": "Value-Based Care",
-    "fr": "Soins fondés sur la valeur (paiement à la valeur)",
-    "field": "Modèle économique / Remboursement",
-    "definition": "Un modèle de rémunération des soins où le prestataire est payé selon les résultats de santé obtenus et les coûts évités, plutôt qu'à l'acte médical réalisé.",
+    "term": "Kv7",
+    "full": "Voltage-Gated Potassium Channel 7 (KCNQ)",
+    "fr": "Canal potassique voltage-dépendant Kv7",
+    "field": "Neurologie · Épilepsie et douleur",
+    "definition": "Une famille de canaux ioniques neuronaux qui, une fois activés par un médicament, réduisent l'hyperexcitabilité des neurones responsable des crises d'épilepsie et de certaines douleurs chroniques.",
     "parts": [
-      { "label": "Forfait / capitation", "role": "remplace le paiement à l'acte par un montant fixe par patient" },
-      { "label": "Partage du risque", "role": "le prestataire assume une part du risque financier sur les résultats" },
-      { "label": "Indicateurs de résultat", "role": "mesurent si le soin a effectivement amélioré l'état du patient" }
+      { "label": "Canal Kv7 (KCNQ2/3)", "role": "la porte moléculaire du neurone" },
+      { "label": "Activateur (opener)", "role": "la clé qui maintient la porte ouverte" },
+      { "label": "Courant M", "role": "le frein électrique qui stabilise le neurone" }
     ],
     "how": [
-      { "n": "1", "h": "Contractualisation", "t": "Le payeur (assureur, Medicare/Medicaid) et le prestataire fixent un forfait par patient ou par épisode de soin, plutôt qu'un tarif par acte." },
-      { "n": "2", "h": "Coordination du parcours", "t": "Rémunéré sur le résultat et non le volume, le prestataire réduit les actes inutiles et mise sur la prévention pour tenir son forfait." },
-      { "n": "3", "h": "Partage du gain ou de la perte", "t": "Si les coûts réels sont inférieurs au forfait et les indicateurs de qualité atteints, le prestataire capte une partie de l'économie réalisée ; sinon il en absorbe une partie." }
+      { "n": "1", "h": "Fixation", "t": "L'activateur se lie au canal Kv7 exprimé à la surface du neurone." },
+      { "n": "2", "h": "Ouverture prolongée", "t": "Le canal reste ouvert plus longtemps, laissant sortir davantage d'ions potassium." },
+      { "n": "3", "h": "Stabilisation", "t": "La sortie de potassium repolarise le neurone et l'empêche de déclencher une décharge électrique excessive (crise, douleur)." }
     ],
-    "why": "Angle VC : le value-based care devient un moteur de consolidation plutôt qu'un simple argument marketing — Switchboard Health vient d'acquérir Livara Health précisément pour passer d'un logiciel de référencement à un opérateur de soins rémunéré au résultat, et Cityblock rachète Homeward Health pour étendre son modèle en zone rurale. Un ROI mesurable en VBC devient le critère qui distingue les plateformes capables de lever au-delà de la Series B des paris qui restent de simples logiciels.",
+    "why": "Angle VC : après des années dominées par les inhibiteurs de canaux sodiques (Nav) en épilepsie, le rachat à 795 M$ du programme Kv7 de Biohaven par SK Biopharmaceuticals ce 26 août valide économiquement une deuxième classe de modulateurs de canaux ioniques neuronaux — un signal que les indépendantes qui portent encore leur propre programme Kv7 (QurAlis, Knopp Biosciences) deviennent des cibles de partenariat ou de levée à surveiller avant leurs propres catalyseurs cliniques.",
     "startups": [
-      { "name": "Cityblock Health", "use": "Plateforme de soins de proximité en value-based care pour populations Medicaid/Medicare ; vient de lever 116 M$ en Series E (25 août 2026) et rachète Homeward Health pour étendre le modèle en zone rurale", "place": "New York, États-Unis" },
-      { "name": "Sword Health", "use": "Programme de kinésithérapie virtuelle rémunéré à la réduction démontrée des coûts MSK pour payeurs et employeurs ; valorisée près de 4 Md$, reste indépendante après le rachat de Kaia Health en janvier 2026", "place": "Porto, Portugal / New York, États-Unis" },
-      { "name": "Vytalize Health", "use": "Structure des ACO Medicare pour cabinets de médecine générale indépendants, avec partage du risque sur les économies réalisées ; a levé plus de 280 M$ et revendique la profitabilité de son modèle VBC", "place": "Fort Lee, États-Unis" }
+      { "name": "QurAlis", "use": "Développe QRL-101, activateur sélectif Kv7.2/7.3, en Phase 1 pour l'épilepsie et la SLA ; a levé 158 M$ à ce jour", "place": "Cambridge, États-Unis" },
+      { "name": "Knopp Biosciences", "use": "A obtenu la désignation FDA de maladie pédiatrique rare pour KB-3061, activateur Kv7.2/7.3, dans l'encéphalopathie épileptique KCNQ2 ; reste indépendante après avoir cédé son spin-off Channel Biosciences à Biohaven", "place": "Pittsburgh, États-Unis" },
+      { "name": "Xenon Pharmaceuticals", "use": "Développe azetukalner (XEN1101), modulateur Kv7, avec des résultats de Phase 3 positifs rapportés en 2026 en épilepsie focale ; reste indépendante et cotée", "place": "Vancouver, Canada" }
     ]
   }
 }

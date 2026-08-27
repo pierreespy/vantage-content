@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-26",
+  "generatedAt": "2026-08-27",
   "words": [
+    {
+      "term": "Kv7",
+      "full": "Voltage-Gated Potassium Channel 7 (KCNQ)",
+      "fr": "Canal potassique voltage-dépendant Kv7",
+      "field": "Neurologie · Épilepsie et douleur",
+      "definition": "Une famille de canaux ioniques neuronaux qui, une fois activés par un médicament, réduisent l'hyperexcitabilité des neurones responsable des crises d'épilepsie et de certaines douleurs chroniques.",
+      "parts": [
+        {
+          "label": "Canal Kv7 (KCNQ2/3)",
+          "role": "la porte moléculaire du neurone"
+        },
+        {
+          "label": "Activateur (opener)",
+          "role": "la clé qui maintient la porte ouverte"
+        },
+        {
+          "label": "Courant M",
+          "role": "le frein électrique qui stabilise le neurone"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Fixation",
+          "t": "L'activateur se lie au canal Kv7 exprimé à la surface du neurone."
+        },
+        {
+          "n": "2",
+          "h": "Ouverture prolongée",
+          "t": "Le canal reste ouvert plus longtemps, laissant sortir davantage d'ions potassium."
+        },
+        {
+          "n": "3",
+          "h": "Stabilisation",
+          "t": "La sortie de potassium repolarise le neurone et l'empêche de déclencher une décharge électrique excessive (crise, douleur)."
+        }
+      ],
+      "why": "Angle VC : après des années dominées par les inhibiteurs de canaux sodiques (Nav) en épilepsie, le rachat à 795 M$ du programme Kv7 de Biohaven par SK Biopharmaceuticals ce 26 août valide économiquement une deuxième classe de modulateurs de canaux ioniques neuronaux — un signal que les indépendantes qui portent encore leur propre programme Kv7 (QurAlis, Knopp Biosciences) deviennent des cibles de partenariat ou de levée à surveiller avant leurs propres catalyseurs cliniques.",
+      "startups": [
+        {
+          "name": "QurAlis",
+          "use": "Développe QRL-101, activateur sélectif Kv7.2/7.3, en Phase 1 pour l'épilepsie et la SLA ; a levé 158 M$ à ce jour",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Knopp Biosciences",
+          "use": "A obtenu la désignation FDA de maladie pédiatrique rare pour KB-3061, activateur Kv7.2/7.3, dans l'encéphalopathie épileptique KCNQ2 ; reste indépendante après avoir cédé son spin-off Channel Biosciences à Biohaven",
+          "place": "Pittsburgh, États-Unis"
+        },
+        {
+          "name": "Xenon Pharmaceuticals",
+          "use": "Développe azetukalner (XEN1101), modulateur Kv7, avec des résultats de Phase 3 positifs rapportés en 2026 en épilepsie focale ; reste indépendante et cotée",
+          "place": "Vancouver, Canada"
+        }
+      ],
+      "date": "2026-08-27",
+      "dateLong": "27 août 2026"
+    },
     {
       "term": "VBC",
       "full": "Value-Based Care",
