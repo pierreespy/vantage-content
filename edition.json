@@ -1,86 +1,116 @@
 {
-  "dateLong": "27 août 2026",
+  "dateLong": "28 août 2026",
   "ticker": [
-    { "company": "Sentivera", "amount": "$1,5Md", "kind": "mna" },
-    { "company": "Biohaven", "amount": "$795M", "kind": "mna" },
-    { "company": "Onos Health", "amount": "$17M", "kind": "lev" },
-    { "company": "Hike Medical", "amount": "$22,5M", "kind": "lev" },
-    { "company": "Airway Therapeutics", "amount": "$50M", "kind": "lev" },
-    { "company": "Bioactivx", "amount": "$3M", "kind": "lev" }
+    { "company": "Adaptyv Bio", "amount": "€34,35M", "kind": "lev" },
+    { "company": "Minapharm", "amount": "$16,5M", "kind": "lev" },
+    { "company": "Legato", "amount": "$12M", "kind": "lev" },
+    { "company": "Eyedentity", "amount": "€1,3M", "kind": "lev" },
+    { "company": "Capitan Orthopedics", "amount": "$4,1M", "kind": "lev" },
+    { "company": "Ambros Therapeutics", "amount": "$150M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Fast Track FDA · ADC oncologie (sarcome)",
-    "title": "SOTIO décroche la Fast Track de la FDA pour son ADC anti-LRRC15 dans le sarcome des tissus mous, deuxième désignation en trois mois",
-    "deck": "SOTIO Biotech, filiale clinique du groupe tchèque PPF, obtient la Fast Track de la FDA pour SOT106, un anticorps-médicament conjugué ciblant LRRC15 (cible validée du stroma tumoral, présente dans de multiples sous-types de sarcome), quatre mois après avoir déjà décroché la désignation Orphan Drug pour l'ostéosarcome ; le premier essai chez l'humain est attendu d'ici fin 2026. Le signal à suivre pour un VC santé : SOT106 s'appuie sur la plateforme de conjugaison ConjuAll de la sud-coréenne LigaChem Biosciences, sous licence — chaque nouvelle désignation FDA obtenue par ses partenaires (SOTIO, mais aussi Celltrion sur trois autres candidats) valide un peu plus le modèle de licensing de plateformes ADC, une thèse actionnable avant la prochaine vague de deals de plateforme.",
-    "company": "SOTIO Biotech",
-    "stage": "Growth",
-    "signalType": "regulatory_milestone",
-    "strength": 3,
-    "url": "https://www.globenewswire.com/news-release/2026/08/26/3351298/0/en/fda-grants-fast-track-designation-to-sotio-s-sot106-adc-for-soft-tissue-sarcoma-treatment-accelerating-clinical-development.html"
+    "kicker": "Series A · Biotech / Automated Lab",
+    "title": "Adaptyv Bio boucle une Series A de 34,35 M€ menée par Highland Europe pour automatiser le laboratoire humide au service de l'IA « agentique »",
+    "deck": "Le lausannois Adaptyv Bio referme une Series A de 34,35 M€ (40 M$) menée par Highland Europe, avec Ace Ventures, ByFounders et Y Combinator qui remettent au pot ; sa plateforme automatise de bout en bout la synthèse d'ADN, l'expression de protéines sans cellule et la mesure d'affinité par SPR, permettant à des agents IA de commander directement leurs propres expériences via API. Le signal pour un VC santé : plus de 100 clients en un an, dont Roche, Novo Nordisk et les labs IA Chai Discovery et Boltz, valident un maillon d'infrastructure devenu indispensable à toute thèse « AI-native drug discovery » — avant que la prochaine vague de plateformes similaires ne lève à des valorisations bien supérieures.",
+    "company": "Adaptyv Bio",
+    "stage": "Series A",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.eu-startups.com/2026/08/lausanne-based-adaptyv-raises-e34-35-million-series-a-to-build-the-automated-lab-for-agentic-biology"
   },
   "deal": {
-    "company": "Sentivera",
-    "amount": "jusqu'à 1,5 Md$ (75,9 M$ cash + equity immédiats, jusqu'à 1,46 Md$ de milestones)",
-    "round": "Licensing · NewCo",
-    "thesis": "ARCH Venture Partners et Population Health Partners, architectes de Metsera (créée en 2022, vendue à Pfizer en 2025 au terme d'une guerre des enchères face à Novo Nordisk), répètent leur playbook de NewCo « asset-centric » : ils viennent d'armer Sentivera d'un actif préclinique anti-inflammatoire (Type 2) licencié à la chinoise Haisco Pharmaceutical, dont l'IND vient d'être validé en Chine, pour un deal pouvant atteindre 1,5 Md$. Le signal pour tout VC santé : le sourcing d'actifs précliniques chinois par du smart money américain redevient une thèse de création de valeur reproductible, pas un one-off Metsera.",
-    "url": "https://www.fiercebiotech.com/biotech/founded-metsera-backers-sentivera-emerges-15b-inflammatory-disease-deal"
+    "company": "Ambros Therapeutics",
+    "amount": "150 M$ de PIPE (valorisation implicite ~550 M$ dans la fusion)",
+    "round": "Reverse merger (Nasdaq)",
+    "thesis": "RA Capital Management et Janus Henderson Investors co-mènent un PIPE sursouscrit de 150 M$ pour fusionner la clinique-stage Ambros Therapeutics (neridronate, Phase 3 dans le syndrome douloureux régional complexe) dans la cotée Werewolf Therapeutics (Nasdaq : HOWL) — 500 M$ de valeur implicite pour Ambros contre seulement 47,5 M$ pour Werewolf dans l'échange d'actions — avec un runway jusqu'au 1er semestre 2029. Le signal pour tout VC santé : la fusion inversée vers le Nasdaq reste la voie de sortie de choix pour une biotech clinique qui ne peut pas lever en IPO classique dans ce marché — un schéma à surveiller pour structurer ses propres sorties.",
+    "url": "https://www.globenewswire.com/news-release/2026/08/21/3349041/0/en/werewolf-therapeutics-and-ambros-therapeutics-announce-merger-agreement-and-concurrent-oversubscribed-150-million-private-placement.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Spineart / eCential Robotics",
+      "place": "Genève (CH) / Lyon (FR)",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Spineart et eCential Robotics décrochent la clearance FDA 510(k) qui fait basculer leur duo navigation-implants vers la chirurgie robotique du rachis",
+      "summary": "La FDA autorise l'application PERLA TL sur la plateforme robotique Op.n d'eCential, permettant désormais la pose assistée par robot (et plus seulement la navigation) des vis pédiculaires Spineart, en chirurgie ouverte comme mini-invasive. Le duo franco-suisse élargit une base installée de navigation existante vers un segment robotique à plus forte valeur, sans lever de nouveau tour — un modèle d'expansion capital-efficient à surveiller pour toute thèse de consolidation en chirurgie assistée par robot.",
+      "url": "https://www.prnewswire.com/news-releases/spineart-and-ecential-robotics-receive-fda-510k-clearance-for-the-perla-tl-application-for-use-with-ecential-opn-navigation-system-for-robotic-procedures-302855443.html"
+    },
+    {
+      "company": "Limbic",
+      "place": "Londres, Royaume-Uni",
+      "sector": "Digital Health",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Limbic devient la première IA de santé mentale sélectionnée par la FDA pour le pilote TEMPO et commence à traiter des bénéficiaires Medicare",
+      "summary": "Sélectionné par la FDA pour son programme pilote TEMPO, le service de thérapie vocale IA supervisée par clinicien « Unpacked » de la britannique Limbic a commencé le 27 août à traiter des bénéficiaires Medicare. Un accès réglementaire et un rail de paiement fédéral obtenus avant même le lancement du futur modèle de paiement à l'issue clinique de la CMS — un signal d'avance rare pour l'IA en santé comportementale.",
+      "url": "https://www.fiercehealthcare.com/digital-health/limbic-selected-fda-tempo-track-outcomes-ai-therapy-medicare"
+    },
+    {
+      "company": "HepaRegeniX",
+      "place": "Tübingen, Allemagne",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "HepaRegeniX décroche l'Orphan Drug Designation de la FDA pour son inhibiteur MKK4 contre l'insuffisance hépatique post-hépatectomie",
+      "summary": "La biotech allemande, issue des travaux du Pr Lars Zender à l'hôpital universitaire de Tübingen, obtient l'ODD pour darizmetinib (HRX215) juste après l'achèvement de la partie 1 de son essai de Phase Ib/IIa — un actif first-in-class sans concurrent approuvé sur un besoin médical aigu en chirurgie hépatique lourde, qui sécurise 7 ans d'exclusivité américaine avant même un tour de Série B.",
+      "url": "https://www.biospace.com/press-releases/heparegenix-receives-orphan-drug-designation-for-darizmetinib-for-the-prevention-of-post-hepatectomy-liver-failure"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Onos Health",
-      "place": "San Francisco, États-Unis",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "Onos Health lève 17 M$ pour son IA clinique du comportement, déjà déployée chez Aetna",
-      "summary": "Costanoa mène ce tour de Series A avec CVS Health Ventures et Flare Capital Partners ; la plateforme extrait des signaux cliniques de notes non structurées pour le compte des payeurs et revendique déjà -6% de coûts sur les programmes de santé comportementale en 12 mois chez Aetna et trois des six plus grands assureurs américains. Un profil capital-efficient et déjà générateur de valeur chez les payeurs, exactement le type de tour que les VC santé recherchent en 2026.",
-      "url": "https://hitconsultant.net/2026/08/26/onos-health-raises-17m-series-a-behavioral-health-ai-costanoa-cvs-ventures/"
-    },
-    {
-      "company": "Hike Medical",
-      "place": "San Francisco, États-Unis",
+      "company": "Legato",
+      "place": "États-Unis",
       "sector": "MedTech",
       "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "Hike Medical lève 22,5 M$ pour numériser la chaîne d'approvisionnement des dispositifs médicaux, de la prescription à la livraison",
-      "summary": "Max Altman (Saga Ventures) mène ce tour seed + Series A, avec Indicator Ventures, Fifth Down Capital, RiverPark Ventures et le fabricant Orthofeet comme investisseur stratégique ; la plateforme relie prescripteurs, prise de mesure mobile et fabrication additive interne pour l'orthopédie/podiatrie et le matériel médical durable, un segment fragmenté que peu de VC santé couvrent encore.",
-      "url": "https://www.businesswire.com/news/home/20260825007382/en/Hike-Medical-Raises-$22.5M-to-Modernize-the-Medical-Device-Supply-Chain-from-Referral-to-Device-Delivery"
+      "strength": 3,
+      "stage": "Seed",
+      "title": "Legato sort de stealth avec 12 M$ pour ses lunettes auditives IA, fondée par d'anciens dirigeants Bose",
+      "summary": "Neotribe Ventures, Listen et Village Global financent le seed de Legato, dont les « Frames » embarquent une assistance auditive pilotée par IA ; l'équipe fondatrice vient de la division Bose Frames / aides auditives de Bose. Un pari sur la convergence hearables/OTC hearing aid, segment encore largement sous-couvert par les VC santé malgré une demande de masse.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/26/3351388/0/en/legato-emerges-from-stealth-with-12-million-in-funding-to-pioneer-a-new-era-of-hearing-devices-with-ai-powered-hearing-glasses.html"
     },
     {
-      "company": "Biohaven",
-      "place": "New Haven, États-Unis",
-      "sector": "Pharma",
-      "signalType": "acquisition",
+      "company": "Abbott",
+      "place": "Illinois, États-Unis",
+      "sector": "Diagnostics",
+      "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "Biohaven cède sa plateforme Kv7 et son candidat épilepsie opakalim à SK Biopharmaceuticals pour 795 M$",
-      "summary": "SK Biopharmaceuticals verse 350 M$ à la signature et 50 M$ en 2027, plus des redevances à deux chiffres, pour les droits mondiaux d'opakalim (BHV-7000) et de la plateforme de découverte Kv7 de Biohaven, en Phase 2/3 dans l'épilepsie focale. Comparable de marché plutôt qu'opportunité d'entrée : il revalorise la classe des activateurs de canaux Kv7 — aussi portée par les indépendantes QurAlis et Knopp Biosciences — une modalité neuro qui redevient investissable après des années centrées sur les anti-Nav.",
-      "url": "https://www.prnewswire.com/news-releases/biohaven-and-sk-biopharmaceuticals-enter-into-strategic-global-licensing-agreement-for-novel-kv7-ion-channel-platform-and-opakalim-lead-candidate-for-epilepsy-302860299.html"
+      "title": "Abbott obtient la première autorisation FDA au monde pour un capteur portable mesurant en continu glycémie ET cétones",
+      "summary": "Le Libre Duo 10 Day, autorisé le 25 août pour les patients diabétiques dès 2 ans, mesure en continu glucose et corps cétoniques dans le liquide interstitiel pour alerter avant une acidocétose diabétique. Un comparable de marché à suivre pour toute thèse sur le monitoring métabolique continu : la convergence multi-biomarqueurs sur un seul capteur devient la nouvelle barre de référence, y compris pour les challengers plus jeunes du CGM.",
+      "url": "https://abbott.mediaroom.com/2026-08-25-Abbott-receives-FDA-authorization-for-worlds-first-dual-glucose-ketone-sensing-technology-for-people-with-diabetes"
+    },
+    {
+      "company": "Minapharm",
+      "place": "Le Caire, Égypte / Berlin, Allemagne",
+      "sector": "Biotech",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "CEPI engage jusqu'à 16,5 M$ pour avancer le candidat-vaccin Ebola Bundibugyo de Minapharm en clinique",
+      "summary": "L'organisation CEPI finance l'entrée en Phase 1 du candidat-vaccin de Minapharm contre l'ebolavirus Bundibugyo, construit sur la plateforme MVA-CR19 du berlinois ProBioGen. Un financement non-dilutif qui valide une techno de plateforme européenne sur la préparation aux pandémies, sans diluer l'équité — un profil capital-efficient que les VC spécialisés en biodéfense surveillent de près.",
+      "url": "https://www.prnewswire.com/news-releases/african-bundibugyo-ebolavirus-vaccine-candidate-to-be-advanced-to-clinical-trials-302861771.html"
     }
   ],
   "word": {
-    "term": "Kv7",
-    "full": "Voltage-Gated Potassium Channel 7 (KCNQ)",
-    "fr": "Canal potassique voltage-dépendant Kv7",
-    "field": "Neurologie · Épilepsie et douleur",
-    "definition": "Une famille de canaux ioniques neuronaux qui, une fois activés par un médicament, réduisent l'hyperexcitabilité des neurones responsable des crises d'épilepsie et de certaines douleurs chroniques.",
+    "term": "ODD",
+    "full": "Orphan Drug Designation",
+    "fr": "Désignation de médicament orphelin",
+    "field": "Réglementaire · Biotech / Pharma",
+    "definition": "Un statut accordé par la FDA ou l'EMA à un traitement visant une maladie rare, qui offre incitatifs financiers et exclusivité commerciale bien avant tout résultat pivot.",
     "parts": [
-      { "label": "Canal Kv7 (KCNQ2/3)", "role": "la porte moléculaire du neurone" },
-      { "label": "Activateur (opener)", "role": "la clé qui maintient la porte ouverte" },
-      { "label": "Courant M", "role": "le frein électrique qui stabilise le neurone" }
+      { "label": "Rareté", "role": "le critère d'éligibilité" },
+      { "label": "Incitatifs", "role": "la contrepartie économique" },
+      { "label": "Exclusivité", "role": "la protection commerciale" }
     ],
     "how": [
-      { "n": "1", "h": "Fixation", "t": "L'activateur se lie au canal Kv7 exprimé à la surface du neurone." },
-      { "n": "2", "h": "Ouverture prolongée", "t": "Le canal reste ouvert plus longtemps, laissant sortir davantage d'ions potassium." },
-      { "n": "3", "h": "Stabilisation", "t": "La sortie de potassium repolarise le neurone et l'empêche de déclencher une décharge électrique excessive (crise, douleur)." }
+      { "n": "1", "h": "Demande", "t": "Le sponsor dépose un dossier prouvant que la maladie touche moins de 200 000 patients aux États-Unis (ou <5/10 000 en Europe) et qu'aucune thérapie satisfaisante n'existe." },
+      { "n": "2", "h": "Octroi", "t": "La FDA (ou l'EMA) accorde la désignation avant même les résultats pivots : c'est un statut administratif, pas une preuve d'efficacité." },
+      { "n": "3", "h": "Bénéfices", "t": "Le sponsor gagne crédits d'impôt R&D, exemption des frais de dossier FDA et accès facilité, avec à la clé jusqu'à 7 ans d'exclusivité de marché aux États-Unis (10 ans en UE) une fois le produit approuvé." }
     ],
-    "why": "Angle VC : après des années dominées par les inhibiteurs de canaux sodiques (Nav) en épilepsie, le rachat à 795 M$ du programme Kv7 de Biohaven par SK Biopharmaceuticals ce 26 août valide économiquement une deuxième classe de modulateurs de canaux ioniques neuronaux — un signal que les indépendantes qui portent encore leur propre programme Kv7 (QurAlis, Knopp Biosciences) deviennent des cibles de partenariat ou de levée à surveiller avant leurs propres catalyseurs cliniques.",
+    "why": "Pour un VC santé, une ODD est un signal d'entrée peu coûteux à surveiller : elle arrive souvent bien avant un tour de financement ou une AMM, valide la rareté (et donc la profitabilité potentielle malgré un marché étroit) et sécurise une fenêtre d'exclusivité qui protège le retour sur investissement — sans attendre les résultats de Phase 3.",
     "startups": [
-      { "name": "QurAlis", "use": "Développe QRL-101, activateur sélectif Kv7.2/7.3, en Phase 1 pour l'épilepsie et la SLA ; a levé 158 M$ à ce jour", "place": "Cambridge, États-Unis" },
-      { "name": "Knopp Biosciences", "use": "A obtenu la désignation FDA de maladie pédiatrique rare pour KB-3061, activateur Kv7.2/7.3, dans l'encéphalopathie épileptique KCNQ2 ; reste indépendante après avoir cédé son spin-off Channel Biosciences à Biohaven", "place": "Pittsburgh, États-Unis" },
-      { "name": "Xenon Pharmaceuticals", "use": "Développe azetukalner (XEN1101), modulateur Kv7, avec des résultats de Phase 3 positifs rapportés en 2026 en épilepsie focale ; reste indépendante et cotée", "place": "Vancouver, Canada" }
+      { "name": "HepaRegeniX", "use": "Vient de décrocher l'ODD de la FDA pour darizmetinib, un inhibiteur MKK4 en insuffisance hépatique post-hépatectomie (Phase Ib/IIa).", "place": "Tübingen, Allemagne" },
+      { "name": "TME Pharma", "use": "Détient une double ODD (FDA + EMA) pour NOX-A12 dans le glioblastome, en association avec radiothérapie et bévacizumab.", "place": "Berlin, Allemagne" },
+      { "name": "Aspartes Pharmaceuticals", "use": "A reçu l'ODD et la désignation maladie pédiatrique rare de la FDA pour ASP-001 dans l'hémiplégie alternante de l'enfant (août 2026).", "place": "États-Unis" }
     ]
   }
 }

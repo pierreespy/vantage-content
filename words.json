@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-28",
   "words": [
+    {
+      "term": "ODD",
+      "full": "Orphan Drug Designation",
+      "fr": "Désignation de médicament orphelin",
+      "field": "Réglementaire · Biotech / Pharma",
+      "definition": "Un statut accordé par la FDA ou l'EMA à un traitement visant une maladie rare, qui offre incitatifs financiers et exclusivité commerciale bien avant tout résultat pivot.",
+      "parts": [
+        {
+          "label": "Rareté",
+          "role": "le critère d'éligibilité"
+        },
+        {
+          "label": "Incitatifs",
+          "role": "la contrepartie économique"
+        },
+        {
+          "label": "Exclusivité",
+          "role": "la protection commerciale"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Demande",
+          "t": "Le sponsor dépose un dossier prouvant que la maladie touche moins de 200 000 patients aux États-Unis (ou <5/10 000 en Europe) et qu'aucune thérapie satisfaisante n'existe."
+        },
+        {
+          "n": "2",
+          "h": "Octroi",
+          "t": "La FDA (ou l'EMA) accorde la désignation avant même les résultats pivots : c'est un statut administratif, pas une preuve d'efficacité."
+        },
+        {
+          "n": "3",
+          "h": "Bénéfices",
+          "t": "Le sponsor gagne crédits d'impôt R&D, exemption des frais de dossier FDA et accès facilité, avec à la clé jusqu'à 7 ans d'exclusivité de marché aux États-Unis (10 ans en UE) une fois le produit approuvé."
+        }
+      ],
+      "why": "Pour un VC santé, une ODD est un signal d'entrée peu coûteux à surveiller : elle arrive souvent bien avant un tour de financement ou une AMM, valide la rareté (et donc la profitabilité potentielle malgré un marché étroit) et sécurise une fenêtre d'exclusivité qui protège le retour sur investissement — sans attendre les résultats de Phase 3.",
+      "startups": [
+        {
+          "name": "HepaRegeniX",
+          "use": "Vient de décrocher l'ODD de la FDA pour darizmetinib, un inhibiteur MKK4 en insuffisance hépatique post-hépatectomie (Phase Ib/IIa).",
+          "place": "Tübingen, Allemagne"
+        },
+        {
+          "name": "TME Pharma",
+          "use": "Détient une double ODD (FDA + EMA) pour NOX-A12 dans le glioblastome, en association avec radiothérapie et bévacizumab.",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Aspartes Pharmaceuticals",
+          "use": "A reçu l'ODD et la désignation maladie pédiatrique rare de la FDA pour ASP-001 dans l'hémiplégie alternante de l'enfant (août 2026).",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-08-28",
+      "dateLong": "28 août 2026"
+    },
     {
       "term": "Kv7",
       "full": "Voltage-Gated Potassium Channel 7 (KCNQ)",
