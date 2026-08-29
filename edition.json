@@ -1,116 +1,96 @@
 {
-  "dateLong": "28 août 2026",
+  "dateLong": "29 août 2026",
   "ticker": [
-    { "company": "Adaptyv Bio", "amount": "€34,35M", "kind": "lev" },
-    { "company": "Minapharm", "amount": "$16,5M", "kind": "lev" },
-    { "company": "Legato", "amount": "$12M", "kind": "lev" },
-    { "company": "Eyedentity", "amount": "€1,3M", "kind": "lev" },
-    { "company": "Capitan Orthopedics", "amount": "$4,1M", "kind": "lev" },
-    { "company": "Ambros Therapeutics", "amount": "$150M", "kind": "mna" }
+    { "company": "Lupin Dental", "amount": "€15M", "kind": "lev" },
+    { "company": "DualityBio", "amount": "$45M", "kind": "mna" },
+    { "company": "AusperBio", "amount": "$120M", "kind": "lev" },
+    { "company": "MaxQ Medical", "amount": "$31,5M", "kind": "lev" },
+    { "company": "Kalivir Immunotherapeutics", "amount": "$14M", "kind": "lev" },
+    { "company": "Readily Diagnostics", "amount": "€811k", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series A · Biotech / Automated Lab",
-    "title": "Adaptyv Bio boucle une Series A de 34,35 M€ menée par Highland Europe pour automatiser le laboratoire humide au service de l'IA « agentique »",
-    "deck": "Le lausannois Adaptyv Bio referme une Series A de 34,35 M€ (40 M$) menée par Highland Europe, avec Ace Ventures, ByFounders et Y Combinator qui remettent au pot ; sa plateforme automatise de bout en bout la synthèse d'ADN, l'expression de protéines sans cellule et la mesure d'affinité par SPR, permettant à des agents IA de commander directement leurs propres expériences via API. Le signal pour un VC santé : plus de 100 clients en un an, dont Roche, Novo Nordisk et les labs IA Chai Discovery et Boltz, valident un maillon d'infrastructure devenu indispensable à toute thèse « AI-native drug discovery » — avant que la prochaine vague de plateformes similaires ne lève à des valorisations bien supérieures.",
-    "company": "Adaptyv Bio",
+    "kicker": "Series A · MedTech Dentaire",
+    "title": "Lupin Dental boucle une Series A de 15 M€ menée par Fynveur pour exporter son robot dentaire hors de France",
+    "deck": "Le montpelliérain Lupin Dental referme une Series A de 15 M€ menée par Fynveur (10 M€, conseillé par Invus), aux côtés d'actionnaires existants, d'investisseurs privés et d'un prêt Bpifrance, pour déployer son robot supervisé de préparation dentaire (facettes esthétiques) hors de France. Le signal pour un VC santé : après avoir décroché en juin la certification UKCA qui autorise sa commercialisation en Grande-Bretagne — sans encore l'autorisation FDA ni le marquage CE —, la medtech avance marché par marché vers les juridictions les plus strictes, un calendrier réglementaire à surveiller avant une probable Series B internationale.",
+    "company": "Lupin Dental",
     "stage": "Series A",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.eu-startups.com/2026/08/lausanne-based-adaptyv-raises-e34-35-million-series-a-to-build-the-automated-lab-for-agentic-biology"
+    "url": "https://www.eu-startups.com/2026/08/montpellier-based-dental-robotics-startup-lupin-dental-closes-e15-million-series-a-round"
   },
   "deal": {
-    "company": "Ambros Therapeutics",
-    "amount": "150 M$ de PIPE (valorisation implicite ~550 M$ dans la fusion)",
-    "round": "Reverse merger (Nasdaq)",
-    "thesis": "RA Capital Management et Janus Henderson Investors co-mènent un PIPE sursouscrit de 150 M$ pour fusionner la clinique-stage Ambros Therapeutics (neridronate, Phase 3 dans le syndrome douloureux régional complexe) dans la cotée Werewolf Therapeutics (Nasdaq : HOWL) — 500 M$ de valeur implicite pour Ambros contre seulement 47,5 M$ pour Werewolf dans l'échange d'actions — avec un runway jusqu'au 1er semestre 2029. Le signal pour tout VC santé : la fusion inversée vers le Nasdaq reste la voie de sortie de choix pour une biotech clinique qui ne peut pas lever en IPO classique dans ce marché — un schéma à surveiller pour structurer ses propres sorties.",
-    "url": "https://www.globenewswire.com/news-release/2026/08/21/3349041/0/en/werewolf-therapeutics-and-ambros-therapeutics-announce-merger-agreement-and-concurrent-oversubscribed-150-million-private-placement.html"
+    "company": "DualityBio",
+    "amount": "45 M$ d'upfront (jusqu'à plus d'1 Md$ en milestones)",
+    "round": "Licensing Deal",
+    "thesis": "Genentech (Roche) verse 45 M$ d'upfront à la chinoise DualityBio — sa deuxième alliance asiatique en une semaine — pour co-développer de nouveaux payloads d'ADC via la plateforme DUPAC, conçus pour contourner la résistance au TOPO1 qui limite l'efficacité des ADC de première génération. Le signal pour tout VC santé : les majors continuent de payer cher l'innovation sur le payload plutôt que sur l'anticorps porteur — un angle que les plateformes ADC européennes encore indépendantes devraient regarder de près avant leur prochain tour.",
+    "url": "https://www.prnewswire.com/news-releases/dualitybio-enters-a-global-collaboration-and-license-agreement-with-genentech-to-develop-next-generation-adcs-built-on-dualitybios-dupac-novel-payload-platform-302862514.html"
   },
   "brefsEurope": [
     {
-      "company": "Spineart / eCential Robotics",
-      "place": "Genève (CH) / Lyon (FR)",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Spineart et eCential Robotics décrochent la clearance FDA 510(k) qui fait basculer leur duo navigation-implants vers la chirurgie robotique du rachis",
-      "summary": "La FDA autorise l'application PERLA TL sur la plateforme robotique Op.n d'eCential, permettant désormais la pose assistée par robot (et plus seulement la navigation) des vis pédiculaires Spineart, en chirurgie ouverte comme mini-invasive. Le duo franco-suisse élargit une base installée de navigation existante vers un segment robotique à plus forte valeur, sans lever de nouveau tour — un modèle d'expansion capital-efficient à surveiller pour toute thèse de consolidation en chirurgie assistée par robot.",
-      "url": "https://www.prnewswire.com/news-releases/spineart-and-ecential-robotics-receive-fda-510k-clearance-for-the-perla-tl-application-for-use-with-ecential-opn-navigation-system-for-robotic-procedures-302855443.html"
-    },
-    {
-      "company": "Limbic",
-      "place": "Londres, Royaume-Uni",
-      "sector": "Digital Health",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Limbic devient la première IA de santé mentale sélectionnée par la FDA pour le pilote TEMPO et commence à traiter des bénéficiaires Medicare",
-      "summary": "Sélectionné par la FDA pour son programme pilote TEMPO, le service de thérapie vocale IA supervisée par clinicien « Unpacked » de la britannique Limbic a commencé le 27 août à traiter des bénéficiaires Medicare. Un accès réglementaire et un rail de paiement fédéral obtenus avant même le lancement du futur modèle de paiement à l'issue clinique de la CMS — un signal d'avance rare pour l'IA en santé comportementale.",
-      "url": "https://www.fiercehealthcare.com/digital-health/limbic-selected-fda-tempo-track-outcomes-ai-therapy-medicare"
-    },
-    {
-      "company": "HepaRegeniX",
-      "place": "Tübingen, Allemagne",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
+      "company": "Readily Diagnostics",
+      "place": "Suède",
+      "sector": "Diagnostics",
+      "signalType": "grant_award",
       "strength": 3,
-      "title": "HepaRegeniX décroche l'Orphan Drug Designation de la FDA pour son inhibiteur MKK4 contre l'insuffisance hépatique post-hépatectomie",
-      "summary": "La biotech allemande, issue des travaux du Pr Lars Zender à l'hôpital universitaire de Tübingen, obtient l'ODD pour darizmetinib (HRX215) juste après l'achèvement de la partie 1 de son essai de Phase Ib/IIa — un actif first-in-class sans concurrent approuvé sur un besoin médical aigu en chirurgie hépatique lourde, qui sécurise 7 ans d'exclusivité américaine avant même un tour de Série B.",
-      "url": "https://www.biospace.com/press-releases/heparegenix-receives-orphan-drug-designation-for-darizmetinib-for-the-prevention-of-post-hepatectomy-liver-failure"
+      "title": "Readily Diagnostics décroche 811 000 € de la Gates Foundation pour un test IST point-of-care abordable",
+      "summary": "La suédoise Readily Diagnostics reçoit une subvention de la Fondation Gates pour financer les travaux de concept et de faisabilité d'un test de diagnostic rapide couvrant chlamydia, gonorrhée et trichomonase, avec détection de résistance aux antimicrobiens. Un financement non-dilutif qui valide un segment diagnostics accessible à fort impact de santé publique — le genre de dossier qui prépare un futur tour d'equity sans diluer l'équipe fondatrice.",
+      "url": "https://www.eu-startups.com/2026/08/tackling-sti-testing-readily-diagnostics-raises-e811k-for-affordable-alternative"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Legato",
+      "company": "MaxQ Medical",
       "place": "États-Unis",
       "sector": "MedTech",
       "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Seed",
-      "title": "Legato sort de stealth avec 12 M$ pour ses lunettes auditives IA, fondée par d'anciens dirigeants Bose",
-      "summary": "Neotribe Ventures, Listen et Village Global financent le seed de Legato, dont les « Frames » embarquent une assistance auditive pilotée par IA ; l'équipe fondatrice vient de la division Bose Frames / aides auditives de Bose. Un pari sur la convergence hearables/OTC hearing aid, segment encore largement sous-couvert par les VC santé malgré une demande de masse.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/26/3351388/0/en/legato-emerges-from-stealth-with-12-million-in-funding-to-pioneer-a-new-era-of-hearing-devices-with-ai-powered-hearing-glasses.html"
+      "strength": 4,
+      "stage": "Series A",
+      "title": "MaxQ Medical lève 31,5 M$ en Series A, avec Olympus au capital, pour son plateau imagerie-thérapie de la prostate",
+      "summary": "Premier spin-out d'Orchard Ultrasound Innovation (technologie développée à Stanford), MaxQ Medical referme un Series A de 31,5 M$ mené par Olympus Innovation Ventures, Atlantic Blue Ventures et S3 Ventures. Sa plateforme combine imagerie et thérapie ciblée en une seule procédure transurétrale, avec l'hypertrophie bénigne de la prostate comme première indication avant une extension vers la thérapie focale du cancer et la biopsie.",
+      "url": "https://www.prnewswire.com/news-releases/maxq-medical-raises-31-5-million-series-a-backed-by-olympus-to-advance-its-prostate-care-platform-302855815.html"
     },
     {
-      "company": "Abbott",
-      "place": "Illinois, États-Unis",
-      "sector": "Diagnostics",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Abbott obtient la première autorisation FDA au monde pour un capteur portable mesurant en continu glycémie ET cétones",
-      "summary": "Le Libre Duo 10 Day, autorisé le 25 août pour les patients diabétiques dès 2 ans, mesure en continu glucose et corps cétoniques dans le liquide interstitiel pour alerter avant une acidocétose diabétique. Un comparable de marché à suivre pour toute thèse sur le monitoring métabolique continu : la convergence multi-biomarqueurs sur un seul capteur devient la nouvelle barre de référence, y compris pour les challengers plus jeunes du CGM.",
-      "url": "https://abbott.mediaroom.com/2026-08-25-Abbott-receives-FDA-authorization-for-worlds-first-dual-glucose-ketone-sensing-technology-for-people-with-diabetes"
-    },
-    {
-      "company": "Minapharm",
-      "place": "Le Caire, Égypte / Berlin, Allemagne",
+      "company": "CytomX Therapeutics",
+      "place": "South San Francisco, États-Unis",
       "sector": "Biotech",
-      "signalType": "grant_award",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "CEPI engage jusqu'à 16,5 M$ pour avancer le candidat-vaccin Ebola Bundibugyo de Minapharm en clinique",
-      "summary": "L'organisation CEPI finance l'entrée en Phase 1 du candidat-vaccin de Minapharm contre l'ebolavirus Bundibugyo, construit sur la plateforme MVA-CR19 du berlinois ProBioGen. Un financement non-dilutif qui valide une techno de plateforme européenne sur la préparation aux pandémies, sans diluer l'équité — un profil capital-efficient que les VC spécialisés en biodéfense surveillent de près.",
-      "url": "https://www.prnewswire.com/news-releases/african-bundibugyo-ebolavirus-vaccine-candidate-to-be-advanced-to-clinical-trials-302861771.html"
+      "title": "CytomX Therapeutics décroche la Fast Track de la FDA pour son ADC « Probody » dans le cancer colorectal métastatique",
+      "summary": "La FDA accorde la Fast Track Designation à varsetatug (Varseta-M), un ADC activé par protéase de la plateforme Probody de CytomX, dans le cancer colorectal métastatique en rechute ou réfractaire. Un jalon réglementaire qui accélère le dialogue avec l'agence sur une modalité — l'activation conditionnelle du payload dans la tumeur — que plusieurs plateformes ADC early-stage cherchent aujourd'hui à répliquer.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/27/3351944/37704/en/cytomx-therapeutics-announces-fda-fast-track-designation-for-varsetatug-masetecan-varseta-m-for-relapsed-refractory-metastatic-colorectal-cancer-r-r-mcrc.html"
+    },
+    {
+      "company": "Eascra Biotech",
+      "place": "Worcester, Massachusetts, États-Unis",
+      "sector": "Biotech",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Eascra Biotech nomme Andrew Goodearl Chief Scientific Officer pour préparer sa poussée vers la commercialisation",
+      "summary": "La startup de nanomédecine Eascra Biotech nomme le Dr Andrew Goodearl, fort de plus de trois décennies dans l'industrie biopharmaceutique, au poste de CSO pour piloter sa stratégie de développement produit. Un renfort dirigeant typique du signal faible qu'un VC santé guette avant une levée : la structure se muscle avant, pas après, le prochain tour.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/27/3351968/0/en/eascra-biotech-appoints-chief-scientific-officer-to-lead-commercialization-push.html"
     }
   ],
   "word": {
-    "term": "ODD",
-    "full": "Orphan Drug Designation",
-    "fr": "Désignation de médicament orphelin",
-    "field": "Réglementaire · Biotech / Pharma",
-    "definition": "Un statut accordé par la FDA ou l'EMA à un traitement visant une maladie rare, qui offre incitatifs financiers et exclusivité commerciale bien avant tout résultat pivot.",
+    "term": "ASO",
+    "full": "Antisense Oligonucleotide",
+    "fr": "Oligonucléotide antisens",
+    "field": "Biotech · Modalité thérapeutique RNA-targeting",
+    "definition": "Un court brin d'ADN ou d'ARN synthétique conçu pour se lier à un ARN messager précis et moduler la production d'une protéine — en la bloquant, en la dégradant ou, à l'inverse, en l'augmentant.",
     "parts": [
-      { "label": "Rareté", "role": "le critère d'éligibilité" },
-      { "label": "Incitatifs", "role": "la contrepartie économique" },
-      { "label": "Exclusivité", "role": "la protection commerciale" }
+      { "label": "Séquence", "role": "le guidage" },
+      { "label": "Chimie du squelette", "role": "la stabilité" },
+      { "label": "Mécanisme d'action", "role": "l'effet biologique" }
     ],
     "how": [
-      { "n": "1", "h": "Demande", "t": "Le sponsor dépose un dossier prouvant que la maladie touche moins de 200 000 patients aux États-Unis (ou <5/10 000 en Europe) et qu'aucune thérapie satisfaisante n'existe." },
-      { "n": "2", "h": "Octroi", "t": "La FDA (ou l'EMA) accorde la désignation avant même les résultats pivots : c'est un statut administratif, pas une preuve d'efficacité." },
-      { "n": "3", "h": "Bénéfices", "t": "Le sponsor gagne crédits d'impôt R&D, exemption des frais de dossier FDA et accès facilité, avec à la clé jusqu'à 7 ans d'exclusivité de marché aux États-Unis (10 ans en UE) une fois le produit approuvé." }
+      { "n": "1", "h": "Conception", "t": "Le brin d'ASO est synthétisé pour être exactement complémentaire d'une séquence de l'ARN cible, avec des modifications chimiques (LNA, 2'-MOE) qui le protègent des nucléases." },
+      { "n": "2", "h": "Hybridation", "t": "Une fois délivré dans la cellule, l'ASO se lie à l'ARN cible par appariement de bases classique (Watson-Crick)." },
+      { "n": "3", "h": "Effet", "t": "Selon la chimie choisie, la liaison recrute la RNase H1 qui dégrade l'ARN cible, ou bloque simplement sa traduction ou son épissage — sans jamais toucher à l'ADN." }
     ],
-    "why": "Pour un VC santé, une ODD est un signal d'entrée peu coûteux à surveiller : elle arrive souvent bien avant un tour de financement ou une AMM, valide la rareté (et donc la profitabilité potentielle malgré un marché étroit) et sécurise une fenêtre d'exclusivité qui protège le retour sur investissement — sans attendre les résultats de Phase 3.",
+    "why": "Pour un VC santé, l'ASO est une modalité qui a fait ses preuves cliniques (plusieurs approbations FDA depuis 2016) tout en restant plus simple et moins coûteuse à fabriquer qu'un biologique classique : une même plateforme chimique se redéploie d'une cible à l'autre, ce qui rend chaque nouveau tour plus lisible — et attire un syndicat d'investisseurs spécialistes de la modalité plutôt que de l'indication.",
     "startups": [
-      { "name": "HepaRegeniX", "use": "Vient de décrocher l'ODD de la FDA pour darizmetinib, un inhibiteur MKK4 en insuffisance hépatique post-hépatectomie (Phase Ib/IIa).", "place": "Tübingen, Allemagne" },
-      { "name": "TME Pharma", "use": "Détient une double ODD (FDA + EMA) pour NOX-A12 dans le glioblastome, en association avec radiothérapie et bévacizumab.", "place": "Berlin, Allemagne" },
-      { "name": "Aspartes Pharmaceuticals", "use": "A reçu l'ODD et la désignation maladie pédiatrique rare de la FDA pour ASP-001 dans l'hémiplégie alternante de l'enfant (août 2026).", "place": "États-Unis" }
+      { "name": "AusperBio", "use": "Vient de boucler un Series C de 120 M$ pour faire avancer AHB-137, son ASO ciblant l'ARN du virus de l'hépatite B, vers la Phase 3 et la commercialisation.", "place": "San Francisco, États-Unis" },
+      { "name": "Secarna Pharmaceuticals", "use": "Plateforme ASO propriétaire LNAplus ; vient d'annoncer des résultats positifs d'une collaboration avec VERAXA Biotech sur des conjugués anticorps-oligonucléotide en auto-immunité.", "place": "Munich, Allemagne" },
+      { "name": "Stoke Therapeutics", "use": "Développe des ASO « TANGO » qui augmentent, plutôt que suppriment, l'expression d'un gène sain ; a dosé son premier patient dans l'essai de Phase 1 OSPREY pour l'atrophie optique dominante autosomique.", "place": "Massachusetts, États-Unis" }
     ]
   }
 }

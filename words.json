@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-28",
+  "generatedAt": "2026-08-29",
   "words": [
+    {
+      "term": "ASO",
+      "full": "Antisense Oligonucleotide",
+      "fr": "Oligonucléotide antisens",
+      "field": "Biotech · Modalité thérapeutique RNA-targeting",
+      "definition": "Un court brin d'ADN ou d'ARN synthétique conçu pour se lier à un ARN messager précis et moduler la production d'une protéine — en la bloquant, en la dégradant ou, à l'inverse, en l'augmentant.",
+      "parts": [
+        {
+          "label": "Séquence",
+          "role": "le guidage"
+        },
+        {
+          "label": "Chimie du squelette",
+          "role": "la stabilité"
+        },
+        {
+          "label": "Mécanisme d'action",
+          "role": "l'effet biologique"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Conception",
+          "t": "Le brin d'ASO est synthétisé pour être exactement complémentaire d'une séquence de l'ARN cible, avec des modifications chimiques (LNA, 2'-MOE) qui le protègent des nucléases."
+        },
+        {
+          "n": "2",
+          "h": "Hybridation",
+          "t": "Une fois délivré dans la cellule, l'ASO se lie à l'ARN cible par appariement de bases classique (Watson-Crick)."
+        },
+        {
+          "n": "3",
+          "h": "Effet",
+          "t": "Selon la chimie choisie, la liaison recrute la RNase H1 qui dégrade l'ARN cible, ou bloque simplement sa traduction ou son épissage — sans jamais toucher à l'ADN."
+        }
+      ],
+      "why": "Pour un VC santé, l'ASO est une modalité qui a fait ses preuves cliniques (plusieurs approbations FDA depuis 2016) tout en restant plus simple et moins coûteuse à fabriquer qu'un biologique classique : une même plateforme chimique se redéploie d'une cible à l'autre, ce qui rend chaque nouveau tour plus lisible — et attire un syndicat d'investisseurs spécialistes de la modalité plutôt que de l'indication.",
+      "startups": [
+        {
+          "name": "AusperBio",
+          "use": "Vient de boucler un Series C de 120 M$ pour faire avancer AHB-137, son ASO ciblant l'ARN du virus de l'hépatite B, vers la Phase 3 et la commercialisation.",
+          "place": "San Francisco, États-Unis"
+        },
+        {
+          "name": "Secarna Pharmaceuticals",
+          "use": "Plateforme ASO propriétaire LNAplus ; vient d'annoncer des résultats positifs d'une collaboration avec VERAXA Biotech sur des conjugués anticorps-oligonucléotide en auto-immunité.",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Stoke Therapeutics",
+          "use": "Développe des ASO « TANGO » qui augmentent, plutôt que suppriment, l'expression d'un gène sain ; a dosé son premier patient dans l'essai de Phase 1 OSPREY pour l'atrophie optique dominante autosomique.",
+          "place": "Massachusetts, États-Unis"
+        }
+      ],
+      "date": "2026-08-29",
+      "dateLong": "29 août 2026"
+    },
     {
       "term": "ODD",
       "full": "Orphan Drug Designation",
