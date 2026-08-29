@@ -2,12 +2,12 @@
   "generatedAt": "2026-08-29",
   "generatedAtLong": "29 août 2026",
   "counts": {
-    "total": 1215,
+    "total": 1189,
     "high": 0,
-    "medium": 84,
-    "low": 1131,
+    "medium": 83,
+    "low": 1106,
     "withNewSignal": 0,
-    "entities": 7432,
+    "entities": 7592,
     "records": 1702
   },
   "sources": [
@@ -15,14 +15,14 @@
       "id": "pubmed",
       "label": "PubMed (NCBI E-utilities)",
       "records": 200,
-      "added": 22,
+      "added": 16,
       "changed": 0
     },
     {
       "id": "europepmc",
       "label": "Europe PMC",
       "records": 500,
-      "added": 0,
+      "added": 4,
       "changed": 0
     },
     {
@@ -650,69 +650,6 @@
       ],
       "firstEvidence": "2026-08-28",
       "latestEvidence": "2026-08-28",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "company:stryker:59b04ab2",
-      "kind": "company",
-      "name": "Stryker Neurovascular",
-      "aliases": [
-        "STRYKER CORP [US]",
-        "Stryker Corporation"
-      ],
-      "company": "Stryker Neurovascular",
-      "companies": [
-        "Stryker Neurovascular"
-      ],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 50,
-      "priority": "medium",
-      "rules": [],
-      "reasons": [
-        "Corroboré par 2 sources indépendantes (+5)."
-      ],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248520A1",
-          "title": "PNEUMATIC SYRINGES, SUCH AS FOR CLOT ASPIRATION, AND ASSOCIATED SYSTEMS AND METHODS",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248520A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        },
-        {
-          "signalType": "clinical_update",
-          "strength": 3,
-          "recordKind": "trial",
-          "source": "clinicaltrials",
-          "sourceId": "NCT04195568",
-          "title": "Evaluation of Safety and Effectiveness of Stryker Surpass Evolve™ Flow Diverter System",
-          "url": "https://clinicaltrials.gov/study/NCT04195568",
-          "date": "2026-08-17",
-          "contribution": 20,
-          "isNew": false
-        }
-      ],
-      "signalCount": 2,
-      "newSignalCount": 0,
-      "sources": [
-        "epo",
-        "clinicaltrials"
-      ],
-      "keywords": [
-        "a61b17/00ai",
-        "a61b17/22ai",
-        "aneurysm, intracranial"
-      ],
-      "firstEvidence": "2026-08-17",
-      "latestEvidence": "2026-08-27",
       "updatedAt": "2026-08-29"
     },
     {
@@ -4546,9 +4483,9 @@
         "HSU HSING-CHING CRYSTAL [US]",
         "Hsu HC"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -6230,6 +6167,7 @@
       "kind": "company",
       "name": "Medtronic Cardiac Rhythm and Heart Failure",
       "aliases": [
+        "Medtronic Cardiovascular",
         "Medtronic Cardiac Rhythm and Heart Failure",
         "Medtronic Spinal and Biologics",
         "Medtronic Vascular",
@@ -6309,9 +6247,21 @@
           "date": "2026-08-12",
           "contribution": 3,
           "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07754318",
+          "title": "Aneurysm Treatment Using the Heli-FX™ EndoAnchor™ System China Study(ATHENA)",
+          "url": "https://clinicaltrials.gov/study/NCT07754318",
+          "date": "2026-08-10",
+          "contribution": 0,
+          "isNew": false
         }
       ],
-      "signalCount": 5,
+      "signalCount": 6,
       "newSignalCount": 0,
       "sources": [
         "clinicaltrials"
@@ -6329,9 +6279,10 @@
         "spinal fusion failure",
         "spinal trauma",
         "spinal tumor case",
-        "intracranial aneurysm"
+        "intracranial aneurysm",
+        "aaa - abdominal aortic aneurysm"
       ],
-      "firstEvidence": "2026-08-12",
+      "firstEvidence": "2026-08-10",
       "latestEvidence": "2026-08-25",
       "updatedAt": "2026-08-29"
     },
@@ -9090,6 +9041,97 @@
       "updatedAt": "2026-08-29"
     },
     {
+      "id": "company:abbvie:e4b41c59",
+      "kind": "company",
+      "name": "AbbVie",
+      "aliases": [
+        "ABBVIE INC."
+      ],
+      "company": "AbbVie",
+      "companies": [
+        "AbbVie",
+        "AbbVie"
+      ],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 29,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06822738",
+          "title": "A Study to Assess Adverse Events and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Adult Participants With Glaucoma",
+          "url": "https://clinicaltrials.gov/study/NCT06822738",
+          "date": "2026-08-14",
+          "contribution": 20,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT06822738",
+          "title": "A Study to Assess Adverse Events and Effectiveness of Gel Stent (XEN63) Implantation Using Ab Interno and Ab Externo Approaches in Adult Participants With Glaucoma",
+          "url": "https://clinicaltrials.gov/study/NCT06822738",
+          "date": "2026-08-14",
+          "contribution": 3,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07186595",
+          "title": "A Study to Evaluate the Safety and Effectiveness of JUVÉDERM Products in Adult Participants for the Change of Their Overall Facial Appearance",
+          "url": "https://clinicaltrials.gov/study/NCT07186595",
+          "date": "2026-08-10",
+          "contribution": 3,
+          "isNew": false
+        },
+        {
+          "signalType": "clinical_update",
+          "strength": 3,
+          "recordKind": "trial",
+          "source": "clinicaltrials",
+          "sourceId": "NCT07186595",
+          "title": "A Study to Evaluate the Safety and Effectiveness of JUVÉDERM Products in Adult Participants for the Change of Their Overall Facial Appearance",
+          "url": "https://clinicaltrials.gov/study/NCT07186595",
+          "date": "2026-08-10",
+          "contribution": 3,
+          "isNew": false
+        }
+      ],
+      "signalCount": 4,
+      "newSignalCount": 0,
+      "sources": [
+        "clinicaltrials"
+      ],
+      "keywords": [
+        "primary open angle glaucoma",
+        "agn-9003",
+        "mid face volume deficit",
+        "juvéderm volux xc",
+        "juvéderm voluma xc",
+        "juvéderm vollure xc",
+        "juvéderm volbella xc",
+        "skinvive by juvéderm",
+        "juvéderm ultra xc",
+        "juvéderm ultra plus xc"
+      ],
+      "firstEvidence": "2026-08-10",
+      "latestEvidence": "2026-08-14",
+      "updatedAt": "2026-08-29"
+    },
+    {
       "id": "company:polares:766f9c87",
       "kind": "company",
       "name": "Polares Medical, Inc.",
@@ -10102,50 +10144,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:alexander:a33941f3",
-      "kind": "person",
-      "name": "Alexander, Damea",
-      "aliases": [
-        "ALEXANDER DAMEA [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248999A1",
-          "title": "INFUSION BAG WITH RINSE PORT, SYSTEMS AND METHODS RELATED TO THE SAME",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248999A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61m39/10ai",
-        "a61m5/145ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:alkelai:319f9f1b",
       "kind": "person",
       "name": "Alkelai, Anna",
@@ -10938,140 +10936,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:atkinson:3ee298d7",
-      "kind": "person",
-      "name": "Atkinson, Hunter",
-      "aliases": [
-        "ATKINSON HUNTER [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260249098A1",
-          "title": "EYE MASK WITH INTEGRATED LIGHTING FOR BILATERAL BRAIN STIMULATION",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260249098A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61m21/00ai",
-        "a61m21/02ai",
-        "a61n5/06ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:atkinson:979c642a",
-      "kind": "person",
-      "name": "Atkinson, Nicole",
-      "aliases": [
-        "ATKINSON NICOLE [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260249098A1",
-          "title": "EYE MASK WITH INTEGRATED LIGHTING FOR BILATERAL BRAIN STIMULATION",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260249098A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61m21/00ai",
-        "a61m21/02ai",
-        "a61n5/06ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:atkinson:cc24c48b",
-      "kind": "person",
-      "name": "Atkinson, Paul",
-      "aliases": [
-        "ATKINSON PAUL [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260251630A1",
-          "title": "INTELLIGENT AGENTS AND SYSTEMS FOR CONDITION SENSITIVE ITEMS",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260251630A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "g01n33/15ai",
-        "g16h20/10ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:backman:3ccf8a6a",
       "kind": "person",
       "name": "Backman, Joshua",
@@ -11530,51 +11394,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:barnes:46432580",
-      "kind": "person",
-      "name": "Barnes, Shanstella Yvonne",
-      "aliases": [
-        "BARNES SHANSTELLA YVONNE [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248641A1",
-          "title": "Lip Condom",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248641A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a45d44/12ai",
-        "a61f6/04ai",
-        "a61f6/06ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:barnes:75bd5031",
       "kind": "person",
       "name": "Barnes, Liam Patrick",
@@ -11749,51 +11568,6 @@
         "a61b17/00ai",
         "a61b17/115ai",
         "a61b90/00ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:belletto:dc2b5bcd",
-      "kind": "person",
-      "name": "Belletto, Veronica",
-      "aliases": [
-        "BELLETTO VERONICA [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248659A1",
-          "title": "Menstrual insert",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248659A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61f13/20ai",
-        "a61f13/26ai",
-        "a61f13/34ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -12686,49 +12460,6 @@
         "g06f18/21ai",
         "g06n5/022ai",
         "g16h50/70ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:brubaker:7fba8cff",
-      "kind": "person",
-      "name": "Brubaker, William",
-      "aliases": [
-        "BRUBAKER WILLIAM [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260253705A1",
-          "title": "AI-GUIDED SURGICAL MARGIN OPTIMIZATION WITH MULTIMODAL IMAGING FUSION",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260253705A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "g16h20/40ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -13785,53 +13516,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:coleman:3e90cfe2",
-      "kind": "person",
-      "name": "Coleman, Camilla Nicole",
-      "aliases": [
-        "COLEMAN CAMILLA NICOLE [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248446A1",
-          "title": "Orthonan",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248446A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b5/00ai",
-        "a61b5/11ai",
-        "a61b5/145ai",
-        "a61b5/1468ai",
-        "a61b90/00ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:concannon:b610fbe3",
       "kind": "person",
       "name": "CONCANNON, Kate Beatrice",
@@ -14502,49 +14186,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:davis:59011114",
-      "kind": "person",
-      "name": "Davis, Paul",
-      "aliases": [
-        "DAVIS PAUL [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260253705A1",
-          "title": "AI-GUIDED SURGICAL MARGIN OPTIMIZATION WITH MULTIMODAL IMAGING FUSION",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260253705A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "g16h20/40ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:de luca:78cc8c36",
       "kind": "person",
       "name": "DE LUCA, Enza",
@@ -14627,52 +14268,6 @@
         "a61b5/024ai",
         "g16h50/20ai",
         "g16h50/30ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:degoy:1d9a1ef4",
-      "kind": "person",
-      "name": "Degoy, Médéric",
-      "aliases": [
-        "DEGOY MÉDÉRIC [FR]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260253711A1",
-          "title": "System and Method for Generating Adaptive Personalized Therapeutic Protocols Based on Physiological Biomarkers",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260253711A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "g16h10/60ai",
-        "g16h20/30ai",
-        "g16h20/70ai",
-        "g16h50/70ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -17022,9 +16617,9 @@
       "aliases": [
         "FULLER DONALD JOSEPH [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -17239,50 +16834,6 @@
         "c12n15/78ai",
         "c12p7/18ai",
         "c12q1/04ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:garcia:a894b8a9",
-      "kind": "person",
-      "name": "Garcia, Nicholas Robert",
-      "aliases": [
-        "GARCIA NICHOLAS ROBERT [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248519A1",
-          "title": "Osteotomy Jig",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248519A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b17/15ai",
-        "a61b17/88ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -17687,50 +17238,6 @@
       "keywords": [
         "c12q1/6865ai",
         "g01n21/29ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:goodman:67dc4abb",
-      "kind": "person",
-      "name": "Goodman, Gary",
-      "aliases": [
-        "GOODMAN GARY [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260249097A1",
-          "title": "METHODS AND DEVICES FOR WOUND HEALING",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260249097A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b18/20ai",
-        "a61n5/06ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -19794,53 +19301,6 @@
         "g06q30/0283ai",
         "g06q30/04ai",
         "g16h40/40ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:immesoete:7bc945d1",
-      "kind": "person",
-      "name": "Immesoete, Cameron",
-      "aliases": [
-        "IMMESOETE CAMERON [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260253706A1",
-          "title": "System and Method for AI-Powered Fitness Tracking Platform",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260253706A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "g06f16/9535ai",
-        "g06v10/764ai",
-        "g16h20/30ai",
-        "g16h20/60ai",
-        "h04l51/02ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -22814,49 +22274,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:kumenda:c841347e",
-      "kind": "person",
-      "name": "Kumenda, Esther",
-      "aliases": [
-        "KUMENDA ESTHER [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260249062A1",
-          "title": "MEDICATION DELIVERY DEVICE FOR RECTAL DELIVERY OF MEDICATION AND METHOD THEREFOR",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260249062A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61m31/00ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:kunz:b014a883",
       "kind": "person",
       "name": "KUNZ, Quinten",
@@ -23390,6 +22807,51 @@
       "updatedAt": "2026-08-29"
     },
     {
+      "id": "person:ledany:636fa25d",
+      "kind": "person",
+      "name": "LEDANY, Ori",
+      "aliases": [],
+      "company": "",
+      "companies": [],
+      "country": "US",
+      "countries": [
+        "US"
+      ],
+      "score": 25,
+      "priority": "low",
+      "rules": [],
+      "reasons": [],
+      "signals": [
+        {
+          "signalType": "patent_filing",
+          "strength": 2,
+          "recordKind": "patent",
+          "source": "epo",
+          "sourceId": "US20260248376A1",
+          "title": "GASTRO RECTAL OSCOPY DEVICE",
+          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248376A1",
+          "date": "2026-08-27",
+          "contribution": 25,
+          "isNew": false
+        }
+      ],
+      "signalCount": 1,
+      "newSignalCount": 0,
+      "sources": [
+        "epo"
+      ],
+      "keywords": [
+        "a61b1/00ai",
+        "a61b1/005ai",
+        "a61b1/04ai",
+        "a61b1/06ai",
+        "a61b1/31ai"
+      ],
+      "firstEvidence": "2026-08-27",
+      "latestEvidence": "2026-08-27",
+      "updatedAt": "2026-08-29"
+    },
+    {
       "id": "person:ledany:c9ced22e",
       "kind": "person",
       "name": "LEDANY ORI [US]",
@@ -23667,9 +23129,9 @@
       "aliases": [
         "LEITNER DANIEL AARON [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -24508,49 +23970,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:llewellyn:c0f32cbe",
-      "kind": "person",
-      "name": "Llewellyn, Patrick Allan",
-      "aliases": [
-        "LLEWELLYN PATRICK ALLAN [CA]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248471A1",
-          "title": "X-RAY SHIELD FOR BREASTS",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248471A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b6/10ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:lombardi:f8d6f860",
       "kind": "person",
       "name": "LOMBARDI, Fabien",
@@ -25311,47 +24730,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:maggiano:258f91c6",
-      "kind": "person",
-      "name": "Maggiano, John M.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248387A1",
-          "title": "TABLETOP APPLANATION TONOMETER TO MEASURE THE INTRAOCULAR PRESSURE OF AN EYE",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248387A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b3/16ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:mahadevan jansen:a7d601d4",
       "kind": "person",
       "name": "Mahadevan-Jansen, Anita",
@@ -26033,47 +25411,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:maurath:7bb48611",
-      "kind": "person",
-      "name": "Maurath, Steven E.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248387A1",
-          "title": "TABLETOP APPLANATION TONOMETER TO MEASURE THE INTRAOCULAR PRESSURE OF AN EYE",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248387A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b3/16ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:mayer:627d5593",
       "kind": "person",
       "name": "MAYER, Jörg",
@@ -26174,9 +25511,9 @@
       "aliases": [
         "MCCONNELL STEVEN SAMUEL [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -26425,51 +25762,6 @@
         "g06f18/21ai",
         "g06n5/022ai",
         "g16h50/70ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:mcnulty:f086d7e4",
-      "kind": "person",
-      "name": "McNulty, Jacob",
-      "aliases": [
-        "MCNULTY JACOB [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248643A1",
-          "title": "External Footwear-Worn Heating Device",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248643A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61f7/00ai",
-        "h05b1/02ai",
-        "h05b3/34ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -29109,9 +28401,9 @@
       "aliases": [
         "OZENNE PARKER [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -30764,47 +30056,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:rotunda:df7b86d9",
-      "kind": "person",
-      "name": "Rotunda, Adam M.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248506A1",
-          "title": "WOUND ADHESIVE DEVICE AND METHODS OF USE THEREOF",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248506A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b17/08ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:rusko:1fb046ca",
       "kind": "person",
       "name": "Ruskó, László",
@@ -31439,47 +30690,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:schanbacher:cdbaff65",
-      "kind": "person",
-      "name": "Schanbacher, Carl F.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248506A1",
-          "title": "WOUND ADHESIVE DEVICE AND METHODS OF USE THEREOF",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248506A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b17/08ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:schild:795fd63b",
       "kind": "person",
       "name": "SCHILD DAVID [DE]",
@@ -31904,55 +31114,6 @@
       "keywords": [
         "a61m11/00ai",
         "a61m15/00ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:scott:26e1337e",
-      "kind": "person",
-      "name": "Scott, J. Henry",
-      "aliases": [
-        "SCOTT J HENRY [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248328A1",
-          "title": "Portable Towel Warming Apparatus with Enhanced Heat Distribution and Thermal Insulation",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248328A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a47k10/06ai",
-        "a61m21/00ai",
-        "a61m21/02ai",
-        "f24h15/128ai",
-        "f24h3/02ai",
-        "f24h9/20ai",
-        "h05b1/02ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -32412,9 +31573,9 @@
       "aliases": [
         "SHIMIZU JARED [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -33807,50 +32968,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:stout:dd7616f8",
-      "kind": "person",
-      "name": "Stout, Charles Emmett",
-      "aliases": [
-        "STOUT CHARLES EMMETT [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248628A1",
-          "title": "ENHANCED VEIN OF GALEN PROCEDURES ACCESS DEVICES AND RELATED PROCESSES",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248628A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61f2/91ai",
-        "a61f2/958ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:streeper robert:15636b99",
       "kind": "person",
       "name": "STREEPER ROBERT T [US]",
@@ -34517,92 +33634,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:tang:7396cbe7",
-      "kind": "person",
-      "name": "Tang, Young A.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260249037A1",
-          "title": "METHOD AND APPARATUS FOR BURST DISPERSION OF MULTIPLE DISTINCT ODORS",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260249037A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61l9/03ai",
-        "a61m21/00ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:tanner:89f8b12f",
-      "kind": "person",
-      "name": "Tanner, Nathan Milo",
-      "aliases": [
-        "TANNER NATHAN MILO [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260248640A1",
-          "title": "Removable Airway Appliance",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260248640A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61f5/058ai",
-        "a61f5/56ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:tassoni nicholas:d51ab6af",
       "kind": "person",
       "name": "TASSONI NICHOLAS LEE [US]",
@@ -35103,9 +34134,9 @@
       "aliases": [
         "TRUTY JAKUB MAREK [US]"
       ],
-      "company": "Stryker Neurovascular",
+      "company": "Stryker Endoscopy",
       "companies": [
-        "Stryker Neurovascular"
+        "Stryker Endoscopy"
       ],
       "country": "US",
       "countries": [
@@ -38256,53 +37287,6 @@
       "keywords": [
         "a61b5/145ai",
         "a61b5/1477ai"
-      ],
-      "firstEvidence": "2026-08-27",
-      "latestEvidence": "2026-08-27",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:yan:d41f72d2",
-      "kind": "person",
-      "name": "Yan, Ethan",
-      "aliases": [
-        "YAN ETHAN [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US20260253215A1",
-          "title": "Integrated AI-Powered Wearable Device and Retinal Imaging System for Early Home-Based Screening and Detection of Ocular Tumors",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS20260253215A1",
-          "date": "2026-08-27",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b3/00ai",
-        "a61b3/15ai",
-        "g06t7/00ai",
-        "g06v10/82ai",
-        "g16h30/40ai"
       ],
       "firstEvidence": "2026-08-27",
       "latestEvidence": "2026-08-27",
@@ -46232,52 +45216,6 @@
       "updatedAt": "2026-08-29"
     },
     {
-      "id": "person:thompson:327e3f46",
-      "kind": "person",
-      "name": "Thompson, Stephen W.",
-      "aliases": [],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US12714465B1",
-          "title": "First twin cervical dilation system and method",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS12714465B1",
-          "date": "2026-08-25",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b17/42ai",
-        "a61l29/06ai",
-        "a61l29/08ai",
-        "a61m25/10ai",
-        "a61m29/00ai",
-        "a61m29/02ai"
-      ],
-      "firstEvidence": "2026-08-25",
-      "latestEvidence": "2026-08-25",
-      "updatedAt": "2026-08-29"
-    },
-    {
       "id": "person:u:603a905c",
       "kind": "person",
       "name": "U·赫尔佐格",
@@ -46404,50 +45342,6 @@
         "a61b5/055ai",
         "a61b6/00ai",
         "a61b6/04ai"
-      ],
-      "firstEvidence": "2026-08-25",
-      "latestEvidence": "2026-08-25",
-      "updatedAt": "2026-08-29"
-    },
-    {
-      "id": "person:wessels:207d9edf",
-      "kind": "person",
-      "name": "Wessels, Richard Joseph",
-      "aliases": [
-        "WESSELS RICHARD JOSEPH [US]"
-      ],
-      "company": "",
-      "companies": [],
-      "country": "US",
-      "countries": [
-        "US"
-      ],
-      "score": 25,
-      "priority": "low",
-      "rules": [],
-      "reasons": [],
-      "signals": [
-        {
-          "signalType": "patent_filing",
-          "strength": 2,
-          "recordKind": "patent",
-          "source": "epo",
-          "sourceId": "US12714872B1",
-          "title": "Rotating electric field therapy for altering biologic tissue function",
-          "url": "https://worldwide.espacenet.com/patent/search?q=pn%3DUS12714872B1",
-          "date": "2026-08-25",
-          "contribution": 25,
-          "isNew": false
-        }
-      ],
-      "signalCount": 1,
-      "newSignalCount": 0,
-      "sources": [
-        "epo"
-      ],
-      "keywords": [
-        "a61b18/00ai",
-        "a61n1/40ai"
       ],
       "firstEvidence": "2026-08-25",
       "latestEvidence": "2026-08-25",
