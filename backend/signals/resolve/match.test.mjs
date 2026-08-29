@@ -145,3 +145,26 @@ test('a substantial prefix still matches', () => {
   assert.ok(companiesMatch({ name: 'Neuroscan' }, { name: 'Neuroscan Medical' }));
   assert.ok(companiesMatch({ name: 'B. Braun' }, { name: 'B. Braun Melsungen AG' }));
 });
+
+test('a common family name is penalised on the initials-vs-full branch too', () => {
+  // Regression guard from a live run: "Lee SH" vs "LEE SU HWAN [KR]" merged at
+  // 0.76 and fabricated a researcher spanning lung tomography, suture anchors,
+  // wearables and surfactant chemistry. The penalty only covered the
+  // both-initialled branch, so this one slipped through.
+  const merged = matchPersons({ name: 'Lee SH' }, { name: 'LEE SU HWAN [KR]' });
+  assert.ok(merged.score < PERSON_MATCH_THRESHOLD, `expected < threshold, got ${merged.score}`);
+  assert.match(merged.reason, /common-name-penalty/);
+
+  // A rare family name in the same shape still merges — this is the PubMed <-> EPO
+  // join the whole scoring model depends on, and it must not be collateral damage.
+  assert.ok(personsMatch({ name: 'Dupont JM' }, { name: 'DUPONT JEAN-MARC [FR]' }));
+});
+
+test('a shared affiliation still rescues a common name on any branch', () => {
+  assert.ok(
+    personsMatch(
+      { name: 'Lee SH', affiliation: 'Karolinska Institutet' },
+      { name: 'LEE SU HWAN', affiliation: 'Karolinska Institutet, Stockholm' }
+    )
+  );
+});

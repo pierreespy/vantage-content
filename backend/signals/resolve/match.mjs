@@ -151,7 +151,17 @@ export function matchPersons(a, b) {
 
   // Common family names need the corroboration to have actually happened:
   // "Zhang Y" collides constantly, "Vandenbroucke J" essentially never does.
-  if (COMMON_FAMILY_NAMES.has(personA.family) && overlap === 0 && reason.startsWith('family')) {
+  //
+  // The penalty applies to EVERY weak branch, not just the both-initialled one.
+  // Restricting it to `family+initials` left a hole that a live run walked
+  // straight through: "Lee SH" vs "LEE SU HWAN" takes the initials-vs-full
+  // branch (0.76), escaped the penalty, and welded a lung-tomography patent to
+  // papers on suture anchors, wearables and surfactant chemistry — four
+  // unrelated fields under one fabricated researcher.
+  //
+  // `full-name` is exempt: two independently spelled-out, identical given names
+  // are strong evidence even for a common family name.
+  if (COMMON_FAMILY_NAMES.has(personA.family) && overlap === 0 && reason !== 'full-name') {
     score -= 0.2;
     reason += '+common-name-penalty';
   }
