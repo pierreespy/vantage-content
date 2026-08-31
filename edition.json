@@ -1,96 +1,108 @@
 {
-  "dateLong": "29 août 2026",
+  "dateLong": "31 août 2026",
   "ticker": [
-    { "company": "Lupin Dental", "amount": "€15M", "kind": "lev" },
-    { "company": "DualityBio", "amount": "$45M", "kind": "mna" },
-    { "company": "AusperBio", "amount": "$120M", "kind": "lev" },
-    { "company": "MaxQ Medical", "amount": "$31,5M", "kind": "lev" },
-    { "company": "Kalivir Immunotherapeutics", "amount": "$14M", "kind": "lev" },
-    { "company": "Readily Diagnostics", "amount": "€811k", "kind": "lev" }
+    { "company": "Revier Therapeutics", "amount": "€6M", "kind": "lev" },
+    { "company": "Vaderis Therapeutics", "amount": "$152M", "kind": "lev" },
+    { "company": "Mironid", "amount": "$46M", "kind": "lev" },
+    { "company": "Capitan Orthopedics", "amount": "$4,1M", "kind": "lev" },
+    { "company": "InduPro", "amount": "$77M", "kind": "lev" },
+    { "company": "MIMEDX / Sanara MedTech", "amount": "$350M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series A · MedTech Dentaire",
-    "title": "Lupin Dental boucle une Series A de 15 M€ menée par Fynveur pour exporter son robot dentaire hors de France",
-    "deck": "Le montpelliérain Lupin Dental referme une Series A de 15 M€ menée par Fynveur (10 M€, conseillé par Invus), aux côtés d'actionnaires existants, d'investisseurs privés et d'un prêt Bpifrance, pour déployer son robot supervisé de préparation dentaire (facettes esthétiques) hors de France. Le signal pour un VC santé : après avoir décroché en juin la certification UKCA qui autorise sa commercialisation en Grande-Bretagne — sans encore l'autorisation FDA ni le marquage CE —, la medtech avance marché par marché vers les juridictions les plus strictes, un calendrier réglementaire à surveiller avant une probable Series B internationale.",
-    "company": "Lupin Dental",
-    "stage": "Series A",
+    "kicker": "Seed · Cardiométabolique",
+    "title": "Revier Therapeutics sort de stealth avec 6 M€ pour cibler les HDAC de classe IIa dans l'insuffisance cardiaque",
+    "deck": "Le spin-out de l'université de Heidelberg boucle un tour de seed de 6 M€ mené par KHAN Technology Transfer Fund II, aux côtés de High-Tech Gründerfonds, pour développer la première approche sélective des histone désacétylases de classe IIa — une famille de cibles jusqu'ici jugée trop peu spécifique pour être médicament — contre l'insuffisance cardiaque à fraction d'éjection préservée et l'athérosclérose. Le signal pour un VC santé : une plateforme de précision épigénétique qui sort l'inhibition d'HDAC de son terrain historique, l'oncologie, pour s'attaquer au marché cardiométabolique, portée dès l'amorçage par un syndicat de spécialistes deep-tech allemands.",
+    "company": "Revier Therapeutics",
+    "stage": "Seed",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.eu-startups.com/2026/08/montpellier-based-dental-robotics-startup-lupin-dental-closes-e15-million-series-a-round"
+    "strength": 3,
+    "url": "https://www.globenewswire.com/news-release/2026/08/25/3350246/0/en/revier-therapeutics-launches-with-6-million-seed-financing-to-pioneer-class-iia-hdac-inhibitors-for-cardiometabolic-disease.html"
   },
   "deal": {
-    "company": "DualityBio",
-    "amount": "45 M$ d'upfront (jusqu'à plus d'1 Md$ en milestones)",
-    "round": "Licensing Deal",
-    "thesis": "Genentech (Roche) verse 45 M$ d'upfront à la chinoise DualityBio — sa deuxième alliance asiatique en une semaine — pour co-développer de nouveaux payloads d'ADC via la plateforme DUPAC, conçus pour contourner la résistance au TOPO1 qui limite l'efficacité des ADC de première génération. Le signal pour tout VC santé : les majors continuent de payer cher l'innovation sur le payload plutôt que sur l'anticorps porteur — un angle que les plateformes ADC européennes encore indépendantes devraient regarder de près avant leur prochain tour.",
-    "url": "https://www.prnewswire.com/news-releases/dualitybio-enters-a-global-collaboration-and-license-agreement-with-genentech-to-develop-next-generation-adcs-built-on-dualitybios-dupac-novel-payload-platform-302862514.html"
+    "company": "Vaderis Therapeutics",
+    "amount": "152 M$",
+    "round": "Series B",
+    "thesis": "Goldman Sachs Alternatives et TCGX co-mènent un tour de Series B de 152 M$, sursouscrit, pour la biotech bâloise Vaderis Therapeutics, qui lance dans la foulée sa Phase 3 mondiale HEROIC évaluant engasertib, un inhibiteur d'AKT1, dans la télangiectasie hémorragique héréditaire — une maladie rare vasculaire sans traitement approuvé. Le signal pour un VC santé : un fonds crossover généraliste de la stature de Goldman Sachs Alternatives qui co-mène aux côtés d'un spécialiste biotech pur-play valide, depuis l'Europe, une thèse de repositionnement de cible vers une maladie orpheline vasculaire — un schéma capital-efficient que d'autres plateformes venues de l'oncologie pourraient répliquer.",
+    "url": "https://www.biospace.com/press-releases/vaderis-therapeutics-announces-oversubscribed-152-million-series-b-financing-and-initiation-of-the-global-phase-3-heroic-study-of-engasertib-for-hereditary-hemorrhagic-telangiectasia"
   },
   "brefsEurope": [
     {
-      "company": "Readily Diagnostics",
-      "place": "Suède",
-      "sector": "Diagnostics",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Readily Diagnostics décroche 811 000 € de la Gates Foundation pour un test IST point-of-care abordable",
-      "summary": "La suédoise Readily Diagnostics reçoit une subvention de la Fondation Gates pour financer les travaux de concept et de faisabilité d'un test de diagnostic rapide couvrant chlamydia, gonorrhée et trichomonase, avec détection de résistance aux antimicrobiens. Un financement non-dilutif qui valide un segment diagnostics accessible à fort impact de santé publique — le genre de dossier qui prépare un futur tour d'equity sans diluer l'équipe fondatrice.",
-      "url": "https://www.eu-startups.com/2026/08/tackling-sti-testing-readily-diagnostics-raises-e811k-for-affordable-alternative"
+      "company": "Mironid",
+      "place": "Glasgow, Écosse",
+      "sector": "Biotech",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series B",
+      "title": "Mironid boucle une Series B de 46 M$ pour sa thérapie orale contre la polykystose rénale, avec Roche Venture Fund et Sofinnova au capital",
+      "summary": "La biotech glaswégienne referme un tour de Series B de 46 M$ (39,9 M€) mené par la Scottish National Investment Bank, aux côtés de Roche Venture Fund, Sofinnova Partners, Epidarex Capital et BioGeneration Ventures, pour avancer son traitement en petite molécule orale de la polykystose rénale autosomique dominante, première cause héréditaire d'insuffisance rénale. Un syndicat où un fonds corporate pharma côtoie des spécialistes biotech européens — signal que la thèse rare-disease attire toujours l'argent intelligent malgré un marché de financement sélectif.",
+      "url": "https://www.biospace.com/press-releases/mironid-raises-46-million-in-series-b-financing-to-advance-clinical-development-of-its-treatment-for-rare-kidney-disease"
+    },
+    {
+      "company": "Abbott",
+      "place": "Europe",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Abbott obtient le marquage CE de l'Amulet 360, sa nouvelle occlusion de l'auricule gauche contre l'AVC",
+      "summary": "Le dispositif de nouvelle génération d'Abbott, qui scelle l'auricule gauche pour réduire le risque d'AVC chez les patients en fibrillation atriale, décroche le marquage CE après avoir atteint ses critères de sécurité et d'efficacité dans l'étude VERITAS. Un comparable de marché plus qu'une opportunité d'entrée — mais un signal pour tout VC positionné sur la relève de l'occlusion de l'auricule gauche, segment jusqu'ici dominé par Abbott et Boston Scientific (Watchman).",
+      "url": "https://abbott.mediaroom.com/2026-08-27-Abbotts-next-generation-Amulet-360-TM-device-receives-CE-Mark-to-treat-people-with-atrial-fibrillation-at-risk-of-stroke"
     }
   ],
   "brefsIntl": [
     {
-      "company": "MaxQ Medical",
-      "place": "États-Unis",
+      "company": "Quoin Pharmaceuticals",
+      "place": "Ashburn, Virginie, États-Unis",
+      "sector": "Biotech",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "Quoin Pharmaceuticals atteint son critère principal en analyse intermédiaire de Phase 2/3 dans le syndrome de Netherton",
+      "summary": "Sur les six premiers patients ayant complété 12 semaines de traitement par QRX003, un inhibiteur topique de sérine protéase déjà titulaire des désignations Orphan Drug, Fast Track et Rare Pediatric Disease de la FDA, quatre atteignent l'amélioration cible avec significativité statistique. Un jalon clinique qui, pour une biotech orpheline de cette taille, vaut souvent plus que l'annonce d'un tour de table pour préparer le suivant.",
+      "url": "https://www.globenewswire.com/news-release/2026/08/28/3352586/0/en/quoin-pharmaceuticals-reports-positive-interim-data-from-ongoing-phase-2-3-study-of-qrx003-in-netherton-syndrome.html"
+    },
+    {
+      "company": "Capitan Orthopedics",
+      "place": "Grand Rapids, Michigan, États-Unis",
       "sector": "MedTech",
       "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "MaxQ Medical lève 31,5 M$ en Series A, avec Olympus au capital, pour son plateau imagerie-thérapie de la prostate",
-      "summary": "Premier spin-out d'Orchard Ultrasound Innovation (technologie développée à Stanford), MaxQ Medical referme un Series A de 31,5 M$ mené par Olympus Innovation Ventures, Atlantic Blue Ventures et S3 Ventures. Sa plateforme combine imagerie et thérapie ciblée en une seule procédure transurétrale, avec l'hypertrophie bénigne de la prostate comme première indication avant une extension vers la thérapie focale du cancer et la biopsie.",
-      "url": "https://www.prnewswire.com/news-releases/maxq-medical-raises-31-5-million-series-a-backed-by-olympus-to-advance-its-prostate-care-platform-302855815.html"
-    },
-    {
-      "company": "CytomX Therapeutics",
-      "place": "South San Francisco, États-Unis",
-      "sector": "Biotech",
-      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "CytomX Therapeutics décroche la Fast Track de la FDA pour son ADC « Probody » dans le cancer colorectal métastatique",
-      "summary": "La FDA accorde la Fast Track Designation à varsetatug (Varseta-M), un ADC activé par protéase de la plateforme Probody de CytomX, dans le cancer colorectal métastatique en rechute ou réfractaire. Un jalon réglementaire qui accélère le dialogue avec l'agence sur une modalité — l'activation conditionnelle du payload dans la tumeur — que plusieurs plateformes ADC early-stage cherchent aujourd'hui à répliquer.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/27/3351944/37704/en/cytomx-therapeutics-announces-fda-fast-track-designation-for-varsetatug-masetecan-varseta-m-for-relapsed-refractory-metastatic-colorectal-cancer-r-r-mcrc.html"
+      "stage": "Seed",
+      "title": "Capitan Orthopedics boucle un seed de 4,1 M$ pour son implant de réparation de la coiffe des rotateurs irréparable",
+      "summary": "Adossée à Genesis Innovation Group, la medtech du Michigan referme un tour de seed sursouscrit pour SupraSpacer, un implant métallique associé à une procédure en sept étapes qui préserve 90 % du cartilage huméral chez les patients jeunes et actifs. Développement terminé, premier essai chez l'humain en préparation — un dossier proche de la clinique, donc de la valeur, pour un VC medtech orthopédique.",
+      "url": "https://www.prnewswire.com/news-releases/capitan-orthopedics-inc-announces-the-closing-of-their-oversubscribed-seed-round-302853504.html"
     },
     {
-      "company": "Eascra Biotech",
-      "place": "Worcester, Massachusetts, États-Unis",
-      "sector": "Biotech",
+      "company": "Cleveland Diagnostics",
+      "place": "Cleveland, Ohio, États-Unis",
+      "sector": "Diagnostics",
       "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Eascra Biotech nomme Andrew Goodearl Chief Scientific Officer pour préparer sa poussée vers la commercialisation",
-      "summary": "La startup de nanomédecine Eascra Biotech nomme le Dr Andrew Goodearl, fort de plus de trois décennies dans l'industrie biopharmaceutique, au poste de CSO pour piloter sa stratégie de développement produit. Un renfort dirigeant typique du signal faible qu'un VC santé guette avant une levée : la structure se muscle avant, pas après, le prochain tour.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/27/3351968/0/en/eascra-biotech-appoints-chief-scientific-officer-to-lead-commercialization-push.html"
+      "title": "Cleveland Diagnostics recrute Valerie Dixon (ex-Flagship Pioneering) comme directrice financière pour muscler la commercialisation d'IsoPSA",
+      "summary": "Vingt ans de banque d'investissement santé et de structuration financière chez Flagship Pioneering, Morgan Stanley, J.P. Morgan et Citigroup : le profil de la nouvelle CFO signale que Cleveland Diagnostics prépare son passage à l'échelle commerciale pour IsoPSA, son test de cancer de la prostate approuvé par la FDA. Un renfort dirigeant typique du signal faible qu'un VC diagnostics guette avant un tour de croissance ou une sortie.",
+      "url": "https://www.medtechdive.com/news/cleveland-diagnostics-hires-new-cfo/828797/"
     }
   ],
   "word": {
-    "term": "ASO",
-    "full": "Antisense Oligonucleotide",
-    "fr": "Oligonucléotide antisens",
-    "field": "Biotech · Modalité thérapeutique RNA-targeting",
-    "definition": "Un court brin d'ADN ou d'ARN synthétique conçu pour se lier à un ARN messager précis et moduler la production d'une protéine — en la bloquant, en la dégradant ou, à l'inverse, en l'augmentant.",
+    "term": "HDACi",
+    "full": "Histone Deacetylase Inhibitor",
+    "fr": "Inhibiteur d'histone désacétylase",
+    "field": "Épigénétique · Modalité thérapeutique",
+    "definition": "Une petite molécule qui bloque une enzyme retirant les groupes acétyle des histones — ou d'autres protéines —, rouvrant la chromatine ou stabilisant une protéine non-histone selon l'isoforme ciblée.",
     "parts": [
-      { "label": "Séquence", "role": "le guidage" },
-      { "label": "Chimie du squelette", "role": "la stabilité" },
-      { "label": "Mécanisme d'action", "role": "l'effet biologique" }
+      { "label": "Groupe chélateur de zinc", "role": "l'ancrage catalytique" },
+      { "label": "Linker", "role": "la sélectivité d'isoforme" },
+      { "label": "Groupe de tête (cap)", "role": "la reconnaissance de la poche" }
     ],
     "how": [
-      { "n": "1", "h": "Conception", "t": "Le brin d'ASO est synthétisé pour être exactement complémentaire d'une séquence de l'ARN cible, avec des modifications chimiques (LNA, 2'-MOE) qui le protègent des nucléases." },
-      { "n": "2", "h": "Hybridation", "t": "Une fois délivré dans la cellule, l'ASO se lie à l'ARN cible par appariement de bases classique (Watson-Crick)." },
-      { "n": "3", "h": "Effet", "t": "Selon la chimie choisie, la liaison recrute la RNase H1 qui dégrade l'ARN cible, ou bloque simplement sa traduction ou son épissage — sans jamais toucher à l'ADN." }
+      { "n": "1", "h": "Ciblage", "t": "La molécule se loge dans le site catalytique riche en zinc d'une histone désacétylase (HDAC), une enzyme qui retire normalement les groupes acétyle des histones ou d'autres protéines." },
+      { "n": "2", "h": "Inhibition", "t": "En bloquant ce site, l'HDACi empêche la désacétylation : la chromatine reste acétylée et accessible, ou une protéine non-histone cible (tubuline, HSP90) reste stabilisée." },
+      { "n": "3", "h": "Effet ciblé", "t": "Selon l'isoforme bloquée — pan-HDAC en oncologie historique, ou une seule classe comme HDAC6 (cytoplasmique) ou la classe IIa (4/5/7/9) — l'effet va de la réexpression de gènes silencés à la modulation de l'inflammation, de la fibrose ou de la fonction vasculaire." }
     ],
-    "why": "Pour un VC santé, l'ASO est une modalité qui a fait ses preuves cliniques (plusieurs approbations FDA depuis 2016) tout en restant plus simple et moins coûteuse à fabriquer qu'un biologique classique : une même plateforme chimique se redéploie d'une cible à l'autre, ce qui rend chaque nouveau tour plus lisible — et attire un syndicat d'investisseurs spécialistes de la modalité plutôt que de l'indication.",
+    "why": "Les deux premiers HDACi approuvés (vorinostat, romidepsin, dès 2006-2009) étaient des inhibiteurs pan-HDAC réservés à l'oncologie, avec une toxicité qui a longtemps freiné l'expansion de la classe. La génération actuelle mise sur la sélectivité d'isoforme pour sortir du cancer : HDAC6 en neuropathie et fibrose, classe IIa en cardiométabolique. Pour un VC santé, c'est une chimie reproductible — la même plateforme se redéploie d'une cible à l'autre — qui attire des syndicats spécialisés dès le seed, comme le montre Revier Therapeutics aujourd'hui.",
     "startups": [
-      { "name": "AusperBio", "use": "Vient de boucler un Series C de 120 M$ pour faire avancer AHB-137, son ASO ciblant l'ARN du virus de l'hépatite B, vers la Phase 3 et la commercialisation.", "place": "San Francisco, États-Unis" },
-      { "name": "Secarna Pharmaceuticals", "use": "Plateforme ASO propriétaire LNAplus ; vient d'annoncer des résultats positifs d'une collaboration avec VERAXA Biotech sur des conjugués anticorps-oligonucléotide en auto-immunité.", "place": "Munich, Allemagne" },
-      { "name": "Stoke Therapeutics", "use": "Développe des ASO « TANGO » qui augmentent, plutôt que suppriment, l'expression d'un gène sain ; a dosé son premier patient dans l'essai de Phase 1 OSPREY pour l'atrophie optique dominante autosomique.", "place": "Massachusetts, États-Unis" }
+      { "name": "Revier Therapeutics", "use": "Vient de sortir de stealth avec 6 M€ de seed pour ses inhibiteurs sélectifs des HDAC de classe IIa (4/5/7/9) dans l'insuffisance cardiaque à fraction d'éjection préservée et l'athérosclérose.", "place": "Heidelberg, Allemagne" },
+      { "name": "Augustine Therapeutics", "use": "Spin-off VIB-KU Leuven ; développe un inhibiteur sélectif d'HDAC6 (AGT-100216) contre la maladie de Charcot-Marie-Tooth, après avoir levé 78 M€.", "place": "Louvain, Belgique" },
+      { "name": "Cereno Scientific", "use": "Deux inhibiteurs d'HDAC en développement clinique, CS1 (Phase IIb en préparation) et CS014, ciblant l'hypertension artérielle pulmonaire et les maladies cardiopulmonaires fibrosantes.", "place": "Göteborg, Suède" },
+      { "name": "Regenacy Pharmaceuticals", "use": "Développe ricolinostat, un inhibiteur oral sélectif d'HDAC6 issu du rachat d'Acetylon par Celgene, pour la neuropathie périphérique diabétique.", "place": "Boston, États-Unis" }
     ]
   }
 }

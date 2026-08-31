@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-31",
   "words": [
+    {
+      "term": "HDACi",
+      "full": "Histone Deacetylase Inhibitor",
+      "fr": "Inhibiteur d'histone désacétylase",
+      "field": "Épigénétique · Modalité thérapeutique",
+      "definition": "Une petite molécule qui bloque une enzyme retirant les groupes acétyle des histones — ou d'autres protéines —, rouvrant la chromatine ou stabilisant une protéine non-histone selon l'isoforme ciblée.",
+      "parts": [
+        {
+          "label": "Groupe chélateur de zinc",
+          "role": "l'ancrage catalytique"
+        },
+        {
+          "label": "Linker",
+          "role": "la sélectivité d'isoforme"
+        },
+        {
+          "label": "Groupe de tête (cap)",
+          "role": "la reconnaissance de la poche"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "La molécule se loge dans le site catalytique riche en zinc d'une histone désacétylase (HDAC), une enzyme qui retire normalement les groupes acétyle des histones ou d'autres protéines."
+        },
+        {
+          "n": "2",
+          "h": "Inhibition",
+          "t": "En bloquant ce site, l'HDACi empêche la désacétylation : la chromatine reste acétylée et accessible, ou une protéine non-histone cible (tubuline, HSP90) reste stabilisée."
+        },
+        {
+          "n": "3",
+          "h": "Effet ciblé",
+          "t": "Selon l'isoforme bloquée — pan-HDAC en oncologie historique, ou une seule classe comme HDAC6 (cytoplasmique) ou la classe IIa (4/5/7/9) — l'effet va de la réexpression de gènes silencés à la modulation de l'inflammation, de la fibrose ou de la fonction vasculaire."
+        }
+      ],
+      "why": "Les deux premiers HDACi approuvés (vorinostat, romidepsin, dès 2006-2009) étaient des inhibiteurs pan-HDAC réservés à l'oncologie, avec une toxicité qui a longtemps freiné l'expansion de la classe. La génération actuelle mise sur la sélectivité d'isoforme pour sortir du cancer : HDAC6 en neuropathie et fibrose, classe IIa en cardiométabolique. Pour un VC santé, c'est une chimie reproductible — la même plateforme se redéploie d'une cible à l'autre — qui attire des syndicats spécialisés dès le seed, comme le montre Revier Therapeutics aujourd'hui.",
+      "startups": [
+        {
+          "name": "Revier Therapeutics",
+          "use": "Vient de sortir de stealth avec 6 M€ de seed pour ses inhibiteurs sélectifs des HDAC de classe IIa (4/5/7/9) dans l'insuffisance cardiaque à fraction d'éjection préservée et l'athérosclérose.",
+          "place": "Heidelberg, Allemagne"
+        },
+        {
+          "name": "Augustine Therapeutics",
+          "use": "Spin-off VIB-KU Leuven ; développe un inhibiteur sélectif d'HDAC6 (AGT-100216) contre la maladie de Charcot-Marie-Tooth, après avoir levé 78 M€.",
+          "place": "Louvain, Belgique"
+        },
+        {
+          "name": "Cereno Scientific",
+          "use": "Deux inhibiteurs d'HDAC en développement clinique, CS1 (Phase IIb en préparation) et CS014, ciblant l'hypertension artérielle pulmonaire et les maladies cardiopulmonaires fibrosantes.",
+          "place": "Göteborg, Suède"
+        },
+        {
+          "name": "Regenacy Pharmaceuticals",
+          "use": "Développe ricolinostat, un inhibiteur oral sélectif d'HDAC6 issu du rachat d'Acetylon par Celgene, pour la neuropathie périphérique diabétique.",
+          "place": "Boston, États-Unis"
+        }
+      ],
+      "date": "2026-08-31",
+      "dateLong": "31 août 2026"
+    },
     {
       "term": "ASO",
       "full": "Antisense Oligonucleotide",
