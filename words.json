@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-01",
   "words": [
+    {
+      "term": "p53 Reactivator",
+      "full": "Mutant p53 Reactivator (p53 Y220C Reactivator)",
+      "fr": "Réactivateur de p53 mutant",
+      "field": "Oncologie de précision · Génétique du cancer",
+      "definition": "Une petite molécule qui se loge dans la poche structurale créée par une mutation ponctuelle de la protéine p53 pour la restabiliser dans sa conformation native et lui rendre sa fonction de suppresseur de tumeur.",
+      "parts": [
+        {
+          "label": "Poche cryptique mutation-spécifique",
+          "role": "le site druggable"
+        },
+        {
+          "label": "Petite molécule stabilisatrice",
+          "role": "l'attache conformationnelle"
+        },
+        {
+          "label": "p53 restauré (conformation sauvage)",
+          "role": "le suppresseur de tumeur réactivé"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "La molécule cible la poche structurale exposée par une mutation ponctuelle précise de p53 (ex. Y220C) — une cavité absente de la protéine normale."
+        },
+        {
+          "n": "2",
+          "h": "Stabilisation",
+          "t": "En se logeant dans cette poche, elle verrouille la protéine mutante dans sa conformation native, l'empêchant de se déplier et d'être dégradée par le protéasome."
+        },
+        {
+          "n": "3",
+          "h": "Réactivation",
+          "t": "p53 stabilisé retrouve sa capacité à se lier à l'ADN et à activer ses gènes cibles (p21, PUMA), déclenchant arrêt du cycle cellulaire ou apoptose dans la cellule tumorale."
+        }
+      ],
+      "why": "TP53 est muté dans environ la moitié des cancers, mais sa perte de fonction en a longtemps fait la cible « indruggable » par excellence — impossible à inhiber comme un oncogène classique. Les réactivateurs mutant-sélectifs changent la donne en exploitant une poche structurale différente pour chaque point chaud de mutation, avec Y220C comme première brèche. Pour un VC santé, c'est une plateforme à runway : une preuve de concept clinique par mutation ouvre la voie à R175H, R273H et au-delà, sur un marché où aucun médicament ciblant p53 mutant n'est encore approuvé.",
+      "startups": [
+        {
+          "name": "PMV Pharmaceuticals",
+          "use": "Rezatapopt, réactivateur sélectif de p53 Y220C, en Phase 2 pivot PYNNACLE ; 46 % de réponse objective dans le cancer de l'ovaire rapportés aujourd'hui, NDA visée au T1 2027.",
+          "place": "Cranbury, New Jersey, États-Unis"
+        },
+        {
+          "name": "Nutshell Therapeutics",
+          "use": "NTS071, réactivateur allostérique de p53 Y220C ; IND accordée par la FDA pour démarrer un essai de Phase 1 aux États-Unis.",
+          "place": "Shanghai, Chine"
+        },
+        {
+          "name": "Aprea Therapeutics",
+          "use": "Eprenetapopt, stabilisateur pan-mutant de p53 ; poursuit son développement en malignités lymphoïdes après la levée d'un clinical hold de la FDA, malgré un échec de critère principal en Phase 3 dans les syndromes myélodysplasiques.",
+          "place": "Boston, États-Unis"
+        }
+      ],
+      "date": "2026-09-01",
+      "dateLong": "1er sept. 2026"
+    },
     {
       "term": "HDACi",
       "full": "Histone Deacetylase Inhibitor",
