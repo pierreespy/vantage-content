@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-01",
+  "generatedAt": "2026-09-02",
   "words": [
+    {
+      "term": "ECA",
+      "full": "External Control Arm",
+      "fr": "Bras de contrôle externe",
+      "field": "Méthodologie des essais cliniques",
+      "definition": "Un bras de comparaison construit à partir de données de patients traités en soins courants plutôt qu'en randomisant un groupe placebo dans l'essai.",
+      "parts": [
+        {
+          "label": "Données réelles",
+          "role": "le carburant"
+        },
+        {
+          "label": "Appariement statistique",
+          "role": "le matching"
+        },
+        {
+          "label": "Bras virtuel",
+          "role": "le comparateur"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Rassembler les dossiers de patients traités en pratique courante, hors essai randomisé."
+        },
+        {
+          "n": "2",
+          "h": "Appariement",
+          "t": "Matcher statistiquement ces patients aux critères d'inclusion et aux covariables de l'essai en cours."
+        },
+        {
+          "n": "3",
+          "h": "Comparaison",
+          "t": "Confronter le bras expérimental à ce comparateur externe pour estimer l'effet traitement."
+        }
+      ],
+      "why": "Pour un VC santé, l'ECA change l'équation coût/vitesse des essais : moins de patients randomisés dans un bras placebo, des lectures plus rapides, une éthique plus soutenable en oncologie et maladies rares. Les plateformes qui industrialisent cette méthode (aujourd'hui adoubées par Merck, Labcorp ou l'EMA/FDA) deviennent une brique d'infrastructure que les pharmas veulent posséder ou verrouiller par partenariat — un thème d'investissement en soi, distinct du pari sur une molécule.",
+      "startups": [
+        {
+          "name": "N-Power Medicine",
+          "use": "Plateforme ProECA construisant des bras de contrôle externes à partir de données d'oncologie de ville ; vient de boucler un Series B de 32M$ mené par Labcorp Venture Fund",
+          "place": "Redwood City, États-Unis"
+        },
+        {
+          "name": "Unlearn.AI",
+          "use": "Génère des jumeaux numériques de patients par IA pour créer des bras de comparaison ; méthodologie PROCOVA qualifiée par l'EMA et la FDA",
+          "place": "San Francisco, États-Unis"
+        },
+        {
+          "name": "TriNetX",
+          "use": "Réseau fédéré de données de santé réelles (300M+ dossiers) utilisé pour construire des bras de contrôle externes en oncologie ; a reçu un investissement de 200M$ de Regeneron en 2026",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "date": "2026-09-02",
+      "dateLong": "2 sept. 2026"
+    },
     {
       "term": "p53 Reactivator",
       "full": "Mutant p53 Reactivator (p53 Y220C Reactivator)",

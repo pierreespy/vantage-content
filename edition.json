@@ -1,108 +1,65 @@
 {
-  "dateLong": "1er sept. 2026",
+  "dateLong": "2 sept. 2026",
   "ticker": [
-    { "company": "Clementine", "amount": "€1,7M", "kind": "lev" },
-    { "company": "Qureight", "amount": "$20M", "kind": "lev" },
-    { "company": "Onalabs", "amount": "€9,3M", "kind": "lev" },
-    { "company": "Abcuro", "amount": "$66M", "kind": "lev" },
-    { "company": "Happy Health", "amount": "$75M", "kind": "lev" },
-    { "company": "Jazz Pharma / Actio Biosciences", "amount": "$820M", "kind": "mna" }
+    { "company": "N-Power Medicine", "amount": "$32M", "kind": "lev" },
+    { "company": "CytoDyn", "amount": "$16,5M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Seed · Digital Health / Audiologie",
-    "title": "Clementine lève 1,7 M€ pour scaler sa plateforme IA qui convertit les leads des cliniques auditives",
-    "deck": "La startup néerlandaise de Maastricht boucle un seed de 1,7 M€ (2 M$) mené par Healthy.Capital, VC santé spécialisé basé à Amsterdam qui a déjà soutenu Pharmi, MS Sherpa et OpenUp, pour déployer son IA d'activation commerciale auprès des cliniques auditives, opticiens et réseaux de soins. Le signal pour un VC santé : un pari précoce et capital-efficient sur la couche logicielle qui capte la valeur de la distribution en audiologie — un segment medtech rarement couvert où l'IA cible la conversion patient plutôt que le diagnostic.",
-    "company": "Clementine",
-    "stage": "Seed",
-    "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://www.eu-startups.com/2026/08/maastricht-based-clementine-raises-e1-7-million-to-scale-its-ai-powered-hearing-care-platform"
+    "kicker": "Breakthrough Therapy · Diagnostic radiopharmaceutique",
+    "title": "Juniper Biosciences décroche la Breakthrough Therapy Designation de la FDA pour son traceur d'hypoxie tumorale",
+    "deck": "La FDA accorde la désignation à JBS-003 (F-MISO), licencié de Memorial Sloan Kettering, qui identifie les tumeurs hypoxiques pour guider une désescalade de radiothérapie chez les patients ORL HPV+. Environ 80% des patients pourraient réduire leur dose de radiation de plus de 50% sans perte d'efficacité — un signal réglementaire fort sur une société encore indépendante, avant son prochain tour.",
+    "company": "Juniper Biosciences",
+    "stage": "Series A",
+    "signalType": "regulatory_milestone",
+    "strength": 4,
+    "url": "https://www.globenewswire.com/news-release/2026/09/01/3354282/0/en/juniper-s-jbs-003-f-miso-program-receives-fda-breakthrough-therapy-designation-advancing-a-first-in-class-hypoxia-tracer-enabling-radiation-de-escalation-in-hpv-positive-head-and-n.html"
   },
   "deal": {
-    "company": "Jazz Pharmaceuticals / Actio Biosciences",
-    "amount": "820 M$",
-    "round": "M&A",
-    "thesis": "Jazz Pharmaceuticals rachète Actio Biosciences pour 820 M$ upfront (jusqu'à 1,32 Md$ avec les jalons), mettant la main sur ABS-1230, une thérapie orale de précision en développement clinique contre l'épilepsie liée au gène KCNT1 — une indication rare sans traitement approuvé. Le signal pour un VC santé : un comparable qui valide la thèse des biotechs de précision sur les canaux ioniques neuronaux rares, et confirme l'appétit des consolidateurs pharma pour un actif encore loin de la commercialisation dès lors que la génétique de la maladie est bien caractérisée.",
-    "url": "https://www.cnbc.com/2026/08/11/jazz-pharmaceuticals-to-buy-actio-biosciences-for-820-million.html"
+    "company": "N-Power Medicine",
+    "amount": "$32M",
+    "round": "Series B",
+    "thesis": "Labcorp Venture Fund entre au capital aux côtés de Merck Global Health Innovation Fund et Innovatus Capital Partners pour scaler ProECA, une plateforme de bras de contrôle externes construits à partir de données de soins courants en oncologie de ville. La thèse : réduire le besoin de randomiser des patients dans un bras placebo, donc accélérer et réduire le coût des essais — un pari sur l'infrastructure plutôt que sur une molécule.",
+    "url": "https://www.fiercebiotech.com/cro/merck-partners-n-power-oncology-trial-platform-leads-series-b"
   },
-  "brefsEurope": [
-    {
-      "company": "Qureight",
-      "place": "Cambridge, Royaume-Uni",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "Qureight boucle une Series B de 20 M$ menée par Molten Ventures pour son IA d'imagerie d'essais cliniques pulmonaires et cardiaques",
-      "summary": "La medtech de Cambridge referme un tour de 20 M$ mené par Molten Ventures, aux côtés de Hargreave Hale AIM VCT, XTX Markets, Guinness Ventures et Ascension, pour étendre sa plateforme d'IA qui transforme l'imagerie médicale en critères d'évaluation quantifiés pour les essais cliniques en fibrose pulmonaire, avant extension à l'asthme, l'hypertension pulmonaire et la bronchiectasie. Un pari sur l'infrastructure qui accélère et fiabilise les essais d'autres biotechs, plutôt que sur un actif thérapeutique unique.",
-      "url": "https://www.biospace.com/press-releases/qureight-closes-20-million-series-b-financing"
-    },
-    {
-      "company": "Onalabs",
-      "place": "Barcelone, Espagne",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "Onalabs lève 9,3 M€ avec l'État espagnol au capital pour son capteur porté qui surveille la santé via la sueur",
-      "summary": "La deep-tech barcelonaise referme une Series A de 9,3 M€ dont la moitié vient de la Sociedad Española para la Transformación Tecnológica (SETT), aux côtés du fonds autrichien 1921 Ventures (fondé par le fondateur de mySugr) et de nPrime, pour industrialiser ONAVITAL, son capteur non invasif de biomarqueurs sudoraux. Un syndicat inhabituel — État plus fonds spécialiste diabète — sur une modalité de monitoring encore peu couverte par le VC santé.",
-      "url": "https://capital-riesgo.es/en/articles/onalabs-raises-more-than-9-3-million-to-scale-its-continuous-health-monitoring-solutions/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
-    {
-      "company": "Beyond Air",
-      "place": "Garden City, New York, États-Unis",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Beyond Air décroche la Breakthrough Device Designation de la FDA pour LungFit GO dans une maladie pulmonaire rare",
-      "summary": "La FDA accorde la désignation Breakthrough Device à LungFit GO, le générateur portable d'oxyde nitrique inhalé de Beyond Air, pour traiter la maladie pulmonaire à mycobactéries non tuberculeuses (NTM-PD) — une indication sans traitement inhalé approuvé. Un jalon réglementaire qui élargit la plateforme NO au-delà de son usage d'origine, un schéma de diversification que d'autres plateformes de délivrance de gaz thérapeutique pourraient répliquer.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/31/3353255/0/en/beyond-air-receives-fda-breakthrough-device-designation-for-lungfit-go-to-treat-nontuberculous-mycobacterial-pulmonary-disease-ntm-pd.html"
-    },
-    {
-      "company": "PMV Pharmaceuticals",
-      "place": "Cranbury, New Jersey, États-Unis",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "PMV Pharmaceuticals rapporte 46 % de réponse objective pour rezatapopt en Phase 2 pivot dans le cancer de l'ovaire",
-      "summary": "Sur 76 patientes évaluables porteuses d'une mutation p53 Y220C, le réactivateur de p53 rezatapopt obtient un taux de réponse objective de 46 % avec une durée médiane de réponse de 10 mois dans l'essai pivot PYNNACLE ; PMV vise un dépôt de NDA en accéléré au T1 2027. Un jalon clinique qui valide la classe des réactivateurs de p53 mutant, longtemps jugée indruggable, pour toute biotech qui explore d'autres points chauds de la protéine.",
-      "url": "https://www.globenewswire.com/news-release/2026/08/31/3353671/0/en/pmv-pharmaceuticals-announces-updated-promising-rezatapopt-monotherapy-interim-ovarian-cancer-data-from-pynnacle-phase-2-pivotal-trial.html"
-    },
-    {
-      "company": "Abcuro",
-      "place": "Newton, Massachusetts, États-Unis",
-      "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Growth",
-      "title": "Abcuro lève 66 M$ en Series D pour relancer un essai pivot dans la myosite à inclusions",
-      "summary": "New Leaf Venture Partners mène ce tour de Series D, rejoint par Rock Springs Capital et les investisseurs historiques, pour engager une nouvelle étude potentiellement enregistrable d'ulviprubart ciblant une population de patients moins sévèrement atteints par la myosite à inclusions — maladie musculaire rare sans traitement approuvé. Signe que les investisseurs rare-disease restent prêts à financer un second passage clinique quand la biologie reste solide.",
-      "url": "https://www.biospace.com/press-releases/abcuro-announces-66-million-series-d-financing-to-advance-its-first-in-class-medicine-in-development-for-inclusion-body-myositis"
-    }
+    { "company": "Ocugen", "place": "Malvern, PA", "sector": "Biotech",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "Ocugen dose son premier patient en Phase 3 pivot pour une thérapie génique modificatrice dans la DMLA sèche",
+      "summary": "OCU410 (AAV5-hRORA) est la première thérapie génique first-in-class à entrer en Phase 3 registrationnelle pour l'atrophie géographique liée à la DMLA sèche, une indication sans traitement modificateur approuvé à ce stade de la maladie.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/01/3353979/0/en/ocugen-announces-first-patient-dosed-in-phase-3-registrational-trial-of-ocu410-modifier-gene-therapy-for-geographic-atrophy-secondary-to-dry-age-related-macular-degeneration.html" },
+    { "company": "Polaryx Therapeutics", "place": "Paramus, NJ", "sector": "Biotech",
+      "signalType": "leadership_hire", "strength": 2,
+      "title": "Polaryx Therapeutics nomme Will Charlton Chief Medical Officer avant ses lectures cliniques sur les maladies lysosomales rares",
+      "summary": "La biotech clinique, focalisée sur des thérapies modificatrices pour des maladies de surcharge lysosomale pédiatriques rares, renforce son comité exécutif à l'approche de jalons cliniques — un signal classique de préparation de tour.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/01/3354147/0/en/polaryx-therapeutics-appoints-dr-will-charlton-as-chief-medical-officer.html" },
+    { "company": "Applied Biologics", "place": "Scottsdale, AZ", "sector": "Biotech",
+      "signalType": "clinical_update", "strength": 2,
+      "title": "Applied Biologics active son premier site clinique en Phase 3 pour un biologique contre les ulcères du pied diabétique",
+      "summary": "BIOxHEAL entre en exécution clinique active en Phase 3 pour les ulcères chroniques du pied diabétique, une indication à forte prévalence et sans nouveau biologique approuvé depuis près de 30 ans.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/01/3354038/0/en/applied-biologics-activates-first-clinical-site-in-phase-3-bioxheal-trial.html" }
   ],
   "word": {
-    "term": "p53 Reactivator",
-    "full": "Mutant p53 Reactivator (p53 Y220C Reactivator)",
-    "fr": "Réactivateur de p53 mutant",
-    "field": "Oncologie de précision · Génétique du cancer",
-    "definition": "Une petite molécule qui se loge dans la poche structurale créée par une mutation ponctuelle de la protéine p53 pour la restabiliser dans sa conformation native et lui rendre sa fonction de suppresseur de tumeur.",
+    "term": "ECA",
+    "full": "External Control Arm",
+    "fr": "Bras de contrôle externe",
+    "field": "Méthodologie des essais cliniques",
+    "definition": "Un bras de comparaison construit à partir de données de patients traités en soins courants plutôt qu'en randomisant un groupe placebo dans l'essai.",
     "parts": [
-      { "label": "Poche cryptique mutation-spécifique", "role": "le site druggable" },
-      { "label": "Petite molécule stabilisatrice", "role": "l'attache conformationnelle" },
-      { "label": "p53 restauré (conformation sauvage)", "role": "le suppresseur de tumeur réactivé" }
+      { "label": "Données réelles", "role": "le carburant" },
+      { "label": "Appariement statistique", "role": "le matching" },
+      { "label": "Bras virtuel", "role": "le comparateur" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "La molécule cible la poche structurale exposée par une mutation ponctuelle précise de p53 (ex. Y220C) — une cavité absente de la protéine normale." },
-      { "n": "2", "h": "Stabilisation", "t": "En se logeant dans cette poche, elle verrouille la protéine mutante dans sa conformation native, l'empêchant de se déplier et d'être dégradée par le protéasome." },
-      { "n": "3", "h": "Réactivation", "t": "p53 stabilisé retrouve sa capacité à se lier à l'ADN et à activer ses gènes cibles (p21, PUMA), déclenchant arrêt du cycle cellulaire ou apoptose dans la cellule tumorale." }
+      { "n": "1", "h": "Collecte", "t": "Rassembler les dossiers de patients traités en pratique courante, hors essai randomisé." },
+      { "n": "2", "h": "Appariement", "t": "Matcher statistiquement ces patients aux critères d'inclusion et aux covariables de l'essai en cours." },
+      { "n": "3", "h": "Comparaison", "t": "Confronter le bras expérimental à ce comparateur externe pour estimer l'effet traitement." }
     ],
-    "why": "TP53 est muté dans environ la moitié des cancers, mais sa perte de fonction en a longtemps fait la cible « indruggable » par excellence — impossible à inhiber comme un oncogène classique. Les réactivateurs mutant-sélectifs changent la donne en exploitant une poche structurale différente pour chaque point chaud de mutation, avec Y220C comme première brèche. Pour un VC santé, c'est une plateforme à runway : une preuve de concept clinique par mutation ouvre la voie à R175H, R273H et au-delà, sur un marché où aucun médicament ciblant p53 mutant n'est encore approuvé.",
+    "why": "Pour un VC santé, l'ECA change l'équation coût/vitesse des essais : moins de patients randomisés dans un bras placebo, des lectures plus rapides, une éthique plus soutenable en oncologie et maladies rares. Les plateformes qui industrialisent cette méthode (aujourd'hui adoubées par Merck, Labcorp ou l'EMA/FDA) deviennent une brique d'infrastructure que les pharmas veulent posséder ou verrouiller par partenariat — un thème d'investissement en soi, distinct du pari sur une molécule.",
     "startups": [
-      { "name": "PMV Pharmaceuticals", "use": "Rezatapopt, réactivateur sélectif de p53 Y220C, en Phase 2 pivot PYNNACLE ; 46 % de réponse objective dans le cancer de l'ovaire rapportés aujourd'hui, NDA visée au T1 2027.", "place": "Cranbury, New Jersey, États-Unis" },
-      { "name": "Nutshell Therapeutics", "use": "NTS071, réactivateur allostérique de p53 Y220C ; IND accordée par la FDA pour démarrer un essai de Phase 1 aux États-Unis.", "place": "Shanghai, Chine" },
-      { "name": "Aprea Therapeutics", "use": "Eprenetapopt, stabilisateur pan-mutant de p53 ; poursuit son développement en malignités lymphoïdes après la levée d'un clinical hold de la FDA, malgré un échec de critère principal en Phase 3 dans les syndromes myélodysplasiques.", "place": "Boston, États-Unis" }
+      { "name": "N-Power Medicine", "use": "Plateforme ProECA construisant des bras de contrôle externes à partir de données d'oncologie de ville ; vient de boucler un Series B de 32M$ mené par Labcorp Venture Fund", "place": "Redwood City, États-Unis" },
+      { "name": "Unlearn.AI", "use": "Génère des jumeaux numériques de patients par IA pour créer des bras de comparaison ; méthodologie PROCOVA qualifiée par l'EMA et la FDA", "place": "San Francisco, États-Unis" },
+      { "name": "TriNetX", "use": "Réseau fédéré de données de santé réelles (300M+ dossiers) utilisé pour construire des bras de contrôle externes en oncologie ; a reçu un investissement de 200M$ de Regeneron en 2026", "place": "Cambridge, États-Unis" }
     ]
   }
 }
