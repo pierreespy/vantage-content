@@ -1,65 +1,80 @@
 {
-  "dateLong": "2 sept. 2026",
+  "dateLong": "3 sept. 2026",
   "ticker": [
-    { "company": "N-Power Medicine", "amount": "$32M", "kind": "lev" },
-    { "company": "CytoDyn", "amount": "$16,5M", "kind": "lev" }
+    { "company": "iPremom", "amount": "€15M", "kind": "lev" },
+    { "company": "Thyme Care", "amount": "$125M", "kind": "lev" },
+    { "company": "Elucid", "amount": "$55M", "kind": "lev" },
+    { "company": "Konko AI", "amount": "$6M", "kind": "lev" },
+    { "company": "Holifya", "amount": "€2M", "kind": "lev" },
+    { "company": "Eli Lilly / Merida Biosciences", "amount": "$2,88Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Breakthrough Therapy · Diagnostic radiopharmaceutique",
-    "title": "Juniper Biosciences décroche la Breakthrough Therapy Designation de la FDA pour son traceur d'hypoxie tumorale",
-    "deck": "La FDA accorde la désignation à JBS-003 (F-MISO), licencié de Memorial Sloan Kettering, qui identifie les tumeurs hypoxiques pour guider une désescalade de radiothérapie chez les patients ORL HPV+. Environ 80% des patients pourraient réduire leur dose de radiation de plus de 50% sans perte d'efficacité — un signal réglementaire fort sur une société encore indépendante, avant son prochain tour.",
-    "company": "Juniper Biosciences",
-    "stage": "Series A",
-    "signalType": "regulatory_milestone",
+    "kicker": "Seed · Femtech / Diagnostic prénatal",
+    "title": "iPremom lève 15 M€ pour prédire les complications de grossesse dès le premier trimestre",
+    "deck": "Amadeus Capital Partners mène ce tour aux côtés d'Asabys Partners et APEX Ventures pour la biotech valencienne, qui traque des signaux d'ARN acellulaire (cfRNA) dans le sang pour repérer le risque de prééclampsie avant les premiers symptômes. Sa plateforme MaiRa s'appuie sur plus de 10 000 grossesses suivies dans l'étude clinique PREMOM — un pari sur le diagnostic prénatal précoce porté par des investisseurs santé nommés, avant que la société ne devienne une cible évidente pour un tour bien plus gros.",
+    "company": "iPremom",
+    "stage": "Seed",
+    "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/01/3354282/0/en/juniper-s-jbs-003-f-miso-program-receives-fda-breakthrough-therapy-designation-advancing-a-first-in-class-hypoxia-tracer-enabling-radiation-de-escalation-in-hpv-positive-head-and-n.html"
+    "url": "https://sifted.eu/articles/exclusive-ipremom-femtech-15m-seed"
   },
   "deal": {
-    "company": "N-Power Medicine",
-    "amount": "$32M",
-    "round": "Series B",
-    "thesis": "Labcorp Venture Fund entre au capital aux côtés de Merck Global Health Innovation Fund et Innovatus Capital Partners pour scaler ProECA, une plateforme de bras de contrôle externes construits à partir de données de soins courants en oncologie de ville. La thèse : réduire le besoin de randomiser des patients dans un bras placebo, donc accélérer et réduire le coût des essais — un pari sur l'infrastructure plutôt que sur une molécule.",
-    "url": "https://www.fiercebiotech.com/cro/merck-partners-n-power-oncology-trial-platform-leads-series-b"
+    "company": "Thyme Care",
+    "amount": "$125M+",
+    "round": "Series E",
+    "thesis": "Morgan Health (JPMorgan), Humana et CVS Health Ventures mènent ce tour qui valorise la société à plus de 2 Md$ et surtout fait naître Thyme Companies, une structure faîtière destinée à multiplier les paris sur l'écosystème oncologique. Le signal : des payeurs stratégiques qui ne se contentent plus de financer une plateforme de navigation en cancérologie, mais capitalisent la création d'un groupe capable d'en incuber ou d'en racheter d'autres — un pari sur le modèle « holdco » plutôt que sur un actif unique.",
+    "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-125-million-series-e-establishes-thyme-companies-to-broaden-its-impact-across-the-oncology-ecosystem-302867835.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    { "company": "Cushla / Clirinx", "place": "Dublin, Irlande", "sector": "Digital Health",
+      "signalType": "acquisition", "strength": 2,
+      "title": "Cushla absorbe Clirinx pour donner aux patients atteints de maladies rares un dossier de santé unique",
+      "summary": "La start-up de dossier médical piloté par le patient Cushla fusionne avec Clirinx, plateforme spécialisée dans la recherche clinique sur l'épilepsie et les maladies rares, pour relier identifiant patient unique et données de vraie vie. Un rapprochement entre deux jeunes pousses irlandaises plutôt qu'un rachat par un acteur établi — signe d'une consolidation précoce autour de l'interopérabilité des données de santé.",
+      "url": "https://medcitynews.com/2026/09/merger-rare-disease-patient-data/" },
+    { "company": "BioVersys", "place": "Bâle, Suisse", "sector": "Biotech",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "BioVersys décroche la Fast Track de la FDA pour BV100 contre les pneumonies à Acinetobacter multirésistant",
+      "summary": "L'anti-infectieux BV100, déjà en Phase 3 pivot (essai RIV-TARGET) contre les pneumonies nosocomiales causées par des bactéries résistantes aux carbapénèmes, obtient la désignation Fast Track de la FDA — un jalon qui accélère le calendrier d'un candidat déjà porteur d'un statut QIDP et d'une exclusivité de marché étendue.",
+      "url": "https://www.webdisclosure.com/press-release/bioversys-ag-etr-bioversys-granted-fast-track-designation-from-us-fda-for-bv100-yb85N8qEbhd" },
+    { "company": "Selio Medical", "place": "Dublin, Irlande", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 3, "stage": "Series A",
+      "title": "Selio Medical lance un tour de Series A de 5 M€ pour lancer aux États-Unis son pansement anti-pneumothorax",
+      "summary": "La medtech dublinoise, essaimée de Trinity College Dublin, capitalise sur la clearance FDA 510(k) de son hydrogel Pre.B Seal — qui scelle le point de ponction d'une biopsie pulmonaire pour éviter le pneumothorax, complication qui touche jusqu'à un tiers des 800 000 biopsies pulmonaires guidées par scanner réalisées chaque année aux États-Unis — pour financer son entrée commerciale sur le marché américain.",
+      "url": "https://www.techcentral.ie/selio-medical-targets-us-launch-with-e5m-series-a-round/" }
+  ],
   "brefsIntl": [
-    { "company": "Ocugen", "place": "Malvern, PA", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 3,
-      "title": "Ocugen dose son premier patient en Phase 3 pivot pour une thérapie génique modificatrice dans la DMLA sèche",
-      "summary": "OCU410 (AAV5-hRORA) est la première thérapie génique first-in-class à entrer en Phase 3 registrationnelle pour l'atrophie géographique liée à la DMLA sèche, une indication sans traitement modificateur approuvé à ce stade de la maladie.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/01/3353979/0/en/ocugen-announces-first-patient-dosed-in-phase-3-registrational-trial-of-ocu410-modifier-gene-therapy-for-geographic-atrophy-secondary-to-dry-age-related-macular-degeneration.html" },
-    { "company": "Polaryx Therapeutics", "place": "Paramus, NJ", "sector": "Biotech",
-      "signalType": "leadership_hire", "strength": 2,
-      "title": "Polaryx Therapeutics nomme Will Charlton Chief Medical Officer avant ses lectures cliniques sur les maladies lysosomales rares",
-      "summary": "La biotech clinique, focalisée sur des thérapies modificatrices pour des maladies de surcharge lysosomale pédiatriques rares, renforce son comité exécutif à l'approche de jalons cliniques — un signal classique de préparation de tour.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/01/3354147/0/en/polaryx-therapeutics-appoints-dr-will-charlton-as-chief-medical-officer.html" },
-    { "company": "Applied Biologics", "place": "Scottsdale, AZ", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 2,
-      "title": "Applied Biologics active son premier site clinique en Phase 3 pour un biologique contre les ulcères du pied diabétique",
-      "summary": "BIOxHEAL entre en exécution clinique active en Phase 3 pour les ulcères chroniques du pied diabétique, une indication à forte prévalence et sans nouveau biologique approuvé depuis près de 30 ans.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/01/3354038/0/en/applied-biologics-activates-first-clinical-site-in-phase-3-bioxheal-trial.html" }
+    { "company": "AiM Medical Robotics", "place": "Worcester, États-Unis", "sector": "MedTech",
+      "signalType": "grant_award", "strength": 3,
+      "title": "AiM Medical Robotics décroche 2 M$ du National Cancer Institute pour son robot de neurochirurgie guidé par IRM",
+      "summary": "Cette bourse SBIR Phase II finance la suite du développement d'un robot d'ablation tumorale opérant à l'intérieur même de l'IRM, avec thermométrie en temps réel couplée au contrôle robotique, en partenariat avec le Brigham and Women's Hospital — une validation académique et fédérale avant un futur tour de capital-risque.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/02/3355162/0/en/aim-medical-robotics-awarded-2-million-national-cancer-institute-grant-to-advance-mri-guided-robotic-treatment-of-brain-cancer.html" },
+    { "company": "Elucid", "place": "Boston, États-Unis", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 4, "stage": "Series D",
+      "title": "Elucid lève 55 M$ en Series D sursouscrite, avec l'entrée d'un nouvel actionnaire stratégique medtech coté",
+      "summary": "La plateforme d'imagerie cardiovasculaire par IA (Plaque IQ, FFR-CT biointégré) porte son capital total à environ 185 M$ et accueille un quatrième investisseur stratégique parmi les grands groupes medtech cotés — signe que l'imagerie non invasive de la plaque d'athérome devient un actif que les industriels veulent sécuriser tôt plutôt que racheter plus tard.",
+      "url": "https://www.biospace.com/press-releases/elucid-raises-55-million-in-oversubscribed-series-d-financing" }
   ],
   "word": {
-    "term": "ECA",
-    "full": "External Control Arm",
-    "fr": "Bras de contrôle externe",
-    "field": "Méthodologie des essais cliniques",
-    "definition": "Un bras de comparaison construit à partir de données de patients traités en soins courants plutôt qu'en randomisant un groupe placebo dans l'essai.",
+    "term": "SBIR",
+    "full": "Small Business Innovation Research (SBIR/STTR)",
+    "fr": "Programme fédéral américain de subventions à l'innovation pour petites entreprises",
+    "field": "Financement non-dilutif / amorçage",
+    "definition": "Un programme fédéral américain qui finance, sans prise de capital, la R&D de jeunes entreprises technologiques et biomédicales via des agences comme le NIH, la NSF ou le DoD.",
     "parts": [
-      { "label": "Données réelles", "role": "le carburant" },
-      { "label": "Appariement statistique", "role": "le matching" },
-      { "label": "Bras virtuel", "role": "le comparateur" }
+      { "label": "Agence fédérale", "role": "le financeur" },
+      { "label": "Petite entreprise", "role": "le bénéficiaire" },
+      { "label": "Subvention non-dilutive", "role": "l'instrument" }
     ],
     "how": [
-      { "n": "1", "h": "Collecte", "t": "Rassembler les dossiers de patients traités en pratique courante, hors essai randomisé." },
-      { "n": "2", "h": "Appariement", "t": "Matcher statistiquement ces patients aux critères d'inclusion et aux covariables de l'essai en cours." },
-      { "n": "3", "h": "Comparaison", "t": "Confronter le bras expérimental à ce comparateur externe pour estimer l'effet traitement." }
+      { "n": "1", "h": "Candidature", "t": "L'entreprise répond à un topic publié par une agence fédérale, avec un projet de R&D ciblé relu par des pairs." },
+      { "n": "2", "h": "Phase I", "t": "Une première subvention (jusqu'à environ 325 000 $) finance la preuve de concept et la faisabilité technique." },
+      { "n": "3", "h": "Phase II", "t": "Une subvention plus large (jusqu'à environ 2,15 M$, voire 30 M$ sur la nouvelle voie Phase IIB) finance le développement complet, souvent en parallèle d'un premier tour VC." }
     ],
-    "why": "Pour un VC santé, l'ECA change l'équation coût/vitesse des essais : moins de patients randomisés dans un bras placebo, des lectures plus rapides, une éthique plus soutenable en oncologie et maladies rares. Les plateformes qui industrialisent cette méthode (aujourd'hui adoubées par Merck, Labcorp ou l'EMA/FDA) deviennent une brique d'infrastructure que les pharmas veulent posséder ou verrouiller par partenariat — un thème d'investissement en soi, distinct du pari sur une molécule.",
+    "why": "Pour un VC santé, un SBIR décroché est un filtre de qualité gratuit : l'argent fédéral a déjà validé la science et l'équipe avant que le capital-risque n'entre au tour de table, ce qui réduit le risque du chèque suivant. Beaucoup de medtechs et biotechs américaines lèvent leur premier tour privé juste après, ou pendant, une bourse SBIR Phase II — un signal en amont de la levée, exactement ce que cette app cherche à capter.",
     "startups": [
-      { "name": "N-Power Medicine", "use": "Plateforme ProECA construisant des bras de contrôle externes à partir de données d'oncologie de ville ; vient de boucler un Series B de 32M$ mené par Labcorp Venture Fund", "place": "Redwood City, États-Unis" },
-      { "name": "Unlearn.AI", "use": "Génère des jumeaux numériques de patients par IA pour créer des bras de comparaison ; méthodologie PROCOVA qualifiée par l'EMA et la FDA", "place": "San Francisco, États-Unis" },
-      { "name": "TriNetX", "use": "Réseau fédéré de données de santé réelles (300M+ dossiers) utilisé pour construire des bras de contrôle externes en oncologie ; a reçu un investissement de 200M$ de Regeneron en 2026", "place": "Cambridge, États-Unis" }
+      { "name": "AiM Medical Robotics", "use": "Robot de neurochirurgie guidé par IRM pour l'ablation de tumeurs cérébrales ; vient de décrocher 2 M$ de subvention SBIR Phase II du National Cancer Institute", "place": "Worcester, États-Unis" },
+      { "name": "Airalux Medical", "use": "Spiromètre thérapeutique connecté pour la rééducation respiratoire post-chirurgicale ; a reçu une subvention SBIR Phase I de 306 000 $ du NIH", "place": "Philadelphie, États-Unis" },
+      { "name": "Strados Labs", "use": "Biocapteur portable RESP qui capture sons pulmonaires et toux pour le suivi à distance de la BPCO, développé avec l'appui d'une subvention SBIR Phase II de la National Science Foundation", "place": "Philadelphie, États-Unis" }
     ]
   }
 }

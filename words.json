@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-03",
   "words": [
+    {
+      "term": "SBIR",
+      "full": "Small Business Innovation Research (SBIR/STTR)",
+      "fr": "Programme fédéral américain de subventions à l'innovation pour petites entreprises",
+      "field": "Financement non-dilutif / amorçage",
+      "definition": "Un programme fédéral américain qui finance, sans prise de capital, la R&D de jeunes entreprises technologiques et biomédicales via des agences comme le NIH, la NSF ou le DoD.",
+      "parts": [
+        {
+          "label": "Agence fédérale",
+          "role": "le financeur"
+        },
+        {
+          "label": "Petite entreprise",
+          "role": "le bénéficiaire"
+        },
+        {
+          "label": "Subvention non-dilutive",
+          "role": "l'instrument"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Candidature",
+          "t": "L'entreprise répond à un topic publié par une agence fédérale, avec un projet de R&D ciblé relu par des pairs."
+        },
+        {
+          "n": "2",
+          "h": "Phase I",
+          "t": "Une première subvention (jusqu'à environ 325 000 $) finance la preuve de concept et la faisabilité technique."
+        },
+        {
+          "n": "3",
+          "h": "Phase II",
+          "t": "Une subvention plus large (jusqu'à environ 2,15 M$, voire 30 M$ sur la nouvelle voie Phase IIB) finance le développement complet, souvent en parallèle d'un premier tour VC."
+        }
+      ],
+      "why": "Pour un VC santé, un SBIR décroché est un filtre de qualité gratuit : l'argent fédéral a déjà validé la science et l'équipe avant que le capital-risque n'entre au tour de table, ce qui réduit le risque du chèque suivant. Beaucoup de medtechs et biotechs américaines lèvent leur premier tour privé juste après, ou pendant, une bourse SBIR Phase II — un signal en amont de la levée, exactement ce que cette app cherche à capter.",
+      "startups": [
+        {
+          "name": "AiM Medical Robotics",
+          "use": "Robot de neurochirurgie guidé par IRM pour l'ablation de tumeurs cérébrales ; vient de décrocher 2 M$ de subvention SBIR Phase II du National Cancer Institute",
+          "place": "Worcester, États-Unis"
+        },
+        {
+          "name": "Airalux Medical",
+          "use": "Spiromètre thérapeutique connecté pour la rééducation respiratoire post-chirurgicale ; a reçu une subvention SBIR Phase I de 306 000 $ du NIH",
+          "place": "Philadelphie, États-Unis"
+        },
+        {
+          "name": "Strados Labs",
+          "use": "Biocapteur portable RESP qui capture sons pulmonaires et toux pour le suivi à distance de la BPCO, développé avec l'appui d'une subvention SBIR Phase II de la National Science Foundation",
+          "place": "Philadelphie, États-Unis"
+        }
+      ],
+      "date": "2026-09-03",
+      "dateLong": "3 sept. 2026"
+    },
     {
       "term": "ECA",
       "full": "External Control Arm",
