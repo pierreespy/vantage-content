@@ -1,80 +1,69 @@
 {
-  "dateLong": "3 sept. 2026",
+  "dateLong": "4 sept. 2026",
   "ticker": [
-    { "company": "iPremom", "amount": "€15M", "kind": "lev" },
-    { "company": "Thyme Care", "amount": "$125M", "kind": "lev" },
-    { "company": "Elucid", "amount": "$55M", "kind": "lev" },
-    { "company": "Konko AI", "amount": "$6M", "kind": "lev" },
+    { "company": "Typewriter Therapeutics", "amount": "$56M", "kind": "lev" },
+    { "company": "Pharosyn", "amount": "$3M", "kind": "lev" },
     { "company": "Holifya", "amount": "€2M", "kind": "lev" },
-    { "company": "Eli Lilly / Merida Biosciences", "amount": "$2,88Md", "kind": "mna" }
+    { "company": "Cornerstone Robotics", "amount": "$700M", "kind": "lev" },
+    { "company": "Enovis / eCential Robotics", "amount": "€155M", "kind": "mna" },
+    { "company": "Roche / Simcere Zaiming", "amount": "$1,5Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Seed · Femtech / Diagnostic prénatal",
-    "title": "iPremom lève 15 M€ pour prédire les complications de grossesse dès le premier trimestre",
-    "deck": "Amadeus Capital Partners mène ce tour aux côtés d'Asabys Partners et APEX Ventures pour la biotech valencienne, qui traque des signaux d'ARN acellulaire (cfRNA) dans le sang pour repérer le risque de prééclampsie avant les premiers symptômes. Sa plateforme MaiRa s'appuie sur plus de 10 000 grossesses suivies dans l'étude clinique PREMOM — un pari sur le diagnostic prénatal précoce porté par des investisseurs santé nommés, avant que la société ne devienne une cible évidente pour un tour bien plus gros.",
-    "company": "iPremom",
-    "stage": "Seed",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://sifted.eu/articles/exclusive-ipremom-femtech-15m-seed"
+    "kicker": "Avant sa Series A · Ophtalmologie",
+    "title": "Foventa Therapeutics muscle sa direction avant de lever une Series A pour son traitement topique de la rétinopathie diabétique",
+    "deck": "L'ex-Exonate (Cambridge) recrute Zaiba Malik au poste de Chief Medical Officer et Julia Jones au poste de Chief Financial Officer, aux côtés du nouveau CEO Olav Hellebø, pour boucler la Series A qui financera la Phase IIb de FOV407 — candidat au titre de premier traitement topique et non invasif de la rétinopathie diabétique non proliférative, sur la voie du VEGF. Un signal classique de préparation de tour : la société construit sa crédibilité avant même d'ouvrir le tour de table.",
+    "company": "Foventa Therapeutics",
+    "signalType": "leadership_hire",
+    "strength": 3,
+    "url": "https://www.prnewswire.com/news-releases/foventa-further-strengthens-management-team-with-key-cmo-and-cfo-appointments-302867281.html"
   },
   "deal": {
-    "company": "Thyme Care",
-    "amount": "$125M+",
-    "round": "Series E",
-    "thesis": "Morgan Health (JPMorgan), Humana et CVS Health Ventures mènent ce tour qui valorise la société à plus de 2 Md$ et surtout fait naître Thyme Companies, une structure faîtière destinée à multiplier les paris sur l'écosystème oncologique. Le signal : des payeurs stratégiques qui ne se contentent plus de financer une plateforme de navigation en cancérologie, mais capitalisent la création d'un groupe capable d'en incuber ou d'en racheter d'autres — un pari sur le modèle « holdco » plutôt que sur un actif unique.",
-    "url": "https://www.prnewswire.com/news-releases/thyme-care-closes-125-million-series-e-establishes-thyme-companies-to-broaden-its-impact-across-the-oncology-ecosystem-302867835.html"
+    "company": "Typewriter Therapeutics",
+    "amount": "$56M",
+    "round": "Series A",
+    "thesis": "Sortie de stealth d'une plateforme de thérapie génique non virale — « Target-Primed Reverse Transcription », bâtie sur le rétrotransposon naturel R2 — pour produire des CAR-T in vivo, durables et redosables, sans passer par les vecteurs lentiviraux ni la fabrication ex vivo qui plombent les coûts et les délais du CAR-T classique. AN Venture Partners et RA Capital Management mènent le tour ; Mikael Dolsten, ex-patron R&D de Pfizer, rejoint le board. Le pari : la prochaine génération de thérapies cellulaires se fera sans usine cellulaire.",
+    "url": "https://www.prnewswire.com/news-releases/typewriter-therapeutics-emerges-from-stealth-with-56-million-series-a-financing-to-pursue-in-vivo-car-t-medicines-302866871.html"
   },
   "brefsEurope": [
-    { "company": "Cushla / Clirinx", "place": "Dublin, Irlande", "sector": "Digital Health",
-      "signalType": "acquisition", "strength": 2,
-      "title": "Cushla absorbe Clirinx pour donner aux patients atteints de maladies rares un dossier de santé unique",
-      "summary": "La start-up de dossier médical piloté par le patient Cushla fusionne avec Clirinx, plateforme spécialisée dans la recherche clinique sur l'épilepsie et les maladies rares, pour relier identifiant patient unique et données de vraie vie. Un rapprochement entre deux jeunes pousses irlandaises plutôt qu'un rachat par un acteur établi — signe d'une consolidation précoce autour de l'interopérabilité des données de santé.",
-      "url": "https://medcitynews.com/2026/09/merger-rare-disease-patient-data/" },
-    { "company": "BioVersys", "place": "Bâle, Suisse", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "BioVersys décroche la Fast Track de la FDA pour BV100 contre les pneumonies à Acinetobacter multirésistant",
-      "summary": "L'anti-infectieux BV100, déjà en Phase 3 pivot (essai RIV-TARGET) contre les pneumonies nosocomiales causées par des bactéries résistantes aux carbapénèmes, obtient la désignation Fast Track de la FDA — un jalon qui accélère le calendrier d'un candidat déjà porteur d'un statut QIDP et d'une exclusivité de marché étendue.",
-      "url": "https://www.webdisclosure.com/press-release/bioversys-ag-etr-bioversys-granted-fast-track-designation-from-us-fda-for-bv100-yb85N8qEbhd" },
-    { "company": "Selio Medical", "place": "Dublin, Irlande", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 3, "stage": "Series A",
-      "title": "Selio Medical lance un tour de Series A de 5 M€ pour lancer aux États-Unis son pansement anti-pneumothorax",
-      "summary": "La medtech dublinoise, essaimée de Trinity College Dublin, capitalise sur la clearance FDA 510(k) de son hydrogel Pre.B Seal — qui scelle le point de ponction d'une biopsie pulmonaire pour éviter le pneumothorax, complication qui touche jusqu'à un tiers des 800 000 biopsies pulmonaires guidées par scanner réalisées chaque année aux États-Unis — pour financer son entrée commerciale sur le marché américain.",
-      "url": "https://www.techcentral.ie/selio-medical-targets-us-launch-with-e5m-series-a-round/" }
+    { "company": "vitagroup / Alliance SIH", "place": "Munich, Allemagne / Paris, France", "sector": "Digital Health",
+      "signalType": "early_partnership", "strength": 3,
+      "title": "vitagroup s'associe à Alliance SIH pour distribuer sa plateforme de données hospitalières en France",
+      "summary": "L'éditeur allemand confie à Alliance SIH — coentreprise fondée par La Poste Santé & Autonomie, CPage et les Hospices Civils de Lyon — la distribution de sa Health Intelligence Platform (ouverte, bâtie sur les standards openEHR et FHIR) auprès des hôpitaux français, avec hébergement souverain assuré par Docaposte Santé. Un accord de distribution plutôt qu'un rachat, qui ouvre à un acteur allemand du dossier patient l'un des plus gros marchés hospitaliers d'Europe.",
+      "url": "https://www.pr-web.com/2026/09/02/alliance-sih-partners-with-vitagroup-as-its-distributor-of-the-health-intelligence-platform-in-france/" }
   ],
   "brefsIntl": [
-    { "company": "AiM Medical Robotics", "place": "Worcester, États-Unis", "sector": "MedTech",
+    { "company": "Medibyt", "place": "Tel-Aviv, Israël", "sector": "Digital Health",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Medibyt décroche une clearance FDA 510(k) pour CPETWise, son IA d'interprétation des tests d'effort cardiopulmonaire",
+      "summary": "La clearance (K260242) ouvre la commercialisation aux États-Unis à cette solution qui réduit de plus de moitié le temps d'interprétation des tests CPET, validée sur une étude de 100 cas menée avec l'University of Washington. Un pilote commercial est déjà engagé avec un prestataire CPET américain de premier plan.",
+      "url": "https://www.prnewswire.com/news-releases/medibyt-receives-fda-510k-clearance-for-cpetwise-advancing-cardiopulmonary-exercise-test-analysis-and-interpretation-302866312.html" },
+    { "company": "Waterfall Scientific", "place": "États-Unis", "sector": "Biotech",
       "signalType": "grant_award", "strength": 3,
-      "title": "AiM Medical Robotics décroche 2 M$ du National Cancer Institute pour son robot de neurochirurgie guidé par IRM",
-      "summary": "Cette bourse SBIR Phase II finance la suite du développement d'un robot d'ablation tumorale opérant à l'intérieur même de l'IRM, avec thermométrie en temps réel couplée au contrôle robotique, en partenariat avec le Brigham and Women's Hospital — une validation académique et fédérale avant un futur tour de capital-risque.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/02/3355162/0/en/aim-medical-robotics-awarded-2-million-national-cancer-institute-grant-to-advance-mri-guided-robotic-treatment-of-brain-cancer.html" },
-    { "company": "Elucid", "place": "Boston, États-Unis", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 4, "stage": "Series D",
-      "title": "Elucid lève 55 M$ en Series D sursouscrite, avec l'entrée d'un nouvel actionnaire stratégique medtech coté",
-      "summary": "La plateforme d'imagerie cardiovasculaire par IA (Plaque IQ, FFR-CT biointégré) porte son capital total à environ 185 M$ et accueille un quatrième investisseur stratégique parmi les grands groupes medtech cotés — signe que l'imagerie non invasive de la plaque d'athérome devient un actif que les industriels veulent sécuriser tôt plutôt que racheter plus tard.",
-      "url": "https://www.biospace.com/press-releases/elucid-raises-55-million-in-oversubscribed-series-d-financing" }
+      "title": "Waterfall Scientific décroche jusqu'à 54,5 M$ de l'ARPA-H pour fabriquer des thérapies ARN individualisées à la demande",
+      "summary": "La start-up pilote un consortium de six entreprises retenu par le programme GIVE de l'agence fédérale ARPA-H (125 M$ répartis entre cinq lauréats) pour développer une plateforme de fabrication d'ARN en flux continu, sans cellules, déployable au plus près du patient — un pari sur la fin du modèle centralisé de fabrication des thérapies géniques.",
+      "url": "https://www.biospace.com/press-releases/waterfall-scientific-awarded-up-to-54-5-million-from-arpa-h-to-lead-consortium-developing-continuous-flow-cell-free-mrna-manufacturing-and-characterization-platform" }
   ],
   "word": {
-    "term": "SBIR",
-    "full": "Small Business Innovation Research (SBIR/STTR)",
-    "fr": "Programme fédéral américain de subventions à l'innovation pour petites entreprises",
-    "field": "Financement non-dilutif / amorçage",
-    "definition": "Un programme fédéral américain qui finance, sans prise de capital, la R&D de jeunes entreprises technologiques et biomédicales via des agences comme le NIH, la NSF ou le DoD.",
+    "term": "Trispecific Antibody",
+    "full": "Trispecific Antibody (Tri-specific T-cell/NK-cell Engager)",
+    "fr": "Anticorps trispécifique",
+    "field": "Immuno-oncologie",
+    "definition": "Un anticorps modifié pour reconnaître trois cibles à la fois, associant repérage de la tumeur, activation d'une cellule immunitaire et signal de costimulation dans une seule molécule.",
     "parts": [
-      { "label": "Agence fédérale", "role": "le financeur" },
-      { "label": "Petite entreprise", "role": "le bénéficiaire" },
-      { "label": "Subvention non-dilutive", "role": "l'instrument" }
+      { "label": "Bras tumoral", "role": "reconnaît l'antigène de la cellule cancéreuse" },
+      { "label": "Bras immunitaire", "role": "recrute une cellule T ou NK et déclenche son activation" },
+      { "label": "Bras costimulateur", "role": "apporte un second signal qui prolonge et renforce la réponse" }
     ],
     "how": [
-      { "n": "1", "h": "Candidature", "t": "L'entreprise répond à un topic publié par une agence fédérale, avec un projet de R&D ciblé relu par des pairs." },
-      { "n": "2", "h": "Phase I", "t": "Une première subvention (jusqu'à environ 325 000 $) finance la preuve de concept et la faisabilité technique." },
-      { "n": "3", "h": "Phase II", "t": "Une subvention plus large (jusqu'à environ 2,15 M$, voire 30 M$ sur la nouvelle voie Phase IIB) finance le développement complet, souvent en parallèle d'un premier tour VC." }
+      { "n": "1", "h": "Reconnaissance", "t": "La molécule se lie simultanément à l'antigène tumoral et au récepteur de la cellule immunitaire, formant une synapse artificielle." },
+      { "n": "2", "h": "Costimulation", "t": "Le troisième bras délivre un signal additionnel (variant de cytokine, corécepteur) qui évite l'épuisement de la cellule immunitaire recrutée." },
+      { "n": "3", "h": "Cytotoxicité", "t": "La cellule T ou NK activée détruit la cellule tumorale ciblée, avec une réponse plus durable qu'un simple bispécifique." }
     ],
-    "why": "Pour un VC santé, un SBIR décroché est un filtre de qualité gratuit : l'argent fédéral a déjà validé la science et l'équipe avant que le capital-risque n'entre au tour de table, ce qui réduit le risque du chèque suivant. Beaucoup de medtechs et biotechs américaines lèvent leur premier tour privé juste après, ou pendant, une bourse SBIR Phase II — un signal en amont de la levée, exactement ce que cette app cherche à capter.",
+    "why": "Après la vague des bispécifiques, les trispécifiques deviennent la brique de plateforme que les big pharma veulent sécuriser tôt : Roche vient d'engager jusqu'à 1,5 Md$ pour un trispécifique chinois (Simcere Zaiming), après que J&J a payé 1,25 Md$ cash pour un actif de plateforme Numab. Pour un VC santé, c'est le signal qu'une techno capable de produire plusieurs actifs partenariables dilue le risque mono-molécule et justifie des tickets d'entrée dès la Series A/B.",
     "startups": [
-      { "name": "AiM Medical Robotics", "use": "Robot de neurochirurgie guidé par IRM pour l'ablation de tumeurs cérébrales ; vient de décrocher 2 M$ de subvention SBIR Phase II du National Cancer Institute", "place": "Worcester, États-Unis" },
-      { "name": "Airalux Medical", "use": "Spiromètre thérapeutique connecté pour la rééducation respiratoire post-chirurgicale ; a reçu une subvention SBIR Phase I de 306 000 $ du NIH", "place": "Philadelphie, États-Unis" },
-      { "name": "Strados Labs", "use": "Biocapteur portable RESP qui capture sons pulmonaires et toux pour le suivi à distance de la BPCO, développé avec l'appui d'une subvention SBIR Phase II de la National Science Foundation", "place": "Philadelphie, États-Unis" }
+      { "name": "Numab Therapeutics", "use": "Plateforme TriTE de T-cell engagers trispécifiques ; a cédé un actif dermatite atopique à J&J pour 1,25 Md$ tout en gardant sa plateforme et le reste du pipeline.", "place": "Suisse" },
+      { "name": "Marengo Therapeutics", "use": "Plateforme Tri-STAR combinant activation T sélective (Vβ) et costimulation dans un anticorps trispécifique ; partenariat de 1,2 Md$ avec Ipsen, premier candidat désigné en 2026.", "place": "États-Unis" },
+      { "name": "Dragonfly Therapeutics", "use": "TriNKETs, engageurs trispécifiques de cellules NK ; partenariats de plateforme avec Merck, Gilead et AbbVie.", "place": "États-Unis" }
     ]
   }
 }

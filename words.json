@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-03",
+  "generatedAt": "2026-09-04",
   "words": [
+    {
+      "term": "Trispecific Antibody",
+      "full": "Trispecific Antibody (Tri-specific T-cell/NK-cell Engager)",
+      "fr": "Anticorps trispécifique",
+      "field": "Immuno-oncologie",
+      "definition": "Un anticorps modifié pour reconnaître trois cibles à la fois, associant repérage de la tumeur, activation d'une cellule immunitaire et signal de costimulation dans une seule molécule.",
+      "parts": [
+        {
+          "label": "Bras tumoral",
+          "role": "reconnaît l'antigène de la cellule cancéreuse"
+        },
+        {
+          "label": "Bras immunitaire",
+          "role": "recrute une cellule T ou NK et déclenche son activation"
+        },
+        {
+          "label": "Bras costimulateur",
+          "role": "apporte un second signal qui prolonge et renforce la réponse"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "La molécule se lie simultanément à l'antigène tumoral et au récepteur de la cellule immunitaire, formant une synapse artificielle."
+        },
+        {
+          "n": "2",
+          "h": "Costimulation",
+          "t": "Le troisième bras délivre un signal additionnel (variant de cytokine, corécepteur) qui évite l'épuisement de la cellule immunitaire recrutée."
+        },
+        {
+          "n": "3",
+          "h": "Cytotoxicité",
+          "t": "La cellule T ou NK activée détruit la cellule tumorale ciblée, avec une réponse plus durable qu'un simple bispécifique."
+        }
+      ],
+      "why": "Après la vague des bispécifiques, les trispécifiques deviennent la brique de plateforme que les big pharma veulent sécuriser tôt : Roche vient d'engager jusqu'à 1,5 Md$ pour un trispécifique chinois (Simcere Zaiming), après que J&J a payé 1,25 Md$ cash pour un actif de plateforme Numab. Pour un VC santé, c'est le signal qu'une techno capable de produire plusieurs actifs partenariables dilue le risque mono-molécule et justifie des tickets d'entrée dès la Series A/B.",
+      "startups": [
+        {
+          "name": "Numab Therapeutics",
+          "use": "Plateforme TriTE de T-cell engagers trispécifiques ; a cédé un actif dermatite atopique à J&J pour 1,25 Md$ tout en gardant sa plateforme et le reste du pipeline.",
+          "place": "Suisse"
+        },
+        {
+          "name": "Marengo Therapeutics",
+          "use": "Plateforme Tri-STAR combinant activation T sélective (Vβ) et costimulation dans un anticorps trispécifique ; partenariat de 1,2 Md$ avec Ipsen, premier candidat désigné en 2026.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Dragonfly Therapeutics",
+          "use": "TriNKETs, engageurs trispécifiques de cellules NK ; partenariats de plateforme avec Merck, Gilead et AbbVie.",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-09-04",
+      "dateLong": "4 sept. 2026"
+    },
     {
       "term": "SBIR",
       "full": "Small Business Innovation Research (SBIR/STTR)",
