@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-05",
   "words": [
+    {
+      "term": "Powered Exoskeleton",
+      "full": "Powered Exoskeleton (Wearable Robotic Orthosis)",
+      "fr": "Exosquelette motorisé",
+      "field": "Neurotechnologie / Réadaptation robotique",
+      "definition": "Un dispositif robotisé porté sur le corps qui actionne les articulations pour restaurer ou assister la marche chez des patients paralysés ou à mobilité très réduite.",
+      "parts": [
+        {
+          "label": "Capteurs",
+          "role": "détectent l'intention de mouvement et l'équilibre du patient"
+        },
+        {
+          "label": "Actionneurs",
+          "role": "génèrent le couple qui plie et déplie les articulations"
+        },
+        {
+          "label": "Algorithme de contrôle",
+          "role": "ajuste la démarche et la stabilité en temps réel"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Détection",
+          "t": "Les capteurs mesurent en continu l'inclinaison du buste, la charge sur les jambes et les commandes du patient."
+        },
+        {
+          "n": "2",
+          "h": "Actionnement",
+          "t": "Les moteurs aux hanches et aux genoux appliquent le couple nécessaire pour initier et soutenir chaque pas."
+        },
+        {
+          "n": "3",
+          "h": "Stabilisation",
+          "t": "Un algorithme d'équilibre auto-stabilisant corrige la posture en temps réel, sans béquilles pour les modèles les plus avancés."
+        }
+      ],
+      "why": "Le secteur bascule d'un marché de rééducation en centre spécialisé vers un usage personnel quotidien remboursé : Wandercraft a obtenu en août 2026 le feu vert FDA pour Eve, premier exosquelette personnel auto-stabilisant, avec un code de facturation Medicare dédié (K1007) — la première fois qu'un payeur américain ouvre une voie de remboursement pérenne pour un exosquelette grand public. Pour un VC santé, c'est le signal qu'un marché longtemps bloqué par l'absence de remboursement s'ouvre enfin, avec un potentiel de duplication vers d'autres indications neurologiques (AVC, sclérose en plaques).",
+      "startups": [
+        {
+          "name": "Wandercraft",
+          "use": "Eve, premier exosquelette personnel auto-stabilisant sans béquilles ; FDA cleared en août 2026 pour les blessés médullaires, lancement commercial américain prévu en septembre 2026.",
+          "place": "France"
+        },
+        {
+          "name": "Cionic",
+          "use": "Neural Sleeve, exosquelette souple porté à la jambe qui stimule et assiste la marche des patients atteints de troubles neuromoteurs (paralysie cérébrale, AVC, sclérose en plaques).",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Roam Robotics",
+          "use": "Exosquelettes et orthèses robotiques légères à actionnement pneumatique pour l'assistance à la marche et la réadaptation du genou.",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-09-05",
+      "dateLong": "5 sept. 2026"
+    },
     {
       "term": "Trispecific Antibody",
       "full": "Trispecific Antibody (Tri-specific T-cell/NK-cell Engager)",

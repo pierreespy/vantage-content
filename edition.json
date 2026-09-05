@@ -1,69 +1,63 @@
 {
-  "dateLong": "4 sept. 2026",
+  "dateLong": "5 sept. 2026",
   "ticker": [
-    { "company": "Typewriter Therapeutics", "amount": "$56M", "kind": "lev" },
-    { "company": "Pharosyn", "amount": "$3M", "kind": "lev" },
-    { "company": "Holifya", "amount": "€2M", "kind": "lev" },
-    { "company": "Cornerstone Robotics", "amount": "$700M", "kind": "lev" },
-    { "company": "Enovis / eCential Robotics", "amount": "€155M", "kind": "mna" },
-    { "company": "Roche / Simcere Zaiming", "amount": "$1,5Md", "kind": "mna" }
+    { "company": "Strolll", "amount": "€5M", "kind": "lev" },
+    { "company": "Superluminal Medicines", "amount": "$60M", "kind": "lev" },
+    { "company": "Epicrispr Biotechnologies", "amount": "$90M", "kind": "lev" },
+    { "company": "Inocras", "amount": "$31M", "kind": "lev" },
+    { "company": "Ahead Health", "amount": "€8,7M", "kind": "lev" },
+    { "company": "Eli Lilly / Merida Biosciences", "amount": "$2,9Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Avant sa Series A · Ophtalmologie",
-    "title": "Foventa Therapeutics muscle sa direction avant de lever une Series A pour son traitement topique de la rétinopathie diabétique",
-    "deck": "L'ex-Exonate (Cambridge) recrute Zaiba Malik au poste de Chief Medical Officer et Julia Jones au poste de Chief Financial Officer, aux côtés du nouveau CEO Olav Hellebø, pour boucler la Series A qui financera la Phase IIb de FOV407 — candidat au titre de premier traitement topique et non invasif de la rétinopathie diabétique non proliférative, sur la voie du VEGF. Un signal classique de préparation de tour : la société construit sa crédibilité avant même d'ouvrir le tour de table.",
-    "company": "Foventa Therapeutics",
-    "signalType": "leadership_hire",
+    "kicker": "Innovate UK + IW Capital · Neuro-réhabilitation digitale",
+    "title": "Strolll sécurise 5 M€ (subventions Innovate UK + tour mené par IW Capital) pour déployer sa neuro-réhabilitation en réalité augmentée à l'hôpital",
+    "deck": "Le britannique, qui équipe déjà des patients Parkinson et post-AVC de lunettes de réalité augmentée pour guider leur rééducation, obtient un prêt d'innovation de 4,18 M€ et une subvention Growth Catalyst de 813 200 € d'Innovate UK, complétés par un tour mené par IW Capital avec la participation de Cleveland Clinic et Future Planet Capital Regional. Les fonds financent StrolllAssessment (évaluation neuromotrice assistée par IA) et StrolllAcute, un système de rééducation au lit pour les patients aigus alités — un signal classique de traction clinique avant un tour plus large.",
+    "company": "Strolll",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.prnewswire.com/news-releases/foventa-further-strengthens-management-team-with-key-cmo-and-cfo-appointments-302867281.html"
+    "url": "https://www.eu-startups.com/2026/09/uk-medtech-strolll-secures-e5-million-in-innovate-uk-funding-and-additional-iw-capital-led-investment"
   },
   "deal": {
-    "company": "Typewriter Therapeutics",
-    "amount": "$56M",
-    "round": "Series A",
-    "thesis": "Sortie de stealth d'une plateforme de thérapie génique non virale — « Target-Primed Reverse Transcription », bâtie sur le rétrotransposon naturel R2 — pour produire des CAR-T in vivo, durables et redosables, sans passer par les vecteurs lentiviraux ni la fabrication ex vivo qui plombent les coûts et les délais du CAR-T classique. AN Venture Partners et RA Capital Management mènent le tour ; Mikael Dolsten, ex-patron R&D de Pfizer, rejoint le board. Le pari : la prochaine génération de thérapies cellulaires se fera sans usine cellulaire.",
-    "url": "https://www.prnewswire.com/news-releases/typewriter-therapeutics-emerges-from-stealth-with-56-million-series-a-financing-to-pursue-in-vivo-car-t-medicines-302866871.html"
+    "company": "Superluminal Medicines",
+    "amount": "$60M",
+    "round": "Series B",
+    "thesis": "Le tour, sursouscrit, réunit une base d'investisseurs rare pour un stade aussi précoce : BVF Partners en lead, Deep Track Capital et Perceptive Advisors en nouveaux entrants, aux côtés de RA Capital, Insight Partners, NVIDIA et... Eli Lilly. Superluminal développe un agoniste biaisé et sélectif du récepteur MC4R, administré par voie orale, pour les formes génétiques rares d'obésité et l'obésité hypothalamique. Qu'un géant pharma co-investisse directement dans une Series B aux côtés de VCs biotech de premier plan et du bras venture de Nvidia est un signal fort : la prochaine vague de l'obésité sera génétique et de précision, pas un GLP-1 générique de plus.",
+    "url": "https://www.prnewswire.com/news-releases/superluminal-medicines-announces-oversubscribed-60-million-series-b-financing-to-advance-lead-program-in-rare-genetic-forms-of-obesity-into-the-clinic-302868367.html"
   },
-  "brefsEurope": [
-    { "company": "vitagroup / Alliance SIH", "place": "Munich, Allemagne / Paris, France", "sector": "Digital Health",
-      "signalType": "early_partnership", "strength": 3,
-      "title": "vitagroup s'associe à Alliance SIH pour distribuer sa plateforme de données hospitalières en France",
-      "summary": "L'éditeur allemand confie à Alliance SIH — coentreprise fondée par La Poste Santé & Autonomie, CPage et les Hospices Civils de Lyon — la distribution de sa Health Intelligence Platform (ouverte, bâtie sur les standards openEHR et FHIR) auprès des hôpitaux français, avec hébergement souverain assuré par Docaposte Santé. Un accord de distribution plutôt qu'un rachat, qui ouvre à un acteur allemand du dossier patient l'un des plus gros marchés hospitaliers d'Europe.",
-      "url": "https://www.pr-web.com/2026/09/02/alliance-sih-partners-with-vitagroup-as-its-distributor-of-the-health-intelligence-platform-in-france/" }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Medibyt", "place": "Tel-Aviv, Israël", "sector": "Digital Health",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Medibyt décroche une clearance FDA 510(k) pour CPETWise, son IA d'interprétation des tests d'effort cardiopulmonaire",
-      "summary": "La clearance (K260242) ouvre la commercialisation aux États-Unis à cette solution qui réduit de plus de moitié le temps d'interprétation des tests CPET, validée sur une étude de 100 cas menée avec l'University of Washington. Un pilote commercial est déjà engagé avec un prestataire CPET américain de premier plan.",
-      "url": "https://www.prnewswire.com/news-releases/medibyt-receives-fda-510k-clearance-for-cpetwise-advancing-cardiopulmonary-exercise-test-analysis-and-interpretation-302866312.html" },
-    { "company": "Waterfall Scientific", "place": "États-Unis", "sector": "Biotech",
-      "signalType": "grant_award", "strength": 3,
-      "title": "Waterfall Scientific décroche jusqu'à 54,5 M$ de l'ARPA-H pour fabriquer des thérapies ARN individualisées à la demande",
-      "summary": "La start-up pilote un consortium de six entreprises retenu par le programme GIVE de l'agence fédérale ARPA-H (125 M$ répartis entre cinq lauréats) pour développer une plateforme de fabrication d'ARN en flux continu, sans cellules, déployable au plus près du patient — un pari sur la fin du modèle centralisé de fabrication des thérapies géniques.",
-      "url": "https://www.biospace.com/press-releases/waterfall-scientific-awarded-up-to-54-5-million-from-arpa-h-to-lead-consortium-developing-continuous-flow-cell-free-mrna-manufacturing-and-characterization-platform" }
+    { "company": "Kali Therapeutics", "place": "San Mateo, États-Unis", "sector": "Biotech",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Kali Therapeutics décroche le feu vert FDA pour tester aux États-Unis son T-cell engager tri-spécifique licencié à Sanofi",
+      "summary": "La clearance de l'IND pour KT501 — un tri-spécifique CD19xBCMAxCD3 à masquage CD3 conçu pour limiter le risque de syndrome de relargage cytokinique — ouvre la voie à un essai américain dans les maladies auto-immunes à médiation B, en appui des données de phase précoce déjà générées en Australie. L'actif est licencié à Sanofi depuis mars 2026 pour plus de 1,23 Md$, mais Kali reste maître de sa plateforme et du reste du pipeline.",
+      "url": "https://www.prnewswire.com/news-releases/kali-therapeutics-receives-us-fda-clearance-for-kt501-investigational-new-drug-application-302869142.html" },
+    { "company": "Judi Health", "place": "New York, États-Unis", "sector": "Digital Health",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "Judi Health élargit son réseau de soins spécialisés avec Color Health, WellTheory et Cylinder",
+      "summary": "L'ex-Capital Rx, plateforme de gestion des avantages santé valorisée plus de 3 Md$, ajoute à son écosystème clinique une clinique virtuelle certifiée ASCO en oncologie (Color Health), un programme dédié aux maladies auto-immunes (WellTheory) et un programme digestif (Cylinder, récemment acquis par Hinge Health) — signe que les plateformes de benefits consolident leur distribution en intégrant des pure players cliniques plutôt qu'en les rachetant.",
+      "url": "https://www.businesswire.com/news/home/20260903850667/en/Judi-Health-Adds-Color-Health-WellTheory-and-Cylinder-to-Its-Expanding-Clinical-Partner-Ecosystem" }
   ],
   "word": {
-    "term": "Trispecific Antibody",
-    "full": "Trispecific Antibody (Tri-specific T-cell/NK-cell Engager)",
-    "fr": "Anticorps trispécifique",
-    "field": "Immuno-oncologie",
-    "definition": "Un anticorps modifié pour reconnaître trois cibles à la fois, associant repérage de la tumeur, activation d'une cellule immunitaire et signal de costimulation dans une seule molécule.",
+    "term": "Powered Exoskeleton",
+    "full": "Powered Exoskeleton (Wearable Robotic Orthosis)",
+    "fr": "Exosquelette motorisé",
+    "field": "Neurotechnologie / Réadaptation robotique",
+    "definition": "Un dispositif robotisé porté sur le corps qui actionne les articulations pour restaurer ou assister la marche chez des patients paralysés ou à mobilité très réduite.",
     "parts": [
-      { "label": "Bras tumoral", "role": "reconnaît l'antigène de la cellule cancéreuse" },
-      { "label": "Bras immunitaire", "role": "recrute une cellule T ou NK et déclenche son activation" },
-      { "label": "Bras costimulateur", "role": "apporte un second signal qui prolonge et renforce la réponse" }
+      { "label": "Capteurs", "role": "détectent l'intention de mouvement et l'équilibre du patient" },
+      { "label": "Actionneurs", "role": "génèrent le couple qui plie et déplie les articulations" },
+      { "label": "Algorithme de contrôle", "role": "ajuste la démarche et la stabilité en temps réel" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "La molécule se lie simultanément à l'antigène tumoral et au récepteur de la cellule immunitaire, formant une synapse artificielle." },
-      { "n": "2", "h": "Costimulation", "t": "Le troisième bras délivre un signal additionnel (variant de cytokine, corécepteur) qui évite l'épuisement de la cellule immunitaire recrutée." },
-      { "n": "3", "h": "Cytotoxicité", "t": "La cellule T ou NK activée détruit la cellule tumorale ciblée, avec une réponse plus durable qu'un simple bispécifique." }
+      { "n": "1", "h": "Détection", "t": "Les capteurs mesurent en continu l'inclinaison du buste, la charge sur les jambes et les commandes du patient." },
+      { "n": "2", "h": "Actionnement", "t": "Les moteurs aux hanches et aux genoux appliquent le couple nécessaire pour initier et soutenir chaque pas." },
+      { "n": "3", "h": "Stabilisation", "t": "Un algorithme d'équilibre auto-stabilisant corrige la posture en temps réel, sans béquilles pour les modèles les plus avancés." }
     ],
-    "why": "Après la vague des bispécifiques, les trispécifiques deviennent la brique de plateforme que les big pharma veulent sécuriser tôt : Roche vient d'engager jusqu'à 1,5 Md$ pour un trispécifique chinois (Simcere Zaiming), après que J&J a payé 1,25 Md$ cash pour un actif de plateforme Numab. Pour un VC santé, c'est le signal qu'une techno capable de produire plusieurs actifs partenariables dilue le risque mono-molécule et justifie des tickets d'entrée dès la Series A/B.",
+    "why": "Le secteur bascule d'un marché de rééducation en centre spécialisé vers un usage personnel quotidien remboursé : Wandercraft a obtenu en août 2026 le feu vert FDA pour Eve, premier exosquelette personnel auto-stabilisant, avec un code de facturation Medicare dédié (K1007) — la première fois qu'un payeur américain ouvre une voie de remboursement pérenne pour un exosquelette grand public. Pour un VC santé, c'est le signal qu'un marché longtemps bloqué par l'absence de remboursement s'ouvre enfin, avec un potentiel de duplication vers d'autres indications neurologiques (AVC, sclérose en plaques).",
     "startups": [
-      { "name": "Numab Therapeutics", "use": "Plateforme TriTE de T-cell engagers trispécifiques ; a cédé un actif dermatite atopique à J&J pour 1,25 Md$ tout en gardant sa plateforme et le reste du pipeline.", "place": "Suisse" },
-      { "name": "Marengo Therapeutics", "use": "Plateforme Tri-STAR combinant activation T sélective (Vβ) et costimulation dans un anticorps trispécifique ; partenariat de 1,2 Md$ avec Ipsen, premier candidat désigné en 2026.", "place": "États-Unis" },
-      { "name": "Dragonfly Therapeutics", "use": "TriNKETs, engageurs trispécifiques de cellules NK ; partenariats de plateforme avec Merck, Gilead et AbbVie.", "place": "États-Unis" }
+      { "name": "Wandercraft", "use": "Eve, premier exosquelette personnel auto-stabilisant sans béquilles ; FDA cleared en août 2026 pour les blessés médullaires, lancement commercial américain prévu en septembre 2026.", "place": "France" },
+      { "name": "Cionic", "use": "Neural Sleeve, exosquelette souple porté à la jambe qui stimule et assiste la marche des patients atteints de troubles neuromoteurs (paralysie cérébrale, AVC, sclérose en plaques).", "place": "États-Unis" },
+      { "name": "Roam Robotics", "use": "Exosquelettes et orthèses robotiques légères à actionnement pneumatique pour l'assistance à la marche et la réadaptation du genou.", "place": "États-Unis" }
     ]
   }
 }
