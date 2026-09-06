@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-05",
+  "generatedAt": "2026-09-06",
   "words": [
+    {
+      "term": "NTAP",
+      "full": "New Technology Add-on Payment",
+      "fr": "Paiement additionnel pour nouvelle technologie (Medicare)",
+      "field": "Remboursement / Politique de santé américaine (dispositifs médicaux)",
+      "definition": "Un supplément de remboursement hospitalier versé par Medicare aux États-Unis pour couvrir le surcoût d'un dispositif ou d'une thérapie réellement innovante, le temps que son tarif standard soit mis à jour.",
+      "parts": [
+        {
+          "label": "Nouveauté clinique",
+          "role": "le dispositif doit être cleared/approuvé depuis moins de 2 à 3 ans"
+        },
+        {
+          "label": "Amélioration substantielle",
+          "role": "il doit démontrer un bénéfice clinique net face à l'existant"
+        },
+        {
+          "label": "Coût non couvert",
+          "role": "son coût doit dépasser le tarif du groupe homogène de séjour (DRG) en vigueur"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Éligibilité",
+          "t": "Le fabricant dépose un dossier démontrant nouveauté, amélioration substantielle et insuffisance du tarif DRG existant."
+        },
+        {
+          "n": "2",
+          "h": "Décision CMS",
+          "t": "Le CMS instruit le dossier dans sa règle hospitalière annuelle (IPPS) et accorde ou refuse le NTAP pour l'exercice fiscal suivant."
+        },
+        {
+          "n": "3",
+          "h": "Remboursement additionnel",
+          "t": "Chaque séjour hospitalier éligible reçoit un supplément (jusqu'à ~65-75 % du surcoût), pour 2 à 3 ans en général, le temps qu'une révision tarifaire pérenne prenne le relais."
+        }
+      ],
+      "why": "Pour un VC medtech, le NTAP est un catalyseur d'adoption presque aussi puissant qu'une clearance FDA : sans lui, un hôpital rechigne à adopter un dispositif plus cher, même cliniquement supérieur, faute de remboursement immédiat. Repérer une startup qui vient de décrocher un NTAP, c'est repérer un dispositif qui va enfin se vendre à l'échelle hospitalière — souvent juste avant son tour de croissance suivant.",
+      "startups": [
+        {
+          "name": "Reflow Medical",
+          "use": "Spur, stent rétractable pour l'ischémie critique des membres sous le genou ; NTAP obtenu en septembre 2026 après clearance De Novo FDA.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Renata Medical",
+          "use": "Minima, stent de croissance pour la coarctation aortique et la sténose de l'artère pulmonaire chez l'enfant ; Series D de 25 M$ menée par Archimed après sa PMA FDA.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Aidoc",
+          "use": "CARE Body CT Multi-Triage, plateforme IA de triage radiologique multi-pathologies ; NTAP effectif en octobre 2026 après sa clearance FDA de janvier.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Carlsmed",
+          "use": "aprevo, implants intersomatiques rachidiens personnalisés par IA ; NTAP obtenu pour les fusions cervicales en complément de son remboursement lombaire existant.",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-09-06",
+      "dateLong": "6 sept. 2026"
+    },
     {
       "term": "Powered Exoskeleton",
       "full": "Powered Exoskeleton (Wearable Robotic Orthosis)",
