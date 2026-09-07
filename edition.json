@@ -1,71 +1,65 @@
 {
-  "dateLong": "6 sept. 2026",
+  "dateLong": "7 sept. 2026",
   "ticker": [
-    { "company": "Tensive", "amount": "€20M", "kind": "lev" },
-    { "company": "Ultrahuman", "amount": "$70M", "kind": "lev" },
-    { "company": "Senticell", "amount": "$7M", "kind": "lev" },
-    { "company": "Holifya", "amount": "€2M", "kind": "lev" },
-    { "company": "Medicus Pharma / Pfizer", "amount": "$12M", "kind": "mna" },
-    { "company": "Alteogen / Novartis", "amount": "$3,2Md", "kind": "mna" }
+    { "company": "Amyl Therapeutics", "amount": "€8,3M", "kind": "lev" },
+    { "company": "Metriport", "amount": "$26M", "kind": "lev" },
+    { "company": "PatientIQ", "amount": "$30M", "kind": "lev" },
+    { "company": "Scan.com", "amount": "$220M", "kind": "lev" },
+    { "company": "AusperBio", "amount": "$120M", "kind": "lev" },
+    { "company": "Lilly / Merida Biosciences", "amount": "$2,875Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "BEI · MedTech biomatériaux résorbables",
-    "title": "Tensive décroche jusqu'à 20 M€ de la BEI pour porter son implant mammaire résorbable REGENERA vers le marquage CE",
-    "deck": "La medtech milanaise obtient un prêt convertible de la Banque européenne d'investissement, débloqué en deux tranches de 8 M€ et 12 M€, pour boucler son plan de financement de 40 M€ jusqu'au marquage CE et au lancement commercial de REGENERA, un échafaudage résorbable qui remplace les implants classiques après une tumorectomie du sein. Le financement fait suite à des données de Phase pivot solides — 94,2 % des patientes évaluables ont obtenu un résultat cosmétique bon à excellent à 12 mois — un signal classique de catalyseur réglementaire imminent, souvent annonciateur d'un tour equity plus large ou d'une sortie stratégique.",
-    "company": "Tensive",
-    "stage": "Growth",
+    "kicker": "Series A extension · Neurodégénérescence",
+    "title": "Amyl Therapeutics lève 8,3 M€ pour une immunothérapie « pan-amyloïde » unique contre plusieurs maladies neurodégénératives",
+    "deck": "La biotech liégeoise complète son Series A avec des family offices et business angels aux côtés de ses actionnaires historiques Mérieux Equity Partners et Noshaq, pour finaliser son candidat prêt pour la fabrication GMP et générer des données précliniques d'efficacité et de sécurité. Le pari : une plateforme unique d'anticorps anti-fibrilles amyloïdes capable d'adresser plusieurs pathologies neurodégénératives à la fois, là où la quasi-totalité des programmes en développement restent mono-indication.",
+    "company": "Amyl Therapeutics",
+    "stage": "Series A",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/03/3355659/0/en/tensive-to-receive-20-million-from-eib-to-commercialize-bioresorbable-breast-implant.html"
+    "url": "https://european-biotechnology.com/latest-news/amyl-tx-raises-e8-25m-to-develop-universal-neurodegeneration-drug/"
   },
   "deal": {
-    "company": "Medicus Pharma",
-    "amount": "12 M$ cash (jusqu'à plus de 1 Md$ avec milestones)",
-    "round": "Licensing Deal",
-    "thesis": "Le petit biotech coté Medicus Pharma récupère en licence mondiale exclusive le CD228V, un anticorps-médicament conjugué anti-CD228 que Pfizer avait laissé de côté après le rachat de Seagen, pour 12 M$ cash immédiat et plus d'1 Md$ de milestones potentiels plus royalties. Pfizer reste engagé dans la thèse : il finance une partie du développement et garde une option pour reprendre le programme après le premier essai pivot. Un schéma « NewCo asset-centric » classique — un grand groupe se désengage d'un actif jugé non prioritaire, un véhicule plus petit et plus agile le fait avancer à moindre coût de structure — que les VCs santé surveillent pour repérer le prochain actif orphelin à fort potentiel.",
-    "url": "https://www.benzinga.com/markets/biotech/26/09/61611156/medicus-pharma-inks-global-licensing-deal-with-pfizer-worth-over-1-billion"
+    "company": "Scan.com",
+    "amount": "220 M$ (90 M$ equity + 130 M$ dette)",
+    "round": "Series C + dette",
+    "thesis": "Le marketplace britannique d'imagerie médicale, qui a doublé son chiffre d'affaires en un an (ARR > 165 M$, 900 000 patients pris en charge), lève 90 M$ en equity menés par Noteus Partners et 130 M$ de dette pour bâtir le plus grand réseau d'imagerie diagnostique aux États-Unis. La thèse à retenir : automatiser via une infrastructure d'IA agentique un maillon régulé et à forte friction du parcours de soin — routage des patients, prise de rendez-vous, restitution des résultats — plutôt que parier sur une innovation clinique amont. Un profil capital-efficient et proche du revenu, exactement le type de dossier que les VCs santé privilégient dans le climat actuel.",
+    "url": "https://venturebeat.com/business/scancom-raises-220-million-to-build-the-largest-medical-imaging-network-in-the-us"
   },
   "brefsEurope": [
-    { "company": "Holifya", "place": "Milan, Italie", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 2,
-      "title": "Holifya boucle un tour de 2 M€ mené par CDP Venture Capital pour sa clinique digitale de l'obésité",
-      "summary": "La clinique milanaise, qui combine téléconsultation et pharmacothérapie de l'obésité et du syndrome métabolique assistées par IA, lève 1,6 M€ en equity et 400 000 € en dette/subventions. Next Age, le programme Silver Economy de CDP Venture Capital, mène le tour aux côtés de Growth Engine, Doorway, 20Fund et Zooga VC — un ticket modeste mais un signal amont sur la vague des cliniques digitales spécialisées obésité/GLP-1.",
-      "url": "https://bebeez.it/venture-capital/holifya-raccoglie-2-mln-euro-next-age-di-cdp-venture-capital-guida-il-round-della-digital-clinic-per-lobesita/" }
+    { "company": "Sensorion", "place": "Montpellier, France", "sector": "Biotech",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Sensorion décroche l'autorisation Fast Track de l'ANSM pour sa thérapie génique auditive SENS-601",
+      "summary": "La biotech montpelliéraine cotée sur Euronext obtient le feu vert de l'agence française du médicament, via une procédure accélérée, pour lancer HearConnex, un essai de Phase I/II testant l'administration intra-cochléaire de SENS-601 chez des enfants atteints de surdité génétique liée au gène GJB2 — la cause la plus fréquente de surdité héréditaire, sans traitement causal approuvé à ce jour. Premiers patients dosés attendus début 2027.",
+      "url": "https://www.biospace.com/press-releases/sensorion-announces-approval-of-clinical-trial-application-in-france-for-sens-601-its-investigational-gene-therapy-for-the-treatment-of-gjb2-related-hearing-loss" }
   ],
   "brefsIntl": [
-    { "company": "Reflow Medical", "place": "San Clemente, États-Unis", "sector": "MedTech",
-      "signalType": "reimbursement", "strength": 5,
-      "title": "Reflow Medical obtient un remboursement Medicare NTAP pour son stent rétractable Spur dans l'ischémie critique des membres",
-      "summary": "Après sa clearance De Novo FDA, le fabricant californien décroche du CMS un New Technology Add-on Payment pour Spur, un stent auto-expansible et retirable dédié à l'ischémie chronique critique des membres sous le genou — jusqu'à 2 597 $ de remboursement additionnel par cas dès le 1er octobre 2026. Un déblocage de remboursement de ce type vaut souvent plus qu'une clearance seule : c'est lui qui déclenche l'adoption hospitalière, puis le tour de croissance suivant.",
-      "url": "https://www.reflowmedical.com/cms-approves-new-technology-add-on-payment-for-reflow-medicals-spur-peripheral-retrievable-stent-system/" },
-    { "company": "Senticell", "place": "Philadelphie, États-Unis", "sector": "Diagnostics",
-      "signalType": "funding_round", "strength": 3,
-      "title": "Senticell boucle un seed sursouscrit de 7 M$ pour sa biopsie liquide fondée sur les globules rouges",
-      "summary": "Cette spin-off de l'université de Pennsylvanie licencie en exclusivité une découverte académique montrant que les globules rouges captent et retiennent l'ADN/ARN tumoral circulant, plus longtemps que le plasma classique. The Venture City, Capital Factory, Scalpel Ventures et Evoce Capital financent deux études cliniques déjà en cours à Penn Medicine sur environ 300 patients, résultats attendus fin 2026 / début 2027 — un pari précoce sur un segment diagnostics en plein renouvellement technique.",
-      "url": "https://www.prnewswire.com/news-releases/senticell-closes-oversubscribed-seed-round-to-advance-rbc-based-liquid-biopsy-platform-302865820.html" }
+    { "company": "Acepodia", "place": "Taipei / Alameda (Californie)", "sector": "Biotech",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Acepodia obtient le feu vert de la FDA pour tester en clinique son ADC à double charge utile dans le cancer du foie",
+      "summary": "La FDA autorise l'IND d'ACE723, un anticorps-médicament conjugué ciblant GPC3 et portant deux charges cytotoxiques distinctes, pour traiter le carcinome hépatocellulaire avancé. C'est le premier candidat de la plateforme propriétaire AD2C (Antibody-Dual-Drugs Conjugation) d'Acepodia à entrer en test chez l'humain — un signal à suivre pour les VCs qui scrutent la prochaine génération d'ADC multi-payload.",
+      "url": "https://www.prnewswire.com/news-releases/acepodia-announces-fda-clearance-of-ind-application-for-ace723-a-novel-dual-payload-antibody-drug-conjugate-302869787.html" }
   ],
   "word": {
-    "term": "NTAP",
-    "full": "New Technology Add-on Payment",
-    "fr": "Paiement additionnel pour nouvelle technologie (Medicare)",
-    "field": "Remboursement / Politique de santé américaine (dispositifs médicaux)",
-    "definition": "Un supplément de remboursement hospitalier versé par Medicare aux États-Unis pour couvrir le surcoût d'un dispositif ou d'une thérapie réellement innovante, le temps que son tarif standard soit mis à jour.",
+    "term": "Autoantibody Degrader",
+    "full": "Autoantibody Degrader (Extracellular Antibody-Degrading Biologic)",
+    "fr": "Dégradeur d'auto-anticorps",
+    "field": "Immunologie / Maladies auto-immunes",
+    "definition": "Une biothérapie qui capture un auto-anticorps pathogène circulant et l'achemine vers les voies naturelles de dégradation de l'organisme, au lieu de se contenter de bloquer son action comme le font les immunosuppresseurs classiques.",
     "parts": [
-      { "label": "Nouveauté clinique", "role": "le dispositif doit être cleared/approuvé depuis moins de 2 à 3 ans" },
-      { "label": "Amélioration substantielle", "role": "il doit démontrer un bénéfice clinique net face à l'existant" },
-      { "label": "Coût non couvert", "role": "son coût doit dépasser le tarif du groupe homogène de séjour (DRG) en vigueur" }
+      { "label": "Domaine leurre", "role": "imite la cible naturelle de l'auto-anticorps pour le capturer sélectivement" },
+      { "label": "Domaine Fc modifié", "role": "redirige le complexe capturé vers la clairance hépatique ou splénique" },
+      { "label": "Bras anti-lymphocyte B", "role": "freine, dans certains designs, la production de nouveaux auto-anticorps" }
     ],
     "how": [
-      { "n": "1", "h": "Éligibilité", "t": "Le fabricant dépose un dossier démontrant nouveauté, amélioration substantielle et insuffisance du tarif DRG existant." },
-      { "n": "2", "h": "Décision CMS", "t": "Le CMS instruit le dossier dans sa règle hospitalière annuelle (IPPS) et accorde ou refuse le NTAP pour l'exercice fiscal suivant." },
-      { "n": "3", "h": "Remboursement additionnel", "t": "Chaque séjour hospitalier éligible reçoit un supplément (jusqu'à ~65-75 % du surcoût), pour 2 à 3 ans en général, le temps qu'une révision tarifaire pérenne prenne le relais." }
+      { "n": "1", "h": "Capture", "t": "Le dégradeur se lie sélectivement à l'auto-anticorps pathogène circulant, sans toucher au reste des immunoglobulines protectrices." },
+      { "n": "2", "h": "Clairance", "t": "Le complexe formé est redirigé vers le foie ou la rate, où il est éliminé en quelques heures à quelques jours." },
+      { "n": "3", "h": "Effet durable", "t": "Certains designs suppriment aussi les lymphocytes B producteurs, ce qui retarde la réapparition de l'auto-anticorps après traitement." }
     ],
-    "why": "Pour un VC medtech, le NTAP est un catalyseur d'adoption presque aussi puissant qu'une clearance FDA : sans lui, un hôpital rechigne à adopter un dispositif plus cher, même cliniquement supérieur, faute de remboursement immédiat. Repérer une startup qui vient de décrocher un NTAP, c'est repérer un dispositif qui va enfin se vendre à l'échelle hospitalière — souvent juste avant son tour de croissance suivant.",
+    "why": "Le rachat de Merida Biosciences par Lilly (jusqu'à 2,875 Md$, annoncé cette semaine) valide cette classe de biologiques avant même une première approbation : un signal que les grands groupes veulent sécuriser la modalité tôt, en dehors de l'obésité. Pour un VC santé, c'est une thèse actionnable sur les plateformes early-stage qui maîtrisent encore ce mécanisme, avant qu'elles ne deviennent, elles aussi, des cibles de M&A.",
     "startups": [
-      { "name": "Reflow Medical", "use": "Spur, stent rétractable pour l'ischémie critique des membres sous le genou ; NTAP obtenu en septembre 2026 après clearance De Novo FDA.", "place": "États-Unis" },
-      { "name": "Renata Medical", "use": "Minima, stent de croissance pour la coarctation aortique et la sténose de l'artère pulmonaire chez l'enfant ; Series D de 25 M$ menée par Archimed après sa PMA FDA.", "place": "États-Unis" },
-      { "name": "Aidoc", "use": "CARE Body CT Multi-Triage, plateforme IA de triage radiologique multi-pathologies ; NTAP effectif en octobre 2026 après sa clearance FDA de janvier.", "place": "États-Unis" },
-      { "name": "Carlsmed", "use": "aprevo, implants intersomatiques rachidiens personnalisés par IA ; NTAP obtenu pour les fusions cervicales en complément de son remboursement lombaire existant.", "place": "États-Unis" }
+      { "name": "GlycoEra", "use": "Biotech au stade clinique ; son candidat GE8820 dégrade sélectivement les auto-anticorps IgG4 pathogènes sans immunosuppression généralisée", "place": "Wädenswil, Suisse" },
+      { "name": "Biohaven", "use": "Son dégradeur MoDE™ BHV-1300 est entré en Phase 3 pivot dans la maladie de Graves, avec plus de 80 % de baisse des auto-anticorps anti-récepteur de la TSH", "place": "États-Unis" },
+      { "name": "Hansa Biopharma", "use": "Commercialise Idefirix (imlifidase), une enzyme qui clive les IgG pour désensibiliser les patients hyperimmunisés avant une greffe rénale", "place": "Lund, Suède" }
     ]
   }
 }

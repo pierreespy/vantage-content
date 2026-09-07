@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-06",
+  "generatedAt": "2026-09-07",
   "words": [
+    {
+      "term": "Autoantibody Degrader",
+      "full": "Autoantibody Degrader (Extracellular Antibody-Degrading Biologic)",
+      "fr": "Dégradeur d'auto-anticorps",
+      "field": "Immunologie / Maladies auto-immunes",
+      "definition": "Une biothérapie qui capture un auto-anticorps pathogène circulant et l'achemine vers les voies naturelles de dégradation de l'organisme, au lieu de se contenter de bloquer son action comme le font les immunosuppresseurs classiques.",
+      "parts": [
+        {
+          "label": "Domaine leurre",
+          "role": "imite la cible naturelle de l'auto-anticorps pour le capturer sélectivement"
+        },
+        {
+          "label": "Domaine Fc modifié",
+          "role": "redirige le complexe capturé vers la clairance hépatique ou splénique"
+        },
+        {
+          "label": "Bras anti-lymphocyte B",
+          "role": "freine, dans certains designs, la production de nouveaux auto-anticorps"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "Le dégradeur se lie sélectivement à l'auto-anticorps pathogène circulant, sans toucher au reste des immunoglobulines protectrices."
+        },
+        {
+          "n": "2",
+          "h": "Clairance",
+          "t": "Le complexe formé est redirigé vers le foie ou la rate, où il est éliminé en quelques heures à quelques jours."
+        },
+        {
+          "n": "3",
+          "h": "Effet durable",
+          "t": "Certains designs suppriment aussi les lymphocytes B producteurs, ce qui retarde la réapparition de l'auto-anticorps après traitement."
+        }
+      ],
+      "why": "Le rachat de Merida Biosciences par Lilly (jusqu'à 2,875 Md$, annoncé cette semaine) valide cette classe de biologiques avant même une première approbation : un signal que les grands groupes veulent sécuriser la modalité tôt, en dehors de l'obésité. Pour un VC santé, c'est une thèse actionnable sur les plateformes early-stage qui maîtrisent encore ce mécanisme, avant qu'elles ne deviennent, elles aussi, des cibles de M&A.",
+      "startups": [
+        {
+          "name": "GlycoEra",
+          "use": "Biotech au stade clinique ; son candidat GE8820 dégrade sélectivement les auto-anticorps IgG4 pathogènes sans immunosuppression généralisée",
+          "place": "Wädenswil, Suisse"
+        },
+        {
+          "name": "Biohaven",
+          "use": "Son dégradeur MoDE™ BHV-1300 est entré en Phase 3 pivot dans la maladie de Graves, avec plus de 80 % de baisse des auto-anticorps anti-récepteur de la TSH",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Hansa Biopharma",
+          "use": "Commercialise Idefirix (imlifidase), une enzyme qui clive les IgG pour désensibiliser les patients hyperimmunisés avant une greffe rénale",
+          "place": "Lund, Suède"
+        }
+      ],
+      "date": "2026-09-07",
+      "dateLong": "7 sept. 2026"
+    },
     {
       "term": "NTAP",
       "full": "New Technology Add-on Payment",
