@@ -1,65 +1,65 @@
 {
-  "dateLong": "7 sept. 2026",
+  "dateLong": "8 sept. 2026",
   "ticker": [
-    { "company": "Amyl Therapeutics", "amount": "€8,3M", "kind": "lev" },
-    { "company": "Metriport", "amount": "$26M", "kind": "lev" },
-    { "company": "PatientIQ", "amount": "$30M", "kind": "lev" },
-    { "company": "Scan.com", "amount": "$220M", "kind": "lev" },
-    { "company": "AusperBio", "amount": "$120M", "kind": "lev" },
-    { "company": "Lilly / Merida Biosciences", "amount": "$2,875Md", "kind": "mna" }
+    { "company": "NovaGo Therapeutics", "amount": "$30M", "kind": "lev" },
+    { "company": "Medtronic / Cornerstone Robotics", "amount": "$700M", "kind": "lev" },
+    { "company": "Enovis / eCential Robotics", "amount": "€190M", "kind": "mna" },
+    { "company": "Vitality / Icario", "amount": "$59,5M", "kind": "mna" },
+    { "company": "GSK / HUTCHMED", "amount": "$110M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series A extension · Neurodégénérescence",
-    "title": "Amyl Therapeutics lève 8,3 M€ pour une immunothérapie « pan-amyloïde » unique contre plusieurs maladies neurodégénératives",
-    "deck": "La biotech liégeoise complète son Series A avec des family offices et business angels aux côtés de ses actionnaires historiques Mérieux Equity Partners et Noshaq, pour finaliser son candidat prêt pour la fabrication GMP et générer des données précliniques d'efficacité et de sécurité. Le pari : une plateforme unique d'anticorps anti-fibrilles amyloïdes capable d'adresser plusieurs pathologies neurodégénératives à la fois, là où la quasi-totalité des programmes en développement restent mono-indication.",
-    "company": "Amyl Therapeutics",
-    "stage": "Series A",
+    "kicker": "Series B · Lésion médullaire aiguë",
+    "title": "NovaGo Therapeutics lève 30 M$ pour tester en clinique une biothérapie régénérative contre la lésion médullaire aiguë",
+    "deck": "La biotech suisse boucle une Series B de 24 M CHF (30 M$) menée par Neurimmune et Pureos, complétée par un soutien non dilutif de la Fondation suisse pour paraplégiques et de Wings for Life, pour lancer un essai de preuve de concept randomisé chez 120 patients en Allemagne, en Espagne et en Suisse. Sa plateforme cible Nogo-A, une protéine qui bloque la régénération des fibres nerveuses — une approche différenciante dans un champ sans traitement approuvé à ce jour.",
+    "company": "NovaGo Therapeutics",
+    "stage": "Series B",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/amyl-tx-raises-e8-25m-to-develop-universal-neurodegeneration-drug/"
+    "url": "https://www.biospace.com/press-releases/novago-therapeutics-closes-usd-30-million-series-b-financing-to-advance-proof-of-concept-study-in-acute-spinal-cord-injury"
   },
   "deal": {
-    "company": "Scan.com",
-    "amount": "220 M$ (90 M$ equity + 130 M$ dette)",
-    "round": "Series C + dette",
-    "thesis": "Le marketplace britannique d'imagerie médicale, qui a doublé son chiffre d'affaires en un an (ARR > 165 M$, 900 000 patients pris en charge), lève 90 M$ en equity menés par Noteus Partners et 130 M$ de dette pour bâtir le plus grand réseau d'imagerie diagnostique aux États-Unis. La thèse à retenir : automatiser via une infrastructure d'IA agentique un maillon régulé et à forte friction du parcours de soin — routage des patients, prise de rendez-vous, restitution des résultats — plutôt que parier sur une innovation clinique amont. Un profil capital-efficient et proche du revenu, exactement le type de dossier que les VCs santé privilégient dans le climat actuel.",
-    "url": "https://venturebeat.com/business/scancom-raises-220-million-to-build-the-largest-medical-imaging-network-in-the-us"
+    "company": "HUTCHMED",
+    "amount": "110 M$ upfront (jusqu'à 1,295 Md$ au total)",
+    "round": "Licensing Deal",
+    "thesis": "GSK verse 110 M$ upfront (jusqu'à 1,295 Md$ avec les jalons) pour licencier HMPL-A830, un « Antibody-Targeted Therapy Conjugate » qui associe un inhibiteur KRAS à petite molécule à un anticorps anti-EGFR — une architecture distincte des ADC cytotoxiques classiques, visée sur les cancers colorectal, pancréatique et pulmonaire. Le deal valide une nouvelle classe de conjugués au moment où les VCs santé cherchent la prochaine génération de plateformes au-delà de l'ADC, déjà largement consolidé par le M&A des big pharmas.",
+    "url": "https://www.biospace.com/press-releases/hutchmed-announces-licensing-agreement-with-gsk-for-kras-egfr-antibody-conjugate-cancer-therapy"
   },
   "brefsEurope": [
-    { "company": "Sensorion", "place": "Montpellier, France", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Sensorion décroche l'autorisation Fast Track de l'ANSM pour sa thérapie génique auditive SENS-601",
-      "summary": "La biotech montpelliéraine cotée sur Euronext obtient le feu vert de l'agence française du médicament, via une procédure accélérée, pour lancer HearConnex, un essai de Phase I/II testant l'administration intra-cochléaire de SENS-601 chez des enfants atteints de surdité génétique liée au gène GJB2 — la cause la plus fréquente de surdité héréditaire, sans traitement causal approuvé à ce jour. Premiers patients dosés attendus début 2027.",
-      "url": "https://www.biospace.com/press-releases/sensorion-announces-approval-of-clinical-trial-application-in-france-for-sens-601-its-investigational-gene-therapy-for-the-treatment-of-gjb2-related-hearing-loss" }
+    { "company": "eCential Robotics", "place": "France", "sector": "MedTech",
+      "signalType": "acquisition", "strength": 5,
+      "title": "Enovis dépose une offre engageante pour racheter eCential Robotics jusqu'à 190 M€",
+      "summary": "Le groupe medtech américain Enovis (NYSE : ENOV) annonce une offre engageante pour racheter la pépite française de navigation et robotique chirurgicale du rachis, jusqu'à 190 M€ (155 M€ plus 35 M€ de compléments de prix). Trois semaines après avoir décroché une clearance FDA 510(k) avec Spineart pour son duo navigation-implants, eCential valide la thèse d'un exit stratégique pour les pépites européennes de la chirurgie assistée par robot.",
+      "url": "https://www.massdevice.com/enovis-to-acquire-ecential-robotics-for-e155-million-plans-to-bring-surgical-robot-to-market/" }
   ],
   "brefsIntl": [
-    { "company": "Acepodia", "place": "Taipei / Alameda (Californie)", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Acepodia obtient le feu vert de la FDA pour tester en clinique son ADC à double charge utile dans le cancer du foie",
-      "summary": "La FDA autorise l'IND d'ACE723, un anticorps-médicament conjugué ciblant GPC3 et portant deux charges cytotoxiques distinctes, pour traiter le carcinome hépatocellulaire avancé. C'est le premier candidat de la plateforme propriétaire AD2C (Antibody-Dual-Drugs Conjugation) d'Acepodia à entrer en test chez l'humain — un signal à suivre pour les VCs qui scrutent la prochaine génération d'ADC multi-payload.",
-      "url": "https://www.prnewswire.com/news-releases/acepodia-announces-fda-clearance-of-ind-application-for-ace723-a-novel-dual-payload-antibody-drug-conjugate-302869787.html" }
+    { "company": "Bayesian Health", "place": "États-Unis", "sector": "Digital Health",
+      "signalType": "reimbursement", "strength": 5,
+      "title": "Bayesian Health décroche le premier remboursement Medicare NTAP pour un moniteur de sepsis piloté par IA",
+      "summary": "Après une clearance FDA obtenue en mai, le moniteur de sepsis continu de Bayesian Health obtient l'approbation New Technology Add-on Payment de CMS, effective au 1er octobre — un remboursement hospitalier additionnel rare pour un dispositif piloté par IA, qui sécurise son adoption clinique avant même sa généralisation.",
+      "url": "https://www.prnewswire.com/news-releases/bayesian-healths-fda-cleared-continuous-ai-sepsis-monitor-approved-for-medicare-new-technology-add-on-payment-ntap-302867366.html" }
   ],
   "word": {
-    "term": "Autoantibody Degrader",
-    "full": "Autoantibody Degrader (Extracellular Antibody-Degrading Biologic)",
-    "fr": "Dégradeur d'auto-anticorps",
-    "field": "Immunologie / Maladies auto-immunes",
-    "definition": "Une biothérapie qui capture un auto-anticorps pathogène circulant et l'achemine vers les voies naturelles de dégradation de l'organisme, au lieu de se contenter de bloquer son action comme le font les immunosuppresseurs classiques.",
+    "term": "HIFU",
+    "full": "High-Intensity Focused Ultrasound",
+    "fr": "Ultrasons focalisés de haute intensité",
+    "field": "Oncologie interventionnelle / Neurologie non-invasive",
+    "definition": "Une technique qui concentre des milliers de faisceaux d'ultrasons en un point millimétrique pour détruire un tissu par la chaleur, sans incision ni rayonnement ionisant.",
     "parts": [
-      { "label": "Domaine leurre", "role": "imite la cible naturelle de l'auto-anticorps pour le capturer sélectivement" },
-      { "label": "Domaine Fc modifié", "role": "redirige le complexe capturé vers la clairance hépatique ou splénique" },
-      { "label": "Bras anti-lymphocyte B", "role": "freine, dans certains designs, la production de nouveaux auto-anticorps" }
+      { "label": "Transducteur multi-éléments", "role": "émet et focalise les ondes ultrasonores" },
+      { "label": "Guidage IRM ou échographique", "role": "localise la cible et suit la température en temps réel" },
+      { "label": "Point focal thermique", "role": "concentre l'énergie pour détruire le tissu ciblé par nécrose" }
     ],
     "how": [
-      { "n": "1", "h": "Capture", "t": "Le dégradeur se lie sélectivement à l'auto-anticorps pathogène circulant, sans toucher au reste des immunoglobulines protectrices." },
-      { "n": "2", "h": "Clairance", "t": "Le complexe formé est redirigé vers le foie ou la rate, où il est éliminé en quelques heures à quelques jours." },
-      { "n": "3", "h": "Effet durable", "t": "Certains designs suppriment aussi les lymphocytes B producteurs, ce qui retarde la réapparition de l'auto-anticorps après traitement." }
+      { "n": "1", "h": "Repérage", "t": "L'imagerie (IRM ou échographie) cartographie précisément la zone à traiter." },
+      { "n": "2", "h": "Focalisation", "t": "Des milliers d'ondes ultrasonores convergent sur un point millimétrique en traversant les tissus sains sans les léser." },
+      { "n": "3", "h": "Ablation", "t": "La température locale dépasse 60°C en quelques secondes, détruisant le tissu ciblé par nécrose de coagulation, sans chirurgie ni rayonnement." }
     ],
-    "why": "Le rachat de Merida Biosciences par Lilly (jusqu'à 2,875 Md$, annoncé cette semaine) valide cette classe de biologiques avant même une première approbation : un signal que les grands groupes veulent sécuriser la modalité tôt, en dehors de l'obésité. Pour un VC santé, c'est une thèse actionnable sur les plateformes early-stage qui maîtrisent encore ce mécanisme, avant qu'elles ne deviennent, elles aussi, des cibles de M&A.",
+    "why": "Le HIFU incarne le critère « efficience capital » cher aux VCs santé : un geste ambulatoire, sans implant ni rayonnement, plus facilement remboursable qu'une chirurgie lourde. La Series A de Sonire Therapeutics (18 M$, avril 2026) illustre l'extension de la techno à des indications jusque-là jugées inopérables par ultrasons, comme le cancer du pancréas — un signal que le champ d'application s'élargit bien au-delà de la prostate, son terrain historique.",
     "startups": [
-      { "name": "GlycoEra", "use": "Biotech au stade clinique ; son candidat GE8820 dégrade sélectivement les auto-anticorps IgG4 pathogènes sans immunosuppression généralisée", "place": "Wädenswil, Suisse" },
-      { "name": "Biohaven", "use": "Son dégradeur MoDE™ BHV-1300 est entré en Phase 3 pivot dans la maladie de Graves, avec plus de 80 % de baisse des auto-anticorps anti-récepteur de la TSH", "place": "États-Unis" },
-      { "name": "Hansa Biopharma", "use": "Commercialise Idefirix (imlifidase), une enzyme qui clive les IgG pour désensibiliser les patients hyperimmunisés avant une greffe rénale", "place": "Lund, Suède" }
+      { "name": "Sonire Therapeutics", "use": "Adapte le HIFU au cancer du pancréas, jusque-là inopérable par cette technique ; 18 M$ en Series A menée par Santé Ventures", "place": "Japon / États-Unis" },
+      { "name": "EDAP TMS", "use": "Pionnier coté du HIFU en urologie (Focal One) pour le traitement focal du cancer de la prostate", "place": "Lyon, France" },
+      { "name": "Profound Medical", "use": "Sa plateforme TULSA-PRO combine IRM et HIFU pour traiter la prostate sans chirurgie, remboursée par Medicare aux États-Unis", "place": "Toronto, Canada" },
+      { "name": "Insightec", "use": "Leader du HIFU guidé par IRM (Exablate Neuro) pour traiter le tremblement essentiel et la maladie de Parkinson sans craniotomie", "place": "Haïfa, Israël" }
     ]
   }
 }

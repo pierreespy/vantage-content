@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-07",
+  "generatedAt": "2026-09-08",
   "words": [
+    {
+      "term": "HIFU",
+      "full": "High-Intensity Focused Ultrasound",
+      "fr": "Ultrasons focalisés de haute intensité",
+      "field": "Oncologie interventionnelle / Neurologie non-invasive",
+      "definition": "Une technique qui concentre des milliers de faisceaux d'ultrasons en un point millimétrique pour détruire un tissu par la chaleur, sans incision ni rayonnement ionisant.",
+      "parts": [
+        {
+          "label": "Transducteur multi-éléments",
+          "role": "émet et focalise les ondes ultrasonores"
+        },
+        {
+          "label": "Guidage IRM ou échographique",
+          "role": "localise la cible et suit la température en temps réel"
+        },
+        {
+          "label": "Point focal thermique",
+          "role": "concentre l'énergie pour détruire le tissu ciblé par nécrose"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Repérage",
+          "t": "L'imagerie (IRM ou échographie) cartographie précisément la zone à traiter."
+        },
+        {
+          "n": "2",
+          "h": "Focalisation",
+          "t": "Des milliers d'ondes ultrasonores convergent sur un point millimétrique en traversant les tissus sains sans les léser."
+        },
+        {
+          "n": "3",
+          "h": "Ablation",
+          "t": "La température locale dépasse 60°C en quelques secondes, détruisant le tissu ciblé par nécrose de coagulation, sans chirurgie ni rayonnement."
+        }
+      ],
+      "why": "Le HIFU incarne le critère « efficience capital » cher aux VCs santé : un geste ambulatoire, sans implant ni rayonnement, plus facilement remboursable qu'une chirurgie lourde. La Series A de Sonire Therapeutics (18 M$, avril 2026) illustre l'extension de la techno à des indications jusque-là jugées inopérables par ultrasons, comme le cancer du pancréas — un signal que le champ d'application s'élargit bien au-delà de la prostate, son terrain historique.",
+      "startups": [
+        {
+          "name": "Sonire Therapeutics",
+          "use": "Adapte le HIFU au cancer du pancréas, jusque-là inopérable par cette technique ; 18 M$ en Series A menée par Santé Ventures",
+          "place": "Japon / États-Unis"
+        },
+        {
+          "name": "EDAP TMS",
+          "use": "Pionnier coté du HIFU en urologie (Focal One) pour le traitement focal du cancer de la prostate",
+          "place": "Lyon, France"
+        },
+        {
+          "name": "Profound Medical",
+          "use": "Sa plateforme TULSA-PRO combine IRM et HIFU pour traiter la prostate sans chirurgie, remboursée par Medicare aux États-Unis",
+          "place": "Toronto, Canada"
+        },
+        {
+          "name": "Insightec",
+          "use": "Leader du HIFU guidé par IRM (Exablate Neuro) pour traiter le tremblement essentiel et la maladie de Parkinson sans craniotomie",
+          "place": "Haïfa, Israël"
+        }
+      ],
+      "date": "2026-09-08",
+      "dateLong": "8 sept. 2026"
+    },
     {
       "term": "Autoantibody Degrader",
       "full": "Autoantibody Degrader (Extracellular Antibody-Degrading Biologic)",
