@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-08",
+  "generatedAt": "2026-09-09",
   "words": [
+    {
+      "term": "γδ-TCE",
+      "full": "Gamma-Delta T Cell Engager",
+      "fr": "Engageur de lymphocytes T gamma-delta",
+      "field": "Immuno-oncologie",
+      "definition": "Une molécule bispécifique qui attire des lymphocytes T gamma-delta — des cellules immunitaires capables de reconnaître les tumeurs sans passer par le HLA — directement au contact des cellules cancéreuses.",
+      "parts": [
+        {
+          "label": "Bras anti-tumeur",
+          "role": "s'accroche à l'antigène de la cellule cancéreuse"
+        },
+        {
+          "label": "Bras anti-γδ",
+          "role": "recrute et active le lymphocyte T gamma-delta"
+        },
+        {
+          "label": "Charpente bispécifique",
+          "role": "maintient les deux bras à la bonne distance pour former la synapse immunologique"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "Le bras tumoral se fixe sur un antigène de surface (EGFR, etc.) exprimé par la tumeur."
+        },
+        {
+          "n": "2",
+          "h": "Recrutement",
+          "t": "Le bras γδ engage le récepteur Vγ9Vδ2 du lymphocyte T gamma-delta, sans restriction HLA."
+        },
+        {
+          "n": "3",
+          "h": "Lyse",
+          "t": "La synapse immunologique déclenche la libération de granzymes et perforines qui détruisent la cellule tumorale."
+        }
+      ],
+      "why": "Contrairement aux T-cell engagers classiques (CD3, alpha-bêta), l'indépendance HLA des lymphocytes gamma-delta ouvre la voie à des thérapies allogéniques « off-the-shelf », sans risque de GvHD — un argument de capital-efficience majeur pour des VCs qui veulent éviter les coûts de fabrication autologue du CAR-T classique.",
+      "startups": [
+        {
+          "name": "Cytospire Therapeutics",
+          "use": "Série A oversubscrite de 61 M£ pour porter CYT X300, pan-gamma-delta TCE, en clinique dans le cancer colorectal, ORL et CPNPC EGFR+",
+          "place": "Londres, UK"
+        },
+        {
+          "name": "IN8bio",
+          "use": "Plateforme DeltEx combinant thérapie cellulaire γδ ex vivo et T-cell engager INB-600 en oncologie et maladies auto-immunes",
+          "place": "New York, US"
+        },
+        {
+          "name": "Adicet Bio",
+          "use": "Thérapies allogéniques gamma-delta « off-the-shelf » pour cancers solides et hématologiques et maladies auto-immunes, cotée Nasdaq",
+          "place": "Redwood City, US"
+        }
+      ],
+      "date": "2026-09-09",
+      "dateLong": "9 sept. 2026"
+    },
     {
       "term": "HIFU",
       "full": "High-Intensity Focused Ultrasound",
