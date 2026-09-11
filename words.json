@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-11",
   "words": [
+    {
+      "term": "PDC",
+      "full": "Peptide-Drug Conjugate",
+      "fr": "Conjugué peptide-médicament",
+      "field": "Oncologie de précision",
+      "definition": "Une molécule qui utilise un peptide court — plutôt qu'un anticorps entier — pour transporter une charge cytotoxique jusqu'à une cible tumorale précise.",
+      "parts": [
+        {
+          "label": "Peptide de ciblage",
+          "role": "reconnaît une cible tumorale, y compris là où un anticorps n'a pas accès"
+        },
+        {
+          "label": "Linker",
+          "role": "reste stable dans le sang puis se clive une fois la cellule atteinte"
+        },
+        {
+          "label": "Charge cytotoxique",
+          "role": "détruit la cellule tumorale une fois libérée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "Le peptide se lie à un récepteur ou une cible de surface tumorale, y compris des cibles jugées difficiles à atteindre pour un anticorps."
+        },
+        {
+          "n": "2",
+          "h": "Pénétration",
+          "t": "Sa petite taille lui permet de diffuser dans des tissus et tumeurs peu vascularisés, moins accessibles aux ADC classiques."
+        },
+        {
+          "n": "3",
+          "h": "Libération",
+          "t": "Le linker se clive une fois la cible atteinte, libérant la charge cytotoxique au site tumoral."
+        }
+      ],
+      "why": "Face au coût de fabrication et à la taille des anticorps monoclonaux, les PDC promettent une chimie de synthèse plus simple, moins chère à produire à grande échelle, et une meilleure pénétration tissulaire — un argument de capital-efficience qui attire déjà des CVC pharma dès la Series A.",
+      "startups": [
+        {
+          "name": "TwoStep Therapeutics",
+          "use": "Series A sursouscrite de 62,5 M$ et clearance FDA de l'IND pour TS-104, PDC multi-spécifique issu des travaux de Carolyn Bertozzi à Stanford",
+          "place": "Palo Alto, US"
+        },
+        {
+          "name": "Bicycle Therapeutics",
+          "use": "Plateforme de peptides bicycliques contraints (Bicycle® Drug Conjugates) ; nuzefatide pevedotin ciblant EphA2 testé chez plus de 150 patients",
+          "place": "Cambridge, UK"
+        },
+        {
+          "name": "Avacta Therapeutics",
+          "use": "Plateforme pre|CISION de PDC à activation tumorale ; AVA6103 en développement clinique",
+          "place": "Londres, UK"
+        },
+        {
+          "name": "Oncopeptides",
+          "use": "Plateforme PDC propriétaire ; premier essai clinique de PDC en glioblastome initié en 2026",
+          "place": "Stockholm, Suède"
+        }
+      ],
+      "date": "2026-09-11",
+      "dateLong": "11 sept. 2026"
+    },
     {
       "term": "γδ-TCE",
       "full": "Gamma-Delta T Cell Engager",
