@@ -1,70 +1,76 @@
 {
-  "dateLong": "11 sept. 2026",
+  "dateLong": "12 sept. 2026",
   "ticker": [
-    { "company": "TwoStep Therapeutics", "amount": "$62,5M", "kind": "lev" },
-    { "company": "Solstice Oncology", "amount": "$225M", "kind": "lev" },
-    { "company": "Axogen / BioCircuit", "amount": "$200M", "kind": "mna" },
-    { "company": "Elucid", "amount": "$55M", "kind": "lev" },
-    { "company": "Cloverleaf Bio", "amount": "$33M", "kind": "lev" },
-    { "company": "GenHealth.ai", "amount": "$16,5M", "kind": "lev" }
+    { "company": "Implicity", "amount": "€35M", "kind": "lev" },
+    { "company": "Tectora Therapeutics", "amount": "$55M", "kind": "lev" },
+    { "company": "Inspiren", "amount": "$70M", "kind": "lev" },
+    { "company": "BrainChild Bio", "amount": "$116M", "kind": "lev" },
+    { "company": "Rightway Healthcare", "amount": "$155M", "kind": "lev" },
+    { "company": "Hope Care", "amount": "€6M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Series A · Oncologie",
-    "title": "TwoStep Therapeutics décroche le feu vert FDA pour son peptide-drug conjugate multi-spécifique et boucle un Series A sursouscrite de 62,5 M$",
-    "deck": "La biotech de Palo Alto, cofondée par la Prix Nobel de chimie Carolyn Bertozzi avec deux autres professeurs de Stanford, obtient la clearance FDA de l'IND pour TS-104 et referme dans la foulée un tour mené par Insight Partners et Medical Excellence Capital, avec Pfizer Ventures et M Ventures en co-lead. Le pari : un conjugué peptide-médicament capable d'atteindre des cibles tumorales inaccessibles aux anticorps classiques, à un coût de fabrication bien inférieur à celui d'un ADC — une thèse capital-efficace qui explique l'engagement d'un CVC pharma dès la Series A.",
-    "company": "TwoStep Therapeutics",
-    "stage": "Series A",
+    "kicker": "Growth · Cardiologie digitale",
+    "title": "Implicity lève 35 M€ pour prouver que son IA de monitoring cardiaque réduit la mortalité de 26 % avant d'attaquer les États-Unis",
+    "deck": "La medtech parisienne, dont la plateforme agrège les données cardiaques de plus de 250 centres et 120 000 patients au-delà des fabricants de dispositifs, referme un tour de croissance de 35 M€ co-mené par IRIS et Five Arrows (Rothschild & Co) après avoir démontré une réduction de 26 % de la mortalité et 4 % des hospitalisations grâce à ses algorithmes prédictifs d'insuffisance cardiaque. Le financement doit accélérer son expansion américaine — la preuve qu'une medtech capital-efficiente peut transformer un outil de suivi en argument de remboursement avant même l'entrée sur un nouveau marché.",
+    "company": "Implicity",
+    "stage": "Growth",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.biospace.com/press-releases/twostep-therapeutics-announces-oversubscribed-62-5-million-series-a-financing-and-fda-clearance-of-ind-for-first-in-class-peptide-drug-conjugate"
+    "strength": 5,
+    "url": "https://www.eu-startups.com/2026/09/french-cardiac-monitoring-startup-implicity-reports-26-lower-mortality-as-it-raises-e35-million"
   },
   "deal": {
-    "company": "Solstice Oncology",
-    "amount": "$225M",
+    "company": "Tectora Therapeutics",
+    "amount": "$55M",
     "round": "Series A",
-    "thesis": "Solstice boucle une Series A de 225 M$ menée par RA Capital Management, avec Canaan Partners et le fonds santé néerlandais Forbion, pour licencier hors Chine porustobart, un anticorps anti-CTLA-4 de seconde génération développé par Harbour BioMed. La thèse : déplacer le CTLA-4 vers le cadre néoadjuvant — avant chirurgie plutôt qu'en dernière ligne — où son profil Fc-enhanced pourrait enfin transformer un mécanisme jusqu'ici décevant, en s'appuyant sur un deal de licensing plutôt que sur un développement interne coûteux.",
-    "url": "https://www.biospace.com/press-releases/solstice-oncology-launches-with-225-million-series-a-financing-to-advance-porustobart-a-neoadjuvant-immuno-oncology-therapy"
+    "thesis": "Schrödinger, dont la plateforme de conception moléculaire assistée par IA et par la physique alimente déjà plusieurs biotechs, cofonde Tectora Therapeutics avec New Enterprise Associates et RA Capital Management, qui co-mènent ce tour de 55 M$. Plutôt que de développer en interne, Schrödinger licencie deux programmes précliniques en immuno-inflammation à cette NewCo contre une participation au capital et des royalties futures — un modèle « asset-centric » qui permet à une plateforme computationnelle de monétiser son pipeline sans diluer son bilan, une mécanique de plus en plus reprise par les fonds de biotech de précision.",
+    "url": "https://www.biospace.com/press-releases/schrodinger-announces-licensing-and-collaboration-agreement-with-tectora-therapeutics-a-new-biotechnology-company-it-co-founded-to-advance-immunology-and-inflammation-programs"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
-    { "company": "BioCircuit Technologies", "place": "Atlanta", "sector": "MedTech",
-      "signalType": "acquisition", "strength": 5,
-      "title": "Axogen rachète BioCircuit Technologies pour 200 M$ et met la main sur le seul dispositif de réparation nerveuse sans suture approuvé par la FDA",
-      "summary": "Axogen, spécialiste coté de la chirurgie nerveuse périphérique, sécurise NerveTape, le patch qui reconnecte des nerfs sectionnés sans microsuture — une validation par un acquéreur stratégique du marché de la réparation nerveuse assistée par dispositif, un signal de sortie pour les medtechs positionnées sur ce segment encore fragmenté.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/10/3359277/0/en/axogen-enters-into-definitive-agreement-to-acquire-biocircuit-technologies.html" },
-    { "company": "Rezera", "place": "Boston", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 4,
-      "title": "Rezera (ex-NodThera) atteint son critère principal en phase II et enclenche la phase III de son inhibiteur de l'inflammasome NLRP3 dans l'artériopathie périphérique",
-      "summary": "Le rebranding accompagne des données positives de l'essai RESOLVE-1 sur ruvonoflast, qui réduit la CRP à haute sensibilité sur une large population cardiométabolique — la biotech, née à Cambridge (UK) avant de s'installer à Boston, aligne son design de phase III avec les régulateurs pour un lancement en 2027.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/09/3358604/0/en/rezera-announces-ruvonoflast-met-its-primary-inflammation-endpoint-and-demonstrated-favorable-safety-profile-in-resolve-1-phase-2-clinical-trial.html" },
-    { "company": "GenHealth.ai", "place": "Boston", "sector": "Digital Health",
+  "brefsEurope": [
+    { "company": "Hope Care", "place": "Óbidos", "sector": "Digital Health",
       "signalType": "funding_round", "strength": 4,
-      "title": "GenHealth.ai lève 16,5 M$ en Series A pour déployer des agents IA qui automatisent le back-office médical",
-      "summary": "Mené par Flare Capital Partners avec Craft Ventures, Obvious Ventures et plusieurs CVC santé, ce tour finance l'extension d'agents entraînés sur les données codées de 140 millions de patients pour automatiser pré-autorisations, facturation et gestion des refus — un pari sur l'automatisation du back-office comme porte d'entrée capital-efficiente dans les systèmes hospitaliers.",
-      "url": "https://www.mobihealthnews.com/news/genhealthai-raises-165m-expand-healthcare-ai-agents" }
+      "title": "Hope Care boucle une Series A de 6 M€ pour étendre sa télésurveillance multi-pathologies en Europe",
+      "summary": "La medtech portugaise, dont la plateforme OpMA couvre déjà 15 unités de santé et environ 45 % des patients suivis par le système de santé national, referme un tour mené par Iberis Capital pour lancer ses programmes en Allemagne et en Roumanie d'ici la fin de l'année.",
+      "url": "https://www.eu-startups.com/2026/09/portugals-hope-care-closes-e6-million-series-a-to-expand-remote-patient-monitoring-across-europe" },
+    { "company": "Check Point Care", "place": "Kazanlak", "sector": "Digital Health",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "La bulgare Check Point Care décroche de nouveaux pilotes hospitaliers et dépasse 10 000 commandes en attente pour ses capteurs cardiaques portés",
+      "summary": "Née d'un projet Horizon 2020 validé dans quatre hôpitaux universitaires européens, la medtech de Kazanlak élargit ses accords pilotes hospitaliers — un signal amont sur un acteur est-européen encore peu couvert par les VC santé d'Europe de l'Ouest.",
+      "url": "https://www.healthcare.digital/single-post/nelson-advisors-this-week-in-european-healthtech-medtech-and-health-ai-11th-september-2026" }
+  ],
+  "brefsIntl": [
+    { "company": "Nutromics", "place": "Melbourne", "sector": "MedTech",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "Nutromics décroche une FDA Breakthrough Device Designation pour son patch de monitoring de la vancomycine",
+      "summary": "Le « lab-on-a-patch » australien, à base de biocapteurs ADN et de micro-aiguilles, cible le dosage difficile de cet antibiotique critique en réanimation ; la désignation accélère sa trajectoire vers un lancement américain visé en 2027, après des essais cliniques déjà menés en Australie.",
+      "url": "https://www.biospace.com/press-releases/nutromics-receives-fda-breakthrough-device-designation" },
+    { "company": "Inspiren", "place": "Brooklyn", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 5,
+      "title": "Inspiren boucle un Series C de 70 M$ pour son IA physique de sécurité en résidences seniors",
+      "summary": "Mené par NewView Capital avec Insight Partners, ce tour valorise la medtech new-yorkaise à plus de 500 M$ et porte son capital total à 225 M$ — la validation d'un marché encore jeune, la détection de chutes et le suivi comportemental par capteurs dans les résidences seniors.",
+      "url": "http://www.prnewswire.com/news-releases/inspiren-raises-70m-series-c-to-scale-physical-ai-for-senior-living-302874801.html" }
   ],
   "word": {
-    "term": "PDC",
-    "full": "Peptide-Drug Conjugate",
-    "fr": "Conjugué peptide-médicament",
-    "field": "Oncologie de précision",
-    "definition": "Une molécule qui utilise un peptide court — plutôt qu'un anticorps entier — pour transporter une charge cytotoxique jusqu'à une cible tumorale précise.",
+    "term": "RPM",
+    "full": "Remote Patient Monitoring",
+    "fr": "Télésurveillance médicale",
+    "field": "Digital Health · Cardiologie et maladies chroniques",
+    "definition": "Un dispositif ou capteur connecté suit en continu un paramètre physiologique du patient à son domicile et transmet la donnée à une équipe soignante, pour agir avant l'aggravation plutôt qu'après.",
     "parts": [
-      { "label": "Peptide de ciblage", "role": "reconnaît une cible tumorale, y compris là où un anticorps n'a pas accès" },
-      { "label": "Linker", "role": "reste stable dans le sang puis se clive une fois la cellule atteinte" },
-      { "label": "Charge cytotoxique", "role": "détruit la cellule tumorale une fois libérée" }
+      { "label": "Capteur connecté", "role": "capte en continu un paramètre physiologique hors de l'hôpital" },
+      { "label": "Plateforme d'agrégation IA", "role": "trie et priorise les alertes selon leur urgence clinique" },
+      { "label": "Équipe clinique", "role": "intervient sur le patient avant l'hospitalisation" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "Le peptide se lie à un récepteur ou une cible de surface tumorale, y compris des cibles jugées difficiles à atteindre pour un anticorps." },
-      { "n": "2", "h": "Pénétration", "t": "Sa petite taille lui permet de diffuser dans des tissus et tumeurs peu vascularisés, moins accessibles aux ADC classiques." },
-      { "n": "3", "h": "Libération", "t": "Le linker se clive une fois la cible atteinte, libérant la charge cytotoxique au site tumoral." }
+      { "n": "1", "h": "Captation", "t": "Un objet connecté (patch, pilulier, ECG portable...) mesure en continu un paramètre physiologique du patient à domicile et le transmet automatiquement à une plateforme." },
+      { "n": "2", "h": "Triage algorithmique", "t": "Une IA agrège les flux de plusieurs fabricants de dispositifs, filtre le bruit et hiérarchise les alertes selon leur urgence clinique réelle." },
+      { "n": "3", "h": "Intervention précoce", "t": "L'équipe soignante contacte le patient ou ajuste son traitement avant qu'une complication ne nécessite une hospitalisation en urgence." }
     ],
-    "why": "Face au coût de fabrication et à la taille des anticorps monoclonaux, les PDC promettent une chimie de synthèse plus simple, moins chère à produire à grande échelle, et une meilleure pénétration tissulaire — un argument de capital-efficience qui attire déjà des CVC pharma dès la Series A.",
+    "why": "Face à la pression sur les réhospitalisations coûteuses, les payeurs rémunèrent désormais le suivi à distance (codes CPT RPM aux États-Unis, forfaits de télésurveillance en France) : une plateforme qui prouve une baisse de mortalité ou d'hospitalisations transforme un simple outil de suivi en argument de remboursement — un modèle capital-efficient, à la croisée du logiciel et du dispositif médical, qui attire aussi bien des fonds de croissance que des VC santé early-stage.",
     "startups": [
-      { "name": "TwoStep Therapeutics", "use": "Series A sursouscrite de 62,5 M$ et clearance FDA de l'IND pour TS-104, PDC multi-spécifique issu des travaux de Carolyn Bertozzi à Stanford", "place": "Palo Alto, US" },
-      { "name": "Bicycle Therapeutics", "use": "Plateforme de peptides bicycliques contraints (Bicycle® Drug Conjugates) ; nuzefatide pevedotin ciblant EphA2 testé chez plus de 150 patients", "place": "Cambridge, UK" },
-      { "name": "Avacta Therapeutics", "use": "Plateforme pre|CISION de PDC à activation tumorale ; AVA6103 en développement clinique", "place": "Londres, UK" },
-      { "name": "Oncopeptides", "use": "Plateforme PDC propriétaire ; premier essai clinique de PDC en glioblastome initié en 2026", "place": "Stockholm, Suède" }
+      { "name": "Implicity", "use": "Plateforme IA de télésurveillance cardiaque multi-fabricants ; 26 % de réduction de mortalité démontrée sur 120 000 patients suivis, tour de croissance de 35 M€ mené par IRIS et Five Arrows", "place": "Paris, France" },
+      { "name": "Hope Care", "use": "Plateforme OpMA de télésurveillance multi-pathologies (insuffisance cardiaque, BPCO, diabète) déployée dans 15 unités de santé portugaises ; Series A de 6 M€ menée par Iberis Capital", "place": "Óbidos, Portugal" },
+      { "name": "Huma", "use": "Plateforme de télésurveillance et d'essais cliniques virtuels déployée dans plus de 3 000 hôpitaux et cliniques ; Series D de 80 M$", "place": "Londres, UK" },
+      { "name": "Cadence", "use": "Agents IA de télésurveillance des maladies chroniques (hypertension, diabète, insuffisance cardiaque) pour plus de 100 000 patients ; Series C de 100 M$ menée par Spark Capital, partenariat avec Duke Health", "place": "New York, US" }
     ]
   }
 }

@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-11",
+  "generatedAt": "2026-09-12",
   "words": [
+    {
+      "term": "RPM",
+      "full": "Remote Patient Monitoring",
+      "fr": "Télésurveillance médicale",
+      "field": "Digital Health · Cardiologie et maladies chroniques",
+      "definition": "Un dispositif ou capteur connecté suit en continu un paramètre physiologique du patient à son domicile et transmet la donnée à une équipe soignante, pour agir avant l'aggravation plutôt qu'après.",
+      "parts": [
+        {
+          "label": "Capteur connecté",
+          "role": "capte en continu un paramètre physiologique hors de l'hôpital"
+        },
+        {
+          "label": "Plateforme d'agrégation IA",
+          "role": "trie et priorise les alertes selon leur urgence clinique"
+        },
+        {
+          "label": "Équipe clinique",
+          "role": "intervient sur le patient avant l'hospitalisation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Captation",
+          "t": "Un objet connecté (patch, pilulier, ECG portable...) mesure en continu un paramètre physiologique du patient à domicile et le transmet automatiquement à une plateforme."
+        },
+        {
+          "n": "2",
+          "h": "Triage algorithmique",
+          "t": "Une IA agrège les flux de plusieurs fabricants de dispositifs, filtre le bruit et hiérarchise les alertes selon leur urgence clinique réelle."
+        },
+        {
+          "n": "3",
+          "h": "Intervention précoce",
+          "t": "L'équipe soignante contacte le patient ou ajuste son traitement avant qu'une complication ne nécessite une hospitalisation en urgence."
+        }
+      ],
+      "why": "Face à la pression sur les réhospitalisations coûteuses, les payeurs rémunèrent désormais le suivi à distance (codes CPT RPM aux États-Unis, forfaits de télésurveillance en France) : une plateforme qui prouve une baisse de mortalité ou d'hospitalisations transforme un simple outil de suivi en argument de remboursement — un modèle capital-efficient, à la croisée du logiciel et du dispositif médical, qui attire aussi bien des fonds de croissance que des VC santé early-stage.",
+      "startups": [
+        {
+          "name": "Implicity",
+          "use": "Plateforme IA de télésurveillance cardiaque multi-fabricants ; 26 % de réduction de mortalité démontrée sur 120 000 patients suivis, tour de croissance de 35 M€ mené par IRIS et Five Arrows",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Hope Care",
+          "use": "Plateforme OpMA de télésurveillance multi-pathologies (insuffisance cardiaque, BPCO, diabète) déployée dans 15 unités de santé portugaises ; Series A de 6 M€ menée par Iberis Capital",
+          "place": "Óbidos, Portugal"
+        },
+        {
+          "name": "Huma",
+          "use": "Plateforme de télésurveillance et d'essais cliniques virtuels déployée dans plus de 3 000 hôpitaux et cliniques ; Series D de 80 M$",
+          "place": "Londres, UK"
+        },
+        {
+          "name": "Cadence",
+          "use": "Agents IA de télésurveillance des maladies chroniques (hypertension, diabète, insuffisance cardiaque) pour plus de 100 000 patients ; Series C de 100 M$ menée par Spark Capital, partenariat avec Duke Health",
+          "place": "New York, US"
+        }
+      ],
+      "date": "2026-09-12",
+      "dateLong": "12 sept. 2026"
+    },
     {
       "term": "PDC",
       "full": "Peptide-Drug Conjugate",
