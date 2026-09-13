@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-12",
+  "generatedAt": "2026-09-13",
   "words": [
+    {
+      "term": "AAV Capsid Engineering",
+      "full": "Adeno-Associated Virus Capsid Engineering",
+      "fr": "Ingénierie de capside AAV",
+      "field": "Thérapie génique · Vecteurs de délivrance",
+      "definition": "Redessiner l'enveloppe protéique (capside) d'un vecteur viral AAV pour qu'il cible précisément un organe et échappe aux anticorps déjà présents chez le patient, plutôt que de se contenter d'un sérotype naturel.",
+      "parts": [
+        {
+          "label": "Capside",
+          "role": "la coque protéique qui protège et adresse le vecteur"
+        },
+        {
+          "label": "Peptides greffés",
+          "role": "le code d'accès qui redirige vers l'organe visé"
+        },
+        {
+          "label": "Cargo génétique",
+          "role": "le gène thérapeutique livré une fois la cellule atteinte"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Criblage à haut débit",
+          "t": "Des millions de variantes de capside sont générées puis testées in vivo ou par IA pour repérer celles qui atteignent sélectivement un tissu cible (cerveau, muscle, rétine...)."
+        },
+        {
+          "n": "2",
+          "h": "Évasion immunitaire",
+          "t": "La capside est modifiée pour échapper aux anticorps neutralisants déjà présents chez une large part de la population, un frein majeur à l'éligibilité des patients et à la redose."
+        },
+        {
+          "n": "3",
+          "h": "Délivrance ciblée",
+          "t": "Le vecteur optimisé achemine le gène thérapeutique directement vers l'organe visé, ce qui permet de réduire la dose systémique et donc la toxicité, notamment hépatique."
+        }
+      ],
+      "why": "La capside est devenue le vrai goulot d'étranglement — et donc la thèse d'investissement — de toute la thérapie génique in vivo : mieux cibler permet de baisser les doses, la toxicité et le coût de fabrication, ce qui justifie des deals de plateforme à neuf chiffres (Capsida/AbbVie, Affinia/Vertex, Dyno/Astellas) et des levées comme celle d'Encoded Therapeutics ce jour pour son vecteur AAV9 dans le syndrome de Dravet.",
+      "startups": [
+        {
+          "name": "Coave Therapeutics",
+          "use": "Plateforme de capside universelle OneAAV (faible séroprévalence, ciblage biologique découplé du sérotype) pour la thérapie génique oculaire et du système nerveux central",
+          "place": "Paris, France"
+        },
+        {
+          "name": "AaviGen",
+          "use": "Plateforme next-CAP de vecteurs AAV à tropisme organe-spécifique pour les maladies cardiovasculaires",
+          "place": "Allemagne"
+        },
+        {
+          "name": "Dyno Therapeutics",
+          "use": "Plateforme CapsidMap pilotée par IA pour concevoir des capsides AAV ; partenariats de plateforme avec Novartis, Roche et Astellas",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Affinia Therapeutics",
+          "use": "Ingénierie de capside AAV pour le système nerveux central et le cœur ; Series B de 110 M$ et partenariat de plateforme avec Vertex Pharmaceuticals",
+          "place": "Waltham, États-Unis"
+        }
+      ],
+      "date": "2026-09-13",
+      "dateLong": "13 sept. 2026"
+    },
     {
       "term": "RPM",
       "full": "Remote Patient Monitoring",

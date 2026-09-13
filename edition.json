@@ -1,76 +1,60 @@
 {
-  "dateLong": "12 sept. 2026",
+  "dateLong": "13 sept. 2026",
   "ticker": [
-    { "company": "Implicity", "amount": "€35M", "kind": "lev" },
-    { "company": "Tectora Therapeutics", "amount": "$55M", "kind": "lev" },
-    { "company": "Inspiren", "amount": "$70M", "kind": "lev" },
-    { "company": "BrainChild Bio", "amount": "$116M", "kind": "lev" },
-    { "company": "Rightway Healthcare", "amount": "$155M", "kind": "lev" },
-    { "company": "Hope Care", "amount": "€6M", "kind": "lev" }
+    { "company": "Encoded Therapeutics", "amount": "$275M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Growth · Cardiologie digitale",
-    "title": "Implicity lève 35 M€ pour prouver que son IA de monitoring cardiaque réduit la mortalité de 26 % avant d'attaquer les États-Unis",
-    "deck": "La medtech parisienne, dont la plateforme agrège les données cardiaques de plus de 250 centres et 120 000 patients au-delà des fabricants de dispositifs, referme un tour de croissance de 35 M€ co-mené par IRIS et Five Arrows (Rothschild & Co) après avoir démontré une réduction de 26 % de la mortalité et 4 % des hospitalisations grâce à ses algorithmes prédictifs d'insuffisance cardiaque. Le financement doit accélérer son expansion américaine — la preuve qu'une medtech capital-efficiente peut transformer un outil de suivi en argument de remboursement avant même l'entrée sur un nouveau marché.",
-    "company": "Implicity",
-    "stage": "Growth",
-    "signalType": "funding_round",
-    "strength": 5,
-    "url": "https://www.eu-startups.com/2026/09/french-cardiac-monitoring-startup-implicity-reports-26-lower-mortality-as-it-raises-e35-million"
+    "kicker": "Nomination · Anticorps thérapeutiques",
+    "title": "Alchemab Therapeutics muscle sa direction médicale pour préparer l'entrée en clinique de sa plateforme d'anticorps issus de patients \"résilients\"",
+    "deck": "La biotech de Cambridge, qui explore le sang de patients ayant naturellement résisté à des maladies neurodégénératives et auto-immunes pour en extraire des anticorps thérapeutiques, recrute le Dr Ben Porter-Brown — ex-directeur médical d'ImageneBio et vétéran du développement clinique chez Gilead — comme Chief Medical Officer. Le renfort intervient deux mois après qu'Alchemab a porté son Series A à 109 M£ (le plus gros investissement direct jamais réalisé par la British Business Bank en sciences de la vie), signe qu'un VC santé a intérêt à repérer la société avant sa prochaine levée plutôt qu'au moment de son Series B.",
+    "company": "Alchemab Therapeutics",
+    "stage": "Series A",
+    "signalType": "leadership_hire",
+    "strength": 3,
+    "url": "https://www.01net.it/alchemab-therapeutics-expands-leadership-team-appointing-dr-ben-porter-brown-as-cmo-to-propel-the-clinical-advancement-of-its-pipeline/"
   },
   "deal": {
-    "company": "Tectora Therapeutics",
-    "amount": "$55M",
-    "round": "Series A",
-    "thesis": "Schrödinger, dont la plateforme de conception moléculaire assistée par IA et par la physique alimente déjà plusieurs biotechs, cofonde Tectora Therapeutics avec New Enterprise Associates et RA Capital Management, qui co-mènent ce tour de 55 M$. Plutôt que de développer en interne, Schrödinger licencie deux programmes précliniques en immuno-inflammation à cette NewCo contre une participation au capital et des royalties futures — un modèle « asset-centric » qui permet à une plateforme computationnelle de monétiser son pipeline sans diluer son bilan, une mécanique de plus en plus reprise par les fonds de biotech de précision.",
-    "url": "https://www.biospace.com/press-releases/schrodinger-announces-licensing-and-collaboration-agreement-with-tectora-therapeutics-a-new-biotechnology-company-it-co-founded-to-advance-immunology-and-inflammation-programs"
+    "company": "Encoded Therapeutics",
+    "amount": "$275M",
+    "round": "Series F",
+    "thesis": "Encoded referme un tour de croissance de 275 M$ mené par un syndicat emmené par Google Ventures, ARCH Venture Partners et SoftBank Vision Fund 2, pour financer l'étude pivot de son ETX101 dans le syndrome de Dravet lié au gène SCN1A. Plutôt que d'exprimer un gène de remplacement, la biothérapie AAV utilise un promoteur génétique modifié pour réactiver sélectivement l'expression du gène déficient dans les interneurones — une preuve que l'ingénierie fine des vecteurs (promoteurs, capsides, ciblage) est devenue le vrai terrain de bataille, et la thèse d'investissement, de toute la nouvelle génération de thérapie génique.",
+    "url": "https://www.biospace.com/press-releases/encoded-therapeutics-raises-275-million-in-series-f-financing-to-advance-etx101-through-pivotal-development-and-accelerate-its-precision-genetic-medicines-neurology-pipeline"
   },
-  "brefsEurope": [
-    { "company": "Hope Care", "place": "Óbidos", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 4,
-      "title": "Hope Care boucle une Series A de 6 M€ pour étendre sa télésurveillance multi-pathologies en Europe",
-      "summary": "La medtech portugaise, dont la plateforme OpMA couvre déjà 15 unités de santé et environ 45 % des patients suivis par le système de santé national, referme un tour mené par Iberis Capital pour lancer ses programmes en Allemagne et en Roumanie d'ici la fin de l'année.",
-      "url": "https://www.eu-startups.com/2026/09/portugals-hope-care-closes-e6-million-series-a-to-expand-remote-patient-monitoring-across-europe" },
-    { "company": "Check Point Care", "place": "Kazanlak", "sector": "Digital Health",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "La bulgare Check Point Care décroche de nouveaux pilotes hospitaliers et dépasse 10 000 commandes en attente pour ses capteurs cardiaques portés",
-      "summary": "Née d'un projet Horizon 2020 validé dans quatre hôpitaux universitaires européens, la medtech de Kazanlak élargit ses accords pilotes hospitaliers — un signal amont sur un acteur est-européen encore peu couvert par les VC santé d'Europe de l'Ouest.",
-      "url": "https://www.healthcare.digital/single-post/nelson-advisors-this-week-in-european-healthtech-medtech-and-health-ai-11th-september-2026" }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Nutromics", "place": "Melbourne", "sector": "MedTech",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "Nutromics décroche une FDA Breakthrough Device Designation pour son patch de monitoring de la vancomycine",
-      "summary": "Le « lab-on-a-patch » australien, à base de biocapteurs ADN et de micro-aiguilles, cible le dosage difficile de cet antibiotique critique en réanimation ; la désignation accélère sa trajectoire vers un lancement américain visé en 2027, après des essais cliniques déjà menés en Australie.",
-      "url": "https://www.biospace.com/press-releases/nutromics-receives-fda-breakthrough-device-designation" },
-    { "company": "Inspiren", "place": "Brooklyn", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 5,
-      "title": "Inspiren boucle un Series C de 70 M$ pour son IA physique de sécurité en résidences seniors",
-      "summary": "Mené par NewView Capital avec Insight Partners, ce tour valorise la medtech new-yorkaise à plus de 500 M$ et porte son capital total à 225 M$ — la validation d'un marché encore jeune, la détection de chutes et le suivi comportemental par capteurs dans les résidences seniors.",
-      "url": "http://www.prnewswire.com/news-releases/inspiren-raises-70m-series-c-to-scale-physical-ai-for-senior-living-302874801.html" }
+    { "company": "PerZeption", "place": "Boston", "sector": "Diagnostics",
+      "signalType": "grant_award", "strength": 3,
+      "title": "PerZeption décroche une subvention SBIR du National Eye Institute pour un test de récupération au photostress dans la DMLA",
+      "summary": "La startup bostonienne développe, sur sa plateforme tablette AIM et en collaboration avec l'UC Irvine, un test rapide capable de détecter un déficit fonctionnel lié à la dégénérescence maculaire avant qu'il ne soit visible à l'acuité visuelle standard — un signal précoce sur un outil de diagnostic encore non dilutif.",
+      "url": "https://www.prnewswire.com/news-releases/perzeption-awarded-nei-phase-1-sbir-grant-for-age-related-macular-degeneration-study-302876790.html" },
+    { "company": "Sobi", "place": "Stockholm", "sector": "Pharma",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Sobi obtient la Fast Track de la FDA pour son inhibiteur IRAK1/JAK2 dans le syndrome VEXAS",
+      "summary": "Le laboratoire suédois avance pacritinib, un inhibiteur oral déjà commercialisé dans la myélofibrose, vers cette maladie auto-inflammatoire rare décrite en 2020 (mutation somatique d'UBA1) — un jalon de grand laboratoire à suivre comme comparable, révélateur de l'appétit naissant des investisseurs pour les rares diseases immuno-inflammatoires.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/09/3359003/0/en/sobi-receives-us-fda-fast-track-designation-for-pacritinib-in-vexas-syndrome.html" }
   ],
   "word": {
-    "term": "RPM",
-    "full": "Remote Patient Monitoring",
-    "fr": "Télésurveillance médicale",
-    "field": "Digital Health · Cardiologie et maladies chroniques",
-    "definition": "Un dispositif ou capteur connecté suit en continu un paramètre physiologique du patient à son domicile et transmet la donnée à une équipe soignante, pour agir avant l'aggravation plutôt qu'après.",
+    "term": "AAV Capsid Engineering",
+    "full": "Adeno-Associated Virus Capsid Engineering",
+    "fr": "Ingénierie de capside AAV",
+    "field": "Thérapie génique · Vecteurs de délivrance",
+    "definition": "Redessiner l'enveloppe protéique (capside) d'un vecteur viral AAV pour qu'il cible précisément un organe et échappe aux anticorps déjà présents chez le patient, plutôt que de se contenter d'un sérotype naturel.",
     "parts": [
-      { "label": "Capteur connecté", "role": "capte en continu un paramètre physiologique hors de l'hôpital" },
-      { "label": "Plateforme d'agrégation IA", "role": "trie et priorise les alertes selon leur urgence clinique" },
-      { "label": "Équipe clinique", "role": "intervient sur le patient avant l'hospitalisation" }
+      { "label": "Capside", "role": "la coque protéique qui protège et adresse le vecteur" },
+      { "label": "Peptides greffés", "role": "le code d'accès qui redirige vers l'organe visé" },
+      { "label": "Cargo génétique", "role": "le gène thérapeutique livré une fois la cellule atteinte" }
     ],
     "how": [
-      { "n": "1", "h": "Captation", "t": "Un objet connecté (patch, pilulier, ECG portable...) mesure en continu un paramètre physiologique du patient à domicile et le transmet automatiquement à une plateforme." },
-      { "n": "2", "h": "Triage algorithmique", "t": "Une IA agrège les flux de plusieurs fabricants de dispositifs, filtre le bruit et hiérarchise les alertes selon leur urgence clinique réelle." },
-      { "n": "3", "h": "Intervention précoce", "t": "L'équipe soignante contacte le patient ou ajuste son traitement avant qu'une complication ne nécessite une hospitalisation en urgence." }
+      { "n": "1", "h": "Criblage à haut débit", "t": "Des millions de variantes de capside sont générées puis testées in vivo ou par IA pour repérer celles qui atteignent sélectivement un tissu cible (cerveau, muscle, rétine...)." },
+      { "n": "2", "h": "Évasion immunitaire", "t": "La capside est modifiée pour échapper aux anticorps neutralisants déjà présents chez une large part de la population, un frein majeur à l'éligibilité des patients et à la redose." },
+      { "n": "3", "h": "Délivrance ciblée", "t": "Le vecteur optimisé achemine le gène thérapeutique directement vers l'organe visé, ce qui permet de réduire la dose systémique et donc la toxicité, notamment hépatique." }
     ],
-    "why": "Face à la pression sur les réhospitalisations coûteuses, les payeurs rémunèrent désormais le suivi à distance (codes CPT RPM aux États-Unis, forfaits de télésurveillance en France) : une plateforme qui prouve une baisse de mortalité ou d'hospitalisations transforme un simple outil de suivi en argument de remboursement — un modèle capital-efficient, à la croisée du logiciel et du dispositif médical, qui attire aussi bien des fonds de croissance que des VC santé early-stage.",
+    "why": "La capside est devenue le vrai goulot d'étranglement — et donc la thèse d'investissement — de toute la thérapie génique in vivo : mieux cibler permet de baisser les doses, la toxicité et le coût de fabrication, ce qui justifie des deals de plateforme à neuf chiffres (Capsida/AbbVie, Affinia/Vertex, Dyno/Astellas) et des levées comme celle d'Encoded Therapeutics ce jour pour son vecteur AAV9 dans le syndrome de Dravet.",
     "startups": [
-      { "name": "Implicity", "use": "Plateforme IA de télésurveillance cardiaque multi-fabricants ; 26 % de réduction de mortalité démontrée sur 120 000 patients suivis, tour de croissance de 35 M€ mené par IRIS et Five Arrows", "place": "Paris, France" },
-      { "name": "Hope Care", "use": "Plateforme OpMA de télésurveillance multi-pathologies (insuffisance cardiaque, BPCO, diabète) déployée dans 15 unités de santé portugaises ; Series A de 6 M€ menée par Iberis Capital", "place": "Óbidos, Portugal" },
-      { "name": "Huma", "use": "Plateforme de télésurveillance et d'essais cliniques virtuels déployée dans plus de 3 000 hôpitaux et cliniques ; Series D de 80 M$", "place": "Londres, UK" },
-      { "name": "Cadence", "use": "Agents IA de télésurveillance des maladies chroniques (hypertension, diabète, insuffisance cardiaque) pour plus de 100 000 patients ; Series C de 100 M$ menée par Spark Capital, partenariat avec Duke Health", "place": "New York, US" }
+      { "name": "Coave Therapeutics", "use": "Plateforme de capside universelle OneAAV (faible séroprévalence, ciblage biologique découplé du sérotype) pour la thérapie génique oculaire et du système nerveux central", "place": "Paris, France" },
+      { "name": "AaviGen", "use": "Plateforme next-CAP de vecteurs AAV à tropisme organe-spécifique pour les maladies cardiovasculaires", "place": "Allemagne" },
+      { "name": "Dyno Therapeutics", "use": "Plateforme CapsidMap pilotée par IA pour concevoir des capsides AAV ; partenariats de plateforme avec Novartis, Roche et Astellas", "place": "Cambridge, États-Unis" },
+      { "name": "Affinia Therapeutics", "use": "Ingénierie de capside AAV pour le système nerveux central et le cœur ; Series B de 110 M$ et partenariat de plateforme avec Vertex Pharmaceuticals", "place": "Waltham, États-Unis" }
     ]
   }
 }
