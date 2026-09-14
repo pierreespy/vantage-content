@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-14",
   "words": [
+    {
+      "term": "PFA",
+      "full": "Pulsed Field Ablation",
+      "fr": "Ablation par champ électrique pulsé",
+      "field": "Cardiologie interventionnelle · Électrophysiologie",
+      "definition": "Détruire le tissu cardiaque responsable des arythmies par de brèves impulsions électriques (électroporation) qui ouvrent les membranes des cellules musculaires ciblées, sans les brûler ni les geler comme les techniques d'ablation thermique classiques.",
+      "parts": [
+        {
+          "label": "Cathéter multi-électrodes",
+          "role": "l'application de l'impulsion au contact du tissu"
+        },
+        {
+          "label": "Générateur haute tension",
+          "role": "la source des impulsions électriques ultra-courtes"
+        },
+        {
+          "label": "Sélectivité tissulaire",
+          "role": "l'épargne des tissus voisins (œsophage, nerf phrénique)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cartographie",
+          "t": "Un cathéter de mapping localise précisément les zones du cœur à l'origine de l'arythmie, le plus souvent la jonction veines pulmonaires-oreillette gauche."
+        },
+        {
+          "n": "2",
+          "h": "Électroporation",
+          "t": "Des impulsions électriques de quelques microsecondes créent des pores irréversibles dans la membrane des cellules cardiaques ciblées, sans dégager de chaleur significative."
+        },
+        {
+          "n": "3",
+          "h": "Cicatrisation sélective",
+          "t": "Les cellules myocardiques ciblées meurent et cicatrisent en tissu non conducteur, isolant électriquement la zone arythmogène, tandis que l'œsophage et les nerfs voisins, peu sensibles à ce mode d'action, sont largement épargnés."
+        }
+      ],
+      "why": "La PFA a basculé le marché de l'ablation cardiaque en quelques années à peine — plus rapide, plus sûre (moins de complications œsophagiennes ou phréniques que la radiofréquence ou la cryoablation) — et a déjà déclenché une vague de rachats (Farapulse→Boston Scientific, Affera→Medtronic) qui laisse un boulevard aux challengers indépendants. Les tours à neuf chiffres de Field Medical et Kardium montrent que les investisseurs parient encore sur la différenciation technique (formes d'onde, cartographie intégrée) dans un marché déjà validé cliniquement — un profil rare de risque réduit et de TAM énorme pour un VC santé.",
+      "startups": [
+        {
+          "name": "Field Medical",
+          "use": "Plateforme FieldForce de PFA nouvelle génération ciblant la tachycardie ventriculaire ; Series B de 35 M$ en 2026 (75 M$ levés au total), fondée par l'inventeur de Farapulse",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Kardium",
+          "use": "Système Globe combinant cartographie et PFA sur un seul cathéter à ballon ; tour de 250 M$ en 2026, agréé FDA et Santé Canada",
+          "place": "Burnaby, Canada"
+        },
+        {
+          "name": "CardioFocus",
+          "use": "Système Centauri de PFA guidée par visualisation directe ; plus de 8 000 patients traités en Europe via un partenariat de distribution avec Biotronik",
+          "place": "Marlborough, États-Unis"
+        }
+      ],
+      "date": "2026-09-14",
+      "dateLong": "14 sept. 2026"
+    },
     {
       "term": "AAV Capsid Engineering",
       "full": "Adeno-Associated Virus Capsid Engineering",

@@ -1,60 +1,65 @@
 {
-  "dateLong": "13 sept. 2026",
+  "dateLong": "14 sept. 2026",
   "ticker": [
-    { "company": "Encoded Therapeutics", "amount": "$275M", "kind": "lev" }
+    { "company": "BrainChild Bio", "amount": "$116M", "kind": "lev" },
+    { "company": "Forus", "amount": "$150M", "kind": "lev" },
+    { "company": "NeuShen Therapeutics", "amount": "$80M", "kind": "lev" },
+    { "company": "PDS Biotech", "amount": "$22,55M", "kind": "lev" },
+    { "company": "Alkeus Pharmaceuticals", "amount": "$800M", "kind": "mna" },
+    { "company": "Merida Biosciences", "amount": "$2,88Md", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Nomination · Anticorps thérapeutiques",
-    "title": "Alchemab Therapeutics muscle sa direction médicale pour préparer l'entrée en clinique de sa plateforme d'anticorps issus de patients \"résilients\"",
-    "deck": "La biotech de Cambridge, qui explore le sang de patients ayant naturellement résisté à des maladies neurodégénératives et auto-immunes pour en extraire des anticorps thérapeutiques, recrute le Dr Ben Porter-Brown — ex-directeur médical d'ImageneBio et vétéran du développement clinique chez Gilead — comme Chief Medical Officer. Le renfort intervient deux mois après qu'Alchemab a porté son Series A à 109 M£ (le plus gros investissement direct jamais réalisé par la British Business Bank en sciences de la vie), signe qu'un VC santé a intérêt à repérer la société avant sa prochaine levée plutôt qu'au moment de son Series B.",
-    "company": "Alchemab Therapeutics",
+    "kicker": "Réglementaire · Cardiologie interventionnelle",
+    "title": "LUMA Vision décroche une clearance FDA élargie pour VERAFEYE, sa plateforme d'imagerie cardiaque 4D, avant son lancement commercial américain en 2027",
+    "deck": "La medtech irlando-allemande (Dublin/Munich), soutenue par EQT Life Sciences, Atlantic Bridge Growth Fund et Bayern Kapital, obtient une nouvelle autorisation FDA qui étend les indications de VERAFEYE — sa plateforme de visualisation et navigation cardiaque 2D/4D à 360° — vers l'arythmie ventriculaire, l'occlusion de l'auricule gauche et la cardiologie structurelle. Le jalon intervient alors que la société, toujours indépendante au stade Series A, prépare sa commercialisation américaine pour 2027 : un signal réglementaire à repérer avant son prochain tour de croissance.",
+    "company": "LUMA Vision",
     "stage": "Series A",
-    "signalType": "leadership_hire",
-    "strength": 3,
-    "url": "https://www.01net.it/alchemab-therapeutics-expands-leadership-team-appointing-dr-ben-porter-brown-as-cmo-to-propel-the-clinical-advancement-of-its-pipeline/"
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.prnewswire.com/news-releases/luma-vision-secures-fda-clearance-advancing-procedural-intelligence-as-the-foundation-of-the-cardiac-lab-of-the-future-302873676.html"
   },
   "deal": {
-    "company": "Encoded Therapeutics",
-    "amount": "$275M",
-    "round": "Series F",
-    "thesis": "Encoded referme un tour de croissance de 275 M$ mené par un syndicat emmené par Google Ventures, ARCH Venture Partners et SoftBank Vision Fund 2, pour financer l'étude pivot de son ETX101 dans le syndrome de Dravet lié au gène SCN1A. Plutôt que d'exprimer un gène de remplacement, la biothérapie AAV utilise un promoteur génétique modifié pour réactiver sélectivement l'expression du gène déficient dans les interneurones — une preuve que l'ingénierie fine des vecteurs (promoteurs, capsides, ciblage) est devenue le vrai terrain de bataille, et la thèse d'investissement, de toute la nouvelle génération de thérapie génique.",
-    "url": "https://www.biospace.com/press-releases/encoded-therapeutics-raises-275-million-in-series-f-financing-to-advance-etx101-through-pivotal-development-and-accelerate-its-precision-genetic-medicines-neurology-pipeline"
+    "company": "BrainChild Bio",
+    "amount": "$116M",
+    "round": "Series A",
+    "thesis": "BrainChild Bio, spin-off de Seattle Children's Hospital, boucle une Series A de 116 M$ menée par un fonds familial privé et une fondation non divulgués, aux côtés de WRF Capital et de son actionnaire historique Seattle Children's — un syndicat atypique, hors circuit VC classique, qui finance directement l'essai pivot de Phase 2 ILLUMINATE de sa CAR-T BCB-276 dans le DIPG, cancer du tronc cérébral pédiatrique quasi toujours fatal. La thèse : délivrer les cellules CAR-T directement dans le liquide céphalo-rachidien via un cathéter implanté, permettant jusqu'à 15 doses sur 7-8 mois sans chimiothérapie de lymphodéplétion systémique — un modèle de financement philanthropique-hybride qui pourrait devenir un gabarit pour l'oncologie pédiatrique ultra-rare, historiquement délaissée par le capital-risque pur.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/08/3357486/0/en/brainchild-bio-closes-116-million-series-a-financing.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    { "company": "CergenX", "place": "Dublin", "sector": "MedTech",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "CergenX décroche le marquage CE pour Wave, son test EEG + IA d'évaluation cérébrale néonatale",
+      "summary": "La medtech irlandaise obtient la certification MDR pour Wave, qui combine EEG à quatre électrodes et IA pour détecter en 30 secondes des anomalies cérébrales chez le nouveau-né — un signal réglementaire clé pour les 80 % d'hôpitaux dans le monde qui n'ont pas accès à l'EEG, avant un futur tour de commercialisation.",
+      "url": "https://nrtimes.co.uk/cergenx-secures-ce-mark-for-newborn-brain-technology/" }
+  ],
   "brefsIntl": [
-    { "company": "PerZeption", "place": "Boston", "sector": "Diagnostics",
-      "signalType": "grant_award", "strength": 3,
-      "title": "PerZeption décroche une subvention SBIR du National Eye Institute pour un test de récupération au photostress dans la DMLA",
-      "summary": "La startup bostonienne développe, sur sa plateforme tablette AIM et en collaboration avec l'UC Irvine, un test rapide capable de détecter un déficit fonctionnel lié à la dégénérescence maculaire avant qu'il ne soit visible à l'acuité visuelle standard — un signal précoce sur un outil de diagnostic encore non dilutif.",
-      "url": "https://www.prnewswire.com/news-releases/perzeption-awarded-nei-phase-1-sbir-grant-for-age-related-macular-degeneration-study-302876790.html" },
-    { "company": "Sobi", "place": "Stockholm", "sector": "Pharma",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Sobi obtient la Fast Track de la FDA pour son inhibiteur IRAK1/JAK2 dans le syndrome VEXAS",
-      "summary": "Le laboratoire suédois avance pacritinib, un inhibiteur oral déjà commercialisé dans la myélofibrose, vers cette maladie auto-inflammatoire rare décrite en 2020 (mutation somatique d'UBA1) — un jalon de grand laboratoire à suivre comme comparable, révélateur de l'appétit naissant des investisseurs pour les rares diseases immuno-inflammatoires.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/09/3359003/0/en/sobi-receives-us-fda-fast-track-designation-for-pacritinib-in-vexas-syndrome.html" }
+    { "company": "Esperovax", "place": "Michigan, États-Unis", "sector": "Biotech",
+      "signalType": "patent_filing", "strength": 2,
+      "title": "Esperovax obtient un avis d'admission de brevet US pour sa plateforme de production in vivo de protéines par levure modifiée",
+      "summary": "Le brevet protège Egress RD, une plateforme de levure génétiquement modifiée capable de produire des protéines thérapeutiques directement dans l'organisme après administration — une piste de fabrication distribuée à surveiller pour cette petite biotech avant un futur tour institutionnel.",
+      "url": "https://www.biospace.com/press-releases/esperovax-announces-u-s-patent-allowance-for-in-vivo-therapeutic-protein-expression-platform" }
   ],
   "word": {
-    "term": "AAV Capsid Engineering",
-    "full": "Adeno-Associated Virus Capsid Engineering",
-    "fr": "Ingénierie de capside AAV",
-    "field": "Thérapie génique · Vecteurs de délivrance",
-    "definition": "Redessiner l'enveloppe protéique (capside) d'un vecteur viral AAV pour qu'il cible précisément un organe et échappe aux anticorps déjà présents chez le patient, plutôt que de se contenter d'un sérotype naturel.",
+    "term": "PFA",
+    "full": "Pulsed Field Ablation",
+    "fr": "Ablation par champ électrique pulsé",
+    "field": "Cardiologie interventionnelle · Électrophysiologie",
+    "definition": "Détruire le tissu cardiaque responsable des arythmies par de brèves impulsions électriques (électroporation) qui ouvrent les membranes des cellules musculaires ciblées, sans les brûler ni les geler comme les techniques d'ablation thermique classiques.",
     "parts": [
-      { "label": "Capside", "role": "la coque protéique qui protège et adresse le vecteur" },
-      { "label": "Peptides greffés", "role": "le code d'accès qui redirige vers l'organe visé" },
-      { "label": "Cargo génétique", "role": "le gène thérapeutique livré une fois la cellule atteinte" }
+      { "label": "Cathéter multi-électrodes", "role": "l'application de l'impulsion au contact du tissu" },
+      { "label": "Générateur haute tension", "role": "la source des impulsions électriques ultra-courtes" },
+      { "label": "Sélectivité tissulaire", "role": "l'épargne des tissus voisins (œsophage, nerf phrénique)" }
     ],
     "how": [
-      { "n": "1", "h": "Criblage à haut débit", "t": "Des millions de variantes de capside sont générées puis testées in vivo ou par IA pour repérer celles qui atteignent sélectivement un tissu cible (cerveau, muscle, rétine...)." },
-      { "n": "2", "h": "Évasion immunitaire", "t": "La capside est modifiée pour échapper aux anticorps neutralisants déjà présents chez une large part de la population, un frein majeur à l'éligibilité des patients et à la redose." },
-      { "n": "3", "h": "Délivrance ciblée", "t": "Le vecteur optimisé achemine le gène thérapeutique directement vers l'organe visé, ce qui permet de réduire la dose systémique et donc la toxicité, notamment hépatique." }
+      { "n": "1", "h": "Cartographie", "t": "Un cathéter de mapping localise précisément les zones du cœur à l'origine de l'arythmie, le plus souvent la jonction veines pulmonaires-oreillette gauche." },
+      { "n": "2", "h": "Électroporation", "t": "Des impulsions électriques de quelques microsecondes créent des pores irréversibles dans la membrane des cellules cardiaques ciblées, sans dégager de chaleur significative." },
+      { "n": "3", "h": "Cicatrisation sélective", "t": "Les cellules myocardiques ciblées meurent et cicatrisent en tissu non conducteur, isolant électriquement la zone arythmogène, tandis que l'œsophage et les nerfs voisins, peu sensibles à ce mode d'action, sont largement épargnés." }
     ],
-    "why": "La capside est devenue le vrai goulot d'étranglement — et donc la thèse d'investissement — de toute la thérapie génique in vivo : mieux cibler permet de baisser les doses, la toxicité et le coût de fabrication, ce qui justifie des deals de plateforme à neuf chiffres (Capsida/AbbVie, Affinia/Vertex, Dyno/Astellas) et des levées comme celle d'Encoded Therapeutics ce jour pour son vecteur AAV9 dans le syndrome de Dravet.",
+    "why": "La PFA a basculé le marché de l'ablation cardiaque en quelques années à peine — plus rapide, plus sûre (moins de complications œsophagiennes ou phréniques que la radiofréquence ou la cryoablation) — et a déjà déclenché une vague de rachats (Farapulse→Boston Scientific, Affera→Medtronic) qui laisse un boulevard aux challengers indépendants. Les tours à neuf chiffres de Field Medical et Kardium montrent que les investisseurs parient encore sur la différenciation technique (formes d'onde, cartographie intégrée) dans un marché déjà validé cliniquement — un profil rare de risque réduit et de TAM énorme pour un VC santé.",
     "startups": [
-      { "name": "Coave Therapeutics", "use": "Plateforme de capside universelle OneAAV (faible séroprévalence, ciblage biologique découplé du sérotype) pour la thérapie génique oculaire et du système nerveux central", "place": "Paris, France" },
-      { "name": "AaviGen", "use": "Plateforme next-CAP de vecteurs AAV à tropisme organe-spécifique pour les maladies cardiovasculaires", "place": "Allemagne" },
-      { "name": "Dyno Therapeutics", "use": "Plateforme CapsidMap pilotée par IA pour concevoir des capsides AAV ; partenariats de plateforme avec Novartis, Roche et Astellas", "place": "Cambridge, États-Unis" },
-      { "name": "Affinia Therapeutics", "use": "Ingénierie de capside AAV pour le système nerveux central et le cœur ; Series B de 110 M$ et partenariat de plateforme avec Vertex Pharmaceuticals", "place": "Waltham, États-Unis" }
+      { "name": "Field Medical", "use": "Plateforme FieldForce de PFA nouvelle génération ciblant la tachycardie ventriculaire ; Series B de 35 M$ en 2026 (75 M$ levés au total), fondée par l'inventeur de Farapulse", "place": "États-Unis" },
+      { "name": "Kardium", "use": "Système Globe combinant cartographie et PFA sur un seul cathéter à ballon ; tour de 250 M$ en 2026, agréé FDA et Santé Canada", "place": "Burnaby, Canada" },
+      { "name": "CardioFocus", "use": "Système Centauri de PFA guidée par visualisation directe ; plus de 8 000 patients traités en Europe via un partenariat de distribution avec Biotronik", "place": "Marlborough, États-Unis" }
     ]
   }
 }
