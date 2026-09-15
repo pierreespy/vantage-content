@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-14",
+  "generatedAt": "2026-09-15",
   "words": [
+    {
+      "term": "Ambient AI Scribe",
+      "full": "Ambient Clinical Documentation (AI Medical Scribe)",
+      "fr": "Documentation clinique ambiante (scribe médical par IA)",
+      "field": "IA clinique · Charge administrative médicale",
+      "definition": "Une IA qui écoute, avec le consentement du patient, la conversation entre un soignant et son patient, puis rédige automatiquement la note clinique structurée — sans que le médecin ait besoin de taper ou de dicter quoi que ce soit.",
+      "parts": [
+        {
+          "label": "Application d'écoute",
+          "role": "la captation audio de la consultation"
+        },
+        {
+          "label": "Modèle de langage médical",
+          "role": "la structuration en note clinique (motif, examen, plan)"
+        },
+        {
+          "label": "Intégration DPI/EHR",
+          "role": "l'insertion directe dans le dossier patient"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Écoute",
+          "t": "Le clinicien active l'application en début de consultation ; le micro capte la conversation sans changer les habitudes de la visite."
+        },
+        {
+          "n": "2",
+          "h": "Structuration",
+          "t": "Un modèle de langage entraîné sur du vocabulaire médical transforme la transcription brute en note structurée (motif, antécédents, examen, plan de soin)."
+        },
+        {
+          "n": "3",
+          "h": "Intégration",
+          "t": "La note, parfois pré-codée (CIM/CPT), est poussée directement dans le dossier patient informatisé pour validation en un clic par le médecin."
+        }
+      ],
+      "why": "Le burnout administratif est le point de douleur numéro un des systèmes de santé occidentaux — jusqu'à deux heures de saisie pour une heure de consultation. Le scribe ambiant est passé en moins de trois ans d'outil de confort à infrastructure critique déployée à l'échelle (Ambience x Epic, Nabla x 150+ organisations). La levée de Tandem Health illustre le prochain palier : de la note ponctuelle vers un système d'exploitation clinique complet — un TAM qui s'élargit mécaniquement à mesure que l'IA couvre davantage du parcours de soin.",
+      "startups": [
+        {
+          "name": "Nabla",
+          "use": "Scribe ambiant utilisé par plus de 85 000 cliniciens dans 150+ organisations ; nouveau CEO (Brian Manning) nommé en juillet 2026 pour accélérer la commercialisation aux États-Unis",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Corti",
+          "use": "Infrastructure IA vocale clinique (transcription, codage, workflows agentiques) via API ; lancement en 2026 d'un modèle de reconnaissance vocale danois de qualité clinique",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Ambience Healthcare",
+          "use": "Plateforme AutoScribe valorisée 1,25 Md$ après une Series C de 243 M$ ; déployée chez Cleveland Clinic et intégrée au programme Epic Toolbox",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Tandem Health",
+          "use": "Étend le scribe ambiant vers un système d'exploitation clinique complet (préparation de consultation, codage automatisé) ; Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT",
+          "place": "Suède"
+        }
+      ],
+      "date": "2026-09-15",
+      "dateLong": "15 sept. 2026"
+    },
     {
       "term": "PFA",
       "full": "Pulsed Field Ablation",
