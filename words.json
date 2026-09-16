@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "words": [
+    {
+      "term": "cfDNA",
+      "full": "Cell-Free DNA",
+      "fr": "ADN libre circulant",
+      "field": "Diagnostics · Oncologie et santé maternelle",
+      "definition": "Des fragments d'ADN qui se détachent de cellules mourantes — y compris des cellules tumorales ou placentaires — et circulent librement dans le sang, où une simple prise de sang permet de les détecter et de les analyser.",
+      "parts": [
+        {
+          "label": "Prise de sang",
+          "role": "le prélèvement, sans geste invasif"
+        },
+        {
+          "label": "Séquençage",
+          "role": "l'identification et le comptage des fragments d'ADN"
+        },
+        {
+          "label": "Algorithme de classification",
+          "role": "l'attribution de chaque fragment à son tissu d'origine (tumeur, placenta...)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Un simple tube de sang prélevé chez la patiente ou le patient, sans biopsie ni geste invasif."
+        },
+        {
+          "n": "2",
+          "h": "Séquençage",
+          "t": "Les fragments d'ADN libre circulant présents dans le plasma sont extraits puis séquencés à haut débit."
+        },
+        {
+          "n": "3",
+          "h": "Interprétation",
+          "t": "Un algorithme distingue la signature spécifique de chaque tissu d'origine (tumeur, placenta) pour calculer un score de risque ou de maladie résiduelle."
+        }
+      ],
+      "why": "Le cfDNA a fait du diagnostic non invasif un marché à part entière — d'abord en oncologie (biopsie liquide, maladie résiduelle), puis en santé maternelle (trisomie 21). Le tour d'Aitiologic montre que le terrain de jeu s'élargit encore : appliquer cette même mécanique à la pré-éclampsie, un risque obstétrical majeur et sous-diagnostiqué, plutôt qu'au seul cancer. Un signal que les investisseurs spécialisés santé cherchent la prochaine application non consensuelle du cfDNA, au-delà de l'oncologie déjà bien couverte.",
+      "startups": [
+        {
+          "name": "Aitiologic",
+          "use": "Plateforme cfDNA multimodale Aitios ; seed sursouscrit de 6,4 M€ pour son programme de dépistage précoce de la pré-éclampsie",
+          "place": "Vienne, Autriche"
+        },
+        {
+          "name": "Biofidelity",
+          "use": "Test Aspyre Lung combinant cfDNA et cfRNA plasmatiques pour le profilage génomique du cancer du poumon non à petites cellules",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Flomics Biotech",
+          "use": "Programme européen LUMINA (Eurostars) combinant cfDNA et cfRNA pour détecter la rechute du cancer du poumon",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "DELFI Diagnostics",
+          "use": "Plateforme de fragmentomique du cfDNA à l'échelle du génome entier ; test FirstLook Lung déjà commercialisé aux États-Unis",
+          "place": "Baltimore, États-Unis"
+        }
+      ],
+      "date": "2026-09-16",
+      "dateLong": "16 sept. 2026"
+    },
     {
       "term": "Ambient AI Scribe",
       "full": "Ambient Clinical Documentation (AI Medical Scribe)",

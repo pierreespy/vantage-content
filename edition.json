@@ -1,65 +1,70 @@
 {
-  "dateLong": "15 sept. 2026",
+  "dateLong": "16 sept. 2026",
   "ticker": [
-    { "company": "Tandem Health", "amount": "€86,5M", "kind": "lev" },
-    { "company": "Caspian Therapeutics", "amount": "$50M", "kind": "lev" },
-    { "company": "UrgentIQ", "amount": "$15M", "kind": "lev" },
-    { "company": "Aeon", "amount": "$14M", "kind": "lev" },
-    { "company": "Nualtis", "amount": "$15M", "kind": "mna" },
-    { "company": "BetaNova Biotherapeutics", "amount": "$10M", "kind": "mna" }
+    { "company": "Aitiologic", "amount": "€6,4M", "kind": "lev" },
+    { "company": "RegCell", "amount": "$44M", "kind": "lev" },
+    { "company": "Evvy", "amount": "$40M", "kind": "lev" },
+    { "company": "ReEmerge", "amount": "$37M", "kind": "lev" },
+    { "company": "Nix Biosensors", "amount": "$10M", "kind": "lev" },
+    { "company": "Chimagen Biosciences", "amount": "$750M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Series B · IA clinique / Digital Health",
-    "title": "Tandem Health boucle une Series B de 100 M$ pour transformer son scribe IA en système d'exploitation clinique européen",
-    "deck": "La suédoise Tandem Health, partie d'un copilote de documentation médicale, lève 86,5 M€ (100 M$) menés par le Scaleup Europe Fund d'EQT — première incursion santé de ce fonds européen de 5 Md€ — aux côtés de Kinnevik, Northzone, Amino Collective et Visionaries. L'ambition affichée : passer de la note de consultation à un véritable système d'exploitation clinique complet (préparation de rendez-vous, assistance en temps réel, codage automatisé) — signe que la bataille du scribe ambiant en Europe entre dans sa phase de consolidation autour d'un champion régional.",
-    "company": "Tandem Health",
-    "stage": "Series B",
+    "kicker": "Seed · Diagnostics prénatal",
+    "title": "Aitiologic lève 6,4 M€ pour dépister la pré-éclampsie dès le premier trimestre grâce à l'ADN circulant",
+    "deck": "La biotech viennoise Aitiologic boucle un seed sursouscrit de 6,4 M€ mené par Heal Capital et Ananda Impact Ventures, avec la participation à son tour de table et à son conseil consultatif de Gordon Sanghera, co-fondateur et ex-CEO d'Oxford Nanopore Technologies. Sa plateforme cfDNA multimodale Aitios cible un risque obstétrical majeur et sous-diagnostiqué — la pré-éclampsie — plutôt que le terrain déjà très couvert de l'oncologie, avec un score de risque disponible dès le premier trimestre de grossesse.",
+    "company": "Aitiologic",
+    "stage": "Seed",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.eu-startups.com/2026/09/stockholms-tandem-health-raises-e86-5-million-to-build-an-ai-native-operating-system-for-european-healthcare"
+    "strength": 3,
+    "url": "https://www.globenewswire.com/news-release/2026/09/15/3361783/0/en/aitiologic-raises-6-4-million-in-oversubscribed-seed-financing-to-advance-tissue-resolved-liquid-biopsy-platform-and-preeclampsia-lead-program.html"
   },
   "deal": {
-    "company": "Aeon",
-    "amount": "Non divulgué",
-    "round": "M&A",
-    "thesis": "La healthtech zurichoise Aeon (bilans de santé préventifs pilotés par IA), qui vient tout juste de clore une extension de seed portant son total à plus de 14 M$ (co-menée par Araya Ventures), rachète le même jour Aware Health, plateforme allemande de diagnostics sanguins grand public (45+ points de prélèvement, 100+ biomarqueurs, près de 10 000 clients actifs) — plutôt que de construire elle-même un stack de diagnostics réglementé, chantier de plusieurs années. Un cas d'école de consolidation horizontale ENTRE jeunes pousses, financée par du capital-risque early-stage et non par un stratégique établi : la bataille de la santé préventive en Europe pourrait s'accélérer par acquisitions plutôt que par construction organique — à surveiller pour repérer les prochains consolidateurs avant qu'ils ne lèvent des tours de croissance.",
-    "url": "https://techfundingnews.com/swiss-healthtech-aeon-acquires-germanys-aware-health-as-seed-funding-tops-14m/"
+    "company": "Chimagen Biosciences",
+    "amount": "Jusqu'à 750 M$",
+    "round": "Licensing Deal",
+    "thesis": "GSK s'offre les droits mondiaux d'un T-cell engager trispécifique encore préclinique auprès de la biotech chinoise Chimagen Biosciences — jusqu'à 750 M$ en jalons — pour traiter le myélome multiple, avec une entrée en phase 1 visée pour 2027. C'est la deuxième fois en deux ans que GSK va chercher un actif chez Chimagen, après un deal à 850 M$ en 2024 : un signal que les grands groupes pharma sécurisent désormais leur prochaine génération de T-cell engagers dès la préclinique, directement auprès de biotechs chinoises spécialisées.",
+    "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-to-acquire-potential-best-in-class-t-cell-engager-tce-for-multiple-myeloma-from-chimagen-biosciences"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Benitec Biopharma", "place": "Hayward, États-Unis", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Benitec Biopharma cumule désignation orpheline EMA et double désignation FDA (orpheline + Fast Track) pour sa thérapie génique BB-301",
-      "summary": "Le candidat AAV BB-301, conçu pour faire taire le gène responsable de la dystrophie musculaire oculopharyngée, décroche l'ODD européenne ainsi que l'ODD et la Fast Track américaines alors qu'il est en phase 1b/2a — un renforcement réglementaire qui muscle le dossier avant les prochaines lectures cliniques et un éventuel partenariat de licence.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/14/3361525/0/en/benitec-biopharma-releases-full-year-2026-financial-results-and-provides-operational-update.html" },
-    { "company": "UrgentIQ", "place": "New York, États-Unis", "sector": "Digital Health",
+    { "company": "RegCell", "place": "Tokyo, Japon / Boston, États-Unis", "sector": "Biotech",
       "signalType": "funding_round", "strength": 4,
-      "title": "UrgentIQ lève 15 M$ en Series A pour devenir la plateforme clinique et financière de référence des urgences de proximité américaines",
-      "summary": "Le DME nativement IA conçu spécifiquement pour l'urgent care — segment mal servi par les DME hérités de l'hôpital — reçoit un investissement de croissance de Five Elms Capital pour étendre son moteur IA au-delà du dossier patient : facturation automatisée, codage, vérification d'assurance en temps réel et agent de check-out. Une thèse de plateforme verticale capital-efficiente sur un angle non consensuel du marché santé américain.",
-      "url": "https://www.fiveelms.com/urgentiq-announces-strategic-growth-investment-from-five-elms-capital/" }
+      "title": "RegCell lève 44 M$ en Series A pour porter en clinique la science Treg récompensée par un Nobel",
+      "summary": "Fondée sur la découverte des lymphocytes T régulateurs par Shimon Sakaguchi (Nobel de médecine 2025), la biotech japonaise en pleine transition vers les États-Unis boucle une Series A de 44 M$ menée par Playground Global — dont le general partner Jory Bell rejoint le conseil — complétée par 22 M$ de subvention non dilutive de l'agence japonaise AMED. Objectif : passer en clinique sa plateforme de reprogrammation de Treg antigène-spécifiques contre le pemphigus vulgaris et des maladies hépatiques d'ici 2029.",
+      "url": "https://endpoints.news/regcell-lands-44m-series-a-to-take-nobel-winning-tregs-into-clinic/" },
+    { "company": "ReEmerge", "place": "États-Unis", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 4,
+      "title": "ReEmerge sort de stealth avec 37 M$ pour restaurer les réseaux neuronaux après un traumatisme crânien",
+      "summary": "U.S. Venture Partners et Santé co-mènent une Series A sursouscrite de 37 M$, aux côtés d'Oxford Science Enterprises et de quatre autres investisseurs, pour la Cognitive Network Restoration Therapy — une thérapie visant à réactiver des circuits neuronaux sous-actifs mais viables chez des patients en traumatisme crânien chronique modéré à sévère. Un essai prospectif à bras unique sur 40 patients doit démarrer prochainement, sur une indication historiquement délaissée.",
+      "url": "https://www.prnewswire.com/news-releases/reemerge-inc-exits-stealth-with-oversubscribed-37m-series-a-to-challenge-the-limitations-of-chronic-cognitive-impairment-caused-by-brain-injuries-302878979.html" },
+    { "company": "Nix Biosensors", "place": "États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 4,
+      "title": "Nix Biosensors boucle 10 M$ en Series A pour industrialiser son capteur de sueur dédié à l'hydratation",
+      "summary": "Le biocapteur portable de Nix, qui analyse la sueur pour livrer en temps réel des données d'hydratation à des athlètes, militaires et travailleurs de terrain, porte son financement total à 17 M$ grâce à une Series A menée par Shorewind Capital, Great Oaks Venture Capital et White Road Investments — avec, au tour de table, plusieurs propriétaires de franchises sportives américaines. Une thèse de plateforme de données santé grand public capital-efficiente.",
+      "url": "https://www.prnewswire.com/news-releases/nix-biosensors-closes-series-a-to-bring-hydration-data-to-consumer-health-platforms-302878646.html" }
   ],
   "word": {
-    "term": "Ambient AI Scribe",
-    "full": "Ambient Clinical Documentation (AI Medical Scribe)",
-    "fr": "Documentation clinique ambiante (scribe médical par IA)",
-    "field": "IA clinique · Charge administrative médicale",
-    "definition": "Une IA qui écoute, avec le consentement du patient, la conversation entre un soignant et son patient, puis rédige automatiquement la note clinique structurée — sans que le médecin ait besoin de taper ou de dicter quoi que ce soit.",
+    "term": "cfDNA",
+    "full": "Cell-Free DNA",
+    "fr": "ADN libre circulant",
+    "field": "Diagnostics · Oncologie et santé maternelle",
+    "definition": "Des fragments d'ADN qui se détachent de cellules mourantes — y compris des cellules tumorales ou placentaires — et circulent librement dans le sang, où une simple prise de sang permet de les détecter et de les analyser.",
     "parts": [
-      { "label": "Application d'écoute", "role": "la captation audio de la consultation" },
-      { "label": "Modèle de langage médical", "role": "la structuration en note clinique (motif, examen, plan)" },
-      { "label": "Intégration DPI/EHR", "role": "l'insertion directe dans le dossier patient" }
+      { "label": "Prise de sang", "role": "le prélèvement, sans geste invasif" },
+      { "label": "Séquençage", "role": "l'identification et le comptage des fragments d'ADN" },
+      { "label": "Algorithme de classification", "role": "l'attribution de chaque fragment à son tissu d'origine (tumeur, placenta...)" }
     ],
     "how": [
-      { "n": "1", "h": "Écoute", "t": "Le clinicien active l'application en début de consultation ; le micro capte la conversation sans changer les habitudes de la visite." },
-      { "n": "2", "h": "Structuration", "t": "Un modèle de langage entraîné sur du vocabulaire médical transforme la transcription brute en note structurée (motif, antécédents, examen, plan de soin)." },
-      { "n": "3", "h": "Intégration", "t": "La note, parfois pré-codée (CIM/CPT), est poussée directement dans le dossier patient informatisé pour validation en un clic par le médecin." }
+      { "n": "1", "h": "Prélèvement", "t": "Un simple tube de sang prélevé chez la patiente ou le patient, sans biopsie ni geste invasif." },
+      { "n": "2", "h": "Séquençage", "t": "Les fragments d'ADN libre circulant présents dans le plasma sont extraits puis séquencés à haut débit." },
+      { "n": "3", "h": "Interprétation", "t": "Un algorithme distingue la signature spécifique de chaque tissu d'origine (tumeur, placenta) pour calculer un score de risque ou de maladie résiduelle." }
     ],
-    "why": "Le burnout administratif est le point de douleur numéro un des systèmes de santé occidentaux — jusqu'à deux heures de saisie pour une heure de consultation. Le scribe ambiant est passé en moins de trois ans d'outil de confort à infrastructure critique déployée à l'échelle (Ambience x Epic, Nabla x 150+ organisations). La levée de Tandem Health illustre le prochain palier : de la note ponctuelle vers un système d'exploitation clinique complet — un TAM qui s'élargit mécaniquement à mesure que l'IA couvre davantage du parcours de soin.",
+    "why": "Le cfDNA a fait du diagnostic non invasif un marché à part entière — d'abord en oncologie (biopsie liquide, maladie résiduelle), puis en santé maternelle (trisomie 21). Le tour d'Aitiologic montre que le terrain de jeu s'élargit encore : appliquer cette même mécanique à la pré-éclampsie, un risque obstétrical majeur et sous-diagnostiqué, plutôt qu'au seul cancer. Un signal que les investisseurs spécialisés santé cherchent la prochaine application non consensuelle du cfDNA, au-delà de l'oncologie déjà bien couverte.",
     "startups": [
-      { "name": "Nabla", "use": "Scribe ambiant utilisé par plus de 85 000 cliniciens dans 150+ organisations ; nouveau CEO (Brian Manning) nommé en juillet 2026 pour accélérer la commercialisation aux États-Unis", "place": "Paris, France" },
-      { "name": "Corti", "use": "Infrastructure IA vocale clinique (transcription, codage, workflows agentiques) via API ; lancement en 2026 d'un modèle de reconnaissance vocale danois de qualité clinique", "place": "Copenhague, Danemark" },
-      { "name": "Ambience Healthcare", "use": "Plateforme AutoScribe valorisée 1,25 Md$ après une Series C de 243 M$ ; déployée chez Cleveland Clinic et intégrée au programme Epic Toolbox", "place": "États-Unis" },
-      { "name": "Tandem Health", "use": "Étend le scribe ambiant vers un système d'exploitation clinique complet (préparation de consultation, codage automatisé) ; Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT", "place": "Suède" }
+      { "name": "Aitiologic", "use": "Plateforme cfDNA multimodale Aitios ; seed sursouscrit de 6,4 M€ pour son programme de dépistage précoce de la pré-éclampsie", "place": "Vienne, Autriche" },
+      { "name": "Biofidelity", "use": "Test Aspyre Lung combinant cfDNA et cfRNA plasmatiques pour le profilage génomique du cancer du poumon non à petites cellules", "place": "Cambridge, Royaume-Uni" },
+      { "name": "Flomics Biotech", "use": "Programme européen LUMINA (Eurostars) combinant cfDNA et cfRNA pour détecter la rechute du cancer du poumon", "place": "Barcelone, Espagne" },
+      { "name": "DELFI Diagnostics", "use": "Plateforme de fragmentomique du cfDNA à l'échelle du génome entier ; test FirstLook Lung déjà commercialisé aux États-Unis", "place": "Baltimore, États-Unis" }
     ]
   }
 }
