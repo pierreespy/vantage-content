@@ -1,70 +1,69 @@
 {
-  "dateLong": "16 sept. 2026",
+  "dateLong": "17 sept. 2026",
   "ticker": [
-    { "company": "Aitiologic", "amount": "€6,4M", "kind": "lev" },
-    { "company": "RegCell", "amount": "$44M", "kind": "lev" },
-    { "company": "Evvy", "amount": "$40M", "kind": "lev" },
-    { "company": "ReEmerge", "amount": "$37M", "kind": "lev" },
-    { "company": "Nix Biosensors", "amount": "$10M", "kind": "lev" },
-    { "company": "Chimagen Biosciences", "amount": "$750M", "kind": "mna" }
+    { "company": "Sling Therapeutics", "amount": "$123M", "kind": "lev" },
+    { "company": "Circle Pharma", "amount": "$92,5M", "kind": "lev" },
+    { "company": "Thatch", "amount": "$108M", "kind": "lev" },
+    { "company": "Ferry Health", "amount": "$9M", "kind": "lev" },
+    { "company": "Kairon Health", "amount": "$5M", "kind": "lev" },
+    { "company": "PDS Biotech", "amount": "$22,3M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Seed · Diagnostics prénatal",
-    "title": "Aitiologic lève 6,4 M€ pour dépister la pré-éclampsie dès le premier trimestre grâce à l'ADN circulant",
-    "deck": "La biotech viennoise Aitiologic boucle un seed sursouscrit de 6,4 M€ mené par Heal Capital et Ananda Impact Ventures, avec la participation à son tour de table et à son conseil consultatif de Gordon Sanghera, co-fondateur et ex-CEO d'Oxford Nanopore Technologies. Sa plateforme cfDNA multimodale Aitios cible un risque obstétrical majeur et sous-diagnostiqué — la pré-éclampsie — plutôt que le terrain déjà très couvert de l'oncologie, avec un score de risque disponible dès le premier trimestre de grossesse.",
-    "company": "Aitiologic",
-    "stage": "Seed",
-    "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://www.globenewswire.com/news-release/2026/09/15/3361783/0/en/aitiologic-raises-6-4-million-in-oversubscribed-seed-financing-to-advance-tissue-resolved-liquid-biopsy-platform-and-preeclampsia-lead-program.html"
+    "kicker": "RMAT FDA · Thérapie génique",
+    "title": "Cyllene Therapeutics décroche la désignation RMAT de la FDA pour sa thérapie génique EG110A dans la vessie neurogène",
+    "deck": "La biotech parisienne Cyllene Therapeutics (ex-EG 427) obtient la désignation RMAT de la FDA pour EG110A, premier inhibiteur non systémique et site-spécifique des neurones CGRP+, ciblant l'hyperactivité vésicale neurogène liée aux lésions médullaires. Ce statut accélère la voie réglementaire vers une Phase 2b/3 prévue en 2027 et valide la plateforme propriétaire HERMES, bâtie sur des vecteurs HSV-1 non réplicatifs et redosables, deux mois après un Series C de 33 M€ co-mené par GordonMD Global Investments et Merck Ventures.",
+    "company": "Cyllene Therapeutics",
+    "stage": "Series C",
+    "signalType": "regulatory_milestone",
+    "strength": 4,
+    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360926/0/en/cyllene-therapeutics-receives-u-s-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-eg110a-in-neurogenic-detrusor-overactivity-ndo.html"
   },
   "deal": {
-    "company": "Chimagen Biosciences",
-    "amount": "Jusqu'à 750 M$",
-    "round": "Licensing Deal",
-    "thesis": "GSK s'offre les droits mondiaux d'un T-cell engager trispécifique encore préclinique auprès de la biotech chinoise Chimagen Biosciences — jusqu'à 750 M$ en jalons — pour traiter le myélome multiple, avec une entrée en phase 1 visée pour 2027. C'est la deuxième fois en deux ans que GSK va chercher un actif chez Chimagen, après un deal à 850 M$ en 2024 : un signal que les grands groupes pharma sécurisent désormais leur prochaine génération de T-cell engagers dès la préclinique, directement auprès de biotechs chinoises spécialisées.",
-    "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-to-acquire-potential-best-in-class-t-cell-engager-tce-for-multiple-myeloma-from-chimagen-biosciences"
+    "company": "Sling Therapeutics",
+    "amount": "$123M",
+    "round": "Series C",
+    "thesis": "Sling Therapeutics boucle un Series C de 123 M$ mené par Forbion, TPG Life Sciences Innovations et Sectoral Asset Management pour faire entrer en Phase 3 le linsitinib, un inhibiteur oral de l'IGF-1R dans l'orbitopathie thyroïdienne — une pathologie aujourd'hui traitée par Tepezza (Amgen), un anticorps administré en perfusion. La thèse : un comprimé oral capte une part significative d'un marché dominé par un traitement contraignant, un pari sur la commodité patient plutôt que sur une nouvelle cible. La molécule, développée à l'origine par Astellas en oncologie, a été relicenciée par Sling en 2022 avant preuve de concept en Phase 2b/3.",
+    "url": "https://www.biospace.com/press-releases/sling-therapeutics-announces-123-million-series-c-financing-to-advance-phase-3-development-of-its-oral-small-molecule-igf-1r-inhibitor-for-thyroid-eye-disease"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "RegCell", "place": "Tokyo, Japon / Boston, États-Unis", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 4,
-      "title": "RegCell lève 44 M$ en Series A pour porter en clinique la science Treg récompensée par un Nobel",
-      "summary": "Fondée sur la découverte des lymphocytes T régulateurs par Shimon Sakaguchi (Nobel de médecine 2025), la biotech japonaise en pleine transition vers les États-Unis boucle une Series A de 44 M$ menée par Playground Global — dont le general partner Jory Bell rejoint le conseil — complétée par 22 M$ de subvention non dilutive de l'agence japonaise AMED. Objectif : passer en clinique sa plateforme de reprogrammation de Treg antigène-spécifiques contre le pemphigus vulgaris et des maladies hépatiques d'ici 2029.",
-      "url": "https://endpoints.news/regcell-lands-44m-series-a-to-take-nobel-winning-tregs-into-clinic/" },
-    { "company": "ReEmerge", "place": "États-Unis", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 4,
-      "title": "ReEmerge sort de stealth avec 37 M$ pour restaurer les réseaux neuronaux après un traumatisme crânien",
-      "summary": "U.S. Venture Partners et Santé co-mènent une Series A sursouscrite de 37 M$, aux côtés d'Oxford Science Enterprises et de quatre autres investisseurs, pour la Cognitive Network Restoration Therapy — une thérapie visant à réactiver des circuits neuronaux sous-actifs mais viables chez des patients en traumatisme crânien chronique modéré à sévère. Un essai prospectif à bras unique sur 40 patients doit démarrer prochainement, sur une indication historiquement délaissée.",
-      "url": "https://www.prnewswire.com/news-releases/reemerge-inc-exits-stealth-with-oversubscribed-37m-series-a-to-challenge-the-limitations-of-chronic-cognitive-impairment-caused-by-brain-injuries-302878979.html" },
-    { "company": "Nix Biosensors", "place": "États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 4,
-      "title": "Nix Biosensors boucle 10 M$ en Series A pour industrialiser son capteur de sueur dédié à l'hydratation",
-      "summary": "Le biocapteur portable de Nix, qui analyse la sueur pour livrer en temps réel des données d'hydratation à des athlètes, militaires et travailleurs de terrain, porte son financement total à 17 M$ grâce à une Series A menée par Shorewind Capital, Great Oaks Venture Capital et White Road Investments — avec, au tour de table, plusieurs propriétaires de franchises sportives américaines. Une thèse de plateforme de données santé grand public capital-efficiente.",
-      "url": "https://www.prnewswire.com/news-releases/nix-biosensors-closes-series-a-to-bring-hydration-data-to-consumer-health-platforms-302878646.html" }
+    { "company": "Thatch", "place": "San Francisco, États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 5, "stage": "Growth",
+      "title": "Thatch atteint le statut de licorne avec un Series C de 108 M$ porté par la bascule vers les ICHRA",
+      "summary": "La plateforme de benefits santé Thatch boucle un Series C de 108 M$ (General Catalyst, Index Ventures, a16z, avec Eli Lilly et ADP Ventures au tour de table) à 1 Md$ de valorisation. Son pari : les employeurs américains délaissent les plans de groupe uniformes pour les ICHRA, des enveloppes individuelles défiscalisées — le chiffre d'affaires de Thatch a été multiplié par sept en un an, pour plus de 5 000 entreprises clientes.",
+      "url": "https://www.prnewswire.com/news-releases/thatch-raises-108m-at-1b-valuation-as-employers-shift-away-from-traditional-health-plans-302879015.html" },
+    { "company": "Ferry Health", "place": "États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 3, "stage": "Seed",
+      "title": "Ferry Health sort de stealth avec 9 M$ menés par a16z et Index Ventures pour un assistant IA qui prend rendez-vous à la place du patient",
+      "summary": "Les agents IA de Ferry appellent ou naviguent en ligne pour trouver un praticien in-network et réserver un rendez-vous, en tenant compte de l'assurance, de la sous-spécialité et des disponibilités — plus d'un million de patients y ont déjà accès via des hôpitaux, assureurs et plateformes de navigation de soins partenaires.",
+      "url": "https://www.prnewswire.com/news-releases/ferry-health-launches-out-of-stealth-with-9m-in-funding-for-its-ai-powered-healthcare-personal-assistant-302880048.html" },
+    { "company": "Kairon Health", "place": "États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 3, "stage": "Seed",
+      "title": "Kairon Health lève 5 M$ pour automatiser l'exécution du value-based care par IA",
+      "summary": "Flare Capital Partners mène ce tour, aux côtés de Tau Ventures et des investisseurs historiques, pour un logiciel qui pilote au quotidien le travail des ACO, hôpitaux et réseaux cliniquement intégrés. Le financement arrive alors que les programmes Medicare d'accountable care entrent dans leur plus grande refonte structurelle en dix ans.",
+      "url": "https://www.prnewswire.com/news-releases/kairon-health-raises-5-million-to-power-ai-driven-execution-in-value-based-care-302879484.html" }
   ],
   "word": {
-    "term": "cfDNA",
-    "full": "Cell-Free DNA",
-    "fr": "ADN libre circulant",
-    "field": "Diagnostics · Oncologie et santé maternelle",
-    "definition": "Des fragments d'ADN qui se détachent de cellules mourantes — y compris des cellules tumorales ou placentaires — et circulent librement dans le sang, où une simple prise de sang permet de les détecter et de les analyser.",
+    "term": "HSV-1 Vector",
+    "full": "Non-Replicative Herpes Simplex Virus Type 1 Vector",
+    "fr": "Vecteur viral herpès simplex de type 1, non réplicatif",
+    "field": "Thérapie génique · Livraison de gènes",
+    "definition": "Une version du virus de l'herpès (HSV-1) vidée de ses gènes de réplication et retravaillée pour transporter un gène thérapeutique jusqu'à des cellules ciblées, sans provoquer d'infection ni s'intégrer à l'ADN du patient.",
     "parts": [
-      { "label": "Prise de sang", "role": "le prélèvement, sans geste invasif" },
-      { "label": "Séquençage", "role": "l'identification et le comptage des fragments d'ADN" },
-      { "label": "Algorithme de classification", "role": "l'attribution de chaque fragment à son tissu d'origine (tumeur, placenta...)" }
+      { "label": "Capside HSV-1 modifiée", "role": "le véhicule d'entrée dans la cellule" },
+      { "label": "Gènes de réplication délétés", "role": "la sécurité — le virus ne peut plus se multiplier" },
+      { "label": "Transgène thérapeutique", "role": "la charge utile livrée à la cellule" }
     ],
     "how": [
-      { "n": "1", "h": "Prélèvement", "t": "Un simple tube de sang prélevé chez la patiente ou le patient, sans biopsie ni geste invasif." },
-      { "n": "2", "h": "Séquençage", "t": "Les fragments d'ADN libre circulant présents dans le plasma sont extraits puis séquencés à haut débit." },
-      { "n": "3", "h": "Interprétation", "t": "Un algorithme distingue la signature spécifique de chaque tissu d'origine (tumeur, placenta) pour calculer un score de risque ou de maladie résiduelle." }
+      { "n": "1", "h": "Ingénierie", "t": "Le squelette viral HSV-1 est vidé de ses gènes essentiels à la réplication et à la virulence, puis chargé du gène thérapeutique à délivrer." },
+      { "n": "2", "h": "Administration ciblée", "t": "Le vecteur est injecté localement (vessie, peau, œil, tumeur) pour atteindre spécifiquement les cellules ou neurones visés." },
+      { "n": "3", "h": "Expression transitoire", "t": "Le gène s'exprime dans la cellule sans s'intégrer au génome de l'hôte, ce qui permet, si besoin, de redoser le traitement dans le temps." }
     ],
-    "why": "Le cfDNA a fait du diagnostic non invasif un marché à part entière — d'abord en oncologie (biopsie liquide, maladie résiduelle), puis en santé maternelle (trisomie 21). Le tour d'Aitiologic montre que le terrain de jeu s'élargit encore : appliquer cette même mécanique à la pré-éclampsie, un risque obstétrical majeur et sous-diagnostiqué, plutôt qu'au seul cancer. Un signal que les investisseurs spécialisés santé cherchent la prochaine application non consensuelle du cfDNA, au-delà de l'oncologie déjà bien couverte.",
+    "why": "Face aux limites de capacité et d'immunogénicité de l'AAV — la star de la thérapie génique —, le HSV-1 offre un génome bien plus grand (donc des constructions multi-gènes) et une redosabilité qui manque souvent à l'AAV, dont l'immunité neutralisante empêche un second traitement. Validée cliniquement par Krystal Biotech (VYJUVEK, premier produit HSV-1 approuvé), la techno essaime désormais au-delà de la dermatologie vers l'urologie ou l'oncologie — un signal que les VCs santé surveillent une nouvelle vague de plateformes de délivrance génique, alternative à l'AAV déjà saturé d'investisseurs.",
     "startups": [
-      { "name": "Aitiologic", "use": "Plateforme cfDNA multimodale Aitios ; seed sursouscrit de 6,4 M€ pour son programme de dépistage précoce de la pré-éclampsie", "place": "Vienne, Autriche" },
-      { "name": "Biofidelity", "use": "Test Aspyre Lung combinant cfDNA et cfRNA plasmatiques pour le profilage génomique du cancer du poumon non à petites cellules", "place": "Cambridge, Royaume-Uni" },
-      { "name": "Flomics Biotech", "use": "Programme européen LUMINA (Eurostars) combinant cfDNA et cfRNA pour détecter la rechute du cancer du poumon", "place": "Barcelone, Espagne" },
-      { "name": "DELFI Diagnostics", "use": "Plateforme de fragmentomique du cfDNA à l'échelle du génome entier ; test FirstLook Lung déjà commercialisé aux États-Unis", "place": "Baltimore, États-Unis" }
+      { "name": "Cyllene Therapeutics", "use": "Plateforme HERMES de vecteurs HSV-1 non réplicatifs et redosables ; EG110A vient de décrocher la désignation RMAT de la FDA dans la vessie neurogène", "place": "Paris, France" },
+      { "name": "Virogin Biotech", "use": "Plateforme de virothérapie oncolytique à base de HSV-1 combinée à des vaccins ARNm, en développement clinique en oncologie", "place": "Vancouver, Canada" },
+      { "name": "Candel Therapeutics", "use": "Plateforme enLIGHTEN de virus HSV oncolytiques ; dépôt de BLA visé fin 2026 en cancer de la prostate localisé à haut risque", "place": "Needham, États-Unis" }
     ]
   }
 }

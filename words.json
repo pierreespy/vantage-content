@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-16",
+  "generatedAt": "2026-09-17",
   "words": [
+    {
+      "term": "HSV-1 Vector",
+      "full": "Non-Replicative Herpes Simplex Virus Type 1 Vector",
+      "fr": "Vecteur viral herpès simplex de type 1, non réplicatif",
+      "field": "Thérapie génique · Livraison de gènes",
+      "definition": "Une version du virus de l'herpès (HSV-1) vidée de ses gènes de réplication et retravaillée pour transporter un gène thérapeutique jusqu'à des cellules ciblées, sans provoquer d'infection ni s'intégrer à l'ADN du patient.",
+      "parts": [
+        {
+          "label": "Capside HSV-1 modifiée",
+          "role": "le véhicule d'entrée dans la cellule"
+        },
+        {
+          "label": "Gènes de réplication délétés",
+          "role": "la sécurité — le virus ne peut plus se multiplier"
+        },
+        {
+          "label": "Transgène thérapeutique",
+          "role": "la charge utile livrée à la cellule"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ingénierie",
+          "t": "Le squelette viral HSV-1 est vidé de ses gènes essentiels à la réplication et à la virulence, puis chargé du gène thérapeutique à délivrer."
+        },
+        {
+          "n": "2",
+          "h": "Administration ciblée",
+          "t": "Le vecteur est injecté localement (vessie, peau, œil, tumeur) pour atteindre spécifiquement les cellules ou neurones visés."
+        },
+        {
+          "n": "3",
+          "h": "Expression transitoire",
+          "t": "Le gène s'exprime dans la cellule sans s'intégrer au génome de l'hôte, ce qui permet, si besoin, de redoser le traitement dans le temps."
+        }
+      ],
+      "why": "Face aux limites de capacité et d'immunogénicité de l'AAV — la star de la thérapie génique —, le HSV-1 offre un génome bien plus grand (donc des constructions multi-gènes) et une redosabilité qui manque souvent à l'AAV, dont l'immunité neutralisante empêche un second traitement. Validée cliniquement par Krystal Biotech (VYJUVEK, premier produit HSV-1 approuvé), la techno essaime désormais au-delà de la dermatologie vers l'urologie ou l'oncologie — un signal que les VCs santé surveillent une nouvelle vague de plateformes de délivrance génique, alternative à l'AAV déjà saturé d'investisseurs.",
+      "startups": [
+        {
+          "name": "Cyllene Therapeutics",
+          "use": "Plateforme HERMES de vecteurs HSV-1 non réplicatifs et redosables ; EG110A vient de décrocher la désignation RMAT de la FDA dans la vessie neurogène",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Virogin Biotech",
+          "use": "Plateforme de virothérapie oncolytique à base de HSV-1 combinée à des vaccins ARNm, en développement clinique en oncologie",
+          "place": "Vancouver, Canada"
+        },
+        {
+          "name": "Candel Therapeutics",
+          "use": "Plateforme enLIGHTEN de virus HSV oncolytiques ; dépôt de BLA visé fin 2026 en cancer de la prostate localisé à haut risque",
+          "place": "Needham, États-Unis"
+        }
+      ],
+      "date": "2026-09-17",
+      "dateLong": "17 sept. 2026"
+    },
     {
       "term": "cfDNA",
       "full": "Cell-Free DNA",
