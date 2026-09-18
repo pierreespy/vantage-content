@@ -1,69 +1,74 @@
 {
-  "dateLong": "17 sept. 2026",
+  "dateLong": "18 sept. 2026",
   "ticker": [
-    { "company": "Sling Therapeutics", "amount": "$123M", "kind": "lev" },
-    { "company": "Circle Pharma", "amount": "$92,5M", "kind": "lev" },
-    { "company": "Thatch", "amount": "$108M", "kind": "lev" },
-    { "company": "Ferry Health", "amount": "$9M", "kind": "lev" },
-    { "company": "Kairon Health", "amount": "$5M", "kind": "lev" },
-    { "company": "PDS Biotech", "amount": "$22,3M", "kind": "lev" }
+    { "company": "Evvy", "amount": "$40M", "kind": "lev" },
+    { "company": "Matisse Pharmaceuticals", "amount": "€14M", "kind": "lev" },
+    { "company": "UpFront Diagnostics", "amount": "$4,3M", "kind": "lev" },
+    { "company": "Health Force", "amount": "€4,2M", "kind": "lev" },
+    { "company": "Anew Labs", "amount": "$290M", "kind": "lev" },
+    { "company": "PostEra", "amount": "n.d.", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "RMAT FDA · Thérapie génique",
-    "title": "Cyllene Therapeutics décroche la désignation RMAT de la FDA pour sa thérapie génique EG110A dans la vessie neurogène",
-    "deck": "La biotech parisienne Cyllene Therapeutics (ex-EG 427) obtient la désignation RMAT de la FDA pour EG110A, premier inhibiteur non systémique et site-spécifique des neurones CGRP+, ciblant l'hyperactivité vésicale neurogène liée aux lésions médullaires. Ce statut accélère la voie réglementaire vers une Phase 2b/3 prévue en 2027 et valide la plateforme propriétaire HERMES, bâtie sur des vecteurs HSV-1 non réplicatifs et redosables, deux mois après un Series C de 33 M€ co-mené par GordonMD Global Investments et Merck Ventures.",
-    "company": "Cyllene Therapeutics",
-    "stage": "Series C",
+    "kicker": "Marquage CE · Diagnostic AVC",
+    "title": "UpFront Diagnostics décroche le marquage CE de LVOne, premier test sanguin au monde pour diagnostiquer un AVC au doigt",
+    "deck": "La medtech britannique UpFront Diagnostics obtient le marquage CE pour LVOne, un test au bout du doigt qui mesure GFAP et D-dimer pour détecter en moins de 10 minutes une occlusion de gros vaisseau (LVO) — avant même l'arrivée à l'hôpital. Déjà marqué UKCA et pilotée avec le London Ambulance Service, l'autorisation européenne ouvre la voie à un déploiement dans les ambulances et services d'urgence du continent, sur un segment déjà validé par le rachat de Banyan Biomarkers par bioMérieux.",
+    "company": "UpFront Diagnostics",
     "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/14/3360926/0/en/cyllene-therapeutics-receives-u-s-fda-regenerative-medicine-advanced-therapy-rmat-designation-for-eg110a-in-neurogenic-detrusor-overactivity-ndo.html"
+    "strength": 5,
+    "url": "https://www.globenewswire.com/news-release/2026/09/16/3362858/0/en/upfront-diagnostics-announces-ce-mark-approval-for-lvone-the-world-s-first-rapid-blood-test-to-diagnose-stroke.html"
   },
   "deal": {
-    "company": "Sling Therapeutics",
-    "amount": "$123M",
-    "round": "Series C",
-    "thesis": "Sling Therapeutics boucle un Series C de 123 M$ mené par Forbion, TPG Life Sciences Innovations et Sectoral Asset Management pour faire entrer en Phase 3 le linsitinib, un inhibiteur oral de l'IGF-1R dans l'orbitopathie thyroïdienne — une pathologie aujourd'hui traitée par Tepezza (Amgen), un anticorps administré en perfusion. La thèse : un comprimé oral capte une part significative d'un marché dominé par un traitement contraignant, un pari sur la commodité patient plutôt que sur une nouvelle cible. La molécule, développée à l'origine par Astellas en oncologie, a été relicenciée par Sling en 2022 avant preuve de concept en Phase 2b/3.",
-    "url": "https://www.biospace.com/press-releases/sling-therapeutics-announces-123-million-series-c-financing-to-advance-phase-3-development-of-its-oral-small-molecule-igf-1r-inhibitor-for-thyroid-eye-disease"
+    "company": "PostEra",
+    "amount": "Non divulgué (dizaines de M$)",
+    "round": "Cession d'actifs à EMD Serono",
+    "thesis": "EMD Serono (Merck KGaA) rachète à la biotech IA PostEra deux programmes précliniques — un agoniste FSHR et un agoniste LHCGR — conçus par sa plateforme Proton pour faire basculer la FIV d'un protocole injectable vers un comprimé oral. La thèse : plutôt qu'une levée dilutive ou un rachat total, PostEra monétise des actifs ciblés issus de son moteur IA et reste indépendante — un mode de sortie capital-efficient qui valide la thèse « AI-native drug discovery » sans attendre une preuve clinique complète.",
+    "url": "https://www.prnewswire.com/news-releases/posteras-fertility-programs-acquired-by-emd-serono-inc-302872651.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    { "company": "Matisse Pharmaceuticals", "place": "Geleen, Pays-Bas", "sector": "Biotech",
+      "signalType": "funding_round", "strength": 4, "stage": "Series A",
+      "title": "Matisse Pharmaceuticals boucle un Series A de 14 M€ pour porter l'isupartob sodium en Phase II dans le sepsis",
+      "summary": "Brightlands Venture Partners et LIOF mènent ce tour aux côtés d'investisseurs privés pour financer une Phase II de l'isupartob sodium (M6229), premier représentant d'une nouvelle classe OMS « -partob » de neutralisants des histones extracellulaires — des protéines toxiques libérées lors du sepsis qui entraînent une défaillance multiviscérale en cascade.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3363898/0/en/matisse-pharmaceuticals-closed-series-a-financing-round-to-advance-isupartob-sodium-through-phase-2-clinical-development.html" },
+    { "company": "Health Force", "place": "Barcelone, Espagne", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 3, "stage": "Seed",
+      "title": "Health Force lève 4,2 M€ en Seed pour automatiser les opérations hospitalières par agents IA",
+      "summary": "LUMO Labs mène ce tour, avec Step Venture, Next Tier Ventures, Target Global et Calm/Storm, pour la startup fondée à Vienne en 2022 par Fadi Haddad et Dr Juan Suárez, qui construit une « couche d'opérations » IA pour les hôpitaux européens.",
+      "url": "https://www.eu-startups.com/2026/09/barcelona-based-health-force-raises-e4-2-million-to-streamline-hospital-operations-with-ai-agents" }
+  ],
   "brefsIntl": [
-    { "company": "Thatch", "place": "San Francisco, États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 5, "stage": "Growth",
-      "title": "Thatch atteint le statut de licorne avec un Series C de 108 M$ porté par la bascule vers les ICHRA",
-      "summary": "La plateforme de benefits santé Thatch boucle un Series C de 108 M$ (General Catalyst, Index Ventures, a16z, avec Eli Lilly et ADP Ventures au tour de table) à 1 Md$ de valorisation. Son pari : les employeurs américains délaissent les plans de groupe uniformes pour les ICHRA, des enveloppes individuelles défiscalisées — le chiffre d'affaires de Thatch a été multiplié par sept en un an, pour plus de 5 000 entreprises clientes.",
-      "url": "https://www.prnewswire.com/news-releases/thatch-raises-108m-at-1b-valuation-as-employers-shift-away-from-traditional-health-plans-302879015.html" },
-    { "company": "Ferry Health", "place": "États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 3, "stage": "Seed",
-      "title": "Ferry Health sort de stealth avec 9 M$ menés par a16z et Index Ventures pour un assistant IA qui prend rendez-vous à la place du patient",
-      "summary": "Les agents IA de Ferry appellent ou naviguent en ligne pour trouver un praticien in-network et réserver un rendez-vous, en tenant compte de l'assurance, de la sous-spécialité et des disponibilités — plus d'un million de patients y ont déjà accès via des hôpitaux, assureurs et plateformes de navigation de soins partenaires.",
-      "url": "https://www.prnewswire.com/news-releases/ferry-health-launches-out-of-stealth-with-9m-in-funding-for-its-ai-powered-healthcare-personal-assistant-302880048.html" },
-    { "company": "Kairon Health", "place": "États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 3, "stage": "Seed",
-      "title": "Kairon Health lève 5 M$ pour automatiser l'exécution du value-based care par IA",
-      "summary": "Flare Capital Partners mène ce tour, aux côtés de Tau Ventures et des investisseurs historiques, pour un logiciel qui pilote au quotidien le travail des ACO, hôpitaux et réseaux cliniquement intégrés. Le financement arrive alors que les programmes Medicare d'accountable care entrent dans leur plus grande refonte structurelle en dix ans.",
-      "url": "https://www.prnewswire.com/news-releases/kairon-health-raises-5-million-to-power-ai-driven-execution-in-value-based-care-302879484.html" }
+    { "company": "Evvy", "place": "New York, États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 4, "stage": "Series B",
+      "title": "Evvy boucle un Series B de 40 M$ pour étendre son diagnostic du microbiome vaginal à la fertilité",
+      "summary": "Catalio Capital Management mène ce tour, avec LabCorp Venture Fund et General Catalyst côté investisseurs historiques, pour exploiter le plus grand jeu de données propriétaire sur le microbiome vaginal et l'IA EvvyAI qui l'interprète — une extension logique vers la fertilité, marché adjacent à forte valeur.",
+      "url": "https://www.businesswire.com/news/home/20260915847589/en/Evvy-Raises-$40M-Series-B-to-Scale-AI-Powered-Precision-Diagnostics-Care-Platform-for-Womens-Health" },
+    { "company": "Anew Labs", "place": "Shanghai, Chine", "sector": "Biotech",
+      "signalType": "funding_round", "strength": 4, "stage": "Growth",
+      "title": "Anew Labs, spin-off IA de ByteDance, lève 290 M$ à 1,5 Md$ de valorisation pour la découverte de médicaments",
+      "summary": "HSG (ex-Sequoia China), IDG Capital et Hillhouse Investment mènent ce premier tour externe, aux côtés de 5Y Capital et Boyu Capital — ByteDance conserve 56 % du capital. Signal non-consensus : l'argent de la tech chinoise entre frontalement sur l'IA de découverte de médicaments, un terrain jusque-là dominé par les VCs biotech occidentaux.",
+      "url": "https://technode.global/2026/09/17/bytedance-ai-drug-spin-off-anew-labs-raises-290m/" }
   ],
   "word": {
-    "term": "HSV-1 Vector",
-    "full": "Non-Replicative Herpes Simplex Virus Type 1 Vector",
-    "fr": "Vecteur viral herpès simplex de type 1, non réplicatif",
-    "field": "Thérapie génique · Livraison de gènes",
-    "definition": "Une version du virus de l'herpès (HSV-1) vidée de ses gènes de réplication et retravaillée pour transporter un gène thérapeutique jusqu'à des cellules ciblées, sans provoquer d'infection ni s'intégrer à l'ADN du patient.",
+    "term": "GFAP",
+    "full": "Glial Fibrillary Acidic Protein",
+    "fr": "Protéine acide fibrillaire gliale",
+    "field": "Diagnostics · Neuro-traumatologie / AVC",
+    "definition": "Une protéine libérée dans le sang par les astrocytes (cellules de soutien du cerveau) dès qu'ils sont endommagés, utilisée comme signal précoce pour détecter un AVC ou un traumatisme crânien avant même l'imagerie.",
     "parts": [
-      { "label": "Capside HSV-1 modifiée", "role": "le véhicule d'entrée dans la cellule" },
-      { "label": "Gènes de réplication délétés", "role": "la sécurité — le virus ne peut plus se multiplier" },
-      { "label": "Transgène thérapeutique", "role": "la charge utile livrée à la cellule" }
+      { "label": "GFAP", "role": "le signal de dommage astrocytaire" },
+      { "label": "Immunoessai anticorps capture/détection", "role": "la reconnaissance moléculaire" },
+      { "label": "Lecteur point-of-care", "role": "la mesure quantitative en quelques minutes" }
     ],
     "how": [
-      { "n": "1", "h": "Ingénierie", "t": "Le squelette viral HSV-1 est vidé de ses gènes essentiels à la réplication et à la virulence, puis chargé du gène thérapeutique à délivrer." },
-      { "n": "2", "h": "Administration ciblée", "t": "Le vecteur est injecté localement (vessie, peau, œil, tumeur) pour atteindre spécifiquement les cellules ou neurones visés." },
-      { "n": "3", "h": "Expression transitoire", "t": "Le gène s'exprime dans la cellule sans s'intégrer au génome de l'hôte, ce qui permet, si besoin, de redoser le traitement dans le temps." }
+      { "n": "1", "h": "Libération", "t": "Un AVC ou un choc crânien endommage les astrocytes, qui libèrent la GFAP dans la circulation sanguine en quelques dizaines de minutes." },
+      { "n": "2", "h": "Capture", "t": "Une goutte de sang au bout du doigt est déposée sur une cartouche où des anticorps spécifiques capturent la GFAP, souvent associée au D-dimer ou à l'UCH-L1 selon le test." },
+      { "n": "3", "h": "Lecture", "t": "Un lecteur portable quantifie le signal et rend un résultat en moins de 10 minutes, avant l'arrivée à l'hôpital ou la réalisation d'un scanner." }
     ],
-    "why": "Face aux limites de capacité et d'immunogénicité de l'AAV — la star de la thérapie génique —, le HSV-1 offre un génome bien plus grand (donc des constructions multi-gènes) et une redosabilité qui manque souvent à l'AAV, dont l'immunité neutralisante empêche un second traitement. Validée cliniquement par Krystal Biotech (VYJUVEK, premier produit HSV-1 approuvé), la techno essaime désormais au-delà de la dermatologie vers l'urologie ou l'oncologie — un signal que les VCs santé surveillent une nouvelle vague de plateformes de délivrance génique, alternative à l'AAV déjà saturé d'investisseurs.",
+    "why": "La GFAP permet de trier un patient en quelques minutes plutôt qu'en heures : distinguer un AVC hémorragique d'un ischémique, repérer une occlusion de gros vaisseau justifiant un transfert direct vers un centre de thrombectomie, ou écarter un traumatisme crânien léger sans scanner. Après la validation clinique via Abbott et le rachat de Banyan Biomarkers par bioMérieux, la première autorisation CE d'un test GFAP dédié à l'AVC confirme que ce biomarqueur quitte le laboratoire pour la médecine préhospitalière — un axe medtech capital-efficient que les VCs santé suivent de près, entre validation clinique répétée et appétit M&A déjà démontré.",
     "startups": [
-      { "name": "Cyllene Therapeutics", "use": "Plateforme HERMES de vecteurs HSV-1 non réplicatifs et redosables ; EG110A vient de décrocher la désignation RMAT de la FDA dans la vessie neurogène", "place": "Paris, France" },
-      { "name": "Virogin Biotech", "use": "Plateforme de virothérapie oncolytique à base de HSV-1 combinée à des vaccins ARNm, en développement clinique en oncologie", "place": "Vancouver, Canada" },
-      { "name": "Candel Therapeutics", "use": "Plateforme enLIGHTEN de virus HSV oncolytiques ; dépôt de BLA visé fin 2026 en cancer de la prostate localisé à haut risque", "place": "Needham, États-Unis" }
+      { "name": "UpFront Diagnostics", "use": "Test LVOne : GFAP + D-dimer au bout du doigt pour détecter une occlusion de gros vaisseau ; vient d'obtenir le marquage CE, déjà pilotée avec le London Ambulance Service", "place": "Cambridge, Royaume-Uni" },
+      { "name": "BRAINBox Solutions", "use": "Test multi-modal GFAP + UCH-L1 combiné à une évaluation neurocognitive numérique pour diagnostiquer et pronostiquer une commotion ; financement stratégique bouclé en août 2026", "place": "Richmond, États-Unis" },
+      { "name": "NanoDx", "use": "Plateforme Tbit, biocapteur nanotechnologique (ex-BioDirection) qui dose en moins de 2 minutes les biomarqueurs de traumatisme crânien à partir d'une goutte de sang ou de salive ; désignation Breakthrough Device de la FDA", "place": "Southborough, États-Unis" }
     ]
   }
 }

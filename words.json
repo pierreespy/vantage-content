@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-17",
+  "generatedAt": "2026-09-18",
   "words": [
+    {
+      "term": "GFAP",
+      "full": "Glial Fibrillary Acidic Protein",
+      "fr": "Protéine acide fibrillaire gliale",
+      "field": "Diagnostics · Neuro-traumatologie / AVC",
+      "definition": "Une protéine libérée dans le sang par les astrocytes (cellules de soutien du cerveau) dès qu'ils sont endommagés, utilisée comme signal précoce pour détecter un AVC ou un traumatisme crânien avant même l'imagerie.",
+      "parts": [
+        {
+          "label": "GFAP",
+          "role": "le signal de dommage astrocytaire"
+        },
+        {
+          "label": "Immunoessai anticorps capture/détection",
+          "role": "la reconnaissance moléculaire"
+        },
+        {
+          "label": "Lecteur point-of-care",
+          "role": "la mesure quantitative en quelques minutes"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Libération",
+          "t": "Un AVC ou un choc crânien endommage les astrocytes, qui libèrent la GFAP dans la circulation sanguine en quelques dizaines de minutes."
+        },
+        {
+          "n": "2",
+          "h": "Capture",
+          "t": "Une goutte de sang au bout du doigt est déposée sur une cartouche où des anticorps spécifiques capturent la GFAP, souvent associée au D-dimer ou à l'UCH-L1 selon le test."
+        },
+        {
+          "n": "3",
+          "h": "Lecture",
+          "t": "Un lecteur portable quantifie le signal et rend un résultat en moins de 10 minutes, avant l'arrivée à l'hôpital ou la réalisation d'un scanner."
+        }
+      ],
+      "why": "La GFAP permet de trier un patient en quelques minutes plutôt qu'en heures : distinguer un AVC hémorragique d'un ischémique, repérer une occlusion de gros vaisseau justifiant un transfert direct vers un centre de thrombectomie, ou écarter un traumatisme crânien léger sans scanner. Après la validation clinique via Abbott et le rachat de Banyan Biomarkers par bioMérieux, la première autorisation CE d'un test GFAP dédié à l'AVC confirme que ce biomarqueur quitte le laboratoire pour la médecine préhospitalière — un axe medtech capital-efficient que les VCs santé suivent de près, entre validation clinique répétée et appétit M&A déjà démontré.",
+      "startups": [
+        {
+          "name": "UpFront Diagnostics",
+          "use": "Test LVOne : GFAP + D-dimer au bout du doigt pour détecter une occlusion de gros vaisseau ; vient d'obtenir le marquage CE, déjà pilotée avec le London Ambulance Service",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "BRAINBox Solutions",
+          "use": "Test multi-modal GFAP + UCH-L1 combiné à une évaluation neurocognitive numérique pour diagnostiquer et pronostiquer une commotion ; financement stratégique bouclé en août 2026",
+          "place": "Richmond, États-Unis"
+        },
+        {
+          "name": "NanoDx",
+          "use": "Plateforme Tbit, biocapteur nanotechnologique (ex-BioDirection) qui dose en moins de 2 minutes les biomarqueurs de traumatisme crânien à partir d'une goutte de sang ou de salive ; désignation Breakthrough Device de la FDA",
+          "place": "Southborough, États-Unis"
+        }
+      ],
+      "date": "2026-09-18",
+      "dateLong": "18 sept. 2026"
+    },
     {
       "term": "HSV-1 Vector",
       "full": "Non-Replicative Herpes Simplex Virus Type 1 Vector",
