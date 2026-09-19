@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-18",
+  "generatedAt": "2026-09-19",
   "words": [
+    {
+      "term": "ECoG",
+      "full": "Electrocorticography",
+      "fr": "Électrocorticographie",
+      "field": "Neurotechnologie · Interfaces cerveau-machine (BCI)",
+      "definition": "Une technique qui enregistre l'activité électrique du cerveau via une grille d'électrodes posée sur ou sous la dure-mère, à la surface du cortex, sans pénétrer le tissu cérébral — à mi-chemin entre l'EEG non invasif et les électrodes intracorticales qui s'enfoncent dans le cerveau.",
+      "parts": [
+        {
+          "label": "Grille d'électrodes de surface",
+          "role": "le capteur"
+        },
+        {
+          "label": "Implant/amplificateur sans fil",
+          "role": "la transmission"
+        },
+        {
+          "label": "Décodeur logiciel (IA)",
+          "role": "l'interprétation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Pose",
+          "t": "Une grille fine d'électrodes est glissée sur ou sous la dure-mère lors d'une chirurgie minimalement invasive, sans pénétrer le cortex."
+        },
+        {
+          "n": "2",
+          "h": "Enregistrement",
+          "t": "La grille capte les signaux électriques corticaux avec une résolution spatiale bien supérieure à l'EEG de surface, et un bruit bien moindre."
+        },
+        {
+          "n": "3",
+          "h": "Décodage",
+          "t": "Un algorithme d'IA traduit en temps réel ces signaux en commandes numériques : curseur, texte, ou intention de mouvement."
+        }
+      ],
+      "why": "L'ECoG s'installe comme le compromis que les investisseurs BCI cherchaient : moins invasif et moins risqué chirurgicalement que les électrodes intracorticales façon Neuralink ou Paradromics, mais avec une résolution de signal très supérieure à l'EEG externe. Ce profil de risque plus faible ouvre une voie réglementaire plus rapide (Breakthrough Device, 510(k)) vers des usages à revenu plus proche — monitoring de l'épilepsie, communication assistée — plutôt que le seul pari moonshot du contrôle moteur complet.",
+      "startups": [
+        {
+          "name": "CorTec",
+          "use": "Brain Interchange : BCI implantable sans fil et sans batterie fondée sur des électrodes ECoG non pénétrantes ; 2e désignation FDA Breakthrough Device obtenue fin août 2026 pour le contrôle de curseur chez les tétraplégiques",
+          "place": "Fribourg-en-Brisgau, Allemagne"
+        },
+        {
+          "name": "Precision Neuroscience",
+          "use": "Layer 7 Cortical Interface : réseau de 1024 microélectrodes ECoG posé sans pénétrer le cortex ; validé FDA 510(k), plus de 155 M$ levés dont un Series C de 102 M$ mené par General Equity Holdings",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "NeuroXess",
+          "use": "Plateformes ECoG sous-durale et intracorticale ; décodage de la parole mandarine en temps réel et implant semi-invasif sans connecteur percutané testé fin 2025 ; extension de Series A bouclée en juillet 2026",
+          "place": "Shanghai, Chine"
+        },
+        {
+          "name": "Epiminder",
+          "use": "Minder : moniteur EEG implantable fondé sur l'ECoG pour la surveillance continue de l'épilepsie ; désignation FDA Breakthrough Device et remboursement Medicare obtenu en 2026",
+          "place": "Melbourne, Australie"
+        }
+      ],
+      "date": "2026-09-19",
+      "dateLong": "19 sept. 2026"
+    },
     {
       "term": "GFAP",
       "full": "Glial Fibrillary Acidic Protein",

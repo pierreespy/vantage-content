@@ -1,74 +1,79 @@
 {
-  "dateLong": "18 sept. 2026",
+  "dateLong": "19 sept. 2026",
   "ticker": [
-    { "company": "Evvy", "amount": "$40M", "kind": "lev" },
-    { "company": "Matisse Pharmaceuticals", "amount": "€14M", "kind": "lev" },
-    { "company": "UpFront Diagnostics", "amount": "$4,3M", "kind": "lev" },
-    { "company": "Health Force", "amount": "€4,2M", "kind": "lev" },
-    { "company": "Anew Labs", "amount": "$290M", "kind": "lev" },
-    { "company": "PostEra", "amount": "n.d.", "kind": "mna" }
+    { "company": "Circle Pharma", "amount": "$92,5M", "kind": "lev" },
+    { "company": "North Immunology", "amount": "$180M", "kind": "lev" },
+    { "company": "MMI", "amount": "€17M", "kind": "lev" },
+    { "company": "PDS Biotech", "amount": "$22,3M", "kind": "lev" },
+    { "company": "Doctolib / Dottori.it", "amount": "n.d.", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Marquage CE · Diagnostic AVC",
-    "title": "UpFront Diagnostics décroche le marquage CE de LVOne, premier test sanguin au monde pour diagnostiquer un AVC au doigt",
-    "deck": "La medtech britannique UpFront Diagnostics obtient le marquage CE pour LVOne, un test au bout du doigt qui mesure GFAP et D-dimer pour détecter en moins de 10 minutes une occlusion de gros vaisseau (LVO) — avant même l'arrivée à l'hôpital. Déjà marqué UKCA et pilotée avec le London Ambulance Service, l'autorisation européenne ouvre la voie à un déploiement dans les ambulances et services d'urgence du continent, sur un segment déjà validé par le rachat de Banyan Biomarkers par bioMérieux.",
-    "company": "UpFront Diagnostics",
+    "kicker": "FDA Breakthrough Device · Neurotech (BCI)",
+    "title": "CorTec décroche une 2e désignation FDA Breakthrough Device pour sa BCI Brain Interchange, cette fois pour rendre le contrôle d'un curseur aux tétraplégiques",
+    "deck": "La medtech allemande CorTec (Fribourg-en-Brisgau) obtient sa deuxième désignation FDA Breakthrough Device pour Brain Interchange, un implant cérébral sans fil et sans batterie fondé sur des électrodes ECoG posées à la surface du cortex, sans le pénétrer — cette fois pour permettre à des patients tétraplégiques de piloter un curseur par la pensée. Une première désignation, obtenue en avril 2026, couvrait déjà la rééducation motrice post-AVC : à la connaissance de l'entreprise, seule une poignée d'acteurs mondiaux du BCI (Neuralink, Paradromics) cumulent plus d'une désignation Breakthrough, ce qui positionne CorTec en tête d'un segment moins invasif que les électrodes intracorticales.",
+    "company": "CorTec GmbH",
     "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.globenewswire.com/news-release/2026/09/16/3362858/0/en/upfront-diagnostics-announces-ce-mark-approval-for-lvone-the-world-s-first-rapid-blood-test-to-diagnose-stroke.html"
+    "strength": 4,
+    "url": "https://cortec-neuro.com/news/cortec-receives-second-fda-breakthrough-device-designation-for-brain-interchange"
   },
   "deal": {
-    "company": "PostEra",
-    "amount": "Non divulgué (dizaines de M$)",
-    "round": "Cession d'actifs à EMD Serono",
-    "thesis": "EMD Serono (Merck KGaA) rachète à la biotech IA PostEra deux programmes précliniques — un agoniste FSHR et un agoniste LHCGR — conçus par sa plateforme Proton pour faire basculer la FIV d'un protocole injectable vers un comprimé oral. La thèse : plutôt qu'une levée dilutive ou un rachat total, PostEra monétise des actifs ciblés issus de son moteur IA et reste indépendante — un mode de sortie capital-efficient qui valide la thèse « AI-native drug discovery » sans attendre une preuve clinique complète.",
-    "url": "https://www.prnewswire.com/news-releases/posteras-fertility-programs-acquired-by-emd-serono-inc-302872651.html"
+    "company": "North Immunology",
+    "amount": "$180M",
+    "round": "Reverse merger + PIPE",
+    "thesis": "Incubée deux ans en interne par un hedge fund biotech, North Immunology entre en Bourse via une fusion inversée avec Aethlon Medical, assortie d'un placement privé de 180 M$ mené par Bain Capital Life Sciences et Janus Henderson. La thèse : loger un anticorps bispécifique IL-13 x IL-18 contre la dermatite atopique dans une coquille cotée plutôt que de lever un tour privé classique — un montage de plus en plus utilisé pour amener vite du capital growth vers des actifs encore précliniques, à surveiller comme mode de sortie/entrée alternatif.",
+    "url": "https://www.biopharmadive.com/news/north-immunology-aethlon-biotech-reverse-merger-eczema-drug/830631/"
   },
   "brefsEurope": [
-    { "company": "Matisse Pharmaceuticals", "place": "Geleen, Pays-Bas", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 4, "stage": "Series A",
-      "title": "Matisse Pharmaceuticals boucle un Series A de 14 M€ pour porter l'isupartob sodium en Phase II dans le sepsis",
-      "summary": "Brightlands Venture Partners et LIOF mènent ce tour aux côtés d'investisseurs privés pour financer une Phase II de l'isupartob sodium (M6229), premier représentant d'une nouvelle classe OMS « -partob » de neutralisants des histones extracellulaires — des protéines toxiques libérées lors du sepsis qui entraînent une défaillance multiviscérale en cascade.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3363898/0/en/matisse-pharmaceuticals-closed-series-a-financing-round-to-advance-isupartob-sodium-through-phase-2-clinical-development.html" },
-    { "company": "Health Force", "place": "Barcelone, Espagne", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 3, "stage": "Seed",
-      "title": "Health Force lève 4,2 M€ en Seed pour automatiser les opérations hospitalières par agents IA",
-      "summary": "LUMO Labs mène ce tour, avec Step Venture, Next Tier Ventures, Target Global et Calm/Storm, pour la startup fondée à Vienne en 2022 par Fadi Haddad et Dr Juan Suárez, qui construit une « couche d'opérations » IA pour les hôpitaux européens.",
-      "url": "https://www.eu-startups.com/2026/09/barcelona-based-health-force-raises-e4-2-million-to-streamline-hospital-operations-with-ai-agents" }
+    { "company": "MMI (Medical Microinstruments)", "place": "Pise, Italie", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 3, "stage": "Growth",
+      "title": "MMI reçoit 17 M€ d'Angelini Ventures et de la BEI pour déployer son robot de microchirurgie Symani",
+      "summary": "Troisième investissement en moins de 12 mois du partenariat de 150 M€ entre la Banque européenne d'investissement et Angelini Ventures (48,5 M€ déployés à ce jour), destiné à accélérer le déploiement clinique du système Symani, doté des plus petits instruments robotiques articulés au monde pour la chirurgie de vaisseaux et nerfs de moins de 0,3 mm.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/16/3362863/0/en/eib-and-angelini-ventures-partnership-reaches-48-5-million-in-investments.html" },
+    { "company": "Doctolib / Dottori.it", "place": "Milan, Italie", "sector": "Digital Health",
+      "signalType": "acquisition", "strength": 4,
+      "title": "Doctolib rachète l'italien Dottori.it et engage 250 M€ pour s'implanter en Italie",
+      "summary": "La scale-up européenne de la e-santé rachète la plateforme de prise de rendez-vous Dottori.it et annonce un plan d'investissement de 250 M€ (nouveau Tech Center à Milan, 500 recrutements) pour lancer Doctolib Italia — un signal de consolidation du marché européen de la e-santé à surveiller pour jauger l'appétit des scale-ups à capital-risque pour la croissance externe.",
+      "url": "https://bebeez.it/venture-capital/la-francese-doctolib-compra-dottori-it-e-punta-250-mln-euro-da-investire-per-lo-sviluppo-in-italia/" }
   ],
   "brefsIntl": [
-    { "company": "Evvy", "place": "New York, États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 4, "stage": "Series B",
-      "title": "Evvy boucle un Series B de 40 M$ pour étendre son diagnostic du microbiome vaginal à la fertilité",
-      "summary": "Catalio Capital Management mène ce tour, avec LabCorp Venture Fund et General Catalyst côté investisseurs historiques, pour exploiter le plus grand jeu de données propriétaire sur le microbiome vaginal et l'IA EvvyAI qui l'interprète — une extension logique vers la fertilité, marché adjacent à forte valeur.",
-      "url": "https://www.businesswire.com/news/home/20260915847589/en/Evvy-Raises-$40M-Series-B-to-Scale-AI-Powered-Precision-Diagnostics-Care-Platform-for-Womens-Health" },
-    { "company": "Anew Labs", "place": "Shanghai, Chine", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 4, "stage": "Growth",
-      "title": "Anew Labs, spin-off IA de ByteDance, lève 290 M$ à 1,5 Md$ de valorisation pour la découverte de médicaments",
-      "summary": "HSG (ex-Sequoia China), IDG Capital et Hillhouse Investment mènent ce premier tour externe, aux côtés de 5Y Capital et Boyu Capital — ByteDance conserve 56 % du capital. Signal non-consensus : l'argent de la tech chinoise entre frontalement sur l'IA de découverte de médicaments, un terrain jusque-là dominé par les VCs biotech occidentaux.",
-      "url": "https://technode.global/2026/09/17/bytedance-ai-drug-spin-off-anew-labs-raises-290m/" }
+    { "company": "Circle Pharma", "place": "South San Francisco, États-Unis", "sector": "Biotech",
+      "signalType": "funding_round", "strength": 5, "stage": "Growth",
+      "title": "Circle Pharma boucle un Series E sursouscrit de 92,5 M$ pour un premier inhibiteur oral de la cycline D1",
+      "summary": "The Column Group mène ce tour aux côtés de Nextech Invest, RA Capital et d'un investissement stratégique d'Eli Lilly, pour faire entrer CID-165 — un macrocycle oral ciblant la cycline D1, potentiel traitement de fond du cancer du sein ER+ — en développement clinique début 2027.",
+      "url": "https://www.biospace.com/press-releases/circle-pharma-announces-92-5-million-series-e-financing-to-advance-first-in-class-cyclin-d1-program-into-clinical-development" },
+    { "company": "PDS Biotech", "place": "Florham Park, États-Unis", "sector": "Biotech",
+      "signalType": "funding_round", "strength": 3,
+      "title": "Nant Capital injecte 22,3 M$ dans PDS Biotech et Patrick Soon-Shiong rejoint son conseil d'administration",
+      "summary": "Premier closing de 11,3 M$ sur un financement pouvant atteindre 22,3 M$, avec une tranche additionnelle de 11 M$ conditionnée au dépôt d'un protocole de Phase III pour PDS0301 (cancer colorectal métastatique, co-développé avec Nant) — un argent stratégique nommé qui vaut d'être suivi avant la lecture des résultats pivots.",
+      "url": "https://www.biospace.com/press-releases/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-financing-and-the-appointment-of-dr-patrick-soon-shiong-to-its-board-of-directors" },
+    { "company": "Emanate Biomedical", "place": "Seattle, États-Unis", "sector": "MedTech",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Emanate Biomedical décroche la première clearance FDA 510(k) pour un pansement parodontal à domicile",
+      "summary": "Perio PODS, plateau dentaire pré-rempli d'un hydrogel bio-conçu à usage unique, devient le premier dispositif de ce type autorisé par la FDA pour protéger les tissus parodontaux après un acte non chirurgical — une niche étroite mais une porte d'entrée réglementaire que peu d'acteurs avaient ouverte.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3363966/0/en/emanate-receives-fda-510-k-clearance-for-perio-pods-the-first-fda-cleared-at-home-periodontal-wound-dressing-indicated-following-non-surgical-periodontal-procedures.html" }
   ],
   "word": {
-    "term": "GFAP",
-    "full": "Glial Fibrillary Acidic Protein",
-    "fr": "Protéine acide fibrillaire gliale",
-    "field": "Diagnostics · Neuro-traumatologie / AVC",
-    "definition": "Une protéine libérée dans le sang par les astrocytes (cellules de soutien du cerveau) dès qu'ils sont endommagés, utilisée comme signal précoce pour détecter un AVC ou un traumatisme crânien avant même l'imagerie.",
+    "term": "ECoG",
+    "full": "Electrocorticography",
+    "fr": "Électrocorticographie",
+    "field": "Neurotechnologie · Interfaces cerveau-machine (BCI)",
+    "definition": "Une technique qui enregistre l'activité électrique du cerveau via une grille d'électrodes posée sur ou sous la dure-mère, à la surface du cortex, sans pénétrer le tissu cérébral — à mi-chemin entre l'EEG non invasif et les électrodes intracorticales qui s'enfoncent dans le cerveau.",
     "parts": [
-      { "label": "GFAP", "role": "le signal de dommage astrocytaire" },
-      { "label": "Immunoessai anticorps capture/détection", "role": "la reconnaissance moléculaire" },
-      { "label": "Lecteur point-of-care", "role": "la mesure quantitative en quelques minutes" }
+      { "label": "Grille d'électrodes de surface", "role": "le capteur" },
+      { "label": "Implant/amplificateur sans fil", "role": "la transmission" },
+      { "label": "Décodeur logiciel (IA)", "role": "l'interprétation" }
     ],
     "how": [
-      { "n": "1", "h": "Libération", "t": "Un AVC ou un choc crânien endommage les astrocytes, qui libèrent la GFAP dans la circulation sanguine en quelques dizaines de minutes." },
-      { "n": "2", "h": "Capture", "t": "Une goutte de sang au bout du doigt est déposée sur une cartouche où des anticorps spécifiques capturent la GFAP, souvent associée au D-dimer ou à l'UCH-L1 selon le test." },
-      { "n": "3", "h": "Lecture", "t": "Un lecteur portable quantifie le signal et rend un résultat en moins de 10 minutes, avant l'arrivée à l'hôpital ou la réalisation d'un scanner." }
+      { "n": "1", "h": "Pose", "t": "Une grille fine d'électrodes est glissée sur ou sous la dure-mère lors d'une chirurgie minimalement invasive, sans pénétrer le cortex." },
+      { "n": "2", "h": "Enregistrement", "t": "La grille capte les signaux électriques corticaux avec une résolution spatiale bien supérieure à l'EEG de surface, et un bruit bien moindre." },
+      { "n": "3", "h": "Décodage", "t": "Un algorithme d'IA traduit en temps réel ces signaux en commandes numériques : curseur, texte, ou intention de mouvement." }
     ],
-    "why": "La GFAP permet de trier un patient en quelques minutes plutôt qu'en heures : distinguer un AVC hémorragique d'un ischémique, repérer une occlusion de gros vaisseau justifiant un transfert direct vers un centre de thrombectomie, ou écarter un traumatisme crânien léger sans scanner. Après la validation clinique via Abbott et le rachat de Banyan Biomarkers par bioMérieux, la première autorisation CE d'un test GFAP dédié à l'AVC confirme que ce biomarqueur quitte le laboratoire pour la médecine préhospitalière — un axe medtech capital-efficient que les VCs santé suivent de près, entre validation clinique répétée et appétit M&A déjà démontré.",
+    "why": "L'ECoG s'installe comme le compromis que les investisseurs BCI cherchaient : moins invasif et moins risqué chirurgicalement que les électrodes intracorticales façon Neuralink ou Paradromics, mais avec une résolution de signal très supérieure à l'EEG externe. Ce profil de risque plus faible ouvre une voie réglementaire plus rapide (Breakthrough Device, 510(k)) vers des usages à revenu plus proche — monitoring de l'épilepsie, communication assistée — plutôt que le seul pari moonshot du contrôle moteur complet.",
     "startups": [
-      { "name": "UpFront Diagnostics", "use": "Test LVOne : GFAP + D-dimer au bout du doigt pour détecter une occlusion de gros vaisseau ; vient d'obtenir le marquage CE, déjà pilotée avec le London Ambulance Service", "place": "Cambridge, Royaume-Uni" },
-      { "name": "BRAINBox Solutions", "use": "Test multi-modal GFAP + UCH-L1 combiné à une évaluation neurocognitive numérique pour diagnostiquer et pronostiquer une commotion ; financement stratégique bouclé en août 2026", "place": "Richmond, États-Unis" },
-      { "name": "NanoDx", "use": "Plateforme Tbit, biocapteur nanotechnologique (ex-BioDirection) qui dose en moins de 2 minutes les biomarqueurs de traumatisme crânien à partir d'une goutte de sang ou de salive ; désignation Breakthrough Device de la FDA", "place": "Southborough, États-Unis" }
+      { "name": "CorTec", "use": "Brain Interchange : BCI implantable sans fil et sans batterie fondée sur des électrodes ECoG non pénétrantes ; 2e désignation FDA Breakthrough Device obtenue fin août 2026 pour le contrôle de curseur chez les tétraplégiques", "place": "Fribourg-en-Brisgau, Allemagne" },
+      { "name": "Precision Neuroscience", "use": "Layer 7 Cortical Interface : réseau de 1024 microélectrodes ECoG posé sans pénétrer le cortex ; validé FDA 510(k), plus de 155 M$ levés dont un Series C de 102 M$ mené par General Equity Holdings", "place": "New York, États-Unis" },
+      { "name": "NeuroXess", "use": "Plateformes ECoG sous-durale et intracorticale ; décodage de la parole mandarine en temps réel et implant semi-invasif sans connecteur percutané testé fin 2025 ; extension de Series A bouclée en juillet 2026", "place": "Shanghai, Chine" },
+      { "name": "Epiminder", "use": "Minder : moniteur EEG implantable fondé sur l'ECoG pour la surveillance continue de l'épilepsie ; désignation FDA Breakthrough Device et remboursement Medicare obtenu en 2026", "place": "Melbourne, Australie" }
     ]
   }
 }
