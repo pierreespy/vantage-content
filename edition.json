@@ -1,79 +1,80 @@
 {
-  "dateLong": "19 sept. 2026",
+  "dateLong": "21 sept. 2026",
   "ticker": [
-    { "company": "Circle Pharma", "amount": "$92,5M", "kind": "lev" },
-    { "company": "North Immunology", "amount": "$180M", "kind": "lev" },
-    { "company": "MMI", "amount": "€17M", "kind": "lev" },
-    { "company": "PDS Biotech", "amount": "$22,3M", "kind": "lev" },
-    { "company": "Doctolib / Dottori.it", "amount": "n.d.", "kind": "mna" }
+    { "company": "Penelope Health", "amount": "€87M", "kind": "lev" },
+    { "company": "AVAVA", "amount": "$45M", "kind": "lev" },
+    { "company": "Big Picture Bio", "amount": "€2,55M", "kind": "lev" },
+    { "company": "AbTx", "amount": "€1,7M", "kind": "lev" },
+    { "company": "Witapp", "amount": "n.d.", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "FDA Breakthrough Device · Neurotech (BCI)",
-    "title": "CorTec décroche une 2e désignation FDA Breakthrough Device pour sa BCI Brain Interchange, cette fois pour rendre le contrôle d'un curseur aux tétraplégiques",
-    "deck": "La medtech allemande CorTec (Fribourg-en-Brisgau) obtient sa deuxième désignation FDA Breakthrough Device pour Brain Interchange, un implant cérébral sans fil et sans batterie fondé sur des électrodes ECoG posées à la surface du cortex, sans le pénétrer — cette fois pour permettre à des patients tétraplégiques de piloter un curseur par la pensée. Une première désignation, obtenue en avril 2026, couvrait déjà la rééducation motrice post-AVC : à la connaissance de l'entreprise, seule une poignée d'acteurs mondiaux du BCI (Neuralink, Paradromics) cumulent plus d'une désignation Breakthrough, ce qui positionne CorTec en tête d'un segment moins invasif que les électrodes intracorticales.",
-    "company": "CorTec GmbH",
-    "signalType": "regulatory_milestone",
+    "kicker": "Growth Financing · Digital Health (Policy Intelligence)",
+    "title": "Penelope Health lève 87 M€ (100 M$) auprès de Thoreau pour transformer les règles de remboursement des assureurs santé américains en données programmables",
+    "deck": "La jeune pousse londonienne, fondée en 2025 par Sohum Patel et Mattijs De Paepe, structure via une API les politiques de couverture de la majorité des payeurs santé américains (200 millions de patients couverts) pour automatiser préautorisations, appels de refus et scrubbing de créances. L'investisseur Thoreau (Matt Holt) mène ce financement de croissance aux côtés des soutiens historiques Bertelsmann Healthcare Investments, Twine Ventures et Seedcamp — un chèque massif pour une société de moins d'un an, révélateur de l'appétit des VCs santé pour l'infrastructure de données payeur/provider plutôt que pour l'énième appli patient.",
+    "company": "Penelope Health",
+    "stage": "Growth",
+    "signalType": "funding_round",
     "strength": 4,
-    "url": "https://cortec-neuro.com/news/cortec-receives-second-fda-breakthrough-device-designation-for-brain-interchange"
+    "url": "https://www.eu-startups.com/2026/09/with-200-million-patients-covered-penelope-health-secures-e87-million-in-funding/"
   },
   "deal": {
-    "company": "North Immunology",
-    "amount": "$180M",
-    "round": "Reverse merger + PIPE",
-    "thesis": "Incubée deux ans en interne par un hedge fund biotech, North Immunology entre en Bourse via une fusion inversée avec Aethlon Medical, assortie d'un placement privé de 180 M$ mené par Bain Capital Life Sciences et Janus Henderson. La thèse : loger un anticorps bispécifique IL-13 x IL-18 contre la dermatite atopique dans une coquille cotée plutôt que de lever un tour privé classique — un montage de plus en plus utilisé pour amener vite du capital growth vers des actifs encore précliniques, à surveiller comme mode de sortie/entrée alternatif.",
-    "url": "https://www.biopharmadive.com/news/north-immunology-aethlon-biotech-reverse-merger-eczema-drug/830631/"
+    "company": "Witapp",
+    "amount": "n.d.",
+    "round": "Buyout majoritaire (Private Equity)",
+    "thesis": "Le fonds italien Nextalia Flexible Capital rachète la majorité de Witapp, éditeur florentin de logiciels de santé digitale (imagerie holographique en réalité mixte, plateformes hospitalières) qui n'a jamais levé de tour de capital-risque et clôturera 2026 avec plus de 20 M€ de revenus et plus de 40% de marge opérationnelle. Le fondateur Giovanni Pugliese reste directeur général et réinvestit en minoritaire : une thèse de sortie alternative à observer — la healthtech bootstrappée et rentable qui trouve son financement de croissance via un buyout PE plutôt qu'un nouveau tour VC.",
+    "url": "https://bebeez.it/private-equity/nextalia-flexible-capital-compra-la-maggioranza-dellhealthtech-witapp-nel-2026-ricavi-oltre-20-mln-euro-e-margine-operativo-sopra-il-40/"
   },
   "brefsEurope": [
-    { "company": "MMI (Medical Microinstruments)", "place": "Pise, Italie", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 3, "stage": "Growth",
-      "title": "MMI reçoit 17 M€ d'Angelini Ventures et de la BEI pour déployer son robot de microchirurgie Symani",
-      "summary": "Troisième investissement en moins de 12 mois du partenariat de 150 M€ entre la Banque européenne d'investissement et Angelini Ventures (48,5 M€ déployés à ce jour), destiné à accélérer le déploiement clinique du système Symani, doté des plus petits instruments robotiques articulés au monde pour la chirurgie de vaisseaux et nerfs de moins de 0,3 mm.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/16/3362863/0/en/eib-and-angelini-ventures-partnership-reaches-48-5-million-in-investments.html" },
-    { "company": "Doctolib / Dottori.it", "place": "Milan, Italie", "sector": "Digital Health",
-      "signalType": "acquisition", "strength": 4,
-      "title": "Doctolib rachète l'italien Dottori.it et engage 250 M€ pour s'implanter en Italie",
-      "summary": "La scale-up européenne de la e-santé rachète la plateforme de prise de rendez-vous Dottori.it et annonce un plan d'investissement de 250 M€ (nouveau Tech Center à Milan, 500 recrutements) pour lancer Doctolib Italia — un signal de consolidation du marché européen de la e-santé à surveiller pour jauger l'appétit des scale-ups à capital-risque pour la croissance externe.",
-      "url": "https://bebeez.it/venture-capital/la-francese-doctolib-compra-dottori-it-e-punta-250-mln-euro-da-investire-per-lo-sviluppo-in-italia/" }
+    { "company": "FemPulse", "place": "Vienne, Autriche", "sector": "MedTech",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "FemPulse décroche le marquage CE pour son anneau bioélectronique contre l'hyperactivité vésicale",
+      "summary": "Le FemPulse Ring, dispositif de neuromodulation inséré par voie vaginale qui stimule légèrement les nerfs pelviens, obtient sa certification CE au titre du règlement européen sur les dispositifs médicaux (MDR) et son inscription à l'EUDAMED, ouvrant la voie à sa distribution dans les 27 États membres.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364205/0/en/fempulse-ring-gains-ce-mark-certification-for-the-eu.html" },
+    { "company": "Big Picture Bio", "place": "Londres, Royaume-Uni", "sector": "Biotech",
+      "signalType": "funding_round", "strength": 3, "stage": "Pre-seed",
+      "title": "Big Picture Bio sort de stealth avec 2,55 M€ pour concevoir des combinaisons de médicaments anticancéreux par IA",
+      "summary": "Co-mené par Kadmos Capital et Exceptional Ventures (1,75 M€) avec un complément non-dilutif de 815 k€ du programme britannique Innovate UK Investor Partnerships, ce pre-seed finance une plateforme d'IA qui identifie des associations inédites de molécules oncologiques existantes plutôt que de développer une nouvelle molécule — une thèse capital-efficiente à contre-courant du pari moléculaire classique.",
+      "url": "https://www.eu-startups.com/2026/09/london-based-big-picture-bio-emerges-from-stealth-with-e2-55-million-to-develop-ai-designed-cancer-drug-combinations" },
+    { "company": "Hamlet BioPharma", "place": "Lund, Suède", "sector": "Biotech",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "Hamlet BioPharma lance l'essai pivot de phase III de son complexe protéine-lipide tumoricide dans le cancer de la vessie",
+      "summary": "Après feux verts de l'EMA et de la FDA, le premier patient est traité à l'hôpital Motol de Prague avec Alpha1H, un complexe alpha-lactalbumine/acide oléique dérivé de la protéine HAMLET qui tue directement les cellules tumorales tout en activant une réponse immunitaire proche de celle du BCG — une alternative potentielle au BCG, en pénurie chronique, dans le cancer de la vessie non invasif.",
+      "url": "https://www.inderes.fi/en/releases/hamlet-biopharma-ab-publ-successful-patient-enrolment-in-hamlet-biopharmas-phase-iii-bladder-cancer-trial" }
   ],
   "brefsIntl": [
-    { "company": "Circle Pharma", "place": "South San Francisco, États-Unis", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 5, "stage": "Growth",
-      "title": "Circle Pharma boucle un Series E sursouscrit de 92,5 M$ pour un premier inhibiteur oral de la cycline D1",
-      "summary": "The Column Group mène ce tour aux côtés de Nextech Invest, RA Capital et d'un investissement stratégique d'Eli Lilly, pour faire entrer CID-165 — un macrocycle oral ciblant la cycline D1, potentiel traitement de fond du cancer du sein ER+ — en développement clinique début 2027.",
-      "url": "https://www.biospace.com/press-releases/circle-pharma-announces-92-5-million-series-e-financing-to-advance-first-in-class-cyclin-d1-program-into-clinical-development" },
-    { "company": "PDS Biotech", "place": "Florham Park, États-Unis", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 3,
-      "title": "Nant Capital injecte 22,3 M$ dans PDS Biotech et Patrick Soon-Shiong rejoint son conseil d'administration",
-      "summary": "Premier closing de 11,3 M$ sur un financement pouvant atteindre 22,3 M$, avec une tranche additionnelle de 11 M$ conditionnée au dépôt d'un protocole de Phase III pour PDS0301 (cancer colorectal métastatique, co-développé avec Nant) — un argent stratégique nommé qui vaut d'être suivi avant la lecture des résultats pivots.",
-      "url": "https://www.biospace.com/press-releases/pds-biotech-announces-initial-closing-of-up-to-22-3-million-pipe-financing-and-the-appointment-of-dr-patrick-soon-shiong-to-its-board-of-directors" },
-    { "company": "Emanate Biomedical", "place": "Seattle, États-Unis", "sector": "MedTech",
+    { "company": "AVAVA", "place": "Boston, États-Unis", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 4, "stage": "Growth",
+      "title": "AVAVA boucle un financement de 45 M$ mené par Catalio Capital pour accélérer sa techno laser Focal Point",
+      "summary": "Catalio Capital Management mène ce tour de 45 M$ (30 M$ en equity, 15 M$ en dette), en continuité de son partenariat historique avec la medtech d'esthétique médicale, pour développer de nouvelles itérations de sa technologie laser Focal Point qui concentre l'énergie sur des zones ciblées en épargnant les tissus environnants.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364350/0/en/avava-announces-45-million-financing-led-by-catalio-capital-management-to-accelerate-next-phase-of-growth.html" },
+    { "company": "Ultragenyx Pharmaceutical", "place": "Novato, États-Unis", "sector": "Biotech",
       "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Emanate Biomedical décroche la première clearance FDA 510(k) pour un pansement parodontal à domicile",
-      "summary": "Perio PODS, plateau dentaire pré-rempli d'un hydrogel bio-conçu à usage unique, devient le premier dispositif de ce type autorisé par la FDA pour protéger les tissus parodontaux après un acte non chirurgical — une niche étroite mais une porte d'entrée réglementaire que peu d'acteurs avaient ouverte.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3363966/0/en/emanate-receives-fda-510-k-clearance-for-perio-pods-the-first-fda-cleared-at-home-periodontal-wound-dressing-indicated-following-non-surgical-periodontal-procedures.html" }
+      "title": "La FDA approuve FAYUVI, première thérapie génique jamais autorisée pour le syndrome de Sanfilippo de type A",
+      "summary": "Rebisufligene etisparvovec-hopf devient la première thérapie génique approuvée pour cette maladie métabolique rare et fatale de l'enfant, et vaut à Ultragenyx un bon de désignation prioritaire (PRV) cessible — un comparable de marché qui rappelle la valeur que le marché attache toujours à une thérapie génique first-in-class sur une maladie orpheline, au moment où plusieurs biotechs européennes avancent sur des indications voisines.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364357/20739/en/ultragenyx-announces-approval-of-fayuvi-gene-therapy-the-first-ever-fda-approved-treatment-for-sanfilippo-syndrome-type-a-mps-iiia.html" }
   ],
   "word": {
-    "term": "ECoG",
-    "full": "Electrocorticography",
-    "fr": "Électrocorticographie",
-    "field": "Neurotechnologie · Interfaces cerveau-machine (BCI)",
-    "definition": "Une technique qui enregistre l'activité électrique du cerveau via une grille d'électrodes posée sur ou sous la dure-mère, à la surface du cortex, sans pénétrer le tissu cérébral — à mi-chemin entre l'EEG non invasif et les électrodes intracorticales qui s'enfoncent dans le cerveau.",
+    "term": "Bioelectronic Medicine",
+    "full": "Bioelectronic Medicine (Neuromodulation via Implantable or Wearable Devices)",
+    "fr": "Médecine bioélectronique (neuromodulation par dispositifs implantables ou portés)",
+    "field": "Neuromodulation · MedTech",
+    "definition": "Une approche thérapeutique qui utilise un dispositif électronique implanté ou porté pour moduler l'activité électrique d'un nerf précis et traiter une maladie, sans passer par une molécule pharmacologique.",
     "parts": [
-      { "label": "Grille d'électrodes de surface", "role": "le capteur" },
-      { "label": "Implant/amplificateur sans fil", "role": "la transmission" },
-      { "label": "Décodeur logiciel (IA)", "role": "l'interprétation" }
+      { "label": "Électrode / interface neurale", "role": "le capteur-stimulateur" },
+      { "label": "Générateur d'impulsions", "role": "le moteur électrique" },
+      { "label": "Algorithme de stimulation", "role": "le réglage thérapeutique" }
     ],
     "how": [
-      { "n": "1", "h": "Pose", "t": "Une grille fine d'électrodes est glissée sur ou sous la dure-mère lors d'une chirurgie minimalement invasive, sans pénétrer le cortex." },
-      { "n": "2", "h": "Enregistrement", "t": "La grille capte les signaux électriques corticaux avec une résolution spatiale bien supérieure à l'EEG de surface, et un bruit bien moindre." },
-      { "n": "3", "h": "Décodage", "t": "Un algorithme d'IA traduit en temps réel ces signaux en commandes numériques : curseur, texte, ou intention de mouvement." }
+      { "n": "1", "h": "Ciblage", "t": "Le dispositif est positionné sur ou à proximité d'un nerf périphérique ou central impliqué dans la pathologie (vessie, nerf vague, moelle épinière…)." },
+      { "n": "2", "h": "Stimulation", "t": "Un générateur délivre des impulsions électriques calibrées qui excitent ou inhibent l'activité de ce nerf en temps réel." },
+      { "n": "3", "h": "Effet thérapeutique", "t": "La modulation nerveuse rétablit une fonction organique — contraction vésicale, inflammation, douleur — sans traitement médicamenteux chronique." }
     ],
-    "why": "L'ECoG s'installe comme le compromis que les investisseurs BCI cherchaient : moins invasif et moins risqué chirurgicalement que les électrodes intracorticales façon Neuralink ou Paradromics, mais avec une résolution de signal très supérieure à l'EEG externe. Ce profil de risque plus faible ouvre une voie réglementaire plus rapide (Breakthrough Device, 510(k)) vers des usages à revenu plus proche — monitoring de l'épilepsie, communication assistée — plutôt que le seul pari moonshot du contrôle moteur complet.",
+    "why": "La bioélectronique séduit les VCs santé car elle promet une alternative aux biologiques pris à vie (coût, effets secondaires) avec un modèle économique proche de l'acte unique plutôt que du traitement chronique, et des cycles réglementaires dispositif souvent plus rapides qu'un médicament — illustré aujourd'hui par le marquage CE de FemPulse sur l'hyperactivité vésicale.",
     "startups": [
-      { "name": "CorTec", "use": "Brain Interchange : BCI implantable sans fil et sans batterie fondée sur des électrodes ECoG non pénétrantes ; 2e désignation FDA Breakthrough Device obtenue fin août 2026 pour le contrôle de curseur chez les tétraplégiques", "place": "Fribourg-en-Brisgau, Allemagne" },
-      { "name": "Precision Neuroscience", "use": "Layer 7 Cortical Interface : réseau de 1024 microélectrodes ECoG posé sans pénétrer le cortex ; validé FDA 510(k), plus de 155 M$ levés dont un Series C de 102 M$ mené par General Equity Holdings", "place": "New York, États-Unis" },
-      { "name": "NeuroXess", "use": "Plateformes ECoG sous-durale et intracorticale ; décodage de la parole mandarine en temps réel et implant semi-invasif sans connecteur percutané testé fin 2025 ; extension de Series A bouclée en juillet 2026", "place": "Shanghai, Chine" },
-      { "name": "Epiminder", "use": "Minder : moniteur EEG implantable fondé sur l'ECoG pour la surveillance continue de l'épilepsie ; désignation FDA Breakthrough Device et remboursement Medicare obtenu en 2026", "place": "Melbourne, Australie" }
+      { "name": "Galvani Bioelectronics", "use": "Coentreprise GSK-Verily qui développe des implants neuromodulateurs pour maladies inflammatoires et auto-immunes, en essais cliniques", "place": "Stevenage, Royaume-Uni" },
+      { "name": "Nyxoah", "use": "Genio, implant de neurostimulation du nerf hypoglosse pour l'apnée obstructive du sommeil, commercialisé aux États-Unis et en Europe", "place": "Mont-Saint-Guibert, Belgique" },
+      { "name": "FemPulse", "use": "Ring bioélectronique inséré par voie vaginale pour neuromoduler la vessie hyperactive ; marquage CE obtenu le 17 septembre 2026", "place": "Vienne, Autriche" },
+      { "name": "SetPoint Medical", "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde et la maladie de Crohn ; résultats positifs de preuve de concept sur Crohn en 2026", "place": "Valencia, Californie, États-Unis" }
     ]
   }
 }

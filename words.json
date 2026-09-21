@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-19",
+  "generatedAt": "2026-09-21",
   "words": [
+    {
+      "term": "Bioelectronic Medicine",
+      "full": "Bioelectronic Medicine (Neuromodulation via Implantable or Wearable Devices)",
+      "fr": "Médecine bioélectronique (neuromodulation par dispositifs implantables ou portés)",
+      "field": "Neuromodulation · MedTech",
+      "definition": "Une approche thérapeutique qui utilise un dispositif électronique implanté ou porté pour moduler l'activité électrique d'un nerf précis et traiter une maladie, sans passer par une molécule pharmacologique.",
+      "parts": [
+        {
+          "label": "Électrode / interface neurale",
+          "role": "le capteur-stimulateur"
+        },
+        {
+          "label": "Générateur d'impulsions",
+          "role": "le moteur électrique"
+        },
+        {
+          "label": "Algorithme de stimulation",
+          "role": "le réglage thérapeutique"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le dispositif est positionné sur ou à proximité d'un nerf périphérique ou central impliqué dans la pathologie (vessie, nerf vague, moelle épinière…)."
+        },
+        {
+          "n": "2",
+          "h": "Stimulation",
+          "t": "Un générateur délivre des impulsions électriques calibrées qui excitent ou inhibent l'activité de ce nerf en temps réel."
+        },
+        {
+          "n": "3",
+          "h": "Effet thérapeutique",
+          "t": "La modulation nerveuse rétablit une fonction organique — contraction vésicale, inflammation, douleur — sans traitement médicamenteux chronique."
+        }
+      ],
+      "why": "La bioélectronique séduit les VCs santé car elle promet une alternative aux biologiques pris à vie (coût, effets secondaires) avec un modèle économique proche de l'acte unique plutôt que du traitement chronique, et des cycles réglementaires dispositif souvent plus rapides qu'un médicament — illustré aujourd'hui par le marquage CE de FemPulse sur l'hyperactivité vésicale.",
+      "startups": [
+        {
+          "name": "Galvani Bioelectronics",
+          "use": "Coentreprise GSK-Verily qui développe des implants neuromodulateurs pour maladies inflammatoires et auto-immunes, en essais cliniques",
+          "place": "Stevenage, Royaume-Uni"
+        },
+        {
+          "name": "Nyxoah",
+          "use": "Genio, implant de neurostimulation du nerf hypoglosse pour l'apnée obstructive du sommeil, commercialisé aux États-Unis et en Europe",
+          "place": "Mont-Saint-Guibert, Belgique"
+        },
+        {
+          "name": "FemPulse",
+          "use": "Ring bioélectronique inséré par voie vaginale pour neuromoduler la vessie hyperactive ; marquage CE obtenu le 17 septembre 2026",
+          "place": "Vienne, Autriche"
+        },
+        {
+          "name": "SetPoint Medical",
+          "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde et la maladie de Crohn ; résultats positifs de preuve de concept sur Crohn en 2026",
+          "place": "Valencia, Californie, États-Unis"
+        }
+      ],
+      "date": "2026-09-21",
+      "dateLong": "21 sept. 2026"
+    },
     {
       "term": "ECoG",
       "full": "Electrocorticography",
