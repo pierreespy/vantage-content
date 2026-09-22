@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-21",
+  "generatedAt": "2026-09-22",
   "words": [
+    {
+      "term": "Theranostics",
+      "full": "Theranostics (Diagnostic-Therapeutic Pairing via Targeted Radiopharmaceuticals)",
+      "fr": "Théranostique (couplage diagnostic-thérapie par radiopharmaceutiques ciblés)",
+      "field": "Oncologie de précision · Radiopharmacie",
+      "definition": "Une approche qui couple un même vecteur moléculaire à deux isotopes radioactifs différents pour d'abord repérer une tumeur par imagerie, puis la détruire par irradiation ciblée.",
+      "parts": [
+        {
+          "label": "Vecteur ciblant",
+          "role": "l'adresse moléculaire (ex. PSMA, SSTR)"
+        },
+        {
+          "label": "Isotope diagnostique",
+          "role": "l'imagerie (PET/SPECT)"
+        },
+        {
+          "label": "Isotope thérapeutique",
+          "role": "l'irradiation tumorale (alpha/bêta)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le vecteur (peptide, petite molécule ou anticorps) se lie spécifiquement à un récepteur surexprimé par les cellules tumorales."
+        },
+        {
+          "n": "2",
+          "h": "Imagerie",
+          "t": "Couplé à un isotope diagnostique (cuivre-61, gallium-68…), il permet de cartographier précisément l'étendue de la maladie par PET avant traitement."
+        },
+        {
+          "n": "3",
+          "h": "Irradiation ciblée",
+          "t": "Le même vecteur, couplé cette fois à un isotope thérapeutique (lutétium-177, actinium-225, cuivre-67, plomb-212…), délivre la dose de rayonnement directement dans la tumeur en épargnant les tissus sains."
+        }
+      ],
+      "why": "Le rachat d'ITM par Telix pour 1,65 Md$ cette semaine illustre l'appétit croissant pour la théranostique : le vrai goulot d'étranglement du secteur n'est plus la biologie mais l'accès à une production fiable d'isotopes (Lu-177, Ac-225), ce qui pousse plusieurs biotechs en Series B/C à intégrer verticalement leur propre chaîne d'approvisionnement — une thèse d'investissement à part entière pour les VCs santé qui suivent l'oncologie de précision.",
+      "startups": [
+        {
+          "name": "Nuclidium",
+          "use": "Plateforme de radiothéranostique au cuivre (61Cu diagnostic / 67Cu thérapeutique) pour le cancer de la prostate (PSMA) et les tumeurs neuroendocrines ; Series B de 105 MCHF close en mai 2026",
+          "place": "Bâle, Suisse"
+        },
+        {
+          "name": "Convergent Therapeutics",
+          "use": "CONV01-α, radioligand PSMA à l'actinium-225, en Phase II chez des patients en échec de Lu-PSMA, avec approvisionnement sécurisé auprès de NorthStar Medical Radioisotopes",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Perspective Therapeutics",
+          "use": "Trois programmes cliniques de radiothérapie ciblée (VMT-α-NET, VMT01, PSV359) et désignation orpheline européenne obtenue en juillet 2026 pour ses tumeurs neuroendocrines",
+          "place": "Coralville, États-Unis"
+        },
+        {
+          "name": "AdvanCell",
+          "use": "Plateforme propriétaire au plomb-212 pour une thérapie radioligand ciblant le PSMA (ADVC001) en Phase II ; Series D de 315 M$ bouclée en juillet 2026",
+          "place": "Sydney, Australie"
+        }
+      ],
+      "date": "2026-09-22",
+      "dateLong": "22 sept. 2026"
+    },
     {
       "term": "Bioelectronic Medicine",
       "full": "Bioelectronic Medicine (Neuromodulation via Implantable or Wearable Devices)",

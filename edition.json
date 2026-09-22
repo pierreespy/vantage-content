@@ -1,80 +1,62 @@
 {
-  "dateLong": "21 sept. 2026",
+  "dateLong": "22 sept. 2026",
   "ticker": [
-    { "company": "Penelope Health", "amount": "€87M", "kind": "lev" },
-    { "company": "AVAVA", "amount": "$45M", "kind": "lev" },
-    { "company": "Big Picture Bio", "amount": "€2,55M", "kind": "lev" },
-    { "company": "AbTx", "amount": "€1,7M", "kind": "lev" },
-    { "company": "Witapp", "amount": "n.d.", "kind": "mna" }
+    { "company": "ITM Isotope Technologies Munich", "amount": "$1,65 Md", "kind": "mna" },
+    { "company": "Cloverleaf Bio", "amount": "$33M", "kind": "lev" },
+    { "company": "Ayble Health", "amount": "$16M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Growth Financing · Digital Health (Policy Intelligence)",
-    "title": "Penelope Health lève 87 M€ (100 M$) auprès de Thoreau pour transformer les règles de remboursement des assureurs santé américains en données programmables",
-    "deck": "La jeune pousse londonienne, fondée en 2025 par Sohum Patel et Mattijs De Paepe, structure via une API les politiques de couverture de la majorité des payeurs santé américains (200 millions de patients couverts) pour automatiser préautorisations, appels de refus et scrubbing de créances. L'investisseur Thoreau (Matt Holt) mène ce financement de croissance aux côtés des soutiens historiques Bertelsmann Healthcare Investments, Twine Ventures et Seedcamp — un chèque massif pour une société de moins d'un an, révélateur de l'appétit des VCs santé pour l'infrastructure de données payeur/provider plutôt que pour l'énième appli patient.",
-    "company": "Penelope Health",
-    "stage": "Growth",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.eu-startups.com/2026/09/with-200-million-patients-covered-penelope-health-secures-e87-million-in-funding/"
+    "kicker": "Leadership · Neuropsychiatrie (dépression résistante)",
+    "title": "HMNC Brain Health nomme Maximilian Doebler CEO pour porter sa kétamine orale à domicile vers la Phase III mondiale",
+    "deck": "Le biotech munichois, qui a bouclé en juin un premier closing de 50 M$ de Series B avec MEDICE comme investisseur principal et partenaire de commercialisation exclusive en Europe pour KET01, promeut son directeur du développement clinique et business Maximilian Doebler au poste de CEO. La nomination intervient alors que les données de Phase II publiées dans JAMA Network Open confirment une dissociation minimale par rapport aux autres formulations de kétamine, ouvrant la voie à un usage à domicile et à un design de Phase III mondiale pour la dépression résistante au traitement.",
+    "company": "HMNC Brain Health",
+    "stage": "Series B",
+    "signalType": "leadership_hire",
+    "strength": 3,
+    "url": "https://www.globenewswire.com/news-release/2026/09/21/3365344/0/en/dr-maximilian-doebler-appointed-chief-executive-officer-of-hmnc-brain-health-as-company-moves-into-next-phase-of-global-growth.html"
   },
   "deal": {
-    "company": "Witapp",
-    "amount": "n.d.",
-    "round": "Buyout majoritaire (Private Equity)",
-    "thesis": "Le fonds italien Nextalia Flexible Capital rachète la majorité de Witapp, éditeur florentin de logiciels de santé digitale (imagerie holographique en réalité mixte, plateformes hospitalières) qui n'a jamais levé de tour de capital-risque et clôturera 2026 avec plus de 20 M€ de revenus et plus de 40% de marge opérationnelle. Le fondateur Giovanni Pugliese reste directeur général et réinvestit en minoritaire : une thèse de sortie alternative à observer — la healthtech bootstrappée et rentable qui trouve son financement de croissance via un buyout PE plutôt qu'un nouveau tour VC.",
-    "url": "https://bebeez.it/private-equity/nextalia-flexible-capital-compra-la-maggioranza-dellhealthtech-witapp-nel-2026-ricavi-oltre-20-mln-euro-e-margine-operativo-sopra-il-40/"
+    "company": "ITM Isotope Technologies Munich",
+    "amount": "$1,65 Md (+700 M$ d'earnout)",
+    "round": "M&A",
+    "thesis": "L'australien Telix Pharmaceuticals rachète le munichois ITM, premier fournisseur mondial de lutétium-177 à échelle commerciale et acteur clé sur l'actinium-225 et le terbium-161, pour sécuriser sa chaîne d'approvisionnement en isotopes et former un poids lourd vertically intégré face à la domination de Novartis (Pluvicto, Lutathera). Signal de marché à surveiller pour tout VC santé : la valorisation d'un simple fournisseur d'isotopes illustre la rareté et la valeur stratégique de l'accès amont à la production radiopharmaceutique — le vrai goulot d'étranglement que plusieurs biotechs en Series B/C cherchent justement à contourner en intégrant leur propre approvisionnement.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/21/3365113/0/en/telix-and-itm-join-forces-to-create-a-radiopharmaceutical-powerhouse.html"
   },
-  "brefsEurope": [
-    { "company": "FemPulse", "place": "Vienne, Autriche", "sector": "MedTech",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "FemPulse décroche le marquage CE pour son anneau bioélectronique contre l'hyperactivité vésicale",
-      "summary": "Le FemPulse Ring, dispositif de neuromodulation inséré par voie vaginale qui stimule légèrement les nerfs pelviens, obtient sa certification CE au titre du règlement européen sur les dispositifs médicaux (MDR) et son inscription à l'EUDAMED, ouvrant la voie à sa distribution dans les 27 États membres.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364205/0/en/fempulse-ring-gains-ce-mark-certification-for-the-eu.html" },
-    { "company": "Big Picture Bio", "place": "Londres, Royaume-Uni", "sector": "Biotech",
-      "signalType": "funding_round", "strength": 3, "stage": "Pre-seed",
-      "title": "Big Picture Bio sort de stealth avec 2,55 M€ pour concevoir des combinaisons de médicaments anticancéreux par IA",
-      "summary": "Co-mené par Kadmos Capital et Exceptional Ventures (1,75 M€) avec un complément non-dilutif de 815 k€ du programme britannique Innovate UK Investor Partnerships, ce pre-seed finance une plateforme d'IA qui identifie des associations inédites de molécules oncologiques existantes plutôt que de développer une nouvelle molécule — une thèse capital-efficiente à contre-courant du pari moléculaire classique.",
-      "url": "https://www.eu-startups.com/2026/09/london-based-big-picture-bio-emerges-from-stealth-with-e2-55-million-to-develop-ai-designed-cancer-drug-combinations" },
-    { "company": "Hamlet BioPharma", "place": "Lund, Suède", "sector": "Biotech",
-      "signalType": "clinical_update", "strength": 3,
-      "title": "Hamlet BioPharma lance l'essai pivot de phase III de son complexe protéine-lipide tumoricide dans le cancer de la vessie",
-      "summary": "Après feux verts de l'EMA et de la FDA, le premier patient est traité à l'hôpital Motol de Prague avec Alpha1H, un complexe alpha-lactalbumine/acide oléique dérivé de la protéine HAMLET qui tue directement les cellules tumorales tout en activant une réponse immunitaire proche de celle du BCG — une alternative potentielle au BCG, en pénurie chronique, dans le cancer de la vessie non invasif.",
-      "url": "https://www.inderes.fi/en/releases/hamlet-biopharma-ab-publ-successful-patient-enrolment-in-hamlet-biopharmas-phase-iii-bladder-cancer-trial" }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
-    { "company": "AVAVA", "place": "Boston, États-Unis", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 4, "stage": "Growth",
-      "title": "AVAVA boucle un financement de 45 M$ mené par Catalio Capital pour accélérer sa techno laser Focal Point",
-      "summary": "Catalio Capital Management mène ce tour de 45 M$ (30 M$ en equity, 15 M$ en dette), en continuité de son partenariat historique avec la medtech d'esthétique médicale, pour développer de nouvelles itérations de sa technologie laser Focal Point qui concentre l'énergie sur des zones ciblées en épargnant les tissus environnants.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364350/0/en/avava-announces-45-million-financing-led-by-catalio-capital-management-to-accelerate-next-phase-of-growth.html" },
-    { "company": "Ultragenyx Pharmaceutical", "place": "Novato, États-Unis", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "La FDA approuve FAYUVI, première thérapie génique jamais autorisée pour le syndrome de Sanfilippo de type A",
-      "summary": "Rebisufligene etisparvovec-hopf devient la première thérapie génique approuvée pour cette maladie métabolique rare et fatale de l'enfant, et vaut à Ultragenyx un bon de désignation prioritaire (PRV) cessible — un comparable de marché qui rappelle la valeur que le marché attache toujours à une thérapie génique first-in-class sur une maladie orpheline, au moment où plusieurs biotechs européennes avancent sur des indications voisines.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/17/3364357/20739/en/ultragenyx-announces-approval-of-fayuvi-gene-therapy-the-first-ever-fda-approved-treatment-for-sanfilippo-syndrome-type-a-mps-iiia.html" }
+    { "company": "Pattern Bioscience", "place": "Austin, États-Unis", "sector": "Diagnostics",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "Pattern Bioscience décroche sa 2e désignation FDA Breakthrough Device, pour un test urinaire qui identifie un pathogène et sa résistance aux antibiotiques en un seul passage",
+      "summary": "Le Urine ID/AST Panel identifie le pathogène et teste sa susceptibilité aux antibiotiques directement sur l'échantillon sans mise en culture, grâce à une plateforme de microfluidique et de machine learning à l'échelle de la cellule unique ; il devient le second programme de la société (après la pneumonie) à obtenir ce statut, les infections urinaires et la pneumonie étant les deux portes d'entrée les plus fréquentes vers le sepsis.",
+      "url": "https://www.biospace.com/press-releases/pattern-bioscience-receives-fda-breakthrough-device-designation-for-urine-id-ast-panel" },
+    { "company": "Ayble Health", "place": "Boston, États-Unis", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 4, "stage": "Series A",
+      "title": "Ayble Health boucle un Series A sursouscrit de 16 M$ pour sa clinique virtuelle IA dédiée aux maladies digestives",
+      "summary": "Mené par Neon avec la participation de Cleveland Clinic Ventures, Unum Ventures, Upfront Ventures, M13, DigiTx et Accomplice, ce tour porte le capital total levé par la société à plus de 27 M$ et doit financer son expansion vers des aires thérapeutiques adjacentes à la santé digestive.",
+      "url": "https://www.biospace.com/press-releases/ayble-health-raises-16m-series-a-to-expand-the-nations-most-clinically-validated-virtual-digestive-health-clinic" }
   ],
   "word": {
-    "term": "Bioelectronic Medicine",
-    "full": "Bioelectronic Medicine (Neuromodulation via Implantable or Wearable Devices)",
-    "fr": "Médecine bioélectronique (neuromodulation par dispositifs implantables ou portés)",
-    "field": "Neuromodulation · MedTech",
-    "definition": "Une approche thérapeutique qui utilise un dispositif électronique implanté ou porté pour moduler l'activité électrique d'un nerf précis et traiter une maladie, sans passer par une molécule pharmacologique.",
+    "term": "Theranostics",
+    "full": "Theranostics (Diagnostic-Therapeutic Pairing via Targeted Radiopharmaceuticals)",
+    "fr": "Théranostique (couplage diagnostic-thérapie par radiopharmaceutiques ciblés)",
+    "field": "Oncologie de précision · Radiopharmacie",
+    "definition": "Une approche qui couple un même vecteur moléculaire à deux isotopes radioactifs différents pour d'abord repérer une tumeur par imagerie, puis la détruire par irradiation ciblée.",
     "parts": [
-      { "label": "Électrode / interface neurale", "role": "le capteur-stimulateur" },
-      { "label": "Générateur d'impulsions", "role": "le moteur électrique" },
-      { "label": "Algorithme de stimulation", "role": "le réglage thérapeutique" }
+      { "label": "Vecteur ciblant", "role": "l'adresse moléculaire (ex. PSMA, SSTR)" },
+      { "label": "Isotope diagnostique", "role": "l'imagerie (PET/SPECT)" },
+      { "label": "Isotope thérapeutique", "role": "l'irradiation tumorale (alpha/bêta)" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "Le dispositif est positionné sur ou à proximité d'un nerf périphérique ou central impliqué dans la pathologie (vessie, nerf vague, moelle épinière…)." },
-      { "n": "2", "h": "Stimulation", "t": "Un générateur délivre des impulsions électriques calibrées qui excitent ou inhibent l'activité de ce nerf en temps réel." },
-      { "n": "3", "h": "Effet thérapeutique", "t": "La modulation nerveuse rétablit une fonction organique — contraction vésicale, inflammation, douleur — sans traitement médicamenteux chronique." }
+      { "n": "1", "h": "Ciblage", "t": "Le vecteur (peptide, petite molécule ou anticorps) se lie spécifiquement à un récepteur surexprimé par les cellules tumorales." },
+      { "n": "2", "h": "Imagerie", "t": "Couplé à un isotope diagnostique (cuivre-61, gallium-68…), il permet de cartographier précisément l'étendue de la maladie par PET avant traitement." },
+      { "n": "3", "h": "Irradiation ciblée", "t": "Le même vecteur, couplé cette fois à un isotope thérapeutique (lutétium-177, actinium-225, cuivre-67, plomb-212…), délivre la dose de rayonnement directement dans la tumeur en épargnant les tissus sains." }
     ],
-    "why": "La bioélectronique séduit les VCs santé car elle promet une alternative aux biologiques pris à vie (coût, effets secondaires) avec un modèle économique proche de l'acte unique plutôt que du traitement chronique, et des cycles réglementaires dispositif souvent plus rapides qu'un médicament — illustré aujourd'hui par le marquage CE de FemPulse sur l'hyperactivité vésicale.",
+    "why": "Le rachat d'ITM par Telix pour 1,65 Md$ cette semaine illustre l'appétit croissant pour la théranostique : le vrai goulot d'étranglement du secteur n'est plus la biologie mais l'accès à une production fiable d'isotopes (Lu-177, Ac-225), ce qui pousse plusieurs biotechs en Series B/C à intégrer verticalement leur propre chaîne d'approvisionnement — une thèse d'investissement à part entière pour les VCs santé qui suivent l'oncologie de précision.",
     "startups": [
-      { "name": "Galvani Bioelectronics", "use": "Coentreprise GSK-Verily qui développe des implants neuromodulateurs pour maladies inflammatoires et auto-immunes, en essais cliniques", "place": "Stevenage, Royaume-Uni" },
-      { "name": "Nyxoah", "use": "Genio, implant de neurostimulation du nerf hypoglosse pour l'apnée obstructive du sommeil, commercialisé aux États-Unis et en Europe", "place": "Mont-Saint-Guibert, Belgique" },
-      { "name": "FemPulse", "use": "Ring bioélectronique inséré par voie vaginale pour neuromoduler la vessie hyperactive ; marquage CE obtenu le 17 septembre 2026", "place": "Vienne, Autriche" },
-      { "name": "SetPoint Medical", "use": "Implant de stimulation du nerf vague pour la polyarthrite rhumatoïde et la maladie de Crohn ; résultats positifs de preuve de concept sur Crohn en 2026", "place": "Valencia, Californie, États-Unis" }
+      { "name": "Nuclidium", "use": "Plateforme de radiothéranostique au cuivre (61Cu diagnostic / 67Cu thérapeutique) pour le cancer de la prostate (PSMA) et les tumeurs neuroendocrines ; Series B de 105 MCHF close en mai 2026", "place": "Bâle, Suisse" },
+      { "name": "Convergent Therapeutics", "use": "CONV01-α, radioligand PSMA à l'actinium-225, en Phase II chez des patients en échec de Lu-PSMA, avec approvisionnement sécurisé auprès de NorthStar Medical Radioisotopes", "place": "Cambridge, États-Unis" },
+      { "name": "Perspective Therapeutics", "use": "Trois programmes cliniques de radiothérapie ciblée (VMT-α-NET, VMT01, PSV359) et désignation orpheline européenne obtenue en juillet 2026 pour ses tumeurs neuroendocrines", "place": "Coralville, États-Unis" },
+      { "name": "AdvanCell", "use": "Plateforme propriétaire au plomb-212 pour une thérapie radioligand ciblant le PSMA (ADVC001) en Phase II ; Series D de 315 M$ bouclée en juillet 2026", "place": "Sydney, Australie" }
     ]
   }
 }
