@@ -1,62 +1,70 @@
 {
-  "dateLong": "22 sept. 2026",
+  "dateLong": "23 sept. 2026",
   "ticker": [
-    { "company": "ITM Isotope Technologies Munich", "amount": "$1,65 Md", "kind": "mna" },
-    { "company": "Cloverleaf Bio", "amount": "$33M", "kind": "lev" },
-    { "company": "Ayble Health", "amount": "$16M", "kind": "lev" }
+    { "company": "HighLife", "amount": "€80M", "kind": "lev" },
+    { "company": "Heidi Health", "amount": "$340M", "kind": "lev" },
+    { "company": "Angle Health", "amount": "$600M", "kind": "lev" },
+    { "company": "Biolevate", "amount": "€30M", "kind": "lev" },
+    { "company": "BCI-Sonics", "amount": "$30M", "kind": "lev" },
+    { "company": "ImpriMed", "amount": "$10M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Leadership · Neuropsychiatrie (dépression résistante)",
-    "title": "HMNC Brain Health nomme Maximilian Doebler CEO pour porter sa kétamine orale à domicile vers la Phase III mondiale",
-    "deck": "Le biotech munichois, qui a bouclé en juin un premier closing de 50 M$ de Series B avec MEDICE comme investisseur principal et partenaire de commercialisation exclusive en Europe pour KET01, promeut son directeur du développement clinique et business Maximilian Doebler au poste de CEO. La nomination intervient alors que les données de Phase II publiées dans JAMA Network Open confirment une dissociation minimale par rapport aux autres formulations de kétamine, ouvrant la voie à un usage à domicile et à un design de Phase III mondiale pour la dépression résistante au traitement.",
-    "company": "HMNC Brain Health",
-    "stage": "Series B",
-    "signalType": "leadership_hire",
-    "strength": 3,
-    "url": "https://www.globenewswire.com/news-release/2026/09/21/3365344/0/en/dr-maximilian-doebler-appointed-chief-executive-officer-of-hmnc-brain-health-as-company-moves-into-next-phase-of-global-growth.html"
+    "kicker": "Growth · Cardiologie structurelle (TMVR)",
+    "title": "HighLife lève 80 M€ pour lancer son étude pivot américaine sur le remplacement de la valve mitrale par cathéter",
+    "deck": "Le medtech parisien, fondé en 2010, boucle un tour de plus de 90 M$ co-mené par quatre poids lourds du capital santé français — Andera Partners, Sofinnova Partners, Supernova Invest et Mérieux Equity Partners — avec la participation de la BEI et de BNP Paribas Développement. Les fonds financent l'étude pivot américaine et l'accélération commerciale en Europe de son système de remplacement valvulaire mitral par voie transfémorale, conçu pour les patients en régurgitation mitrale sévère mal desservis par la chirurgie classique.",
+    "company": "HighLife",
+    "stage": "Growth",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://www.globenewswire.com/news-release/2026/09/22/3365967/0/en/highlife-raises-90-million-to-start-its-us-pivotal-study-and-accelerate-commercial-expansion-in-europe.html"
   },
   "deal": {
-    "company": "ITM Isotope Technologies Munich",
-    "amount": "$1,65 Md (+700 M$ d'earnout)",
-    "round": "M&A",
-    "thesis": "L'australien Telix Pharmaceuticals rachète le munichois ITM, premier fournisseur mondial de lutétium-177 à échelle commerciale et acteur clé sur l'actinium-225 et le terbium-161, pour sécuriser sa chaîne d'approvisionnement en isotopes et former un poids lourd vertically intégré face à la domination de Novartis (Pluvicto, Lutathera). Signal de marché à surveiller pour tout VC santé : la valorisation d'un simple fournisseur d'isotopes illustre la rareté et la valeur stratégique de l'accès amont à la production radiopharmaceutique — le vrai goulot d'étranglement que plusieurs biotechs en Series B/C cherchent justement à contourner en intégrant leur propre approvisionnement.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/21/3365113/0/en/telix-and-itm-join-forces-to-create-a-radiopharmaceutical-powerhouse.html"
+    "company": "Biolevate",
+    "amount": "€30M ($34,5M)",
+    "round": "Series A",
+    "thesis": "La startup parisienne d'automatisation IA des workflows scientifiques et réglementaires lève un Series A co-mené par RAISE France et Orange Ventures, avec la participation du fonds corporate santé MSD Global Health Innovation Fund et d'EQT Ventures — signe que les laboratoires pharma financent eux-mêmes l'infrastructure IA censée absorber leur propre charge réglementaire. Biolevate ouvre un bureau à Boston, preuve que la thèse dépasse le cadre européen.",
+    "url": "https://tech.eu/2026/09/22/biolevate-lands-eur30m-series-a-to-scale-life-sciences-ai"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Pattern Bioscience", "place": "Austin, États-Unis", "sector": "Diagnostics",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "Pattern Bioscience décroche sa 2e désignation FDA Breakthrough Device, pour un test urinaire qui identifie un pathogène et sa résistance aux antibiotiques en un seul passage",
-      "summary": "Le Urine ID/AST Panel identifie le pathogène et teste sa susceptibilité aux antibiotiques directement sur l'échantillon sans mise en culture, grâce à une plateforme de microfluidique et de machine learning à l'échelle de la cellule unique ; il devient le second programme de la société (après la pneumonie) à obtenir ce statut, les infections urinaires et la pneumonie étant les deux portes d'entrée les plus fréquentes vers le sepsis.",
-      "url": "https://www.biospace.com/press-releases/pattern-bioscience-receives-fda-breakthrough-device-designation-for-urine-id-ast-panel" },
-    { "company": "Ayble Health", "place": "Boston, États-Unis", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 4, "stage": "Series A",
-      "title": "Ayble Health boucle un Series A sursouscrit de 16 M$ pour sa clinique virtuelle IA dédiée aux maladies digestives",
-      "summary": "Mené par Neon avec la participation de Cleveland Clinic Ventures, Unum Ventures, Upfront Ventures, M13, DigiTx et Accomplice, ce tour porte le capital total levé par la société à plus de 27 M$ et doit financer son expansion vers des aires thérapeutiques adjacentes à la santé digestive.",
-      "url": "https://www.biospace.com/press-releases/ayble-health-raises-16m-series-a-to-expand-the-nations-most-clinically-validated-virtual-digestive-health-clinic" }
+    { "company": "Heidi Health", "place": "Melbourne, Australie", "sector": "Digital Health",
+      "signalType": "funding_round", "strength": 5, "stage": "Series C",
+      "title": "Heidi Health lève 340 M$ et double sa valorisation à 900 M$ pour transformer son copilote clinique en agent IA autonome",
+      "summary": "Le Series C de 100 M$ est mené par l'australien Blackbird avec Phoenix Court, Point72 et Headline, complété par 240 M$ de capital de croissance non dilutif de General Catalyst indexé sur les revenus futurs ; l'IA Care Partner de Heidi équipe déjà 2,8 M de consultations par semaine dans 190 pays.",
+      "url": "https://www.mobihealthnews.com/news/heidi-health-garnered-340m-reaches-900m-valuation" },
+    { "company": "BCI-Sonics", "place": "Shanghai, Chine", "sector": "MedTech",
+      "signalType": "funding_round", "strength": 3,
+      "title": "BCI-Sonics lève 30 M$ pour son interface cerveau-machine non invasive par ultrasons",
+      "summary": "Le tour Pre-Series A est co-mené par HSG (ex-Sequoia China) et Yunqi Capital ; la plateforme d'ultrasons pilotée par IA vise une neuromodulation non invasive, alternative aux implants chirurgicaux classiques du secteur BCI.",
+      "url": "https://techstartups.com/2026/09/22/startup-funding-news-today-september-22-2026-benford-cellpoint-highlife-bci-sonics-spott-more/" },
+    { "company": "Circular Genomics × Altoida", "place": "San Diego & Washington D.C., États-Unis", "sector": "Diagnostics",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "Circular Genomics et Altoida combinent biomarqueur sanguin et biomarqueur digital pour détecter Alzheimer avant les symptômes",
+      "summary": "Les deux biotechs indépendantes associent le signal circRNA sanguin de Circular Genomics, validé dans Nature Medicine, à la plateforme Digital NeuroMarker d'Altoida pour stratifier les patients des années avant l'apparition clinique — une approche multimodale que ni l'une ni l'autre ne pouvait construire seule.",
+      "url": "https://www.biospace.com/press-releases/circular-genomics-and-altoida-announce-collaboration-to-advance-first-of-kind-multimodal-precision-medicine-for-alzheimers-disease" }
   ],
   "word": {
-    "term": "Theranostics",
-    "full": "Theranostics (Diagnostic-Therapeutic Pairing via Targeted Radiopharmaceuticals)",
-    "fr": "Théranostique (couplage diagnostic-thérapie par radiopharmaceutiques ciblés)",
-    "field": "Oncologie de précision · Radiopharmacie",
-    "definition": "Une approche qui couple un même vecteur moléculaire à deux isotopes radioactifs différents pour d'abord repérer une tumeur par imagerie, puis la détruire par irradiation ciblée.",
+    "term": "TMVR",
+    "full": "Transcatheter Mitral Valve Replacement",
+    "fr": "Remplacement valvulaire mitral par cathéter",
+    "field": "Cardiologie structurelle",
+    "definition": "Une technique qui remplace la valve mitrale du cœur sans chirurgie à cœur ouvert, via un cathéter introduit par la veine fémorale ou par ponction transseptale.",
     "parts": [
-      { "label": "Vecteur ciblant", "role": "l'adresse moléculaire (ex. PSMA, SSTR)" },
-      { "label": "Isotope diagnostique", "role": "l'imagerie (PET/SPECT)" },
-      { "label": "Isotope thérapeutique", "role": "l'irradiation tumorale (alpha/bêta)" }
+      { "label": "Voie d'accès", "role": "l'introduction par cathéter (fémorale ou transseptale)" },
+      { "label": "Valve prothétique", "role": "le remplacement fonctionnel, compressée pour le transport" },
+      { "label": "Système d'ancrage", "role": "la fixation dans l'appareil valvulaire natif" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "Le vecteur (peptide, petite molécule ou anticorps) se lie spécifiquement à un récepteur surexprimé par les cellules tumorales." },
-      { "n": "2", "h": "Imagerie", "t": "Couplé à un isotope diagnostique (cuivre-61, gallium-68…), il permet de cartographier précisément l'étendue de la maladie par PET avant traitement." },
-      { "n": "3", "h": "Irradiation ciblée", "t": "Le même vecteur, couplé cette fois à un isotope thérapeutique (lutétium-177, actinium-225, cuivre-67, plomb-212…), délivre la dose de rayonnement directement dans la tumeur en épargnant les tissus sains." }
+      { "n": "1", "h": "Accès", "t": "Le cathéter est introduit par la veine fémorale puis guidé jusqu'à l'oreillette gauche par ponction transseptale." },
+      { "n": "2", "h": "Positionnement", "t": "La valve prothétique compressée est acheminée sous imagerie fluoroscopique et échographique jusqu'à l'anneau mitral natif." },
+      { "n": "3", "h": "Déploiement", "t": "La valve se déploie et s'ancre dans l'appareil valvulaire natif, restaurant une fonction compétente sans arrêt cardiaque ni sternotomie." }
     ],
-    "why": "Le rachat d'ITM par Telix pour 1,65 Md$ cette semaine illustre l'appétit croissant pour la théranostique : le vrai goulot d'étranglement du secteur n'est plus la biologie mais l'accès à une production fiable d'isotopes (Lu-177, Ac-225), ce qui pousse plusieurs biotechs en Series B/C à intégrer verticalement leur propre chaîne d'approvisionnement — une thèse d'investissement à part entière pour les VCs santé qui suivent l'oncologie de précision.",
+    "why": "HighLife vient de lever 80 M€ auprès des plus gros fonds santé français (Sofinnova, Andera, Mérieux Equity Partners) pour lancer son étude pivot américaine sur la régurgitation mitrale sévère — un segment où la chirurgie reste risquée pour de nombreux patients âgés et où le TMVR promet une alternative mini-invasive après une décennie de faux départs (Cardiovalve et Innovalve rachetées par Edwards avant maturité commerciale). Les VCs santé y voient un sous-secteur structurel encore ouvert aux acteurs indépendants, avec des syndicats de fonds spécialisés qui financent déjà la génération suivante côté mitral et tricuspide.",
     "startups": [
-      { "name": "Nuclidium", "use": "Plateforme de radiothéranostique au cuivre (61Cu diagnostic / 67Cu thérapeutique) pour le cancer de la prostate (PSMA) et les tumeurs neuroendocrines ; Series B de 105 MCHF close en mai 2026", "place": "Bâle, Suisse" },
-      { "name": "Convergent Therapeutics", "use": "CONV01-α, radioligand PSMA à l'actinium-225, en Phase II chez des patients en échec de Lu-PSMA, avec approvisionnement sécurisé auprès de NorthStar Medical Radioisotopes", "place": "Cambridge, États-Unis" },
-      { "name": "Perspective Therapeutics", "use": "Trois programmes cliniques de radiothérapie ciblée (VMT-α-NET, VMT01, PSV359) et désignation orpheline européenne obtenue en juillet 2026 pour ses tumeurs neuroendocrines", "place": "Coralville, États-Unis" },
-      { "name": "AdvanCell", "use": "Plateforme propriétaire au plomb-212 pour une thérapie radioligand ciblant le PSMA (ADVC001) en Phase II ; Series D de 315 M$ bouclée en juillet 2026", "place": "Sydney, Australie" }
+      { "name": "InnovHeart", "use": "Système Saturn de remplacement valvulaire mitral par voie trans-septale ; Series C de 55 M$ menée par Grand Pharma pour la validation clinique", "place": "Milan, Italie" },
+      { "name": "Innoventric", "use": "Plateforme Trillium de remplacement valvulaire tricuspide par cathéter ; Series B menée par RA Capital Management avec le soutien de l'EIC", "place": "Rehovot, Israël" },
+      { "name": "CroíValve", "use": "Système Duo de coaptation tricuspide par cathéter ; Series B étendue à 43 M$ (dont subvention EIC Accelerator) pour l'étude pivot TANDEM II", "place": "Dublin, Irlande" },
+      { "name": "TriCares", "use": "Valve tricuspide Topaz ; essai pivot américain TRICURE autorisé par la FDA, financement total de 103 M$ mené par Andera Partners et Bayern Kapital", "place": "Aschheim, Allemagne" }
     ]
   }
 }

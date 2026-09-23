@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-23",
   "words": [
+    {
+      "term": "TMVR",
+      "full": "Transcatheter Mitral Valve Replacement",
+      "fr": "Remplacement valvulaire mitral par cathéter",
+      "field": "Cardiologie structurelle",
+      "definition": "Une technique qui remplace la valve mitrale du cœur sans chirurgie à cœur ouvert, via un cathéter introduit par la veine fémorale ou par ponction transseptale.",
+      "parts": [
+        {
+          "label": "Voie d'accès",
+          "role": "l'introduction par cathéter (fémorale ou transseptale)"
+        },
+        {
+          "label": "Valve prothétique",
+          "role": "le remplacement fonctionnel, compressée pour le transport"
+        },
+        {
+          "label": "Système d'ancrage",
+          "role": "la fixation dans l'appareil valvulaire natif"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Accès",
+          "t": "Le cathéter est introduit par la veine fémorale puis guidé jusqu'à l'oreillette gauche par ponction transseptale."
+        },
+        {
+          "n": "2",
+          "h": "Positionnement",
+          "t": "La valve prothétique compressée est acheminée sous imagerie fluoroscopique et échographique jusqu'à l'anneau mitral natif."
+        },
+        {
+          "n": "3",
+          "h": "Déploiement",
+          "t": "La valve se déploie et s'ancre dans l'appareil valvulaire natif, restaurant une fonction compétente sans arrêt cardiaque ni sternotomie."
+        }
+      ],
+      "why": "HighLife vient de lever 80 M€ auprès des plus gros fonds santé français (Sofinnova, Andera, Mérieux Equity Partners) pour lancer son étude pivot américaine sur la régurgitation mitrale sévère — un segment où la chirurgie reste risquée pour de nombreux patients âgés et où le TMVR promet une alternative mini-invasive après une décennie de faux départs (Cardiovalve et Innovalve rachetées par Edwards avant maturité commerciale). Les VCs santé y voient un sous-secteur structurel encore ouvert aux acteurs indépendants, avec des syndicats de fonds spécialisés qui financent déjà la génération suivante côté mitral et tricuspide.",
+      "startups": [
+        {
+          "name": "InnovHeart",
+          "use": "Système Saturn de remplacement valvulaire mitral par voie trans-septale ; Series C de 55 M$ menée par Grand Pharma pour la validation clinique",
+          "place": "Milan, Italie"
+        },
+        {
+          "name": "Innoventric",
+          "use": "Plateforme Trillium de remplacement valvulaire tricuspide par cathéter ; Series B menée par RA Capital Management avec le soutien de l'EIC",
+          "place": "Rehovot, Israël"
+        },
+        {
+          "name": "CroíValve",
+          "use": "Système Duo de coaptation tricuspide par cathéter ; Series B étendue à 43 M$ (dont subvention EIC Accelerator) pour l'étude pivot TANDEM II",
+          "place": "Dublin, Irlande"
+        },
+        {
+          "name": "TriCares",
+          "use": "Valve tricuspide Topaz ; essai pivot américain TRICURE autorisé par la FDA, financement total de 103 M$ mené par Andera Partners et Bayern Kapital",
+          "place": "Aschheim, Allemagne"
+        }
+      ],
+      "date": "2026-09-23",
+      "dateLong": "23 sept. 2026"
+    },
     {
       "term": "Theranostics",
       "full": "Theranostics (Diagnostic-Therapeutic Pairing via Targeted Radiopharmaceuticals)",
