@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-23",
+  "generatedAt": "2026-09-24",
   "words": [
+    {
+      "term": "LVO",
+      "full": "Large Vessel Occlusion",
+      "fr": "Occlusion d'un gros vaisseau cérébral",
+      "field": "Neurologie interventionnelle (AVC ischémique)",
+      "definition": "Un caillot bloque une artère cérébrale majeure et prive tout un territoire du cerveau de sang — la forme d'AVC ischémique la plus grave, et celle que la thrombectomie mécanique vise à lever en urgence.",
+      "parts": [
+        {
+          "label": "Artère occluse",
+          "role": "le site anatomique à rouvrir (carotide interne, M1...)"
+        },
+        {
+          "label": "Caillot",
+          "role": "la cible à retirer, intact si possible"
+        },
+        {
+          "label": "Pénombre ischémique",
+          "role": "le tissu encore sauvable, contre la montre"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Triage",
+          "t": "L'imagerie (angioscanner ou IRM) confirme l'occlusion d'un gros vaisseau et sélectionne les patients éligibles à la thrombectomie."
+        },
+        {
+          "n": "2",
+          "h": "Navigation",
+          "t": "Un cathéter est guidé par voie fémorale ou radiale jusqu'au site occlusif sous imagerie."
+        },
+        {
+          "n": "3",
+          "h": "Reperfusion",
+          "t": "Le caillot est retiré par aspiration, par un stent retriever, ou par une combinaison des deux, pour rétablir le flux sanguin cérébral."
+        }
+      ],
+      "why": "Anaconda Biomed vient de lever 56 M$ pour financer l'essai pivot américain de son cathéter Funnel — signe que le marché de la thrombectomie pour LVO, longtemps dominé par Stryker, Medtronic et Penumbra, reste ouvert à des architectures différenciées (aspiration, arrêt de flux, retrievers à force radiale ajustable). Les VCs santé y voient un sous-secteur mature en usage mais encore disputé en technologie, avec des cycles de levée rapprochés dès qu'un design démontre un meilleur taux de reperfusion au premier passage.",
+      "startups": [
+        {
+          "name": "Route 92 Medical",
+          "use": "Système de reperfusion HiPoint, agréé FDA ; 50 M$ de financement de croissance mené par Novo Holdings pour son essai SUMMIT MAX",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "Perfuze",
+          "use": "Cathéter d'aspiration super-bore Millipede88, dédié à l'aspiration directe des LVO ; clearance FDA obtenue en 2026",
+          "place": "Galway, Irlande"
+        },
+        {
+          "name": "Rapid Medical",
+          "use": "Stent retriever Tigertriever à force radiale ajustable par l'opérateur ; données de l'essai DISTALS présentées en 2026",
+          "place": "Yokneam, Israël"
+        },
+        {
+          "name": "Vesalio",
+          "use": "Système de thrombectomie NeVa, marquage CE étendu en 2026 pour le vasospasme cérébral et les petits vaisseaux",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-09-24",
+      "dateLong": "24 sept. 2026"
+    },
     {
       "term": "TMVR",
       "full": "Transcatheter Mitral Valve Replacement",

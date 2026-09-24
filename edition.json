@@ -1,70 +1,110 @@
 {
-  "dateLong": "23 sept. 2026",
+  "dateLong": "24 sept. 2026",
   "ticker": [
-    { "company": "HighLife", "amount": "€80M", "kind": "lev" },
-    { "company": "Heidi Health", "amount": "$340M", "kind": "lev" },
-    { "company": "Angle Health", "amount": "$600M", "kind": "lev" },
-    { "company": "Biolevate", "amount": "€30M", "kind": "lev" },
-    { "company": "BCI-Sonics", "amount": "$30M", "kind": "lev" },
-    { "company": "ImpriMed", "amount": "$10M", "kind": "lev" }
+    { "company": "Anaconda Biomed", "amount": "$56M", "kind": "lev" },
+    { "company": "ViferaXS", "amount": "€12M", "kind": "lev" },
+    { "company": "UltraSight", "amount": "$24M", "kind": "lev" },
+    { "company": "Teal Health", "amount": "$22M", "kind": "lev" },
+    { "company": "Relaisanté", "amount": "€6M", "kind": "lev" },
+    { "company": "Blair Health", "amount": "4,24 M$ CA", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Growth · Cardiologie structurelle (TMVR)",
-    "title": "HighLife lève 80 M€ pour lancer son étude pivot américaine sur le remplacement de la valve mitrale par cathéter",
-    "deck": "Le medtech parisien, fondé en 2010, boucle un tour de plus de 90 M$ co-mené par quatre poids lourds du capital santé français — Andera Partners, Sofinnova Partners, Supernova Invest et Mérieux Equity Partners — avec la participation de la BEI et de BNP Paribas Développement. Les fonds financent l'étude pivot américaine et l'accélération commerciale en Europe de son système de remplacement valvulaire mitral par voie transfémorale, conçu pour les patients en régurgitation mitrale sévère mal desservis par la chirurgie classique.",
-    "company": "HighLife",
+    "kicker": "Growth · MedTech neurovasculaire (AVC)",
+    "title": "Anaconda Biomed lève 56 M$ pour financer l'étude pivot américaine de son cathéter de thrombectomie nouvelle génération",
+    "deck": "Le medtech barcelonais boucle un tour mené par Omega Funds, avec l'entrée du fonds espagnol FOCO (Cofides) et la reconduction d'Asabys, Ysios Capital et CDTI Innvierte. Les fonds financent l'essai pivot ATHENA (327 patients) de son cathéter Funnel, qui combine aspiration, arrêt et inversion de flux pour retirer les caillots responsables des AVC les plus sévères — un segment neurovasculaire où plusieurs syndicats de fonds santé européens et américains financent en parallèle la génération suivante de dispositifs.",
+    "company": "Anaconda Biomed",
     "stage": "Growth",
     "signalType": "funding_round",
     "strength": 5,
-    "url": "https://www.globenewswire.com/news-release/2026/09/22/3365967/0/en/highlife-raises-90-million-to-start-its-us-pivotal-study-and-accelerate-commercial-expansion-in-europe.html"
+    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367108/0/en/anaconda-biomed-secures-56-million-financing-from-new-and-existing-investors.html"
   },
   "deal": {
-    "company": "Biolevate",
-    "amount": "€30M ($34,5M)",
+    "company": "ViferaXS",
+    "amount": "€12M",
     "round": "Series A",
-    "thesis": "La startup parisienne d'automatisation IA des workflows scientifiques et réglementaires lève un Series A co-mené par RAISE France et Orange Ventures, avec la participation du fonds corporate santé MSD Global Health Innovation Fund et d'EQT Ventures — signe que les laboratoires pharma financent eux-mêmes l'infrastructure IA censée absorber leur propre charge réglementaire. Biolevate ouvre un bureau à Boston, preuve que la thèse dépasse le cadre européen.",
-    "url": "https://tech.eu/2026/09/22/biolevate-lands-eur30m-series-a-to-scale-life-sciences-ai"
+    "thesis": "La biotech allemande, spin-off de l'université de Tübingen, boucle un Series A pouvant atteindre 12 M€ co-mené par SPRIND — l'agence fédérale allemande pour l'innovation de rupture — et Huma, un attelage inhabituel qui signale la volonté de Berlin de financer directement la biotech de rupture plutôt que de la laisser aux seuls VCs privés. Les fonds font entrer CLLTAXS01, son immunothérapie peptidique, en Phase II dans la leucémie lymphoïde chronique.",
+    "url": "https://www.prnewswire.com/news-releases/viferaxs-raises-12-million-to-advance-phase-ii-trial-in-chronic-lymphocytic-leukemia-and-expand-its-oncology-pipeline-302886700.html"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Relaisanté",
+      "place": "Paris, France",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Seed",
+      "title": "Relaisanté lève 6 M€ pour organiser le retour à domicile après l'hôpital",
+      "summary": "Le tour, mené par Ternel, Aquiti, Elaia et AFI Ventures, équipe déjà 315 établissements de santé et 12 000 professionnels connectés ; la jeune pousse veut trouver un soignant à domicile en 18 minutes et vise 1 000 établissements d'ici 2027.",
+      "url": "https://www.maddyness.com/2026/09/22/relaisante-leve-6-millions-deuros-pour-trouver-des-soignants-a-domicile-en-18-minutes/"
+    },
+    {
+      "company": "Engitix",
+      "place": "Londres, Royaume-Uni",
+      "sector": "Biotech",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Engitix nomme Sonia Quaratino Chief Medical Officer à l'approche de sa première entrée en clinique",
+      "summary": "La biotech londonienne, qui a déjà levé 54 M$ en Series A et signé deux accords à plus de 300 M$ avec Takeda sur sa plateforme de matrice extracellulaire, muscle sa direction médicale pour faire franchir la clinique à son premier programme antifibrosant.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367119/0/en/engitix-appoints-sonia-quaratino-md-phd-as-evp-chief-medical-officer-as-its-ecm-pipeline-moves-toward-clinical-development.html"
+    }
+  ],
   "brefsIntl": [
-    { "company": "Heidi Health", "place": "Melbourne, Australie", "sector": "Digital Health",
-      "signalType": "funding_round", "strength": 5, "stage": "Series C",
-      "title": "Heidi Health lève 340 M$ et double sa valorisation à 900 M$ pour transformer son copilote clinique en agent IA autonome",
-      "summary": "Le Series C de 100 M$ est mené par l'australien Blackbird avec Phoenix Court, Point72 et Headline, complété par 240 M$ de capital de croissance non dilutif de General Catalyst indexé sur les revenus futurs ; l'IA Care Partner de Heidi équipe déjà 2,8 M de consultations par semaine dans 190 pays.",
-      "url": "https://www.mobihealthnews.com/news/heidi-health-garnered-340m-reaches-900m-valuation" },
-    { "company": "BCI-Sonics", "place": "Shanghai, Chine", "sector": "MedTech",
-      "signalType": "funding_round", "strength": 3,
-      "title": "BCI-Sonics lève 30 M$ pour son interface cerveau-machine non invasive par ultrasons",
-      "summary": "Le tour Pre-Series A est co-mené par HSG (ex-Sequoia China) et Yunqi Capital ; la plateforme d'ultrasons pilotée par IA vise une neuromodulation non invasive, alternative aux implants chirurgicaux classiques du secteur BCI.",
-      "url": "https://techstartups.com/2026/09/22/startup-funding-news-today-september-22-2026-benford-cellpoint-highlife-bci-sonics-spott-more/" },
-    { "company": "Circular Genomics × Altoida", "place": "San Diego & Washington D.C., États-Unis", "sector": "Diagnostics",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "Circular Genomics et Altoida combinent biomarqueur sanguin et biomarqueur digital pour détecter Alzheimer avant les symptômes",
-      "summary": "Les deux biotechs indépendantes associent le signal circRNA sanguin de Circular Genomics, validé dans Nature Medicine, à la plateforme Digital NeuroMarker d'Altoida pour stratifier les patients des années avant l'apparition clinique — une approche multimodale que ni l'une ni l'autre ne pouvait construire seule.",
-      "url": "https://www.biospace.com/press-releases/circular-genomics-and-altoida-announce-collaboration-to-advance-first-of-kind-multimodal-precision-medicine-for-alzheimers-disease" }
+    {
+      "company": "UltraSight",
+      "place": "Tel-Aviv, Israël",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series B",
+      "title": "UltraSight lève 24 M$ pour déployer son guidage IA de l'échographie cardiaque aux États-Unis",
+      "summary": "Le tour Series B2 est mené par Alive HealthTech Growth Fund, avec Mayo Clinic Ventures et Connecticut Innovations ; la plateforme, née à NYU et au Weizmann Institute et déjà autorisée par la FDA, permet à un soignant non spécialisé de réaliser une échographie cardiaque guidée par IA au lit du patient.",
+      "url": "https://www.jpost.com/business-and-innovation/all-news/article-909443"
+    },
+    {
+      "company": "Teal Health",
+      "place": "San Francisco, États-Unis",
+      "sector": "Diagnostics",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "Teal Health lève 22 M$ avant l'entrée en vigueur d'une obligation de remboursement du dépistage du col de l'utérus à domicile",
+      "summary": "Le tour est mené par .406 Ventures avec Emerson Collective, Forerunner, Serena Ventures et le japonais MPower Partners ; le Teal Wand, seul dispositif autorisé par la FDA pour l'auto-prélèvement HPV à domicile, doit être remboursé sans reste à charge par la plupart des assureurs américains dès 2027.",
+      "url": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html"
+    },
+    {
+      "company": "Blair Health",
+      "place": "Toronto, Canada",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Pre-seed",
+      "title": "Blair Health lève 4,24 M$ CA pour faire traiter la ménopause par des généralistes plutôt que des spécialistes introuvables",
+      "summary": "Le tour pre-seed sursouscrit est co-mené par le fonds Thrive de la BDC, Accelia Capital et Ogaei ; la plateforme traduit des protocoles de spécialistes en parcours utilisables par des médecins généralistes, déjà adoptée par plus de 2 300 patientes, avant une expansion aux États-Unis.",
+      "url": "https://betakit.com/blair-health-secures-4-2-million-to-make-specialized-womens-care-more-accessible/"
+    }
   ],
   "word": {
-    "term": "TMVR",
-    "full": "Transcatheter Mitral Valve Replacement",
-    "fr": "Remplacement valvulaire mitral par cathéter",
-    "field": "Cardiologie structurelle",
-    "definition": "Une technique qui remplace la valve mitrale du cœur sans chirurgie à cœur ouvert, via un cathéter introduit par la veine fémorale ou par ponction transseptale.",
+    "term": "LVO",
+    "full": "Large Vessel Occlusion",
+    "fr": "Occlusion d'un gros vaisseau cérébral",
+    "field": "Neurologie interventionnelle (AVC ischémique)",
+    "definition": "Un caillot bloque une artère cérébrale majeure et prive tout un territoire du cerveau de sang — la forme d'AVC ischémique la plus grave, et celle que la thrombectomie mécanique vise à lever en urgence.",
     "parts": [
-      { "label": "Voie d'accès", "role": "l'introduction par cathéter (fémorale ou transseptale)" },
-      { "label": "Valve prothétique", "role": "le remplacement fonctionnel, compressée pour le transport" },
-      { "label": "Système d'ancrage", "role": "la fixation dans l'appareil valvulaire natif" }
+      { "label": "Artère occluse", "role": "le site anatomique à rouvrir (carotide interne, M1...)" },
+      { "label": "Caillot", "role": "la cible à retirer, intact si possible" },
+      { "label": "Pénombre ischémique", "role": "le tissu encore sauvable, contre la montre" }
     ],
     "how": [
-      { "n": "1", "h": "Accès", "t": "Le cathéter est introduit par la veine fémorale puis guidé jusqu'à l'oreillette gauche par ponction transseptale." },
-      { "n": "2", "h": "Positionnement", "t": "La valve prothétique compressée est acheminée sous imagerie fluoroscopique et échographique jusqu'à l'anneau mitral natif." },
-      { "n": "3", "h": "Déploiement", "t": "La valve se déploie et s'ancre dans l'appareil valvulaire natif, restaurant une fonction compétente sans arrêt cardiaque ni sternotomie." }
+      { "n": "1", "h": "Triage", "t": "L'imagerie (angioscanner ou IRM) confirme l'occlusion d'un gros vaisseau et sélectionne les patients éligibles à la thrombectomie." },
+      { "n": "2", "h": "Navigation", "t": "Un cathéter est guidé par voie fémorale ou radiale jusqu'au site occlusif sous imagerie." },
+      { "n": "3", "h": "Reperfusion", "t": "Le caillot est retiré par aspiration, par un stent retriever, ou par une combinaison des deux, pour rétablir le flux sanguin cérébral." }
     ],
-    "why": "HighLife vient de lever 80 M€ auprès des plus gros fonds santé français (Sofinnova, Andera, Mérieux Equity Partners) pour lancer son étude pivot américaine sur la régurgitation mitrale sévère — un segment où la chirurgie reste risquée pour de nombreux patients âgés et où le TMVR promet une alternative mini-invasive après une décennie de faux départs (Cardiovalve et Innovalve rachetées par Edwards avant maturité commerciale). Les VCs santé y voient un sous-secteur structurel encore ouvert aux acteurs indépendants, avec des syndicats de fonds spécialisés qui financent déjà la génération suivante côté mitral et tricuspide.",
+    "why": "Anaconda Biomed vient de lever 56 M$ pour financer l'essai pivot américain de son cathéter Funnel — signe que le marché de la thrombectomie pour LVO, longtemps dominé par Stryker, Medtronic et Penumbra, reste ouvert à des architectures différenciées (aspiration, arrêt de flux, retrievers à force radiale ajustable). Les VCs santé y voient un sous-secteur mature en usage mais encore disputé en technologie, avec des cycles de levée rapprochés dès qu'un design démontre un meilleur taux de reperfusion au premier passage.",
     "startups": [
-      { "name": "InnovHeart", "use": "Système Saturn de remplacement valvulaire mitral par voie trans-septale ; Series C de 55 M$ menée par Grand Pharma pour la validation clinique", "place": "Milan, Italie" },
-      { "name": "Innoventric", "use": "Plateforme Trillium de remplacement valvulaire tricuspide par cathéter ; Series B menée par RA Capital Management avec le soutien de l'EIC", "place": "Rehovot, Israël" },
-      { "name": "CroíValve", "use": "Système Duo de coaptation tricuspide par cathéter ; Series B étendue à 43 M$ (dont subvention EIC Accelerator) pour l'étude pivot TANDEM II", "place": "Dublin, Irlande" },
-      { "name": "TriCares", "use": "Valve tricuspide Topaz ; essai pivot américain TRICURE autorisé par la FDA, financement total de 103 M$ mené par Andera Partners et Bayern Kapital", "place": "Aschheim, Allemagne" }
+      { "name": "Route 92 Medical", "use": "Système de reperfusion HiPoint, agréé FDA ; 50 M$ de financement de croissance mené par Novo Holdings pour son essai SUMMIT MAX", "place": "Californie, États-Unis" },
+      { "name": "Perfuze", "use": "Cathéter d'aspiration super-bore Millipede88, dédié à l'aspiration directe des LVO ; clearance FDA obtenue en 2026", "place": "Galway, Irlande" },
+      { "name": "Rapid Medical", "use": "Stent retriever Tigertriever à force radiale ajustable par l'opérateur ; données de l'essai DISTALS présentées en 2026", "place": "Yokneam, Israël" },
+      { "name": "Vesalio", "use": "Système de thrombectomie NeVa, marquage CE étendu en 2026 pour le vasospasme cérébral et les petits vaisseaux", "place": "États-Unis" }
     ]
   }
 }
