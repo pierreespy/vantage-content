@@ -1,110 +1,97 @@
 {
-  "dateLong": "24 sept. 2026",
+  "dateLong": "25 sept. 2026",
   "ticker": [
-    { "company": "Anaconda Biomed", "amount": "$56M", "kind": "lev" },
-    { "company": "ViferaXS", "amount": "€12M", "kind": "lev" },
-    { "company": "UltraSight", "amount": "$24M", "kind": "lev" },
-    { "company": "Teal Health", "amount": "$22M", "kind": "lev" },
-    { "company": "Relaisanté", "amount": "€6M", "kind": "lev" },
-    { "company": "Blair Health", "amount": "4,24 M$ CA", "kind": "lev" }
+    { "company": "Basecamp Research", "amount": "$140M", "kind": "lev" },
+    { "company": "Kasvu Therapeutics", "amount": "€30M", "kind": "lev" },
+    { "company": "Precision Neuroscience", "amount": "$250M", "kind": "lev" },
+    { "company": "Rightway", "amount": "$155M", "kind": "lev" },
+    { "company": "BigHat Biosciences", "amount": "$75M", "kind": "lev" },
+    { "company": "Prevision Medicine", "amount": "$5,4M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Growth · MedTech neurovasculaire (AVC)",
-    "title": "Anaconda Biomed lève 56 M$ pour financer l'étude pivot américaine de son cathéter de thrombectomie nouvelle génération",
-    "deck": "Le medtech barcelonais boucle un tour mené par Omega Funds, avec l'entrée du fonds espagnol FOCO (Cofides) et la reconduction d'Asabys, Ysios Capital et CDTI Innvierte. Les fonds financent l'essai pivot ATHENA (327 patients) de son cathéter Funnel, qui combine aspiration, arrêt et inversion de flux pour retirer les caillots responsables des AVC les plus sévères — un segment neurovasculaire où plusieurs syndicats de fonds santé européens et américains financent en parallèle la génération suivante de dispositifs.",
-    "company": "Anaconda Biomed",
-    "stage": "Growth",
+    "kicker": "Series C · IA & thérapies cellulaires",
+    "title": "Basecamp Research lève 140 M$ en Series C, avec Nvidia, Anthropic et le fonds souverain IA britannique à son tour de table, pour concevoir des thérapies cellulaires par IA",
+    "deck": "Le tour, sursouscrit et mené par S32 — le fonds de Bill Maris, fondateur de GV chez Alphabet —, fait entrer Nvidia et Anthropic au capital de la biotech londonienne, aux côtés du fonds souverain IA britannique, du NATO Innovation Fund et du vice-président de Roche André Hoffmann à titre personnel. Basecamp entraîne ses modèles de fondation EDEN sur la plus grande base de données génomiques environnementales au monde pour concevoir des protéines et des thérapies cellulaires in vivo — signe que les labos d'IA généraliste convergent désormais directement vers la découverte de médicaments plutôt que de se contenter d'outiller les biotechs existantes.",
+    "company": "Basecamp Research",
+    "stage": "Series C",
     "signalType": "funding_round",
     "strength": 5,
-    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367108/0/en/anaconda-biomed-secures-56-million-financing-from-new-and-existing-investors.html"
+    "url": "https://www.prnewswire.com/news-releases/basecamp-research-raises-140m-to-advance-ai-designed-therapeutics-302887617.html"
   },
   "deal": {
-    "company": "ViferaXS",
-    "amount": "€12M",
+    "company": "Kasvu Therapeutics",
+    "amount": "€30M",
     "round": "Series A",
-    "thesis": "La biotech allemande, spin-off de l'université de Tübingen, boucle un Series A pouvant atteindre 12 M€ co-mené par SPRIND — l'agence fédérale allemande pour l'innovation de rupture — et Huma, un attelage inhabituel qui signale la volonté de Berlin de financer directement la biotech de rupture plutôt que de la laisser aux seuls VCs privés. Les fonds font entrer CLLTAXS01, son immunothérapie peptidique, en Phase II dans la leucémie lymphoïde chronique.",
-    "url": "https://www.prnewswire.com/news-releases/viferaxs-raises-12-million-to-advance-phase-ii-trial-in-chronic-lymphocytic-leukemia-and-expand-its-oncology-pipeline-302886700.html"
+    "thesis": "La biotech finlandaise, issue des travaux d'Eero Castrén et Ilpo Vattulainen à l'université d'Helsinki, boucle la plus grosse Series A jamais levée par une pharma préclinique finlandaise, menée par Hadean Ventures avec Tesi (le fonds souverain finlandais) et Innovestor Life Science Fund. KTX-0141, son potentiateur de TrkB, promet les effets antidépresseurs et neuroplastiques de la kétamine ou de la psilocybine sans hallucination — une thèse qui parie sur un accès prescripteur bien plus large que les psychédéliques classiques dès l'entrée en clinique attendue au second semestre 2027.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/24/3367998/0/en/kasvu-therapeutics-raises-30-million-series-a-financing-round-led-by-hadean-ventures-to-advance-its-novel-trkb-potentiator-into-clinical-development-targeting-neuropsychiatric-diso.html"
   },
   "brefsEurope": [
     {
-      "company": "Relaisanté",
-      "place": "Paris, France",
-      "sector": "Digital Health",
+      "company": "Prevision Medicine",
+      "place": "Lausanne (Épalinges), Suisse",
+      "sector": "Diagnostics",
       "signalType": "funding_round",
       "strength": 3,
       "stage": "Seed",
-      "title": "Relaisanté lève 6 M€ pour organiser le retour à domicile après l'hôpital",
-      "summary": "Le tour, mené par Ternel, Aquiti, Elaia et AFI Ventures, équipe déjà 315 établissements de santé et 12 000 professionnels connectés ; la jeune pousse veut trouver un soignant à domicile en 18 minutes et vise 1 000 établissements d'ici 2027.",
-      "url": "https://www.maddyness.com/2026/09/22/relaisante-leve-6-millions-deuros-pour-trouver-des-soignants-a-domicile-en-18-minutes/"
-    },
-    {
-      "company": "Engitix",
-      "place": "Londres, Royaume-Uni",
-      "sector": "Biotech",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Engitix nomme Sonia Quaratino Chief Medical Officer à l'approche de sa première entrée en clinique",
-      "summary": "La biotech londonienne, qui a déjà levé 54 M$ en Series A et signé deux accords à plus de 300 M$ avec Takeda sur sa plateforme de matrice extracellulaire, muscle sa direction médicale pour faire franchir la clinique à son premier programme antifibrosant.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367119/0/en/engitix-appoints-sonia-quaratino-md-phd-as-evp-chief-medical-officer-as-its-ecm-pipeline-moves-toward-clinical-development.html"
+      "title": "Prevision Medicine lève 5,4 M$ pour tester en direct sur les cellules du patient quel traitement anticancéreux fonctionnera vraiment",
+      "summary": "Le tour, mené par ACE Ventures avec GoHub Ventures et SICTIC, finance la commercialisation de sa plateforme de pharmacoscopie : jusqu'à 100 traitements sont testés en parallèle sur des cellules tumorales vivantes du patient, avec un résultat classé en trois jours pour guider le clinicien en cancers hématologiques et tumeurs solides.",
+      "url": "https://www.startupticker.ch/en/news/usd-5-4-million-to-advance-prevision-medicine-s-functional-precision-oncology-platform"
     }
   ],
   "brefsIntl": [
     {
-      "company": "UltraSight",
-      "place": "Tel-Aviv, Israël",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "UltraSight lève 24 M$ pour déployer son guidage IA de l'échographie cardiaque aux États-Unis",
-      "summary": "Le tour Series B2 est mené par Alive HealthTech Growth Fund, avec Mayo Clinic Ventures et Connecticut Innovations ; la plateforme, née à NYU et au Weizmann Institute et déjà autorisée par la FDA, permet à un soignant non spécialisé de réaliser une échographie cardiaque guidée par IA au lit du patient.",
-      "url": "https://www.jpost.com/business-and-innovation/all-news/article-909443"
-    },
-    {
-      "company": "Teal Health",
-      "place": "San Francisco, États-Unis",
+      "company": "Adaptyx Biosciences",
+      "place": "Menlo Park, États-Unis",
       "sector": "Diagnostics",
-      "signalType": "funding_round",
+      "signalType": "regulatory_milestone",
       "strength": 4,
-      "stage": "Series A",
-      "title": "Teal Health lève 22 M$ avant l'entrée en vigueur d'une obligation de remboursement du dépistage du col de l'utérus à domicile",
-      "summary": "Le tour est mené par .406 Ventures avec Emerson Collective, Forerunner, Serena Ventures et le japonais MPower Partners ; le Teal Wand, seul dispositif autorisé par la FDA pour l'auto-prélèvement HPV à domicile, doit être remboursé sans reste à charge par la plupart des assureurs américains dès 2027.",
-      "url": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html"
+      "title": "Adaptyx Biosciences décroche une FDA Breakthrough Device Designation pour son capteur de cortisol en continu",
+      "summary": "La medtech, qui n'a levé que 14 M$ en Seed il y a un an, entre aussi dans le programme accéléré Total Product Life Cycle de la FDA pour son capteur destiné au diagnostic de l'insuffisance surrénalienne et du syndrome de Cushing — un signal amont sur une catégorie de monitoring hormonal continu encore vierge de tout device autorisé.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367421/0/en/adaptyx-biosciences-granted-fda-breakthrough-device-designation-for-its-continuous-cortisol-monitoring-technology-and-is-accepted-into-fda-s-total-product-life-cycle-advisory-progr.html"
     },
     {
-      "company": "Blair Health",
-      "place": "Toronto, Canada",
-      "sector": "Digital Health",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Pre-seed",
-      "title": "Blair Health lève 4,24 M$ CA pour faire traiter la ménopause par des généralistes plutôt que des spécialistes introuvables",
-      "summary": "Le tour pre-seed sursouscrit est co-mené par le fonds Thrive de la BDC, Accelia Capital et Ogaei ; la plateforme traduit des protocoles de spécialistes en parcours utilisables par des médecins généralistes, déjà adoptée par plus de 2 300 patientes, avant une expansion aux États-Unis.",
-      "url": "https://betakit.com/blair-health-secures-4-2-million-to-make-specialized-womens-care-more-accessible/"
+      "company": "NET Recovery",
+      "place": "Miami, États-Unis",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "NET Recovery décroche la FDA Breakthrough Device Designation pour un dispositif de neurostimulation contre l'addiction aux stimulants",
+      "summary": "Le NET Device, une stimulation transcrânienne par courant alterné déjà autorisée pour le sevrage aux opioïdes, vise désormais la cocaïne et les amphétamines — un territoire où aucun médicament ni dispositif n'est aujourd'hui approuvé par la FDA. L'essai pivot visé emprunterait la voie De Novo.",
+      "url": "https://www.prnewswire.com/news-releases/net-recovery-granted-fda-breakthrough-device-designation-for-stimulant-use-disorder-where-no-drug-is-fda-approved-or-medical-device-fda-cleared-302886966.html"
+    },
+    {
+      "company": "Glycomine",
+      "place": "San Carlos, États-Unis",
+      "sector": "Biotech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Glycomine décroche la Breakthrough Therapy Designation de la FDA pour GLM101 dans une maladie métabolique rare sans traitement",
+      "summary": "La thérapie de remplacement liposomale, qui a déjà réuni 115 M$ en Series C auprès de Novo Holdings et Sanofi Ventures, cible le PMM2-CDG (déficit de glycosylation) sur la base de données de Phase 2a montrant une amélioration de l'ataxie après 24 semaines — une désignation qui accélère l'accès à une Phase 2b pivot.",
+      "url": "https://www.businesswire.com/news/home/20260923230766/en/FDA-Grants-Breakthrough-Therapy-Designation-to-Glycomines-GLM101-for-the-Treatment-of-PMM2-CDG"
     }
   ],
   "word": {
-    "term": "LVO",
-    "full": "Large Vessel Occlusion",
-    "fr": "Occlusion d'un gros vaisseau cérébral",
-    "field": "Neurologie interventionnelle (AVC ischémique)",
-    "definition": "Un caillot bloque une artère cérébrale majeure et prive tout un territoire du cerveau de sang — la forme d'AVC ischémique la plus grave, et celle que la thrombectomie mécanique vise à lever en urgence.",
+    "term": "Neuroplastogen",
+    "full": "Neuroplastogen (Non-Hallucinogenic Neuroplasticity-Promoting Small Molecule)",
+    "fr": "Neuroplastogène (composé favorisant la neuroplasticité, sans effet hallucinogène)",
+    "field": "Psychiatrie / Neurosciences (dépression résistante, troubles neuropsychiatriques)",
+    "definition": "Une petite molécule qui relance la croissance des connexions neuronales perdues dans la dépression ou après un traumatisme, en imitant l'effet neuroplastique de la kétamine ou des psychédéliques classiques mais sans provoquer d'hallucinations ni de dissociation.",
     "parts": [
-      { "label": "Artère occluse", "role": "le site anatomique à rouvrir (carotide interne, M1...)" },
-      { "label": "Caillot", "role": "la cible à retirer, intact si possible" },
-      { "label": "Pénombre ischémique", "role": "le tissu encore sauvable, contre la montre" }
+      { "label": "Cible moléculaire", "role": "le récepteur activé (TrkB, 5-HT2A non-hallucinogène...)" },
+      { "label": "Signal de plasticité", "role": "la cascade qui fait repousser les épines dendritiques" },
+      { "label": "Profil non-hallucinogène", "role": "la dissociation entre effet clinique et effet psychédélique" }
     ],
     "how": [
-      { "n": "1", "h": "Triage", "t": "L'imagerie (angioscanner ou IRM) confirme l'occlusion d'un gros vaisseau et sélectionne les patients éligibles à la thrombectomie." },
-      { "n": "2", "h": "Navigation", "t": "Un cathéter est guidé par voie fémorale ou radiale jusqu'au site occlusif sous imagerie." },
-      { "n": "3", "h": "Reperfusion", "t": "Le caillot est retiré par aspiration, par un stent retriever, ou par une combinaison des deux, pour rétablir le flux sanguin cérébral." }
+      { "n": "1", "h": "Ciblage", "t": "La molécule active un récepteur associé à la plasticité synaptique (TrkB, 5-HT2A...) sans déclencher la cascade hallucinogène des psychédéliques classiques." },
+      { "n": "2", "h": "Repousse synaptique", "t": "L'activation stimule la croissance de nouvelles épines dendritiques et connexions neuronales dans les circuits corticaux atrophiés par la dépression ou un traumatisme." },
+      { "n": "3", "h": "Effet clinique", "t": "La reconnexion des circuits se traduit, en quelques semaines, par une amélioration durable de l'humeur ou de la fonction, sans les contraintes de supervision médicale des psychédéliques classiques." }
     ],
-    "why": "Anaconda Biomed vient de lever 56 M$ pour financer l'essai pivot américain de son cathéter Funnel — signe que le marché de la thrombectomie pour LVO, longtemps dominé par Stryker, Medtronic et Penumbra, reste ouvert à des architectures différenciées (aspiration, arrêt de flux, retrievers à force radiale ajustable). Les VCs santé y voient un sous-secteur mature en usage mais encore disputé en technologie, avec des cycles de levée rapprochés dès qu'un design démontre un meilleur taux de reperfusion au premier passage.",
+    "why": "Kasvu Therapeutics vient de lever la plus grosse Series A jamais levée par une pharma préclinique finlandaise pour porter en clinique un potentiateur de TrkB sur cette même thèse : offrir l'efficacité de la kétamine ou de la psilocybine sans salle de perfusion ni encadrement psychédélique, donc un marché prescripteur bien plus large. Les VCs santé y voient une manière de capter la vague kétamine/psychédélique sans le risque réglementaire et logistique de la Schedule I.",
     "startups": [
-      { "name": "Route 92 Medical", "use": "Système de reperfusion HiPoint, agréé FDA ; 50 M$ de financement de croissance mené par Novo Holdings pour son essai SUMMIT MAX", "place": "Californie, États-Unis" },
-      { "name": "Perfuze", "use": "Cathéter d'aspiration super-bore Millipede88, dédié à l'aspiration directe des LVO ; clearance FDA obtenue en 2026", "place": "Galway, Irlande" },
-      { "name": "Rapid Medical", "use": "Stent retriever Tigertriever à force radiale ajustable par l'opérateur ; données de l'essai DISTALS présentées en 2026", "place": "Yokneam, Israël" },
-      { "name": "Vesalio", "use": "Système de thrombectomie NeVa, marquage CE étendu en 2026 pour le vasospasme cérébral et les petits vaisseaux", "place": "États-Unis" }
+      { "name": "Kasvu Therapeutics", "use": "Potentiateur de TrkB KTX-0141 ; Series A de 30 M€ menée par Hadean Ventures pour porter le programme en Phase I/Ib dans la dépression résistante", "place": "Helsinki, Finlande" },
+      { "name": "Delix Therapeutics", "use": "Zalsupindole (DLX-001), isotryptamine non-hallucinogène ; données de Phase 1 publiées montrant une plasticité comparable à la kétamine sans effet dissociatif", "place": "Boston, États-Unis" },
+      { "name": "Five Discovery", "use": "Sortie de stealth en février 2026 ; neuroplastogènes inspirés du 5-MeO-DMT ciblant d'abord la dyskinésie liée à la lévodopa dans la maladie de Parkinson", "place": "Charlottesville, États-Unis" },
+      { "name": "Transneural Therapeutics", "use": "Spin-off de CaaMTech sortie de stealth en 2025 ; pipeline préclinique de neuroplastogènes pour les maladies neuropsychiatriques et neurodégénératives", "place": "Issaquah, États-Unis" }
     ]
   }
 }
