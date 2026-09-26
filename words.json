@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-25",
+  "generatedAt": "2026-09-26",
   "words": [
+    {
+      "term": "Needle-Free Injection",
+      "full": "Needle-Free Injection (Jet & Gas-Powered Drug Delivery)",
+      "fr": "Injection sans aiguille",
+      "field": "MedTech · Délivrance de médicaments (auto-injection d'urgence, vaccination, biologiques)",
+      "definition": "Une famille de dispositifs qui poussent un médicament liquide à travers la peau à très haute vitesse — par un jet de gaz comprimé ou un ressort — sans jamais planter d'aiguille, pour traiter la phobie des piqûres, sécuriser l'auto-administration en urgence et réduire les déchets de matériel tranchant.",
+      "parts": [
+        {
+          "label": "Propulseur",
+          "role": "la source d'énergie qui accélère le liquide (cartouche de gaz, ressort, actionneur)"
+        },
+        {
+          "label": "Buse / interface cutanée",
+          "role": "l'orifice calibré qui forme le jet et le dirige à travers l'épiderme"
+        },
+        {
+          "label": "Cartouche pré-remplie",
+          "role": "le réservoir de médicament dosé, prêt à l'emploi, souvent remplaçable"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Armement",
+          "t": "L'utilisateur ou un mécanisme automatique met le propulseur sous pression (gaz comprimé, ressort armé) contre la cartouche pré-remplie."
+        },
+        {
+          "n": "2",
+          "h": "Éjection",
+          "t": "Au déclenchement, le liquide est propulsé à travers une buse micrométrique à une vitesse suffisante pour traverser la couche cornée de la peau sans aiguille."
+        },
+        {
+          "n": "3",
+          "h": "Dépôt sous-cutané",
+          "t": "Le médicament se disperse dans le tissu sous-cutané ou intramusculaire en quelques dixièmes de seconde, avec une absorption comparable à une injection classique."
+        }
+      ],
+      "why": "Crossject vient de muscler sa direction à l'approche du dépôt réglementaire de ZENEO® Épinéphrine, son auto-injecteur sans aiguille contre l'anaphylaxie. La thèse VC va au-delà du confort : ces plateformes ouvrent la voie à l'auto-administration à domicile de biologiques à haute viscosité, jusque-là réservés à la perfusion hospitalière — un marché adjacent aux GLP-1 et thérapies injectables chroniques que peu d'investisseurs santé surveillent encore de près.",
+      "startups": [
+        {
+          "name": "Crossject",
+          "use": "Plateforme ZENEO® à gaz comprimé ; dépôt des dossiers d'autorisation de ZENEO® Épinéphrine visé en Europe et aux États-Unis en 2026",
+          "place": "Dijon, France"
+        },
+        {
+          "name": "PharmaJet",
+          "use": "Systèmes Tropis® et Stratis® ; plus de 12 millions d'injections de vaccins déjà administrées dans le monde en stade commercial",
+          "place": "Golden (Colorado), États-Unis"
+        },
+        {
+          "name": "Portal Instruments",
+          "use": "Portal PRIME, injecteur à jet piloté numériquement et connecté au cloud, dérivé de recherches du MIT pour les biologiques à haute viscosité",
+          "place": "Cambridge (Massachusetts), États-Unis"
+        },
+        {
+          "name": "Enable Injections",
+          "use": "enFuse, injecteur porté (wearable) pour biologiques à haut volume ; accord de licence signé avec Incyte en octobre 2025 pour une thérapie anticancéreuse administrée à domicile",
+          "place": "Cincinnati (Ohio), États-Unis"
+        }
+      ],
+      "date": "2026-09-26",
+      "dateLong": "26 sept. 2026"
+    },
     {
       "term": "Neuroplastogen",
       "full": "Neuroplastogen (Non-Hallucinogenic Neuroplasticity-Promoting Small Molecule)",
