@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-26",
+  "generatedAt": "2026-09-27",
   "words": [
+    {
+      "term": "Digital Pathology",
+      "full": "Digital Pathology (AI-Augmented Whole-Slide Image Analysis)",
+      "fr": "Anatomopathologie numérique",
+      "field": "Diagnostic · IA appliquée à l'oncologie",
+      "definition": "La numérisation des lames de biopsie en images haute résolution, analysées par des algorithmes d'IA qui détectent des motifs invisibles à l'œil nu — de quoi absorber une charge de diagnostic qui croît plus vite que le nombre de pathologistes formés dans le monde.",
+      "parts": [
+        {
+          "label": "Scanner de lames (WSI)",
+          "role": "numérise la lame de verre en image gigapixel"
+        },
+        {
+          "label": "Modèle de vision par IA",
+          "role": "détecte cellules, tumeurs et biomarqueurs sur l'image"
+        },
+        {
+          "label": "Intégration au poste du pathologiste",
+          "role": "renvoie un pré-diagnostic exploitable dans son outil de travail"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Numérisation",
+          "t": "La lame de tissu, colorée selon les protocoles classiques, est scannée en une image numérique haute résolution (plusieurs gigapixels)."
+        },
+        {
+          "n": "2",
+          "h": "Analyse",
+          "t": "Un modèle de deep learning, entraîné sur des millions de lames annotées, détecte des motifs tumoraux, compte des mitoses ou quantifie des biomarqueurs."
+        },
+        {
+          "n": "3",
+          "h": "Restitution",
+          "t": "Le résultat est intégré au poste du pathologiste comme second regard ou outil de tri de priorité, sans remplacer sa décision finale."
+        }
+      ],
+      "why": "La pénurie mondiale de pathologistes transforme la pathologie numérique en infrastructure diagnostique critique, pas en simple gadget IA. Le rachat de PathAI par Roche pour 1,05 Md$ annoncé en 2026 a validé la thèse de sortie : diagnostiqueurs et big pharma achètent la donnée et l'algorithme, pas seulement le logiciel. Il reste un groupe resserré de plateformes indépendantes bien financées, encore à un stade où un VC santé peut entrer avant la prochaine vague de consolidation.",
+      "startups": [
+        {
+          "name": "Owkin",
+          "use": "Plateforme d'IA fédérée pour la pathologie computationnelle et la découverte de biomarqueurs à partir de lames et de données multi-omiques ; plus de 300 M$ levés au total, toujours indépendante",
+          "place": "Paris, France / New York, États-Unis"
+        },
+        {
+          "name": "Ibex Medical Analytics",
+          "use": "Plateforme Ibex 4 de pathologie assistée par IA pour les cancers du sein, de la prostate et gastriques, déployée dans des laboratoires cliniques ; Series C de 55 M$ menée par 83North",
+          "place": "Tel-Aviv, Israël"
+        },
+        {
+          "name": "Deciphex",
+          "use": "Plateforme de pathologie numérique et d'IA pour laboratoires précliniques et cliniques ; Series C de 31 M€ menée par Molten Ventures pour répondre à la pénurie mondiale de pathologistes",
+          "place": "Dublin, Irlande"
+        },
+        {
+          "name": "Proscia",
+          "use": "Logiciel AISight de pathologie diagnostique par IA ; 50 M$ levés en 2025 menés par Insight Partners, croissance de 400 % du volume de cas traités quotidiennement",
+          "place": "Philadelphie, États-Unis"
+        }
+      ],
+      "date": "2026-09-27",
+      "dateLong": "27 sept. 2026"
+    },
     {
       "term": "Needle-Free Injection",
       "full": "Needle-Free Injection (Jet & Gas-Powered Drug Delivery)",
