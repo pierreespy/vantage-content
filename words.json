@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-27",
+  "generatedAt": "2026-09-28",
   "words": [
+    {
+      "term": "RNAi",
+      "full": "RNA Interference (silencing génique par oligonucléotides)",
+      "fr": "Interférence ARN",
+      "field": "Modalité thérapeutique · ARN",
+      "definition": "Une technique qui empêche la fabrication d'une protéine pathogène en détruisant l'ARN messager qui porte son instruction, plutôt que de neutraliser la protéine une fois qu'elle existe.",
+      "parts": [
+        {
+          "label": "siRNA guide",
+          "role": "reconnaît la séquence de l'ARN messager cible"
+        },
+        {
+          "label": "Complexe RISC",
+          "role": "exécute le clivage de l'ARNm ciblé"
+        },
+        {
+          "label": "Ligand de ciblage (GalNAc, Centyrin...)",
+          "role": "achemine le médicament vers le bon tissu ou organe"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reconnaissance",
+          "t": "Le brin guide du siRNA s'apparie par complémentarité à l'ARN messager de la protéine pathogène visée."
+        },
+        {
+          "n": "2",
+          "h": "Chargement RISC",
+          "t": "Le complexe protéique RISC capture le siRNA et l'utilise comme guide pour localiser l'ARNm complémentaire dans la cellule."
+        },
+        {
+          "n": "3",
+          "h": "Silencing",
+          "t": "RISC clive l'ARNm ciblé, bloquant sa traduction en protéine et réduisant durablement son expression, parfois pendant plusieurs mois."
+        }
+      ],
+      "why": "Huit ans après le premier siRNA approuvé (Alnylam), une nouvelle génération de biotechs sort du foie — l'organe le plus facile à atteindre — pour cibler rein, muscle ou système nerveux avec des ligands propriétaires. City Therapeutics, qui dépose son S-1 cette semaine dans la foulée d'ADARx, teste si le marché public est prêt à suivre cette deuxième vague : de quoi faire remonter la thèse ARNi tout en haut des radars VC santé.",
+      "startups": [
+        {
+          "name": "Judo Bio",
+          "use": "Plateforme STRIKE de conjugués ARN-ligand pour délivrer le silencing génique directement dans les cellules rénales ; 200 M$ levés depuis son lancement en 2024.",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Switch Therapeutics",
+          "use": "siRNA à activation conditionnelle (CASi) capable de cibler un type cellulaire précis sans dépendre d'un récepteur de surface ; vise une entrée en clinique en 2026.",
+          "place": "Cambridge, États-Unis"
+        },
+        {
+          "name": "Aro Biotherapeutics",
+          "use": "Plateforme Centyrin pour délivrer des oligonucléotides hors du foie ; données de phase 1b positives en mars 2026 sur un siRNA ciblant le muscle dans la maladie de Pompe.",
+          "place": "Philadelphie, États-Unis"
+        },
+        {
+          "name": "Silence Therapeutics",
+          "use": "siRNA divesiran ciblant TMPRSS6 pour les maladies du sang ; essai de phase 2 SANRECO en cours dans la polycythémie vraie.",
+          "place": "Londres, Royaume-Uni"
+        }
+      ],
+      "date": "2026-09-28",
+      "dateLong": "28 sept. 2026"
+    },
     {
       "term": "Digital Pathology",
       "full": "Digital Pathology (AI-Augmented Whole-Slide Image Analysis)",
@@ -1820,64 +1883,6 @@
       ],
       "date": "2026-08-26",
       "dateLong": "26 août 2026"
-    },
-    {
-      "term": "RNAi",
-      "full": "RNA Interference",
-      "fr": "Interférence par ARN (ARN interférent)",
-      "field": "Modalité thérapeutique / Plateforme",
-      "definition": "Une technologie qui utilise de courts brins d'ARN synthétiques (siRNA) pour désactiver sélectivement un gène responsable d'une maladie, en bloquant la traduction de son ARN messager en protéine.",
-      "parts": [
-        {
-          "label": "siRNA",
-          "role": "le brin qui cible le gène"
-        },
-        {
-          "label": "Complexe RISC",
-          "role": "la machinerie qui exécute le silencing"
-        },
-        {
-          "label": "Conjugué GalNAc",
-          "role": "le taxi qui livre le siRNA au foie"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Reconnaissance",
-          "t": "Le siRNA synthétique s'apparie par complémentarité à l'ARN messager de la protéine visée."
-        },
-        {
-          "n": "2",
-          "h": "Clivage",
-          "t": "Le complexe RISC utilise ce guide pour repérer et découper l'ARN messager cible."
-        },
-        {
-          "n": "3",
-          "h": "Silencing",
-          "t": "La protéine responsable de la maladie n'est plus produite, pendant plusieurs mois par injection."
-        }
-      ],
-      "why": "Angle VC : après la validation commerciale d'Alnylam et de Novartis (Leqvio), l'ARNi attire à nouveau les gros tickets — dose peu fréquente, chimie modulaire réutilisable d'un programme à l'autre, et cible de choix pour le licensing en amont par la grande pharma (AbbVie-ADARx) avant même une preuve clinique tardive.",
-      "startups": [
-        {
-          "name": "ADARx Pharmaceuticals",
-          "use": "siRNA onvuzosiran en Phase 3 contre l'angio-œdème héréditaire (2e désignation FDA le 24 août 2026) ; plateforme ARN partenaire d'AbbVie pour 335 M$ upfront",
-          "place": "San Diego, États-Unis"
-        },
-        {
-          "name": "Silence Therapeutics",
-          "use": "siRNA divesiran en Phase 2 contre la polycythémie vraie (88% de réponse clinique vs 19% placebo) ; a repris en mars 2026 tous les droits mondiaux sur SLN312 auprès d'AstraZeneca",
-          "place": "Londres, Royaume-Uni"
-        },
-        {
-          "name": "Ractigen Therapeutics",
-          "use": "siRNA RAG-17 en essai clinique contre la SLA liée à une mutation SOD1, premier patient dosé en janvier 2026",
-          "place": "Nankin, Chine"
-        }
-      ],
-      "date": "2026-08-25",
-      "dateLong": "25 août 2026"
     },
     {
       "term": "PDUFA",

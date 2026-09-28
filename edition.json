@@ -1,102 +1,85 @@
 {
-  "dateLong": "27 sept. 2026",
+  "dateLong": "28 sept. 2026",
   "ticker": [
-    { "company": "Precision Neuroscience", "amount": "$250M", "kind": "lev" },
-    { "company": "Novadip Biosciences", "amount": "€10,4M", "kind": "lev" }
+    { "company": "Angle Health", "amount": "$600M", "kind": "lev" },
+    { "company": "Thyme Care", "amount": "$125M", "kind": "lev" },
+    { "company": "TwoStep Therapeutics", "amount": "$62,5M", "kind": "lev" },
+    { "company": "Epsilon Health", "amount": "$27,6M", "kind": "lev" },
+    { "company": "Bird&Be", "amount": "$13M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Double désignation FDA · Oncologie",
-    "title": "SOTIO décroche une double désignation FDA pour son ADC anti-LRRC15 SOT106, avant son premier essai chez l'homme",
-    "deck": "La biotech pragoise, filiale du groupe financier tchèque PPF, a obtenu de la FDA la désignation Orphan Drug pour le sarcome des tissus mous et la désignation Fast Track pour l'ostéosarcome sur SOT106, un anticorps-conjugué ciblant LRRC15 — avant même le premier dosage chez l'homme, attendu plus tard en 2026. Le signal : une double désignation réglementaire en phase préclinique accélère le calendrier de développement et rend le programme beaucoup plus attractif pour un co-développement ou une levée growth, sur le sarcome, un sous-secteur largement délaissé par les gros pipelines ADC.",
-    "company": "SOTIO Biotech",
+    "kicker": "Clearance FDA · Santé maternelle",
+    "title": "Marani Health obtient le feu vert FDA pour surveiller les grossesses à risque depuis la maison",
+    "deck": "Cofondée avec la Mayo Clinic, la medtech de Minneapolis décroche la clearance 510(k) de son bracelet M•wrap, qui capte à distance les signaux cardiaques fœtaux et maternels — une surveillance jusqu'ici réservée à l'hôpital. Encore en seed (7,6 M$ levés auprès de Golden Seeds, Matter et Fourth Element Capital), la société vise un lancement commercial en 2027 : la clearance est le jalon qui précède typiquement le prochain tour.",
+    "company": "Marani Health",
+    "stage": "Seed",
     "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/23/3367416/0/en/sotio-advances-sot106-with-dual-fda-designations-further-positioning-the-program-as-a-potential-best-in-class-adc-for-sarcoma.html"
+    "strength": 5,
+    "url": "https://www.prnewswire.com/news-releases/marani-health-receives-fda-clearance-for-mcare-system-clearing-the-path-toward-commercial-launch-302889495.html"
   },
   "deal": {
-    "company": "Precision Neuroscience",
-    "amount": "$250M",
-    "round": "Series D",
-    "thesis": "Le tour, sursouscrit, est mené par le family office de Bill Ackman (Pershing Square Inc.), l'Ackman Oxman Institute et un fonds de life sciences non divulgué, aux côtés de Duquesne Family Office, B Capital, ARK Invest, Invus, Mubadala Capital, Mirae Asset, Korea Investment Partners, Hitachi Ventures et JSL Health Capital — portant le total levé depuis 2021 à 430 M$. La medtech new-yorkaise a déjà implanté son interface corticale Layer 7™, un film ultra-fin de microélectrodes posé à la surface du cerveau sans pénétrer le tissu, chez plus de 100 patients dans 18 hôpitaux ; les fonds financent l'extension du programme clinique via la FDA et la construction de l'infrastructure de commercialisation. Le pari : la BCI quitte le stade de la preuve de concept pour entrer dans une course à l'échelle où les tickets se comptent déjà en centaines de millions.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/24/3368254/0/en/precision-neuroscience-closes-oversubscribed-250m-series-d-led-by-pershing-square-inc-the-ackman-oxman-institute-and-a-leading-life-sciences-investment-fund.html"
+    "company": "City Therapeutics",
+    "amount": "S-1 déposé",
+    "round": "IPO Filing",
+    "thesis": "Trois jours après le méga-IPO d'ADARx (446 M$), City dépose à son tour son S-1 pour le Nasdaq (ticker CTY) : la biotech de Boston, soutenue par ARCH Venture Partners et Fidelity depuis son lancement à 135 M$ en 2024 puis un Series B de 99,5 M$ courant 2026, veut prouver que le marché public est prêt à valoriser une deuxième génération de médicaments à ARN interférent. La thèse ARNi, huit ans après l'approbation du premier siRNA d'Alnylam, s'étend désormais bien au-delà du foie — un signal à suivre pour quiconque a un dossier ARN dans son deal flow.",
+    "url": "https://www.biospace.com/deals/adarx-raises-446m-in-biotechs-third-largest-ipo-of-2026-city-files-to-go-public"
   },
   "brefsEurope": [
     {
-      "company": "Ona Therapeutics",
-      "place": "Barcelone, Espagne",
-      "sector": "Oncologie",
+      "company": "WeMind",
+      "place": "Stockholm, Suède",
+      "sector": "Santé mentale",
       "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Ona Therapeutics recrute le Dr Aleix Prat comme directeur médical à l'entrée en clinique de son ADC ONA-255",
-      "summary": "La biotech barcelonaise, soutenue par Ysios Capital, a nommé cet oncologue du Clínic Barcelona Comprehensive Cancer Center directeur médical au moment où ONA-255 entre en phase 1a contre les tumeurs solides avancées. Un renfort clinique classique avant une prochaine levée — à surveiller avant que le tour ne soit bouclé.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/24/3367990/0/en/ona-therapeutics-advances-as-a-clinical-stage-company-and-appoints-aleix-prat-md-phd-as-chief-medical-officer.html"
-    },
-    {
-      "company": "Novadip Biosciences",
-      "place": "Mont-Saint-Guibert, Belgique",
-      "sector": "Biotech",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Growth",
-      "title": "Novadip lève 10,4 M€ pour boucler la phase 3 pivot de son greffon osseux cellulaire et débloquer une tranche de prêt BEI de 18 M€",
-      "summary": "Le tour convertible, mené par l'américain New Science Ventures aux côtés des historiques Fund+, Wallonie Entreprendre, VIVES Fund, ORSA Tech, Sambrinvest, Noshaq et Invest.BW, finance la dernière ligne droite de l'essai pivot de NVD003 dans la pseudarthrose congénitale du tibia. Franchir ce jalon déclenche une tranche de la facilité de dette venture de la Banque européenne d'investissement — un montage capital-efficient typique de la medtech européenne en phase pivot.",
-      "url": "https://www.eu-startups.com/2026/09/belgiums-novadip-biosciences-raises-e10-4-million-to-fund-pivotal-clinical-trial-and-unlock-eib-loan-tranche/"
+      "title": "Le premier réseau privé de psychiatrie de Suède change de PDG après vingt ans",
+      "summary": "Johan Skånberg, jusqu'ici directeur médical, succède au fondateur Urban Pettersson Bargo à la tête de WeMind (250 000 patients traités depuis 2006, capital porté par le family office TomEnterprise de Thomas von Koch). Moins une opportunité d'entrée qu'un indicateur de la consolidation en cours de la santé mentale nordique par du capital patient plutôt que du VC pur.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/22/3365979/0/en/wemind-appoints-new-ceo.html"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Autonomix Medical",
-      "place": "The Woodlands, États-Unis",
-      "sector": "MedTech",
-      "signalType": "patent_filing",
-      "strength": 2,
-      "title": "Autonomix Medical étend en Europe la protection brevet de sa plateforme de neuromodulation de précision",
-      "summary": "Le brevet européen EP 4 233 700 B1, portant sur l'évaluation de l'activité neurale de l'œil, élargit la couverture IP de cette petite medtech américaine autour de sa technologie de cartographie et d'ablation du système nerveux autonome — un signal à suivre en écho direct au méga-tour du jour sur les interfaces neurales.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368299/0/en/autonomix-medical-expands-global-intellectual-property-footprint-with-european-patent-supporting-precision-neuromodulation-platform.html"
-    },
-    {
-      "company": "Solenic Medical",
-      "place": "Minneapolis, États-Unis",
-      "sector": "MedTech",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Solenic Medical fait entrer Daniel Hawkins, fondateur de Shockwave Medical, comme président du conseil",
-      "summary": "L'architecte du rachat de Shockwave Medical par Johnson & Johnson (13,1 Md$ en 2024) prend la présidence de cette medtech qui développe SOLA-2, un traitement non invasif par champ magnétique alternatif contre les infections périprothétiques articulaires, en évaluation clinique pivot. Un signal de confiance fort d'un bâtisseur d'exits medtech, avant une levée ou une sortie potentielle.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368233/0/en/solenic-medical-appoints-daniel-hawkins-as-chairman-of-the-board.html"
-    },
-    {
-      "company": "SystImmune",
-      "place": "Redmond, États-Unis",
+      "company": "Atavistik Bio",
+      "place": "Boston, États-Unis",
       "sector": "Biotech",
-      "signalType": "regulatory_milestone",
+      "signalType": "early_partnership",
       "strength": 3,
-      "title": "SystImmune obtient de la FDA le feu vert IND pour SI-B037, son nouvel anticorps bispécifique, via un dossier toxicologique sans essais animaux",
-      "summary": "Premier patient déjà dosé : l'IND s'appuie sur un paquet de sécurité préclinique construit selon les New Approach Methodologies (NAMs), sans étude animale — une première réglementaire que les investisseurs en anticorps bispécifiques et ADC vont scruter comme précédent pour accélérer leurs propres dépôts.",
-      "url": "https://www.biospace.com/press-releases/systimmune-receives-fda-clearance-of-ind-application-for-bispecific-antibody-si-b037"
+      "title": "Roche signe avec Atavistik Bio un accord de découverte pouvant atteindre 2 Md$",
+      "summary": "Encore indépendante (Series B menée par des investisseurs spécialistes fin 2025), la biotech touche 70 M$ d'upfront pour appliquer sa plateforme allostérique AMPS aux maladies cardio-rénales-métaboliques de Roche — son deuxième partenariat avec un big pharma après Pfizer début 2025. Le genre de validation qui précède souvent le tour suivant plutôt que de le remplacer.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368181/0/en/atavistik-bio-announces-strategic-research-collaboration-with-roche-to-discover-and-develop-novel-allosteric-therapeutics.html"
+    },
+    {
+      "company": "Mirum Pharmaceuticals / Incyte",
+      "place": "Foster City, États-Unis",
+      "sector": "Pharma",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "La FDA approuve Atebrioz, premier traitement oral de la maladie osseuse rare FOP",
+      "summary": "Zilurgisertib devient le premier ALK2-inhibiteur oral approuvé contre la fibrodysplasie ossifiante progressive (environ 900 patients dans le monde). Un comparable de marché sur la valeur que Wall Street accorde à un traitement niche bien exécuté — pas une opportunité d'entrée, Mirum étant déjà cotée au Nasdaq.",
+      "url": "https://finance.yahoo.com/healthcare/articles/mirum-pharmaceuticals-incyte-announce-u-230000840.html"
     }
   ],
   "word": {
-    "term": "Digital Pathology",
-    "full": "Digital Pathology (AI-Augmented Whole-Slide Image Analysis)",
-    "fr": "Anatomopathologie numérique",
-    "field": "Diagnostic · IA appliquée à l'oncologie",
-    "definition": "La numérisation des lames de biopsie en images haute résolution, analysées par des algorithmes d'IA qui détectent des motifs invisibles à l'œil nu — de quoi absorber une charge de diagnostic qui croît plus vite que le nombre de pathologistes formés dans le monde.",
+    "term": "RNAi",
+    "full": "RNA Interference (silencing génique par oligonucléotides)",
+    "fr": "Interférence ARN",
+    "field": "Modalité thérapeutique · ARN",
+    "definition": "Une technique qui empêche la fabrication d'une protéine pathogène en détruisant l'ARN messager qui porte son instruction, plutôt que de neutraliser la protéine une fois qu'elle existe.",
     "parts": [
-      { "label": "Scanner de lames (WSI)", "role": "numérise la lame de verre en image gigapixel" },
-      { "label": "Modèle de vision par IA", "role": "détecte cellules, tumeurs et biomarqueurs sur l'image" },
-      { "label": "Intégration au poste du pathologiste", "role": "renvoie un pré-diagnostic exploitable dans son outil de travail" }
+      { "label": "siRNA guide", "role": "reconnaît la séquence de l'ARN messager cible" },
+      { "label": "Complexe RISC", "role": "exécute le clivage de l'ARNm ciblé" },
+      { "label": "Ligand de ciblage (GalNAc, Centyrin...)", "role": "achemine le médicament vers le bon tissu ou organe" }
     ],
     "how": [
-      { "n": "1", "h": "Numérisation", "t": "La lame de tissu, colorée selon les protocoles classiques, est scannée en une image numérique haute résolution (plusieurs gigapixels)." },
-      { "n": "2", "h": "Analyse", "t": "Un modèle de deep learning, entraîné sur des millions de lames annotées, détecte des motifs tumoraux, compte des mitoses ou quantifie des biomarqueurs." },
-      { "n": "3", "h": "Restitution", "t": "Le résultat est intégré au poste du pathologiste comme second regard ou outil de tri de priorité, sans remplacer sa décision finale." }
+      { "n": "1", "h": "Reconnaissance", "t": "Le brin guide du siRNA s'apparie par complémentarité à l'ARN messager de la protéine pathogène visée." },
+      { "n": "2", "h": "Chargement RISC", "t": "Le complexe protéique RISC capture le siRNA et l'utilise comme guide pour localiser l'ARNm complémentaire dans la cellule." },
+      { "n": "3", "h": "Silencing", "t": "RISC clive l'ARNm ciblé, bloquant sa traduction en protéine et réduisant durablement son expression, parfois pendant plusieurs mois." }
     ],
-    "why": "La pénurie mondiale de pathologistes transforme la pathologie numérique en infrastructure diagnostique critique, pas en simple gadget IA. Le rachat de PathAI par Roche pour 1,05 Md$ annoncé en 2026 a validé la thèse de sortie : diagnostiqueurs et big pharma achètent la donnée et l'algorithme, pas seulement le logiciel. Il reste un groupe resserré de plateformes indépendantes bien financées, encore à un stade où un VC santé peut entrer avant la prochaine vague de consolidation.",
+    "why": "Huit ans après le premier siRNA approuvé (Alnylam), une nouvelle génération de biotechs sort du foie — l'organe le plus facile à atteindre — pour cibler rein, muscle ou système nerveux avec des ligands propriétaires. City Therapeutics, qui dépose son S-1 cette semaine dans la foulée d'ADARx, teste si le marché public est prêt à suivre cette deuxième vague : de quoi faire remonter la thèse ARNi tout en haut des radars VC santé.",
     "startups": [
-      { "name": "Owkin", "use": "Plateforme d'IA fédérée pour la pathologie computationnelle et la découverte de biomarqueurs à partir de lames et de données multi-omiques ; plus de 300 M$ levés au total, toujours indépendante", "place": "Paris, France / New York, États-Unis" },
-      { "name": "Ibex Medical Analytics", "use": "Plateforme Ibex 4 de pathologie assistée par IA pour les cancers du sein, de la prostate et gastriques, déployée dans des laboratoires cliniques ; Series C de 55 M$ menée par 83North", "place": "Tel-Aviv, Israël" },
-      { "name": "Deciphex", "use": "Plateforme de pathologie numérique et d'IA pour laboratoires précliniques et cliniques ; Series C de 31 M€ menée par Molten Ventures pour répondre à la pénurie mondiale de pathologistes", "place": "Dublin, Irlande" },
-      { "name": "Proscia", "use": "Logiciel AISight de pathologie diagnostique par IA ; 50 M$ levés en 2025 menés par Insight Partners, croissance de 400 % du volume de cas traités quotidiennement", "place": "Philadelphie, États-Unis" }
+      { "name": "Judo Bio", "use": "Plateforme STRIKE de conjugués ARN-ligand pour délivrer le silencing génique directement dans les cellules rénales ; 200 M$ levés depuis son lancement en 2024.", "place": "Cambridge, États-Unis" },
+      { "name": "Switch Therapeutics", "use": "siRNA à activation conditionnelle (CASi) capable de cibler un type cellulaire précis sans dépendre d'un récepteur de surface ; vise une entrée en clinique en 2026.", "place": "Cambridge, États-Unis" },
+      { "name": "Aro Biotherapeutics", "use": "Plateforme Centyrin pour délivrer des oligonucléotides hors du foie ; données de phase 1b positives en mars 2026 sur un siRNA ciblant le muscle dans la maladie de Pompe.", "place": "Philadelphie, États-Unis" },
+      { "name": "Silence Therapeutics", "use": "siRNA divesiran ciblant TMPRSS6 pour les maladies du sang ; essai de phase 2 SANRECO en cours dans la polycythémie vraie.", "place": "Londres, Royaume-Uni" }
     ]
   }
 }
