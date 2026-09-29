@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-28",
+  "generatedAt": "2026-09-29",
   "words": [
+    {
+      "term": "Mechanical Thrombectomy",
+      "full": "Mechanical Thrombectomy (Catheter-Based Clot Removal)",
+      "fr": "Thrombectomie mécanique",
+      "field": "MedTech · Neurovasculaire & vasculaire",
+      "definition": "Une procédure où un cathéter est guidé jusqu'au caillot qui bouche un vaisseau pour l'aspirer ou le capturer mécaniquement, rétablissant la circulation sanguine sans médicament.",
+      "parts": [
+        {
+          "label": "Cathéter d'accès",
+          "role": "le chemin jusqu'au caillot"
+        },
+        {
+          "label": "Aspiration ou stent retriever",
+          "role": "l'outil qui retire le caillot"
+        },
+        {
+          "label": "Pompe / console",
+          "role": "la source de dépression"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Accès",
+          "t": "Le cathéter est introduit par l'artère (fémorale ou radiale) puis navigué jusqu'au vaisseau occlus sous imagerie."
+        },
+        {
+          "n": "2",
+          "h": "Capture",
+          "t": "Un cathéter d'aspiration crée une dépression sur le caillot, ou un stent retriever l'englobe pour l'extraire."
+        },
+        {
+          "n": "3",
+          "h": "Reperfusion",
+          "t": "Le caillot est retiré, le flux est vérifié à l'imagerie et le résultat est mesuré (par ex. le first-pass effect)."
+        }
+      ],
+      "why": "Marché en expansion : après l'AVC ischémique, la thrombectomie s'étend à l'embolie pulmonaire et aux thromboses veineuses, avec des cathéters plus petits pour les vaisseaux distaux. Côté VC : le cycle clearance FDA → levée est court, les preuves cliniques (first-pass effect) sont chiffrables, et les strategics (Boston Scientific, Medtronic, Stryker) rachètent activement.",
+      "startups": [
+        {
+          "name": "Route 92 Medical",
+          "use": "Système FreeClimb pour l'AVC ; clearance 510(k) du FreeClimb 46 avec Tenzing 4 le 28 sept. 2026 ; Novo Holdings au capital.",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "Perfuze",
+          "use": "Cathéter d'aspiration Millipede88, cleared par la FDA en mars 2026 pour l'aspiration directe seule (technologie corruguée brevetée).",
+          "place": "Galway, Irlande"
+        },
+        {
+          "name": "Imperative Care",
+          "use": "Portefeuille Zoom (AVC) et Symphony (thrombectomie vasculaire) ; 100 M$ de financement en obligations convertibles en mars 2026 (Ally Bridge, Bain Capital Life Sciences).",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "Rapid Medical",
+          "use": "Tigertriever 13, stent retriever ajustable pour les petits vaisseaux ; environ 79 M$ levés au total.",
+          "place": "Yokneam, Israël"
+        }
+      ],
+      "date": "2026-09-29",
+      "dateLong": "29 sept. 2026"
+    },
     {
       "term": "RNAi",
       "full": "RNA Interference (silencing génique par oligonucléotides)",

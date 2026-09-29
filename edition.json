@@ -1,85 +1,72 @@
 {
-  "dateLong": "28 sept. 2026",
+  "dateLong": "29 sept. 2026",
   "ticker": [
-    { "company": "Angle Health", "amount": "$600M", "kind": "lev" },
-    { "company": "Thyme Care", "amount": "$125M", "kind": "lev" },
-    { "company": "TwoStep Therapeutics", "amount": "$62,5M", "kind": "lev" },
-    { "company": "Epsilon Health", "amount": "$27,6M", "kind": "lev" },
-    { "company": "Bird&Be", "amount": "$13M", "kind": "lev" }
+    { "company": "Sofinnova MD Start IV", "amount": "€82M", "kind": "lev" },
+    { "company": "Theravance Biopharma (Zymeworks)", "amount": "$17/action", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Clearance FDA · Santé maternelle",
-    "title": "Marani Health obtient le feu vert FDA pour surveiller les grossesses à risque depuis la maison",
-    "deck": "Cofondée avec la Mayo Clinic, la medtech de Minneapolis décroche la clearance 510(k) de son bracelet M•wrap, qui capte à distance les signaux cardiaques fœtaux et maternels — une surveillance jusqu'ici réservée à l'hôpital. Encore en seed (7,6 M$ levés auprès de Golden Seeds, Matter et Fourth Element Capital), la société vise un lancement commercial en 2027 : la clearance est le jalon qui précède typiquement le prochain tour.",
-    "company": "Marani Health",
+    "kicker": "Fonds · MedTech · Company creation",
+    "title": "Sofinnova boucle MD Start IV à 82 M€ pour créer de toutes pièces six à huit sociétés medtech",
+    "deck": "Le fonds parisien Sofinnova Partners clôt, en sursouscription, son quatrième véhicule dédié à la création de sociétés medtech en Europe et aux États-Unis, après MD Start III (63 M€, 2021) dont les six sociétés ont levé plus de 140 M€ de financements complémentaires. C'est un signal en amont : les futures start-up medtech naîtront chez Sofinnova, avant tout tour de marché — l'opportunité est de repérer les fondateurs et de se positionner sur les seeds et Series A qui suivront.",
+    "company": "Sofinnova Partners",
     "stage": "Seed",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.prnewswire.com/news-releases/marani-health-receives-fda-clearance-for-mcare-system-clearing-the-path-toward-commercial-launch-302889495.html"
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://tech.eu/2026/09/28/sofinnova-partners-closes-oversubscribed-eur82m-sofinnova-md-start-iv-fund/"
   },
   "deal": {
-    "company": "City Therapeutics",
-    "amount": "S-1 déposé",
-    "round": "IPO Filing",
-    "thesis": "Trois jours après le méga-IPO d'ADARx (446 M$), City dépose à son tour son S-1 pour le Nasdaq (ticker CTY) : la biotech de Boston, soutenue par ARCH Venture Partners et Fidelity depuis son lancement à 135 M$ en 2024 puis un Series B de 99,5 M$ courant 2026, veut prouver que le marché public est prêt à valoriser une deuxième génération de médicaments à ARN interférent. La thèse ARNi, huit ans après l'approbation du premier siRNA d'Alnylam, s'étend désormais bien au-delà du foie — un signal à suivre pour quiconque a un dossier ARN dans son deal flow.",
-    "url": "https://www.biospace.com/deals/adarx-raises-446m-in-biotechs-third-largest-ipo-of-2026-city-files-to-go-public"
+    "company": "Theravance Biopharma",
+    "amount": "17 $ par action (cash)",
+    "round": "M&A",
+    "thesis": "Zymeworks finalise le rachat de Theravance Biopharma (17 $ en cash par action) pour acquérir YUPELRI (revefenacin), une source de flux de trésorerie récurrents destinée à financer son pipeline. Le montage est le point à retenir : une note de 350 M$ non dilutive auprès d'OMERS, remboursée par 75 % du partage de profits YUPELRI, complétée par environ 217,5 M$ de trésorerie propre — une biotech qui achète du revenu par de la dette adossée à des royalties plutôt que par de l'equity. Un comparable de marché plus qu'une opportunité d'entrée.",
+    "url": "https://www.globenewswire.com/news-release/2026/09/28/3369687/0/en/zymeworks-announces-updated-2026-financial-guidance-and-final-transaction-details-following-theravance-biopharma-acquisition.html"
   },
-  "brefsEurope": [
-    {
-      "company": "WeMind",
-      "place": "Stockholm, Suède",
-      "sector": "Santé mentale",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Le premier réseau privé de psychiatrie de Suède change de PDG après vingt ans",
-      "summary": "Johan Skånberg, jusqu'ici directeur médical, succède au fondateur Urban Pettersson Bargo à la tête de WeMind (250 000 patients traités depuis 2006, capital porté par le family office TomEnterprise de Thomas von Koch). Moins une opportunité d'entrée qu'un indicateur de la consolidation en cours de la santé mentale nordique par du capital patient plutôt que du VC pur.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/22/3365979/0/en/wemind-appoints-new-ceo.html"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Atavistik Bio",
-      "place": "Boston, États-Unis",
-      "sector": "Biotech",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Roche signe avec Atavistik Bio un accord de découverte pouvant atteindre 2 Md$",
-      "summary": "Encore indépendante (Series B menée par des investisseurs spécialistes fin 2025), la biotech touche 70 M$ d'upfront pour appliquer sa plateforme allostérique AMPS aux maladies cardio-rénales-métaboliques de Roche — son deuxième partenariat avec un big pharma après Pfizer début 2025. Le genre de validation qui précède souvent le tour suivant plutôt que de le remplacer.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/24/3368181/0/en/atavistik-bio-announces-strategic-research-collaboration-with-roche-to-discover-and-develop-novel-allosteric-therapeutics.html"
-    },
-    {
-      "company": "Mirum Pharmaceuticals / Incyte",
-      "place": "Foster City, États-Unis",
-      "sector": "Pharma",
+      "company": "Route 92 Medical",
+      "place": "Californie, États-Unis",
+      "sector": "MedTech",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "La FDA approuve Atebrioz, premier traitement oral de la maladie osseuse rare FOP",
-      "summary": "Zilurgisertib devient le premier ALK2-inhibiteur oral approuvé contre la fibrodysplasie ossifiante progressive (environ 900 patients dans le monde). Un comparable de marché sur la valeur que Wall Street accorde à un traitement niche bien exécuté — pas une opportunité d'entrée, Mirum étant déjà cotée au Nasdaq.",
-      "url": "https://finance.yahoo.com/healthcare/articles/mirum-pharmaceuticals-incyte-announce-u-230000840.html"
+      "stage": "Growth",
+      "title": "Route 92 Medical obtient la clearance FDA 510(k) du cathéter FreeClimb 46 avec Tenzing 4",
+      "summary": "Le système intégré d'accès neurovasculaire étend la gamme AVC de la société aux vaisseaux plus petits et plus distaux. Route 92, déjà soutenue par Novo Holdings, élargit ainsi son marché adressable en thrombectomie."
+      ,"url": "https://www.globenewswire.com/news-release/2026/09/28/3369822/0/en/route-92-medical-announces-u-s-fda-clearance-for-the-freeclimb-46-catheter-with-tenzing-4.html"
+    },
+    {
+      "company": "Insera Therapeutics",
+      "place": "Sacramento, États-Unis",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Insera Therapeutics décroche la clearance FDA 510(k) de son système d'aspiration CLEAR",
+      "summary": "Pompe d'aspiration numérique à mode cyclique, indiquée pour retirer emboles et thrombus frais des vaisseaux périphériques artériels et veineux. Déjà marquée CE, la société franchit l'étape réglementaire américaine qui précède classiquement une levée ou un partenariat commercial.",
+      "url": "http://www.prnewswire.com/news-releases/insera-therapeutics-inc-receives-us-fda-510k-clearance-for-the-clear-aspiration-system-featuring-cyclical-aspiration-302891209.html"
     }
   ],
   "word": {
-    "term": "RNAi",
-    "full": "RNA Interference (silencing génique par oligonucléotides)",
-    "fr": "Interférence ARN",
-    "field": "Modalité thérapeutique · ARN",
-    "definition": "Une technique qui empêche la fabrication d'une protéine pathogène en détruisant l'ARN messager qui porte son instruction, plutôt que de neutraliser la protéine une fois qu'elle existe.",
+    "term": "Mechanical Thrombectomy",
+    "full": "Mechanical Thrombectomy (Catheter-Based Clot Removal)",
+    "fr": "Thrombectomie mécanique",
+    "field": "MedTech · Neurovasculaire & vasculaire",
+    "definition": "Une procédure où un cathéter est guidé jusqu'au caillot qui bouche un vaisseau pour l'aspirer ou le capturer mécaniquement, rétablissant la circulation sanguine sans médicament.",
     "parts": [
-      { "label": "siRNA guide", "role": "reconnaît la séquence de l'ARN messager cible" },
-      { "label": "Complexe RISC", "role": "exécute le clivage de l'ARNm ciblé" },
-      { "label": "Ligand de ciblage (GalNAc, Centyrin...)", "role": "achemine le médicament vers le bon tissu ou organe" }
+      { "label": "Cathéter d'accès", "role": "le chemin jusqu'au caillot" },
+      { "label": "Aspiration ou stent retriever", "role": "l'outil qui retire le caillot" },
+      { "label": "Pompe / console", "role": "la source de dépression" }
     ],
     "how": [
-      { "n": "1", "h": "Reconnaissance", "t": "Le brin guide du siRNA s'apparie par complémentarité à l'ARN messager de la protéine pathogène visée." },
-      { "n": "2", "h": "Chargement RISC", "t": "Le complexe protéique RISC capture le siRNA et l'utilise comme guide pour localiser l'ARNm complémentaire dans la cellule." },
-      { "n": "3", "h": "Silencing", "t": "RISC clive l'ARNm ciblé, bloquant sa traduction en protéine et réduisant durablement son expression, parfois pendant plusieurs mois." }
+      { "n": "1", "h": "Accès", "t": "Le cathéter est introduit par l'artère (fémorale ou radiale) puis navigué jusqu'au vaisseau occlus sous imagerie." },
+      { "n": "2", "h": "Capture", "t": "Un cathéter d'aspiration crée une dépression sur le caillot, ou un stent retriever l'englobe pour l'extraire." },
+      { "n": "3", "h": "Reperfusion", "t": "Le caillot est retiré, le flux est vérifié à l'imagerie et le résultat est mesuré (par ex. le first-pass effect)." }
     ],
-    "why": "Huit ans après le premier siRNA approuvé (Alnylam), une nouvelle génération de biotechs sort du foie — l'organe le plus facile à atteindre — pour cibler rein, muscle ou système nerveux avec des ligands propriétaires. City Therapeutics, qui dépose son S-1 cette semaine dans la foulée d'ADARx, teste si le marché public est prêt à suivre cette deuxième vague : de quoi faire remonter la thèse ARNi tout en haut des radars VC santé.",
+    "why": "Marché en expansion : après l'AVC ischémique, la thrombectomie s'étend à l'embolie pulmonaire et aux thromboses veineuses, avec des cathéters plus petits pour les vaisseaux distaux. Côté VC : le cycle clearance FDA → levée est court, les preuves cliniques (first-pass effect) sont chiffrables, et les strategics (Boston Scientific, Medtronic, Stryker) rachètent activement.",
     "startups": [
-      { "name": "Judo Bio", "use": "Plateforme STRIKE de conjugués ARN-ligand pour délivrer le silencing génique directement dans les cellules rénales ; 200 M$ levés depuis son lancement en 2024.", "place": "Cambridge, États-Unis" },
-      { "name": "Switch Therapeutics", "use": "siRNA à activation conditionnelle (CASi) capable de cibler un type cellulaire précis sans dépendre d'un récepteur de surface ; vise une entrée en clinique en 2026.", "place": "Cambridge, États-Unis" },
-      { "name": "Aro Biotherapeutics", "use": "Plateforme Centyrin pour délivrer des oligonucléotides hors du foie ; données de phase 1b positives en mars 2026 sur un siRNA ciblant le muscle dans la maladie de Pompe.", "place": "Philadelphie, États-Unis" },
-      { "name": "Silence Therapeutics", "use": "siRNA divesiran ciblant TMPRSS6 pour les maladies du sang ; essai de phase 2 SANRECO en cours dans la polycythémie vraie.", "place": "Londres, Royaume-Uni" }
+      { "name": "Route 92 Medical", "use": "Système FreeClimb pour l'AVC ; clearance 510(k) du FreeClimb 46 avec Tenzing 4 le 28 sept. 2026 ; Novo Holdings au capital.", "place": "Californie, États-Unis" },
+      { "name": "Perfuze", "use": "Cathéter d'aspiration Millipede88, cleared par la FDA en mars 2026 pour l'aspiration directe seule (technologie corruguée brevetée).", "place": "Galway, Irlande" },
+      { "name": "Imperative Care", "use": "Portefeuille Zoom (AVC) et Symphony (thrombectomie vasculaire) ; 100 M$ de financement en obligations convertibles en mars 2026 (Ally Bridge, Bain Capital Life Sciences).", "place": "Californie, États-Unis" },
+      { "name": "Rapid Medical", "use": "Tigertriever 13, stent retriever ajustable pour les petits vaisseaux ; environ 79 M$ levés au total.", "place": "Yokneam, Israël" }
     ]
   }
 }
