@@ -1,72 +1,82 @@
 {
-  "dateLong": "29 sept. 2026",
+  "dateLong": "30 sept. 2026",
   "ticker": [
-    { "company": "Sofinnova MD Start IV", "amount": "€82M", "kind": "lev" },
-    { "company": "Theravance Biopharma (Zymeworks)", "amount": "$17/action", "kind": "mna" }
+    { "company": "Breye Therapeutics", "amount": "€67,5M", "kind": "lev" },
+    { "company": "ai3Bio", "amount": "$48M", "kind": "lev" },
+    { "company": "Tiny Health", "amount": "$33M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Fonds · MedTech · Company creation",
-    "title": "Sofinnova boucle MD Start IV à 82 M€ pour créer de toutes pièces six à huit sociétés medtech",
-    "deck": "Le fonds parisien Sofinnova Partners clôt, en sursouscription, son quatrième véhicule dédié à la création de sociétés medtech en Europe et aux États-Unis, après MD Start III (63 M€, 2021) dont les six sociétés ont levé plus de 140 M€ de financements complémentaires. C'est un signal en amont : les futures start-up medtech naîtront chez Sofinnova, avant tout tour de marché — l'opportunité est de repérer les fondateurs et de se positionner sur les seeds et Series A qui suivront.",
-    "company": "Sofinnova Partners",
-    "stage": "Seed",
+    "kicker": "Series A · Ophtalmologie",
+    "title": "Breye Therapeutics (Copenhague) lève 67,5 M€ en Series A, co-menée par Mission BioCapital et Novo Holdings, pour un traitement oral de la rétinopathie diabétique",
+    "deck": "Le tour, sursouscrit, est co-mené par le nouvel entrant Mission BioCapital et l'investisseur existant Novo Holdings, avec Sound Bioventures, EIFO, Innovestor Life Science, Catalyze Capital, Modi Ventures, Pappas Capital et le family office Ljungström. Pour un VC, c'est la thèse d'un médicament oral face aux injections intravitréennes, portée par un syndicat mêlant spécialistes santé et argent public danois : un profil de série A européenne à surveiller pour ses prochains jalons cliniques.",
+    "company": "Breye Therapeutics",
+    "stage": "Series A",
     "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://tech.eu/2026/09/28/sofinnova-partners-closes-oversubscribed-eur82m-sofinnova-md-start-iv-fund/"
+    "strength": 4,
+    "url": "https://www.biospace.com/press-releases/breye-therapeutics-raises-67-5-million-in-over-subscribed-series-a-financing"
   },
   "deal": {
-    "company": "Theravance Biopharma",
-    "amount": "17 $ par action (cash)",
-    "round": "M&A",
-    "thesis": "Zymeworks finalise le rachat de Theravance Biopharma (17 $ en cash par action) pour acquérir YUPELRI (revefenacin), une source de flux de trésorerie récurrents destinée à financer son pipeline. Le montage est le point à retenir : une note de 350 M$ non dilutive auprès d'OMERS, remboursée par 75 % du partage de profits YUPELRI, complétée par environ 217,5 M$ de trésorerie propre — une biotech qui achète du revenu par de la dette adossée à des royalties plutôt que par de l'equity. Un comparable de marché plus qu'une opportunité d'entrée.",
-    "url": "https://www.globenewswire.com/news-release/2026/09/28/3369687/0/en/zymeworks-announces-updated-2026-financial-guidance-and-final-transaction-details-following-theravance-biopharma-acquisition.html"
+    "company": "ai3Bio",
+    "amount": "$48M",
+    "round": "Series A",
+    "thesis": "ai3Bio sort de l'ombre avec 48 M$ menés par UPMC Enterprises et Ziff Capital, sous la direction de Steven Altschuler (co-fondateur de Spark Therapeutics), pour « réinitialiser » le système immunitaire en ciblant les cellules Th17 (anticorps anti-CD161 et plateforme mRNA). Le pari : traiter l'auto-immunité à la racine plutôt que d'immunosupprimer largement, un thème de plus en plus disputé ; l'entrée en clinique est visée pour 2027-2028, avec un tour supplémentaire déjà en cours.",
+    "url": "https://www.biopharmadive.com/news/ai3bio-th17-drugs-immune-reset-launch-series-a/831521/"
   },
   "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Route 92 Medical",
-      "place": "Californie, États-Unis",
-      "sector": "MedTech",
+      "company": "VB Spine",
+      "place": "États-Unis",
+      "sector": "Diagnostics",
       "signalType": "regulatory_milestone",
-      "strength": 5,
-      "stage": "Growth",
-      "title": "Route 92 Medical obtient la clearance FDA 510(k) du cathéter FreeClimb 46 avec Tenzing 4",
-      "summary": "Le système intégré d'accès neurovasculaire étend la gamme AVC de la société aux vaisseaux plus petits et plus distaux. Route 92, déjà soutenue par Novo Holdings, élargit ainsi son marché adressable en thrombectomie."
-      ,"url": "https://www.globenewswire.com/news-release/2026/09/28/3369822/0/en/route-92-medical-announces-u-s-fda-clearance-for-the-freeclimb-46-catheter-with-tenzing-4.html"
+      "strength": 4,
+      "title": "VB Spine obtient la FDA Breakthrough Device Designation pour ScolimiR-3D, test sanguin de progression de la scoliose",
+      "summary": "Test basé sur six microARN circulants, premier test prédictif de risque de progression de la scoliose idiopathique de l'adolescent à recevoir cette désignation ; l'étude de validation sur 116 patients rapporte 100 % de sensibilité et de spécificité (échantillon restreint, à confirmer). La désignation accélère l'interaction avec la FDA avant une éventuelle commercialisation.",
+      "url": "https://www.biospace.com/press-releases/vb-spine-announces-fda-breakthrough-device-designation-for-new-blood-test-designed-to-identify-patients-at-risk-for-scoliosis-progression"
     },
     {
-      "company": "Insera Therapeutics",
-      "place": "Sacramento, États-Unis",
-      "sector": "MedTech",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Insera Therapeutics décroche la clearance FDA 510(k) de son système d'aspiration CLEAR",
-      "summary": "Pompe d'aspiration numérique à mode cyclique, indiquée pour retirer emboles et thrombus frais des vaisseaux périphériques artériels et veineux. Déjà marquée CE, la société franchit l'étape réglementaire américaine qui précède classiquement une levée ou un partenariat commercial.",
-      "url": "http://www.prnewswire.com/news-releases/insera-therapeutics-inc-receives-us-fda-510k-clearance-for-the-clear-aspiration-system-featuring-cyclical-aspiration-302891209.html"
+      "company": "Tiny Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series B",
+      "title": "Tiny Health lève 33 M$ en Series B menée par B Capital pour ses tests de microbiome",
+      "summary": "La société de tests de microbiome intestinal et vaginal à domicile (46 M$ levés au total) finance des études cliniques, sa plateforme B2B « Powered by Tiny » et TinyAI, entraînée sur près de 200 000 profils. Nick Whitehead (B Capital) rejoint le board.",
+      "url": "https://medcitynews.com/2026/09/tiny-health-secures-33m-to-expand-microbiome-testing/"
+    },
+    {
+      "company": "Somnivera",
+      "place": "États-Unis",
+      "sector": "Biotech",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "ARCH et Population Health lancent Somnivera autour d'un médicament du sommeil de Jiangsu Nhwa (10,5 M$ upfront)",
+      "summary": "Nouvelle société « NewCo » montée par ARCH Venture et Population Health Partners pour développer hors de Chine un candidat contre les troubles du sommeil sous licence de Jiangsu Nhwa, pour 10,5 M$ à la signature. Le modèle de licence d'actifs chinois se répète après Sentivera (Haisco).",
+      "url": "https://endpoints.news/arch-and-population-health-return-to-china-for-new-startup-somnivera-targeting-sleep/"
     }
   ],
   "word": {
-    "term": "Mechanical Thrombectomy",
-    "full": "Mechanical Thrombectomy (Catheter-Based Clot Removal)",
-    "fr": "Thrombectomie mécanique",
-    "field": "MedTech · Neurovasculaire & vasculaire",
-    "definition": "Une procédure où un cathéter est guidé jusqu'au caillot qui bouche un vaisseau pour l'aspirer ou le capturer mécaniquement, rétablissant la circulation sanguine sans médicament.",
+    "term": "miRNA Biomarkers",
+    "full": "Circulating microRNA Biomarkers (liquid biopsy)",
+    "fr": "Biomarqueurs microARN circulants",
+    "field": "Diagnostic moléculaire",
+    "definition": "De courts fragments d'ARN présents dans le sang dont le profil change selon la maladie, et qui permettent de la détecter ou de prédire son évolution avec une simple prise de sang.",
     "parts": [
-      { "label": "Cathéter d'accès", "role": "le chemin jusqu'au caillot" },
-      { "label": "Aspiration ou stent retriever", "role": "l'outil qui retire le caillot" },
-      { "label": "Pompe / console", "role": "la source de dépression" }
+      { "label": "microARN", "role": "le signal : petites molécules régulatrices" },
+      { "label": "Panel de signatures", "role": "la combinaison qui distingue les patients" },
+      { "label": "Algorithme", "role": "le score de risque" }
     ],
     "how": [
-      { "n": "1", "h": "Accès", "t": "Le cathéter est introduit par l'artère (fémorale ou radiale) puis navigué jusqu'au vaisseau occlus sous imagerie." },
-      { "n": "2", "h": "Capture", "t": "Un cathéter d'aspiration crée une dépression sur le caillot, ou un stent retriever l'englobe pour l'extraire." },
-      { "n": "3", "h": "Reperfusion", "t": "Le caillot est retiré, le flux est vérifié à l'imagerie et le résultat est mesuré (par ex. le first-pass effect)." }
+      { "n": "1", "h": "Prélèvement", "t": "Une prise de sang standard, dont on extrait les microARN circulants." },
+      { "n": "2", "h": "Mesure", "t": "Séquençage ou PCR quantifient un panel de microARN." },
+      { "n": "3", "h": "Score", "t": "Un algorithme compare la signature aux cohortes de validation et sort un risque." }
     ],
-    "why": "Marché en expansion : après l'AVC ischémique, la thrombectomie s'étend à l'embolie pulmonaire et aux thromboses veineuses, avec des cathéters plus petits pour les vaisseaux distaux. Côté VC : le cycle clearance FDA → levée est court, les preuves cliniques (first-pass effect) sont chiffrables, et les strategics (Boston Scientific, Medtronic, Stryker) rachètent activement.",
+    "why": "Angle VC : c'est le mécanisme du test ScolimiR-3D de VB Spine, distingué par la FDA cette semaine. Diagnostic peu invasif, à faible coût de collecte, mais le risque est la validation : de petites cohortes donnent des performances flatteuses qui s'effondrent à plus grande échelle.",
     "startups": [
-      { "name": "Route 92 Medical", "use": "Système FreeClimb pour l'AVC ; clearance 510(k) du FreeClimb 46 avec Tenzing 4 le 28 sept. 2026 ; Novo Holdings au capital.", "place": "Californie, États-Unis" },
-      { "name": "Perfuze", "use": "Cathéter d'aspiration Millipede88, cleared par la FDA en mars 2026 pour l'aspiration directe seule (technologie corruguée brevetée).", "place": "Galway, Irlande" },
-      { "name": "Imperative Care", "use": "Portefeuille Zoom (AVC) et Symphony (thrombectomie vasculaire) ; 100 M$ de financement en obligations convertibles en mars 2026 (Ally Bridge, Bain Capital Life Sciences).", "place": "Californie, États-Unis" },
-      { "name": "Rapid Medical", "use": "Tigertriever 13, stent retriever ajustable pour les petits vaisseaux ; environ 79 M$ levés au total.", "place": "Yokneam, Israël" }
+      { "name": "Hummingbird Diagnostics", "use": "Diagnostics liquid biopsy basés sur les petits ARN ; a présenté en juin 2026 des travaux sur des biomarqueurs petits ARN dans le cancer du poumon (seed 2016, GreyBird Ventures).", "place": "Heidelberg, Allemagne" },
+      { "name": "Thalia Therapeutics", "use": "A levé 3,1 M€ en 2026 et racheté Sanmirna Therapeutics, apportant miRisten, un candidat microARN clinique dans la leucémie myéloïde aiguë.", "place": "Royaume-Uni" },
+      { "name": "miRXES", "use": "GASTROClear, premier test sanguin microARN de détection précoce du cancer gastrique ; scale-up déjà cotée à Hong Kong, donc plutôt un comparable.", "place": "Singapour" }
     ]
   }
 }

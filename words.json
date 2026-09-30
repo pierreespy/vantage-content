@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-09-29",
+  "generatedAt": "2026-09-30",
   "words": [
+    {
+      "term": "miRNA Biomarkers",
+      "full": "Circulating microRNA Biomarkers (liquid biopsy)",
+      "fr": "Biomarqueurs microARN circulants",
+      "field": "Diagnostic moléculaire",
+      "definition": "De courts fragments d'ARN présents dans le sang dont le profil change selon la maladie, et qui permettent de la détecter ou de prédire son évolution avec une simple prise de sang.",
+      "parts": [
+        {
+          "label": "microARN",
+          "role": "le signal : petites molécules régulatrices"
+        },
+        {
+          "label": "Panel de signatures",
+          "role": "la combinaison qui distingue les patients"
+        },
+        {
+          "label": "Algorithme",
+          "role": "le score de risque"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Une prise de sang standard, dont on extrait les microARN circulants."
+        },
+        {
+          "n": "2",
+          "h": "Mesure",
+          "t": "Séquençage ou PCR quantifient un panel de microARN."
+        },
+        {
+          "n": "3",
+          "h": "Score",
+          "t": "Un algorithme compare la signature aux cohortes de validation et sort un risque."
+        }
+      ],
+      "why": "Angle VC : c'est le mécanisme du test ScolimiR-3D de VB Spine, distingué par la FDA cette semaine. Diagnostic peu invasif, à faible coût de collecte, mais le risque est la validation : de petites cohortes donnent des performances flatteuses qui s'effondrent à plus grande échelle.",
+      "startups": [
+        {
+          "name": "Hummingbird Diagnostics",
+          "use": "Diagnostics liquid biopsy basés sur les petits ARN ; a présenté en juin 2026 des travaux sur des biomarqueurs petits ARN dans le cancer du poumon (seed 2016, GreyBird Ventures).",
+          "place": "Heidelberg, Allemagne"
+        },
+        {
+          "name": "Thalia Therapeutics",
+          "use": "A levé 3,1 M€ en 2026 et racheté Sanmirna Therapeutics, apportant miRisten, un candidat microARN clinique dans la leucémie myéloïde aiguë.",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "miRXES",
+          "use": "GASTROClear, premier test sanguin microARN de détection précoce du cancer gastrique ; scale-up déjà cotée à Hong Kong, donc plutôt un comparable.",
+          "place": "Singapour"
+        }
+      ],
+      "date": "2026-09-30",
+      "dateLong": "30 sept. 2026"
+    },
     {
       "term": "Mechanical Thrombectomy",
       "full": "Mechanical Thrombectomy (Catheter-Based Clot Removal)",
