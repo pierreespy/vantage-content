@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-30",
+  "generatedAt": "2026-10-01",
   "words": [
+    {
+      "term": "Epigenetic Editing",
+      "full": "Epigenetic Editing (Programmable Gene Regulation without Cutting DNA)",
+      "fr": "Édition épigénétique",
+      "field": "Thérapies géniques de nouvelle génération",
+      "definition": "Technique qui active ou éteint un gène en modifiant ses « interrupteurs » chimiques (comme la méthylation) sans couper ni réécrire l'ADN.",
+      "parts": [
+        {
+          "label": "Module de ciblage",
+          "role": "le GPS (CRISPR désactivé ou ARN guide)"
+        },
+        {
+          "label": "Effecteur épigénétique",
+          "role": "l'interrupteur (écrit ou efface la méthylation)"
+        },
+        {
+          "label": "Délivrance",
+          "role": "le véhicule (LNP, AAV)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le module de guidage trouve le gène précis à réguler."
+        },
+        {
+          "n": "2",
+          "h": "Modification",
+          "t": "L'effecteur ajoute ou retire des marques épigénétiques (méthylation de l'ADN, histones)."
+        },
+        {
+          "n": "3",
+          "h": "Régulation",
+          "t": "Le gène est rallumé ou réduit au silence, de façon durable, sans cassure de l'ADN."
+        }
+      ],
+      "why": "Pas de coupure double-brin donc moins de risques de modifications hors cible, et un effet potentiellement durable avec une dose unique : la modalité attire les VC depuis les premières données cliniques (hépatite B, FSHD). Côté Europe, le seed d'Aptadir montre l'appétit pour les approches de déméthylation ciblée.",
+      "startups": [
+        {
+          "name": "Aptadir Therapeutics",
+          "use": "ARN inhibiteurs bloquant la méthylation aberrante d'un gène unique ; candidat CAP1-FMR1 (X fragile) ; seed de 40 M€ mené par 4BIO Capital",
+          "place": "Italie"
+        },
+        {
+          "name": "Tune Therapeutics",
+          "use": "Éditeur épigénétique Tune-401 contre l'hépatite B ; Series B de 175 M$"
+        },
+        {
+          "name": "Epicrispr Biotechnologies",
+          "use": "EPI-321, thérapie épigénétique first-in-class contre la dystrophie FSHD ; Series C de 90 M$ en 2026"
+        },
+        {
+          "name": "Moonwalk Biosciences",
+          "use": "Plateforme de profilage et d'ingénierie de l'épigénome (cofondateur scientifique Feng Zhang) ; 57 M$ en seed et Series A"
+        }
+      ],
+      "date": "2026-10-01",
+      "dateLong": "1 oct. 2026"
+    },
     {
       "term": "miRNA Biomarkers",
       "full": "Circulating microRNA Biomarkers (liquid biopsy)",
@@ -2672,69 +2732,6 @@
       ],
       "date": "2026-08-13",
       "dateLong": "13 août 2026"
-    },
-    {
-      "term": "Epigenetic Editing",
-      "full": "Epigenetic Editing (Epigenome Editing)",
-      "fr": "Édition épigénétique",
-      "field": "Thérapie génique de nouvelle génération",
-      "definition": "Une technique qui utilise la machinerie CRISPR pour activer, éteindre ou moduler un gène en modifiant les marques chimiques qui l'entourent, sans jamais couper l'ADN.",
-      "parts": [
-        {
-          "label": "Protéine guide catalytiquement inactive (dCas9/dCas12)",
-          "role": "le repérage précis du gène, sans coupure"
-        },
-        {
-          "label": "Domaine effecteur épigénétique",
-          "role": "le levier qui active, réprime ou verrouille l'expression du gène"
-        },
-        {
-          "label": "ARN guide",
-          "role": "l'adresse exacte sur le génome"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Ciblage",
-          "t": "Le complexe protéine-ARN guide se positionne sur la séquence régulatrice du gène visé, sans la couper."
-        },
-        {
-          "n": "2",
-          "h": "Recrutement",
-          "t": "Le domaine effecteur greffé dépose ou retire des marques chimiques (méthylation, acétylation) sur la chromatine locale."
-        },
-        {
-          "n": "3",
-          "h": "Modulation",
-          "t": "L'expression du gène est activée, réduite ou verrouillée durablement — un mécanisme en théorie réversible."
-        }
-      ],
-      "why": "Contrairement au gene editing classique, il n'y a pas de coupure d'ADN à réparer : le profil de sécurité change, et l'approche convient aux maladies où il suffit d'éteindre ou de moduler un gène plutôt que de le corriger. Epicrispr vient de sursouscrire 90 M$ pour porter EPI-321 vers la Phase pivot dans la FSHD ; Tune Therapeutics avait levé plus de 175 M$ pour sa plateforme de silençage du VHB — un signal que les investisseurs santé positionnent cette classe comme le relais naturel de CRISPR.",
-      "startups": [
-        {
-          "name": "Epicrispr Biotechnologies",
-          "use": "Plateforme GEMS d'édition épigénétique ; Series C de 90 M$ sursouscrite en août 2026 pour porter EPI-321 (silençage de DUX4) vers des études pivots dans la FSHD",
-          "place": "San Francisco, États-Unis"
-        },
-        {
-          "name": "Tune Therapeutics",
-          "use": "Silençage épigénétique du VHB (Tune-401) par lipides nanoparticulaires ; Series B de plus de 175 M$ menée par New Enterprise Associates",
-          "place": "Durham / Seattle, États-Unis"
-        },
-        {
-          "name": "Epitome Therapeutics",
-          "use": "Essaimage de l'EMBL ; plateforme CADENCE d'édition programmable de l'épigénome, pre-seed de 4 M€ co-mené par XISTA Science Ventures et Caesar Ventures",
-          "place": "Vienne, Autriche"
-        },
-        {
-          "name": "Epigenic Therapeutics",
-          "use": "Pipeline d'édition épigénétique en cardiovasculaire, métabolique et hépatite virale, fondé sur la techno CRISPR",
-          "place": "Shanghai, Chine"
-        }
-      ],
-      "date": "2026-08-12",
-      "dateLong": "12 août 2026"
     },
     {
       "term": "Hospital-at-Home",

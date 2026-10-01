@@ -1,82 +1,146 @@
 {
-  "dateLong": "30 sept. 2026",
+  "dateLong": "1 oct. 2026",
   "ticker": [
-    { "company": "Breye Therapeutics", "amount": "€67,5M", "kind": "lev" },
-    { "company": "ai3Bio", "amount": "$48M", "kind": "lev" },
-    { "company": "Tiny Health", "amount": "$33M", "kind": "lev" }
-  ],
-  "lead": {
-    "kicker": "Series A · Ophtalmologie",
-    "title": "Breye Therapeutics (Copenhague) lève 67,5 M€ en Series A, co-menée par Mission BioCapital et Novo Holdings, pour un traitement oral de la rétinopathie diabétique",
-    "deck": "Le tour, sursouscrit, est co-mené par le nouvel entrant Mission BioCapital et l'investisseur existant Novo Holdings, avec Sound Bioventures, EIFO, Innovestor Life Science, Catalyze Capital, Modi Ventures, Pappas Capital et le family office Ljungström. Pour un VC, c'est la thèse d'un médicament oral face aux injections intravitréennes, portée par un syndicat mêlant spécialistes santé et argent public danois : un profil de série A européenne à surveiller pour ses prochains jalons cliniques.",
-    "company": "Breye Therapeutics",
-    "stage": "Series A",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.biospace.com/press-releases/breye-therapeutics-raises-67-5-million-in-over-subscribed-series-a-financing"
-  },
-  "deal": {
-    "company": "ai3Bio",
-    "amount": "$48M",
-    "round": "Series A",
-    "thesis": "ai3Bio sort de l'ombre avec 48 M$ menés par UPMC Enterprises et Ziff Capital, sous la direction de Steven Altschuler (co-fondateur de Spark Therapeutics), pour « réinitialiser » le système immunitaire en ciblant les cellules Th17 (anticorps anti-CD161 et plateforme mRNA). Le pari : traiter l'auto-immunité à la racine plutôt que d'immunosupprimer largement, un thème de plus en plus disputé ; l'entrée en clinique est visée pour 2027-2028, avec un tour supplémentaire déjà en cours.",
-    "url": "https://www.biopharmadive.com/news/ai3bio-th17-drugs-immune-reset-launch-series-a/831521/"
-  },
-  "brefsEurope": [],
-  "brefsIntl": [
     {
-      "company": "VB Spine",
-      "place": "États-Unis",
-      "sector": "Diagnostics",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "VB Spine obtient la FDA Breakthrough Device Designation pour ScolimiR-3D, test sanguin de progression de la scoliose",
-      "summary": "Test basé sur six microARN circulants, premier test prédictif de risque de progression de la scoliose idiopathique de l'adolescent à recevoir cette désignation ; l'étude de validation sur 116 patients rapporte 100 % de sensibilité et de spécificité (échantillon restreint, à confirmer). La désignation accélère l'interaction avec la FDA avant une éventuelle commercialisation.",
-      "url": "https://www.biospace.com/press-releases/vb-spine-announces-fda-breakthrough-device-designation-for-new-blood-test-designed-to-identify-patients-at-risk-for-scoliosis-progression"
+      "company": "AnaCardio",
+      "amount": "€62,5M",
+      "kind": "lev"
     },
     {
-      "company": "Tiny Health",
-      "place": "États-Unis",
+      "company": "Breye Therapeutics",
+      "amount": "€67,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "R1 Therapeutics",
+      "amount": "$80,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "ai3Bio",
+      "amount": "$48M",
+      "kind": "lev"
+    },
+    {
+      "company": "Aptadir",
+      "amount": "€40M",
+      "kind": "lev"
+    },
+    {
+      "company": "Hope Care",
+      "amount": "€6M",
+      "kind": "lev"
+    }
+  ],
+  "lead": {
+    "kicker": "Seed · Thérapies ARN",
+    "title": "Aptadir (Italie) lève 40 M€ en seed, menés par 4BIO Capital, pour des ARN capables de « déméthyler » un gène unique — dont un candidat contre le syndrome de l'X fragile",
+    "deck": "Le tour, présenté comme le plus gros seed biotech d'Italie et l'un des plus importants d'Europe, est mené par 4BIO Capital, avec CE-Ventures (fonds corporate de Crescent Enterprises) et l'investisseur historique EXTEND (hub de transfert technologique CDP Venture Capital, Angelini Ventures, Evotec). Pour un VC, c'est un pari préclinique first-in-class sur une nouvelle classe d'ARN bloquant la méthylation aberrante de l'ADN gène par gène (candidat CAP1-FMR1), à surveiller avant l'entrée en clinique.",
+    "company": "Aptadir Therapeutics",
+    "stage": "Seed",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.globenewswire.com/news-release/2026/09/29/3370549/0/en/4bio-capital-leads-40-million-45m-seed-financing-of-aptadir-therapeutics-to-advance-first-in-class-demethylating-medicines.html"
+  },
+  "deal": {
+    "company": "AnaCardio",
+    "amount": "€62,5M",
+    "round": "Series B",
+    "thesis": "Cette biotech suédoise, co-menée par Novo Holdings et le family office Ljungström (avec Helsinn, Pureos, Sound Bioventures, Industrifonden, Flerie), finance GOAL-HF2, essai de phase 2b de 400 patients dans 12 pays, dont le design est validé avec la FDA et l'EMA. Sa thèse : AC01, un agoniste oral du récepteur de la ghréline, améliorerait la contractilité cardiaque sans l'arythmie ni la mortalité qui limitent les inotropes actuels à un usage court — un pari first-in-class en insuffisance cardiaque visant la préparation à la phase 3 d'ici 2028.",
+    "url": "https://endpoints.news/swedish-biotech-anacardio-raises-70-9m-to-advance-safer-heart-failure-drug/"
+  },
+  "brefsEurope": [
+    {
+      "company": "Hope Care",
+      "place": "Portugal",
       "sector": "Digital Health",
       "signalType": "funding_round",
       "strength": 4,
-      "stage": "Series B",
-      "title": "Tiny Health lève 33 M$ en Series B menée par B Capital pour ses tests de microbiome",
-      "summary": "La société de tests de microbiome intestinal et vaginal à domicile (46 M$ levés au total) finance des études cliniques, sa plateforme B2B « Powered by Tiny » et TinyAI, entraînée sur près de 200 000 profils. Nick Whitehead (B Capital) rejoint le board.",
-      "url": "https://medcitynews.com/2026/09/tiny-health-secures-33m-to-expand-microbiome-testing/"
+      "stage": "Series A",
+      "title": "Hope Care boucle 6 M€ en Series A, menée par Iberis Capital, pour étendre sa plateforme de suivi à distance en Europe",
+      "summary": "L'éditeur portugais de la plateforme réglementée OpMA, déjà déployée dans 15 unités locales de santé (environ 45 % des patients inscrits au service national portugais) avec des ventes S1 2026 multipliées par 2,5, vise la France, la Suisse et l'Allemagne. Argent 100 % nouveau, avec VDM Capital et Buenavista Equity Partners.",
+      "url": "https://www.eu-startups.com/2026/09/portugals-hope-care-closes-e6-million-series-a-to-expand-remote-patient-monitoring-across-europe"
+    }
+  ],
+  "brefsIntl": [
+    {
+      "company": "R1 Therapeutics",
+      "place": "",
+      "sector": "Biotech",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Series A",
+      "title": "R1 Therapeutics étend sa Series A à 80,5 M$ avec l'arrivée de Samsara BioCapital",
+      "summary": "Syndicat avec Abingworth, DaVita Venture Group, F-Prime, Curie.Bio et U.S. Renal Care ; finance la phase 2b mondiale d'AP306, inhibiteur pan-transporteur de phosphate first-in-class contre l'hyperphosphatémie en dialyse, avec des données attendues au S1 2027.",
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371730/0/en/r1-therapeutics-expands-series-a-to-80-5-million-to-advance-global-phase-2b-program-in-hyperphosphatemia.html"
     },
     {
-      "company": "Somnivera",
-      "place": "États-Unis",
-      "sector": "Biotech",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "ARCH et Population Health lancent Somnivera autour d'un médicament du sommeil de Jiangsu Nhwa (10,5 M$ upfront)",
-      "summary": "Nouvelle société « NewCo » montée par ARCH Venture et Population Health Partners pour développer hors de Chine un candidat contre les troubles du sommeil sous licence de Jiangsu Nhwa, pour 10,5 M$ à la signature. Le modèle de licence d'actifs chinois se répète après Sentivera (Haisco).",
-      "url": "https://endpoints.news/arch-and-population-health-return-to-china-for-new-startup-somnivera-targeting-sleep/"
+      "company": "VS3 Medical",
+      "place": "",
+      "sector": "MedTech",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "VS3 Medical obtient la FDA Breakthrough Device Designation pour son système VS3 contre l'acouphène pulsatile",
+      "summary": "Le système cible l'acouphène pulsatile lié à une sténose du sinus veineux ; la société a lancé en mars 2026 une étude first-in-human (Canada, Australie). Signal amont pour une medtech neurovasculaire avant un éventuel tour.",
+      "url": "https://www.financialcontent.com/article/bizwire-2026-9-29-vs3-medical-receives-fda-breakthrough-device-designation-for-vs3-system-to-treat-debilitating-pulsatile-tinnitus"
     }
   ],
   "word": {
-    "term": "miRNA Biomarkers",
-    "full": "Circulating microRNA Biomarkers (liquid biopsy)",
-    "fr": "Biomarqueurs microARN circulants",
-    "field": "Diagnostic moléculaire",
-    "definition": "De courts fragments d'ARN présents dans le sang dont le profil change selon la maladie, et qui permettent de la détecter ou de prédire son évolution avec une simple prise de sang.",
+    "term": "Epigenetic Editing",
+    "full": "Epigenetic Editing (Programmable Gene Regulation without Cutting DNA)",
+    "fr": "Édition épigénétique",
+    "field": "Thérapies géniques de nouvelle génération",
+    "definition": "Technique qui active ou éteint un gène en modifiant ses « interrupteurs » chimiques (comme la méthylation) sans couper ni réécrire l'ADN.",
     "parts": [
-      { "label": "microARN", "role": "le signal : petites molécules régulatrices" },
-      { "label": "Panel de signatures", "role": "la combinaison qui distingue les patients" },
-      { "label": "Algorithme", "role": "le score de risque" }
+      {
+        "label": "Module de ciblage",
+        "role": "le GPS (CRISPR désactivé ou ARN guide)"
+      },
+      {
+        "label": "Effecteur épigénétique",
+        "role": "l'interrupteur (écrit ou efface la méthylation)"
+      },
+      {
+        "label": "Délivrance",
+        "role": "le véhicule (LNP, AAV)"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Prélèvement", "t": "Une prise de sang standard, dont on extrait les microARN circulants." },
-      { "n": "2", "h": "Mesure", "t": "Séquençage ou PCR quantifient un panel de microARN." },
-      { "n": "3", "h": "Score", "t": "Un algorithme compare la signature aux cohortes de validation et sort un risque." }
+      {
+        "n": "1",
+        "h": "Ciblage",
+        "t": "Le module de guidage trouve le gène précis à réguler."
+      },
+      {
+        "n": "2",
+        "h": "Modification",
+        "t": "L'effecteur ajoute ou retire des marques épigénétiques (méthylation de l'ADN, histones)."
+      },
+      {
+        "n": "3",
+        "h": "Régulation",
+        "t": "Le gène est rallumé ou réduit au silence, de façon durable, sans cassure de l'ADN."
+      }
     ],
-    "why": "Angle VC : c'est le mécanisme du test ScolimiR-3D de VB Spine, distingué par la FDA cette semaine. Diagnostic peu invasif, à faible coût de collecte, mais le risque est la validation : de petites cohortes donnent des performances flatteuses qui s'effondrent à plus grande échelle.",
+    "why": "Pas de coupure double-brin donc moins de risques de modifications hors cible, et un effet potentiellement durable avec une dose unique : la modalité attire les VC depuis les premières données cliniques (hépatite B, FSHD). Côté Europe, le seed d'Aptadir montre l'appétit pour les approches de déméthylation ciblée.",
     "startups": [
-      { "name": "Hummingbird Diagnostics", "use": "Diagnostics liquid biopsy basés sur les petits ARN ; a présenté en juin 2026 des travaux sur des biomarqueurs petits ARN dans le cancer du poumon (seed 2016, GreyBird Ventures).", "place": "Heidelberg, Allemagne" },
-      { "name": "Thalia Therapeutics", "use": "A levé 3,1 M€ en 2026 et racheté Sanmirna Therapeutics, apportant miRisten, un candidat microARN clinique dans la leucémie myéloïde aiguë.", "place": "Royaume-Uni" },
-      { "name": "miRXES", "use": "GASTROClear, premier test sanguin microARN de détection précoce du cancer gastrique ; scale-up déjà cotée à Hong Kong, donc plutôt un comparable.", "place": "Singapour" }
+      {
+        "name": "Aptadir Therapeutics",
+        "use": "ARN inhibiteurs bloquant la méthylation aberrante d'un gène unique ; candidat CAP1-FMR1 (X fragile) ; seed de 40 M€ mené par 4BIO Capital",
+        "place": "Italie"
+      },
+      {
+        "name": "Tune Therapeutics",
+        "use": "Éditeur épigénétique Tune-401 contre l'hépatite B ; Series B de 175 M$"
+      },
+      {
+        "name": "Epicrispr Biotechnologies",
+        "use": "EPI-321, thérapie épigénétique first-in-class contre la dystrophie FSHD ; Series C de 90 M$ en 2026"
+      },
+      {
+        "name": "Moonwalk Biosciences",
+        "use": "Plateforme de profilage et d'ingénierie de l'épigénome (cofondateur scientifique Feng Zhang) ; 57 M$ en seed et Series A"
+      }
     ]
   }
 }
