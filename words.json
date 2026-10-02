@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-01",
+  "generatedAt": "2026-10-02",
   "words": [
+    {
+      "term": "Clinical Metagenomics",
+      "full": "Clinical Metagenomics (mNGS, métagénomique clinique par séquençage)",
+      "fr": "Métagénomique clinique",
+      "field": "Diagnostic des maladies infectieuses",
+      "definition": "On séquence tout l'ADN présent dans un échantillon de patient (sang, liquide, tissu) et on le compare à des bases de pathogènes pour identifier en une analyse la bactérie, le virus, le champignon ou le parasite responsable, sans avoir à deviner la cible à l'avance.",
+      "parts": [
+        {
+          "label": "Séquençage (NGS)",
+          "role": "la lecture"
+        },
+        {
+          "label": "Soustraction de l'ADN humain",
+          "role": "le tri"
+        },
+        {
+          "label": "Base de pathogènes + IA",
+          "role": "l'identification"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Une prise de sang ou un autre échantillon est collecté, puis les acides nucléiques sont extraits."
+        },
+        {
+          "n": "2",
+          "h": "Séquençage",
+          "t": "Tous les fragments sont lus sans cible préalable ; le signal humain, majoritaire, est filtré."
+        },
+        {
+          "n": "3",
+          "h": "Identification",
+          "t": "Les séquences restantes sont comparées à des bases de pathogènes pour rendre un rapport au clinicien."
+        }
+      ],
+      "why": "Les infections complexes (immunodéprimés, infections ostéo-articulaires, sepsis) restent souvent sans diagnostic par les cultures. Le marché est porté par le coût du séquençage en baisse, par des gros acheteurs (Bruker a repris la plateforme DISQVER de l'allemand Noscendo) et par la question du remboursement, qui conditionne le chemin vers le revenu.",
+      "startups": [
+        {
+          "name": "Biotia",
+          "use": "Métagénomique clinique par IA des infections chroniques et complexes ; vient de lever $9M pour la santé féminine et l'orthopédie",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "Karius",
+          "use": "Test sanguin de séquençage de l'ADN microbien libre, plus de 1 000 pathogènes détectés ; Series C de $100M en 2024 (Khosla, 5AM, Gilde Healthcare), FDA Breakthrough Device",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "Delve Bio",
+          "use": "Spin-out de l'UCSF, plateforme de séquençage métagénomique pour le diagnostic des infections ; Series A de $35M menée par Perceptive Advisors",
+          "place": "San Francisco, États-Unis"
+        }
+      ],
+      "date": "2026-10-02",
+      "dateLong": "2 oct. 2026"
+    },
     {
       "term": "Epigenetic Editing",
       "full": "Epigenetic Editing (Programmable Gene Regulation without Cutting DNA)",
