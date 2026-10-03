@@ -1,163 +1,60 @@
 {
-  "dateLong": "2 oct. 2026",
+  "dateLong": "3 oct. 2026",
   "ticker": [
-    {
-      "company": "mAbxience (Fresenius)",
-      "amount": "€750M",
-      "kind": "mna"
-    },
-    {
-      "company": "Arsenal Medical (Terumo Neuro)",
-      "amount": "n.c.",
-      "kind": "mna"
-    },
-    {
-      "company": "Basalt Health",
-      "amount": "$20M",
-      "kind": "lev"
-    },
-    {
-      "company": "Biotia",
-      "amount": "$9M",
-      "kind": "lev"
-    },
-    {
-      "company": "Skopos Bio",
-      "amount": "A$12M",
-      "kind": "lev"
-    },
-    {
-      "company": "Blue Health Intelligence",
-      "amount": "€3,4M",
-      "kind": "lev"
-    }
+    { "company": "Parakeet Health", "amount": "$10M", "kind": "lev" },
+    { "company": "Omnio", "amount": "€2,9M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "510(k) · MedTech vasculaire · Italie",
-    "title": "VCD Medical (Italie) obtient le 510(k) FDA pour VEnice, son clip de fermeture veineuse",
-    "deck": "La medtech italienne VCD Medical peut commercialiser aux États-Unis VEnice, un clip implantable posé par aiguille de 17 gauges sous échographie pour fermer les veines superficielles et perforantes. Une clearance FDA est le déclencheur classique avant un tour de financement ou un accord de distribution : à surveiller pour un VC qui suit le MedTech européen.",
-    "company": "VCD Medical",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.globenewswire.com/news-release/2026/09/29/3370974/0/en/vcd-medical-receives-u-s-fda-510-k-clearance-for-venice-vein-closure-device.html"
+    "kicker": "Seed · Cicatrisation",
+    "title": "Omnio (Umeå) lève 2,9 M€ auprès de ses investisseurs historiques pour amener son biologique à base de plasminogène vers l'essai chez l'humain",
+    "deck": "Issue des travaux de Tor Ny (Université d'Umeå), la biotech suédoise vise les ulcères du pied diabétique, avec un premier essai patients en 2027. Elle ouvrira un tour plus large au T1 2027 : c'est le moment de la repérer, avant le prochain tour.",
+    "company": "Omnio",
+    "stage": "Seed",
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://www.eu-startups.com/2026/10/swedens-omnio-raises-e2-9-million-to-advance-its-plasminogen-based-therapy-for-hard-to-heal-chronic-wounds"
   },
   "deal": {
-    "company": "Arsenal Medical",
-    "amount": "Non divulgué",
-    "round": "M&A",
-    "thesis": "Terumo Neuro signe l'acquisition d'Arsenal Medical, société privée au stade clinique dont NeoCast, un embolique liquide sans solvant ni adhésif, a atteint ses critères de faisabilité et de sécurité en first-in-human (96 % des patients avec ≥50 % de réduction du volume de l'hématome sous-dural chronique) et vient d'obtenir l'IDE de la FDA pour l'essai pivot RADIANT. Un comparable utile : un grand groupe achète le risque clinique levé juste avant le pivotal, ce qui valorise les medtech neurovasculaires à ce stade.",
-    "url": "https://www.terumo.com/newsrelease/detail/20260930/7171"
+    "company": "Parakeet Health",
+    "amount": "$10M",
+    "round": "Series A",
+    "thesis": "Tour mené par Canvas Ventures pour une plateforme d'agents conversationnels qui gère appels, relances, fax et prise de rendez-vous, déjà utilisée par 2 800 praticiens et six des dix plus gros groupes de dermatologie américains, avec un ARR multiplié par 10 sur un an. Le « why now » : l'automatisation du front-office clinique devient un poste de dépense mesurable pour les cabinets.",
+    "url": "https://hitconsultant.net/2026/10/01/parakeet-health-raises-10m-series-a-canvas-ventures-ai-patient-access/"
   },
-  "brefsEurope": [
-    {
-      "company": "Blue Health Intelligence",
-      "place": "Amsterdam",
-      "sector": "Digital Health",
-      "stage": "Seed",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Blue Health Intelligence lève €3,4M pour exporter ses bilans de santé à Paris ou Milan",
-      "summary": "Tour mené par Knop Investments, avec l'ex-dirigeant de Philips Jeroen Tas en business angel. Fondée en 2025, la société revendique plus de 2 000 bilans 360° à 299 € réservés à Amsterdam et vise une ouverture à Paris ou Milan au S1 2027.",
-      "url": "https://www.eu-startups.com/2026/09/amsterdam-based-preventive-healthtech-blue-health-intelligence-raises-e3-4-million-to-expand-across-europe/"
-    },
-    {
-      "company": "Kither Biotech",
-      "place": "Italie / Australie",
-      "sector": "Biotech",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Kither Biotech dose ses premiers patients BPCO avec KIT2014, peptide inhalé PDE3/4",
-      "summary": "Essai de phase 1b/2a randomisé en double aveugle sur 36 adultes atteints de BPCO modérée à sévère, après un phase 1 sur 56 volontaires sains. Résultats attendus début 2027 : le passage à l'efficacité précoce est le jalon qui précède un tour de série A.",
-      "url": "https://www.globenewswire.com/news-release/2026/09/29/3370423/0/en/kither-biotech-initiates-dosing-of-patients-in-phase-1b-2a-study-of-kit2014-in-copd.html"
-    },
-    {
-      "company": "Nyxoah",
-      "place": "Mont-Saint-Guibert, Belgique",
-      "sector": "MedTech",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Nyxoah nomme Liam Kelly, ex-CEO de Teleflex, directeur général à compter du 1er octobre",
-      "summary": "Il succède à Olivier Taelman alors que la société belge, cotée, prépare le déploiement commercial américain de Genio, sa neurostimulation de l'apnée du sommeil sans pile ni sonde. Un comparable de marché plus qu'une opportunité d'entrée.",
-      "url": "https://www.stocktitan.net/news/NYXH/nyxoah-appoints-liam-kelly-as-chief-executive-ft9mujvlq76l.html"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
-    {
-      "company": "Skopos Bio",
-      "place": "Melbourne",
-      "sector": "Biotech",
-      "stage": "Seed",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Skopos Bio, spin-out de Peter Mac, lève A$12M pour des radiopharmaceutiques ciblant le cancer de la prostate",
-      "summary": "Seed mené par Tenmile (Andrew Forrest), Tin Alley Ventures et Yosemite (Reed Jobs). Fondée en 2024 par Michael Hofman, Mohammad Haskali et Luc Furic, elle conçoit des molécules radioactives liées aux cellules tumorales.",
-      "url": "https://www.ddw-online.com/melbourne-radiopharmaceuticals-spinout-launches-with-aud12-million-44050-202610/"
-    },
-    {
-      "company": "Biotia",
-      "place": "New York",
-      "sector": "Diagnostics",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Biotia lève $9M pour sa métagénomique clinique des infections en santé féminine et orthopédie",
-      "summary": "Tour sursouscrit avec Convergent Ventures, DigitalDx Ventures et les cofondateurs de VillageMD ; Michele Colucci (DigitalDx) devient président du board. Le capital finance le laboratoire new-yorkais et l'extension vers l'orthopédie.",
-      "url": "https://www.prnewswire.com/news-releases/biotia-raises-new-oversubscribed-9m-financing-and-expands-board-to-scale-infectious-disease-diagnostics-in-womens-health-and-orthopedics-302894904.html"
-    }
+    { "company": "Edwards Lifesciences", "place": "Irvine, États-Unis", "sector": "MedTech",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "La FDA approuve la valve Autus d'Edwards, premier implant cardiaque ajustable à la croissance de l'enfant",
+      "summary": "Valve pulmonaire pédiatrique expansible par ballonnet (de ~13 à 22 mm), à feuillets polymère, approuvée sur une étude pivot de 62 patients. Un comparable utile : un jalon réglementaire qui valide la voie des implants pédiatriques en niche.",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children" },
+    { "company": "UTR Therapeutics", "place": "New York", "sector": "Biotech",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "UTR Therapeutics obtient les désignations FDA Orphan Drug et Rare Pediatric Disease pour UTRxMYCN M1-14",
+      "summary": "Première désignation pour une plateforme d'« RNA Overwriting », dans le sarcome des tissus mous dont le rhabdomyosarcome. Le Rare Pediatric Disease peut ouvrir droit à un priority review voucher : un signal en amont d'un prochain financement.",
+      "url": "https://www.prnewswire.com/news-releases/utr-therapeutics-inc-announces-us-fda-orphan-drug-designation-and-rare-pediatric-disease-designation-for-utrxmycn-m1-14-302893199.html" }
   ],
   "word": {
-    "term": "Clinical Metagenomics",
-    "full": "Clinical Metagenomics (mNGS, métagénomique clinique par séquençage)",
-    "fr": "Métagénomique clinique",
-    "field": "Diagnostic des maladies infectieuses",
-    "definition": "On séquence tout l'ADN présent dans un échantillon de patient (sang, liquide, tissu) et on le compare à des bases de pathogènes pour identifier en une analyse la bactérie, le virus, le champignon ou le parasite responsable, sans avoir à deviner la cible à l'avance.",
+    "term": "Agentic AI (Patient Access)",
+    "full": "Agentic AI for Patient Access (Autonomous Front-Office Agents)",
+    "fr": "IA agentique pour l'accès aux soins",
+    "field": "Digital Health · Opérations cliniques",
+    "definition": "Des agents IA qui exécutent seuls des tâches administratives de bout en bout (appels, prise de rendez-vous, fax, relances) au lieu de simplement répondre à une question.",
     "parts": [
-      {
-        "label": "Séquençage (NGS)",
-        "role": "la lecture"
-      },
-      {
-        "label": "Soustraction de l'ADN humain",
-        "role": "le tri"
-      },
-      {
-        "label": "Base de pathogènes + IA",
-        "role": "l'identification"
-      }
+      { "label": "Modèle de langage / voix", "role": "le cerveau et la parole" },
+      { "label": "Intégration DPI / EHR", "role": "les mains dans le dossier" },
+      { "label": "Règles et garde-fous", "role": "les limites cliniques" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Prélèvement",
-        "t": "Une prise de sang ou un autre échantillon est collecté, puis les acides nucléiques sont extraits."
-      },
-      {
-        "n": "2",
-        "h": "Séquençage",
-        "t": "Tous les fragments sont lus sans cible préalable ; le signal humain, majoritaire, est filtré."
-      },
-      {
-        "n": "3",
-        "h": "Identification",
-        "t": "Les séquences restantes sont comparées à des bases de pathogènes pour rendre un rapport au clinicien."
-      }
+      { "n": "1", "h": "Entrée", "t": "L'agent reçoit un appel, un SMS, un fax ou une demande web du patient." },
+      { "n": "2", "h": "Action", "t": "Il consulte et écrit dans le dossier ou l'agenda via l'intégration EHR (rendez-vous, formulaires, vérifications)." },
+      { "n": "3", "h": "Escalade", "t": "Les cas sensibles ou ambigus sont transmis à un humain avec le contexte déjà résumé." }
     ],
-    "why": "Les infections complexes (immunodéprimés, infections ostéo-articulaires, sepsis) restent souvent sans diagnostic par les cultures. Le marché est porté par le coût du séquençage en baisse, par des gros acheteurs (Bruker a repris la plateforme DISQVER de l'allemand Noscendo) et par la question du remboursement, qui conditionne le chemin vers le revenu.",
+    "why": "Angle VC : le front-office est un coût de personnel mesurable, donc le ROI se prouve vite ; les ARR progressent très vite, mais le risque est la commoditisation face aux éditeurs d'EHR, d'où l'importance des intégrations et des données propriétaires.",
     "startups": [
-      {
-        "name": "Biotia",
-        "use": "Métagénomique clinique par IA des infections chroniques et complexes ; vient de lever $9M pour la santé féminine et l'orthopédie",
-        "place": "New York, États-Unis"
-      },
-      {
-        "name": "Karius",
-        "use": "Test sanguin de séquençage de l'ADN microbien libre, plus de 1 000 pathogènes détectés ; Series C de $100M en 2024 (Khosla, 5AM, Gilde Healthcare), FDA Breakthrough Device",
-        "place": "Californie, États-Unis"
-      },
-      {
-        "name": "Delve Bio",
-        "use": "Spin-out de l'UCSF, plateforme de séquençage métagénomique pour le diagnostic des infections ; Series A de $35M menée par Perceptive Advisors",
-        "place": "San Francisco, États-Unis"
-      }
+      { "name": "Parakeet Health", "use": "Plateforme agentique (appels, relances, fax, prise de rendez-vous) ; Series A de 10 M$ menée par Canvas Ventures le 1er oct. 2026", "place": "San Francisco, États-Unis" },
+      { "name": "Assort Health", "use": "Agents vocaux spécialisés par discipline (orthopédie, cardiologie…) ; Series C de 120 M$ menée par Menlo Ventures, valorisation 1,2 Md$", "place": "États-Unis" },
+      { "name": "Hyro", "use": "Agents IA conversationnels pour centres d'appels de santé ; 45 M$ levés auprès de Healthier Capital, ~95 M$ au total", "place": "New York, États-Unis" }
     ]
   }
 }

@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-02",
+  "generatedAt": "2026-10-03",
   "words": [
+    {
+      "term": "Agentic AI (Patient Access)",
+      "full": "Agentic AI for Patient Access (Autonomous Front-Office Agents)",
+      "fr": "IA agentique pour l'accès aux soins",
+      "field": "Digital Health · Opérations cliniques",
+      "definition": "Des agents IA qui exécutent seuls des tâches administratives de bout en bout (appels, prise de rendez-vous, fax, relances) au lieu de simplement répondre à une question.",
+      "parts": [
+        {
+          "label": "Modèle de langage / voix",
+          "role": "le cerveau et la parole"
+        },
+        {
+          "label": "Intégration DPI / EHR",
+          "role": "les mains dans le dossier"
+        },
+        {
+          "label": "Règles et garde-fous",
+          "role": "les limites cliniques"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Entrée",
+          "t": "L'agent reçoit un appel, un SMS, un fax ou une demande web du patient."
+        },
+        {
+          "n": "2",
+          "h": "Action",
+          "t": "Il consulte et écrit dans le dossier ou l'agenda via l'intégration EHR (rendez-vous, formulaires, vérifications)."
+        },
+        {
+          "n": "3",
+          "h": "Escalade",
+          "t": "Les cas sensibles ou ambigus sont transmis à un humain avec le contexte déjà résumé."
+        }
+      ],
+      "why": "Angle VC : le front-office est un coût de personnel mesurable, donc le ROI se prouve vite ; les ARR progressent très vite, mais le risque est la commoditisation face aux éditeurs d'EHR, d'où l'importance des intégrations et des données propriétaires.",
+      "startups": [
+        {
+          "name": "Parakeet Health",
+          "use": "Plateforme agentique (appels, relances, fax, prise de rendez-vous) ; Series A de 10 M$ menée par Canvas Ventures le 1er oct. 2026",
+          "place": "San Francisco, États-Unis"
+        },
+        {
+          "name": "Assort Health",
+          "use": "Agents vocaux spécialisés par discipline (orthopédie, cardiologie…) ; Series C de 120 M$ menée par Menlo Ventures, valorisation 1,2 Md$",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Hyro",
+          "use": "Agents IA conversationnels pour centres d'appels de santé ; 45 M$ levés auprès de Healthier Capital, ~95 M$ au total",
+          "place": "New York, États-Unis"
+        }
+      ],
+      "date": "2026-10-03",
+      "dateLong": "3 oct. 2026"
+    },
     {
       "term": "Clinical Metagenomics",
       "full": "Clinical Metagenomics (mNGS, métagénomique clinique par séquençage)",
