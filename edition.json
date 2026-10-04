@@ -1,60 +1,55 @@
 {
-  "dateLong": "3 oct. 2026",
+  "dateLong": "4 oct. 2026",
   "ticker": [
-    { "company": "Parakeet Health", "amount": "$10M", "kind": "lev" },
-    { "company": "Omnio", "amount": "€2,9M", "kind": "lev" }
+    { "company": "AnaCardio", "amount": "€62,5M", "kind": "lev" },
+    { "company": "Incepto", "amount": "€14M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Seed · Cicatrisation",
-    "title": "Omnio (Umeå) lève 2,9 M€ auprès de ses investisseurs historiques pour amener son biologique à base de plasminogène vers l'essai chez l'humain",
-    "deck": "Issue des travaux de Tor Ny (Université d'Umeå), la biotech suédoise vise les ulcères du pied diabétique, avec un premier essai patients en 2027. Elle ouvrira un tour plus large au T1 2027 : c'est le moment de la repérer, avant le prochain tour.",
-    "company": "Omnio",
-    "stage": "Seed",
+    "kicker": "Series B · Cardiologie",
+    "title": "AnaCardio (Suède) lève 62,5 M€ en Series B, co-menée par Novo Holdings, pour mener son agoniste oral du récepteur de la ghréline AC01 vers la Phase 3",
+    "deck": "Le tour, co-mené par Novo Holdings et le family office Ljungström avec l'originateur Helsinn et les investisseurs historiques Pureos, Sound Bioventures, Industrifonden et Flerie, finance la Phase 2b de l'AC01 dans l'insuffisance cardiaque chronique avancée (HFrEF), avec un actif « Phase 3-ready » visé en 2028. Un inotrope oral qui évite les risques d'arythmie des inotropes classiques : un syndicat santé de premier plan qui valide la thèse.",
+    "company": "AnaCardio",
+    "stage": "Series B",
     "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://www.eu-startups.com/2026/10/swedens-omnio-raises-e2-9-million-to-advance-its-plasminogen-based-therapy-for-hard-to-heal-chronic-wounds"
+    "strength": 4,
+    "url": "https://www.globenewswire.com/news-release/2026/09/30/3371523/0/en/anacardio-raises-62-5-million-series-b-financing-to-advance-transformational-novel-therapy-in-heart-failure-towards-phase-3-readiness.html"
   },
   "deal": {
-    "company": "Parakeet Health",
-    "amount": "$10M",
-    "round": "Series A",
-    "thesis": "Tour mené par Canvas Ventures pour une plateforme d'agents conversationnels qui gère appels, relances, fax et prise de rendez-vous, déjà utilisée par 2 800 praticiens et six des dix plus gros groupes de dermatologie américains, avec un ARR multiplié par 10 sur un an. Le « why now » : l'automatisation du front-office clinique devient un poste de dépense mesurable pour les cabinets.",
-    "url": "https://hitconsultant.net/2026/10/01/parakeet-health-raises-10m-series-a-canvas-ventures-ai-patient-access/"
+    "company": "Incepto",
+    "amount": "€14M",
+    "round": "Series C",
+    "thesis": "La healthtech parisienne, qui distribue sur une plateforme unique des algorithmes d'IA d'imagerie médicale (le « Netflix de l'imagerie ») à une centaine de cliniques, lève 14 M€ auprès d'Impactivist, LBO France, Karista, Bpifrance et Wille Finance AG pour poursuivre son déploiement. Le « why now » : les radiologues préfèrent un point d'accès unique à des dizaines d'outils d'IA plutôt qu'une intégration au cas par cas, et le modèle de marketplace gagne en traction en Europe.",
+    "url": "https://www.maddyness.com/2026/09/25/les-startups-francaises-ont-leve-114-millions-deuros-cette-semaine-dont-90-millions-dans-lia/"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Edwards Lifesciences", "place": "Irvine, États-Unis", "sector": "MedTech",
+    { "company": "Tempus AI", "place": "Chicago, États-Unis", "sector": "Digital Health",
       "signalType": "regulatory_milestone", "strength": 5,
-      "title": "La FDA approuve la valve Autus d'Edwards, premier implant cardiaque ajustable à la croissance de l'enfant",
-      "summary": "Valve pulmonaire pédiatrique expansible par ballonnet (de ~13 à 22 mm), à feuillets polymère, approuvée sur une étude pivot de 62 patients. Un comparable utile : un jalon réglementaire qui valide la voie des implants pédiatriques en niche.",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-heart-valve-designed-grow-children" },
-    { "company": "UTR Therapeutics", "place": "New York", "sector": "Biotech",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "UTR Therapeutics obtient les désignations FDA Orphan Drug et Rare Pediatric Disease pour UTRxMYCN M1-14",
-      "summary": "Première désignation pour une plateforme d'« RNA Overwriting », dans le sarcome des tissus mous dont le rhabdomyosarcome. Le Rare Pediatric Disease peut ouvrir droit à un priority review voucher : un signal en amont d'un prochain financement.",
-      "url": "https://www.prnewswire.com/news-releases/utr-therapeutics-inc-announces-us-fda-orphan-drug-designation-and-rare-pediatric-disease-designation-for-utrxmycn-m1-14-302893199.html" }
+      "title": "Tempus obtient le 510(k) de la FDA pour ECG-MR, sa 4e IA d'ECG, qui détecte l'insuffisance mitrale non diagnostiquée",
+      "summary": "L'algorithme analyse un ECG 12 dérivations standard chez les patients de 65 ans et plus à risque cardiovasculaire. Un comparable utile : l'ECG devient une plateforme multi-pathologies (arythmie, fonction cardiaque, vasculaire pulmonaire, valvulaire).",
+      "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-receives-fda-clearance-its-ecg-mr-ai-product-designed" }
   ],
   "word": {
-    "term": "Agentic AI (Patient Access)",
-    "full": "Agentic AI for Patient Access (Autonomous Front-Office Agents)",
-    "fr": "IA agentique pour l'accès aux soins",
-    "field": "Digital Health · Opérations cliniques",
-    "definition": "Des agents IA qui exécutent seuls des tâches administratives de bout en bout (appels, prise de rendez-vous, fax, relances) au lieu de simplement répondre à une question.",
+    "term": "ECG-AI",
+    "full": "Electrocardiogram Artificial Intelligence",
+    "fr": "IA appliquée à l'électrocardiogramme",
+    "field": "Cardiologie numérique",
+    "definition": "Des algorithmes qui lisent un ECG ordinaire pour y repérer des maladies du cœur que l'œil humain ne voit pas, bien avant les symptômes.",
     "parts": [
-      { "label": "Modèle de langage / voix", "role": "le cerveau et la parole" },
-      { "label": "Intégration DPI / EHR", "role": "les mains dans le dossier" },
-      { "label": "Règles et garde-fous", "role": "les limites cliniques" }
+      { "label": "Signal ECG", "role": "la donnée brute, peu chère et déjà partout" },
+      { "label": "Modèle d'IA", "role": "le détecteur de motifs invisibles" },
+      { "label": "Logiciel dispositif médical", "role": "la brique réglementée (SaMD) vendue aux hôpitaux" }
     ],
     "how": [
-      { "n": "1", "h": "Entrée", "t": "L'agent reçoit un appel, un SMS, un fax ou une demande web du patient." },
-      { "n": "2", "h": "Action", "t": "Il consulte et écrit dans le dossier ou l'agenda via l'intégration EHR (rendez-vous, formulaires, vérifications)." },
-      { "n": "3", "h": "Escalade", "t": "Les cas sensibles ou ambigus sont transmis à un humain avec le contexte déjà résumé." }
+      { "n": "1", "h": "Entraînement", "t": "Le modèle apprend sur des centaines de milliers d'ECG liés à un diagnostic confirmé (échographie, biologie)." },
+      { "n": "2", "h": "Validation réglementaire", "t": "Une étude rétrospective multicentrique soutient une autorisation FDA 510(k) ou un marquage CE." },
+      { "n": "3", "h": "Déploiement", "t": "L'algorithme s'intègre au dossier patient et signale les ECG à risque pour orienter vers une échographie." }
     ],
-    "why": "Angle VC : le front-office est un coût de personnel mesurable, donc le ROI se prouve vite ; les ARR progressent très vite, mais le risque est la commoditisation face aux éditeurs d'EHR, d'où l'importance des intégrations et des données propriétaires.",
+    "why": "Angle VC : un actif logiciel à coût marginal faible, avec une barrière réglementaire réelle et un modèle récurrent. Chaque nouvelle indication cleared (Tempus en est à 4) élargit le marché sur la même donnée, et le dépistage précoce parle aux payeurs.",
     "startups": [
-      { "name": "Parakeet Health", "use": "Plateforme agentique (appels, relances, fax, prise de rendez-vous) ; Series A de 10 M$ menée par Canvas Ventures le 1er oct. 2026", "place": "San Francisco, États-Unis" },
-      { "name": "Assort Health", "use": "Agents vocaux spécialisés par discipline (orthopédie, cardiologie…) ; Series C de 120 M$ menée par Menlo Ventures, valorisation 1,2 Md$", "place": "États-Unis" },
-      { "name": "Hyro", "use": "Agents IA conversationnels pour centres d'appels de santé ; 45 M$ levés auprès de Healthier Capital, ~95 M$ au total", "place": "New York, États-Unis" }
+      { "name": "Powerful Medical", "use": "Plateforme PMcardio, certifiée CE (Classe IIb), qui évalue 49 pathologies cardiaques dont l'infarctus occlusif ; subvention de plus de 40 M€ via IPCEI Tech4Cure", "place": "Slovaquie" },
+      { "name": "Idoven", "use": "IA de détection d'arrhythmies et d'anomalies cardiaques ; Series A de 18,5 M€ co-menée par Insight Partners et Northzone", "place": "Madrid, Espagne" },
+      { "name": "Anumana", "use": "Algorithmes ECG-AI issus de nference et de la Mayo Clinic ; clearances FDA 510(k) pour l'hypertension pulmonaire (mars 2026) et l'amylose cardiaque (avril 2026)", "place": "Cambridge, États-Unis" }
     ]
   }
 }

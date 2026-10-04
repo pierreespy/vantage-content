@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-03",
+  "generatedAt": "2026-10-04",
   "words": [
+    {
+      "term": "ECG-AI",
+      "full": "Electrocardiogram Artificial Intelligence",
+      "fr": "IA appliquée à l'électrocardiogramme",
+      "field": "Cardiologie numérique",
+      "definition": "Des algorithmes qui lisent un ECG ordinaire pour y repérer des maladies du cœur que l'œil humain ne voit pas, bien avant les symptômes.",
+      "parts": [
+        {
+          "label": "Signal ECG",
+          "role": "la donnée brute, peu chère et déjà partout"
+        },
+        {
+          "label": "Modèle d'IA",
+          "role": "le détecteur de motifs invisibles"
+        },
+        {
+          "label": "Logiciel dispositif médical",
+          "role": "la brique réglementée (SaMD) vendue aux hôpitaux"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Entraînement",
+          "t": "Le modèle apprend sur des centaines de milliers d'ECG liés à un diagnostic confirmé (échographie, biologie)."
+        },
+        {
+          "n": "2",
+          "h": "Validation réglementaire",
+          "t": "Une étude rétrospective multicentrique soutient une autorisation FDA 510(k) ou un marquage CE."
+        },
+        {
+          "n": "3",
+          "h": "Déploiement",
+          "t": "L'algorithme s'intègre au dossier patient et signale les ECG à risque pour orienter vers une échographie."
+        }
+      ],
+      "why": "Angle VC : un actif logiciel à coût marginal faible, avec une barrière réglementaire réelle et un modèle récurrent. Chaque nouvelle indication cleared (Tempus en est à 4) élargit le marché sur la même donnée, et le dépistage précoce parle aux payeurs.",
+      "startups": [
+        {
+          "name": "Powerful Medical",
+          "use": "Plateforme PMcardio, certifiée CE (Classe IIb), qui évalue 49 pathologies cardiaques dont l'infarctus occlusif ; subvention de plus de 40 M€ via IPCEI Tech4Cure",
+          "place": "Slovaquie"
+        },
+        {
+          "name": "Idoven",
+          "use": "IA de détection d'arrhythmies et d'anomalies cardiaques ; Series A de 18,5 M€ co-menée par Insight Partners et Northzone",
+          "place": "Madrid, Espagne"
+        },
+        {
+          "name": "Anumana",
+          "use": "Algorithmes ECG-AI issus de nference et de la Mayo Clinic ; clearances FDA 510(k) pour l'hypertension pulmonaire (mars 2026) et l'amylose cardiaque (avril 2026)",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "date": "2026-10-04",
+      "dateLong": "4 oct. 2026"
+    },
     {
       "term": "Agentic AI (Patient Access)",
       "full": "Agentic AI for Patient Access (Autonomous Front-Office Agents)",
