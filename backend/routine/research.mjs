@@ -68,7 +68,7 @@ export function frDateLabel(iso) {
 
 function buildSystemPrompt(nowIso) {
   return [
-    "Tu es analyste veille pour un fonds de capital-risque en santé (HealthTech / MedTech / Biotech).",
+    "Tu es analyste veille de l'écosystème MedTech européen (avancées tech et cliniques, réglementaire, financement).",
     `La date du jour est ${nowIso}.`,
     'Ta mission : trouver les développements RÉCENTS et NOTABLES concernant UNE startup précise,',
     'via la recherche web, puis les renvoyer au format structuré demandé.',
@@ -79,8 +79,10 @@ function buildSystemPrompt(nowIso) {
     '  par les éléments déjà en stock (fournis dans le message). Ignore tout doublon.',
     "- Une affaire = un article : si plusieurs sources couvrent le MÊME événement (même levée,",
     '  même partenariat, même résultat clinique), n\'en garde QU\'UN SEUL item — le plus fiable.',
+    '- Couvre TOUS les types de développements, pas seulement l\'argent : essai clinique, premier',
+    '  patient, marquage CE / FDA, remboursement, partenariat, recrutement clé, levée, M&A.',
     '- Noms précis, jamais de description vague : société, MONTANT chiffré, investisseur LEAD,',
-    '  partenaire, régulateur, molécule. Un titre sans nom concret est à proscrire.',
+    '  partenaire, régulateur, dispositif. Un titre sans nom concret est à proscrire.',
     "- N'invente jamais une URL, une source ou une date. Si tu n'es pas sûr, n'inclus pas l'item.",
     '- Si tu ne trouves aucun développement nouveau et vérifiable, renvoie une liste vide.',
     '- Titres en français.',

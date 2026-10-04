@@ -16,35 +16,68 @@ Chaque matin, une tâche Claude produit deux fichiers, déposés à l'URL de con
 
 ---
 
+## La ligne éditoriale — veille MedTech européenne
+
+Vantage Chronicle suit **l'écosystème MedTech européen** dans son ensemble : dispositifs
+médicaux, implants, robotique chirurgicale, neurotech, diagnostic & imagerie, logiciels
+dispositifs médicaux / IA médicale, biomatériaux, santé numérique. **La finance est un bras
+parmi d'autres** : l'édition raconte d'abord ce qui **avance**. Chaque brève est rangée dans
+une des **quatre rubriques** (`pillar`, voir `src/content/pillars.ts` du dépôt `vantage`), affichées dans cet
+ordre dans le Journal :
+
+| `pillar` | Rubrique | Exemples |
+| --- | --- | --- |
+| `innovation` | Tech & clinique | première mondiale, premier patient implanté, résultats d'essai, publication, brevet clé, partenariat industriel/hospitalier |
+| `marche` | Réglementaire & marché | marquage CE / MDR / IVDR, FDA (510(k), De Novo, Breakthrough), remboursement (HAS, PECAN, DiGA, NICE), déploiement hospitalier, dirigeant clé |
+| `naissances` | Nouvelles pousses | création, spin-off de labo, lauréat i-Lab / EIC, entrée en incubateur |
+| `financement` | Financement | levées, M&A, IPO |
+
+Sans `pillar`, l'app déduit la rubrique du `signalType` (et range en `financement` une
+brève qui n'a ni l'un ni l'autre, comme les anciennes éditions).
+
+- **Équilibre** : au plus ~1/3 des brèves en `financement` ; au moins 3 rubriques couvertes.
+- **La une** (`lead`) privilégie une avancée tech/clinique/réglementaire ou une naissance.
+- **L'avancée du jour** (`milestone`) décrypte l'étape franchie la plus parlante
+  (`milestone` = libellé court du badge, `summary` = le fait, `why` = pourquoi ça compte).
+- **Le deal du jour** (`deal`) est **optionnel** : on l'omet un jour calme côté argent.
+- **Ticker** : genres mélangés — `tech` (◆), `reg` (✓), `new` (✦), `lev` (↑), `mna` (⇄) ;
+  `amount` porte la valeur courte (« 1er patient », « CE », « Spin-off », « €24M »).
+- **Périmètre** : le médicament pur (biotech/pharma) est hors champ, sauf
+  combinaison dispositif-médicament ou diagnostic compagnon. **Europe d'abord** ; hors
+  Europe (`brefsIntl`, 1 à 3) seulement pour ce qui pèse sur la MedTech européenne.
+
+---
+
 ## Le « Mot du jour » — critères de choix
 
-Le mot du jour doit être **un terme HealthTech / MedTech / Biotech que Pierre peut
-réellement croiser** en travaillant dans le VC santé (pitch de startup, mémo
-d'investissement, due diligence, actu de deal). Règles, dans l'ordre :
+Le mot du jour doit être **un terme MedTech que Pierre peut réellement croiser** en
+suivant l'écosystème (annonce de startup, essai clinique, décision réglementaire, pitch,
+mémo d'investissement). Règles, dans l'ordre :
 
-1. **Domaine** — strictement HealthTech / MedTech / Biotech : un terme **scientifique,
-   technologique, clinique, réglementaire ou business** propre au secteur. Pas de jargon
-   VC généraliste hors-santé (le « term sheet » ou la « dilution » ne comptent pas ici).
-2. **Pertinence VC santé** — privilégier ce qui aide à **comprendre pourquoi une boîte
-   lève des fonds ou se fait racheter** : une technologie en vogue, une modalité
-   thérapeutique, un concept-clé de thèse d'investissement, ou un terme réglementaire
-   structurant.
+1. **Domaine** — MedTech (et santé numérique) : un terme **technologique, clinique,
+   réglementaire ou d'accès au marché** propre aux dispositifs médicaux. Pas de jargon
+   VC généraliste (le « term sheet » ou la « dilution » ne comptent pas ici), et pas de
+   modalité purement médicamenteuse.
+2. **Pertinence** — privilégier ce qui aide à **comprendre une avancée ou la trajectoire
+   d'une startup MedTech** : une technologie en vogue, un concept clinique, une étape
+   réglementaire structurante, un mécanisme d'accès au marché.
 3. **Bon niveau** — ni trop basique (déjà connu de tous, ex. « vaccin »), ni trop pointu
    ou anecdotique. Vise le terme « utile à maîtriser » pour un futur analyste.
 4. **PAS DE RÉPÉTITION** — ne jamais choisir un terme présent dans `recent-words.json`
    (fenêtre des ~30 derniers jours). C'est la règle non négociable.
 5. **Variété** — faire tourner les familles d'un jour à l'autre, ne pas enchaîner deux
    fois la même catégorie :
-   - **Modalités thérapeutiques** — ADC, CAR-T, ARNm, siRNA, PROTAC, thérapie génique
-     AAV, bispécifiques, cellules NK allogéniques…
-   - **Plateformes / technos** — CRISPR & base editing, organoïdes, biologie de synthèse,
-     IA de découverte de médicaments, protein design…
-   - **Diagnostic / data** — biopsie liquide, diagnostic compagnon, biomarqueur,
-     real-world evidence, imagerie augmentée par IA…
-   - **Réglementaire / accès au marché** — marquage CE-MDR, 510(k) / PMA (FDA),
-     désignation orpheline, DTx / SaMD (logiciel dispositif médical), remboursement (HAS)…
-   - **Business santé** — désignation Breakthrough, exclusivité des données, deals à
-     milestones & royalties, licensing…
+   - **Dispositifs & implants** — neurostimulation en boucle fermée, BCI, valve
+     transcathéter (TAVI), stent résorbable, pancréas artificiel, cochléaire…
+   - **Chirurgie & robotique** — robot chirurgical, navigation peropératoire, chirurgie
+     guidée par l'image, jumeau numérique…
+   - **Diagnostic & imagerie** — échographie de poche, IRM bas champ, biopsie liquide,
+     point-of-care, imagerie augmentée par IA, IVD…
+   - **Matériaux & fabrication** — impression 3D d'implants, hydrogels, électronique
+     souple, biomatériaux résorbables…
+   - **Réglementaire / accès au marché** — classes de dispositifs, IVDR, 510(k) / De Novo /
+     PMA, Breakthrough Device, PECAN / forfait innovation, DiGA, SaMD, investigation
+     clinique, évaluation clinique…
 
    > Ces exemples ne sont qu'une amorce, pas une liste fermée — tout terme respectant
    > les règles 1–4 convient.

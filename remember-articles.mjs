@@ -30,6 +30,7 @@ const add = (company, title, url) => {
   }
 };
 if (edition.lead) add(edition.lead.company, edition.lead.title, edition.lead.url);
+if (edition.milestone) add(edition.milestone.company, edition.milestone.title, edition.milestone.url);
 if (edition.deal)
   add(edition.deal.company, edition.deal.round ? `${edition.deal.company} · ${edition.deal.round}` : edition.deal.company, edition.deal.url);
 for (const b of edition.brefsEurope ?? []) add(b.company, b.title, b.url);
