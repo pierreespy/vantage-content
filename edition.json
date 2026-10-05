@@ -1,55 +1,63 @@
 {
-  "dateLong": "4 oct. 2026",
+  "dateLong": "5 oct. 2026",
   "ticker": [
-    { "company": "AnaCardio", "amount": "€62,5M", "kind": "lev" },
-    { "company": "Incepto", "amount": "€14M", "kind": "lev" }
+    { "company": "Dialybrid", "amount": "€15M", "kind": "lev" },
+    { "company": "Dialybrid", "amount": "1er patient", "kind": "tech" },
+    { "company": "Implantica", "amount": "Lancement US", "kind": "reg" },
+    { "company": "Medtronic", "amount": "CE", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Series B · Cardiologie",
-    "title": "AnaCardio (Suède) lève 62,5 M€ en Series B, co-menée par Novo Holdings, pour mener son agoniste oral du récepteur de la ghréline AC01 vers la Phase 3",
-    "deck": "Le tour, co-mené par Novo Holdings et le family office Ljungström avec l'originateur Helsinn et les investisseurs historiques Pureos, Sound Bioventures, Industrifonden et Flerie, finance la Phase 2b de l'AC01 dans l'insuffisance cardiaque chronique avancée (HFrEF), avec un actif « Phase 3-ready » visé en 2028. Un inotrope oral qui évite les risques d'arythmie des inotropes classiques : un syndicat santé de premier plan qui valide la thèse.",
-    "company": "AnaCardio",
-    "stage": "Series B",
-    "signalType": "funding_round",
+    "kicker": "Première implantation · Dialyse",
+    "title": "Dialybrid (Italie) lève 15 M€ en Series A et implante son premier patient avec la greffe artério-veineuse en soie Silkothane",
+    "deck": "La medtech de Cantù, dont l'annonce date du 22 sept. (hors fenêtre de 72 h, retenue faute d'actualité européenne plus fraîche et actionnable), a bouclé un tour mené par le nouvel investisseur XGEN Venture avec le fonds Rilancio de CDP Venture Capital. L'essai first-in-human portera sur 18 patients dans 4 centres italiens, suivis jusqu'à 60 mois, pour un accès vasculaire d'hémodialyse fabriqué en soie (fibroïne) et polyuréthane.",
+    "company": "Dialybrid",
+    "stage": "Series A",
+    "sector": "MedTech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/30/3371523/0/en/anacardio-raises-62-5-million-series-b-financing-to-advance-transformational-novel-therapy-in-heart-failure-towards-phase-3-readiness.html"
+    "url": "https://www.globenewswire.com/news-release/2026/09/22/3365978/0/en/dialybrid-secures-15-million-series-a-round-and-announces-successful-first-in-human-implant-of-novel-silkothane-arteriovenous-graft-for-vascular-access-in-hemodialysis.html"
   },
-  "deal": {
-    "company": "Incepto",
-    "amount": "€14M",
-    "round": "Series C",
-    "thesis": "La healthtech parisienne, qui distribue sur une plateforme unique des algorithmes d'IA d'imagerie médicale (le « Netflix de l'imagerie ») à une centaine de cliniques, lève 14 M€ auprès d'Impactivist, LBO France, Karista, Bpifrance et Wille Finance AG pour poursuivre son déploiement. Le « why now » : les radiologues préfèrent un point d'accès unique à des dizaines d'outils d'IA plutôt qu'une intégration au cas par cas, et le modèle de marketplace gagne en traction en Europe.",
-    "url": "https://www.maddyness.com/2026/09/25/les-startups-francaises-ont-leve-114-millions-deuros-cette-semaine-dont-90-millions-dans-lia/"
+  "milestone": {
+    "company": "Implantica",
+    "milestone": "Lancement US",
+    "title": "Implantica lance RefluxStop aux États-Unis à l'American Foregut Society, après son approbation PMA de la FDA du 20 août",
+    "summary": "L'implant anti-reflux de la société d'origine suédoise, déjà marqué CE, a réuni plus de 120 chirurgiens et gastro-entérologues à son événement de lancement, qui a débouché sur près de 30 rendez-vous de suivi pour l'ouverture de nouveaux sites.",
+    "why": "Une approbation PMA obtenue huit ans après le marquage CE montre le coût et la durée du passage européen → américain, mais aussi la valeur d'un dossier clinique à 5 ans. Un comparable utile pour tout dispositif européen visant la FDA.",
+    "place": "Suède",
+    "sector": "MedTech",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.prnewswire.com/news-releases/implanticas-refluxstop-us-market-launch-kicked-off-at-the-2026-american-foregut-society-meeting-receiving-an-outstanding-reception-302892462.html"
   },
   "brefsEurope": [],
   "brefsIntl": [
-    { "company": "Tempus AI", "place": "Chicago, États-Unis", "sector": "Digital Health",
+    { "company": "Medtronic", "place": "Minneapolis", "sector": "Cardio", "pillar": "marche",
       "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Tempus obtient le 510(k) de la FDA pour ECG-MR, sa 4e IA d'ECG, qui détecte l'insuffisance mitrale non diagnostiquée",
-      "summary": "L'algorithme analyse un ECG 12 dérivations standard chez les patients de 65 ans et plus à risque cardiovasculaire. Un comparable utile : l'ECG devient une plateforme multi-pathologies (arythmie, fonction cardiaque, vasculaire pulmonaire, valvulaire).",
-      "url": "https://investors.tempus.com/news-releases/news-release-details/tempus-receives-fda-clearance-its-ecg-mr-ai-product-designed" }
+      "title": "Medtronic obtient le FDA clearance et le marquage CE du logiciel de cartographie Affera Prism-2",
+      "summary": "Le logiciel de cartographie cardiaque 3D ajoute beat matching et pace tagging, avec un second CE pour l'adaptateur PulseSelect ProxBox. Un major qui verrouille l'écosystème d'ablation par champ pulsé, face auquel se positionnent les startups européennes du domaine.",
+      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-regulatory-milestones-for-newest-cardiac-mapping-and-ablation-software-302893542.html" }
   ],
   "word": {
-    "term": "ECG-AI",
-    "full": "Electrocardiogram Artificial Intelligence",
-    "fr": "IA appliquée à l'électrocardiogramme",
-    "field": "Cardiologie numérique",
-    "definition": "Des algorithmes qui lisent un ECG ordinaire pour y repérer des maladies du cœur que l'œil humain ne voit pas, bien avant les symptômes.",
+    "term": "AV Graft",
+    "full": "Arteriovenous Graft (greffe artério-veineuse pour accès de dialyse)",
+    "fr": "Greffe artério-veineuse",
+    "field": "Néphrologie · Accès vasculaire",
+    "definition": "Un conduit implanté sous la peau qui relie une artère à une veine pour offrir aux patients dialysés un accès sanguin robuste et ponctionnable à chaque séance.",
     "parts": [
-      { "label": "Signal ECG", "role": "la donnée brute, peu chère et déjà partout" },
-      { "label": "Modèle d'IA", "role": "le détecteur de motifs invisibles" },
-      { "label": "Logiciel dispositif médical", "role": "la brique réglementée (SaMD) vendue aux hôpitaux" }
+      { "label": "Conduit", "role": "le tube qui remplace la fistule native" },
+      { "label": "Paroi biomatériau", "role": "ponctionnable, cicatrisante" },
+      { "label": "Anastomoses", "role": "les raccords à l'artère et à la veine" }
     ],
     "how": [
-      { "n": "1", "h": "Entraînement", "t": "Le modèle apprend sur des centaines de milliers d'ECG liés à un diagnostic confirmé (échographie, biologie)." },
-      { "n": "2", "h": "Validation réglementaire", "t": "Une étude rétrospective multicentrique soutient une autorisation FDA 510(k) ou un marquage CE." },
-      { "n": "3", "h": "Déploiement", "t": "L'algorithme s'intègre au dossier patient et signale les ECG à risque pour orienter vers une échographie." }
+      { "n": "1", "h": "Implantation", "t": "Le chirurgien relie le conduit à une artère et une veine du bras." },
+      { "n": "2", "h": "Maturation", "t": "La paroi est colonisée par les tissus du patient et devient ponctionnable." },
+      { "n": "3", "h": "Dialyse", "t": "Deux aiguilles sont placées à chaque séance pour prélever et restituer le sang." }
     ],
-    "why": "Angle VC : un actif logiciel à coût marginal faible, avec une barrière réglementaire réelle et un modèle récurrent. Chaque nouvelle indication cleared (Tempus en est à 4) élargit le marché sur la même donnée, et le dépistage précoce parle aux payeurs.",
+    "why": "Thromboses et sténoses font échouer une part importante des accès actuels : un marché récurrent et captif de patients dialysés, où un nouveau biomatériau peut se différencier. Angle VC : preuve clinique de perméabilité à long terme et chemin CE puis PMA.",
     "startups": [
-      { "name": "Powerful Medical", "use": "Plateforme PMcardio, certifiée CE (Classe IIb), qui évalue 49 pathologies cardiaques dont l'infarctus occlusif ; subvention de plus de 40 M€ via IPCEI Tech4Cure", "place": "Slovaquie" },
-      { "name": "Idoven", "use": "IA de détection d'arrhythmies et d'anomalies cardiaques ; Series A de 18,5 M€ co-menée par Insight Partners et Northzone", "place": "Madrid, Espagne" },
-      { "name": "Anumana", "use": "Algorithmes ECG-AI issus de nference et de la Mayo Clinic ; clearances FDA 510(k) pour l'hypertension pulmonaire (mars 2026) et l'amylose cardiaque (avril 2026)", "place": "Cambridge, États-Unis" }
+      { "name": "Dialybrid", "use": "Greffe Silkothane (soie + polyuréthane) ; Series A de 15 M€, premier patient implanté en Italie", "place": "Cantù, Italie" },
+      { "name": "Xeltis", "use": "Conduits restaurateurs remplacés par les tissus du patient ; levée de 20,5 M€ en juillet 2026", "place": "Pays-Bas / États-Unis" },
+      { "name": "Humacyte", "use": "Vaisseau acellulaire d'origine humaine développé pour l'accès de dialyse", "place": "États-Unis" }
     ]
   }
 }

@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-04",
+  "generatedAt": "2026-10-05",
   "words": [
+    {
+      "term": "AV Graft",
+      "full": "Arteriovenous Graft (greffe artério-veineuse pour accès de dialyse)",
+      "fr": "Greffe artério-veineuse",
+      "field": "Néphrologie · Accès vasculaire",
+      "definition": "Un conduit implanté sous la peau qui relie une artère à une veine pour offrir aux patients dialysés un accès sanguin robuste et ponctionnable à chaque séance.",
+      "parts": [
+        {
+          "label": "Conduit",
+          "role": "le tube qui remplace la fistule native"
+        },
+        {
+          "label": "Paroi biomatériau",
+          "role": "ponctionnable, cicatrisante"
+        },
+        {
+          "label": "Anastomoses",
+          "role": "les raccords à l'artère et à la veine"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "Le chirurgien relie le conduit à une artère et une veine du bras."
+        },
+        {
+          "n": "2",
+          "h": "Maturation",
+          "t": "La paroi est colonisée par les tissus du patient et devient ponctionnable."
+        },
+        {
+          "n": "3",
+          "h": "Dialyse",
+          "t": "Deux aiguilles sont placées à chaque séance pour prélever et restituer le sang."
+        }
+      ],
+      "why": "Thromboses et sténoses font échouer une part importante des accès actuels : un marché récurrent et captif de patients dialysés, où un nouveau biomatériau peut se différencier. Angle VC : preuve clinique de perméabilité à long terme et chemin CE puis PMA.",
+      "startups": [
+        {
+          "name": "Dialybrid",
+          "use": "Greffe Silkothane (soie + polyuréthane) ; Series A de 15 M€, premier patient implanté en Italie",
+          "place": "Cantù, Italie"
+        },
+        {
+          "name": "Xeltis",
+          "use": "Conduits restaurateurs remplacés par les tissus du patient ; levée de 20,5 M€ en juillet 2026",
+          "place": "Pays-Bas / États-Unis"
+        },
+        {
+          "name": "Humacyte",
+          "use": "Vaisseau acellulaire d'origine humaine développé pour l'accès de dialyse",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-10-05",
+      "dateLong": "5 oct. 2026"
+    },
     {
       "term": "ECG-AI",
       "full": "Electrocardiogram Artificial Intelligence",
