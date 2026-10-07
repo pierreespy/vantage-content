@@ -42,8 +42,8 @@ service cloud.firestore {
       return request.auth != null && request.auth.uid == uid;
     }
 
-    // Payload contract: exactly { startups: string[<=6], updatedAt: <server ts> }.
-    // The cap is 6 — the app's EXTENDED_LIMIT (see src/state/favorites.tsx). Keep the
+    // Payload contract: exactly { startups: string[<=10], updatedAt: <server ts> }.
+    // The cap is 10 — the app's EXTENDED_LIMIT (see src/state/favorites.tsx). Keep the
     // two in lockstep: a larger followed set than this would be rejected outright,
     // silently dropping the install from the union.
     // anonId is NOT a stored field — the doc id already IS the anon id (the uid),
@@ -52,7 +52,7 @@ service cloud.firestore {
       let d = request.resource.data;
       return d.keys().hasOnly(['startups', 'updatedAt'])
         && d.startups is list
-        && d.startups.size() <= 6
+        && d.startups.size() <= 10
         && allStrings(d.startups)
         // Must be the server clock, not a client-supplied time — this is what
         // makes the 30-day expiry trustworthy.
@@ -60,7 +60,7 @@ service cloud.firestore {
     }
 
     // Firestore rules have no "for all" over a list, but the length guard caps
-    // the cost. Check each slot up to the max of 6: each must be a string AND be
+    // the cost. Check each slot up to the max of 10: each must be a string AND be
     // short enough to be a plausible startup name (no arbitrary-blob smuggling).
     function allStrings(list) {
       return (list.size() < 1 || (list[0] is string && list[0].size() <= 80))
@@ -68,7 +68,11 @@ service cloud.firestore {
         && (list.size() < 3 || (list[2] is string && list[2].size() <= 80))
         && (list.size() < 4 || (list[3] is string && list[3].size() <= 80))
         && (list.size() < 5 || (list[4] is string && list[4].size() <= 80))
-        && (list.size() < 6 || (list[5] is string && list[5].size() <= 80));
+        && (list.size() < 6 || (list[5] is string && list[5].size() <= 80))
+        && (list.size() < 7 || (list[6] is string && list[6].size() <= 80))
+        && (list.size() < 8 || (list[7] is string && list[7].size() <= 80))
+        && (list.size() < 9 || (list[8] is string && list[8].size() <= 80))
+        && (list.size() < 10 || (list[9] is string && list[9].size() <= 80));
     }
   }
 }
