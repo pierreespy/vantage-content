@@ -1,63 +1,129 @@
 {
-  "dateLong": "5 oct. 2026",
+  "dateLong": "7 oct. 2026",
   "ticker": [
-    { "company": "Dialybrid", "amount": "€15M", "kind": "lev" },
-    { "company": "Dialybrid", "amount": "1er patient", "kind": "tech" },
-    { "company": "Implantica", "amount": "Lancement US", "kind": "reg" },
-    { "company": "Medtronic", "amount": "CE", "kind": "reg" }
+    {
+      "company": "ReVision Implant",
+      "amount": "1er test prévu",
+      "kind": "tech"
+    },
+    {
+      "company": "Smith+Nephew",
+      "amount": "Lancement UE",
+      "kind": "reg"
+    },
+    {
+      "company": "Venture Leaders",
+      "amount": "10 startups",
+      "kind": "new"
+    },
+    {
+      "company": "Implicity",
+      "amount": "€35M",
+      "kind": "lev"
+    }
   ],
   "lead": {
-    "kicker": "Première implantation · Dialyse",
-    "title": "Dialybrid (Italie) lève 15 M€ en Series A et implante son premier patient avec la greffe artério-veineuse en soie Silkothane",
-    "deck": "La medtech de Cantù, dont l'annonce date du 22 sept. (hors fenêtre de 72 h, retenue faute d'actualité européenne plus fraîche et actionnable), a bouclé un tour mené par le nouvel investisseur XGEN Venture avec le fonds Rilancio de CDP Venture Capital. L'essai first-in-human portera sur 18 patients dans 4 centres italiens, suivis jusqu'à 60 mois, pour un accès vasculaire d'hémodialyse fabriqué en soie (fibroïne) et polyuréthane.",
-    "company": "Dialybrid",
-    "stage": "Series A",
-    "sector": "MedTech",
+    "kicker": "Signal amont · Neurotech",
+    "title": "ReVision Implant (Belgique) prépare son premier test humain peropératoire pour Occular, son implant cortical qui restaure la vision",
+    "deck": "La spin-off de la KU Leuven, déjà sous FDA Breakthrough Device Designation (mars 2026) et dotée de 4 M€ levés en mai, prévoit un premier test court pendant une chirurgie cérébrale programmée en octobre 2026, avant des essais chez des volontaires aveugles dès l'été 2027. Édition à fenêtre d'actualité très calme : il s'agit d'un jalon annoncé et non d'un événement daté du jour, retenu comme signal amont le plus actionnable avant un prochain tour.",
+    "company": "ReVision Implant",
+    "stage": "Seed",
+    "sector": "Neurotech",
     "pillar": "innovation",
     "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/09/22/3365978/0/en/dialybrid-secures-15-million-series-a-round-and-announces-successful-first-in-human-implant-of-novel-silkothane-arteriovenous-graft-for-vascular-access-in-hemodialysis.html"
+    "strength": 3,
+    "url": "https://www.medicaldevice-network.com/news/revision-implant-eyes-fih-trial-for-bci-following-fda-breakthrough-designation/"
   },
   "milestone": {
-    "company": "Implantica",
-    "milestone": "Lancement US",
-    "title": "Implantica lance RefluxStop aux États-Unis à l'American Foregut Society, après son approbation PMA de la FDA du 20 août",
-    "summary": "L'implant anti-reflux de la société d'origine suédoise, déjà marqué CE, a réuni plus de 120 chirurgiens et gastro-entérologues à son événement de lancement, qui a débouché sur près de 30 rendez-vous de suivi pour l'ouverture de nouveaux sites.",
-    "why": "Une approbation PMA obtenue huit ans après le marquage CE montre le coût et la durée du passage européen → américain, mais aussi la valeur d'un dossier clinique à 5 ans. Un comparable utile pour tout dispositif européen visant la FDA.",
-    "place": "Suède",
-    "sector": "MedTech",
+    "company": "Smith+Nephew",
+    "milestone": "Lancement UE",
+    "title": "Smith+Nephew lance en Europe l'implant de réparation du cartilage CARTIHEAL AGILI-C, présenté à l'ICRS Summit de Porto",
+    "summary": "L'implant en aragonite (scaffold biphasique cartilage + os) est commercialisé d'abord dans 12 pays dont la France, l'Allemagne, l'Italie, l'Espagne, la Suisse et le Royaume-Uni, avec d'autres marchés à suivre. Il sera mis en avant à l'ICRS Summit de Porto du 8 au 10 octobre.",
+    "why": "Racheté par Smith+Nephew après CartiHeal (jusqu'à 330 M$), c'est un comparable : l'arrivée d'un acteur établi sur la réparation cartilage valide le segment pour les startups d'orthobiologie européennes, sans être une opportunité d'entrée.",
+    "place": "Londres",
+    "sector": "Biomatériaux",
     "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/news-releases/implanticas-refluxstop-us-market-launch-kicked-off-at-the-2026-american-foregut-society-meeting-receiving-an-outstanding-reception-302892462.html"
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375161/0/en/smith-nephew-s-revolutionary-cartiheal-agili-c-cartilage-repair-implant-launches-in-europe-to-be-featured-at-icrs-summit-in-portugal.html"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
-    { "company": "Medtronic", "place": "Minneapolis", "sector": "Cardio", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Medtronic obtient le FDA clearance et le marquage CE du logiciel de cartographie Affera Prism-2",
-      "summary": "Le logiciel de cartographie cardiaque 3D ajoute beat matching et pace tagging, avec un second CE pour l'adaptateur PulseSelect ProxBox. Un major qui verrouille l'écosystème d'ablation par champ pulsé, face auquel se positionnent les startups européennes du domaine.",
-      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-regulatory-milestones-for-newest-cardiac-mapping-and-ablation-software-302893542.html" }
+  "brefsEurope": [
+    {
+      "company": "Venture Leaders Medtech",
+      "place": "Suisse",
+      "sector": "MedTech",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "Dix startups medtech suisses, dont MoleSense (EPFL) et Veltist (ETH/Empa), partent pitcher à Boston du 11 au 16 octobre",
+      "summary": "Sélectionnées parmi plus de 80 candidatures : MoleSense (wearable de suivi hormonal par la sueur), Veltist (patch chirurgical AnastoSEAL détectant les fuites de sutures), Dexterous Endoscopes et OptiZone. Un vivier de pousses à suivre avant leurs prochains tours.",
+      "url": "https://bioalps.org/venture-leaders-medtech-2026/"
+    },
+    {
+      "company": "Implicity",
+      "place": "Paris",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 5,
+      "title": "Implicity lève 35 M€ en growth equity auprès d'IRIS et Five Arrows pour sa plateforme IA de suivi cardiaque à distance (annonce du 10 sept.)",
+      "summary": "La plateforme agrège les données de dispositifs cardiaques pour plus de 250 centres et 120 000 patients suivis par jour (France, Allemagne, États-Unis). Hors fenêtre de 72 h : retenue comme comparable de marché faute de levée européenne plus fraîche.",
+      "url": "https://www.iris.vc/articles/implicity-secures-eu35m-growth-equity-funding"
+    }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "AV Graft",
-    "full": "Arteriovenous Graft (greffe artério-veineuse pour accès de dialyse)",
-    "fr": "Greffe artério-veineuse",
-    "field": "Néphrologie · Accès vasculaire",
-    "definition": "Un conduit implanté sous la peau qui relie une artère à une veine pour offrir aux patients dialysés un accès sanguin robuste et ponctionnable à chaque séance.",
+    "term": "Cortical Visual Prosthesis",
+    "full": "Cortical Visual Prosthesis (neuroprothèse visuelle corticale)",
+    "fr": "Prothèse visuelle corticale",
+    "field": "Neurotech · Restauration de la vision",
+    "definition": "Un implant qui stimule directement le cortex visuel du cerveau pour recréer des points lumineux (phosphènes), en contournant un œil ou un nerf optique détruits.",
     "parts": [
-      { "label": "Conduit", "role": "le tube qui remplace la fistule native" },
-      { "label": "Paroi biomatériau", "role": "ponctionnable, cicatrisante" },
-      { "label": "Anastomoses", "role": "les raccords à l'artère et à la veine" }
+      {
+        "label": "Caméra / headset",
+        "role": "l'œil externe"
+      },
+      {
+        "label": "Processeur",
+        "role": "le traducteur d'images"
+      },
+      {
+        "label": "Électrodes corticales",
+        "role": "l'interface avec le cerveau"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Implantation", "t": "Le chirurgien relie le conduit à une artère et une veine du bras." },
-      { "n": "2", "h": "Maturation", "t": "La paroi est colonisée par les tissus du patient et devient ponctionnable." },
-      { "n": "3", "h": "Dialyse", "t": "Deux aiguilles sont placées à chaque séance pour prélever et restituer le sang." }
+      {
+        "n": "1",
+        "h": "Capture",
+        "t": "Une caméra montée sur lunettes ou casque filme la scène et l'envoie à un processeur."
+      },
+      {
+        "n": "2",
+        "h": "Encodage",
+        "t": "Le processeur convertit l'image en motifs de stimulation électrique pour chaque électrode."
+      },
+      {
+        "n": "3",
+        "h": "Stimulation",
+        "t": "Les microélectrodes posées sur le cortex visuel activent des neurones, que le cerveau interprète comme des points de lumière formant une image grossière."
+      }
     ],
-    "why": "Thromboses et sténoses font échouer une part importante des accès actuels : un marché récurrent et captif de patients dialysés, où un nouveau biomatériau peut se différencier. Angle VC : preuve clinique de perméabilité à long terme et chemin CE puis PMA.",
+    "why": "Seule approche possible quand rétine ou nerf optique sont perdus (environ 650 000 patients ciblés aux États-Unis et dans l'UE selon ReVision) : un marché peu servi, avec peu d'acteurs, qui passe de la preuve de concept aux premiers essais humains.",
     "startups": [
-      { "name": "Dialybrid", "use": "Greffe Silkothane (soie + polyuréthane) ; Series A de 15 M€, premier patient implanté en Italie", "place": "Cantù, Italie" },
-      { "name": "Xeltis", "use": "Conduits restaurateurs remplacés par les tissus du patient ; levée de 20,5 M€ en juillet 2026", "place": "Pays-Bas / États-Unis" },
-      { "name": "Humacyte", "use": "Vaisseau acellulaire d'origine humaine développé pour l'accès de dialyse", "place": "États-Unis" }
+      {
+        "name": "ReVision Implant",
+        "use": "Système Occular (headset + implant cortical à microélectrodes flexibles), FDA Breakthrough Device Designation, 4 M€ levés en mai 2026",
+        "place": "Leuven, Belgique"
+      },
+      {
+        "name": "Phosphoenix",
+        "use": "Prothèse cérébrale issue du Netherlands Institute for Neuroscience, projet SIGHTED financé par une EIC Transition de 2,5 M€ (janv. 2025)",
+        "place": "Amsterdam, Pays-Bas"
+      },
+      {
+        "name": "Neuralink",
+        "use": "Blindsight : implant stimulant le cortex visuel, premiers essais humains annoncés pour 2026 sous réserve d'autorisations",
+        "place": "États-Unis"
+      }
     ]
   }
 }

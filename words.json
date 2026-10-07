@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-05",
+  "generatedAt": "2026-10-07",
   "words": [
+    {
+      "term": "Cortical Visual Prosthesis",
+      "full": "Cortical Visual Prosthesis (neuroprothèse visuelle corticale)",
+      "fr": "Prothèse visuelle corticale",
+      "field": "Neurotech · Restauration de la vision",
+      "definition": "Un implant qui stimule directement le cortex visuel du cerveau pour recréer des points lumineux (phosphènes), en contournant un œil ou un nerf optique détruits.",
+      "parts": [
+        {
+          "label": "Caméra / headset",
+          "role": "l'œil externe"
+        },
+        {
+          "label": "Processeur",
+          "role": "le traducteur d'images"
+        },
+        {
+          "label": "Électrodes corticales",
+          "role": "l'interface avec le cerveau"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "Une caméra montée sur lunettes ou casque filme la scène et l'envoie à un processeur."
+        },
+        {
+          "n": "2",
+          "h": "Encodage",
+          "t": "Le processeur convertit l'image en motifs de stimulation électrique pour chaque électrode."
+        },
+        {
+          "n": "3",
+          "h": "Stimulation",
+          "t": "Les microélectrodes posées sur le cortex visuel activent des neurones, que le cerveau interprète comme des points de lumière formant une image grossière."
+        }
+      ],
+      "why": "Seule approche possible quand rétine ou nerf optique sont perdus (environ 650 000 patients ciblés aux États-Unis et dans l'UE selon ReVision) : un marché peu servi, avec peu d'acteurs, qui passe de la preuve de concept aux premiers essais humains.",
+      "startups": [
+        {
+          "name": "ReVision Implant",
+          "use": "Système Occular (headset + implant cortical à microélectrodes flexibles), FDA Breakthrough Device Designation, 4 M€ levés en mai 2026",
+          "place": "Leuven, Belgique"
+        },
+        {
+          "name": "Phosphoenix",
+          "use": "Prothèse cérébrale issue du Netherlands Institute for Neuroscience, projet SIGHTED financé par une EIC Transition de 2,5 M€ (janv. 2025)",
+          "place": "Amsterdam, Pays-Bas"
+        },
+        {
+          "name": "Neuralink",
+          "use": "Blindsight : implant stimulant le cortex visuel, premiers essais humains annoncés pour 2026 sous réserve d'autorisations",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-10-07",
+      "dateLong": "7 oct. 2026"
+    },
     {
       "term": "AV Graft",
       "full": "Arteriovenous Graft (greffe artério-veineuse pour accès de dialyse)",
