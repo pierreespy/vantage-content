@@ -70,6 +70,10 @@ CONTEXTE D'EXÉCUTION
    nouveau jalon). Chaque édition doit apporter des articles neufs par rapport aux 14 jours passés.
 4. Rédige le contenu du jour (voir RÈGLES + SCHÉMA ci-dessous).
 5. Écris/écrase le fichier `edition.json` du dépôt avec le nouvel objet JSON.
+5bis. ÉDITION ANGLAISE (obligatoire, chaque jour) : écris/écrase `edition.en.json`, la
+   traduction anglaise FIDÈLE de `edition.json` (voir section ÉDITION ANGLAISE ci-dessous),
+   puis vérifie-la : `node check-en.mjs edition.json edition.en.json` (doit afficher OK ;
+   sinon corrige `edition.en.json` et relance). L'app l'affiche aux utilisateurs en anglais.
 6. Mets à jour `recent-words.json` : ajoute en TÊTE de "recent"
    { "term": "…", "full": "…", "date": "AAAA-MM-JJ" } (date du jour), tronque aux 30 plus récents.
 7. Mets à jour la mémoire des articles, de façon déterministe (n'édite pas le fichier à la main) :
@@ -81,12 +85,15 @@ CONTEXTE D'EXÉCUTION
    gagne, AUCUNE rétention — le glossaire grossit indéfiniment). C'est ce fichier que
    l'app affiche dans l'écran Glossaire. Distinct de `recent-words.json` (qui, lui, ne sert
    qu'à éviter de répéter un terme sur 30 j).
+   Puis la version anglaise : `node remember-word.mjs edition.en.json words.en.json words.json`
+   → même chose dans `words.en.json` (glossaire anglais ; les anciens termes jamais traduits
+   y sont complétés depuis `words.json`).
 8. Génère le CODE D'ACCÈS DU JOUR (voir section CODE D'ACCÈS DU JOUR ci-dessous) :
    - choisis la passphrase du jour selon les règles de cette section ;
    - lance : node gen-access.mjs "<passphrase-du-jour>"
    - le script écrit access.json (hash salé UNIQUEMENT) et affiche le code en clair sur stdout.
      N'écris JAMAIS le code en clair dans un fichier et ne modifie pas access.json à la main.
-9. Publie : `git add edition.json recent-words.json recent-articles.json words.json access.json`
+9. Publie : `git add edition.json edition.en.json recent-words.json recent-articles.json words.json words.en.json access.json`
    puis `git commit -m "Édition du <dateLong>"` puis `git push`.
    Vérifie que le push a réussi (réessaie une fois en cas d'échec réseau).
 10. Dans ton RÉSUMÉ FINAL de run, indique le CODE DU JOUR EN CLAIR (celui affiché par le script)
@@ -178,6 +185,23 @@ publie moins d'items plutôt que de tricher sur la fraîcheur ou d'inventer. Auc
 TON & LANGUE
 Français, ton professionnel mais accessible et vulgarisé, termes VC en anglais (Series A, M&A…).
 Lecteur : un futur analyste VC qui veut suivre tout l'écosystème MedTech européen.
+
+ÉDITION ANGLAISE (`edition.en.json`)
+- Même objet, mêmes clés, mêmes tableaux dans le même ordre : c'est une TRADUCTION, pas une
+  nouvelle sélection. Aucun article ajouté/retiré.
+- Traduis en anglais tous les textes lisibles : `title`, `deck`, `summary`, `why`, `thesis`,
+  `kicker`, `milestone`, `place`, `sector`, les `amount` du ticker qui sont des mots
+  ("1er patient" → "1st patient", "Création" → "Founded"), et tout le `word` sauf `term`
+  (`full`, `fr` = libellé en clair en anglais, `field`, `definition`, `parts`, `how`, `why`,
+  `startups[].use`/`place`).
+- NE CHANGE PAS : `url`, `company`, `name`, `term`, `stage`, `pillar`, `signalType`,
+  `strength`, `kind`, `n`, `ai` (vérifié par `check-en.mjs`). Montants : garde les chiffres,
+  format anglais ("24 M€" → "€24M", "1,3 Md$" → "$1.3B").
+- `dateLong` au format court anglais (ex. "Jul 9, 2026"). Secteurs : "Imagerie" → "Imaging",
+  "Biomatériaux" → "Biomaterials", "Robotique chirurgicale" → "Surgical robotics" ;
+  "Fonds" → "Fund", "Réglementaire" → "Regulatory".
+- Anglais naturel de presse spécialisée (style MedTech Dive / Sifted), même niveau de
+  précision : les noms précis (société, montant, investisseur lead) restent obligatoires.
 
 RÈGLES ÉDITORIALES
 - Noms précis TOUJOURS. Signal financier : société, montant, investisseur lead. Signal faible :
@@ -321,4 +345,5 @@ CONTRAINTES JSON (impératives)
 - JSON strict : guillemets doubles, aucune virgule finale, aucun commentaire.
 - `dateLong` : date du jour au format court FR (ex. "9 juil. 2026").
 - Toutes les url en https, liens directs. Le fichier doit passer JSON.parse sans erreur.
-- Avant de committer, VÉRIFIE que edition.json est un JSON valide.
+- Avant de committer, VÉRIFIE que edition.json ET edition.en.json sont des JSON valides
+  (`node check-en.mjs` le garantit pour les deux).

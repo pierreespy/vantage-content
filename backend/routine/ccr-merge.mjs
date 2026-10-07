@@ -20,12 +20,40 @@
 // GitHub create_or_update_file tool (using the blob SHA it read alongside the
 // current content). No env secrets are needed by THIS script.
 //
+// English edition: the same merge also writes `<output>.en.json` (e.g.
+// merged.en.json → startup-news.en.json), read by the app when the language is
+// English. Each item may carry an optional `titleEn` (stored in the FR file so
+// the translation survives later merges); the EN file uses it as `title` (falls
+// back to the FR title) and an English `date` label derived from `publishedAt`.
+//
 // Usage:
 //   node ccr-merge.mjs <candidates.json> <current.json> <output.json>
 
 import { readFile, writeFile } from 'node:fs/promises';
 
 import { mergeStartupNews } from './merge.mjs';
+
+const EN_MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+/** "2026-07-08" → "Jul 8, 2026" (falls back to the FR label if unparseable). */
+export function enDate(iso, fallback = '') {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(iso ?? ''));
+  if (!m) return fallback;
+  return `${EN_MONTHS[Number(m[2]) - 1]} ${Number(m[3])}, ${m[1]}`;
+}
+
+/** English sibling of a merged startup-news object. */
+export function toEnglish(output) {
+  const news = {};
+  for (const [name, items] of Object.entries(output.news)) {
+    news[name] = items.map(({ titleEn, ...item }) => ({
+      ...item,
+      title: typeof titleEn === 'string' && titleEn.trim() ? titleEn : item.title,
+      date: enDate(item.publishedAt, item.date),
+    }));
+  }
+  return { generatedAt: output.generatedAt, news };
+}
 
 /** Read + parse a JSON file, with a clear error if it's missing/invalid. */
 async function readJson(path, label) {
@@ -71,10 +99,14 @@ async function main() {
 
   const output = { generatedAt: todayIso, news: nextNews };
   await writeFile(outputPath, JSON.stringify(output, null, 2) + '\n', 'utf8');
-  console.error(`wrote merged startup-news.json -> ${outputPath} (generatedAt=${todayIso}, ${Object.keys(nextNews).length} startup(s))`);
+  const enPath = outputPath.replace(/\.json$/, '') + '.en.json';
+  await writeFile(enPath, JSON.stringify(toEnglish(output), null, 2) + '\n', 'utf8');
+  console.error(`wrote merged startup-news.json -> ${outputPath} + ${enPath} (generatedAt=${todayIso}, ${Object.keys(nextNews).length} startup(s))`);
 }
 
-main().catch((err) => {
-  console.error('ccr-merge failed:', err);
-  process.exit(1);
-});
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error('ccr-merge failed:', err);
+    process.exit(1);
+  });
+}

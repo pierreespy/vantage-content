@@ -1,0 +1,129 @@
+{
+  "dateLong": "Oct 7, 2026",
+  "ticker": [
+    {
+      "company": "ReVision Implant",
+      "amount": "1st test planned",
+      "kind": "tech"
+    },
+    {
+      "company": "Smith+Nephew",
+      "amount": "EU launch",
+      "kind": "reg"
+    },
+    {
+      "company": "Venture Leaders",
+      "amount": "10 startups",
+      "kind": "new"
+    },
+    {
+      "company": "Implicity",
+      "amount": "€35M",
+      "kind": "lev"
+    }
+  ],
+  "lead": {
+    "kicker": "Early signal · Neurotech",
+    "title": "ReVision Implant (Belgium) prepares its first intraoperative human test of Occular, its vision-restoring cortical implant",
+    "deck": "The KU Leuven spin-off, already holding FDA Breakthrough Device Designation (March 2026) and €4M raised in May, plans a first short test during a scheduled brain surgery in October 2026, ahead of trials in blind volunteers from summer 2027. Very quiet news window: this is an announced milestone rather than a same-day event, selected as the most actionable early signal ahead of a next round.",
+    "company": "ReVision Implant",
+    "stage": "Seed",
+    "sector": "Neurotech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 3,
+    "url": "https://www.medicaldevice-network.com/news/revision-implant-eyes-fih-trial-for-bci-following-fda-breakthrough-designation/"
+  },
+  "milestone": {
+    "company": "Smith+Nephew",
+    "milestone": "EU launch",
+    "title": "Smith+Nephew launches the CARTIHEAL AGILI-C cartilage repair implant in Europe, showcased at the ICRS Summit in Porto",
+    "summary": "The aragonite implant (biphasic cartilage + bone scaffold) is first marketed in 12 countries including France, Germany, Italy, Spain, Switzerland and the UK, with more markets to follow. It will be featured at the ICRS Summit in Porto on 8–10 October.",
+    "why": "Acquired by Smith+Nephew with CartiHeal (up to $330M), it is a comparable: an established player entering cartilage repair validates the segment for European orthobiologics startups, without being an entry opportunity.",
+    "place": "London",
+    "sector": "Biomaterials",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375161/0/en/smith-nephew-s-revolutionary-cartiheal-agili-c-cartilage-repair-implant-launches-in-europe-to-be-featured-at-icrs-summit-in-portugal.html"
+  },
+  "brefsEurope": [
+    {
+      "company": "Venture Leaders Medtech",
+      "place": "Switzerland",
+      "sector": "MedTech",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "Ten Swiss medtech startups, including MoleSense (EPFL) and Veltist (ETH/Empa), head to Boston to pitch on 11–16 October",
+      "summary": "Selected from over 80 applications: MoleSense (sweat-based hormone-tracking wearable), Veltist (AnastoSEAL surgical patch detecting suture leaks), Dexterous Endoscopes and OptiZone. A pool of young companies to watch ahead of their next rounds.",
+      "url": "https://bioalps.org/venture-leaders-medtech-2026/"
+    },
+    {
+      "company": "Implicity",
+      "place": "Paris",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 5,
+      "title": "Implicity raises €35M in growth equity from IRIS and Five Arrows for its AI remote cardiac monitoring platform (announced 10 Sept.)",
+      "summary": "The platform aggregates cardiac device data for over 250 centres and 120,000 patients monitored daily (France, Germany, US). Outside the 72-hour window: kept as a market comparable in the absence of a fresher European round.",
+      "url": "https://www.iris.vc/articles/implicity-secures-eu35m-growth-equity-funding"
+    }
+  ],
+  "brefsIntl": [],
+  "word": {
+    "term": "Cortical Visual Prosthesis",
+    "full": "Cortical Visual Prosthesis",
+    "fr": "Cortical visual prosthesis",
+    "field": "Neurotech · Vision restoration",
+    "definition": "An implant that directly stimulates the brain's visual cortex to recreate points of light (phosphenes), bypassing a destroyed eye or optic nerve.",
+    "parts": [
+      {
+        "label": "Camera / headset",
+        "role": "the external eye"
+      },
+      {
+        "label": "Processor",
+        "role": "the image translator"
+      },
+      {
+        "label": "Cortical electrodes",
+        "role": "the brain interface"
+      }
+    ],
+    "how": [
+      {
+        "n": "1",
+        "h": "Capture",
+        "t": "A camera mounted on glasses or a headset films the scene and sends it to a processor."
+      },
+      {
+        "n": "2",
+        "h": "Encoding",
+        "t": "The processor converts the image into electrical stimulation patterns for each electrode."
+      },
+      {
+        "n": "3",
+        "h": "Stimulation",
+        "t": "Microelectrodes placed on the visual cortex activate neurons, which the brain interprets as points of light forming a coarse image."
+      }
+    ],
+    "why": "The only possible approach when the retina or optic nerve is lost (about 650,000 target patients in the US and EU according to ReVision): an underserved market with few players, moving from proof of concept to first human trials.",
+    "startups": [
+      {
+        "name": "ReVision Implant",
+        "use": "Occular system (headset + flexible-microelectrode cortical implant), FDA Breakthrough Device Designation, €4M raised in May 2026",
+        "place": "Leuven, Belgium"
+      },
+      {
+        "name": "Phosphoenix",
+        "use": "Brain prosthesis from the Netherlands Institute for Neuroscience; SIGHTED project backed by a €2.5M EIC Transition grant (Jan. 2025)",
+        "place": "Amsterdam, Netherlands"
+      },
+      {
+        "name": "Neuralink",
+        "use": "Blindsight: an implant stimulating the visual cortex, first human trials announced for 2026 pending approvals",
+        "place": "United States"
+      }
+    ]
+  }
+}
