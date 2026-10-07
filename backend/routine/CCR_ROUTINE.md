@@ -72,9 +72,15 @@ Item :
   "source": "Tech.eu",
   "url": "https://tech.eu/2026/07/owkin-sanofi",
   "publishedAt": "2026-07-08",   // ISO AAAA-MM-JJ (fenêtre 30 j + tri)
-  "date": "8 juil. 2026"         // libellé FR absolu dérivé de publishedAt
+  "date": "8 juil. 2026",        // libellé FR absolu dérivé de publishedAt
+  "titleEn": "Owkin expands its oncology partnership with Sanofi (+€30M)"  // OBLIGATOIRE
 }
 ```
+
+**Version anglaise (obligatoire)** : chaque item porte `titleEn`, la traduction anglaise
+fidèle du `title` (mêmes noms, montants au format anglais « €30M »). `ccr-merge.mjs` en tire
+`startup-news.en.json` (lu par l'app en anglais, date en anglais calculée depuis
+`publishedAt`) ; `titleEn` reste stocké dans `startup-news.json` pour survivre aux fusions.
 
 Accumule tout dans **`candidates.json`** (startup → liste des NOUVEAUX items). Une startup
 sans rien de neuf : **omets-la** (ou `[]`). Jamais de remplissage inventé.
@@ -86,6 +92,7 @@ sans rien de neuf : **omets-la** (ou `[]`). Jamais de remplissage inventé.
 ```bash
 node ccr-merge.mjs candidates.json ../../startup-news.json merged.json
 mv merged.json ../../startup-news.json
+mv merged.en.json ../../startup-news.en.json
 ```
 
 `ccr-merge.mjs` applique `mergeStartupNews` par startup sur (existant ∪ candidats) : dédup par
@@ -96,7 +103,7 @@ vide). Il fixe `generatedAt` à aujourd'hui.
 
 ```bash
 cd ../..
-git add startup-news.json
+git add startup-news.json startup-news.en.json
 git commit -m "chore(news): refresh startup-news.json (<aujourd'hui>)"
 git push
 ```
@@ -111,8 +118,8 @@ cd backend/routine && npm ci
 node ccr-union.mjs > union.json
 # ... recherche web native par startup -> candidates.json ...
 node ccr-merge.mjs candidates.json ../../startup-news.json merged.json
-mv merged.json ../../startup-news.json
-cd ../.. && git add startup-news.json && git commit -m "chore(news): refresh startup-news.json (<date>)" && git push
+mv merged.json ../../startup-news.json && mv merged.en.json ../../startup-news.en.json
+cd ../.. && git add startup-news.json startup-news.en.json && git commit -m "chore(news): refresh startup-news.json (<date>)" && git push
 ```
 
 Termine par un récap court : startups traitées, items ajoutés, commit publié (ou la raison si rien).
