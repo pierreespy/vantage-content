@@ -3,6 +3,9 @@
 Fichier de routine lu par la session Claude Code Remote « Journal ». Elle tourne **dans ce
 dépôt (`vantage-content`)**, a accès web et le droit de commit/push. Suivre à la lettre.
 
+> L'édition **Biotech** (`edition-biotech.json`) est produite dans le même run, à la suite :
+> voir l'étape 9bis et `BIOTECH_PROMPT.md`.
+>
 > `startup-news.json` (onglet Favoris) **n'est PAS** produit ici : c'est une routine séparée
 > (voir `backend/routine/CCR_ROUTINE.md` dans le dépôt `vantage`).
 
@@ -96,6 +99,9 @@ CONTEXTE D'EXÉCUTION
 9. Publie : `git add edition.json edition.en.json recent-words.json recent-articles.json words.json words.en.json access.json`
    puis `git commit -m "Édition du <dateLong>"` puis `git push`.
    Vérifie que le push a réussi (réessaie une fois en cas d'échec réseau).
+9bis. ÉDITION BIOTECH (obligatoire, chaque jour) : lis `BIOTECH_PROMPT.md` et exécute-le à
+   la lettre — il produit et publie `edition-biotech.json` + `edition-biotech.en.json` (thème
+   Biotech de l'app). Un échec du volet Biotech n'annule pas la publication MedTech.
 10. Dans ton RÉSUMÉ FINAL de run, indique le CODE DU JOUR EN CLAIR (celui affiché par le script)
     pour que Pierre puisse le distribuer sur LinkedIn. Jamais dans un fichier, jamais dans un commit.
 
