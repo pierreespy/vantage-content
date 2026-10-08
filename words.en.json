@@ -2,6 +2,64 @@
   "generatedAt": "2026-10-08",
   "words": [
     {
+      "term": "Long-Acting Injectable",
+      "full": "Long-Acting Injectable (LAI)",
+      "fr": "Long-Acting Injectable",
+      "field": "Formulation · Drug delivery",
+      "definition": "A formulation injected once that slowly releases the active ingredient over weeks or months, replacing daily or weekly dosing.",
+      "parts": [
+        {
+          "label": "Active ingredient",
+          "role": "the therapeutic cargo (peptide, antipsychotic…)"
+        },
+        {
+          "label": "Matrix / coating",
+          "role": "the hourglass: polymer or inorganic layer that slows release"
+        },
+        {
+          "label": "Depot under the skin",
+          "role": "the reservoir formed at the injection site"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Injection",
+          "t": "A single dose is injected under the skin or into muscle as a depot."
+        },
+        {
+          "n": "2",
+          "h": "Slow degradation",
+          "t": "The matrix or coating dissolves gradually, on a profile set by its composition and thickness."
+        },
+        {
+          "n": "3",
+          "h": "Sustained release",
+          "t": "The active ingredient enters the blood at a controlled rate for 1 to 6 months."
+        }
+      ],
+      "why": "Less adherence burden and steadier concentrations: formulations extend the commercial life of known molecules and attract big pharma, as the Novo Nordisk–Nanexa license in obesity shows.",
+      "startups": [
+        {
+          "name": "Nanexa",
+          "use": "PharmaShell platform (atomic layer deposition coating); Moderna (Dec 2025) and Novo Nordisk (Sept 2026) licenses for sustained-release peptides",
+          "place": "Uppsala, Sweden"
+        },
+        {
+          "name": "Medincell",
+          "use": "Subcutaneous depots based on a resorbable PLA polymer releasing over 1 to 6 months; UZEDY (risperidone) marketed with Teva",
+          "place": "Montpellier, France"
+        },
+        {
+          "name": "Mapi Pharma",
+          "use": "Monthly cariprazine depot: first Phase I/IIa results reported in August 2026",
+          "place": "Israel"
+        }
+      ],
+      "date": "2026-10-08",
+      "dateLong": "Oct 8, 2026"
+    },
+    {
       "term": "Neural Interface ASIC",
       "full": "Application-Specific Integrated Circuit for Neural Interfaces",
       "fr": "Application-Specific Integrated Circuit for Neural Interfaces",

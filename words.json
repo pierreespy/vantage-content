@@ -2,6 +2,64 @@
   "generatedAt": "2026-10-08",
   "words": [
     {
+      "term": "Long-Acting Injectable",
+      "full": "Long-Acting Injectable (LAI, injectable à action prolongée)",
+      "fr": "Injectable à action prolongée",
+      "field": "Formulation · Délivrance de médicaments",
+      "definition": "Une formulation injectée une fois qui libère lentement le principe actif pendant des semaines ou des mois, pour remplacer des prises quotidiennes ou hebdomadaires.",
+      "parts": [
+        {
+          "label": "Principe actif",
+          "role": "la cargaison thérapeutique (peptide, antipsychotique…)"
+        },
+        {
+          "label": "Matrice / revêtement",
+          "role": "le sablier : polymère ou couche inorganique qui freine la libération"
+        },
+        {
+          "label": "Dépôt sous la peau",
+          "role": "le réservoir créé au point d'injection"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Injection",
+          "t": "Une seule dose est injectée sous la peau ou dans le muscle sous forme de dépôt."
+        },
+        {
+          "n": "2",
+          "h": "Dégradation lente",
+          "t": "La matrice ou le revêtement se dissout progressivement, selon un profil réglé par sa composition et son épaisseur."
+        },
+        {
+          "n": "3",
+          "h": "Libération prolongée",
+          "t": "Le principe actif passe dans le sang à débit contrôlé pendant 1 à 6 mois."
+        }
+      ],
+      "why": "Moins d'observance à gérer et des concentrations plus stables : les formulations permettent de prolonger la vie commerciale de molécules connues et attirent les grands laboratoires, comme le montre la licence Novo Nordisk–Nanexa dans l'obésité.",
+      "startups": [
+        {
+          "name": "Nanexa",
+          "use": "Plateforme PharmaShell (revêtement par dépôt de couches atomiques) ; licences Moderna (déc. 2025) et Novo Nordisk (sept. 2026) pour des peptides à libération prolongée",
+          "place": "Uppsala, Suède"
+        },
+        {
+          "name": "Medincell",
+          "use": "Dépôts sous-cutanés à base de polymère PLA résorbable libérant sur 1 à 6 mois ; UZEDY (rispéridone) commercialisé avec Teva",
+          "place": "Montpellier, France"
+        },
+        {
+          "name": "Mapi Pharma",
+          "use": "Dépôt mensuel de cariprazine : premiers résultats de Phase I/IIa rapportés en août 2026",
+          "place": "Israël"
+        }
+      ],
+      "date": "2026-10-08",
+      "dateLong": "8 oct. 2026"
+    },
+    {
       "term": "Neural Interface ASIC",
       "full": "Application-Specific Integrated Circuit for Neural Interfaces",
       "fr": "Circuit intégré spécifique pour interfaces neuronales",
