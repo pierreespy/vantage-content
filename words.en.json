@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-08",
   "words": [
+    {
+      "term": "Neural Interface ASIC",
+      "full": "Application-Specific Integrated Circuit for Neural Interfaces",
+      "fr": "Application-Specific Integrated Circuit for Neural Interfaces",
+      "field": "Neurotech · Implantable electronics",
+      "definition": "A custom, ultra-low-power chip that amplifies and digitizes brain signals and drives stimulation, instead of generic electronics too bulky and power-hungry for an implant.",
+      "parts": [
+        {
+          "label": "Analog front end",
+          "role": "the ear: amplifies tiny neural signals"
+        },
+        {
+          "label": "Digital processing",
+          "role": "the sorter: filters and compresses data"
+        },
+        {
+          "label": "Stimulation stage",
+          "role": "the voice: delivers electrical pulses"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "Electrodes pick up signals of a few microvolts that the chip amplifies without drowning them in noise."
+        },
+        {
+          "n": "2",
+          "h": "On-chip processing",
+          "t": "The chip digitizes, filters and reduces the data stream to fit an implant's power and heat budget."
+        },
+        {
+          "n": "3",
+          "h": "Stimulation and link",
+          "t": "It sends calibrated pulses to the electrodes and communicates wirelessly with the outside."
+        }
+      ],
+      "why": "Every neurotech player faces the same bottleneck (channels, power, size): a reusable silicon building block becomes a scaling lever and an entry barrier, which is why investors are drawn to neural chip suppliers.",
+      "startups": [
+        {
+          "name": "MintNeuro",
+          "use": "Modular chip platform for neural implants and wearables (sensing, processing, stimulation); $5M raised in Oct 2026 led by Odyssey Ventures",
+          "place": "London, UK"
+        },
+        {
+          "name": "Precision Neuroscience",
+          "use": "Layer 7 cortical interface (thin, flexible electrode array), FDA 510(k) clearance for 30-day use in 2025; $250M Series D in Sept 2026",
+          "place": "New York, US"
+        },
+        {
+          "name": "Neuralink",
+          "use": "N1 implant (1,024 electrodes on 64 threads) built on custom ASIC electronics, higher-volume production announced for 2026",
+          "place": "United States"
+        }
+      ],
+      "date": "2026-10-08",
+      "dateLong": "Oct 8, 2026"
+    },
     {
       "term": "Cortical Visual Prosthesis",
       "full": "Cortical Visual Prosthesis",

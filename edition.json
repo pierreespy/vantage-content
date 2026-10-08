@@ -1,127 +1,144 @@
 {
-  "dateLong": "7 oct. 2026",
+  "dateLong": "8 oct. 2026",
   "ticker": [
     {
-      "company": "ReVision Implant",
-      "amount": "1er test prévu",
+      "company": "MintNeuro",
+      "amount": "$5M",
+      "kind": "lev"
+    },
+    {
+      "company": "Science Corp",
+      "amount": "36 mois",
       "kind": "tech"
     },
     {
-      "company": "Smith+Nephew",
-      "amount": "Lancement UE",
+      "company": "Cambridge Heartwear",
+      "amount": "£184M",
       "kind": "reg"
     },
     {
-      "company": "Venture Leaders",
-      "amount": "10 startups",
-      "kind": "new"
+      "company": "MHRA",
+      "amount": "IA : 44 reco.",
+      "kind": "reg"
     },
     {
-      "company": "Implicity",
-      "amount": "€35M",
+      "company": "Zenflow",
+      "amount": "$52M",
       "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Signal amont · Neurotech",
-    "title": "ReVision Implant (Belgique) prépare son premier test humain peropératoire pour Occular, son implant cortical qui restaure la vision",
-    "deck": "La spin-off de la KU Leuven, déjà sous FDA Breakthrough Device Designation (mars 2026) et dotée de 4 M€ levés en mai, prévoit un premier test court pendant une chirurgie cérébrale programmée en octobre 2026, avant des essais chez des volontaires aveugles dès l'été 2027. Édition à fenêtre d'actualité très calme : il s'agit d'un jalon annoncé et non d'un événement daté du jour, retenu comme signal amont le plus actionnable avant un prochain tour.",
-    "company": "ReVision Implant",
-    "stage": "Seed",
+    "kicker": "Financement · Neurotech",
+    "title": "MintNeuro (spin-off d'Imperial College) lève 5 M$ menés par Odyssey Ventures pour ses puces dédiées aux implants neuronaux",
+    "deck": "La startup britannique développe une plateforme modulaire de semi-conducteurs (détection neuronale, traitement du signal, stimulation) pour implants et wearables ; 33East, JSK Investments, Alumni Ventures et ses investisseurs historiques (Empirical Ventures, Jumpspace Ventures) complètent le tour. Les fonds financeront les équipes ingénierie et commerciales et une implantation aux États-Unis : un maillon « picks and shovels » de la neurotech, en amont des dispositifs eux-mêmes.",
+    "company": "MintNeuro",
     "sector": "Neurotech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "pillar": "financement",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.medicaldevice-network.com/news/revision-implant-eyes-fih-trial-for-bci-following-fda-breakthrough-designation/"
+    "url": "https://tech.eu/2026/10/07/mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-devices/"
   },
   "milestone": {
-    "company": "Smith+Nephew",
-    "milestone": "Lancement UE",
-    "title": "Smith+Nephew lance en Europe l'implant de réparation du cartilage CARTIHEAL AGILI-C, présenté à l'ICRS Summit de Porto",
-    "summary": "L'implant en aragonite (scaffold biphasique cartilage + os) est commercialisé d'abord dans 12 pays dont la France, l'Allemagne, l'Italie, l'Espagne, la Suisse et le Royaume-Uni, avec d'autres marchés à suivre. Il sera mis en avant à l'ICRS Summit de Porto du 8 au 10 octobre.",
-    "why": "Racheté par Smith+Nephew après CartiHeal (jusqu'à 330 M$), c'est un comparable : l'arrivée d'un acteur établi sur la réparation cartilage valide le segment pour les startups d'orthobiologie européennes, sans être une opportunité d'entrée.",
-    "place": "Londres",
-    "sector": "Biomatériaux",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.globenewswire.com/news-release/2026/10/06/3375161/0/en/smith-nephew-s-revolutionary-cartiheal-agili-c-cartilage-repair-implant-launches-in-europe-to-be-featured-at-icrs-summit-in-portugal.html"
+    "company": "Science Corporation",
+    "milestone": "Données à 36 mois",
+    "title": "Science Corporation : l'implant sous-rétinien PRIMA gagne en moyenne 29 lettres à 36 mois dans l'atrophie géographique",
+    "summary": "Dans l'étude PRIMAvera, 14 des 18 patients évaluables gagnent au moins 15 lettres et la vision naturelle reste stable ; aucun nouveau signal de sécurité entre 12 et 36 mois (données présentées à EURETINA, Vienne, 1–4 oct.). PRIMA est disponible en Europe et au Royaume-Uni et reste en cours d'examen par la FDA.",
+    "why": "Une durabilité démontrée à trois ans sur une pathologie sans traitement de restauration visuelle consolide la thèse des prothèses rétiniennes et prépare l'arbitrage FDA, catalyseur clé du segment.",
+    "place": "États-Unis",
+    "sector": "Neurotech",
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/eye-implant-triggers-sight-improvements-in-ga-at-36-months/"
   },
   "brefsEurope": [
     {
-      "company": "Venture Leaders Medtech",
-      "place": "Suisse",
-      "sector": "MedTech",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 2,
-      "title": "Dix startups medtech suisses, dont MoleSense (EPFL) et Veltist (ETH/Empa), partent pitcher à Boston du 11 au 16 octobre",
-      "summary": "Sélectionnées parmi plus de 80 candidatures : MoleSense (wearable de suivi hormonal par la sueur), Veltist (patch chirurgical AnastoSEAL détectant les fuites de sutures), Dexterous Endoscopes et OptiZone. Un vivier de pousses à suivre avant leurs prochains tours.",
-      "url": "https://bioalps.org/venture-leaders-medtech-2026/"
+      "company": "Cambridge Heartwear",
+      "place": "Cambridge, Royaume-Uni",
+      "sector": "Cardio",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Cambridge Heartwear remporte un appel d'offres NHS Supply Chain de 184 M£ pour son moniteur ECG HeartSense",
+      "summary": "Le wearable ECG à IA, issu de l'Université de Cambridge, sera déployé en soins primaires et secondaires et dans les services de la fonction publique britannique. Il détient le UKCA et son dossier FDA 510(k) est en cours.",
+      "url": "https://www.medicaldevice-network.com/news/cambridge-heartwear-243m-heartsense-wearable/"
     },
     {
-      "company": "Implicity",
-      "place": "Paris",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 5,
-      "title": "Implicity lève 35 M€ en growth equity auprès d'IRIS et Five Arrows pour sa plateforme IA de suivi cardiaque à distance (annonce du 10 sept.)",
-      "summary": "La plateforme agrège les données de dispositifs cardiaques pour plus de 250 centres et 120 000 patients suivis par jour (France, Allemagne, États-Unis). Hors fenêtre de 72 h : retenue comme comparable de marché faute de levée européenne plus fraîche.",
-      "url": "https://www.iris.vc/articles/implicity-secures-eu35m-growth-equity-funding"
+      "company": "MHRA",
+      "place": "Londres, Royaume-Uni",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "La MHRA adopte les 44 recommandations de la commission nationale sur la régulation de l'IA en santé, avec surveillance continue des dispositifs",
+      "summary": "Fin de l'évaluation « one-shot » : guidance sur les changements d'IA d'ici décembre, consultation sur la classification début 2027, feuille de route d'ici le printemps 2027 ; le sandbox AI Airlock rouvre aux candidatures (sélection en novembre).",
+      "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Zenflow",
+      "place": "États-Unis",
+      "sector": "MedTech",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series D",
+      "title": "Zenflow lève 52 M$ en Series D menée par Cook Medical pour son implant Spring contre l'hypertrophie bénigne de la prostate",
+      "summary": "Le tour inclut ClavystBio, Invus Opportunities, F-Prime et Medtech Venture Partners ; l'étude pivot affiche 60 % de répondeurs contre 33 % pour le sham, avec approbation FDA en décembre 2025 : un comparable de sortie d'étude à commercialisation pour les implants urologiques européens.",
+      "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
+    }
+  ],
   "word": {
-    "term": "Cortical Visual Prosthesis",
-    "full": "Cortical Visual Prosthesis (neuroprothèse visuelle corticale)",
-    "fr": "Prothèse visuelle corticale",
-    "field": "Neurotech · Restauration de la vision",
-    "definition": "Un implant qui stimule directement le cortex visuel du cerveau pour recréer des points lumineux (phosphènes), en contournant un œil ou un nerf optique détruits.",
+    "term": "Neural Interface ASIC",
+    "full": "Application-Specific Integrated Circuit for Neural Interfaces",
+    "fr": "Circuit intégré spécifique pour interfaces neuronales",
+    "field": "Neurotech · Électronique implantable",
+    "definition": "Une puce sur mesure, très basse consommation, qui amplifie et numérise les signaux du cerveau puis pilote la stimulation, au lieu d'utiliser une électronique générique trop grosse et trop gourmande pour un implant.",
     "parts": [
       {
-        "label": "Caméra / headset",
-        "role": "l'œil externe"
+        "label": "Frontal analogique",
+        "role": "l'oreille : amplifie les microsignaux neuronaux"
       },
       {
-        "label": "Processeur",
-        "role": "le traducteur d'images"
+        "label": "Traitement numérique",
+        "role": "le tri : filtre et compresse les données"
       },
       {
-        "label": "Électrodes corticales",
-        "role": "l'interface avec le cerveau"
+        "label": "Étage de stimulation",
+        "role": "la voix : délivre les impulsions électriques"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Capture",
-        "t": "Une caméra montée sur lunettes ou casque filme la scène et l'envoie à un processeur."
+        "h": "Captation",
+        "t": "Les électrodes recueillent des signaux de quelques microvolts que la puce amplifie sans les noyer dans le bruit."
       },
       {
         "n": "2",
-        "h": "Encodage",
-        "t": "Le processeur convertit l'image en motifs de stimulation électrique pour chaque électrode."
+        "h": "Traitement embarqué",
+        "t": "La puce numérise, filtre et réduit le flux de données pour tenir dans le budget d'énergie et de chaleur d'un implant."
       },
       {
         "n": "3",
-        "h": "Stimulation",
-        "t": "Les microélectrodes posées sur le cortex visuel activent des neurones, que le cerveau interprète comme des points de lumière formant une image grossière."
+        "h": "Stimulation et liaison",
+        "t": "Elle envoie des impulsions calibrées aux électrodes et communique sans fil avec l'extérieur."
       }
     ],
-    "why": "Seule approche possible quand rétine ou nerf optique sont perdus (environ 650 000 patients ciblés aux États-Unis et dans l'UE selon ReVision) : un marché peu servi, avec peu d'acteurs, qui passe de la preuve de concept aux premiers essais humains.",
+    "why": "Chaque acteur de la neurotech doit résoudre le même goulot (canaux, énergie, taille) : une brique de silicium réutilisable devient un levier d'échelle et une barrière à l'entrée, d'où l'intérêt des investisseurs pour les fournisseurs de puces neuronales.",
     "startups": [
       {
-        "name": "ReVision Implant",
-        "use": "Système Occular (headset + implant cortical à microélectrodes flexibles), FDA Breakthrough Device Designation, 4 M€ levés en mai 2026",
-        "place": "Leuven, Belgique"
+        "name": "MintNeuro",
+        "use": "Plateforme modulaire de puces pour implants et wearables neuronaux (détection, traitement, stimulation) ; 5 M$ levés en oct. 2026 menés par Odyssey Ventures",
+        "place": "Londres, Royaume-Uni"
       },
       {
-        "name": "Phosphoenix",
-        "use": "Prothèse cérébrale issue du Netherlands Institute for Neuroscience, projet SIGHTED financé par une EIC Transition de 2,5 M€ (janv. 2025)",
-        "place": "Amsterdam, Pays-Bas"
+        "name": "Precision Neuroscience",
+        "use": "Interface corticale Layer 7 (réseau d'électrodes fin et flexible), autorisation FDA 510(k) 30 jours en 2025 ; Series D de 250 M$ en sept. 2026",
+        "place": "New York, États-Unis"
       },
       {
         "name": "Neuralink",
-        "use": "Blindsight : implant stimulant le cortex visuel, premiers essais humains annoncés pour 2026 sous réserve d'autorisations",
+        "use": "Implant N1 (1 024 électrodes sur 64 fils) reposant sur une électronique ASIC sur mesure, production à plus grande échelle annoncée pour 2026",
         "place": "États-Unis"
       }
     ]

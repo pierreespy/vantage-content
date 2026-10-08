@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-07",
+  "generatedAt": "2026-10-08",
   "words": [
+    {
+      "term": "Neural Interface ASIC",
+      "full": "Application-Specific Integrated Circuit for Neural Interfaces",
+      "fr": "Circuit intégré spécifique pour interfaces neuronales",
+      "field": "Neurotech · Électronique implantable",
+      "definition": "Une puce sur mesure, très basse consommation, qui amplifie et numérise les signaux du cerveau puis pilote la stimulation, au lieu d'utiliser une électronique générique trop grosse et trop gourmande pour un implant.",
+      "parts": [
+        {
+          "label": "Frontal analogique",
+          "role": "l'oreille : amplifie les microsignaux neuronaux"
+        },
+        {
+          "label": "Traitement numérique",
+          "role": "le tri : filtre et compresse les données"
+        },
+        {
+          "label": "Étage de stimulation",
+          "role": "la voix : délivre les impulsions électriques"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Captation",
+          "t": "Les électrodes recueillent des signaux de quelques microvolts que la puce amplifie sans les noyer dans le bruit."
+        },
+        {
+          "n": "2",
+          "h": "Traitement embarqué",
+          "t": "La puce numérise, filtre et réduit le flux de données pour tenir dans le budget d'énergie et de chaleur d'un implant."
+        },
+        {
+          "n": "3",
+          "h": "Stimulation et liaison",
+          "t": "Elle envoie des impulsions calibrées aux électrodes et communique sans fil avec l'extérieur."
+        }
+      ],
+      "why": "Chaque acteur de la neurotech doit résoudre le même goulot (canaux, énergie, taille) : une brique de silicium réutilisable devient un levier d'échelle et une barrière à l'entrée, d'où l'intérêt des investisseurs pour les fournisseurs de puces neuronales.",
+      "startups": [
+        {
+          "name": "MintNeuro",
+          "use": "Plateforme modulaire de puces pour implants et wearables neuronaux (détection, traitement, stimulation) ; 5 M$ levés en oct. 2026 menés par Odyssey Ventures",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Precision Neuroscience",
+          "use": "Interface corticale Layer 7 (réseau d'électrodes fin et flexible), autorisation FDA 510(k) 30 jours en 2025 ; Series D de 250 M$ en sept. 2026",
+          "place": "New York, États-Unis"
+        },
+        {
+          "name": "Neuralink",
+          "use": "Implant N1 (1 024 électrodes sur 64 fils) reposant sur une électronique ASIC sur mesure, production à plus grande échelle annoncée pour 2026",
+          "place": "États-Unis"
+        }
+      ],
+      "date": "2026-10-08",
+      "dateLong": "8 oct. 2026"
+    },
     {
       "term": "Cortical Visual Prosthesis",
       "full": "Cortical Visual Prosthesis (neuroprothèse visuelle corticale)",
