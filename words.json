@@ -2,6 +2,69 @@
   "generatedAt": "2026-10-09",
   "words": [
     {
+      "term": "Molecular Glue Degrader",
+      "full": "Molecular Glue Degrader (MGD, dégradeur de type colle moléculaire)",
+      "fr": "Colle moléculaire dégradante",
+      "field": "Dégradation ciblée des protéines",
+      "definition": "Une petite molécule qui colle une protéine malade à la machinerie de nettoyage de la cellule, laquelle la détruit au lieu de simplement la bloquer.",
+      "parts": [
+        {
+          "label": "Protéine cible",
+          "role": "la cible : la protéine pathologique à éliminer"
+        },
+        {
+          "label": "Ligase E3",
+          "role": "le recycleur : enzyme qui marque les protéines pour destruction"
+        },
+        {
+          "label": "Petite molécule glue",
+          "role": "la colle : rapproche cible et ligase sans lien entre eux"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Rapprochement",
+          "t": "La molécule se fixe à la ligase E3 et crée une surface qui reconnaît la protéine cible."
+        },
+        {
+          "n": "2",
+          "h": "Marquage",
+          "t": "La ligase appose des étiquettes d'ubiquitine sur la cible."
+        },
+        {
+          "n": "3",
+          "h": "Destruction",
+          "t": "Le protéasome détruit la protéine marquée ; la molécule peut recommencer."
+        }
+      ],
+      "why": "Angle VC : elle ouvre des cibles réputées « non druggables » avec des molécules orales de petite taille ; les accords pharma se chiffrent en milliards de milestones, mais les données cliniques restent rares, d'où l'intérêt de suivre les plateformes de découverte avant leur premier readout.",
+      "startups": [
+        {
+          "name": "Neomorph",
+          "use": "Pionnier des colles moléculaires ; Series B de 100 M$ menée par Deerfield en avril 2026, qui finance l'essai de phase 1/2 de NEO-811 (dégradeur oral d'ARNT) dans le cancer du rein à cellules claires.",
+          "place": "San Diego, États-Unis"
+        },
+        {
+          "name": "Monte Rosa Therapeutics",
+          "use": "Cotée au Nasdaq (GLUE) avec trois programmes cliniques (MRT-6160, MRT-8102, MRT-2359) et une collaboration avec Roche (50 M$ d'upfront en 2023).",
+          "place": "Boston, États-Unis"
+        },
+        {
+          "name": "Proxygen",
+          "use": "Spin-off du CeMM à Vienne ; collaboration avec Merck KGaA pouvant atteindre 495 M€ (2022) et accord de licence avec Merck & Co. (2023).",
+          "place": "Vienne, Autriche"
+        },
+        {
+          "name": "Defand Therapeutics",
+          "use": "Plateforme de criblage de colles moléculaires ; accord de recherche et de licence avec Roche annoncé le 8 octobre 2026.",
+          "place": "Hangzhou, Chine"
+        }
+      ],
+      "date": "2026-10-09",
+      "dateLong": "9 oct. 2026"
+    },
+    {
       "term": "Remote Magnetic Navigation",
       "full": "Remote Magnetic Navigation (RMN, navigation magnétique à distance)",
       "fr": "Navigation magnétique à distance",

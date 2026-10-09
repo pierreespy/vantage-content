@@ -2,6 +2,69 @@
   "generatedAt": "2026-10-09",
   "words": [
     {
+      "term": "Molecular Glue Degrader",
+      "full": "Molecular Glue Degrader (MGD)",
+      "fr": "Molecular glue that triggers protein degradation",
+      "field": "Targeted protein degradation",
+      "definition": "A small molecule that glues a disease protein to the cell's cleaning machinery, which then destroys it instead of merely blocking it.",
+      "parts": [
+        {
+          "label": "Target protein",
+          "role": "the target: the disease protein to eliminate"
+        },
+        {
+          "label": "E3 ligase",
+          "role": "the recycler: the enzyme that tags proteins for destruction"
+        },
+        {
+          "label": "Glue small molecule",
+          "role": "the glue: brings target and ligase together though they have no natural link"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Bringing together",
+          "t": "The molecule binds the E3 ligase and creates a surface that recognises the target protein."
+        },
+        {
+          "n": "2",
+          "h": "Tagging",
+          "t": "The ligase attaches ubiquitin tags to the target."
+        },
+        {
+          "n": "3",
+          "h": "Destruction",
+          "t": "The proteasome destroys the tagged protein; the molecule can start over."
+        }
+      ],
+      "why": "VC angle: it opens targets once thought undruggable with small oral molecules; pharma deals run to billions in milestones, but clinical data remain scarce, hence the interest in watching discovery platforms before their first readout.",
+      "startups": [
+        {
+          "name": "Neomorph",
+          "use": "Molecular glue pioneer; $100M Series B led by Deerfield in April 2026, funding the Phase 1/2 trial of NEO-811 (oral ARNT degrader) in clear cell renal cell carcinoma.",
+          "place": "San Diego, USA"
+        },
+        {
+          "name": "Monte Rosa Therapeutics",
+          "use": "Nasdaq-listed (GLUE) with three clinical programs (MRT-6160, MRT-8102, MRT-2359) and a Roche collaboration ($50M upfront in 2023).",
+          "place": "Boston, USA"
+        },
+        {
+          "name": "Proxygen",
+          "use": "CeMM spin-off in Vienna; collaboration with Merck KGaA worth up to €495M (2022) and a licensing deal with Merck & Co. (2023).",
+          "place": "Vienna, Austria"
+        },
+        {
+          "name": "Defand Therapeutics",
+          "use": "Molecular glue screening platform; research and licensing agreement with Roche announced on October 8, 2026.",
+          "place": "Hangzhou, China"
+        }
+      ],
+      "date": "2026-10-09",
+      "dateLong": "Oct 9, 2026"
+    },
+    {
       "term": "Remote Magnetic Navigation",
       "full": "Remote Magnetic Navigation (RMN)",
       "fr": "Magnetic steering of devices from outside the body",

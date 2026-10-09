@@ -1,143 +1,126 @@
 {
-  "dateLong": "8 oct. 2026",
+  "dateLong": "9 oct. 2026",
   "ticker": [
-    {
-      "company": "Alentis",
-      "amount": "$1,5Md",
-      "kind": "mna"
-    },
-    {
-      "company": "WhiteLab Genomics",
-      "amount": "€23,2M",
-      "kind": "lev"
-    },
-    {
-      "company": "Forbion",
-      "amount": "€2,3Md",
-      "kind": "lev"
-    },
-    {
-      "company": "Nanexa",
-      "amount": "Licence Novo",
-      "kind": "tech"
-    },
-    {
-      "company": "KymaThera",
-      "amount": "1er patient T4",
-      "kind": "tech"
-    }
+    { "company": "RougeTx", "amount": "$58M", "kind": "lev" },
+    { "company": "Genmab", "amount": "HR 0,49", "kind": "tech" },
+    { "company": "Sensible Bio", "amount": "$47M", "kind": "lev" },
+    { "company": "Rivercell", "amount": "Seed", "kind": "new" },
+    { "company": "Argenx", "amount": "Futilité", "kind": "tech" },
+    { "company": "Defand", "amount": "Licensing", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Licensing · Fibrose",
-    "title": "CSL s'offre lixudebart, l'anti-Claudin-1 de la biotech suisse Alentis, pour 355 M$ d'upfront et jusqu'à 1,5 Md$",
-    "deck": "CSL verse 355 M$ à l'avance et jusqu'à 1,2 Md$ de jalons commerciaux, en échange de 55 % des profits mondiaux du candidat, aujourd'hui en Phase II (essai RENAL dans la vascularite ANCA avec glomérulonéphrite) ; des Phase II sont prévues dans la FSGS et la cholangite sclérosante primitive, une Phase III dans la vascularite. Un upfront de cette taille sur un actif de Phase II valide la cible Claudin-1 dans les maladies fibro-inflammatoires.",
-    "company": "Alentis",
-    "sector": "Immunologie",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 5,
-    "url": "https://www.pharmaceutical-technology.com/news/csl-alentis-1-5bn-partnership-lixudebart-antifibrotic-kidney-liver-diseases/"
+    "kicker": "Lancement · Maladies rares",
+    "title": "RougeTx sort de l'ombre avec 58 M$ en Series A pour son premier médicament contre la maladie de Rendu-Osler",
+    "deck": "La biotech néerlandaise lève 58 M$ (52 M€), co-menés par BioGeneration Ventures, Angelini Ventures et Kurma Partners, avec la BEI via le véhicule Aurea d'Angelini. Les fonds financent RTX-001, une petite molécule qui aide les péricytes à s'attacher aux vaisseaux pour les stabiliser, jusqu'aux premiers essais chez l'homme dans l'HHT, une maladie hémorragique héréditaire sans traitement approuvé.",
+    "company": "RougeTx",
+    "stage": "Series A",
+    "sector": "Biotech",
+    "pillar": "naissances",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://european-biotechnology.com/latest-news/rougetx-launches-with-58m-to-tackle-rare-bleeding-disorder/"
   },
   "milestone": {
-    "company": "Nanexa",
-    "milestone": "Licence Novo",
-    "title": "Nanexa (Suède) licencie sa plateforme PharmaShell à Novo Nordisk pour jusqu'à 1,165 Md€",
-    "summary": "Novo pourra appliquer le revêtement inorganique ultrafin par dépôt de couches atomiques à des peptides dans jusqu'à cinq programmes (obésité, diabète de type 2, cardiométabolique), pour passer de l'injection hebdomadaire à mensuelle ou trimestrielle ; 615 M€ en upfront et jalons, 1,165 Md€ avec les jalons de ventes, plus des royalties. Annonce de fin septembre, après un premier accord avec Moderna en décembre 2025.",
-    "why": "Deuxième grande licence de la plateforme en dix mois : la durée d'action devient un levier de différenciation dans les incrétines, et les technologies de formulation un terrain d'entrée plus capital-efficient que de nouvelles molécules.",
-    "place": "Uppsala, Suède",
-    "sector": "Biotech",
-    "signalType": "early_partnership",
-    "url": "https://www.pharmaceutical-technology.com/news/novo-inks-1-33bn-long-lasting-injectable-pact-with-sweden-based-nanexa/"
+    "company": "Genmab",
+    "milestone": "Phase 3 positive",
+    "title": "Genmab et AbbVie : l'épcoritamab ajouté au R-CHOP réduit de 51 % le risque de progression ou de décès dans le lymphome diffus à grandes cellules B",
+    "summary": "Dans EPCORE DLBCL-2 (environ 900 patients randomisés 2:1, bispécifique CD20×CD3 sous-cutané en cure fixe), le critère principal de survie sans progression atteint un HR de 0,49 chez les patients à IPI 3-5, et le même HR dans l'ensemble de la population. Les taux absolus, la survie globale et la tolérance détaillée ne sont pas encore publiés ; l'action Genmab gagne environ 8 % à Copenhague.",
+    "why": "Un bispécifique pourrait devenir la référence en première ligne du DLBCL, ce qui reprice tout le champ des CD20×CD3 et des concurrents (Polivy, tafasitamab) et alimente le débat sur la valeur des plateformes d'anticorps européennes.",
+    "place": "Copenhague",
+    "sector": "Oncologie",
+    "signalType": "clinical_update",
+    "url": "https://european-biotechnology.com/latest-news/genmab-and-abbvies-bispecific-antibody-halves-progression-or-death-risk-in-lymphoma-trial/"
   },
   "deal": {
-    "company": "WhiteLab Genomics",
-    "amount": "23,2 M€",
-    "round": "Series B",
-    "thesis": "La biotech parisienne, qui applique l'IA à la conception de médecines génomiques, boucle une Series B menée par AVP pour accélérer son développement.",
-    "sector": "IA drug discovery",
-    "url": "https://www.eu-startups.com/2026/10/paris-based-whitelab-genomics-raises-e23-2-million-to-accelerate-ai-driven-genomic-medicine-development"
+    "company": "Sensible Biotechnologies",
+    "amount": "47 M$",
+    "round": "Financement mixte",
+    "thesis": "Oxford Science Enterprises mène ce paquet de 47 M$ (OTB Ventures et In-Q-Tel entrent, Y Combinator et BlueYard suivent), complété par jusqu'à 20 M$ de non-dilutif slovaque et européen. Sensible fabrique l'ARNm dans des cellules vivantes d'ingénierie plutôt que par transcription in vitro : coût de production et immunogénicité réduits pour les thérapies à doses élevées ou répétées.",
+    "sector": "ARN",
+    "url": "https://european-biotechnology.com/latest-news/sensible-secures-47m-to-rethink-mrna-manufacturing/"
   },
   "brefsEurope": [
     {
-      "company": "Forbion",
-      "place": "Naarden, Pays-Bas",
-      "sector": "Fonds",
+      "company": "Rivercell",
+      "place": "Paris",
+      "sector": "IA drug discovery",
+      "stage": "Seed",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "Forbion lève 2,3 Md€ sur deux fonds, Growth Opportunities IV et Ventures Fund VIII",
-      "summary": "Le plus grand fonds européen exclusivement dédié aux sciences de la vie (7,5 Md€ sous gestion) compte parmi ses LPs MN, PGGM, KfW Capital et Eli Lilly ; capacité pour investir dans jusqu'à 30 jeunes sociétés.",
-      "url": "https://www.biopharmadive.com/news/forbion-venture-capital-growth-fund-fundraise/832254/"
+      "title": "Rivercell lève 25 M$ en seed menés par HV Capital pour construire une « cellule virtuelle » par IA",
+      "summary": "HCVC, Alven et Bpifrance Digital Venture participent ; la plateforme automatisée génère des données de cellules uniques résolues dans le temps après traitement pour entraîner un modèle prédictif. Fondée par Yann Fleureau (cofondateur de Cardiologs, racheté par Philips) et Eric Durand (ex-Novartis, Owkin, Bioptimus).",
+      "url": "https://european-biotechnology.com/latest-news/rivercell-raises-25m-to-build-an-ai-virtual-cell/"
+    },
+    {
+      "company": "Argenx",
+      "place": "Gand",
+      "sector": "Immunologie",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Argenx arrête son essai de phase 3 UNITY de l'efgartigimod dans le Sjögren pour futilité ; le titre chute d'environ 18 %",
+      "summary": "Un comité indépendant juge que le critère principal (activité systémique à 48 semaines) ne pourra pas être atteint, sans nouveau signal de sécurité. Le même jour, FB102 (issu de Forte Biosciences) atteint son critère principal dans un essai de phase 2 en maladie cœliaque (126 patients) et passera en phase 3.",
+      "url": "https://european-biotechnology.com/latest-news/argenx-halts-phase-3-sjogrens-trial-sending-shares-tumbling/"
+    },
+    {
+      "company": "ADC Therapeutics",
+      "place": "Épalinges",
+      "sector": "Oncologie",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "ADC Therapeutics obtient 86,6 M$ de placement privé, avec Bain Capital Life Sciences en nouvel investisseur, et restructure sa dette",
+      "summary": "Redmile, TCGX et Nantahala suivent ; le prêt senior est ramené à 50 M$ et le paiement de 150 M$ à HealthCare Royalty en cas de changement de contrôle est supprimé. L'argent soutient les phases 3 de Zynlonta, alors que la FDA a émis en août des réserves sur le rapport bénéfice-risque de LOTIS-5.",
+      "url": "https://european-biotechnology.com/latest-news/adc-therapeutics-buys-time-for-zynlonta-with-86-6m-financing/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "KymaThera",
-      "place": "San Diego, États-Unis",
-      "sector": "Oncologie",
+      "company": "Defand Therapeutics",
+      "place": "Hangzhou",
+      "sector": "Biotech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Roche s'allie à Defand pour des dégradeurs de type colle moléculaire, pour un montant total rapporté proche de 1 Md$",
+      "summary": "Accord de recherche et de licence, avec option d'extension à d'autres cibles ; les termes financiers ne viennent que d'Endpoints News (source anonyme, upfront rapporté sous 10 M$). Un comparable sur la valeur des plateformes de molecular glues en phase précoce.",
+      "url": "https://european-biotechnology.com/latest-news/roche-taps-chinese-biotech-defand-in-reported-1b-deal/"
+    },
+    {
+      "company": "Pacira BioSciences",
+      "place": "Parsippany",
+      "sector": "Biotech",
       "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "KymaThera lève 80 M$ en Series B menée par Alta Partners pour son inhibiteur PI3Kα oral K-1728",
-      "summary": "Foresite Capital et Venrock participent ; premiers patients de Phase I visés au T4 2026 après les études IND-enabling : un comparable de tour pré-clinique pour l'oncologie de précision européenne.",
-      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/"
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Viatris rachète Pacira pour 1,65 Md$ (36,50 $ par action, prime de 45 %) pour deux antalgiques non opioïdes",
+      "summary": "Exparel et Zilretta ont totalisé 692 M$ de ventes en 2025 ; closing attendu d'ici fin 2026. Un comparable de multiple pour les antalgiques non opioïdes, pas une opportunité d'entrée.",
+      "url": "https://www.biopharmadive.com/news/viatris-pacira-acquire-pain-drug-zilretto-exparel/832481/"
     }
   ],
   "word": {
-    "term": "Long-Acting Injectable",
-    "full": "Long-Acting Injectable (LAI, injectable à action prolongée)",
-    "fr": "Injectable à action prolongée",
-    "field": "Formulation · Délivrance de médicaments",
-    "definition": "Une formulation injectée une fois qui libère lentement le principe actif pendant des semaines ou des mois, pour remplacer des prises quotidiennes ou hebdomadaires.",
+    "term": "Molecular Glue Degrader",
+    "full": "Molecular Glue Degrader (MGD, dégradeur de type colle moléculaire)",
+    "fr": "Colle moléculaire dégradante",
+    "field": "Dégradation ciblée des protéines",
+    "definition": "Une petite molécule qui colle une protéine malade à la machinerie de nettoyage de la cellule, laquelle la détruit au lieu de simplement la bloquer.",
     "parts": [
-      {
-        "label": "Principe actif",
-        "role": "la cargaison thérapeutique (peptide, antipsychotique…)"
-      },
-      {
-        "label": "Matrice / revêtement",
-        "role": "le sablier : polymère ou couche inorganique qui freine la libération"
-      },
-      {
-        "label": "Dépôt sous la peau",
-        "role": "le réservoir créé au point d'injection"
-      }
+      { "label": "Protéine cible", "role": "la cible : la protéine pathologique à éliminer" },
+      { "label": "Ligase E3", "role": "le recycleur : enzyme qui marque les protéines pour destruction" },
+      { "label": "Petite molécule glue", "role": "la colle : rapproche cible et ligase sans lien entre eux" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Injection",
-        "t": "Une seule dose est injectée sous la peau ou dans le muscle sous forme de dépôt."
-      },
-      {
-        "n": "2",
-        "h": "Dégradation lente",
-        "t": "La matrice ou le revêtement se dissout progressivement, selon un profil réglé par sa composition et son épaisseur."
-      },
-      {
-        "n": "3",
-        "h": "Libération prolongée",
-        "t": "Le principe actif passe dans le sang à débit contrôlé pendant 1 à 6 mois."
-      }
+      { "n": "1", "h": "Rapprochement", "t": "La molécule se fixe à la ligase E3 et crée une surface qui reconnaît la protéine cible." },
+      { "n": "2", "h": "Marquage", "t": "La ligase appose des étiquettes d'ubiquitine sur la cible." },
+      { "n": "3", "h": "Destruction", "t": "Le protéasome détruit la protéine marquée ; la molécule peut recommencer." }
     ],
-    "why": "Moins d'observance à gérer et des concentrations plus stables : les formulations permettent de prolonger la vie commerciale de molécules connues et attirent les grands laboratoires, comme le montre la licence Novo Nordisk–Nanexa dans l'obésité.",
+    "why": "Angle VC : elle ouvre des cibles réputées « non druggables » avec des molécules orales de petite taille ; les accords pharma se chiffrent en milliards de milestones, mais les données cliniques restent rares, d'où l'intérêt de suivre les plateformes de découverte avant leur premier readout.",
     "startups": [
-      {
-        "name": "Nanexa",
-        "use": "Plateforme PharmaShell (revêtement par dépôt de couches atomiques) ; licences Moderna (déc. 2025) et Novo Nordisk (sept. 2026) pour des peptides à libération prolongée",
-        "place": "Uppsala, Suède"
-      },
-      {
-        "name": "Medincell",
-        "use": "Dépôts sous-cutanés à base de polymère PLA résorbable libérant sur 1 à 6 mois ; UZEDY (rispéridone) commercialisé avec Teva",
-        "place": "Montpellier, France"
-      },
-      {
-        "name": "Mapi Pharma",
-        "use": "Dépôt mensuel de cariprazine : premiers résultats de Phase I/IIa rapportés en août 2026",
-        "place": "Israël"
-      }
+      { "name": "Neomorph", "use": "Pionnier des colles moléculaires ; Series B de 100 M$ menée par Deerfield en avril 2026, qui finance l'essai de phase 1/2 de NEO-811 (dégradeur oral d'ARNT) dans le cancer du rein à cellules claires.", "place": "San Diego, États-Unis" },
+      { "name": "Monte Rosa Therapeutics", "use": "Cotée au Nasdaq (GLUE) avec trois programmes cliniques (MRT-6160, MRT-8102, MRT-2359) et une collaboration avec Roche (50 M$ d'upfront en 2023).", "place": "Boston, États-Unis" },
+      { "name": "Proxygen", "use": "Spin-off du CeMM à Vienne ; collaboration avec Merck KGaA pouvant atteindre 495 M€ (2022) et accord de licence avec Merck & Co. (2023).", "place": "Vienne, Autriche" },
+      { "name": "Defand Therapeutics", "use": "Plateforme de criblage de colles moléculaires ; accord de recherche et de licence avec Roche annoncé le 8 octobre 2026.", "place": "Hangzhou, Chine" }
     ]
   }
 }
