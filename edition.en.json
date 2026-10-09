@@ -1,146 +1,100 @@
 {
-  "dateLong": "Oct 8, 2026",
+  "dateLong": "Oct 9, 2026",
   "ticker": [
-    {
-      "company": "MintNeuro",
-      "amount": "$5M",
-      "kind": "lev"
-    },
-    {
-      "company": "Science Corp",
-      "amount": "36 months",
-      "kind": "tech"
-    },
-    {
-      "company": "Cambridge Heartwear",
-      "amount": "£184M",
-      "kind": "reg"
-    },
-    {
-      "company": "MHRA",
-      "amount": "AI: 44 recs.",
-      "kind": "reg"
-    },
-    {
-      "company": "Zenflow",
-      "amount": "$52M",
-      "kind": "lev"
-    }
+    { "company": "INBRAIN", "amount": "Prototype", "kind": "tech" },
+    { "company": "Sonorous", "amount": "IDE", "kind": "reg" },
+    { "company": "Cori Clinical", "amount": "$4M", "kind": "lev" },
+    { "company": "Abbott", "amount": "FDA", "kind": "reg" },
+    { "company": "OXOS Medical", "amount": "BARDA", "kind": "reg" },
+    { "company": "GE HealthCare", "amount": "$945M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Funding · Neurotech",
-    "title": "MintNeuro (Imperial College spin-off) raises $5M led by Odyssey Ventures for chips built for neural implants",
-    "deck": "The UK startup is building a modular semiconductor platform (neural sensing, signal processing, stimulation) for implants and wearables; 33East, JSK Investments, Alumni Ventures and returning backers Empirical Ventures and Jumpspace Ventures complete the round. Proceeds fund engineering and commercial hiring and a US presence: a picks-and-shovels play in neurotech, upstream of the devices themselves.",
-    "company": "MintNeuro",
+    "kicker": "Project results · Neurotech",
+    "title": "INBRAIN Neuroelectronics and the MINIGRAPH consortium (EIC) validate a graphene implant for deep brain stimulation, with electrode stability projected beyond 10 years",
+    "deck": "The European project, coordinated by ICN2 (Catalonia) with ETH Zurich, Fraunhofer, imec and LUMC, validated an integrated prototype of graphene probes that decode activity across hundreds of neural sites, plus a minimally invasive delivery route using magnetic navigation designed with Nanoflex Robotics and tested in a large animal model. First target: Parkinson's disease; no patient has been implanted in this project yet, which remains preclinical.",
+    "company": "INBRAIN Neuroelectronics",
     "sector": "Neurotech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "pillar": "innovation",
+    "signalType": "grant_award",
     "strength": 3,
-    "url": "https://tech.eu/2026/10/07/mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-devices/"
+    "url": "https://www.medicaldevice-network.com/news/inbrain-data-minigraph-project-brain-disorders/"
   },
   "milestone": {
-    "company": "Science Corporation",
-    "milestone": "36-month data",
-    "title": "Science Corporation: PRIMA subretinal implant gains an average of 29 letters at 36 months in geographic atrophy",
-    "summary": "In the PRIMAvera study, 14 of 18 evaluable patients gain at least 15 letters and natural vision stays stable; no new safety signal between 12 and 36 months (presented at EURETINA, Vienna, Oct 1–4). PRIMA is available in Europe and the UK and remains under FDA review.",
-    "why": "Three-year durability in a condition with no vision-restoring treatment strengthens the retinal prosthesis thesis and sets up the FDA decision, a key catalyst for the segment.",
-    "place": "United States",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/eye-implant-triggers-sight-improvements-in-ga-at-36-months/"
+    "company": "Sonorous Neurovascular",
+    "milestone": "FDA IDE",
+    "title": "Sonorous wins FDA IDE for the B-SILENT 2 pivotal trial of its BosSTENT for pulsatile tinnitus",
+    "summary": "BosSTENT is a self-expanding stent for the cerebral venous sinuses; it received FDA Breakthrough Device designation in February 2026 and B-SILENT 2 enrolment is expected in Q4 2026. The separate B-SILENT study is already enrolling at six sites in France and Canada.",
+    "why": "A niche indication with no dedicated treatment moves into a pivotal phase: the signal of a company approaching a marketing application, with part of the clinical data generated in Europe.",
+    "place": "California (trial sites in France)",
+    "sector": "Neurovascular",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/sonorous-wins-fda-ide-for-pulsatile-tinnitus-stent-pivotal-trial-initiation/"
   },
-  "brefsEurope": [
-    {
-      "company": "Cambridge Heartwear",
-      "place": "Cambridge, UK",
-      "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Cambridge Heartwear wins a £184M NHS Supply Chain tender for its HeartSense ECG monitor",
-      "summary": "The AI-driven wearable ECG, spun out of the University of Cambridge, will roll out across primary and secondary care and UK civil service departments. It holds UKCA marking and a US FDA 510(k) application is under way.",
-      "url": "https://www.medicaldevice-network.com/news/cambridge-heartwear-243m-heartsense-wearable/"
-    },
-    {
-      "company": "MHRA",
-      "place": "London, UK",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "MHRA adopts all 44 recommendations of the national commission on AI regulation in healthcare, with continuous device monitoring",
-      "summary": "An end to one-off pre-market assessment: guidance on AI device changes by December, a consultation on classification in early 2027, a roadmap by spring 2027; the AI Airlock sandbox reopens for applications (selections in November).",
-      "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
-    }
-  ],
+  "deal": {
+    "company": "Cori Clinical",
+    "amount": "$4M",
+    "round": "Seed",
+    "thesis": "Breega leads this seed (with Enzo, Heartfelt, Together Ventures and Bynd) for an AI platform that turns a simple trial brief into a full protocol, submission package and operational plans aligned with current regulation. The bet: fewer trial delays, hence shorter time-to-market for devices and drugs.",
+    "sector": "Digital Health",
+    "url": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
+  },
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Zenflow",
-      "place": "United States",
-      "sector": "MedTech",
+      "company": "Abbott",
+      "place": "Illinois (USA)",
+      "sector": "Cardio",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Abbott gets FDA approval for updates to its CardioMEMS heart failure monitoring sensor",
+      "summary": "Patients will see their pulmonary artery pressure on a smartphone and receive medication updates; clinicians will adjust drugs through a dynamic treatment plan, available later in 2026. A benchmark for every European implantable-monitoring player.",
+      "url": "https://www.medtechdive.com/news/abbott-gets-fda-nod-for-updates-to-heart-failure-monitoring-system/832370/"
+    },
+    {
+      "company": "OXOS Medical",
+      "place": "USA",
+      "sector": "Imaging",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "OXOS Medical wins a BARDA contract worth up to $24.4M for its ultra-portable OXOS X3 x-ray system",
+      "summary": "Cost-share contract: OXOS matches the contribution, for a potential total value of $48.8M. It shows US public funders' appetite for imaging deployable outside the hospital.",
+      "url": "https://www.medicaldevice-network.com/news/oxos-medical-wins-24m-barda-contract-for-next-gen-portable-x-ray-system/"
+    },
+    {
+      "company": "GE HealthCare",
+      "place": "USA",
+      "sector": "Imaging",
       "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series D",
-      "title": "Zenflow raises $52M Series D led by Cook Medical for its Spring implant for benign prostatic hyperplasia",
-      "summary": "ClavystBio, Invus Opportunities, F-Prime and Medtech Venture Partners also take part; the pivotal study shows 60% responders vs 33% for sham, with FDA approval in December 2025: a study-to-commercialization comparable for European urology implants.",
-      "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "GE HealthCare to acquire Sofie Biosciences for $945M to enter radiopharmaceutical manufacturing and distribution",
+      "summary": "A valuation comparable: device majors are paying up for tracer production infrastructure as theranostics grows.",
+      "url": "https://www.medtechdive.com/news/ge-healthcare-to-acquire-sofie-biosciences-for-945m/832148/"
     }
   ],
   "word": {
-    "term": "Neural Interface ASIC",
-    "full": "Application-Specific Integrated Circuit for Neural Interfaces",
-    "fr": "Application-Specific Integrated Circuit for Neural Interfaces",
-    "field": "Neurotech · Implantable electronics",
-    "definition": "A custom, ultra-low-power chip that amplifies and digitizes brain signals and drives stimulation, instead of generic electronics too bulky and power-hungry for an implant.",
+    "term": "Remote Magnetic Navigation",
+    "full": "Remote Magnetic Navigation (RMN)",
+    "fr": "Magnetic steering of devices from outside the body",
+    "field": "Interventional robotics",
+    "definition": "Magnets steer the tip of a catheter or probe through vessels or the brain from outside the body, so the physician does not push the tool by hand.",
     "parts": [
-      {
-        "label": "Analog front end",
-        "role": "the ear: amplifies tiny neural signals"
-      },
-      {
-        "label": "Digital processing",
-        "role": "the sorter: filters and compresses data"
-      },
-      {
-        "label": "Stimulation stage",
-        "role": "the voice: delivers electrical pulses"
-      }
+      { "label": "Magnetic field unit", "role": "the pilot: generates the field that orients the tool" },
+      { "label": "Magnetised tool", "role": "the vehicle: a catheter, guidewire or probe whose tip responds to the field" },
+      { "label": "Imaging and software", "role": "the GPS: x-ray and real-time tracking to guide the path" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Capture",
-        "t": "Electrodes pick up signals of a few microvolts that the chip amplifies without drowning them in noise."
-      },
-      {
-        "n": "2",
-        "h": "On-chip processing",
-        "t": "The chip digitizes, filters and reduces the data stream to fit an implant's power and heat budget."
-      },
-      {
-        "n": "3",
-        "h": "Stimulation and link",
-        "t": "It sends calibrated pulses to the electrodes and communicates wirelessly with the outside."
-      }
+      { "n": "1", "h": "Planning", "t": "The surgeon defines the trajectory from the patient's imaging." },
+      { "n": "2", "h": "Steering", "t": "The magnetic unit orients the tool tip through small adjustments of the field." },
+      { "n": "3", "h": "Control", "t": "Imaging confirms the position; the operator can drive from a console, even remotely." }
     ],
-    "why": "Every neurotech player faces the same bottleneck (channels, power, size): a reusable silicon building block becomes a scaling lever and an entry barrier, which is why investors are drawn to neural chip suppliers.",
+    "why": "VC angle: it opens up tele-intervention (remote thrombectomy, minimally invasive brain access) and makes surgical expertise scalable; the barrier is regulatory and capital-intensive, but early installers build a clinical dataset that is hard to catch up with.",
     "startups": [
-      {
-        "name": "MintNeuro",
-        "use": "Modular chip platform for neural implants and wearables (sensing, processing, stimulation); $5M raised in Oct 2026 led by Odyssey Ventures",
-        "place": "London, UK"
-      },
-      {
-        "name": "Precision Neuroscience",
-        "use": "Layer 7 cortical interface (thin, flexible electrode array), FDA 510(k) clearance for 30-day use in 2025; $250M Series D in Sept 2026",
-        "place": "New York, US"
-      },
-      {
-        "name": "Neuralink",
-        "use": "N1 implant (1,024 electrodes on 64 threads) built on custom ASIC electronics, higher-volume production announced for 2026",
-        "place": "United States"
-      }
+      { "name": "Nanoflex Robotics", "use": "ETH Zurich spin-off: its Remote Intervention System magnetically guides endovascular devices, targeting stroke thrombectomy (Series A of over $12M led by Ascend Capital Partners).", "place": "Zurich, Switzerland" },
+      { "name": "INBRAIN Neuroelectronics", "use": "Uses a magnetic-navigation delivery route, designed with Nanoflex and ETH Zurich, to place its graphene probes in the MINIGRAPH project (Parkinson's).", "place": "Barcelona, Spain" },
+      { "name": "Stereotaxis", "use": "Listed incumbent (NYSE: STXS): its Genesis robotic magnetic navigation system for electrophysiology keeps landing in new European hospitals, including the University of Szeged in Hungary in July 2026.", "place": "Missouri, USA" }
     ]
   }
 }

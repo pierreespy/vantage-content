@@ -1,145 +1,156 @@
 {
-  "dateLong": "8 oct. 2026",
+  "dateLong": "9 oct. 2026",
   "ticker": [
     {
-      "company": "MintNeuro",
-      "amount": "$5M",
-      "kind": "lev"
-    },
-    {
-      "company": "Science Corp",
-      "amount": "36 mois",
+      "company": "INBRAIN",
+      "amount": "Prototype",
       "kind": "tech"
     },
     {
-      "company": "Cambridge Heartwear",
-      "amount": "£184M",
+      "company": "Sonorous",
+      "amount": "IDE",
       "kind": "reg"
     },
     {
-      "company": "MHRA",
-      "amount": "IA : 44 reco.",
-      "kind": "reg"
-    },
-    {
-      "company": "Zenflow",
-      "amount": "$52M",
+      "company": "Cori Clinical",
+      "amount": "$4M",
       "kind": "lev"
+    },
+    {
+      "company": "Abbott",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "OXOS Medical",
+      "amount": "BARDA",
+      "kind": "reg"
+    },
+    {
+      "company": "GE HealthCare",
+      "amount": "$945M",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Financement · Neurotech",
-    "title": "MintNeuro (spin-off d'Imperial College) lève 5 M$ menés par Odyssey Ventures pour ses puces dédiées aux implants neuronaux",
-    "deck": "La startup britannique développe une plateforme modulaire de semi-conducteurs (détection neuronale, traitement du signal, stimulation) pour implants et wearables ; 33East, JSK Investments, Alumni Ventures et ses investisseurs historiques (Empirical Ventures, Jumpspace Ventures) complètent le tour. Les fonds financeront les équipes ingénierie et commerciales et une implantation aux États-Unis : un maillon « picks and shovels » de la neurotech, en amont des dispositifs eux-mêmes.",
-    "company": "MintNeuro",
+    "kicker": "Résultats de projet · Neurotech",
+    "title": "INBRAIN Neuroelectronics et le consortium MINIGRAPH (EIC) valident un implant graphène pour la stimulation cérébrale profonde, avec une stabilité des électrodes projetée à plus de 10 ans",
+    "deck": "Le projet européen, coordonné par l'ICN2 (Catalogne) avec ETH Zurich, Fraunhofer, imec et le LUMC, a validé un prototype intégré de sondes en graphène qui décodent l'activité de centaines de sites neuronaux, ainsi qu'une voie d'implantation mini-invasive par navigation magnétique conçue avec Nanoflex Robotics et testée sur gros animal. Premier objectif : la maladie de Parkinson ; aucun patient n'est encore implanté dans ce projet, qui reste au stade préclinique.",
+    "company": "INBRAIN Neuroelectronics",
     "sector": "Neurotech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "pillar": "innovation",
+    "signalType": "grant_award",
     "strength": 3,
-    "url": "https://tech.eu/2026/10/07/mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-devices/"
+    "url": "https://www.medicaldevice-network.com/news/inbrain-data-minigraph-project-brain-disorders/"
   },
   "milestone": {
-    "company": "Science Corporation",
-    "milestone": "Données à 36 mois",
-    "title": "Science Corporation : l'implant sous-rétinien PRIMA gagne en moyenne 29 lettres à 36 mois dans l'atrophie géographique",
-    "summary": "Dans l'étude PRIMAvera, 14 des 18 patients évaluables gagnent au moins 15 lettres et la vision naturelle reste stable ; aucun nouveau signal de sécurité entre 12 et 36 mois (données présentées à EURETINA, Vienne, 1–4 oct.). PRIMA est disponible en Europe et au Royaume-Uni et reste en cours d'examen par la FDA.",
-    "why": "Une durabilité démontrée à trois ans sur une pathologie sans traitement de restauration visuelle consolide la thèse des prothèses rétiniennes et prépare l'arbitrage FDA, catalyseur clé du segment.",
-    "place": "États-Unis",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/eye-implant-triggers-sight-improvements-in-ga-at-36-months/"
+    "company": "Sonorous Neurovascular",
+    "milestone": "FDA IDE",
+    "title": "Sonorous obtient l'IDE de la FDA pour l'essai pivot B-SILENT 2 de son stent BosSTENT contre l'acouphène pulsatile",
+    "summary": "Le BosSTENT est un stent auto-expansible des sinus veineux cérébraux ; il avait reçu la désignation Breakthrough Device en février 2026 et l'inclusion dans B-SILENT 2 est attendue au T4 2026. L'étude B-SILENT, elle, recrute déjà dans six centres en France et au Canada.",
+    "why": "Une indication de niche sans traitement dédié passe en phase pivot : c'est le signal d'une société qui approche d'une demande d'autorisation, avec une partie des données cliniques générées en Europe.",
+    "place": "Californie (sites d'essai en France)",
+    "sector": "Neurovasculaire",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/sonorous-wins-fda-ide-for-pulsatile-tinnitus-stent-pivotal-trial-initiation/"
   },
-  "brefsEurope": [
-    {
-      "company": "Cambridge Heartwear",
-      "place": "Cambridge, Royaume-Uni",
-      "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Cambridge Heartwear remporte un appel d'offres NHS Supply Chain de 184 M£ pour son moniteur ECG HeartSense",
-      "summary": "Le wearable ECG à IA, issu de l'Université de Cambridge, sera déployé en soins primaires et secondaires et dans les services de la fonction publique britannique. Il détient le UKCA et son dossier FDA 510(k) est en cours.",
-      "url": "https://www.medicaldevice-network.com/news/cambridge-heartwear-243m-heartsense-wearable/"
-    },
-    {
-      "company": "MHRA",
-      "place": "Londres, Royaume-Uni",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "La MHRA adopte les 44 recommandations de la commission nationale sur la régulation de l'IA en santé, avec surveillance continue des dispositifs",
-      "summary": "Fin de l'évaluation « one-shot » : guidance sur les changements d'IA d'ici décembre, consultation sur la classification début 2027, feuille de route d'ici le printemps 2027 ; le sandbox AI Airlock rouvre aux candidatures (sélection en novembre).",
-      "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
-    }
-  ],
+  "deal": {
+    "company": "Cori Clinical",
+    "amount": "4 M$",
+    "round": "Seed",
+    "thesis": "Breega mène ce seed (avec Enzo, Heartfelt, Together Ventures et Bynd) pour une plateforme d'IA qui transforme un simple brief d'essai en protocole complet, dossier de soumission et plans opérationnels alignés sur la réglementation en vigueur. Le pari : des essais cliniques moins retardés, donc un time-to-market raccourci pour les dispositifs et médicaments.",
+    "sector": "Digital Health",
+    "url": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
+  },
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Zenflow",
+      "company": "Abbott",
+      "place": "Illinois (États-Unis)",
+      "sector": "Cardio",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Abbott obtient l'accord FDA pour les mises à jour du capteur CardioMEMS de suivi de l'insuffisance cardiaque",
+      "summary": "Les patients pourront voir leur pression artérielle pulmonaire sur smartphone et recevoir des mises à jour de traitement ; les cliniciens ajusteront les médicaments via un plan dynamique, disponible plus tard en 2026. Un comparable pour tous les acteurs européens du monitoring implantable.",
+      "url": "https://www.medtechdive.com/news/abbott-gets-fda-nod-for-updates-to-heart-failure-monitoring-system/832370/"
+    },
+    {
+      "company": "OXOS Medical",
       "place": "États-Unis",
-      "sector": "MedTech",
+      "sector": "Imagerie",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "OXOS Medical décroche un contrat BARDA jusqu'à 24,4 M$ pour son système de radiographie ultra-portable OXOS X3",
+      "summary": "Contrat à partage de coûts : OXOS apporte une contribution équivalente, pour une valeur potentielle de 48,8 M$. Illustre l'appétit des financeurs publics américains pour l'imagerie déployable hors hôpital.",
+      "url": "https://www.medicaldevice-network.com/news/oxos-medical-wins-24m-barda-contract-for-next-gen-portable-x-ray-system/"
+    },
+    {
+      "company": "GE HealthCare",
+      "place": "États-Unis",
+      "sector": "Imagerie",
       "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series D",
-      "title": "Zenflow lève 52 M$ en Series D menée par Cook Medical pour son implant Spring contre l'hypertrophie bénigne de la prostate",
-      "summary": "Le tour inclut ClavystBio, Invus Opportunities, F-Prime et Medtech Venture Partners ; l'étude pivot affiche 60 % de répondeurs contre 33 % pour le sham, avec approbation FDA en décembre 2025 : un comparable de sortie d'étude à commercialisation pour les implants urologiques européens.",
-      "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "GE HealthCare rachète Sofie Biosciences pour 945 M$ pour entrer dans la fabrication et la distribution de radiopharmaceutiques",
+      "summary": "Un comparable de valorisation : les majors du dispositif paient cher l'infrastructure de production de traceurs au moment où la théranostique se développe.",
+      "url": "https://www.medtechdive.com/news/ge-healthcare-to-acquire-sofie-biosciences-for-945m/832148/"
     }
   ],
   "word": {
-    "term": "Neural Interface ASIC",
-    "full": "Application-Specific Integrated Circuit for Neural Interfaces",
-    "fr": "Circuit intégré spécifique pour interfaces neuronales",
-    "field": "Neurotech · Électronique implantable",
-    "definition": "Une puce sur mesure, très basse consommation, qui amplifie et numérise les signaux du cerveau puis pilote la stimulation, au lieu d'utiliser une électronique générique trop grosse et trop gourmande pour un implant.",
+    "term": "Remote Magnetic Navigation",
+    "full": "Remote Magnetic Navigation (RMN, navigation magnétique à distance)",
+    "fr": "Navigation magnétique à distance",
+    "field": "Robotique interventionnelle",
+    "definition": "Des aimants pilotent depuis l'extérieur du corps la pointe d'un cathéter ou d'une sonde dans les vaisseaux ou le cerveau, sans que le médecin ne pousse l'outil à la main.",
     "parts": [
       {
-        "label": "Frontal analogique",
-        "role": "l'oreille : amplifie les microsignaux neuronaux"
+        "label": "Unité de champ magnétique",
+        "role": "le pilote : génère le champ qui oriente l'outil"
       },
       {
-        "label": "Traitement numérique",
-        "role": "le tri : filtre et compresse les données"
+        "label": "Outil magnétisé",
+        "role": "le véhicule : cathéter, guide ou sonde dont la pointe réagit au champ"
       },
       {
-        "label": "Étage de stimulation",
-        "role": "la voix : délivre les impulsions électriques"
+        "label": "Imagerie et logiciel",
+        "role": "le GPS : rayons X et suivi en temps réel pour guider la trajectoire"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Captation",
-        "t": "Les électrodes recueillent des signaux de quelques microvolts que la puce amplifie sans les noyer dans le bruit."
+        "h": "Planification",
+        "t": "Le chirurgien définit la trajectoire à partir de l'imagerie du patient."
       },
       {
         "n": "2",
-        "h": "Traitement embarqué",
-        "t": "La puce numérise, filtre et réduit le flux de données pour tenir dans le budget d'énergie et de chaleur d'un implant."
+        "h": "Orientation",
+        "t": "L'unité magnétique oriente la pointe de l'outil par petits ajustements du champ."
       },
       {
         "n": "3",
-        "h": "Stimulation et liaison",
-        "t": "Elle envoie des impulsions calibrées aux électrodes et communique sans fil avec l'extérieur."
+        "h": "Contrôle",
+        "t": "L'imagerie confirme la position ; l'opérateur peut piloter depuis une console, voire à distance."
       }
     ],
-    "why": "Chaque acteur de la neurotech doit résoudre le même goulot (canaux, énergie, taille) : une brique de silicium réutilisable devient un levier d'échelle et une barrière à l'entrée, d'où l'intérêt des investisseurs pour les fournisseurs de puces neuronales.",
+    "why": "Angle VC : elle ouvre la télé-intervention (thrombectomie à distance, accès cérébral mini-invasif) et rend l'expertise chirurgicale scalable ; la barrière est réglementaire et le capital intensif, mais les premiers installés bâtissent une base de données cliniques difficile à rattraper.",
     "startups": [
       {
-        "name": "MintNeuro",
-        "use": "Plateforme modulaire de puces pour implants et wearables neuronaux (détection, traitement, stimulation) ; 5 M$ levés en oct. 2026 menés par Odyssey Ventures",
-        "place": "Londres, Royaume-Uni"
+        "name": "Nanoflex Robotics",
+        "use": "Spin-off de l'ETH Zurich : son système Remote Intervention System guide magnétiquement des dispositifs endovasculaires, avec pour cible la thrombectomie dans l'AVC (Series A de plus de 12 M$ menée par Ascend Capital Partners).",
+        "place": "Zurich, Suisse"
       },
       {
-        "name": "Precision Neuroscience",
-        "use": "Interface corticale Layer 7 (réseau d'électrodes fin et flexible), autorisation FDA 510(k) 30 jours en 2025 ; Series D de 250 M$ en sept. 2026",
-        "place": "New York, États-Unis"
+        "name": "INBRAIN Neuroelectronics",
+        "use": "Utilise une voie d'implantation par navigation magnétique, conçue avec Nanoflex et ETH Zurich, pour poser ses sondes en graphène dans le projet MINIGRAPH (Parkinson).",
+        "place": "Barcelone, Espagne"
       },
       {
-        "name": "Neuralink",
-        "use": "Implant N1 (1 024 électrodes sur 64 fils) reposant sur une électronique ASIC sur mesure, production à plus grande échelle annoncée pour 2026",
-        "place": "États-Unis"
+        "name": "Stereotaxis",
+        "use": "Acteur historique coté (NYSE : STXS) : son système Genesis de navigation magnétique robotisée pour l'électrophysiologie s'installe dans de nouveaux hôpitaux européens, dont l'université de Szeged en Hongrie en juillet 2026.",
+        "place": "Missouri, États-Unis"
       }
     ]
   }

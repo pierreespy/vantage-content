@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "words": [
+    {
+      "term": "Remote Magnetic Navigation",
+      "full": "Remote Magnetic Navigation (RMN)",
+      "fr": "Magnetic steering of devices from outside the body",
+      "field": "Interventional robotics",
+      "definition": "Magnets steer the tip of a catheter or probe through vessels or the brain from outside the body, so the physician does not push the tool by hand.",
+      "parts": [
+        {
+          "label": "Magnetic field unit",
+          "role": "the pilot: generates the field that orients the tool"
+        },
+        {
+          "label": "Magnetised tool",
+          "role": "the vehicle: a catheter, guidewire or probe whose tip responds to the field"
+        },
+        {
+          "label": "Imaging and software",
+          "role": "the GPS: x-ray and real-time tracking to guide the path"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Planning",
+          "t": "The surgeon defines the trajectory from the patient's imaging."
+        },
+        {
+          "n": "2",
+          "h": "Steering",
+          "t": "The magnetic unit orients the tool tip through small adjustments of the field."
+        },
+        {
+          "n": "3",
+          "h": "Control",
+          "t": "Imaging confirms the position; the operator can drive from a console, even remotely."
+        }
+      ],
+      "why": "VC angle: it opens up tele-intervention (remote thrombectomy, minimally invasive brain access) and makes surgical expertise scalable; the barrier is regulatory and capital-intensive, but early installers build a clinical dataset that is hard to catch up with.",
+      "startups": [
+        {
+          "name": "Nanoflex Robotics",
+          "use": "ETH Zurich spin-off: its Remote Intervention System magnetically guides endovascular devices, targeting stroke thrombectomy (Series A of over $12M led by Ascend Capital Partners).",
+          "place": "Zurich, Switzerland"
+        },
+        {
+          "name": "INBRAIN Neuroelectronics",
+          "use": "Uses a magnetic-navigation delivery route, designed with Nanoflex and ETH Zurich, to place its graphene probes in the MINIGRAPH project (Parkinson's).",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "Stereotaxis",
+          "use": "Listed incumbent (NYSE: STXS): its Genesis robotic magnetic navigation system for electrophysiology keeps landing in new European hospitals, including the University of Szeged in Hungary in July 2026.",
+          "place": "Missouri, USA"
+        }
+      ],
+      "date": "2026-10-09",
+      "dateLong": "Oct 9, 2026"
+    },
     {
       "term": "Long-Acting Injectable",
       "full": "Long-Acting Injectable (LAI)",

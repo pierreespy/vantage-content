@@ -2,6 +2,42 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-10-09",
+      "company": "INBRAIN Neuroelectronics",
+      "title": "INBRAIN Neuroelectronics et le consortium MINIGRAPH (EIC) valident un implant graphène pour la stimulation cérébrale profonde, avec une stabilité des électrodes projetée à plus de 10 ans",
+      "url": "https://www.medicaldevice-network.com/news/inbrain-data-minigraph-project-brain-disorders/"
+    },
+    {
+      "date": "2026-10-09",
+      "company": "Sonorous Neurovascular",
+      "title": "Sonorous obtient l'IDE de la FDA pour l'essai pivot B-SILENT 2 de son stent BosSTENT contre l'acouphène pulsatile",
+      "url": "https://www.medicaldevice-network.com/news/sonorous-wins-fda-ide-for-pulsatile-tinnitus-stent-pivotal-trial-initiation/"
+    },
+    {
+      "date": "2026-10-09",
+      "company": "Cori Clinical",
+      "title": "Cori Clinical · Seed",
+      "url": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
+    },
+    {
+      "date": "2026-10-09",
+      "company": "Abbott",
+      "title": "Abbott obtient l'accord FDA pour les mises à jour du capteur CardioMEMS de suivi de l'insuffisance cardiaque",
+      "url": "https://www.medtechdive.com/news/abbott-gets-fda-nod-for-updates-to-heart-failure-monitoring-system/832370/"
+    },
+    {
+      "date": "2026-10-09",
+      "company": "OXOS Medical",
+      "title": "OXOS Medical décroche un contrat BARDA jusqu'à 24,4 M$ pour son système de radiographie ultra-portable OXOS X3",
+      "url": "https://www.medicaldevice-network.com/news/oxos-medical-wins-24m-barda-contract-for-next-gen-portable-x-ray-system/"
+    },
+    {
+      "date": "2026-10-09",
+      "company": "GE HealthCare",
+      "title": "GE HealthCare rachète Sofie Biosciences pour 945 M$ pour entrer dans la fabrication et la distribution de radiopharmaceutiques",
+      "url": "https://www.medtechdive.com/news/ge-healthcare-to-acquire-sofie-biosciences-for-945m/832148/"
+    },
+    {
       "date": "2026-10-08",
       "company": "MintNeuro",
       "title": "MintNeuro (spin-off d'Imperial College) lève 5 M$ menés par Odyssey Ventures pour ses puces dédiées aux implants neuronaux",
@@ -372,48 +408,6 @@
       "company": "Glycomine",
       "title": "Glycomine décroche la Breakthrough Therapy Designation de la FDA pour GLM101 dans une maladie métabolique rare sans traitement",
       "url": "https://www.businesswire.com/news/home/20260923230766/en/FDA-Grants-Breakthrough-Therapy-Designation-to-Glycomines-GLM101-for-the-Treatment-of-PMM2-CDG"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "Anaconda Biomed",
-      "title": "Anaconda Biomed lève 56 M$ pour financer l'étude pivot américaine de son cathéter de thrombectomie nouvelle génération",
-      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367108/0/en/anaconda-biomed-secures-56-million-financing-from-new-and-existing-investors.html"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "ViferaXS",
-      "title": "ViferaXS · Series A",
-      "url": "https://www.prnewswire.com/news-releases/viferaxs-raises-12-million-to-advance-phase-ii-trial-in-chronic-lymphocytic-leukemia-and-expand-its-oncology-pipeline-302886700.html"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "Relaisanté",
-      "title": "Relaisanté lève 6 M€ pour organiser le retour à domicile après l'hôpital",
-      "url": "https://www.maddyness.com/2026/09/22/relaisante-leve-6-millions-deuros-pour-trouver-des-soignants-a-domicile-en-18-minutes/"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "Engitix",
-      "title": "Engitix nomme Sonia Quaratino Chief Medical Officer à l'approche de sa première entrée en clinique",
-      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367119/0/en/engitix-appoints-sonia-quaratino-md-phd-as-evp-chief-medical-officer-as-its-ecm-pipeline-moves-toward-clinical-development.html"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "UltraSight",
-      "title": "UltraSight lève 24 M$ pour déployer son guidage IA de l'échographie cardiaque aux États-Unis",
-      "url": "https://www.jpost.com/business-and-innovation/all-news/article-909443"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "Teal Health",
-      "title": "Teal Health lève 22 M$ avant l'entrée en vigueur d'une obligation de remboursement du dépistage du col de l'utérus à domicile",
-      "url": "https://www.prnewswire.com/news-releases/teal-health-raises-22-million-series-a-to-expand-access-to-the-most-accurate-fda-authorized-at-home-hpv-cervical-cancer-screening-302885728.html"
-    },
-    {
-      "date": "2026-09-24",
-      "company": "Blair Health",
-      "title": "Blair Health lève 4,24 M$ CA pour faire traiter la ménopause par des généralistes plutôt que des spécialistes introuvables",
-      "url": "https://betakit.com/blair-health-secures-4-2-million-to-make-specialized-womens-care-more-accessible/"
     }
   ]
 }

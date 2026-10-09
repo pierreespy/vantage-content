@@ -1,6 +1,64 @@
 {
-  "generatedAt": "2026-10-08",
+  "generatedAt": "2026-10-09",
   "words": [
+    {
+      "term": "Remote Magnetic Navigation",
+      "full": "Remote Magnetic Navigation (RMN, navigation magnétique à distance)",
+      "fr": "Navigation magnétique à distance",
+      "field": "Robotique interventionnelle",
+      "definition": "Des aimants pilotent depuis l'extérieur du corps la pointe d'un cathéter ou d'une sonde dans les vaisseaux ou le cerveau, sans que le médecin ne pousse l'outil à la main.",
+      "parts": [
+        {
+          "label": "Unité de champ magnétique",
+          "role": "le pilote : génère le champ qui oriente l'outil"
+        },
+        {
+          "label": "Outil magnétisé",
+          "role": "le véhicule : cathéter, guide ou sonde dont la pointe réagit au champ"
+        },
+        {
+          "label": "Imagerie et logiciel",
+          "role": "le GPS : rayons X et suivi en temps réel pour guider la trajectoire"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Planification",
+          "t": "Le chirurgien définit la trajectoire à partir de l'imagerie du patient."
+        },
+        {
+          "n": "2",
+          "h": "Orientation",
+          "t": "L'unité magnétique oriente la pointe de l'outil par petits ajustements du champ."
+        },
+        {
+          "n": "3",
+          "h": "Contrôle",
+          "t": "L'imagerie confirme la position ; l'opérateur peut piloter depuis une console, voire à distance."
+        }
+      ],
+      "why": "Angle VC : elle ouvre la télé-intervention (thrombectomie à distance, accès cérébral mini-invasif) et rend l'expertise chirurgicale scalable ; la barrière est réglementaire et le capital intensif, mais les premiers installés bâtissent une base de données cliniques difficile à rattraper.",
+      "startups": [
+        {
+          "name": "Nanoflex Robotics",
+          "use": "Spin-off de l'ETH Zurich : son système Remote Intervention System guide magnétiquement des dispositifs endovasculaires, avec pour cible la thrombectomie dans l'AVC (Series A de plus de 12 M$ menée par Ascend Capital Partners).",
+          "place": "Zurich, Suisse"
+        },
+        {
+          "name": "INBRAIN Neuroelectronics",
+          "use": "Utilise une voie d'implantation par navigation magnétique, conçue avec Nanoflex et ETH Zurich, pour poser ses sondes en graphène dans le projet MINIGRAPH (Parkinson).",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "Stereotaxis",
+          "use": "Acteur historique coté (NYSE : STXS) : son système Genesis de navigation magnétique robotisée pour l'électrophysiologie s'installe dans de nouveaux hôpitaux européens, dont l'université de Szeged en Hongrie en juillet 2026.",
+          "place": "Missouri, États-Unis"
+        }
+      ],
+      "date": "2026-10-09",
+      "dateLong": "9 oct. 2026"
+    },
     {
       "term": "Long-Acting Injectable",
       "full": "Long-Acting Injectable (LAI, injectable à action prolongée)",
