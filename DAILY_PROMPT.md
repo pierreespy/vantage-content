@@ -199,7 +199,7 @@ Lecteur : un futur analyste VC qui veut suivre tout l'écosystème MedTech europ
   `kicker`, `milestone`, `place`, `sector`, les `amount` du ticker qui sont des mots
   ("1er patient" → "1st patient", "Création" → "Founded"), et tout le `word` sauf `term`
   (`full`, `fr` = libellé en clair en anglais, `field`, `definition`, `parts`, `how`, `why`,
-  `startups[].use`/`place`).
+  `startups[].use`/`place`). Les `sources` du `word` restent telles quelles (titres d'origine, url inchangée).
 - NE CHANGE PAS : `url`, `company`, `name`, `term`, `stage`, `pillar`, `signalType`,
   `strength`, `kind`, `n`, `ai` (vérifié par `check-en.mjs`). Montants : garde les chiffres,
   format anglais ("24 M€" → "€24M", "1,3 Md$" → "$1.3B").
@@ -237,7 +237,11 @@ MOT DU JOUR (word)
 - Remplis tous les champs : term, full, fr, field, definition (vulgarisée, 1 phrase),
   parts (3 : label + rôle), how (3 étapes), why (angle VC),
   startups (3-4 startups RÉELLES et ACTUELLES qui utilisent la techno/le process du jour ;
-  chacune : name + use (une ligne concrète : ce qu'elle en fait) + place optionnel (ville/pays)).
+  chacune : name + use (une ligne concrète : ce qu'elle en fait) + place optionnel (ville/pays)),
+  sources (OBLIGATOIRE, 2 à 4 : les pages RÉELLEMENT consultées par recherche web pour écrire
+  definition / how / why ; chacune : publisher + title + url directe — autorité (FDA, EMA, HAS),
+  publication, média spécialisé, site de la société). AUCUNE affirmation sans source : un fait
+  non sourçable est retiré. Ne JAMAIS inventer une URL.
   Noms précis et vérifiés, pas d'invention ; privilégier des sociétés early-stage → growth,
   Europe d'abord.
   VÉRIFICATION OBLIGATOIRE — recherche web pour CHAQUE startup, à chaque édition :
@@ -323,7 +327,8 @@ SCHÉMA de edition.json (mêmes clés, mêmes types — JSON strict, parseable t
       { "n": "3", "h": "Libération", "t": "…" }
     ],
     "why": "Pourquoi c'est en vogue, angle VC.",
-    "startups": [ { "name": "Adcytherix", "use": "Startup ADC ; grosse Série A européenne", "place": "France" } ]
+    "startups": [ { "name": "Adcytherix", "use": "Startup ADC ; grosse Série A européenne", "place": "France" } ],
+    "sources": [ { "publisher": "Nature Reviews Drug Discovery", "title": "Titre exact de la page", "url": "https://url-directe-consultee" } ]
   }
 }
 
@@ -345,7 +350,7 @@ SIGNAUX — `signalType` (sur lead + chaque brève) et `strength` (entier 1–5)
 
 Comptes attendus : brefsEurope ≤ 8, brefsIntl ≤ 3 (maximum, pas un minimum), ticker = 6,
 milestone présent, deal optionnel,
-word.parts = 3, word.how = 3, word.startups = 3 à 4.
+word.parts = 3, word.how = 3, word.startups = 3 à 4, word.sources = 2 à 4.
 
 CONTRAINTES JSON (impératives)
 - JSON strict : guillemets doubles, aucune virgule finale, aucun commentaire.
