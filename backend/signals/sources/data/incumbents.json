@@ -1,0 +1,34 @@
+{
+  "_comment": "Grands groupes MedTech surveillés pour les départs de dirigeants (sources/departures.mjs). Numéros vérifiés au registre le 2026-10-09 (Companies House ; annuaire-entreprises.data.gouv.fr). Ajouter une ligne = surveiller une société de plus.",
+  "gb": [
+    { "number": "01070807", "name": "MEDTRONIC LIMITED", "label": "Medtronic (UK)" },
+    { "number": "00446897", "name": "PHILIPS ELECTRONICS UK LIMITED", "label": "Philips (UK)" },
+    { "number": "09567186", "name": "SIEMENS HEALTHCARE LIMITED", "label": "Siemens Healthineers (UK)" },
+    { "number": "01002610", "name": "GE HEALTHCARE LIMITED", "label": "GE HealthCare (UK)" },
+    { "number": "00324357", "name": "SMITH & NEPHEW PLC", "label": "Smith & Nephew" },
+    { "number": "03669454", "name": "STRYKER UK LIMITED", "label": "Stryker (UK)" },
+    { "number": "02729626", "name": "BOSTON SCIENTIFIC LIMITED", "label": "Boston Scientific (UK)" },
+    { "number": "01309639", "name": "CONVATEC LIMITED", "label": "Convatec" },
+    { "number": "00329102", "name": "ABBOTT LABORATORIES LIMITED", "label": "Abbott (UK)" },
+    { "number": "SC132162", "name": "JOHNSON & JOHNSON MEDICAL LIMITED", "label": "J&J MedTech (UK)" },
+    { "number": "00740767", "name": "ZIMMER BIOMET UK LIMITED", "label": "Zimmer Biomet (UK)" },
+    { "number": "03879325", "name": "EDWARDS LIFESCIENCES LIMITED", "label": "Edwards Lifesciences (UK)" },
+    { "number": "06727762", "name": "INTUITIVE SURGICAL LIMITED", "label": "Intuitive Surgical (UK)" },
+    { "number": "01210694", "name": "OLYMPUS KEYMED GROUP LIMITED", "label": "Olympus KeyMed" },
+    { "number": "03244454", "name": "ELEKTA LIMITED", "label": "Elekta (UK)" },
+    { "number": "08863657", "name": "CMR SURGICAL LIMITED", "label": "CMR Surgical" },
+    { "number": "05386273", "name": "OXFORD NANOPORE TECHNOLOGIES PLC", "label": "Oxford Nanopore" }
+  ],
+  "fr": [
+    { "siren": "722008232", "name": "MEDTRONIC FRANCE", "label": "Medtronic France" },
+    { "siren": "811847243", "name": "PHILIPS FRANCE", "label": "Philips France" },
+    { "siren": "810794800", "name": "SIEMENS HEALTHCARE SAS", "label": "Siemens Healthineers France" },
+    { "siren": "315013359", "name": "GE MEDICAL SYSTEMS", "label": "GE HealthCare (Buc)" },
+    { "siren": "333710275", "name": "STRYKER FRANCE SA", "label": "Stryker France" },
+    { "siren": "315202564", "name": "ZIMMER BIOMET FRANCE", "label": "Zimmer Biomet France" },
+    { "siren": "398043356", "name": "ABBOTT MEDICAL FRANCE SAS", "label": "Abbott Medical France" },
+    { "siren": "582026324", "name": "OLYMPUS FRANCE", "label": "Olympus France" },
+    { "siren": "673620399", "name": "BIOMERIEUX SA", "label": "bioMérieux" },
+    { "siren": "308491521", "name": "GUERBET", "label": "Guerbet" }
+  ]
+}

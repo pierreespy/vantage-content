@@ -27,10 +27,12 @@ export const RECORD_KINDS = /** @type {const} */ ([
   'trial',
   'grant',
   'company_creation',
+  // An officer leaving a MedTech incumbent (sources/departures.mjs).
+  'departure',
 ]);
 
 // Roles a connector may set, for reference (they are plain strings on the record):
-//   people        author · inventor · investigator · director · laureate
+//   people        author · inventor · investigator · director · laureate · departed
 //                 — `author`, `inventor` and `director` are the three the
 //                   high-priority rule joins on;
 //   organizations affiliation · applicant · sponsor · collaborator · funder · company

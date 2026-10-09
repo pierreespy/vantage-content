@@ -7,6 +7,8 @@
 //   2. RULE FLOORS, which guarantee the thresholds the product asks for:
 //        · chercheur/auteur + brevet déposé + création de société < 6 mois -> >= 80
 //        · nouvel essai ClinicalTrials sans structure commerciale          -> >= 50
+//        · dirigeant parti d'un grand groupe MedTech + société créée < 6 mois -> >= 80
+//        · dirigeant parti d'un grand groupe, aucun nouveau mandat (stealth)  -> >= 50
 //      A floor is `max(score, floor)`, never a replacement, so a lead matching the
 //      high rule AND carrying five other signals still outranks a bare match.
 //
@@ -42,7 +44,14 @@ export const SIGNAL_BY_RECORD_KIND = {
   grant: { signalType: 'grant_award', strength: 3, weight: 20 },
   trial: { signalType: 'clinical_update', strength: 3, weight: 20 },
   publication: { signalType: 'publication_preprint', strength: 2, weight: 15 },
+  // A leadership MOVE, so the app's « Dirigeant » type.
+  departure: { signalType: 'leadership_hire', strength: 2, weight: 20 },
 };
+
+/** A departure stays a « stealth » candidate this long without a new mandate. */
+export const STEALTH_WINDOW_DAYS = 365;
+/** A company set up this long BEFORE leaving still counts as "the next thing". */
+const PRE_DEPARTURE_GRACE_DAYS = 90;
 
 /** Repeat signals of a kind already counted are worth this fraction of it. */
 const REPEAT_FACTOR = 0.15;
@@ -83,6 +92,7 @@ function toSignal(record, today) {
     date: record.date,
     ageDays: Number.isFinite(ageDays) ? ageDays : null,
     baseWeight: mapping.weight,
+    ...(record.kind === 'departure' ? { extra: record.extra ?? {} } : {}),
   };
 }
 
@@ -143,6 +153,61 @@ function matchesMediumPriority(signals, context, today) {
     reason:
       `Nouvel essai clinique enregistré le ${fresh.firstPosted} sans structure commerciale ` +
       `identifiée (promoteur ${context.sponsorLabel || 'académique'}) — spin-out possible.`,
+  };
+}
+
+/**
+ * Departure rules. One of the two, never both:
+ *   · `departure_newco` (HIGH)  — left an incumbent, and a company incorporated
+ *     from 90 days before the departure onwards, less than 6 months ago, is
+ *     attached to the person (Companies House appointments, a registry creation
+ *     they direct, or a company the resolver linked them to);
+ *   · `stealth_departure` (MEDIUM) — left within the last year and NO new
+ *     mandate is known. When the register can say "no other active mandate at
+ *     all" (UK), that is stated; in FR it rests on no creation having surfaced.
+ */
+function matchesDeparture(signals, context, today) {
+  const departure = signals
+    .filter((s) => s.recordKind === 'departure')
+    .filter((s) => Number.isFinite(s.ageDays) && s.ageDays >= 0 && s.ageDays <= STEALTH_WINDOW_DAYS)
+    .sort((a, b) => a.ageDays - b.ageDays)[0];
+  if (!departure) return null;
+
+  const incumbent = departure.extra?.incumbent || 'un grand groupe';
+  const cutoff = shiftDays(departure.date, -PRE_DEPARTURE_GRACE_DAYS);
+  const candidates = [
+    ...(departure.extra?.newCompanies ?? []).map((c) => ({ name: c.name, date: c.incorporatedAt || c.appointedOn })),
+    ...signals.filter((s) => s.recordKind === 'company_creation').map((s) => ({ name: s.title.replace(/^Création de /, ''), date: s.date })),
+    ...(context.linkedCompanies ?? []).map((c) => ({ name: c.name, date: c.incorporatedAt })),
+  ].filter((c) => c.date && c.date >= cutoff);
+
+  const newco = candidates
+    .map((c) => ({ ...c, ageDays: daysBetween(c.date, today) }))
+    .filter((c) => Number.isFinite(c.ageDays) && c.ageDays >= 0 && c.ageDays <= RECENT_COMPANY_DAYS)
+    .sort((a, b) => a.ageDays - b.ageDays)[0];
+
+  if (newco) {
+    return {
+      id: 'departure_newco',
+      floor: HIGH_PRIORITY_SCORE,
+      reason:
+        `A quitté ${incumbent} le ${departure.date} et dirige ${newco.name || 'une société'} ` +
+        `créée le ${newco.date} — le spin-out d'un cadre de grand groupe, avant sa première levée.`,
+    };
+  }
+  // Any later mandate (even an older company) means the person is not in stealth.
+  if (candidates.length) return null;
+  const others = departure.extra?.otherActiveMandates;
+  if (others != null && others > 0) return null;
+
+  const months = Math.max(1, Math.round(departure.ageDays / 30));
+  return {
+    id: 'stealth_departure',
+    floor: MEDIUM_PRIORITY_SCORE,
+    reason:
+      `A quitté ${incumbent} ${departure.extra?.dateIsDetection ? 'vers le' : 'le'} ${departure.date} ` +
+      `(il y a ~${months} mois) et n’a ${others === 0 ? 'plus aucun mandat social' : 'aucune nouvelle société connue'} ` +
+      `depuis — silence typique d’un projet en stealth.`,
   };
 }
 
@@ -217,6 +282,7 @@ export function scoreLead(input) {
   for (const match of [
     matchesHighPriority(signals, context, today),
     matchesMediumPriority(signals, context, today),
+    matchesDeparture(signals, context, today),
   ]) {
     if (!match) continue;
     rules.push(match.id);
@@ -232,10 +298,20 @@ export function scoreLead(input) {
   // continuously, so it out-accumulates exactly the emerging teams this pipeline
   // exists to find. Score >= 80 now means "chercheur + brevet + société < 6 mois",
   // and nothing else; the weighted sum still orders everything below it.
-  const ceiling = rules.includes('researcher_patent_newco') ? 100 : HIGH_PRIORITY_SCORE - 1;
+  // `departure_newco` is the second pattern allowed into the band: an executive
+  // leaving a major group to direct a 3-month-old company is exactly the
+  // pre-round lead this pipeline exists for.
+  const ceiling =
+    rules.includes('researcher_patent_newco') || rules.includes('departure_newco') ? 100 : HIGH_PRIORITY_SCORE - 1;
   const score = Math.min(ceiling, Math.max(weighted, floor));
 
   return { score, priority: priorityFor(score), signals, reasons, rules };
+}
+
+function shiftDays(iso, days) {
+  const d = new Date(`${iso}T00:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + days);
+  return d.toISOString().slice(0, 10);
 }
 
 function round1(value) {

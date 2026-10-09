@@ -47,6 +47,7 @@ sources/  ──▶  lib/state.mjs  ──▶  resolve/  ──▶  score.mjs  �
 | `inpi.mjs` | INPI — RNE (**FR**) | free account | incorporations + **directors** |
 | `companieshouse.mjs` | Companies House (**GB**) | free API key | incorporations + **directors** |
 | `brreg.mjs` | Brønnøysund (**NO**) | **none** | incorporations + **directors** |
+| `departures.mjs` | Companies House (**GB**) + Recherche d'entreprises (**FR**) | UK key only | **officers leaving MedTech incumbents** — see below |
 | `registry.mjs` | Pappers (FR, same registry, **paid**) | yes | off by default — see below |
 
 Every connector produces the same `SourceRecord` (`lib/record.mjs`), so adding a
@@ -76,6 +77,32 @@ assumed:
 | Pan-European | OpenCorporates covers 200+ jurisdictions but charges for commercial use; the EU's BRIS has no recent-incorporation API |
 
 Germany is the notable gap, and there is no free way to close it today.
+
+### On the departures connector (« le dirigeant qui part et ne dit rien »)
+
+Someone who leaves a director seat at a MedTech incumbent and takes **no new
+public mandate** for months is often building something in stealth.
+`departures.mjs` watches the groups in `sources/data/incumbents.json` (registration
+numbers checked against the registers — add a line to watch one more):
+
+- **UK** — Companies House gives each officer's `resigned_on` *and* their other
+  appointments, so the departure is dated exactly and "no new mandate since" is
+  checked across every UK company. A new company is fetched for its incorporation date.
+- **FR** — the open *Recherche d'entreprises* API (no key) only lists *current*
+  officers, so departures come from a **roster diff** stored in
+  `signal-state/rosters-fr.json`: present last run, gone today. The first run only
+  seeds the roster; the date is the detection date (± one run).
+
+Two rules in `score.mjs`:
+
+| Rule | Floor | When |
+|---|---|---|
+| `departure_newco` | **80** (high) | left < 1 year ago **and** directs a company incorporated < 6 months ago (from 90 days before leaving onwards) — via UK appointments, or a registry creation the resolver joins to the same person |
+| `stealth_departure` | **50** (medium) | left < 1 year ago and **no** new mandate known (UK: zero active mandates left at all) |
+
+Limit, by design: registers only show **directors / legal officers**, not the
+engineers and researchers who also spin out. That population lives on LinkedIn,
+which stays excluded (terms of service).
 
 ### On the registry connectors
 

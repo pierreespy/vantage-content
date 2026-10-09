@@ -75,6 +75,8 @@ export function loadConfig(env = process.env) {
       'inpi',
       'companieshouse',
       'brreg',
+      // Officers leaving MedTech incumbents — the « départ silencieux » signal.
+      'departures',
     ]),
 
     /** Per-source credentials and query overrides. */

@@ -24,6 +24,7 @@ test('defaults are sane with a completely empty environment', () => {
     'inpi',
     'companieshouse',
     'brreg',
+    'departures',
   ]);
   // No credentials configured: those sources will skip themselves, not crash.
   assert.equal(config.epo.key, '');

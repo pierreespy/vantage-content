@@ -23,6 +23,7 @@ import * as registry from './registry.mjs';
 import * as inpi from './inpi.mjs';
 import * as companieshouse from './companieshouse.mjs';
 import * as brreg from './brreg.mjs';
+import * as departures from './departures.mjs';
 
 /**
  * The six connectors, each reduced to `id` + how to run it from the config.
@@ -130,6 +131,19 @@ export const SOURCES = [
       }),
   },
   {
+    id: 'departures',
+    label: 'Départs de dirigeants (Companies House + annuaire des entreprises)',
+    run: ({ http, config, now, logger }) =>
+      departures.fetchDepartures({
+        http,
+        now,
+        logger,
+        apiKey: config.companieshouse?.apiKey,
+        stateDir: config.stateDir,
+        dryRun: config.dryRun,
+      }),
+  },
+  {
     id: 'pappers',
     label: 'Registre légal (Pappers, payant)',
     run: ({ http, config, now, logger }) =>
@@ -158,6 +172,7 @@ export function hostIntervals(config) {
     [inpi.HOST]: inpi.MIN_INTERVAL_MS,
     [companieshouse.HOST]: companieshouse.MIN_INTERVAL_MS,
     [brreg.HOST]: brreg.MIN_INTERVAL_MS,
+    [departures.FR_HOST]: departures.FR_MIN_INTERVAL_MS,
   };
 }
 
