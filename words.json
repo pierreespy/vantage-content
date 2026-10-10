@@ -1,6 +1,166 @@
 {
-  "generatedAt": "2026-10-09",
+  "generatedAt": "2026-10-10",
   "words": [
+    {
+      "term": "CAR-Treg",
+      "full": "Chimeric Antigen Receptor Regulatory T cell (cellule T régulatrice à récepteur chimérique)",
+      "fr": "Lymphocyte T régulateur à récepteur antigénique chimérique",
+      "field": "Thérapie cellulaire",
+      "definition": "Un lymphocyte T régulateur du patient, équipé d'un récepteur chimérique, qui calme une réaction immunitaire au bon endroit au lieu de tuer des cellules.",
+      "parts": [
+        {
+          "label": "Treg",
+          "role": "le frein du système immunitaire"
+        },
+        {
+          "label": "Récepteur chimérique (CAR)",
+          "role": "le guidage vers la cible"
+        },
+        {
+          "label": "Signal de suppression",
+          "role": "l'effet apaisant"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Les Treg du patient sont isolés puis expansés."
+        },
+        {
+          "n": "2",
+          "h": "Ingénierie",
+          "t": "Un CAR est inséré pour qu'ils reconnaissent un tissu ou une cible précise."
+        },
+        {
+          "n": "3",
+          "h": "Suppression locale",
+          "t": "Réinjectés, ils inhibent plusieurs cellules immunitaires voisines (effet « bystander »)."
+        }
+      ],
+      "why": "Angle VC : un contre-pied des CAR-T cytotoxiques pour les maladies auto-immunes et la greffe, avec AstraZeneca et Regeneron déjà partenaires de Treg et un IPO TRex Bio le 9 octobre.",
+      "startups": [
+        {
+          "name": "Quell Therapeutics",
+          "use": "CAR-Treg QEL-005 (CD19) en essai CHILL Phase 1/2 dans la polyarthrite et la sclérodermie après CTA MHRA ; données précoces attendues au T1 2027",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Sonoma Biotherapeutics",
+          "use": "Thérapies Treg (candidat SBT-77-7101) en co-développement 50/50 avec Regeneron (75 M$ d'upfront, 2023) dans les MICI",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "TRex Bio",
+          "use": "TRB-061, protéine de fusion ciblant TNFR2 sur les Treg, en Phase 1 ; IPO de 117 M$ le 9 octobre 2026",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "BioSpace",
+          "title": "Quell Therapeutics initiates CHILL Phase 1/2 trial of QEL-005 CAR-Treg therapy following UK CTA approval",
+          "url": "https://www.biospace.com/press-releases/quell-therapeutics-initiates-chill-phase-1-2-trial-of-novel-qel-005-car-treg-therapy-in-refractory-rheumatoid-arthritis-and-systemic-sclerosis-following-uk-cta-approval"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "Regeneron and Sonoma Biotherapeutics announce collaboration to discover, develop and commercialize Treg cell therapies for autoimmune diseases",
+          "url": "https://www.businesswire.com/news/home/20230328005378/en"
+        },
+        {
+          "publisher": "Frontiers in Immunology",
+          "title": "Review (2025) on adoptive Treg therapy in autoimmune disease: polyclonal, CAR-Treg and TCR-Treg",
+          "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1511671/pdf"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "TRex Bio prices $117M IPO to support immune drug work",
+          "url": "https://www.biopharmadive.com/news/trex-bio-ipo-pricing-autoimmune-tregs/832297/"
+        }
+      ],
+      "date": "2026-10-10",
+      "dateLong": "10 oct. 2026"
+    },
+    {
+      "term": "Robotic Supermicrosurgery",
+      "full": "Robotic Supermicrosurgery (supermicrochirurgie robotisée)",
+      "fr": "Supermicrochirurgie assistée par robot",
+      "field": "Robotique chirurgicale",
+      "definition": "Suturer des vaisseaux de moins de 0,8 mm (par exemple lymphatiques) avec un robot qui filtre le tremblement de la main et démultiplie la précision du chirurgien.",
+      "parts": [
+        {
+          "label": "Console chirurgien",
+          "role": "le poste de commande"
+        },
+        {
+          "label": "Instruments micro-articulés",
+          "role": "les mains miniatures"
+        },
+        {
+          "label": "Optique grossissante",
+          "role": "les yeux"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mise à l'échelle",
+          "t": "Les mouvements du chirurgien sont réduits à l'échelle du micromètre."
+        },
+        {
+          "n": "2",
+          "h": "Filtrage du tremblement",
+          "t": "Le robot supprime les tremblements physiologiques de la main."
+        },
+        {
+          "n": "3",
+          "h": "Anastomose",
+          "t": "Les instruments suturent des vaisseaux minuscules, par exemple une anastomose lymphovéneuse (LVA) contre le lymphœdème."
+        }
+      ],
+      "why": "Angle VC : un marché de niche mais sans standard établi (les revues 2025 montrent une perméabilité initiale de 97-100 %, mais 66,6 % contre 81,8 % à 12 mois pour la LVA robotisée vs manuelle), avec un tour de 125 M$ pour MMI qui valide le besoin de capital.",
+      "startups": [
+        {
+          "name": "MMI (Medical Microinstruments)",
+          "use": "Robot Symani : De Novo FDA 2024, CE-marqué, ~50 systèmes installés, Series D de 125 M$ en octobre 2026",
+          "place": "Floride, États-Unis"
+        },
+        {
+          "name": "Microsure",
+          "use": "Robot MUSA-3 ; Series B2 de 38 M€ (2023) pour finaliser le développement avant FDA et marquage CE ; MUSA-2 utilisé chez ~50 patients à Maastricht et Uppsala",
+          "place": "Eindhoven, Pays-Bas"
+        },
+        {
+          "name": "ForSight Robotics",
+          "use": "Plateforme Oryom de chirurgie oculaire (cataracte) robotisée ; Series B de 125 M$ en juin 2025 menée par Eclipse",
+          "place": "Israël"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MedTech Dive",
+          "title": "MMI raises $125M to scale up in robotic microsurgery",
+          "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+        },
+        {
+          "publisher": "Plastic and Reconstructive Surgery Global Open / GWU",
+          "title": "Robotic-assisted Supermicrosurgery in Plastic Surgery: A Systematic Literature Review",
+          "url": "https://hsrc.himmelfarb.gwu.edu/gwhpubs/7572"
+        },
+        {
+          "publisher": "Brainport Eindhoven",
+          "title": "38 million for pioneering robot that sets new standard in microsurgery",
+          "url": "https://brainporteindhoven.com/en/news/38-million-for-pioneering-robot-that-sets-new-standard-in-microsurgery"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "ForSight Robotics raises $125M for robotic cataract surgery tech",
+          "url": "https://www.massdevice.com/forsight-robotics-raises-125m-for-robotic-cataract-surgery-tech/"
+        }
+      ],
+      "date": "2026-10-10",
+      "dateLong": "10 oct. 2026"
+    },
     {
       "term": "Molecular Glue Degrader",
       "full": "Molecular Glue Degrader (MGD, dégradeur de type colle moléculaire)",

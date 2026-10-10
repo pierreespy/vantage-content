@@ -1,126 +1,202 @@
 {
-  "dateLong": "Oct 9, 2026",
+  "dateLong": "Oct 10, 2026",
   "ticker": [
-    { "company": "RougeTx", "amount": "$58M", "kind": "lev" },
-    { "company": "Genmab", "amount": "HR 0.49", "kind": "tech" },
-    { "company": "Sensible Bio", "amount": "$47M", "kind": "lev" },
-    { "company": "Rivercell", "amount": "Seed", "kind": "new" },
-    { "company": "Argenx", "amount": "Futility", "kind": "tech" },
-    { "company": "Defand", "amount": "Licensing", "kind": "mna" }
-  ],
-  "lead": {
-    "kicker": "Launch · Rare diseases",
-    "title": "RougeTx emerges from stealth with a $58M Series A for its first drug against hereditary hemorrhagic telangiectasia",
-    "deck": "The Dutch biotech raises $58M (€52M), co-led by BioGeneration Ventures, Angelini Ventures and Kurma Partners, with the EIB via Angelini's Aurea vehicle. The funds take RTX-001, a small molecule that helps pericytes attach to blood vessels and stabilise them, towards first-in-human trials in HHT, a hereditary bleeding disorder with no approved therapy.",
-    "company": "RougeTx",
-    "stage": "Series A",
-    "sector": "Biotech",
-    "pillar": "naissances",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/rougetx-launches-with-58m-to-tackle-rare-bleeding-disorder/"
-  },
-  "milestone": {
-    "company": "Genmab",
-    "milestone": "Positive Phase 3",
-    "title": "Genmab and AbbVie: epcoritamab added to R-CHOP cuts the risk of progression or death by 51% in diffuse large B-cell lymphoma",
-    "summary": "In EPCORE DLBCL-2 (about 900 patients randomised 2:1, subcutaneous CD20×CD3 bispecific as a fixed course), the primary progression-free survival endpoint reaches an HR of 0.49 in IPI 3-5 patients, and the same HR in the overall population. Absolute rates, overall survival and detailed tolerability are not yet disclosed; Genmab shares rise about 8% in Copenhagen.",
-    "why": "A bispecific could become the frontline standard in DLBCL, repricing the whole CD20×CD3 field and its competitors (Polivy, tafasitamab) and feeding the debate on the value of European antibody platforms.",
-    "place": "Copenhagen",
-    "sector": "Oncology",
-    "signalType": "clinical_update",
-    "url": "https://european-biotechnology.com/latest-news/genmab-and-abbvies-bispecific-antibody-halves-progression-or-death-risk-in-lymphoma-trial/"
-  },
-  "deal": {
-    "company": "Sensible Biotechnologies",
-    "amount": "$47M",
-    "round": "Mixed financing",
-    "thesis": "Oxford Science Enterprises leads this $47M package (OTB Ventures and In-Q-Tel come in, Y Combinator and BlueYard follow), topped up by up to $20M of non-dilutive Slovak and EU funding. Sensible makes mRNA inside engineered living cells instead of by in vitro transcription: lower production cost and less immunogenicity for therapies needing high or repeated doses.",
-    "sector": "RNA",
-    "url": "https://european-biotechnology.com/latest-news/sensible-secures-47m-to-rethink-mrna-manufacturing/"
-  },
-  "brefsEurope": [
     {
-      "company": "Rivercell",
-      "place": "Paris",
-      "sector": "AI drug discovery",
-      "stage": "Seed",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Rivercell raises $25M seed led by HV Capital to build an AI \"virtual cell\"",
-      "summary": "HCVC, Alven and Bpifrance Digital Venture participate; the automated platform generates time-resolved single-cell data after treatment to train a predictive model. Founded by Yann Fleureau (co-founder of Cardiologs, acquired by Philips) and Eric Durand (ex-Novartis, Owkin, Bioptimus).",
-      "url": "https://european-biotechnology.com/latest-news/rivercell-raises-25m-to-build-an-ai-virtual-cell/"
+      "company": "Alentis",
+      "amount": "$355M",
+      "kind": "mna"
+    },
+    {
+      "company": "Forbion",
+      "amount": "€2.3B",
+      "kind": "lev"
     },
     {
       "company": "Argenx",
-      "place": "Ghent",
-      "sector": "Immunology",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Argenx halts its Phase 3 UNITY trial of efgartigimod in Sjögren's for futility; shares fall about 18%",
-      "summary": "An independent committee judged the primary endpoint (systemic disease activity at 48 weeks) could not be met, with no new safety signal. The same day, FB102 (from Forte Biosciences) met its primary endpoint in a 126-patient Phase 2 celiac disease trial and will move to Phase 3.",
-      "url": "https://european-biotechnology.com/latest-news/argenx-halts-phase-3-sjogrens-trial-sending-shares-tumbling/"
+      "amount": "Ph2 ✓",
+      "kind": "tech"
     },
     {
-      "company": "ADC Therapeutics",
-      "place": "Épalinges",
-      "sector": "Oncology",
+      "company": "Newron",
+      "amount": "FDA hold",
+      "kind": "reg"
+    },
+    {
+      "company": "Merck/Halozyme",
+      "amount": "Patent",
+      "kind": "reg"
+    },
+    {
+      "company": "TRex Bio",
+      "amount": "$117M",
+      "kind": "lev"
+    }
+  ],
+  "lead": {
+    "kicker": "Licensing · Immunology",
+    "title": "CSL pays $355M upfront to Swiss biotech Alentis for its anti-claudin-1 antibody lixudebart",
+    "deck": "Up to $1.6B in total ($1.2B in milestones); CSL funds the Phase 2 RENAL trial and a planned Phase 3 in AAV-RPGN kidney vasculitis, then development in FSGS and PSC. Profits split 55% CSL / 45% Alentis: rare validation for a clinical-stage Swiss biotech.",
+    "company": "Alentis",
+    "sector": "Immunology",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 5,
+    "url": "https://www.biospace.com/deals/csl-strikes-up-to-1-6b-deal-with-alentis-for-autoimmune-drug-with-broad-potential"
+  },
+  "milestone": {
+    "company": "Argenx",
+    "milestone": "Phase 2 met",
+    "title": "Argenx: FB102 hits its Phase 2 primary endpoint in celiac disease, but the UNITY Sjögren's trial is stopped",
+    "summary": "FB102 (a CD122 inhibitor acquired from Forte Biosciences for $2.2B) shows a significant effect on a small-intestine health measure. Meanwhile an independent committee halts Vyvgart Hytrulo's Phase 3 UNITY trial for futility.",
+    "why": "The first Phase 2 evidence that blocking CD122 can prevent gluten-induced intestinal damage opens a new franchise; dropping Sjögren's (peak sales estimated at $1.4B) is a reminder of label-expansion risk.",
+    "place": "Netherlands",
+    "sector": "Immunology",
+    "signalType": "clinical_update",
+    "url": "https://www.biospace.com/drug-development/argenx-shutters-sjogrens-study-losing-blockbuster-expansion-opportunity-for-vyvgart"
+  },
+  "deal": {
+    "company": "IntraBio",
+    "amount": "$2B",
+    "round": "M&A",
+    "thesis": "Shionogi pays $2B upfront for IntraBio (Aqneursa for Niemann-Pick type C and ataxia-telangiectasia; $68M 2025 sales): Jefferies estimates ~$1B peak sales. A comparable for rare disease assets with an approved product.",
+    "sector": "Biotech",
+    "url": "https://www.biospace.com/deals/shionogi-makes-2b-rare-disease-play-with-intrabio-buy"
+  },
+  "brefsEurope": [
+    {
+      "company": "Forbion",
+      "place": "Netherlands",
+      "sector": "Fund",
       "pillar": "financement",
       "signalType": "funding_round",
+      "strength": 4,
+      "title": "Forbion raises €2.3B ($2.6B) for Growth Opportunities IV and Ventures Fund VIII",
+      "summary": "Forbion's largest raise ever (€7.5B under management); LPs include MN, PGGM, KfW Capital, Eli Lilly and the Kauffman Foundation. Capacity for up to 30 young biotechs: fresh European early-stage capital.",
+      "url": "https://www.biopharmadive.com/news/forbion-venture-capital-growth-fund-fundraise/832254/"
+    },
+    {
+      "company": "Newron Pharmaceuticals",
+      "place": "Italy",
+      "sector": "Neurosciences",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "ADC Therapeutics secures an $86.6M private placement, with Bain Capital Life Sciences as new investor, and restructures its debt",
-      "summary": "Redmile, TCGX and Nantahala follow; the senior loan is cut to $50M and the $150M payment to HealthCare Royalty on a change of control is removed. The cash backs Zynlonta Phase 3 studies, while the FDA raised benefit-risk concerns on LOTIS-5 in August.",
-      "url": "https://european-biotechnology.com/latest-news/adc-therapeutics-buys-time-for-zynlonta-with-86-6m-financing/"
+      "title": "Newron discloses 4 deaths on evenamide (0.56%) vs 1 on placebo; FDA clinical hold maintained",
+      "summary": "The hold covers Phase 3 ENIGMA-TRS 2 in schizophrenia; recruitment continues outside the US. Newron is weighing enhanced cardiac monitoring (10,000+ ECGs, ~700 patients).",
+      "url": "https://www.biospace.com/drug-development/newron-reveals-5-deaths-in-late-stage-schizophrenia-program-as-fda-maintains-hold"
+    },
+    {
+      "company": "Halozyme",
+      "place": "United States",
+      "sector": "Biotech",
+      "pillar": "marche",
+      "signalType": "patent_filing",
+      "strength": 3,
+      "title": "Dutch court bars Merck from subcutaneous Keytruda in 8 European countries (Halozyme patent)",
+      "summary": "Belgium, Denmark, France, Ireland, Italy, Sweden, Switzerland and the Netherlands: the court finds Keytruda SC infringes Halozyme's MDASE patent. A precedent for subcutaneous formulation IP.",
+      "url": "https://www.biospace.com/drug-delivery/merck-barred-from-making-subcutaneous-keytruda-in-8-european-countries"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Defand Therapeutics",
-      "place": "Hangzhou",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Roche partners with Defand on molecular glue degraders, in a deal reportedly worth close to $1B in total",
-      "summary": "Research and licensing agreement with an option to expand to more targets; the financial terms come only from Endpoints News (anonymous source, upfront reportedly under $10M). A comparable for the value of early-stage molecular glue platforms.",
-      "url": "https://european-biotechnology.com/latest-news/roche-taps-chinese-biotech-defand-in-reported-1b-deal/"
+      "company": "TRex Bio",
+      "place": "United States",
+      "sector": "Immunology",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "TRex Bio raises $117M in an IPO at $14 a share for its Treg-targeting TNFR2 agonist",
+      "summary": "TRB-061 is in Phase 1 (data expected in 2027); Eli Lilly held ~24% before the IPO. A sign the Nasdaq is reopening for immunology.",
+      "url": "https://www.biopharmadive.com/news/trex-bio-ipo-pricing-autoimmune-tregs/832297/"
     },
     {
-      "company": "Pacira BioSciences",
-      "place": "Parsippany",
-      "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "acquisition",
+      "company": "Abogen Biosciences",
+      "place": "China",
+      "sector": "RNA",
+      "pillar": "marche",
+      "signalType": "early_partnership",
       "strength": 5,
-      "title": "Viatris to acquire Pacira for $1.65B ($36.50 per share, 45% premium) for two non-opioid pain drugs",
-      "summary": "Exparel and Zilretta had combined 2025 sales of $692M; closing expected by the end of 2026. A multiple comparable for non-opioid analgesics, not an entry opportunity.",
-      "url": "https://www.biopharmadive.com/news/viatris-pacira-acquire-pain-drug-zilretto-exparel/832481/"
+      "title": "Novartis pays $575M upfront to Abogen for an mRNA-encoded CD3×CD19 T cell engager",
+      "summary": "Up to $7.8B in total (~$7.2B in milestones): the product is made in vivo from mRNA, an alternative to cell therapies.",
+      "url": "https://www.biopharmadive.com/news/novartis-abogen-pipeline-collaboration-china/832008/"
     }
   ],
   "word": {
-    "term": "Molecular Glue Degrader",
-    "full": "Molecular Glue Degrader (MGD)",
-    "fr": "Molecular glue that triggers protein degradation",
-    "field": "Targeted protein degradation",
-    "definition": "A small molecule that glues a disease protein to the cell's cleaning machinery, which then destroys it instead of merely blocking it.",
+    "term": "CAR-Treg",
+    "full": "Chimeric Antigen Receptor Regulatory T cell",
+    "fr": "Chimeric antigen receptor regulatory T cell",
+    "field": "Cell therapy",
+    "definition": "A patient's regulatory T cell fitted with a chimeric receptor that calms an immune reaction at the right place instead of killing cells.",
     "parts": [
-      { "label": "Target protein", "role": "the target: the disease protein to eliminate" },
-      { "label": "E3 ligase", "role": "the recycler: the enzyme that tags proteins for destruction" },
-      { "label": "Glue small molecule", "role": "the glue: brings target and ligase together though they have no natural link" }
+      {
+        "label": "Treg",
+        "role": "the immune system's brake"
+      },
+      {
+        "label": "Chimeric receptor (CAR)",
+        "role": "the homing guide"
+      },
+      {
+        "label": "Suppression signal",
+        "role": "the calming effect"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Bringing together", "t": "The molecule binds the E3 ligase and creates a surface that recognises the target protein." },
-      { "n": "2", "h": "Tagging", "t": "The ligase attaches ubiquitin tags to the target." },
-      { "n": "3", "h": "Destruction", "t": "The proteasome destroys the tagged protein; the molecule can start over." }
+      {
+        "n": "1",
+        "h": "Collection",
+        "t": "The patient's Tregs are isolated and expanded."
+      },
+      {
+        "n": "2",
+        "h": "Engineering",
+        "t": "A CAR is inserted so they recognise a specific tissue or target."
+      },
+      {
+        "n": "3",
+        "h": "Local suppression",
+        "t": "Once reinfused, they inhibit several neighbouring immune cells (a \"bystander\" effect)."
+      }
     ],
-    "why": "VC angle: it opens targets once thought undruggable with small oral molecules; pharma deals run to billions in milestones, but clinical data remain scarce, hence the interest in watching discovery platforms before their first readout.",
+    "why": "VC angle: the opposite of cytotoxic CAR-T for autoimmunity and transplant, with AstraZeneca and Regeneron already partnered on Tregs and TRex Bio's October 9 IPO.",
     "startups": [
-      { "name": "Neomorph", "use": "Molecular glue pioneer; $100M Series B led by Deerfield in April 2026, funding the Phase 1/2 trial of NEO-811 (oral ARNT degrader) in clear cell renal cell carcinoma.", "place": "San Diego, USA" },
-      { "name": "Monte Rosa Therapeutics", "use": "Nasdaq-listed (GLUE) with three clinical programs (MRT-6160, MRT-8102, MRT-2359) and a Roche collaboration ($50M upfront in 2023).", "place": "Boston, USA" },
-      { "name": "Proxygen", "use": "CeMM spin-off in Vienna; collaboration with Merck KGaA worth up to €495M (2022) and a licensing deal with Merck & Co. (2023).", "place": "Vienna, Austria" },
-      { "name": "Defand Therapeutics", "use": "Molecular glue screening platform; research and licensing agreement with Roche announced on October 8, 2026.", "place": "Hangzhou, China" }
+      {
+        "name": "Quell Therapeutics",
+        "use": "CAR-Treg QEL-005 (CD19) in the CHILL Phase 1/2 trial in rheumatoid arthritis and systemic sclerosis after MHRA CTA approval; early data expected Q1 2027",
+        "place": "London, UK"
+      },
+      {
+        "name": "Sonoma Biotherapeutics",
+        "use": "Treg therapies (candidate SBT-77-7101) co-developed 50/50 with Regeneron ($75M upfront, 2023) in IBD",
+        "place": "California, USA"
+      },
+      {
+        "name": "TRex Bio",
+        "use": "TRB-061, a fusion protein targeting TNFR2 on Tregs, in Phase 1; $117M IPO on October 9, 2026",
+        "place": "USA"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "BioSpace",
+        "title": "Quell Therapeutics initiates CHILL Phase 1/2 trial of QEL-005 CAR-Treg therapy following UK CTA approval",
+        "url": "https://www.biospace.com/press-releases/quell-therapeutics-initiates-chill-phase-1-2-trial-of-novel-qel-005-car-treg-therapy-in-refractory-rheumatoid-arthritis-and-systemic-sclerosis-following-uk-cta-approval"
+      },
+      {
+        "publisher": "Business Wire",
+        "title": "Regeneron and Sonoma Biotherapeutics announce collaboration to discover, develop and commercialize Treg cell therapies for autoimmune diseases",
+        "url": "https://www.businesswire.com/news/home/20230328005378/en"
+      },
+      {
+        "publisher": "Frontiers in Immunology",
+        "title": "Review (2025) on adoptive Treg therapy in autoimmune disease: polyclonal, CAR-Treg and TCR-Treg",
+        "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1511671/pdf"
+      },
+      {
+        "publisher": "BioPharma Dive",
+        "title": "TRex Bio prices $117M IPO to support immune drug work",
+        "url": "https://www.biopharmadive.com/news/trex-bio-ipo-pricing-autoimmune-tregs/832297/"
+      }
     ]
   }
 }

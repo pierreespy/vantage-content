@@ -1,100 +1,183 @@
 {
-  "dateLong": "Oct 9, 2026",
+  "dateLong": "Oct 10, 2026",
   "ticker": [
-    { "company": "INBRAIN", "amount": "Prototype", "kind": "tech" },
-    { "company": "Sonorous", "amount": "IDE", "kind": "reg" },
-    { "company": "Cori Clinical", "amount": "$4M", "kind": "lev" },
-    { "company": "Abbott", "amount": "FDA", "kind": "reg" },
-    { "company": "OXOS Medical", "amount": "BARDA", "kind": "reg" },
-    { "company": "GE HealthCare", "amount": "$945M", "kind": "mna" }
+    {
+      "company": "MMI",
+      "amount": "$125M",
+      "kind": "lev"
+    },
+    {
+      "company": "Argus Cognitive",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "BD",
+      "amount": "Endpoint ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Epicore",
+      "amount": "Partnership",
+      "kind": "tech"
+    },
+    {
+      "company": "Convatec",
+      "amount": "R&D",
+      "kind": "tech"
+    },
+    {
+      "company": "SurGenTec",
+      "amount": "License",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Project results · Neurotech",
-    "title": "INBRAIN Neuroelectronics and the MINIGRAPH consortium (EIC) validate a graphene implant for deep brain stimulation, with electrode stability projected beyond 10 years",
-    "deck": "The European project, coordinated by ICN2 (Catalonia) with ETH Zurich, Fraunhofer, imec and LUMC, validated an integrated prototype of graphene probes that decode activity across hundreds of neural sites, plus a minimally invasive delivery route using magnetic navigation designed with Nanoflex Robotics and tested in a large animal model. First target: Parkinson's disease; no patient has been implanted in this project yet, which remains preclinical.",
-    "company": "INBRAIN Neuroelectronics",
-    "sector": "Neurotech",
-    "pillar": "innovation",
-    "signalType": "grant_award",
-    "strength": 3,
-    "url": "https://www.medicaldevice-network.com/news/inbrain-data-minigraph-project-brain-disorders/"
+    "kicker": "Series D · Surgical robotics",
+    "title": "MMI raises $125M Series D led by BioStar Capital to scale its Symani microsurgery robot",
+    "deck": "Angelini Ventures and S3 Ventures join the round; Symani is CE-marked, won FDA De Novo in 2024 and has about 50 systems installed for ~3,500 procedures. Proceeds fund commercial rollout, energy instruments and the REMIND trial (deep cervical lymph node drainage in neurodegenerative disease).",
+    "company": "MMI",
+    "stage": "Growth",
+    "sector": "Surgical robotics",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
   },
   "milestone": {
-    "company": "Sonorous Neurovascular",
-    "milestone": "FDA IDE",
-    "title": "Sonorous wins FDA IDE for the B-SILENT 2 pivotal trial of its BosSTENT for pulsatile tinnitus",
-    "summary": "BosSTENT is a self-expanding stent for the cerebral venous sinuses; it received FDA Breakthrough Device designation in February 2026 and B-SILENT 2 enrolment is expected in Q4 2026. The separate B-SILENT study is already enrolling at six sites in France and Canada.",
-    "why": "A niche indication with no dedicated treatment moves into a pivotal phase: the signal of a company approaching a marketing application, with part of the clinical data generated in Europe.",
-    "place": "California (trial sites in France)",
-    "sector": "Neurovascular",
+    "company": "Argus Cognitive",
+    "milestone": "FDA clearance",
+    "title": "Argus Cognitive wins FDA clearance for Neurora, an AI tool supporting paediatric autism diagnosis",
+    "summary": "Neurora, a Class II software as a medical device (SaMD), analyses 100+ vocal, facial and gaze biometrics from a behavioural assessment video (children aged 18 months to 12 years). Developed with an NIH SBIR grant.",
+    "why": "Autism diagnosis is bottlenecked by specialist shortages; an FDA-cleared SaMD shows AI can slot into the clinical pathway as decision support, not as a standalone diagnosis.",
+    "sector": "Diagnostics",
     "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/sonorous-wins-fda-ide-for-pulsatile-tinnitus-stent-pivotal-trial-initiation/"
+    "url": "https://www.medicaldevice-network.com/news/argus-cognitive-paediatric-autism-diagnostic-secures-fda-clearance/"
   },
-  "deal": {
-    "company": "Cori Clinical",
-    "amount": "$4M",
-    "round": "Seed",
-    "thesis": "Breega leads this seed (with Enzo, Heartfelt, Together Ventures and Bynd) for an AI platform that turns a simple trial brief into a full protocol, submission package and operational plans aligned with current regulation. The bet: fewer trial delays, hence shorter time-to-market for devices and drugs.",
-    "sector": "Digital Health",
-    "url": "https://tech.eu/2026/10/07/cori-clinical-secures-4m-seed-to-improve-clinical-trial-design-and-cut-delays/"
-  },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Convatec",
+      "place": "United Kingdom",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Convatec plans to expand its Boston R&D site by 50% and open a Manchester facility",
+      "summary": "CEO Jonny Mason leans on a $1B, ten-year US/UK R&D plan, eight product launches planned for 2026-2027 and a 6-8% sales growth target next year. A market comparable, not an entry opportunity.",
+      "url": "https://www.medtechdive.com/news/after-years-long-turnaround-convatecs-new-ceo-plans-rd-push/832127/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Abbott",
-      "place": "Illinois (USA)",
+      "company": "BD",
+      "place": "United States",
       "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Abbott gets FDA approval for updates to its CardioMEMS heart failure monitoring sensor",
-      "summary": "Patients will see their pulmonary artery pressure on a smartphone and receive medication updates; clinicians will adjust drugs through a dynamic treatment plan, available later in 2026. A benchmark for every European implantable-monitoring player.",
-      "url": "https://www.medtechdive.com/news/abbott-gets-fda-nod-for-updates-to-heart-failure-monitoring-system/832370/"
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "BD hits the primary endpoint at nine months in the AGILITY trial of the Revello covered stent",
+      "summary": "120 patients at 28 sites (including Europe): 2.8% primary failure vs a 19% goal, 97.2% primary patency. The stent is CE-marked and investigational-only in the US.",
+      "url": "https://www.medicaldevice-network.com/news/bd-agility-trial-data-revello-stent/"
     },
     {
-      "company": "OXOS Medical",
-      "place": "USA",
-      "sector": "Imaging",
-      "pillar": "marche",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "OXOS Medical wins a BARDA contract worth up to $24.4M for its ultra-portable OXOS X3 x-ray system",
-      "summary": "Cost-share contract: OXOS matches the contribution, for a potential total value of $48.8M. It shows US public funders' appetite for imaging deployable outside the hospital.",
-      "url": "https://www.medicaldevice-network.com/news/oxos-medical-wins-24m-barda-contract-for-next-gen-portable-x-ray-system/"
+      "company": "Epicore Biosystems",
+      "place": "United States",
+      "sector": "Diagnostics",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Epicore teams with MECFA on a wearable sweat-chloride sensor for cystic fibrosis",
+      "summary": "The Chloride Tracker combines sweat stimulation and chloride sensing in one connected patch; clinical evaluation will run at Marmara University (Istanbul).",
+      "url": "https://www.medicaldevice-network.com/news/epicore-mecfa-wearable-cystic-fibrosis-test/"
     },
     {
-      "company": "GE HealthCare",
-      "place": "USA",
-      "sector": "Imaging",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "GE HealthCare to acquire Sofie Biosciences for $945M to enter radiopharmaceutical manufacturing and distribution",
-      "summary": "A valuation comparable: device majors are paying up for tracer production infrastructure as theranostics grows.",
-      "url": "https://www.medtechdive.com/news/ge-healthcare-to-acquire-sofie-biosciences-for-945m/832148/"
+      "company": "SurGenTec",
+      "place": "Boca Raton, United States",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "SurGenTec signs exclusive licence with Allevion Medical for the Vantage lumbar decompression system",
+      "summary": "A sterile, single-use system for minimally invasive lumbar decompression (stenosis), with integrated illumination and depth-controlled bone resection.",
+      "url": "https://www.medicaldevice-network.com/news/surgentec-licence-deal-allevion-vantage/"
     }
   ],
   "word": {
-    "term": "Remote Magnetic Navigation",
-    "full": "Remote Magnetic Navigation (RMN)",
-    "fr": "Magnetic steering of devices from outside the body",
-    "field": "Interventional robotics",
-    "definition": "Magnets steer the tip of a catheter or probe through vessels or the brain from outside the body, so the physician does not push the tool by hand.",
+    "term": "Robotic Supermicrosurgery",
+    "full": "Robotic Supermicrosurgery",
+    "fr": "Robot-assisted supermicrosurgery",
+    "field": "Surgical robotics",
+    "definition": "Suturing vessels under 0.8 mm (e.g. lymphatics) with a robot that filters hand tremor and scales down the surgeon's motion for extreme precision.",
     "parts": [
-      { "label": "Magnetic field unit", "role": "the pilot: generates the field that orients the tool" },
-      { "label": "Magnetised tool", "role": "the vehicle: a catheter, guidewire or probe whose tip responds to the field" },
-      { "label": "Imaging and software", "role": "the GPS: x-ray and real-time tracking to guide the path" }
+      {
+        "label": "Surgeon console",
+        "role": "the control seat"
+      },
+      {
+        "label": "Micro-articulated instruments",
+        "role": "the miniature hands"
+      },
+      {
+        "label": "Magnifying optics",
+        "role": "the eyes"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Planning", "t": "The surgeon defines the trajectory from the patient's imaging." },
-      { "n": "2", "h": "Steering", "t": "The magnetic unit orients the tool tip through small adjustments of the field." },
-      { "n": "3", "h": "Control", "t": "Imaging confirms the position; the operator can drive from a console, even remotely." }
+      {
+        "n": "1",
+        "h": "Motion scaling",
+        "t": "The surgeon's movements are scaled down to the micrometre range."
+      },
+      {
+        "n": "2",
+        "h": "Tremor filtering",
+        "t": "The robot removes physiological hand tremor."
+      },
+      {
+        "n": "3",
+        "h": "Anastomosis",
+        "t": "Instruments suture tiny vessels, e.g. a lymphovenous anastomosis (LVA) against lymphedema."
+      }
     ],
-    "why": "VC angle: it opens up tele-intervention (remote thrombectomy, minimally invasive brain access) and makes surgical expertise scalable; the barrier is regulatory and capital-intensive, but early installers build a clinical dataset that is hard to catch up with.",
+    "why": "VC angle: a niche market with no established standard (2025 reviews show 97-100% initial patency, but 66.6% vs 81.8% at 12 months for robotic vs manual LVA), and MMI's $125M round validates the capital need.",
     "startups": [
-      { "name": "Nanoflex Robotics", "use": "ETH Zurich spin-off: its Remote Intervention System magnetically guides endovascular devices, targeting stroke thrombectomy (Series A of over $12M led by Ascend Capital Partners).", "place": "Zurich, Switzerland" },
-      { "name": "INBRAIN Neuroelectronics", "use": "Uses a magnetic-navigation delivery route, designed with Nanoflex and ETH Zurich, to place its graphene probes in the MINIGRAPH project (Parkinson's).", "place": "Barcelona, Spain" },
-      { "name": "Stereotaxis", "use": "Listed incumbent (NYSE: STXS): its Genesis robotic magnetic navigation system for electrophysiology keeps landing in new European hospitals, including the University of Szeged in Hungary in July 2026.", "place": "Missouri, USA" }
+      {
+        "name": "MMI (Medical Microinstruments)",
+        "use": "Symani robot: FDA De Novo 2024, CE-marked, ~50 systems installed, $125M Series D in October 2026",
+        "place": "Florida, USA"
+      },
+      {
+        "name": "Microsure",
+        "use": "MUSA-3 robot; €38M Series B2 (2023) to finish development ahead of FDA and CE; MUSA-2 used in ~50 patients at Maastricht and Uppsala",
+        "place": "Eindhoven, Netherlands"
+      },
+      {
+        "name": "ForSight Robotics",
+        "use": "Oryom robotic eye (cataract) surgery platform; $125M Series B in June 2025 led by Eclipse",
+        "place": "Israel"
+      }
+    ],
+    "sources": [
+      {
+        "publisher": "MedTech Dive",
+        "title": "MMI raises $125M to scale up in robotic microsurgery",
+        "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+      },
+      {
+        "publisher": "Plastic and Reconstructive Surgery Global Open / GWU",
+        "title": "Robotic-assisted Supermicrosurgery in Plastic Surgery: A Systematic Literature Review",
+        "url": "https://hsrc.himmelfarb.gwu.edu/gwhpubs/7572"
+      },
+      {
+        "publisher": "Brainport Eindhoven",
+        "title": "38 million for pioneering robot that sets new standard in microsurgery",
+        "url": "https://brainporteindhoven.com/en/news/38-million-for-pioneering-robot-that-sets-new-standard-in-microsurgery"
+      },
+      {
+        "publisher": "MassDevice",
+        "title": "ForSight Robotics raises $125M for robotic cataract surgery tech",
+        "url": "https://www.massdevice.com/forsight-robotics-raises-125m-for-robotic-cataract-surgery-tech/"
+      }
     ]
   }
 }
