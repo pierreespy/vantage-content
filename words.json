@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-10",
+  "generatedAt": "2026-10-11",
   "words": [
+    {
+      "term": "Quantitative CT",
+      "full": "Quantitative CT (qCT, scanner thoracique quantitatif par IA)",
+      "fr": "Scanner quantitatif",
+      "field": "Imagerie & IA",
+      "definition": "Un logiciel d'IA transforme un scanner en chiffres reproductibles (volume de lésions, densité, vaisseaux) au lieu d'une simple lecture visuelle du radiologue.",
+      "parts": [
+        {
+          "label": "Segmentation IA",
+          "role": "le découpage des structures"
+        },
+        {
+          "label": "Biomarqueur",
+          "role": "le chiffre mesuré"
+        },
+        {
+          "label": "Référence clinique",
+          "role": "la validation sur essai"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Acquisition",
+          "t": "Le scanner thoracique standard est envoyé au logiciel, sans nouvel examen."
+        },
+        {
+          "n": "2",
+          "h": "Quantification",
+          "t": "L'algorithme segmente poumons, voies aériennes et vaisseaux, puis calcule des scores (ex. étendue totale de la maladie)."
+        },
+        {
+          "n": "3",
+          "h": "Suivi",
+          "t": "Les scores sont comparés dans le temps pour suivre la progression et la réponse au traitement."
+        }
+      ],
+      "why": "Pour un VC, c'est un pont entre MedTech et pharma : un biomarqueur d'imagerie validé sur un essai de phase III peut devenir un critère d'essai vendu aux laboratoires, en plus du revenu hospitalier.",
+      "startups": [
+        {
+          "name": "Brainomix",
+          "use": "e-Lung, quantification de la fibrose pulmonaire sur scanner, validée sur l'essai INBUILD ; Series C portée à 18,8 M£ en février 2026",
+          "place": "Oxford, Royaume-Uni"
+        },
+        {
+          "name": "Thirona",
+          "use": "LungQ, analyse quantitative des scanners thoraciques ; LungQ 4 cleared par la FDA (510(k)) en octobre 2025",
+          "place": "Nimègue, Pays-Bas"
+        },
+        {
+          "name": "Quibim",
+          "use": "Biomarqueurs d'imagerie par IA (IRM, scanner, TEP) ; Series A de 50 M$ en janvier 2025",
+          "place": "Valence, Espagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Medical Device Network",
+          "title": "Brainomix's e-Lung shows progression and treatment response in Phase III trial",
+          "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Brainomix Extends Series C Financing to $25.4M (£18.8M) to Support U.S. Expansion",
+          "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260224EN93357"
+        },
+        {
+          "publisher": "AuntMinnie",
+          "title": "Thirona receives FDA clearance for LungQ 4 software",
+          "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15769560/thirona-receives-fda-clearance-for-lungq-4-software"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "Quibim announces $50 million Series A financing",
+          "url": "https://www.businesswire.com/news/home/20250128971469/en"
+        }
+      ],
+      "date": "2026-10-11",
+      "dateLong": "11 oct. 2026"
+    },
     {
       "term": "CAR-Treg",
       "full": "Chimeric Antigen Receptor Regulatory T cell (cellule T régulatrice à récepteur chimérique)",

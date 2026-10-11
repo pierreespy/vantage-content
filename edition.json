@@ -1,182 +1,183 @@
 {
-  "dateLong": "10 oct. 2026",
+  "dateLong": "11 oct. 2026",
   "ticker": [
     {
-      "company": "MMI",
-      "amount": "$125M",
+      "company": "Archeon",
+      "amount": "$9M",
       "kind": "lev"
     },
     {
-      "company": "Argus Cognitive",
+      "company": "Brainomix",
+      "amount": "Ph3 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Averly Health",
+      "amount": "Création",
+      "kind": "new"
+    },
+    {
+      "company": "Intuitive",
+      "amount": "CE",
+      "kind": "reg"
+    },
+    {
+      "company": "Happy Health",
       "amount": "FDA",
       "kind": "reg"
     },
     {
-      "company": "BD",
-      "amount": "Endpoint ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Epicore",
+      "company": "Truvian",
       "amount": "Partenariat",
-      "kind": "tech"
-    },
-    {
-      "company": "Convatec",
-      "amount": "R&D",
-      "kind": "tech"
-    },
-    {
-      "company": "SurGenTec",
-      "amount": "Licence",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Série D · Robotique chirurgicale",
-    "title": "MMI lève 125 M$ en Series D menée par BioStar Capital pour déployer son robot de microchirurgie Symani",
-    "deck": "Angelini Ventures et S3 Ventures entrent au tour ; Symani est CE-marqué, a reçu une De Novo FDA (2024) et compte environ 50 systèmes installés pour ~3 500 procédures. Les fonds financent le déploiement commercial, des instruments à énergie et l'essai REMIND (drainage des ganglions lymphatiques cervicaux profonds dans les maladies neurodégénératives).",
-    "company": "MMI",
-    "stage": "Growth",
-    "sector": "Robotique chirurgicale",
+    "kicker": "Série A · Urgences cardiaques",
+    "title": "Archeon Medical lève 9 M$ en Series A menée par Newfund (fonds HEKA) pour valider son dispositif EOlife en arrêt cardiaque",
+    "deck": "Eiffel Investment Group, OSER BFC (UI Investissement), Majycc Innovation Santé et Karot Capital complètent le tour. EOlife, déjà CE-marqué et cleared par la FDA, mesure en temps réel le volume d'air insufflé au patient en arrêt cardiaque ; les fonds financent des études sur plus de 1 500 patients (Amsterdam UMC, Rush University, Tualatin Valley Fire & Rescue).",
+    "company": "Archeon Medical",
+    "stage": "Series A",
+    "sector": "MedTech",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 5,
-    "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+    "strength": 4,
+    "url": "https://vestbee.com/insights/articles/archeon-medical-lands-9-m"
   },
   "milestone": {
-    "company": "Argus Cognitive",
-    "milestone": "Clearance FDA",
-    "title": "Argus Cognitive obtient la clearance FDA de Neurora, outil d'IA d'aide au diagnostic de l'autisme chez l'enfant",
-    "summary": "Neurora, dispositif logiciel (SaMD) de classe II, analyse plus de 100 biométriques vocales, faciales et du regard à partir d'une vidéo d'évaluation comportementale (enfants de 18 mois à 12 ans). Développé avec une subvention NIH SBIR.",
-    "why": "Le diagnostic de l'autisme est limité par la pénurie de spécialistes ; un SaMD cleared par la FDA montre qu'un outil d'IA peut s'insérer dans le parcours clinique comme aide, pas comme diagnostic autonome.",
-    "sector": "Diagnostics",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/argus-cognitive-paediatric-autism-diagnostic-secures-fda-clearance/"
+    "company": "Brainomix",
+    "milestone": "Essai de phase III",
+    "title": "Brainomix : son outil e-Lung mesure progression et réponse au traitement dans l'essai de phase III INBUILD",
+    "summary": "Sur 474 patients atteints de fibrose pulmonaire progressive, les biomarqueurs scanner quantitatifs d'e-Lung (étendue totale de la maladie, score réticulo-vasculaire) ont détecté l'effet du nintédanib aux semaines 24 et 52 ; une étendue initiale élevée prédit un déclin plus rapide de la capacité vitale forcée.",
+    "why": "Un biomarqueur d'imagerie validé sur l'essai d'un grand laboratoire (Boehringer Ingelheim) ouvre la voie à un usage comme critère objectif dans les essais cliniques — un relais de revenus pharma pour cette spin-off d'Oxford (Series C de 18,8 M£).",
+    "place": "Oxford",
+    "sector": "Imagerie",
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
   },
   "brefsEurope": [
     {
-      "company": "Convatec",
+      "company": "Averly Health",
       "place": "Royaume-Uni",
-      "sector": "MedTech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Convatec prévoit d'agrandir de 50 % son site R&D de Boston et d'ouvrir un centre à Manchester",
-      "summary": "Le CEO Jonny Mason s'appuie sur un plan de 1 Md$ de R&D sur dix ans (États-Unis/Royaume-Uni), huit lancements produits prévus en 2026-2027 et une croissance des ventes visée à 6-8 % l'an prochain. C'est un comparable de marché, pas une opportunité d'entrée.",
-      "url": "https://www.medtechdive.com/news/after-years-long-turnaround-convatecs-new-ceo-plans-rd-push/832127/"
+      "sector": "Digital Health",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 3,
+      "title": "Reset Health et Pharmacy2U lancent Averly Health, un service intégré de soins cardiométaboliques",
+      "summary": "Évaluation clinique, prescription, pharmacie et suivi des patients sous GLP-1 réunis dans un même parcours, en s'appuyant sur une infrastructure qui sert plus de 2 millions de patients par mois. Aucun investisseur ni montant communiqué.",
+      "url": "https://www.medicaldevice-network.com/news/averly-health-launches-in-uk-to-advance-cardiometabolic-care/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "BD",
+      "company": "Intuitive",
       "place": "États-Unis",
-      "sector": "Cardio",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "sector": "Robotique chirurgicale",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 4,
-      "title": "BD atteint l'endpoint primaire à 9 mois de l'essai AGILITY pour le stent couvert Revello",
-      "summary": "120 patients sur 28 sites (dont l'Europe) : échec primaire de 2,8 % contre un objectif de 19 %, perméabilité primaire de 97,2 %. Le stent est CE-marqué, limité à l'investigation aux États-Unis.",
-      "url": "https://www.medicaldevice-network.com/news/bd-agility-trial-data-revello-stent/"
+      "title": "Intuitive obtient le marquage CE de da Vinci 5 pour la chirurgie cardiaque adulte en Europe",
+      "summary": "Pontages coronaires inclus, sans ouvrir le sternum ; Intuitive prévoit des instruments cardiaques dédiés et un nombre limité de centres européens partenaires. Comparable de marché pour la robotique cardiaque européenne.",
+      "url": "https://www.medtechdive.com/news/intuitive-expands-push-into-cardiac-market-with-ce-mark/831420/"
     },
     {
-      "company": "Epicore Biosystems",
+      "company": "Happy Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Happy Health obtient l'autorisation FDA de mesure de la pression artérielle pour sa bague Happy Ring",
+      "summary": "La bague avait déjà reçu en octobre 2024 une clearance FDA pour le suivi de l'apnée du sommeil ; la voie réglementaire et les données de précision ne sont pas précisées.",
+      "url": "https://www.medicaldevice-network.com/news/happy-health-ring-secures-fda-clearance-for-blood-pressure-measurement/"
+    },
+    {
+      "company": "Truvian",
       "place": "États-Unis",
       "sector": "Diagnostics",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Epicore s'associe à MECFA pour un capteur portable de chlorure sudoral dans la mucoviscidose",
-      "summary": "Le Chloride Tracker combine stimulation de la sueur et mesure du chlorure dans un seul patch connecté ; l'évaluation clinique sera menée à l'université Marmara (Istanbul).",
-      "url": "https://www.medicaldevice-network.com/news/epicore-mecfa-wearable-cystic-fibrosis-test/"
-    },
-    {
-      "company": "SurGenTec",
-      "place": "Boca Raton, États-Unis",
-      "sector": "MedTech",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 2,
-      "title": "SurGenTec signe une licence exclusive avec Allevion Medical pour le système de décompression lombaire Vantage",
-      "summary": "Système jetable stérile pour décompression lombaire mini-invasive (sténose), à éclairage intégré et résection osseuse à profondeur contrôlée.",
-      "url": "https://www.medicaldevice-network.com/news/surgentec-licence-deal-allevion-vantage/"
+      "strength": 3,
+      "title": "Siemens Healthineers s'associe à Truvian autour de sa plateforme de tests sanguins",
+      "summary": "L'alliance porte sur la plateforme TruVersus, analyseur de paillasse multi-tests au chevet ; les deux groupes explorent le développement et la commercialisation de futurs diagnostics. Termes financiers non communiqués.",
+      "url": "https://www.medicaldevice-network.com/news/siemens-healthineers-partners-with-truvian-to-advance-blood-test-platform/"
     }
   ],
   "word": {
-    "term": "Robotic Supermicrosurgery",
-    "full": "Robotic Supermicrosurgery (supermicrochirurgie robotisée)",
-    "fr": "Supermicrochirurgie assistée par robot",
-    "field": "Robotique chirurgicale",
-    "definition": "Suturer des vaisseaux de moins de 0,8 mm (par exemple lymphatiques) avec un robot qui filtre le tremblement de la main et démultiplie la précision du chirurgien.",
+    "term": "Quantitative CT",
+    "full": "Quantitative CT (qCT, scanner thoracique quantitatif par IA)",
+    "fr": "Scanner quantitatif",
+    "field": "Imagerie & IA",
+    "definition": "Un logiciel d'IA transforme un scanner en chiffres reproductibles (volume de lésions, densité, vaisseaux) au lieu d'une simple lecture visuelle du radiologue.",
     "parts": [
       {
-        "label": "Console chirurgien",
-        "role": "le poste de commande"
+        "label": "Segmentation IA",
+        "role": "le découpage des structures"
       },
       {
-        "label": "Instruments micro-articulés",
-        "role": "les mains miniatures"
+        "label": "Biomarqueur",
+        "role": "le chiffre mesuré"
       },
       {
-        "label": "Optique grossissante",
-        "role": "les yeux"
+        "label": "Référence clinique",
+        "role": "la validation sur essai"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Mise à l'échelle",
-        "t": "Les mouvements du chirurgien sont réduits à l'échelle du micromètre."
+        "h": "Acquisition",
+        "t": "Le scanner thoracique standard est envoyé au logiciel, sans nouvel examen."
       },
       {
         "n": "2",
-        "h": "Filtrage du tremblement",
-        "t": "Le robot supprime les tremblements physiologiques de la main."
+        "h": "Quantification",
+        "t": "L'algorithme segmente poumons, voies aériennes et vaisseaux, puis calcule des scores (ex. étendue totale de la maladie)."
       },
       {
         "n": "3",
-        "h": "Anastomose",
-        "t": "Les instruments suturent des vaisseaux minuscules, par exemple une anastomose lymphovéneuse (LVA) contre le lymphœdème."
+        "h": "Suivi",
+        "t": "Les scores sont comparés dans le temps pour suivre la progression et la réponse au traitement."
       }
     ],
-    "why": "Angle VC : un marché de niche mais sans standard établi (les revues 2025 montrent une perméabilité initiale de 97-100 %, mais 66,6 % contre 81,8 % à 12 mois pour la LVA robotisée vs manuelle), avec un tour de 125 M$ pour MMI qui valide le besoin de capital.",
+    "why": "Pour un VC, c'est un pont entre MedTech et pharma : un biomarqueur d'imagerie validé sur un essai de phase III peut devenir un critère d'essai vendu aux laboratoires, en plus du revenu hospitalier.",
     "startups": [
       {
-        "name": "MMI (Medical Microinstruments)",
-        "use": "Robot Symani : De Novo FDA 2024, CE-marqué, ~50 systèmes installés, Series D de 125 M$ en octobre 2026",
-        "place": "Floride, États-Unis"
+        "name": "Brainomix",
+        "use": "e-Lung, quantification de la fibrose pulmonaire sur scanner, validée sur l'essai INBUILD ; Series C portée à 18,8 M£ en février 2026",
+        "place": "Oxford, Royaume-Uni"
       },
       {
-        "name": "Microsure",
-        "use": "Robot MUSA-3 ; Series B2 de 38 M€ (2023) pour finaliser le développement avant FDA et marquage CE ; MUSA-2 utilisé chez ~50 patients à Maastricht et Uppsala",
-        "place": "Eindhoven, Pays-Bas"
+        "name": "Thirona",
+        "use": "LungQ, analyse quantitative des scanners thoraciques ; LungQ 4 cleared par la FDA (510(k)) en octobre 2025",
+        "place": "Nimègue, Pays-Bas"
       },
       {
-        "name": "ForSight Robotics",
-        "use": "Plateforme Oryom de chirurgie oculaire (cataracte) robotisée ; Series B de 125 M$ en juin 2025 menée par Eclipse",
-        "place": "Israël"
+        "name": "Quibim",
+        "use": "Biomarqueurs d'imagerie par IA (IRM, scanner, TEP) ; Series A de 50 M$ en janvier 2025",
+        "place": "Valence, Espagne"
       }
     ],
     "sources": [
       {
-        "publisher": "MedTech Dive",
-        "title": "MMI raises $125M to scale up in robotic microsurgery",
-        "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+        "publisher": "Medical Device Network",
+        "title": "Brainomix's e-Lung shows progression and treatment response in Phase III trial",
+        "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
       },
       {
-        "publisher": "Plastic and Reconstructive Surgery Global Open / GWU",
-        "title": "Robotic-assisted Supermicrosurgery in Plastic Surgery: A Systematic Literature Review",
-        "url": "https://hsrc.himmelfarb.gwu.edu/gwhpubs/7572"
+        "publisher": "PR Newswire",
+        "title": "Brainomix Extends Series C Financing to $25.4M (£18.8M) to Support U.S. Expansion",
+        "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260224EN93357"
       },
       {
-        "publisher": "Brainport Eindhoven",
-        "title": "38 million for pioneering robot that sets new standard in microsurgery",
-        "url": "https://brainporteindhoven.com/en/news/38-million-for-pioneering-robot-that-sets-new-standard-in-microsurgery"
+        "publisher": "AuntMinnie",
+        "title": "Thirona receives FDA clearance for LungQ 4 software",
+        "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15769560/thirona-receives-fda-clearance-for-lungq-4-software"
       },
       {
-        "publisher": "MassDevice",
-        "title": "ForSight Robotics raises $125M for robotic cataract surgery tech",
-        "url": "https://www.massdevice.com/forsight-robotics-raises-125m-for-robotic-cataract-surgery-tech/"
+        "publisher": "Business Wire",
+        "title": "Quibim announces $50 million Series A financing",
+        "url": "https://www.businesswire.com/news/home/20250128971469/en"
       }
     ]
   }
