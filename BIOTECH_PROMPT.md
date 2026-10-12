@@ -57,7 +57,7 @@ MedTech du jour).
    `node remember-articles.mjs edition-biotech.json recent-articles-biotech.json`
    `node remember-word.mjs edition-biotech.json words.json`
    `node remember-word.mjs edition-biotech.en.json words.en.json words.json`
-   (le glossaire est commun aux deux thèmes).
+   (le glossaire est commun aux trois thèmes).
 7. Publie : `git add edition-biotech.json edition-biotech.en.json recent-words-biotech.json recent-articles-biotech.json words.json words.en.json`
    puis `git commit -m "Édition Biotech du <dateLong>"` et `git push` sur **main**
    (`git pull --rebase` si rejeté, une nouvelle tentative en cas d'échec réseau).
