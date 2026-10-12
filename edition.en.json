@@ -1,183 +1,187 @@
 {
-  "dateLong": "Oct 11, 2026",
+  "dateLong": "Oct 12, 2026",
   "ticker": [
     {
-      "company": "Archeon",
-      "amount": "$9M",
-      "kind": "lev"
-    },
-    {
-      "company": "Brainomix",
-      "amount": "Ph3 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Averly Health",
-      "amount": "Founded",
-      "kind": "new"
-    },
-    {
-      "company": "Intuitive",
+      "company": "Scanvio",
       "amount": "CE",
       "kind": "reg"
     },
     {
-      "company": "Happy Health",
-      "amount": "FDA",
-      "kind": "reg"
+      "company": "DeepPsy",
+      "amount": "500-pt trial",
+      "kind": "tech"
     },
     {
-      "company": "Truvian",
-      "amount": "Partnership",
+      "company": "PolaSight",
+      "amount": "Spin-off",
+      "kind": "new"
+    },
+    {
+      "company": "Briya",
+      "amount": "+360 %",
+      "kind": "tech"
+    },
+    {
+      "company": "Boston Sci.",
+      "amount": "Patent",
+      "kind": "tech"
+    },
+    {
+      "company": "Stryker",
+      "amount": "CEO",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Series A · Cardiac emergency",
-    "title": "Archeon Medical raises $9M Series A led by Newfund (HEKA fund) to validate its EOlife device in cardiac arrest",
-    "deck": "Eiffel Investment Group, OSER BFC (UI Investissement), Majycc Innovation Santé and Karot Capital complete the round. EOlife, already CE-marked and FDA-cleared, measures in real time the air volume delivered to a cardiac arrest patient; the funds back studies in more than 1,500 patients (Amsterdam UMC, Rush University, Tualatin Valley Fire & Rescue).",
-    "company": "Archeon Medical",
-    "stage": "Series A",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "CE mark · AI imaging",
+    "title": "Scanvio Medical wins CE mark (Class IIa, MDR) for Scanvio Assist, billed as the first AI-assisted ultrasound for endometriosis",
+    "deck": "The software, assessed by notified body TÜV SÜD (NB2443) under EU MDR 2017/745, works with existing ultrasound machines and guides the transvaginal exam in real time; it is also offered to ultrasound makers as an add-on. For a young Swiss company, it is the step to commercial stage in a diagnosis that is still slow to reach.",
+    "company": "Scanvio Medical",
+    "sector": "Imaging",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://vestbee.com/insights/articles/archeon-medical-lands-9-m"
+    "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
   },
   "milestone": {
-    "company": "Brainomix",
-    "milestone": "Phase III trial",
-    "title": "Brainomix: its e-Lung tool tracks progression and treatment response in the Phase III INBUILD trial",
-    "summary": "In 474 patients with progressive pulmonary fibrosis, e-Lung's quantitative CT biomarkers (total disease extent, reticulovascular score) detected the effect of nintedanib at weeks 24 and 52; higher baseline extent predicted faster decline in forced vital capacity.",
-    "why": "An imaging biomarker validated on a large pharma's trial (Boehringer Ingelheim) points to use as an objective trial endpoint — a pharma revenue stream for this Oxford spin-off (£18.8M Series C).",
-    "place": "Oxford",
-    "sector": "Imaging",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+    "company": "DeepPsy",
+    "milestone": "Trial funded",
+    "title": "DeepPsy wins CHF 1.99M from the Swiss National Science Foundation for PRECISE MDD, a 500-patient trial of its EEG/ECG software in depression",
+    "summary": "Four-year randomised, triple-blind trial: the software extracts biomarkers from EEG and ECG recordings and produces a report comparing approved treatments, tested against reports based on standard recommendations. Sites are in Zurich, Bern and Basel, and an independent academic consortium runs the study.",
+    "why": "Non-dilutive public money paying for the clinical proof of a precision-psychiatry software; the head-to-head design and healthcare-cost follow-up are what payers require for reimbursement.",
+    "place": "Switzerland",
+    "sector": "Digital Health",
+    "signalType": "grant_award",
+    "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
   },
   "brefsEurope": [
     {
-      "company": "Averly Health",
-      "place": "United Kingdom",
-      "sector": "Digital Health",
+      "company": "PolaSight",
+      "place": "Switzerland",
+      "sector": "Imaging",
       "pillar": "naissances",
       "signalType": "company_incorporation",
-      "strength": 3,
-      "title": "Reset Health and Pharmacy2U launch Averly Health, an integrated cardiometabolic care service",
-      "summary": "Clinical assessment, prescribing, pharmacy and follow-up for patients on GLP-1 drugs in a single pathway, built on infrastructure serving over 2 million patients a month. No investor or amount disclosed.",
-      "url": "https://www.medicaldevice-network.com/news/averly-health-launches-in-uk-to-advance-cardiometabolic-care/"
+      "strength": 2,
+      "title": "PolaSight, a University of Bern spin-off, gets $100,000 from Constructor Capital for PolaOne, its label-free imaging for cancer surgery",
+      "summary": "PolaOne combines polarised light and AI to produce a live tissue map in about a minute. A small cheque, awarded at the Constructor Start Demo Day, but an early signal on a company with no announced round yet.",
+      "url": "https://startupticker.ch/en/news/healthtech-polasight-receives-100k-investment-at-constructor-start-demo-day"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Intuitive",
-      "place": "United States",
-      "sector": "Surgical robotics",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Intuitive wins CE mark for da Vinci 5 in adult cardiac surgery in Europe",
-      "summary": "Includes coronary bypass without opening the sternum; Intuitive plans dedicated cardiac instruments and a limited number of partner European centers. A market comparable for European cardiac robotics.",
-      "url": "https://www.medtechdive.com/news/intuitive-expands-push-into-cardiac-market-with-ce-mark/831420/"
-    },
-    {
-      "company": "Happy Health",
-      "place": "United States",
+      "company": "Briya",
+      "place": "New York / Tel Aviv",
       "sector": "Digital Health",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Happy Health gets FDA clearance for blood pressure measurement on its Happy Ring",
-      "summary": "The ring was first FDA-cleared in October 2024 for sleep apnea monitoring; the regulatory pathway and accuracy data are not specified.",
-      "url": "https://www.medicaldevice-network.com/news/happy-health-ring-secures-fda-clearance-for-blood-pressure-measurement/"
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Briya: its AIRE AI identifies 360% more patients with steatotic liver disease in ultrasound reports",
+      "summary": "Across 28,795 reports (20,422 patients, 2020-2024) at Shaare Zedek Medical Center, natural-language processing lifts identified patients from 1,122 to 5,158; only 22% of the new cases had a diagnosis in the structured record.",
+      "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
     },
     {
-      "company": "Truvian",
+      "company": "Boston Scientific",
       "place": "United States",
-      "sector": "Diagnostics",
+      "sector": "Cardio",
       "pillar": "marche",
-      "signalType": "early_partnership",
+      "signalType": "patent_filing",
+      "strength": 2,
+      "title": "Boston Scientific sues Atraverse Medical (J&J) for patent infringement over the Hotwire transseptal guidewire",
+      "summary": "Complaint filed July 11 in Delaware and made public October 8; Hotwire was FDA-cleared in December 2025 and J&J acquired Atraverse in April 2026. A competition signal in atrial fibrillation ablation, where European players are positioning.",
+      "url": "https://www.medicaldevice-network.com/news/boston-sues-jj-subsidiary-over-alleged-patent-infringement-for-cardiology-device/"
+    },
+    {
+      "company": "Stryker",
+      "place": "United States",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Siemens Healthineers partners with Truvian on its blood test platform",
-      "summary": "The alliance covers the TruVersus benchtop point-of-care analyzer; the companies will explore developing and commercializing future diagnostics. Financial terms undisclosed.",
-      "url": "https://www.medicaldevice-network.com/news/siemens-healthineers-partners-with-truvian-to-advance-blood-test-platform/"
+      "title": "Stryker: Kevin Lobo steps down after 15+ years as CEO, Spencer Stiles succeeds him on January 1, 2027",
+      "summary": "COO Spencer Stiles, 50 and nearly 30 years at the group, becomes CEO; Lobo stays on as executive chair. An internal succession at one of the biggest medtech acquirers, so a stable potential buyer for orthopaedic and robotics startups.",
+      "url": "https://www.medtechdive.com/news/stryker-ceo-kevin-lobo-to-resign/832258/"
     }
   ],
   "word": {
-    "term": "Quantitative CT",
-    "full": "Quantitative CT (qCT, AI-based quantitative chest CT)",
-    "fr": "Quantitative CT scan",
-    "field": "Imaging & AI",
-    "definition": "AI software turns a CT scan into reproducible numbers (lesion volume, density, vessels) instead of a purely visual read by the radiologist.",
+    "term": "SaMD",
+    "full": "Software as a Medical Device",
+    "fr": "Software as a medical device",
+    "field": "Regulatory & medical AI",
+    "definition": "Software that on its own, without being part of a hardware device, serves a medical purpose (helping diagnose, monitor or choose a treatment) and therefore needs a CE mark or FDA authorisation like any device.",
     "parts": [
       {
-        "label": "AI segmentation",
-        "role": "splitting out structures"
+        "label": "Medical purpose",
+        "role": "what makes it a device"
       },
       {
-        "label": "Biomarker",
-        "role": "the measured number"
+        "label": "Risk class",
+        "role": "the level of scrutiny"
       },
       {
-        "label": "Clinical reference",
-        "role": "validation on a trial"
+        "label": "Clinical evidence",
+        "role": "the validation"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Acquisition",
-        "t": "A standard chest CT is sent to the software, with no extra exam."
+        "h": "Qualify",
+        "t": "The software is shown to pursue a claimed medical purpose without being embedded in a hardware device."
       },
       {
         "n": "2",
-        "h": "Quantification",
-        "t": "The algorithm segments lungs, airways and vessels, then computes scores (e.g. total disease extent)."
+        "h": "Certify",
+        "t": "A notified body assesses the file according to risk class (Class IIa for Scanvio Assist, assessed by TÜV SÜD)."
       },
       {
         "n": "3",
-        "h": "Follow-up",
-        "t": "Scores are compared over time to track progression and treatment response."
+        "h": "Validate",
+        "t": "Clinical studies show real-world value, for example a randomised trial like PRECISE MDD for DeepPsy."
       }
     ],
-    "why": "For a VC, it bridges MedTech and pharma: an imaging biomarker validated in a Phase III trial can become a trial endpoint sold to drugmakers, on top of hospital revenue.",
+    "why": "For a VC, software copies at low marginal cost but the moat is regulatory: a CE mark or FDA clearance is a balance-sheet asset that can be sold to hardware makers, as Scanvio offers to ultrasound manufacturers.",
     "startups": [
       {
+        "name": "Scanvio Medical",
+        "use": "Scanvio Assist, AI guidance for endometriosis ultrasound; CE mark Class IIa under MDR in October 2026",
+        "place": "Switzerland"
+      },
+      {
+        "name": "DeepPsy",
+        "use": "EEG/ECG analysis software for depression; 500-patient randomised trial funded with CHF 1.99M by the SNSF",
+        "place": "Switzerland"
+      },
+      {
         "name": "Brainomix",
-        "use": "e-Lung, CT quantification of lung fibrosis, validated on the INBUILD trial; Series C extended to £18.8M in Feb 2026",
+        "use": "e-Lung, CT-based quantification of pulmonary fibrosis, used in the Phase III INBUILD trial",
         "place": "Oxford, UK"
       },
       {
-        "name": "Thirona",
-        "use": "LungQ, quantitative chest CT analysis; LungQ 4 FDA 510(k)-cleared in Oct 2025",
-        "place": "Nijmegen, Netherlands"
-      },
-      {
-        "name": "Quibim",
-        "use": "AI imaging biomarkers (MRI, CT, PET); $50M Series A in Jan 2025",
-        "place": "Valencia, Spain"
+        "name": "Briya",
+        "use": "AIRE platform (AI and natural-language processing) that finds patients in imaging reports",
+        "place": "New York / Tel Aviv"
       }
     ],
     "sources": [
       {
+        "publisher": "U.S. FDA",
+        "title": "Software as a Medical Device (SaMD)",
+        "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+      },
+      {
+        "publisher": "Startupticker.ch",
+        "title": "Scanvio Assist receives world's first CE mark for AI-assisted ultrasound in endometriosis",
+        "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+      },
+      {
+        "publisher": "Startupticker.ch",
+        "title": "DeepPsy obtains CHF 1.99 million for four-year multicenter study",
+        "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
+      },
+      {
         "publisher": "Medical Device Network",
-        "title": "Brainomix's e-Lung shows progression and treatment response in Phase III trial",
-        "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
-      },
-      {
-        "publisher": "PR Newswire",
-        "title": "Brainomix Extends Series C Financing to $25.4M (£18.8M) to Support U.S. Expansion",
-        "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260224EN93357"
-      },
-      {
-        "publisher": "AuntMinnie",
-        "title": "Thirona receives FDA clearance for LungQ 4 software",
-        "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15769560/thirona-receives-fda-clearance-for-lungq-4-software"
-      },
-      {
-        "publisher": "Business Wire",
-        "title": "Quibim announces $50 million Series A financing",
-        "url": "https://www.businesswire.com/news/home/20250128971469/en"
+        "title": "AI use on existing radiology reports sees 360% rise in steatotic liver patient identification",
+        "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
       }
     ]
   }

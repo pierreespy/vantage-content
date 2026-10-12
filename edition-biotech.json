@@ -1,18 +1,8 @@
 {
-  "dateLong": "10 oct. 2026",
+  "dateLong": "12 oct. 2026",
   "ticker": [
     {
-      "company": "Alentis",
-      "amount": "$355M",
-      "kind": "mna"
-    },
-    {
-      "company": "Forbion",
-      "amount": "€2,3Md",
-      "kind": "lev"
-    },
-    {
-      "company": "Argenx",
+      "company": "Zealand",
       "amount": "Ph2 ✓",
       "kind": "tech"
     },
@@ -22,180 +12,183 @@
       "kind": "reg"
     },
     {
-      "company": "Merck/Halozyme",
-      "amount": "Brevet",
-      "kind": "reg"
+      "company": "Alligator",
+      "amount": "Pivot",
+      "kind": "tech"
     },
     {
-      "company": "TRex Bio",
-      "amount": "$117M",
+      "company": "Spica",
+      "amount": "CEO",
+      "kind": "tech"
+    },
+    {
+      "company": "Sensorion",
+      "amount": "CFO",
+      "kind": "tech"
+    },
+    {
+      "company": "KymaThera",
+      "amount": "$80M",
       "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Licensing · Immunologie",
-    "title": "CSL verse 355 M$ d'upfront à Alentis (Suisse) pour son anticorps anti-claudine-1 lixudebart",
-    "deck": "Jusqu'à 1,6 Md$ au total (1,2 Md$ de milestones) ; CSL finance la Phase 2 RENAL et la Phase 3 prévue dans la vascularite rénale AAV-RPGN, puis le développement en FSGS et PSC. Le partage des profits est de 55 % CSL / 45 % Alentis : une validation rare pour une biotech suisse de stade clinique.",
-    "company": "Alentis",
-    "sector": "Immunologie",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 5,
-    "url": "https://www.biospace.com/deals/csl-strikes-up-to-1-6b-deal-with-alentis-for-autoimmune-drug-with-broad-potential"
+    "kicker": "Données Phase 2 · Cardiométabolique",
+    "title": "Zealand Pharma : petrelintide (partenaire Roche) atteint son critère principal en Phase 2 ZUPREME-2, jusqu'à 9,2 % de perte de poids à 28 semaines",
+    "deck": "Sur 220 participants en surpoids ou obèses avec un diabète de type 2, les trois doses battent le placebo (jusqu'à 9,2 % contre 2 %), avec une baisse d'HbA1c allant jusqu'à 0,65 point contre une hausse de 0,23 sous placebo, et 1,9 % d'arrêts digestifs contre 1,7 %. Le titre a pourtant reculé d'environ 4 % : le marché attendait mieux d'un analogue de l'amyline très disputé.",
+    "company": "Zealand Pharma",
+    "sector": "Cardiométabolique",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 4,
+    "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
   },
   "milestone": {
-    "company": "Argenx",
-    "milestone": "Phase 2 atteinte",
-    "title": "Argenx : FB102 atteint son critère principal en Phase 2 dans la maladie cœliaque, mais l'essai UNITY dans le Sjögren est arrêté",
-    "summary": "FB102 (inhibiteur de CD122, acquis auprès de Forte Biosciences pour 2,2 Md$) montre un effet significatif sur un indicateur de santé de l'intestin grêle. En parallèle, le comité indépendant stoppe la Phase 3 UNITY de Vyvgart Hytrulo pour futilité.",
-    "why": "Le premier résultat Phase 2 prouvant qu'on peut bloquer CD122 contre les lésions induites par le gluten ouvre une nouvelle franchise ; l'abandon du Sjögren (pic estimé 1,4 Md$) rappelle le risque de l'extension d'indication.",
-    "place": "Pays-Bas",
-    "sector": "Immunologie",
-    "signalType": "clinical_update",
-    "url": "https://www.biospace.com/drug-development/argenx-shutters-sjogrens-study-losing-blockbuster-expansion-opportunity-for-vyvgart"
-  },
-  "deal": {
-    "company": "IntraBio",
-    "amount": "2 Md$",
-    "round": "M&A",
-    "thesis": "Shionogi paie 2 Md$ cash pour IntraBio (Aqneursa, Niemann-Pick de type C et ataxie-télangiectasie ; 68 M$ de ventes 2025) : Jefferies estime ~1 Md$ de pic de ventes. Un comparable pour les maladies rares à produit déjà approuvé.",
+    "company": "Alligator Bioscience",
+    "milestone": "Changement de cap",
+    "title": "Alligator Bioscience arrête le développement interne de mitazalimab et fait de son CFO Johan Giléus le CEO à compter du 1er janvier 2027",
+    "summary": "Johan Giléus succède à Søren Bregenholt tout en gardant la fonction de CFO ; la biotech suédoise recentre son activité sur sa participation dans HLX22, un anticorps ciblant HER2.",
+    "why": "Une équipe dirigeante réduite et un pipeline interne abandonné au profit d'un actif partagé : le schéma typique d'une biotech cotée qui préserve sa trésorerie dans un marché où le capital est rare.",
+    "place": "Suède",
     "sector": "Biotech",
-    "url": "https://www.biospace.com/deals/shionogi-makes-2b-rare-disease-play-with-intrabio-buy"
+    "signalType": "leadership_hire",
+    "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
   },
   "brefsEurope": [
-    {
-      "company": "Forbion",
-      "place": "Pays-Bas",
-      "sector": "Fonds",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Forbion lève 2,3 Md€ (2,6 Md$) pour Growth Opportunities IV et Ventures Fund VIII",
-      "summary": "Le plus gros fonds de l'histoire de Forbion (7,5 Md€ sous gestion) ; LP : MN, PGGM, KfW Capital, Eli Lilly, Kauffman Foundation. Capacité pour jusqu'à 30 jeunes biotechs : du capital early-stage européen frais.",
-      "url": "https://www.biopharmadive.com/news/forbion-venture-capital-growth-fund-fundraise/832254/"
-    },
     {
       "company": "Newron Pharmaceuticals",
       "place": "Italie",
       "sector": "Neurosciences",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
       "strength": 3,
-      "title": "Newron révèle 4 décès sous evenamide (0,56 %) contre 1 sous placebo ; le clinical hold FDA est maintenu",
-      "summary": "Le hold porte sur la Phase 3 ENIGMA-TRS 2 en schizophrénie ; le recrutement continue hors des États-Unis. Newron étudie un monitoring cardiaque renforcé (plus de 10 000 ECG, ~700 patients).",
-      "url": "https://www.biospace.com/drug-development/newron-reveals-5-deaths-in-late-stage-schizophrenia-program-as-fda-maintains-hold"
+      "title": "Newron veut lever le gel FDA d'ENIGMA-TRS 2 en dépistant le syndrome de Brugada et en réduisant l'inclusion américaine à 60-80 patients",
+      "summary": "Un amendement est attendu sous 10 à 12 jours, avec 30 jours de réponse pour la FDA ; cinq décès sont recensés dans les études d'evenamide (quatre sous traitement, un sous placebo). ENIGMA-TRS 1, non concernée, rapportera au T1 2027.",
+      "url": "https://european-biotechnology.com/latest-news/newron-plans-heart-tests-to-lift-schizophrenia-trial-hold/"
     },
     {
-      "company": "Halozyme",
-      "place": "États-Unis",
-      "sector": "Biotech",
+      "company": "Spica Therapeutics",
+      "place": "Belgique",
+      "sector": "Immunologie",
       "pillar": "marche",
-      "signalType": "patent_filing",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Un tribunal néerlandais interdit à Merck le Keytruda sous-cutané dans 8 pays européens (brevet Halozyme)",
-      "summary": "Belgique, Danemark, France, Irlande, Italie, Suède, Suisse et Pays-Bas : le tribunal juge que Keytruda SC enfreint le brevet MDASE de Halozyme. Un précédent pour la propriété intellectuelle des formulations sous-cutanées.",
-      "url": "https://www.biospace.com/drug-delivery/merck-barred-from-making-subcutaneous-keytruda-in-8-european-countries"
+      "title": "Spica Therapeutics nomme Jeff Abbey CEO, ancien patron de RNatives",
+      "summary": "Spica prévoit d'étendre sa plateforme ciblant les macrophages à l'inflammation et à la fibrose.",
+      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+    },
+    {
+      "company": "Sensorion",
+      "place": "France",
+      "sector": "Thérapie génique",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Sensorion nomme Lou Arcudi CFO, ex-Amolyt Pharma, avant un essai de SENS-601 prévu début 2027",
+      "summary": "La société a déposé confidentiellement en septembre un dossier pour une éventuelle cotation aux États-Unis ; Lou Arcudi succède à Laurene Danon.",
+      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+    },
+    {
+      "company": "RQ Bio",
+      "place": "Royaume-Uni",
+      "sector": "Vaccins",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "RQ Bio recrute Gavin Koh comme Chief Medical Officer après sa Series A de 115 M$",
+      "summary": "La biotech développe RQB01, un anticorps antigrippal à action prolongée ; le recrutement s'accompagne d'embauches en production et en opérations cliniques.",
+      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "TRex Bio",
-      "place": "États-Unis",
-      "sector": "Immunologie",
+      "company": "KymaThera",
+      "place": "San Diego",
+      "sector": "Oncologie",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 4,
-      "title": "TRex Bio lève 117 M$ en IPO à 14 $ l'action pour son agoniste TNFR2 ciblant les Treg",
-      "summary": "TRB-061 est en Phase 1 (données attendues en 2027) ; Eli Lilly détient ~24 % avant l'IPO. Un signal de réouverture du Nasdaq pour l'immunologie.",
-      "url": "https://www.biopharmadive.com/news/trex-bio-ipo-pricing-autoimmune-tregs/832297/"
-    },
-    {
-      "company": "Abogen Biosciences",
-      "place": "Chine",
-      "sector": "ARN",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 5,
-      "title": "Novartis verse 575 M$ d'upfront à Abogen pour un T-cell engager CD3×CD19 codé par ARNm",
-      "summary": "Jusqu'à 7,8 Md$ au total (~7,2 Md$ de milestones) : le produit est fabriqué in vivo à partir de l'ARNm, une alternative aux thérapies cellulaires.",
-      "url": "https://www.biopharmadive.com/news/novartis-abogen-pipeline-collaboration-china/832008/"
+      "stage": "Series B",
+      "title": "KymaThera lève 80 M$ en Series B menée par Alta Partners pour son inhibiteur PI3Kα K-1728",
+      "summary": "Foresite Capital et Venrock participent ; premier dosage de Phase I prévu au T4 2026 dans le cancer du sein HR+/HER2- et les malformations vasculaires liées à PI3Kα. Un comparable de valorisation pour les biotechs européennes d'oncologie de précision.",
+      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/"
     }
   ],
   "word": {
-    "term": "CAR-Treg",
-    "full": "Chimeric Antigen Receptor Regulatory T cell (cellule T régulatrice à récepteur chimérique)",
-    "fr": "Lymphocyte T régulateur à récepteur antigénique chimérique",
-    "field": "Thérapie cellulaire",
-    "definition": "Un lymphocyte T régulateur du patient, équipé d'un récepteur chimérique, qui calme une réaction immunitaire au bon endroit au lieu de tuer des cellules.",
+    "term": "Amylin Analog",
+    "full": "Amylin Analog (analogue de l'amyline)",
+    "fr": "Analogue de l'amyline",
+    "field": "Obésité & métabolisme",
+    "definition": "Un médicament injectable ou oral qui imite l'amyline, hormone du pancréas qui ralentit la vidange gastrique et envoie un signal de satiété, pour faire perdre du poids avec moins d'effets digestifs que les GLP-1.",
     "parts": [
       {
-        "label": "Treg",
-        "role": "le frein du système immunitaire"
+        "label": "Peptide stabilisé",
+        "role": "l'hormone modifiée"
       },
       {
-        "label": "Récepteur chimérique (CAR)",
-        "role": "le guidage vers la cible"
+        "label": "Récepteur de l'amyline",
+        "role": "la cible"
       },
       {
-        "label": "Signal de suppression",
-        "role": "l'effet apaisant"
+        "label": "Action prolongée",
+        "role": "la fréquence de dose"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Prélèvement",
-        "t": "Les Treg du patient sont isolés puis expansés."
+        "h": "Liaison",
+        "t": "Le peptide se fixe aux récepteurs de l'amyline dans le cerveau."
       },
       {
         "n": "2",
-        "h": "Ingénierie",
-        "t": "Un CAR est inséré pour qu'ils reconnaissent un tissu ou une cible précise."
+        "h": "Satiété",
+        "t": "Le signal de satiété augmente et la vidange gastrique ralentit."
       },
       {
         "n": "3",
-        "h": "Suppression locale",
-        "t": "Réinjectés, ils inhibent plusieurs cellules immunitaires voisines (effet « bystander »)."
+        "h": "Perte de poids",
+        "t": "Les patients mangent moins ; dans ZUPREME-2, jusqu'à 9,2 % de perte de poids à 28 semaines."
       }
     ],
-    "why": "Angle VC : un contre-pied des CAR-T cytotoxiques pour les maladies auto-immunes et la greffe, avec AstraZeneca et Regeneron déjà partenaires de Treg et un IPO TRex Bio le 9 octobre.",
+    "why": "Après les GLP-1, l'amyline est la voie en vogue : Roche a payé 1,65 Md$ d'upfront à Zealand et AbbVie est entré dans l'obésité via Gubra. Pour un VC, l'enjeu est de repérer qui reste indépendant, car plusieurs acteurs ont déjà été rachetés.",
     "startups": [
       {
-        "name": "Quell Therapeutics",
-        "use": "CAR-Treg QEL-005 (CD19) en essai CHILL Phase 1/2 dans la polyarthrite et la sclérodermie après CTA MHRA ; données précoces attendues au T1 2027",
-        "place": "Londres, Royaume-Uni"
+        "name": "Zealand Pharma",
+        "use": "Petrelintide, analogue de l'amyline co-développé avec Roche ; Phase 2 ZUPREME-2 positive en octobre 2026",
+        "place": "Danemark"
       },
       {
-        "name": "Sonoma Biotherapeutics",
-        "use": "Thérapies Treg (candidat SBT-77-7101) en co-développement 50/50 avec Regeneron (75 M$ d'upfront, 2023) dans les MICI",
-        "place": "Californie, États-Unis"
+        "name": "Gubra",
+        "use": "ABBV-295, analogue de l'amyline à action prolongée licencié à AbbVie (350 M$ d'upfront) ; jalon de 50 M$ au lancement de la Phase 2",
+        "place": "Danemark"
       },
       {
-        "name": "TRex Bio",
-        "use": "TRB-061, protéine de fusion ciblant TNFR2 sur les Treg, en Phase 1 ; IPO de 117 M$ le 9 octobre 2026",
-        "place": "États-Unis"
+        "name": "Verdiva Bio",
+        "use": "VRB-103, analogue oral hebdomadaire de l'amyline, entrée en clinique prévue au S2 2026 ; 411 M$ levés au lancement en janvier 2025",
+        "place": "Royaume-Uni"
       }
     ],
     "sources": [
       {
+        "publisher": "European Biotechnology",
+        "title": "Another bad day at Zealand: Roche-partnered drug disappoints on blood sugar",
+        "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
+      },
+      {
         "publisher": "BioSpace",
-        "title": "Quell Therapeutics initiates CHILL Phase 1/2 trial of QEL-005 CAR-Treg therapy following UK CTA approval",
-        "url": "https://www.biospace.com/press-releases/quell-therapeutics-initiates-chill-phase-1-2-trial-of-novel-qel-005-car-treg-therapy-in-refractory-rheumatoid-arthritis-and-systemic-sclerosis-following-uk-cta-approval"
+        "title": "Zealand Pharma and Roche to advance petrelintide, an amylin analog, to Phase 3 trials for chronic weight management",
+        "url": "https://www.biospace.com/press-releases/zealand-pharma-and-roche-to-advance-petrelintide-an-amylin-analog-to-phase-3-trials-for-chronic-weight-management"
       },
       {
-        "publisher": "Business Wire",
-        "title": "Regeneron and Sonoma Biotherapeutics announce collaboration to discover, develop and commercialize Treg cell therapies for autoimmune diseases",
-        "url": "https://www.businesswire.com/news/home/20230328005378/en"
+        "publisher": "Plesner",
+        "title": "Gubra and AbbVie enter license agreement on amylin analog for obesity",
+        "url": "https://plesner.com/en/news/gubra-and-abbvie-enter-license-agreement-amylin-analog-obesity"
       },
       {
-        "publisher": "Frontiers in Immunology",
-        "title": "Review (2025) on adoptive Treg therapy in autoimmune disease: polyclonal, CAR-Treg and TCR-Treg",
-        "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2025.1511671/pdf"
-      },
-      {
-        "publisher": "BioPharma Dive",
-        "title": "TRex Bio prices $117M IPO to support immune drug work",
-        "url": "https://www.biopharmadive.com/news/trex-bio-ipo-pricing-autoimmune-tregs/832297/"
+        "publisher": "BioSpace",
+        "title": "Verdiva Bio presents preclinical data on investigational obesity drug candidates at the ADA 86th Scientific Sessions",
+        "url": "https://www.biospace.com/press-releases/verdiva-bio-presents-preclinical-data-on-investigational-obesity-drug-candidates-at-the-american-diabetes-association-86th-scientific-sessions"
       }
     ]
   }

@@ -1,183 +1,187 @@
 {
-  "dateLong": "11 oct. 2026",
+  "dateLong": "12 oct. 2026",
   "ticker": [
     {
-      "company": "Archeon",
-      "amount": "$9M",
-      "kind": "lev"
-    },
-    {
-      "company": "Brainomix",
-      "amount": "Ph3 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Averly Health",
-      "amount": "Création",
-      "kind": "new"
-    },
-    {
-      "company": "Intuitive",
+      "company": "Scanvio",
       "amount": "CE",
       "kind": "reg"
     },
     {
-      "company": "Happy Health",
-      "amount": "FDA",
-      "kind": "reg"
+      "company": "DeepPsy",
+      "amount": "Essai 500 pts",
+      "kind": "tech"
     },
     {
-      "company": "Truvian",
-      "amount": "Partenariat",
+      "company": "PolaSight",
+      "amount": "Spin-off",
+      "kind": "new"
+    },
+    {
+      "company": "Briya",
+      "amount": "+360 %",
+      "kind": "tech"
+    },
+    {
+      "company": "Boston Sci.",
+      "amount": "Brevet",
+      "kind": "tech"
+    },
+    {
+      "company": "Stryker",
+      "amount": "CEO",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Série A · Urgences cardiaques",
-    "title": "Archeon Medical lève 9 M$ en Series A menée par Newfund (fonds HEKA) pour valider son dispositif EOlife en arrêt cardiaque",
-    "deck": "Eiffel Investment Group, OSER BFC (UI Investissement), Majycc Innovation Santé et Karot Capital complètent le tour. EOlife, déjà CE-marqué et cleared par la FDA, mesure en temps réel le volume d'air insufflé au patient en arrêt cardiaque ; les fonds financent des études sur plus de 1 500 patients (Amsterdam UMC, Rush University, Tualatin Valley Fire & Rescue).",
-    "company": "Archeon Medical",
-    "stage": "Series A",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "Marquage CE · Imagerie IA",
+    "title": "Scanvio Medical obtient le marquage CE (classe IIa, MDR) de Scanvio Assist, présenté comme la première IA d'aide à l'échographie de l'endométriose",
+    "deck": "Le logiciel, évalué par l'organisme notifié TÜV SÜD (NB2443) selon le règlement MDR 2017/745, fonctionne avec les échographes existants et guide l'examen transvaginal en temps réel ; il est aussi proposé aux fabricants d'échographes comme module additionnel. Pour une jeune société suisse, c'est le passage au stade commercial sur un diagnostic encore long à poser.",
+    "company": "Scanvio Medical",
+    "sector": "Imagerie",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://vestbee.com/insights/articles/archeon-medical-lands-9-m"
+    "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
   },
   "milestone": {
-    "company": "Brainomix",
-    "milestone": "Essai de phase III",
-    "title": "Brainomix : son outil e-Lung mesure progression et réponse au traitement dans l'essai de phase III INBUILD",
-    "summary": "Sur 474 patients atteints de fibrose pulmonaire progressive, les biomarqueurs scanner quantitatifs d'e-Lung (étendue totale de la maladie, score réticulo-vasculaire) ont détecté l'effet du nintédanib aux semaines 24 et 52 ; une étendue initiale élevée prédit un déclin plus rapide de la capacité vitale forcée.",
-    "why": "Un biomarqueur d'imagerie validé sur l'essai d'un grand laboratoire (Boehringer Ingelheim) ouvre la voie à un usage comme critère objectif dans les essais cliniques — un relais de revenus pharma pour cette spin-off d'Oxford (Series C de 18,8 M£).",
-    "place": "Oxford",
-    "sector": "Imagerie",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+    "company": "DeepPsy",
+    "milestone": "Essai financé",
+    "title": "DeepPsy obtient 1,99 M CHF du Fonds national suisse pour PRECISE MDD, un essai de 500 patients de son logiciel EEG/ECG dans la dépression",
+    "summary": "Essai randomisé en triple aveugle sur quatre ans : le logiciel extrait des biomarqueurs des enregistrements EEG et ECG et produit un rapport comparant les traitements approuvés ; il est testé contre des rapports fondés sur les recommandations standard. Les centres sont à Zurich, Berne et Bâle, et un consortium académique indépendant conduit l'étude.",
+    "why": "Un financement public non dilutif qui paie la preuve clinique d'un logiciel de psychiatrie de précision ; le critère comparatif et le suivi des coûts de santé sont ce que les payeurs exigent pour un remboursement.",
+    "place": "Suisse",
+    "sector": "Digital Health",
+    "signalType": "grant_award",
+    "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
   },
   "brefsEurope": [
     {
-      "company": "Averly Health",
-      "place": "Royaume-Uni",
-      "sector": "Digital Health",
+      "company": "PolaSight",
+      "place": "Suisse",
+      "sector": "Imagerie",
       "pillar": "naissances",
       "signalType": "company_incorporation",
-      "strength": 3,
-      "title": "Reset Health et Pharmacy2U lancent Averly Health, un service intégré de soins cardiométaboliques",
-      "summary": "Évaluation clinique, prescription, pharmacie et suivi des patients sous GLP-1 réunis dans un même parcours, en s'appuyant sur une infrastructure qui sert plus de 2 millions de patients par mois. Aucun investisseur ni montant communiqué.",
-      "url": "https://www.medicaldevice-network.com/news/averly-health-launches-in-uk-to-advance-cardiometabolic-care/"
+      "strength": 2,
+      "title": "PolaSight, spin-off de l'Université de Berne, reçoit 100 000 $ de Constructor Capital pour PolaOne, son imagerie sans marqueur pour la chirurgie du cancer",
+      "summary": "PolaOne combine lumière polarisée et IA pour produire en une minute environ une carte du tissu en direct. Un ticket modeste, remis lors du Demo Day de Constructor Start, mais un signal précoce sur une société encore sans levée annoncée.",
+      "url": "https://startupticker.ch/en/news/healthtech-polasight-receives-100k-investment-at-constructor-start-demo-day"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Intuitive",
-      "place": "États-Unis",
-      "sector": "Robotique chirurgicale",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Intuitive obtient le marquage CE de da Vinci 5 pour la chirurgie cardiaque adulte en Europe",
-      "summary": "Pontages coronaires inclus, sans ouvrir le sternum ; Intuitive prévoit des instruments cardiaques dédiés et un nombre limité de centres européens partenaires. Comparable de marché pour la robotique cardiaque européenne.",
-      "url": "https://www.medtechdive.com/news/intuitive-expands-push-into-cardiac-market-with-ce-mark/831420/"
-    },
-    {
-      "company": "Happy Health",
-      "place": "États-Unis",
+      "company": "Briya",
+      "place": "New York / Tel Aviv",
       "sector": "Digital Health",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Happy Health obtient l'autorisation FDA de mesure de la pression artérielle pour sa bague Happy Ring",
-      "summary": "La bague avait déjà reçu en octobre 2024 une clearance FDA pour le suivi de l'apnée du sommeil ; la voie réglementaire et les données de précision ne sont pas précisées.",
-      "url": "https://www.medicaldevice-network.com/news/happy-health-ring-secures-fda-clearance-for-blood-pressure-measurement/"
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Briya : son IA AIRE identifie 360 % de patients supplémentaires atteints de stéatose hépatique dans des comptes rendus d'échographie",
+      "summary": "Sur 28 795 comptes rendus (20 422 patients, 2020-2024) au Shaare Zedek Medical Center, le traitement du langage naturel passe de 1 122 à 5 158 patients repérés ; seuls 22 % des nouveaux cas avaient un diagnostic dans le dossier structuré.",
+      "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
     },
     {
-      "company": "Truvian",
+      "company": "Boston Scientific",
       "place": "États-Unis",
-      "sector": "Diagnostics",
+      "sector": "Cardio",
       "pillar": "marche",
-      "signalType": "early_partnership",
+      "signalType": "patent_filing",
+      "strength": 2,
+      "title": "Boston Scientific poursuit Atraverse Medical (J&J) pour contrefaçon de brevet sur le guide Hotwire d'accès transseptal",
+      "summary": "Plainte déposée le 11 juillet au Delaware et rendue publique le 8 octobre ; Hotwire a reçu la clearance FDA en décembre 2025 et J&J a racheté Atraverse en avril 2026. Un signal de concurrence sur l'ablation de la fibrillation, marché où les acteurs européens se positionnent.",
+      "url": "https://www.medicaldevice-network.com/news/boston-sues-jj-subsidiary-over-alleged-patent-infringement-for-cardiology-device/"
+    },
+    {
+      "company": "Stryker",
+      "place": "États-Unis",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Siemens Healthineers s'associe à Truvian autour de sa plateforme de tests sanguins",
-      "summary": "L'alliance porte sur la plateforme TruVersus, analyseur de paillasse multi-tests au chevet ; les deux groupes explorent le développement et la commercialisation de futurs diagnostics. Termes financiers non communiqués.",
-      "url": "https://www.medicaldevice-network.com/news/siemens-healthineers-partners-with-truvian-to-advance-blood-test-platform/"
+      "title": "Stryker : Kevin Lobo quitte la direction après plus de 15 ans, Spencer Stiles lui succède le 1er janvier 2027",
+      "summary": "Le directeur des opérations Spencer Stiles, 50 ans et près de 30 ans dans le groupe, devient CEO ; Lobo reste président exécutif du conseil. Une succession interne chez un des plus gros acquéreurs de medtech, donc un acheteur potentiel stable pour les startups orthopédie et robotique.",
+      "url": "https://www.medtechdive.com/news/stryker-ceo-kevin-lobo-to-resign/832258/"
     }
   ],
   "word": {
-    "term": "Quantitative CT",
-    "full": "Quantitative CT (qCT, scanner thoracique quantitatif par IA)",
-    "fr": "Scanner quantitatif",
-    "field": "Imagerie & IA",
-    "definition": "Un logiciel d'IA transforme un scanner en chiffres reproductibles (volume de lésions, densité, vaisseaux) au lieu d'une simple lecture visuelle du radiologue.",
+    "term": "SaMD",
+    "full": "Software as a Medical Device",
+    "fr": "Logiciel en tant que dispositif médical",
+    "field": "Réglementaire & IA médicale",
+    "definition": "Un logiciel qui, à lui seul et sans faire partie d'un appareil, remplit une finalité médicale (aider à diagnostiquer, surveiller ou choisir un traitement) et doit donc obtenir un marquage CE ou une autorisation FDA comme un dispositif.",
     "parts": [
       {
-        "label": "Segmentation IA",
-        "role": "le découpage des structures"
+        "label": "Finalité médicale",
+        "role": "ce qui en fait un dispositif"
       },
       {
-        "label": "Biomarqueur",
-        "role": "le chiffre mesuré"
+        "label": "Classe de risque",
+        "role": "le niveau d'exigence"
       },
       {
-        "label": "Référence clinique",
-        "role": "la validation sur essai"
+        "label": "Preuve clinique",
+        "role": "la validation"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Acquisition",
-        "t": "Le scanner thoracique standard est envoyé au logiciel, sans nouvel examen."
+        "h": "Qualifier",
+        "t": "On établit que le logiciel poursuit une finalité médicale revendiquée, sans être intégré à un appareil."
       },
       {
         "n": "2",
-        "h": "Quantification",
-        "t": "L'algorithme segmente poumons, voies aériennes et vaisseaux, puis calcule des scores (ex. étendue totale de la maladie)."
+        "h": "Certifier",
+        "t": "Un organisme notifié évalue le dossier selon la classe de risque (classe IIa pour Scanvio Assist, évalué par TÜV SÜD)."
       },
       {
         "n": "3",
-        "h": "Suivi",
-        "t": "Les scores sont comparés dans le temps pour suivre la progression et la réponse au traitement."
+        "h": "Valider",
+        "t": "Des études cliniques montrent l'intérêt réel du logiciel, par exemple un essai randomisé comme PRECISE MDD pour DeepPsy."
       }
     ],
-    "why": "Pour un VC, c'est un pont entre MedTech et pharma : un biomarqueur d'imagerie validé sur un essai de phase III peut devenir un critère d'essai vendu aux laboratoires, en plus du revenu hospitalier.",
+    "why": "Pour un VC, le logiciel se copie à coût marginal faible mais la barrière est réglementaire : un marquage CE ou une clearance FDA est un actif au bilan, qui peut se vendre aux fabricants de machines, comme le propose Scanvio aux fabricants d'échographes.",
     "startups": [
       {
+        "name": "Scanvio Medical",
+        "use": "Scanvio Assist, IA de guidage de l'échographie de l'endométriose ; marquage CE classe IIa sous MDR en octobre 2026",
+        "place": "Suisse"
+      },
+      {
+        "name": "DeepPsy",
+        "use": "Logiciel d'analyse EEG/ECG pour la dépression ; essai randomisé de 500 patients financé à 1,99 M CHF par le FNS",
+        "place": "Suisse"
+      },
+      {
         "name": "Brainomix",
-        "use": "e-Lung, quantification de la fibrose pulmonaire sur scanner, validée sur l'essai INBUILD ; Series C portée à 18,8 M£ en février 2026",
+        "use": "e-Lung, quantification de la fibrose pulmonaire sur scanner, utilisée dans l'essai de phase III INBUILD",
         "place": "Oxford, Royaume-Uni"
       },
       {
-        "name": "Thirona",
-        "use": "LungQ, analyse quantitative des scanners thoraciques ; LungQ 4 cleared par la FDA (510(k)) en octobre 2025",
-        "place": "Nimègue, Pays-Bas"
-      },
-      {
-        "name": "Quibim",
-        "use": "Biomarqueurs d'imagerie par IA (IRM, scanner, TEP) ; Series A de 50 M$ en janvier 2025",
-        "place": "Valence, Espagne"
+        "name": "Briya",
+        "use": "Plateforme AIRE (IA et traitement du langage) qui repère des patients dans les comptes rendus d'imagerie",
+        "place": "New York / Tel Aviv"
       }
     ],
     "sources": [
       {
+        "publisher": "U.S. FDA",
+        "title": "Software as a Medical Device (SaMD)",
+        "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+      },
+      {
+        "publisher": "Startupticker.ch",
+        "title": "Scanvio Assist receives world's first CE mark for AI-assisted ultrasound in endometriosis",
+        "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+      },
+      {
+        "publisher": "Startupticker.ch",
+        "title": "DeepPsy obtains CHF 1.99 million for four-year multicenter study",
+        "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
+      },
+      {
         "publisher": "Medical Device Network",
-        "title": "Brainomix's e-Lung shows progression and treatment response in Phase III trial",
-        "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
-      },
-      {
-        "publisher": "PR Newswire",
-        "title": "Brainomix Extends Series C Financing to $25.4M (£18.8M) to Support U.S. Expansion",
-        "url": "https://tools.prnewswire.com/en-us/live/20813/release/20260224EN93357"
-      },
-      {
-        "publisher": "AuntMinnie",
-        "title": "Thirona receives FDA clearance for LungQ 4 software",
-        "url": "https://www.auntminnie.com/imaging-informatics/artificial-intelligence/news/15769560/thirona-receives-fda-clearance-for-lungq-4-software"
-      },
-      {
-        "publisher": "Business Wire",
-        "title": "Quibim announces $50 million Series A financing",
-        "url": "https://www.businesswire.com/news/home/20250128971469/en"
+        "title": "AI use on existing radiology reports sees 360% rise in steatotic liver patient identification",
+        "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
       }
     ]
   }

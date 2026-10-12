@@ -1,6 +1,171 @@
 {
-  "generatedAt": "2026-10-11",
+  "generatedAt": "2026-10-12",
   "words": [
+    {
+      "term": "Amylin Analog",
+      "full": "Amylin Analog (analogue de l'amyline)",
+      "fr": "Analogue de l'amyline",
+      "field": "Obésité & métabolisme",
+      "definition": "Un médicament injectable ou oral qui imite l'amyline, hormone du pancréas qui ralentit la vidange gastrique et envoie un signal de satiété, pour faire perdre du poids avec moins d'effets digestifs que les GLP-1.",
+      "parts": [
+        {
+          "label": "Peptide stabilisé",
+          "role": "l'hormone modifiée"
+        },
+        {
+          "label": "Récepteur de l'amyline",
+          "role": "la cible"
+        },
+        {
+          "label": "Action prolongée",
+          "role": "la fréquence de dose"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Liaison",
+          "t": "Le peptide se fixe aux récepteurs de l'amyline dans le cerveau."
+        },
+        {
+          "n": "2",
+          "h": "Satiété",
+          "t": "Le signal de satiété augmente et la vidange gastrique ralentit."
+        },
+        {
+          "n": "3",
+          "h": "Perte de poids",
+          "t": "Les patients mangent moins ; dans ZUPREME-2, jusqu'à 9,2 % de perte de poids à 28 semaines."
+        }
+      ],
+      "why": "Après les GLP-1, l'amyline est la voie en vogue : Roche a payé 1,65 Md$ d'upfront à Zealand et AbbVie est entré dans l'obésité via Gubra. Pour un VC, l'enjeu est de repérer qui reste indépendant, car plusieurs acteurs ont déjà été rachetés.",
+      "startups": [
+        {
+          "name": "Zealand Pharma",
+          "use": "Petrelintide, analogue de l'amyline co-développé avec Roche ; Phase 2 ZUPREME-2 positive en octobre 2026",
+          "place": "Danemark"
+        },
+        {
+          "name": "Gubra",
+          "use": "ABBV-295, analogue de l'amyline à action prolongée licencié à AbbVie (350 M$ d'upfront) ; jalon de 50 M$ au lancement de la Phase 2",
+          "place": "Danemark"
+        },
+        {
+          "name": "Verdiva Bio",
+          "use": "VRB-103, analogue oral hebdomadaire de l'amyline, entrée en clinique prévue au S2 2026 ; 411 M$ levés au lancement en janvier 2025",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Another bad day at Zealand: Roche-partnered drug disappoints on blood sugar",
+          "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Zealand Pharma and Roche to advance petrelintide, an amylin analog, to Phase 3 trials for chronic weight management",
+          "url": "https://www.biospace.com/press-releases/zealand-pharma-and-roche-to-advance-petrelintide-an-amylin-analog-to-phase-3-trials-for-chronic-weight-management"
+        },
+        {
+          "publisher": "Plesner",
+          "title": "Gubra and AbbVie enter license agreement on amylin analog for obesity",
+          "url": "https://plesner.com/en/news/gubra-and-abbvie-enter-license-agreement-amylin-analog-obesity"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Verdiva Bio presents preclinical data on investigational obesity drug candidates at the ADA 86th Scientific Sessions",
+          "url": "https://www.biospace.com/press-releases/verdiva-bio-presents-preclinical-data-on-investigational-obesity-drug-candidates-at-the-american-diabetes-association-86th-scientific-sessions"
+        }
+      ],
+      "date": "2026-10-12",
+      "dateLong": "12 oct. 2026"
+    },
+    {
+      "term": "SaMD",
+      "full": "Software as a Medical Device",
+      "fr": "Logiciel en tant que dispositif médical",
+      "field": "Réglementaire & IA médicale",
+      "definition": "Un logiciel qui, à lui seul et sans faire partie d'un appareil, remplit une finalité médicale (aider à diagnostiquer, surveiller ou choisir un traitement) et doit donc obtenir un marquage CE ou une autorisation FDA comme un dispositif.",
+      "parts": [
+        {
+          "label": "Finalité médicale",
+          "role": "ce qui en fait un dispositif"
+        },
+        {
+          "label": "Classe de risque",
+          "role": "le niveau d'exigence"
+        },
+        {
+          "label": "Preuve clinique",
+          "role": "la validation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Qualifier",
+          "t": "On établit que le logiciel poursuit une finalité médicale revendiquée, sans être intégré à un appareil."
+        },
+        {
+          "n": "2",
+          "h": "Certifier",
+          "t": "Un organisme notifié évalue le dossier selon la classe de risque (classe IIa pour Scanvio Assist, évalué par TÜV SÜD)."
+        },
+        {
+          "n": "3",
+          "h": "Valider",
+          "t": "Des études cliniques montrent l'intérêt réel du logiciel, par exemple un essai randomisé comme PRECISE MDD pour DeepPsy."
+        }
+      ],
+      "why": "Pour un VC, le logiciel se copie à coût marginal faible mais la barrière est réglementaire : un marquage CE ou une clearance FDA est un actif au bilan, qui peut se vendre aux fabricants de machines, comme le propose Scanvio aux fabricants d'échographes.",
+      "startups": [
+        {
+          "name": "Scanvio Medical",
+          "use": "Scanvio Assist, IA de guidage de l'échographie de l'endométriose ; marquage CE classe IIa sous MDR en octobre 2026",
+          "place": "Suisse"
+        },
+        {
+          "name": "DeepPsy",
+          "use": "Logiciel d'analyse EEG/ECG pour la dépression ; essai randomisé de 500 patients financé à 1,99 M CHF par le FNS",
+          "place": "Suisse"
+        },
+        {
+          "name": "Brainomix",
+          "use": "e-Lung, quantification de la fibrose pulmonaire sur scanner, utilisée dans l'essai de phase III INBUILD",
+          "place": "Oxford, Royaume-Uni"
+        },
+        {
+          "name": "Briya",
+          "use": "Plateforme AIRE (IA et traitement du langage) qui repère des patients dans les comptes rendus d'imagerie",
+          "place": "New York / Tel Aviv"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "U.S. FDA",
+          "title": "Software as a Medical Device (SaMD)",
+          "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Scanvio Assist receives world's first CE mark for AI-assisted ultrasound in endometriosis",
+          "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "DeepPsy obtains CHF 1.99 million for four-year multicenter study",
+          "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "AI use on existing radiology reports sees 360% rise in steatotic liver patient identification",
+          "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
+        }
+      ],
+      "date": "2026-10-12",
+      "dateLong": "12 oct. 2026"
+    },
     {
       "term": "Quantitative CT",
       "full": "Quantitative CT (qCT, scanner thoracique quantitatif par IA)",
@@ -3194,64 +3359,6 @@
       ],
       "date": "2026-08-18",
       "dateLong": "18 août 2026"
-    },
-    {
-      "term": "SaMD",
-      "full": "Software as a Medical Device",
-      "fr": "Logiciel en tant que dispositif médical",
-      "field": "Réglementaire · Digital Health",
-      "definition": "Un logiciel qui remplit à lui seul une fonction médicale — diagnostiquer, guider un traitement — sans être intégré à un dispositif matériel, et qui est de ce fait régulé comme un dispositif médical à part entière.",
-      "parts": [
-        {
-          "label": "Capture",
-          "role": "la donnée d'entrée : imagerie, signal, dossier patient, saisie utilisateur"
-        },
-        {
-          "label": "Moteur algorithmique",
-          "role": "l'analyse — règles cliniques ou modèle d'IA/ML entraîné"
-        },
-        {
-          "label": "Sortie clinique",
-          "role": "le résultat actionnable : diagnostic, alerte, recommandation de dose"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Qualification",
-          "t": "Le logiciel est classé selon son risque clinique (catégories IMDRF I à IV), ce qui détermine la voie réglementaire à suivre."
-        },
-        {
-          "n": "2",
-          "h": "Validation clinique",
-          "t": "Une étude démontre la sécurité et la performance du logiciel sur son indication précise, souvent via un prédicat existant."
-        },
-        {
-          "n": "3",
-          "h": "Autorisation",
-          "t": "La FDA (510(k)/De Novo) ou un organisme notifié européen (marquage CE sous le MDR) valide la mise sur le marché."
-        }
-      ],
-      "why": "Le SaMD combine l'économie logicielle (coût marginal quasi nul, itération rapide) avec la barrière réglementaire d'un dispositif médical — une combinaison rare qui séduit les VC santé : la clearance FDA transforme une app en actif défendable, avec un vrai code de remboursement à la clé plutôt qu'un abonnement wellness fragile. 2026 marque un tournant avec la première clearance FDA d'un logiciel intégrant un LLM en interaction directe avec le patient.",
-      "startups": [
-        {
-          "name": "UpDoc",
-          "use": "Premier SaMD FDA-cleared (510(k), déc. 2025) intégrant un LLM en interaction directe avec le patient, pour la titration d'insuline dans le diabète de type 2 ; 18 M$ en seed",
-          "place": "États-Unis"
-        },
-        {
-          "name": "Cognoa",
-          "use": "Canvas Dx, SaMD de dépistage des troubles du spectre autistique par analyse vidéo, autorisé par la FDA (De Novo)",
-          "place": "Palo Alto, États-Unis"
-        },
-        {
-          "name": "Median Technologies",
-          "use": "eyonis LCS, SaMD d'IA pour le dépistage du cancer du poumon, clearance FDA 510(k) et marquage CE obtenus en 2026",
-          "place": "Valbonne, France"
-        }
-      ],
-      "date": "2026-08-17",
-      "dateLong": "17 août 2026"
     },
     {
       "term": "RLT",
