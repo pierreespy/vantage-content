@@ -1,187 +1,192 @@
 {
-  "dateLong": "Oct 12, 2026",
+  "dateLong": "Oct 13, 2026",
   "ticker": [
     {
-      "company": "Scanvio",
-      "amount": "CE",
+      "company": "CMR Surgical",
+      "amount": "$400M",
+      "kind": "lev"
+    },
+    {
+      "company": "Scarlet",
+      "amount": "$50M",
+      "kind": "lev"
+    },
+    {
+      "company": "Corcym",
+      "amount": "7-yr data",
+      "kind": "tech"
+    },
+    {
+      "company": "Sava",
+      "amount": "Distribution",
+      "kind": "tech"
+    },
+    {
+      "company": "Philips",
+      "amount": "FDA alert",
       "kind": "reg"
     },
     {
-      "company": "DeepPsy",
-      "amount": "500-pt trial",
-      "kind": "tech"
-    },
-    {
-      "company": "PolaSight",
-      "amount": "Spin-off",
-      "kind": "new"
-    },
-    {
-      "company": "Briya",
-      "amount": "+360 %",
-      "kind": "tech"
-    },
-    {
-      "company": "Boston Sci.",
-      "amount": "Patent",
-      "kind": "tech"
-    },
-    {
-      "company": "Stryker",
-      "amount": "CEO",
-      "kind": "tech"
+      "company": "Urolution",
+      "amount": "510(k)",
+      "kind": "reg"
     }
   ],
   "lead": {
-    "kicker": "CE mark · AI imaging",
-    "title": "Scanvio Medical wins CE mark (Class IIa, MDR) for Scanvio Assist, billed as the first AI-assisted ultrasound for endometriosis",
-    "deck": "The software, assessed by notified body TÜV SÜD (NB2443) under EU MDR 2017/745, works with existing ultrasound machines and guides the transvaginal exam in real time; it is also offered to ultrasound makers as an add-on. For a young Swiss company, it is the step to commercial stage in a diagnosis that is still slow to reach.",
-    "company": "Scanvio Medical",
-    "sector": "Imaging",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+    "kicker": "Surgical robotics · Strategic",
+    "title": "Stryker invests about $400M in CMR Surgical and secures an option to buy the UK maker of the Versius robot",
+    "deck": "Stryker becomes exclusive US distributor of CMR's (Cambridge) soft tissue surgical robot, while CMR keeps leading other markets, with an exclusive option to buy the remaining shares. The orthopaedic robotics leader (Mako) thus steps onto da Vinci's turf, facing J&J and Medtronic, already authorised.",
+    "company": "CMR Surgical",
+    "stage": "Growth",
+    "sector": "Surgical robotics",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/"
   },
   "milestone": {
-    "company": "DeepPsy",
-    "milestone": "Trial funded",
-    "title": "DeepPsy wins CHF 1.99M from the Swiss National Science Foundation for PRECISE MDD, a 500-patient trial of its EEG/ECG software in depression",
-    "summary": "Four-year randomised, triple-blind trial: the software extracts biomarkers from EEG and ECG recordings and produces a report comparing approved treatments, tested against reports based on standard recommendations. Sites are in Zurich, Bern and Basel, and an independent academic consortium runs the study.",
-    "why": "Non-dilutive public money paying for the clinical proof of a precision-psychiatry software; the head-to-head design and healthcare-cost follow-up are what payers require for reimbursement.",
-    "place": "Switzerland",
-    "sector": "Digital Health",
-    "signalType": "grant_award",
-    "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
+    "company": "Corcym",
+    "milestone": "7-year data",
+    "title": "Perceval Plus sutureless aortic valve: 99.7% freedom from structural valve deterioration between years 3 and 7 (MANTRA)",
+    "summary": "MANTRA sub-analysis presented at EACTS: 708 patients across 45 centres, 96.6% freedom from aortic valve reoperation from years 4 to 7 and a 3.7% 30-day pacemaker rate (company-reported, not yet peer-reviewed).",
+    "why": "Seven-year durability is the key argument against conventional sutured valves and TAVI in surgical patients; real-world evidence strengthens the sutureless valve market.",
+    "place": "Italy",
+    "sector": "Cardio",
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/new-study-touts-positive-long-term-data-for-corcym-sutureless-aortic-valve/"
+  },
+  "deal": {
+    "company": "Scarlet",
+    "amount": "$50M",
+    "round": "Series B",
+    "thesis": "The London-based certification platform for medical software and AI raises $50M led by Headline, with Notion Capital, Atomico and Creandum. The regulatory bottleneck (MDR, AI) becomes a recurring business: subscription, annual audits and monitoring of product changes.",
+    "sector": "Regulatory",
+    "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/"
   },
   "brefsEurope": [
     {
-      "company": "PolaSight",
-      "place": "Switzerland",
+      "company": "Sava",
+      "place": "United Kingdom",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "stage": "Series B",
+      "title": "Ascensia secures exclusive distribution of Sava's subcutaneous glucose microsensor, starting in Europe",
+      "summary": "Ascensia Diabetes Care, already lead of the Series B, will distribute the sensor through retail and existing reimbursement channels; pivotal study this year, CE mark targeted within 18 to 24 months for non-adjunctive use.",
+      "url": "https://www.medicaldevice-network.com/news/ascensia-sava-commercialise-wearable-microsensor/"
+    },
+    {
+      "company": "Philips",
+      "place": "Netherlands",
       "sector": "Imaging",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "PolaSight, a University of Bern spin-off, gets $100,000 from Constructor Capital for PolaOne, its label-free imaging for cancer surgery",
-      "summary": "PolaOne combines polarised light and AI to produce a live tissue map in about a minute. A small cheque, awarded at the Constructor Start Demo Day, but an early signal on a company with no announced round yet.",
-      "url": "https://startupticker.ch/en/news/healthtech-polasight-receives-100k-investment-at-constructor-start-demo-day"
+      "title": "Philips updates instructions for its Lumify handheld ultrasound after four reported deaths",
+      "summary": "Following an FDA early alert, Philips addresses app behaviour (transducer re-registration requiring a connection); 4 deaths and 8 serious injuries reported as of Sept 29, 2026.",
+      "url": "https://www.medtechdive.com/news/philips-updates-instructions-for-ultrasound-system-linked-to-4-deaths/832692/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Briya",
-      "place": "New York / Tel Aviv",
-      "sector": "Digital Health",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Briya: its AIRE AI identifies 360% more patients with steatotic liver disease in ultrasound reports",
-      "summary": "Across 28,795 reports (20,422 patients, 2020-2024) at Shaare Zedek Medical Center, natural-language processing lifts identified patients from 1,122 to 5,158; only 22% of the new cases had a diagnosis in the structured record.",
-      "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
-    },
-    {
-      "company": "Boston Scientific",
-      "place": "United States",
-      "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "patent_filing",
-      "strength": 2,
-      "title": "Boston Scientific sues Atraverse Medical (J&J) for patent infringement over the Hotwire transseptal guidewire",
-      "summary": "Complaint filed July 11 in Delaware and made public October 8; Hotwire was FDA-cleared in December 2025 and J&J acquired Atraverse in April 2026. A competition signal in atrial fibrillation ablation, where European players are positioning.",
-      "url": "https://www.medicaldevice-network.com/news/boston-sues-jj-subsidiary-over-alleged-patent-infringement-for-cardiology-device/"
-    },
-    {
-      "company": "Stryker",
-      "place": "United States",
+      "company": "Urolution Medical",
+      "place": "Minnesota, USA",
       "sector": "MedTech",
       "pillar": "marche",
-      "signalType": "leadership_hire",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "FDA grants 510(k) clearance to Urolution Medical's OpenFlo catheter",
+      "summary": "Urinary catheter with a patented architecture (modified distal tip and drainage vs. Foley), cleared for adults with a dwell time of up to 30 days.",
+      "url": "https://www.medicaldevice-network.com/news/fda-clearance-urolution-medicals-openflo-catheter/"
+    },
+    {
+      "company": "Emboline",
+      "place": "California, USA",
+      "sector": "Cardio",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
       "strength": 3,
-      "title": "Stryker: Kevin Lobo steps down after 15+ years as CEO, Spencer Stiles succeeds him on January 1, 2027",
-      "summary": "COO Spencer Stiles, 50 and nearly 30 years at the group, becomes CEO; Lobo stays on as executive chair. An internal succession at one of the biggest medtech acquirers, so a stable potential buyer for orthopaedic and robotics startups.",
-      "url": "https://www.medtechdive.com/news/stryker-ceo-kevin-lobo-to-resign/832258/"
+      "title": "First US commercial procedures completed with Emboline's Emboliner TAVR embolic protection",
+      "summary": "Two procedures at NewYork-Presbyterian/Columbia following the September 510(k); the PROTECT H2H study is led by Dr Tamim Nazif.",
+      "url": "https://www.medicaldevice-network.com/news/first-us-procedures-completed-emboline-device/"
     }
   ],
   "word": {
-    "term": "SaMD",
-    "full": "Software as a Medical Device",
-    "fr": "Software as a medical device",
-    "field": "Regulatory & medical AI",
-    "definition": "Software that on its own, without being part of a hardware device, serves a medical purpose (helping diagnose, monitor or choose a treatment) and therefore needs a CE mark or FDA authorisation like any device.",
+    "term": "Soft Tissue Robotics",
+    "full": "Soft Tissue Robotics",
+    "fr": "Soft tissue surgical robotics",
+    "field": "Surgical robotics",
+    "definition": "Robots that assist the surgeon on soft organs (abdomen, pelvis, urology, gynaecology) through minimally invasive routes, as opposed to orthopaedic robots that work on bone.",
     "parts": [
       {
-        "label": "Medical purpose",
-        "role": "what makes it a device"
+        "label": "Surgeon console",
+        "role": "control and 3D vision"
       },
       {
-        "label": "Risk class",
-        "role": "the level of scrutiny"
+        "label": "Robotic arms",
+        "role": "the hands holding the instruments"
       },
       {
-        "label": "Clinical evidence",
-        "role": "the validation"
+        "label": "Articulated instruments",
+        "role": "precise action inside the body"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Qualify",
-        "t": "The software is shown to pursue a claimed medical purpose without being embedded in a hardware device."
+        "h": "Setup",
+        "t": "Arms are positioned around the patient and instruments inserted through small incisions."
       },
       {
         "n": "2",
-        "h": "Certify",
-        "t": "A notified body assesses the file according to risk class (Class IIa for Scanvio Assist, assessed by TÜV SÜD)."
+        "h": "Teleoperation",
+        "t": "The surgeon operates from the console; the robot filters out tremor and large movements."
       },
       {
         "n": "3",
-        "h": "Validate",
-        "t": "Clinical studies show real-world value, for example a randomised trial like PRECISE MDD for DeepPsy."
+        "h": "Data",
+        "t": "Every gesture generates data that feeds training, analytics and AI features."
       }
     ],
-    "why": "For a VC, software copies at low marginal cost but the moat is regulatory: a CE mark or FDA clearance is a balance-sheet asset that can be sold to hardware makers, as Scanvio offers to ultrasound manufacturers.",
+    "why": "Dominated by Intuitive's da Vinci, this market is opening up: J&J and Medtronic are authorised in the US and Stryker is positioning via CMR. VC angle: consumables and recurring revenue, but heavy capital cycles and exits through strategic acquisition.",
     "startups": [
       {
-        "name": "Scanvio Medical",
-        "use": "Scanvio Assist, AI guidance for endometriosis ultrasound; CE mark Class IIa under MDR in October 2026",
+        "name": "Distalmotion",
+        "use": "Dexter robot (Lausanne), $150M raise led by Revival Healthcare Capital; expanded FDA indications in gynaecology.",
         "place": "Switzerland"
       },
       {
-        "name": "DeepPsy",
-        "use": "EEG/ECG analysis software for depression; 500-patient randomised trial funded with CHF 1.99M by the SNSF",
-        "place": "Switzerland"
+        "name": "Moon Surgical",
+        "use": "Maestro, a laparoscopic robotic assistant cleared by the FDA in June 2024; $55.4M round (Sofinnova, NVentures).",
+        "place": "Paris, France"
       },
       {
-        "name": "Brainomix",
-        "use": "e-Lung, CT-based quantification of pulmonary fibrosis, used in the Phase III INBUILD trial",
-        "place": "Oxford, UK"
-      },
-      {
-        "name": "Briya",
-        "use": "AIRE platform (AI and natural-language processing) that finds patients in imaging reports",
-        "place": "New York / Tel Aviv"
+        "name": "Medical Microinstruments (MMI)",
+        "use": "Symani, a robotic supermicrosurgery system; just raised $125M.",
+        "place": "Italy"
       }
     ],
     "sources": [
       {
-        "publisher": "U.S. FDA",
-        "title": "Software as a Medical Device (SaMD)",
-        "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+        "publisher": "MedTech Dive",
+        "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical",
+        "url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/"
       },
       {
-        "publisher": "Startupticker.ch",
-        "title": "Scanvio Assist receives world's first CE mark for AI-assisted ultrasound in endometriosis",
-        "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+        "publisher": "MassDevice",
+        "title": "Distalmotion raises $150M for Dexter surgical robot",
+        "url": "https://www.massdevice.com/distalmotion-raises-150m-dexter-surgical-robot/"
       },
       {
-        "publisher": "Startupticker.ch",
-        "title": "DeepPsy obtains CHF 1.99 million for four-year multicenter study",
-        "url": "https://startupticker.ch/en/news/deeppsy-s-obtains-chf-1-99-million-for-four-year-multicenter-study"
+        "publisher": "MassDevice",
+        "title": "Moon Surgical raises funding for its robotic surgery system",
+        "url": "https://www.massdevice.com/moon-surgical-raises-31m-robotic-surgery-system/"
       },
       {
-        "publisher": "Medical Device Network",
-        "title": "AI use on existing radiology reports sees 360% rise in steatotic liver patient identification",
-        "url": "https://www.medicaldevice-network.com/news/ai-use-on-existing-radiology-reports-sees-360-rise-in-steatotic-liver-patient-identification/"
+        "publisher": "MedTech Dive",
+        "title": "MMI raises $125M to scale up in robotic microsurgery",
+        "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
       }
     ]
   }

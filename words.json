@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-13",
   "words": [
+    {
+      "term": "Soft Tissue Robotics",
+      "full": "Soft Tissue Robotics (robotique chirurgicale des tissus mous)",
+      "fr": "Robotique chirurgicale des tissus mous",
+      "field": "Robotique chirurgicale",
+      "definition": "Des robots qui assistent le chirurgien sur les organes mous (abdomen, pelvis, urologie, gynécologie) par voie mini-invasive, par opposition aux robots orthopédiques qui travaillent sur l'os.",
+      "parts": [
+        {
+          "label": "Console / poste chirurgien",
+          "role": "le pilotage et la vision 3D"
+        },
+        {
+          "label": "Bras robotisés",
+          "role": "les mains qui tiennent les instruments"
+        },
+        {
+          "label": "Instruments articulés",
+          "role": "le geste précis dans le corps"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Installation",
+          "t": "Les bras sont positionnés autour du patient et les instruments introduits par de petites incisions."
+        },
+        {
+          "n": "2",
+          "h": "Téléopération",
+          "t": "Le chirurgien opère depuis la console ; le robot filtre les tremblements et mouvements."
+        },
+        {
+          "n": "3",
+          "h": "Données",
+          "t": "Chaque geste produit des données qui alimentent formation, analyse et fonctions d'IA."
+        }
+      ],
+      "why": "Dominé par da Vinci d'Intuitive, ce marché s'ouvre : J&J et Medtronic sont autorisés aux États-Unis et Stryker prend position via CMR. L'angle VC : consommables et récurrence, mais cycles de capital lourds et sorties par rachat stratégique.",
+      "startups": [
+        {
+          "name": "Distalmotion",
+          "use": "Robot Dexter (Lausanne), levée de 150 M$ menée par Revival Healthcare Capital ; indications FDA étendues en gynécologie.",
+          "place": "Suisse"
+        },
+        {
+          "name": "Moon Surgical",
+          "use": "Maestro, assistant robotique laparoscopique autorisé par la FDA en juin 2024 ; Series B de 55,4 M$ (Sofinnova, NVentures).",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Medical Microinstruments (MMI)",
+          "use": "Symani, robot de supermicrochirurgie ; vient de lever 125 M$.",
+          "place": "Italie"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MedTech Dive",
+          "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical",
+          "url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Distalmotion raises $150M for Dexter surgical robot",
+          "url": "https://www.massdevice.com/distalmotion-raises-150m-dexter-surgical-robot/"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Moon Surgical raises funding for its robotic surgery system",
+          "url": "https://www.massdevice.com/moon-surgical-raises-31m-robotic-surgery-system/"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "MMI raises $125M to scale up in robotic microsurgery",
+          "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+        }
+      ],
+      "date": "2026-10-13",
+      "dateLong": "13 oct. 2026"
+    },
     {
       "term": "Amylin Analog",
       "full": "Amylin Analog (analogue de l'amyline)",
