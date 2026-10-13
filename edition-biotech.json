@@ -1,194 +1,236 @@
 {
-  "dateLong": "12 oct. 2026",
+  "dateLong": "13 oct. 2026",
   "ticker": [
     {
-      "company": "Zealand",
-      "amount": "Ph2 ✓",
+      "company": "Amphista",
+      "amount": "1er patient",
       "kind": "tech"
     },
     {
-      "company": "Newron",
-      "amount": "FDA hold",
+      "company": "Elicera",
+      "amount": "Ph1 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Desentum",
+      "amount": "€28M",
+      "kind": "lev"
+    },
+    {
+      "company": "Beacon Therapeutics",
+      "amount": "Ph2/3 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Ascelia",
+      "amount": "FDA Type A",
       "kind": "reg"
     },
     {
-      "company": "Alligator",
-      "amount": "Pivot",
-      "kind": "tech"
-    },
-    {
-      "company": "Spica",
-      "amount": "CEO",
-      "kind": "tech"
-    },
-    {
-      "company": "Sensorion",
-      "amount": "CFO",
-      "kind": "tech"
-    },
-    {
-      "company": "KymaThera",
-      "amount": "$80M",
-      "kind": "lev"
+      "company": "Baio Labs",
+      "amount": "Spin-off",
+      "kind": "new"
     }
   ],
   "lead": {
-    "kicker": "Données Phase 2 · Cardiométabolique",
-    "title": "Zealand Pharma : petrelintide (partenaire Roche) atteint son critère principal en Phase 2 ZUPREME-2, jusqu'à 9,2 % de perte de poids à 28 semaines",
-    "deck": "Sur 220 participants en surpoids ou obèses avec un diabète de type 2, les trois doses battent le placebo (jusqu'à 9,2 % contre 2 %), avec une baisse d'HbA1c allant jusqu'à 0,65 point contre une hausse de 0,23 sous placebo, et 1,9 % d'arrêts digestifs contre 1,7 %. Le titre a pourtant reculé d'environ 4 % : le marché attendait mieux d'un analogue de l'amyline très disputé.",
-    "company": "Zealand Pharma",
-    "sector": "Cardiométabolique",
+    "kicker": "Premier patient dosé · Dégradeurs de protéines",
+    "title": "Amphista dose le premier patient de l'essai de Phase 1 d'AMX-883, dégradeur oral de BRD9, dans la leucémie aiguë myéloïde",
+    "deck": "La biotech de Cambridge teste son « Targeted Glue » recrutant la ligase E3 DCAF16 dans la LAM et les SMD à haut risque : environ 54 patients prévus (essai BRAMLIE, NCT07723703) après l'autorisation de la FDA en juin 2026. Un jalon de preuve de concept clinique pour la classe des dégradeurs, avant toute levée ou deal de licensing.",
+    "company": "Amphista Therapeutics",
+    "sector": "Oncologie",
     "pillar": "innovation",
     "signalType": "clinical_update",
     "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
+    "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
   },
   "milestone": {
-    "company": "Alligator Bioscience",
-    "milestone": "Changement de cap",
-    "title": "Alligator Bioscience arrête le développement interne de mitazalimab et fait de son CFO Johan Giléus le CEO à compter du 1er janvier 2027",
-    "summary": "Johan Giléus succède à Søren Bregenholt tout en gardant la fonction de CFO ; la biotech suédoise recentre son activité sur sa participation dans HLX22, un anticorps ciblant HER2.",
-    "why": "Une équipe dirigeante réduite et un pipeline interne abandonné au profit d'un actif partagé : le schéma typique d'une biotech cotée qui préserve sa trésorerie dans un marché où le capital est rare.",
-    "place": "Suède",
-    "sector": "Biotech",
-    "signalType": "leadership_hire",
-    "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+    "company": "Elicera Therapeutics",
+    "milestone": "Phase I ✓",
+    "title": "Le CAR-T ELC-301 d'Elicera atteint 67 % de réponse métabolique complète en Phase I et obtient le feu vert pour la Phase IIa",
+    "summary": "Sur 12 patients de lymphome B très prétraités, aucune toxicité limitante, 92 % de réponse objective et 100 % de contrôle de la maladie ; l'agence suédoise MPA autorise la Phase IIa (6 patients, recrutement au T4 2026).",
+    "why": "Un CAR-T CD20 de 4e génération (plateforme iTANK) qui passe sans toxicité limitante pose un jalon rare pour une petite biotech cotée de Göteborg, avant un éventuel partenariat.",
+    "place": "Göteborg",
+    "sector": "Thérapie cellulaire",
+    "signalType": "clinical_update",
+    "url": "https://nordiclifescience.org/eliceras-car-t-cell-therapy-shows-strong-phase-i-results/"
+  },
+  "deal": {
+    "company": "Desentum",
+    "amount": "28 M€",
+    "thesis": "La biotech finlandaise lève 28 M€ en tour sursouscrit arrangé par Springvest pour trois programmes d'immunothérapie allergénique, dont DM-101PX contre le bouleau (Phase II BASIT, environ 100 patients, résultats attendus fin 2026). Sortie visée après la Phase II par licence, M&A ou IPO.",
+    "sector": "Immunologie",
+    "url": "https://european-biotechnology.com/latest-news/desentum-secures-e28m-for-faster-allergy-immunotherapy/",
+    "round": "Late-stage (Phase II)"
   },
   "brefsEurope": [
     {
-      "company": "Newron Pharmaceuticals",
-      "place": "Italie",
-      "sector": "Neurosciences",
+      "company": "Beacon Therapeutics",
+      "place": "Londres",
+      "sector": "Thérapie génique",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "Beacon Therapeutics atteint le critère principal de l'essai pivot VISTA de laru-zova dans la rétinite pigmentaire liée à l'X",
+      "summary": "Gain d'au moins 15 lettres à M12 : 31,0 % (haute dose, p=0,0019) et 24,1 % (basse dose) contre 0 % ; la sensibilité maculaire ne franchit pas le seuil (p=0,0614). Soumission BLA glissante visée fin 2026.",
+      "url": "https://www.biospace.com/press-releases/beacon-therapeutics-presents-data-from-pivotal-vista-trial-of-laru-zova-at-aao-2026"
+    },
+    {
+      "company": "Oncopeptides",
+      "place": "Stockholm",
+      "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "Newron veut lever le gel FDA d'ENIGMA-TRS 2 en dépistant le syndrome de Brugada et en réduisant l'inclusion américaine à 60-80 patients",
-      "summary": "Un amendement est attendu sous 10 à 12 jours, avec 30 jours de réponse pour la FDA ; cinq décès sont recensés dans les études d'evenamide (quatre sous traitement, un sous placebo). ENIGMA-TRS 1, non concernée, rapportera au T1 2027.",
-      "url": "https://european-biotechnology.com/latest-news/newron-plans-heart-tests-to-lift-schizophrenia-trial-hold/"
+      "title": "Oncopeptides détecte du melflufen dans le tissu tumoral des trois premiers patients de l'essai INSULA dans le glioblastome",
+      "summary": "Critère principal atteint à Oslo University Hospital, bonne tolérance ; recrutement poursuivi vers environ 10 patients.",
+      "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
     },
     {
-      "company": "Spica Therapeutics",
-      "place": "Belgique",
-      "sector": "Immunologie",
+      "company": "Ascelia Pharma",
+      "place": "Malmö",
+      "sector": "Imagerie",
       "pillar": "marche",
-      "signalType": "leadership_hire",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Spica Therapeutics nomme Jeff Abbey CEO, ancien patron de RNatives",
-      "summary": "Spica prévoit d'étendre sa plateforme ciblant les macrophages à l'inflammation et à la fibrose.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "title": "Après sa réunion Type A, la FDA exige des preuves cliniques supplémentaires pour Orviglance d'Ascelia",
+      "summary": "La FDA demande une nouvelle étude ou une analyse prospective des images SPARKLE ; Ascelia ne prévoit pas de nouvelle étude et priorise l'Europe et la recherche d'un partenaire.",
+      "url": "https://www.biospace.com/press-releases/ascelia-pharma-provides-orviglancer-update-following-fda-type-a-meeting"
     },
     {
-      "company": "Sensorion",
-      "place": "France",
-      "sector": "Thérapie génique",
+      "company": "OnDosis",
+      "place": "Göteborg",
+      "sector": "Biotech",
       "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Sensorion nomme Lou Arcudi CFO, ex-Amolyt Pharma, avant un essai de SENS-601 prévu début 2027",
-      "summary": "La société a déposé confidentiellement en septembre un dossier pour une éventuelle cotation aux États-Unis ; Lou Arcudi succède à Laurene Danon.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "OnDosis s'associe au CDMO américain Adare pour son programme américain contre le TDAH",
+      "summary": "Adare fournit les services de fabrication pour Imfocy, granulés d'amphétamines à libération prolongée via le dispositif Dosage Manager ; termes financiers non divulgués.",
+      "url": "https://nordiclifescience.org/ondosis-partners-with-adare-on-us-adhd-program/"
     },
     {
-      "company": "RQ Bio",
+      "company": "Concept Life Sciences",
       "place": "Royaume-Uni",
-      "sector": "Vaccins",
+      "sector": "Biotech",
       "pillar": "marche",
       "signalType": "leadership_hire",
       "strength": 2,
-      "title": "RQ Bio recrute Gavin Koh comme Chief Medical Officer après sa Series A de 115 M$",
-      "summary": "La biotech développe RQB01, un anticorps antigrippal à action prolongée ; le recrutement s'accompagne d'embauches en production et en opérations cliniques.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "title": "Concept Life Sciences nomme Adrijana Vinter CEO",
+      "summary": "L'ancienne Global Head of Drug Discovery de Selvita et ex-CEO de Fidelta succède au CEO par intérim Jonathan Critchley, qui reste CFO.",
+      "url": "https://www.biospace.com/press-releases/concept-life-sciences-appoints-dr-adrijana-vinter-as-chief-executive-officer"
+    },
+    {
+      "company": "Baio Labs",
+      "place": "Écublens",
+      "sector": "IA drug discovery",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 2,
+      "stage": "Pre-seed",
+      "title": "Baio Labs, spin-off de l'EPFL, obtient 150 000 CHF de Venture Kick pour sa plateforme Drugon de design de médicaments par IA générative",
+      "summary": "Fondée par Ilia Igashov (CEO) et Arne Schneuing (CTO) avec le prof. Bruno Correia (EPFL).",
+      "url": "https://www.startupticker.ch/en/news/baio-labs-obtains-funding-to-accelerate-drug-discovery-with-generative-ai"
     }
   ],
   "brefsIntl": [
     {
-      "company": "KymaThera",
-      "place": "San Diego",
-      "sector": "Oncologie",
+      "company": "Matchpoint Therapeutics",
+      "place": "Watertown, États-Unis",
+      "sector": "Immunologie",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 4,
       "stage": "Series B",
-      "title": "KymaThera lève 80 M$ en Series B menée par Alta Partners pour son inhibiteur PI3Kα K-1728",
-      "summary": "Foresite Capital et Venrock participent ; premier dosage de Phase I prévu au T4 2026 dans le cancer du sein HR+/HER2- et les malformations vasculaires liées à PI3Kα. Un comparable de valorisation pour les biotechs européennes d'oncologie de précision.",
-      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/"
+      "title": "Matchpoint Therapeutics lève 150 M$ en Series B co-menée par Nextech Invest et Norwest",
+      "summary": "Sanofi Ventures, le T1D Fund et Atlas Venture participent ; MPT-062, modulateur oral des lymphocytes T, entrera en clinique en 2027.",
+      "url": "https://www.biospace.com/business/big-pharma-backed-matchpoint-scores-150m-series-b-advancing-autoimmune-asset"
+    },
+    {
+      "company": "Alector",
+      "place": "États-Unis",
+      "sector": "Neurosciences",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Genentech s'offre jusqu'à 1,27 Md$ d'accord avec Alector, dont 100 M$ d'upfront, pour un actif Parkinson ciblant la barrière hémato-encéphalique",
+      "summary": "AL050 (GCase, préclinique) est couplé à la technologie « Brain Carrier » d'Alector : un comparable de valorisation pour les navettes cérébrales.",
+      "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
     }
   ],
   "word": {
-    "term": "Amylin Analog",
-    "full": "Amylin Analog (analogue de l'amyline)",
-    "fr": "Analogue de l'amyline",
-    "field": "Obésité & métabolisme",
-    "definition": "Un médicament injectable ou oral qui imite l'amyline, hormone du pancréas qui ralentit la vidange gastrique et envoie un signal de satiété, pour faire perdre du poids avec moins d'effets digestifs que les GLP-1.",
+    "term": "Brain Shuttle",
+    "full": "Brain Shuttle / BBB Shuttle (navette de transport à travers la barrière hémato-encéphalique)",
+    "fr": "Navette hémato-encéphalique",
+    "field": "Neurosciences · Délivrance de médicaments",
+    "definition": "Une molécule de transport (anticorps modifié, peptide) qui se fixe à un récepteur de la barrière hémato-encéphalique pour faire entrer dans le cerveau un médicament qui n'y parviendrait pas seul.",
     "parts": [
       {
-        "label": "Peptide stabilisé",
-        "role": "l'hormone modifiée"
+        "label": "Vecteur de transport",
+        "role": "le passe-partout, lié à un récepteur de la barrière"
       },
       {
-        "label": "Récepteur de l'amyline",
-        "role": "la cible"
+        "label": "Charge utile",
+        "role": "le médicament (siRNA, enzyme, anticorps, petite molécule)"
       },
       {
-        "label": "Action prolongée",
-        "role": "la fréquence de dose"
+        "label": "Lien",
+        "role": "l'attache qui règle stabilité et libération"
       }
     ],
     "how": [
       {
         "n": "1",
         "h": "Liaison",
-        "t": "Le peptide se fixe aux récepteurs de l'amyline dans le cerveau."
+        "t": "La navette se fixe à un récepteur de la surface des cellules de la barrière, comme celui de la transferrine."
       },
       {
         "n": "2",
-        "h": "Satiété",
-        "t": "Le signal de satiété augmente et la vidange gastrique ralentit."
+        "h": "Transcytose",
+        "t": "Le complexe traverse la barrière en étant transporté à l'intérieur de la cellule endothéliale."
       },
       {
         "n": "3",
-        "h": "Perte de poids",
-        "t": "Les patients mangent moins ; dans ZUPREME-2, jusqu'à 9,2 % de perte de poids à 28 semaines."
+        "h": "Libération",
+        "t": "La charge utile est libérée dans le tissu cérébral, où elle agit sur sa cible neuronale."
       }
     ],
-    "why": "Après les GLP-1, l'amyline est la voie en vogue : Roche a payé 1,65 Md$ d'upfront à Zealand et AbbVie est entré dans l'obésité via Gubra. Pour un VC, l'enjeu est de repérer qui reste indépendant, car plusieurs acteurs ont déjà été rachetés.",
+    "why": "La barrière bloque l'accès au cerveau pour la grande majorité des médicaments systémiques : les navettes sont la clé pour les biologiques et l'ARN en neurologie. Les grands groupes paient pour y accéder, comme Genentech avec 100 M$ d'upfront versés à Alector le 5 oct. 2026.",
     "startups": [
       {
-        "name": "Zealand Pharma",
-        "use": "Petrelintide, analogue de l'amyline co-développé avec Roche ; Phase 2 ZUPREME-2 positive en octobre 2026",
-        "place": "Danemark"
+        "name": "Aerska",
+        "use": "Anticorps conjugués à des siRNA avec une navette cérébrale propriétaire ; Series A de 32 M€ en février 2026 menée par EQT Dementia Fund et age1.",
+        "place": "Dublin, Irlande"
       },
       {
-        "name": "Gubra",
-        "use": "ABBV-295, analogue de l'amyline à action prolongée licencié à AbbVie (350 M$ d'upfront) ; jalon de 50 M$ au lancement de la Phase 2",
-        "place": "Danemark"
+        "name": "Gate2Brain",
+        "use": "Navette peptidique MiniAp4, candidat G2B-002 contre les tumeurs cérébrales (désignation orpheline FDA et EMA) ; 7 M€ de Shilpa Biocare en juin 2026.",
+        "place": "Barcelone, Espagne"
       },
       {
-        "name": "Verdiva Bio",
-        "use": "VRB-103, analogue oral hebdomadaire de l'amyline, entrée en clinique prévue au S2 2026 ; 411 M$ levés au lancement en janvier 2025",
-        "place": "Royaume-Uni"
+        "name": "Key2Brain",
+        "use": "Plateforme d'anticorps VHH ciblant le récepteur de la transferrine pour accroître l'entrée des biologiques dans le cerveau ; financement identifié limité (subvention d'avril 2026).",
+        "place": "Solna, Suède"
       }
     ],
     "sources": [
       {
-        "publisher": "European Biotechnology",
-        "title": "Another bad day at Zealand: Roche-partnered drug disappoints on blood sugar",
-        "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
-      },
-      {
         "publisher": "BioSpace",
-        "title": "Zealand Pharma and Roche to advance petrelintide, an amylin analog, to Phase 3 trials for chronic weight management",
-        "url": "https://www.biospace.com/press-releases/zealand-pharma-and-roche-to-advance-petrelintide-an-amylin-analog-to-phase-3-trials-for-chronic-weight-management"
+        "title": "Genentech pens $1.27B deal to access Alector's preclinical blood-brain barrier asset",
+        "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
       },
       {
-        "publisher": "Plesner",
-        "title": "Gubra and AbbVie enter license agreement on amylin analog for obesity",
-        "url": "https://plesner.com/en/news/gubra-and-abbvie-enter-license-agreement-amylin-analog-obesity"
+        "publisher": "EU-Startups",
+        "title": "Irish biotech startup Aerska raises €32 million",
+        "url": "https://www.eu-startups.com/2026/02/irish-biotech-startup-aerska-raises-e32-million-to-enable-our-loved-ones-to-live-longer/"
       },
       {
-        "publisher": "BioSpace",
-        "title": "Verdiva Bio presents preclinical data on investigational obesity drug candidates at the ADA 86th Scientific Sessions",
-        "url": "https://www.biospace.com/press-releases/verdiva-bio-presents-preclinical-data-on-investigational-obesity-drug-candidates-at-the-american-diabetes-association-86th-scientific-sessions"
+        "publisher": "IRB Barcelona",
+        "title": "Shilpa Biocare invests in Gate2Brain, IRB Barcelona spin-off",
+        "url": "https://www.irbbarcelona.org/en/news/institutional/shilpa-biocare-invests-gate2brain-irb-barcelona-spin-advance-innovative"
+      },
+      {
+        "publisher": "Nordic Life Science",
+        "title": "Oncopeptides drug crosses blood-brain barrier in first patients",
+        "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
       }
     ]
   }

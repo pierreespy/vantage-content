@@ -2,6 +2,171 @@
   "generatedAt": "2026-10-13",
   "words": [
     {
+      "term": "AbEM",
+      "full": "Anwendungsbegleitende Erfolgsmessung (mesure de l'efficacité en vie réelle des DiGA)",
+      "fr": "Mesure de l'efficacité en vie réelle des DiGA",
+      "field": "Accès au marché · Thérapeutiques numériques",
+      "definition": "Dispositif allemand qui oblige les éditeurs de DiGA définitivement inscrites à mesurer l'usage et les résultats déclarés des patients, et lie une part de leur rémunération à cette performance.",
+      "parts": [
+        {
+          "label": "Collecte trimestrielle",
+          "role": "usage, abandons, satisfaction et état de santé déclaré"
+        },
+        {
+          "label": "Transmission au BfArM",
+          "role": "résultats agrégés et anonymisés tous les 6 mois"
+        },
+        {
+          "label": "Prix lié à la performance",
+          "role": "au moins 20 % de la rémunération dépend des résultats"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Inscription",
+          "t": "La DiGA est inscrite définitivement au répertoire du BfArM ; la collecte des données démarre à partir du T3 2026."
+        },
+        {
+          "n": "2",
+          "h": "Reporting",
+          "t": "L'éditeur transmet les résultats agrégés au BfArM et au GKV-Spitzenverband ; le premier rapport est attendu le 15 avril 2027."
+        },
+        {
+          "n": "3",
+          "h": "Négociation",
+          "t": "Les prix sont renégociés avec les assureurs : une part de la rémunération suit les résultats mesurés."
+        }
+      ],
+      "why": "On passe du prix libre la première année à un paiement à la performance : rétention et observance deviennent des lignes de revenu. Angle VC : exiger en diligence les données de rétention, d'usage et la part de revenu variable ; les rapports de 2027 serviront de test.",
+      "startups": [
+        {
+          "name": "HelloBetter",
+          "use": "Plateforme allemande dont 6 programmes sur 10 sont des DiGA, plus de 120 000 patients ; plus de 6 M€ levés en mars 2025 (Mutuelles Impact).",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Kranus Health",
+          "use": "Kranus Edera, DiGA contre la dysfonction érectile ; Series A de 6,2 M€ menée par Karista.",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Sympatient",
+          "use": "Invirto, DiGA hybride en ligne et en VR contre agoraphobie, phobie sociale et panique ; Series A de 7,5 M€ en 2022.",
+          "place": "Hambourg, Allemagne"
+        },
+        {
+          "name": "aidhere",
+          "use": "zanadio, DiGA contre l'obésité, parmi les premières approuvées ; plus de 30 000 patients (chiffre 2023).",
+          "place": "Hambourg, Allemagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Physitrack",
+          "title": "Germany DiGA 2026: digital physiotherapy reimbursement",
+          "url": "https://www.physitrack.com/nl/insights/germany-diga-2026-digital-physiotherapy-reimbursement"
+        },
+        {
+          "publisher": "Pharmazeutische Zeitung",
+          "title": "Hersteller müssen Erfolg ihrer DiGA künftig belegen",
+          "url": "https://www.pharmazeutische-zeitung.de/hersteller-muessen-erfolg-ihrer-diga-kuenftig-belegen-152588/"
+        },
+        {
+          "publisher": "KPMG",
+          "title": "Digital therapies snapshot, first half 2026",
+          "url": "https://kpmg.com/de/en/insights/digital-transformation/digital-therapies-are-massively-changing-the-pharmaceutical-industry/digital-therapies-snapshot-halbjahr-1-2026.html"
+        },
+        {
+          "publisher": "Startbase",
+          "title": "HelloBetter sammelt über sechs Millionen Euro ein",
+          "url": "https://www.startbase.de/news/hellobetter-sammelt-ueber-sechs-millionen-euro-ein/"
+        }
+      ],
+      "date": "2026-10-13",
+      "dateLong": "13 oct. 2026"
+    },
+    {
+      "term": "Brain Shuttle",
+      "full": "Brain Shuttle / BBB Shuttle (navette de transport à travers la barrière hémato-encéphalique)",
+      "fr": "Navette hémato-encéphalique",
+      "field": "Neurosciences · Délivrance de médicaments",
+      "definition": "Une molécule de transport (anticorps modifié, peptide) qui se fixe à un récepteur de la barrière hémato-encéphalique pour faire entrer dans le cerveau un médicament qui n'y parviendrait pas seul.",
+      "parts": [
+        {
+          "label": "Vecteur de transport",
+          "role": "le passe-partout, lié à un récepteur de la barrière"
+        },
+        {
+          "label": "Charge utile",
+          "role": "le médicament (siRNA, enzyme, anticorps, petite molécule)"
+        },
+        {
+          "label": "Lien",
+          "role": "l'attache qui règle stabilité et libération"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Liaison",
+          "t": "La navette se fixe à un récepteur de la surface des cellules de la barrière, comme celui de la transferrine."
+        },
+        {
+          "n": "2",
+          "h": "Transcytose",
+          "t": "Le complexe traverse la barrière en étant transporté à l'intérieur de la cellule endothéliale."
+        },
+        {
+          "n": "3",
+          "h": "Libération",
+          "t": "La charge utile est libérée dans le tissu cérébral, où elle agit sur sa cible neuronale."
+        }
+      ],
+      "why": "La barrière bloque l'accès au cerveau pour la grande majorité des médicaments systémiques : les navettes sont la clé pour les biologiques et l'ARN en neurologie. Les grands groupes paient pour y accéder, comme Genentech avec 100 M$ d'upfront versés à Alector le 5 oct. 2026.",
+      "startups": [
+        {
+          "name": "Aerska",
+          "use": "Anticorps conjugués à des siRNA avec une navette cérébrale propriétaire ; Series A de 32 M€ en février 2026 menée par EQT Dementia Fund et age1.",
+          "place": "Dublin, Irlande"
+        },
+        {
+          "name": "Gate2Brain",
+          "use": "Navette peptidique MiniAp4, candidat G2B-002 contre les tumeurs cérébrales (désignation orpheline FDA et EMA) ; 7 M€ de Shilpa Biocare en juin 2026.",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "Key2Brain",
+          "use": "Plateforme d'anticorps VHH ciblant le récepteur de la transferrine pour accroître l'entrée des biologiques dans le cerveau ; financement identifié limité (subvention d'avril 2026).",
+          "place": "Solna, Suède"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "BioSpace",
+          "title": "Genentech pens $1.27B deal to access Alector's preclinical blood-brain barrier asset",
+          "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
+        },
+        {
+          "publisher": "EU-Startups",
+          "title": "Irish biotech startup Aerska raises €32 million",
+          "url": "https://www.eu-startups.com/2026/02/irish-biotech-startup-aerska-raises-e32-million-to-enable-our-loved-ones-to-live-longer/"
+        },
+        {
+          "publisher": "IRB Barcelona",
+          "title": "Shilpa Biocare invests in Gate2Brain, IRB Barcelona spin-off",
+          "url": "https://www.irbbarcelona.org/en/news/institutional/shilpa-biocare-invests-gate2brain-irb-barcelona-spin-advance-innovative"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Oncopeptides drug crosses blood-brain barrier in first patients",
+          "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
+        }
+      ],
+      "date": "2026-10-13",
+      "dateLong": "13 oct. 2026"
+    },
+    {
       "term": "Soft Tissue Robotics",
       "full": "Soft Tissue Robotics (robotique chirurgicale des tissus mous)",
       "fr": "Robotique chirurgicale des tissus mous",

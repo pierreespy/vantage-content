@@ -2,6 +2,171 @@
   "generatedAt": "2026-10-13",
   "words": [
     {
+      "term": "AbEM",
+      "full": "Anwendungsbegleitende Erfolgsmessung (real-world performance measurement of DiGA)",
+      "fr": "Real-world performance measurement of DiGA",
+      "field": "Market access · Digital therapeutics",
+      "definition": "A German scheme requiring makers of permanently listed DiGA to measure usage and patient-reported outcomes, and tying part of their reimbursement to that performance.",
+      "parts": [
+        {
+          "label": "Quarterly collection",
+          "role": "usage, dropouts, satisfaction and self-reported health"
+        },
+        {
+          "label": "Reporting to BfArM",
+          "role": "aggregated, anonymised results every 6 months"
+        },
+        {
+          "label": "Performance-linked price",
+          "role": "at least 20% of remuneration depends on results"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Listing",
+          "t": "The DiGA is permanently listed in the BfArM directory; data collection starts from Q3 2026."
+        },
+        {
+          "n": "2",
+          "h": "Reporting",
+          "t": "The maker sends aggregated results to BfArM and the GKV-Spitzenverband; the first report is due April 15, 2027."
+        },
+        {
+          "n": "3",
+          "h": "Negotiation",
+          "t": "Prices are renegotiated with insurers: part of remuneration follows measured results."
+        }
+      ],
+      "why": "The market moves from free pricing in year one to pay-for-performance: retention and adherence become revenue lines. VC angle: demand retention and usage data and the variable-revenue share in diligence; the 2027 reports will be the test.",
+      "startups": [
+        {
+          "name": "HelloBetter",
+          "use": "German platform with 6 of its 10 programmes listed as DiGA, 120,000+ patients; raised over €6M in March 2025 (Mutuelles Impact).",
+          "place": "Berlin, Germany"
+        },
+        {
+          "name": "Kranus Health",
+          "use": "Kranus Edera, a DiGA for erectile dysfunction; €6.2M Series A led by Karista.",
+          "place": "Munich, Germany"
+        },
+        {
+          "name": "Sympatient",
+          "use": "Invirto, a hybrid online and VR DiGA for agoraphobia, social phobia and panic; €7.5M Series A in 2022.",
+          "place": "Hamburg, Germany"
+        },
+        {
+          "name": "aidhere",
+          "use": "zanadio, a DiGA for obesity, among the first approved; 30,000+ patients (2023 figure).",
+          "place": "Hamburg, Germany"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Physitrack",
+          "title": "Germany DiGA 2026: digital physiotherapy reimbursement",
+          "url": "https://www.physitrack.com/nl/insights/germany-diga-2026-digital-physiotherapy-reimbursement"
+        },
+        {
+          "publisher": "Pharmazeutische Zeitung",
+          "title": "Hersteller müssen Erfolg ihrer DiGA künftig belegen",
+          "url": "https://www.pharmazeutische-zeitung.de/hersteller-muessen-erfolg-ihrer-diga-kuenftig-belegen-152588/"
+        },
+        {
+          "publisher": "KPMG",
+          "title": "Digital therapies snapshot, first half 2026",
+          "url": "https://kpmg.com/de/en/insights/digital-transformation/digital-therapies-are-massively-changing-the-pharmaceutical-industry/digital-therapies-snapshot-halbjahr-1-2026.html"
+        },
+        {
+          "publisher": "Startbase",
+          "title": "HelloBetter sammelt über sechs Millionen Euro ein",
+          "url": "https://www.startbase.de/news/hellobetter-sammelt-ueber-sechs-millionen-euro-ein/"
+        }
+      ],
+      "date": "2026-10-13",
+      "dateLong": "Oct 13, 2026"
+    },
+    {
+      "term": "Brain Shuttle",
+      "full": "Brain Shuttle / BBB Shuttle (blood-brain barrier transport vehicle)",
+      "fr": "Blood-brain barrier shuttle",
+      "field": "Neuroscience · Drug delivery",
+      "definition": "A transport molecule (engineered antibody, peptide) that binds a blood-brain barrier receptor to carry into the brain a drug that could not enter on its own.",
+      "parts": [
+        {
+          "label": "Transport vector",
+          "role": "the passkey, bound to a barrier receptor"
+        },
+        {
+          "label": "Payload",
+          "role": "the drug (siRNA, enzyme, antibody, small molecule)"
+        },
+        {
+          "label": "Linker",
+          "role": "the attachment that tunes stability and release"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Binding",
+          "t": "The shuttle attaches to a receptor on the barrier cells' surface, such as the transferrin receptor."
+        },
+        {
+          "n": "2",
+          "h": "Transcytosis",
+          "t": "The complex crosses the barrier by being carried through the endothelial cell."
+        },
+        {
+          "n": "3",
+          "h": "Release",
+          "t": "The payload is released into brain tissue, where it acts on its neuronal target."
+        }
+      ],
+      "why": "The barrier blocks most systemic drugs from the brain: shuttles are the key for biologics and RNA in neurology. Big pharma pays for access, as Genentech did with $100M upfront to Alector on Oct 5, 2026.",
+      "startups": [
+        {
+          "name": "Aerska",
+          "use": "Antibody–siRNA conjugates with a proprietary brain shuttle; €32M Series A in February 2026 led by EQT Dementia Fund and age1.",
+          "place": "Dublin, Ireland"
+        },
+        {
+          "name": "Gate2Brain",
+          "use": "MiniAp4 peptide shuttle, candidate G2B-002 for brain tumours (FDA and EMA orphan designation); €7M from Shilpa Biocare in June 2026.",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "Key2Brain",
+          "use": "VHH antibody platform targeting the transferrin receptor to boost biologics uptake in the brain; limited identified funding (April 2026 grant).",
+          "place": "Solna, Sweden"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "BioSpace",
+          "title": "Genentech pens $1.27B deal to access Alector's preclinical blood-brain barrier asset",
+          "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
+        },
+        {
+          "publisher": "EU-Startups",
+          "title": "Irish biotech startup Aerska raises €32 million",
+          "url": "https://www.eu-startups.com/2026/02/irish-biotech-startup-aerska-raises-e32-million-to-enable-our-loved-ones-to-live-longer/"
+        },
+        {
+          "publisher": "IRB Barcelona",
+          "title": "Shilpa Biocare invests in Gate2Brain, IRB Barcelona spin-off",
+          "url": "https://www.irbbarcelona.org/en/news/institutional/shilpa-biocare-invests-gate2brain-irb-barcelona-spin-advance-innovative"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Oncopeptides drug crosses blood-brain barrier in first patients",
+          "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
+        }
+      ],
+      "date": "2026-10-13",
+      "dateLong": "Oct 13, 2026"
+    },
+    {
       "term": "Soft Tissue Robotics",
       "full": "Soft Tissue Robotics",
       "fr": "Soft tissue surgical robotics",

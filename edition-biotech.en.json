@@ -1,194 +1,236 @@
 {
-  "dateLong": "Oct 12, 2026",
+  "dateLong": "Oct 13, 2026",
   "ticker": [
     {
-      "company": "Zealand",
-      "amount": "Ph2 ✓",
+      "company": "Amphista",
+      "amount": "1st patient",
       "kind": "tech"
     },
     {
-      "company": "Newron",
-      "amount": "FDA hold",
+      "company": "Elicera",
+      "amount": "Ph1 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Desentum",
+      "amount": "€28M",
+      "kind": "lev"
+    },
+    {
+      "company": "Beacon Therapeutics",
+      "amount": "Ph2/3 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Ascelia",
+      "amount": "FDA Type A",
       "kind": "reg"
     },
     {
-      "company": "Alligator",
-      "amount": "Pivot",
-      "kind": "tech"
-    },
-    {
-      "company": "Spica",
-      "amount": "CEO",
-      "kind": "tech"
-    },
-    {
-      "company": "Sensorion",
-      "amount": "CFO",
-      "kind": "tech"
-    },
-    {
-      "company": "KymaThera",
-      "amount": "$80M",
-      "kind": "lev"
+      "company": "Baio Labs",
+      "amount": "Spin-off",
+      "kind": "new"
     }
   ],
   "lead": {
-    "kicker": "Phase 2 data · Cardiometabolic",
-    "title": "Zealand Pharma: petrelintide (partnered with Roche) meets its primary endpoint in Phase 2 ZUPREME-2, up to 9.2% weight loss at 28 weeks",
-    "deck": "In 220 overweight or obese participants with type 2 diabetes, all three doses beat placebo (up to 9.2% vs 2%), with HbA1c down by up to 0.65 points vs a 0.23-point rise on placebo, and 1.9% GI discontinuations vs 1.7%. Shares still fell about 4%: the market wanted more from a crowded amylin analog field.",
-    "company": "Zealand Pharma",
-    "sector": "Cardiometabolic",
+    "kicker": "First patient dosed · Protein degraders",
+    "title": "Amphista doses first patient in Phase 1 trial of AMX-883, an oral BRD9 degrader, in acute myeloid leukaemia",
+    "deck": "The Cambridge biotech is testing its 'Targeted Glue' recruiting the DCAF16 E3 ligase in AML and high-risk MDS: about 54 patients planned (BRAMLIE trial, NCT07723703) after FDA clearance in June 2026. A clinical proof-of-concept milestone for the degrader class, ahead of any raise or licensing deal.",
+    "company": "Amphista Therapeutics",
+    "sector": "Oncology",
     "pillar": "innovation",
     "signalType": "clinical_update",
     "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
+    "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
   },
   "milestone": {
-    "company": "Alligator Bioscience",
-    "milestone": "Strategic shift",
-    "title": "Alligator Bioscience ends in-house development of mitazalimab and makes CFO Johan Giléus CEO from January 1, 2027",
-    "summary": "Johan Giléus succeeds Søren Bregenholt while keeping the CFO role; the Swedish biotech refocuses on its interest in HLX22, a HER2-targeting antibody.",
-    "why": "A slimmed-down leadership and an in-house pipeline dropped in favour of a shared asset: the typical pattern of a listed biotech preserving cash in a capital-scarce market.",
-    "place": "Sweden",
-    "sector": "Biotech",
-    "signalType": "leadership_hire",
-    "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+    "company": "Elicera Therapeutics",
+    "milestone": "Phase I ✓",
+    "title": "Elicera's ELC-301 CAR-T reaches 67% complete metabolic response in Phase I and gets the go-ahead for Phase IIa",
+    "summary": "In 12 heavily pretreated B-cell lymphoma patients: no dose-limiting toxicity, 92% objective response and 100% disease control; the Swedish MPA authorises Phase IIa (6 patients, recruitment in Q4 2026).",
+    "why": "A 4th-generation CD20 CAR-T (iTANK platform) clearing Phase I without dose-limiting toxicity is a rare milestone for a small listed Gothenburg biotech, ahead of a possible partnership.",
+    "place": "Gothenburg",
+    "sector": "Cell therapy",
+    "signalType": "clinical_update",
+    "url": "https://nordiclifescience.org/eliceras-car-t-cell-therapy-shows-strong-phase-i-results/"
+  },
+  "deal": {
+    "company": "Desentum",
+    "amount": "€28M",
+    "thesis": "The Finnish biotech raises €28M in an oversubscribed round arranged by Springvest for three allergen immunotherapy programmes, including birch-allergy DM-101PX (Phase II BASIT, about 100 patients, results expected late 2026). Exit targeted after Phase II via licensing, M&A or IPO.",
+    "sector": "Immunology",
+    "url": "https://european-biotechnology.com/latest-news/desentum-secures-e28m-for-faster-allergy-immunotherapy/",
+    "round": "Late-stage (Phase II)"
   },
   "brefsEurope": [
     {
-      "company": "Newron Pharmaceuticals",
-      "place": "Italy",
-      "sector": "Neuroscience",
+      "company": "Beacon Therapeutics",
+      "place": "London",
+      "sector": "Gene therapy",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "Beacon Therapeutics meets the primary endpoint of the pivotal VISTA trial of laru-zova in X-linked retinitis pigmentosa",
+      "summary": "Gain of at least 15 letters at M12: 31.0% (high dose, p=0.0019) and 24.1% (low dose) vs 0%; macular sensitivity misses significance (p=0.0614). Rolling BLA submission targeted for late 2026.",
+      "url": "https://www.biospace.com/press-releases/beacon-therapeutics-presents-data-from-pivotal-vista-trial-of-laru-zova-at-aao-2026"
+    },
+    {
+      "company": "Oncopeptides",
+      "place": "Stockholm",
+      "sector": "Oncology",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "Newron aims to lift the FDA hold on ENIGMA-TRS 2 by screening for Brugada syndrome and cutting US enrolment to 60-80 patients",
-      "summary": "An amendment is expected within 10-12 days, with the FDA then having 30 days to respond; five deaths are recorded across evenamide studies (four on drug, one on placebo). ENIGMA-TRS 1, unaffected, reports in Q1 2027.",
-      "url": "https://european-biotechnology.com/latest-news/newron-plans-heart-tests-to-lift-schizophrenia-trial-hold/"
+      "title": "Oncopeptides detects melflufen in tumour tissue of the first three patients in the INSULA glioblastoma trial",
+      "summary": "Primary endpoint met at Oslo University Hospital, well tolerated; enrolment continues toward about 10 patients.",
+      "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
     },
     {
-      "company": "Spica Therapeutics",
-      "place": "Belgium",
-      "sector": "Immunologie",
+      "company": "Ascelia Pharma",
+      "place": "Malmö",
+      "sector": "Imaging",
       "pillar": "marche",
-      "signalType": "leadership_hire",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Spica Therapeutics names Jeff Abbey CEO, formerly head of RNatives",
-      "summary": "Spica plans to extend its macrophage-targeting platform into inflammation and fibrosis.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "title": "After its Type A meeting, FDA requires additional clinical evidence for Ascelia's Orviglance",
+      "summary": "The FDA asks for a new study or a prospective analysis of the SPARKLE images; Ascelia does not plan a new study and prioritises Europe and a partner search.",
+      "url": "https://www.biospace.com/press-releases/ascelia-pharma-provides-orviglancer-update-following-fda-type-a-meeting"
     },
     {
-      "company": "Sensorion",
-      "place": "France",
-      "sector": "Gene therapy",
+      "company": "OnDosis",
+      "place": "Gothenburg",
+      "sector": "Biotech",
       "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Sensorion names Lou Arcudi CFO, ex-Amolyt Pharma, ahead of a SENS-601 trial planned for early 2027",
-      "summary": "The company confidentially filed in September for a potential US listing; Lou Arcudi succeeds Laurene Danon.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "OnDosis teams up with US CDMO Adare for its US ADHD programme",
+      "summary": "Adare provides manufacturing services for Imfocy, extended-release amphetamine granules delivered via the Dosage Manager device; financial terms undisclosed.",
+      "url": "https://nordiclifescience.org/ondosis-partners-with-adare-on-us-adhd-program/"
     },
     {
-      "company": "RQ Bio",
+      "company": "Concept Life Sciences",
       "place": "United Kingdom",
-      "sector": "Vaccins",
+      "sector": "Biotech",
       "pillar": "marche",
       "signalType": "leadership_hire",
       "strength": 2,
-      "title": "RQ Bio hires Gavin Koh as Chief Medical Officer after its $115M Series A",
-      "summary": "The biotech is developing RQB01, a long-acting influenza antibody; the hire comes with additions in manufacturing and clinical operations.",
-      "url": "https://european-biotechnology.com/latest-news/alligators-cfo-takes-the-top-job-sensorion-names-finance-chief-and-rq-bio-appoints-new-cmo/"
+      "title": "Concept Life Sciences appoints Adrijana Vinter as CEO",
+      "summary": "The former Global Head of Drug Discovery at Selvita and ex-CEO of Fidelta succeeds interim CEO Jonathan Critchley, who remains CFO.",
+      "url": "https://www.biospace.com/press-releases/concept-life-sciences-appoints-dr-adrijana-vinter-as-chief-executive-officer"
+    },
+    {
+      "company": "Baio Labs",
+      "place": "Écublens",
+      "sector": "AI drug discovery",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 2,
+      "stage": "Pre-seed",
+      "title": "EPFL spin-off Baio Labs wins CHF 150,000 from Venture Kick for its Drugon generative-AI drug design platform",
+      "summary": "Founded by Ilia Igashov (CEO) and Arne Schneuing (CTO) with Prof. Bruno Correia (EPFL).",
+      "url": "https://www.startupticker.ch/en/news/baio-labs-obtains-funding-to-accelerate-drug-discovery-with-generative-ai"
     }
   ],
   "brefsIntl": [
     {
-      "company": "KymaThera",
-      "place": "San Diego",
-      "sector": "Oncologie",
+      "company": "Matchpoint Therapeutics",
+      "place": "Watertown, USA",
+      "sector": "Immunology",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 4,
       "stage": "Series B",
-      "title": "KymaThera raises $80M Series B led by Alta Partners for its PI3Kα inhibitor K-1728",
-      "summary": "Foresite Capital and Venrock participate; Phase I dosing is planned for Q4 2026 in HR+/HER2- breast cancer and PI3Kα-driven vascular malformations. A valuation comparable for European precision-oncology biotechs.",
-      "url": "https://www.pharmaceutical-technology.com/news/kymathera-80m-series-b-to-bringbreast-cancer-drug-k-1728-to-clinic/"
+      "title": "Matchpoint Therapeutics raises $150M Series B co-led by Nextech Invest and Norwest",
+      "summary": "Sanofi Ventures, the T1D Fund and Atlas Venture participate; MPT-062, an oral T-cell modulator, enters the clinic in 2027.",
+      "url": "https://www.biospace.com/business/big-pharma-backed-matchpoint-scores-150m-series-b-advancing-autoimmune-asset"
+    },
+    {
+      "company": "Alector",
+      "place": "USA",
+      "sector": "Neuroscience",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Genentech signs up to $1.27B Alector deal, with $100M upfront, for a blood-brain-barrier Parkinson's asset",
+      "summary": "AL050 (GCase, preclinical) is paired with Alector's 'Brain Carrier' technology: a valuation comparable for brain shuttles.",
+      "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
     }
   ],
   "word": {
-    "term": "Amylin Analog",
-    "full": "Amylin Analog (analogue de l'amyline)",
-    "fr": "Amylin analog",
-    "field": "Obesity & metabolism",
-    "definition": "An injectable or oral drug that mimics amylin, a pancreatic hormone that slows stomach emptying and signals fullness, to drive weight loss with the aim of fewer GI side effects than GLP-1s.",
+    "term": "Brain Shuttle",
+    "full": "Brain Shuttle / BBB Shuttle (blood-brain barrier transport vehicle)",
+    "fr": "Blood-brain barrier shuttle",
+    "field": "Neuroscience · Drug delivery",
+    "definition": "A transport molecule (engineered antibody, peptide) that binds a blood-brain barrier receptor to carry into the brain a drug that could not enter on its own.",
     "parts": [
       {
-        "label": "Stabilised peptide",
-        "role": "the engineered hormone"
+        "label": "Transport vector",
+        "role": "the passkey, bound to a barrier receptor"
       },
       {
-        "label": "Amylin receptor",
-        "role": "the target"
+        "label": "Payload",
+        "role": "the drug (siRNA, enzyme, antibody, small molecule)"
       },
       {
-        "label": "Long action",
-        "role": "the dosing interval"
+        "label": "Linker",
+        "role": "the attachment that tunes stability and release"
       }
     ],
     "how": [
       {
         "n": "1",
         "h": "Binding",
-        "t": "The peptide binds amylin receptors in the brain."
+        "t": "The shuttle attaches to a receptor on the barrier cells' surface, such as the transferrin receptor."
       },
       {
         "n": "2",
-        "h": "Satiety",
-        "t": "The fullness signal rises and gastric emptying slows."
+        "h": "Transcytosis",
+        "t": "The complex crosses the barrier by being carried through the endothelial cell."
       },
       {
         "n": "3",
-        "h": "Weight loss",
-        "t": "Patients eat less; in ZUPREME-2, up to 9.2% weight loss at 28 weeks."
+        "h": "Release",
+        "t": "The payload is released into brain tissue, where it acts on its neuronal target."
       }
     ],
-    "why": "After GLP-1s, amylin is the hot route: Roche paid $1.65B upfront to Zealand and AbbVie entered obesity through Gubra. For a VC the question is who stays independent, as several players have already been acquired.",
+    "why": "The barrier blocks most systemic drugs from the brain: shuttles are the key for biologics and RNA in neurology. Big pharma pays for access, as Genentech did with $100M upfront to Alector on Oct 5, 2026.",
     "startups": [
       {
-        "name": "Zealand Pharma",
-        "use": "Petrelintide, an amylin analog co-developed with Roche; positive Phase 2 ZUPREME-2 in October 2026",
-        "place": "Denmark"
+        "name": "Aerska",
+        "use": "Antibody–siRNA conjugates with a proprietary brain shuttle; €32M Series A in February 2026 led by EQT Dementia Fund and age1.",
+        "place": "Dublin, Ireland"
       },
       {
-        "name": "Gubra",
-        "use": "ABBV-295, a long-acting amylin analog licensed to AbbVie ($350M upfront); $50M milestone on Phase 2 start",
-        "place": "Denmark"
+        "name": "Gate2Brain",
+        "use": "MiniAp4 peptide shuttle, candidate G2B-002 for brain tumours (FDA and EMA orphan designation); €7M from Shilpa Biocare in June 2026.",
+        "place": "Barcelona, Spain"
       },
       {
-        "name": "Verdiva Bio",
-        "use": "VRB-103, a once-weekly oral amylin analog, clinic entry expected H2 2026; $411M raised at launch in January 2025",
-        "place": "United Kingdom"
+        "name": "Key2Brain",
+        "use": "VHH antibody platform targeting the transferrin receptor to boost biologics uptake in the brain; limited identified funding (April 2026 grant).",
+        "place": "Solna, Sweden"
       }
     ],
     "sources": [
       {
-        "publisher": "European Biotechnology",
-        "title": "Another bad day at Zealand: Roche-partnered drug disappoints on blood sugar",
-        "url": "https://european-biotechnology.com/latest-news/another-bad-day-at-zealand-roche-partnered-drug-disappoints-on-blood-sugar/"
-      },
-      {
         "publisher": "BioSpace",
-        "title": "Zealand Pharma and Roche to advance petrelintide, an amylin analog, to Phase 3 trials for chronic weight management",
-        "url": "https://www.biospace.com/press-releases/zealand-pharma-and-roche-to-advance-petrelintide-an-amylin-analog-to-phase-3-trials-for-chronic-weight-management"
+        "title": "Genentech pens $1.27B deal to access Alector's preclinical blood-brain barrier asset",
+        "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
       },
       {
-        "publisher": "Plesner",
-        "title": "Gubra and AbbVie enter license agreement on amylin analog for obesity",
-        "url": "https://plesner.com/en/news/gubra-and-abbvie-enter-license-agreement-amylin-analog-obesity"
+        "publisher": "EU-Startups",
+        "title": "Irish biotech startup Aerska raises €32 million",
+        "url": "https://www.eu-startups.com/2026/02/irish-biotech-startup-aerska-raises-e32-million-to-enable-our-loved-ones-to-live-longer/"
       },
       {
-        "publisher": "BioSpace",
-        "title": "Verdiva Bio presents preclinical data on investigational obesity drug candidates at the ADA 86th Scientific Sessions",
-        "url": "https://www.biospace.com/press-releases/verdiva-bio-presents-preclinical-data-on-investigational-obesity-drug-candidates-at-the-american-diabetes-association-86th-scientific-sessions"
+        "publisher": "IRB Barcelona",
+        "title": "Shilpa Biocare invests in Gate2Brain, IRB Barcelona spin-off",
+        "url": "https://www.irbbarcelona.org/en/news/institutional/shilpa-biocare-invests-gate2brain-irb-barcelona-spin-advance-innovative"
+      },
+      {
+        "publisher": "Nordic Life Science",
+        "title": "Oncopeptides drug crosses blood-brain barrier in first patients",
+        "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
       }
     ]
   }
