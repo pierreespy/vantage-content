@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "words": [
+    {
+      "term": "Spinal Cord Stimulation",
+      "full": "Spinal Cord Stimulation (SCS, stimulation médullaire)",
+      "fr": "Stimulation de la moelle épinière",
+      "field": "Neuromodulation",
+      "definition": "Un implant délivre de petites impulsions électriques à la moelle épinière ou aux nerfs spinaux pour modifier les signaux nerveux, historiquement contre la douleur chronique et désormais testé pour la motricité, la tension artérielle ou l'asthme.",
+      "parts": [
+        {
+          "label": "Électrodes (leads)",
+          "role": "le contact avec la moelle ou les nerfs"
+        },
+        {
+          "label": "Générateur implanté (IPG)",
+          "role": "la batterie et le cerveau du système"
+        },
+        {
+          "label": "Programmation / capteurs",
+          "role": "le réglage de l'intensité, parfois en boucle fermée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "Les électrodes sont placées près de la moelle ou des nerfs spinaux, reliées à un générateur sous la peau."
+        },
+        {
+          "n": "2",
+          "h": "Stimulation",
+          "t": "Des impulsions électriques modulent les voies nerveuses ciblées (douleur, mouvement, système autonome)."
+        },
+        {
+          "n": "3",
+          "h": "Ajustement",
+          "t": "Le clinicien règle le programme ; certains systèmes adaptent la stimulation à la réponse nerveuse mesurée."
+        }
+      ],
+      "why": "Un marché historique de la douleur chronique qui s'élargit à de nouvelles indications (asthme, tension artérielle, lésion médullaire) : l'angle VC est le passage d'un produit de niche à une plateforme multi-indications, avec des essais pivots coûteux et des sorties par rachat stratégique.",
+      "startups": [
+        {
+          "name": "Spiro Medical",
+          "use": "Implant de stimulation de nerfs spinaux pour l'asthme sévère ; premier patient dans l'étude PULSAR ; Series A de 67 M$ menée par Andera Partners.",
+          "place": "Californie, États-Unis"
+        },
+        {
+          "name": "ONWARD Medical",
+          "use": "ARC-EX (stimulation externe, présente dans plus de 100 cliniques) et ARC-IM (implant) pour lésions médullaires ; premier patient implanté dans l'étude pivot Empower BP au T1 2026.",
+          "place": "Pays-Bas / Suisse"
+        },
+        {
+          "name": "Saluda Medical",
+          "use": "Système Evoke de SCS en boucle fermée qui mesure la réponse nerveuse pour ajuster la stimulation ; cotée à l'ASX depuis déc. 2025.",
+          "place": "Australie / États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "BioSpace / PR Newswire",
+          "title": "Spiro Medical Treats First Asthma Patient With Neuromodulation in IDE Feasibility Study",
+          "url": "https://www.biospace.com/press-releases/spiro-medical-treats-first-asthma-patient-with-neuromodulation-in-ide-feasibility-study"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+          "url": "https://www.biospace.com/press-releases/onward-medical-reports-first-quarter-2026-results-with-strong-commercial-momentum-and-key-clinical-milestones"
+        },
+        {
+          "publisher": "Neurotech Reports",
+          "title": "Saluda's IPO on ASX Points Up Vulnerability of SCS Market",
+          "url": "https://www.neurotechreports.com/pages/Saluda-IPO.html"
+        }
+      ],
+      "date": "2026-10-14",
+      "dateLong": "14 oct. 2026"
+    },
     {
       "term": "AbEM",
       "full": "Anwendungsbegleitende Erfolgsmessung (mesure de l'efficacité en vie réelle des DiGA)",

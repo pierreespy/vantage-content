@@ -1,192 +1,142 @@
 {
-  "dateLong": "Oct 13, 2026",
+  "dateLong": "Oct 14, 2026",
   "ticker": [
     {
-      "company": "CMR Surgical",
-      "amount": "$400M",
-      "kind": "lev"
-    },
-    {
-      "company": "Scarlet",
-      "amount": "$50M",
-      "kind": "lev"
-    },
-    {
-      "company": "Corcym",
-      "amount": "7-yr data",
+      "company": "Spiro Medical",
+      "amount": "1st patient",
       "kind": "tech"
     },
     {
-      "company": "Sava",
-      "amount": "Distribution",
+      "company": "E2",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "Steris",
+      "amount": "$2.1B",
+      "kind": "mna"
+    },
+    {
+      "company": "Abram Scientific",
+      "amount": "DARPA",
       "kind": "tech"
-    },
-    {
-      "company": "Philips",
-      "amount": "FDA alert",
-      "kind": "reg"
-    },
-    {
-      "company": "Urolution",
-      "amount": "510(k)",
-      "kind": "reg"
     }
   ],
   "lead": {
-    "kicker": "Surgical robotics · Strategic",
-    "title": "Stryker invests about $400M in CMR Surgical and secures an option to buy the UK maker of the Versius robot",
-    "deck": "Stryker becomes exclusive US distributor of CMR's (Cambridge) soft tissue surgical robot, while CMR keeps leading other markets, with an exclusive option to buy the remaining shares. The orthopaedic robotics leader (Mako) thus steps onto da Vinci's turf, facing J&J and Medtronic, already authorised.",
-    "company": "CMR Surgical",
-    "stage": "Growth",
-    "sector": "Surgical robotics",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 5,
-    "url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/"
+    "kicker": "First patient · Neuromodulation",
+    "title": "Spiro Medical treats its first asthma patient with a spinal neuromodulation implant (PULSAR study)",
+    "deck": "First patient treated in the PULSAR feasibility study (FDA IDE, up to 30 patients, several US centers) for severe uncontrolled asthma: an implant stimulates spinal nerves to modulate bronchial tone. The Irvine, California company raised a $67M Series A in January led by Paris-based Andera Partners, with Omega Funds and Sherpa Healthcare Partners.",
+    "company": "Spiro Medical",
+    "stage": "Series A",
+    "sector": "Neurotech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 4,
+    "url": "https://www.medicaldevice-network.com/news/first-patient-treated-spiros-pulsar-asthma-trial/"
   },
   "milestone": {
-    "company": "Corcym",
-    "milestone": "7-year data",
-    "title": "Perceval Plus sutureless aortic valve: 99.7% freedom from structural valve deterioration between years 3 and 7 (MANTRA)",
-    "summary": "MANTRA sub-analysis presented at EACTS: 708 patients across 45 centres, 96.6% freedom from aortic valve reoperation from years 4 to 7 and a 3.7% 30-day pacemaker rate (company-reported, not yet peer-reviewed).",
-    "why": "Seven-year durability is the key argument against conventional sutured valves and TAVI in surgical patients; real-world evidence strengthens the sutureless valve market.",
-    "place": "Italy",
+    "company": "Endovascular Engineering (E2)",
+    "milestone": "FDA 510(k)",
+    "title": "E2 wins dual FDA clearance for Hēlo Return, the first blood-return system cleared for use with continuous vacuum aspiration",
+    "summary": "Hēlo Return collects and filters blood aspirated during venous thrombectomy (pulmonary embolism) and returns it to the patient; E2 claims \"near-zero\" blood loss in its ENGULF pivotal trial (company data). The Hēlo platform was cleared in December 2025.",
+    "why": "Bleeding is the Achilles' heel of mechanical clot aspiration: built-in blood return widens the venous thrombectomy market. E2 raised an $80M Series C in April 2026.",
+    "place": "California, USA",
     "sector": "Cardio",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/new-study-touts-positive-long-term-data-for-corcym-sutureless-aortic-valve/"
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/e2-wins-fda-clearances-for-integrated-helo-thrombectomy-platform/"
   },
   "deal": {
-    "company": "Scarlet",
-    "amount": "$50M",
-    "round": "Series B",
-    "thesis": "The London-based certification platform for medical software and AI raises $50M led by Headline, with Notion Capital, Atomico and Creandum. The regulatory bottleneck (MDR, AI) becomes a recurring business: subscription, annual audits and monitoring of product changes.",
-    "sector": "Regulatory",
-    "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/"
+    "company": "Xodus Medical",
+    "amount": "$2.1B",
+    "round": "M&A",
+    "thesis": "Steris is buying Xodus (Pink Pad patient positioning, See Sharp laparoscopic defogger; ~$245M of sales expected this year) for $2.1B, about $1.8B net of tax benefits, plus up to $150M of 2028 earn-out. A valuation comparable for recurring surgical consumables, not an entry opportunity.",
+    "sector": "MedTech",
+    "url": "https://www.medtechdive.com/news/steris-inks-21b-xodus-buyout-to-expand-consumables-portfolio/832822/"
   },
-  "brefsEurope": [
-    {
-      "company": "Sava",
-      "place": "United Kingdom",
-      "sector": "MedTech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "stage": "Series B",
-      "title": "Ascensia secures exclusive distribution of Sava's subcutaneous glucose microsensor, starting in Europe",
-      "summary": "Ascensia Diabetes Care, already lead of the Series B, will distribute the sensor through retail and existing reimbursement channels; pivotal study this year, CE mark targeted within 18 to 24 months for non-adjunctive use.",
-      "url": "https://www.medicaldevice-network.com/news/ascensia-sava-commercialise-wearable-microsensor/"
-    },
-    {
-      "company": "Philips",
-      "place": "Netherlands",
-      "sector": "Imaging",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "Philips updates instructions for its Lumify handheld ultrasound after four reported deaths",
-      "summary": "Following an FDA early alert, Philips addresses app behaviour (transducer re-registration requiring a connection); 4 deaths and 8 serious injuries reported as of Sept 29, 2026.",
-      "url": "https://www.medtechdive.com/news/philips-updates-instructions-for-ultrasound-system-linked-to-4-deaths/832692/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Urolution Medical",
-      "place": "Minnesota, USA",
-      "sector": "MedTech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "FDA grants 510(k) clearance to Urolution Medical's OpenFlo catheter",
-      "summary": "Urinary catheter with a patented architecture (modified distal tip and drainage vs. Foley), cleared for adults with a dwell time of up to 30 days.",
-      "url": "https://www.medicaldevice-network.com/news/fda-clearance-urolution-medicals-openflo-catheter/"
-    },
-    {
-      "company": "Emboline",
+      "company": "Abram Scientific",
       "place": "California, USA",
-      "sector": "Cardio",
+      "sector": "Diagnostics",
       "pillar": "innovation",
-      "signalType": "clinical_update",
+      "signalType": "grant_award",
       "strength": 3,
-      "title": "First US commercial procedures completed with Emboline's Emboliner TAVR embolic protection",
-      "summary": "Two procedures at NewYork-Presbyterian/Columbia following the September 510(k); the PROTECT H2H study is led by Dr Tamim Nazif.",
-      "url": "https://www.medicaldevice-network.com/news/first-us-procedures-completed-emboline-device/"
+      "title": "Abram Scientific wins up to $8.3M from DARPA (RAPIID program) for its CoagCare coagulation test",
+      "summary": "Point-of-care coagulation test returning results in about 10 minutes, still awaiting FDA clearance; the contract targets care of ischemia and bleeding in critical settings.",
+      "url": "https://www.medicaldevice-network.com/news/abram-snags-8-us-dod-contract-to-advance-blood-coagulation-diagnostic/"
     }
   ],
   "word": {
-    "term": "Soft Tissue Robotics",
-    "full": "Soft Tissue Robotics",
-    "fr": "Soft tissue surgical robotics",
-    "field": "Surgical robotics",
-    "definition": "Robots that assist the surgeon on soft organs (abdomen, pelvis, urology, gynaecology) through minimally invasive routes, as opposed to orthopaedic robots that work on bone.",
+    "term": "Spinal Cord Stimulation",
+    "full": "Spinal Cord Stimulation (SCS)",
+    "fr": "Spinal cord stimulation",
+    "field": "Neuromodulation",
+    "definition": "An implant delivers small electrical pulses to the spinal cord or spinal nerves to alter nerve signaling, historically for chronic pain and now being tested for motor function, blood pressure and asthma.",
     "parts": [
       {
-        "label": "Surgeon console",
-        "role": "control and 3D vision"
+        "label": "Electrodes (leads)",
+        "role": "contact with the cord or nerves"
       },
       {
-        "label": "Robotic arms",
-        "role": "the hands holding the instruments"
+        "label": "Implanted pulse generator (IPG)",
+        "role": "the battery and brain of the system"
       },
       {
-        "label": "Articulated instruments",
-        "role": "precise action inside the body"
+        "label": "Programming / sensors",
+        "role": "tuning intensity, sometimes in closed loop"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Setup",
-        "t": "Arms are positioned around the patient and instruments inserted through small incisions."
+        "h": "Implantation",
+        "t": "Electrodes are placed near the spinal cord or spinal nerves and connected to a generator under the skin."
       },
       {
         "n": "2",
-        "h": "Teleoperation",
-        "t": "The surgeon operates from the console; the robot filters out tremor and large movements."
+        "h": "Stimulation",
+        "t": "Electrical pulses modulate targeted nerve pathways (pain, movement, autonomic system)."
       },
       {
         "n": "3",
-        "h": "Data",
-        "t": "Every gesture generates data that feeds training, analytics and AI features."
+        "h": "Adjustment",
+        "t": "The clinician sets the program; some systems adapt stimulation to the measured nerve response."
       }
     ],
-    "why": "Dominated by Intuitive's da Vinci, this market is opening up: J&J and Medtronic are authorised in the US and Stryker is positioning via CMR. VC angle: consumables and recurring revenue, but heavy capital cycles and exits through strategic acquisition.",
+    "why": "A historic chronic-pain market widening into new indications (asthma, blood pressure, spinal cord injury): the VC angle is the shift from a niche product to a multi-indication platform, with costly pivotal trials and exits via strategic acquisition.",
     "startups": [
       {
-        "name": "Distalmotion",
-        "use": "Dexter robot (Lausanne), $150M raise led by Revival Healthcare Capital; expanded FDA indications in gynaecology.",
-        "place": "Switzerland"
+        "name": "Spiro Medical",
+        "use": "Spinal-nerve stimulation implant for severe asthma; first patient in the PULSAR study; $67M Series A led by Andera Partners.",
+        "place": "California, USA"
       },
       {
-        "name": "Moon Surgical",
-        "use": "Maestro, a laparoscopic robotic assistant cleared by the FDA in June 2024; $55.4M round (Sofinnova, NVentures).",
-        "place": "Paris, France"
+        "name": "ONWARD Medical",
+        "use": "ARC-EX (external stimulation, in over 100 clinics) and ARC-IM (implant) for spinal cord injury; first patient implanted in the Empower BP pivotal study in Q1 2026.",
+        "place": "Netherlands / Switzerland"
       },
       {
-        "name": "Medical Microinstruments (MMI)",
-        "use": "Symani, a robotic supermicrosurgery system; just raised $125M.",
-        "place": "Italy"
+        "name": "Saluda Medical",
+        "use": "Evoke closed-loop SCS system that measures the nerve response to adjust stimulation; ASX-listed since Dec. 2025.",
+        "place": "Australia / USA"
       }
     ],
     "sources": [
       {
-        "publisher": "MedTech Dive",
-        "title": "Stryker enters soft tissue robotics with $400M investment in CMR Surgical",
-        "url": "https://www.medtechdive.com/news/stryker-enters-soft-tissue-robotics-with-400m-investment-in-cmr-surgical/832751/"
+        "publisher": "BioSpace / PR Newswire",
+        "title": "Spiro Medical Treats First Asthma Patient With Neuromodulation in IDE Feasibility Study",
+        "url": "https://www.biospace.com/press-releases/spiro-medical-treats-first-asthma-patient-with-neuromodulation-in-ide-feasibility-study"
       },
       {
-        "publisher": "MassDevice",
-        "title": "Distalmotion raises $150M for Dexter surgical robot",
-        "url": "https://www.massdevice.com/distalmotion-raises-150m-dexter-surgical-robot/"
+        "publisher": "BioSpace",
+        "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+        "url": "https://www.biospace.com/press-releases/onward-medical-reports-first-quarter-2026-results-with-strong-commercial-momentum-and-key-clinical-milestones"
       },
       {
-        "publisher": "MassDevice",
-        "title": "Moon Surgical raises funding for its robotic surgery system",
-        "url": "https://www.massdevice.com/moon-surgical-raises-31m-robotic-surgery-system/"
-      },
-      {
-        "publisher": "MedTech Dive",
-        "title": "MMI raises $125M to scale up in robotic microsurgery",
-        "url": "https://www.medtechdive.com/news/mmi-raises-125m-to-scale-up-in-robotic-microsurgery/832607/"
+        "publisher": "Neurotech Reports",
+        "title": "Saluda's IPO on ASX Points Up Vulnerability of SCS Market",
+        "url": "https://www.neurotechreports.com/pages/Saluda-IPO.html"
       }
     ]
   }

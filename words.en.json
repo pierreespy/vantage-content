@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-13",
+  "generatedAt": "2026-10-14",
   "words": [
+    {
+      "term": "Spinal Cord Stimulation",
+      "full": "Spinal Cord Stimulation (SCS)",
+      "fr": "Spinal cord stimulation",
+      "field": "Neuromodulation",
+      "definition": "An implant delivers small electrical pulses to the spinal cord or spinal nerves to alter nerve signaling, historically for chronic pain and now being tested for motor function, blood pressure and asthma.",
+      "parts": [
+        {
+          "label": "Electrodes (leads)",
+          "role": "contact with the cord or nerves"
+        },
+        {
+          "label": "Implanted pulse generator (IPG)",
+          "role": "the battery and brain of the system"
+        },
+        {
+          "label": "Programming / sensors",
+          "role": "tuning intensity, sometimes in closed loop"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "Electrodes are placed near the spinal cord or spinal nerves and connected to a generator under the skin."
+        },
+        {
+          "n": "2",
+          "h": "Stimulation",
+          "t": "Electrical pulses modulate targeted nerve pathways (pain, movement, autonomic system)."
+        },
+        {
+          "n": "3",
+          "h": "Adjustment",
+          "t": "The clinician sets the program; some systems adapt stimulation to the measured nerve response."
+        }
+      ],
+      "why": "A historic chronic-pain market widening into new indications (asthma, blood pressure, spinal cord injury): the VC angle is the shift from a niche product to a multi-indication platform, with costly pivotal trials and exits via strategic acquisition.",
+      "startups": [
+        {
+          "name": "Spiro Medical",
+          "use": "Spinal-nerve stimulation implant for severe asthma; first patient in the PULSAR study; $67M Series A led by Andera Partners.",
+          "place": "California, USA"
+        },
+        {
+          "name": "ONWARD Medical",
+          "use": "ARC-EX (external stimulation, in over 100 clinics) and ARC-IM (implant) for spinal cord injury; first patient implanted in the Empower BP pivotal study in Q1 2026.",
+          "place": "Netherlands / Switzerland"
+        },
+        {
+          "name": "Saluda Medical",
+          "use": "Evoke closed-loop SCS system that measures the nerve response to adjust stimulation; ASX-listed since Dec. 2025.",
+          "place": "Australia / USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "BioSpace / PR Newswire",
+          "title": "Spiro Medical Treats First Asthma Patient With Neuromodulation in IDE Feasibility Study",
+          "url": "https://www.biospace.com/press-releases/spiro-medical-treats-first-asthma-patient-with-neuromodulation-in-ide-feasibility-study"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
+          "url": "https://www.biospace.com/press-releases/onward-medical-reports-first-quarter-2026-results-with-strong-commercial-momentum-and-key-clinical-milestones"
+        },
+        {
+          "publisher": "Neurotech Reports",
+          "title": "Saluda's IPO on ASX Points Up Vulnerability of SCS Market",
+          "url": "https://www.neurotechreports.com/pages/Saluda-IPO.html"
+        }
+      ],
+      "date": "2026-10-14",
+      "dateLong": "Oct 14, 2026"
+    },
     {
       "term": "AbEM",
       "full": "Anwendungsbegleitende Erfolgsmessung (real-world performance measurement of DiGA)",
