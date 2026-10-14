@@ -1,236 +1,174 @@
 {
-  "dateLong": "13 oct. 2026",
+  "dateLong": "14 oct. 2026",
   "ticker": [
     {
-      "company": "Amphista",
-      "amount": "1er patient",
-      "kind": "tech"
-    },
-    {
-      "company": "Elicera",
-      "amount": "Ph1 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Desentum",
-      "amount": "€28M",
+      "company": "Undecimal Bio",
+      "amount": "$18M",
       "kind": "lev"
     },
     {
-      "company": "Beacon Therapeutics",
-      "amount": "Ph2/3 ✓",
+      "company": "Enodia",
+      "amount": "Pfizer >$500M",
+      "kind": "lev"
+    },
+    {
+      "company": "Zealand Pharma",
+      "amount": "Ph2 ✓",
       "kind": "tech"
     },
     {
-      "company": "Ascelia",
-      "amount": "FDA Type A",
-      "kind": "reg"
+      "company": "Beactica",
+      "amount": "Candidat",
+      "kind": "tech"
     },
     {
-      "company": "Baio Labs",
-      "amount": "Spin-off",
-      "kind": "new"
+      "company": "Rewind",
+      "amount": "Financement",
+      "kind": "lev"
+    },
+    {
+      "company": "Lundbeck",
+      "amount": "Ph2",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Premier patient dosé · Dégradeurs de protéines",
-    "title": "Amphista dose le premier patient de l'essai de Phase 1 d'AMX-883, dégradeur oral de BRD9, dans la leucémie aiguë myéloïde",
-    "deck": "La biotech de Cambridge teste son « Targeted Glue » recrutant la ligase E3 DCAF16 dans la LAM et les SMD à haut risque : environ 54 patients prévus (essai BRAMLIE, NCT07723703) après l'autorisation de la FDA en juin 2026. Un jalon de preuve de concept clinique pour la classe des dégradeurs, avant toute levée ou deal de licensing.",
-    "company": "Amphista Therapeutics",
-    "sector": "Oncologie",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+    "kicker": "Naissance · Délivrance de l'ARN",
+    "title": "Undecimal Bio sort de l'ombre avec 18 M$ en seed pour emmener les siRNA au-delà du foie",
+    "deck": "Spin-off d'Eleven Therapeutics (Cambridge, Royaume-Uni, et Tel Aviv), dirigée par Yaniv Erlich, la société crible de grandes banques de molécules pour trouver celles qui attachent un siRNA et le font entrer dans les cellules cibles (rein et vasculaire d'abord). Tour seed co-mené par 4BIO Capital et IQ Capital, avec Verve Ventures, Harel Tech, Entrée Capital, Kerna Ventures et Saras Capital.",
+    "company": "Undecimal Bio",
+    "stage": "Seed",
+    "sector": "ARN",
+    "pillar": "naissances",
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://european-biotechnology.com/latest-news/undecimal-raises-18m-to-take-sirna-beyond-the-liver/"
   },
   "milestone": {
-    "company": "Elicera Therapeutics",
-    "milestone": "Phase I ✓",
-    "title": "Le CAR-T ELC-301 d'Elicera atteint 67 % de réponse métabolique complète en Phase I et obtient le feu vert pour la Phase IIa",
-    "summary": "Sur 12 patients de lymphome B très prétraités, aucune toxicité limitante, 92 % de réponse objective et 100 % de contrôle de la maladie ; l'agence suédoise MPA autorise la Phase IIa (6 patients, recrutement au T4 2026).",
-    "why": "Un CAR-T CD20 de 4e génération (plateforme iTANK) qui passe sans toxicité limitante pose un jalon rare pour une petite biotech cotée de Göteborg, avant un éventuel partenariat.",
-    "place": "Göteborg",
-    "sector": "Thérapie cellulaire",
+    "company": "Zealand Pharma",
+    "milestone": "Phase 2 ✓",
+    "title": "Pétrelintide (Zealand/Roche) : 7,4 à 9,2 % de perte de poids à 28 semaines dans ZUPREME-2 chez des patients obèses diabétiques de type 2",
+    "summary": "Les trois bras de dose atteignent le critère principal chez 220 participants (placebo : 2,0 %), avec une baisse de l'HbA1c ajustée au placebo de 0,61 à 0,88 point et 1,9 % d'arrêts digestifs contre 1,7 % sous placebo.",
+    "why": "L'analogue de l'amyline est la classe qui cherche à rivaliser avec les GLP-1 sur la tolérance ; Roche a déjà lancé le programme de phase 3a avec Zealand.",
+    "place": "Copenhague, Danemark",
+    "sector": "Biotech",
     "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/eliceras-car-t-cell-therapy-shows-strong-phase-i-results/"
+    "url": "https://nordiclifescience.org/petrelintide-cuts-weight-9-2-in-diabetes-trial/"
   },
   "deal": {
-    "company": "Desentum",
-    "amount": "28 M€",
-    "thesis": "La biotech finlandaise lève 28 M€ en tour sursouscrit arrangé par Springvest pour trois programmes d'immunothérapie allergénique, dont DM-101PX contre le bouleau (Phase II BASIT, environ 100 patients, résultats attendus fin 2026). Sortie visée après la Phase II par licence, M&A ou IPO.",
-    "sector": "Immunologie",
-    "url": "https://european-biotechnology.com/latest-news/desentum-secures-e28m-for-faster-allergy-immunotherapy/",
-    "round": "Late-stage (Phase II)"
+    "company": "Enodia Therapeutics",
+    "amount": "> 500 M$",
+    "round": "Licensing",
+    "thesis": "La biotech parisienne signe avec Pfizer un accord pouvant dépasser 500 M$ (upfront non divulgué, jalons et royalties inclus) sur des petites molécules conçues par machine learning qui modulent le translocon Sec61 pour bloquer des protéines pathogènes dès leur synthèse. La plateforme combine protéomique, cryo-EM et conception assistée par IA.",
+    "sector": "Biotech",
+    "url": "https://european-biotechnology.com/latest-news/enodia-lands-500m-pfizer-deal-to-target-proteins-at-the-point-of-synthesis/"
   },
   "brefsEurope": [
     {
-      "company": "Beacon Therapeutics",
-      "place": "Londres",
-      "sector": "Thérapie génique",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "Beacon Therapeutics atteint le critère principal de l'essai pivot VISTA de laru-zova dans la rétinite pigmentaire liée à l'X",
-      "summary": "Gain d'au moins 15 lettres à M12 : 31,0 % (haute dose, p=0,0019) et 24,1 % (basse dose) contre 0 % ; la sensibilité maculaire ne franchit pas le seuil (p=0,0614). Soumission BLA glissante visée fin 2026.",
-      "url": "https://www.biospace.com/press-releases/beacon-therapeutics-presents-data-from-pivotal-vista-trial-of-laru-zova-at-aao-2026"
-    },
-    {
-      "company": "Oncopeptides",
-      "place": "Stockholm",
+      "company": "Beactica Therapeutics",
+      "place": "Suède",
       "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Oncopeptides détecte du melflufen dans le tissu tumoral des trois premiers patients de l'essai INSULA dans le glioblastome",
-      "summary": "Critère principal atteint à Oslo University Hospital, bonne tolérance ; recrutement poursuivi vers environ 10 patients.",
-      "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
-    },
-    {
-      "company": "Ascelia Pharma",
-      "place": "Malmö",
-      "sector": "Imagerie",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Après sa réunion Type A, la FDA exige des preuves cliniques supplémentaires pour Orviglance d'Ascelia",
-      "summary": "La FDA demande une nouvelle étude ou une analyse prospective des images SPARKLE ; Ascelia ne prévoit pas de nouvelle étude et priorise l'Europe et la recherche d'un partenaire.",
-      "url": "https://www.biospace.com/press-releases/ascelia-pharma-provides-orviglancer-update-following-fda-type-a-meeting"
-    },
-    {
-      "company": "OnDosis",
-      "place": "Göteborg",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
       "strength": 2,
-      "title": "OnDosis s'associe au CDMO américain Adare pour son programme américain contre le TDAH",
-      "summary": "Adare fournit les services de fabrication pour Imfocy, granulés d'amphétamines à libération prolongée via le dispositif Dosage Manager ; termes financiers non divulgués.",
-      "url": "https://nordiclifescience.org/ondosis-partners-with-adare-on-us-adhd-program/"
+      "title": "Beactica retient BEA-28, un dégradeur de TEAD, comme candidat préclinique",
+      "summary": "Régression tumorale observée chez la souris dans des modèles de mésothéliome et de cancer du poumon KRAS-muté ; les tests chez l'humain restent à venir.",
+      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
     },
     {
-      "company": "Concept Life Sciences",
-      "place": "Royaume-Uni",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 2,
-      "title": "Concept Life Sciences nomme Adrijana Vinter CEO",
-      "summary": "L'ancienne Global Head of Drug Discovery de Selvita et ex-CEO de Fidelta succède au CEO par intérim Jonathan Critchley, qui reste CFO.",
-      "url": "https://www.biospace.com/press-releases/concept-life-sciences-appoints-dr-adrijana-vinter-as-chief-executive-officer"
-    },
-    {
-      "company": "Baio Labs",
-      "place": "Écublens",
-      "sector": "IA drug discovery",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 2,
-      "stage": "Pre-seed",
-      "title": "Baio Labs, spin-off de l'EPFL, obtient 150 000 CHF de Venture Kick pour sa plateforme Drugon de design de médicaments par IA générative",
-      "summary": "Fondée par Ilia Igashov (CEO) et Arne Schneuing (CTO) avec le prof. Bruno Correia (EPFL).",
-      "url": "https://www.startupticker.ch/en/news/baio-labs-obtains-funding-to-accelerate-drug-discovery-with-generative-ai"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Matchpoint Therapeutics",
-      "place": "Watertown, États-Unis",
-      "sector": "Immunologie",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series B",
-      "title": "Matchpoint Therapeutics lève 150 M$ en Series B co-menée par Nextech Invest et Norwest",
-      "summary": "Sanofi Ventures, le T1D Fund et Atlas Venture participent ; MPT-062, modulateur oral des lymphocytes T, entrera en clinique en 2027.",
-      "url": "https://www.biospace.com/business/big-pharma-backed-matchpoint-scores-150m-series-b-advancing-autoimmune-asset"
-    },
-    {
-      "company": "Alector",
-      "place": "États-Unis",
+      "company": "Rewind Therapeutics",
+      "place": "Belgique",
       "sector": "Neurosciences",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Genentech s'offre jusqu'à 1,27 Md$ d'accord avec Alector, dont 100 M$ d'upfront, pour un actif Parkinson ciblant la barrière hémato-encéphalique",
-      "summary": "AL050 (GCase, préclinique) est couplé à la technologie « Brain Carrier » d'Alector : un comparable de valorisation pour les navettes cérébrales.",
-      "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Rewind Therapeutics obtient un financement complémentaire pour son antagoniste oral de GPR17 dans la sclérose en plaques",
+      "summary": "Montant et investisseurs non divulgués ; les fonds financent les études précédant l'entrée en clinique de cette approche de remyélinisation.",
+      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
+    },
+    {
+      "company": "iOnctura",
+      "place": "Europe",
+      "sector": "Oncologie",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "iOnctura publie deux articles Nature Communications sur le roginolisib (inhibiteur de PI3Kδ)",
+      "summary": "Chez 44 patients avec cancers avancés, aucune toxicité limitante de dose ; signaux de survie encourageants dans le mélanome uvéal métastatique, données randomisées de phase 2 attendues.",
+      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "Brain Shuttle",
-    "full": "Brain Shuttle / BBB Shuttle (navette de transport à travers la barrière hémato-encéphalique)",
-    "fr": "Navette hémato-encéphalique",
-    "field": "Neurosciences · Délivrance de médicaments",
-    "definition": "Une molécule de transport (anticorps modifié, peptide) qui se fixe à un récepteur de la barrière hémato-encéphalique pour faire entrer dans le cerveau un médicament qui n'y parviendrait pas seul.",
+    "term": "PROTAC",
+    "full": "Proteolysis Targeting Chimera",
+    "fr": "Chimère ciblant la protéolyse",
+    "field": "Dégradation ciblée des protéines",
+    "definition": "Une molécule à deux têtes qui attache une protéine malade à la machinerie de nettoyage de la cellule, laquelle la détruit au lieu de simplement la bloquer.",
     "parts": [
       {
-        "label": "Vecteur de transport",
-        "role": "le passe-partout, lié à un récepteur de la barrière"
+        "label": "Ligand de la cible",
+        "role": "l'accroche à la protéine malade"
       },
       {
-        "label": "Charge utile",
-        "role": "le médicament (siRNA, enzyme, anticorps, petite molécule)"
+        "label": "Linker",
+        "role": "le pont entre les deux têtes"
       },
       {
-        "label": "Lien",
-        "role": "l'attache qui règle stabilité et libération"
+        "label": "Ligand de ligase E3",
+        "role": "l'appel à la machinerie de destruction"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Liaison",
-        "t": "La navette se fixe à un récepteur de la surface des cellules de la barrière, comme celui de la transferrine."
+        "h": "Ciblage",
+        "t": "Une tête se fixe à la protéine pathogène, l'autre à une ligase E3."
       },
       {
         "n": "2",
-        "h": "Transcytose",
-        "t": "Le complexe traverse la barrière en étant transporté à l'intérieur de la cellule endothéliale."
+        "h": "Marquage",
+        "t": "La ligase marque la protéine avec de l'ubiquitine."
       },
       {
         "n": "3",
-        "h": "Libération",
-        "t": "La charge utile est libérée dans le tissu cérébral, où elle agit sur sa cible neuronale."
+        "h": "Dégradation",
+        "t": "Le protéasome détruit la protéine marquée et la molécule peut recommencer."
       }
     ],
-    "why": "La barrière bloque l'accès au cerveau pour la grande majorité des médicaments systémiques : les navettes sont la clé pour les biologiques et l'ARN en neurologie. Les grands groupes paient pour y accéder, comme Genentech avec 100 M$ d'upfront versés à Alector le 5 oct. 2026.",
+    "why": "Permet de s'attaquer à des cibles « non druggables » par inhibition classique ; l'angle VC est une classe de modalités en maturation, avec des preuves cliniques encore jeunes et des licences pharma comme voie de sortie.",
     "startups": [
       {
-        "name": "Aerska",
-        "use": "Anticorps conjugués à des siRNA avec une navette cérébrale propriétaire ; Series A de 32 M€ en février 2026 menée par EQT Dementia Fund et age1.",
-        "place": "Dublin, Irlande"
+        "name": "Amphista Therapeutics",
+        "use": "Spin-off de l'université de Dundee (labo Alessio Ciulli) spécialisée dans les dégradeurs ciblés ; premier patient dosé en phase 1 avec AMX-883.",
+        "place": "Écosse, Royaume-Uni"
       },
       {
-        "name": "Gate2Brain",
-        "use": "Navette peptidique MiniAp4, candidat G2B-002 contre les tumeurs cérébrales (désignation orpheline FDA et EMA) ; 7 M€ de Shilpa Biocare en juin 2026.",
-        "place": "Barcelone, Espagne"
+        "name": "Captor Therapeutics",
+        "use": "Plateforme de dégradation ciblée des protéines en oncologie et auto-immunité, avec laboratoires à Wrocław et hub à Bâle.",
+        "place": "Pologne / Suisse"
       },
       {
-        "name": "Key2Brain",
-        "use": "Plateforme d'anticorps VHH ciblant le récepteur de la transferrine pour accroître l'entrée des biologiques dans le cerveau ; financement identifié limité (subvention d'avril 2026).",
-        "place": "Solna, Suède"
+        "name": "Beactica Therapeutics",
+        "use": "BEA-28, dégradeur de TEAD retenu comme candidat préclinique (mésothéliome, cancer du poumon KRAS-muté chez la souris).",
+        "place": "Suède"
       }
     ],
     "sources": [
       {
-        "publisher": "BioSpace",
-        "title": "Genentech pens $1.27B deal to access Alector's preclinical blood-brain barrier asset",
-        "url": "https://www.biospace.com/deals/genentech-pens-1-27b-deal-to-access-alectors-preclinical-blood-brain-barrier-asset"
+        "publisher": "Labiotech",
+        "title": "Amphista Therapeutics PROTACs cancer",
+        "url": "https://www.labiotech.eu/cancer/amphista-therapeutics-protacs-cancer/"
       },
       {
-        "publisher": "EU-Startups",
-        "title": "Irish biotech startup Aerska raises €32 million",
-        "url": "https://www.eu-startups.com/2026/02/irish-biotech-startup-aerska-raises-e32-million-to-enable-our-loved-ones-to-live-longer/"
+        "publisher": "IntuitionLabs",
+        "title": "Captor Therapeutics",
+        "url": "https://intuitionlabs.ai/companies/biotech/captor-therapeutics"
       },
       {
-        "publisher": "IRB Barcelona",
-        "title": "Shilpa Biocare invests in Gate2Brain, IRB Barcelona spin-off",
-        "url": "https://www.irbbarcelona.org/en/news/institutional/shilpa-biocare-invests-gate2brain-irb-barcelona-spin-advance-innovative"
-      },
-      {
-        "publisher": "Nordic Life Science",
-        "title": "Oncopeptides drug crosses blood-brain barrier in first patients",
-        "url": "https://nordiclifescience.org/oncopeptides-drug-crosses-blood-brain-barrier-in-first-patients/"
+        "publisher": "European Biotechnology",
+        "title": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
+        "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
       }
     ]
   }

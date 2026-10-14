@@ -2,6 +2,156 @@
   "generatedAt": "2026-10-14",
   "words": [
     {
+      "term": "CDS",
+      "full": "Clinical Decision Support",
+      "fr": "Aide à la décision clinique",
+      "field": "IA clinique",
+      "definition": "Un logiciel qui analyse les données du patient et propose au soignant des alertes, des rappels ou des suggestions pour appuyer sa décision, sans décider à sa place.",
+      "parts": [
+        {
+          "label": "Données patient",
+          "role": "le carburant (dossier, biologie, notes)"
+        },
+        {
+          "label": "Moteur d'analyse",
+          "role": "règles ou modèles d'IA"
+        },
+        {
+          "label": "Interface soignant",
+          "role": "l'alerte au bon moment"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Le logiciel lit le dossier : constantes, biologie, texte libre."
+        },
+        {
+          "n": "2",
+          "h": "Analyse",
+          "t": "Un modèle repère les patients à risque ou les diagnostics manqués."
+        },
+        {
+          "n": "3",
+          "h": "Recommandation",
+          "t": "Le soignant reçoit une suggestion et garde la décision finale."
+        }
+      ],
+      "why": "Quand l'aide à la décision influence un acte clinique, elle relève du règlement européen sur les dispositifs médicaux (classe IIa en pratique) : la certification devient un avantage concurrentiel et une barrière à l'entrée.",
+      "startups": [
+        {
+          "name": "Tandem Health",
+          "use": "Scribe IA, assistant de codage et outil d'aide à la décision clinique certifiés MDR classe IIa ; Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT.",
+          "place": "Stockholm, Suède"
+        },
+        {
+          "name": "Healthleap",
+          "use": "Analyse chaque nuit les dossiers de patients hospitalisés pour repérer des diagnostics cachés ; 38 M$ (seed et Series A), utilisée dans plus de 50 hôpitaux.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Brainomix",
+          "use": "e-Lung, IA d'imagerie thoracique dont les mesures de progression et de réponse au traitement ont été utilisées dans un essai de phase III.",
+          "place": "Oxford, Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MobiHealthNews",
+          "title": "Tandem Health raises $100M to expand clinical AI across Europe",
+          "url": "https://mobihealthnews.com/news/tandem-health-raises-100m-expand-clinical-ai-across-europe"
+        },
+        {
+          "publisher": "MobiHealthNews",
+          "title": "Healthleap raises $38M for AI patient screening",
+          "url": "https://www.mobihealthnews.com/news/healthleap-raises-38m-ai-patient-screening"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Brainomix e-Lung shows progression and treatment response in Phase III trial",
+          "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+        }
+      ],
+      "date": "2026-10-14",
+      "dateLong": "14 oct. 2026"
+    },
+    {
+      "term": "PROTAC",
+      "full": "Proteolysis Targeting Chimera",
+      "fr": "Chimère ciblant la protéolyse",
+      "field": "Dégradation ciblée des protéines",
+      "definition": "Une molécule à deux têtes qui attache une protéine malade à la machinerie de nettoyage de la cellule, laquelle la détruit au lieu de simplement la bloquer.",
+      "parts": [
+        {
+          "label": "Ligand de la cible",
+          "role": "l'accroche à la protéine malade"
+        },
+        {
+          "label": "Linker",
+          "role": "le pont entre les deux têtes"
+        },
+        {
+          "label": "Ligand de ligase E3",
+          "role": "l'appel à la machinerie de destruction"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Une tête se fixe à la protéine pathogène, l'autre à une ligase E3."
+        },
+        {
+          "n": "2",
+          "h": "Marquage",
+          "t": "La ligase marque la protéine avec de l'ubiquitine."
+        },
+        {
+          "n": "3",
+          "h": "Dégradation",
+          "t": "Le protéasome détruit la protéine marquée et la molécule peut recommencer."
+        }
+      ],
+      "why": "Permet de s'attaquer à des cibles « non druggables » par inhibition classique ; l'angle VC est une classe de modalités en maturation, avec des preuves cliniques encore jeunes et des licences pharma comme voie de sortie.",
+      "startups": [
+        {
+          "name": "Amphista Therapeutics",
+          "use": "Spin-off de l'université de Dundee (labo Alessio Ciulli) spécialisée dans les dégradeurs ciblés ; premier patient dosé en phase 1 avec AMX-883.",
+          "place": "Écosse, Royaume-Uni"
+        },
+        {
+          "name": "Captor Therapeutics",
+          "use": "Plateforme de dégradation ciblée des protéines en oncologie et auto-immunité, avec laboratoires à Wrocław et hub à Bâle.",
+          "place": "Pologne / Suisse"
+        },
+        {
+          "name": "Beactica Therapeutics",
+          "use": "BEA-28, dégradeur de TEAD retenu comme candidat préclinique (mésothéliome, cancer du poumon KRAS-muté chez la souris).",
+          "place": "Suède"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Labiotech",
+          "title": "Amphista Therapeutics PROTACs cancer",
+          "url": "https://www.labiotech.eu/cancer/amphista-therapeutics-protacs-cancer/"
+        },
+        {
+          "publisher": "IntuitionLabs",
+          "title": "Captor Therapeutics",
+          "url": "https://intuitionlabs.ai/companies/biotech/captor-therapeutics"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
+          "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
+        }
+      ],
+      "date": "2026-10-14",
+      "dateLong": "14 oct. 2026"
+    },
+    {
       "term": "Spinal Cord Stimulation",
       "full": "Spinal Cord Stimulation (SCS, stimulation médullaire)",
       "fr": "Stimulation de la moelle épinière",
@@ -4231,64 +4381,6 @@
       ],
       "date": "2026-08-07",
       "dateLong": "7 août 2026"
-    },
-    {
-      "term": "PROTAC",
-      "full": "Proteolysis-Targeting Chimera",
-      "fr": "Chimère ciblant la protéolyse",
-      "field": "Dégradation ciblée de protéines / Oncologie",
-      "definition": "Une molécule bifonctionnelle qui ne bloque pas une protéine pathogène comme un inhibiteur classique, mais détourne la machinerie de recyclage naturelle de la cellule pour la détruire entièrement.",
-      "parts": [
-        {
-          "label": "Ligand cible",
-          "role": "s'accroche à la protéine pathogène à éliminer"
-        },
-        {
-          "label": "Linker",
-          "role": "relie chimiquement les deux extrémités de la molécule"
-        },
-        {
-          "label": "Ligand E3 ligase",
-          "role": "recrute l'enzyme qui marque la protéine pour destruction"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Liaison bifonctionnelle",
-          "t": "Le PROTAC se lie simultanément à la protéine cible et à une E3 ubiquitine ligase, rapprochant les deux dans l'espace."
-        },
-        {
-          "n": "2",
-          "h": "Ubiquitination",
-          "t": "La ligase marque la protéine cible avec des chaînes d'ubiquitine, l'étiquette cellulaire de « à détruire »."
-        },
-        {
-          "n": "3",
-          "h": "Dégradation catalytique",
-          "t": "Le protéasome détruit la protéine marquée et libère le PROTAC intact, qui peut enchaîner un nouveau cycle sur une autre copie de la cible."
-        }
-      ],
-      "why": "Contrairement à un inhibiteur qui doit rester collé en permanence, un PROTAC agit en catalyseur et peut donc fonctionner à dose bien plus faible, tout en atteignant des protéines longtemps jugées « non-druggables ». L'accord signé cette semaine entre AstraZeneca et Pathos AI sur AZD4241, un PROTAC oral anti-récepteur aux œstrogènes, illustre l'appétit des grands groupes pharma pour externaliser le développement clinique de leurs actifs de dégradation ciblée vers des biotechs IA-natives — un sous-secteur (TPD) que les VCs santé suivent de près pour ses effets de plateforme.",
-      "startups": [
-        {
-          "name": "Amphista Therapeutics",
-          "use": "Plateforme Eclipsys de dégradation ciblée indépendante des E3 ligases classiques ; premier essai clinique visé au S2 2026 après une Série B",
-          "place": "Cambridge, Royaume-Uni"
-        },
-        {
-          "name": "Plexium",
-          "use": "Plateforme de criblage cellulaire à très haut débit pour découvrir des dégradeurs directs monovalents et des colles moléculaires",
-          "place": "San Diego, États-Unis"
-        },
-        {
-          "name": "Pathos AI",
-          "use": "Vient de licencier AZD4241, un PROTAC oral anti-ER, auprès d'AstraZeneca pour en piloter le développement clinique via sa plateforme IA Foundry",
-          "place": "Chicago, États-Unis"
-        }
-      ],
-      "date": "2026-08-06",
-      "dateLong": "6 août 2026"
     },
     {
       "term": "In Silico Trial",
