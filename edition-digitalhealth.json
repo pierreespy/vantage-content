@@ -1,129 +1,166 @@
 {
-  "dateLong": "14 oct. 2026",
+  "dateLong": "15 oct. 2026",
   "ticker": [
     {
-      "company": "Yazen",
-      "amount": "€50M",
+      "company": "NHS Online",
+      "amount": "£9,9M",
+      "kind": "tech"
+    },
+    {
+      "company": "NW London",
+      "amount": "Scribe IA",
+      "kind": "tech"
+    },
+    {
+      "company": "Brellium",
+      "amount": "$23M",
       "kind": "lev"
     },
     {
-      "company": "NHS England",
-      "amount": "£838M",
-      "kind": "reg"
+      "company": "Readily",
+      "amount": "$11M",
+      "kind": "lev"
     },
     {
-      "company": "Accurx",
-      "amount": "Déploiement",
+      "company": "Rock Health",
+      "amount": "$11,1Md",
       "kind": "tech"
+    },
+    {
+      "company": "Zocdoc",
+      "amount": "Rachat",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Levée · Obésité digitale",
-    "title": "Yazen lève 50 M€ menés par Verdane pour étendre sa prise en charge digitale de l'obésité en Europe",
-    "deck": "La société suédoise de Lund, active dans huit pays, revendique plus de 70 000 patients depuis sa création dont plus de 50 000 actuellement traités ; Evli Growth Partners, précédent lead, participe. Annoncé le 8 oct. et relayé le 13 oct. : le signal est que l'obésité devient un vertical de soins digitaux à part entière.",
-    "company": "Yazen",
-    "stage": "Growth",
-    "sector": "Digital Health",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://arcticstartup.com/yazen-raises-e50-million/"
+    "kicker": "Contrat public · Hôpital en ligne",
+    "title": "NHS England confie à Kainos 9,9 M£ pour développer le « virtual hospital » NHS Online (phase alpha 2)",
+    "deck": "Kainos livre outils de workflow cliniciens, intégrations aux systèmes nationaux du NHS et à l'application NHS App pour le premier hôpital 100 % numérique du Royaume-Uni. Le contrat peut aussi couvrir des missions courtes à résultats.",
+    "company": "Kainos",
+    "sector": "Logiciel hospitalier",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
   },
   "milestone": {
-    "company": "NHS England",
-    "milestone": "Cadre d'achat",
-    "title": "NHS England annonce un cadre ouvert de 838 M£ pour l'avenir de l'informatique des médecins généralistes",
-    "summary": "Trois lots : dossier patient de base (rendez-vous, prescription, adressage), soutien clinique et opérationnel (aide à la décision, vidéo-consultation, télésurveillance) et recherche-développement. Ouverture de l'appel prévue en novembre 2026, lancement du cadre attendu au T3 2027.",
-    "why": "Plusieurs fournisseurs par lot et réouvertures périodiques : une porte d'entrée pour les scale-ups du dossier patient et de l'IA clinique sur un marché captif de premier plan.",
-    "place": "Angleterre",
-    "sector": "Réglementaire",
-    "signalType": "regulatory_milestone",
-    "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
+    "company": "North West London Acute Provider Group",
+    "milestone": "Appel d'offres",
+    "title": "Quatre hôpitaux londoniens consultent le marché pour un scribe IA (ambient voice technology) sur 2027-2030",
+    "summary": "Imperial College Healthcare, Chelsea and Westminster, London North West et Hillingdon cherchent un fournisseur ; le contrat estimé court du 1er avril 2027 au 31 mars 2030. Valeur non communiquée.",
+    "why": "Un achat groupé multi-hôpitaux : le signal que les scribes IA passent des pilotes isolés aux appels d'offres régionaux, ce qui consolide le marché autour de peu de fournisseurs.",
+    "place": "Londres, Royaume-Uni",
+    "sector": "IA clinique",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
   },
-  "brefsEurope": [
+  "brefsEurope": [],
+  "brefsIntl": [
     {
-      "company": "Accurx",
-      "place": "Royaume-Uni",
+      "company": "Brellium",
+      "place": "États-Unis",
       "sector": "IA clinique",
-      "pillar": "marche",
-      "signalType": "early_partnership",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 3,
-      "title": "Le RDaSH déploie Accurx Scribe dans ses services de santé mentale, en commençant par les personnes âgées",
-      "summary": "Déploiement à l'échelle du trust : l'outil de dictée ambiante rédige notes cliniques et courriers d'adressage, validés par le clinicien avant versement au dossier.",
-      "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+      "title": "Brellium lève 23 M$ (Left Lane Capital, First Round) et lance CortexLM, garanti contre les clawbacks des payeurs",
+      "summary": "L'IA relit 100 % des notes patient avant facturation ; si un payeur réclame un remboursement sur une visite validée, Brellium prend le coût à sa charge.",
+      "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
+    },
+    {
+      "company": "Readily",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Series A",
+      "title": "Readily lève 11 M$ en Series A menée par Define Ventures pour sa plateforme de conformité des assureurs santé",
+      "summary": "Clients : plans de santé couvrant plus de 25 millions de vies dans 46 États, dont L.A. Care Health Plan en production. Y Combinator participe.",
+      "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
+    },
+    {
+      "company": "Rock Health",
+      "place": "États-Unis",
+      "sector": "Fonds",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Rock Health : 11,1 Md$ levés par la digital health américaine depuis janvier (358 deals), 3,7 Md$ au T3",
+      "summary": "Taille moyenne de deal de 31 M$ (29,5 M$ en 2025) ; 45 opérations de M&A au T3, 164 depuis janvier.",
+      "url": "https://hitconsultant.net/2026/10/12/rock-health-q3-2026-market-update-fifteen-years-digital-health-venture-funding-deployable-value/"
     }
   ],
-  "brefsIntl": [],
   "word": {
-    "term": "CDS",
-    "full": "Clinical Decision Support",
-    "fr": "Aide à la décision clinique",
-    "field": "IA clinique",
-    "definition": "Un logiciel qui analyse les données du patient et propose au soignant des alertes, des rappels ou des suggestions pour appuyer sa décision, sans décider à sa place.",
+    "term": "RCM",
+    "full": "Revenue Cycle Management (gestion du cycle de facturation hospitalier)",
+    "fr": "Gestion du cycle de facturation",
+    "field": "Finance hospitalière / IA administrative",
+    "definition": "L'ensemble des étapes qui transforment un soin en paiement : codage, facturation, contrôle de conformité, gestion des refus ; l'IA vise à corriger les erreurs avant l'envoi de la facture.",
     "parts": [
       {
-        "label": "Données patient",
-        "role": "le carburant (dossier, biologie, notes)"
+        "label": "Codage clinique",
+        "role": "traduire le soin en codes facturables"
       },
       {
-        "label": "Moteur d'analyse",
-        "role": "règles ou modèles d'IA"
+        "label": "Contrôle avant facturation",
+        "role": "détecter les oublis et incohérences"
       },
       {
-        "label": "Interface soignant",
-        "role": "l'alerte au bon moment"
+        "label": "Gestion des refus",
+        "role": "récupérer ce que le payeur conteste"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Collecte",
-        "t": "Le logiciel lit le dossier : constantes, biologie, texte libre."
+        "h": "Documentation",
+        "t": "Le soin est consigné dans le dossier patient puis codé."
       },
       {
         "n": "2",
-        "h": "Analyse",
-        "t": "Un modèle repère les patients à risque ou les diagnostics manqués."
+        "h": "Contrôle IA",
+        "t": "Un moteur relit le cas et signale diagnostics ou justificatifs manquants."
       },
       {
         "n": "3",
-        "h": "Recommandation",
-        "t": "Le soignant reçoit une suggestion et garde la décision finale."
+        "h": "Facturation",
+        "t": "La facture part au payeur, avec moins de refus ou de remboursements réclamés après coup."
       }
     ],
-    "why": "Quand l'aide à la décision influence un acte clinique, elle relève du règlement européen sur les dispositifs médicaux (classe IIa en pratique) : la certification devient un avantage concurrentiel et une barrière à l'entrée.",
+    "why": "Un budget administratif massif, des gains mesurables en euros et des cycles de vente courts : l'angle VC est la facturation comme porte d'entrée vers le logiciel hospitalier, avec des garanties de résultat de plus en plus offertes.",
     "startups": [
       {
-        "name": "Tandem Health",
-        "use": "Scribe IA, assistant de codage et outil d'aide à la décision clinique certifiés MDR classe IIa ; Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT.",
-        "place": "Stockholm, Suède"
+        "name": "Calliora",
+        "use": "Couche d'IA qui contrôle les dossiers hospitaliers avant facturation ; pre-seed de 6 M$ menée par Bertelsmann Healthcare Investments et redalpine ; clients non nommés.",
+        "place": "Munich, Allemagne"
       },
       {
-        "name": "Healthleap",
-        "use": "Analyse chaque nuit les dossiers de patients hospitalisés pour repérer des diagnostics cachés ; 38 M$ (seed et Series A), utilisée dans plus de 50 hôpitaux.",
+        "name": "Brellium",
+        "use": "CortexLM relit 100 % des notes patient avant facturation ; 23 M$ co-menés par Left Lane Capital et First Round, avec garantie contre les clawbacks.",
         "place": "États-Unis"
       },
       {
-        "name": "Brainomix",
-        "use": "e-Lung, IA d'imagerie thoracique dont les mesures de progression et de réponse au traitement ont été utilisées dans un essai de phase III.",
-        "place": "Oxford, Royaume-Uni"
+        "name": "Readily",
+        "use": "Plateforme de conformité pour plans de santé ; Series A de 11 M$ menée par Define Ventures ; plus de 25 millions de vies couvertes.",
+        "place": "États-Unis"
       }
     ],
     "sources": [
       {
-        "publisher": "MobiHealthNews",
-        "title": "Tandem Health raises $100M to expand clinical AI across Europe",
-        "url": "https://mobihealthnews.com/news/tandem-health-raises-100m-expand-clinical-ai-across-europe"
+        "publisher": "Tech Funding News",
+        "title": "Bertelsmann and redalpine back Calliora with $6M for AI that cuts hospital billing errors",
+        "url": "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/"
       },
       {
-        "publisher": "MobiHealthNews",
-        "title": "Healthleap raises $38M for AI patient screening",
-        "url": "https://www.mobihealthnews.com/news/healthleap-raises-38m-ai-patient-screening"
+        "publisher": "HIT Consultant",
+        "title": "Brellium Raises $23M and Launches CortexLM with a Financial Guarantee Against Payer Clawbacks",
+        "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
       },
       {
-        "publisher": "Medical Device Network",
-        "title": "Brainomix e-Lung shows progression and treatment response in Phase III trial",
-        "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+        "publisher": "HIT Consultant",
+        "title": "Readily Secures $11M for AI-Native Compliance Platform for Healthcare",
+        "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
       }
     ]
   }

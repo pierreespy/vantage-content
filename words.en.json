@@ -2,6 +2,161 @@
   "generatedAt": "2026-10-15",
   "words": [
     {
+      "term": "RCM",
+      "full": "Revenue Cycle Management",
+      "fr": "Revenue cycle management",
+      "field": "Hospital finance / administrative AI",
+      "definition": "All the steps that turn care into payment: coding, billing, compliance checks and denial management; AI aims to fix errors before the invoice is sent.",
+      "parts": [
+        {
+          "label": "Clinical coding",
+          "role": "turning care into billable codes"
+        },
+        {
+          "label": "Pre-bill review",
+          "role": "catching omissions and inconsistencies"
+        },
+        {
+          "label": "Denial management",
+          "role": "recovering what the payer disputes"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Documentation",
+          "t": "Care is recorded in the patient file and then coded."
+        },
+        {
+          "n": "2",
+          "h": "AI review",
+          "t": "An engine re-reads the case and flags missing diagnoses or supporting evidence."
+        },
+        {
+          "n": "3",
+          "h": "Billing",
+          "t": "The invoice goes to the payer, with fewer denials or after-the-fact clawbacks."
+        }
+      ],
+      "why": "A massive administrative budget, measurable euro gains and short sales cycles: the VC angle is billing as a wedge into hospital software, with outcome guarantees increasingly offered.",
+      "startups": [
+        {
+          "name": "Calliora",
+          "use": "AI layer that checks hospital cases before billing; $6M pre-seed led by Bertelsmann Healthcare Investments and redalpine; customers not named.",
+          "place": "Munich, Germany"
+        },
+        {
+          "name": "Brellium",
+          "use": "CortexLM reviews 100% of patient notes before billing; $23M co-led by Left Lane Capital and First Round, with a clawback guarantee.",
+          "place": "United States"
+        },
+        {
+          "name": "Readily",
+          "use": "Compliance platform for health plans; $11M Series A led by Define Ventures; 25 million+ lives covered.",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech Funding News",
+          "title": "Bertelsmann and redalpine back Calliora with $6M for AI that cuts hospital billing errors",
+          "url": "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Brellium Raises $23M and Launches CortexLM with a Financial Guarantee Against Payer Clawbacks",
+          "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Readily Secures $11M for AI-Native Compliance Platform for Healthcare",
+          "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "Oct 15, 2026"
+    },
+    {
+      "term": "Generative Protein Design",
+      "full": "Generative Protein Design",
+      "fr": "AI-generated protein design",
+      "field": "AI drug discovery",
+      "definition": "AI models generate protein sequences (antibodies, mini-binders, enzymes) from scratch to meet a specification, instead of screening existing libraries.",
+      "parts": [
+        {
+          "label": "Generative model",
+          "role": "the sequence inventor"
+        },
+        {
+          "label": "Structure/affinity prediction",
+          "role": "the in silico filter"
+        },
+        {
+          "label": "Validation lab",
+          "role": "the experimental test"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Specification",
+          "t": "Define the target and desired properties (affinity, stability, low immunogenicity)."
+        },
+        {
+          "n": "2",
+          "h": "Generation",
+          "t": "The model proposes thousands of candidates, ranked by in silico prediction."
+        },
+        {
+          "n": "3",
+          "h": "Validation",
+          "t": "The best are produced and tested in the lab, and the results retrain the model."
+        }
+      ],
+      "why": "The VC signal: big pharma is already paying upfronts (Zealand → Generate, $30M) for access to these platforms; the open question is whether AI really shortens the path to a clinical candidate.",
+      "startups": [
+        {
+          "name": "Cradle",
+          "use": "AI protein engineering software; $73M Series B led by IVP; named customers include Novo Nordisk and J&J Innovative Medicine.",
+          "place": "Amsterdam / Zurich"
+        },
+        {
+          "name": "Latent Labs",
+          "use": "Latent-X and Latent-X2 models (mini-binders, antibodies); $50M raised including a $40M Series A co-led by Radical Ventures and Sofinnova Partners.",
+          "place": "London, UK"
+        },
+        {
+          "name": "Generate Biomedicines",
+          "use": "AI-designed protein platform; GB-0895 (anti-TSLP) in Phase 3 for severe asthma; Nasdaq-listed (GENB) since February 2026 after a $400M IPO.",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Zealand Pharma signs AI protein deal with Generate Biomedicines",
+          "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Cradle secures $73M Series B to accelerate AI-driven protein engineering",
+          "url": "https://european-biotechnology.com/latest-news/cradle-secures-73m-series-b-to-accelerate-ai-driven-protein-engineering/"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "AI pioneer Dr Simon Kohl's Latent Labs emerges from stealth, raising $50M for programmable biology",
+          "url": "https://tech.eu/2025/02/13/ai-pioneer-dr-simon-kohls-latent-labs-raises-50m/"
+        },
+        {
+          "publisher": "Pharmaceutical Technology",
+          "title": "Generate Biomedicines secures $400M IPO in flurry of February listings",
+          "url": "https://www.pharmaceutical-technology.com/news/generate-biomedicines-secures-400m-ipo-in-flurry-of-february-listings/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "Oct 15, 2026"
+    },
+    {
       "term": "PMA",
       "full": "Premarket Approval (FDA)",
       "fr": "FDA premarket approval for Class III devices",

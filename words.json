@@ -2,6 +2,161 @@
   "generatedAt": "2026-10-15",
   "words": [
     {
+      "term": "RCM",
+      "full": "Revenue Cycle Management (gestion du cycle de facturation hospitalier)",
+      "fr": "Gestion du cycle de facturation",
+      "field": "Finance hospitalière / IA administrative",
+      "definition": "L'ensemble des étapes qui transforment un soin en paiement : codage, facturation, contrôle de conformité, gestion des refus ; l'IA vise à corriger les erreurs avant l'envoi de la facture.",
+      "parts": [
+        {
+          "label": "Codage clinique",
+          "role": "traduire le soin en codes facturables"
+        },
+        {
+          "label": "Contrôle avant facturation",
+          "role": "détecter les oublis et incohérences"
+        },
+        {
+          "label": "Gestion des refus",
+          "role": "récupérer ce que le payeur conteste"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Documentation",
+          "t": "Le soin est consigné dans le dossier patient puis codé."
+        },
+        {
+          "n": "2",
+          "h": "Contrôle IA",
+          "t": "Un moteur relit le cas et signale diagnostics ou justificatifs manquants."
+        },
+        {
+          "n": "3",
+          "h": "Facturation",
+          "t": "La facture part au payeur, avec moins de refus ou de remboursements réclamés après coup."
+        }
+      ],
+      "why": "Un budget administratif massif, des gains mesurables en euros et des cycles de vente courts : l'angle VC est la facturation comme porte d'entrée vers le logiciel hospitalier, avec des garanties de résultat de plus en plus offertes.",
+      "startups": [
+        {
+          "name": "Calliora",
+          "use": "Couche d'IA qui contrôle les dossiers hospitaliers avant facturation ; pre-seed de 6 M$ menée par Bertelsmann Healthcare Investments et redalpine ; clients non nommés.",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Brellium",
+          "use": "CortexLM relit 100 % des notes patient avant facturation ; 23 M$ co-menés par Left Lane Capital et First Round, avec garantie contre les clawbacks.",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Readily",
+          "use": "Plateforme de conformité pour plans de santé ; Series A de 11 M$ menée par Define Ventures ; plus de 25 millions de vies couvertes.",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech Funding News",
+          "title": "Bertelsmann and redalpine back Calliora with $6M for AI that cuts hospital billing errors",
+          "url": "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Brellium Raises $23M and Launches CortexLM with a Financial Guarantee Against Payer Clawbacks",
+          "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Readily Secures $11M for AI-Native Compliance Platform for Healthcare",
+          "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "15 oct. 2026"
+    },
+    {
+      "term": "Generative Protein Design",
+      "full": "Generative Protein Design (conception de protéines par IA générative)",
+      "fr": "Conception de protéines par IA générative",
+      "field": "IA drug discovery",
+      "definition": "Des modèles d'IA génèrent de zéro des séquences de protéines (anticorps, mini-binders, enzymes) répondant à un cahier des charges, au lieu de cribler des banques existantes.",
+      "parts": [
+        {
+          "label": "Modèle génératif",
+          "role": "l'inventeur de séquences"
+        },
+        {
+          "label": "Prédiction de structure/affinité",
+          "role": "le filtre in silico"
+        },
+        {
+          "label": "Laboratoire de validation",
+          "role": "le test expérimental"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cahier des charges",
+          "t": "On définit la cible et les propriétés voulues (affinité, stabilité, faible immunogénicité)."
+        },
+        {
+          "n": "2",
+          "h": "Génération",
+          "t": "Le modèle propose des milliers de candidats, classés par prédiction in silico."
+        },
+        {
+          "n": "3",
+          "h": "Validation",
+          "t": "Les meilleurs sont produits et testés au laboratoire, puis les résultats réentraînent le modèle."
+        }
+      ],
+      "why": "Le signal VC : les big pharmas payent déjà des upfronts (Zealand → Generate, 30 M$) pour accéder à ces plateformes ; la question est de savoir si l'IA raccourcit réellement le chemin vers le candidat clinique.",
+      "startups": [
+        {
+          "name": "Cradle",
+          "use": "Logiciel d'ingénierie de protéines par IA ; Series B de 73 M$ menée par IVP ; clients nommés dont Novo Nordisk et J&J Innovative Medicine.",
+          "place": "Amsterdam / Zurich"
+        },
+        {
+          "name": "Latent Labs",
+          "use": "Modèles Latent-X et Latent-X2 (mini-binders, anticorps) ; 50 M$ levés dont 40 M$ de Series A co-menée par Radical Ventures et Sofinnova Partners.",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Generate Biomedicines",
+          "use": "Plateforme de protéines conçues par IA ; GB-0895 (anti-TSLP) en phase 3 dans l'asthme sévère ; cotée au Nasdaq (GENB) depuis février 2026 après une IPO de 400 M$.",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Zealand Pharma signs AI protein deal with Generate Biomedicines",
+          "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Cradle secures $73M Series B to accelerate AI-driven protein engineering",
+          "url": "https://european-biotechnology.com/latest-news/cradle-secures-73m-series-b-to-accelerate-ai-driven-protein-engineering/"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "AI pioneer Dr Simon Kohl's Latent Labs emerges from stealth, raising $50M for programmable biology",
+          "url": "https://tech.eu/2025/02/13/ai-pioneer-dr-simon-kohls-latent-labs-raises-50m/"
+        },
+        {
+          "publisher": "Pharmaceutical Technology",
+          "title": "Generate Biomedicines secures $400M IPO in flurry of February listings",
+          "url": "https://www.pharmaceutical-technology.com/news/generate-biomedicines-secures-400m-ipo-in-flurry-of-february-listings/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "15 oct. 2026"
+    },
+    {
       "term": "PMA",
       "full": "Premarket Approval (approbation préalable à la mise sur le marché FDA)",
       "fr": "Approbation préalable FDA des dispositifs de classe III",

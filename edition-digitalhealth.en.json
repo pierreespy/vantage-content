@@ -1,129 +1,166 @@
 {
-  "dateLong": "Oct 14, 2026",
+  "dateLong": "Oct 15, 2026",
   "ticker": [
     {
-      "company": "Yazen",
-      "amount": "€50M",
+      "company": "NHS Online",
+      "amount": "£9.9M",
+      "kind": "tech"
+    },
+    {
+      "company": "NW London",
+      "amount": "AI scribe",
+      "kind": "tech"
+    },
+    {
+      "company": "Brellium",
+      "amount": "$23M",
       "kind": "lev"
     },
     {
-      "company": "NHS England",
-      "amount": "£838M",
-      "kind": "reg"
+      "company": "Readily",
+      "amount": "$11M",
+      "kind": "lev"
     },
     {
-      "company": "Accurx",
-      "amount": "Rollout",
+      "company": "Rock Health",
+      "amount": "$11.1B",
       "kind": "tech"
+    },
+    {
+      "company": "Zocdoc",
+      "amount": "Acquisition",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Funding · Digital obesity care",
-    "title": "Yazen raises €50M led by Verdane to scale its digital obesity care across Europe",
-    "deck": "The Lund-based Swedish company, active in eight countries, reports over 70,000 patients since launch with more than 50,000 currently in treatment; previous lead Evli Growth Partners participates. Announced Oct. 8 and covered Oct. 13: the signal is obesity turning into a care vertical of its own.",
-    "company": "Yazen",
-    "stage": "Growth",
-    "sector": "Digital Health",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://arcticstartup.com/yazen-raises-e50-million/"
+    "kicker": "Public contract · Online hospital",
+    "title": "NHS England awards Kainos £9.9M to build the NHS Online \"virtual hospital\" (alpha phase 2)",
+    "deck": "Kainos will deliver clinician workflow tooling and integrations with national NHS systems and the NHS App for the UK's first fully digital hospital. The contract may also cover short, outcome-based statements of work.",
+    "company": "Kainos",
+    "sector": "Hospital software",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
   },
   "milestone": {
-    "company": "NHS England",
-    "milestone": "Procurement framework",
-    "title": "NHS England announces an £838M open framework for the future of GP IT",
-    "summary": "Three lots: foundation record capabilities (appointments, prescribing, referrals), clinical and operational support (decision support, video consultation, remote monitoring) and research and development. Procurement expected to open in November 2026, framework launch anticipated in Q3 2027.",
-    "why": "Multiple suppliers per lot and periodic reopenings: an entry point for patient-record and clinical-AI scale-ups into a major captive market.",
-    "place": "England",
-    "sector": "Regulatory",
-    "signalType": "regulatory_milestone",
-    "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
+    "company": "North West London Acute Provider Group",
+    "milestone": "Procurement",
+    "title": "Four London hospital trusts sound out the market for an ambient voice technology (AI scribe) for 2027-2030",
+    "summary": "Imperial College Healthcare, Chelsea and Westminster, London North West and Hillingdon are seeking a supplier; the estimated contract runs from April 1, 2027 to March 31, 2030. Value not disclosed.",
+    "why": "A multi-hospital group purchase: a sign AI scribes are moving from isolated pilots to regional tenders, which concentrates the market around a few suppliers.",
+    "place": "London, UK",
+    "sector": "Clinical AI",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
   },
-  "brefsEurope": [
+  "brefsEurope": [],
+  "brefsIntl": [
     {
-      "company": "Accurx",
-      "place": "United Kingdom",
-      "sector": "IA clinique",
-      "pillar": "marche",
-      "signalType": "early_partnership",
+      "company": "Brellium",
+      "place": "United States",
+      "sector": "Clinical AI",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 3,
-      "title": "RDaSH rolls out Accurx Scribe across mental health services, starting with older people",
-      "summary": "Trust-wide rollout: the ambient voice tool drafts clinical notes and referral letters, which clinicians approve before they enter the patient record.",
-      "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+      "title": "Brellium raises $23M (Left Lane Capital, First Round) and launches CortexLM, guaranteed against payer clawbacks",
+      "summary": "The AI reviews 100% of patient notes before billing; if a payer claws back a cleared visit, Brellium covers the cost.",
+      "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
+    },
+    {
+      "company": "Readily",
+      "place": "United States",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "stage": "Series A",
+      "title": "Readily raises $11M Series A led by Define Ventures for its health-plan compliance platform",
+      "summary": "Clients are health plans covering more than 25 million lives in 46 states, including L.A. Care Health Plan in production. Y Combinator participates.",
+      "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
+    },
+    {
+      "company": "Rock Health",
+      "place": "United States",
+      "sector": "Fund",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Rock Health: US digital health raised $11.1B so far this year (358 deals), $3.7B in Q3",
+      "summary": "Average deal size of $31M ($29.5M in 2025); 45 M&A transactions in Q3, 164 year to date.",
+      "url": "https://hitconsultant.net/2026/10/12/rock-health-q3-2026-market-update-fifteen-years-digital-health-venture-funding-deployable-value/"
     }
   ],
-  "brefsIntl": [],
   "word": {
-    "term": "CDS",
-    "full": "Clinical Decision Support",
-    "fr": "Clinical decision support",
-    "field": "Clinical AI",
-    "definition": "Software that analyzes patient data and gives clinicians alerts, reminders or suggestions to support — not replace — their decision.",
+    "term": "RCM",
+    "full": "Revenue Cycle Management",
+    "fr": "Revenue cycle management",
+    "field": "Hospital finance / administrative AI",
+    "definition": "All the steps that turn care into payment: coding, billing, compliance checks and denial management; AI aims to fix errors before the invoice is sent.",
     "parts": [
       {
-        "label": "Patient data",
-        "role": "the fuel (record, labs, notes)"
+        "label": "Clinical coding",
+        "role": "turning care into billable codes"
       },
       {
-        "label": "Analysis engine",
-        "role": "rules or AI models"
+        "label": "Pre-bill review",
+        "role": "catching omissions and inconsistencies"
       },
       {
-        "label": "Clinician interface",
-        "role": "the alert at the right time"
+        "label": "Denial management",
+        "role": "recovering what the payer disputes"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Ingestion",
-        "t": "The software reads the record: vitals, labs, free text."
+        "h": "Documentation",
+        "t": "Care is recorded in the patient file and then coded."
       },
       {
         "n": "2",
-        "h": "Analysis",
-        "t": "A model flags at-risk patients or missed diagnoses."
+        "h": "AI review",
+        "t": "An engine re-reads the case and flags missing diagnoses or supporting evidence."
       },
       {
         "n": "3",
-        "h": "Recommendation",
-        "t": "The clinician gets a suggestion and keeps the final call."
+        "h": "Billing",
+        "t": "The invoice goes to the payer, with fewer denials or after-the-fact clawbacks."
       }
     ],
-    "why": "When decision support influences a clinical act it falls under the EU medical device regulation (Class IIa in practice): certification becomes both a moat and an entry barrier.",
+    "why": "A massive administrative budget, measurable euro gains and short sales cycles: the VC angle is billing as a wedge into hospital software, with outcome guarantees increasingly offered.",
     "startups": [
       {
-        "name": "Tandem Health",
-        "use": "AI scribe, coding assistant and clinical decision support certified MDR Class IIa; $100M Series B led by EQT's Scaleup Europe Fund.",
-        "place": "Stockholm, Sweden"
+        "name": "Calliora",
+        "use": "AI layer that checks hospital cases before billing; $6M pre-seed led by Bertelsmann Healthcare Investments and redalpine; customers not named.",
+        "place": "Munich, Germany"
       },
       {
-        "name": "Healthleap",
-        "use": "Screens inpatient records each night for hidden diagnoses; $38M (seed and Series A), used in over 50 hospitals.",
-        "place": "USA"
+        "name": "Brellium",
+        "use": "CortexLM reviews 100% of patient notes before billing; $23M co-led by Left Lane Capital and First Round, with a clawback guarantee.",
+        "place": "United States"
       },
       {
-        "name": "Brainomix",
-        "use": "e-Lung, chest-imaging AI whose progression and treatment-response measures were used in a Phase III trial.",
-        "place": "Oxford, UK"
+        "name": "Readily",
+        "use": "Compliance platform for health plans; $11M Series A led by Define Ventures; 25 million+ lives covered.",
+        "place": "United States"
       }
     ],
     "sources": [
       {
-        "publisher": "MobiHealthNews",
-        "title": "Tandem Health raises $100M to expand clinical AI across Europe",
-        "url": "https://mobihealthnews.com/news/tandem-health-raises-100m-expand-clinical-ai-across-europe"
+        "publisher": "Tech Funding News",
+        "title": "Bertelsmann and redalpine back Calliora with $6M for AI that cuts hospital billing errors",
+        "url": "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/"
       },
       {
-        "publisher": "MobiHealthNews",
-        "title": "Healthleap raises $38M for AI patient screening",
-        "url": "https://www.mobihealthnews.com/news/healthleap-raises-38m-ai-patient-screening"
+        "publisher": "HIT Consultant",
+        "title": "Brellium Raises $23M and Launches CortexLM with a Financial Guarantee Against Payer Clawbacks",
+        "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
       },
       {
-        "publisher": "Medical Device Network",
-        "title": "Brainomix e-Lung shows progression and treatment response in Phase III trial",
-        "url": "https://www.medicaldevice-network.com/news/brainomix-e-lung-shows-progression-treatment-response-phase-iii-trial/"
+        "publisher": "HIT Consultant",
+        "title": "Readily Secures $11M for AI-Native Compliance Platform for Healthcare",
+        "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
       }
     ]
   }

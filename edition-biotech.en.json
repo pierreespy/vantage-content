@@ -1,174 +1,180 @@
 {
-  "dateLong": "Oct 14, 2026",
+  "dateLong": "Oct 15, 2026",
   "ticker": [
     {
-      "company": "Undecimal Bio",
-      "amount": "$18M",
-      "kind": "lev"
-    },
-    {
-      "company": "Enodia",
-      "amount": "Pfizer >$500M",
-      "kind": "lev"
-    },
-    {
-      "company": "Zealand Pharma",
-      "amount": "Ph2 ✓",
+      "company": "Xbrane",
+      "amount": "Enrolled ✓",
       "kind": "tech"
     },
     {
-      "company": "Beactica",
-      "amount": "Candidate",
+      "company": "BioNTech",
+      "amount": "Ph2/3",
       "kind": "tech"
     },
     {
-      "company": "Rewind",
-      "amount": "Funding",
+      "company": "Zealand",
+      "amount": "$30M",
       "kind": "lev"
     },
     {
-      "company": "Lundbeck",
-      "amount": "Ph2",
+      "company": "Alvotech",
+      "amount": "EMA",
+      "kind": "reg"
+    },
+    {
+      "company": "Arrowhead",
+      "amount": "Tau −73%",
+      "kind": "tech"
+    },
+    {
+      "company": "Cerevance",
+      "amount": "Ph3",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Launch · RNA delivery",
-    "title": "Undecimal Bio launches with an $18M seed to take siRNA beyond the liver",
-    "deck": "Spin-out of Eleven Therapeutics (Cambridge, UK, and Tel Aviv) led by CEO Yaniv Erlich, the company screens large compound libraries for molecules that attach to siRNA and carry it into target cells (kidney and vascular first). Seed co-led by 4BIO Capital and IQ Capital, with Verve Ventures, Harel Tech, Entrée Capital, Kerna Ventures and Saras Capital.",
-    "company": "Undecimal Bio",
-    "stage": "Seed",
-    "sector": "ARN",
-    "pillar": "naissances",
-    "signalType": "funding_round",
+    "kicker": "Pivotal trial · Biosimilars",
+    "title": "Xbrane completes enrollment in the pivotal trial of its Opdivo (nivolumab) biosimilar in melanoma",
+    "deck": "About 340 melanoma patients are enrolled for Xdivane, a biosimilar candidate to Bristol Myers Squibb's nivolumab (roughly $10B in 2025 Opdivo sales). Co-developer Intas runs clinical development and its arm Accord Healthcare will handle global commercialization.",
+    "company": "Xbrane Biopharma",
+    "sector": "Biotech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://european-biotechnology.com/latest-news/undecimal-raises-18m-to-take-sirna-beyond-the-liver/"
+    "url": "https://nordiclifescience.org/xbrane-completes-enrollment-in-pivotal-nivolumab-biosimilar-trial/"
   },
   "milestone": {
-    "company": "Zealand Pharma",
-    "milestone": "Phase 2 ✓",
-    "title": "Petrelintide (Zealand/Roche): 7.4% to 9.2% weight loss at 28 weeks in ZUPREME-2 in obese patients with type 2 diabetes",
-    "summary": "All three dose arms met the primary endpoint in 220 participants (placebo: 2.0%), with placebo-adjusted HbA1c reductions of 0.61 to 0.88 points and GI discontinuations of 1.9% vs 1.7% on placebo.",
-    "why": "The amylin analog is the class trying to rival GLP-1s on tolerability; Roche has already started the Phase 3a program with Zealand.",
-    "place": "Copenhagen, Denmark",
-    "sector": "Biotech",
+    "company": "BioNTech",
+    "milestone": "Phase 2/3",
+    "title": "BioNTech's mRNA vaccine BNT113 misses its first objective in HPV16+ head and neck cancer; trial continues on overall survival",
+    "summary": "Combined with Keytruda in first line, BNT113 did not extend progression-free survival at an interim check; a monitoring committee recommends continuing to test overall survival.",
+    "why": "Analysts saw thin supporting evidence at the start. BioNTech is refocusing oncology on the bispecific pumitamig (with Bristol Myers Squibb): a reminder of the clinical risk of therapeutic mRNA vaccines.",
+    "place": "Mainz, Germany",
+    "sector": "Oncology",
     "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/petrelintide-cuts-weight-9-2-in-diabetes-trial/"
+    "url": "https://www.biopharmadive.com/news/biontech-mrna-immunotherapy-hpv16-head-neck-cancer/832854/"
   },
   "deal": {
-    "company": "Enodia Therapeutics",
-    "amount": "> $500M",
+    "company": "Generate Biomedicines",
+    "amount": "$30M upfront",
     "round": "Licensing",
-    "thesis": "The Paris biotech signs a Pfizer deal worth over $500M (upfront undisclosed, milestones and royalties included) on machine-learning-designed small molecules that modulate the Sec61 translocon to block disease-driving proteins at the point of synthesis. The platform combines proteomics, cryo-EM and AI-assisted design.",
-    "sector": "Biotech",
-    "url": "https://european-biotechnology.com/latest-news/enodia-lands-500m-pfizer-deal-to-target-proteins-at-the-point-of-synthesis/"
+    "thesis": "Zealand Pharma licenses AI-engineered multispecific proteins for obesity and metabolic disease: $30M upfront, up to $35M in preclinical milestones and nearly $1.2B in milestones across two programs (option on a third), plus royalties. One more comparable for AI protein design, not an entry opportunity.",
+    "sector": "AI drug discovery",
+    "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
   },
   "brefsEurope": [
     {
-      "company": "Beactica Therapeutics",
-      "place": "Sweden",
-      "sector": "Oncologie",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Beactica selects BEA-28, a TEAD degrader, as its preclinical candidate",
-      "summary": "Tumor regression seen in mouse models of mesothelioma and KRAS-mutant lung cancer; human testing is still ahead.",
-      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
-    },
-    {
-      "company": "Rewind Therapeutics",
-      "place": "Belgium",
-      "sector": "Neurosciences",
+      "company": "Alvotech / Advanz Pharma",
+      "place": "Reykjavik, Iceland",
+      "sector": "Biotech",
       "pillar": "marche",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Rewind Therapeutics secures additional funding for its oral GPR17 antagonist in multiple sclerosis",
-      "summary": "Amount and investors undisclosed; the funds support studies ahead of first-in-human for this remyelination approach.",
-      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
-    },
-    {
-      "company": "iOnctura",
-      "place": "Europe",
-      "sector": "Oncologie",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "iOnctura publishes two Nature Communications papers on roginolisib (PI3Kδ inhibitor)",
-      "summary": "In 44 patients with advanced cancers, no dose-limiting toxicities; encouraging survival signals in metastatic uveal melanoma, randomized Phase 2 data pending.",
-      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Alvotech and Advanz file AVT29, an 8 mg Eylea biosimilar, in Europe",
+      "summary": "The filing targets a copy of the 8 mg Eylea dose, which the partners call a first; Alvotech takes an early lead in the race for this biosimilar.",
+      "url": "https://nordiclifescience.org/alvotech-takes-early-lead-in-race-for-high-dose-eylea-biosimilar/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Arrowhead Pharmaceuticals",
+      "place": "California, US",
+      "sector": "Neuroscience",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Arrowhead: subcutaneous RNAi ARO-MAPT cuts tau by 40–73% on average in healthy volunteers",
+      "summary": "Early trial in about 64 volunteers (three doses); mild side effects. Trials are planned in frontotemporal dementia and progressive supranuclear palsy; tau remains debated as an Alzheimer's target.",
+      "url": "https://www.biopharmadive.com/news/arrowhead-rnai-alzheimers-tau-aro-mapt-study-results/832950/"
+    },
+    {
+      "company": "Cerevance",
+      "place": "Boston, US",
+      "sector": "Neuroscience",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "stage": "Series A",
+      "title": "Takeda spinout Cerevance reports Phase 3 data for solengepras in Parkinson's: −0.61 h daily \"off\" time",
+      "summary": "341 patients; modest effect at the high dose, \"on\"-time benefit only barely significant. A meeting with the FDA is planned to define next steps.",
+      "url": "https://www.biopharmadive.com/news/cerevance-solengepras-parkinsons-study-results/832324/"
+    }
+  ],
   "word": {
-    "term": "PROTAC",
-    "full": "Proteolysis Targeting Chimera",
-    "fr": "Proteolysis-targeting chimera",
-    "field": "Targeted protein degradation",
-    "definition": "A two-headed molecule that tethers a disease-driving protein to the cell's disposal machinery, which destroys it instead of merely blocking it.",
+    "term": "Generative Protein Design",
+    "full": "Generative Protein Design",
+    "fr": "AI-generated protein design",
+    "field": "AI drug discovery",
+    "definition": "AI models generate protein sequences (antibodies, mini-binders, enzymes) from scratch to meet a specification, instead of screening existing libraries.",
     "parts": [
       {
-        "label": "Target ligand",
-        "role": "the hook onto the disease protein"
+        "label": "Generative model",
+        "role": "the sequence inventor"
       },
       {
-        "label": "Linker",
-        "role": "the bridge between the two heads"
+        "label": "Structure/affinity prediction",
+        "role": "the in silico filter"
       },
       {
-        "label": "E3 ligase ligand",
-        "role": "the call to the destruction machinery"
+        "label": "Validation lab",
+        "role": "the experimental test"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Targeting",
-        "t": "One head binds the disease protein, the other an E3 ligase."
+        "h": "Specification",
+        "t": "Define the target and desired properties (affinity, stability, low immunogenicity)."
       },
       {
         "n": "2",
-        "h": "Tagging",
-        "t": "The ligase tags the protein with ubiquitin."
+        "h": "Generation",
+        "t": "The model proposes thousands of candidates, ranked by in silico prediction."
       },
       {
         "n": "3",
-        "h": "Degradation",
-        "t": "The proteasome destroys the tagged protein and the molecule can start again."
+        "h": "Validation",
+        "t": "The best are produced and tested in the lab, and the results retrain the model."
       }
     ],
-    "why": "Opens targets that are 'undruggable' by classic inhibition; the VC angle is a maturing modality class with young clinical proof and pharma licensing as the exit path.",
+    "why": "The VC signal: big pharma is already paying upfronts (Zealand → Generate, $30M) for access to these platforms; the open question is whether AI really shortens the path to a clinical candidate.",
     "startups": [
       {
-        "name": "Amphista Therapeutics",
-        "use": "University of Dundee spin-out (Alessio Ciulli lab) specialized in targeted degraders; first patient dosed in Phase 1 with AMX-883.",
-        "place": "Scotland, UK"
+        "name": "Cradle",
+        "use": "AI protein engineering software; $73M Series B led by IVP; named customers include Novo Nordisk and J&J Innovative Medicine.",
+        "place": "Amsterdam / Zurich"
       },
       {
-        "name": "Captor Therapeutics",
-        "use": "Targeted protein degradation platform in oncology and autoimmunity, with labs in Wrocław and a hub in Basel.",
-        "place": "Poland / Switzerland"
+        "name": "Latent Labs",
+        "use": "Latent-X and Latent-X2 models (mini-binders, antibodies); $50M raised including a $40M Series A co-led by Radical Ventures and Sofinnova Partners.",
+        "place": "London, UK"
       },
       {
-        "name": "Beactica Therapeutics",
-        "use": "BEA-28, a TEAD degrader selected as preclinical candidate (mesothelioma, KRAS-mutant lung cancer in mice).",
-        "place": "Sweden"
+        "name": "Generate Biomedicines",
+        "use": "AI-designed protein platform; GB-0895 (anti-TSLP) in Phase 3 for severe asthma; Nasdaq-listed (GENB) since February 2026 after a $400M IPO.",
+        "place": "United States"
       }
     ],
     "sources": [
       {
-        "publisher": "Labiotech",
-        "title": "Amphista Therapeutics PROTACs cancer",
-        "url": "https://www.labiotech.eu/cancer/amphista-therapeutics-protacs-cancer/"
-      },
-      {
-        "publisher": "IntuitionLabs",
-        "title": "Captor Therapeutics",
-        "url": "https://intuitionlabs.ai/companies/biotech/captor-therapeutics"
+        "publisher": "Nordic Life Science",
+        "title": "Zealand Pharma signs AI protein deal with Generate Biomedicines",
+        "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
       },
       {
         "publisher": "European Biotechnology",
-        "title": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
-        "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
+        "title": "Cradle secures $73M Series B to accelerate AI-driven protein engineering",
+        "url": "https://european-biotechnology.com/latest-news/cradle-secures-73m-series-b-to-accelerate-ai-driven-protein-engineering/"
+      },
+      {
+        "publisher": "Tech.eu",
+        "title": "AI pioneer Dr Simon Kohl's Latent Labs emerges from stealth, raising $50M for programmable biology",
+        "url": "https://tech.eu/2025/02/13/ai-pioneer-dr-simon-kohls-latent-labs-raises-50m/"
+      },
+      {
+        "publisher": "Pharmaceutical Technology",
+        "title": "Generate Biomedicines secures $400M IPO in flurry of February listings",
+        "url": "https://www.pharmaceutical-technology.com/news/generate-biomedicines-secures-400m-ipo-in-flurry-of-february-listings/"
       }
     ]
   }
