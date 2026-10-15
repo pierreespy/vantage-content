@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "words": [
+    {
+      "term": "PMA",
+      "full": "Premarket Approval (approbation préalable à la mise sur le marché FDA)",
+      "fr": "Approbation préalable FDA des dispositifs de classe III",
+      "field": "Réglementaire / accès au marché",
+      "definition": "Voie d'autorisation la plus exigeante de la FDA, réservée aux dispositifs à haut risque (classe III) : le fabricant doit prouver sécurité et efficacité par des données cliniques, souvent un essai pivot.",
+      "parts": [
+        {
+          "label": "Dossier clinique",
+          "role": "la preuve (essai pivot)"
+        },
+        {
+          "label": "Données de fabrication",
+          "role": "la qualité et la reproductibilité"
+        },
+        {
+          "label": "Examen FDA",
+          "role": "la décision d'approbation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Essai pivot",
+          "t": "Le fabricant mène un essai, souvent randomisé et en aveugle, sous exemption IDE de la FDA."
+        },
+        {
+          "n": "2",
+          "h": "Dépôt du dossier",
+          "t": "Il soumet données cliniques, précliniques et de fabrication à la FDA."
+        },
+        {
+          "n": "3",
+          "h": "Revue et approbation",
+          "t": "La FDA examine le dossier (en moyenne près de 599 jours au S1 2026) et émet une lettre d'approbation."
+        }
+      ],
+      "why": "Une PMA est un moat : coûteuse et longue, elle protège les rares dispositifs approuvés. Pour un VC, l'approbation est le catalyseur qui débloque le revenu américain et déclenche souvent levée ou rachat.",
+      "startups": [
+        {
+          "name": "Butterfly Medical",
+          "use": "Implant de rétraction prostatique pour l'HBP ; essai pivot de 244 patients terminé, dossier PMA en cours d'examen à la FDA ; marquage CE et certification MDR.",
+          "place": "Israël"
+        },
+        {
+          "name": "ProVerum",
+          "use": "Système ProVee (expandeur en nitinol pour l'HBP) approuvé par la FDA en PMA (P250011) le 9 décembre 2025, sur la base de l'essai ProVIDE contrôlé contre placebo.",
+          "place": "Dublin, Irlande"
+        },
+        {
+          "name": "Zenflow",
+          "use": "Implant Zenflow Spring pour l'HBP approuvé par la FDA en décembre 2025 ; Series D de 52 M$ menée par Cook Medical, qui en devient distributeur américain.",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MedTech Dive",
+          "title": "FDA authorizes more devices so far in 2026, but it's taking longer",
+          "url": "https://www.medtechdive.com/news/fda-authorizes-more-devices-so-far-in-2026-but-its-taking-longer/824233/"
+        },
+        {
+          "publisher": "FDA (base PMA)",
+          "title": "Premarket Approval P250011 — ProVee System",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250011"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Butterfly Medical secures EU MDR certification for BPH implant",
+          "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "Zenflow raises $52M, inks distribution deal with Cook Medical",
+          "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "15 oct. 2026"
+    },
     {
       "term": "CDS",
       "full": "Clinical Decision Support",

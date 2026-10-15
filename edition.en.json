@@ -1,142 +1,181 @@
 {
-  "dateLong": "Oct 14, 2026",
+  "dateLong": "Oct 15, 2026",
   "ticker": [
     {
-      "company": "Spiro Medical",
-      "amount": "1st patient",
+      "company": "Butterfly Medical",
+      "amount": "MDR",
+      "kind": "reg"
+    },
+    {
+      "company": "VitVio",
+      "amount": "Pilot",
       "kind": "tech"
     },
     {
-      "company": "E2",
+      "company": "Proscia",
+      "amount": "$270M",
+      "kind": "mna"
+    },
+    {
+      "company": "Providence Medical",
       "amount": "FDA",
       "kind": "reg"
     },
     {
-      "company": "Steris",
-      "amount": "$2.1B",
-      "kind": "mna"
+      "company": "MHRA",
+      "amount": "2030",
+      "kind": "reg"
     },
     {
-      "company": "Abram Scientific",
-      "amount": "DARPA",
-      "kind": "tech"
+      "company": "Stride",
+      "amount": "£4.6M",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "First patient · Neuromodulation",
-    "title": "Spiro Medical treats its first asthma patient with a spinal neuromodulation implant (PULSAR study)",
-    "deck": "First patient treated in the PULSAR feasibility study (FDA IDE, up to 30 patients, several US centers) for severe uncontrolled asthma: an implant stimulates spinal nerves to modulate bronchial tone. The Irvine, California company raised a $67M Series A in January led by Paris-based Andera Partners, with Omega Funds and Sherpa Healthcare Partners.",
-    "company": "Spiro Medical",
-    "stage": "Series A",
-    "sector": "Neurotech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "kicker": "MDR certification · Urology",
+    "title": "Butterfly Medical wins MDR certification for its prostatic retraction implant for benign prostatic hyperplasia",
+    "deck": "The implant, validated in a 244-patient pivotal study, relieves urinary obstruction without removing, cutting or heating prostate tissue. Its PMA application is under FDA review, and the company raised $21M in a Series C in May 2026, including from the EIC.",
+    "company": "Butterfly Medical",
+    "stage": "Series C",
+    "sector": "Urology",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://www.medicaldevice-network.com/news/first-patient-treated-spiros-pulsar-asthma-trial/"
+    "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
   },
   "milestone": {
-    "company": "Endovascular Engineering (E2)",
-    "milestone": "FDA 510(k)",
-    "title": "E2 wins dual FDA clearance for Hēlo Return, the first blood-return system cleared for use with continuous vacuum aspiration",
-    "summary": "Hēlo Return collects and filters blood aspirated during venous thrombectomy (pulmonary embolism) and returns it to the patient; E2 claims \"near-zero\" blood loss in its ENGULF pivotal trial (company data). The Hēlo platform was cleared in December 2025.",
-    "why": "Bleeding is the Achilles' heel of mechanical clot aspiration: built-in blood return widens the venous thrombectomy market. E2 raised an $80M Series C in April 2026.",
-    "place": "California, USA",
-    "sector": "Cardio",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/e2-wins-fda-clearances-for-integrated-helo-thrombectomy-platform/"
+    "company": "VitVio",
+    "milestone": "Hospital pilot",
+    "title": "VitVio deploys its Vetro AI surgical operating system at the University Clinical Centre in Gdańsk (UCK)",
+    "summary": "Vetro combines computer vision and ambient sensors to build a live 3D model of the operating room, log surgical milestones and flag delays. The pilot covers a few orthopaedic and neurosurgery theatres, with Polish distributor Medim handling installation.",
+    "why": "A first European hospital deployment for a company founded in 2024, after an $8M seed led by Bek Ventures (LDV Capital, Balnord): a sign the product is moving from demo to the operating theatre.",
+    "place": "Gdańsk, Poland",
+    "sector": "Digital Health",
+    "signalType": "early_partnership",
+    "url": "https://tech.eu/2026/10/14/vitvio-brings-ai-powered-surgical-operating-system-to-poland-in-uck-gdansk-partnership/"
   },
   "deal": {
-    "company": "Xodus Medical",
-    "amount": "$2.1B",
+    "company": "Proscia",
+    "amount": "$270M",
     "round": "M&A",
-    "thesis": "Steris is buying Xodus (Pink Pad patient positioning, See Sharp laparoscopic defogger; ~$245M of sales expected this year) for $2.1B, about $1.8B net of tax benefits, plus up to $150M of 2028 earn-out. A valuation comparable for recurring surgical consumables, not an entry opportunity.",
-    "sector": "MedTech",
-    "url": "https://www.medtechdive.com/news/steris-inks-21b-xodus-buyout-to-expand-consumables-portfolio/832822/"
+    "thesis": "Agilent is buying Proscia (Concentriq Dx digital pathology platform, FDA-cleared in 2024) for $240M cash plus up to $30M in earn-outs, with closing expected in fiscal 2027. A valuation comparable for regulated diagnostic software, not an entry opportunity.",
+    "sector": "Diagnostics",
+    "url": "https://www.medicaldevice-network.com/news/agilent-acquires-proscia-in-deal-worth-up-to-270m/"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "MHRA",
+      "place": "London, UK",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "UK regulator MHRA unveils its 2030 strategy: scientific advice cut from 90 to 45 days",
+      "summary": "The strategy also promises better access to real-world data on devices, AI-proficient analysts to spot safety signals faster, and a simpler Yellow Card reporting system.",
+      "url": "https://www.medicaldevice-network.com/news/uk-mhra-2030-strategy-drug-medical-device-regulation-2/"
+    },
+    {
+      "company": "Stride",
+      "place": "UK",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "stage": "Seed",
+      "title": "Stride raises £4.6M seed for its preventive health platform (DNA, blood, gut testing)",
+      "summary": "Founded in 2024 by Andrew Steele, the company counts Arāya Ventures, Morgan Stanley Inclusive & Sustainable Ventures and Better Ventures among its backers; the lead is not named. Stride One is due to launch internationally before end-2026.",
+      "url": "https://tech.eu/2026/10/14/uk-healthtech-startup-stride-raises-ps46m-to-expand-preventative-health-platform/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Abram Scientific",
-      "place": "California, USA",
-      "sector": "Diagnostics",
-      "pillar": "innovation",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Abram Scientific wins up to $8.3M from DARPA (RAPIID program) for its CoagCare coagulation test",
-      "summary": "Point-of-care coagulation test returning results in about 10 minutes, still awaiting FDA clearance; the contract targets care of ischemia and bleeding in critical settings.",
-      "url": "https://www.medicaldevice-network.com/news/abram-snags-8-us-dod-contract-to-advance-blood-coagulation-diagnostic/"
+      "company": "Providence Medical Technology",
+      "place": "California, US",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "FDA clears Providence Medical's CORUS PCSS 3D-T for posterior cervical fusion",
+      "summary": "Bilateral 3D-printed porous titanium implant with integrated screw fixation, supplied as a single-use sterile kit, for stabilisation alongside posterior cervical fusion.",
+      "url": "https://www.medicaldevice-network.com/news/fda-providence-medicals-corus-spinal-device/"
     }
   ],
   "word": {
-    "term": "Spinal Cord Stimulation",
-    "full": "Spinal Cord Stimulation (SCS)",
-    "fr": "Spinal cord stimulation",
-    "field": "Neuromodulation",
-    "definition": "An implant delivers small electrical pulses to the spinal cord or spinal nerves to alter nerve signaling, historically for chronic pain and now being tested for motor function, blood pressure and asthma.",
+    "term": "PMA",
+    "full": "Premarket Approval (FDA)",
+    "fr": "FDA premarket approval for Class III devices",
+    "field": "Regulatory / market access",
+    "definition": "The FDA's most demanding authorization route, reserved for high-risk (Class III) devices: the maker must prove safety and effectiveness with clinical data, often a pivotal trial.",
     "parts": [
       {
-        "label": "Electrodes (leads)",
-        "role": "contact with the cord or nerves"
+        "label": "Clinical dossier",
+        "role": "the proof (pivotal trial)"
       },
       {
-        "label": "Implanted pulse generator (IPG)",
-        "role": "the battery and brain of the system"
+        "label": "Manufacturing data",
+        "role": "quality and reproducibility"
       },
       {
-        "label": "Programming / sensors",
-        "role": "tuning intensity, sometimes in closed loop"
+        "label": "FDA review",
+        "role": "the approval decision"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Implantation",
-        "t": "Electrodes are placed near the spinal cord or spinal nerves and connected to a generator under the skin."
+        "h": "Pivotal trial",
+        "t": "The maker runs a trial, often randomized and blinded, under an FDA IDE exemption."
       },
       {
         "n": "2",
-        "h": "Stimulation",
-        "t": "Electrical pulses modulate targeted nerve pathways (pain, movement, autonomic system)."
+        "h": "Filing",
+        "t": "It submits clinical, preclinical and manufacturing data to the FDA."
       },
       {
         "n": "3",
-        "h": "Adjustment",
-        "t": "The clinician sets the program; some systems adapt stimulation to the measured nerve response."
+        "h": "Review and approval",
+        "t": "The FDA reviews the file (nearly 599 days on average in H1 2026) and issues an approval order."
       }
     ],
-    "why": "A historic chronic-pain market widening into new indications (asthma, blood pressure, spinal cord injury): the VC angle is the shift from a niche product to a multi-indication platform, with costly pivotal trials and exits via strategic acquisition.",
+    "why": "A PMA is a moat: costly and slow, it protects the few approved devices. For a VC, approval is the catalyst that unlocks US revenue and often triggers a raise or an acquisition.",
     "startups": [
       {
-        "name": "Spiro Medical",
-        "use": "Spinal-nerve stimulation implant for severe asthma; first patient in the PULSAR study; $67M Series A led by Andera Partners.",
-        "place": "California, USA"
+        "name": "Butterfly Medical",
+        "use": "Prostatic retraction implant for BPH; 244-patient pivotal study complete, PMA application under FDA review; CE-marked and MDR-certified.",
+        "place": "Israel"
       },
       {
-        "name": "ONWARD Medical",
-        "use": "ARC-EX (external stimulation, in over 100 clinics) and ARC-IM (implant) for spinal cord injury; first patient implanted in the Empower BP pivotal study in Q1 2026.",
-        "place": "Netherlands / Switzerland"
+        "name": "ProVerum",
+        "use": "ProVee System (nitinol expander for BPH) FDA-approved via PMA (P250011) on Dec 9, 2025, based on the sham-controlled ProVIDE study.",
+        "place": "Dublin, Ireland"
       },
       {
-        "name": "Saluda Medical",
-        "use": "Evoke closed-loop SCS system that measures the nerve response to adjust stimulation; ASX-listed since Dec. 2025.",
-        "place": "Australia / USA"
+        "name": "Zenflow",
+        "use": "Zenflow Spring implant for BPH FDA-approved in December 2025; $52M Series D led by Cook Medical, now its US distributor.",
+        "place": "United States"
       }
     ],
     "sources": [
       {
-        "publisher": "BioSpace / PR Newswire",
-        "title": "Spiro Medical Treats First Asthma Patient With Neuromodulation in IDE Feasibility Study",
-        "url": "https://www.biospace.com/press-releases/spiro-medical-treats-first-asthma-patient-with-neuromodulation-in-ide-feasibility-study"
+        "publisher": "MedTech Dive",
+        "title": "FDA authorizes more devices so far in 2026, but it's taking longer",
+        "url": "https://www.medtechdive.com/news/fda-authorizes-more-devices-so-far-in-2026-but-its-taking-longer/824233/"
       },
       {
-        "publisher": "BioSpace",
-        "title": "ONWARD Medical Reports First Quarter 2026 Results with Strong Commercial Momentum and Key Clinical Milestones",
-        "url": "https://www.biospace.com/press-releases/onward-medical-reports-first-quarter-2026-results-with-strong-commercial-momentum-and-key-clinical-milestones"
+        "publisher": "FDA (base PMA)",
+        "title": "Premarket Approval P250011 — ProVee System",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250011"
       },
       {
-        "publisher": "Neurotech Reports",
-        "title": "Saluda's IPO on ASX Points Up Vulnerability of SCS Market",
-        "url": "https://www.neurotechreports.com/pages/Saluda-IPO.html"
+        "publisher": "Medical Device Network",
+        "title": "Butterfly Medical secures EU MDR certification for BPH implant",
+        "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
+      },
+      {
+        "publisher": "MedTech Dive",
+        "title": "Zenflow raises $52M, inks distribution deal with Cook Medical",
+        "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
       }
     ]
   }

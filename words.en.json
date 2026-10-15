@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-14",
+  "generatedAt": "2026-10-15",
   "words": [
+    {
+      "term": "PMA",
+      "full": "Premarket Approval (FDA)",
+      "fr": "FDA premarket approval for Class III devices",
+      "field": "Regulatory / market access",
+      "definition": "The FDA's most demanding authorization route, reserved for high-risk (Class III) devices: the maker must prove safety and effectiveness with clinical data, often a pivotal trial.",
+      "parts": [
+        {
+          "label": "Clinical dossier",
+          "role": "the proof (pivotal trial)"
+        },
+        {
+          "label": "Manufacturing data",
+          "role": "quality and reproducibility"
+        },
+        {
+          "label": "FDA review",
+          "role": "the approval decision"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Pivotal trial",
+          "t": "The maker runs a trial, often randomized and blinded, under an FDA IDE exemption."
+        },
+        {
+          "n": "2",
+          "h": "Filing",
+          "t": "It submits clinical, preclinical and manufacturing data to the FDA."
+        },
+        {
+          "n": "3",
+          "h": "Review and approval",
+          "t": "The FDA reviews the file (nearly 599 days on average in H1 2026) and issues an approval order."
+        }
+      ],
+      "why": "A PMA is a moat: costly and slow, it protects the few approved devices. For a VC, approval is the catalyst that unlocks US revenue and often triggers a raise or an acquisition.",
+      "startups": [
+        {
+          "name": "Butterfly Medical",
+          "use": "Prostatic retraction implant for BPH; 244-patient pivotal study complete, PMA application under FDA review; CE-marked and MDR-certified.",
+          "place": "Israel"
+        },
+        {
+          "name": "ProVerum",
+          "use": "ProVee System (nitinol expander for BPH) FDA-approved via PMA (P250011) on Dec 9, 2025, based on the sham-controlled ProVIDE study.",
+          "place": "Dublin, Ireland"
+        },
+        {
+          "name": "Zenflow",
+          "use": "Zenflow Spring implant for BPH FDA-approved in December 2025; $52M Series D led by Cook Medical, now its US distributor.",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MedTech Dive",
+          "title": "FDA authorizes more devices so far in 2026, but it's taking longer",
+          "url": "https://www.medtechdive.com/news/fda-authorizes-more-devices-so-far-in-2026-but-its-taking-longer/824233/"
+        },
+        {
+          "publisher": "FDA (base PMA)",
+          "title": "Premarket Approval P250011 — ProVee System",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250011"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Butterfly Medical secures EU MDR certification for BPH implant",
+          "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "Zenflow raises $52M, inks distribution deal with Cook Medical",
+          "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
+        }
+      ],
+      "date": "2026-10-15",
+      "dateLong": "Oct 15, 2026"
+    },
     {
       "term": "CDS",
       "full": "Clinical Decision Support",
