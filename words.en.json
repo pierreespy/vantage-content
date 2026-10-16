@@ -1,6 +1,240 @@
 {
-  "generatedAt": "2026-10-15",
+  "generatedAt": "2026-10-16",
   "words": [
+    {
+      "term": "AI Airlock",
+      "full": "AI Airlock (the MHRA's regulatory sandbox for AI medical devices)",
+      "fr": "UK regulatory sandbox for medical AI",
+      "field": "Regulatory / clinical AI",
+      "definition": "An MHRA programme that has innovators test AI medical devices in a controlled setting to identify regulatory obstacles and draw lessons, without the force of formal guidance.",
+      "parts": [
+        {
+          "label": "Innovator cohort",
+          "role": "the products tested"
+        },
+        {
+          "label": "Regulatory challenges",
+          "role": "the questions put to the test"
+        },
+        {
+          "label": "Programme reports",
+          "role": "the published lessons"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Selection",
+          "t": "Phase 2 picked seven technologies from 51 applicants."
+        },
+        {
+          "n": "2",
+          "h": "Supervised testing",
+          "t": "Products are tested on three challenges: intended purpose and validation, AI-powered in vitro diagnostics, and post-market surveillance with a predetermined change control plan."
+        },
+        {
+          "n": "3",
+          "h": "Publication",
+          "t": "Lessons are published in programme reports, the latest dated July 27, 2026, which do not constitute formal guidance."
+        }
+      ],
+      "why": "For a VC, going through the sandbox is a signal of an AI startup's regulatory maturity, and the third phase will focus on lifecycle surveillance, exactly what the UK commission published this week recommends.",
+      "startups": [
+        {
+          "name": "TORTUS",
+          "use": "Clinical AI assistant that automates documentation in patient records; selected for AI Airlock phase 2."
+        },
+        {
+          "name": "Panakeia Technologies",
+          "use": "PANProfiler Colorectal (MSI/MMR): AI that analyses existing tissue slides to give mismatch-repair status without an extra lab test; phase 2."
+        },
+        {
+          "name": "Numan",
+          "use": "Nu & Aegis AI conversational and monitoring system that explains blood test results to patients in plain language; phase 2."
+        },
+        {
+          "name": "Octopath",
+          "use": "AI platform for rapid quantitative analysis of digital pathology slides to support pathologists; phase 2."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK",
+          "title": "AI Airlock Phase 2 Cohort",
+          "url": "https://www.gov.uk/government/publications/ai-airlock-phase-2-cohort"
+        },
+        {
+          "publisher": "GOV.UK",
+          "title": "AI Airlock: the regulatory sandbox for AIaMD",
+          "url": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd"
+        },
+        {
+          "publisher": "IntuitionLabs",
+          "title": "MHRA AI Airlock Phase 2: evidence and case studies",
+          "url": "https://intuitionlabs.ai/articles/mhra-ai-airlock-phase-2-evidence-case-studies"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "Oct 16, 2026"
+    },
+    {
+      "term": "GPCR",
+      "full": "G-Protein-Coupled Receptor",
+      "fr": "G-protein-coupled receptor",
+      "field": "Drug discovery / pharmacology",
+      "definition": "A family of proteins embedded in the cell membrane that pick up signals (hormones, neurotransmitters) and relay them inside the cell; they are the target of about a third of FDA-approved drugs.",
+      "parts": [
+        {
+          "label": "Extracellular domain",
+          "role": "contact with the signal"
+        },
+        {
+          "label": "Seven transmembrane helices",
+          "role": "the transmission channel"
+        },
+        {
+          "label": "Intracellular part",
+          "role": "the relay to the G protein"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Binding",
+          "t": "A hormone or drug attaches to the receptor and changes its shape."
+        },
+        {
+          "n": "2",
+          "h": "Activation",
+          "t": "The receptor recruits a G protein inside the cell."
+        },
+        {
+          "n": "3",
+          "h": "Response",
+          "t": "The signaling cascade triggers the cell's response, which a drug can amplify (agonist) or block (antagonist)."
+        }
+      ],
+      "why": "GPCRs remain a major target class, but obtaining them in stable, functional form is a bottleneck. Hence investor interest in platforms that can study them in their native environment: OMass just raised $310M for an antagonist of MC2R, a GPCR.",
+      "startups": [
+        {
+          "name": "OMass Therapeutics",
+          "use": "OdyssION platform (native mass spectrometry) to study targets in their natural protein environment; OMS1620, an oral MC2R antagonist, heading to Phase 2; $310M Series C.",
+          "place": "Oxford, UK"
+        },
+        {
+          "name": "Scape Bio",
+          "use": "Designs de novo mini-proteins of 40 to 70 amino acids against GPCRs; 11 GPCRs targeted, picomolar-potency binders, a lead program in migraine; seed round under way.",
+          "place": "Copenhagen, Denmark"
+        },
+        {
+          "name": "Nuclera",
+          "use": "GPCR-focused nanodisc panel paired with its eProtein Discovery cell-free protein synthesis platform, to produce active receptors in 48 hours (announced March 30, 2026)."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "OMass raises $310M in Europe's second-largest biotech round of 2026",
+          "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/"
+        },
+        {
+          "publisher": "Labiotech",
+          "title": "OMass Therapeutics Takes on 'Undruggable' Proteins with €90M Series B",
+          "url": "https://www.labiotech.eu/trends-news/omass-therapeutics-gpcr/"
+        },
+        {
+          "publisher": "News-Medical",
+          "title": "Nuclera launches GPCR-focused nanodisc panel to streamline membrane protein production",
+          "url": "https://www.news-medical.net/news/20260330/Nuclera-launches-GPCR-focused-nanodisc-panel-to-streamline-membrane-protein-production.aspx"
+        },
+        {
+          "publisher": "BigGo Finance",
+          "title": "Christoffer Norn: AI-Designed Mini Proteins Can Hit 11 GPCRs at Picomolar Potency",
+          "url": "https://finance.biggo.com/news/f3bddb2f853d7d1e"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "Oct 16, 2026"
+    },
+    {
+      "term": "TDR",
+      "full": "Total Disc Replacement",
+      "fr": "Total disc replacement (artificial intervertebral disc)",
+      "field": "Spine surgery / implants",
+      "definition": "An implant that replaces a degenerated intervertebral disc while preserving motion of the spinal segment, as an alternative to fusion (arthrodesis), which locks the vertebrae together.",
+      "parts": [
+        {
+          "label": "Endplates",
+          "role": "anchoring in the vertebrae"
+        },
+        {
+          "label": "Keels",
+          "role": "primary fixation of the implant"
+        },
+        {
+          "label": "Articulation",
+          "role": "the motion that is kept"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Disc removal",
+          "t": "The surgeon removes the degenerated disc and relieves the compressed nerve structures."
+        },
+        {
+          "n": "2",
+          "h": "Implant placement",
+          "t": "The prosthesis, chosen to match the patient's anatomy, is inserted between the two vertebrae."
+        },
+        {
+          "n": "3",
+          "h": "Motion preserved",
+          "t": "The segment stays mobile instead of being fused, with the aim of sparing adjacent levels."
+        }
+      ],
+      "why": "For a VC, this is a category validated through FDA PMA (one- then two-level approvals widen the addressable market) and that now has a listed exit: Centinel Spine is heading to the NYSE with $157M of trailing-12-month revenue. European players such as Spineart have a head start on clinical track record.",
+      "startups": [
+        {
+          "name": "Centinel Spine",
+          "use": "prodisc platform of cervical and lumbar disc prostheses, FDA-approved for one and two levels; NYSE IPO filing made (ticker CNTL, up to $100M).",
+          "place": "West Chester, USA"
+        },
+        {
+          "name": "Spineart",
+          "use": "BAGUERA C cervical prosthesis, sold in Europe since 2008; CHF 20M convertible loan in 2024 and over €100M of revenue in 2023.",
+          "place": "Geneva, Switzerland"
+        },
+        {
+          "name": "Premia Spine",
+          "use": "TOPS lumbar facet arthroplasty system, another motion-preserving approach; FDA PMA approval with a superiority-to-fusion claim (77% success vs 24% in the pivotal trial, per the company)."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Renaissance Capital",
+          "title": "Spinal implant developer Centinel Spine files for a $100 million IPO",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/122099/spinal-implant-developer-centinel-spine-files-for-a-100-million-ipo"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Centinel Spine gets FDA nod for two-level use of prodisc C Nova",
+          "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Investors accelerate the development of cervical disc replacement",
+          "url": "https://startupticker.ch/en/news/Investors-accelerate-the-development-of-cervical-disc-replacement"
+        },
+        {
+          "publisher": "OrthoWorld",
+          "title": "Premia Spine TOPS System achieves FDA premarket approval with superiority to fusion label",
+          "url": "https://www.orthoworld.com/premia-spine-tops-system-achieves-fda-premarket-approval-with-superiority-to-fusion-label/"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "Oct 16, 2026"
+    },
     {
       "term": "RCM",
       "full": "Revenue Cycle Management",

@@ -1,181 +1,119 @@
 {
-  "dateLong": "Oct 15, 2026",
+  "dateLong": "Oct 16, 2026",
   "ticker": [
-    {
-      "company": "Xbrane",
-      "amount": "Enrolled ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "BioNTech",
-      "amount": "Ph2/3",
-      "kind": "tech"
-    },
-    {
-      "company": "Zealand",
-      "amount": "$30M",
-      "kind": "lev"
-    },
-    {
-      "company": "Alvotech",
-      "amount": "EMA",
-      "kind": "reg"
-    },
-    {
-      "company": "Arrowhead",
-      "amount": "Tau −73%",
-      "kind": "tech"
-    },
-    {
-      "company": "Cerevance",
-      "amount": "Ph3",
-      "kind": "tech"
-    }
+    { "company": "OMass Therapeutics", "amount": "$310M", "kind": "lev" },
+    { "company": "Armed Cell Therapeutics", "amount": "Founded", "kind": "new" },
+    { "company": "AstraZeneca / insitro", "amount": "$1.5B", "kind": "mna" },
+    { "company": "Gilead / Vir", "amount": "$1.87B", "kind": "mna" },
+    { "company": "Crescent Biopharma", "amount": ">125 pts", "kind": "tech" },
+    { "company": "BIO-Europe", "amount": "Survey", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Pivotal trial · Biosimilars",
-    "title": "Xbrane completes enrollment in the pivotal trial of its Opdivo (nivolumab) biosimilar in melanoma",
-    "deck": "About 340 melanoma patients are enrolled for Xdivane, a biosimilar candidate to Bristol Myers Squibb's nivolumab (roughly $10B in 2025 Opdivo sales). Co-developer Intas runs clinical development and its arm Accord Healthcare will handle global commercialization.",
-    "company": "Xbrane Biopharma",
-    "sector": "Biotech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://nordiclifescience.org/xbrane-completes-enrollment-in-pivotal-nivolumab-biosimilar-trial/"
+    "kicker": "Series C round · Endocrinology",
+    "title": "OMass Therapeutics raises $310M Series C to fund Phase 2 of its oral MC2R antagonist",
+    "deck": "Co-led by Bain Capital Life Sciences, Forbion and Novo Holdings, the round is the second-largest private European biotech raise of 2026, according to European Biotechnology. OMS1620, in Phase 1 single-ascending-dose testing, will target congenital adrenal hyperplasia and ACTH-dependent Cushing's syndrome.",
+    "company": "OMass Therapeutics",
+    "stage": "Series C",
+    "sector": "Endocrinology",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/"
   },
   "milestone": {
-    "company": "BioNTech",
-    "milestone": "Phase 2/3",
-    "title": "BioNTech's mRNA vaccine BNT113 misses its first objective in HPV16+ head and neck cancer; trial continues on overall survival",
-    "summary": "Combined with Keytruda in first line, BNT113 did not extend progression-free survival at an interim check; a monitoring committee recommends continuing to test overall survival.",
-    "why": "Analysts saw thin supporting evidence at the start. BioNTech is refocusing oncology on the bispecific pumitamig (with Bristol Myers Squibb): a reminder of the clinical risk of therapeutic mRNA vaccines.",
-    "place": "Mainz, Germany",
-    "sector": "Oncology",
-    "signalType": "clinical_update",
-    "url": "https://www.biopharmadive.com/news/biontech-mrna-immunotherapy-hpv16-head-neck-cancer/832854/"
+    "company": "Armed Cell Therapeutics",
+    "milestone": "Launch + license",
+    "title": "Paul Stoffels launches Armed Cell Therapeutics and licenses the preclinical CAR-Ts dropped by Galapagos (Lakefront)",
+    "summary": "Armed gets the CAR-T programs that came from AboundBio (acquired by Galapagos in 2022) for about $9M upfront, $230M in milestones and royalties. The CAR-Ts, armed with extra payloads, target non-Hodgkin lymphoma and small cell lung cancer, aiming to curb relapse.",
+    "why": "A high-pedigree launch (Paul Stoffels is chair and interim CEO, John Mellors is chief scientific officer) that recycles assets shelved by a listed Belgian company, with no round announced: a weak signal ahead of a first financing.",
+    "place": "Belgium",
+    "sector": "Cell therapy",
+    "signalType": "company_incorporation",
+    "url": "https://www.biospace.com/deals/stoffels-strikes-up-new-biotech-in-return-to-galapagos-cell-therapy-mission"
   },
   "deal": {
-    "company": "Generate Biomedicines",
-    "amount": "$30M upfront",
-    "round": "Licensing",
-    "thesis": "Zealand Pharma licenses AI-engineered multispecific proteins for obesity and metabolic disease: $30M upfront, up to $35M in preclinical milestones and nearly $1.2B in milestones across two programs (option on a third), plus royalties. One more comparable for AI protein design, not an entry opportunity.",
+    "company": "insitro",
+    "amount": "Up to $1.5B",
+    "round": "AI partnership",
+    "thesis": "AstraZeneca pays $40M upfront (up to $1.46B in milestones, plus royalties) for insitro's Virtual Human platform to identify causal targets in MASH and cardiomyopathies. A big pharma is paying for AI target discovery rather than molecules, right after the Phase 3 failure of Wainua in ATTR-CM.",
     "sector": "AI drug discovery",
-    "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
+    "url": "https://www.biospace.com/business/astrazeneca-bulks-up-mash-cardio-work-in-up-to-1-5b-ai-partnership-with-insitro"
   },
   "brefsEurope": [
     {
-      "company": "Alvotech / Advanz Pharma",
-      "place": "Reykjavik, Iceland",
-      "sector": "Biotech",
+      "company": "BIO-Europe",
+      "place": "Europe",
+      "sector": "Fund",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Alvotech and Advanz file AVT29, an 8 mg Eylea biosimilar, in Europe",
-      "summary": "The filing targets a copy of the 8 mg Eylea dose, which the partners call a first; Alvotech takes an early lead in the race for this biosimilar.",
-      "url": "https://nordiclifescience.org/alvotech-takes-early-lead-in-race-for-high-dose-eylea-biosimilar/"
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "BIO-Europe survey: access to capital is the top barrier to dealmaking for European biotechs",
+      "summary": "Of 81 executives, mostly from private preclinical or early-clinical biotechs, 34 cite capital availability as the main obstacle, ahead of the valuation gap (13) and competition from Chinese assets (12). Nearly 80% blame investor risk aversion for the scarcity of capital.",
+      "url": "https://www.biospace.com/business/european-biotech-leaders-split-on-us-china-fight-for-deal-dominance-survey-finds"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Arrowhead Pharmaceuticals",
-      "place": "California, US",
-      "sector": "Neuroscience",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Arrowhead: subcutaneous RNAi ARO-MAPT cuts tau by 40–73% on average in healthy volunteers",
-      "summary": "Early trial in about 64 volunteers (three doses); mild side effects. Trials are planned in frontotemporal dementia and progressive supranuclear palsy; tau remains debated as an Alzheimer's target.",
-      "url": "https://www.biopharmadive.com/news/arrowhead-rnai-alzheimers-tau-aro-mapt-study-results/832950/"
+      "company": "Vir Biotechnology",
+      "place": "United States",
+      "sector": "Oncology",
+      "pillar": "financement",
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Gilead takes an equity stake in Vir with a deal worth up to $1.87B for three T cell engagers",
+      "summary": "Gilead buys into Vir and signs a deal worth up to $1.87B on three T cell engagers: one more comparable for the modality.",
+      "url": "https://www.biospace.com/business/gilead-snags-equity-stake-in-vir-with-up-to-1-87b-deal-for-three-t-cell-engagers"
     },
     {
-      "company": "Cerevance",
-      "place": "Boston, US",
-      "sector": "Neuroscience",
+      "company": "Rona Therapeutics",
+      "place": "China",
+      "sector": "Obesity",
+      "pillar": "financement",
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Roche signs a $1B+ obesity deal with Rona, another purchase of a Chinese asset",
+      "summary": "Roche expands its obesity R&D with a pact worth over a billion dollars, in its series of acquisitions of China-origin assets.",
+      "url": "https://www.biospace.com/deals/roche-expands-obesity-r-d-footprint-with-rona-deal-worth-1b"
+    },
+    {
+      "company": "Crescent Biopharma",
+      "place": "United States",
+      "sector": "Oncology",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "stage": "Series A",
-      "title": "Takeda spinout Cerevance reports Phase 3 data for solengepras in Parkinson's: −0.61 h daily \"off\" time",
-      "summary": "341 patients; modest effect at the high dose, \"on\"-time benefit only barely significant. A meeting with the FDA is planned to define next steps.",
-      "url": "https://www.biopharmadive.com/news/cerevance-solengepras-parkinsons-study-results/832324/"
+      "title": "Crescent Biopharma has dosed over 125 patients with its PD-1 x VEGF bispecific CR-001 in the ASCEND trial",
+      "summary": "The Phase 1/2 trial is enrolling in the US, Europe and South Korea and is opening cohorts combined with standard-of-care chemotherapy.",
+      "url": "https://globenewswire.com/news-release/2026/10/15/3382144/0/en/crescent-biopharma-announces-clinical-pipeline-momentum-including-enrolling-patients-in-standard-of-care-chemotherapy-combination-cohorts-of-global-phase-1-2-ascend-trial-of-cr-001.html"
     }
   ],
   "word": {
-    "term": "Generative Protein Design",
-    "full": "Generative Protein Design",
-    "fr": "AI-generated protein design",
-    "field": "AI drug discovery",
-    "definition": "AI models generate protein sequences (antibodies, mini-binders, enzymes) from scratch to meet a specification, instead of screening existing libraries.",
+    "term": "GPCR",
+    "full": "G-Protein-Coupled Receptor",
+    "fr": "G-protein-coupled receptor",
+    "field": "Drug discovery / pharmacology",
+    "definition": "A family of proteins embedded in the cell membrane that pick up signals (hormones, neurotransmitters) and relay them inside the cell; they are the target of about a third of FDA-approved drugs.",
     "parts": [
-      {
-        "label": "Generative model",
-        "role": "the sequence inventor"
-      },
-      {
-        "label": "Structure/affinity prediction",
-        "role": "the in silico filter"
-      },
-      {
-        "label": "Validation lab",
-        "role": "the experimental test"
-      }
+      { "label": "Extracellular domain", "role": "contact with the signal" },
+      { "label": "Seven transmembrane helices", "role": "the transmission channel" },
+      { "label": "Intracellular part", "role": "the relay to the G protein" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Specification",
-        "t": "Define the target and desired properties (affinity, stability, low immunogenicity)."
-      },
-      {
-        "n": "2",
-        "h": "Generation",
-        "t": "The model proposes thousands of candidates, ranked by in silico prediction."
-      },
-      {
-        "n": "3",
-        "h": "Validation",
-        "t": "The best are produced and tested in the lab, and the results retrain the model."
-      }
+      { "n": "1", "h": "Binding", "t": "A hormone or drug attaches to the receptor and changes its shape." },
+      { "n": "2", "h": "Activation", "t": "The receptor recruits a G protein inside the cell." },
+      { "n": "3", "h": "Response", "t": "The signaling cascade triggers the cell's response, which a drug can amplify (agonist) or block (antagonist)." }
     ],
-    "why": "The VC signal: big pharma is already paying upfronts (Zealand → Generate, $30M) for access to these platforms; the open question is whether AI really shortens the path to a clinical candidate.",
+    "why": "GPCRs remain a major target class, but obtaining them in stable, functional form is a bottleneck. Hence investor interest in platforms that can study them in their native environment: OMass just raised $310M for an antagonist of MC2R, a GPCR.",
     "startups": [
-      {
-        "name": "Cradle",
-        "use": "AI protein engineering software; $73M Series B led by IVP; named customers include Novo Nordisk and J&J Innovative Medicine.",
-        "place": "Amsterdam / Zurich"
-      },
-      {
-        "name": "Latent Labs",
-        "use": "Latent-X and Latent-X2 models (mini-binders, antibodies); $50M raised including a $40M Series A co-led by Radical Ventures and Sofinnova Partners.",
-        "place": "London, UK"
-      },
-      {
-        "name": "Generate Biomedicines",
-        "use": "AI-designed protein platform; GB-0895 (anti-TSLP) in Phase 3 for severe asthma; Nasdaq-listed (GENB) since February 2026 after a $400M IPO.",
-        "place": "United States"
-      }
+      { "name": "OMass Therapeutics", "use": "OdyssION platform (native mass spectrometry) to study targets in their natural protein environment; OMS1620, an oral MC2R antagonist, heading to Phase 2; $310M Series C.", "place": "Oxford, UK" },
+      { "name": "Scape Bio", "use": "Designs de novo mini-proteins of 40 to 70 amino acids against GPCRs; 11 GPCRs targeted, picomolar-potency binders, a lead program in migraine; seed round under way.", "place": "Copenhagen, Denmark" },
+      { "name": "Nuclera", "use": "GPCR-focused nanodisc panel paired with its eProtein Discovery cell-free protein synthesis platform, to produce active receptors in 48 hours (announced March 30, 2026)." }
     ],
     "sources": [
-      {
-        "publisher": "Nordic Life Science",
-        "title": "Zealand Pharma signs AI protein deal with Generate Biomedicines",
-        "url": "https://nordiclifescience.org/zealand-pharma-signs-ai-protein-deal-with-generate-biomedicines/"
-      },
-      {
-        "publisher": "European Biotechnology",
-        "title": "Cradle secures $73M Series B to accelerate AI-driven protein engineering",
-        "url": "https://european-biotechnology.com/latest-news/cradle-secures-73m-series-b-to-accelerate-ai-driven-protein-engineering/"
-      },
-      {
-        "publisher": "Tech.eu",
-        "title": "AI pioneer Dr Simon Kohl's Latent Labs emerges from stealth, raising $50M for programmable biology",
-        "url": "https://tech.eu/2025/02/13/ai-pioneer-dr-simon-kohls-latent-labs-raises-50m/"
-      },
-      {
-        "publisher": "Pharmaceutical Technology",
-        "title": "Generate Biomedicines secures $400M IPO in flurry of February listings",
-        "url": "https://www.pharmaceutical-technology.com/news/generate-biomedicines-secures-400m-ipo-in-flurry-of-february-listings/"
-      }
+      { "publisher": "European Biotechnology", "title": "OMass raises $310M in Europe's second-largest biotech round of 2026", "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/" },
+      { "publisher": "Labiotech", "title": "OMass Therapeutics Takes on 'Undruggable' Proteins with €90M Series B", "url": "https://www.labiotech.eu/trends-news/omass-therapeutics-gpcr/" },
+      { "publisher": "News-Medical", "title": "Nuclera launches GPCR-focused nanodisc panel to streamline membrane protein production", "url": "https://www.news-medical.net/news/20260330/Nuclera-launches-GPCR-focused-nanodisc-panel-to-streamline-membrane-protein-production.aspx" },
+      { "publisher": "BigGo Finance", "title": "Christoffer Norn: AI-Designed Mini Proteins Can Hit 11 GPCRs at Picomolar Potency", "url": "https://finance.biggo.com/news/f3bddb2f853d7d1e" }
     ]
   }
 }

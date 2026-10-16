@@ -1,167 +1,74 @@
 {
-  "dateLong": "15 oct. 2026",
+  "dateLong": "16 oct. 2026",
   "ticker": [
-    {
-      "company": "NHS Online",
-      "amount": "£9,9M",
-      "kind": "tech"
-    },
-    {
-      "company": "NW London",
-      "amount": "Scribe IA",
-      "kind": "tech"
-    },
-    {
-      "company": "Brellium",
-      "amount": "$23M",
-      "kind": "lev"
-    },
-    {
-      "company": "Readily",
-      "amount": "$11M",
-      "kind": "lev"
-    },
-    {
-      "company": "Rock Health",
-      "amount": "$11,1Md",
-      "kind": "tech"
-    },
-    {
-      "company": "Zocdoc",
-      "amount": "Rachat",
-      "kind": "mna"
-    }
+    { "company": "Doctolib", "amount": "Nvidia", "kind": "lev" },
+    { "company": "NHS England", "amount": "£838,7M", "kind": "reg" },
+    { "company": "MHRA", "amount": "44 reco.", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Contrat public · Hôpital en ligne",
-    "title": "NHS England confie à Kainos 9,9 M£ pour développer le « virtual hospital » NHS Online (phase alpha 2)",
-    "deck": "Kainos livre outils de workflow cliniciens, intégrations aux systèmes nationaux du NHS et à l'application NHS App pour le premier hôpital 100 % numérique du Royaume-Uni. Le contrat peut aussi couvrir des missions courtes à résultats.",
-    "company": "Kainos",
-    "sector": "Logiciel hospitalier",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 3,
-    "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
+    "kicker": "Participation stratégique · Plateforme de soins",
+    "title": "Nvidia prend une participation minoritaire dans Doctolib et l'aidera à entraîner ses modèles d'IA",
+    "deck": "Annoncée le 13 octobre lors de la visite de Jensen Huang à Paris, la prise de participation, dont le montant n'est pas divulgué, s'accompagne d'un appui de Nvidia à l'entraînement des modèles de Doctolib, qui a déjà lancé un assistant de consultation en 2024. Trois autres start-ups françaises sont concernées : Genesis AI, Pigment et Entalpic.",
+    "company": "Doctolib",
+    "stage": "Growth",
+    "sector": "Digital Health",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.trendingtopics.eu/nvidia-takes-stakes-in-doctolib-pigment-genesis-ai-and-entalpic/"
   },
   "milestone": {
-    "company": "North West London Acute Provider Group",
-    "milestone": "Appel d'offres",
-    "title": "Quatre hôpitaux londoniens consultent le marché pour un scribe IA (ambient voice technology) sur 2027-2030",
-    "summary": "Imperial College Healthcare, Chelsea and Westminster, London North West et Hillingdon cherchent un fournisseur ; le contrat estimé court du 1er avril 2027 au 31 mars 2030. Valeur non communiquée.",
-    "why": "Un achat groupé multi-hôpitaux : le signal que les scribes IA passent des pilotes isolés aux appels d'offres régionaux, ce qui consolide le marché autour de peu de fournisseurs.",
-    "place": "Londres, Royaume-Uni",
-    "sector": "IA clinique",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+    "company": "NHS England",
+    "milestone": "Cadre d'achat",
+    "title": "NHS England prépare un cadre ouvert de 838,7 M£ pour les logiciels de médecine générale",
+    "summary": "Il remplacera le cadre GP IT Futures arrivé à expiration et couvrira une gamme plus large de logiciels cliniques et opérationnels pour les soins primaires. L'appel d'offres devrait démarrer en novembre 2026 et le cadre être lancé le 20 septembre 2027 (avis 094419-2026 sur Find a Tender).",
+    "why": "Pour les éditeurs de logiciels de santé britanniques, c'est le prochain grand guichet d'achat du premier recours. L'éditeur DXS, auteur du communiqué, cite une hausse de 81,7 % du financement central ; aucun fournisseur n'est encore retenu.",
+    "place": "Royaume-Uni",
+    "sector": "Logiciel hospitalier",
+    "signalType": "regulatory_milestone",
+    "url": "https://manilatimes.net/2026/10/15/tmt-newswire/globenewswire/nhs-announces-838m-gp-it-framework/2446354"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
+  "brefsEurope": [
     {
-      "company": "Brellium",
-      "place": "États-Unis",
-      "sector": "IA clinique",
-      "pillar": "financement",
-      "signalType": "funding_round",
+      "company": "MHRA",
+      "place": "Royaume-Uni",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Brellium lève 23 M$ (Left Lane Capital, First Round) et lance CortexLM, garanti contre les clawbacks des payeurs",
-      "summary": "L'IA relit 100 % des notes patient avant facturation ; si un payeur réclame un remboursement sur une visite validée, Brellium prend le coût à sa charge.",
-      "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
-    },
-    {
-      "company": "Readily",
-      "place": "États-Unis",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Series A",
-      "title": "Readily lève 11 M$ en Series A menée par Define Ventures pour sa plateforme de conformité des assureurs santé",
-      "summary": "Clients : plans de santé couvrant plus de 25 millions de vies dans 46 États, dont L.A. Care Health Plan en production. Y Combinator participe.",
-      "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
-    },
-    {
-      "company": "Rock Health",
-      "place": "États-Unis",
-      "sector": "Fonds",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Rock Health : 11,1 Md$ levés par la digital health américaine depuis janvier (358 deals), 3,7 Md$ au T3",
-      "summary": "Taille moyenne de deal de 31 M$ (29,5 M$ en 2025) ; 45 opérations de M&A au T3, 164 depuis janvier.",
-      "url": "https://hitconsultant.net/2026/10/12/rock-health-q3-2026-market-update-fifteen-years-digital-health-venture-funding-deployable-value/"
+      "title": "La commission britannique sur l'IA en santé recommande une régulation sur tout le cycle de vie des dispositifs à IA",
+      "summary": "Son rapport de 119 pages formule 44 recommandations non contraignantes : révision des Medical Devices Regulations 2002, autorisation par paliers, surveillance post-commercialisation renforcée, base publique d'incidents. Le gouvernement avait annoncé le 6 octobre qu'il les accepterait toutes.",
+      "url": "https://dhinsights.org/news/the-nhs-wants-to-be-the-worlds-most-ai-enabled-health-system-a-new-commission-report-says-regulation-has-to-catch-up"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "RCM",
-    "full": "Revenue Cycle Management (gestion du cycle de facturation hospitalier)",
-    "fr": "Gestion du cycle de facturation",
-    "field": "Finance hospitalière / IA administrative",
-    "definition": "L'ensemble des étapes qui transforment un soin en paiement : codage, facturation, contrôle de conformité, gestion des refus ; l'IA vise à corriger les erreurs avant l'envoi de la facture.",
+    "term": "AI Airlock",
+    "full": "AI Airlock (bac à sable réglementaire de la MHRA pour les dispositifs médicaux à IA)",
+    "fr": "Bac à sable réglementaire britannique pour l'IA médicale",
+    "field": "Réglementaire / IA clinique",
+    "definition": "Programme de la MHRA qui fait tester à des innovateurs, dans un cadre contrôlé, des dispositifs médicaux à IA afin d'identifier les obstacles réglementaires et d'en tirer des enseignements, sans valeur de guidance formelle.",
     "parts": [
-      {
-        "label": "Codage clinique",
-        "role": "traduire le soin en codes facturables"
-      },
-      {
-        "label": "Contrôle avant facturation",
-        "role": "détecter les oublis et incohérences"
-      },
-      {
-        "label": "Gestion des refus",
-        "role": "récupérer ce que le payeur conteste"
-      }
+      { "label": "Cohorte d'innovateurs", "role": "les produits testés" },
+      { "label": "Défis réglementaires", "role": "les questions soumises à l'épreuve" },
+      { "label": "Rapports de programme", "role": "les enseignements publiés" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Documentation",
-        "t": "Le soin est consigné dans le dossier patient puis codé."
-      },
-      {
-        "n": "2",
-        "h": "Contrôle IA",
-        "t": "Un moteur relit le cas et signale diagnostics ou justificatifs manquants."
-      },
-      {
-        "n": "3",
-        "h": "Facturation",
-        "t": "La facture part au payeur, avec moins de refus ou de remboursements réclamés après coup."
-      }
+      { "n": "1", "h": "Sélection", "t": "La phase 2 a retenu sept technologies parmi 51 candidatures." },
+      { "n": "2", "h": "Test encadré", "t": "Les produits sont éprouvés sur trois défis : finalité et validation, diagnostic in vitro par IA, surveillance post-commercialisation avec plan de changement prédéterminé." },
+      { "n": "3", "h": "Publication", "t": "Les enseignements sont publiés dans des rapports de programme, le dernier daté du 27 juillet 2026, qui ne constituent pas une guidance formelle." }
     ],
-    "why": "Un budget administratif massif, des gains mesurables en euros et des cycles de vente courts : l'angle VC est la facturation comme porte d'entrée vers le logiciel hospitalier, avec des garanties de résultat de plus en plus offertes.",
+    "why": "Pour un VC, passer par le bac à sable est un signal de maturité réglementaire d'une start-up IA, et la troisième phase portera sur la surveillance sur tout le cycle de vie, précisément ce que recommande la commission britannique publiée cette semaine.",
     "startups": [
-      {
-        "name": "Calliora",
-        "use": "Couche d'IA qui contrôle les dossiers hospitaliers avant facturation ; pre-seed de 6 M$ menée par Bertelsmann Healthcare Investments et redalpine ; clients non nommés.",
-        "place": "Munich, Allemagne"
-      },
-      {
-        "name": "Brellium",
-        "use": "CortexLM relit 100 % des notes patient avant facturation ; 23 M$ co-menés par Left Lane Capital et First Round, avec garantie contre les clawbacks.",
-        "place": "États-Unis"
-      },
-      {
-        "name": "Readily",
-        "use": "Plateforme de conformité pour plans de santé ; Series A de 11 M$ menée par Define Ventures ; plus de 25 millions de vies couvertes.",
-        "place": "États-Unis"
-      }
+      { "name": "TORTUS", "use": "Assistant clinique IA qui automatise la documentation dans les dossiers patients ; retenu dans la phase 2 de l'AI Airlock." },
+      { "name": "Panakeia Technologies", "use": "PANProfiler Colorectal (MSI/MMR) : IA qui analyse des lames de tissu existantes pour donner le statut de réparation des mésappariements sans test de laboratoire supplémentaire ; phase 2." },
+      { "name": "Numan", "use": "Système conversationnel et de suivi Nu & Aegis AI qui explique aux patients leurs résultats d'analyses sanguines en langage simple ; phase 2." },
+      { "name": "Octopath", "use": "Plateforme IA d'analyse quantitative rapide de lames de pathologie numérique pour assister les pathologistes ; phase 2." }
     ],
     "sources": [
-      {
-        "publisher": "Tech Funding News",
-        "title": "Bertelsmann and redalpine back Calliora with $6M for AI that cuts hospital billing errors",
-        "url": "https://techfundingnews.com/bertelsmann-and-redalpine-back-calliora-with-6m-for-ai-that-cuts-hospital-billing-errors/"
-      },
-      {
-        "publisher": "HIT Consultant",
-        "title": "Brellium Raises $23M and Launches CortexLM with a Financial Guarantee Against Payer Clawbacks",
-        "url": "https://hitconsultant.net/2026/10/13/brellium-raises-23m-debuts-cortexlm-clinical-compliance-payer-clawback-guarantee/"
-      },
-      {
-        "publisher": "HIT Consultant",
-        "title": "Readily Secures $11M for AI-Native Compliance Platform for Healthcare",
-        "url": "https://hitconsultant.net/2026/10/13/readily-raises-11m-series-a-define-ventures-ai-compliance-intelligence-enterprise-oversight/"
-      }
+      { "publisher": "GOV.UK", "title": "AI Airlock Phase 2 Cohort", "url": "https://www.gov.uk/government/publications/ai-airlock-phase-2-cohort" },
+      { "publisher": "GOV.UK", "title": "AI Airlock: the regulatory sandbox for AIaMD", "url": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd" },
+      { "publisher": "IntuitionLabs", "title": "MHRA AI Airlock Phase 2: evidence and case studies", "url": "https://intuitionlabs.ai/articles/mhra-ai-airlock-phase-2-evidence-case-studies" }
     ]
   }
 }

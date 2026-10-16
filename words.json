@@ -1,6 +1,240 @@
 {
-  "generatedAt": "2026-10-15",
+  "generatedAt": "2026-10-16",
   "words": [
+    {
+      "term": "AI Airlock",
+      "full": "AI Airlock (bac à sable réglementaire de la MHRA pour les dispositifs médicaux à IA)",
+      "fr": "Bac à sable réglementaire britannique pour l'IA médicale",
+      "field": "Réglementaire / IA clinique",
+      "definition": "Programme de la MHRA qui fait tester à des innovateurs, dans un cadre contrôlé, des dispositifs médicaux à IA afin d'identifier les obstacles réglementaires et d'en tirer des enseignements, sans valeur de guidance formelle.",
+      "parts": [
+        {
+          "label": "Cohorte d'innovateurs",
+          "role": "les produits testés"
+        },
+        {
+          "label": "Défis réglementaires",
+          "role": "les questions soumises à l'épreuve"
+        },
+        {
+          "label": "Rapports de programme",
+          "role": "les enseignements publiés"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sélection",
+          "t": "La phase 2 a retenu sept technologies parmi 51 candidatures."
+        },
+        {
+          "n": "2",
+          "h": "Test encadré",
+          "t": "Les produits sont éprouvés sur trois défis : finalité et validation, diagnostic in vitro par IA, surveillance post-commercialisation avec plan de changement prédéterminé."
+        },
+        {
+          "n": "3",
+          "h": "Publication",
+          "t": "Les enseignements sont publiés dans des rapports de programme, le dernier daté du 27 juillet 2026, qui ne constituent pas une guidance formelle."
+        }
+      ],
+      "why": "Pour un VC, passer par le bac à sable est un signal de maturité réglementaire d'une start-up IA, et la troisième phase portera sur la surveillance sur tout le cycle de vie, précisément ce que recommande la commission britannique publiée cette semaine.",
+      "startups": [
+        {
+          "name": "TORTUS",
+          "use": "Assistant clinique IA qui automatise la documentation dans les dossiers patients ; retenu dans la phase 2 de l'AI Airlock."
+        },
+        {
+          "name": "Panakeia Technologies",
+          "use": "PANProfiler Colorectal (MSI/MMR) : IA qui analyse des lames de tissu existantes pour donner le statut de réparation des mésappariements sans test de laboratoire supplémentaire ; phase 2."
+        },
+        {
+          "name": "Numan",
+          "use": "Système conversationnel et de suivi Nu & Aegis AI qui explique aux patients leurs résultats d'analyses sanguines en langage simple ; phase 2."
+        },
+        {
+          "name": "Octopath",
+          "use": "Plateforme IA d'analyse quantitative rapide de lames de pathologie numérique pour assister les pathologistes ; phase 2."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK",
+          "title": "AI Airlock Phase 2 Cohort",
+          "url": "https://www.gov.uk/government/publications/ai-airlock-phase-2-cohort"
+        },
+        {
+          "publisher": "GOV.UK",
+          "title": "AI Airlock: the regulatory sandbox for AIaMD",
+          "url": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd"
+        },
+        {
+          "publisher": "IntuitionLabs",
+          "title": "MHRA AI Airlock Phase 2: evidence and case studies",
+          "url": "https://intuitionlabs.ai/articles/mhra-ai-airlock-phase-2-evidence-case-studies"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "16 oct. 2026"
+    },
+    {
+      "term": "GPCR",
+      "full": "G-Protein-Coupled Receptor (récepteur couplé aux protéines G)",
+      "fr": "Récepteur couplé aux protéines G",
+      "field": "Découverte de médicaments / pharmacologie",
+      "definition": "Famille de protéines logées dans la membrane des cellules qui captent des signaux (hormones, neurotransmetteurs) et les relaient à l'intérieur ; elles sont la cible d'environ un tiers des médicaments approuvés par la FDA.",
+      "parts": [
+        {
+          "label": "Domaine extracellulaire",
+          "role": "la prise de contact avec le signal"
+        },
+        {
+          "label": "Sept hélices transmembranaires",
+          "role": "le canal de transmission"
+        },
+        {
+          "label": "Partie intracellulaire",
+          "role": "le relais vers la protéine G"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Liaison",
+          "t": "Une hormone ou un médicament se fixe sur le récepteur et en change la forme."
+        },
+        {
+          "n": "2",
+          "h": "Activation",
+          "t": "Le récepteur recrute une protéine G à l'intérieur de la cellule."
+        },
+        {
+          "n": "3",
+          "h": "Réponse",
+          "t": "La cascade de signalisation déclenche la réponse cellulaire, que le médicament peut amplifier (agoniste) ou bloquer (antagoniste)."
+        }
+      ],
+      "why": "Les GPCR restent une classe cible majeure, mais les obtenir sous forme stable et fonctionnelle est un goulot d'étranglement. D'où l'intérêt des investisseurs pour les plateformes capables de les étudier dans leur environnement natif : OMass vient de lever 310 M$ pour un antagoniste du MC2R, un GPCR.",
+      "startups": [
+        {
+          "name": "OMass Therapeutics",
+          "use": "Plateforme OdyssION (spectrométrie de masse native) pour étudier les cibles dans leur environnement protéique naturel ; OMS1620, antagoniste oral du MC2R, bientôt en phase 2 ; Series C de 310 M$.",
+          "place": "Oxford, Royaume-Uni"
+        },
+        {
+          "name": "Scape Bio",
+          "use": "Conçoit de novo des mini-protéines de 40 à 70 acides aminés contre des GPCR ; 11 GPCR ciblés, des liants de puissance picomolaire, un programme principal en migraine ; seed en cours.",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Nuclera",
+          "use": "Panel de nanodisques dédié aux GPCR, couplé à sa plateforme eProtein Discovery de synthèse protéique acellulaire, pour produire des récepteurs actifs en 48 heures (annoncé le 30 mars 2026)."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "OMass raises $310M in Europe's second-largest biotech round of 2026",
+          "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/"
+        },
+        {
+          "publisher": "Labiotech",
+          "title": "OMass Therapeutics Takes on 'Undruggable' Proteins with €90M Series B",
+          "url": "https://www.labiotech.eu/trends-news/omass-therapeutics-gpcr/"
+        },
+        {
+          "publisher": "News-Medical",
+          "title": "Nuclera launches GPCR-focused nanodisc panel to streamline membrane protein production",
+          "url": "https://www.news-medical.net/news/20260330/Nuclera-launches-GPCR-focused-nanodisc-panel-to-streamline-membrane-protein-production.aspx"
+        },
+        {
+          "publisher": "BigGo Finance",
+          "title": "Christoffer Norn: AI-Designed Mini Proteins Can Hit 11 GPCRs at Picomolar Potency",
+          "url": "https://finance.biggo.com/news/f3bddb2f853d7d1e"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "16 oct. 2026"
+    },
+    {
+      "term": "TDR",
+      "full": "Total Disc Replacement (prothèse totale de disque intervertébral)",
+      "fr": "Remplacement total de disque",
+      "field": "Chirurgie du rachis / implants",
+      "definition": "Implant qui remplace un disque intervertébral dégénéré tout en préservant la mobilité du segment vertébral, en alternative à la fusion (arthrodèse) qui bloque les vertèbres.",
+      "parts": [
+        {
+          "label": "Plateaux",
+          "role": "l'ancrage dans les vertèbres"
+        },
+        {
+          "label": "Quilles",
+          "role": "la fixation primaire de l'implant"
+        },
+        {
+          "label": "Articulation",
+          "role": "le mouvement conservé"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Retrait du disque",
+          "t": "Le chirurgien retire le disque dégénéré et libère les structures nerveuses comprimées."
+        },
+        {
+          "n": "2",
+          "h": "Pose de l'implant",
+          "t": "La prothèse, choisie pour correspondre à l'anatomie du patient, est insérée entre les deux vertèbres."
+        },
+        {
+          "n": "3",
+          "h": "Mobilité préservée",
+          "t": "Le segment reste mobile au lieu d'être fusionné, avec pour objectif de ménager les niveaux adjacents."
+        }
+      ],
+      "why": "Pour un VC, c'est une catégorie qui se valide par la PMA FDA (des autorisations à un puis deux niveaux élargissent le marché adressable) et qui trouve désormais une sortie cotée : Centinel Spine vise la NYSE avec 157 M$ de revenus sur 12 mois. Les acteurs européens, comme Spineart, ont de l'avance sur l'historique clinique.",
+      "startups": [
+        {
+          "name": "Centinel Spine",
+          "use": "Plateforme prodisc de prothèses de disque cervical et lombaire, autorisée FDA à un et deux niveaux ; dossier d'introduction à la NYSE déposé (ticker CNTL, jusqu'à 100 M$).",
+          "place": "West Chester, États-Unis"
+        },
+        {
+          "name": "Spineart",
+          "use": "Prothèse cervicale BAGUERA C, vendue en Europe depuis 2008 ; 20 MCHF de prêt convertible en 2024 et plus de 100 M€ de revenus en 2023.",
+          "place": "Genève, Suisse"
+        },
+        {
+          "name": "Premia Spine",
+          "use": "Système TOPS d'arthroplastie facettaire lombaire, autre approche préservant la mobilité ; approbation PMA de la FDA avec une revendication de supériorité sur la fusion (77 % de succès contre 24 % dans l'essai pivot, selon la société)."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Renaissance Capital",
+          "title": "Spinal implant developer Centinel Spine files for a $100 million IPO",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/122099/spinal-implant-developer-centinel-spine-files-for-a-100-million-ipo"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Centinel Spine gets FDA nod for two-level use of prodisc C Nova",
+          "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Investors accelerate the development of cervical disc replacement",
+          "url": "https://startupticker.ch/en/news/Investors-accelerate-the-development-of-cervical-disc-replacement"
+        },
+        {
+          "publisher": "OrthoWorld",
+          "title": "Premia Spine TOPS System achieves FDA premarket approval with superiority to fusion label",
+          "url": "https://www.orthoworld.com/premia-spine-tops-system-achieves-fda-premarket-approval-with-superiority-to-fusion-label/"
+        }
+      ],
+      "date": "2026-10-16",
+      "dateLong": "16 oct. 2026"
+    },
     {
       "term": "RCM",
       "full": "Revenue Cycle Management (gestion du cycle de facturation hospitalier)",

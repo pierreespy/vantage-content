@@ -1,182 +1,118 @@
 {
-  "dateLong": "Oct 15, 2026",
+  "dateLong": "Oct 16, 2026",
   "ticker": [
-    {
-      "company": "Butterfly Medical",
-      "amount": "MDR",
-      "kind": "reg"
-    },
-    {
-      "company": "VitVio",
-      "amount": "Pilot",
-      "kind": "tech"
-    },
-    {
-      "company": "Proscia",
-      "amount": "$270M",
-      "kind": "mna"
-    },
-    {
-      "company": "Providence Medical",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "MHRA",
-      "amount": "2030",
-      "kind": "reg"
-    },
-    {
-      "company": "Stride",
-      "amount": "£4.6M",
-      "kind": "lev"
-    }
+    { "company": "Siemens Healthineers", "amount": "Ultrasound exit", "kind": "tech" },
+    { "company": "Centinel Spine", "amount": "FDA", "kind": "reg" },
+    { "company": "Stryker", "amount": "FDA", "kind": "reg" },
+    { "company": "Olympus", "amount": "Warning letter", "kind": "reg" },
+    { "company": "Think Surgical", "amount": "Deal", "kind": "tech" },
+    { "company": "BioReference", "amount": "$872M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "MDR certification · Urology",
-    "title": "Butterfly Medical wins MDR certification for its prostatic retraction implant for benign prostatic hyperplasia",
-    "deck": "The implant, validated in a 244-patient pivotal study, relieves urinary obstruction without removing, cutting or heating prostate tissue. Its PMA application is under FDA review, and the company raised $21M in a Series C in May 2026, including from the EIC.",
-    "company": "Butterfly Medical",
-    "stage": "Series C",
-    "sector": "Urology",
+    "kicker": "Industrial strategy · Imaging",
+    "title": "Siemens Healthineers stops selling general-imaging ultrasound systems to refocus on procedural ultrasound",
+    "deck": "Since October 12, 2026, the group no longer sells its Acuson Sequoia, Redwood, Juniper and Maple lines, but keeps the Acuson Origin, P500 (ICE) and Freestyle, sold mainly to electrophysiologists and interventional cardiologists, with service for the installed base. A major player judges general ultrasound already well served and bets on imaging built into the therapeutic procedure.",
+    "company": "Siemens Healthineers",
+    "sector": "Imaging",
     "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
+    "signalType": "acquisition",
+    "strength": 3,
+    "url": "https://www.siemens-healthineers.com/press/releases/ultrasound"
   },
   "milestone": {
-    "company": "VitVio",
-    "milestone": "Hospital pilot",
-    "title": "VitVio deploys its Vetro AI surgical operating system at the University Clinical Centre in Gdańsk (UCK)",
-    "summary": "Vetro combines computer vision and ambient sensors to build a live 3D model of the operating room, log surgical milestones and flag delays. The pilot covers a few orthopaedic and neurosurgery theatres, with Polish distributor Medim handling installation.",
-    "why": "A first European hospital deployment for a company founded in 2024, after an $8M seed led by Bek Ventures (LDV Capital, Balnord): a sign the product is moving from demo to the operating theatre.",
-    "place": "Gdańsk, Poland",
-    "sector": "Digital Health",
-    "signalType": "early_partnership",
-    "url": "https://tech.eu/2026/10/14/vitvio-brings-ai-powered-surgical-operating-system-to-poland-in-uck-gdansk-partnership/"
+    "company": "Centinel Spine",
+    "milestone": "FDA approval",
+    "title": "Centinel Spine wins FDA approval for two-level cervical use of prodisc C Nova",
+    "summary": "The cervical total disc replacement, with flat endplates and low-profile keels, can now be implanted at two levels. Centinel now has three cervical discs (prodisc C Nova, C SK, C Vivo) approved for one and two levels; the C Nova, used outside the US since 2009, is in limited release in the US.",
+    "why": "The broader indication comes as Centinel has filed for a NYSE IPO (ticker CNTL, up to $100M sought, $157M revenue over the 12 months to end-June 2026): disc replacement, the alternative to spinal fusion, is becoming a listed category.",
+    "place": "West Chester, Pennsylvania, USA",
+    "sector": "Spine",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/"
   },
   "deal": {
-    "company": "Proscia",
-    "amount": "$270M",
+    "company": "BioReference Health",
+    "amount": "$872M",
     "round": "M&A",
-    "thesis": "Agilent is buying Proscia (Concentriq Dx digital pathology platform, FDA-cleared in 2024) for $240M cash plus up to $30M in earn-outs, with closing expected in fiscal 2027. A valuation comparable for regulated diagnostic software, not an entry opportunity.",
+    "thesis": "Labcorp buys BioReference's (an OPKO subsidiary) laboratory assets: $722M in cash at closing and up to $150M of earn-out tied to revenue from the 4Kscore test (risk of aggressive prostate cancer, FDA-approved in 2021). Routine diagnostics consolidates while OPKO refocuses on biopharma.",
     "sector": "Diagnostics",
-    "url": "https://www.medicaldevice-network.com/news/agilent-acquires-proscia-in-deal-worth-up-to-270m/"
+    "url": "https://www.medicaldevice-network.com/news/labcorp-outlays-up-872m-to-acquire-bioreference-laboratory-assets/"
   },
   "brefsEurope": [
     {
-      "company": "MHRA",
-      "place": "London, UK",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "UK regulator MHRA unveils its 2030 strategy: scientific advice cut from 90 to 45 days",
-      "summary": "The strategy also promises better access to real-world data on devices, AI-proficient analysts to spot safety signals faster, and a simpler Yellow Card reporting system.",
-      "url": "https://www.medicaldevice-network.com/news/uk-mhra-2030-strategy-drug-medical-device-regulation-2/"
-    },
-    {
-      "company": "Stride",
-      "place": "UK",
-      "sector": "Digital Health",
+      "company": "Panakès Partners",
+      "place": "Milan, Italy",
+      "sector": "Fund",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 2,
-      "stage": "Seed",
-      "title": "Stride raises £4.6M seed for its preventive health platform (DNA, blood, gut testing)",
-      "summary": "Founded in 2024 by Andrew Steele, the company counts Arāya Ventures, Morgan Stanley Inclusive & Sustainable Ventures and Better Ventures among its backers; the lead is not named. Stride One is due to launch internationally before end-2026.",
-      "url": "https://tech.eu/2026/10/14/uk-healthtech-startup-stride-raises-ps46m-to-expand-preventative-health-platform/"
+      "title": "Panakès Partners raises €8.5M from Lombardia Venture STEP for a Lombard medtech and biotech vehicle",
+      "summary": "The new vehicle, funded by Lombardy's fund of funds, targets medtech and biotech companies in the region. Panakès is a life-sciences specialist whose first fund, launched in 2016, was dedicated to medtech.",
+      "url": "https://www.eu-startups.com/2026/10/italys-panakes-partners-launches-e8-5-million-investment-vehicle-targeting-lombardys-medtech-and-biotech-sectors"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Providence Medical Technology",
-      "place": "California, US",
-      "sector": "MedTech",
+      "company": "Stryker",
+      "place": "United States",
+      "sector": "Neurosurgery",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "FDA clears Providence Medical's CORUS PCSS 3D-T for posterior cervical fusion",
-      "summary": "Bilateral 3D-printed porous titanium implant with integrated screw fixation, supplied as a single-use sterile kit, for stabilisation alongside posterior cervical fusion.",
-      "url": "https://www.medicaldevice-network.com/news/fda-providence-medicals-corus-spinal-device/"
+      "strength": 5,
+      "title": "FDA grants Stryker 510(k) clearance for Sonopet 3, an ultrasonic platform for bone and soft-tissue resection",
+      "summary": "First clinical cases are planned this month, with a wider commercial launch later in the fall. New features: Pulse Control to tune hard- versus soft-tissue resection, and the integrated RISE workflow.",
+      "url": "https://www.medicaldevice-network.com/news/fda-strykers-sonopet-3-platform/"
+    },
+    {
+      "company": "Think Surgical",
+      "place": "United States",
+      "sector": "Surgical robotics",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Zimmer Biomet extends its exclusive distribution deal for Think Surgical's TMINI robot by several years",
+      "summary": "The wireless handheld TMINI robot, compatible with the Persona knee, targets surgeons who prefer a CT-based workflow, alongside Zimmer's own Rosa robot. Think has passed 5,000 TMINI procedures and raised $65M of growth capital.",
+      "url": "https://www.medtechdive.com/news/zimmer-and-think-surgical-pen-multi-year-extension-to-robotic-surgery-deal/833074/"
+    },
+    {
+      "company": "Olympus",
+      "place": "Tokyo, Japan",
+      "sector": "Endoscopy",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Olympus receives an FDA warning letter after inspection of six sites (US, Japan, Europe) and drops 13% in Tokyo",
+      "summary": "Received on October 7 and made public on the 13th, the letter cites quality-system deficiencies found in late 2025. Olympus promises a comprehensive response within 15 business days.",
+      "url": "https://www.medicaldevice-network.com/news/olympus-shares-plunge-following-fda-warning-letter-over-manufacturing-failures/"
     }
   ],
   "word": {
-    "term": "PMA",
-    "full": "Premarket Approval (FDA)",
-    "fr": "FDA premarket approval for Class III devices",
-    "field": "Regulatory / market access",
-    "definition": "The FDA's most demanding authorization route, reserved for high-risk (Class III) devices: the maker must prove safety and effectiveness with clinical data, often a pivotal trial.",
+    "term": "TDR",
+    "full": "Total Disc Replacement",
+    "fr": "Total disc replacement (artificial intervertebral disc)",
+    "field": "Spine surgery / implants",
+    "definition": "An implant that replaces a degenerated intervertebral disc while preserving motion of the spinal segment, as an alternative to fusion (arthrodesis), which locks the vertebrae together.",
     "parts": [
-      {
-        "label": "Clinical dossier",
-        "role": "the proof (pivotal trial)"
-      },
-      {
-        "label": "Manufacturing data",
-        "role": "quality and reproducibility"
-      },
-      {
-        "label": "FDA review",
-        "role": "the approval decision"
-      }
+      { "label": "Endplates", "role": "anchoring in the vertebrae" },
+      { "label": "Keels", "role": "primary fixation of the implant" },
+      { "label": "Articulation", "role": "the motion that is kept" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Pivotal trial",
-        "t": "The maker runs a trial, often randomized and blinded, under an FDA IDE exemption."
-      },
-      {
-        "n": "2",
-        "h": "Filing",
-        "t": "It submits clinical, preclinical and manufacturing data to the FDA."
-      },
-      {
-        "n": "3",
-        "h": "Review and approval",
-        "t": "The FDA reviews the file (nearly 599 days on average in H1 2026) and issues an approval order."
-      }
+      { "n": "1", "h": "Disc removal", "t": "The surgeon removes the degenerated disc and relieves the compressed nerve structures." },
+      { "n": "2", "h": "Implant placement", "t": "The prosthesis, chosen to match the patient's anatomy, is inserted between the two vertebrae." },
+      { "n": "3", "h": "Motion preserved", "t": "The segment stays mobile instead of being fused, with the aim of sparing adjacent levels." }
     ],
-    "why": "A PMA is a moat: costly and slow, it protects the few approved devices. For a VC, approval is the catalyst that unlocks US revenue and often triggers a raise or an acquisition.",
+    "why": "For a VC, this is a category validated through FDA PMA (one- then two-level approvals widen the addressable market) and that now has a listed exit: Centinel Spine is heading to the NYSE with $157M of trailing-12-month revenue. European players such as Spineart have a head start on clinical track record.",
     "startups": [
-      {
-        "name": "Butterfly Medical",
-        "use": "Prostatic retraction implant for BPH; 244-patient pivotal study complete, PMA application under FDA review; CE-marked and MDR-certified.",
-        "place": "Israel"
-      },
-      {
-        "name": "ProVerum",
-        "use": "ProVee System (nitinol expander for BPH) FDA-approved via PMA (P250011) on Dec 9, 2025, based on the sham-controlled ProVIDE study.",
-        "place": "Dublin, Ireland"
-      },
-      {
-        "name": "Zenflow",
-        "use": "Zenflow Spring implant for BPH FDA-approved in December 2025; $52M Series D led by Cook Medical, now its US distributor.",
-        "place": "United States"
-      }
+      { "name": "Centinel Spine", "use": "prodisc platform of cervical and lumbar disc prostheses, FDA-approved for one and two levels; NYSE IPO filing made (ticker CNTL, up to $100M).", "place": "West Chester, USA" },
+      { "name": "Spineart", "use": "BAGUERA C cervical prosthesis, sold in Europe since 2008; CHF 20M convertible loan in 2024 and over €100M of revenue in 2023.", "place": "Geneva, Switzerland" },
+      { "name": "Premia Spine", "use": "TOPS lumbar facet arthroplasty system, another motion-preserving approach; FDA PMA approval with a superiority-to-fusion claim (77% success vs 24% in the pivotal trial, per the company)." }
     ],
     "sources": [
-      {
-        "publisher": "MedTech Dive",
-        "title": "FDA authorizes more devices so far in 2026, but it's taking longer",
-        "url": "https://www.medtechdive.com/news/fda-authorizes-more-devices-so-far-in-2026-but-its-taking-longer/824233/"
-      },
-      {
-        "publisher": "FDA (base PMA)",
-        "title": "Premarket Approval P250011 — ProVee System",
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P250011"
-      },
-      {
-        "publisher": "Medical Device Network",
-        "title": "Butterfly Medical secures EU MDR certification for BPH implant",
-        "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
-      },
-      {
-        "publisher": "MedTech Dive",
-        "title": "Zenflow raises $52M, inks distribution deal with Cook Medical",
-        "url": "https://www.medtechdive.com/news/zenflow-raises-52m-inks-distribution-deal-with-cook-medical/832212/"
-      }
+      { "publisher": "Renaissance Capital", "title": "Spinal implant developer Centinel Spine files for a $100 million IPO", "url": "https://www.renaissancecapital.com/IPO-Center/News/122099/spinal-implant-developer-centinel-spine-files-for-a-100-million-ipo" },
+      { "publisher": "Medical Device Network", "title": "Centinel Spine gets FDA nod for two-level use of prodisc C Nova", "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/" },
+      { "publisher": "Startupticker.ch", "title": "Investors accelerate the development of cervical disc replacement", "url": "https://startupticker.ch/en/news/Investors-accelerate-the-development-of-cervical-disc-replacement" },
+      { "publisher": "OrthoWorld", "title": "Premia Spine TOPS System achieves FDA premarket approval with superiority to fusion label", "url": "https://www.orthoworld.com/premia-spine-tops-system-achieves-fda-premarket-approval-with-superiority-to-fusion-label/" }
     ]
   }
 }
