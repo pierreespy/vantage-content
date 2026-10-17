@@ -1,118 +1,109 @@
 {
-  "dateLong": "16 oct. 2026",
+  "dateLong": "17 oct. 2026",
   "ticker": [
-    { "company": "Siemens Healthineers", "amount": "Exit écho", "kind": "tech" },
-    { "company": "Centinel Spine", "amount": "FDA", "kind": "reg" },
-    { "company": "Stryker", "amount": "FDA", "kind": "reg" },
-    { "company": "Olympus", "amount": "Warning letter", "kind": "reg" },
-    { "company": "Think Surgical", "amount": "Accord", "kind": "tech" },
-    { "company": "BioReference", "amount": "$872M", "kind": "mna" }
+    { "company": "Highlife", "amount": "1re JCA", "kind": "reg" },
+    { "company": "GE HealthCare", "amount": "CE", "kind": "reg" },
+    { "company": "MDR/IVDR", "amount": "Révision", "kind": "reg" },
+    { "company": "Edwards", "amount": "Rappel", "kind": "reg" },
+    { "company": "MiniMed", "amount": "Spin-off ✓", "kind": "mna" },
+    { "company": "Dexcom", "amount": "NEJM", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Stratégie industrielle · Imagerie",
-    "title": "Siemens Healthineers arrête la vente de ses échographes d'imagerie générale pour se recentrer sur l'échographie interventionnelle",
-    "deck": "Depuis le 12 octobre 2026, le groupe ne commercialise plus ses gammes Acuson Sequoia, Redwood, Juniper et Maple, mais conserve l'Acuson Origin, le P500 (ICE) et Freestyle, vendus surtout aux électrophysiologues et cardiologues interventionnels, avec maintenance du parc installé. Un acteur majeur juge le marché de l'écho généraliste déjà bien servi et mise sur l'imagerie intégrée au geste thérapeutique.",
-    "company": "Siemens Healthineers",
-    "sector": "Imagerie",
+    "kicker": "Accès au marché · Cardiologie structurelle",
+    "title": "Bruxelles lance la première évaluation clinique conjointe (JCA) de dispositifs médicaux : Highlife et Edwards SAPIEN M3, deux valves mitrales",
+    "deck": "Par la décision d'exécution C(2026) 7113 du 2 octobre, la Commission européenne retient pour la première fois deux dispositifs pour une évaluation clinique conjointe au titre du règlement HTA : le SAPIEN M3 d'Edwards (évalué par le ZIN néerlandais avec le DMP norvégien) et le système HIGHLIFE de la société parisienne Highlife (évalué par la HAS avec l'AOTMiT polonaise). Le fabricant dispose de 100 jours après la demande de la Commission pour déposer son dossier : la preuve clinique devient le goulot d'accès au marché européen.",
+    "company": "Highlife",
+    "sector": "Cardio",
     "pillar": "marche",
-    "signalType": "acquisition",
-    "strength": 3,
-    "url": "https://www.siemens-healthineers.com/press/releases/ultrasound"
+    "signalType": "regulatory_milestone",
+    "strength": 4,
+    "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026"
   },
   "milestone": {
-    "company": "Centinel Spine",
-    "milestone": "Autorisation FDA",
-    "title": "Centinel Spine obtient l'autorisation FDA du prodisc C Nova pour un usage à deux niveaux cervicaux",
-    "summary": "La prothèse totale de disque cervical, à plateaux plats et quilles basses, peut désormais être posée sur deux niveaux. Centinel compte ainsi trois prothèses cervicales (prodisc C Nova, C SK, C Vivo) autorisées pour un ou deux niveaux ; le C Nova, utilisé hors des États-Unis depuis 2009, y est en lancement limité.",
-    "why": "L'élargissement d'indication arrive alors que Centinel a déposé son dossier d'introduction à la NYSE (ticker CNTL, jusqu'à 100 M$ visés, 157 M$ de revenus sur 12 mois à fin juin 2026) : la prothèse de disque, alternative à la fusion vertébrale, devient une catégorie cotée.",
-    "place": "West Chester, Pennsylvanie, États-Unis",
-    "sector": "Rachis",
+    "company": "GE HealthCare",
+    "milestone": "Marquage CE",
+    "title": "GE HealthCare obtient le marquage CE de son cyclotron MINItrace Magni pour la production de radio-isotopes en interne",
+    "summary": "Le cyclotron automatisé et auto-blindé produit le carbone-11, le fluor-18, l'azote-13 et l'oxygène-15 et automatise le réglage du faisceau, l'irradiation et la préparation des cibles. GE étend aussi sa plateforme PETtrace à cible solide au cuivre-64, après le gallium-68 (2022) et le zirconium-89 (début 2026).",
+    "why": "Produire ses traceurs TEP sur site rapproche les hôpitaux et radiopharmacies européens de la théranostique (le cuivre-64 est étudié en diagnostic compagnon du cuivre-67 dans le cancer de la prostate et du sein HER2+), un terrain où l'imagerie et le médicament se rejoignent.",
+    "place": "Chicago, États-Unis",
+    "sector": "Imagerie",
     "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/"
-  },
-  "deal": {
-    "company": "BioReference Health",
-    "amount": "872 M$",
-    "round": "M&A",
-    "thesis": "Labcorp rachète les actifs de laboratoire de BioReference (filiale d'OPKO) : 722 M$ en cash à la clôture et jusqu'à 150 M$ d'earn-out indexé sur les revenus du test 4Kscore (risque de cancer agressif de la prostate, autorisé FDA en 2021). Consolidation du diagnostic de routine, tandis qu'OPKO se recentre sur sa biopharma.",
-    "sector": "Diagnostics",
-    "url": "https://www.medicaldevice-network.com/news/labcorp-outlays-up-872m-to-acquire-bioreference-laboratory-assets/"
+    "url": "https://www.medicaldevice-network.com/news/ge-ce-mark-minitrace-magni-cyclotron/"
   },
   "brefsEurope": [
     {
-      "company": "Panakès Partners",
-      "place": "Milan, Italie",
-      "sector": "Fonds",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Panakès Partners lève 8,5 M€ auprès de Lombardia Venture STEP pour un véhicule medtech et biotech lombard",
-      "summary": "Le nouveau véhicule, doté par le fonds de fonds de Lombardie, cible les sociétés medtech et biotech de la région. Panakès est un spécialiste des sciences de la vie dont le premier fonds, lancé en 2016, était dédié à la medtech.",
-      "url": "https://www.eu-startups.com/2026/10/italys-panakes-partners-launches-e8-5-million-investment-vehicle-targeting-lombardys-medtech-and-biotech-sectors"
+      "company": "Commission européenne",
+      "place": "Bruxelles",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Révision MDR/IVDR : vote du Parlement européen attendu au T1 2027, adoption visée à l'été 2027",
+      "summary": "Après le vote favorable des commissions IMCO et BUDG en septembre, les autorités compétentes ont discuté le texte à Dublin ; trilogues ensuite, compromis espéré à l'été 2027. Les règles MDR/IVDR actuelles restent pleinement applicables d'ici là, et l'assouplissement de l'article 5.5 (fabrication en interne par les hôpitaux) inquiète l'industrie.",
+      "url": "https://www.emergobyul.com/news/europe-targets-revised-mdr-and-ivdr-adoption-q2-q3-2027"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Stryker",
-      "place": "États-Unis",
-      "sector": "Neurochirurgie",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA accorde à Stryker le 510(k) de Sonopet 3, plateforme à ultrasons pour la résection osseuse et des tissus mous",
-      "summary": "Premiers cas cliniques prévus ce mois-ci, lancement commercial élargi plus tard à l'automne. Nouveautés : réglage Pulse Control de la résection dure ou molle et workflow intégré RISE.",
-      "url": "https://www.medicaldevice-network.com/news/fda-strykers-sonopet-3-platform/"
-    },
-    {
-      "company": "Think Surgical",
-      "place": "États-Unis",
-      "sector": "Robotique chirurgicale",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Zimmer Biomet prolonge pour plusieurs années son accord de distribution exclusive du robot TMINI de Think Surgical",
-      "summary": "Le robot portable sans fil TMINI, compatible avec le genou Persona, vise les chirurgiens qui préfèrent un workflow sur scanner, en complément du robot Rosa de Zimmer. Think a franchi les 5 000 procédures TMINI et levé 65 M$ de capital de croissance.",
-      "url": "https://www.medtechdive.com/news/zimmer-and-think-surgical-pen-multi-year-extension-to-robotic-surgery-deal/833074/"
-    },
-    {
-      "company": "Olympus",
-      "place": "Tokyo, Japon",
-      "sector": "Endoscopie",
+      "company": "Edwards Lifesciences",
+      "place": "Irvine, États-Unis",
+      "sector": "Cardio",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Olympus reçoit une warning letter de la FDA après l'inspection de six sites (États-Unis, Japon, Europe) et chute de 13 % à Tokyo",
-      "summary": "Reçue le 7 octobre et rendue publique le 13, la lettre vise des carences du système qualité relevées fin 2025. Olympus promet une réponse complète sous 15 jours ouvrés.",
-      "url": "https://www.medicaldevice-network.com/news/olympus-shares-plunge-following-fda-warning-letter-over-manufacturing-failures/"
+      "title": "Edwards rappelle quatre lots de systèmes de pose Commander M du SAPIEN M3 après un décès",
+      "summary": "Alerte précoce de la FDA : trois ruptures de ballonnet à l'inflation, un décès et une blessure grave au 5 octobre ; moins de 200 unités concernées. Le SAPIEN M3 est justement l'un des deux dispositifs retenus pour la première JCA européenne.",
+      "url": "https://www.medtechdive.com/news/edwards-recall-of-sapien-mitral-delivery-systems-tied-to-1-death/833269/"
+    },
+    {
+      "company": "MiniMed",
+      "place": "États-Unis",
+      "sector": "Diabète",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 3,
+      "title": "Medtronic solde sa participation dans MiniMed par une offre d'échange sursouscrite 5,4 fois",
+      "summary": "Medtronic échange la totalité de ses titres MiniMed (cotée au Nasdaq depuis mars 2026, 17,50 $ à la clôture du 15 octobre) contre ses propres actions et n'en détient plus aucun. MiniMed prévoit de sortir de la plupart de ses ~160 accords de services avec Medtronic en 2027.",
+      "url": "https://www.medtechdive.com/news/minimed-completes-separation-from-medtronic/833227/"
+    },
+    {
+      "company": "Dexcom",
+      "place": "États-Unis",
+      "sector": "Diabète",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "NEJM : le capteur de glucose en continu fait passer l'HbA1c de 8,8 % à 7,2 % chez des diabétiques de type 2 sans insuline",
+      "summary": "Essai randomisé financé par Dexcom (Dexcom G7, 26 semaines, 22 cabinets de soins primaires américains) : 7,2 % contre 8,0 % en soins courants. CMS doit encore décider d'élargir le remboursement Medicare à ces patients, un marché d'environ 25 millions d'adultes américains.",
+      "url": "https://www.medtechdive.com/news/nejm-study-supports-cgm-use-for-people-with-diabetes-who-dont-take-insulin/833124/"
     }
   ],
   "word": {
-    "term": "TDR",
-    "full": "Total Disc Replacement (prothèse totale de disque intervertébral)",
-    "fr": "Remplacement total de disque",
-    "field": "Chirurgie du rachis / implants",
-    "definition": "Implant qui remplace un disque intervertébral dégénéré tout en préservant la mobilité du segment vertébral, en alternative à la fusion (arthrodèse) qui bloque les vertèbres.",
+    "term": "JCA",
+    "full": "Joint Clinical Assessment (évaluation clinique conjointe européenne)",
+    "fr": "Évaluation clinique conjointe",
+    "field": "Accès au marché · HTA européen",
+    "definition": "Une évaluation unique de l'efficacité clinique d'un dispositif, menée à plusieurs pays européens à la fois dans le cadre du règlement HTA, que chaque État réutilise ensuite pour décider du remboursement.",
     "parts": [
-      { "label": "Plateaux", "role": "l'ancrage dans les vertèbres" },
-      { "label": "Quilles", "role": "la fixation primaire de l'implant" },
-      { "label": "Articulation", "role": "le mouvement conservé" }
+      { "label": "Sélection", "role": "la Commission choisit les dispositifs à fort enjeu après avis d'un panel d'experts" },
+      { "label": "Dossier", "role": "le fabricant dépose ses preuves cliniques sur la plateforme HTA européenne" },
+      { "label": "Rapport JCA", "role": "deux agences nationales rédigent l'analyse commune" }
     ],
     "how": [
-      { "n": "1", "h": "Retrait du disque", "t": "Le chirurgien retire le disque dégénéré et libère les structures nerveuses comprimées." },
-      { "n": "2", "h": "Pose de l'implant", "t": "La prothèse, choisie pour correspondre à l'anatomie du patient, est insérée entre les deux vertèbres." },
-      { "n": "3", "h": "Mobilité préservée", "t": "Le segment reste mobile au lieu d'être fusionné, avec pour objectif de ménager les niveaux adjacents." }
+      { "n": "1", "h": "Sélection", "t": "Une fois la certification MDR obtenue, la Commission sélectionne le dispositif par décision d'exécution, sur recommandation du groupe de coordination HTA." },
+      { "n": "2", "h": "Dossier", "t": "La Commission fixe le périmètre (population, comparateurs, critères) ; le fabricant a 100 jours pour déposer son dossier." },
+      { "n": "3", "h": "Rapport", "t": "Un évaluateur et un co-évaluateur rédigent le rapport JCA, relu par le fabricant pour les erreurs factuelles, puis repris par les États membres." }
     ],
-    "why": "Pour un VC, c'est une catégorie qui se valide par la PMA FDA (des autorisations à un puis deux niveaux élargissent le marché adressable) et qui trouve désormais une sortie cotée : Centinel Spine vise la NYSE avec 157 M$ de revenus sur 12 mois. Les acteurs européens, comme Spineart, ont de l'avance sur l'historique clinique.",
+    "why": "La JCA fait de la preuve clinique comparative un prérequis d'accès au marché européen : pour un VC, cela renchérit et allonge les plans de développement des dispositifs innovants, et avantage les sociétés qui conçoivent leurs essais pour répondre aux comparateurs HTA dès l'amont.",
     "startups": [
-      { "name": "Centinel Spine", "use": "Plateforme prodisc de prothèses de disque cervical et lombaire, autorisée FDA à un et deux niveaux ; dossier d'introduction à la NYSE déposé (ticker CNTL, jusqu'à 100 M$).", "place": "West Chester, États-Unis" },
-      { "name": "Spineart", "use": "Prothèse cervicale BAGUERA C, vendue en Europe depuis 2008 ; 20 MCHF de prêt convertible en 2024 et plus de 100 M€ de revenus en 2023.", "place": "Genève, Suisse" },
-      { "name": "Premia Spine", "use": "Système TOPS d'arthroplastie facettaire lombaire, autre approche préservant la mobilité ; approbation PMA de la FDA avec une revendication de supériorité sur la fusion (77 % de succès contre 24 % dans l'essai pivot, selon la société)." }
+      { "name": "Highlife", "use": "Système HIGHLIFE de remplacement valvulaire mitral par voie trans-septale (valve-in-ring), marqué CE en janvier 2026 ; l'un des deux premiers dispositifs retenus pour une JCA, évalué par la HAS avec l'AOTMiT", "place": "Paris, France" },
+      { "name": "Scarlet", "use": "Plateforme londonienne de certification de logiciels et d'IA médicaux, désignée Third-Party Review Organization ; 50 M$ en Series B menée par Headline pour accélérer la conformité réglementaire", "place": "Londres, Royaume-Uni" },
+      { "name": "Sava", "use": "Microcapteur sous-cutané de glucose en continu : Series B menée par Ascensia, qui obtient la distribution exclusive en Europe ; marquage CE et lancement visés d'ici 18 à 24 mois", "place": "Royaume-Uni" }
     ],
     "sources": [
-      { "publisher": "Renaissance Capital", "title": "Spinal implant developer Centinel Spine files for a $100 million IPO", "url": "https://www.renaissancecapital.com/IPO-Center/News/122099/spinal-implant-developer-centinel-spine-files-for-a-100-million-ipo" },
-      { "publisher": "Medical Device Network", "title": "Centinel Spine gets FDA nod for two-level use of prodisc C Nova", "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/" },
-      { "publisher": "Startupticker.ch", "title": "Investors accelerate the development of cervical disc replacement", "url": "https://startupticker.ch/en/news/Investors-accelerate-the-development-of-cervical-disc-replacement" },
-      { "publisher": "OrthoWorld", "title": "Premia Spine TOPS System achieves FDA premarket approval with superiority to fusion label", "url": "https://www.orthoworld.com/premia-spine-tops-system-achieves-fda-premarket-approval-with-superiority-to-fusion-label/" }
+      { "publisher": "PURE Global", "title": "EU makes first medical device JCA selection", "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026" },
+      { "publisher": "MedTech Europe", "title": "From assessment to access: navigating the EU's new HTA framework", "url": "https://www.medtecheurope.org/medtech-views/podcasts/from-assessment-to-access-navigating-the-eus-new-hta-framework/" },
+      { "publisher": "EUR-Lex", "title": "Implementing Regulation (EU) 2025/2086", "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2086/oj/eng" }
     ]
   }
 }

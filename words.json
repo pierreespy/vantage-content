@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "words": [
+    {
+      "term": "JCA",
+      "full": "Joint Clinical Assessment (évaluation clinique conjointe européenne)",
+      "fr": "Évaluation clinique conjointe",
+      "field": "Accès au marché · HTA européen",
+      "definition": "Une évaluation unique de l'efficacité clinique d'un dispositif, menée à plusieurs pays européens à la fois dans le cadre du règlement HTA, que chaque État réutilise ensuite pour décider du remboursement.",
+      "parts": [
+        {
+          "label": "Sélection",
+          "role": "la Commission choisit les dispositifs à fort enjeu après avis d'un panel d'experts"
+        },
+        {
+          "label": "Dossier",
+          "role": "le fabricant dépose ses preuves cliniques sur la plateforme HTA européenne"
+        },
+        {
+          "label": "Rapport JCA",
+          "role": "deux agences nationales rédigent l'analyse commune"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sélection",
+          "t": "Une fois la certification MDR obtenue, la Commission sélectionne le dispositif par décision d'exécution, sur recommandation du groupe de coordination HTA."
+        },
+        {
+          "n": "2",
+          "h": "Dossier",
+          "t": "La Commission fixe le périmètre (population, comparateurs, critères) ; le fabricant a 100 jours pour déposer son dossier."
+        },
+        {
+          "n": "3",
+          "h": "Rapport",
+          "t": "Un évaluateur et un co-évaluateur rédigent le rapport JCA, relu par le fabricant pour les erreurs factuelles, puis repris par les États membres."
+        }
+      ],
+      "why": "La JCA fait de la preuve clinique comparative un prérequis d'accès au marché européen : pour un VC, cela renchérit et allonge les plans de développement des dispositifs innovants, et avantage les sociétés qui conçoivent leurs essais pour répondre aux comparateurs HTA dès l'amont.",
+      "startups": [
+        {
+          "name": "Highlife",
+          "use": "Système HIGHLIFE de remplacement valvulaire mitral par voie trans-septale (valve-in-ring), marqué CE en janvier 2026 ; l'un des deux premiers dispositifs retenus pour une JCA, évalué par la HAS avec l'AOTMiT",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Scarlet",
+          "use": "Plateforme londonienne de certification de logiciels et d'IA médicaux, désignée Third-Party Review Organization ; 50 M$ en Series B menée par Headline pour accélérer la conformité réglementaire",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Sava",
+          "use": "Microcapteur sous-cutané de glucose en continu : Series B menée par Ascensia, qui obtient la distribution exclusive en Europe ; marquage CE et lancement visés d'ici 18 à 24 mois",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PURE Global",
+          "title": "EU makes first medical device JCA selection",
+          "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026"
+        },
+        {
+          "publisher": "MedTech Europe",
+          "title": "From assessment to access: navigating the EU's new HTA framework",
+          "url": "https://www.medtecheurope.org/medtech-views/podcasts/from-assessment-to-access-navigating-the-eus-new-hta-framework/"
+        },
+        {
+          "publisher": "EUR-Lex",
+          "title": "Implementing Regulation (EU) 2025/2086",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2086/oj/eng"
+        }
+      ],
+      "date": "2026-10-17",
+      "dateLong": "17 oct. 2026"
+    },
     {
       "term": "AI Airlock",
       "full": "AI Airlock (bac à sable réglementaire de la MHRA pour les dispositifs médicaux à IA)",

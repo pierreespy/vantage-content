@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-17",
   "words": [
+    {
+      "term": "JCA",
+      "full": "Joint Clinical Assessment (EU-level joint clinical assessment)",
+      "fr": "Joint clinical assessment",
+      "field": "Market access · European HTA",
+      "definition": "A single assessment of a device’s clinical effectiveness run by several European countries at once under the HTA Regulation, which each state then reuses to decide on reimbursement.",
+      "parts": [
+        {
+          "label": "Selection",
+          "role": "the Commission picks high-stakes devices after an expert-panel opinion"
+        },
+        {
+          "label": "Dossier",
+          "role": "the manufacturer files clinical evidence on the EU HTA platform"
+        },
+        {
+          "label": "JCA report",
+          "role": "two national agencies write the joint analysis"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Selection",
+          "t": "Once MDR certification is complete, the Commission selects the device by implementing decision, on the HTA Coordination Group’s recommendation."
+        },
+        {
+          "n": "2",
+          "h": "Dossier",
+          "t": "The Commission sets the scope (population, comparators, outcomes); the manufacturer has 100 days to file its dossier."
+        },
+        {
+          "n": "3",
+          "h": "Report",
+          "t": "An assessor and co-assessor draft the JCA report, which the manufacturer reviews for factual accuracy before member states reuse it."
+        }
+      ],
+      "why": "JCA makes comparative clinical evidence a prerequisite for European market access: for a VC, it makes development plans for innovative devices costlier and longer, and favors companies that design trials around HTA comparators from the start.",
+      "startups": [
+        {
+          "name": "Highlife",
+          "use": "HIGHLIFE trans-septal mitral valve replacement system (valve-in-ring), CE marked in January 2026; one of the first two devices selected for a JCA, assessed by HAS with AOTMiT",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Scarlet",
+          "use": "London platform certifying medical software and AI, designated a Third-Party Review Organization; $50M Series B led by Headline to speed regulatory compliance",
+          "place": "London, United Kingdom"
+        },
+        {
+          "name": "Sava",
+          "use": "Subcutaneous continuous glucose microsensor: Series B led by Ascensia, which gets exclusive European distribution; CE mark and launch targeted within 18 to 24 months",
+          "place": "United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PURE Global",
+          "title": "EU makes first medical device JCA selection",
+          "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026"
+        },
+        {
+          "publisher": "MedTech Europe",
+          "title": "From assessment to access: navigating the EU's new HTA framework",
+          "url": "https://www.medtecheurope.org/medtech-views/podcasts/from-assessment-to-access-navigating-the-eus-new-hta-framework/"
+        },
+        {
+          "publisher": "EUR-Lex",
+          "title": "Implementing Regulation (EU) 2025/2086",
+          "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2086/oj/eng"
+        }
+      ],
+      "date": "2026-10-17",
+      "dateLong": "Oct 17, 2026"
+    },
     {
       "term": "AI Airlock",
       "full": "AI Airlock (the MHRA's regulatory sandbox for AI medical devices)",
