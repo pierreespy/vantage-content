@@ -1,119 +1,203 @@
 {
-  "dateLong": "16 oct. 2026",
+  "dateLong": "18 oct. 2026",
   "ticker": [
-    { "company": "OMass Therapeutics", "amount": "$310M", "kind": "lev" },
-    { "company": "Armed Cell Therapeutics", "amount": "Création", "kind": "new" },
-    { "company": "AstraZeneca / insitro", "amount": "$1,5Md", "kind": "mna" },
-    { "company": "Gilead / Vir", "amount": "$1,87Md", "kind": "mna" },
-    { "company": "Crescent Biopharma", "amount": ">125 pts", "kind": "tech" },
-    { "company": "BIO-Europe", "amount": "Enquête", "kind": "tech" }
+    {
+      "company": "Microbiotica",
+      "amount": "£36M",
+      "kind": "lev"
+    },
+    {
+      "company": "Osivax",
+      "amount": "Ph2b ✗",
+      "kind": "tech"
+    },
+    {
+      "company": "Armed Cell",
+      "amount": "€8M",
+      "kind": "mna"
+    },
+    {
+      "company": "BioNTech",
+      "amount": "Ph2/3 ✗",
+      "kind": "tech"
+    },
+    {
+      "company": "Sibylla",
+      "amount": "CEO",
+      "kind": "tech"
+    },
+    {
+      "company": "Beactica",
+      "amount": "BEA-28",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Levée Series C · Endocrinologie",
-    "title": "OMass Therapeutics lève 310 M$ en Series C pour financer la phase 2 de son antagoniste oral du récepteur MC2R",
-    "deck": "Co-menée par Bain Capital Life Sciences, Forbion et Novo Holdings, la levée est la deuxième plus importante d'une biotech privée européenne en 2026 selon European Biotechnology. L'OMS1620, en phase 1 à dose unique ascendante, visera l'hyperplasie congénitale des surrénales et le syndrome de Cushing ACTH-dépendant.",
-    "company": "OMass Therapeutics",
+    "kicker": "Financement · Microbiome",
+    "title": "Microbiotica lève 36 £M en Series C (1er closing) pour tester sa capsule de bactéries intestinales dans la rectocolite hémorragique",
+    "deck": "Tour mené par la British Business Bank, avec Tencent, IP Group, Cambridge Innovation Capital, Flerie Invest, Seventure Partners et tous les investisseurs de la Series B. Les fonds financent un Phase 2 randomisé contre placebo de MB310, capsule quotidienne de huit souches bactériennes vivantes ; en Phase 1b (29 adultes), 12 patients sur 19 sous MB310 étaient en rémission contre 3 sur 10 sous placebo (critère principal : sécurité).",
+    "company": "Microbiotica",
     "stage": "Series C",
-    "sector": "Endocrinologie",
+    "sector": "Microbiome",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 5,
-    "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/"
+    "strength": 4,
+    "url": "https://european-biotechnology.com/latest-news/microbiotica-raises-36m-to-test-gut-bacteria-capsule-in-ulcerative-colitis/"
   },
   "milestone": {
-    "company": "Armed Cell Therapeutics",
-    "milestone": "Naissance + licence",
-    "title": "Paul Stoffels lance Armed Cell Therapeutics et licencie les CAR-T précliniques abandonnés par Galapagos (Lakefront)",
-    "summary": "Armed obtient les programmes CAR-T issus d'AboundBio (racheté par Galapagos en 2022) pour environ 9 M$ d'upfront, 230 M$ de jalons et des royalties. Ces CAR-T dotés de charges supplémentaires visent le lymphome non hodgkinien et le cancer du poumon à petites cellules, avec l'ambition de limiter les rechutes.",
-    "why": "Une naissance à fort pedigree (Paul Stoffels préside et assure l'intérim de la direction générale, John Mellors est directeur scientifique) qui recycle des actifs écartés par une cotée belge, sans levée annoncée : un signal faible avant un premier tour.",
-    "place": "Belgique",
-    "sector": "Thérapie cellulaire",
-    "signalType": "company_incorporation",
-    "url": "https://www.biospace.com/deals/stoffels-strikes-up-new-biotech-in-return-to-galapagos-cell-therapy-mission"
+    "company": "Osivax",
+    "milestone": "Phase 2b manquée",
+    "title": "Osivax : le vaccin grippal universel OVX836 rate son critère principal en Phase 2b",
+    "summary": "Dans l'essai Asuniva (2 850 adultes de 18 à 59 ans, Belgique, France, Finlande, Allemagne), l'efficacité est de 24 % contre un objectif de 50 %, sans signification statistique ; 28 % contre le syndrome grippal, 27 % contre H3N2 et 25 % contre H1N1pdm09 en secondaire. Osivax se tourne vers des combinaisons avec des vaccins grippaux saisonniers (accord GC Biopharma en août).",
+    "why": "Un revers pour la thèse d'un vaccin à large spectre ciblant la nucléoprotéine, sans intervalles de confiance publiés ; l'avenir passe désormais par le partenariat avec des acteurs établis.",
+    "place": "Lyon",
+    "sector": "Vaccins",
+    "signalType": "clinical_update",
+    "url": "https://european-biotechnology.com/latest-news/osivax-misses-phase-2b-flu-vaccine-endpoint-shifts-focus-to-combinations/"
   },
   "deal": {
-    "company": "insitro",
-    "amount": "Jusqu'à 1,5 Md$",
-    "round": "Partenariat IA",
-    "thesis": "AstraZeneca verse 40 M$ d'upfront (jusqu'à 1,46 Md$ de jalons, plus royalties) pour que la plateforme Virtual Human d'insitro identifie des cibles causales dans la MASH et les cardiomyopathies. Une big pharma paie la découverte de cibles par IA plutôt que des molécules, au lendemain de l'échec de phase 3 du Wainua dans l'ATTR-CM.",
-    "sector": "IA drug discovery",
-    "url": "https://www.biospace.com/business/astrazeneca-bulks-up-mash-cardio-work-in-up-to-1-5b-ai-partnership-with-insitro"
+    "company": "Armed Cell Therapeutics",
+    "amount": "8 M€ + 230 M$",
+    "round": "M&A / Licensing",
+    "thesis": "Lakefront (ex-Galapagos) cède cinq actifs CAR-T précliniques à la start-up belge Armed Cell : 8 M€ à la signature, jusqu'à 230 M$ de jalons et royalties à un chiffre bas. L'indien Mankind Pharma prend 70 % d'Armed Cell pour 48 M€, avec un financement de plus de 50 M€ pour amener les programmes (lymphome non hodgkinien, cancer du poumon à petites cellules) en clinique.",
+    "sector": "Thérapie cellulaire",
+    "url": "https://european-biotechnology.com/latest-news/lakefront-offloads-car-t-programs-to-armed-cell-as-mankind-pharma-takes-control-of-the-belgian-startup/"
   },
   "brefsEurope": [
     {
-      "company": "BIO-Europe",
-      "place": "Europe",
-      "sector": "Fonds",
+      "company": "Sibylla Biotech",
+      "place": "Italie",
+      "sector": "Biotech",
       "pillar": "marche",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Enquête BIO-Europe : l'accès au capital, premier frein au dealmaking des biotechs européennes",
-      "summary": "Sur 81 dirigeants, surtout de biotechs privées en préclinique ou clinique précoce, 34 citent la disponibilité du capital comme principal obstacle, devant l'écart de valorisation (13) et la concurrence des actifs chinois (12). Près de 80 % attribuent la rareté du capital à l'aversion au risque des investisseurs.",
-      "url": "https://www.biospace.com/business/european-biotech-leaders-split-on-us-china-fight-for-deal-dominance-survey-finds"
-    }
-  ],
-  "brefsIntl": [
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Sibylla Biotech nomme Usman Azam (ex-Tmunity) CEO et Gianluca Fuggetta CFO",
+      "summary": "Azam a dirigé Tmunity Therapeutics et l'unité thérapies cellulaires et géniques de Novartis. Sibylla vise une première étude chez l'humain de son dégradeur de la protéine Cyclin D1.",
+      "url": "https://european-biotechnology.com/latest-news/evotec-fills-cso-vacancy-sibylla-and-al-s-pharma-name-new-ceos/"
+    },
     {
-      "company": "Vir Biotechnology",
-      "place": "États-Unis",
+      "company": "AL-S Pharma",
+      "place": "Suisse",
+      "sector": "Neurosciences",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "AL-S Pharma : Harry Welten succède à Michael Salzmann, Phase 3 de l'AP-101 repoussée à 2027",
+      "summary": "La société prépare un essai de Phase 3 confirmatoire de l'AP-101 dans la SLA, désormais visé en 2027 (fin 2026 auparavant).",
+      "url": "https://european-biotechnology.com/latest-news/evotec-fills-cso-vacancy-sibylla-and-al-s-pharma-name-new-ceos/"
+    },
+    {
+      "company": "Beactica Therapeutics",
+      "place": "Suède",
       "sector": "Oncologie",
-      "pillar": "financement",
-      "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Gilead prend une participation dans Vir avec un accord pouvant atteindre 1,87 Md$ sur trois T cell engagers",
-      "summary": "Gilead entre au capital de Vir et conclut un accord de jusqu'à 1,87 Md$ sur trois T cell engagers : un comparable de plus pour la modalité.",
-      "url": "https://www.biospace.com/business/gilead-snags-equity-stake-in-vir-with-up-to-1-87b-deal-for-three-t-cell-engagers"
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Beactica sélectionne BEA-28, dégradeur de TEAD, pour le développement préclinique",
+      "summary": "Chez la souris, régression tumorale dans des modèles de mésothéliome et de cancer du poumon KRAS-muté ; pas encore de test chez l'humain.",
+      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
     },
     {
-      "company": "Rona Therapeutics",
-      "place": "Chine",
-      "sector": "Obésité",
-      "pillar": "financement",
-      "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Roche signe avec Rona un accord de plus de 1 Md$ en obésité, nouvel achat d'actif chinois",
-      "summary": "Roche étend son R&D en obésité avec un pacte de plus d'un milliard de dollars, dans la série de ses acquisitions d'actifs d'origine chinoise.",
-      "url": "https://www.biospace.com/deals/roche-expands-obesity-r-d-footprint-with-rona-deal-worth-1b"
-    },
-    {
-      "company": "Crescent Biopharma",
-      "place": "États-Unis",
+      "company": "BioNTech",
+      "place": "Mayence",
       "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "Crescent Biopharma a dosé plus de 125 patients avec son bispécifique PD-1 x VEGF CR-001 dans l'essai ASCEND",
-      "summary": "L'essai de phase 1/2 recrute aux États-Unis, en Europe et en Corée du Sud et ouvre des cohortes en combinaison avec la chimiothérapie standard.",
-      "url": "https://globenewswire.com/news-release/2026/10/15/3382144/0/en/crescent-biopharma-announces-clinical-pipeline-momentum-including-enrolling-patients-in-standard-of-care-chemotherapy-combination-cohorts-of-global-phase-1-2-ascend-trial-of-cr-001.html"
+      "title": "BioNTech : le vaccin ARNm BNT113 rate son critère principal (PFS) dans l'essai Phase 2/3 AHEAD-MERIT",
+      "summary": "BNT113 + pembrolizumab n'améliore pas significativement la survie sans progression face au pembrolizumab seul dans les cancers ORL HPV16+ PD-L1+ ; le comité indépendant recommande de poursuivre pour la survie globale (second critère principal).",
+      "url": "https://european-biotechnology.com/latest-news/biontechs-mrna-cancer-vaccine-misses-phase-2-3-endpoint/"
+    }
+  ],
+  "brefsIntl": [
+    {
+      "company": "Estuary",
+      "place": "États-Unis",
+      "sector": "Thérapie génique",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Estuary sort de stealth avec 103 M$ pour des thérapies géniques des maladies rénales",
+      "summary": "Annonce de Fierce Biotech du 16 oct. : sortie de stealth avec un tour de 103 M$ (investisseurs non précisés ici), repère pour le financement américain des thérapies géniques.",
+      "url": "https://www.fiercebiotech.com/biotech/estuary-emerges-stealth-103m-its-gene-therapies-kidney-disease"
     }
   ],
   "word": {
-    "term": "GPCR",
-    "full": "G-Protein-Coupled Receptor (récepteur couplé aux protéines G)",
-    "fr": "Récepteur couplé aux protéines G",
-    "field": "Découverte de médicaments / pharmacologie",
-    "definition": "Famille de protéines logées dans la membrane des cellules qui captent des signaux (hormones, neurotransmetteurs) et les relaient à l'intérieur ; elles sont la cible d'environ un tiers des médicaments approuvés par la FDA.",
+    "term": "LBP",
+    "full": "Live Biotherapeutic Product",
+    "fr": "Produit biothérapeutique vivant",
+    "field": "Microbiome",
+    "definition": "Médicament contenant des micro-organismes vivants (bactéries ou levures) destiné à prévenir ou traiter une maladie, qui n'est pas un vaccin.",
     "parts": [
-      { "label": "Domaine extracellulaire", "role": "la prise de contact avec le signal" },
-      { "label": "Sept hélices transmembranaires", "role": "le canal de transmission" },
-      { "label": "Partie intracellulaire", "role": "le relais vers la protéine G" }
+      {
+        "label": "Souches vivantes",
+        "role": "le principe actif"
+      },
+      {
+        "label": "Formulation",
+        "role": "le véhicule (capsule orale)"
+      },
+      {
+        "label": "Procédé de fabrication",
+        "role": "la garantie qualité"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Liaison", "t": "Une hormone ou un médicament se fixe sur le récepteur et en change la forme." },
-      { "n": "2", "h": "Activation", "t": "Le récepteur recrute une protéine G à l'intérieur de la cellule." },
-      { "n": "3", "h": "Réponse", "t": "La cascade de signalisation déclenche la réponse cellulaire, que le médicament peut amplifier (agoniste) ou bloquer (antagoniste)." }
+      {
+        "n": "1",
+        "h": "Sélection",
+        "t": "On identifie des souches bactériennes associées à un effet clinique, issues du microbiote de donneurs sains."
+      },
+      {
+        "n": "2",
+        "h": "Formulation",
+        "t": "Les souches sont produites en conditions contrôlées puis formulées, par ex. en capsule orale à prise quotidienne."
+      },
+      {
+        "n": "3",
+        "h": "Essai clinique",
+        "t": "Le produit est testé comme un médicament : sécurité, puis efficacité contre placebo (Microbiotica entre en Phase 2 dans la rectocolite hémorragique)."
+      }
     ],
-    "why": "Les GPCR restent une classe cible majeure, mais les obtenir sous forme stable et fonctionnelle est un goulot d'étranglement. D'où l'intérêt des investisseurs pour les plateformes capables de les étudier dans leur environnement natif : OMass vient de lever 310 M$ pour un antagoniste du MC2R, un GPCR.",
+    "why": "Une classe distincte de médicaments reconnue par la FDA et l'EMA, avec des exigences de preuve de médicament mais une chimie de fabrication particulière. Les tours européens se multiplient (Microbiotica, Mbiomics), avec un premier dossier d'AMM microbiome en cours à l'EMA chez MaaT Pharma.",
     "startups": [
-      { "name": "OMass Therapeutics", "use": "Plateforme OdyssION (spectrométrie de masse native) pour étudier les cibles dans leur environnement protéique naturel ; OMS1620, antagoniste oral du MC2R, bientôt en phase 2 ; Series C de 310 M$.", "place": "Oxford, Royaume-Uni" },
-      { "name": "Scape Bio", "use": "Conçoit de novo des mini-protéines de 40 à 70 acides aminés contre des GPCR ; 11 GPCR ciblés, des liants de puissance picomolaire, un programme principal en migraine ; seed en cours.", "place": "Copenhague, Danemark" },
-      { "name": "Nuclera", "use": "Panel de nanodisques dédié aux GPCR, couplé à sa plateforme eProtein Discovery de synthèse protéique acellulaire, pour produire des récepteurs actifs en 48 heures (annoncé le 30 mars 2026)." }
+      {
+        "name": "Microbiotica",
+        "use": "MB310 : capsule de 8 souches vivantes, Phase 1b positive puis Phase 2 financée par un tour de 36 £M",
+        "place": "Cambridge, Royaume-Uni"
+      },
+      {
+        "name": "Mbiomics",
+        "use": "Produits biothérapeutiques vivants, Series A de 30 M€ (3e closing) pour passer en clinique",
+        "place": "Munich, Allemagne"
+      },
+      {
+        "name": "MaaT Pharma",
+        "use": "Xervyteg (MaaT013), thérapie écosystème microbiome en dossier d'AMM à l'EMA dans la GvHD aiguë",
+        "place": "Lyon, France"
+      }
     ],
     "sources": [
-      { "publisher": "European Biotechnology", "title": "OMass raises $310M in Europe's second-largest biotech round of 2026", "url": "https://european-biotechnology.com/latest-news/omass-raises-310m-in-europes-second-largest-biotech-round-of-2026/" },
-      { "publisher": "Labiotech", "title": "OMass Therapeutics Takes on 'Undruggable' Proteins with €90M Series B", "url": "https://www.labiotech.eu/trends-news/omass-therapeutics-gpcr/" },
-      { "publisher": "News-Medical", "title": "Nuclera launches GPCR-focused nanodisc panel to streamline membrane protein production", "url": "https://www.news-medical.net/news/20260330/Nuclera-launches-GPCR-focused-nanodisc-panel-to-streamline-membrane-protein-production.aspx" },
-      { "publisher": "BigGo Finance", "title": "Christoffer Norn: AI-Designed Mini Proteins Can Hit 11 GPCRs at Picomolar Potency", "url": "https://finance.biggo.com/news/f3bddb2f853d7d1e" }
+      {
+        "publisher": "European Biotechnology",
+        "title": "Microbiotica raises £36M to test gut-bacteria capsule in ulcerative colitis",
+        "url": "https://european-biotechnology.com/latest-news/microbiotica-raises-36m-to-test-gut-bacteria-capsule-in-ulcerative-colitis/"
+      },
+      {
+        "publisher": "Munich Startup",
+        "title": "Mbiomics: 30 million euros in third Series A closing",
+        "url": "https://www.munich-startup.de/en/news/mbiomics-30-million-euros-in-third-series-a-closing"
+      },
+      {
+        "publisher": "PubMed Central",
+        "title": "Live biotherapeutic products: the importance of a defined regulatory framework",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8080583/"
+      },
+      {
+        "publisher": "Business Wire",
+        "title": "MaaT Pharma submits Marketing Authorization Application to the EMA for Xervyteg (MaaT013)",
+        "url": "https://businesswire.com/news/home/20250602568637/en/MaaT-Pharma-Advances-Toward-Commercialization-And-Submits-Marketing-Authorization-Application-to-the-European-Medicines-Agency-EMA-for-Xervyteg-MaaT013-in-Acute-Graft-versus-Host-Disease"
+      }
     ]
   }
 }

@@ -1,109 +1,168 @@
 {
-  "dateLong": "17 oct. 2026",
+  "dateLong": "18 oct. 2026",
   "ticker": [
-    { "company": "Highlife", "amount": "1re JCA", "kind": "reg" },
-    { "company": "GE HealthCare", "amount": "CE", "kind": "reg" },
-    { "company": "MDR/IVDR", "amount": "Révision", "kind": "reg" },
-    { "company": "Edwards", "amount": "Rappel", "kind": "reg" },
-    { "company": "MiniMed", "amount": "Spin-off ✓", "kind": "mna" },
-    { "company": "Dexcom", "amount": "NEJM", "kind": "tech" }
+    {
+      "company": "OxyPrem",
+      "amount": "CE",
+      "kind": "reg"
+    },
+    {
+      "company": "Positrigo",
+      "amount": "EARL ✓",
+      "kind": "reg"
+    },
+    {
+      "company": "MindMaze",
+      "amount": "Étude",
+      "kind": "tech"
+    },
+    {
+      "company": "Sirona Medical",
+      "amount": "$40M",
+      "kind": "lev"
+    },
+    {
+      "company": "EndoQuest",
+      "amount": "CCO",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Accès au marché · Cardiologie structurelle",
-    "title": "Bruxelles lance la première évaluation clinique conjointe (JCA) de dispositifs médicaux : Highlife et Edwards SAPIEN M3, deux valves mitrales",
-    "deck": "Par la décision d'exécution C(2026) 7113 du 2 octobre, la Commission européenne retient pour la première fois deux dispositifs pour une évaluation clinique conjointe au titre du règlement HTA : le SAPIEN M3 d'Edwards (évalué par le ZIN néerlandais avec le DMP norvégien) et le système HIGHLIFE de la société parisienne Highlife (évalué par la HAS avec l'AOTMiT polonaise). Le fabricant dispose de 100 jours après la demande de la Commission pour déposer son dossier : la preuve clinique devient le goulot d'accès au marché européen.",
-    "company": "Highlife",
-    "sector": "Cardio",
+    "kicker": "Marquage CE · Néonatologie",
+    "title": "OxyPrem obtient le marquage CE MDR de NOAH, son oxymètre tissulaire pour le cerveau des prématurés",
+    "deck": "La start-up zurichoise OxyPrem annonce que NOAH, système d'oxymétrie tissulaire en proche infrarouge qui suit en continu et sans effraction l'oxygénation des tissus (dont le cerveau du prématuré), est marqué CE au titre du règlement MDR 2017/745 et disponible dans toute l'Europe. Le capteur réutilisable NOAH Sensor Small, à plus de 10 longueurs d'onde, affiche une précision (ARMS) de 2,5 % chez le nouveau-né.",
+    "company": "OxyPrem",
+    "sector": "MedTech",
     "pillar": "marche",
     "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026"
+    "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
   },
   "milestone": {
-    "company": "GE HealthCare",
-    "milestone": "Marquage CE",
-    "title": "GE HealthCare obtient le marquage CE de son cyclotron MINItrace Magni pour la production de radio-isotopes en interne",
-    "summary": "Le cyclotron automatisé et auto-blindé produit le carbone-11, le fluor-18, l'azote-13 et l'oxygène-15 et automatise le réglage du faisceau, l'irradiation et la préparation des cibles. GE étend aussi sa plateforme PETtrace à cible solide au cuivre-64, après le gallium-68 (2022) et le zirconium-89 (début 2026).",
-    "why": "Produire ses traceurs TEP sur site rapproche les hôpitaux et radiopharmacies européens de la théranostique (le cuivre-64 est étudié en diagnostic compagnon du cuivre-67 dans le cancer de la prostate et du sein HER2+), un terrain où l'imagerie et le médicament se rejoignent.",
-    "place": "Chicago, États-Unis",
+    "company": "Positrigo",
+    "milestone": "Accréditation EARL",
+    "title": "NeuroLF devient le premier PET dédié au cerveau accrédité EARL",
+    "summary": "Le PET ultra-compact NeuroLF, conçu uniquement pour l'imagerie cérébrale, est le premier système PET cérébral accrédité par le programme EARL (EANM Research Ltd.), qui harmonise l'imagerie PET entre centres européens. L'accréditation a été menée au département de médecine nucléaire du LMU Klinikum de Munich, où l'appareil est installé.",
+    "why": "Une accréditation EARL rend les mesures comparables d'un centre à l'autre : c'est la condition pour utiliser un PET cérébral compact dans des essais multicentriques en neurodégénératif, hors des grands services équipés d'un PET/CT corps entier.",
+    "place": "Suisse",
     "sector": "Imagerie",
     "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/ge-ce-mark-minitrace-magni-cyclotron/"
+    "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
   },
   "brefsEurope": [
     {
-      "company": "Commission européenne",
-      "place": "Bruxelles",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Révision MDR/IVDR : vote du Parlement européen attendu au T1 2027, adoption visée à l'été 2027",
-      "summary": "Après le vote favorable des commissions IMCO et BUDG en septembre, les autorités compétentes ont discuté le texte à Dublin ; trilogues ensuite, compromis espéré à l'été 2027. Les règles MDR/IVDR actuelles restent pleinement applicables d'ici là, et l'assouplissement de l'article 5.5 (fabrication en interne par les hôpitaux) inquiète l'industrie.",
-      "url": "https://www.emergobyul.com/news/europe-targets-revised-mdr-and-ivdr-adoption-q2-q3-2027"
+      "company": "MindMaze Therapeutics",
+      "place": "Suisse",
+      "sector": "Digital Health",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "MindMaze : à domicile, la dose d'entraînement moteur est multipliée par trois (revue Vibra, 177 épisodes)",
+      "summary": "Revue rétrospective sans groupe contrôle, publiée par la société : 177 épisodes de rééducation chez 172 adultes (surtout post-AVC) dans 4 sites Vibra Healthcare, 84 % de l'entraînement actif réalisé sans supervision directe, gains significatifs d'autonomie, d'équilibre, de mobilité et de cognition. MindMotion Lite, version tablette, est attendue d'ici fin 2026.",
+      "url": "https://www.finanzwire.com/press-release/mindmaze-therapeutics-reports-new-home-based-rehabilitation-results-ahead-of-mindmotion-lite-launch-eYIiGJTkpRx"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Edwards Lifesciences",
-      "place": "Irvine, États-Unis",
-      "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Edwards rappelle quatre lots de systèmes de pose Commander M du SAPIEN M3 après un décès",
-      "summary": "Alerte précoce de la FDA : trois ruptures de ballonnet à l'inflation, un décès et une blessure grave au 5 octobre ; moins de 200 unités concernées. Le SAPIEN M3 est justement l'un des deux dispositifs retenus pour la première JCA européenne.",
-      "url": "https://www.medtechdive.com/news/edwards-recall-of-sapien-mitral-delivery-systems-tied-to-1-death/833269/"
-    },
-    {
-      "company": "MiniMed",
-      "place": "États-Unis",
-      "sector": "Diabète",
+      "company": "Sirona Medical",
+      "place": "Californie",
+      "sector": "Imagerie",
+      "stage": "Growth",
       "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 3,
-      "title": "Medtronic solde sa participation dans MiniMed par une offre d'échange sursouscrite 5,4 fois",
-      "summary": "Medtronic échange la totalité de ses titres MiniMed (cotée au Nasdaq depuis mars 2026, 17,50 $ à la clôture du 15 octobre) contre ses propres actions et n'en détient plus aucun. MiniMed prévoit de sortir de la plupart de ses ~160 accords de services avec Medtronic en 2027.",
-      "url": "https://www.medtechdive.com/news/minimed-completes-separation-from-medtronic/833227/"
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Sirona Medical lève 40 M$ en Series D pour sa plateforme de radiologie cloud RadOS",
+      "summary": "Tour mené par Avidity Partners, avec 8VC et GreatPoint Ventures. RadOS réunit PACS, compte rendu, viewer et worklist ; Sirona vise l'international (Royaume-Uni, Europe) via Sirona Global.",
+      "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
     },
     {
-      "company": "Dexcom",
+      "company": "EndoQuest Robotics",
       "place": "États-Unis",
-      "sector": "Diabète",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "NEJM : le capteur de glucose en continu fait passer l'HbA1c de 8,8 % à 7,2 % chez des diabétiques de type 2 sans insuline",
-      "summary": "Essai randomisé financé par Dexcom (Dexcom G7, 26 semaines, 22 cabinets de soins primaires américains) : 7,2 % contre 8,0 % en soins courants. CMS doit encore décider d'élargir le remboursement Medicare à ces patients, un marché d'environ 25 millions d'adultes américains.",
-      "url": "https://www.medtechdive.com/news/nejm-study-supports-cgm-use-for-people-with-diabetes-who-dont-take-insulin/833124/"
+      "sector": "Robotique chirurgicale",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "EndoQuest Robotics recrute Jared Eben (ex-HCA Healthcare) comme chief commercial officer",
+      "summary": "Ancien VP robotique/IA/neurosciences chez HCA, passé par Proximie et Auris Health. EndoQuest prépare une demande De Novo FDA pour son système chirurgical flexible (essai PARADIGM entièrement recruté en juillet 2026) et vise un lancement américain l'an prochain.",
+      "url": "https://www.medtechdive.com/news/endoquest-robotics-hires-chief-commercial-officer/833200/"
     }
   ],
   "word": {
-    "term": "JCA",
-    "full": "Joint Clinical Assessment (évaluation clinique conjointe européenne)",
-    "fr": "Évaluation clinique conjointe",
-    "field": "Accès au marché · HTA européen",
-    "definition": "Une évaluation unique de l'efficacité clinique d'un dispositif, menée à plusieurs pays européens à la fois dans le cadre du règlement HTA, que chaque État réutilise ensuite pour décider du remboursement.",
+    "term": "NIRS",
+    "full": "Near-Infrared Spectroscopy",
+    "fr": "Spectroscopie proche infrarouge",
+    "field": "Monitoring / Néonatologie",
+    "definition": "Technique optique non invasive qui envoie de la lumière proche infrarouge à travers les tissus pour estimer en continu leur oxygénation (saturation tissulaire, StO₂).",
     "parts": [
-      { "label": "Sélection", "role": "la Commission choisit les dispositifs à fort enjeu après avis d'un panel d'experts" },
-      { "label": "Dossier", "role": "le fabricant dépose ses preuves cliniques sur la plateforme HTA européenne" },
-      { "label": "Rapport JCA", "role": "deux agences nationales rédigent l'analyse commune" }
+      {
+        "label": "Sources lumineuses",
+        "role": "l'émetteur"
+      },
+      {
+        "label": "Détecteurs",
+        "role": "le récepteur"
+      },
+      {
+        "label": "Algorithme",
+        "role": "le traducteur"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Sélection", "t": "Une fois la certification MDR obtenue, la Commission sélectionne le dispositif par décision d'exécution, sur recommandation du groupe de coordination HTA." },
-      { "n": "2", "h": "Dossier", "t": "La Commission fixe le périmètre (population, comparateurs, critères) ; le fabricant a 100 jours pour déposer son dossier." },
-      { "n": "3", "h": "Rapport", "t": "Un évaluateur et un co-évaluateur rédigent le rapport JCA, relu par le fabricant pour les erreurs factuelles, puis repris par les États membres." }
+      {
+        "n": "1",
+        "h": "Émission",
+        "t": "Le capteur, posé sur la peau (par ex. le front d'un nouveau-né), émet de la lumière à plusieurs longueurs d'onde proches de l'infrarouge."
+      },
+      {
+        "n": "2",
+        "h": "Absorption",
+        "t": "L'hémoglobine oxygénée et désoxygénée n'absorbent pas ces longueurs d'onde de la même façon ; la lumière rétrodiffusée est captée par les détecteurs."
+      },
+      {
+        "n": "3",
+        "h": "Calcul",
+        "t": "Un algorithme en déduit la saturation tissulaire (StO₂), affichée en continu."
+      }
     ],
-    "why": "La JCA fait de la preuve clinique comparative un prérequis d'accès au marché européen : pour un VC, cela renchérit et allonge les plans de développement des dispositifs innovants, et avantage les sociétés qui conçoivent leurs essais pour répondre aux comparateurs HTA dès l'amont.",
+    "why": "Le NIRS est la brique commune du monitoring cérébral néonatal et des casques fNIRS portables. La barrière est réglementaire et clinique (MDR, précision chez le nouveau-né) : OxyPrem vient de franchir ce cap, tandis que des acteurs comme Artinis ou Kernel portent la même physique vers la recherche et les neurosciences.",
     "startups": [
-      { "name": "Highlife", "use": "Système HIGHLIFE de remplacement valvulaire mitral par voie trans-septale (valve-in-ring), marqué CE en janvier 2026 ; l'un des deux premiers dispositifs retenus pour une JCA, évalué par la HAS avec l'AOTMiT", "place": "Paris, France" },
-      { "name": "Scarlet", "use": "Plateforme londonienne de certification de logiciels et d'IA médicaux, désignée Third-Party Review Organization ; 50 M$ en Series B menée par Headline pour accélérer la conformité réglementaire", "place": "Londres, Royaume-Uni" },
-      { "name": "Sava", "use": "Microcapteur sous-cutané de glucose en continu : Series B menée par Ascensia, qui obtient la distribution exclusive en Europe ; marquage CE et lancement visés d'ici 18 à 24 mois", "place": "Royaume-Uni" }
+      {
+        "name": "OxyPrem",
+        "use": "Système NOAH : oxymétrie tissulaire NIRS dont le cerveau du prématuré, marqué CE MDR (annonce du 15 oct. 2026)",
+        "place": "Zurich, Suisse"
+      },
+      {
+        "name": "Artinis Medical Systems",
+        "use": "Systèmes (f)NIRS portables de la gamme Brite, certification ISO 13485",
+        "place": "Elst, Pays-Bas"
+      },
+      {
+        "name": "Kernel",
+        "use": "Casque Flow : fNIRS à résolution temporelle (TD-fNIRS), 52 modules",
+        "place": "États-Unis"
+      }
     ],
     "sources": [
-      { "publisher": "PURE Global", "title": "EU makes first medical device JCA selection", "url": "https://www.pureglobal.com/news/eu-first-medical-device-jca-selection-2026" },
-      { "publisher": "MedTech Europe", "title": "From assessment to access: navigating the EU's new HTA framework", "url": "https://www.medtecheurope.org/medtech-views/podcasts/from-assessment-to-access-navigating-the-eus-new-hta-framework/" },
-      { "publisher": "EUR-Lex", "title": "Implementing Regulation (EU) 2025/2086", "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/2086/oj/eng" }
+      {
+        "publisher": "Startupticker.ch",
+        "title": "Major developments for three Swiss Medtech startups",
+        "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
+      },
+      {
+        "publisher": "Venture Kick",
+        "title": "OxyPrem",
+        "url": "https://www.venturekick.ch/oxyprem"
+      },
+      {
+        "publisher": "iMotions",
+        "title": "World leader in (f)NIRS measurements (Artinis)",
+        "url": "https://imotions.com/products/hardware/brand/artinis/"
+      },
+      {
+        "publisher": "Journal of Biomedical Optics (SPIE)",
+        "title": "Kernel Flow: a high-channel-count scalable time-domain fNIRS system",
+        "url": "https://nanophotonics.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-27/issue-07/074710/Kernel-Flow--a-high-channel-count-scalable-time-domain/10.1117/1.JBO.27.7.074710.full"
+      }
     ]
   }
 }

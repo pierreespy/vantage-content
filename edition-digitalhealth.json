@@ -1,74 +1,182 @@
 {
-  "dateLong": "16 oct. 2026",
+  "dateLong": "18 oct. 2026",
   "ticker": [
-    { "company": "Doctolib", "amount": "Nvidia", "kind": "lev" },
-    { "company": "NHS England", "amount": "£838,7M", "kind": "reg" },
-    { "company": "MHRA", "amount": "44 reco.", "kind": "reg" }
+    {
+      "company": "NHS England",
+      "amount": "£838M",
+      "kind": "reg"
+    },
+    {
+      "company": "Kainos",
+      "amount": "£9,9M",
+      "kind": "reg"
+    },
+    {
+      "company": "Accurx",
+      "amount": "Scribe IA",
+      "kind": "tech"
+    },
+    {
+      "company": "NW London",
+      "amount": "AVT",
+      "kind": "reg"
+    },
+    {
+      "company": "Sirona Medical",
+      "amount": "$40M",
+      "kind": "lev"
+    },
+    {
+      "company": "Manchester",
+      "amount": "£2,4M",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Participation stratégique · Plateforme de soins",
-    "title": "Nvidia prend une participation minoritaire dans Doctolib et l'aidera à entraîner ses modèles d'IA",
-    "deck": "Annoncée le 13 octobre lors de la visite de Jensen Huang à Paris, la prise de participation, dont le montant n'est pas divulgué, s'accompagne d'un appui de Nvidia à l'entraînement des modèles de Doctolib, qui a déjà lancé un assistant de consultation en 2024. Trois autres start-ups françaises sont concernées : Genesis AI, Pigment et Entalpic.",
-    "company": "Doctolib",
-    "stage": "Growth",
-    "sector": "Digital Health",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.trendingtopics.eu/nvidia-takes-stakes-in-doctolib-pigment-genesis-ai-and-entalpic/"
+    "kicker": "Accès au marché · Logiciel hospitalier",
+    "title": "NHS England annonce un cadre ouvert de 838 M£ pour le futur des systèmes informatiques de médecine générale",
+    "deck": "Le cadre (annoncé le 13 oct.) s'organise en trois lots : dossier patient de base (rendez-vous, prescription, adressage), outils cliniques et opérationnels (aide à la décision, téléconsultation vidéo) et R&D. Plusieurs fournisseurs pourront être retenus par lot ; l'appel d'offres doit s'ouvrir en novembre, pour un lancement du cadre attendu au T3 2027.",
+    "company": "NHS England",
+    "sector": "Réglementaire",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
   },
   "milestone": {
-    "company": "NHS England",
-    "milestone": "Cadre d'achat",
-    "title": "NHS England prépare un cadre ouvert de 838,7 M£ pour les logiciels de médecine générale",
-    "summary": "Il remplacera le cadre GP IT Futures arrivé à expiration et couvrira une gamme plus large de logiciels cliniques et opérationnels pour les soins primaires. L'appel d'offres devrait démarrer en novembre 2026 et le cadre être lancé le 20 septembre 2027 (avis 094419-2026 sur Find a Tender).",
-    "why": "Pour les éditeurs de logiciels de santé britanniques, c'est le prochain grand guichet d'achat du premier recours. L'éditeur DXS, auteur du communiqué, cite une hausse de 81,7 % du financement central ; aucun fournisseur n'est encore retenu.",
-    "place": "Royaume-Uni",
+    "company": "Accurx",
+    "milestone": "Déploiement hospitalier",
+    "title": "Accurx Scribe déployé en santé mentale du sujet âgé au NHS Rotherham, Doncaster and South Humber",
+    "summary": "Premier service du déploiement à l'échelle du trust : l'outil de voix ambiante écoute la consultation et produit un brouillon de notes et de lettres d'adressage, que le clinicien relit et valide avant l'entrée au dossier.",
+    "why": "Chaque trust qui adopte la voix ambiante pousse la demande : l'Angleterre a déjà des cadres régionaux (Midlands, Londres Sud-Ouest) et Londres Nord-Ouest prépare un appel d'offres.",
+    "place": "Yorkshire du Sud",
+    "sector": "IA clinique",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+  },
+  "deal": {
+    "company": "Sirona Medical",
+    "amount": "40 M$",
+    "round": "Growth",
+    "thesis": "Tour de Series D mené par Avidity Partners (avec 8VC et GreatPoint Ventures) pour RadOS, plateforme de radiologie cloud qui fusionne PACS, compte rendu, viewer et worklist. Sirona vise l'international (Royaume-Uni, Europe, Afrique du Sud, Nouvelle-Zélande, Australie) via Sirona Global.",
     "sector": "Logiciel hospitalier",
-    "signalType": "regulatory_milestone",
-    "url": "https://manilatimes.net/2026/10/15/tmt-newswire/globenewswire/nhs-announces-838m-gp-it-framework/2446354"
+    "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
   },
   "brefsEurope": [
     {
-      "company": "MHRA",
+      "company": "Kainos",
       "place": "Royaume-Uni",
-      "sector": "Réglementaire",
+      "sector": "Logiciel hospitalier",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "NHS England attribue à Kainos 9,9 M£ pour le développement du « NHS Online Trust »",
+      "summary": "Données, DevOps et développement de bout en bout pour le programme d'hôpital virtuel (phase Alpha 2) : outils de workflow clinicien, intégration aux systèmes nationaux et à l'application NHS.",
+      "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
+    },
+    {
+      "company": "North West London Acute Provider Group",
+      "place": "Londres",
+      "sector": "IA clinique",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Londres Nord-Ouest consulte les fournisseurs avant son appel d'offres de voix ambiante (AVT)",
+      "summary": "Imperial, Chelsea and Westminster, London North West et Hillingdon préparent un contrat estimé du 1er avril 2027 au 31 mars 2030.",
+      "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+    },
+    {
+      "company": "Manchester University NHS FT",
+      "place": "Manchester",
+      "sector": "Wearables",
+      "pillar": "innovation",
+      "signalType": "grant_award",
       "strength": 3,
-      "title": "La commission britannique sur l'IA en santé recommande une régulation sur tout le cycle de vie des dispositifs à IA",
-      "summary": "Son rapport de 119 pages formule 44 recommandations non contraignantes : révision des Medical Devices Regulations 2002, autorisation par paliers, surveillance post-commercialisation renforcée, base publique d'incidents. Le gouvernement avait annoncé le 6 octobre qu'il les accepterait toutes.",
-      "url": "https://dhinsights.org/news/the-nhs-wants-to-be-the-worlds-most-ai-enabled-health-system-a-new-commission-report-says-regulation-has-to-catch-up"
+      "title": "UKRI finance à hauteur de 2,4 M£ un « living lab » pour les wearables à Manchester",
+      "summary": "Bourse Future Leaders Fellowship sur quatre ans pour Lukas Hughes-Noehrer, avec un essai de 800 patients en chirurgie pulmonaire et hépato-pancréato-biliaire, en lien avec la MHRA (Manchester Sandbox).",
+      "url": "https://htn.co.uk/2026/10/08/2-4-million-in-funding-to-establish-living-lab-for-wearable-tech-in-manchester/"
     }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "AI Airlock",
-    "full": "AI Airlock (bac à sable réglementaire de la MHRA pour les dispositifs médicaux à IA)",
-    "fr": "Bac à sable réglementaire britannique pour l'IA médicale",
-    "field": "Réglementaire / IA clinique",
-    "definition": "Programme de la MHRA qui fait tester à des innovateurs, dans un cadre contrôlé, des dispositifs médicaux à IA afin d'identifier les obstacles réglementaires et d'en tirer des enseignements, sans valeur de guidance formelle.",
+    "term": "AVT",
+    "full": "Ambient Voice Technology",
+    "fr": "Technologie vocale ambiante (scribe IA)",
+    "field": "IA clinique",
+    "definition": "Outil qui écoute la consultation, transcrit la conversation et en tire automatiquement un brouillon de note clinique ou de courrier, que le soignant valide.",
     "parts": [
-      { "label": "Cohorte d'innovateurs", "role": "les produits testés" },
-      { "label": "Défis réglementaires", "role": "les questions soumises à l'épreuve" },
-      { "label": "Rapports de programme", "role": "les enseignements publiés" }
+      {
+        "label": "Micro ambiant",
+        "role": "l'oreille"
+      },
+      {
+        "label": "Transcription + IA",
+        "role": "la plume"
+      },
+      {
+        "label": "Validation clinicien",
+        "role": "le garde-fou"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Sélection", "t": "La phase 2 a retenu sept technologies parmi 51 candidatures." },
-      { "n": "2", "h": "Test encadré", "t": "Les produits sont éprouvés sur trois défis : finalité et validation, diagnostic in vitro par IA, surveillance post-commercialisation avec plan de changement prédéterminé." },
-      { "n": "3", "h": "Publication", "t": "Les enseignements sont publiés dans des rapports de programme, le dernier daté du 27 juillet 2026, qui ne constituent pas une guidance formelle." }
+      {
+        "n": "1",
+        "h": "Capture",
+        "t": "L'outil écoute la consultation en salle ou en visio."
+      },
+      {
+        "n": "2",
+        "h": "Rédaction",
+        "t": "Il génère un brouillon de notes et de lettres d'adressage."
+      },
+      {
+        "n": "3",
+        "h": "Validation",
+        "t": "Le clinicien relit et signe chaque brouillon avant son entrée au dossier patient."
+      }
     ],
-    "why": "Pour un VC, passer par le bac à sable est un signal de maturité réglementaire d'une start-up IA, et la troisième phase portera sur la surveillance sur tout le cycle de vie, précisément ce que recommande la commission britannique publiée cette semaine.",
+    "why": "Les achats publics s'accélèrent au Royaume-Uni : Heidi Health retenu seul fournisseur pour 15 trusts des Midlands (70 000 cliniciens), Lyrebird pour Londres Sud-Ouest (20 000 cliniciens sur 4 ans), 19 scribes approuvés par le NHS en février. En Europe continentale, Tandem Health a levé 100 M$ en Series B en septembre.",
     "startups": [
-      { "name": "TORTUS", "use": "Assistant clinique IA qui automatise la documentation dans les dossiers patients ; retenu dans la phase 2 de l'AI Airlock." },
-      { "name": "Panakeia Technologies", "use": "PANProfiler Colorectal (MSI/MMR) : IA qui analyse des lames de tissu existantes pour donner le statut de réparation des mésappariements sans test de laboratoire supplémentaire ; phase 2." },
-      { "name": "Numan", "use": "Système conversationnel et de suivi Nu & Aegis AI qui explique aux patients leurs résultats d'analyses sanguines en langage simple ; phase 2." },
-      { "name": "Octopath", "use": "Plateforme IA d'analyse quantitative rapide de lames de pathologie numérique pour assister les pathologistes ; phase 2." }
+      {
+        "name": "Accurx",
+        "use": "Accurx Scribe en déploiement au NHS Rotherham, Doncaster and South Humber",
+        "place": "Londres, Royaume-Uni"
+      },
+      {
+        "name": "Tandem Health",
+        "use": "Scribe IA certifié classe IIa MDR (selon la société), Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT (sept. 2026)",
+        "place": "Stockholm, Suède"
+      },
+      {
+        "name": "Heidi Health",
+        "use": "Retenu comme fournisseur unique du cadre régional Midlands du NHS England (15 trusts)"
+      },
+      {
+        "name": "Lyrebird Health",
+        "use": "Contrat avec les hôpitaux aigus de Londres Sud-Ouest, déploiement prévu pour 20 000 cliniciens sur 4 ans"
+      }
     ],
     "sources": [
-      { "publisher": "GOV.UK", "title": "AI Airlock Phase 2 Cohort", "url": "https://www.gov.uk/government/publications/ai-airlock-phase-2-cohort" },
-      { "publisher": "GOV.UK", "title": "AI Airlock: the regulatory sandbox for AIaMD", "url": "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd" },
-      { "publisher": "IntuitionLabs", "title": "MHRA AI Airlock Phase 2: evidence and case studies", "url": "https://intuitionlabs.ai/articles/mhra-ai-airlock-phase-2-evidence-case-studies" }
+      {
+        "publisher": "HTN",
+        "title": "Rotherham, Doncaster and South Humber introduces AI scribe for mental health services",
+        "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+      },
+      {
+        "publisher": "HTN",
+        "title": "North West London trusts invite suppliers to help shape upcoming AVT procurement",
+        "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+      },
+      {
+        "publisher": "HSJ",
+        "title": "NHSE region signs AI scribe deal covering 15 trusts",
+        "url": "https://www.hsj.co.uk/technology-and-innovation/nhse-region-signs-ai-scribe-deal-covering-15-trusts/8123832.article"
+      },
+      {
+        "publisher": "Unite.AI",
+        "title": "Tandem Health raises $100M Series B to build AI clinic operating system",
+        "url": "https://unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system"
+      }
     ]
   }
 }

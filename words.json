@@ -1,6 +1,249 @@
 {
-  "generatedAt": "2026-10-17",
+  "generatedAt": "2026-10-18",
   "words": [
+    {
+      "term": "AVT",
+      "full": "Ambient Voice Technology",
+      "fr": "Technologie vocale ambiante (scribe IA)",
+      "field": "IA clinique",
+      "definition": "Outil qui écoute la consultation, transcrit la conversation et en tire automatiquement un brouillon de note clinique ou de courrier, que le soignant valide.",
+      "parts": [
+        {
+          "label": "Micro ambiant",
+          "role": "l'oreille"
+        },
+        {
+          "label": "Transcription + IA",
+          "role": "la plume"
+        },
+        {
+          "label": "Validation clinicien",
+          "role": "le garde-fou"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "L'outil écoute la consultation en salle ou en visio."
+        },
+        {
+          "n": "2",
+          "h": "Rédaction",
+          "t": "Il génère un brouillon de notes et de lettres d'adressage."
+        },
+        {
+          "n": "3",
+          "h": "Validation",
+          "t": "Le clinicien relit et signe chaque brouillon avant son entrée au dossier patient."
+        }
+      ],
+      "why": "Les achats publics s'accélèrent au Royaume-Uni : Heidi Health retenu seul fournisseur pour 15 trusts des Midlands (70 000 cliniciens), Lyrebird pour Londres Sud-Ouest (20 000 cliniciens sur 4 ans), 19 scribes approuvés par le NHS en février. En Europe continentale, Tandem Health a levé 100 M$ en Series B en septembre.",
+      "startups": [
+        {
+          "name": "Accurx",
+          "use": "Accurx Scribe en déploiement au NHS Rotherham, Doncaster and South Humber",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Tandem Health",
+          "use": "Scribe IA certifié classe IIa MDR (selon la société), Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT (sept. 2026)",
+          "place": "Stockholm, Suède"
+        },
+        {
+          "name": "Heidi Health",
+          "use": "Retenu comme fournisseur unique du cadre régional Midlands du NHS England (15 trusts)"
+        },
+        {
+          "name": "Lyrebird Health",
+          "use": "Contrat avec les hôpitaux aigus de Londres Sud-Ouest, déploiement prévu pour 20 000 cliniciens sur 4 ans"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HTN",
+          "title": "Rotherham, Doncaster and South Humber introduces AI scribe for mental health services",
+          "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+        },
+        {
+          "publisher": "HTN",
+          "title": "North West London trusts invite suppliers to help shape upcoming AVT procurement",
+          "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+        },
+        {
+          "publisher": "HSJ",
+          "title": "NHSE region signs AI scribe deal covering 15 trusts",
+          "url": "https://www.hsj.co.uk/technology-and-innovation/nhse-region-signs-ai-scribe-deal-covering-15-trusts/8123832.article"
+        },
+        {
+          "publisher": "Unite.AI",
+          "title": "Tandem Health raises $100M Series B to build AI clinic operating system",
+          "url": "https://unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system"
+        }
+      ],
+      "date": "2026-10-18",
+      "dateLong": "18 oct. 2026"
+    },
+    {
+      "term": "LBP",
+      "full": "Live Biotherapeutic Product",
+      "fr": "Produit biothérapeutique vivant",
+      "field": "Microbiome",
+      "definition": "Médicament contenant des micro-organismes vivants (bactéries ou levures) destiné à prévenir ou traiter une maladie, qui n'est pas un vaccin.",
+      "parts": [
+        {
+          "label": "Souches vivantes",
+          "role": "le principe actif"
+        },
+        {
+          "label": "Formulation",
+          "role": "le véhicule (capsule orale)"
+        },
+        {
+          "label": "Procédé de fabrication",
+          "role": "la garantie qualité"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sélection",
+          "t": "On identifie des souches bactériennes associées à un effet clinique, issues du microbiote de donneurs sains."
+        },
+        {
+          "n": "2",
+          "h": "Formulation",
+          "t": "Les souches sont produites en conditions contrôlées puis formulées, par ex. en capsule orale à prise quotidienne."
+        },
+        {
+          "n": "3",
+          "h": "Essai clinique",
+          "t": "Le produit est testé comme un médicament : sécurité, puis efficacité contre placebo (Microbiotica entre en Phase 2 dans la rectocolite hémorragique)."
+        }
+      ],
+      "why": "Une classe distincte de médicaments reconnue par la FDA et l'EMA, avec des exigences de preuve de médicament mais une chimie de fabrication particulière. Les tours européens se multiplient (Microbiotica, Mbiomics), avec un premier dossier d'AMM microbiome en cours à l'EMA chez MaaT Pharma.",
+      "startups": [
+        {
+          "name": "Microbiotica",
+          "use": "MB310 : capsule de 8 souches vivantes, Phase 1b positive puis Phase 2 financée par un tour de 36 £M",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Mbiomics",
+          "use": "Produits biothérapeutiques vivants, Series A de 30 M€ (3e closing) pour passer en clinique",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "MaaT Pharma",
+          "use": "Xervyteg (MaaT013), thérapie écosystème microbiome en dossier d'AMM à l'EMA dans la GvHD aiguë",
+          "place": "Lyon, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Microbiotica raises £36M to test gut-bacteria capsule in ulcerative colitis",
+          "url": "https://european-biotechnology.com/latest-news/microbiotica-raises-36m-to-test-gut-bacteria-capsule-in-ulcerative-colitis/"
+        },
+        {
+          "publisher": "Munich Startup",
+          "title": "Mbiomics: 30 million euros in third Series A closing",
+          "url": "https://www.munich-startup.de/en/news/mbiomics-30-million-euros-in-third-series-a-closing"
+        },
+        {
+          "publisher": "PubMed Central",
+          "title": "Live biotherapeutic products: the importance of a defined regulatory framework",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8080583/"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "MaaT Pharma submits Marketing Authorization Application to the EMA for Xervyteg (MaaT013)",
+          "url": "https://businesswire.com/news/home/20250602568637/en/MaaT-Pharma-Advances-Toward-Commercialization-And-Submits-Marketing-Authorization-Application-to-the-European-Medicines-Agency-EMA-for-Xervyteg-MaaT013-in-Acute-Graft-versus-Host-Disease"
+        }
+      ],
+      "date": "2026-10-18",
+      "dateLong": "18 oct. 2026"
+    },
+    {
+      "term": "NIRS",
+      "full": "Near-Infrared Spectroscopy",
+      "fr": "Spectroscopie proche infrarouge",
+      "field": "Monitoring / Néonatologie",
+      "definition": "Technique optique non invasive qui envoie de la lumière proche infrarouge à travers les tissus pour estimer en continu leur oxygénation (saturation tissulaire, StO₂).",
+      "parts": [
+        {
+          "label": "Sources lumineuses",
+          "role": "l'émetteur"
+        },
+        {
+          "label": "Détecteurs",
+          "role": "le récepteur"
+        },
+        {
+          "label": "Algorithme",
+          "role": "le traducteur"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Émission",
+          "t": "Le capteur, posé sur la peau (par ex. le front d'un nouveau-né), émet de la lumière à plusieurs longueurs d'onde proches de l'infrarouge."
+        },
+        {
+          "n": "2",
+          "h": "Absorption",
+          "t": "L'hémoglobine oxygénée et désoxygénée n'absorbent pas ces longueurs d'onde de la même façon ; la lumière rétrodiffusée est captée par les détecteurs."
+        },
+        {
+          "n": "3",
+          "h": "Calcul",
+          "t": "Un algorithme en déduit la saturation tissulaire (StO₂), affichée en continu."
+        }
+      ],
+      "why": "Le NIRS est la brique commune du monitoring cérébral néonatal et des casques fNIRS portables. La barrière est réglementaire et clinique (MDR, précision chez le nouveau-né) : OxyPrem vient de franchir ce cap, tandis que des acteurs comme Artinis ou Kernel portent la même physique vers la recherche et les neurosciences.",
+      "startups": [
+        {
+          "name": "OxyPrem",
+          "use": "Système NOAH : oxymétrie tissulaire NIRS dont le cerveau du prématuré, marqué CE MDR (annonce du 15 oct. 2026)",
+          "place": "Zurich, Suisse"
+        },
+        {
+          "name": "Artinis Medical Systems",
+          "use": "Systèmes (f)NIRS portables de la gamme Brite, certification ISO 13485",
+          "place": "Elst, Pays-Bas"
+        },
+        {
+          "name": "Kernel",
+          "use": "Casque Flow : fNIRS à résolution temporelle (TD-fNIRS), 52 modules",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Major developments for three Swiss Medtech startups",
+          "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
+        },
+        {
+          "publisher": "Venture Kick",
+          "title": "OxyPrem",
+          "url": "https://www.venturekick.ch/oxyprem"
+        },
+        {
+          "publisher": "iMotions",
+          "title": "World leader in (f)NIRS measurements (Artinis)",
+          "url": "https://imotions.com/products/hardware/brand/artinis/"
+        },
+        {
+          "publisher": "Journal of Biomedical Optics (SPIE)",
+          "title": "Kernel Flow: a high-channel-count scalable time-domain fNIRS system",
+          "url": "https://nanophotonics.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-27/issue-07/074710/Kernel-Flow--a-high-channel-count-scalable-time-domain/10.1117/1.JBO.27.7.074710.full"
+        }
+      ],
+      "date": "2026-10-18",
+      "dateLong": "18 oct. 2026"
+    },
     {
       "term": "JCA",
       "full": "Joint Clinical Assessment (évaluation clinique conjointe européenne)",
