@@ -1,202 +1,141 @@
 {
-  "dateLong": "Oct 18, 2026",
+  "dateLong": "Oct 19, 2026",
   "ticker": [
     {
-      "company": "Microbiotica",
-      "amount": "£36M",
+      "company": "Sobi",
+      "amount": "CHMP",
+      "kind": "reg"
+    },
+    {
+      "company": "Modus",
+      "amount": "Pause",
+      "kind": "tech"
+    },
+    {
+      "company": "City Therapeutics",
+      "amount": "$200M",
       "kind": "lev"
     },
     {
-      "company": "Osivax",
-      "amount": "Ph2b ✗",
-      "kind": "tech"
-    },
-    {
-      "company": "Armed Cell",
-      "amount": "€8M",
-      "kind": "mna"
-    },
-    {
-      "company": "BioNTech",
-      "amount": "Ph2/3 ✗",
-      "kind": "tech"
-    },
-    {
-      "company": "Sibylla",
-      "amount": "CEO",
-      "kind": "tech"
-    },
-    {
-      "company": "Beactica",
-      "amount": "BEA-28",
-      "kind": "tech"
+      "company": "Iambic",
+      "amount": "$150M",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Funding · Microbiome",
-    "title": "Microbiotica raises £36M Series C (first close) to test its gut-bacteria capsule in ulcerative colitis",
-    "deck": "Round led by the British Business Bank, with Tencent, IP Group, Cambridge Innovation Capital, Flerie Invest, Seventure Partners and all Series B investors. Proceeds fund a randomised, placebo-controlled Phase 2 of MB310, a once-daily capsule of eight live bacterial strains; in Phase 1b (29 adults), 12 of 19 patients on MB310 were in remission versus 3 of 10 on placebo (primary objective: safety).",
-    "company": "Microbiotica",
-    "stage": "Series C",
-    "sector": "Microbiome",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "CHMP opinion · Cardiometabolic",
+    "title": "Sobi wins a positive CHMP opinion for Tryngolza (olezarsen) in severe hypertriglyceridemia",
+    "deck": "The EMA committee recommends Ionis’s antisense medicine, licensed to Sobi outside the US, for adults with fasting triglycerides ≥ 880 mg/dL (10 mmol/L). The Phase III CORE and CORE2 trials show up to a 72% triglyceride reduction and 85% fewer acute pancreatitis episodes; the European Commission decision is expected in Q4 2026.",
+    "company": "Sobi",
+    "sector": "RNA",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/microbiotica-raises-36m-to-test-gut-bacteria-capsule-in-ulcerative-colitis/"
+    "url": "https://nordiclifescience.org/sobi-wins-chmp-backing-for-tryngolza/"
   },
   "milestone": {
-    "company": "Osivax",
-    "milestone": "Phase 2b missed",
-    "title": "Osivax: universal flu vaccine OVX836 misses its primary endpoint in Phase 2b",
-    "summary": "In the Asuniva trial (2,850 adults aged 18–59, Belgium, France, Finland, Germany), efficacy was 24% against a 50% target, not statistically significant; secondary estimates were 28% against influenza-like illness, 27% against H3N2 and 25% against H1N1pdm09. Osivax is turning to combinations with seasonal flu vaccines (GC Biopharma deal in August).",
-    "why": "A setback for the thesis of a broad-spectrum vaccine targeting the nucleoprotein, with no confidence intervals published; the path forward now runs through partnerships with established players.",
-    "place": "Lyon",
-    "sector": "Vaccines",
+    "company": "Modus Therapeutics",
+    "milestone": "Enrollment pause",
+    "title": "Modus Therapeutics pauses enrollment in its sevuparin Phase IIa after a serious adverse event",
+    "summary": "One patient in Part 2 of the study in anemia of chronic kidney disease (two Italian centers) had a SUSAR: a link to the drug can be neither ruled out nor established. The pause is voluntary and no other patient was on treatment.",
+    "why": "The proof-of-concept readout slips to Q1 2027 and cash, extended by the September 2026 share issue, is guided into Q2 2027: a reminder of timeline risk for small listed biotechs.",
+    "place": "Stockholm",
+    "sector": "Biotech",
     "signalType": "clinical_update",
-    "url": "https://european-biotechnology.com/latest-news/osivax-misses-phase-2b-flu-vaccine-endpoint-shifts-focus-to-combinations/"
+    "url": "https://nordiclifescience.org/modus-therapeutics-pauses-enrollment-in-sevuparin-study/"
   },
   "deal": {
-    "company": "Armed Cell Therapeutics",
-    "amount": "€8M + $230M",
-    "round": "M&A / Licensing",
-    "thesis": "Lakefront (ex-Galapagos) sells five preclinical CAR-T assets to Belgian start-up Armed Cell: €8M upfront, up to $230M in milestones and low-single-digit royalties. India's Mankind Pharma takes 70% of Armed Cell for €48M, alongside a financing of over €50M to bring the programmes (non-Hodgkin lymphoma, small-cell lung cancer) into the clinic.",
-    "sector": "Cell therapy",
-    "url": "https://european-biotechnology.com/latest-news/lakefront-offloads-car-t-programs-to-armed-cell-as-mankind-pharma-takes-control-of-the-belgian-startup/"
+    "company": "City Therapeutics",
+    "amount": "$200M",
+    "round": "IPO",
+    "thesis": "A $200M IPO for a next-generation RNAi developer: three medicines in or near the clinic, plus early work on delivering RNAi beyond the liver. A direct comparable for European extrahepatic-delivery startups such as Undecimal Bio.",
+    "sector": "RNA",
+    "url": "https://www.biopharmadive.com/news/city-therapeutics-ipo-price-rnai-drugs/832945/"
   },
-  "brefsEurope": [
-    {
-      "company": "Sibylla Biotech",
-      "place": "Italy",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Sibylla Biotech names Usman Azam (ex-Tmunity) CEO and Gianluca Fuggetta CFO",
-      "summary": "Azam led Tmunity Therapeutics and Novartis' cell and gene therapy unit. Sibylla aims for a first-in-human study of its Cyclin D1 protein degrader.",
-      "url": "https://european-biotechnology.com/latest-news/evotec-fills-cso-vacancy-sibylla-and-al-s-pharma-name-new-ceos/"
-    },
-    {
-      "company": "AL-S Pharma",
-      "place": "Switzerland",
-      "sector": "Neuroscience",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "AL-S Pharma: Harry Welten succeeds Michael Salzmann, AP-101 Phase 3 pushed to 2027",
-      "summary": "The company is preparing a confirmatory Phase 3 of AP-101 in ALS, now targeted for 2027 (previously late 2026).",
-      "url": "https://european-biotechnology.com/latest-news/evotec-fills-cso-vacancy-sibylla-and-al-s-pharma-name-new-ceos/"
-    },
-    {
-      "company": "Beactica Therapeutics",
-      "place": "Sweden",
-      "sector": "Oncology",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Beactica selects BEA-28, a TEAD degrader, for preclinical development",
-      "summary": "In mice, tumour regression in mesothelioma and KRAS-mutant lung cancer models; no human testing yet.",
-      "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/"
-    },
-    {
-      "company": "BioNTech",
-      "place": "Mainz",
-      "sector": "Oncology",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "BioNTech: mRNA vaccine BNT113 misses its primary endpoint (PFS) in the Phase 2/3 AHEAD-MERIT trial",
-      "summary": "BNT113 plus pembrolizumab did not significantly improve progression-free survival versus pembrolizumab alone in HPV16+ PD-L1+ head and neck cancer; the independent committee recommends continuing for overall survival (second primary endpoint).",
-      "url": "https://european-biotechnology.com/latest-news/biontechs-mrna-cancer-vaccine-misses-phase-2-3-endpoint/"
-    }
-  ],
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Estuary",
-      "place": "United States",
-      "sector": "Gene therapy",
+      "company": "Iambic Therapeutics",
+      "place": "San Diego",
+      "sector": "AI drug discovery",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 4,
-      "title": "Estuary emerges from stealth with $103M for kidney-disease gene therapies",
-      "summary": "Announced by Fierce Biotech on Oct 16: stealth exit with a $103M round (investors not detailed here), a gauge of US gene-therapy funding.",
-      "url": "https://www.fiercebiotech.com/biotech/estuary-emerges-stealth-103m-its-gene-therapies-kidney-disease"
+      "title": "Iambic, an AI drug-discovery specialist, raises $150M in an IPO",
+      "summary": "In regulatory filings the company says its AI approach could upend traditional drug discovery. A market window for AI platforms that European startups can read as an exit signal.",
+      "url": "https://www.biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771/"
     }
   ],
   "word": {
-    "term": "LBP",
-    "full": "Live Biotherapeutic Product",
-    "fr": "Live biotherapeutic product",
-    "field": "Microbiome",
-    "definition": "A medicine containing live micro-organisms (bacteria or yeast) intended to prevent or treat a disease, and that is not a vaccine.",
+    "term": "DEL",
+    "full": "DNA-Encoded Library",
+    "fr": "DNA-encoded chemical library",
+    "field": "Drug discovery",
+    "definition": "A library of millions to billions of molecules, each tagged with a short DNA code that identifies which one binds a target.",
     "parts": [
       {
-        "label": "Live strains",
-        "role": "the active ingredient"
+        "label": "Chemical building blocks",
+        "role": "combined to create diversity"
       },
       {
-        "label": "Formulation",
-        "role": "the vehicle (oral capsule)"
+        "label": "DNA barcode",
+        "role": "the tag recording each step"
       },
       {
-        "label": "Manufacturing process",
-        "role": "the quality guarantee"
+        "label": "Protein target",
+        "role": "the bait the library is fished against"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Selection",
-        "t": "Bacterial strains linked to a clinical effect are identified, often from healthy donors' microbiota."
+        "h": "Build",
+        "t": "Building blocks are assembled in split-and-pool cycles; each reaction is recorded in the attached DNA."
       },
       {
         "n": "2",
-        "h": "Formulation",
-        "t": "Strains are produced under controlled conditions and formulated, e.g. as a once-daily oral capsule."
+        "h": "Select",
+        "t": "The library is exposed to the immobilized target; non-binders are washed away."
       },
       {
         "n": "3",
-        "h": "Clinical trial",
-        "t": "The product is tested like a drug: safety first, then efficacy versus placebo (Microbiotica is entering Phase 2 in ulcerative colitis)."
+        "h": "Sequence",
+        "t": "The remaining codes are amplified by PCR and sequenced: the most enriched point to the hit molecules."
       }
     ],
-    "why": "A distinct class of medicines recognised by the FDA and EMA, with drug-level evidence requirements but unusual manufacturing chemistry. European rounds are multiplying (Microbiotica, Mbiomics), with a first microbiome marketing application under EMA review at MaaT Pharma.",
+    "why": "VC angle: screening billions of molecules in one tube cuts hit-finding cost and feeds a whole class of platforms (PROTACs, glues, RNA delivery). Undecimal Bio, launched with an $18M seed, uses it to find siRNA carriers beyond the liver.",
     "startups": [
       {
-        "name": "Microbiotica",
-        "use": "MB310: 8-strain live capsule, positive Phase 1b then Phase 2 funded by a £36M round",
+        "name": "Undecimal Bio",
+        "use": "DELiveri platform: DEL-style library screening to find conjugates that carry siRNA beyond the liver, starting with renovascular disease; $18M seed",
         "place": "Cambridge, UK"
       },
       {
-        "name": "Mbiomics",
-        "use": "Live biotherapeutic products, €30M Series A (third closing) to move into the clinic",
-        "place": "Munich, Germany"
+        "name": "Vipergen",
+        "use": "DEL drug-discovery services, with the YoctoReactor and Binder Trap Enrichment platforms",
+        "place": "Copenhagen, Denmark"
       },
       {
-        "name": "MaaT Pharma",
-        "use": "Xervyteg (MaaT013), microbiome ecosystem therapy under EMA marketing review in acute GvHD",
-        "place": "Lyon, France"
+        "name": "HitGen",
+        "use": "Reference DEL player, outside Europe and not a startup: a comparable, with announced collaborations with Takeda and Kymera",
+        "place": "China"
       }
     ],
     "sources": [
       {
-        "publisher": "European Biotechnology",
-        "title": "Microbiotica raises £36M to test gut-bacteria capsule in ulcerative colitis",
-        "url": "https://european-biotechnology.com/latest-news/microbiotica-raises-36m-to-test-gut-bacteria-capsule-in-ulcerative-colitis/"
+        "publisher": "Wikipedia",
+        "title": "DNA-encoded chemical library",
+        "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
       },
       {
-        "publisher": "Munich Startup",
-        "title": "Mbiomics: 30 million euros in third Series A closing",
-        "url": "https://www.munich-startup.de/en/news/mbiomics-30-million-euros-in-third-series-a-closing"
+        "publisher": "EU-Startups",
+        "title": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
+        "url": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/"
       },
       {
-        "publisher": "PubMed Central",
-        "title": "Live biotherapeutic products: the importance of a defined regulatory framework",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8080583/"
-      },
-      {
-        "publisher": "Business Wire",
-        "title": "MaaT Pharma submits Marketing Authorization Application to the EMA for Xervyteg (MaaT013)",
-        "url": "https://businesswire.com/news/home/20250602568637/en/MaaT-Pharma-Advances-Toward-Commercialization-And-Submits-Marketing-Authorization-Application-to-the-European-Medicines-Agency-EMA-for-Xervyteg-MaaT013-in-Acute-Graft-versus-Host-Disease"
+        "publisher": "Vipergen",
+        "title": "Who is Vipergen?",
+        "url": "https://www.vipergen.com/about-us/"
       }
     ]
   }

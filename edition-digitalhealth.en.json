@@ -1,181 +1,141 @@
 {
-  "dateLong": "Oct 18, 2026",
+  "dateLong": "Oct 19, 2026",
   "ticker": [
     {
-      "company": "NHS England",
-      "amount": "£838M",
-      "kind": "reg"
-    },
-    {
-      "company": "Kainos",
-      "amount": "£9,9M",
-      "kind": "reg"
-    },
-    {
-      "company": "Accurx",
-      "amount": "AI scribe",
+      "company": "Diagnexia",
+      "amount": "100,000 cases",
       "kind": "tech"
     },
     {
-      "company": "NW London",
-      "amount": "AVT",
+      "company": "Encare",
+      "amount": "Thailand",
+      "kind": "tech"
+    },
+    {
+      "company": "AMA",
+      "amount": "AI framework",
       "kind": "reg"
     },
     {
-      "company": "Sirona Medical",
-      "amount": "$40M",
+      "company": "Otter Health",
+      "amount": "$8M",
       "kind": "lev"
-    },
-    {
-      "company": "Manchester",
-      "amount": "£2,4M",
-      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Market access · Hospital software",
-    "title": "NHS England announces an £838M open framework for the future of GP IT systems",
-    "deck": "The framework (announced Oct 13) has three lots: foundation patient record (appointments, prescribing, referrals), clinical and operational support tools (decision support, video consultation) and R&D. Several suppliers can be appointed per lot; the procurement is due to open in November, with the framework launch expected in Q3 2027.",
-    "company": "NHS England",
-    "sector": "Regulatory",
+    "kicker": "NHS contract · Digital pathology",
+    "title": "Diagnexia picks Sectra’s cloud platform for up to 100,000 NHS pathology cases a year",
+    "deck": "The UK digital pathology provider, a partner to more than 30 NHS organizations with over 250 specialist pathologists, will use Sectra’s Image Exchange Portal to receive, send and report cases. The contract renews annually and targets up to 100,000 cases in year one; its value was not disclosed.",
+    "company": "Diagnexia",
+    "sector": "Hospital software",
     "pillar": "marche",
     "signalType": "early_partnership",
     "strength": 3,
-    "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
+    "url": "https://nordiclifescience.org/sectra-platform-to-handle-nhs-pathology-cases-for-diagnexia/"
   },
   "milestone": {
-    "company": "Accurx",
-    "milestone": "Hospital rollout",
-    "title": "Accurx Scribe rolled out in older-people's mental health at Rotherham, Doncaster and South Humber NHS FT",
-    "summary": "First service in a trust-wide rollout: the ambient voice tool listens to the consultation and drafts notes and referral letters, which the clinician reviews and signs off before they enter the record.",
-    "why": "Each trust that adopts ambient voice pushes demand: England already has regional frameworks (Midlands, South West London) and North West London is preparing a tender.",
-    "place": "South Yorkshire",
-    "sector": "Clinical AI",
+    "company": "Encare",
+    "milestone": "First hospital in Thailand",
+    "title": "Encare signs with Thailand’s National Cancer Institute to roll out ERAS in colorectal surgery",
+    "summary": "NCI Thailand’s colorectal team joins the ERAS Implementation Program and uses Encare’s ERAS Interactive Audit System (EIAS) to track guideline adherence and clinical outcomes; it aims for ERAS Society qualification.",
+    "why": "Stockholm-based Encare already works with more than 140 hospitals in over 30 countries: clinical audit software tied to a recognized protocol, exported hospital by hospital.",
+    "place": "Stockholm",
+    "sector": "Digital Health",
     "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+    "url": "https://nordiclifescience.org/encare-enters-thailand-through-cancer-institute-deal/"
   },
-  "deal": {
-    "company": "Sirona Medical",
-    "amount": "$40M",
-    "round": "Growth",
-    "thesis": "Series D led by Avidity Partners (with 8VC and GreatPoint Ventures) for RadOS, a cloud radiology platform merging PACS, reporting, viewer and worklist. Sirona is targeting international markets (UK, Europe, South Africa, New Zealand, Australia) through Sirona Global.",
-    "sector": "Hospital software",
-    "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
-  },
-  "brefsEurope": [
+  "brefsEurope": [],
+  "brefsIntl": [
     {
-      "company": "Kainos",
-      "place": "United Kingdom",
-      "sector": "Hospital software",
+      "company": "American Medical Association",
+      "place": "Chicago",
+      "sector": "Regulatory",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "NHS England awards Kainos £9.9M to build the \"NHS Online Trust\"",
-      "summary": "Data, DevOps and end-to-end development for the virtual hospital programme (Alpha phase 2): clinician workflow tooling, integration with national systems and the NHS App.",
-      "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
+      "signalType": "regulatory_milestone",
+      "strength": 1,
+      "title": "The AMA releases a governance framework for agentic AI solutions in healthcare",
+      "summary": "The American physicians’ association framework governs the deployment of AI agents in care; a reference point for European vendors targeting the US market.",
+      "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions"
     },
     {
-      "company": "North West London Acute Provider Group",
-      "place": "London",
-      "sector": "Clinical AI",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "North West London consults suppliers ahead of its ambient voice (AVT) tender",
-      "summary": "Imperial, Chelsea and Westminster, London North West and Hillingdon are preparing a contract estimated to run from April 1, 2027 to March 31, 2030.",
-      "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
-    },
-    {
-      "company": "Manchester University NHS FT",
-      "place": "Manchester",
-      "sector": "Wearables",
-      "pillar": "innovation",
-      "signalType": "grant_award",
+      "company": "Otter Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 3,
-      "title": "UKRI funds a £2.4M wearables \"living lab\" in Manchester",
-      "summary": "Four-year Future Leaders Fellowship for Lukas Hughes-Noehrer, including an 800-patient trial in lung and hepato-pancreato-biliary surgery, with the MHRA (Manchester Sandbox).",
-      "url": "https://htn.co.uk/2026/10/08/2-4-million-in-funding-to-establish-living-lab-for-wearable-tech-in-manchester/"
+      "title": "Otter Health raises $8M for a different take on prior authorization",
+      "summary": "As prior authorization becomes an AI “arms race” between payers and providers, the startup launches an alternative approach backed by $8M.",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization"
     }
   ],
-  "brefsIntl": [],
   "word": {
-    "term": "AVT",
-    "full": "Ambient Voice Technology",
-    "fr": "Ambient voice technology (AI scribe)",
-    "field": "Clinical AI",
-    "definition": "A tool that listens to the consultation, transcribes the conversation and automatically drafts a clinical note or letter for the clinician to validate.",
+    "term": "FHIR",
+    "full": "Fast Healthcare Interoperability Resources",
+    "fr": "HL7 FHIR healthcare data exchange standard",
+    "field": "Interoperability",
+    "definition": "An HL7 standard that breaks health data into modular “resources” so different systems can exchange it.",
     "parts": [
       {
-        "label": "Ambient microphone",
-        "role": "the ear"
+        "label": "Resources",
+        "role": "the exchangeable content blocks"
       },
       {
-        "label": "Transcription + AI",
-        "role": "the pen"
+        "label": "References",
+        "role": "link resources together"
       },
       {
-        "label": "Clinician sign-off",
-        "role": "the safeguard"
+        "label": "Extensions",
+        "role": "cover what the base resources do not"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Capture",
-        "t": "The tool listens to the consultation in the room or by video."
+        "h": "Model",
+        "t": "Each piece of content is a resource, with shared metadata and a human-readable narrative."
       },
       {
         "n": "2",
-        "h": "Drafting",
-        "t": "It generates a draft of notes and referral letters."
+        "h": "Compose",
+        "t": "A use case combines several resources through references rather than relying on one."
       },
       {
         "n": "3",
-        "h": "Validation",
-        "t": "The clinician reviews and signs each draft before it enters the patient record."
+        "h": "Expose",
+        "t": "A Capability Statement describes the interfaces offered; resources are represented in JSON or XML."
       }
     ],
-    "why": "UK public procurement is accelerating: Heidi Health picked as sole supplier for 15 Midlands trusts (70,000 clinicians), Lyrebird for South West London (20,000 clinicians over 4 years), 19 scribes approved by the NHS in February. In continental Europe, Tandem Health raised a $100M Series B in September.",
+    "why": "VC angle: it is the plumbing layer for clinical AI and the European health data space. Starting from FHIR can supply a database, APIs and sample data, saving years of development — a tools market rather than an applications market.",
     "startups": [
       {
-        "name": "Accurx",
-        "use": "Accurx Scribe being rolled out at Rotherham, Doncaster and South Humber NHS FT",
-        "place": "London, UK"
+        "name": "Health Samurai",
+        "use": "Aidbox: FHIR-first platform and server that uses FHIR as its internal data model, with SQL on FHIR; commercial licence"
       },
       {
-        "name": "Tandem Health",
-        "use": "AI scribe certified MDR Class IIa (per the company), $100M Series B led by EQT's Scaleup Europe Fund (Sept 2026)",
-        "place": "Stockholm, Sweden"
+        "name": "Edenlab",
+        "use": "Kodjin: FHIR server within the Kodjin Interoperability Suite; flat-fee commercial licence"
       },
       {
-        "name": "Heidi Health",
-        "use": "Selected as sole supplier of the NHS England Midlands regional framework (15 trusts)"
-      },
-      {
-        "name": "Lyrebird Health",
-        "use": "Contract with South West London acute trusts, rollout planned for 20,000 clinicians over 4 years"
+        "name": "Medplum",
+        "use": "Open-source, FHIR-native end-to-end platform, with a free self-hosted community tier"
       }
     ],
     "sources": [
       {
-        "publisher": "HTN",
-        "title": "Rotherham, Doncaster and South Humber introduces AI scribe for mental health services",
-        "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+        "publisher": "HL7",
+        "title": "FHIR Overview",
+        "url": "https://www.hl7.org/fhir/overview.html"
       },
       {
-        "publisher": "HTN",
-        "title": "North West London trusts invite suppliers to help shape upcoming AVT procurement",
-        "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+        "publisher": "Medblocks",
+        "title": "What does it take to build a FHIR-first EHR? (Aidbox, Health Samurai CTO)",
+        "url": "https://medblocks.com/blog/what-does-it-take-to-build-a-fhir-first-ehr-aidbox"
       },
       {
-        "publisher": "HSJ",
-        "title": "NHSE region signs AI scribe deal covering 15 trusts",
-        "url": "https://www.hsj.co.uk/technology-and-innovation/nhse-region-signs-ai-scribe-deal-covering-15-trusts/8123832.article"
-      },
-      {
-        "publisher": "Unite.AI",
-        "title": "Tandem Health raises $100M Series B to build AI clinic operating system",
-        "url": "https://unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system"
+        "publisher": "SPsoft",
+        "title": "Top 8 FHIR servers for healthcare",
+        "url": "https://spsoft.com/tech-insights/top-8-fhir-servers-for-healthcare-in-2025/"
       }
     ]
   }

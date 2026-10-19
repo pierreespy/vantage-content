@@ -1,6 +1,228 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-10-19",
   "words": [
+    {
+      "term": "FHIR",
+      "full": "Fast Healthcare Interoperability Resources",
+      "fr": "Standard d'échange de données de santé HL7 FHIR",
+      "field": "Interopérabilité",
+      "definition": "Un standard HL7 qui découpe les données de santé en « ressources » modulaires pour que des systèmes différents puissent les échanger.",
+      "parts": [
+        {
+          "label": "Ressources",
+          "role": "les briques de contenu échangeables"
+        },
+        {
+          "label": "Références",
+          "role": "relient les ressources entre elles"
+        },
+        {
+          "label": "Extensions",
+          "role": "couvrent ce que la base ne prévoit pas"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Modéliser",
+          "t": "Chaque contenu est une ressource, avec métadonnées communes et un texte lisible par l'humain."
+        },
+        {
+          "n": "2",
+          "h": "Composer",
+          "t": "Un cas d'usage combine plusieurs ressources via des références plutôt qu'une seule."
+        },
+        {
+          "n": "3",
+          "h": "Exposer",
+          "t": "Un Capability Statement décrit les interfaces proposées ; les ressources sont représentées en JSON ou XML."
+        }
+      ],
+      "why": "Angle VC : c'est la couche de tuyauterie de l'IA clinique et de l'espace européen des données de santé. Partir de FHIR peut fournir base de données, API et jeux d'exemple, donc des années de développement en moins — un marché d'outils plutôt que d'applications.",
+      "startups": [
+        {
+          "name": "Health Samurai",
+          "use": "Aidbox : plateforme et serveur FHIR-first qui utilise FHIR comme modèle de données interne, avec SQL sur FHIR ; licence commerciale"
+        },
+        {
+          "name": "Edenlab",
+          "use": "Kodjin : serveur FHIR faisant partie de la Kodjin Interoperability Suite ; licence commerciale à tarif fixe"
+        },
+        {
+          "name": "Medplum",
+          "use": "Plateforme FHIR-native open source de bout en bout, avec un palier communautaire auto-hébergé gratuit"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HL7",
+          "title": "FHIR Overview",
+          "url": "https://www.hl7.org/fhir/overview.html"
+        },
+        {
+          "publisher": "Medblocks",
+          "title": "What does it take to build a FHIR-first EHR? (Aidbox, Health Samurai CTO)",
+          "url": "https://medblocks.com/blog/what-does-it-take-to-build-a-fhir-first-ehr-aidbox"
+        },
+        {
+          "publisher": "SPsoft",
+          "title": "Top 8 FHIR servers for healthcare",
+          "url": "https://spsoft.com/tech-insights/top-8-fhir-servers-for-healthcare-in-2025/"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "19 oct. 2026"
+    },
+    {
+      "term": "DEL",
+      "full": "DNA-Encoded Library",
+      "fr": "Banque de molécules codées par ADN",
+      "field": "Découverte de médicaments",
+      "definition": "Une banque de millions à milliards de molécules, chacune étiquetée par un court code ADN qui permet de retrouver laquelle se fixe sur une cible.",
+      "parts": [
+        {
+          "label": "Briques chimiques",
+          "role": "combinées pour créer la diversité"
+        },
+        {
+          "label": "Code ADN",
+          "role": "l'étiquette qui enregistre chaque étape"
+        },
+        {
+          "label": "Cible protéique",
+          "role": "l'appât sur lequel on pêche"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Construire",
+          "t": "Des briques sont assemblées par cycles « split-and-pool » ; chaque réaction est inscrite dans l'ADN attaché."
+        },
+        {
+          "n": "2",
+          "h": "Sélectionner",
+          "t": "La banque est exposée à la cible immobilisée ; ce qui ne se lie pas est éliminé par lavage."
+        },
+        {
+          "n": "3",
+          "h": "Séquencer",
+          "t": "Les codes restants sont amplifiés par PCR puis séquencés : les plus enrichis désignent les molécules candidates."
+        }
+      ],
+      "why": "Angle VC : cribler en un seul tube des milliards de molécules réduit le coût de la phase de hit-finding et alimente tout un pan de plateformes (PROTAC, glues, délivrance d'ARN). Undecimal Bio, lancée avec 18 M$ en seed, l'utilise pour trouver des vecteurs de siRNA hors du foie.",
+      "startups": [
+        {
+          "name": "Undecimal Bio",
+          "use": "Plateforme DELiveri : criblage de banques de type DEL pour trouver des conjugués qui portent le siRNA hors du foie, d'abord les maladies rénovasculaires ; seed de 18 M$",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "Vipergen",
+          "use": "Services de découverte par DEL, avec les plateformes YoctoReactor et Binder Trap Enrichment",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "HitGen",
+          "use": "Acteur de référence des DEL, hors Europe et non une startup : un comparable, avec des collaborations annoncées avec Takeda et Kymera",
+          "place": "Chine"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "title": "DNA-encoded chemical library",
+          "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
+        },
+        {
+          "publisher": "EU-Startups",
+          "title": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
+          "url": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/"
+        },
+        {
+          "publisher": "Vipergen",
+          "title": "Who is Vipergen?",
+          "url": "https://www.vipergen.com/about-us/"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "19 oct. 2026"
+    },
+    {
+      "term": "EIS",
+      "full": "Electrical Impedance Spectroscopy",
+      "fr": "Spectroscopie d'impédance électrique",
+      "field": "Diagnostic non invasif",
+      "definition": "Mesurer comment un tissu s'oppose au passage d'un très faible courant, à plusieurs fréquences, pour distinguer tissu sain et tissu anormal sans prélèvement.",
+      "parts": [
+        {
+          "label": "Sonde à électrodes",
+          "role": "injecte et mesure le signal"
+        },
+        {
+          "label": "Balayage de fréquences",
+          "role": "lit le tissu à plusieurs profondeurs"
+        },
+        {
+          "label": "Algorithme",
+          "role": "transforme le spectre en score"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Référence",
+          "t": "Une mesure est prise sur peau saine, près de la lésion."
+        },
+        {
+          "n": "2",
+          "h": "Balayage",
+          "t": "Un signal traverse la lésion sur 35 fréquences et quatre profondeurs (cas de Nevisense)."
+        },
+        {
+          "n": "3",
+          "h": "Score",
+          "t": "Un algorithme compare à la référence et sort un score d'atypie, que le médecin combine à son examen visuel."
+        }
+      ],
+      "why": "Angle VC : une mesure physique bon marché qui évite des biopsies, mais dont la valeur dépend de la preuve clinique et du remboursement. Dans l'étude pivot de Nevisense, la sensibilité atteint 96,6 % pour une spécificité de 34,4 % : un outil d'aide à la décision, pas un diagnostic autonome. La couverture Highmark montre que le payeur finit par suivre.",
+      "startups": [
+        {
+          "name": "SciBase",
+          "use": "Nevisense, EIS pour l'évaluation des lésions cutanées ; première couverture BCBS (Highmark) le 14 oct. 2026",
+          "place": "Suède"
+        },
+        {
+          "name": "Sensome",
+          "use": "Guide Clotild : microcapteur d'impédance et apprentissage automatique pour caractériser le caillot en thrombectomie ; étude CLOT OUT sur 41 patients (France, Australie)",
+          "place": "France"
+        },
+        {
+          "name": "EveryBaby",
+          "use": "Dispositif portable issu de la recherche EIS de l'Université de Sheffield pour prédire le risque d'accouchement prématuré ; en cours de levée seed",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "DermNet",
+          "title": "Electrical impedance spectroscopy for melanoma diagnosis",
+          "url": "https://dermnetnz.org/topics/electrical-impedance-spectroscopy-for-melanoma-diagnosis"
+        },
+        {
+          "publisher": "PubMed",
+          "title": "Nevisense pivotal multicentre study (Br J Dermatol, 2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24841846/"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "First in Human Data for Sensome Clot Sensing Guidewire Used in Ischemic Stroke Treatment",
+          "url": "https://www.businesswire.com/news/home/20240605707054/en/First-in-Human-Data-for-Sensome-Clot-Sensing-Guidewire-Used-in-Ischemic-Stroke-Treatment-Demonstrate-Ability-to-Automate-Clot-Characterization-With-No-Safety-Issues"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "19 oct. 2026"
+    },
     {
       "term": "AVT",
       "full": "Ambient Voice Technology",

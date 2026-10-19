@@ -1,181 +1,141 @@
 {
-  "dateLong": "18 oct. 2026",
+  "dateLong": "19 oct. 2026",
   "ticker": [
     {
-      "company": "NHS England",
-      "amount": "£838M",
-      "kind": "reg"
-    },
-    {
-      "company": "Kainos",
-      "amount": "£9,9M",
-      "kind": "reg"
-    },
-    {
-      "company": "Accurx",
-      "amount": "Scribe IA",
+      "company": "Diagnexia",
+      "amount": "100 000 cas",
       "kind": "tech"
     },
     {
-      "company": "NW London",
-      "amount": "AVT",
+      "company": "Encare",
+      "amount": "Thaïlande",
+      "kind": "tech"
+    },
+    {
+      "company": "AMA",
+      "amount": "Cadre IA",
       "kind": "reg"
     },
     {
-      "company": "Sirona Medical",
-      "amount": "$40M",
+      "company": "Otter Health",
+      "amount": "$8M",
       "kind": "lev"
-    },
-    {
-      "company": "Manchester",
-      "amount": "£2,4M",
-      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Accès au marché · Logiciel hospitalier",
-    "title": "NHS England annonce un cadre ouvert de 838 M£ pour le futur des systèmes informatiques de médecine générale",
-    "deck": "Le cadre (annoncé le 13 oct.) s'organise en trois lots : dossier patient de base (rendez-vous, prescription, adressage), outils cliniques et opérationnels (aide à la décision, téléconsultation vidéo) et R&D. Plusieurs fournisseurs pourront être retenus par lot ; l'appel d'offres doit s'ouvrir en novembre, pour un lancement du cadre attendu au T3 2027.",
-    "company": "NHS England",
-    "sector": "Réglementaire",
+    "kicker": "Contrat NHS · Pathologie numérique",
+    "title": "Diagnexia confie à la plateforme cloud de Sectra jusqu'à 100 000 cas de pathologie du NHS par an",
+    "deck": "Le prestataire britannique de pathologie numérique, partenaire de plus de 30 organisations du NHS avec plus de 250 pathologistes spécialisés, utilisera l'Image Exchange Portal de Sectra pour recevoir, envoyer et rapporter les cas. Le contrat, renouvelable chaque année, vise jusqu'à 100 000 cas la première année ; son montant n'est pas divulgué.",
+    "company": "Diagnexia",
+    "sector": "Logiciel hospitalier",
     "pillar": "marche",
     "signalType": "early_partnership",
     "strength": 3,
-    "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
+    "url": "https://nordiclifescience.org/sectra-platform-to-handle-nhs-pathology-cases-for-diagnexia/"
   },
   "milestone": {
-    "company": "Accurx",
-    "milestone": "Déploiement hospitalier",
-    "title": "Accurx Scribe déployé en santé mentale du sujet âgé au NHS Rotherham, Doncaster and South Humber",
-    "summary": "Premier service du déploiement à l'échelle du trust : l'outil de voix ambiante écoute la consultation et produit un brouillon de notes et de lettres d'adressage, que le clinicien relit et valide avant l'entrée au dossier.",
-    "why": "Chaque trust qui adopte la voix ambiante pousse la demande : l'Angleterre a déjà des cadres régionaux (Midlands, Londres Sud-Ouest) et Londres Nord-Ouest prépare un appel d'offres.",
-    "place": "Yorkshire du Sud",
-    "sector": "IA clinique",
+    "company": "Encare",
+    "milestone": "Premier hôpital en Thaïlande",
+    "title": "Encare signe avec l'Institut national du cancer de Thaïlande pour déployer l'ERAS en chirurgie colorectale",
+    "summary": "L'équipe colorectale du NCI Thailand rejoint le programme d'implémentation ERAS et utilise l'ERAS Interactive Audit System (EIAS) d'Encare pour suivre le respect des protocoles et les résultats cliniques ; elle vise la qualification de l'ERAS Society.",
+    "why": "Encare, basée à Stockholm, travaille déjà avec plus de 140 hôpitaux dans plus de 30 pays : un logiciel d'audit clinique adossé à un protocole reconnu, qui s'exporte hôpital par hôpital.",
+    "place": "Stockholm",
+    "sector": "Digital Health",
     "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+    "url": "https://nordiclifescience.org/encare-enters-thailand-through-cancer-institute-deal/"
   },
-  "deal": {
-    "company": "Sirona Medical",
-    "amount": "40 M$",
-    "round": "Growth",
-    "thesis": "Tour de Series D mené par Avidity Partners (avec 8VC et GreatPoint Ventures) pour RadOS, plateforme de radiologie cloud qui fusionne PACS, compte rendu, viewer et worklist. Sirona vise l'international (Royaume-Uni, Europe, Afrique du Sud, Nouvelle-Zélande, Australie) via Sirona Global.",
-    "sector": "Logiciel hospitalier",
-    "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
-  },
-  "brefsEurope": [
+  "brefsEurope": [],
+  "brefsIntl": [
     {
-      "company": "Kainos",
-      "place": "Royaume-Uni",
-      "sector": "Logiciel hospitalier",
+      "company": "American Medical Association",
+      "place": "Chicago",
+      "sector": "Réglementaire",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "NHS England attribue à Kainos 9,9 M£ pour le développement du « NHS Online Trust »",
-      "summary": "Données, DevOps et développement de bout en bout pour le programme d'hôpital virtuel (phase Alpha 2) : outils de workflow clinicien, intégration aux systèmes nationaux et à l'application NHS.",
-      "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
+      "signalType": "regulatory_milestone",
+      "strength": 1,
+      "title": "L'AMA publie un cadre de gouvernance pour les solutions d'IA agentique en santé",
+      "summary": "Le cadre de l'association des médecins américains encadre le déploiement d'agents d'IA en soins ; un repère pour les éditeurs européens qui visent le marché américain.",
+      "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions"
     },
     {
-      "company": "North West London Acute Provider Group",
-      "place": "Londres",
-      "sector": "IA clinique",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Londres Nord-Ouest consulte les fournisseurs avant son appel d'offres de voix ambiante (AVT)",
-      "summary": "Imperial, Chelsea and Westminster, London North West et Hillingdon préparent un contrat estimé du 1er avril 2027 au 31 mars 2030.",
-      "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
-    },
-    {
-      "company": "Manchester University NHS FT",
-      "place": "Manchester",
-      "sector": "Wearables",
-      "pillar": "innovation",
-      "signalType": "grant_award",
+      "company": "Otter Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 3,
-      "title": "UKRI finance à hauteur de 2,4 M£ un « living lab » pour les wearables à Manchester",
-      "summary": "Bourse Future Leaders Fellowship sur quatre ans pour Lukas Hughes-Noehrer, avec un essai de 800 patients en chirurgie pulmonaire et hépato-pancréato-biliaire, en lien avec la MHRA (Manchester Sandbox).",
-      "url": "https://htn.co.uk/2026/10/08/2-4-million-in-funding-to-establish-living-lab-for-wearable-tech-in-manchester/"
+      "title": "Otter Health lève 8 M$ pour une approche différente de l'autorisation préalable",
+      "summary": "Alors que l'autorisation préalable devient une « course aux armements » de l'IA entre payeurs et prestataires, la startup lance une approche alternative financée par 8 M$.",
+      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization"
     }
   ],
-  "brefsIntl": [],
   "word": {
-    "term": "AVT",
-    "full": "Ambient Voice Technology",
-    "fr": "Technologie vocale ambiante (scribe IA)",
-    "field": "IA clinique",
-    "definition": "Outil qui écoute la consultation, transcrit la conversation et en tire automatiquement un brouillon de note clinique ou de courrier, que le soignant valide.",
+    "term": "FHIR",
+    "full": "Fast Healthcare Interoperability Resources",
+    "fr": "Standard d'échange de données de santé HL7 FHIR",
+    "field": "Interopérabilité",
+    "definition": "Un standard HL7 qui découpe les données de santé en « ressources » modulaires pour que des systèmes différents puissent les échanger.",
     "parts": [
       {
-        "label": "Micro ambiant",
-        "role": "l'oreille"
+        "label": "Ressources",
+        "role": "les briques de contenu échangeables"
       },
       {
-        "label": "Transcription + IA",
-        "role": "la plume"
+        "label": "Références",
+        "role": "relient les ressources entre elles"
       },
       {
-        "label": "Validation clinicien",
-        "role": "le garde-fou"
+        "label": "Extensions",
+        "role": "couvrent ce que la base ne prévoit pas"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Capture",
-        "t": "L'outil écoute la consultation en salle ou en visio."
+        "h": "Modéliser",
+        "t": "Chaque contenu est une ressource, avec métadonnées communes et un texte lisible par l'humain."
       },
       {
         "n": "2",
-        "h": "Rédaction",
-        "t": "Il génère un brouillon de notes et de lettres d'adressage."
+        "h": "Composer",
+        "t": "Un cas d'usage combine plusieurs ressources via des références plutôt qu'une seule."
       },
       {
         "n": "3",
-        "h": "Validation",
-        "t": "Le clinicien relit et signe chaque brouillon avant son entrée au dossier patient."
+        "h": "Exposer",
+        "t": "Un Capability Statement décrit les interfaces proposées ; les ressources sont représentées en JSON ou XML."
       }
     ],
-    "why": "Les achats publics s'accélèrent au Royaume-Uni : Heidi Health retenu seul fournisseur pour 15 trusts des Midlands (70 000 cliniciens), Lyrebird pour Londres Sud-Ouest (20 000 cliniciens sur 4 ans), 19 scribes approuvés par le NHS en février. En Europe continentale, Tandem Health a levé 100 M$ en Series B en septembre.",
+    "why": "Angle VC : c'est la couche de tuyauterie de l'IA clinique et de l'espace européen des données de santé. Partir de FHIR peut fournir base de données, API et jeux d'exemple, donc des années de développement en moins — un marché d'outils plutôt que d'applications.",
     "startups": [
       {
-        "name": "Accurx",
-        "use": "Accurx Scribe en déploiement au NHS Rotherham, Doncaster and South Humber",
-        "place": "Londres, Royaume-Uni"
+        "name": "Health Samurai",
+        "use": "Aidbox : plateforme et serveur FHIR-first qui utilise FHIR comme modèle de données interne, avec SQL sur FHIR ; licence commerciale"
       },
       {
-        "name": "Tandem Health",
-        "use": "Scribe IA certifié classe IIa MDR (selon la société), Series B de 100 M$ menée par le Scaleup Europe Fund d'EQT (sept. 2026)",
-        "place": "Stockholm, Suède"
+        "name": "Edenlab",
+        "use": "Kodjin : serveur FHIR faisant partie de la Kodjin Interoperability Suite ; licence commerciale à tarif fixe"
       },
       {
-        "name": "Heidi Health",
-        "use": "Retenu comme fournisseur unique du cadre régional Midlands du NHS England (15 trusts)"
-      },
-      {
-        "name": "Lyrebird Health",
-        "use": "Contrat avec les hôpitaux aigus de Londres Sud-Ouest, déploiement prévu pour 20 000 cliniciens sur 4 ans"
+        "name": "Medplum",
+        "use": "Plateforme FHIR-native open source de bout en bout, avec un palier communautaire auto-hébergé gratuit"
       }
     ],
     "sources": [
       {
-        "publisher": "HTN",
-        "title": "Rotherham, Doncaster and South Humber introduces AI scribe for mental health services",
-        "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
+        "publisher": "HL7",
+        "title": "FHIR Overview",
+        "url": "https://www.hl7.org/fhir/overview.html"
       },
       {
-        "publisher": "HTN",
-        "title": "North West London trusts invite suppliers to help shape upcoming AVT procurement",
-        "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
+        "publisher": "Medblocks",
+        "title": "What does it take to build a FHIR-first EHR? (Aidbox, Health Samurai CTO)",
+        "url": "https://medblocks.com/blog/what-does-it-take-to-build-a-fhir-first-ehr-aidbox"
       },
       {
-        "publisher": "HSJ",
-        "title": "NHSE region signs AI scribe deal covering 15 trusts",
-        "url": "https://www.hsj.co.uk/technology-and-innovation/nhse-region-signs-ai-scribe-deal-covering-15-trusts/8123832.article"
-      },
-      {
-        "publisher": "Unite.AI",
-        "title": "Tandem Health raises $100M Series B to build AI clinic operating system",
-        "url": "https://unite.ai/tandem-health-raises-100m-series-b-to-build-ai-clinic-operating-system"
+        "publisher": "SPsoft",
+        "title": "Top 8 FHIR servers for healthcare",
+        "url": "https://spsoft.com/tech-insights/top-8-fhir-servers-for-healthcare-in-2025/"
       }
     ]
   }

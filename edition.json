@@ -1,167 +1,128 @@
 {
-  "dateLong": "18 oct. 2026",
+  "dateLong": "19 oct. 2026",
   "ticker": [
     {
-      "company": "OxyPrem",
-      "amount": "CE",
-      "kind": "reg"
-    },
-    {
-      "company": "Positrigo",
-      "amount": "EARL ✓",
-      "kind": "reg"
-    },
-    {
-      "company": "MindMaze",
-      "amount": "Étude",
+      "company": "Salvia",
+      "amount": "Essai US",
       "kind": "tech"
     },
     {
-      "company": "Sirona Medical",
-      "amount": "$40M",
-      "kind": "lev"
+      "company": "SciBase",
+      "amount": "Remb. US",
+      "kind": "reg"
     },
     {
-      "company": "EndoQuest",
-      "amount": "CCO",
+      "company": "NADMED",
+      "amount": "Partenariat",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Marquage CE · Néonatologie",
-    "title": "OxyPrem obtient le marquage CE MDR de NOAH, son oxymètre tissulaire pour le cerveau des prématurés",
-    "deck": "La start-up zurichoise OxyPrem annonce que NOAH, système d'oxymétrie tissulaire en proche infrarouge qui suit en continu et sans effraction l'oxygénation des tissus (dont le cerveau du prématuré), est marqué CE au titre du règlement MDR 2017/745 et disponible dans toute l'Europe. Le capteur réutilisable NOAH Sensor Small, à plus de 10 longueurs d'onde, affiche une précision (ARMS) de 2,5 % chez le nouveau-né.",
-    "company": "OxyPrem",
-    "sector": "MedTech",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
+    "kicker": "Essai clinique · Neurotech",
+    "title": "Salvia BioElectronics implante le premier patient américain de RECLAIM-II, son essai randomisé contre la migraine réfractaire",
+    "deck": "La société d'Eindhoven lance aux États-Unis, après autorisation de la FDA, un essai multicentrique randomisé en double aveugle du système MySalvia, deux implants ultrafins placés sous le cuir chevelu (front et nuque). Il doit inclure environ 150 adultes dans plus de 20 hôpitaux et cliniques : le passage à l'échelle américaine d'une neuromodulation déjà testée aux Pays-Bas, en Belgique et en Australie.",
+    "company": "Salvia BioElectronics",
+    "sector": "Neurotech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 4,
-    "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
+    "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment"
   },
   "milestone": {
-    "company": "Positrigo",
-    "milestone": "Accréditation EARL",
-    "title": "NeuroLF devient le premier PET dédié au cerveau accrédité EARL",
-    "summary": "Le PET ultra-compact NeuroLF, conçu uniquement pour l'imagerie cérébrale, est le premier système PET cérébral accrédité par le programme EARL (EANM Research Ltd.), qui harmonise l'imagerie PET entre centres européens. L'accréditation a été menée au département de médecine nucléaire du LMU Klinikum de Munich, où l'appareil est installé.",
-    "why": "Une accréditation EARL rend les mesures comparables d'un centre à l'autre : c'est la condition pour utiliser un PET cérébral compact dans des essais multicentriques en neurodégénératif, hors des grands services équipés d'un PET/CT corps entier.",
-    "place": "Suisse",
-    "sector": "Imagerie",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
+    "company": "SciBase",
+    "milestone": "Remboursement US",
+    "title": "SciBase décroche sa première couverture américaine d'un assureur Blue Cross Blue Shield (Highmark) pour Nevisense",
+    "summary": "Highmark, qui avec ses affiliés couvre plus de 7 millions de membres, rembourse Nevisense, le système d'aide à l'évaluation des lésions pigmentées, aux adultes dont le dermatologue envisage une biopsie (lésion de 2 à 20 mm sur le tronc ou les membres). C'est la première politique médicale positive de SciBase auprès d'un BCBS.",
+    "why": "Le remboursement fait passer l'usage du paiement direct à la prise en charge : c'est l'obstacle d'adoption que lève la société, qui poursuit ses discussions avec d'autres assureurs américains. Un exemple de la valeur d'un dossier de remboursement pour une medtech européenne qui vise les États-Unis.",
+    "place": "Stockholm",
+    "sector": "Dermatologie",
+    "signalType": "reimbursement",
+    "url": "https://nordiclifescience.org/scibase-wins-first-us-payer-coverage-for-nevisense/"
   },
   "brefsEurope": [
     {
-      "company": "MindMaze Therapeutics",
-      "place": "Suisse",
-      "sector": "Digital Health",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "MindMaze : à domicile, la dose d'entraînement moteur est multipliée par trois (revue Vibra, 177 épisodes)",
-      "summary": "Revue rétrospective sans groupe contrôle, publiée par la société : 177 épisodes de rééducation chez 172 adultes (surtout post-AVC) dans 4 sites Vibra Healthcare, 84 % de l'entraînement actif réalisé sans supervision directe, gains significatifs d'autonomie, d'équilibre, de mobilité et de cognition. MindMotion Lite, version tablette, est attendue d'ici fin 2026.",
-      "url": "https://www.finanzwire.com/press-release/mindmaze-therapeutics-reports-new-home-based-rehabilitation-results-ahead-of-mindmotion-lite-launch-eYIiGJTkpRx"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Sirona Medical",
-      "place": "Californie",
-      "sector": "Imagerie",
-      "stage": "Growth",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Sirona Medical lève 40 M$ en Series D pour sa plateforme de radiologie cloud RadOS",
-      "summary": "Tour mené par Avidity Partners, avec 8VC et GreatPoint Ventures. RadOS réunit PACS, compte rendu, viewer et worklist ; Sirona vise l'international (Royaume-Uni, Europe) via Sirona Global.",
-      "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
-    },
-    {
-      "company": "EndoQuest Robotics",
-      "place": "États-Unis",
-      "sector": "Robotique chirurgicale",
+      "company": "NADMED",
+      "place": "Helsinki",
+      "sector": "Diagnostics",
       "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "EndoQuest Robotics recrute Jared Eben (ex-HCA Healthcare) comme chief commercial officer",
-      "summary": "Ancien VP robotique/IA/neurosciences chez HCA, passé par Proximie et Auris Health. EndoQuest prépare une demande De Novo FDA pour son système chirurgical flexible (essai PARADIGM entièrement recruté en juillet 2026) et vise un lancement américain l'an prochain.",
-      "url": "https://www.medtechdive.com/news/endoquest-robotics-hires-chief-commercial-officer/833200/"
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "NADMED, spin-out de l'Université d'Helsinki, associe son test NAD au laboratoire américain Doctor's Data",
+      "summary": "Le test sanguin NAD Profile, qui mesure le NAD+ et le NADH sur une prise de sang veineuse standard, sera proposé aux praticiens américains via le laboratoire CLIA de Doctor's Data. Il n'est pas autorisé par la FDA : les dosages de NADMED restent réservés à la recherche aux États-Unis.",
+      "url": "https://nordiclifescience.org/nadmed-brings-nad-testing-to-the-us/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "NIRS",
-    "full": "Near-Infrared Spectroscopy",
-    "fr": "Spectroscopie proche infrarouge",
-    "field": "Monitoring / Néonatologie",
-    "definition": "Technique optique non invasive qui envoie de la lumière proche infrarouge à travers les tissus pour estimer en continu leur oxygénation (saturation tissulaire, StO₂).",
+    "term": "EIS",
+    "full": "Electrical Impedance Spectroscopy",
+    "fr": "Spectroscopie d'impédance électrique",
+    "field": "Diagnostic non invasif",
+    "definition": "Mesurer comment un tissu s'oppose au passage d'un très faible courant, à plusieurs fréquences, pour distinguer tissu sain et tissu anormal sans prélèvement.",
     "parts": [
       {
-        "label": "Sources lumineuses",
-        "role": "l'émetteur"
+        "label": "Sonde à électrodes",
+        "role": "injecte et mesure le signal"
       },
       {
-        "label": "Détecteurs",
-        "role": "le récepteur"
+        "label": "Balayage de fréquences",
+        "role": "lit le tissu à plusieurs profondeurs"
       },
       {
         "label": "Algorithme",
-        "role": "le traducteur"
+        "role": "transforme le spectre en score"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Émission",
-        "t": "Le capteur, posé sur la peau (par ex. le front d'un nouveau-né), émet de la lumière à plusieurs longueurs d'onde proches de l'infrarouge."
+        "h": "Référence",
+        "t": "Une mesure est prise sur peau saine, près de la lésion."
       },
       {
         "n": "2",
-        "h": "Absorption",
-        "t": "L'hémoglobine oxygénée et désoxygénée n'absorbent pas ces longueurs d'onde de la même façon ; la lumière rétrodiffusée est captée par les détecteurs."
+        "h": "Balayage",
+        "t": "Un signal traverse la lésion sur 35 fréquences et quatre profondeurs (cas de Nevisense)."
       },
       {
         "n": "3",
-        "h": "Calcul",
-        "t": "Un algorithme en déduit la saturation tissulaire (StO₂), affichée en continu."
+        "h": "Score",
+        "t": "Un algorithme compare à la référence et sort un score d'atypie, que le médecin combine à son examen visuel."
       }
     ],
-    "why": "Le NIRS est la brique commune du monitoring cérébral néonatal et des casques fNIRS portables. La barrière est réglementaire et clinique (MDR, précision chez le nouveau-né) : OxyPrem vient de franchir ce cap, tandis que des acteurs comme Artinis ou Kernel portent la même physique vers la recherche et les neurosciences.",
+    "why": "Angle VC : une mesure physique bon marché qui évite des biopsies, mais dont la valeur dépend de la preuve clinique et du remboursement. Dans l'étude pivot de Nevisense, la sensibilité atteint 96,6 % pour une spécificité de 34,4 % : un outil d'aide à la décision, pas un diagnostic autonome. La couverture Highmark montre que le payeur finit par suivre.",
     "startups": [
       {
-        "name": "OxyPrem",
-        "use": "Système NOAH : oxymétrie tissulaire NIRS dont le cerveau du prématuré, marqué CE MDR (annonce du 15 oct. 2026)",
-        "place": "Zurich, Suisse"
+        "name": "SciBase",
+        "use": "Nevisense, EIS pour l'évaluation des lésions cutanées ; première couverture BCBS (Highmark) le 14 oct. 2026",
+        "place": "Suède"
       },
       {
-        "name": "Artinis Medical Systems",
-        "use": "Systèmes (f)NIRS portables de la gamme Brite, certification ISO 13485",
-        "place": "Elst, Pays-Bas"
+        "name": "Sensome",
+        "use": "Guide Clotild : microcapteur d'impédance et apprentissage automatique pour caractériser le caillot en thrombectomie ; étude CLOT OUT sur 41 patients (France, Australie)",
+        "place": "France"
       },
       {
-        "name": "Kernel",
-        "use": "Casque Flow : fNIRS à résolution temporelle (TD-fNIRS), 52 modules",
-        "place": "États-Unis"
+        "name": "EveryBaby",
+        "use": "Dispositif portable issu de la recherche EIS de l'Université de Sheffield pour prédire le risque d'accouchement prématuré ; en cours de levée seed",
+        "place": "Royaume-Uni"
       }
     ],
     "sources": [
       {
-        "publisher": "Startupticker.ch",
-        "title": "Major developments for three Swiss Medtech startups",
-        "url": "https://www.startupticker.ch/en/news/major-developments-for-three-swiss-medtech-startups"
+        "publisher": "DermNet",
+        "title": "Electrical impedance spectroscopy for melanoma diagnosis",
+        "url": "https://dermnetnz.org/topics/electrical-impedance-spectroscopy-for-melanoma-diagnosis"
       },
       {
-        "publisher": "Venture Kick",
-        "title": "OxyPrem",
-        "url": "https://www.venturekick.ch/oxyprem"
+        "publisher": "PubMed",
+        "title": "Nevisense pivotal multicentre study (Br J Dermatol, 2014)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24841846/"
       },
       {
-        "publisher": "iMotions",
-        "title": "World leader in (f)NIRS measurements (Artinis)",
-        "url": "https://imotions.com/products/hardware/brand/artinis/"
-      },
-      {
-        "publisher": "Journal of Biomedical Optics (SPIE)",
-        "title": "Kernel Flow: a high-channel-count scalable time-domain fNIRS system",
-        "url": "https://nanophotonics.spiedigitallibrary.org/journals/journal-of-biomedical-optics/volume-27/issue-07/074710/Kernel-Flow--a-high-channel-count-scalable-time-domain/10.1117/1.JBO.27.7.074710.full"
+        "publisher": "Business Wire",
+        "title": "First in Human Data for Sensome Clot Sensing Guidewire Used in Ischemic Stroke Treatment",
+        "url": "https://www.businesswire.com/news/home/20240605707054/en/First-in-Human-Data-for-Sensome-Clot-Sensing-Guidewire-Used-in-Ischemic-Stroke-Treatment-Demonstrate-Ability-to-Automate-Clot-Characterization-With-No-Safety-Issues"
       }
     ]
   }

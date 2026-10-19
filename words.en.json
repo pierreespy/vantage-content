@@ -1,6 +1,228 @@
 {
-  "generatedAt": "2026-10-18",
+  "generatedAt": "2026-10-19",
   "words": [
+    {
+      "term": "FHIR",
+      "full": "Fast Healthcare Interoperability Resources",
+      "fr": "HL7 FHIR healthcare data exchange standard",
+      "field": "Interoperability",
+      "definition": "An HL7 standard that breaks health data into modular “resources” so different systems can exchange it.",
+      "parts": [
+        {
+          "label": "Resources",
+          "role": "the exchangeable content blocks"
+        },
+        {
+          "label": "References",
+          "role": "link resources together"
+        },
+        {
+          "label": "Extensions",
+          "role": "cover what the base resources do not"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Model",
+          "t": "Each piece of content is a resource, with shared metadata and a human-readable narrative."
+        },
+        {
+          "n": "2",
+          "h": "Compose",
+          "t": "A use case combines several resources through references rather than relying on one."
+        },
+        {
+          "n": "3",
+          "h": "Expose",
+          "t": "A Capability Statement describes the interfaces offered; resources are represented in JSON or XML."
+        }
+      ],
+      "why": "VC angle: it is the plumbing layer for clinical AI and the European health data space. Starting from FHIR can supply a database, APIs and sample data, saving years of development — a tools market rather than an applications market.",
+      "startups": [
+        {
+          "name": "Health Samurai",
+          "use": "Aidbox: FHIR-first platform and server that uses FHIR as its internal data model, with SQL on FHIR; commercial licence"
+        },
+        {
+          "name": "Edenlab",
+          "use": "Kodjin: FHIR server within the Kodjin Interoperability Suite; flat-fee commercial licence"
+        },
+        {
+          "name": "Medplum",
+          "use": "Open-source, FHIR-native end-to-end platform, with a free self-hosted community tier"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HL7",
+          "title": "FHIR Overview",
+          "url": "https://www.hl7.org/fhir/overview.html"
+        },
+        {
+          "publisher": "Medblocks",
+          "title": "What does it take to build a FHIR-first EHR? (Aidbox, Health Samurai CTO)",
+          "url": "https://medblocks.com/blog/what-does-it-take-to-build-a-fhir-first-ehr-aidbox"
+        },
+        {
+          "publisher": "SPsoft",
+          "title": "Top 8 FHIR servers for healthcare",
+          "url": "https://spsoft.com/tech-insights/top-8-fhir-servers-for-healthcare-in-2025/"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "Oct 19, 2026"
+    },
+    {
+      "term": "DEL",
+      "full": "DNA-Encoded Library",
+      "fr": "DNA-encoded chemical library",
+      "field": "Drug discovery",
+      "definition": "A library of millions to billions of molecules, each tagged with a short DNA code that identifies which one binds a target.",
+      "parts": [
+        {
+          "label": "Chemical building blocks",
+          "role": "combined to create diversity"
+        },
+        {
+          "label": "DNA barcode",
+          "role": "the tag recording each step"
+        },
+        {
+          "label": "Protein target",
+          "role": "the bait the library is fished against"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Build",
+          "t": "Building blocks are assembled in split-and-pool cycles; each reaction is recorded in the attached DNA."
+        },
+        {
+          "n": "2",
+          "h": "Select",
+          "t": "The library is exposed to the immobilized target; non-binders are washed away."
+        },
+        {
+          "n": "3",
+          "h": "Sequence",
+          "t": "The remaining codes are amplified by PCR and sequenced: the most enriched point to the hit molecules."
+        }
+      ],
+      "why": "VC angle: screening billions of molecules in one tube cuts hit-finding cost and feeds a whole class of platforms (PROTACs, glues, RNA delivery). Undecimal Bio, launched with an $18M seed, uses it to find siRNA carriers beyond the liver.",
+      "startups": [
+        {
+          "name": "Undecimal Bio",
+          "use": "DELiveri platform: DEL-style library screening to find conjugates that carry siRNA beyond the liver, starting with renovascular disease; $18M seed",
+          "place": "Cambridge, UK"
+        },
+        {
+          "name": "Vipergen",
+          "use": "DEL drug-discovery services, with the YoctoReactor and Binder Trap Enrichment platforms",
+          "place": "Copenhagen, Denmark"
+        },
+        {
+          "name": "HitGen",
+          "use": "Reference DEL player, outside Europe and not a startup: a comparable, with announced collaborations with Takeda and Kymera",
+          "place": "China"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "title": "DNA-encoded chemical library",
+          "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
+        },
+        {
+          "publisher": "EU-Startups",
+          "title": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
+          "url": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/"
+        },
+        {
+          "publisher": "Vipergen",
+          "title": "Who is Vipergen?",
+          "url": "https://www.vipergen.com/about-us/"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "Oct 19, 2026"
+    },
+    {
+      "term": "EIS",
+      "full": "Electrical Impedance Spectroscopy",
+      "fr": "Electrical impedance spectroscopy",
+      "field": "Non-invasive diagnostics",
+      "definition": "Measuring how a tissue resists a very weak electric current at several frequencies, to tell healthy from abnormal tissue without taking a sample.",
+      "parts": [
+        {
+          "label": "Electrode probe",
+          "role": "injects and measures the signal"
+        },
+        {
+          "label": "Frequency sweep",
+          "role": "reads the tissue at several depths"
+        },
+        {
+          "label": "Algorithm",
+          "role": "turns the spectrum into a score"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reference",
+          "t": "A reading is taken on healthy skin next to the lesion."
+        },
+        {
+          "n": "2",
+          "h": "Sweep",
+          "t": "A signal crosses the lesion across 35 frequencies and four depth settings (the Nevisense case)."
+        },
+        {
+          "n": "3",
+          "h": "Score",
+          "t": "An algorithm compares with the reference and outputs an atypia score, which the clinician combines with the visual exam."
+        }
+      ],
+      "why": "VC angle: a cheap physical measurement that can avoid biopsies, but whose value depends on clinical evidence and reimbursement. In Nevisense’s pivotal study sensitivity reached 96.6% at 34.4% specificity: a decision aid, not a standalone diagnosis. The Highmark coverage shows payers eventually follow.",
+      "startups": [
+        {
+          "name": "SciBase",
+          "use": "Nevisense, EIS for skin-lesion assessment; first BCBS coverage (Highmark) on Oct 14, 2026",
+          "place": "Sweden"
+        },
+        {
+          "name": "Sensome",
+          "use": "Clotild guidewire: impedance microsensor plus machine learning to characterize the clot during thrombectomy; CLOT OUT study in 41 patients (France, Australia)",
+          "place": "France"
+        },
+        {
+          "name": "EveryBaby",
+          "use": "Handheld device born from University of Sheffield EIS research to predict preterm-birth risk; currently raising a seed round",
+          "place": "United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "DermNet",
+          "title": "Electrical impedance spectroscopy for melanoma diagnosis",
+          "url": "https://dermnetnz.org/topics/electrical-impedance-spectroscopy-for-melanoma-diagnosis"
+        },
+        {
+          "publisher": "PubMed",
+          "title": "Nevisense pivotal multicentre study (Br J Dermatol, 2014)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24841846/"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "First in Human Data for Sensome Clot Sensing Guidewire Used in Ischemic Stroke Treatment",
+          "url": "https://www.businesswire.com/news/home/20240605707054/en/First-in-Human-Data-for-Sensome-Clot-Sensing-Guidewire-Used-in-Ischemic-Stroke-Treatment-Demonstrate-Ability-to-Automate-Clot-Characterization-With-No-Safety-Issues"
+        }
+      ],
+      "date": "2026-10-19",
+      "dateLong": "Oct 19, 2026"
+    },
     {
       "term": "AVT",
       "full": "Ambient Voice Technology",
