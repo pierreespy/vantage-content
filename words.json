@@ -1,6 +1,236 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "words": [
+    {
+      "term": "Virtual Ward",
+      "full": "Virtual Ward (lit virtuel / hospitalisation à domicile)",
+      "fr": "Service hospitalier à domicile avec télésurveillance",
+      "field": "Télésurveillance",
+      "definition": "Un service qui suit à domicile, avec des capteurs et une équipe soignante à distance, des patients qui auraient autrement occupé un lit d'hôpital.",
+      "parts": [
+        {
+          "label": "Capteurs",
+          "role": "les constantes du patient mesurées chez lui"
+        },
+        {
+          "label": "Algorithmes d'alerte",
+          "role": "le repérage des dégradations"
+        },
+        {
+          "label": "Équipe clinique",
+          "role": "l'intervention à distance ou à domicile"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Équiper",
+          "t": "Le patient reçoit des capteurs (wearables) qui transmettent ses mesures."
+        },
+        {
+          "n": "2",
+          "h": "Détecter",
+          "t": "Des modèles d'apprentissage automatique identifient les patients à risque de dégradation à partir des données de capteurs de qualité clinique."
+        },
+        {
+          "n": "3",
+          "h": "Agir",
+          "t": "L'équipe soignante intervient pour éviter l'admission ou raccourcir le séjour."
+        }
+      ],
+      "why": "Angle VC : un lit virtuel est un poste budgété par les systèmes de santé (Essex en compte 292, 426 avec les autres capacités). Les acteurs européens se financent pour s'étendre au-delà du Royaume-Uni. Point d'attention : l'absence de financement national récurrent, qui oblige les organisations à l'intégrer à leurs budgets.",
+      "startups": [
+        {
+          "name": "Doccla",
+          "use": "Plateforme de virtual ward et de télésurveillance utilisée par des trusts du NHS ; Série B de 35 M£ menée par Lakestar pour s'étendre en France et dans la zone DACH",
+          "place": "Londres"
+        },
+        {
+          "name": "Huma",
+          "use": "Plateforme de suivi à distance déployée dans de nombreux hôpitaux, dont au NHS ; Série D de 80 M$ en 2024",
+          "place": "Londres"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HTN",
+          "title": "Essex ICB outlines role of digital in 2026/27 system winter plan",
+          "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Doccla Secures $45.9M to Scale Virtual Ward Solutions Across Europe",
+          "url": "https://hitconsultant.net/2024/09/03/doccla-virtual-ward-solutions-funding/"
+        },
+        {
+          "publisher": "IT Brief UK",
+          "title": "Doccla: AI virtual wards ease NHS backlog and admissions",
+          "url": "https://itbrief.co.uk/story/doccla-ai-virtual-wards-ease-nhs-backlog-admissions"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "20 oct. 2026"
+    },
+    {
+      "term": "Neoantigen Vaccine",
+      "full": "Neoantigen Cancer Vaccine",
+      "fr": "Vaccin anticancéreux à néoantigènes",
+      "field": "Immuno-oncologie",
+      "definition": "Un vaccin qui apprend au système immunitaire à reconnaître des fragments de protéines propres à la tumeur (les néoantigènes), absents des cellules saines.",
+      "parts": [
+        {
+          "label": "Néoantigènes",
+          "role": "la cible, spécifique de la tumeur"
+        },
+        {
+          "label": "Vecteur",
+          "role": "le véhicule viral qui les livre"
+        },
+        {
+          "label": "Lymphocytes T",
+          "role": "les soldats qui attaquent les cellules marquées"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Choisir les cibles",
+          "t": "Soit des néoantigènes partagés entre patients (cas de NOUS-209 : 209 néoantigènes de décalage de cadre), soit une sélection individualisée par algorithme (jusqu'à 30 pour TG4050)."
+        },
+        {
+          "n": "2",
+          "h": "Livrer par un vecteur",
+          "t": "Les cibles sont codées dans des vecteurs viraux (deux vecteurs pour NOUS-209, virus MVA pour TG4050) ou des peptides (EVX-01)."
+        },
+        {
+          "n": "3",
+          "h": "Déclencher la réponse T",
+          "t": "Le système immunitaire produit des lymphocytes T CD8 dirigés contre ces marqueurs, pour prévenir ou retarder la tumeur."
+        }
+      ],
+      "why": "Angle VC : le tour de 120 M€ de Nouscom montre que la prévention du cancer chez les porteurs d'un syndrome génétique (Lynch) devient finançable, avec un design d'essai d'enregistrement discuté avec la FDA et l'EMA. Prudence : les données sont de petites études comparées à des données historiques ou rapportées par les sociétés.",
+      "startups": [
+        {
+          "name": "Nouscom",
+          "use": "Vaccin prêt à l'emploi NOUS-209 (209 néoantigènes partagés) pour le syndrome de Lynch ; Série D de 120 M€, Fast Track de la FDA",
+          "place": "Bâle"
+        },
+        {
+          "name": "Evaxion",
+          "use": "Vaccin individualisé EVX-01 conçu par IA ; phase 2 dans le mélanome avec 75 % de réponse objective (12 patients sur 16) à deux ans",
+          "place": "Hørsholm"
+        },
+        {
+          "name": "Transgene",
+          "use": "TG4050, vaccin individualisé à vecteur MVA codant jusqu'à 30 néoantigènes, avec NEC ; données de phase 1 publiées dans Nature Communications (septembre 2026)",
+          "place": "France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Nouscom raises €120M to advance cancer prevention vaccine",
+          "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01",
+          "url": "https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01"
+        },
+        {
+          "publisher": "Boursorama",
+          "title": "Transgene and NEC report 100% three-year disease-free survival with TG4050 and publish Phase 1 results in Nature Communications",
+          "url": "https://www.boursorama.com/bourse/actualites/transgene-and-nec-report-100-three-year-disease-free-survival-with-tg4050-and-publish-phase-1-results-in-nature-communications-8c24ad91c20562d9d460f72e6423be9c"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "20 oct. 2026"
+    },
+    {
+      "term": "Surgical Video AI",
+      "full": "Surgical Video AI (IA sur vidéo chirurgicale)",
+      "fr": "Intelligence artificielle appliquée à la vidéo opératoire",
+      "field": "IA chirurgicale",
+      "definition": "Des modèles de vision par ordinateur qui analysent la vidéo d'une opération pour la documenter, la coder, aider le chirurgien en direct ou nourrir la formation.",
+      "parts": [
+        {
+          "label": "Capture vidéo",
+          "role": "la matière première (endoscope, caméra du bloc)"
+        },
+        {
+          "label": "Modèle de vision",
+          "role": "le cerveau qui reconnaît gestes et tissus"
+        },
+        {
+          "label": "Livrable",
+          "role": "rapport, codage, aide en direct ou formation"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capter",
+          "t": "Le flux vidéo de l'opération, souvent combiné à l'imagerie du patient, est récupéré sur le matériel déjà installé à l'hôpital."
+        },
+        {
+          "n": "2",
+          "h": "Analyser",
+          "t": "Un modèle d'IA interprète la scène chirurgicale pour en extraire les étapes de la procédure."
+        },
+        {
+          "n": "3",
+          "h": "Restituer",
+          "t": "Le résultat prend la forme d'un compte rendu opératoire ou d'un codage procédural, d'une aide au chirurgien ou d'un support de formation et de planification."
+        }
+      ],
+      "why": "Angle VC : la vidéo chirurgicale est une donnée encore peu exploitée et plusieurs jeunes sociétés européennes lèvent des seed pour la transformer en documentation, codage et aide à la décision. La question à suivre est réglementaire (statut de dispositif médical logiciel) et commerciale (accès aux blocs, intégration à l'existant).",
+      "startups": [
+        {
+          "name": "XRlabs",
+          "use": "Copilote IA combinant vidéo chirurgicale et imagerie patient sur le matériel hospitalier existant ; seed de 8,4 M$ (Playground Global, Eka Ventures)",
+          "place": "Londres"
+        },
+        {
+          "name": "Uncovr",
+          "use": "Génère comptes rendus opératoires et codage procédural à partir de la vidéo chirurgicale ; seed de 6 M€ mené par Index Ventures (juin 2026)",
+          "place": "Paris"
+        },
+        {
+          "name": "Hypervision Surgical",
+          "use": "Spin-out du King's College London : analyse des tissus en temps réel au bloc opératoire ; seed de 6,5 M£",
+          "place": "Londres"
+        },
+        {
+          "name": "SurgExplore",
+          "use": "Spin-out de l'Université de Berne : transforme les vidéos de chirurgie en formation, planification préopératoire et rapports post-opératoires ; seed de 173 k$",
+          "place": "Berne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MobiHealthNews",
+          "title": "XRlabs raises $8.4M for AI surgical platform",
+          "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform"
+        },
+        {
+          "publisher": "BeBeez",
+          "title": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records",
+          "url": "https://bebeez.eu/2026/06/10/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/"
+        },
+        {
+          "publisher": "King's College London",
+          "title": "King's surgical AI spin-out Hypervision Surgical secures £6.5m seed investment",
+          "url": "https://www.kcl.ac.uk/news/kings-surgical-ai-spin-out-hypervision-surgical-secures-6.5m-seed-investment"
+        },
+        {
+          "publisher": "Signalbase",
+          "title": "SurgExplore secures $173K seed funding",
+          "url": "https://www.trysignalbase.com/news/funding/surgexplore-secures-173k-seed-funding"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "20 oct. 2026"
+    },
     {
       "term": "FHIR",
       "full": "Fast Healthcare Interoperability Resources",

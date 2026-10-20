@@ -1,129 +1,100 @@
 {
-  "dateLong": "Oct 19, 2026",
+  "dateLong": "Oct 20, 2026",
   "ticker": [
-    {
-      "company": "Salvia",
-      "amount": "US trial",
-      "kind": "tech"
-    },
-    {
-      "company": "SciBase",
-      "amount": "US coverage",
-      "kind": "reg"
-    },
-    {
-      "company": "NADMED",
-      "amount": "Partnership",
-      "kind": "tech"
-    }
+    { "company": "XRlabs", "amount": "$8.4M", "kind": "lev" },
+    { "company": "Integrum", "amount": "OPRA 97.9%", "kind": "tech" },
+    { "company": "Genetic Analysis", "amount": "UEG Week", "kind": "tech" },
+    { "company": "Medtronic", "amount": "CE", "kind": "reg" },
+    { "company": "Sequel", "amount": "FDA", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Clinical trial · Neurotech",
-    "title": "Salvia BioElectronics implants the first US patient in RECLAIM-II, its randomized trial in refractory migraine",
-    "deck": "The Eindhoven company is starting a US multicenter, randomized, double-blind trial of the MySalvia system after FDA authorization: two ultra-thin implants placed under the scalp (forehead and back of the head). It is expected to enroll about 150 adults at more than 20 hospitals and clinics, scaling up a neuromodulation therapy already studied in the Netherlands, Belgium and Australia.",
-    "company": "Salvia BioElectronics",
-    "sector": "Neurotech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment"
+    "kicker": "Seed · Surgical AI",
+    "title": "London's XRlabs raises $8.4M seed led by Playground Global for its operating-room AI copilot",
+    "deck": "The round is led by Playground Global, with Eka Ventures. The copilot combines surgical video and patient imaging using equipment hospitals already have; the funds will expand engineering and clinical teams, open regulatory pathways (UK, Europe, US) and build the clinical evidence base.",
+    "company": "XRlabs",
+    "stage": "Seed",
+    "sector": "MedTech",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform"
   },
   "milestone": {
-    "company": "SciBase",
-    "milestone": "US coverage",
-    "title": "SciBase wins its first US coverage from a Blue Cross Blue Shield insurer (Highmark) for Nevisense",
-    "summary": "Highmark, which with its affiliates covers more than 7 million members, will reimburse Nevisense, the skin-lesion assessment system, for adults whose dermatologist is considering a biopsy (lesion of 2–20 mm on the trunk or limbs). It is SciBase’s first positive medical policy from a BCBS organization.",
-    "why": "Coverage moves use from cash pay to reimbursed care, removing a key adoption barrier; the company is continuing talks with other US payers. A case study of what a reimbursement file is worth to a European medtech targeting the US.",
-    "place": "Stockholm",
-    "sector": "Dermatology",
-    "signalType": "reimbursement",
-    "url": "https://nordiclifescience.org/scibase-wins-first-us-payer-coverage-for-nevisense/"
+    "company": "Integrum",
+    "milestone": "Clinical data",
+    "title": "Integrum's OPRA implant: 97.9% one-year survival in Ukrainian veterans with limb loss",
+    "summary": "A retrospective study by Ukrainian surgeons (International Orthopaedics) covers 49 veterans operated on in 2023-2024; 45 completed both surgical stages (47 implants). Implant survival reaches 97.9% at one year and 93.2% at a median 18.7 months of follow-up, with no mechanical complications; 18% of patients had an infection in the first year.",
+    "why": "Osseointegration (a prosthesis anchored in the bone, no socket) is building real-world evidence just as Ukraine decided in September on a state-funded pilot (first 25 patients in 2026). A public-demand signal for a listed Swedish medtech already MDR-certified and FDA-approved.",
+    "place": "Mölndal",
+    "sector": "Orthopedics",
+    "signalType": "publication_preprint",
+    "url": "https://nordiclifescience.org/integrums-opra-implant-shows-high-survival-in-ukrainian-war-veterans/"
   },
   "brefsEurope": [
     {
-      "company": "NADMED",
-      "place": "Helsinki",
+      "company": "Genetic Analysis",
+      "place": "Norway",
       "sector": "Diagnostics",
-      "pillar": "marche",
-      "signalType": "early_partnership",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
       "strength": 2,
-      "title": "NADMED, a University of Helsinki spin-out, partners with US lab Doctor's Data on its NAD test",
-      "summary": "The NAD Profile blood test, which measures NAD+ and NADH from a standard venous draw, will be offered to US practitioners through Doctor's Data’s CLIA lab. It is not FDA-cleared: NADMED’s assays remain research-use-only in the US.",
-      "url": "https://nordiclifescience.org/nadmed-brings-nad-testing-to-the-us/"
+      "title": "Genetic Analysis presents its GA-map IBD Precision Dx test at UEG Week to predict aggressive ulcerative colitis",
+      "summary": "The company's first oral presentation at UEG Week (Barcelona): at diagnosis, the test identifies a microbiome profile linked to an aggressive course of ulcerative colitis, to guide treatment over the first 12 months. Developed with Akershus University Hospital and the University of Gothenburg.",
+      "url": "https://nordiclifescience.org/genetic-analysis-presents-ulcerative-colitis-risk-test-at-ueg-week/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Medtronic",
+      "place": "Minneapolis",
+      "sector": "Cardio",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Medtronic wins CE mark for its Vitalis family of conduction system pacemakers",
+      "summary": "The range (ReSyncra CSP, Restoria CSP, Refina CSP, Effectra, Confirma) targets conduction system pacing, which uses the heart's natural electrical pathways. A market comparable for start-ups in physiological pacing.",
+      "url": "https://www.massdevice.com/medtronic-nets-ce-mark-for-vitalis-family-of-conduction-system-pacemakers/"
+    },
+    {
+      "company": "Sequel Med Tech",
+      "place": "United States",
+      "sector": "Diabetes",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "FDA clears Sequel's twiist insulin delivery system for type 2 diabetes",
+      "summary": "Indication extended to type 2 diabetes for Sequel's automated pump, while Dexcom awaits Medicare's decision on broader glucose-sensor coverage.",
+      "url": "https://www.medtechdive.com/news/fda-clears-sequels-insulin-delivery-system-in-type-2-diabetes/833317/"
+    }
+  ],
   "word": {
-    "term": "EIS",
-    "full": "Electrical Impedance Spectroscopy",
-    "fr": "Electrical impedance spectroscopy",
-    "field": "Non-invasive diagnostics",
-    "definition": "Measuring how a tissue resists a very weak electric current at several frequencies, to tell healthy from abnormal tissue without taking a sample.",
+    "term": "Surgical Video AI",
+    "full": "Surgical Video AI",
+    "fr": "Artificial intelligence applied to operative video",
+    "field": "Surgical AI",
+    "definition": "Computer-vision models that analyze the video of an operation to document it, code it, assist the surgeon live or feed training.",
     "parts": [
-      {
-        "label": "Electrode probe",
-        "role": "injects and measures the signal"
-      },
-      {
-        "label": "Frequency sweep",
-        "role": "reads the tissue at several depths"
-      },
-      {
-        "label": "Algorithm",
-        "role": "turns the spectrum into a score"
-      }
+      { "label": "Video capture", "role": "the raw material (endoscope, operating-room camera)" },
+      { "label": "Vision model", "role": "the brain that recognizes gestures and tissue" },
+      { "label": "Output", "role": "report, coding, live assistance or training" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Reference",
-        "t": "A reading is taken on healthy skin next to the lesion."
-      },
-      {
-        "n": "2",
-        "h": "Sweep",
-        "t": "A signal crosses the lesion across 35 frequencies and four depth settings (the Nevisense case)."
-      },
-      {
-        "n": "3",
-        "h": "Score",
-        "t": "An algorithm compares with the reference and outputs an atypia score, which the clinician combines with the visual exam."
-      }
+      { "n": "1", "h": "Capture", "t": "The operation's video stream, often combined with patient imaging, is collected from equipment already installed in the hospital." },
+      { "n": "2", "h": "Analyze", "t": "An AI model interprets the surgical scene to extract the steps of the procedure." },
+      { "n": "3", "h": "Deliver", "t": "The result takes the form of an operative report or procedural coding, surgeon assistance, or training and planning material." }
     ],
-    "why": "VC angle: a cheap physical measurement that can avoid biopsies, but whose value depends on clinical evidence and reimbursement. In Nevisense’s pivotal study sensitivity reached 96.6% at 34.4% specificity: a decision aid, not a standalone diagnosis. The Highmark coverage shows payers eventually follow.",
+    "why": "VC angle: surgical video is still an under-used dataset, and several young European companies are raising seeds to turn it into documentation, coding and decision support. The questions to watch are regulatory (software-as-a-medical-device status) and commercial (access to operating rooms, integration with existing systems).",
     "startups": [
-      {
-        "name": "SciBase",
-        "use": "Nevisense, EIS for skin-lesion assessment; first BCBS coverage (Highmark) on Oct 14, 2026",
-        "place": "Sweden"
-      },
-      {
-        "name": "Sensome",
-        "use": "Clotild guidewire: impedance microsensor plus machine learning to characterize the clot during thrombectomy; CLOT OUT study in 41 patients (France, Australia)",
-        "place": "France"
-      },
-      {
-        "name": "EveryBaby",
-        "use": "Handheld device born from University of Sheffield EIS research to predict preterm-birth risk; currently raising a seed round",
-        "place": "United Kingdom"
-      }
+      { "name": "XRlabs", "use": "AI copilot combining surgical video and patient imaging on existing hospital equipment; $8.4M seed (Playground Global, Eka Ventures)", "place": "London" },
+      { "name": "Uncovr", "use": "Generates operative reports and procedural coding from surgical video; €6M seed led by Index Ventures (June 2026)", "place": "Paris" },
+      { "name": "Hypervision Surgical", "use": "King's College London spin-out: real-time tissue analysis in the operating room; £6.5M seed", "place": "London" },
+      { "name": "SurgExplore", "use": "University of Bern spin-out: turns surgery videos into training, pre-operative planning and post-operative reports; $173K seed", "place": "Bern" }
     ],
     "sources": [
-      {
-        "publisher": "DermNet",
-        "title": "Electrical impedance spectroscopy for melanoma diagnosis",
-        "url": "https://dermnetnz.org/topics/electrical-impedance-spectroscopy-for-melanoma-diagnosis"
-      },
-      {
-        "publisher": "PubMed",
-        "title": "Nevisense pivotal multicentre study (Br J Dermatol, 2014)",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/24841846/"
-      },
-      {
-        "publisher": "Business Wire",
-        "title": "First in Human Data for Sensome Clot Sensing Guidewire Used in Ischemic Stroke Treatment",
-        "url": "https://www.businesswire.com/news/home/20240605707054/en/First-in-Human-Data-for-Sensome-Clot-Sensing-Guidewire-Used-in-Ischemic-Stroke-Treatment-Demonstrate-Ability-to-Automate-Clot-Characterization-With-No-Safety-Issues"
-      }
+      { "publisher": "MobiHealthNews", "title": "XRlabs raises $8.4M for AI surgical platform", "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform" },
+      { "publisher": "BeBeez", "title": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records", "url": "https://bebeez.eu/2026/06/10/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/" },
+      { "publisher": "King's College London", "title": "King's surgical AI spin-out Hypervision Surgical secures £6.5m seed investment", "url": "https://www.kcl.ac.uk/news/kings-surgical-ai-spin-out-hypervision-surgical-secures-6.5m-seed-investment" },
+      { "publisher": "Signalbase", "title": "SurgExplore secures $173K seed funding", "url": "https://www.trysignalbase.com/news/funding/surgexplore-secures-173k-seed-funding" }
     ]
   }
 }

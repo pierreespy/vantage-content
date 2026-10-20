@@ -1,142 +1,151 @@
 {
-  "dateLong": "Oct 19, 2026",
+  "dateLong": "Oct 20, 2026",
   "ticker": [
-    {
-      "company": "Sobi",
-      "amount": "CHMP",
-      "kind": "reg"
-    },
-    {
-      "company": "Modus",
-      "amount": "Pause",
-      "kind": "tech"
-    },
-    {
-      "company": "City Therapeutics",
-      "amount": "$200M",
-      "kind": "lev"
-    },
-    {
-      "company": "Iambic",
-      "amount": "$150M",
-      "kind": "lev"
-    }
+    { "company": "Nouscom", "amount": "€120M", "kind": "lev" },
+    { "company": "Silence", "amount": "$1.3B", "kind": "mna" },
+    { "company": "Ascendis", "amount": "CHMP", "kind": "reg" },
+    { "company": "Orphelia", "amount": "CHMP", "kind": "reg" },
+    { "company": "OSE", "amount": "Ph2 ✓", "kind": "tech" },
+    { "company": "Evaxion", "amount": "3 yrs", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "CHMP opinion · Cardiometabolic",
-    "title": "Sobi wins a positive CHMP opinion for Tryngolza (olezarsen) in severe hypertriglyceridemia",
-    "deck": "The EMA committee recommends Ionis’s antisense medicine, licensed to Sobi outside the US, for adults with fasting triglycerides ≥ 880 mg/dL (10 mmol/L). The Phase III CORE and CORE2 trials show up to a 72% triglyceride reduction and 85% fewer acute pancreatitis episodes; the European Commission decision is expected in Q4 2026.",
-    "company": "Sobi",
-    "sector": "RNA",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://nordiclifescience.org/sobi-wins-chmp-backing-for-tryngolza/"
+    "kicker": "Series D · Vaccines",
+    "title": "Nouscom raises €120M Series D for its preventive vaccine against Lynch syndrome cancers",
+    "deck": "The oversubscribed round is co-led by M Ventures and Revelation Partners, with new entrants (Angelini Industries, the European Investment Bank via Aurea, Neva SGR). It funds a single registration-enabling trial for NOUS-209, an off-the-shelf vaccine encoding 209 shared neoantigens, whose design was discussed with the FDA and EMA.",
+    "company": "Nouscom",
+    "stage": "Growth",
+    "sector": "Vaccines",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/"
   },
   "milestone": {
-    "company": "Modus Therapeutics",
-    "milestone": "Enrollment pause",
-    "title": "Modus Therapeutics pauses enrollment in its sevuparin Phase IIa after a serious adverse event",
-    "summary": "One patient in Part 2 of the study in anemia of chronic kidney disease (two Italian centers) had a SUSAR: a link to the drug can be neither ruled out nor established. The pause is voluntary and no other patient was on treatment.",
-    "why": "The proof-of-concept readout slips to Q1 2027 and cash, extended by the September 2026 share issue, is guided into Q2 2027: a reminder of timeline risk for small listed biotechs.",
-    "place": "Stockholm",
+    "company": "Ascendis Pharma",
+    "milestone": "CHMP opinion",
+    "title": "Ascendis wins positive CHMP opinion for navepegritide (Yuviwel) in pediatric achondroplasia",
+    "summary": "The EMA committee recommends approval of this once-weekly treatment for children aged 2 and older. In the 52-week study, treated children grew 1.49 cm more per year than on placebo.",
+    "why": "A weekly injection versus BioMarin's daily Voxzogo: the adherence advantage is the heart of the thesis. The European Commission's final decision is still to come.",
+    "place": "Denmark",
     "sector": "Biotech",
-    "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/modus-therapeutics-pauses-enrollment-in-sevuparin-study/"
+    "signalType": "regulatory_milestone",
+    "url": "https://nordiclifescience.org/ascendis-wins-chmp-backing-for-achondroplasia-drug/"
   },
   "deal": {
-    "company": "City Therapeutics",
-    "amount": "$200M",
-    "round": "IPO",
-    "thesis": "A $200M IPO for a next-generation RNAi developer: three medicines in or near the clinic, plus early work on delivering RNAi beyond the liver. A direct comparable for European extrahepatic-delivery startups such as Undecimal Bio.",
+    "company": "Silence Therapeutics",
+    "amount": "$1.3B",
+    "round": "M&A",
+    "thesis": "Merck KGaA is buying the UK RNAi biotech for cash at $20 per ADS, a 130% premium to the October 16 close, after a competitive process. The price rewards Phase 2 data seen as potentially best-in-class for divesiran in polycythemia vera; closing expected in Q1 2027.",
     "sector": "RNA",
-    "url": "https://www.biopharmadive.com/news/city-therapeutics-ipo-price-rnai-drugs/832945/"
+    "url": "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "OSE Immunotherapeutics",
+      "place": "France",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "OSE: Tedopi with docetaxel or nivolumab lifts one-year survival to 47% and 46% (vs 29%) in lung cancer",
+      "summary": "Phase 2 Combi-TED, 106 HLA-A2+ patients who failed chemotherapy and immunotherapy. No Tedopi-alone arm, so the contribution of the combinations remains to be isolated; full results at ESMO on October 25.",
+      "url": "https://european-biotechnology.com/latest-news/ose-reports-positive-phase-2-data-but-questions-remain/"
+    },
+    {
+      "company": "Orphelia Pharma",
+      "place": "Europe",
+      "sector": "Oncology",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Orphelia Pharma wins positive CHMP opinion for Kizfizo (liquid temozolomide) in glioblastoma",
+      "summary": "Indicated for adults with newly diagnosed glioblastoma and for adults and children with recurrent malignant glioma. CHMP had rejected the product in 2025 in pediatric neuroblastoma: a second chance.",
+      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
+    },
+    {
+      "company": "Evaxion",
+      "place": "Hørsholm",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Evaxion: EVX-01 vaccine responses in melanoma hold at three years",
+      "summary": "In the Phase 2, all patients kept their clinical response at three years, with no tumor progression. A 16-patient study, results reported by the company.",
+      "url": "https://nordiclifescience.org/evaxions-cancer-vaccine-responses-hold-at-three-years/"
+    },
+    {
+      "company": "BioInvent",
+      "place": "Sweden",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "BioInvent publishes first-in-human data for BI-1808, an anti-TNFR2 antibody",
+      "summary": "Phase 1 dose escalation reached no maximum tolerated dose; all treatment-related adverse events are grade 1 or 2.",
+      "url": "https://nordiclifescience.org/bioinvent-publishes-first-in-human-data-for-bi-1808/"
+    },
+    {
+      "company": "Calluna Pharma",
+      "place": "Nordics",
+      "sector": "Biotech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Calluna completes dosing in its Phase 2 AURORA trial in idiopathic pulmonary fibrosis",
+      "summary": "Dosing of CAL101 in the AURORA study is finished; topline results are expected in Q1 2027.",
+      "url": "https://nordiclifescience.org/calluna-completes-dosing-in-phase-2-ipf-trial/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Iambic Therapeutics",
-      "place": "San Diego",
-      "sector": "AI drug discovery",
+      "company": "Hansoh Pharma",
+      "place": "China",
+      "sector": "Oncology",
       "pillar": "financement",
-      "signalType": "funding_round",
+      "signalType": "early_partnership",
       "strength": 4,
-      "title": "Iambic, an AI drug-discovery specialist, raises $150M in an IPO",
-      "summary": "In regulatory filings the company says its AI approach could upend traditional drug discovery. A market window for AI platforms that European startups can read as an exit signal.",
-      "url": "https://www.biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771/"
+      "title": "Roche signs a new ADC pact with Hansoh, up to $15B in biobucks",
+      "summary": "A year after their first collaboration, the Swiss group returns to the Chinese ADC specialist: one more comparable of the weight of Chinese licenses in European pharma portfolios.",
+      "url": "https://www.fiercebiotech.com/biotech/roche-returns-chinas-adc-powerhouse-hansoh-15b-biobucks-pact"
+    },
+    {
+      "company": "Revolution Medicines",
+      "place": "United States",
+      "sector": "Oncology",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "CHMP backs Rasonque (daraxonrasib) in previously treated metastatic pancreatic cancer",
+      "summary": "500-patient Phase 3: median overall survival of 12.4 months versus 6.7 months on chemotherapy. Reviewed through the EMA's Cancer Medicines Pathfinder.",
+      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
     }
   ],
   "word": {
-    "term": "DEL",
-    "full": "DNA-Encoded Library",
-    "fr": "DNA-encoded chemical library",
-    "field": "Drug discovery",
-    "definition": "A library of millions to billions of molecules, each tagged with a short DNA code that identifies which one binds a target.",
+    "term": "Neoantigen Vaccine",
+    "full": "Neoantigen Cancer Vaccine",
+    "fr": "Neoantigen cancer vaccine",
+    "field": "Immuno-oncology",
+    "definition": "A vaccine that teaches the immune system to recognize protein fragments unique to the tumor (neoantigens), absent from healthy cells.",
     "parts": [
-      {
-        "label": "Chemical building blocks",
-        "role": "combined to create diversity"
-      },
-      {
-        "label": "DNA barcode",
-        "role": "the tag recording each step"
-      },
-      {
-        "label": "Protein target",
-        "role": "the bait the library is fished against"
-      }
+      { "label": "Neoantigens", "role": "the target, specific to the tumor" },
+      { "label": "Vector", "role": "the viral vehicle that delivers them" },
+      { "label": "T cells", "role": "the soldiers that attack the marked cells" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Build",
-        "t": "Building blocks are assembled in split-and-pool cycles; each reaction is recorded in the attached DNA."
-      },
-      {
-        "n": "2",
-        "h": "Select",
-        "t": "The library is exposed to the immobilized target; non-binders are washed away."
-      },
-      {
-        "n": "3",
-        "h": "Sequence",
-        "t": "The remaining codes are amplified by PCR and sequenced: the most enriched point to the hit molecules."
-      }
+      { "n": "1", "h": "Choose the targets", "t": "Either neoantigens shared between patients (NOUS-209: 209 frameshift neoantigens), or an algorithm-individualized selection (up to 30 for TG4050)." },
+      { "n": "2", "h": "Deliver via a vector", "t": "The targets are encoded in viral vectors (two vectors for NOUS-209, MVA virus for TG4050) or peptides (EVX-01)." },
+      { "n": "3", "h": "Trigger the T-cell response", "t": "The immune system produces CD8 T cells directed against these markers, to prevent or delay the tumor." }
     ],
-    "why": "VC angle: screening billions of molecules in one tube cuts hit-finding cost and feeds a whole class of platforms (PROTACs, glues, RNA delivery). Undecimal Bio, launched with an $18M seed, uses it to find siRNA carriers beyond the liver.",
+    "why": "VC angle: Nouscom's €120M round shows that cancer prevention in carriers of a genetic syndrome (Lynch) is becoming fundable, with a registration trial design discussed with the FDA and EMA. Caution: the data come from small studies compared with historical data or reported by the companies.",
     "startups": [
-      {
-        "name": "Undecimal Bio",
-        "use": "DELiveri platform: DEL-style library screening to find conjugates that carry siRNA beyond the liver, starting with renovascular disease; $18M seed",
-        "place": "Cambridge, UK"
-      },
-      {
-        "name": "Vipergen",
-        "use": "DEL drug-discovery services, with the YoctoReactor and Binder Trap Enrichment platforms",
-        "place": "Copenhagen, Denmark"
-      },
-      {
-        "name": "HitGen",
-        "use": "Reference DEL player, outside Europe and not a startup: a comparable, with announced collaborations with Takeda and Kymera",
-        "place": "China"
-      }
+      { "name": "Nouscom", "use": "Off-the-shelf vaccine NOUS-209 (209 shared neoantigens) for Lynch syndrome; €120M Series D, FDA Fast Track", "place": "Basel" },
+      { "name": "Evaxion", "use": "AI-designed individualized vaccine EVX-01; Phase 2 in melanoma with 75% objective response (12 of 16 patients) at two years", "place": "Hørsholm" },
+      { "name": "Transgene", "use": "TG4050, individualized MVA-vector vaccine encoding up to 30 neoantigens, with NEC; Phase 1 data published in Nature Communications (September 2026)", "place": "France" }
     ],
     "sources": [
-      {
-        "publisher": "Wikipedia",
-        "title": "DNA-encoded chemical library",
-        "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
-      },
-      {
-        "publisher": "EU-Startups",
-        "title": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
-        "url": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/"
-      },
-      {
-        "publisher": "Vipergen",
-        "title": "Who is Vipergen?",
-        "url": "https://www.vipergen.com/about-us/"
-      }
+      { "publisher": "European Biotechnology", "title": "Nouscom raises €120M to advance cancer prevention vaccine", "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/" },
+      { "publisher": "BioSpace", "title": "Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01", "url": "https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01" },
+      { "publisher": "Boursorama", "title": "Transgene and NEC report 100% three-year disease-free survival with TG4050 and publish Phase 1 results in Nature Communications", "url": "https://www.boursorama.com/bourse/actualites/transgene-and-nec-report-100-three-year-disease-free-survival-with-tg4050-and-publish-phase-1-results-in-nature-communications-8c24ad91c20562d9d460f72e6423be9c" }
     ]
   }
 }

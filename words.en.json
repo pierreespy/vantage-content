@@ -1,6 +1,236 @@
 {
-  "generatedAt": "2026-10-19",
+  "generatedAt": "2026-10-20",
   "words": [
+    {
+      "term": "Virtual Ward",
+      "full": "Virtual Ward (hospital at home with remote monitoring)",
+      "fr": "Hospital-at-home service with remote monitoring",
+      "field": "Remote monitoring",
+      "definition": "A service that follows patients at home, with sensors and a remote care team, who would otherwise occupy a hospital bed.",
+      "parts": [
+        {
+          "label": "Sensors",
+          "role": "the patient's vitals measured at home"
+        },
+        {
+          "label": "Alert algorithms",
+          "role": "spotting deterioration"
+        },
+        {
+          "label": "Clinical team",
+          "role": "intervening remotely or at home"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Equip",
+          "t": "The patient receives sensors (wearables) that transmit measurements."
+        },
+        {
+          "n": "2",
+          "h": "Detect",
+          "t": "Machine-learning models identify patients at risk of deterioration from clinical-grade sensor data."
+        },
+        {
+          "n": "3",
+          "h": "Act",
+          "t": "The care team steps in to avoid admission or shorten the stay."
+        }
+      ],
+      "why": "VC angle: a virtual bed is a budgeted line for health systems (Essex counts 292, 426 with other capacity). European players raise money to expand beyond the UK. Watch point: the lack of recurring national funding, which forces organizations to build it into their own budgets.",
+      "startups": [
+        {
+          "name": "Doccla",
+          "use": "Virtual ward and remote monitoring platform used by NHS trusts; £35M Series B led by Lakestar to expand in France and the DACH region",
+          "place": "London"
+        },
+        {
+          "name": "Huma",
+          "use": "Remote monitoring platform deployed in many hospitals, including in the NHS; $80M Series D in 2024",
+          "place": "London"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HTN",
+          "title": "Essex ICB outlines role of digital in 2026/27 system winter plan",
+          "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "Doccla Secures $45.9M to Scale Virtual Ward Solutions Across Europe",
+          "url": "https://hitconsultant.net/2024/09/03/doccla-virtual-ward-solutions-funding/"
+        },
+        {
+          "publisher": "IT Brief UK",
+          "title": "Doccla: AI virtual wards ease NHS backlog and admissions",
+          "url": "https://itbrief.co.uk/story/doccla-ai-virtual-wards-ease-nhs-backlog-admissions"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "Oct 20, 2026"
+    },
+    {
+      "term": "Neoantigen Vaccine",
+      "full": "Neoantigen Cancer Vaccine",
+      "fr": "Neoantigen cancer vaccine",
+      "field": "Immuno-oncology",
+      "definition": "A vaccine that teaches the immune system to recognize protein fragments unique to the tumor (neoantigens), absent from healthy cells.",
+      "parts": [
+        {
+          "label": "Neoantigens",
+          "role": "the target, specific to the tumor"
+        },
+        {
+          "label": "Vector",
+          "role": "the viral vehicle that delivers them"
+        },
+        {
+          "label": "T cells",
+          "role": "the soldiers that attack the marked cells"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Choose the targets",
+          "t": "Either neoantigens shared between patients (NOUS-209: 209 frameshift neoantigens), or an algorithm-individualized selection (up to 30 for TG4050)."
+        },
+        {
+          "n": "2",
+          "h": "Deliver via a vector",
+          "t": "The targets are encoded in viral vectors (two vectors for NOUS-209, MVA virus for TG4050) or peptides (EVX-01)."
+        },
+        {
+          "n": "3",
+          "h": "Trigger the T-cell response",
+          "t": "The immune system produces CD8 T cells directed against these markers, to prevent or delay the tumor."
+        }
+      ],
+      "why": "VC angle: Nouscom's €120M round shows that cancer prevention in carriers of a genetic syndrome (Lynch) is becoming fundable, with a registration trial design discussed with the FDA and EMA. Caution: the data come from small studies compared with historical data or reported by the companies.",
+      "startups": [
+        {
+          "name": "Nouscom",
+          "use": "Off-the-shelf vaccine NOUS-209 (209 shared neoantigens) for Lynch syndrome; €120M Series D, FDA Fast Track",
+          "place": "Basel"
+        },
+        {
+          "name": "Evaxion",
+          "use": "AI-designed individualized vaccine EVX-01; Phase 2 in melanoma with 75% objective response (12 of 16 patients) at two years",
+          "place": "Hørsholm"
+        },
+        {
+          "name": "Transgene",
+          "use": "TG4050, individualized MVA-vector vaccine encoding up to 30 neoantigens, with NEC; Phase 1 data published in Nature Communications (September 2026)",
+          "place": "France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Nouscom raises €120M to advance cancer prevention vaccine",
+          "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01",
+          "url": "https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01"
+        },
+        {
+          "publisher": "Boursorama",
+          "title": "Transgene and NEC report 100% three-year disease-free survival with TG4050 and publish Phase 1 results in Nature Communications",
+          "url": "https://www.boursorama.com/bourse/actualites/transgene-and-nec-report-100-three-year-disease-free-survival-with-tg4050-and-publish-phase-1-results-in-nature-communications-8c24ad91c20562d9d460f72e6423be9c"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "Oct 20, 2026"
+    },
+    {
+      "term": "Surgical Video AI",
+      "full": "Surgical Video AI",
+      "fr": "Artificial intelligence applied to operative video",
+      "field": "Surgical AI",
+      "definition": "Computer-vision models that analyze the video of an operation to document it, code it, assist the surgeon live or feed training.",
+      "parts": [
+        {
+          "label": "Video capture",
+          "role": "the raw material (endoscope, operating-room camera)"
+        },
+        {
+          "label": "Vision model",
+          "role": "the brain that recognizes gestures and tissue"
+        },
+        {
+          "label": "Output",
+          "role": "report, coding, live assistance or training"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "The operation's video stream, often combined with patient imaging, is collected from equipment already installed in the hospital."
+        },
+        {
+          "n": "2",
+          "h": "Analyze",
+          "t": "An AI model interprets the surgical scene to extract the steps of the procedure."
+        },
+        {
+          "n": "3",
+          "h": "Deliver",
+          "t": "The result takes the form of an operative report or procedural coding, surgeon assistance, or training and planning material."
+        }
+      ],
+      "why": "VC angle: surgical video is still an under-used dataset, and several young European companies are raising seeds to turn it into documentation, coding and decision support. The questions to watch are regulatory (software-as-a-medical-device status) and commercial (access to operating rooms, integration with existing systems).",
+      "startups": [
+        {
+          "name": "XRlabs",
+          "use": "AI copilot combining surgical video and patient imaging on existing hospital equipment; $8.4M seed (Playground Global, Eka Ventures)",
+          "place": "London"
+        },
+        {
+          "name": "Uncovr",
+          "use": "Generates operative reports and procedural coding from surgical video; €6M seed led by Index Ventures (June 2026)",
+          "place": "Paris"
+        },
+        {
+          "name": "Hypervision Surgical",
+          "use": "King's College London spin-out: real-time tissue analysis in the operating room; £6.5M seed",
+          "place": "London"
+        },
+        {
+          "name": "SurgExplore",
+          "use": "University of Bern spin-out: turns surgery videos into training, pre-operative planning and post-operative reports; $173K seed",
+          "place": "Bern"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "MobiHealthNews",
+          "title": "XRlabs raises $8.4M for AI surgical platform",
+          "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform"
+        },
+        {
+          "publisher": "BeBeez",
+          "title": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records",
+          "url": "https://bebeez.eu/2026/06/10/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/"
+        },
+        {
+          "publisher": "King's College London",
+          "title": "King's surgical AI spin-out Hypervision Surgical secures £6.5m seed investment",
+          "url": "https://www.kcl.ac.uk/news/kings-surgical-ai-spin-out-hypervision-surgical-secures-6.5m-seed-investment"
+        },
+        {
+          "publisher": "Signalbase",
+          "title": "SurgExplore secures $173K seed funding",
+          "url": "https://www.trysignalbase.com/news/funding/surgexplore-secures-173k-seed-funding"
+        }
+      ],
+      "date": "2026-10-20",
+      "dateLong": "Oct 20, 2026"
+    },
     {
       "term": "FHIR",
       "full": "Fast Healthcare Interoperability Resources",

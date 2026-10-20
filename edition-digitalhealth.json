@@ -1,142 +1,71 @@
 {
-  "dateLong": "19 oct. 2026",
+  "dateLong": "20 oct. 2026",
   "ticker": [
-    {
-      "company": "Diagnexia",
-      "amount": "100 000 cas",
-      "kind": "tech"
-    },
-    {
-      "company": "Encare",
-      "amount": "Thaïlande",
-      "kind": "tech"
-    },
-    {
-      "company": "AMA",
-      "amount": "Cadre IA",
-      "kind": "reg"
-    },
-    {
-      "company": "Otter Health",
-      "amount": "$8M",
-      "kind": "lev"
-    }
+    { "company": "SBRI Healthcare", "amount": "£5M", "kind": "reg" },
+    { "company": "Essex ICB", "amount": "292 lits", "kind": "tech" },
+    { "company": "NHS England", "amount": "£6,7M", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Contrat NHS · Pathologie numérique",
-    "title": "Diagnexia confie à la plateforme cloud de Sectra jusqu'à 100 000 cas de pathologie du NHS par an",
-    "deck": "Le prestataire britannique de pathologie numérique, partenaire de plus de 30 organisations du NHS avec plus de 250 pathologistes spécialisés, utilisera l'Image Exchange Portal de Sectra pour recevoir, envoyer et rapporter les cas. Le contrat, renouvelable chaque année, vise jusqu'à 100 000 cas la première année ; son montant n'est pas divulgué.",
-    "company": "Diagnexia",
-    "sector": "Logiciel hospitalier",
+    "kicker": "Appel à projets · IA & cancer",
+    "title": "SBRI Healthcare ouvre la 4e vague de l'appel NHS Cancer Programme : jusqu'à 5 M£, clôture le 1er décembre",
+    "deck": "Deux voies : jusqu'à 3 M£ sur 24 mois pour déployer et évaluer une innovation prête pour le marché (société basée au Royaume-Uni ou dans l'UE, partenaire NHS et évaluateur indépendant), ou jusqu'à 5 M£ pour les ICB associés aux Cancer Alliances. Parmi les exemples ciblés : triage par IA des orientations cancer urgentes, aide à la décision et IA ambiante, interopérables avec les DPI, l'application NHS et la plateforme fédérée de données.",
+    "company": "SBRI Healthcare",
+    "sector": "Fonds",
     "pillar": "marche",
-    "signalType": "early_partnership",
+    "signalType": "grant_award",
     "strength": 3,
-    "url": "https://nordiclifescience.org/sectra-platform-to-handle-nhs-pathology-cases-for-diagnexia/"
+    "url": "https://htn.co.uk/2026/10/19/5-million-cancer-innovation-programme-open-call-launches/"
   },
   "milestone": {
-    "company": "Encare",
-    "milestone": "Premier hôpital en Thaïlande",
-    "title": "Encare signe avec l'Institut national du cancer de Thaïlande pour déployer l'ERAS en chirurgie colorectale",
-    "summary": "L'équipe colorectale du NCI Thailand rejoint le programme d'implémentation ERAS et utilise l'ERAS Interactive Audit System (EIAS) d'Encare pour suivre le respect des protocoles et les résultats cliniques ; elle vise la qualification de l'ERAS Society.",
-    "why": "Encare, basée à Stockholm, travaille déjà avec plus de 140 hôpitaux dans plus de 30 pays : un logiciel d'audit clinique adossé à un protocole reconnu, qui s'exporte hôpital par hôpital.",
-    "place": "Stockholm",
-    "sector": "Digital Health",
+    "company": "Doccla",
+    "milestone": "Déploiement",
+    "title": "L'ICB d'Essex prévoit de lancer Doccla en pneumologie dans son plan hiver 2026/27",
+    "summary": "Le plan hiver compte 292 lits de virtual ward et d'hospitalisation à domicile, portés à 426 avec les autres capacités d'évitement d'admission, et prévoit d'étendre la voix ambiante et la télésurveillance. Doccla doit être lancé dans les services respiratoires pour la surveillance à distance et l'évitement des admissions.",
+    "why": "Les lits virtuels deviennent une ligne du plan hiver d'un système de santé, pas un pilote. Le conseil de NHS England s'inquiète en parallèle de la lenteur de déploiement de la plateforme fédérée de données, de l'application NHS et de la voix ambiante.",
+    "place": "Essex",
+    "sector": "Télésurveillance",
     "signalType": "early_partnership",
-    "url": "https://nordiclifescience.org/encare-enters-thailand-through-cancer-institute-deal/"
+    "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
+  "brefsEurope": [
     {
-      "company": "American Medical Association",
-      "place": "Chicago",
-      "sector": "Réglementaire",
+      "company": "NHS England",
+      "place": "Angleterre",
+      "sector": "Données de santé",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 1,
-      "title": "L'AMA publie un cadre de gouvernance pour les solutions d'IA agentique en santé",
-      "summary": "Le cadre de l'association des médecins américains encadre le déploiement d'agents d'IA en soins ; un repère pour les éditeurs européens qui visent le marché américain.",
-      "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions"
-    },
-    {
-      "company": "Otter Health",
-      "place": "États-Unis",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Otter Health lève 8 M$ pour une approche différente de l'autorisation préalable",
-      "summary": "Alors que l'autorisation préalable devient une « course aux armements » de l'IA entre payeurs et prestataires, la startup lance une approche alternative financée par 8 M$.",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization"
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "NHS England sonde le marché pour un jeu de données national sur les stocks de médicaments hospitaliers (6,75 M£)",
+      "summary": "Il s'agit d'un avis de consultation préalable, pas d'un contrat : outil de reporting pour les hôpitaux, données de stock et de délivrance quotidiennes, et comparateur des prix payés. Réponses jusqu'au 1er novembre ; contrat envisagé du 1er avril 2027 au 31 mars 2028, prolongeable.",
+      "url": "https://htn.co.uk/2026/10/19/nhs-england-opens-6-7-million-secondary-care-medicines-data-pre-market-engagement/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "FHIR",
-    "full": "Fast Healthcare Interoperability Resources",
-    "fr": "Standard d'échange de données de santé HL7 FHIR",
-    "field": "Interopérabilité",
-    "definition": "Un standard HL7 qui découpe les données de santé en « ressources » modulaires pour que des systèmes différents puissent les échanger.",
+    "term": "Virtual Ward",
+    "full": "Virtual Ward (lit virtuel / hospitalisation à domicile)",
+    "fr": "Service hospitalier à domicile avec télésurveillance",
+    "field": "Télésurveillance",
+    "definition": "Un service qui suit à domicile, avec des capteurs et une équipe soignante à distance, des patients qui auraient autrement occupé un lit d'hôpital.",
     "parts": [
-      {
-        "label": "Ressources",
-        "role": "les briques de contenu échangeables"
-      },
-      {
-        "label": "Références",
-        "role": "relient les ressources entre elles"
-      },
-      {
-        "label": "Extensions",
-        "role": "couvrent ce que la base ne prévoit pas"
-      }
+      { "label": "Capteurs", "role": "les constantes du patient mesurées chez lui" },
+      { "label": "Algorithmes d'alerte", "role": "le repérage des dégradations" },
+      { "label": "Équipe clinique", "role": "l'intervention à distance ou à domicile" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Modéliser",
-        "t": "Chaque contenu est une ressource, avec métadonnées communes et un texte lisible par l'humain."
-      },
-      {
-        "n": "2",
-        "h": "Composer",
-        "t": "Un cas d'usage combine plusieurs ressources via des références plutôt qu'une seule."
-      },
-      {
-        "n": "3",
-        "h": "Exposer",
-        "t": "Un Capability Statement décrit les interfaces proposées ; les ressources sont représentées en JSON ou XML."
-      }
+      { "n": "1", "h": "Équiper", "t": "Le patient reçoit des capteurs (wearables) qui transmettent ses mesures." },
+      { "n": "2", "h": "Détecter", "t": "Des modèles d'apprentissage automatique identifient les patients à risque de dégradation à partir des données de capteurs de qualité clinique." },
+      { "n": "3", "h": "Agir", "t": "L'équipe soignante intervient pour éviter l'admission ou raccourcir le séjour." }
     ],
-    "why": "Angle VC : c'est la couche de tuyauterie de l'IA clinique et de l'espace européen des données de santé. Partir de FHIR peut fournir base de données, API et jeux d'exemple, donc des années de développement en moins — un marché d'outils plutôt que d'applications.",
+    "why": "Angle VC : un lit virtuel est un poste budgété par les systèmes de santé (Essex en compte 292, 426 avec les autres capacités). Les acteurs européens se financent pour s'étendre au-delà du Royaume-Uni. Point d'attention : l'absence de financement national récurrent, qui oblige les organisations à l'intégrer à leurs budgets.",
     "startups": [
-      {
-        "name": "Health Samurai",
-        "use": "Aidbox : plateforme et serveur FHIR-first qui utilise FHIR comme modèle de données interne, avec SQL sur FHIR ; licence commerciale"
-      },
-      {
-        "name": "Edenlab",
-        "use": "Kodjin : serveur FHIR faisant partie de la Kodjin Interoperability Suite ; licence commerciale à tarif fixe"
-      },
-      {
-        "name": "Medplum",
-        "use": "Plateforme FHIR-native open source de bout en bout, avec un palier communautaire auto-hébergé gratuit"
-      }
+      { "name": "Doccla", "use": "Plateforme de virtual ward et de télésurveillance utilisée par des trusts du NHS ; Série B de 35 M£ menée par Lakestar pour s'étendre en France et dans la zone DACH", "place": "Londres" },
+      { "name": "Huma", "use": "Plateforme de suivi à distance déployée dans de nombreux hôpitaux, dont au NHS ; Série D de 80 M$ en 2024", "place": "Londres" }
     ],
     "sources": [
-      {
-        "publisher": "HL7",
-        "title": "FHIR Overview",
-        "url": "https://www.hl7.org/fhir/overview.html"
-      },
-      {
-        "publisher": "Medblocks",
-        "title": "What does it take to build a FHIR-first EHR? (Aidbox, Health Samurai CTO)",
-        "url": "https://medblocks.com/blog/what-does-it-take-to-build-a-fhir-first-ehr-aidbox"
-      },
-      {
-        "publisher": "SPsoft",
-        "title": "Top 8 FHIR servers for healthcare",
-        "url": "https://spsoft.com/tech-insights/top-8-fhir-servers-for-healthcare-in-2025/"
-      }
+      { "publisher": "HTN", "title": "Essex ICB outlines role of digital in 2026/27 system winter plan", "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/" },
+      { "publisher": "HIT Consultant", "title": "Doccla Secures $45.9M to Scale Virtual Ward Solutions Across Europe", "url": "https://hitconsultant.net/2024/09/03/doccla-virtual-ward-solutions-funding/" },
+      { "publisher": "IT Brief UK", "title": "Doccla: AI virtual wards ease NHS backlog and admissions", "url": "https://itbrief.co.uk/story/doccla-ai-virtual-wards-ease-nhs-backlog-admissions" }
     ]
   }
 }

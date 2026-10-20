@@ -1,142 +1,151 @@
 {
-  "dateLong": "19 oct. 2026",
+  "dateLong": "20 oct. 2026",
   "ticker": [
-    {
-      "company": "Sobi",
-      "amount": "CHMP",
-      "kind": "reg"
-    },
-    {
-      "company": "Modus",
-      "amount": "Pause",
-      "kind": "tech"
-    },
-    {
-      "company": "City Therapeutics",
-      "amount": "$200M",
-      "kind": "lev"
-    },
-    {
-      "company": "Iambic",
-      "amount": "$150M",
-      "kind": "lev"
-    }
+    { "company": "Nouscom", "amount": "€120M", "kind": "lev" },
+    { "company": "Silence", "amount": "$1,3Md", "kind": "mna" },
+    { "company": "Ascendis", "amount": "CHMP", "kind": "reg" },
+    { "company": "Orphelia", "amount": "CHMP", "kind": "reg" },
+    { "company": "OSE", "amount": "Ph2 ✓", "kind": "tech" },
+    { "company": "Evaxion", "amount": "3 ans", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Avis CHMP · Cardiométabolique",
-    "title": "Sobi obtient l'avis positif du CHMP pour Tryngolza (olezarsen) dans l'hypertriglycéridémie sévère",
-    "deck": "Le comité de l'EMA recommande le médicament à ARN antisens d'Ionis, licencié à Sobi hors États-Unis, pour les adultes à triglycérides à jeun ≥ 880 mg/dL (10 mmol/L). Les essais de phase III CORE et CORE2 montrent jusqu'à 72 % de baisse des triglycérides et 85 % de pancréatites aiguës en moins ; la décision de la Commission européenne est attendue au T4 2026.",
-    "company": "Sobi",
-    "sector": "ARN",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://nordiclifescience.org/sobi-wins-chmp-backing-for-tryngolza/"
+    "kicker": "Série D · Vaccins",
+    "title": "Nouscom lève 120 M€ en Série D pour son vaccin préventif contre les cancers du syndrome de Lynch",
+    "deck": "Le tour, sursouscrit, est co-mené par M Ventures et Revelation Partners, avec de nouveaux entrants (Angelini Industries, la Banque européenne d'investissement via Aurea, Neva SGR). Il finance un essai unique d'enregistrement pour NOUS-209, vaccin « prêt à l'emploi » à 209 néoantigènes partagés, dont le design a été discuté avec la FDA et l'EMA.",
+    "company": "Nouscom",
+    "stage": "Growth",
+    "sector": "Vaccins",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 5,
+    "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/"
   },
   "milestone": {
-    "company": "Modus Therapeutics",
-    "milestone": "Pause d'inclusion",
-    "title": "Modus Therapeutics suspend les inclusions de sa phase IIa sevuparine après un événement indésirable grave",
-    "summary": "Un patient de la partie 2 de l'étude dans l'anémie de l'insuffisance rénale chronique (deux centres italiens) a présenté une SUSAR : un lien avec le médicament ne peut être exclu ni établi. La pause est volontaire, aucun autre patient n'était sous traitement.",
-    "why": "La lecture de la preuve de concept glisse au T1 2027 et la trésorerie, étendue par l'émission d'actions de septembre 2026, est annoncée jusqu'au T2 2027 : un rappel du risque de calendrier des biotechs cotées de petite taille.",
-    "place": "Stockholm",
+    "company": "Ascendis Pharma",
+    "milestone": "Avis CHMP",
+    "title": "Ascendis obtient l'avis favorable du CHMP pour navepegritide (Yuviwel) dans l'achondroplasie de l'enfant",
+    "summary": "Le comité de l'EMA recommande l'approbation de ce traitement hebdomadaire pour les enfants dès 2 ans. Dans l'étude de 52 semaines, les enfants traités ont grandi de 1,49 cm de plus par an que sous placebo.",
+    "why": "Une injection hebdomadaire face à l'injection quotidienne du Voxzogo de BioMarin : l'avantage d'observance est le cœur de la thèse. La décision finale de la Commission européenne reste à venir.",
+    "place": "Danemark",
     "sector": "Biotech",
-    "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/modus-therapeutics-pauses-enrollment-in-sevuparin-study/"
+    "signalType": "regulatory_milestone",
+    "url": "https://nordiclifescience.org/ascendis-wins-chmp-backing-for-achondroplasia-drug/"
   },
   "deal": {
-    "company": "City Therapeutics",
-    "amount": "$200M",
-    "round": "IPO",
-    "thesis": "Introduction en Bourse de 200 M$ pour un développeur d'ARNi de nouvelle génération : trois médicaments en clinique ou proches, et de la recherche sur la délivrance de l'ARNi hors du foie. Un comparable direct pour les startups européennes de la délivrance extrahépatique comme Undecimal Bio.",
+    "company": "Silence Therapeutics",
+    "amount": "1,3 Md$",
+    "round": "M&A",
+    "thesis": "Merck KGaA rachète en numéraire cette biotech ARNi britannique pour 20 $ par ADS, soit 130 % de prime sur le cours du 16 octobre, au terme d'un processus concurrentiel. Le prix récompense des données de phase 2 jugées potentiellement best-in-class pour la divésiran dans la polycythémie vraie ; clôture attendue au T1 2027.",
     "sector": "ARN",
-    "url": "https://www.biopharmadive.com/news/city-therapeutics-ipo-price-rnai-drugs/832945/"
+    "url": "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "OSE Immunotherapeutics",
+      "place": "France",
+      "sector": "Oncologie",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "OSE : Tedopi associé au docétaxel ou au nivolumab porte la survie à un an à 47 % et 46 % (contre 29 %) dans le poumon",
+      "summary": "Phase 2 Combi-TED, 106 patients HLA-A2+ en échec de la chimiothérapie et de l'immunothérapie. Pas de bras Tedopi seul, donc l'apport des associations reste à isoler ; résultats complets à l'ESMO le 25 octobre.",
+      "url": "https://european-biotechnology.com/latest-news/ose-reports-positive-phase-2-data-but-questions-remain/"
+    },
+    {
+      "company": "Orphelia Pharma",
+      "place": "Europe",
+      "sector": "Oncologie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Orphelia Pharma obtient un avis CHMP favorable pour Kizfizo (témozolomide liquide) dans le glioblastome",
+      "summary": "Indication aux adultes avec un glioblastome nouvellement diagnostiqué et aux adultes et enfants avec un gliome malin récidivant. Le CHMP avait rejeté le produit en 2025 dans le neuroblastome pédiatrique : une seconde chance.",
+      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
+    },
+    {
+      "company": "Evaxion",
+      "place": "Hørsholm",
+      "sector": "Oncologie",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Evaxion : les réponses du vaccin EVX-01 dans le mélanome se maintiennent à trois ans",
+      "summary": "Dans la phase 2, tous les patients ont conservé leur réponse clinique à trois ans, sans progression tumorale. Étude de 16 patients, résultats rapportés par la société.",
+      "url": "https://nordiclifescience.org/evaxions-cancer-vaccine-responses-hold-at-three-years/"
+    },
+    {
+      "company": "BioInvent",
+      "place": "Suède",
+      "sector": "Oncologie",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "BioInvent publie les premières données chez l'humain de BI-1808, anticorps anti-TNFR2",
+      "summary": "Escalade de dose de phase 1 sans dose maximale tolérée atteinte ; tous les effets indésirables liés au traitement sont de grade 1 ou 2.",
+      "url": "https://nordiclifescience.org/bioinvent-publishes-first-in-human-data-for-bi-1808/"
+    },
+    {
+      "company": "Calluna Pharma",
+      "place": "Pays nordiques",
+      "sector": "Biotech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Calluna termine l'administration de sa phase 2 AURORA dans la fibrose pulmonaire idiopathique",
+      "summary": "Fin du dosage de CAL101 dans l'étude AURORA ; résultats principaux attendus au T1 2027.",
+      "url": "https://nordiclifescience.org/calluna-completes-dosing-in-phase-2-ipf-trial/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Iambic Therapeutics",
-      "place": "San Diego",
-      "sector": "IA drug discovery",
+      "company": "Hansoh Pharma",
+      "place": "Chine",
+      "sector": "Oncologie",
       "pillar": "financement",
-      "signalType": "funding_round",
+      "signalType": "early_partnership",
       "strength": 4,
-      "title": "Iambic, spécialiste de la découverte de médicaments par IA, lève 150 M$ en Bourse",
-      "summary": "Dans ses documents réglementaires, la société affirme que son approche par IA pourrait bouleverser les méthodes classiques de découverte. Une fenêtre de marché pour les plateformes IA, que les startups européennes peuvent lire comme un signal de sortie.",
-      "url": "https://www.biopharmadive.com/news/iambic-ipo-price-ai-drug-discovery/832771/"
+      "title": "Roche signe un nouveau pacte ADC avec Hansoh, jusqu'à 15 Md$ de « biobucks »",
+      "summary": "Un an après leur première collaboration, le groupe suisse retourne vers le spécialiste chinois des ADC : un comparable de plus du poids des licences chinoises dans les portefeuilles pharma européens.",
+      "url": "https://www.fiercebiotech.com/biotech/roche-returns-chinas-adc-powerhouse-hansoh-15b-biobucks-pact"
+    },
+    {
+      "company": "Revolution Medicines",
+      "place": "États-Unis",
+      "sector": "Oncologie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Le CHMP soutient Rasonque (daraxonrasib) dans le cancer du pancréas métastatique prétraité",
+      "summary": "Phase 3 de 500 patients : survie médiane de 12,4 mois contre 6,7 mois sous chimiothérapie. Dossier examiné via le Cancer Medicines Pathfinder de l'EMA.",
+      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
     }
   ],
   "word": {
-    "term": "DEL",
-    "full": "DNA-Encoded Library",
-    "fr": "Banque de molécules codées par ADN",
-    "field": "Découverte de médicaments",
-    "definition": "Une banque de millions à milliards de molécules, chacune étiquetée par un court code ADN qui permet de retrouver laquelle se fixe sur une cible.",
+    "term": "Neoantigen Vaccine",
+    "full": "Neoantigen Cancer Vaccine",
+    "fr": "Vaccin anticancéreux à néoantigènes",
+    "field": "Immuno-oncologie",
+    "definition": "Un vaccin qui apprend au système immunitaire à reconnaître des fragments de protéines propres à la tumeur (les néoantigènes), absents des cellules saines.",
     "parts": [
-      {
-        "label": "Briques chimiques",
-        "role": "combinées pour créer la diversité"
-      },
-      {
-        "label": "Code ADN",
-        "role": "l'étiquette qui enregistre chaque étape"
-      },
-      {
-        "label": "Cible protéique",
-        "role": "l'appât sur lequel on pêche"
-      }
+      { "label": "Néoantigènes", "role": "la cible, spécifique de la tumeur" },
+      { "label": "Vecteur", "role": "le véhicule viral qui les livre" },
+      { "label": "Lymphocytes T", "role": "les soldats qui attaquent les cellules marquées" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Construire",
-        "t": "Des briques sont assemblées par cycles « split-and-pool » ; chaque réaction est inscrite dans l'ADN attaché."
-      },
-      {
-        "n": "2",
-        "h": "Sélectionner",
-        "t": "La banque est exposée à la cible immobilisée ; ce qui ne se lie pas est éliminé par lavage."
-      },
-      {
-        "n": "3",
-        "h": "Séquencer",
-        "t": "Les codes restants sont amplifiés par PCR puis séquencés : les plus enrichis désignent les molécules candidates."
-      }
+      { "n": "1", "h": "Choisir les cibles", "t": "Soit des néoantigènes partagés entre patients (cas de NOUS-209 : 209 néoantigènes de décalage de cadre), soit une sélection individualisée par algorithme (jusqu'à 30 pour TG4050)." },
+      { "n": "2", "h": "Livrer par un vecteur", "t": "Les cibles sont codées dans des vecteurs viraux (deux vecteurs pour NOUS-209, virus MVA pour TG4050) ou des peptides (EVX-01)." },
+      { "n": "3", "h": "Déclencher la réponse T", "t": "Le système immunitaire produit des lymphocytes T CD8 dirigés contre ces marqueurs, pour prévenir ou retarder la tumeur." }
     ],
-    "why": "Angle VC : cribler en un seul tube des milliards de molécules réduit le coût de la phase de hit-finding et alimente tout un pan de plateformes (PROTAC, glues, délivrance d'ARN). Undecimal Bio, lancée avec 18 M$ en seed, l'utilise pour trouver des vecteurs de siRNA hors du foie.",
+    "why": "Angle VC : le tour de 120 M€ de Nouscom montre que la prévention du cancer chez les porteurs d'un syndrome génétique (Lynch) devient finançable, avec un design d'essai d'enregistrement discuté avec la FDA et l'EMA. Prudence : les données sont de petites études comparées à des données historiques ou rapportées par les sociétés.",
     "startups": [
-      {
-        "name": "Undecimal Bio",
-        "use": "Plateforme DELiveri : criblage de banques de type DEL pour trouver des conjugués qui portent le siRNA hors du foie, d'abord les maladies rénovasculaires ; seed de 18 M$",
-        "place": "Cambridge, Royaume-Uni"
-      },
-      {
-        "name": "Vipergen",
-        "use": "Services de découverte par DEL, avec les plateformes YoctoReactor et Binder Trap Enrichment",
-        "place": "Copenhague, Danemark"
-      },
-      {
-        "name": "HitGen",
-        "use": "Acteur de référence des DEL, hors Europe et non une startup : un comparable, avec des collaborations annoncées avec Takeda et Kymera",
-        "place": "Chine"
-      }
+      { "name": "Nouscom", "use": "Vaccin prêt à l'emploi NOUS-209 (209 néoantigènes partagés) pour le syndrome de Lynch ; Série D de 120 M€, Fast Track de la FDA", "place": "Bâle" },
+      { "name": "Evaxion", "use": "Vaccin individualisé EVX-01 conçu par IA ; phase 2 dans le mélanome avec 75 % de réponse objective (12 patients sur 16) à deux ans", "place": "Hørsholm" },
+      { "name": "Transgene", "use": "TG4050, vaccin individualisé à vecteur MVA codant jusqu'à 30 néoantigènes, avec NEC ; données de phase 1 publiées dans Nature Communications (septembre 2026)", "place": "France" }
     ],
     "sources": [
-      {
-        "publisher": "Wikipedia",
-        "title": "DNA-encoded chemical library",
-        "url": "https://en.wikipedia.org/wiki/DNA-encoded_chemical_library"
-      },
-      {
-        "publisher": "EU-Startups",
-        "title": "Undecimal Bio lands €16 million to develop targeted RNA medicines beyond the liver",
-        "url": "https://www.eu-startups.com/2026/10/undecimal-bio-lands-e16-million-to-develop-targeted-rna-medicines-beyond-the-liver/"
-      },
-      {
-        "publisher": "Vipergen",
-        "title": "Who is Vipergen?",
-        "url": "https://www.vipergen.com/about-us/"
-      }
+      { "publisher": "European Biotechnology", "title": "Nouscom raises €120M to advance cancer prevention vaccine", "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/" },
+      { "publisher": "BioSpace", "title": "Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01", "url": "https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01" },
+      { "publisher": "Boursorama", "title": "Transgene and NEC report 100% three-year disease-free survival with TG4050 and publish Phase 1 results in Nature Communications", "url": "https://www.boursorama.com/bourse/actualites/transgene-and-nec-report-100-three-year-disease-free-survival-with-tg4050-and-publish-phase-1-results-in-nature-communications-8c24ad91c20562d9d460f72e6423be9c" }
     ]
   }
 }
