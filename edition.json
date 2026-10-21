@@ -1,100 +1,172 @@
 {
-  "dateLong": "20 oct. 2026",
+  "dateLong": "21 oct. 2026",
   "ticker": [
-    { "company": "XRlabs", "amount": "$8,4M", "kind": "lev" },
-    { "company": "Integrum", "amount": "OPRA 97,9 %", "kind": "tech" },
-    { "company": "Genetic Analysis", "amount": "UEG Week", "kind": "tech" },
-    { "company": "Medtronic", "amount": "CE", "kind": "reg" },
-    { "company": "Sequel", "amount": "FDA", "kind": "reg" }
+    {
+      "company": "Neo Medical",
+      "amount": "1er déploiement UE",
+      "kind": "tech"
+    },
+    {
+      "company": "SQ Innovation",
+      "amount": "JACC",
+      "kind": "tech"
+    },
+    {
+      "company": "bioMérieux",
+      "amount": "OMS EUL",
+      "kind": "reg"
+    },
+    {
+      "company": "Aspivix",
+      "amount": "Distribution US",
+      "kind": "tech"
+    },
+    {
+      "company": "Masimo",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "NeuroXT",
+      "amount": "FDA",
+      "kind": "reg"
+    }
   ],
   "lead": {
-    "kicker": "Seed · IA chirurgicale",
-    "title": "XRlabs, jeune pousse londonienne, lève 8,4 M$ en seed auprès de Playground Global pour son copilote IA de bloc opératoire",
-    "deck": "Le tour est mené par Playground Global, avec Eka Ventures. Le copilote combine la vidéo chirurgicale et l'imagerie du patient en s'appuyant sur le matériel déjà présent à l'hôpital ; les fonds serviront à étoffer les équipes d'ingénierie et cliniques, à ouvrir les voies réglementaires (Royaume-Uni, Europe, États-Unis) et à bâtir le dossier d'évidence clinique.",
-    "company": "XRlabs",
-    "stage": "Seed",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "Premier déploiement européen · Chirurgie du rachis",
+    "title": "Neo Medical déploie pour la première fois en Europe son système Posterior MIS Access, à l'Uniklinik RWTH Aachen",
+    "deck": "Le système d'accès mini-invasif de la société suisse entame son premier déploiement européen à l'Uniklinik RWTH Aachen, point de départ d'une étude multicentrique avec trois autres établissements allemands (BG Klinikum Bergmannstrost Halle, Universitätsmedizin Halle, Charité Berlin). Neo Medical avait lancé la plateforme aux États-Unis en juillet 2026 en revendiquant l'absence d'investissement en capital pour l'hôpital : l'Europe en est le test clinique.",
+    "company": "Neo Medical",
+    "sector": "Chirurgie du rachis",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform"
+    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
   },
   "milestone": {
-    "company": "Integrum",
-    "milestone": "Données cliniques",
-    "title": "Implant OPRA d'Integrum : 97,9 % de survie à un an chez des vétérans ukrainiens amputés",
-    "summary": "Une étude rétrospective menée par des chirurgiens ukrainiens (revue International Orthopaedics) porte sur 49 vétérans opérés en 2023-2024 ; 45 ont terminé les deux temps chirurgicaux (47 implants). La survie de l'implant atteint 97,9 % à un an et 93,2 % à 18,7 mois de suivi médian, sans complication mécanique ; 18 % des patients ont eu une infection la première année.",
-    "why": "L'ostéo-intégration (prothèse ancrée dans l'os, sans emboîture) gagne en preuves en conditions réelles, au moment où l'Ukraine a décidé en septembre un programme pilote financé par l'État (25 premiers patients en 2026). Un signal de demande publique pour une medtech suédoise cotée, déjà certifiée MDR et approuvée par la FDA.",
-    "place": "Mölndal",
-    "sector": "Orthopédie",
+    "company": "SQ Innovation",
+    "milestone": "Publication JACC",
+    "title": "SUBCUT-HF II : le furosémide sous-cutané par patch-pompe réduit le temps d'hospitalisation en insuffisance cardiaque (JACC)",
+    "summary": "Essai randomisé de 172 patients dans des hôpitaux du NHS : sortie précoce avec Lasix ONYU (92 patients) contre soins hospitaliers habituels (80). Le critère principal, les jours vivants hors de l'hôpital à 30 jours, est meilleur de 4,0 jours (IC 95 % 2,1-5,8 ; p<0,001), sans événement indésirable grave lié au dispositif.",
+    "why": "Une combinaison dispositif-médicament (patch-pompe abdominale approuvé par la FDA en octobre 2025) qui déplace des jours d'hôpital vers le domicile : un argument économique direct pour les payeurs, validé par un essai européen publié dans une revue de premier rang.",
+    "place": "Charlotte (essai NHS)",
+    "sector": "Cardio",
     "signalType": "publication_preprint",
-    "url": "https://nordiclifescience.org/integrums-opra-implant-shows-high-survival-in-ukrainian-war-veterans/"
+    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
   },
   "brefsEurope": [
     {
-      "company": "Genetic Analysis",
-      "place": "Norvège",
+      "company": "bioMérieux",
+      "place": "Marcy-l'Étoile",
       "sector": "Diagnostics",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 2,
-      "title": "Genetic Analysis présente à l'UEG Week son test GA-map IBD Precision Dx pour prédire une rectocolite hémorragique agressive",
-      "summary": "Première sélection en présentation orale de la société à l'UEG Week (Barcelone) : le test identifie, dès le diagnostic, un profil de microbiome associé à une évolution agressive de la rectocolite hémorragique, pour guider les traitements des 12 premiers mois. Développé avec l'hôpital universitaire d'Akershus et l'Université de Göteborg.",
-      "url": "https://nordiclifescience.org/genetic-analysis-presents-ulcerative-colitis-risk-test-at-ueg-week/"
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "L'OMS accorde une liste d'utilisation d'urgence au panel BioFire fièvres spéciales de bioMérieux pour le virus Bundibugyo",
+      "summary": "Le panel de BioFire Defense (filiale de bioMérieux) détecte 16 pathogènes, dont les Ebola, Marburg et Lassa, sur un seul échantillon de sang en environ une heure ; c'est le cinquième test à recevoir cette liste depuis la déclaration de l'urgence en mai 2026. Au 18 octobre, la RDC comptait 9 552 cas et 4 602 décès. Un comparable de marché plus qu'une opportunité d'entrée.",
+      "url": "https://www.medicaldevice-network.com/news/who-grants-biomerieux-ebola-panel-emergency-listing-amid-ongoing-bundibugyo-outbreak/"
+    },
+    {
+      "company": "Aspivix",
+      "place": "Suisse",
+      "sector": "Femtech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Aspivix rend son dispositif carevix accessible à tous les membres d'Afaxys aux États-Unis",
+      "summary": "L'accord ouvre le dispositif de stabilisation cervicale (pose de stérilet et autres actes transcervicaux) aux prestataires communautaires et de santé publique du réseau Afaxys : un canal de distribution américain de plus après l'ouverture commerciale d'octobre 2025.",
+      "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Medtronic",
-      "place": "Minneapolis",
-      "sector": "Cardio",
+      "company": "Masimo",
+      "place": "Irvine",
+      "sector": "Monitoring",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "Medtronic décroche le marquage CE de la famille de stimulateurs Vitalis pour la stimulation du système de conduction",
-      "summary": "La gamme (ReSyncra CSP, Restoria CSP, Refina CSP, Effectra, Confirma) vise la stimulation du faisceau de conduction, qui exploite les voies électriques naturelles du cœur. Un comparable de marché pour les start-ups de la stimulation physiologique.",
-      "url": "https://www.massdevice.com/medtronic-nets-ce-mark-for-vitalis-family-of-conduction-system-pacemakers/"
-    },
-    {
-      "company": "Sequel Med Tech",
-      "place": "États-Unis",
-      "sector": "Diabète",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA autorise le système d'administration d'insuline twiist de Sequel pour le diabète de type 2",
-      "summary": "Extension d'indication au diabète de type 2 pour la pompe automatisée de Sequel, pendant que Dexcom attend la décision de Medicare sur l'élargissement du remboursement des capteurs de glucose.",
-      "url": "https://www.medtechdive.com/news/fda-clears-sequels-insulin-delivery-system-in-type-2-diabetes/833317/"
+      "title": "Masimo obtient l'autorisation FDA de la fonction PPG AFib de son moniteur Radius VSM",
+      "summary": "La fonction analyse la forme d'onde du pouls par IA pour signaler une fibrillation atriale et orienter vers un ECG ou une télémétrie. Elle succède à l'autorisation de juin 2026 sur la détection de la dépression respiratoire liée aux opioïdes ; Masimo est désormais filiale de Danaher. Un comparable pour la détection par photopléthysmographie.",
+      "url": "https://www.medicaldevice-network.com/news/masimo-vitals-monitor-scoops-fda-clearance-for-afib-detection/"
     }
   ],
   "word": {
-    "term": "Surgical Video AI",
-    "full": "Surgical Video AI (IA sur vidéo chirurgicale)",
-    "fr": "Intelligence artificielle appliquée à la vidéo opératoire",
-    "field": "IA chirurgicale",
-    "definition": "Des modèles de vision par ordinateur qui analysent la vidéo d'une opération pour la documenter, la coder, aider le chirurgien en direct ou nourrir la formation.",
+    "term": "MISS",
+    "full": "Minimally Invasive Spine Surgery (chirurgie mini-invasive du rachis)",
+    "fr": "Chirurgie du rachis par voies d'abord réduites",
+    "field": "Chirurgie du rachis",
+    "definition": "Un ensemble de techniques qui traitent le rachis par de petites incisions et en écartant les muscles plutôt qu'en les coupant, pour moins de saignement et une récupération plus rapide.",
     "parts": [
-      { "label": "Capture vidéo", "role": "la matière première (endoscope, caméra du bloc)" },
-      { "label": "Modèle de vision", "role": "le cerveau qui reconnaît gestes et tissus" },
-      { "label": "Livrable", "role": "rapport, codage, aide en direct ou formation" }
+      {
+        "label": "Voie d'abord",
+        "role": "la petite incision et le canal de travail (écarteur tubulaire)"
+      },
+      {
+        "label": "Instruments & implants",
+        "role": "vis, tiges et outils conçus pour passer par ce canal"
+      },
+      {
+        "label": "Guidage",
+        "role": "imagerie, navigation ou robot pour compenser la vue réduite"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Capter", "t": "Le flux vidéo de l'opération, souvent combiné à l'imagerie du patient, est récupéré sur le matériel déjà installé à l'hôpital." },
-      { "n": "2", "h": "Analyser", "t": "Un modèle d'IA interprète la scène chirurgicale pour en extraire les étapes de la procédure." },
-      { "n": "3", "h": "Restituer", "t": "Le résultat prend la forme d'un compte rendu opératoire ou d'un codage procédural, d'une aide au chirurgien ou d'un support de formation et de planification." }
+      {
+        "n": "1",
+        "h": "Accéder",
+        "t": "Une petite incision est pratiquée et un écarteur tubulaire repousse muscles et tissus mous sans les sectionner."
+      },
+      {
+        "n": "2",
+        "h": "Opérer par le canal",
+        "t": "Le chirurgien retire os ou disque et pose les implants (vis, tiges) avec des instruments passés dans le tube."
+      },
+      {
+        "n": "3",
+        "h": "Récupérer",
+        "t": "Des incisions plus petites sont associées à moins de pertes sanguines et à une récupération plus rapide, mais la courbe d'apprentissage du chirurgien est exigeante."
+      }
     ],
-    "why": "Angle VC : la vidéo chirurgicale est une donnée encore peu exploitée et plusieurs jeunes sociétés européennes lèvent des seed pour la transformer en documentation, codage et aide à la décision. La question à suivre est réglementaire (statut de dispositif médical logiciel) et commerciale (accès aux blocs, intégration à l'existant).",
+    "why": "Angle VC : le goulot n'est plus l'implant mais l'accès au bloc — kits à usage simplifié, absence de capital à investir, guidage robotique. Les sociétés qui réduisent la friction opérationnelle de la voie mini-invasive (Neo Medical) ou qui l'automatisent (robotique) attirent les capitaux ; la preuve clinique multicentrique est le prochain jalon.",
     "startups": [
-      { "name": "XRlabs", "use": "Copilote IA combinant vidéo chirurgicale et imagerie patient sur le matériel hospitalier existant ; seed de 8,4 M$ (Playground Global, Eka Ventures)", "place": "Londres" },
-      { "name": "Uncovr", "use": "Génère comptes rendus opératoires et codage procédural à partir de la vidéo chirurgicale ; seed de 6 M€ mené par Index Ventures (juin 2026)", "place": "Paris" },
-      { "name": "Hypervision Surgical", "use": "Spin-out du King's College London : analyse des tissus en temps réel au bloc opératoire ; seed de 6,5 M£", "place": "Londres" },
-      { "name": "SurgExplore", "use": "Spin-out de l'Université de Berne : transforme les vidéos de chirurgie en formation, planification préopératoire et rapports post-opératoires ; seed de 173 k$", "place": "Berne" }
+      {
+        "name": "Neo Medical",
+        "use": "Plateforme Instant MIS Access pour la chirurgie postérieure du rachis, lancée aux États-Unis en juillet 2026 ; premier déploiement européen à l'Uniklinik RWTH Aachen",
+        "place": "Lausanne, Suisse"
+      },
+      {
+        "name": "Spineart",
+        "use": "Fabricant privé de dispositifs rachidiens (mini-invasif, disques cervicaux, fixation postérieure PERLA) ; 25 M CHF levés auprès de Gimv et EGS Beteiligungen en septembre 2025",
+        "place": "Genève, Suisse"
+      },
+      {
+        "name": "Deneb Medical",
+        "use": "Système robotique IZAR combinant robotique, photonique et IA pour automatiser la chirurgie du rachis ; soutenu par le fonds public espagnol SETT",
+        "place": "Saint-Sébastien, Espagne"
+      }
     ],
     "sources": [
-      { "publisher": "MobiHealthNews", "title": "XRlabs raises $8.4M for AI surgical platform", "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform" },
-      { "publisher": "BeBeez", "title": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records", "url": "https://bebeez.eu/2026/06/10/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/" },
-      { "publisher": "King's College London", "title": "King's surgical AI spin-out Hypervision Surgical secures £6.5m seed investment", "url": "https://www.kcl.ac.uk/news/kings-surgical-ai-spin-out-hypervision-surgical-secures-6.5m-seed-investment" },
-      { "publisher": "Signalbase", "title": "SurgExplore secures $173K seed funding", "url": "https://www.trysignalbase.com/news/funding/surgexplore-secures-173k-seed-funding" }
+      {
+        "publisher": "Becker's Spine Review",
+        "title": "Spine company debuts minimally invasive surgery platform",
+        "url": "https://www.beckersspine.com/spine/spine-company-debuts-minimally-invasive-surgery-platform/"
+      },
+      {
+        "publisher": "HospiMedica",
+        "title": "Minimally Invasive Spinal Surgery - Through a Straw",
+        "url": "https://mobile.hospimedica.com/surgical-techniques/articles/294720469/minimally-invasive-spinal-surgery---through-a-straw.amp.html"
+      },
+      {
+        "publisher": "Swiss Healthcare Startups (GGBA)",
+        "title": "Spineart raises CHF 25 million to accelerate global expansion and innovation",
+        "url": "https://ggba.swiss/en/spineart-raises-chf-25-million-to-accelerate-global-expansion-and-innovation"
+      },
+      {
+        "publisher": "Dealroom",
+        "title": "Deneb Medical raises 15 million to automate spinal surgery",
+        "url": "https://dealroom.co/news/149406-deneb-medical-raises-15-million-to-automate-spinal-surgery/"
+      }
     ]
   }
 }

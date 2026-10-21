@@ -1,6 +1,239 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "words": [
+    {
+      "term": "Clinical Trial Matching",
+      "full": "Clinical Trial Matching",
+      "fr": "Automatic identification of patients eligible for a trial",
+      "field": "Clinical AI",
+      "definition": "Software, often based on language models, that reads a patient's record to spot the clinical trials they could join.",
+      "parts": [
+        {
+          "label": "Patient data",
+          "role": "structured medical record and free-text clinical notes"
+        },
+        {
+          "label": "Trial criteria",
+          "role": "the protocol's inclusion and exclusion rules"
+        },
+        {
+          "label": "Matching engine",
+          "role": "the model that crosses both and ranks candidates"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Read",
+          "t": "The system analyzes unstructured documents (in several languages) and structured clinical variables from the patient record."
+        },
+        {
+          "n": "2",
+          "h": "Match",
+          "t": "A model evaluates each patient against the inclusion and exclusion criteria of open trials."
+        },
+        {
+          "n": "3",
+          "h": "Suggest",
+          "t": "The list of candidate trials goes to the clinician, who confirms eligibility and proposes enrollment."
+        }
+      ],
+      "why": "VC angle: recruitment is the first cause of trial delays, hence a budget that sponsors and pharma pay for (AstraZeneca is testing AI for recruitment with Oracle). Startups that plug into hospital patient records get direct data access; the barrier is health-data compliance.",
+      "startups": [
+        {
+          "name": "OASYS NOW",
+          "use": "AI patient recruitment platform; Slush 100 winner with €1M equity investment from General Catalyst and Cherry Ventures",
+          "place": "Delft, Netherlands"
+        },
+        {
+          "name": "myTomorrows",
+          "use": "AI trial matching integrated into the patient record at Clínica Universidad de Navarra (March 2026 partnership)",
+          "place": "Netherlands"
+        },
+        {
+          "name": "Cori Clinical",
+          "use": "Clinical trial design and delay reduction; $4M seed"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Silicon Canals",
+          "title": "Delft's OASYS NOW wins Slush 100",
+          "url": "https://siliconcanals.com/delft-oasys-now-wins-slush-100/"
+        },
+        {
+          "publisher": "Clinical Trials Arena",
+          "title": "myTomorrows and CUN AI patient trial matching",
+          "url": "https://www.clinicaltrialsarena.com/news/mytomorrows-cun-ai-patient-trial-matching/"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Cori Clinical",
+          "url": "https://tech.eu/tag/cori-clinical/"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "AstraZeneca and Oracle launch global AI collaboration",
+          "url": "https://nordiclifescience.org/astrazeneca-and-oracle-launch-global-ai-collaboration/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "Oct 21, 2026"
+    },
+    {
+      "term": "Lentiviral Vector",
+      "full": "Lentiviral Vector",
+      "fr": "Vector derived from a lentivirus to deliver a gene",
+      "field": "Gene therapy",
+      "definition": "A disarmed virus from the lentivirus family, used as a vehicle to introduce a therapeutic gene into cells.",
+      "parts": [
+        {
+          "label": "Envelope",
+          "role": "the guidance toward target cells"
+        },
+        {
+          "label": "Vector genome",
+          "role": "the payload: the therapeutic gene, without replication genes"
+        },
+        {
+          "label": "Production",
+          "role": "the packaging cells that make the particles"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Manufacture",
+          "t": "Producer cells assemble viral particles carrying the gene of interest, without the ability to replicate."
+        },
+        {
+          "n": "2",
+          "h": "Transduce",
+          "t": "The particles infect the patient's cells (often collected then modified in the lab, as in CAR-T therapy)."
+        },
+        {
+          "n": "3",
+          "h": "Express",
+          "t": "The gene is delivered into the cell, which produces the missing protein or the desired receptor."
+        }
+      ],
+      "why": "VC angle: lentiviral vectors are the bottleneck of ex vivo cell and gene therapy — manufacturing costs, production capacity and packaging-cell-free variants are investment theses in their own right, with seed to Series B tickets in Europe.",
+      "startups": [
+        {
+          "name": "Genespire",
+          "use": "Lentiviral gene therapy; €46.6M Series B closed in September 2024",
+          "place": "Italy"
+        },
+        {
+          "name": "Lentitek",
+          "use": "Lentiviral vectors for CAR-T and gene therapy; £700k raised from Equity Gap and existing investors in 2025",
+          "place": "Edinburgh, UK"
+        },
+        {
+          "name": "Fuse Vectors",
+          "use": "Cell-free viral vector technology; $5.2M pre-seed in February 2025"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Fuse Vectors",
+          "url": "https://tech.eu/tag/fuse-vectors/"
+        },
+        {
+          "publisher": "Equity Gap",
+          "title": "Lentitek secures £700k investment from Equity Gap and existing investors",
+          "url": "https://www.equitygap.co.uk/lentitek-secures-700k-investment-from-equity-gap-and-existing-investors/"
+        },
+        {
+          "publisher": "HTGF",
+          "title": "Viral vectors for novel cell models, gene therapy and vaccine development gain further funds from private investors",
+          "url": "https://www.htgf.de/en/viral-vectors-for-novel-cell-models-gene-therapy-and-vaccine-development-gain-further-funds-from-private-investors/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "Oct 21, 2026"
+    },
+    {
+      "term": "MISS",
+      "full": "Minimally Invasive Spine Surgery",
+      "fr": "Minimally invasive spine surgery",
+      "field": "Spine surgery",
+      "definition": "A set of techniques that treat the spine through small incisions, moving muscle aside rather than cutting it, for less bleeding and faster recovery.",
+      "parts": [
+        {
+          "label": "Approach",
+          "role": "the small incision and working channel (tubular retractor)"
+        },
+        {
+          "label": "Instruments & implants",
+          "role": "screws, rods and tools designed to pass through that channel"
+        },
+        {
+          "label": "Guidance",
+          "role": "imaging, navigation or a robot to compensate for the reduced view"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Access",
+          "t": "A small incision is made and a tubular retractor pushes muscle and soft tissue aside without cutting it."
+        },
+        {
+          "n": "2",
+          "h": "Operate through the channel",
+          "t": "The surgeon removes bone or disc and places implants (screws, rods) with instruments passed through the tube."
+        },
+        {
+          "n": "3",
+          "h": "Recover",
+          "t": "Smaller incisions are associated with less blood loss and faster recovery, but the surgeon's learning curve is steep."
+        }
+      ],
+      "why": "VC angle: the bottleneck is no longer the implant but access to the OR — simplified kits, no capital outlay, robotic guidance. Companies that cut the operational friction of the minimally invasive route (Neo Medical) or automate it (robotics) attract capital; multicenter clinical proof is the next milestone.",
+      "startups": [
+        {
+          "name": "Neo Medical",
+          "use": "Instant MIS Access platform for posterior spine surgery, launched in the US in July 2026; first European deployment at Uniklinik RWTH Aachen",
+          "place": "Lausanne, Switzerland"
+        },
+        {
+          "name": "Spineart",
+          "use": "Private spine device maker (minimally invasive, cervical discs, PERLA posterior fixation); raised CHF 25M from Gimv and EGS Beteiligungen in September 2025",
+          "place": "Geneva, Switzerland"
+        },
+        {
+          "name": "Deneb Medical",
+          "use": "IZAR robotic system combining robotics, photonics and AI to automate spine surgery; backed by Spain's public fund SETT",
+          "place": "San Sebastián, Spain"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Becker's Spine Review",
+          "title": "Spine company debuts minimally invasive surgery platform",
+          "url": "https://www.beckersspine.com/spine/spine-company-debuts-minimally-invasive-surgery-platform/"
+        },
+        {
+          "publisher": "HospiMedica",
+          "title": "Minimally Invasive Spinal Surgery - Through a Straw",
+          "url": "https://mobile.hospimedica.com/surgical-techniques/articles/294720469/minimally-invasive-spinal-surgery---through-a-straw.amp.html"
+        },
+        {
+          "publisher": "Swiss Healthcare Startups (GGBA)",
+          "title": "Spineart raises CHF 25 million to accelerate global expansion and innovation",
+          "url": "https://ggba.swiss/en/spineart-raises-chf-25-million-to-accelerate-global-expansion-and-innovation"
+        },
+        {
+          "publisher": "Dealroom",
+          "title": "Deneb Medical raises 15 million to automate spinal surgery",
+          "url": "https://dealroom.co/news/149406-deneb-medical-raises-15-million-to-automate-spinal-surgery/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "Oct 21, 2026"
+    },
     {
       "term": "Virtual Ward",
       "full": "Virtual Ward (hospital at home with remote monitoring)",

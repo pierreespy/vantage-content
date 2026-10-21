@@ -1,6 +1,239 @@
 {
-  "generatedAt": "2026-10-20",
+  "generatedAt": "2026-10-21",
   "words": [
+    {
+      "term": "Clinical Trial Matching",
+      "full": "Clinical Trial Matching (appariement patients-essais cliniques)",
+      "fr": "Identification automatique des patients éligibles à un essai",
+      "field": "IA clinique",
+      "definition": "Des logiciels, souvent à base de modèles de langage, qui lisent le dossier du patient pour repérer les essais cliniques auxquels il pourrait participer.",
+      "parts": [
+        {
+          "label": "Données patient",
+          "role": "dossier médical structuré et notes cliniques en texte libre"
+        },
+        {
+          "label": "Critères d'essai",
+          "role": "inclusion et exclusion du protocole"
+        },
+        {
+          "label": "Moteur d'appariement",
+          "role": "le modèle qui croise les deux et classe les candidats"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Lire",
+          "t": "Le système analyse documents non structurés (en plusieurs langues) et variables cliniques structurées du dossier patient."
+        },
+        {
+          "n": "2",
+          "h": "Apparier",
+          "t": "Un modèle évalue chaque patient face aux critères d'inclusion et d'exclusion des essais ouverts."
+        },
+        {
+          "n": "3",
+          "h": "Proposer",
+          "t": "La liste des essais candidats est remise au clinicien, qui confirme l'éligibilité et propose l'inclusion."
+        }
+      ],
+      "why": "Angle VC : le recrutement est le premier poste de retard des essais, donc un budget que promoteurs et pharma paient (AstraZeneca teste justement l'IA pour le recrutement avec Oracle). Les startups qui s'intègrent au dossier patient de l'hôpital ont un accès direct aux données ; la barrière est la conformité aux données de santé.",
+      "startups": [
+        {
+          "name": "OASYS NOW",
+          "use": "Plateforme d'IA de recrutement de patients ; lauréate de Slush 100 avec 1 M€ d'investissement en capital de General Catalyst et Cherry Ventures",
+          "place": "Delft, Pays-Bas"
+        },
+        {
+          "name": "myTomorrows",
+          "use": "Appariement d'essais par IA intégré au dossier patient de la Clínica Universidad de Navarra (partenariat de mars 2026)",
+          "place": "Pays-Bas"
+        },
+        {
+          "name": "Cori Clinical",
+          "use": "Conception d'essais cliniques et réduction des délais ; seed de 4 M$"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Silicon Canals",
+          "title": "Delft's OASYS NOW wins Slush 100",
+          "url": "https://siliconcanals.com/delft-oasys-now-wins-slush-100/"
+        },
+        {
+          "publisher": "Clinical Trials Arena",
+          "title": "myTomorrows and CUN AI patient trial matching",
+          "url": "https://www.clinicaltrialsarena.com/news/mytomorrows-cun-ai-patient-trial-matching/"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Cori Clinical",
+          "url": "https://tech.eu/tag/cori-clinical/"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "AstraZeneca and Oracle launch global AI collaboration",
+          "url": "https://nordiclifescience.org/astrazeneca-and-oracle-launch-global-ai-collaboration/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "21 oct. 2026"
+    },
+    {
+      "term": "Lentiviral Vector",
+      "full": "Lentiviral Vector (vecteur lentiviral)",
+      "fr": "Vecteur dérivé d'un lentivirus pour livrer un gène",
+      "field": "Thérapie génique",
+      "definition": "Un virus désarmé, de la famille des lentivirus, utilisé comme véhicule pour introduire un gène thérapeutique dans des cellules.",
+      "parts": [
+        {
+          "label": "Enveloppe",
+          "role": "le guidage vers les cellules cibles"
+        },
+        {
+          "label": "Génome du vecteur",
+          "role": "la charge : le gène thérapeutique, sans gènes de réplication"
+        },
+        {
+          "label": "Production",
+          "role": "les cellules d'emballage qui fabriquent les particules"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Fabriquer",
+          "t": "Des cellules productrices assemblent des particules virales portant le gène d'intérêt, sans capacité de se répliquer."
+        },
+        {
+          "n": "2",
+          "h": "Transduire",
+          "t": "Les particules infectent les cellules du patient (souvent prélevées puis modifiées en laboratoire, comme en thérapie CAR-T)."
+        },
+        {
+          "n": "3",
+          "h": "Exprimer",
+          "t": "Le gène est livré dans la cellule, qui produit la protéine manquante ou le récepteur recherché."
+        }
+      ],
+      "why": "Angle VC : les lentivecteurs sont le goulot de la thérapie cellulaire et génique ex vivo — coûts de fabrication, capacité de production et variantes sans cellules d'emballage sont des thèses d'investissement à part entière, avec des tickets seed à Series B en Europe.",
+      "startups": [
+        {
+          "name": "Genespire",
+          "use": "Thérapie génique lentivirale ; Series B de 46,6 M€ bouclée en septembre 2024",
+          "place": "Italie"
+        },
+        {
+          "name": "Lentitek",
+          "use": "Vecteurs lentiviraux pour CAR-T et thérapie génique ; 700 k£ levées auprès d'Equity Gap et d'investisseurs existants en 2025",
+          "place": "Édimbourg, Royaume-Uni"
+        },
+        {
+          "name": "Fuse Vectors",
+          "use": "Technologie de vecteurs viraux sans cellules ; pre-seed de 5,2 M$ en février 2025"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Fuse Vectors",
+          "url": "https://tech.eu/tag/fuse-vectors/"
+        },
+        {
+          "publisher": "Equity Gap",
+          "title": "Lentitek secures £700k investment from Equity Gap and existing investors",
+          "url": "https://www.equitygap.co.uk/lentitek-secures-700k-investment-from-equity-gap-and-existing-investors/"
+        },
+        {
+          "publisher": "HTGF",
+          "title": "Viral vectors for novel cell models, gene therapy and vaccine development gain further funds from private investors",
+          "url": "https://www.htgf.de/en/viral-vectors-for-novel-cell-models-gene-therapy-and-vaccine-development-gain-further-funds-from-private-investors/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "21 oct. 2026"
+    },
+    {
+      "term": "MISS",
+      "full": "Minimally Invasive Spine Surgery (chirurgie mini-invasive du rachis)",
+      "fr": "Chirurgie du rachis par voies d'abord réduites",
+      "field": "Chirurgie du rachis",
+      "definition": "Un ensemble de techniques qui traitent le rachis par de petites incisions et en écartant les muscles plutôt qu'en les coupant, pour moins de saignement et une récupération plus rapide.",
+      "parts": [
+        {
+          "label": "Voie d'abord",
+          "role": "la petite incision et le canal de travail (écarteur tubulaire)"
+        },
+        {
+          "label": "Instruments & implants",
+          "role": "vis, tiges et outils conçus pour passer par ce canal"
+        },
+        {
+          "label": "Guidage",
+          "role": "imagerie, navigation ou robot pour compenser la vue réduite"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Accéder",
+          "t": "Une petite incision est pratiquée et un écarteur tubulaire repousse muscles et tissus mous sans les sectionner."
+        },
+        {
+          "n": "2",
+          "h": "Opérer par le canal",
+          "t": "Le chirurgien retire os ou disque et pose les implants (vis, tiges) avec des instruments passés dans le tube."
+        },
+        {
+          "n": "3",
+          "h": "Récupérer",
+          "t": "Des incisions plus petites sont associées à moins de pertes sanguines et à une récupération plus rapide, mais la courbe d'apprentissage du chirurgien est exigeante."
+        }
+      ],
+      "why": "Angle VC : le goulot n'est plus l'implant mais l'accès au bloc — kits à usage simplifié, absence de capital à investir, guidage robotique. Les sociétés qui réduisent la friction opérationnelle de la voie mini-invasive (Neo Medical) ou qui l'automatisent (robotique) attirent les capitaux ; la preuve clinique multicentrique est le prochain jalon.",
+      "startups": [
+        {
+          "name": "Neo Medical",
+          "use": "Plateforme Instant MIS Access pour la chirurgie postérieure du rachis, lancée aux États-Unis en juillet 2026 ; premier déploiement européen à l'Uniklinik RWTH Aachen",
+          "place": "Lausanne, Suisse"
+        },
+        {
+          "name": "Spineart",
+          "use": "Fabricant privé de dispositifs rachidiens (mini-invasif, disques cervicaux, fixation postérieure PERLA) ; 25 M CHF levés auprès de Gimv et EGS Beteiligungen en septembre 2025",
+          "place": "Genève, Suisse"
+        },
+        {
+          "name": "Deneb Medical",
+          "use": "Système robotique IZAR combinant robotique, photonique et IA pour automatiser la chirurgie du rachis ; soutenu par le fonds public espagnol SETT",
+          "place": "Saint-Sébastien, Espagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Becker's Spine Review",
+          "title": "Spine company debuts minimally invasive surgery platform",
+          "url": "https://www.beckersspine.com/spine/spine-company-debuts-minimally-invasive-surgery-platform/"
+        },
+        {
+          "publisher": "HospiMedica",
+          "title": "Minimally Invasive Spinal Surgery - Through a Straw",
+          "url": "https://mobile.hospimedica.com/surgical-techniques/articles/294720469/minimally-invasive-spinal-surgery---through-a-straw.amp.html"
+        },
+        {
+          "publisher": "Swiss Healthcare Startups (GGBA)",
+          "title": "Spineart raises CHF 25 million to accelerate global expansion and innovation",
+          "url": "https://ggba.swiss/en/spineart-raises-chf-25-million-to-accelerate-global-expansion-and-innovation"
+        },
+        {
+          "publisher": "Dealroom",
+          "title": "Deneb Medical raises 15 million to automate spinal surgery",
+          "url": "https://dealroom.co/news/149406-deneb-medical-raises-15-million-to-automate-spinal-surgery/"
+        }
+      ],
+      "date": "2026-10-21",
+      "dateLong": "21 oct. 2026"
+    },
     {
       "term": "Virtual Ward",
       "full": "Virtual Ward (lit virtuel / hospitalisation à domicile)",

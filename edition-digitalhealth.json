@@ -1,71 +1,133 @@
 {
-  "dateLong": "20 oct. 2026",
+  "dateLong": "21 oct. 2026",
   "ticker": [
-    { "company": "SBRI Healthcare", "amount": "£5M", "kind": "reg" },
-    { "company": "Essex ICB", "amount": "292 lits", "kind": "tech" },
-    { "company": "NHS England", "amount": "£6,7M", "kind": "reg" }
+    {
+      "company": "AstraZeneca",
+      "amount": "× Oracle",
+      "kind": "tech"
+    },
+    {
+      "company": "NeuroXT",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "Tivenix",
+      "amount": "Partenariat",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Appel à projets · IA & cancer",
-    "title": "SBRI Healthcare ouvre la 4e vague de l'appel NHS Cancer Programme : jusqu'à 5 M£, clôture le 1er décembre",
-    "deck": "Deux voies : jusqu'à 3 M£ sur 24 mois pour déployer et évaluer une innovation prête pour le marché (société basée au Royaume-Uni ou dans l'UE, partenaire NHS et évaluateur indépendant), ou jusqu'à 5 M£ pour les ICB associés aux Cancer Alliances. Parmi les exemples ciblés : triage par IA des orientations cancer urgentes, aide à la décision et IA ambiante, interopérables avec les DPI, l'application NHS et la plateforme fédérée de données.",
-    "company": "SBRI Healthcare",
-    "sector": "Fonds",
+    "kicker": "Partenariat · Données & IA clinique",
+    "title": "AstraZeneca et Oracle lancent une collaboration mondiale d'IA, du recrutement d'essais au suivi de la sécurité",
+    "deck": "Les deux groupes ont signé un term-sheet non contraignant pour tester des outils d'IA reliant la recherche aux parcours de soins : recrutement d'essais cliniques, diagnostic précoce, pharmacovigilance et usage des données de vie réelle sur des données dé-identifiées. Premier programme à Abu Dhabi, sur l'hypertension non contrôlée avec M42, puis des projets en Europe ; aucun terme financier n'est divulgué.",
+    "company": "AstraZeneca",
+    "sector": "Données de santé",
     "pillar": "marche",
-    "signalType": "grant_award",
+    "signalType": "early_partnership",
     "strength": 3,
-    "url": "https://htn.co.uk/2026/10/19/5-million-cancer-innovation-programme-open-call-launches/"
+    "url": "https://nordiclifescience.org/astrazeneca-and-oracle-launch-global-ai-collaboration/"
   },
   "milestone": {
-    "company": "Doccla",
-    "milestone": "Déploiement",
-    "title": "L'ICB d'Essex prévoit de lancer Doccla en pneumologie dans son plan hiver 2026/27",
-    "summary": "Le plan hiver compte 292 lits de virtual ward et d'hospitalisation à domicile, portés à 426 avec les autres capacités d'évitement d'admission, et prévoit d'étendre la voix ambiante et la télésurveillance. Doccla doit être lancé dans les services respiratoires pour la surveillance à distance et l'évitement des admissions.",
-    "why": "Les lits virtuels deviennent une ligne du plan hiver d'un système de santé, pas un pilote. Le conseil de NHS England s'inquiète en parallèle de la lenteur de déploiement de la plateforme fédérée de données, de l'application NHS et de la voix ambiante.",
-    "place": "Essex",
-    "sector": "Télésurveillance",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/"
+    "company": "NeuroXT",
+    "milestone": "Autorisation FDA 510(k)",
+    "title": "NeuroXT obtient l'autorisation FDA 510(k) de NEXT-Cue, un logiciel d'IA pour le pronostic des troubles cognitifs légers",
+    "summary": "Le logiciel dispositif médical de classe II combine IRM cérébrale, données démographiques et évaluation cognitive pour aider le clinicien à estimer le risque de progression vers la démence d'Alzheimer sous cinq ans. La société sud-coréenne prévoit d'établir des cas d'usage réels dans des établissements américains de référence.",
+    "why": "Le pronostic dans le déclin cognitif léger devient un marché logiciel à mesure que les traitements anti-amyloïdes arrivent : savoir qui progresse guide qui traiter. Un comparable pour les SaMD européens d'imagerie cérébrale.",
+    "place": "Séoul",
+    "sector": "IA clinique",
+    "signalType": "regulatory_milestone",
+    "url": "https://biospace.com/press-releases/neuroxt-inc-receives-u-s-fda-510k-clearance-for-next-cue-ai-software-supporting-prognostic-assessment-in-mild-cognitive-impairment"
   },
   "brefsEurope": [
     {
-      "company": "NHS England",
-      "place": "Angleterre",
+      "company": "Tivenix",
+      "place": "Lugano",
       "sector": "Données de santé",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 2,
-      "title": "NHS England sonde le marché pour un jeu de données national sur les stocks de médicaments hospitaliers (6,75 M£)",
-      "summary": "Il s'agit d'un avis de consultation préalable, pas d'un contrat : outil de reporting pour les hôpitaux, données de stock et de délivrance quotidiennes, et comparateur des prix payés. Réponses jusqu'au 1er novembre ; contrat envisagé du 1er avril 2027 au 31 mars 2028, prolongeable.",
-      "url": "https://htn.co.uk/2026/10/19/nhs-england-opens-6-7-million-secondary-care-medicines-data-pre-market-engagement/"
+      "strength": 3,
+      "title": "Tivenix signe un accord de partenariat stratégique avec CellCarta qui élargit leur collaboration réglementaire de 2025",
+      "summary": "L'accord prévoit des études cliniques communes et une offre commerciale conjointe pour la plateforme d'IA de la société suisse, qui analyse l'ADN libre circulant et vise d'abord les maladies neurodégénératives. CellCarta est un laboratoire de recherche sous contrat en médecine de précision.",
+      "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
     }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "Virtual Ward",
-    "full": "Virtual Ward (lit virtuel / hospitalisation à domicile)",
-    "fr": "Service hospitalier à domicile avec télésurveillance",
-    "field": "Télésurveillance",
-    "definition": "Un service qui suit à domicile, avec des capteurs et une équipe soignante à distance, des patients qui auraient autrement occupé un lit d'hôpital.",
+    "term": "Clinical Trial Matching",
+    "full": "Clinical Trial Matching (appariement patients-essais cliniques)",
+    "fr": "Identification automatique des patients éligibles à un essai",
+    "field": "IA clinique",
+    "definition": "Des logiciels, souvent à base de modèles de langage, qui lisent le dossier du patient pour repérer les essais cliniques auxquels il pourrait participer.",
     "parts": [
-      { "label": "Capteurs", "role": "les constantes du patient mesurées chez lui" },
-      { "label": "Algorithmes d'alerte", "role": "le repérage des dégradations" },
-      { "label": "Équipe clinique", "role": "l'intervention à distance ou à domicile" }
+      {
+        "label": "Données patient",
+        "role": "dossier médical structuré et notes cliniques en texte libre"
+      },
+      {
+        "label": "Critères d'essai",
+        "role": "inclusion et exclusion du protocole"
+      },
+      {
+        "label": "Moteur d'appariement",
+        "role": "le modèle qui croise les deux et classe les candidats"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Équiper", "t": "Le patient reçoit des capteurs (wearables) qui transmettent ses mesures." },
-      { "n": "2", "h": "Détecter", "t": "Des modèles d'apprentissage automatique identifient les patients à risque de dégradation à partir des données de capteurs de qualité clinique." },
-      { "n": "3", "h": "Agir", "t": "L'équipe soignante intervient pour éviter l'admission ou raccourcir le séjour." }
+      {
+        "n": "1",
+        "h": "Lire",
+        "t": "Le système analyse documents non structurés (en plusieurs langues) et variables cliniques structurées du dossier patient."
+      },
+      {
+        "n": "2",
+        "h": "Apparier",
+        "t": "Un modèle évalue chaque patient face aux critères d'inclusion et d'exclusion des essais ouverts."
+      },
+      {
+        "n": "3",
+        "h": "Proposer",
+        "t": "La liste des essais candidats est remise au clinicien, qui confirme l'éligibilité et propose l'inclusion."
+      }
     ],
-    "why": "Angle VC : un lit virtuel est un poste budgété par les systèmes de santé (Essex en compte 292, 426 avec les autres capacités). Les acteurs européens se financent pour s'étendre au-delà du Royaume-Uni. Point d'attention : l'absence de financement national récurrent, qui oblige les organisations à l'intégrer à leurs budgets.",
+    "why": "Angle VC : le recrutement est le premier poste de retard des essais, donc un budget que promoteurs et pharma paient (AstraZeneca teste justement l'IA pour le recrutement avec Oracle). Les startups qui s'intègrent au dossier patient de l'hôpital ont un accès direct aux données ; la barrière est la conformité aux données de santé.",
     "startups": [
-      { "name": "Doccla", "use": "Plateforme de virtual ward et de télésurveillance utilisée par des trusts du NHS ; Série B de 35 M£ menée par Lakestar pour s'étendre en France et dans la zone DACH", "place": "Londres" },
-      { "name": "Huma", "use": "Plateforme de suivi à distance déployée dans de nombreux hôpitaux, dont au NHS ; Série D de 80 M$ en 2024", "place": "Londres" }
+      {
+        "name": "OASYS NOW",
+        "use": "Plateforme d'IA de recrutement de patients ; lauréate de Slush 100 avec 1 M€ d'investissement en capital de General Catalyst et Cherry Ventures",
+        "place": "Delft, Pays-Bas"
+      },
+      {
+        "name": "myTomorrows",
+        "use": "Appariement d'essais par IA intégré au dossier patient de la Clínica Universidad de Navarra (partenariat de mars 2026)",
+        "place": "Pays-Bas"
+      },
+      {
+        "name": "Cori Clinical",
+        "use": "Conception d'essais cliniques et réduction des délais ; seed de 4 M$"
+      }
     ],
     "sources": [
-      { "publisher": "HTN", "title": "Essex ICB outlines role of digital in 2026/27 system winter plan", "url": "https://htn.co.uk/2026/10/16/essex-icb-outlines-role-of-digital-in-2026-27-system-winter-plan/" },
-      { "publisher": "HIT Consultant", "title": "Doccla Secures $45.9M to Scale Virtual Ward Solutions Across Europe", "url": "https://hitconsultant.net/2024/09/03/doccla-virtual-ward-solutions-funding/" },
-      { "publisher": "IT Brief UK", "title": "Doccla: AI virtual wards ease NHS backlog and admissions", "url": "https://itbrief.co.uk/story/doccla-ai-virtual-wards-ease-nhs-backlog-admissions" }
+      {
+        "publisher": "Silicon Canals",
+        "title": "Delft's OASYS NOW wins Slush 100",
+        "url": "https://siliconcanals.com/delft-oasys-now-wins-slush-100/"
+      },
+      {
+        "publisher": "Clinical Trials Arena",
+        "title": "myTomorrows and CUN AI patient trial matching",
+        "url": "https://www.clinicaltrialsarena.com/news/mytomorrows-cun-ai-patient-trial-matching/"
+      },
+      {
+        "publisher": "Tech.eu",
+        "title": "Cori Clinical",
+        "url": "https://tech.eu/tag/cori-clinical/"
+      },
+      {
+        "publisher": "Nordic Life Science",
+        "title": "AstraZeneca and Oracle launch global AI collaboration",
+        "url": "https://nordiclifescience.org/astrazeneca-and-oracle-launch-global-ai-collaboration/"
+      }
     ]
   }
 }

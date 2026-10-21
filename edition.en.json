@@ -1,100 +1,172 @@
 {
-  "dateLong": "Oct 20, 2026",
+  "dateLong": "Oct 21, 2026",
   "ticker": [
-    { "company": "XRlabs", "amount": "$8.4M", "kind": "lev" },
-    { "company": "Integrum", "amount": "OPRA 97.9%", "kind": "tech" },
-    { "company": "Genetic Analysis", "amount": "UEG Week", "kind": "tech" },
-    { "company": "Medtronic", "amount": "CE", "kind": "reg" },
-    { "company": "Sequel", "amount": "FDA", "kind": "reg" }
+    {
+      "company": "Neo Medical",
+      "amount": "1st EU rollout",
+      "kind": "tech"
+    },
+    {
+      "company": "SQ Innovation",
+      "amount": "JACC",
+      "kind": "tech"
+    },
+    {
+      "company": "bioMérieux",
+      "amount": "WHO EUL",
+      "kind": "reg"
+    },
+    {
+      "company": "Aspivix",
+      "amount": "US distribution",
+      "kind": "tech"
+    },
+    {
+      "company": "Masimo",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "NeuroXT",
+      "amount": "FDA",
+      "kind": "reg"
+    }
   ],
   "lead": {
-    "kicker": "Seed · Surgical AI",
-    "title": "London's XRlabs raises $8.4M seed led by Playground Global for its operating-room AI copilot",
-    "deck": "The round is led by Playground Global, with Eka Ventures. The copilot combines surgical video and patient imaging using equipment hospitals already have; the funds will expand engineering and clinical teams, open regulatory pathways (UK, Europe, US) and build the clinical evidence base.",
-    "company": "XRlabs",
-    "stage": "Seed",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "First European deployment · Spine surgery",
+    "title": "Neo Medical deploys its Posterior MIS Access system in Europe for the first time, at Uniklinik RWTH Aachen",
+    "deck": "The Swiss company's minimally invasive access system begins its first European deployment at Uniklinik RWTH Aachen, the starting point of a multicenter study with three other German institutions (BG Klinikum Bergmannstrost Halle, Universitätsmedizin Halle, Charité Berlin). Neo Medical launched the platform in the US in July 2026, claiming no capital outlay for the hospital: Europe is now its clinical test.",
+    "company": "Neo Medical",
+    "sector": "Spine surgery",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform"
+    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
   },
   "milestone": {
-    "company": "Integrum",
-    "milestone": "Clinical data",
-    "title": "Integrum's OPRA implant: 97.9% one-year survival in Ukrainian veterans with limb loss",
-    "summary": "A retrospective study by Ukrainian surgeons (International Orthopaedics) covers 49 veterans operated on in 2023-2024; 45 completed both surgical stages (47 implants). Implant survival reaches 97.9% at one year and 93.2% at a median 18.7 months of follow-up, with no mechanical complications; 18% of patients had an infection in the first year.",
-    "why": "Osseointegration (a prosthesis anchored in the bone, no socket) is building real-world evidence just as Ukraine decided in September on a state-funded pilot (first 25 patients in 2026). A public-demand signal for a listed Swedish medtech already MDR-certified and FDA-approved.",
-    "place": "Mölndal",
-    "sector": "Orthopedics",
+    "company": "SQ Innovation",
+    "milestone": "JACC publication",
+    "title": "SUBCUT-HF II: subcutaneous furosemide via a patch pump cuts hospital time in heart failure (JACC)",
+    "summary": "Randomized trial of 172 patients at NHS hospitals: early discharge on Lasix ONYU (92 patients) versus usual inpatient care (80). The primary endpoint, days alive and out of hospital at 30 days, improved by 4.0 days (95% CI 2.1-5.8; p<0.001), with no device-related serious adverse event.",
+    "why": "A drug-device combination (an abdominal patch pump approved by the FDA in October 2025) that moves hospital days to the home: a direct economic argument for payers, backed by a European trial published in a top-tier journal.",
+    "place": "Charlotte (NHS trial)",
+    "sector": "Cardio",
     "signalType": "publication_preprint",
-    "url": "https://nordiclifescience.org/integrums-opra-implant-shows-high-survival-in-ukrainian-war-veterans/"
+    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
   },
   "brefsEurope": [
     {
-      "company": "Genetic Analysis",
-      "place": "Norway",
+      "company": "bioMérieux",
+      "place": "Marcy-l'Étoile",
       "sector": "Diagnostics",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 2,
-      "title": "Genetic Analysis presents its GA-map IBD Precision Dx test at UEG Week to predict aggressive ulcerative colitis",
-      "summary": "The company's first oral presentation at UEG Week (Barcelona): at diagnosis, the test identifies a microbiome profile linked to an aggressive course of ulcerative colitis, to guide treatment over the first 12 months. Developed with Akershus University Hospital and the University of Gothenburg.",
-      "url": "https://nordiclifescience.org/genetic-analysis-presents-ulcerative-colitis-risk-test-at-ueg-week/"
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "WHO grants emergency use listing to bioMérieux's BioFire special pathogens panel for Bundibugyo virus",
+      "summary": "The BioFire Defense panel (a bioMérieux subsidiary) detects 16 pathogens, including Ebola, Marburg and Lassa, from a single blood sample in about an hour; it is the fifth test to receive the listing since the emergency was declared in May 2026. As of October 18, the DRC had reported 9,552 cases and 4,602 deaths. A market comparable more than an entry opportunity.",
+      "url": "https://www.medicaldevice-network.com/news/who-grants-biomerieux-ebola-panel-emergency-listing-amid-ongoing-bundibugyo-outbreak/"
+    },
+    {
+      "company": "Aspivix",
+      "place": "Switzerland",
+      "sector": "Femtech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Aspivix makes its carevix device available to all Afaxys members in the United States",
+      "summary": "The agreement opens the cervical stabilization device (IUD placement and other transcervical procedures) to community and public health providers in the Afaxys network: one more US channel after the commercial opening of October 2025.",
+      "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Medtronic",
-      "place": "Minneapolis",
-      "sector": "Cardio",
+      "company": "Masimo",
+      "place": "Irvine",
+      "sector": "Monitoring",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "Medtronic wins CE mark for its Vitalis family of conduction system pacemakers",
-      "summary": "The range (ReSyncra CSP, Restoria CSP, Refina CSP, Effectra, Confirma) targets conduction system pacing, which uses the heart's natural electrical pathways. A market comparable for start-ups in physiological pacing.",
-      "url": "https://www.massdevice.com/medtronic-nets-ce-mark-for-vitalis-family-of-conduction-system-pacemakers/"
-    },
-    {
-      "company": "Sequel Med Tech",
-      "place": "United States",
-      "sector": "Diabetes",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "FDA clears Sequel's twiist insulin delivery system for type 2 diabetes",
-      "summary": "Indication extended to type 2 diabetes for Sequel's automated pump, while Dexcom awaits Medicare's decision on broader glucose-sensor coverage.",
-      "url": "https://www.medtechdive.com/news/fda-clears-sequels-insulin-delivery-system-in-type-2-diabetes/833317/"
+      "title": "Masimo wins FDA clearance for the PPG AFib feature of its Radius VSM monitor",
+      "summary": "The feature uses AI to analyze the pulse waveform and flag atrial fibrillation, guiding clinicians toward an ECG or telemetry. It follows the June 2026 clearance for opioid-induced respiratory depression detection; Masimo is now a Danaher subsidiary. A comparable for photoplethysmography-based detection.",
+      "url": "https://www.medicaldevice-network.com/news/masimo-vitals-monitor-scoops-fda-clearance-for-afib-detection/"
     }
   ],
   "word": {
-    "term": "Surgical Video AI",
-    "full": "Surgical Video AI",
-    "fr": "Artificial intelligence applied to operative video",
-    "field": "Surgical AI",
-    "definition": "Computer-vision models that analyze the video of an operation to document it, code it, assist the surgeon live or feed training.",
+    "term": "MISS",
+    "full": "Minimally Invasive Spine Surgery",
+    "fr": "Minimally invasive spine surgery",
+    "field": "Spine surgery",
+    "definition": "A set of techniques that treat the spine through small incisions, moving muscle aside rather than cutting it, for less bleeding and faster recovery.",
     "parts": [
-      { "label": "Video capture", "role": "the raw material (endoscope, operating-room camera)" },
-      { "label": "Vision model", "role": "the brain that recognizes gestures and tissue" },
-      { "label": "Output", "role": "report, coding, live assistance or training" }
+      {
+        "label": "Approach",
+        "role": "the small incision and working channel (tubular retractor)"
+      },
+      {
+        "label": "Instruments & implants",
+        "role": "screws, rods and tools designed to pass through that channel"
+      },
+      {
+        "label": "Guidance",
+        "role": "imaging, navigation or a robot to compensate for the reduced view"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Capture", "t": "The operation's video stream, often combined with patient imaging, is collected from equipment already installed in the hospital." },
-      { "n": "2", "h": "Analyze", "t": "An AI model interprets the surgical scene to extract the steps of the procedure." },
-      { "n": "3", "h": "Deliver", "t": "The result takes the form of an operative report or procedural coding, surgeon assistance, or training and planning material." }
+      {
+        "n": "1",
+        "h": "Access",
+        "t": "A small incision is made and a tubular retractor pushes muscle and soft tissue aside without cutting it."
+      },
+      {
+        "n": "2",
+        "h": "Operate through the channel",
+        "t": "The surgeon removes bone or disc and places implants (screws, rods) with instruments passed through the tube."
+      },
+      {
+        "n": "3",
+        "h": "Recover",
+        "t": "Smaller incisions are associated with less blood loss and faster recovery, but the surgeon's learning curve is steep."
+      }
     ],
-    "why": "VC angle: surgical video is still an under-used dataset, and several young European companies are raising seeds to turn it into documentation, coding and decision support. The questions to watch are regulatory (software-as-a-medical-device status) and commercial (access to operating rooms, integration with existing systems).",
+    "why": "VC angle: the bottleneck is no longer the implant but access to the OR — simplified kits, no capital outlay, robotic guidance. Companies that cut the operational friction of the minimally invasive route (Neo Medical) or automate it (robotics) attract capital; multicenter clinical proof is the next milestone.",
     "startups": [
-      { "name": "XRlabs", "use": "AI copilot combining surgical video and patient imaging on existing hospital equipment; $8.4M seed (Playground Global, Eka Ventures)", "place": "London" },
-      { "name": "Uncovr", "use": "Generates operative reports and procedural coding from surgical video; €6M seed led by Index Ventures (June 2026)", "place": "Paris" },
-      { "name": "Hypervision Surgical", "use": "King's College London spin-out: real-time tissue analysis in the operating room; £6.5M seed", "place": "London" },
-      { "name": "SurgExplore", "use": "University of Bern spin-out: turns surgery videos into training, pre-operative planning and post-operative reports; $173K seed", "place": "Bern" }
+      {
+        "name": "Neo Medical",
+        "use": "Instant MIS Access platform for posterior spine surgery, launched in the US in July 2026; first European deployment at Uniklinik RWTH Aachen",
+        "place": "Lausanne, Switzerland"
+      },
+      {
+        "name": "Spineart",
+        "use": "Private spine device maker (minimally invasive, cervical discs, PERLA posterior fixation); raised CHF 25M from Gimv and EGS Beteiligungen in September 2025",
+        "place": "Geneva, Switzerland"
+      },
+      {
+        "name": "Deneb Medical",
+        "use": "IZAR robotic system combining robotics, photonics and AI to automate spine surgery; backed by Spain's public fund SETT",
+        "place": "San Sebastián, Spain"
+      }
     ],
     "sources": [
-      { "publisher": "MobiHealthNews", "title": "XRlabs raises $8.4M for AI surgical platform", "url": "https://www.mobihealthnews.com/news/xrlabs-raises-84m-ai-surgical-platform" },
-      { "publisher": "BeBeez", "title": "French surgical AI startup Uncovr raises €6 million to turn surgical video into clinical records", "url": "https://bebeez.eu/2026/06/10/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/" },
-      { "publisher": "King's College London", "title": "King's surgical AI spin-out Hypervision Surgical secures £6.5m seed investment", "url": "https://www.kcl.ac.uk/news/kings-surgical-ai-spin-out-hypervision-surgical-secures-6.5m-seed-investment" },
-      { "publisher": "Signalbase", "title": "SurgExplore secures $173K seed funding", "url": "https://www.trysignalbase.com/news/funding/surgexplore-secures-173k-seed-funding" }
+      {
+        "publisher": "Becker's Spine Review",
+        "title": "Spine company debuts minimally invasive surgery platform",
+        "url": "https://www.beckersspine.com/spine/spine-company-debuts-minimally-invasive-surgery-platform/"
+      },
+      {
+        "publisher": "HospiMedica",
+        "title": "Minimally Invasive Spinal Surgery - Through a Straw",
+        "url": "https://mobile.hospimedica.com/surgical-techniques/articles/294720469/minimally-invasive-spinal-surgery---through-a-straw.amp.html"
+      },
+      {
+        "publisher": "Swiss Healthcare Startups (GGBA)",
+        "title": "Spineart raises CHF 25 million to accelerate global expansion and innovation",
+        "url": "https://ggba.swiss/en/spineart-raises-chf-25-million-to-accelerate-global-expansion-and-innovation"
+      },
+      {
+        "publisher": "Dealroom",
+        "title": "Deneb Medical raises 15 million to automate spinal surgery",
+        "url": "https://dealroom.co/news/149406-deneb-medical-raises-15-million-to-automate-spinal-surgery/"
+      }
     ]
   }
 }

@@ -1,151 +1,161 @@
 {
-  "dateLong": "Oct 20, 2026",
+  "dateLong": "Oct 21, 2026",
   "ticker": [
-    { "company": "Nouscom", "amount": "€120M", "kind": "lev" },
-    { "company": "Silence", "amount": "$1.3B", "kind": "mna" },
-    { "company": "Ascendis", "amount": "CHMP", "kind": "reg" },
-    { "company": "Orphelia", "amount": "CHMP", "kind": "reg" },
-    { "company": "OSE", "amount": "Ph2 ✓", "kind": "tech" },
-    { "company": "Evaxion", "amount": "3 yrs", "kind": "tech" }
+    {
+      "company": "ALK-Abelló",
+      "amount": "Ph3 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Zealand",
+      "amount": "Ph1 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "Lilly",
+      "amount": "CHMP",
+      "kind": "reg"
+    },
+    {
+      "company": "Alvotech",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "Lycia",
+      "amount": "IPO $228M",
+      "kind": "lev"
+    }
   ],
   "lead": {
-    "kicker": "Series D · Vaccines",
-    "title": "Nouscom raises €120M Series D for its preventive vaccine against Lynch syndrome cancers",
-    "deck": "The oversubscribed round is co-led by M Ventures and Revelation Partners, with new entrants (Angelini Industries, the European Investment Bank via Aurea, Neva SGR). It funds a single registration-enabling trial for NOUS-209, an off-the-shelf vaccine encoding 209 shared neoantigens, whose design was discussed with the FDA and EMA.",
-    "company": "Nouscom",
-    "stage": "Growth",
-    "sector": "Vaccines",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 5,
-    "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/"
+    "kicker": "Phase 3 · Allergy immunotherapy",
+    "title": "ALK-Abelló: its Acarizax tablet succeeds in a Phase 3 in China against house dust mite allergy",
+    "deck": "In a randomized, double-blind trial of 327 participants (ages 12-65), Acarizax beat placebo by 1.11 points on the combined symptom-medication score (19.1% relative difference), well above the threshold agreed with Chinese authorities. ALK and partner GenSci aim to file in China in the first half of 2027, in a market of over 100 million people with dust mite allergy of whom fewer than one million receive immunotherapy.",
+    "company": "ALK-Abelló",
+    "sector": "Immunology",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 4,
+    "url": "https://nordiclifescience.org/alks-dust-mite-allergy-tablet-succeeds-in-chinese-phase-3/"
   },
   "milestone": {
-    "company": "Ascendis Pharma",
-    "milestone": "CHMP opinion",
-    "title": "Ascendis wins positive CHMP opinion for navepegritide (Yuviwel) in pediatric achondroplasia",
-    "summary": "The EMA committee recommends approval of this once-weekly treatment for children aged 2 and older. In the 52-week study, treated children grew 1.49 cm more per year than on placebo.",
-    "why": "A weekly injection versus BioMarin's daily Voxzogo: the adherence advantage is the heart of the thesis. The European Commission's final decision is still to come.",
-    "place": "Denmark",
-    "sector": "Biotech",
-    "signalType": "regulatory_milestone",
-    "url": "https://nordiclifescience.org/ascendis-wins-chmp-backing-for-achondroplasia-drug/"
-  },
-  "deal": {
-    "company": "Silence Therapeutics",
-    "amount": "$1.3B",
-    "round": "M&A",
-    "thesis": "Merck KGaA is buying the UK RNAi biotech for cash at $20 per ADS, a 130% premium to the October 16 close, after a competitive process. The price rewards Phase 2 data seen as potentially best-in-class for divesiran in polycythemia vera; closing expected in Q1 2027.",
-    "sector": "RNA",
-    "url": "https://www.biopharmadive.com/news/merck-kgaa-rnai-13b-silence-buyout-blood-disorder-polycythemia-vera/833336/"
+    "company": "Zealand Pharma",
+    "milestone": "Phase 1 ✓",
+    "title": "Zealand: Kv1.3 blocker ZP9830 clears its multiple-dose phase with clean tolerability",
+    "summary": "In 32 healthy volunteers dosed for four weeks, there were no serious or severe adverse events and no dose-limiting safety findings; pharmacokinetic data support longer trials. A Phase 1b trial with efficacy endpoints in plaque psoriasis has already started.",
+    "why": "Kv1.3 is upregulated on effector memory T cells that sustain inflammation: the bet is to slow them while preserving the rest of the immune system. A Phase 2 in another autoimmune disease is planned for the first half of 2027 — a test of the approach beyond dermatology.",
+    "place": "Copenhagen",
+    "sector": "Immunology",
+    "signalType": "clinical_update",
+    "url": "https://nordiclifescience.org/zealands-autoimmune-drug-passes-multiple-dose-phase-1/"
   },
   "brefsEurope": [
     {
-      "company": "OSE Immunotherapeutics",
-      "place": "France",
-      "sector": "Oncology",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "OSE: Tedopi with docetaxel or nivolumab lifts one-year survival to 47% and 46% (vs 29%) in lung cancer",
-      "summary": "Phase 2 Combi-TED, 106 HLA-A2+ patients who failed chemotherapy and immunotherapy. No Tedopi-alone arm, so the contribution of the combinations remains to be isolated; full results at ESMO on October 25.",
-      "url": "https://european-biotechnology.com/latest-news/ose-reports-positive-phase-2-data-but-questions-remain/"
-    },
-    {
-      "company": "Orphelia Pharma",
-      "place": "Europe",
-      "sector": "Oncology",
+      "company": "Eli Lilly",
+      "place": "Indianapolis",
+      "sector": "Regulatory",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 4,
-      "title": "Orphelia Pharma wins positive CHMP opinion for Kizfizo (liquid temozolomide) in glioblastoma",
-      "summary": "Indicated for adults with newly diagnosed glioblastoma and for adults and children with recurrent malignant glioma. CHMP had rejected the product in 2025 in pediatric neuroblastoma: a second chance.",
-      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
+      "title": "CHMP recommends EU approval of Foundayo (orforglipron), Lilly's oral GLP-1",
+      "summary": "A once-daily non-peptide tablet for weight management and type 2 diabetes: weight loss of 5 to 11% at 72 weeks depending on dose (versus 2 to 2.5% on placebo). The European Commission now has to decide; it will compete with Novo's Wegovy pill, whose EU authorization was just granted.",
+      "url": "https://nordiclifescience.org/ema-panel-backs-lillys-oral-glp-1-foundayo/"
     },
     {
-      "company": "Evaxion",
-      "place": "Hørsholm",
-      "sector": "Oncology",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "company": "Alvotech",
+      "place": "Reykjavik",
+      "sector": "Biosimilars",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Evaxion: EVX-01 vaccine responses in melanoma hold at three years",
-      "summary": "In the Phase 2, all patients kept their clinical response at three years, with no tumor progression. A 16-patient study, results reported by the company.",
-      "url": "https://nordiclifescience.org/evaxions-cancer-vaccine-responses-hold-at-three-years/"
-    },
-    {
-      "company": "BioInvent",
-      "place": "Sweden",
-      "sector": "Oncology",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "BioInvent publishes first-in-human data for BI-1808, an anti-TNFR2 antibody",
-      "summary": "Phase 1 dose escalation reached no maximum tolerated dose; all treatment-related adverse events are grade 1 or 2.",
-      "url": "https://nordiclifescience.org/bioinvent-publishes-first-in-human-data-for-bi-1808/"
-    },
-    {
-      "company": "Calluna Pharma",
-      "place": "Nordics",
-      "sector": "Biotech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Calluna completes dosing in its Phase 2 AURORA trial in idiopathic pulmonary fibrosis",
-      "summary": "Dosing of CAL101 in the AURORA study is finished; topline results are expected in Q1 2027.",
-      "url": "https://nordiclifescience.org/calluna-completes-dosing-in-phase-2-ipf-trial/"
+      "title": "FDA approves Process 2.0 for SIMLANDI, Alvotech's Humira biosimilar",
+      "summary": "The new process more than doubles drug substance output per batch in the DSM2 suite in Reykjavik without changing upstream scale, freeing capacity for other products in the portfolio; it follows a recent approval of additional capacity at the same site.",
+      "url": "https://nordiclifescience.org/fda-approves-alvotechs-new-simlandi-process/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Hansoh Pharma",
-      "place": "China",
-      "sector": "Oncology",
-      "pillar": "financement",
-      "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Roche signs a new ADC pact with Hansoh, up to $15B in biobucks",
-      "summary": "A year after their first collaboration, the Swiss group returns to the Chinese ADC specialist: one more comparable of the weight of Chinese licenses in European pharma portfolios.",
-      "url": "https://www.fiercebiotech.com/biotech/roche-returns-chinas-adc-powerhouse-hansoh-15b-biobucks-pact"
-    },
-    {
-      "company": "Revolution Medicines",
+      "company": "Lycia Therapeutics",
       "place": "United States",
-      "sector": "Oncology",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "CHMP backs Rasonque (daraxonrasib) in previously treated metastatic pancreatic cancer",
-      "summary": "500-patient Phase 3: median overall survival of 12.4 months versus 6.7 months on chemotherapy. Reviewed through the EMA's Cancer Medicines Pathfinder.",
-      "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/"
+      "sector": "Immunology",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Lycia aims for a $228M IPO for its Xolair rival in food allergy",
+      "summary": "The planned IPO, reported by Fierce Biotech, would fund development of a candidate competing with omalizumab in food allergy: a market comparable for immunology platform valuations.",
+      "url": "https://www.fiercebiotech.com/biotech/lycia-aims-228m-generate-data-food-allergy-rival-xolair"
     }
   ],
   "word": {
-    "term": "Neoantigen Vaccine",
-    "full": "Neoantigen Cancer Vaccine",
-    "fr": "Neoantigen cancer vaccine",
-    "field": "Immuno-oncology",
-    "definition": "A vaccine that teaches the immune system to recognize protein fragments unique to the tumor (neoantigens), absent from healthy cells.",
+    "term": "Lentiviral Vector",
+    "full": "Lentiviral Vector",
+    "fr": "Vector derived from a lentivirus to deliver a gene",
+    "field": "Gene therapy",
+    "definition": "A disarmed virus from the lentivirus family, used as a vehicle to introduce a therapeutic gene into cells.",
     "parts": [
-      { "label": "Neoantigens", "role": "the target, specific to the tumor" },
-      { "label": "Vector", "role": "the viral vehicle that delivers them" },
-      { "label": "T cells", "role": "the soldiers that attack the marked cells" }
+      {
+        "label": "Envelope",
+        "role": "the guidance toward target cells"
+      },
+      {
+        "label": "Vector genome",
+        "role": "the payload: the therapeutic gene, without replication genes"
+      },
+      {
+        "label": "Production",
+        "role": "the packaging cells that make the particles"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Choose the targets", "t": "Either neoantigens shared between patients (NOUS-209: 209 frameshift neoantigens), or an algorithm-individualized selection (up to 30 for TG4050)." },
-      { "n": "2", "h": "Deliver via a vector", "t": "The targets are encoded in viral vectors (two vectors for NOUS-209, MVA virus for TG4050) or peptides (EVX-01)." },
-      { "n": "3", "h": "Trigger the T-cell response", "t": "The immune system produces CD8 T cells directed against these markers, to prevent or delay the tumor." }
+      {
+        "n": "1",
+        "h": "Manufacture",
+        "t": "Producer cells assemble viral particles carrying the gene of interest, without the ability to replicate."
+      },
+      {
+        "n": "2",
+        "h": "Transduce",
+        "t": "The particles infect the patient's cells (often collected then modified in the lab, as in CAR-T therapy)."
+      },
+      {
+        "n": "3",
+        "h": "Express",
+        "t": "The gene is delivered into the cell, which produces the missing protein or the desired receptor."
+      }
     ],
-    "why": "VC angle: Nouscom's €120M round shows that cancer prevention in carriers of a genetic syndrome (Lynch) is becoming fundable, with a registration trial design discussed with the FDA and EMA. Caution: the data come from small studies compared with historical data or reported by the companies.",
+    "why": "VC angle: lentiviral vectors are the bottleneck of ex vivo cell and gene therapy — manufacturing costs, production capacity and packaging-cell-free variants are investment theses in their own right, with seed to Series B tickets in Europe.",
     "startups": [
-      { "name": "Nouscom", "use": "Off-the-shelf vaccine NOUS-209 (209 shared neoantigens) for Lynch syndrome; €120M Series D, FDA Fast Track", "place": "Basel" },
-      { "name": "Evaxion", "use": "AI-designed individualized vaccine EVX-01; Phase 2 in melanoma with 75% objective response (12 of 16 patients) at two years", "place": "Hørsholm" },
-      { "name": "Transgene", "use": "TG4050, individualized MVA-vector vaccine encoding up to 30 neoantigens, with NEC; Phase 1 data published in Nature Communications (September 2026)", "place": "France" }
+      {
+        "name": "Genespire",
+        "use": "Lentiviral gene therapy; €46.6M Series B closed in September 2024",
+        "place": "Italy"
+      },
+      {
+        "name": "Lentitek",
+        "use": "Lentiviral vectors for CAR-T and gene therapy; £700k raised from Equity Gap and existing investors in 2025",
+        "place": "Edinburgh, UK"
+      },
+      {
+        "name": "Fuse Vectors",
+        "use": "Cell-free viral vector technology; $5.2M pre-seed in February 2025"
+      }
     ],
     "sources": [
-      { "publisher": "European Biotechnology", "title": "Nouscom raises €120M to advance cancer prevention vaccine", "url": "https://european-biotechnology.com/latest-news/nouscom-raises-e120m-to-advance-cancer-prevention-vaccine/" },
-      { "publisher": "BioSpace", "title": "Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01", "url": "https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01" },
-      { "publisher": "Boursorama", "title": "Transgene and NEC report 100% three-year disease-free survival with TG4050 and publish Phase 1 results in Nature Communications", "url": "https://www.boursorama.com/bourse/actualites/transgene-and-nec-report-100-three-year-disease-free-survival-with-tg4050-and-publish-phase-1-results-in-nature-communications-8c24ad91c20562d9d460f72e6423be9c" }
+      {
+        "publisher": "Tech.eu",
+        "title": "Fuse Vectors",
+        "url": "https://tech.eu/tag/fuse-vectors/"
+      },
+      {
+        "publisher": "Equity Gap",
+        "title": "Lentitek secures £700k investment from Equity Gap and existing investors",
+        "url": "https://www.equitygap.co.uk/lentitek-secures-700k-investment-from-equity-gap-and-existing-investors/"
+      },
+      {
+        "publisher": "HTGF",
+        "title": "Viral vectors for novel cell models, gene therapy and vaccine development gain further funds from private investors",
+        "url": "https://www.htgf.de/en/viral-vectors-for-novel-cell-models-gene-therapy-and-vaccine-development-gain-further-funds-from-private-investors/"
+      }
     ]
   }
 }
