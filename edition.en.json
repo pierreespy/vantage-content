@@ -1,171 +1,145 @@
 {
-  "dateLong": "Oct 21, 2026",
+  "dateLong": "Oct 22, 2026",
   "ticker": [
     {
-      "company": "Neo Medical",
-      "amount": "1st EU rollout",
-      "kind": "tech"
-    },
-    {
-      "company": "SQ Innovation",
-      "amount": "JACC",
-      "kind": "tech"
-    },
-    {
-      "company": "bioMérieux",
-      "amount": "WHO EUL",
+      "company": "Tissium",
+      "amount": "CE",
       "kind": "reg"
     },
     {
-      "company": "Aspivix",
-      "amount": "US distribution",
+      "company": "IBA",
+      "amount": "1st patient",
       "kind": "tech"
     },
     {
-      "company": "Masimo",
-      "amount": "FDA",
+      "company": "SonoClear",
+      "amount": "FDA 510(k)",
       "kind": "reg"
     },
     {
-      "company": "NeuroXT",
-      "amount": "FDA",
-      "kind": "reg"
+      "company": "ONWARD Medical",
+      "amount": "Board",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "First European deployment · Spine surgery",
-    "title": "Neo Medical deploys its Posterior MIS Access system in Europe for the first time, at Uniklinik RWTH Aachen",
-    "deck": "The Swiss company's minimally invasive access system begins its first European deployment at Uniklinik RWTH Aachen, the starting point of a multicenter study with three other German institutions (BG Klinikum Bergmannstrost Halle, Universitätsmedizin Halle, Charité Berlin). Neo Medical launched the platform in the US in July 2026, claiming no capital outlay for the hospital: Europe is now its clinical test.",
-    "company": "Neo Medical",
-    "sector": "Spine surgery",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
+    "kicker": "CE mark · Hernia surgery",
+    "title": "Tissium wins CE mark for ECLIPSIUM, its non-penetrating mesh fixation for ventral hernia",
+    "deck": "The Paris and Cambridge, MA company secures CE marking to fix a composite mesh without tacks or sutures in minimally invasive ventral hernia repair, based on the European ALPHA study (Belgium, Spain). It is the second product on its light-activated polymer platform after COAPTIUM CONNECT (FDA De Novo, nerve repair); European launch expected in 2027.",
+    "company": "Tissium",
+    "stage": "Series D",
+    "sector": "Surgery",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://healthcare-in-europe.com/en/news/hernia-care-ce-mark-tissium-mesh-fixation.html"
   },
   "milestone": {
-    "company": "SQ Innovation",
-    "milestone": "JACC publication",
-    "title": "SUBCUT-HF II: subcutaneous furosemide via a patch pump cuts hospital time in heart failure (JACC)",
-    "summary": "Randomized trial of 172 patients at NHS hospitals: early discharge on Lasix ONYU (92 patients) versus usual inpatient care (80). The primary endpoint, days alive and out of hospital at 30 days, improved by 4.0 days (95% CI 2.1-5.8; p<0.001), with no device-related serious adverse event.",
-    "why": "A drug-device combination (an abdominal patch pump approved by the FDA in October 2025) that moves hospital days to the home: a direct economic argument for payers, backed by a European trial published in a top-tier journal.",
-    "place": "Charlotte (NHS trial)",
-    "sector": "Cardio",
-    "signalType": "publication_preprint",
-    "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
+    "company": "IBA",
+    "milestone": "1st patient treated",
+    "title": "First patient treated in IBA's C-FLASH-01 ConformalFLASH proton therapy trial",
+    "summary": "IBA (Belgium) announces the first patient treated in C-FLASH-01 (NCT07644585), the first human feasibility study of conformal ultra-high-dose-rate proton therapy, run with Penn Medicine under an FDA IDE in 10 head-and-neck re-irradiation patients.",
+    "why": "FLASH aims to spare healthy tissue by delivering the dose in a fraction of a second: this is the first human test of the approach on a commercial proton system, with feasibility and acute toxicity as primary endpoints.",
+    "place": "Louvain-la-Neuve",
+    "sector": "Radiotherapy",
+    "signalType": "clinical_update",
+    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
   },
   "brefsEurope": [
     {
-      "company": "bioMérieux",
-      "place": "Marcy-l'Étoile",
-      "sector": "Diagnostics",
+      "company": "SonoClear",
+      "place": "Oslo",
+      "sector": "Imaging",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "WHO grants emergency use listing to bioMérieux's BioFire special pathogens panel for Bundibugyo virus",
-      "summary": "The BioFire Defense panel (a bioMérieux subsidiary) detects 16 pathogens, including Ebola, Marburg and Lassa, from a single blood sample in about an hour; it is the fifth test to receive the listing since the emergency was declared in May 2026. As of October 18, the DRC had reported 9,552 cases and 4,602 deaths. A market comparable more than an entry opportunity.",
-      "url": "https://www.medicaldevice-network.com/news/who-grants-biomerieux-ebola-panel-emergency-listing-amid-ongoing-bundibugyo-outbreak/"
+      "strength": 3,
+      "title": "FDA accepts for review the 510(k) for the SonoClear System, an ultrasound coupling fluid for brain tumor resection",
+      "summary": "A spin-out of Trondheim's ultrasound centre, SonoClear AS (Breakthrough Device) has its 510(k) accepted for substantive review after a 44-patient pivotal study met its safety endpoints. Shareholders: SINTEF Venture IV, Sarsia, CoFounder, Sparebank 1 SMN.",
+      "url": "https://www.biospace.com/press-releases/sonoclear-system-510k-submission-accepted-for-fda-review"
     },
     {
-      "company": "Aspivix",
-      "place": "Switzerland",
-      "sector": "Femtech",
+      "company": "ONWARD Medical",
+      "place": "Eindhoven",
+      "sector": "Neurotech",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Aspivix makes its carevix device available to all Afaxys members in the United States",
-      "summary": "The agreement opens the cervical stabilization device (IUD placement and other transcervical procedures) to community and public health providers in the Afaxys network: one more US channel after the commercial opening of October 2025.",
-      "url": "https://www.startupticker.ch/en/news/promising-progress-across-life-sciences-startups"
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "ONWARD Medical appoints Fouad Azzam (partner at EQT Life Sciences) as non-executive director",
+      "summary": "The spinal cord stimulation company adds to its board a representative of one of its investors (EQT, part of the ~€40.6M April 2026 placement) as it scales commercially.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385108/0/en/onward-medical-announces-the-appointment-of-fouad-azzam-to-its-board-of-directors.html"
     }
   ],
-  "brefsIntl": [
-    {
-      "company": "Masimo",
-      "place": "Irvine",
-      "sector": "Monitoring",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Masimo wins FDA clearance for the PPG AFib feature of its Radius VSM monitor",
-      "summary": "The feature uses AI to analyze the pulse waveform and flag atrial fibrillation, guiding clinicians toward an ECG or telemetry. It follows the June 2026 clearance for opioid-induced respiratory depression detection; Masimo is now a Danaher subsidiary. A comparable for photoplethysmography-based detection.",
-      "url": "https://www.medicaldevice-network.com/news/masimo-vitals-monitor-scoops-fda-clearance-for-afib-detection/"
-    }
-  ],
+  "brefsIntl": [],
   "word": {
-    "term": "MISS",
-    "full": "Minimally Invasive Spine Surgery",
-    "fr": "Minimally invasive spine surgery",
-    "field": "Spine surgery",
-    "definition": "A set of techniques that treat the spine through small incisions, moving muscle aside rather than cutting it, for less bleeding and faster recovery.",
+    "term": "FLASH Radiotherapy",
+    "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",
+    "fr": "FLASH radiotherapy (ultra-high dose rate)",
+    "field": "Radiotherapy",
+    "definition": "A technique that delivers the radiation dose in under a second (>40 Gy/s) instead of minutes, aiming to destroy the tumor while sparing more healthy tissue.",
     "parts": [
       {
-        "label": "Approach",
-        "role": "the small incision and working channel (tubular retractor)"
+        "label": "Accelerator",
+        "role": "the very-high-dose-rate beam source (protons or electrons)"
       },
       {
-        "label": "Instruments & implants",
-        "role": "screws, rods and tools designed to pass through that channel"
+        "label": "Dosimetry",
+        "role": "real-time measurement of delivered dose"
       },
       {
-        "label": "Guidance",
-        "role": "imaging, navigation or a robot to compensate for the reduced view"
+        "label": "Planning",
+        "role": "conformal targeting of the tumor"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Access",
-        "t": "A small incision is made and a tubular retractor pushes muscle and soft tissue aside without cutting it."
+        "h": "Acceleration",
+        "t": "An adapted accelerator produces a beam far more intense than standard clinical delivery."
       },
       {
         "n": "2",
-        "h": "Operate through the channel",
-        "t": "The surgeon removes bone or disc and places implants (screws, rods) with instruments passed through the tube."
+        "h": "Flash irradiation",
+        "t": "The dose is delivered in a few tenths of a second rather than minutes."
       },
       {
         "n": "3",
-        "h": "Recover",
-        "t": "Smaller incisions are associated with less blood loss and faster recovery, but the surgeon's learning curve is steep."
+        "h": "FLASH effect",
+        "t": "In preclinical models healthy tissue appears better preserved at comparable tumor efficacy; human confirmation is pending."
       }
     ],
-    "why": "VC angle: the bottleneck is no longer the implant but access to the OR — simplified kits, no capital outlay, robotic guidance. Companies that cut the operational friction of the minimally invasive route (Neo Medical) or automate it (robotics) attract capital; multicenter clinical proof is the next milestone.",
+    "why": "If tissue sparing is confirmed it is a clinical-efficacy and pricing argument for radiotherapy centers. First human trials (IBA/Penn, today) and French public programs (FLASHDEEP, FRATHEA) make it a theme to watch.",
     "startups": [
       {
-        "name": "Neo Medical",
-        "use": "Instant MIS Access platform for posterior spine surgery, launched in the US in July 2026; first European deployment at Uniklinik RWTH Aachen",
-        "place": "Lausanne, Switzerland"
+        "name": "THERYQ",
+        "use": "Subsidiary of the Alcen group (from PMB-Alcen); develops FLASHDEEP, a very-high-energy electron system for deep tumors with Gustave Roussy and CERN, backed by Bpifrance (France 2030, €38M)",
+        "place": "France"
       },
       {
-        "name": "Spineart",
-        "use": "Private spine device maker (minimally invasive, cervical discs, PERLA posterior fixation); raised CHF 25M from Gimv and EGS Beteiligungen in September 2025",
-        "place": "Geneva, Switzerland"
-      },
-      {
-        "name": "Deneb Medical",
-        "use": "IZAR robotic system combining robotics, photonics and AI to automate spine surgery; backed by Spain's public fund SETT",
-        "place": "San Sebastián, Spain"
+        "name": "IBA",
+        "use": "Listed Belgian group (not a startup); sponsor of C-FLASH-01, the first human study of ConformalFLASH proton therapy, with Penn Medicine",
+        "place": "Belgium"
       }
     ],
     "sources": [
       {
-        "publisher": "Becker's Spine Review",
-        "title": "Spine company debuts minimally invasive surgery platform",
-        "url": "https://www.beckersspine.com/spine/spine-company-debuts-minimally-invasive-surgery-platform/"
+        "publisher": "IBA / GlobeNewswire",
+        "title": "First Patient Treated in the C-FLASH-01 ConformalFLASH Clinical Trial",
+        "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
       },
       {
-        "publisher": "HospiMedica",
-        "title": "Minimally Invasive Spinal Surgery - Through a Straw",
-        "url": "https://mobile.hospimedica.com/surgical-techniques/articles/294720469/minimally-invasive-spinal-surgery---through-a-straw.amp.html"
+        "publisher": "IBA",
+        "title": "IBA receives FDA Investigational Device Exemption approval for first ConformalFLASH human clinical study",
+        "url": "https://www.iba-worldwide.com/iba-receives-fda-investigational-device-exemption-approval-first-conformalflash-human-clinical"
       },
       {
-        "publisher": "Swiss Healthcare Startups (GGBA)",
-        "title": "Spineart raises CHF 25 million to accelerate global expansion and innovation",
-        "url": "https://ggba.swiss/en/spineart-raises-chf-25-million-to-accelerate-global-expansion-and-innovation"
+        "publisher": "THERYQ",
+        "title": "FLASHDEEP",
+        "url": "https://www.theryq-alcen.com/flash-radiotherapy-products/flashdeep/"
       },
       {
-        "publisher": "Dealroom",
-        "title": "Deneb Medical raises 15 million to automate spinal surgery",
-        "url": "https://dealroom.co/news/149406-deneb-medical-raises-15-million-to-automate-spinal-surgery/"
+        "publisher": "CERN Knowledge Transfer",
+        "title": "FLASH radiotherapy",
+        "url": "https://kt.cern/flash-radiotherapy"
       }
     ]
   }

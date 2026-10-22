@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-21",
+  "generatedAt": "2026-10-22",
   "words": [
+    {
+      "term": "FLASH Radiotherapy",
+      "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",
+      "fr": "Radiothérapie FLASH (à ultra-haut débit de dose)",
+      "field": "Radiothérapie",
+      "definition": "Technique qui délivre une dose de rayonnement en moins d'une seconde (débit > 40 Gy/s) au lieu de plusieurs minutes, dans l'espoir de détruire la tumeur tout en épargnant davantage les tissus sains.",
+      "parts": [
+        {
+          "label": "Accélérateur",
+          "role": "la source (protons ou électrons) à très haut débit"
+        },
+        {
+          "label": "Dosimétrie",
+          "role": "la mesure en temps réel de la dose délivrée"
+        },
+        {
+          "label": "Planification",
+          "role": "le ciblage conforme à la tumeur"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Accélération",
+          "t": "Un accélérateur adapté produit un faisceau d'intensité bien supérieure à la clinique standard."
+        },
+        {
+          "n": "2",
+          "h": "Irradiation éclair",
+          "t": "La dose est délivrée en quelques dixièmes de seconde, plutôt qu'en minutes."
+        },
+        {
+          "n": "3",
+          "h": "Effet FLASH",
+          "t": "Dans les modèles précliniques, les tissus sains semblent mieux préservés à efficacité tumorale comparable ; reste à le confirmer chez l'humain."
+        }
+      ],
+      "why": "Si l'épargne des tissus sains se confirme, c'est un argument d'efficacité clinique et de pouvoir de fixation de prix pour les centres de radiothérapie. Les premiers essais humains (IBA/Penn, aujourd'hui) et les programmes publics français (FLASHDEEP, FRATHEA) en font un thème de veille.",
+      "startups": [
+        {
+          "name": "THERYQ",
+          "use": "Filiale du groupe Alcen (issue de PMB-Alcen) ; développe FLASHDEEP, système d'électrons de très haute énergie pour tumeurs profondes avec Gustave Roussy et le CERN, soutenu par Bpifrance (France 2030, 38 M€)",
+          "place": "France"
+        },
+        {
+          "name": "IBA",
+          "use": "Groupe belge coté (pas une startup) ; sponsor de C-FLASH-01, première étude humaine de proton-thérapie ConformalFLASH, avec Penn Medicine",
+          "place": "Belgique"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "IBA / GlobeNewswire",
+          "title": "First Patient Treated in the C-FLASH-01 ConformalFLASH Clinical Trial",
+          "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
+        },
+        {
+          "publisher": "IBA",
+          "title": "IBA receives FDA Investigational Device Exemption approval for first ConformalFLASH human clinical study",
+          "url": "https://www.iba-worldwide.com/iba-receives-fda-investigational-device-exemption-approval-first-conformalflash-human-clinical"
+        },
+        {
+          "publisher": "THERYQ",
+          "title": "FLASHDEEP",
+          "url": "https://www.theryq-alcen.com/flash-radiotherapy-products/flashdeep/"
+        },
+        {
+          "publisher": "CERN Knowledge Transfer",
+          "title": "FLASH radiotherapy",
+          "url": "https://kt.cern/flash-radiotherapy"
+        }
+      ],
+      "date": "2026-10-22",
+      "dateLong": "22 oct. 2026"
+    },
     {
       "term": "Clinical Trial Matching",
       "full": "Clinical Trial Matching (appariement patients-essais cliniques)",
