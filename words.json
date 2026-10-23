@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-10-23",
   "words": [
+    {
+      "term": "IMES",
+      "full": "Implantable Myoelectric Sensor (capteur myoélectrique implantable)",
+      "fr": "Capteur myoélectrique implantable",
+      "field": "Prothèses connectées / neurotech",
+      "definition": "Un petit capteur implanté dans les muscles du moignon qui lit leur activité électrique et la transmet sans fil à une prothèse, pour la piloter plus fidèlement qu'avec des électrodes posées sur la peau.",
+      "parts": [
+        {
+          "label": "Capteur",
+          "role": "l'oreille : capte le signal musculaire (EMG)"
+        },
+        {
+          "label": "Liaison sans fil",
+          "role": "le relais : transmet le signal vers la prothèse"
+        },
+        {
+          "label": "Décodage",
+          "role": "le traducteur : convertit le signal en mouvement de la main"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "Le capteur est placé dans le muscle du moignon lors d'une courte intervention."
+        },
+        {
+          "n": "2",
+          "h": "Lecture",
+          "t": "Quand le patient pense à bouger, le muscle se contracte et le capteur enregistre le signal électrique."
+        },
+        {
+          "n": "3",
+          "h": "Commande",
+          "t": "Le signal est transmis à la prothèse, qui le décode en mouvement."
+        }
+      ],
+      "why": "Le contrôle des prothèses reste le point faible du marché : les électrodes de surface dérivent et se déplacent. Un capteur implanté stable promet un meilleur usage, donc une meilleure rétention des patients. Phantom Neuro vient de franchir l'étape du premier humain ; le risque est désormais clinique et réglementaire, avec un chemin dispositif implantable à financer.",
+      "startups": [
+        {
+          "name": "Phantom Neuro",
+          "use": "Capteur sous-cutané Phantom X ; premiers implants chez l'humain dans l'étude CYBORG (Melbourne, oct. 2026)",
+          "place": "Austin, USA"
+        },
+        {
+          "name": "Integrum",
+          "use": "Groupe suédois coté (pas une startup) ; système e-OPRA à électrodes implantées sur prothèse ancrée à l'os, premier patient américain implanté dans une étude financée par le NIH",
+          "place": "Mölndal, Suède"
+        },
+        {
+          "name": "Esper Bionics",
+          "use": "Main robotisée pilotée par capteurs musculaires ; a levé 5 M$ (2024) et vise des capteurs de nouvelle génération, y compris implantables",
+          "place": "Ukraine / Berlin"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "title": "Phantom Neuro Implants Neural Interface in Humans for the First Time",
+          "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
+        },
+        {
+          "publisher": "ClinicalTrials.gov",
+          "title": "Implantable MyoElectric Sensors (IMES) for Prosthetic Control in Transhumeral Amputees",
+          "url": "https://clinicaltrials.gov/study/NCT03644394"
+        },
+        {
+          "publisher": "Inderes",
+          "title": "Första patienten i USA implanterad med Integrums e-OPRA i klinisk studie ledd av Shirley Ryan AbilityLab",
+          "url": "https://www.inderes.se/releases/forsta-patienten-i-usa-implanterad-med-integrums-e-opra-i-klinisk-studie-ledd-av-shirley-ryan-abilitylab"
+        },
+        {
+          "publisher": "Sifted",
+          "title": "Esper Bionics raise news",
+          "url": "https://sifted.eu/articles/esper-bionics-raise-news"
+        }
+      ],
+      "date": "2026-10-23",
+      "dateLong": "23 oct. 2026"
+    },
     {
       "term": "FLASH Radiotherapy",
       "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",

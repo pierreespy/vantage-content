@@ -1,145 +1,163 @@
 {
-  "dateLong": "Oct 22, 2026",
+  "dateLong": "Oct 23, 2026",
   "ticker": [
     {
-      "company": "Tissium",
+      "company": "ABBOTT",
       "amount": "CE",
       "kind": "reg"
     },
     {
-      "company": "IBA",
+      "company": "MEDTRONIC",
+      "amount": "CE",
+      "kind": "reg"
+    },
+    {
+      "company": "PHANTOM NEURO",
       "amount": "1st patient",
       "kind": "tech"
     },
     {
-      "company": "SonoClear",
-      "amount": "FDA 510(k)",
-      "kind": "reg"
+      "company": "QIAGEN",
+      "amount": "€9.6B",
+      "kind": "mna"
     },
     {
-      "company": "ONWARD Medical",
-      "amount": "Board",
-      "kind": "tech"
+      "company": "MYRIAD",
+      "amount": "$210M",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "CE mark · Hernia surgery",
-    "title": "Tissium wins CE mark for ECLIPSIUM, its non-penetrating mesh fixation for ventral hernia",
-    "deck": "The Paris and Cambridge, MA company secures CE marking to fix a composite mesh without tacks or sutures in minimally invasive ventral hernia repair, based on the European ALPHA study (Belgium, Spain). It is the second product on its light-activated polymer platform after COAPTIUM CONNECT (FDA De Novo, nerve repair); European launch expected in 2027.",
-    "company": "Tissium",
-    "stage": "Series D",
-    "sector": "Surgery",
+    "kicker": "CE mark (IVDR) · Diagnostics",
+    "title": "Abbott secures CE mark under IVDR for Cologuard Plus, its at-home colorectal cancer screening test",
+    "deck": "The stool-DNA test (age 45+, average risk) can launch in select European markets, subject to national pathways and reimbursement. In the US, the BLUE-C cohort (20,000+ participants) showed 95% sensitivity and 94% specificity for colorectal cancer. A market-access signal for non-invasive screening in Europe, with reimbursement the one to watch.",
+    "company": "Abbott",
+    "sector": "Diagnostics",
     "pillar": "marche",
     "signalType": "regulatory_milestone",
     "strength": 5,
-    "url": "https://healthcare-in-europe.com/en/news/hernia-care-ce-mark-tissium-mesh-fixation.html"
+    "url": "https://www.medicaldevice-network.com/news/abbott-ce-mark-cologuard-plus-cancer-test/"
   },
   "milestone": {
-    "company": "IBA",
-    "milestone": "1st patient treated",
-    "title": "First patient treated in IBA's C-FLASH-01 ConformalFLASH proton therapy trial",
-    "summary": "IBA (Belgium) announces the first patient treated in C-FLASH-01 (NCT07644585), the first human feasibility study of conformal ultra-high-dose-rate proton therapy, run with Penn Medicine under an FDA IDE in 10 head-and-neck re-irradiation patients.",
-    "why": "FLASH aims to spare healthy tissue by delivering the dose in a fraction of a second: this is the first human test of the approach on a commercial proton system, with feasibility and acute toxicity as primary endpoints.",
-    "place": "Louvain-la-Neuve",
-    "sector": "Radiotherapy",
+    "company": "Phantom Neuro",
+    "milestone": "First human implants",
+    "title": "Phantom Neuro implants first participants in the CYBORG study with its Phantom X sensor",
+    "summary": "The under-the-skin sensor reads residual-limb muscle activity and turns it into wireless commands for an upper-limb prosthesis. The outpatient implants (about an hour, no general anesthesia) took place at Cabrini Health in Melbourne in an early feasibility study.",
+    "why": "First human validation of an implantable muscle–machine interface that does not touch the nervous system: a de-risking step ahead of any regulatory filing. A US company, to follow as a comparable for European connected-prosthetics players.",
+    "place": "Austin / Melbourne",
+    "sector": "Neurotech",
     "signalType": "clinical_update",
-    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
+    "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
+  },
+  "deal": {
+    "company": "Qiagen",
+    "amount": "€9.6B",
+    "round": "M&A (take-private)",
+    "thesis": "EQT and its consortium (including ADIA and CPP Investments) offer €46.50 per share in cash, roughly a 40% premium to the pre-rumor price; some outlets cite €10.8B enterprise value. A bet on take-private European molecular diagnostics: a major valuation comparable for the whole sector.",
+    "sector": "Diagnostics",
+    "url": "https://www.privateequitywire.co.uk/eqt-agrees-e9-6bn-takeover-of-qiagen/"
   },
   "brefsEurope": [
     {
-      "company": "SonoClear",
-      "place": "Oslo",
-      "sector": "Imaging",
+      "company": "Medtronic",
+      "place": "Dublin",
+      "sector": "Cardio",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "FDA accepts for review the 510(k) for the SonoClear System, an ultrasound coupling fluid for brain tumor resection",
-      "summary": "A spin-out of Trondheim's ultrasound centre, SonoClear AS (Breakthrough Device) has its 510(k) accepted for substantive review after a 44-patient pivotal study met its safety endpoints. Shareholders: SINTEF Venture IV, Sarsia, CoFounder, Sparebank 1 SMN.",
-      "url": "https://www.biospace.com/press-releases/sonoclear-system-510k-submission-accepted-for-fda-review"
-    },
-    {
-      "company": "ONWARD Medical",
-      "place": "Eindhoven",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 2,
-      "title": "ONWARD Medical appoints Fouad Azzam (partner at EQT Life Sciences) as non-executive director",
-      "summary": "The spinal cord stimulation company adds to its board a representative of one of its investors (EQT, part of the ~€40.6M April 2026 placement) as it scales commercially.",
-      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385108/0/en/onward-medical-announces-the-appointment-of-fouad-azzam-to-its-board-of-directors.html"
+      "strength": 5,
+      "title": "Medtronic wins CE mark for its Vitalis pacemaker portfolio",
+      "summary": "Five pacemakers built for conduction system pacing (CSP), including ReSyncra CSP with AdaptivCSP. The portfolio is not yet cleared in the US, so Europe goes first.",
+      "url": "https://www.medicaldevice-network.com/news/medtronic-next-gen-pacemaker-portfolio-secures-ce-mark/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Labcorp",
+      "place": "Burlington",
+      "sector": "Diagnostics",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 4,
+      "title": "Labcorp to buy Myriad Genetics’ prenatal testing unit for $210M",
+      "summary": "Four tests (FirstGene, Prequel, Foresight, SneakPeek) for about $160M of expected year-one revenue, roughly 1.3x sales versus 2.9x for BioReference: a valuation benchmark for diagnostics.",
+      "url": "https://www.medtechdive.com/news/labcorp-to-buy-myriads-prenatal-health-testing-unit-for-210m/833683/"
+    }
+  ],
   "word": {
-    "term": "FLASH Radiotherapy",
-    "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",
-    "fr": "FLASH radiotherapy (ultra-high dose rate)",
-    "field": "Radiotherapy",
-    "definition": "A technique that delivers the radiation dose in under a second (>40 Gy/s) instead of minutes, aiming to destroy the tumor while sparing more healthy tissue.",
+    "term": "IMES",
+    "full": "Implantable Myoelectric Sensor",
+    "fr": "Implantable myoelectric sensor",
+    "field": "Connected prosthetics / neurotech",
+    "definition": "A small sensor implanted in the residual-limb muscles that reads their electrical activity and wirelessly relays it to a prosthesis, controlling it more reliably than skin-surface electrodes.",
     "parts": [
       {
-        "label": "Accelerator",
-        "role": "the very-high-dose-rate beam source (protons or electrons)"
+        "label": "Sensor",
+        "role": "the ear: picks up the muscle (EMG) signal"
       },
       {
-        "label": "Dosimetry",
-        "role": "real-time measurement of delivered dose"
+        "label": "Wireless link",
+        "role": "the relay: sends the signal to the prosthesis"
       },
       {
-        "label": "Planning",
-        "role": "conformal targeting of the tumor"
+        "label": "Decoding",
+        "role": "the translator: turns the signal into hand motion"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Acceleration",
-        "t": "An adapted accelerator produces a beam far more intense than standard clinical delivery."
+        "h": "Implantation",
+        "t": "The sensor is placed in the residual-limb muscle in a short procedure."
       },
       {
         "n": "2",
-        "h": "Flash irradiation",
-        "t": "The dose is delivered in a few tenths of a second rather than minutes."
+        "h": "Reading",
+        "t": "When the patient intends to move, the muscle contracts and the sensor records the electrical signal."
       },
       {
         "n": "3",
-        "h": "FLASH effect",
-        "t": "In preclinical models healthy tissue appears better preserved at comparable tumor efficacy; human confirmation is pending."
+        "h": "Control",
+        "t": "The signal is sent to the prosthesis, which decodes it into motion."
       }
     ],
-    "why": "If tissue sparing is confirmed it is a clinical-efficacy and pricing argument for radiotherapy centers. First human trials (IBA/Penn, today) and French public programs (FLASHDEEP, FRATHEA) make it a theme to watch.",
+    "why": "Prosthesis control is the market's weak point: surface electrodes drift and shift. A stable implanted sensor promises better use and patient retention. Phantom Neuro just reached first-in-human; the remaining risk is clinical and regulatory, with an implantable-device pathway to fund.",
     "startups": [
       {
-        "name": "THERYQ",
-        "use": "Subsidiary of the Alcen group (from PMB-Alcen); develops FLASHDEEP, a very-high-energy electron system for deep tumors with Gustave Roussy and CERN, backed by Bpifrance (France 2030, €38M)",
-        "place": "France"
+        "name": "Phantom Neuro",
+        "use": "Phantom X under-the-skin sensor; first human implants in the CYBORG study (Melbourne, Oct 2026)",
+        "place": "Austin, USA"
       },
       {
-        "name": "IBA",
-        "use": "Listed Belgian group (not a startup); sponsor of C-FLASH-01, the first human study of ConformalFLASH proton therapy, with Penn Medicine",
-        "place": "Belgium"
+        "name": "Integrum",
+        "use": "Listed Swedish group (not a startup); e-OPRA implanted-electrode system on a bone-anchored prosthesis, first US patient implanted in an NIH-funded study",
+        "place": "Mölndal, Suède"
+      },
+      {
+        "name": "Esper Bionics",
+        "use": "Robotic hand driven by muscle sensors; raised $5M (2024) and aims at next-generation sensors, including implantable ones",
+        "place": "Ukraine / Berlin"
       }
     ],
     "sources": [
       {
-        "publisher": "IBA / GlobeNewswire",
-        "title": "First Patient Treated in the C-FLASH-01 ConformalFLASH Clinical Trial",
-        "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
+        "publisher": "PR Newswire",
+        "title": "Phantom Neuro Implants Neural Interface in Humans for the First Time",
+        "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
       },
       {
-        "publisher": "IBA",
-        "title": "IBA receives FDA Investigational Device Exemption approval for first ConformalFLASH human clinical study",
-        "url": "https://www.iba-worldwide.com/iba-receives-fda-investigational-device-exemption-approval-first-conformalflash-human-clinical"
+        "publisher": "ClinicalTrials.gov",
+        "title": "Implantable MyoElectric Sensors (IMES) for Prosthetic Control in Transhumeral Amputees",
+        "url": "https://clinicaltrials.gov/study/NCT03644394"
       },
       {
-        "publisher": "THERYQ",
-        "title": "FLASHDEEP",
-        "url": "https://www.theryq-alcen.com/flash-radiotherapy-products/flashdeep/"
+        "publisher": "Inderes",
+        "title": "Första patienten i USA implanterad med Integrums e-OPRA i klinisk studie ledd av Shirley Ryan AbilityLab",
+        "url": "https://www.inderes.se/releases/forsta-patienten-i-usa-implanterad-med-integrums-e-opra-i-klinisk-studie-ledd-av-shirley-ryan-abilitylab"
       },
       {
-        "publisher": "CERN Knowledge Transfer",
-        "title": "FLASH radiotherapy",
-        "url": "https://kt.cern/flash-radiotherapy"
+        "publisher": "Sifted",
+        "title": "Esper Bionics raise news",
+        "url": "https://sifted.eu/articles/esper-bionics-raise-news"
       }
     ]
   }

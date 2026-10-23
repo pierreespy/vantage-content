@@ -1,145 +1,163 @@
 {
-  "dateLong": "22 oct. 2026",
+  "dateLong": "23 oct. 2026",
   "ticker": [
     {
-      "company": "Tissium",
+      "company": "ABBOTT",
       "amount": "CE",
       "kind": "reg"
     },
     {
-      "company": "IBA",
+      "company": "MEDTRONIC",
+      "amount": "CE",
+      "kind": "reg"
+    },
+    {
+      "company": "PHANTOM NEURO",
       "amount": "1er patient",
       "kind": "tech"
     },
     {
-      "company": "SonoClear",
-      "amount": "FDA 510(k)",
-      "kind": "reg"
+      "company": "QIAGEN",
+      "amount": "9,6 Md€",
+      "kind": "mna"
     },
     {
-      "company": "ONWARD Medical",
-      "amount": "Board",
-      "kind": "tech"
+      "company": "MYRIAD",
+      "amount": "$210M",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Marquage CE · Chirurgie de la hernie",
-    "title": "Tissium obtient le marquage CE d'ECLIPSIUM, sa fixation de filet sans pénétration pour la hernie ventrale",
-    "deck": "La société franco-américaine (Paris, Cambridge) décroche le CE pour fixer sans agrafe ni pointe un filet composite lors d'une réparation de hernie ventrale par voie mini-invasive, sur la base de l'étude européenne ALPHA (Belgique, Espagne). Deuxième produit de sa plateforme de polymère photo-activable après COAPTIUM CONNECT (De Novo FDA, réparation nerveuse) ; lancement européen attendu en 2027.",
-    "company": "Tissium",
-    "stage": "Series D",
-    "sector": "Chirurgie",
+    "kicker": "Marquage CE (IVDR) · Diagnostics",
+    "title": "Abbott décroche le marquage CE IVDR pour Cologuard Plus, son test de dépistage du cancer colorectal à domicile",
+    "deck": "Le test ADN fécal (45 ans et plus, risque moyen) peut être lancé dans certains pays européens, selon les parcours nationaux et le remboursement. Aux États-Unis, la cohorte BLUE-C (plus de 20 000 participants) affiche 95 % de sensibilité et 94 % de spécificité pour le cancer colorectal. Un signal d'accès au marché pour le dépistage non invasif en Europe, à surveiller côté remboursement.",
+    "company": "Abbott",
+    "sector": "Diagnostics",
     "pillar": "marche",
     "signalType": "regulatory_milestone",
     "strength": 5,
-    "url": "https://healthcare-in-europe.com/en/news/hernia-care-ce-mark-tissium-mesh-fixation.html"
+    "url": "https://www.medicaldevice-network.com/news/abbott-ce-mark-cologuard-plus-cancer-test/"
   },
   "milestone": {
-    "company": "IBA",
-    "milestone": "1er patient traité",
-    "title": "Premier patient traité dans l'essai C-FLASH-01 de proton-thérapie ConformalFLASH d'IBA",
-    "summary": "IBA (Belgique) annonce le premier patient traité de C-FLASH-01 (NCT07644585), première étude humaine de faisabilité de la proton-thérapie conformationnelle à ultra-haut débit de dose, menée avec Penn Medicine sous IDE de la FDA chez 10 patients en ré-irradiation ORL.",
-    "why": "Le FLASH promet d'épargner les tissus sains en délivrant la dose en une fraction de seconde : c'est le premier test humain de cette approche sur un accélérateur proton commercial, avec toxicité aiguë et faisabilité comme critères principaux.",
-    "place": "Louvain-la-Neuve",
-    "sector": "Radiothérapie",
+    "company": "Phantom Neuro",
+    "milestone": "1ers implants chez l’humain",
+    "title": "Phantom Neuro implante les premiers participants de l'étude CYBORG avec son capteur Phantom X",
+    "summary": "Le capteur sous-cutané lit l'activité des muscles du moignon et la convertit en commandes sans fil pour une prothèse de membre supérieur. Les implantations, ambulatoires (environ une heure, sans anesthésie générale), ont eu lieu à Cabrini Health (Melbourne) dans une étude de faisabilité précoce.",
+    "why": "Première validation humaine d'une interface muscle-machine implantable, sans contact avec le système nerveux : un jalon de dérisquage avant tout dossier réglementaire. Société américaine, à suivre comme comparable pour les acteurs européens de la prothèse connectée.",
+    "place": "Austin / Melbourne",
+    "sector": "Neurotech",
     "signalType": "clinical_update",
-    "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
+    "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
+  },
+  "deal": {
+    "company": "Qiagen",
+    "amount": "9,6 Md€",
+    "round": "M&A (take-private)",
+    "thesis": "EQT et son consortium (dont ADIA et CPP Investments) offrent 46,50 € par action en numéraire, soit environ 40 % de prime sur le cours d'avant les premières rumeurs ; certains médias parlent de 10,8 Md€ en valeur d'entreprise. Le fonds parie sur les diagnostics moléculaires européens sortis de la cote : un comparable de valorisation majeur pour tout le secteur.",
+    "sector": "Diagnostics",
+    "url": "https://www.privateequitywire.co.uk/eqt-agrees-e9-6bn-takeover-of-qiagen/"
   },
   "brefsEurope": [
     {
-      "company": "SonoClear",
-      "place": "Oslo",
-      "sector": "Imagerie",
+      "company": "Medtronic",
+      "place": "Dublin",
+      "sector": "Cardio",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "La FDA accepte pour examen le dossier 510(k) du SonoClear System, fluide de couplage échographique pour la résection de tumeurs cérébrales",
-      "summary": "Spin-out du centre ultrasons de Trondheim, SonoClear AS (Breakthrough Device) voit son 510(k) accepté pour revue approfondie, après une étude pivot de 44 patients ayant atteint ses critères de sécurité. Actionnaires : SINTEF Venture IV, Sarsia, CoFounder, Sparebank 1 SMN.",
-      "url": "https://www.biospace.com/press-releases/sonoclear-system-510k-submission-accepted-for-fda-review"
-    },
-    {
-      "company": "ONWARD Medical",
-      "place": "Eindhoven",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 2,
-      "title": "ONWARD Medical nomme Fouad Azzam (partner d'EQT Life Sciences) administrateur non exécutif",
-      "summary": "Le spécialiste de la stimulation médullaire accueille au board un représentant de l'un de ses investisseurs (EQT, présent à la levée d'environ 40,6 M€ d'avril 2026), dans une phase de montée en échelle commerciale.",
-      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385108/0/en/onward-medical-announces-the-appointment-of-fouad-azzam-to-its-board-of-directors.html"
+      "strength": 5,
+      "title": "Medtronic obtient le marquage CE pour sa gamme de stimulateurs cardiaques Vitalis",
+      "summary": "Cinq stimulateurs conçus pour la stimulation du système de conduction (CSP), dont ReSyncra CSP avec AdaptivCSP. La gamme n'est pas encore autorisée aux États-Unis : l'Europe passe devant.",
+      "url": "https://www.medicaldevice-network.com/news/medtronic-next-gen-pacemaker-portfolio-secures-ce-mark/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Labcorp",
+      "place": "Burlington",
+      "sector": "Diagnostics",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 4,
+      "title": "Labcorp rachète l’activité de tests prénataux de Myriad Genetics pour 210 M$",
+      "summary": "Quatre tests (FirstGene, Prequel, Foresight, SneakPeek) pour environ 160 M$ de revenus attendus en année 1, soit ~1,3x le chiffre d'affaires contre 2,9x pour BioReference : un point de comparaison de valorisation pour les diagnostics.",
+      "url": "https://www.medtechdive.com/news/labcorp-to-buy-myriads-prenatal-health-testing-unit-for-210m/833683/"
+    }
+  ],
   "word": {
-    "term": "FLASH Radiotherapy",
-    "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",
-    "fr": "Radiothérapie FLASH (à ultra-haut débit de dose)",
-    "field": "Radiothérapie",
-    "definition": "Technique qui délivre une dose de rayonnement en moins d'une seconde (débit > 40 Gy/s) au lieu de plusieurs minutes, dans l'espoir de détruire la tumeur tout en épargnant davantage les tissus sains.",
+    "term": "IMES",
+    "full": "Implantable Myoelectric Sensor (capteur myoélectrique implantable)",
+    "fr": "Capteur myoélectrique implantable",
+    "field": "Prothèses connectées / neurotech",
+    "definition": "Un petit capteur implanté dans les muscles du moignon qui lit leur activité électrique et la transmet sans fil à une prothèse, pour la piloter plus fidèlement qu'avec des électrodes posées sur la peau.",
     "parts": [
       {
-        "label": "Accélérateur",
-        "role": "la source (protons ou électrons) à très haut débit"
+        "label": "Capteur",
+        "role": "l'oreille : capte le signal musculaire (EMG)"
       },
       {
-        "label": "Dosimétrie",
-        "role": "la mesure en temps réel de la dose délivrée"
+        "label": "Liaison sans fil",
+        "role": "le relais : transmet le signal vers la prothèse"
       },
       {
-        "label": "Planification",
-        "role": "le ciblage conforme à la tumeur"
+        "label": "Décodage",
+        "role": "le traducteur : convertit le signal en mouvement de la main"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Accélération",
-        "t": "Un accélérateur adapté produit un faisceau d'intensité bien supérieure à la clinique standard."
+        "h": "Implantation",
+        "t": "Le capteur est placé dans le muscle du moignon lors d'une courte intervention."
       },
       {
         "n": "2",
-        "h": "Irradiation éclair",
-        "t": "La dose est délivrée en quelques dixièmes de seconde, plutôt qu'en minutes."
+        "h": "Lecture",
+        "t": "Quand le patient pense à bouger, le muscle se contracte et le capteur enregistre le signal électrique."
       },
       {
         "n": "3",
-        "h": "Effet FLASH",
-        "t": "Dans les modèles précliniques, les tissus sains semblent mieux préservés à efficacité tumorale comparable ; reste à le confirmer chez l'humain."
+        "h": "Commande",
+        "t": "Le signal est transmis à la prothèse, qui le décode en mouvement."
       }
     ],
-    "why": "Si l'épargne des tissus sains se confirme, c'est un argument d'efficacité clinique et de pouvoir de fixation de prix pour les centres de radiothérapie. Les premiers essais humains (IBA/Penn, aujourd'hui) et les programmes publics français (FLASHDEEP, FRATHEA) en font un thème de veille.",
+    "why": "Le contrôle des prothèses reste le point faible du marché : les électrodes de surface dérivent et se déplacent. Un capteur implanté stable promet un meilleur usage, donc une meilleure rétention des patients. Phantom Neuro vient de franchir l'étape du premier humain ; le risque est désormais clinique et réglementaire, avec un chemin dispositif implantable à financer.",
     "startups": [
       {
-        "name": "THERYQ",
-        "use": "Filiale du groupe Alcen (issue de PMB-Alcen) ; développe FLASHDEEP, système d'électrons de très haute énergie pour tumeurs profondes avec Gustave Roussy et le CERN, soutenu par Bpifrance (France 2030, 38 M€)",
-        "place": "France"
+        "name": "Phantom Neuro",
+        "use": "Capteur sous-cutané Phantom X ; premiers implants chez l'humain dans l'étude CYBORG (Melbourne, oct. 2026)",
+        "place": "Austin, USA"
       },
       {
-        "name": "IBA",
-        "use": "Groupe belge coté (pas une startup) ; sponsor de C-FLASH-01, première étude humaine de proton-thérapie ConformalFLASH, avec Penn Medicine",
-        "place": "Belgique"
+        "name": "Integrum",
+        "use": "Groupe suédois coté (pas une startup) ; système e-OPRA à électrodes implantées sur prothèse ancrée à l'os, premier patient américain implanté dans une étude financée par le NIH",
+        "place": "Mölndal, Suède"
+      },
+      {
+        "name": "Esper Bionics",
+        "use": "Main robotisée pilotée par capteurs musculaires ; a levé 5 M$ (2024) et vise des capteurs de nouvelle génération, y compris implantables",
+        "place": "Ukraine / Berlin"
       }
     ],
     "sources": [
       {
-        "publisher": "IBA / GlobeNewswire",
-        "title": "First Patient Treated in the C-FLASH-01 ConformalFLASH Clinical Trial",
-        "url": "https://www.globenewswire.com/news-release/2026/10/21/3385095/0/en/first-patient-treated-in-the-c-flash-01-conformalflash-clinical-trial.html"
+        "publisher": "PR Newswire",
+        "title": "Phantom Neuro Implants Neural Interface in Humans for the First Time",
+        "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
       },
       {
-        "publisher": "IBA",
-        "title": "IBA receives FDA Investigational Device Exemption approval for first ConformalFLASH human clinical study",
-        "url": "https://www.iba-worldwide.com/iba-receives-fda-investigational-device-exemption-approval-first-conformalflash-human-clinical"
+        "publisher": "ClinicalTrials.gov",
+        "title": "Implantable MyoElectric Sensors (IMES) for Prosthetic Control in Transhumeral Amputees",
+        "url": "https://clinicaltrials.gov/study/NCT03644394"
       },
       {
-        "publisher": "THERYQ",
-        "title": "FLASHDEEP",
-        "url": "https://www.theryq-alcen.com/flash-radiotherapy-products/flashdeep/"
+        "publisher": "Inderes",
+        "title": "Första patienten i USA implanterad med Integrums e-OPRA i klinisk studie ledd av Shirley Ryan AbilityLab",
+        "url": "https://www.inderes.se/releases/forsta-patienten-i-usa-implanterad-med-integrums-e-opra-i-klinisk-studie-ledd-av-shirley-ryan-abilitylab"
       },
       {
-        "publisher": "CERN Knowledge Transfer",
-        "title": "FLASH radiotherapy",
-        "url": "https://kt.cern/flash-radiotherapy"
+        "publisher": "Sifted",
+        "title": "Esper Bionics raise news",
+        "url": "https://sifted.eu/articles/esper-bionics-raise-news"
       }
     ]
   }

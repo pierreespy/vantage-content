@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-22",
+  "generatedAt": "2026-10-23",
   "words": [
+    {
+      "term": "IMES",
+      "full": "Implantable Myoelectric Sensor",
+      "fr": "Implantable myoelectric sensor",
+      "field": "Connected prosthetics / neurotech",
+      "definition": "A small sensor implanted in the residual-limb muscles that reads their electrical activity and wirelessly relays it to a prosthesis, controlling it more reliably than skin-surface electrodes.",
+      "parts": [
+        {
+          "label": "Sensor",
+          "role": "the ear: picks up the muscle (EMG) signal"
+        },
+        {
+          "label": "Wireless link",
+          "role": "the relay: sends the signal to the prosthesis"
+        },
+        {
+          "label": "Decoding",
+          "role": "the translator: turns the signal into hand motion"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implantation",
+          "t": "The sensor is placed in the residual-limb muscle in a short procedure."
+        },
+        {
+          "n": "2",
+          "h": "Reading",
+          "t": "When the patient intends to move, the muscle contracts and the sensor records the electrical signal."
+        },
+        {
+          "n": "3",
+          "h": "Control",
+          "t": "The signal is sent to the prosthesis, which decodes it into motion."
+        }
+      ],
+      "why": "Prosthesis control is the market's weak point: surface electrodes drift and shift. A stable implanted sensor promises better use and patient retention. Phantom Neuro just reached first-in-human; the remaining risk is clinical and regulatory, with an implantable-device pathway to fund.",
+      "startups": [
+        {
+          "name": "Phantom Neuro",
+          "use": "Phantom X under-the-skin sensor; first human implants in the CYBORG study (Melbourne, Oct 2026)",
+          "place": "Austin, USA"
+        },
+        {
+          "name": "Integrum",
+          "use": "Listed Swedish group (not a startup); e-OPRA implanted-electrode system on a bone-anchored prosthesis, first US patient implanted in an NIH-funded study",
+          "place": "Mölndal, Suède"
+        },
+        {
+          "name": "Esper Bionics",
+          "use": "Robotic hand driven by muscle sensors; raised $5M (2024) and aims at next-generation sensors, including implantable ones",
+          "place": "Ukraine / Berlin"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PR Newswire",
+          "title": "Phantom Neuro Implants Neural Interface in Humans for the First Time",
+          "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
+        },
+        {
+          "publisher": "ClinicalTrials.gov",
+          "title": "Implantable MyoElectric Sensors (IMES) for Prosthetic Control in Transhumeral Amputees",
+          "url": "https://clinicaltrials.gov/study/NCT03644394"
+        },
+        {
+          "publisher": "Inderes",
+          "title": "Första patienten i USA implanterad med Integrums e-OPRA i klinisk studie ledd av Shirley Ryan AbilityLab",
+          "url": "https://www.inderes.se/releases/forsta-patienten-i-usa-implanterad-med-integrums-e-opra-i-klinisk-studie-ledd-av-shirley-ryan-abilitylab"
+        },
+        {
+          "publisher": "Sifted",
+          "title": "Esper Bionics raise news",
+          "url": "https://sifted.eu/articles/esper-bionics-raise-news"
+        }
+      ],
+      "date": "2026-10-23",
+      "dateLong": "Oct 23, 2026"
+    },
     {
       "term": "FLASH Radiotherapy",
       "full": "FLASH Radiotherapy (ultra-high dose rate radiotherapy)",
