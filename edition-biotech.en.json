@@ -1,160 +1,223 @@
 {
-  "dateLong": "Oct 21, 2026",
+  "dateLong": "Oct 24, 2026",
   "ticker": [
     {
-      "company": "ALK-Abelló",
-      "amount": "Ph3 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Zealand",
+      "company": "Muna",
       "amount": "Ph1 ✓",
       "kind": "tech"
     },
     {
-      "company": "Lilly",
-      "amount": "CHMP",
-      "kind": "reg"
+      "company": "Alnylam",
+      "amount": "Ph1b ✓",
+      "kind": "tech"
     },
     {
-      "company": "Alvotech",
-      "amount": "FDA",
-      "kind": "reg"
+      "company": "Sensorion",
+      "amount": "Appointment",
+      "kind": "tech"
     },
     {
-      "company": "Lycia",
-      "amount": "IPO $228M",
+      "company": "Arctic Therapeutics",
+      "amount": "$21.5M",
       "kind": "lev"
+    },
+    {
+      "company": "Georgiamune",
+      "amount": "$45M",
+      "kind": "lev"
+    },
+    {
+      "company": "Qiagen",
+      "amount": "€10.8B",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Phase 3 · Allergy immunotherapy",
-    "title": "ALK-Abelló: its Acarizax tablet succeeds in a Phase 3 in China against house dust mite allergy",
-    "deck": "In a randomized, double-blind trial of 327 participants (ages 12-65), Acarizax beat placebo by 1.11 points on the combined symptom-medication score (19.1% relative difference), well above the threshold agreed with Chinese authorities. ALK and partner GenSci aim to file in China in the first half of 2027, in a market of over 100 million people with dust mite allergy of whom fewer than one million receive immunotherapy.",
-    "company": "ALK-Abelló",
-    "sector": "Immunology",
+    "kicker": "Phase 1 data · Neurosciences",
+    "title": "Muna Therapeutics: oral TREM2 modulator clears Phase 1 in Alzheimer's, Phase 2 planned for early 2027",
+    "deck": "MNA-001, an oral small molecule that strengthens microglia rather than targeting amyloid, reaches the cerebrospinal fluid with clean tolerability, and some age-associated biomarkers in older volunteers moved toward younger levels. The Danish biotech released no cohort sizes or doses: an early signal to watch ahead of its next round.",
+    "company": "Muna Therapeutics",
+    "sector": "Neurosciences",
     "pillar": "innovation",
     "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://nordiclifescience.org/alks-dust-mite-allergy-tablet-succeeds-in-chinese-phase-3/"
+    "strength": 3,
+    "url": "https://european-biotechnology.com/latest-news/munas-oral-alzheimers-candidate-shifts-age-associated-markers-in-phase-1/"
   },
   "milestone": {
-    "company": "Zealand Pharma",
-    "milestone": "Phase 1 ✓",
-    "title": "Zealand: Kv1.3 blocker ZP9830 clears its multiple-dose phase with clean tolerability",
-    "summary": "In 32 healthy volunteers dosed for four weeks, there were no serious or severe adverse events and no dose-limiting safety findings; pharmacokinetic data support longer trials. A Phase 1b trial with efficacy endpoints in plaque psoriasis has already started.",
-    "why": "Kv1.3 is upregulated on effector memory T cells that sustain inflammation: the bet is to slow them while preserving the rest of the immune system. A Phase 2 in another autoimmune disease is planned for the first half of 2027 — a test of the approach beyond dermatology.",
-    "place": "Copenhagen",
-    "sector": "Immunology",
+    "company": "Alnylam Pharmaceuticals",
+    "milestone": "Phase 1b ✓",
+    "title": "Alnylam: brezosiran (RNAi) cuts mutant huntingtin in CSF by 60-64% in Huntington's disease",
+    "summary": "Phase 1b data presented in Krakow: dose-dependent reduction at 3 months, up to 83% in one patient, via the C16 conjugate platform targeting exon 1 of HTT mRNA. A placebo-controlled study is planned for 2027.",
+    "why": "Evidence that conjugated RNAi can reach the brain, a building block for CNS oligo startups. Caution: Roche's tominersen also lowered mHTT without clinical benefit.",
+    "place": "Cambridge, MA",
+    "sector": "RNA",
     "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/zealands-autoimmune-drug-passes-multiple-dose-phase-1/"
+    "url": "https://www.biospace.com/drug-development/alnylam-plans-pivotal-trial-as-huntingtons-drug-notches-best-in-class-knockdown"
+  },
+  "deal": {
+    "company": "Georgiamune",
+    "amount": "$45M upfront (up to $1.1B)",
+    "round": "Licensing",
+    "thesis": "Menarini (via Stemline) takes worldwide rights to GIM-621, a still preclinical oral immunotherapy whose target and mechanism are undisclosed. A European pharma bet on Georgiamune's oral Treg platform, funded by a $92.7M Series B.",
+    "sector": "Oncology",
+    "url": "https://european-biotechnology.com/latest-news/menarini-adds-georgiamunes-oral-immunotherapy-candidate-to-its-solid-tumor-portfolio-for-45m-upfront/"
   },
   "brefsEurope": [
     {
-      "company": "Eli Lilly",
-      "place": "Indianapolis",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "CHMP recommends EU approval of Foundayo (orforglipron), Lilly's oral GLP-1",
-      "summary": "A once-daily non-peptide tablet for weight management and type 2 diabetes: weight loss of 5 to 11% at 72 weeks depending on dose (versus 2 to 2.5% on placebo). The European Commission now has to decide; it will compete with Novo's Wegovy pill, whose EU authorization was just granted.",
-      "url": "https://nordiclifescience.org/ema-panel-backs-lillys-oral-glp-1-foundayo/"
+      "company": "Arctic Therapeutics",
+      "place": "Iceland",
+      "sector": "Immunology",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Arctic Therapeutics raises $21.5M to take autoimmune programs to the clinic",
+      "summary": "Oversubscribed round led by Pekron, Kaldbakur and Landvættir with Sanos. Pipeline: AT-001 (HCCAA; Phase 2a in mild Alzheimer's), AT-002 (uveitis), AT-003, AT-004 (acne, Phase 2a completed).",
+      "url": "https://european-biotechnology.com/latest-news/arctic-therapeutics-raises-21-5m-to-take-autoimmune-programs-to-clinic/"
     },
     {
-      "company": "Alvotech",
-      "place": "Reykjavik",
-      "sector": "Biosimilars",
+      "company": "Qiagen",
+      "place": "Venlo / Hilden",
+      "sector": "Diagnostics",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "EQT-led consortium to take Qiagen private at €10.8B enterprise value, €46.50 per share in cash",
+      "summary": "Public offer at a 40.3% premium; consortium includes Luxinva (ADIA) and CPP Investment Board Europe. Closing expected mid-2027. A major comparable for life-science tools and diagnostics.",
+      "url": "https://european-biotechnology.com/latest-news/qiagen-agrees-to-go-private-with-e10-8b-takeover-by-eqt/"
+    },
+    {
+      "company": "Sensorion",
+      "place": "Montpellier",
+      "sector": "Gene therapy",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "FDA approves Process 2.0 for SIMLANDI, Alvotech's Humira biosimilar",
-      "summary": "The new process more than doubles drug substance output per batch in the DSM2 suite in Reykjavik without changing upstream scale, freeing capacity for other products in the portfolio; it follows a recent approval of additional capacity at the same site.",
-      "url": "https://nordiclifescience.org/fda-approves-alvotechs-new-simlandi-process/"
+      "title": "Sensorion names Peter Weber Chief Medical Officer effective November 2",
+      "summary": "Previously at Decibel Therapeutics and Regeneron in inner-ear gene therapy, he prepares the clinical development of SENS-601 in GJB2-related hearing loss.",
+      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
+    },
+    {
+      "company": "Orano Med",
+      "place": "France",
+      "sector": "Radiopharmaceuticals",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Orano Med names Matthew Fyfe Chief Scientific Officer",
+      "summary": "Former CSO of Outrun Therapeutics, he leads research on lead-212 therapies across France and the US (announced October 19).",
+      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
+    },
+    {
+      "company": "Maxion Therapeutics",
+      "place": "Cambridge, UK",
+      "sector": "Biotech",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "Mikael Dolsten, former Pfizer CSO, joins the board of Maxion Therapeutics",
+      "summary": "Independent non-executive director; Maxion raised $72M in 2025.",
+      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Lycia Therapeutics",
-      "place": "United States",
+      "company": "Zymeworks",
+      "place": "Vancouver",
+      "sector": "Oncology",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Roche licenses ZW209 (DLL3 trispecific T-cell engager) from Zymeworks: $55M upfront, up to $813M",
+      "summary": "ZW209 binds DLL3 on tumour cells and CD3/CD28 on T cells for lung cancer; Phase 1a started, with high-single-digit to mid-teen royalties.",
+      "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
+    },
+    {
+      "company": "PepStar Therapeutics",
+      "place": "Chine",
       "sector": "Immunology",
       "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Lycia aims for a $228M IPO for its Xolair rival in food allergy",
-      "summary": "The planned IPO, reported by Fierce Biotech, would fund development of a candidate competing with omalizumab in food allergy: a market comparable for immunology platform valuations.",
-      "url": "https://www.fiercebiotech.com/biotech/lycia-aims-228m-generate-data-food-allergy-rival-xolair"
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Gilead takes PepStar's oral IL-23 receptor inhibitor for $1.3B upfront",
+      "summary": "HCXT-2001, an oral macrocyclic peptide, targets IBD and psoriasis; closing expected by quarter-end. A pricing comparable for oral peptides.",
+      "url": "https://www.biospace.com/business/gilead-shops-in-il-23-inking-1-3b-upfront-i-i-deal-with-chinas-pepstar"
     }
   ],
   "word": {
-    "term": "Lentiviral Vector",
-    "full": "Lentiviral Vector",
-    "fr": "Vector derived from a lentivirus to deliver a gene",
-    "field": "Gene therapy",
-    "definition": "A disarmed virus from the lentivirus family, used as a vehicle to introduce a therapeutic gene into cells.",
+    "term": "T-Cell Engager",
+    "full": "Bispecific T-Cell Engager (TCE)",
+    "fr": "T-cell engager (bispecific antibody)",
+    "field": "Immuno-oncology and autoimmunity",
+    "definition": "A bispecific antibody that grabs a T cell with one arm and a diseased cell with the other, so the T cell kills its target.",
     "parts": [
       {
-        "label": "Envelope",
-        "role": "the guidance toward target cells"
+        "label": "CD3 arm",
+        "role": "grabs and activates the T cell"
       },
       {
-        "label": "Vector genome",
-        "role": "the payload: the therapeutic gene, without replication genes"
+        "label": "Antigen arm",
+        "role": "recognizes the target cell (e.g. DLL3, CD19)"
       },
       {
-        "label": "Production",
-        "role": "the packaging cells that make the particles"
+        "label": "Co-stimulation (optional)",
+        "role": "a third CD28 arm helps T cells proliferate and survive"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Manufacture",
-        "t": "Producer cells assemble viral particles carrying the gene of interest, without the ability to replicate."
+        "h": "Binding",
+        "t": "One arm binds the tumour cell, the other binds CD3 on the T cell."
       },
       {
         "n": "2",
-        "h": "Transduce",
-        "t": "The particles infect the patient's cells (often collected then modified in the lab, as in CAR-T therapy)."
+        "h": "Bridging",
+        "t": "The T cell is brought into contact with the target, independently of MHC I or classic co-stimulation."
       },
       {
         "n": "3",
-        "h": "Express",
-        "t": "The gene is delivered into the cell, which produces the missing protein or the desired receptor."
+        "h": "Killing",
+        "t": "The T cell releases perforin and granzymes that trigger apoptosis; cytokine release syndrome (CRS) is the typical adverse effect."
       }
     ],
-    "why": "VC angle: lentiviral vectors are the bottleneck of ex vivo cell and gene therapy — manufacturing costs, production capacity and packaging-cell-free variants are investment theses in their own right, with seed to Series B tickets in Europe.",
+    "why": "An off-the-shelf alternative to CAR-T, already validated (blinatumomab, tarlatamab) and booming: Roche-Zymeworks this week, UCB-Candid (up to $2.2B) and Sanofi-Kali in 2026, with expansion into autoimmunity.",
     "startups": [
       {
-        "name": "Genespire",
-        "use": "Lentiviral gene therapy; €46.6M Series B closed in September 2024",
-        "place": "Italy"
+        "name": "CDR-Life",
+        "use": "M-gager TCE platform for cancer and autoimmune disease; 6 development candidates, 2 in patients",
+        "place": "Horgen, Switzerland"
       },
       {
-        "name": "Lentitek",
-        "use": "Lentiviral vectors for CAR-T and gene therapy; £700k raised from Equity Gap and existing investors in 2025",
-        "place": "Edinburgh, UK"
+        "name": "Cytospire Therapeutics",
+        "use": "Pan-gamma-delta TCEs; £61M Series A in May 2026 (EGFR program in solid tumours)",
+        "place": "UK"
       },
       {
-        "name": "Fuse Vectors",
-        "use": "Cell-free viral vector technology; $5.2M pre-seed in February 2025"
+        "name": "Immunocore",
+        "use": "Bispecific TCR therapies (KIMMTRAK); first patient dosed Oct 15 in Phase 1 of IMC-S118AI in type 1 diabetes",
+        "place": "UK"
       }
     ],
     "sources": [
       {
-        "publisher": "Tech.eu",
-        "title": "Fuse Vectors",
-        "url": "https://tech.eu/tag/fuse-vectors/"
+        "publisher": "Wikipedia",
+        "title": "Bispecific T-cell engager",
+        "url": "https://en.wikipedia.org/wiki/Bispecific_T-cell_engager"
       },
       {
-        "publisher": "Equity Gap",
-        "title": "Lentitek secures £700k investment from Equity Gap and existing investors",
-        "url": "https://www.equitygap.co.uk/lentitek-secures-700k-investment-from-equity-gap-and-existing-investors/"
+        "publisher": "European Biotechnology",
+        "title": "Roche bets up to $813M on Zymeworks lung cancer candidate",
+        "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
       },
       {
-        "publisher": "HTGF",
-        "title": "Viral vectors for novel cell models, gene therapy and vaccine development gain further funds from private investors",
-        "url": "https://www.htgf.de/en/viral-vectors-for-novel-cell-models-gene-therapy-and-vaccine-development-gain-further-funds-from-private-investors/"
+        "publisher": "European Biotechnology",
+        "title": "Tag: T-cell engager (Cytospire, Candid, Kali)",
+        "url": "https://www.european-biotechnology.com/tag/t-cell-engager"
+      },
+      {
+        "publisher": "CDR-Life",
+        "title": "CDR-Life, T cell engager therapies",
+        "url": "https://www.cdr-life.com/"
       }
     ]
   }

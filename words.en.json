@@ -2,6 +2,86 @@
   "generatedAt": "2026-10-24",
   "words": [
     {
+      "term": "T-Cell Engager",
+      "full": "Bispecific T-Cell Engager (TCE)",
+      "fr": "T-cell engager (bispecific antibody)",
+      "field": "Immuno-oncology and autoimmunity",
+      "definition": "A bispecific antibody that grabs a T cell with one arm and a diseased cell with the other, so the T cell kills its target.",
+      "parts": [
+        {
+          "label": "CD3 arm",
+          "role": "grabs and activates the T cell"
+        },
+        {
+          "label": "Antigen arm",
+          "role": "recognizes the target cell (e.g. DLL3, CD19)"
+        },
+        {
+          "label": "Co-stimulation (optional)",
+          "role": "a third CD28 arm helps T cells proliferate and survive"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Binding",
+          "t": "One arm binds the tumour cell, the other binds CD3 on the T cell."
+        },
+        {
+          "n": "2",
+          "h": "Bridging",
+          "t": "The T cell is brought into contact with the target, independently of MHC I or classic co-stimulation."
+        },
+        {
+          "n": "3",
+          "h": "Killing",
+          "t": "The T cell releases perforin and granzymes that trigger apoptosis; cytokine release syndrome (CRS) is the typical adverse effect."
+        }
+      ],
+      "why": "An off-the-shelf alternative to CAR-T, already validated (blinatumomab, tarlatamab) and booming: Roche-Zymeworks this week, UCB-Candid (up to $2.2B) and Sanofi-Kali in 2026, with expansion into autoimmunity.",
+      "startups": [
+        {
+          "name": "CDR-Life",
+          "use": "M-gager TCE platform for cancer and autoimmune disease; 6 development candidates, 2 in patients",
+          "place": "Horgen, Switzerland"
+        },
+        {
+          "name": "Cytospire Therapeutics",
+          "use": "Pan-gamma-delta TCEs; £61M Series A in May 2026 (EGFR program in solid tumours)",
+          "place": "UK"
+        },
+        {
+          "name": "Immunocore",
+          "use": "Bispecific TCR therapies (KIMMTRAK); first patient dosed Oct 15 in Phase 1 of IMC-S118AI in type 1 diabetes",
+          "place": "UK"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Wikipedia",
+          "title": "Bispecific T-cell engager",
+          "url": "https://en.wikipedia.org/wiki/Bispecific_T-cell_engager"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Roche bets up to $813M on Zymeworks lung cancer candidate",
+          "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Tag: T-cell engager (Cytospire, Candid, Kali)",
+          "url": "https://www.european-biotechnology.com/tag/t-cell-engager"
+        },
+        {
+          "publisher": "CDR-Life",
+          "title": "CDR-Life, T cell engager therapies",
+          "url": "https://www.cdr-life.com/"
+        }
+      ],
+      "date": "2026-10-24",
+      "dateLong": "Oct 24, 2026"
+    },
+    {
       "term": "DTx",
       "full": "Digital Therapeutics",
       "fr": "Digital Therapeutics",
