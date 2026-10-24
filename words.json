@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "words": [
+    {
+      "term": "BDD",
+      "full": "Breakthrough Device Designation (statut de dispositif révolutionnaire de la FDA)",
+      "fr": "Désignation de dispositif révolutionnaire (FDA)",
+      "field": "Réglementaire & accès au marché",
+      "definition": "Un label de la FDA américaine qui accorde un accès privilégié et plus rapide aux équipes de la FDA pour les dispositifs destinés à des maladies graves ou invalidantes, sans abaisser le niveau de preuve exigé.",
+      "parts": [
+        {
+          "label": "Critères",
+          "role": "traite une maladie grave ou invalidante et apporte un avantage significatif"
+        },
+        {
+          "label": "Interactions",
+          "role": "échanges fréquents avec la FDA, dont les « sprint discussions »"
+        },
+        {
+          "label": "Revue prioritaire",
+          "role": "examen accéléré des futurs dossiers (IDE, 510(k), De Novo, PMA)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Demande",
+          "t": "L'industriel dépose une demande de désignation auprès de la FDA en démontrant l'avantage potentiel face aux alternatives existantes."
+        },
+        {
+          "n": "2",
+          "h": "Dialogue",
+          "t": "Une fois désigné, il planifie avec la FDA le plan de données cliniques et le protocole d'essai, avec des sprints sur un sujet précis."
+        },
+        {
+          "n": "3",
+          "h": "Revue prioritaire",
+          "t": "Les soumissions ultérieures sont examinées en priorité, mais avec les mêmes standards de sécurité et d'efficacité."
+        }
+      ],
+      "why": "Pour un VC, c'est un signal faible en amont d'une levée : un BDD réduit le risque réglementaire et le temps de développement, et précède souvent un tour ou un partenariat industriel. Ce n'est toutefois pas une autorisation de mise sur le marché.",
+      "startups": [
+        {
+          "name": "INBRAIN Neuroelectronics",
+          "use": "Plateforme à base de graphène pour la neuromodulation ; BDD de la FDA en septembre 2023 pour la maladie de Parkinson en traitement adjuvant",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "En Carta Diagnostics",
+          "use": "Test moléculaire EC Pocket Lyme (détection de Borrelia dans le liquide interstitiel cutané) ; BDD de la FDA annoncé en janvier 2026",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Powerful Medical",
+          "use": "IA PMcardio (modèle Queen of Hearts) de détection du STEMI sur ECG, désignée dispositif révolutionnaire par la FDA",
+          "place": "Bratislava, Slovaquie"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Breakthrough Devices Program",
+          "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "INBRAIN Neuroelectronics Announces FDA Breakthrough Device Designation for Its Graphene Based Intelligent Network Modulation Platform",
+          "url": "https://www.businesswire.com/news/home/20230919347435/en"
+        },
+        {
+          "publisher": "Healthtech Digital",
+          "title": "En Carta Diagnostics receives FDA Breakthrough Device Designation for EC Pocket Lyme test",
+          "url": "https://healthtechdigital.com/en-carta-diagnostics-receives-fda-breakthrough-device-designation-for-ec-pocket-lyme-test/"
+        },
+        {
+          "publisher": "Powerful Medical",
+          "title": "PMcardio receives FDA Breakthrough Device Designation",
+          "url": "https://www.powerfulmedical.com/news"
+        }
+      ],
+      "date": "2026-10-24",
+      "dateLong": "24 oct. 2026"
+    },
     {
       "term": "IMES",
       "full": "Implantable Myoelectric Sensor (capteur myoélectrique implantable)",

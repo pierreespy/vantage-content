@@ -1,164 +1,111 @@
 {
-  "dateLong": "23 oct. 2026",
+  "dateLong": "24 oct. 2026",
   "ticker": [
-    {
-      "company": "ABBOTT",
-      "amount": "CE",
-      "kind": "reg"
-    },
-    {
-      "company": "MEDTRONIC",
-      "amount": "CE",
-      "kind": "reg"
-    },
-    {
-      "company": "PHANTOM NEURO",
-      "amount": "1er patient",
-      "kind": "tech"
-    },
-    {
-      "company": "QIAGEN",
-      "amount": "9,6 Md€",
-      "kind": "mna"
-    },
-    {
-      "company": "MYRIAD",
-      "amount": "$210M",
-      "kind": "mna"
-    }
+    { "company": "DISTALMOTION", "amount": "$70M", "kind": "lev" },
+    { "company": "TELEFLEX", "amount": "FDA", "kind": "reg" },
+    { "company": "EDWARDS", "amount": "FDA", "kind": "reg" },
+    { "company": "MHRA", "amount": "CE", "kind": "reg" },
+    { "company": "ICECURE", "amount": "1ers patients", "kind": "tech" },
+    { "company": "LUNIT", "amount": "ESMO", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Marquage CE (IVDR) · Diagnostics",
-    "title": "Abbott décroche le marquage CE IVDR pour Cologuard Plus, son test de dépistage du cancer colorectal à domicile",
-    "deck": "Le test ADN fécal (45 ans et plus, risque moyen) peut être lancé dans certains pays européens, selon les parcours nationaux et le remboursement. Aux États-Unis, la cohorte BLUE-C (plus de 20 000 participants) affiche 95 % de sensibilité et 94 % de spécificité pour le cancer colorectal. Un signal d'accès au marché pour le dépistage non invasif en Europe, à surveiller côté remboursement.",
-    "company": "Abbott",
-    "sector": "Diagnostics",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.medicaldevice-network.com/news/abbott-ce-mark-cologuard-plus-cancer-test/"
+    "kicker": "Financement · Robotique chirurgicale",
+    "title": "Distalmotion obtient jusqu'à 70 M$ de dette senior de Perceptive Advisors pour déployer son robot DEXTER dans les centres de chirurgie ambulatoire américains",
+    "deck": "La medtech suisse de robotique chirurgicale finance son expansion aux États-Unis (ASC), le développement du système DEXTER et l'élargissement de sa gamme d'instruments. DEXTER est autorisé pour les quatre procédures de tissus mous ambulatoires les plus fréquentes aux États-Unis (cholécystectomie, hernies inguinale et ventrale, hystérectomie). Un signal fort : la robotique mini-footprint vise le bloc ambulatoire, là où la croissance se joue.",
+    "company": "Distalmotion",
+    "stage": "Growth",
+    "sector": "Robotique chirurgicale",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.startupticker.ch/en/news/up-to-70m-term-loan-facility-to-boost-distalmotion-us-asc-expansion"
   },
   "milestone": {
-    "company": "Phantom Neuro",
-    "milestone": "1ers implants chez l’humain",
-    "title": "Phantom Neuro implante les premiers participants de l'étude CYBORG avec son capteur Phantom X",
-    "summary": "Le capteur sous-cutané lit l'activité des muscles du moignon et la convertit en commandes sans fil pour une prothèse de membre supérieur. Les implantations, ambulatoires (environ une heure, sans anesthésie générale), ont eu lieu à Cabrini Health (Melbourne) dans une étude de faisabilité précoce.",
-    "why": "Première validation humaine d'une interface muscle-machine implantable, sans contact avec le système nerveux : un jalon de dérisquage avant tout dossier réglementaire. Société américaine, à suivre comme comparable pour les acteurs européens de la prothèse connectée.",
-    "place": "Austin / Melbourne",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
-  },
-  "deal": {
-    "company": "Qiagen",
-    "amount": "9,6 Md€",
-    "round": "M&A (take-private)",
-    "thesis": "EQT et son consortium (dont ADIA et CPP Investments) offrent 46,50 € par action en numéraire, soit environ 40 % de prime sur le cours d'avant les premières rumeurs ; certains médias parlent de 10,8 Md€ en valeur d'entreprise. Le fonds parie sur les diagnostics moléculaires européens sortis de la cote : un comparable de valorisation majeur pour tout le secteur.",
-    "sector": "Diagnostics",
-    "url": "https://www.privateequitywire.co.uk/eqt-agrees-e9-6bn-takeover-of-qiagen/"
+    "company": "Teleflex",
+    "milestone": "Breakthrough Device (FDA)",
+    "title": "La FDA accorde le statut Breakthrough Device au scaffold coronaire résorbable en magnésium Freesolve RMS de Teleflex",
+    "summary": "Freesolve RMS (alliage BIOmag, revêtement bioabsorbable BIOlute) affiche 3,5 % d'échec de lésion cible à quatre ans dans l'étude first-in-human BIOMAG-I, sans nouvel événement clinique entre deux et quatre ans. L'essai pivot BIOMAG-III est en cours pour soutenir une demande de PMA.",
+    "why": "Environ 99 % du magnésium est résorbé en 12 mois : la promesse est un vaisseau sans implant permanent. Déjà marqué CE, le scaffold gagne un accès prioritaire à la FDA, signe que le stent résorbable revient sérieusement dans la course.",
+    "place": "Wayne (États-Unis)",
+    "sector": "Cardio",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/fda-breakthrough-teleflexs-coronary-scaffold/"
   },
   "brefsEurope": [
     {
-      "company": "Medtronic",
-      "place": "Dublin",
-      "sector": "Cardio",
+      "company": "MHRA / gouvernement britannique",
+      "place": "Londres",
+      "sector": "Réglementaire",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Medtronic obtient le marquage CE pour sa gamme de stimulateurs cardiaques Vitalis",
-      "summary": "Cinq stimulateurs conçus pour la stimulation du système de conduction (CSP), dont ReSyncra CSP avec AdaptivCSP. La gamme n'est pas encore autorisée aux États-Unis : l'Europe passe devant.",
-      "url": "https://www.medicaldevice-network.com/news/medtronic-next-gen-pacemaker-portfolio-secures-ce-mark/"
+      "strength": 4,
+      "title": "Le Royaume-Uni reconnaît indéfiniment le marquage CE des dispositifs médicaux et IVD",
+      "summary": "Après une consultation (16 février–10 avril 2026), Londres abandonne les échéances du 30 juin 2028 (anciennes directives) et du 30 juin 2030 (MDR/IVDR). Plus de 90 % des dispositifs enregistrés au Royaume-Uni portent déjà le CE : un marché britannique accessible sans double certification pour les startups européennes.",
+      "url": "https://www.medicaldevice-network.com/news/uk-government-confirms-indefinite-eu-ce-mark-recognition/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Labcorp",
-      "place": "Burlington",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 4,
-      "title": "Labcorp rachète l’activité de tests prénataux de Myriad Genetics pour 210 M$",
-      "summary": "Quatre tests (FirstGene, Prequel, Foresight, SneakPeek) pour environ 160 M$ de revenus attendus en année 1, soit ~1,3x le chiffre d'affaires contre 2,9x pour BioReference : un point de comparaison de valorisation pour les diagnostics.",
-      "url": "https://www.medtechdive.com/news/labcorp-to-buy-myriads-prenatal-health-testing-unit-for-210m/833683/"
+      "company": "Edwards Lifesciences",
+      "place": "Irvine",
+      "sector": "Cardio",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "La FDA approuve l'extension d'indication du système Pascal Precision à la réparation bord à bord de la valve tricuspide",
+      "summary": "L'approbation couvre l'insuffisance tricuspide sévère symptomatique sous traitement optimal chez des patients à risque chirurgical intermédiaire ou plus élevé. Elle place Edwards face à TriClip d'Abbott sur la réparation tricuspide.",
+      "url": "https://www.medtechdive.com/news/edwards-wins-fda-approval-for-tricuspid-valve-repair-device/833815/"
+    },
+    {
+      "company": "Lunit",
+      "place": "Séoul",
+      "sector": "Digital Health",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 2,
+      "title": "Lunit SCOPE présente cinq études à l'ESMO 2026, dont le scoring PD-L1 par IA sur 993 cancers du poumon",
+      "summary": "Sur 993 patients opérés d'un CPNPC au Japon, l'accord entre pathologiste et IA atteint 73 %, le plus faible sur les tumeurs jugées PD-L1 négatives. Une seconde étude (181 PDAC) relie le ratio tumeur-stroma à la survie selon le statut KRAS.",
+      "url": "https://www.medicaldevice-network.com/news/esmo26-lunit-scope-studies-highlight-ai-based-pathology-benefit/"
+    },
+    {
+      "company": "IceCure Medical",
+      "place": "Césarée",
+      "sector": "Imagerie",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "IceCure inclut ses deux premiers patients dans l'étude ChoICE de cryoablation ProSense aux États-Unis",
+      "summary": "L'étude prospective post-commercialisation vise environ 400 patients dans jusqu'à 30 centres américains ; les premières inclusions ont eu lieu au West Cancer Center (Tennessee) et à Adventist Health Glendale (Californie).",
+      "url": "https://www.medicaldevice-network.com/news/icecure-initial-patients-prosense-cryoablation-trial/"
     }
   ],
   "word": {
-    "term": "IMES",
-    "full": "Implantable Myoelectric Sensor (capteur myoélectrique implantable)",
-    "fr": "Capteur myoélectrique implantable",
-    "field": "Prothèses connectées / neurotech",
-    "definition": "Un petit capteur implanté dans les muscles du moignon qui lit leur activité électrique et la transmet sans fil à une prothèse, pour la piloter plus fidèlement qu'avec des électrodes posées sur la peau.",
+    "term": "BDD",
+    "full": "Breakthrough Device Designation (statut de dispositif révolutionnaire de la FDA)",
+    "fr": "Désignation de dispositif révolutionnaire (FDA)",
+    "field": "Réglementaire & accès au marché",
+    "definition": "Un label de la FDA américaine qui accorde un accès privilégié et plus rapide aux équipes de la FDA pour les dispositifs destinés à des maladies graves ou invalidantes, sans abaisser le niveau de preuve exigé.",
     "parts": [
-      {
-        "label": "Capteur",
-        "role": "l'oreille : capte le signal musculaire (EMG)"
-      },
-      {
-        "label": "Liaison sans fil",
-        "role": "le relais : transmet le signal vers la prothèse"
-      },
-      {
-        "label": "Décodage",
-        "role": "le traducteur : convertit le signal en mouvement de la main"
-      }
+      { "label": "Critères", "role": "traite une maladie grave ou invalidante et apporte un avantage significatif" },
+      { "label": "Interactions", "role": "échanges fréquents avec la FDA, dont les « sprint discussions »" },
+      { "label": "Revue prioritaire", "role": "examen accéléré des futurs dossiers (IDE, 510(k), De Novo, PMA)" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Implantation",
-        "t": "Le capteur est placé dans le muscle du moignon lors d'une courte intervention."
-      },
-      {
-        "n": "2",
-        "h": "Lecture",
-        "t": "Quand le patient pense à bouger, le muscle se contracte et le capteur enregistre le signal électrique."
-      },
-      {
-        "n": "3",
-        "h": "Commande",
-        "t": "Le signal est transmis à la prothèse, qui le décode en mouvement."
-      }
+      { "n": "1", "h": "Demande", "t": "L'industriel dépose une demande de désignation auprès de la FDA en démontrant l'avantage potentiel face aux alternatives existantes." },
+      { "n": "2", "h": "Dialogue", "t": "Une fois désigné, il planifie avec la FDA le plan de données cliniques et le protocole d'essai, avec des sprints sur un sujet précis." },
+      { "n": "3", "h": "Revue prioritaire", "t": "Les soumissions ultérieures sont examinées en priorité, mais avec les mêmes standards de sécurité et d'efficacité." }
     ],
-    "why": "Le contrôle des prothèses reste le point faible du marché : les électrodes de surface dérivent et se déplacent. Un capteur implanté stable promet un meilleur usage, donc une meilleure rétention des patients. Phantom Neuro vient de franchir l'étape du premier humain ; le risque est désormais clinique et réglementaire, avec un chemin dispositif implantable à financer.",
+    "why": "Pour un VC, c'est un signal faible en amont d'une levée : un BDD réduit le risque réglementaire et le temps de développement, et précède souvent un tour ou un partenariat industriel. Ce n'est toutefois pas une autorisation de mise sur le marché.",
     "startups": [
-      {
-        "name": "Phantom Neuro",
-        "use": "Capteur sous-cutané Phantom X ; premiers implants chez l'humain dans l'étude CYBORG (Melbourne, oct. 2026)",
-        "place": "Austin, USA"
-      },
-      {
-        "name": "Integrum",
-        "use": "Groupe suédois coté (pas une startup) ; système e-OPRA à électrodes implantées sur prothèse ancrée à l'os, premier patient américain implanté dans une étude financée par le NIH",
-        "place": "Mölndal, Suède"
-      },
-      {
-        "name": "Esper Bionics",
-        "use": "Main robotisée pilotée par capteurs musculaires ; a levé 5 M$ (2024) et vise des capteurs de nouvelle génération, y compris implantables",
-        "place": "Ukraine / Berlin"
-      }
+      { "name": "INBRAIN Neuroelectronics", "use": "Plateforme à base de graphène pour la neuromodulation ; BDD de la FDA en septembre 2023 pour la maladie de Parkinson en traitement adjuvant", "place": "Barcelone, Espagne" },
+      { "name": "En Carta Diagnostics", "use": "Test moléculaire EC Pocket Lyme (détection de Borrelia dans le liquide interstitiel cutané) ; BDD de la FDA annoncé en janvier 2026", "place": "Paris, France" },
+      { "name": "Powerful Medical", "use": "IA PMcardio (modèle Queen of Hearts) de détection du STEMI sur ECG, désignée dispositif révolutionnaire par la FDA", "place": "Bratislava, Slovaquie" }
     ],
     "sources": [
-      {
-        "publisher": "PR Newswire",
-        "title": "Phantom Neuro Implants Neural Interface in Humans for the First Time",
-        "url": "https://prnewswire.com/news-releases/phantom-neuro-implants-neural-interface-in-humans-for-the-first-time-302912256.html"
-      },
-      {
-        "publisher": "ClinicalTrials.gov",
-        "title": "Implantable MyoElectric Sensors (IMES) for Prosthetic Control in Transhumeral Amputees",
-        "url": "https://clinicaltrials.gov/study/NCT03644394"
-      },
-      {
-        "publisher": "Inderes",
-        "title": "Första patienten i USA implanterad med Integrums e-OPRA i klinisk studie ledd av Shirley Ryan AbilityLab",
-        "url": "https://www.inderes.se/releases/forsta-patienten-i-usa-implanterad-med-integrums-e-opra-i-klinisk-studie-ledd-av-shirley-ryan-abilitylab"
-      },
-      {
-        "publisher": "Sifted",
-        "title": "Esper Bionics raise news",
-        "url": "https://sifted.eu/articles/esper-bionics-raise-news"
-      }
+      { "publisher": "FDA", "title": "Breakthrough Devices Program", "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program" },
+      { "publisher": "Business Wire", "title": "INBRAIN Neuroelectronics Announces FDA Breakthrough Device Designation for Its Graphene Based Intelligent Network Modulation Platform", "url": "https://www.businesswire.com/news/home/20230919347435/en" },
+      { "publisher": "Healthtech Digital", "title": "En Carta Diagnostics receives FDA Breakthrough Device Designation for EC Pocket Lyme test", "url": "https://healthtechdigital.com/en-carta-diagnostics-receives-fda-breakthrough-device-designation-for-ec-pocket-lyme-test/" },
+      { "publisher": "Powerful Medical", "title": "PMcardio receives FDA Breakthrough Device Designation", "url": "https://www.powerfulmedical.com/news" }
     ]
   }
 }

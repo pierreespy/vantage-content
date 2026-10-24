@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-23",
+  "generatedAt": "2026-10-24",
   "words": [
+    {
+      "term": "BDD",
+      "full": "Breakthrough Device Designation (FDA status for breakthrough devices)",
+      "fr": "Breakthrough Device Designation (FDA)",
+      "field": "Regulatory & market access",
+      "definition": "A US FDA label that gives privileged, faster access to FDA teams for devices aimed at serious or debilitating conditions, without lowering the level of evidence required.",
+      "parts": [
+        {
+          "label": "Criteria",
+          "role": "treats a serious or debilitating condition and brings a significant advantage"
+        },
+        {
+          "label": "Interactions",
+          "role": "frequent exchanges with the FDA, including \"sprint discussions\""
+        },
+        {
+          "label": "Priority review",
+          "role": "faster review of future filings (IDE, 510(k), De Novo, PMA)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Request",
+          "t": "The manufacturer files a designation request with the FDA, showing the potential advantage over existing alternatives."
+        },
+        {
+          "n": "2",
+          "h": "Dialogue",
+          "t": "Once designated, it plans the clinical data plan and trial protocol with the FDA, with sprints on a single topic."
+        },
+        {
+          "n": "3",
+          "h": "Priority review",
+          "t": "Later submissions are reviewed in priority, but against the same safety and effectiveness standards."
+        }
+      ],
+      "why": "For a VC it is an upstream weak signal ahead of a raise: a BDD de-risks regulation and shortens development, and often precedes a round or an industrial partnership. It is not, however, a marketing authorization.",
+      "startups": [
+        {
+          "name": "INBRAIN Neuroelectronics",
+          "use": "Graphene-based neuromodulation platform; FDA BDD in September 2023 as adjunctive therapy for Parkinson's disease",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "En Carta Diagnostics",
+          "use": "EC Pocket Lyme molecular test (Borrelia detection in skin interstitial fluid); FDA BDD announced in January 2026",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Powerful Medical",
+          "use": "PMcardio AI (Queen of Hearts model) detecting STEMI on ECG, designated a breakthrough device by the FDA",
+          "place": "Bratislava, Slovakia"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Breakthrough Devices Program",
+          "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "INBRAIN Neuroelectronics Announces FDA Breakthrough Device Designation for Its Graphene Based Intelligent Network Modulation Platform",
+          "url": "https://www.businesswire.com/news/home/20230919347435/en"
+        },
+        {
+          "publisher": "Healthtech Digital",
+          "title": "En Carta Diagnostics receives FDA Breakthrough Device Designation for EC Pocket Lyme test",
+          "url": "https://healthtechdigital.com/en-carta-diagnostics-receives-fda-breakthrough-device-designation-for-ec-pocket-lyme-test/"
+        },
+        {
+          "publisher": "Powerful Medical",
+          "title": "PMcardio receives FDA Breakthrough Device Designation",
+          "url": "https://www.powerfulmedical.com/news"
+        }
+      ],
+      "date": "2026-10-24",
+      "dateLong": "Oct 24, 2026"
+    },
     {
       "term": "IMES",
       "full": "Implantable Myoelectric Sensor",
