@@ -2,6 +2,86 @@
   "generatedAt": "2026-10-24",
   "words": [
     {
+      "term": "DTx",
+      "full": "Digital Therapeutics",
+      "fr": "Digital Therapeutics",
+      "field": "Digital health · Software therapeutics",
+      "definition": "Software, often an app, whose therapeutic effect is its main function and which is prescribed like a treatment.",
+      "parts": [
+        {
+          "label": "Clinical content",
+          "role": "the active ingredient (CBT, rehabilitation, education)"
+        },
+        {
+          "label": "Software",
+          "role": "the vehicle: app, tracking, reminders"
+        },
+        {
+          "label": "Evidence",
+          "role": "the clinical trial that justifies use and reimbursement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Design",
+          "t": "A team translates a validated therapeutic protocol (for example cognitive behavioural therapy) into a digital programme."
+        },
+        {
+          "n": "2",
+          "h": "Evidence and CE marking",
+          "t": "The software is CE-marked as a medical device (class I or IIa for a German DiGA) and tested in a randomised trial."
+        },
+        {
+          "n": "3",
+          "h": "Prescription and reimbursement",
+          "t": "Once listed in a directory (DiGA in Germany), it is prescribed by the physician and paid for by health insurance."
+        }
+      ],
+      "why": "VC angle: recurring revenue backed by a payer and a real regulatory moat, but clinical evidence and reimbursement access remain the bottleneck; young companies like Cerebella target underserved needs before aiming for that pathway.",
+      "startups": [
+        {
+          "name": "Kaia Health",
+          "use": "Kaia Back Pain, a digital back-pain programme permanently listed in the DiGA directory in March 2023 on the back of a trial of more than 1,200 patients",
+          "place": "Munich, Germany"
+        },
+        {
+          "name": "Big Health",
+          "use": "Sleepio, digital CBT for insomnia, the first DTx to receive NICE guidance (2022); CE-marked",
+          "place": "United Kingdom"
+        },
+        {
+          "name": "Cerebella",
+          "use": "Cerebella Foundations, a 10-session programme for menopause-related brain fog; raising a pre-seed",
+          "place": "United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Bundesministerium für Gesundheit (gesund.bund.de)",
+          "title": "Digitale Gesundheitsanwendungen (DiGA)",
+          "url": "https://gesund.bund.de/en/digitale-gesundheitsanwendungen-diga"
+        },
+        {
+          "publisher": "Kaia Health",
+          "title": "World's most broadly covered back pain offering in Germany",
+          "url": "https://kaiahealth.com/newsroom/press-releases/worlds-most-broadly-covered-back-pain-offering-in-germany"
+        },
+        {
+          "publisher": "Big Health",
+          "title": "Sleepio is the first-ever digital therapeutic to receive NICE guidance",
+          "url": "https://www.bighealth.com/news/sleepio-is-the-first-ever-digital-therapeutic-to-receive-nice-guidance-confirming-clinical-and-cost-effectiveness"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Brain fog, missed diagnoses, and lost careers: the menopause gap Cerebella wants to close",
+          "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
+        }
+      ],
+      "date": "2026-10-24",
+      "dateLong": "Oct 24, 2026"
+    },
+    {
       "term": "BDD",
       "full": "Breakthrough Device Designation (FDA status for breakthrough devices)",
       "fr": "Breakthrough Device Designation (FDA)",

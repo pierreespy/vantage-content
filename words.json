@@ -2,6 +2,86 @@
   "generatedAt": "2026-10-24",
   "words": [
     {
+      "term": "DTx",
+      "full": "Digital Therapeutics",
+      "fr": "Thérapeutique numérique",
+      "field": "Santé numérique · Thérapeutiques logicielles",
+      "definition": "Un logiciel, souvent une application, dont l'effet thérapeutique est la fonction principale et qui est prescrit comme un traitement.",
+      "parts": [
+        {
+          "label": "Contenu clinique",
+          "role": "le principe actif (TCC, rééducation, éducation)"
+        },
+        {
+          "label": "Logiciel",
+          "role": "le vecteur : application, suivi, rappels"
+        },
+        {
+          "label": "Preuve",
+          "role": "l'essai clinique qui justifie l'usage et le remboursement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Conception",
+          "t": "Une équipe transpose un protocole thérapeutique validé (par exemple une thérapie cognitivo-comportementale) en programme numérique."
+        },
+        {
+          "n": "2",
+          "h": "Preuve et marquage",
+          "t": "Le logiciel est marqué CE comme dispositif médical (classe I ou IIa pour une DiGA allemande) et testé en essai randomisé."
+        },
+        {
+          "n": "3",
+          "h": "Prescription et remboursement",
+          "t": "Une fois inscrit au répertoire (DiGA en Allemagne), il est prescrit par le médecin et pris en charge par l'assurance maladie."
+        }
+      ],
+      "why": "Angle VC : revenus récurrents adossés à un payeur et barrière réglementaire réelle, mais la preuve clinique et l'accès au remboursement restent le goulot d'étranglement ; les jeunes pousses comme Cerebella ciblent des besoins peu couverts avant de viser ce parcours.",
+      "startups": [
+        {
+          "name": "Kaia Health",
+          "use": "Kaia Rückenschmerzen, programme numérique contre le mal de dos, inscrit de façon définitive au répertoire DiGA en mars 2023 sur la base d'un essai de plus de 1 200 patients",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Big Health",
+          "use": "Sleepio, TCC numérique de l'insomnie, premier DTx à recevoir un avis du NICE (2022) ; marqué CE",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "Cerebella",
+          "use": "Cerebella Foundations, programme de 10 séances contre le brouillard cérébral de la ménopause ; en cours de levée pré-seed",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Bundesministerium für Gesundheit (gesund.bund.de)",
+          "title": "Digitale Gesundheitsanwendungen (DiGA)",
+          "url": "https://gesund.bund.de/en/digitale-gesundheitsanwendungen-diga"
+        },
+        {
+          "publisher": "Kaia Health",
+          "title": "World's most broadly covered back pain offering in Germany",
+          "url": "https://kaiahealth.com/newsroom/press-releases/worlds-most-broadly-covered-back-pain-offering-in-germany"
+        },
+        {
+          "publisher": "Big Health",
+          "title": "Sleepio is the first-ever digital therapeutic to receive NICE guidance",
+          "url": "https://www.bighealth.com/news/sleepio-is-the-first-ever-digital-therapeutic-to-receive-nice-guidance-confirming-clinical-and-cost-effectiveness"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Brain fog, missed diagnoses, and lost careers: the menopause gap Cerebella wants to close",
+          "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
+        }
+      ],
+      "date": "2026-10-24",
+      "dateLong": "24 oct. 2026"
+    },
+    {
       "term": "BDD",
       "full": "Breakthrough Device Designation (statut de dispositif révolutionnaire de la FDA)",
       "fr": "Désignation de dispositif révolutionnaire (FDA)",
