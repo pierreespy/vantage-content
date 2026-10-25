@@ -1,111 +1,95 @@
 {
-  "dateLong": "24 oct. 2026",
+  "dateLong": "25 oct. 2026",
   "ticker": [
-    { "company": "DISTALMOTION", "amount": "$70M", "kind": "lev" },
-    { "company": "TELEFLEX", "amount": "FDA", "kind": "reg" },
-    { "company": "EDWARDS", "amount": "FDA", "kind": "reg" },
-    { "company": "MHRA", "amount": "CE", "kind": "reg" },
-    { "company": "ICECURE", "amount": "1ers patients", "kind": "tech" },
-    { "company": "LUNIT", "amount": "ESMO", "kind": "tech" }
+    { "company": "THERAKOS", "amount": "MDR", "kind": "reg" },
+    { "company": "HAEMONETICS", "amount": "FDA", "kind": "reg" },
+    { "company": "UNRAVEL HEALTH", "amount": "€3M", "kind": "lev" },
+    { "company": "SILOTON", "amount": "£8.4M", "kind": "lev" },
+    { "company": "4TISSUE", "amount": "€7M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Financement · Robotique chirurgicale",
-    "title": "Distalmotion obtient jusqu'à 70 M$ de dette senior de Perceptive Advisors pour déployer son robot DEXTER dans les centres de chirurgie ambulatoire américains",
-    "deck": "La medtech suisse de robotique chirurgicale finance son expansion aux États-Unis (ASC), le développement du système DEXTER et l'élargissement de sa gamme d'instruments. DEXTER est autorisé pour les quatre procédures de tissus mous ambulatoires les plus fréquentes aux États-Unis (cholécystectomie, hernies inguinale et ventrale, hystérectomie). Un signal fort : la robotique mini-footprint vise le bloc ambulatoire, là où la croissance se joue.",
-    "company": "Distalmotion",
-    "stage": "Growth",
-    "sector": "Robotique chirurgicale",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "kicker": "Marquage MDR · Photophérèse",
+    "title": "Therakos obtient la certification MDR de son système de photophérèse CELLEX contre les effets indésirables immuno-médiés des inhibiteurs de point de contrôle",
+    "deck": "Le système THERAKOS CELLEX est désormais certifié en Europe pour les adultes en réponse insuffisante aux corticoïdes face à des effets indésirables immuno-médiés (irAE) de l'immunothérapie anti-checkpoint, une indication que la société présente comme la première approuvée au monde pour cet usage. La preuve clinique reste modeste (petites séries, étude PRIA, essai PHOENIX-ECP en cours) : c'est un jalon d'accès au marché plus qu'une preuve définitive.",
+    "company": "Therakos",
+    "sector": "MedTech",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://www.startupticker.ch/en/news/up-to-70m-term-loan-facility-to-boost-distalmotion-us-asc-expansion"
+    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/pr-newswire/therakos-receives-mdr-approval-in-europe-for-treating-immune-related-adverse-events-in-patients-with-inadequate-response-to-corticosteroids/2451209"
   },
   "milestone": {
-    "company": "Teleflex",
-    "milestone": "Breakthrough Device (FDA)",
-    "title": "La FDA accorde le statut Breakthrough Device au scaffold coronaire résorbable en magnésium Freesolve RMS de Teleflex",
-    "summary": "Freesolve RMS (alliage BIOmag, revêtement bioabsorbable BIOlute) affiche 3,5 % d'échec de lésion cible à quatre ans dans l'étude first-in-human BIOMAG-I, sans nouvel événement clinique entre deux et quatre ans. L'essai pivot BIOMAG-III est en cours pour soutenir une demande de PMA.",
-    "why": "Environ 99 % du magnésium est résorbé en 12 mois : la promesse est un vaisseau sans implant permanent. Déjà marqué CE, le scaffold gagne un accès prioritaire à la FDA, signe que le stent résorbable revient sérieusement dans la course.",
-    "place": "Wayne (États-Unis)",
+    "company": "Haemonetics",
+    "milestone": "Approbation FDA (PMA)",
+    "title": "La FDA approuve PerQseal Elite, la fermeture vasculaire sans suture pour gros calibres artériels issue de la start-up irlandaise Vivasure",
+    "summary": "Patch entièrement bioabsorbable posé depuis l'intérieur du vaisseau, pour les procédures cardiaques structurelles et endovasculaires avec gaines de 14 à 22 F (orifices jusqu'à 26 F). Étude ELITE artérielle : 0 % de complication majeure (VARC-3) et hémostase en moins d'une minute en moyenne.",
+    "why": "Haemonetics a racheté Vivasure en janvier 2026 puis obtenu la PMA américaine, le marquage CE datant de 2025 : un cas d'école de start-up européenne valorisée par un grand groupe avant même l'étape FDA.",
+    "place": "Irlande",
     "sector": "Cardio",
     "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/fda-breakthrough-teleflexs-coronary-scaffold/"
+    "url": "https://evtoday.com/news/fda-approves-haemonetics-perqseal-elite-vascular-closure-system"
+  },
+  "deal": {
+    "company": "Unravel Health",
+    "amount": "2,96 M€",
+    "round": "Seed",
+    "thesis": "Micro Lab de poche, issu de l'Université de Glasgow, qui mesure plusieurs hormones dans la salive en quelques minutes. Tour mené par Conduit EIS Impact Fund et Wrightwood (avec Leo Capital, Embryo Ventures, Hermesa et Zinc VC) : il finance les études d'équivalence, de nouveaux marqueurs et le dossier réglementaire avant des appareils en accès anticipé en 2027.",
+    "sector": "Diagnostics",
+    "url": "https://startuprise.co.uk/unravel-health-raises-e2-96-mn/"
   },
   "brefsEurope": [
     {
-      "company": "MHRA / gouvernement britannique",
-      "place": "Londres",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Le Royaume-Uni reconnaît indéfiniment le marquage CE des dispositifs médicaux et IVD",
-      "summary": "Après une consultation (16 février–10 avril 2026), Londres abandonne les échéances du 30 juin 2028 (anciennes directives) et du 30 juin 2030 (MDR/IVDR). Plus de 90 % des dispositifs enregistrés au Royaume-Uni portent déjà le CE : un marché britannique accessible sans double certification pour les startups européennes.",
-      "url": "https://www.medicaldevice-network.com/news/uk-government-confirms-indefinite-eu-ce-mark-recognition/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Edwards Lifesciences",
-      "place": "Irvine",
-      "sector": "Cardio",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA approuve l'extension d'indication du système Pascal Precision à la réparation bord à bord de la valve tricuspide",
-      "summary": "L'approbation couvre l'insuffisance tricuspide sévère symptomatique sous traitement optimal chez des patients à risque chirurgical intermédiaire ou plus élevé. Elle place Edwards face à TriClip d'Abbott sur la réparation tricuspide.",
-      "url": "https://www.medtechdive.com/news/edwards-wins-fda-approval-for-tricuspid-valve-repair-device/833815/"
-    },
-    {
-      "company": "Lunit",
-      "place": "Séoul",
-      "sector": "Digital Health",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 2,
-      "title": "Lunit SCOPE présente cinq études à l'ESMO 2026, dont le scoring PD-L1 par IA sur 993 cancers du poumon",
-      "summary": "Sur 993 patients opérés d'un CPNPC au Japon, l'accord entre pathologiste et IA atteint 73 %, le plus faible sur les tumeurs jugées PD-L1 négatives. Une seconde étude (181 PDAC) relie le ratio tumeur-stroma à la survie selon le statut KRAS.",
-      "url": "https://www.medicaldevice-network.com/news/esmo26-lunit-scope-studies-highlight-ai-based-pathology-benefit/"
-    },
-    {
-      "company": "IceCure Medical",
-      "place": "Césarée",
+      "company": "Siloton",
+      "place": "Bristol",
       "sector": "Imagerie",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "pillar": "financement",
+      "signalType": "grant_award",
       "strength": 3,
-      "title": "IceCure inclut ses deux premiers patients dans l'étude ChoICE de cryoablation ProSense aux États-Unis",
-      "summary": "L'étude prospective post-commercialisation vise environ 400 patients dans jusqu'à 30 centres américains ; les premières inclusions ont eu lieu au West Cancer Center (Tennessee) et à Adventist Health Glendale (Californie).",
-      "url": "https://www.medicaldevice-network.com/news/icecure-initial-patients-prosense-cryoablation-trial/"
+      "title": "Siloton décroche 8,4 M£ d'Innovate UK pour son imageur OCT portatif GiraffeOCT",
+      "summary": "Contrat de deux ans (programme Quantum Missions Primer) pour concevoir des versions cabinet et domicile et mener les essais, dont à l'hôpital ophtalmologique de Sunderland. La société compte gagner jusqu'à deux ans de développement.",
+      "url": "https://quantumzeitgeist.com/siloton-quantum-eye-scans-million-nhs/"
+    },
+    {
+      "company": "4Tissue",
+      "place": "Gand",
+      "sector": "Biomatériaux",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "4Tissue lève 7 M€ en Series A et nomme Stéphanie Dupont CEO",
+      "summary": "La medtech belge, qui développe un hydrogel bioresorbable pour la reconstruction mammaire, finance sa première étude chez l'humain et la montée en échelle de sa production.",
+      "url": "https://www.globenewswire.com/news-release/2026/10/22/3386239/0/en/4tissue-raises-7-million-in-series-a-financing-and-appoints-st%C3%A9phanie-dupont-as-ceo.html"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "BDD",
-    "full": "Breakthrough Device Designation (statut de dispositif révolutionnaire de la FDA)",
-    "fr": "Désignation de dispositif révolutionnaire (FDA)",
-    "field": "Réglementaire & accès au marché",
-    "definition": "Un label de la FDA américaine qui accorde un accès privilégié et plus rapide aux équipes de la FDA pour les dispositifs destinés à des maladies graves ou invalidantes, sans abaisser le niveau de preuve exigé.",
+    "term": "PFA",
+    "full": "Pulsed Field Ablation",
+    "fr": "Ablation par champ pulsé",
+    "field": "Électrophysiologie cardiaque",
+    "definition": "Technique d'ablation cardiaque qui détruit les cellules à l'origine d'une arythmie par de brèves impulsions électriques de haute tension, plutôt que par la chaleur ou le froid.",
     "parts": [
-      { "label": "Critères", "role": "traite une maladie grave ou invalidante et apporte un avantage significatif" },
-      { "label": "Interactions", "role": "échanges fréquents avec la FDA, dont les « sprint discussions »" },
-      { "label": "Revue prioritaire", "role": "examen accéléré des futurs dossiers (IDE, 510(k), De Novo, PMA)" }
+      { "label": "Générateur", "role": "délivre les impulsions électriques ultra-brèves" },
+      { "label": "Cathéter", "role": "amène les électrodes au contact du tissu cardiaque" },
+      { "label": "Cartographie", "role": "repère les zones à traiter (veines pulmonaires)" }
     ],
     "how": [
-      { "n": "1", "h": "Demande", "t": "L'industriel dépose une demande de désignation auprès de la FDA en démontrant l'avantage potentiel face aux alternatives existantes." },
-      { "n": "2", "h": "Dialogue", "t": "Une fois désigné, il planifie avec la FDA le plan de données cliniques et le protocole d'essai, avec des sprints sur un sujet précis." },
-      { "n": "3", "h": "Revue prioritaire", "t": "Les soumissions ultérieures sont examinées en priorité, mais avec les mêmes standards de sécurité et d'efficacité." }
+      { "n": "1", "h": "Cartographie", "t": "Le cathéter est guidé dans l'oreillette et repère les veines pulmonaires, source fréquente de la fibrillation atriale." },
+      { "n": "2", "h": "Impulsions", "t": "Un champ électrique pulsé ouvre de façon irréversible les membranes des cellules myocardiques ciblées." },
+      { "n": "3", "h": "Isolation", "t": "Le tissu traité ne conduit plus le courant : l'arythmie est coupée de ses déclencheurs." }
     ],
-    "why": "Pour un VC, c'est un signal faible en amont d'une levée : un BDD réduit le risque réglementaire et le temps de développement, et précède souvent un tour ou un partenariat industriel. Ce n'est toutefois pas une autorisation de mise sur le marché.",
+    "why": "Plus sélective sur le myocarde que la radiofréquence ou la cryoablation, la PFA est devenue le terrain de course des majors (Boston Scientific, J&J, Abbott, Medtronic) : la fenêtre d'entrée des start-ups se resserre, d'où l'intérêt des catheters différenciés (cartographie intégrée, focalisation).",
     "startups": [
-      { "name": "INBRAIN Neuroelectronics", "use": "Plateforme à base de graphène pour la neuromodulation ; BDD de la FDA en septembre 2023 pour la maladie de Parkinson en traitement adjuvant", "place": "Barcelone, Espagne" },
-      { "name": "En Carta Diagnostics", "use": "Test moléculaire EC Pocket Lyme (détection de Borrelia dans le liquide interstitiel cutané) ; BDD de la FDA annoncé en janvier 2026", "place": "Paris, France" },
-      { "name": "Powerful Medical", "use": "IA PMcardio (modèle Queen of Hearts) de détection du STEMI sur ECG, désignée dispositif révolutionnaire par la FDA", "place": "Bratislava, Slovaquie" }
+      { "name": "Argá Medtech", "use": "Système de PFA ; Series B de 54 M€ en fév. 2024, menée par Advent Life Sciences et Earlybird Health", "place": "Suisse" },
+      { "name": "Kardium", "use": "Cathéter de PFA déjà commercialisé selon la presse spécialisée ; a levé 104 M$ de capital-risque", "place": "Canada" },
+      { "name": "Field Medical", "use": "Series A de 40 M$ pour deux études pilotes de sa technologie de PFA, dont une en fibrillation atriale", "place": "États-Unis" }
     ],
     "sources": [
-      { "publisher": "FDA", "title": "Breakthrough Devices Program", "url": "https://www.fda.gov/medical-devices/how-study-and-market-your-device/breakthrough-devices-program" },
-      { "publisher": "Business Wire", "title": "INBRAIN Neuroelectronics Announces FDA Breakthrough Device Designation for Its Graphene Based Intelligent Network Modulation Platform", "url": "https://www.businesswire.com/news/home/20230919347435/en" },
-      { "publisher": "Healthtech Digital", "title": "En Carta Diagnostics receives FDA Breakthrough Device Designation for EC Pocket Lyme test", "url": "https://healthtechdigital.com/en-carta-diagnostics-receives-fda-breakthrough-device-designation-for-ec-pocket-lyme-test/" },
-      { "publisher": "Powerful Medical", "title": "PMcardio receives FDA Breakthrough Device Designation", "url": "https://www.powerfulmedical.com/news" }
+      { "publisher": "Johnson & Johnson", "title": "Johnson & Johnson advances pulsed field ablation portfolio with the launch of VARIPULSE Pro in Europe", "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe" },
+      { "publisher": "GlobeNewswire", "title": "Pulsed Field Ablation Innovator Argá Medtech Announces €54 Million Oversubscribed Series B Capital Raise", "url": "https://www.globenewswire.com/news-release/2024/02/27/2836180/0/en/pulsed-field-ablation-innovator-arg%c3%a1-medtech-announces-54-million-oversubscribed-series-b-capital-raise.html" },
+      { "publisher": "Fierce Biotech", "title": "The next generation of pulsed field ablation takes the stage at HRS annual meeting", "url": "https://www.fiercebiotech.com/medtech/next-generation-pulsed-field-ablation-takes-stage-hrs-annual-meeting" },
+      { "publisher": "EP Europace", "title": "Contemporary pulsed field ablation workflows in Europe: the FARAWAY registry", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13301830/" }
     ]
   }
 }

@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-24",
+  "generatedAt": "2026-10-25",
   "words": [
+    {
+      "term": "PFA",
+      "full": "Pulsed Field Ablation",
+      "fr": "Ablation par champ pulsé",
+      "field": "Électrophysiologie cardiaque",
+      "definition": "Technique d'ablation cardiaque qui détruit les cellules à l'origine d'une arythmie par de brèves impulsions électriques de haute tension, plutôt que par la chaleur ou le froid.",
+      "parts": [
+        {
+          "label": "Générateur",
+          "role": "délivre les impulsions électriques ultra-brèves"
+        },
+        {
+          "label": "Cathéter",
+          "role": "amène les électrodes au contact du tissu cardiaque"
+        },
+        {
+          "label": "Cartographie",
+          "role": "repère les zones à traiter (veines pulmonaires)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cartographie",
+          "t": "Le cathéter est guidé dans l'oreillette et repère les veines pulmonaires, source fréquente de la fibrillation atriale."
+        },
+        {
+          "n": "2",
+          "h": "Impulsions",
+          "t": "Un champ électrique pulsé ouvre de façon irréversible les membranes des cellules myocardiques ciblées."
+        },
+        {
+          "n": "3",
+          "h": "Isolation",
+          "t": "Le tissu traité ne conduit plus le courant : l'arythmie est coupée de ses déclencheurs."
+        }
+      ],
+      "why": "Plus sélective sur le myocarde que la radiofréquence ou la cryoablation, la PFA est devenue le terrain de course des majors (Boston Scientific, J&J, Abbott, Medtronic) : la fenêtre d'entrée des start-ups se resserre, d'où l'intérêt des catheters différenciés (cartographie intégrée, focalisation).",
+      "startups": [
+        {
+          "name": "Argá Medtech",
+          "use": "Système de PFA ; Series B de 54 M€ en fév. 2024, menée par Advent Life Sciences et Earlybird Health",
+          "place": "Suisse"
+        },
+        {
+          "name": "Kardium",
+          "use": "Cathéter de PFA déjà commercialisé selon la presse spécialisée ; a levé 104 M$ de capital-risque",
+          "place": "Canada"
+        },
+        {
+          "name": "Field Medical",
+          "use": "Series A de 40 M$ pour deux études pilotes de sa technologie de PFA, dont une en fibrillation atriale",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Johnson & Johnson",
+          "title": "Johnson & Johnson advances pulsed field ablation portfolio with the launch of VARIPULSE Pro in Europe",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe"
+        },
+        {
+          "publisher": "GlobeNewswire",
+          "title": "Pulsed Field Ablation Innovator Argá Medtech Announces €54 Million Oversubscribed Series B Capital Raise",
+          "url": "https://www.globenewswire.com/news-release/2024/02/27/2836180/0/en/pulsed-field-ablation-innovator-arg%c3%a1-medtech-announces-54-million-oversubscribed-series-b-capital-raise.html"
+        },
+        {
+          "publisher": "Fierce Biotech",
+          "title": "The next generation of pulsed field ablation takes the stage at HRS annual meeting",
+          "url": "https://www.fiercebiotech.com/medtech/next-generation-pulsed-field-ablation-takes-stage-hrs-annual-meeting"
+        },
+        {
+          "publisher": "EP Europace",
+          "title": "Contemporary pulsed field ablation workflows in Europe: the FARAWAY registry",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13301830/"
+        }
+      ],
+      "date": "2026-10-25",
+      "dateLong": "25 oct. 2026"
+    },
     {
       "term": "T-Cell Engager",
       "full": "Bispecific T-Cell Engager (TCE)",
@@ -4259,64 +4339,6 @@
       ],
       "date": "2026-09-15",
       "dateLong": "15 sept. 2026"
-    },
-    {
-      "term": "PFA",
-      "full": "Pulsed Field Ablation",
-      "fr": "Ablation par champ électrique pulsé",
-      "field": "Cardiologie interventionnelle · Électrophysiologie",
-      "definition": "Détruire le tissu cardiaque responsable des arythmies par de brèves impulsions électriques (électroporation) qui ouvrent les membranes des cellules musculaires ciblées, sans les brûler ni les geler comme les techniques d'ablation thermique classiques.",
-      "parts": [
-        {
-          "label": "Cathéter multi-électrodes",
-          "role": "l'application de l'impulsion au contact du tissu"
-        },
-        {
-          "label": "Générateur haute tension",
-          "role": "la source des impulsions électriques ultra-courtes"
-        },
-        {
-          "label": "Sélectivité tissulaire",
-          "role": "l'épargne des tissus voisins (œsophage, nerf phrénique)"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Cartographie",
-          "t": "Un cathéter de mapping localise précisément les zones du cœur à l'origine de l'arythmie, le plus souvent la jonction veines pulmonaires-oreillette gauche."
-        },
-        {
-          "n": "2",
-          "h": "Électroporation",
-          "t": "Des impulsions électriques de quelques microsecondes créent des pores irréversibles dans la membrane des cellules cardiaques ciblées, sans dégager de chaleur significative."
-        },
-        {
-          "n": "3",
-          "h": "Cicatrisation sélective",
-          "t": "Les cellules myocardiques ciblées meurent et cicatrisent en tissu non conducteur, isolant électriquement la zone arythmogène, tandis que l'œsophage et les nerfs voisins, peu sensibles à ce mode d'action, sont largement épargnés."
-        }
-      ],
-      "why": "La PFA a basculé le marché de l'ablation cardiaque en quelques années à peine — plus rapide, plus sûre (moins de complications œsophagiennes ou phréniques que la radiofréquence ou la cryoablation) — et a déjà déclenché une vague de rachats (Farapulse→Boston Scientific, Affera→Medtronic) qui laisse un boulevard aux challengers indépendants. Les tours à neuf chiffres de Field Medical et Kardium montrent que les investisseurs parient encore sur la différenciation technique (formes d'onde, cartographie intégrée) dans un marché déjà validé cliniquement — un profil rare de risque réduit et de TAM énorme pour un VC santé.",
-      "startups": [
-        {
-          "name": "Field Medical",
-          "use": "Plateforme FieldForce de PFA nouvelle génération ciblant la tachycardie ventriculaire ; Series B de 35 M$ en 2026 (75 M$ levés au total), fondée par l'inventeur de Farapulse",
-          "place": "États-Unis"
-        },
-        {
-          "name": "Kardium",
-          "use": "Système Globe combinant cartographie et PFA sur un seul cathéter à ballon ; tour de 250 M$ en 2026, agréé FDA et Santé Canada",
-          "place": "Burnaby, Canada"
-        },
-        {
-          "name": "CardioFocus",
-          "use": "Système Centauri de PFA guidée par visualisation directe ; plus de 8 000 patients traités en Europe via un partenariat de distribution avec Biotronik",
-          "place": "Marlborough, États-Unis"
-        }
-      ],
-      "date": "2026-09-14",
-      "dateLong": "14 sept. 2026"
     },
     {
       "term": "AAV Capsid Engineering",
