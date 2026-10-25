@@ -1,224 +1,85 @@
 {
-  "dateLong": "Oct 24, 2026",
+  "dateLong": "Oct 25, 2026",
   "ticker": [
-    {
-      "company": "Muna",
-      "amount": "Ph1 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Alnylam",
-      "amount": "Ph1b ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Sensorion",
-      "amount": "Appointment",
-      "kind": "tech"
-    },
-    {
-      "company": "Arctic Therapeutics",
-      "amount": "$21.5M",
-      "kind": "lev"
-    },
-    {
-      "company": "Georgiamune",
-      "amount": "$45M",
-      "kind": "lev"
-    },
-    {
-      "company": "Qiagen",
-      "amount": "€10.8B",
-      "kind": "mna"
-    }
+    { "company": "AMBROSE", "amount": "€161M", "kind": "mna" },
+    { "company": "ROCHE", "amount": "CAR-T ✗", "kind": "tech" },
+    { "company": "VERDIVA", "amount": "Ph2 ✗", "kind": "tech" },
+    { "company": "SANOFI", "amount": "Option", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Phase 1 data · Neurosciences",
-    "title": "Muna Therapeutics: oral TREM2 modulator clears Phase 1 in Alzheimer's, Phase 2 planned for early 2027",
-    "deck": "MNA-001, an oral small molecule that strengthens microglia rather than targeting amyloid, reaches the cerebrospinal fluid with clean tolerability, and some age-associated biomarkers in older volunteers moved toward younger levels. The Danish biotech released no cohort sizes or doses: an early signal to watch ahead of its next round.",
-    "company": "Muna Therapeutics",
-    "sector": "Neurosciences",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://european-biotechnology.com/latest-news/munas-oral-alzheimers-candidate-shifts-age-associated-markers-in-phase-1/"
+    "kicker": "M&A · Rare diseases",
+    "title": "Ambrose (UK) acquires AM-Pharma (Netherlands) for up to €161M for its enzyme ilofotase alfa in adult hypophosphatasia",
+    "deck": "The British rare-disease acquirer, which picks up stalled molecules that already have human data, adds a third asset: an enzyme replacement therapy ready for Phase 2 in adult-onset hypophosphatasia (HPP), where no approved treatment exists. The total includes commercial milestones and royalties; the upfront is undisclosed.",
+    "company": "Ambrose Healthcare",
+    "sector": "Biotech",
+    "pillar": "financement",
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://european-biotechnology.com/latest-news/ambrose-expands-rare-disease-pipeline-with-e161m-am-pharma-acquisition/"
   },
   "milestone": {
-    "company": "Alnylam Pharmaceuticals",
-    "milestone": "Phase 1b ✓",
-    "title": "Alnylam: brezosiran (RNAi) cuts mutant huntingtin in CSF by 60-64% in Huntington's disease",
-    "summary": "Phase 1b data presented in Krakow: dose-dependent reduction at 3 months, up to 83% in one patient, via the C16 conjugate platform targeting exon 1 of HTT mRNA. A placebo-controlled study is planned for 2027.",
-    "why": "Evidence that conjugated RNAi can reach the brain, a building block for CNS oligo startups. Caution: Roche's tominersen also lowered mHTT without clinical benefit.",
-    "place": "Cambridge, MA",
-    "sector": "RNA",
+    "company": "Roche",
+    "milestone": "Program discontinued",
+    "title": "Roche drops RG6540, the allogeneic CAR-T inherited from Poseida, less than two years after the deal worth up to $1.5B",
+    "summary": "The off-the-shelf CD19/CD20 candidate was removed from the Phase 1 pipeline on October 22; the lupus trial was withdrawn in August and the B-cell cancer trial terminated. Roche keeps other CD19/CD20 candidates from Poseida that it considers \"superior\", and up to $472M in contingent payments remain unresolved.",
+    "why": "A signal on how hard allogeneic cells are in autoimmunity (persistence): worth keeping in mind before backing off-the-shelf CAR-Ts, and a reminder that an acquisition exit does not erase clinical risk.",
+    "place": "Basel",
+    "sector": "Cell therapy",
     "signalType": "clinical_update",
-    "url": "https://www.biospace.com/drug-development/alnylam-plans-pivotal-trial-as-huntingtons-drug-notches-best-in-class-knockdown"
-  },
-  "deal": {
-    "company": "Georgiamune",
-    "amount": "$45M upfront (up to $1.1B)",
-    "round": "Licensing",
-    "thesis": "Menarini (via Stemline) takes worldwide rights to GIM-621, a still preclinical oral immunotherapy whose target and mechanism are undisclosed. A European pharma bet on Georgiamune's oral Treg platform, funded by a $92.7M Series B.",
-    "sector": "Oncology",
-    "url": "https://european-biotechnology.com/latest-news/menarini-adds-georgiamunes-oral-immunotherapy-candidate-to-its-solid-tumor-portfolio-for-45m-upfront/"
+    "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/"
   },
   "brefsEurope": [
     {
-      "company": "Arctic Therapeutics",
-      "place": "Iceland",
-      "sector": "Immunology",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Arctic Therapeutics raises $21.5M to take autoimmune programs to the clinic",
-      "summary": "Oversubscribed round led by Pekron, Kaldbakur and Landvættir with Sanos. Pipeline: AT-001 (HCCAA; Phase 2a in mild Alzheimer's), AT-002 (uveitis), AT-003, AT-004 (acne, Phase 2a completed).",
-      "url": "https://european-biotechnology.com/latest-news/arctic-therapeutics-raises-21-5m-to-take-autoimmune-programs-to-clinic/"
-    },
-    {
-      "company": "Qiagen",
-      "place": "Venlo / Hilden",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "EQT-led consortium to take Qiagen private at €10.8B enterprise value, €46.50 per share in cash",
-      "summary": "Public offer at a 40.3% premium; consortium includes Luxinva (ADIA) and CPP Investment Board Europe. Closing expected mid-2027. A major comparable for life-science tools and diagnostics.",
-      "url": "https://european-biotechnology.com/latest-news/qiagen-agrees-to-go-private-with-e10-8b-takeover-by-eqt/"
-    },
-    {
-      "company": "Sensorion",
-      "place": "Montpellier",
-      "sector": "Gene therapy",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Sensorion names Peter Weber Chief Medical Officer effective November 2",
-      "summary": "Previously at Decibel Therapeutics and Regeneron in inner-ear gene therapy, he prepares the clinical development of SENS-601 in GJB2-related hearing loss.",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "company": "Orano Med",
-      "place": "France",
-      "sector": "Radiopharmaceuticals",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Orano Med names Matthew Fyfe Chief Scientific Officer",
-      "summary": "Former CSO of Outrun Therapeutics, he leads research on lead-212 therapies across France and the US (announced October 19).",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "company": "Maxion Therapeutics",
-      "place": "Cambridge, UK",
+      "company": "Verdiva Bio",
+      "place": "United Kingdom",
       "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
       "strength": 2,
-      "title": "Mikael Dolsten, former Pfizer CSO, joins the board of Maxion Therapeutics",
-      "summary": "Independent non-executive director; Maxion raised $72M in 2025.",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
+      "title": "Verdiva ends its Phase 2 weight-maintenance study of the weekly oral GLP-1 VRB-101",
+      "summary": "The ClinicalTrials.gov record (NCT07553299) lists the study as terminated for a \"business decision\", not for safety; according to trade press, only 8 of 120 planned patients were enrolled. Verdiva, launched in 2025 with a $410M Series A, continues developing VRB-101 as a standalone treatment.",
+      "url": "https://clinicaltrials.gov/study/NCT07553299"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Zymeworks",
-      "place": "Vancouver",
-      "sector": "Oncology",
+      "company": "Recursion",
+      "place": "Salt Lake City",
+      "sector": "AI drug discovery",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Roche licenses ZW209 (DLL3 trispecific T-cell engager) from Zymeworks: $55M upfront, up to $813M",
-      "summary": "ZW209 binds DLL3 on tumour cells and CD3/CD28 on T cells for lung cancer; Phase 1a started, with high-single-digit to mid-teen royalties.",
-      "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
-    },
-    {
-      "company": "PepStar Therapeutics",
-      "place": "Chine",
-      "sector": "Immunology",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Gilead takes PepStar's oral IL-23 receptor inhibitor for $1.3B upfront",
-      "summary": "HCXT-2001, an oral macrocyclic peptide, targets IBD and psoriasis; closing expected by quarter-end. A pricing comparable for oral peptides.",
-      "url": "https://www.biospace.com/business/gilead-shops-in-il-23-inking-1-3b-upfront-i-i-deal-with-chinas-pepstar"
+      "strength": 3,
+      "title": "Sanofi exercises its option on a first oral immunology candidate from its Recursion collaboration",
+      "summary": "The milestone triggers $10M; Sanofi will lead development with Phase 1 planned for 2027, and Recursion can still receive more than $300M in milestones plus royalties. The target and indication are undisclosed.",
+      "url": "https://european-biotechnology.com/latest-news/evaxion-reports-durable-responses-novartis-halts-kidney-trial-astrazeneca-signs-ai-deal/"
     }
   ],
   "word": {
-    "term": "T-Cell Engager",
-    "full": "Bispecific T-Cell Engager (TCE)",
-    "fr": "T-cell engager (bispecific antibody)",
-    "field": "Immuno-oncology and autoimmunity",
-    "definition": "A bispecific antibody that grabs a T cell with one arm and a diseased cell with the other, so the T cell kills its target.",
+    "term": "Allogeneic CAR-T",
+    "full": "Allogeneic CAR-T (off-the-shelf CAR-T)",
+    "fr": "Off-the-shelf allogeneic CAR-T",
+    "field": "Cell therapy",
+    "definition": "T cells from healthy donors, engineered to target the disease, manufactured in batches and stored frozen, instead of being made to order from each patient's own cells.",
     "parts": [
-      {
-        "label": "CD3 arm",
-        "role": "grabs and activates the T cell"
-      },
-      {
-        "label": "Antigen arm",
-        "role": "recognizes the target cell (e.g. DLL3, CD19)"
-      },
-      {
-        "label": "Co-stimulation (optional)",
-        "role": "a third CD28 arm helps T cells proliferate and survive"
-      }
+      { "label": "Donor cells", "role": "raw material shared across many patients" },
+      { "label": "CAR receptor", "role": "the antenna that recognizes the target (e.g. CD19, CD20)" },
+      { "label": "Gene editing", "role": "limits rejection and graft-versus-host reaction" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Binding",
-        "t": "One arm binds the tumour cell, the other binds CD3 on the T cell."
-      },
-      {
-        "n": "2",
-        "h": "Bridging",
-        "t": "The T cell is brought into contact with the target, independently of MHC I or classic co-stimulation."
-      },
-      {
-        "n": "3",
-        "h": "Killing",
-        "t": "The T cell releases perforin and granzymes that trigger apoptosis; cytokine release syndrome (CRS) is the typical adverse effect."
-      }
+      { "n": "1", "h": "Collection", "t": "T cells from a healthy donor are collected and edited to remove the receptor that would attack the patient." },
+      { "n": "2", "h": "Batch manufacturing", "t": "The cells receive the CAR, are expanded and frozen: a single production run serves many doses." },
+      { "n": "3", "h": "Infusion", "t": "The thawed dose is infused with no waiting time; the clinical challenge is how long the cells persist against the patient's immune system." }
     ],
-    "why": "An off-the-shelf alternative to CAR-T, already validated (blinatumomab, tarlatamab) and booming: Roche-Zymeworks this week, UCB-Candid (up to $2.2B) and Sanofi-Kali in 2026, with expansion into autoimmunity.",
+    "why": "The promise is lower cost and speed versus autologous CAR-Ts, but persistence remains the hard part: Roche just dropped RG6540 (ex-Poseida) just as allogeneic cells target autoimmunity. For a VC, it is an editing-platform bet, sensitive to durability data.",
     "startups": [
-      {
-        "name": "CDR-Life",
-        "use": "M-gager TCE platform for cancer and autoimmune disease; 6 development candidates, 2 in patients",
-        "place": "Horgen, Switzerland"
-      },
-      {
-        "name": "Cytospire Therapeutics",
-        "use": "Pan-gamma-delta TCEs; £61M Series A in May 2026 (EGFR program in solid tumours)",
-        "place": "UK"
-      },
-      {
-        "name": "Immunocore",
-        "use": "Bispecific TCR therapies (KIMMTRAK); first patient dosed Oct 15 in Phase 1 of IMC-S118AI in type 1 diabetes",
-        "place": "UK"
-      }
+      { "name": "Cellectis", "use": "Allogeneic approach in oncology; pivotal Phase 2 BALLI-01 (lasme-cel in ALL) and a partnership with AstraZeneca", "place": "Paris, France" },
+      { "name": "Antion Biosciences", "use": "Allogeneic CAR-T with a multiplex miRNA silencing platform", "place": "Geneva, Switzerland" },
+      { "name": "Zelluna", "use": "Off-the-shelf TCR-NK cell therapy for solid tumors", "place": "Oslo, Norway" }
     ],
     "sources": [
-      {
-        "publisher": "Wikipedia",
-        "title": "Bispecific T-cell engager",
-        "url": "https://en.wikipedia.org/wiki/Bispecific_T-cell_engager"
-      },
-      {
-        "publisher": "European Biotechnology",
-        "title": "Roche bets up to $813M on Zymeworks lung cancer candidate",
-        "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
-      },
-      {
-        "publisher": "European Biotechnology",
-        "title": "Tag: T-cell engager (Cytospire, Candid, Kali)",
-        "url": "https://www.european-biotechnology.com/tag/t-cell-engager"
-      },
-      {
-        "publisher": "CDR-Life",
-        "title": "CDR-Life, T cell engager therapies",
-        "url": "https://www.cdr-life.com/"
-      }
+      { "publisher": "European Biotechnology", "title": "Roche scraps off-the-shelf CAR-T from Poseida deal worth up to $1.5B", "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/" },
+      { "publisher": "Patsnap Eureka", "title": "EHA 2026: allogeneic CAR-T global competitive landscape report", "url": "https://eureka.patsnap.com/blog/life-science/eha-2026-allogeneic-car-t-global-competitive-landscape-report-2026/" },
+      { "publisher": "Cellectis (SEC)", "title": "Cellectis S.A. Form 6-K 2026", "url": "https://www.sec.gov/Archives/edgar/data/0001627281/000117184326003280/exh_991.htm" }
     ]
   }
 }

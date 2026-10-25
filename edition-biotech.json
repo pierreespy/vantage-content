@@ -1,224 +1,85 @@
 {
-  "dateLong": "24 oct. 2026",
+  "dateLong": "25 oct. 2026",
   "ticker": [
-    {
-      "company": "Muna",
-      "amount": "Ph1 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Alnylam",
-      "amount": "Ph1b ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "Sensorion",
-      "amount": "Nomination",
-      "kind": "tech"
-    },
-    {
-      "company": "Arctic Therapeutics",
-      "amount": "$21.5M",
-      "kind": "lev"
-    },
-    {
-      "company": "Georgiamune",
-      "amount": "$45M",
-      "kind": "lev"
-    },
-    {
-      "company": "Qiagen",
-      "amount": "10,8 Md€",
-      "kind": "mna"
-    }
+    { "company": "AMBROSE", "amount": "€161M", "kind": "mna" },
+    { "company": "ROCHE", "amount": "CAR-T ✗", "kind": "tech" },
+    { "company": "VERDIVA", "amount": "Ph2 ✗", "kind": "tech" },
+    { "company": "SANOFI", "amount": "Option", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Données Phase 1 · Neurosciences",
-    "title": "Muna Therapeutics : son modulateur oral de TREM2 passe la Phase 1 dans Alzheimer, Phase 2 prévue début 2027",
-    "deck": "Le MNA-001, petite molécule orale qui renforce les microglies plutôt que de cibler l'amyloïde, atteint le liquide céphalo-rachidien, avec une tolérance propre et des biomarqueurs vieillissement-dépendants qui se rapprochent de ceux des sujets jeunes. La biotech danoise n'a publié ni effectifs ni doses : un signal d'amont à surveiller avant son prochain tour.",
-    "company": "Muna Therapeutics",
-    "sector": "Neurosciences",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://european-biotechnology.com/latest-news/munas-oral-alzheimers-candidate-shifts-age-associated-markers-in-phase-1/"
+    "kicker": "M&A · Maladies rares",
+    "title": "Ambrose (Royaume-Uni) rachète AM-Pharma (Pays-Bas) jusqu'à 161 M€ pour son enzyme ilofotase alfa dans l'hypophosphatasie de l'adulte",
+    "deck": "L'acquéreur britannique de maladies rares, qui ramasse des molécules calées avec des données humaines, ajoute un troisième actif à son portefeuille : une thérapie enzymatique substitutive prête pour la Phase 2 dans l'hypophosphatasie (HPP) de l'adulte, sans traitement approuvé à ce jour. Le montant total inclut des jalons commerciaux et des royalties, l'upfront n'est pas communiqué.",
+    "company": "Ambrose Healthcare",
+    "sector": "Biotech",
+    "pillar": "financement",
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://european-biotechnology.com/latest-news/ambrose-expands-rare-disease-pipeline-with-e161m-am-pharma-acquisition/"
   },
   "milestone": {
-    "company": "Alnylam Pharmaceuticals",
-    "milestone": "Phase 1b ✓",
-    "title": "Alnylam : le brezosiran (ARNi) réduit de 60 à 64 % la huntingtine mutante dans le LCR dans la maladie de Huntington",
-    "summary": "Données Phase 1b présentées à Cracovie : réduction dose-dépendante à 3 mois, jusqu'à 83 % chez un patient, via la plateforme de conjugué C16 ciblant l'exon 1 de l'ARNm HTT. Étude contrôlée par placebo prévue en 2027.",
-    "why": "Preuve que l'ARNi peut atteindre le cerveau avec un conjugué : une brique pour les startups d'oligos SNC. Prudence : le tominersen de Roche baissait aussi la mHTT sans bénéfice clinique.",
-    "place": "Cambridge, MA",
-    "sector": "ARN",
+    "company": "Roche",
+    "milestone": "Programme arrêté",
+    "title": "Roche abandonne le CAR-T allogénique RG6540 hérité de Poseida, moins de deux ans après le rachat jusqu'à 1,5 Md$",
+    "summary": "Le candidat CD19/CD20 « off-the-shelf » a été retiré du pipeline de Phase 1 le 22 octobre ; l'essai lupus avait été retiré en août et l'essai en cancers B terminé. Roche garde d'autres candidats CD19/CD20 issus de Poseida qu'il juge « supérieurs », et jusqu'à 472 M$ de paiements conditionnels restent en suspens.",
+    "why": "Un signal sur la difficulté de l'allogénique en auto-immunité (persistance des cellules) : à garder en tête avant d'investir dans les CAR-T « off-the-shelf », et un rappel que l'exit par rachat n'efface pas le risque clinique.",
+    "place": "Bâle",
+    "sector": "Thérapie cellulaire",
     "signalType": "clinical_update",
-    "url": "https://www.biospace.com/drug-development/alnylam-plans-pivotal-trial-as-huntingtons-drug-notches-best-in-class-knockdown"
-  },
-  "deal": {
-    "company": "Georgiamune",
-    "amount": "45 M$ upfront (jusqu'à 1,1 Md$)",
-    "round": "Licensing",
-    "thesis": "Menarini (via Stemline) prend les droits mondiaux de GIM-621, immunothérapie orale encore préclinique dont cible et mécanisme ne sont pas dévoilés. Un pari d'une pharma européenne sur la plateforme orale de Georgiamune (Treg), financée en Série B à 92,7 M$.",
-    "sector": "Oncologie",
-    "url": "https://european-biotechnology.com/latest-news/menarini-adds-georgiamunes-oral-immunotherapy-candidate-to-its-solid-tumor-portfolio-for-45m-upfront/"
+    "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/"
   },
   "brefsEurope": [
     {
-      "company": "Arctic Therapeutics",
-      "place": "Islande",
-      "sector": "Immunologie",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Arctic Therapeutics lève 21,5 M$ pour amener ses programmes auto-immuns en clinique",
-      "summary": "Tour sursouscrit mené par Pekron, Kaldbakur et Landvættir avec Sanos. Pipeline : AT-001 (HCCAA, Phase 2a dans la maladie d'Alzheimer légère), AT-002 (uvéite), AT-003, AT-004 (acné, Phase 2a terminée).",
-      "url": "https://european-biotechnology.com/latest-news/arctic-therapeutics-raises-21-5m-to-take-autoimmune-programs-to-clinic/"
-    },
-    {
-      "company": "Qiagen",
-      "place": "Venlo / Hilden",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "EQT et un consortium rachètent Qiagen (10,8 Md€ de valeur d'entreprise), 46,50 €/action en cash",
-      "summary": "Offre publique à 40,3 % de prime ; consortium avec Luxinva (ADIA) et CPP Investment Board Europe. Clôture attendue mi-2027. Comparable majeur pour les outils et le diagnostic en sciences de la vie.",
-      "url": "https://european-biotechnology.com/latest-news/qiagen-agrees-to-go-private-with-e10-8b-takeover-by-eqt/"
-    },
-    {
-      "company": "Sensorion",
-      "place": "Montpellier",
-      "sector": "Thérapie génique",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Sensorion nomme Peter Weber Chief Medical Officer au 2 novembre",
-      "summary": "Ex-Decibel Therapeutics et Regeneron en thérapie génique de l'oreille interne, il prépare le développement clinique de SENS-601 dans la surdité liée à GJB2.",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "company": "Orano Med",
-      "place": "France",
-      "sector": "Radiopharmaceutiques",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Orano Med nomme Matthew Fyfe Chief Scientific Officer",
-      "summary": "Ancien CSO d'Outrun Therapeutics, il pilote la recherche sur les thérapies au plomb-212 entre la France et les États-Unis (annonce du 19 octobre).",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "company": "Maxion Therapeutics",
-      "place": "Cambridge, UK",
+      "company": "Verdiva Bio",
+      "place": "Royaume-Uni",
       "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
       "strength": 2,
-      "title": "Mikael Dolsten, ex-CSO de Pfizer, rejoint le board de Maxion Therapeutics",
-      "summary": "Administrateur indépendant non exécutif ; Maxion avait levé 72 M$ en 2025.",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
+      "title": "Verdiva met fin à sa Phase 2 de maintien du poids avec le GLP-1 oral hebdomadaire VRB-101",
+      "summary": "Le registre ClinicalTrials.gov (NCT07553299) indique une étude terminée pour « décision d'entreprise », non liée à la sécurité ; selon la presse spécialisée, 8 patients sur 120 prévus seulement étaient inclus. Verdiva, lancée en 2025 avec 410 M$ en Series A, poursuit VRB-101 en monothérapie.",
+      "url": "https://clinicaltrials.gov/study/NCT07553299"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Zymeworks",
-      "place": "Vancouver",
-      "sector": "Oncologie",
+      "company": "Recursion",
+      "place": "Salt Lake City",
+      "sector": "IA drug discovery",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Roche licencie ZW209 (T-cell engager trispécifique DLL3) à Zymeworks : 55 M$ upfront, jusqu'à 813 M$",
-      "summary": "ZW209 cible DLL3 sur la tumeur et CD3/CD28 sur les lymphocytes T, pour le cancer du poumon ; Phase 1a lancée, royalties de la tranche élevée à mid-teens.",
-      "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
-    },
-    {
-      "company": "PepStar Therapeutics",
-      "place": "Chine",
-      "sector": "Immunologie",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Gilead s'offre l'inhibiteur oral du récepteur IL-23 de PepStar contre 1,3 Md$ upfront",
-      "summary": "HCXT-2001, peptide macrocyclique oral, vise les MICI et le psoriasis ; bouclage attendu d'ici fin de trimestre. Comparable de prix pour les peptides oraux.",
-      "url": "https://www.biospace.com/business/gilead-shops-in-il-23-inking-1-3b-upfront-i-i-deal-with-chinas-pepstar"
+      "strength": 3,
+      "title": "Sanofi exerce son option sur un premier candidat oral en immunologie issu de sa collaboration avec Recursion",
+      "summary": "Le jalon déclenche 10 M$ ; Sanofi pilotera le développement avec une Phase 1 prévue en 2027, et Recursion peut encore toucher plus de 300 M$ de jalons et des royalties. La cible et l'indication ne sont pas dévoilées.",
+      "url": "https://european-biotechnology.com/latest-news/evaxion-reports-durable-responses-novartis-halts-kidney-trial-astrazeneca-signs-ai-deal/"
     }
   ],
   "word": {
-    "term": "T-Cell Engager",
-    "full": "Bispecific T-Cell Engager (TCE)",
-    "fr": "Engageur de lymphocytes T (anticorps bispécifique)",
-    "field": "Immuno-oncologie et auto-immunité",
-    "definition": "Un anticorps bispécifique qui attrape un lymphocyte T d'un bras et une cellule malade de l'autre, pour que le T détruise la cible.",
+    "term": "Allogeneic CAR-T",
+    "full": "Allogeneic CAR-T (CAR-T allogénique « off-the-shelf »)",
+    "fr": "CAR-T allogénique prêt à l'emploi",
+    "field": "Thérapie cellulaire",
+    "definition": "Des lymphocytes T de donneurs sains, modifiés pour viser la maladie, produits en lots et conservés congelés, au lieu d'être fabriqués sur mesure à partir des cellules de chaque patient.",
     "parts": [
-      {
-        "label": "Bras CD3",
-        "role": "accroche et active le lymphocyte T"
-      },
-      {
-        "label": "Bras antigène",
-        "role": "reconnaît la cellule cible (ex. DLL3, CD19)"
-      },
-      {
-        "label": "Co-stimulation (option)",
-        "role": "un 3e bras CD28 aide les T à proliférer et survivre"
-      }
+      { "label": "Cellules de donneur", "role": "matière première commune à de nombreux patients" },
+      { "label": "Récepteur CAR", "role": "l'antenne qui reconnaît la cible (ex. CD19, CD20)" },
+      { "label": "Édition génique", "role": "limite le rejet et la réaction du greffon contre l'hôte" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Liaison",
-        "t": "Un bras se fixe sur la cellule tumorale, l'autre sur CD3 du lymphocyte T."
-      },
-      {
-        "n": "2",
-        "h": "Rapprochement",
-        "t": "Le T est amené au contact de la cible, sans dépendre du CMH I ni d'une co-stimulation classique."
-      },
-      {
-        "n": "3",
-        "h": "Destruction",
-        "t": "Le T libère perforine et granzymes qui déclenchent l'apoptose ; le syndrome de relargage de cytokines (CRS) est l'effet indésirable typique."
-      }
+      { "n": "1", "h": "Collecte", "t": "Les lymphocytes T d'un donneur sain sont prélevés et édités pour supprimer le récepteur qui attaquerait le patient." },
+      { "n": "2", "h": "Production en lots", "t": "Les cellules reçoivent le CAR, sont multipliées puis congelées : une seule fabrication sert de nombreuses doses." },
+      { "n": "3", "h": "Perfusion", "t": "La dose décongelée est injectée sans délai d'attente ; l'enjeu clinique est la persistance des cellules face au système immunitaire du patient." }
     ],
-    "why": "Alternative « off-the-shelf » aux CAR-T, déjà validée (blinatumomab, tarlatamab) et en plein essor : Roche–Zymeworks cette semaine, UCB–Candid (jusqu'à 2,2 Md$) et Sanofi–Kali en 2026, avec une extension vers l'auto-immunité.",
+    "why": "Promesse de coût et de rapidité face aux CAR-T autologues, mais la persistance reste le point dur : Roche vient d'abandonner RG6540 (ex-Poseida) alors que l'allogénique cible l'auto-immunité. Pour un VC, c'est un pari à plateforme d'édition, sensible aux données de durabilité.",
     "startups": [
-      {
-        "name": "CDR-Life",
-        "use": "Plateforme M-gager de TCE pour cancer et auto-immunité ; 6 candidats développement, 2 testés chez le patient",
-        "place": "Horgen, Suisse"
-      },
-      {
-        "name": "Cytospire Therapeutics",
-        "use": "TCE pan-gamma-delta ; Série A de 61 M£ en mai 2026 (programme EGFR en tumeurs solides)",
-        "place": "Royaume-Uni"
-      },
-      {
-        "name": "Immunocore",
-        "use": "Thérapies bispécifiques à récepteur TCR (KIMMTRAK) ; 1er patient dosé le 15 oct. en Phase 1 pour IMC-S118AI dans le diabète de type 1",
-        "place": "Royaume-Uni"
-      }
+      { "name": "Cellectis", "use": "Approche allogénique en oncologie ; essai pivot de Phase 2 BALLI-01 (lasme-cel dans la LAL) et partenariat avec AstraZeneca", "place": "Paris, France" },
+      { "name": "Antion Biosciences", "use": "CAR-T allogénique avec plateforme de silençage multiplex par miARN", "place": "Genève, Suisse" },
+      { "name": "Zelluna", "use": "Thérapie cellulaire TCR-NK « off-the-shelf » pour tumeurs solides", "place": "Oslo, Norvège" }
     ],
     "sources": [
-      {
-        "publisher": "Wikipedia",
-        "title": "Bispecific T-cell engager",
-        "url": "https://en.wikipedia.org/wiki/Bispecific_T-cell_engager"
-      },
-      {
-        "publisher": "European Biotechnology",
-        "title": "Roche bets up to $813M on Zymeworks lung cancer candidate",
-        "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
-      },
-      {
-        "publisher": "European Biotechnology",
-        "title": "Tag: T-cell engager (Cytospire, Candid, Kali)",
-        "url": "https://www.european-biotechnology.com/tag/t-cell-engager"
-      },
-      {
-        "publisher": "CDR-Life",
-        "title": "CDR-Life, T cell engager therapies",
-        "url": "https://www.cdr-life.com/"
-      }
+      { "publisher": "European Biotechnology", "title": "Roche scraps off-the-shelf CAR-T from Poseida deal worth up to $1.5B", "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/" },
+      { "publisher": "Patsnap Eureka", "title": "EHA 2026: allogeneic CAR-T global competitive landscape report", "url": "https://eureka.patsnap.com/blog/life-science/eha-2026-allogeneic-car-t-global-competitive-landscape-report-2026/" },
+      { "publisher": "Cellectis (SEC)", "title": "Cellectis S.A. Form 6-K 2026", "url": "https://www.sec.gov/Archives/edgar/data/0001627281/000117184326003280/exh_991.htm" }
     ]
   }
 }

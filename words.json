@@ -2,6 +2,81 @@
   "generatedAt": "2026-10-25",
   "words": [
     {
+      "term": "Allogeneic CAR-T",
+      "full": "Allogeneic CAR-T (CAR-T allogénique « off-the-shelf »)",
+      "fr": "CAR-T allogénique prêt à l'emploi",
+      "field": "Thérapie cellulaire",
+      "definition": "Des lymphocytes T de donneurs sains, modifiés pour viser la maladie, produits en lots et conservés congelés, au lieu d'être fabriqués sur mesure à partir des cellules de chaque patient.",
+      "parts": [
+        {
+          "label": "Cellules de donneur",
+          "role": "matière première commune à de nombreux patients"
+        },
+        {
+          "label": "Récepteur CAR",
+          "role": "l'antenne qui reconnaît la cible (ex. CD19, CD20)"
+        },
+        {
+          "label": "Édition génique",
+          "role": "limite le rejet et la réaction du greffon contre l'hôte"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collecte",
+          "t": "Les lymphocytes T d'un donneur sain sont prélevés et édités pour supprimer le récepteur qui attaquerait le patient."
+        },
+        {
+          "n": "2",
+          "h": "Production en lots",
+          "t": "Les cellules reçoivent le CAR, sont multipliées puis congelées : une seule fabrication sert de nombreuses doses."
+        },
+        {
+          "n": "3",
+          "h": "Perfusion",
+          "t": "La dose décongelée est injectée sans délai d'attente ; l'enjeu clinique est la persistance des cellules face au système immunitaire du patient."
+        }
+      ],
+      "why": "Promesse de coût et de rapidité face aux CAR-T autologues, mais la persistance reste le point dur : Roche vient d'abandonner RG6540 (ex-Poseida) alors que l'allogénique cible l'auto-immunité. Pour un VC, c'est un pari à plateforme d'édition, sensible aux données de durabilité.",
+      "startups": [
+        {
+          "name": "Cellectis",
+          "use": "Approche allogénique en oncologie ; essai pivot de Phase 2 BALLI-01 (lasme-cel dans la LAL) et partenariat avec AstraZeneca",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Antion Biosciences",
+          "use": "CAR-T allogénique avec plateforme de silençage multiplex par miARN",
+          "place": "Genève, Suisse"
+        },
+        {
+          "name": "Zelluna",
+          "use": "Thérapie cellulaire TCR-NK « off-the-shelf » pour tumeurs solides",
+          "place": "Oslo, Norvège"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Roche scraps off-the-shelf CAR-T from Poseida deal worth up to $1.5B",
+          "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/"
+        },
+        {
+          "publisher": "Patsnap Eureka",
+          "title": "EHA 2026: allogeneic CAR-T global competitive landscape report",
+          "url": "https://eureka.patsnap.com/blog/life-science/eha-2026-allogeneic-car-t-global-competitive-landscape-report-2026/"
+        },
+        {
+          "publisher": "Cellectis (SEC)",
+          "title": "Cellectis S.A. Form 6-K 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001627281/000117184326003280/exh_991.htm"
+        }
+      ],
+      "date": "2026-10-25",
+      "dateLong": "25 oct. 2026"
+    },
+    {
       "term": "PFA",
       "full": "Pulsed Field Ablation",
       "fr": "Ablation par champ pulsé",
