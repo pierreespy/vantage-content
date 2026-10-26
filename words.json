@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-25",
+  "generatedAt": "2026-10-26",
   "words": [
+    {
+      "term": "Notified Body",
+      "full": "Notified Body (organisme notifié)",
+      "fr": "Organisme notifié",
+      "field": "Réglementaire / accès au marché",
+      "definition": "Organisme indépendant désigné par un État membre qui audite un dispositif médical et délivre le certificat sans lequel le marquage CE est impossible pour les classes de risque supérieures.",
+      "parts": [
+        {
+          "label": "Fabricant",
+          "role": "dépose le dossier technique"
+        },
+        {
+          "label": "Organisme notifié",
+          "role": "audite et certifie"
+        },
+        {
+          "label": "Marquage CE",
+          "role": "le passeport de mise sur le marché"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Dossier",
+          "t": "Le fabricant constitue sa documentation technique et clinique selon le règlement MDR 2017/745."
+        },
+        {
+          "n": "2",
+          "h": "Évaluation",
+          "t": "L'organisme notifié examine le dossier et audite le système qualité du fabricant."
+        },
+        {
+          "n": "3",
+          "h": "Certificat",
+          "t": "Il délivre le certificat CE, puis assure une surveillance continue (audits annuels, changements de produit)."
+        }
+      ],
+      "why": "Le délai de certification (12 à 18 mois selon Tech.eu) est un goulet d'étranglement qui décale les revenus : savoir quel organisme traite quelle startup est un signal de calendrier pour un investisseur.",
+      "startups": [
+        {
+          "name": "Scarlet",
+          "use": "Organisme notifié spécialisé logiciels et IA médicale ; Series B de 50 M$ menée par Headline",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Scanvio Medical",
+          "use": "Scanvio Assist (IA d'aide à l'échographie de l'endométriose) a obtenu le CE classe IIa MDR via TÜV SÜD (NB2443)",
+          "place": "Suisse"
+        },
+        {
+          "name": "Butterfly Medical",
+          "use": "Certification MDR de son implant de rétraction prostatique contre l'hyperplasie bénigne de la prostate",
+          "place": "Israël"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Scarlet raises $50M Series B to accelerate AI medical device certification",
+          "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Scanvio Assist Receives World's First CE Mark for AI-Assisted Ultrasound in Endometriosis",
+          "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Butterfly Medical secures EU MDR certification for BPH implant",
+          "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
+        }
+      ],
+      "date": "2026-10-26",
+      "dateLong": "26 oct. 2026"
+    },
     {
       "term": "Allogeneic CAR-T",
       "full": "Allogeneic CAR-T (CAR-T allogénique « off-the-shelf »)",

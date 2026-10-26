@@ -1,95 +1,73 @@
 {
-  "dateLong": "Oct 25, 2026",
+  "dateLong": "Oct 26, 2026",
   "ticker": [
-    { "company": "THERAKOS", "amount": "MDR", "kind": "reg" },
-    { "company": "HAEMONETICS", "amount": "FDA", "kind": "reg" },
-    { "company": "UNRAVEL HEALTH", "amount": "€3M", "kind": "lev" },
-    { "company": "SILOTON", "amount": "£8.4M", "kind": "lev" },
-    { "company": "4TISSUE", "amount": "€7M", "kind": "lev" }
+    { "company": "MINTNEURO", "amount": "$5M", "kind": "lev" },
+    { "company": "MEDTRONIC", "amount": "PFA data", "kind": "tech" },
+    { "company": "GETINGE", "amount": "FDA", "kind": "reg" },
+    { "company": "GETINGE", "amount": "CE", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "MDR certification · Photopheresis",
-    "title": "Therakos wins MDR certification for its CELLEX photopheresis system against immune-related adverse events from checkpoint inhibitors",
-    "deck": "The THERAKOS CELLEX system is now certified in Europe for adults with an inadequate response to corticosteroids facing immune-related adverse events (irAEs) from checkpoint-inhibitor immunotherapy, an indication the company presents as the first approved anywhere in the world. The clinical evidence remains modest (small series, the PRIA study, the ongoing PHOENIX-ECP trial): this is a market-access milestone rather than definitive proof.",
-    "company": "Therakos",
-    "sector": "MedTech",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://www.manilatimes.net/2026/10/22/tmt-newswire/pr-newswire/therakos-receives-mdr-approval-in-europe-for-treating-immune-related-adverse-events-in-patients-with-inadequate-response-to-corticosteroids/2451209"
+    "kicker": "Funding · Neurotech",
+    "title": "MintNeuro (Imperial College spin-out) raises $5M led by Odyssey Ventures for chips built for neural implants",
+    "deck": "The London company designs chips purpose-built for devices that interface with the brain and nervous system, rather than generic components not designed for implantation. It has already delivered working silicon and hit integration milestones with Motif Neurotech and Amber Therapeutics: an infrastructure building block for brain-computer interfaces. Round announced October 7 and not previously covered; quiet week, few fresh European announcements this weekend.",
+    "company": "MintNeuro",
+    "sector": "Neurotech",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://tech.eu/2026/10/07/mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-devices/"
   },
   "milestone": {
-    "company": "Haemonetics",
-    "milestone": "FDA approval (PMA)",
-    "title": "FDA approves PerQseal Elite, the sutureless large-bore arterial closure device from Irish start-up Vivasure",
-    "summary": "A fully bioabsorbable patch placed from inside the vessel, for structural heart and endovascular procedures using 14 to 22 F sheaths (openings up to 26 F). ELITE arterial study: 0% major complications (VARC-3) and mean hemostasis in under one minute.",
-    "why": "Haemonetics acquired Vivasure in January 2026 and then secured the US PMA, with the CE mark dating from 2025: a textbook case of a European start-up being valued by a large group even before the FDA step.",
-    "place": "Ireland",
+    "company": "Medtronic",
+    "milestone": "Real-world data",
+    "title": "Medtronic presents real-world data at APHRS 2026 on its PulseSelect and Affera/Sphere-9 ablation systems",
+    "summary": "The REAL PULSE study (1,160 atrial fibrillation patients, 38 centres) reports a 0.09% acute major complication rate; the APEX registry (1,050 patients, 28 sites) 1.1%. In ventricular tachycardia, the European APEX cohort (46 patients) shows 87% acute success and about 75% freedom from recurrence at six months.",
+    "why": "Pulsed field ablation is becoming a real-world evidence market: these figures set the benchmark European PFA challengers will have to match.",
+    "place": "Dublin",
     "sector": "Cardio",
-    "signalType": "regulatory_milestone",
-    "url": "https://evtoday.com/news/fda-approves-haemonetics-perqseal-elite-vascular-closure-system"
-  },
-  "deal": {
-    "company": "Unravel Health",
-    "amount": "€2.96M",
-    "round": "Seed",
-    "thesis": "A pocket-size Micro Lab, spun out of the University of Glasgow, that measures several hormones in saliva within minutes. The round was led by Conduit EIS Impact Fund and Wrightwood (with Leo Capital, Embryo Ventures, Hermesa and Zinc VC) and funds equivalence studies, new markers and the regulatory file ahead of early-access devices in 2027.",
-    "sector": "Diagnostics",
-    "url": "https://startuprise.co.uk/unravel-health-raises-e2-96-mn/"
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/medtronic-findings-cardiac-ablation-systems/"
   },
   "brefsEurope": [
     {
-      "company": "Siloton",
-      "place": "Bristol",
-      "sector": "Imaging",
-      "pillar": "financement",
-      "signalType": "grant_award",
+      "company": "Getinge",
+      "place": "Gothenburg",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Siloton wins £8.4M from Innovate UK for its handheld GiraffeOCT imager",
-      "summary": "A two-year contract (Quantum Missions Primer programme) to design in-clinic and at-home versions and run the trials, including at Sunderland Specialist Eye Hospital. The company expects to save up to two years of development.",
-      "url": "https://quantumzeitgeist.com/siloton-quantum-eye-scans-million-nhs/"
-    },
-    {
-      "company": "4Tissue",
-      "place": "Ghent",
-      "sector": "Biomaterials",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "4Tissue raises €7M Series A and appoints Stéphanie Dupont as CEO",
-      "summary": "The Belgian medtech, which is developing a bioresorbable hydrogel for breast reconstruction, is funding its first-in-human study and the scale-up of its manufacturing.",
-      "url": "https://www.globenewswire.com/news-release/2026/10/22/3386239/0/en/4tissue-raises-7-million-in-series-a-financing-and-appoints-st%C3%A9phanie-dupont-as-ceo.html"
+      "title": "Getinge wins FDA 510(k) for an Edi catheter for premature infants and launches Cardiohelp II in CE-marked markets",
+      "summary": "The Edi catheter targets newborns of 500 to 1,000 g on Getinge ventilators; Cardiohelp II begins launching in CE-recognising markets. In Q3, adjusted EBITA margin was 15.1% (13.1% a year earlier) on 2.1% organic growth, with 3-5% guidance unchanged.",
+      "url": "https://nordiclifescience.org/getinge-lifts-margin-in-third-quarter/"
     }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "PFA",
-    "full": "Pulsed Field Ablation",
-    "fr": "Pulsed field ablation",
-    "field": "Cardiac electrophysiology",
-    "definition": "A cardiac ablation technique that destroys the cells behind an arrhythmia with brief high-voltage electrical pulses, rather than heat or cold.",
+    "term": "Notified Body",
+    "full": "Notified Body",
+    "fr": "Notified body (independent EU conformity-assessment organisation)",
+    "field": "Regulatory / market access",
+    "definition": "An independent organisation designated by an EU member state that audits a medical device and issues the certificate without which CE marking is impossible for higher risk classes.",
     "parts": [
-      { "label": "Generator", "role": "delivers the ultra-short electrical pulses" },
-      { "label": "Catheter", "role": "brings the electrodes into contact with heart tissue" },
-      { "label": "Mapping", "role": "locates the areas to treat (pulmonary veins)" }
+      { "label": "Manufacturer", "role": "files the technical dossier" },
+      { "label": "Notified body", "role": "audits and certifies" },
+      { "label": "CE mark", "role": "the passport to market" }
     ],
     "how": [
-      { "n": "1", "h": "Mapping", "t": "The catheter is guided into the atrium and locates the pulmonary veins, a frequent source of atrial fibrillation." },
-      { "n": "2", "h": "Pulses", "t": "A pulsed electric field irreversibly opens the membranes of the targeted heart-muscle cells." },
-      { "n": "3", "h": "Isolation", "t": "The treated tissue no longer conducts current: the arrhythmia is cut off from its triggers." }
+      { "n": "1", "h": "Dossier", "t": "The manufacturer builds its technical and clinical documentation under MDR 2017/745." },
+      { "n": "2", "h": "Assessment", "t": "The notified body reviews the file and audits the manufacturer's quality system." },
+      { "n": "3", "h": "Certificate", "t": "It issues the CE certificate, then provides ongoing surveillance (annual audits, product changes)." }
     ],
-    "why": "More selective for heart muscle than radiofrequency or cryoablation, PFA has become the racetrack of the majors (Boston Scientific, J&J, Abbott, Medtronic): the entry window for start-ups is narrowing, hence the appeal of differentiated catheters (integrated mapping, focal designs).",
+    "why": "Certification lead time (12 to 18 months per Tech.eu) is a bottleneck that pushes revenue out: knowing which body handles which startup is a timing signal for an investor.",
     "startups": [
-      { "name": "Argá Medtech", "use": "PFA system; €54M Series B in Feb 2024, led by Advent Life Sciences and Earlybird Health", "place": "Switzerland" },
-      { "name": "Kardium", "use": "PFA catheter already commercialized according to the trade press; has raised $104M in venture capital", "place": "Canada" },
-      { "name": "Field Medical", "use": "$40M Series A for two pilot studies of its PFA technology, including one in atrial fibrillation", "place": "United States" }
+      { "name": "Scarlet", "use": "Notified body specialising in software and medical AI; $50M Series B led by Headline", "place": "London, UK" },
+      { "name": "Scanvio Medical", "use": "Scanvio Assist (AI guidance for endometriosis ultrasound) obtained Class IIa MDR CE marking via TÜV SÜD (NB2443)", "place": "Switzerland" },
+      { "name": "Butterfly Medical", "use": "MDR certification of its prostatic retraction implant for benign prostatic hyperplasia", "place": "Israel" }
     ],
     "sources": [
-      { "publisher": "Johnson & Johnson", "title": "Johnson & Johnson advances pulsed field ablation portfolio with the launch of VARIPULSE Pro in Europe", "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-advances-pulsed-field-ablation-portfolio-with-the-launch-of-varipulse-pro-in-europe" },
-      { "publisher": "GlobeNewswire", "title": "Pulsed Field Ablation Innovator Argá Medtech Announces €54 Million Oversubscribed Series B Capital Raise", "url": "https://www.globenewswire.com/news-release/2024/02/27/2836180/0/en/pulsed-field-ablation-innovator-arg%c3%a1-medtech-announces-54-million-oversubscribed-series-b-capital-raise.html" },
-      { "publisher": "Fierce Biotech", "title": "The next generation of pulsed field ablation takes the stage at HRS annual meeting", "url": "https://www.fiercebiotech.com/medtech/next-generation-pulsed-field-ablation-takes-stage-hrs-annual-meeting" },
-      { "publisher": "EP Europace", "title": "Contemporary pulsed field ablation workflows in Europe: the FARAWAY registry", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13301830/" }
+      { "publisher": "Tech.eu", "title": "Scarlet raises $50M Series B to accelerate AI medical device certification", "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/" },
+      { "publisher": "Startupticker.ch", "title": "Scanvio Assist Receives World's First CE Mark for AI-Assisted Ultrasound in Endometriosis", "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis" },
+      { "publisher": "Medical Device Network", "title": "Butterfly Medical secures EU MDR certification for BPH implant", "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/" }
     ]
   }
 }
