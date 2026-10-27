@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-26",
+  "generatedAt": "2026-10-27",
   "words": [
+    {
+      "term": "In Silico Trial",
+      "full": "In Silico Trial (computer-simulated clinical trial)",
+      "fr": "In silico trial / virtual patients",
+      "field": "Simulation & regulatory",
+      "definition": "An in silico trial replaces or complements part of real-patient trials with computer simulations run on a population of virtual patients.",
+      "parts": [
+        {
+          "label": "Virtual patients",
+          "role": "the simulated population, built from anonymised scans"
+        },
+        {
+          "label": "Physics model",
+          "role": "the engine that computes how the device behaves in the body"
+        },
+        {
+          "label": "Credibility file",
+          "role": "the evidence showing the regulator the model is reliable"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Build the cohort",
+          "t": "Virtual anatomies (heart, vessels) are generated from scans, varying age, sex, body size or disease."
+        },
+        {
+          "n": "2",
+          "h": "Simulate the device",
+          "t": "A physics model computes the implant's or device's performance on each virtual patient."
+        },
+        {
+          "n": "3",
+          "h": "Prove credibility",
+          "t": "The context of use and model validation are documented, following the ASME V&V 40 framework adopted by the FDA, so the result counts in a regulatory file."
+        }
+      ],
+      "why": "A device trial is costly and enrols few patients (often hundreds), with women under-represented. Simulation cuts cost and tests subgroups: a picks-and-shovels thesis on which adsilico just raised £10M. Limit: the FDA covers physics-based models, not standalone machine-learning models.",
+      "startups": [
+        {
+          "name": "adsilico",
+          "use": "Leeds spin-out: AI-generated virtual hearts and vessels then simulated; £10M Series A led by PXN Ventures (Oct 2026).",
+          "place": "Leeds, UK"
+        },
+        {
+          "name": "Virtonomy",
+          "use": "Virtual patients and multiphysics simulation for devices; Series A of over €5M led by Companisto (Dec 2025).",
+          "place": "Munich, Germany"
+        },
+        {
+          "name": "Sim&Cure",
+          "use": "Digital twin of brain aneurysms to plan implant placement; Sim&Size software cleared via FDA 510(k).",
+          "place": "Montpellier, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions"
+        },
+        {
+          "publisher": "Tech Funding News",
+          "title": "Leeds spinout adsilico lands £10M Series A to fix medtech's trial diversity gap",
+          "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/"
+        },
+        {
+          "publisher": "Munich Startup",
+          "title": "Virtonomy closes Series A",
+          "url": "https://www.munich-startup.de/en/news/virtonomy-closes-series-a"
+        },
+        {
+          "publisher": "Sim&Cure",
+          "title": "Sim&Cure announces U.S. FDA 510(k) clearance for Sim&Size software",
+          "url": "https://www.linnc.com/News/Press-releases/Sim-Cure-Announces-U.S.-FDA-510-k-Clearance-for-Sim-Size-software"
+        }
+      ],
+      "date": "2026-10-27",
+      "dateLong": "Oct 27, 2026"
+    },
     {
       "term": "Notified Body",
       "full": "Notified Body",
@@ -6420,69 +6500,6 @@
       ],
       "date": "2026-08-07",
       "dateLong": "7 août 2026"
-    },
-    {
-      "term": "In Silico Trial",
-      "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",
-      "fr": "Essai clinique in silico",
-      "field": "IA de développement clinique",
-      "definition": "Une simulation informatique qui prédit comment un protocole d'essai clinique va se comporter — issue, taille de cohorte, risque d'échec — avant même d'enroller le premier patient réel.",
-      "parts": [
-        {
-          "label": "Modèle mécanistique",
-          "role": "encode la biologie et la pharmacologie connues de la maladie et du traitement"
-        },
-        {
-          "label": "Jumeau numérique de patient",
-          "role": "simule la réponse individuelle d'une cohorte virtuelle représentative"
-        },
-        {
-          "label": "Boucle de calibration",
-          "role": "recale le modèle sur des données réelles (essais passés, real-world data) pour affiner ses prédictions"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Construction du modèle",
-          "t": "Le logiciel absorbe les données d'essais historiques, la littérature et parfois des données real-world pour bâtir un modèle mécanistique de la maladie et du candidat médicament."
-        },
-        {
-          "n": "2",
-          "h": "Simulation du protocole",
-          "t": "Le protocole envisagé (dose, durée, critères d'inclusion, bras de contrôle) est testé virtuellement sur des milliers de patients synthétiques."
-        },
-        {
-          "n": "3",
-          "h": "Optimisation avant le premier patient",
-          "t": "Les résultats orientent le design final — taille de cohorte, dose, endpoint — avant d'engager le capital et les patients réels dans l'essai."
-        }
-      ],
-      "why": "La levée de 45 M$ de QuantHealth cette semaine illustre une thèse simple : plus de 90% des molécules cliniques échouent, souvent pour des raisons de design d'essai évitables. Un logiciel qui réduit ce risque binaire avant le premier euro de dépense clinique change l'équation de retour pour tout VC exposé à la biotech clinique — et transforme un pari sur la molécule en pari sur la donnée.",
-      "startups": [
-        {
-          "name": "Novadiscovery",
-          "use": "Plateforme Jinkō de simulation d'essais cliniques par modèles mécanistiques + IA ; Série A de 5 M€ menée par Debiopharm",
-          "place": "Lyon, France"
-        },
-        {
-          "name": "InSilicoTrials Technologies",
-          "use": "Plateforme cloud de modélisation et simulation pour le développement de médicaments et dispositifs, pilote le consortium CARDIOVERSE (cœur virtuel, 30 M$ ARPA-H)",
-          "place": "Milan, Italie"
-        },
-        {
-          "name": "QuantHealth",
-          "use": "Simulation IA de protocoles d'essais cliniques pour 12 des 20 plus grands laboratoires mondiaux ; Série B de 45 M$ menée par Qumra Capital",
-          "place": "Tel-Aviv, Israël"
-        },
-        {
-          "name": "VeriSIM Life",
-          "use": "Plateforme BIOiSIM de biosimulation IA pour prédire la traduction préclinique-clinique des candidats médicaments",
-          "place": "San Francisco, États-Unis"
-        }
-      ],
-      "date": "2026-08-05",
-      "dateLong": "5 août 2026"
     },
     {
       "term": "Théranostique",

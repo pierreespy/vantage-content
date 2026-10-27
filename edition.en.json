@@ -1,73 +1,84 @@
 {
-  "dateLong": "Oct 26, 2026",
+  "dateLong": "Oct 27, 2026",
   "ticker": [
-    { "company": "MINTNEURO", "amount": "$5M", "kind": "lev" },
-    { "company": "MEDTRONIC", "amount": "PFA data", "kind": "tech" },
-    { "company": "GETINGE", "amount": "FDA", "kind": "reg" },
-    { "company": "GETINGE", "amount": "CE", "kind": "reg" }
+    { "company": "ADSILICO", "amount": "£10M", "kind": "lev" },
+    { "company": "CHD", "amount": "Seed", "kind": "new" },
+    { "company": "DYAMEO", "amount": "€3M", "kind": "lev" },
+    { "company": "CORELINE SOFT", "amount": "FDA", "kind": "reg" },
+    { "company": "DYAMEO", "amount": "Pre-CE", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Funding · Neurotech",
-    "title": "MintNeuro (Imperial College spin-out) raises $5M led by Odyssey Ventures for chips built for neural implants",
-    "deck": "The London company designs chips purpose-built for devices that interface with the brain and nervous system, rather than generic components not designed for implantation. It has already delivered working silicon and hit integration milestones with Motif Neurotech and Amber Therapeutics: an infrastructure building block for brain-computer interfaces. Round announced October 7 and not previously covered; quiet week, few fresh European announcements this weekend.",
-    "company": "MintNeuro",
-    "sector": "Neurotech",
+    "kicker": "Funding · Virtual trials",
+    "title": "adsilico (University of Leeds spin-out) raises £10M Series A led by PXN Ventures to test medical devices on virtual patients",
+    "deck": "The company uses AI to generate virtual hearts and blood vessels from anonymised scans, then simulates device performance across varied populations (age, sex, ethnicity, body size, disease). Proceeds will extend the platform to neurovascular devices (flow diverters for brain aneurysms) and grow the team from 14 to 34: an in-silico building block that can cut the cost and recruitment bias of device trials.",
+    "company": "adsilico",
+    "stage": "Series A",
+    "sector": "MedTech",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://tech.eu/2026/10/07/mintneuro-raises-5m-to-scale-chips-purpose-built-for-neural-devices/"
+    "strength": 4,
+    "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/"
   },
   "milestone": {
-    "company": "Medtronic",
-    "milestone": "Real-world data",
-    "title": "Medtronic presents real-world data at APHRS 2026 on its PulseSelect and Affera/Sphere-9 ablation systems",
-    "summary": "The REAL PULSE study (1,160 atrial fibrillation patients, 38 centres) reports a 0.09% acute major complication rate; the APEX registry (1,050 patients, 28 sites) 1.1%. In ventricular tachycardia, the European APEX cohort (46 patients) shows 87% acute success and about 75% freedom from recurrence at six months.",
-    "why": "Pulsed field ablation is becoming a real-world evidence market: these figures set the benchmark European PFA challengers will have to match.",
-    "place": "Dublin",
-    "sector": "Cardio",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/medtronic-findings-cardiac-ablation-systems/"
+    "company": "CHD (Connected Health Development)",
+    "milestone": "First funding",
+    "title": "CHD wins CHF 150,000 from Venture Kick, first tranche of its seed, for MONI2, a connected belt for monitoring high-risk pregnancies",
+    "summary": "The Biopôle-based startup is developing MONI2, a washable textile belt that records maternal and fetal ECG, contractions, fetal movements and fetal position, with an app for the patient and a web portal for clinicians. Prototype validation by Q2 2027, consumer version in early 2028, medical version targeting FDA clearance at end of 2029.",
+    "why": "About 15% of births worldwide are high-risk: home monitoring relieves hospitals. The seed is said to be closing in October, with other private investors and a foundation already committed: a round to track before it shuts.",
+    "place": "Lausanne",
+    "sector": "Digital Health",
+    "signalType": "grant_award",
+    "url": "https://www.startupticker.ch/en/news/chf-150-000-to-bring-chd-pregnancy-monitoring-into-patients-homes"
   },
-  "brefsEurope": [
+  "deal": {
+    "company": "Dyameo",
+    "amount": "€3M",
+    "round": "Funding round",
+    "thesis": "The round (Bpifrance Amorçage Industriel, Medevice Capital and NACO reinvesting, OBRATORI, Estellior Capital) funds commercialisation of TempoTouch, an intraoperative system that tells the surgeon within moments whether the specimen contains cancer cells, to limit reoperations. Clinical trial completed at six French centres, CE mark expected in 2026: a typical raise just ahead of the regulatory catalyst.",
+    "sector": "Diagnostics",
+    "url": "https://presse.bpifrance.fr/dyameo-leve-3-millions-deuros-pour-commercialiser-ses-solutions-au-service-de-la-chirurgie-du-cancer/?lang=fra"
+  },
+  "brefsEurope": [],
+  "brefsIntl": [
     {
-      "company": "Getinge",
-      "place": "Gothenburg",
-      "sector": "MedTech",
+      "company": "Coreline Soft",
+      "place": "Seoul",
+      "sector": "Imaging",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Getinge wins FDA 510(k) for an Edi catheter for premature infants and launches Cardiohelp II in CE-marked markets",
-      "summary": "The Edi catheter targets newborns of 500 to 1,000 g on Getinge ventilators; Cardiohelp II begins launching in CE-recognising markets. In Q3, adjusted EBITA margin was 15.1% (13.1% a year earlier) on 2.1% organic growth, with 3-5% guidance unchanged.",
-      "url": "https://nordiclifescience.org/getinge-lifts-margin-in-third-quarter/"
+      "strength": 4,
+      "title": "Coreline Soft wins FDA 510(k) for AVIEW Aorta Metrics, its chest-CT aortic analysis software",
+      "summary": "The software automatically segments the aorta, measures diameters by anatomical zone and produces 3D views: the company's 13th 510(k) clearance, widening its chest-CT AI portfolio in the US. A comparable for European imaging-AI vendors.",
+      "url": "https://www.medicaldevice-network.com/news/fda-coreline-softs-aview-aorta/"
     }
   ],
-  "brefsIntl": [],
   "word": {
-    "term": "Notified Body",
-    "full": "Notified Body",
-    "fr": "Notified body (independent EU conformity-assessment organisation)",
-    "field": "Regulatory / market access",
-    "definition": "An independent organisation designated by an EU member state that audits a medical device and issues the certificate without which CE marking is impossible for higher risk classes.",
+    "term": "In Silico Trial",
+    "full": "In Silico Trial (computer-simulated clinical trial)",
+    "fr": "In silico trial / virtual patients",
+    "field": "Simulation & regulatory",
+    "definition": "An in silico trial replaces or complements part of real-patient trials with computer simulations run on a population of virtual patients.",
     "parts": [
-      { "label": "Manufacturer", "role": "files the technical dossier" },
-      { "label": "Notified body", "role": "audits and certifies" },
-      { "label": "CE mark", "role": "the passport to market" }
+      { "label": "Virtual patients", "role": "the simulated population, built from anonymised scans" },
+      { "label": "Physics model", "role": "the engine that computes how the device behaves in the body" },
+      { "label": "Credibility file", "role": "the evidence showing the regulator the model is reliable" }
     ],
     "how": [
-      { "n": "1", "h": "Dossier", "t": "The manufacturer builds its technical and clinical documentation under MDR 2017/745." },
-      { "n": "2", "h": "Assessment", "t": "The notified body reviews the file and audits the manufacturer's quality system." },
-      { "n": "3", "h": "Certificate", "t": "It issues the CE certificate, then provides ongoing surveillance (annual audits, product changes)." }
+      { "n": "1", "h": "Build the cohort", "t": "Virtual anatomies (heart, vessels) are generated from scans, varying age, sex, body size or disease." },
+      { "n": "2", "h": "Simulate the device", "t": "A physics model computes the implant's or device's performance on each virtual patient." },
+      { "n": "3", "h": "Prove credibility", "t": "The context of use and model validation are documented, following the ASME V&V 40 framework adopted by the FDA, so the result counts in a regulatory file." }
     ],
-    "why": "Certification lead time (12 to 18 months per Tech.eu) is a bottleneck that pushes revenue out: knowing which body handles which startup is a timing signal for an investor.",
+    "why": "A device trial is costly and enrols few patients (often hundreds), with women under-represented. Simulation cuts cost and tests subgroups: a picks-and-shovels thesis on which adsilico just raised £10M. Limit: the FDA covers physics-based models, not standalone machine-learning models.",
     "startups": [
-      { "name": "Scarlet", "use": "Notified body specialising in software and medical AI; $50M Series B led by Headline", "place": "London, UK" },
-      { "name": "Scanvio Medical", "use": "Scanvio Assist (AI guidance for endometriosis ultrasound) obtained Class IIa MDR CE marking via TÜV SÜD (NB2443)", "place": "Switzerland" },
-      { "name": "Butterfly Medical", "use": "MDR certification of its prostatic retraction implant for benign prostatic hyperplasia", "place": "Israel" }
+      { "name": "adsilico", "use": "Leeds spin-out: AI-generated virtual hearts and vessels then simulated; £10M Series A led by PXN Ventures (Oct 2026).", "place": "Leeds, UK" },
+      { "name": "Virtonomy", "use": "Virtual patients and multiphysics simulation for devices; Series A of over €5M led by Companisto (Dec 2025).", "place": "Munich, Germany" },
+      { "name": "Sim&Cure", "use": "Digital twin of brain aneurysms to plan implant placement; Sim&Size software cleared via FDA 510(k).", "place": "Montpellier, France" }
     ],
     "sources": [
-      { "publisher": "Tech.eu", "title": "Scarlet raises $50M Series B to accelerate AI medical device certification", "url": "https://tech.eu/2026/10/12/scarlet-raises-50m-series-b-to-accelerate-ai-medical-device-certification/" },
-      { "publisher": "Startupticker.ch", "title": "Scanvio Assist Receives World's First CE Mark for AI-Assisted Ultrasound in Endometriosis", "url": "https://startupticker.ch/index.php/en/news/scanvio-assist-receives-world-s-first-ce-mark-for-ai-assisted-ultrasound-in-endometriosis" },
-      { "publisher": "Medical Device Network", "title": "Butterfly Medical secures EU MDR certification for BPH implant", "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/" }
+      { "publisher": "FDA", "title": "Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions" },
+      { "publisher": "Tech Funding News", "title": "Leeds spinout adsilico lands £10M Series A to fix medtech's trial diversity gap", "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/" },
+      { "publisher": "Munich Startup", "title": "Virtonomy closes Series A", "url": "https://www.munich-startup.de/en/news/virtonomy-closes-series-a" },
+      { "publisher": "Sim&Cure", "title": "Sim&Cure announces U.S. FDA 510(k) clearance for Sim&Size software", "url": "https://www.linnc.com/News/Press-releases/Sim-Cure-Announces-U.S.-FDA-510-k-Clearance-for-Sim-Size-software" }
     ]
   }
 }

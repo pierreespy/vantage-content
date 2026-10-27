@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-10-26",
+  "generatedAt": "2026-10-27",
   "words": [
+    {
+      "term": "In Silico Trial",
+      "full": "In Silico Trial (essai clinique simulé par ordinateur)",
+      "fr": "Essai in silico / patients virtuels",
+      "field": "Simulation & réglementaire",
+      "definition": "Un essai in silico remplace ou complète une partie des essais sur patients réels par des simulations informatiques réalisées sur une population de patients virtuels.",
+      "parts": [
+        {
+          "label": "Patients virtuels",
+          "role": "la population simulée, bâtie à partir de scans anonymisés"
+        },
+        {
+          "label": "Modèle physique",
+          "role": "le moteur qui calcule comment le dispositif se comporte dans le corps"
+        },
+        {
+          "label": "Dossier de crédibilité",
+          "role": "la preuve montrant au régulateur que le modèle est fiable"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Construire la cohorte",
+          "t": "On génère des anatomies virtuelles (cœur, vaisseaux) à partir de scans, en faisant varier âge, sexe, morphologie ou pathologie."
+        },
+        {
+          "n": "2",
+          "h": "Simuler le dispositif",
+          "t": "Un modèle physique calcule la performance de l'implant ou du dispositif sur chaque patient virtuel."
+        },
+        {
+          "n": "3",
+          "h": "Démontrer la crédibilité",
+          "t": "On documente le contexte d'usage et la validation du modèle, selon le cadre ASME V&V 40 repris par la FDA, pour que le résultat compte dans un dossier réglementaire."
+        }
+      ],
+      "why": "Un essai de dispositif coûte cher et recrute peu de patients (souvent des centaines), avec une sous-représentation des femmes. La simulation réduit le coût et teste des sous-groupes : c'est une thèse « picks and shovels » sur laquelle adsilico vient de lever 10 M£. Limite : la FDA encadre les modèles physiques, pas les modèles d'apprentissage automatique autonomes.",
+      "startups": [
+        {
+          "name": "adsilico",
+          "use": "Spin-off de Leeds : cœurs et vaisseaux virtuels générés par IA puis simulés ; Series A de 10 M£ menée par PXN Ventures (oct. 2026).",
+          "place": "Leeds, Royaume-Uni"
+        },
+        {
+          "name": "Virtonomy",
+          "use": "Patients virtuels et simulations multiphysiques pour dispositifs ; Series A de plus de 5 M€ menée par Companisto (déc. 2025).",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Sim&Cure",
+          "use": "Jumeau numérique des anévrismes cérébraux pour planifier le placement des implants ; logiciel Sim&Size autorisé 510(k) par la FDA.",
+          "place": "Montpellier, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions"
+        },
+        {
+          "publisher": "Tech Funding News",
+          "title": "Leeds spinout adsilico lands £10M Series A to fix medtech's trial diversity gap",
+          "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/"
+        },
+        {
+          "publisher": "Munich Startup",
+          "title": "Virtonomy closes Series A",
+          "url": "https://www.munich-startup.de/en/news/virtonomy-closes-series-a"
+        },
+        {
+          "publisher": "Sim&Cure",
+          "title": "Sim&Cure announces U.S. FDA 510(k) clearance for Sim&Size software",
+          "url": "https://www.linnc.com/News/Press-releases/Sim-Cure-Announces-U.S.-FDA-510-k-Clearance-for-Sim-Size-software"
+        }
+      ],
+      "date": "2026-10-27",
+      "dateLong": "27 oct. 2026"
+    },
     {
       "term": "Notified Body",
       "full": "Notified Body (organisme notifié)",
@@ -6420,69 +6500,6 @@
       ],
       "date": "2026-08-07",
       "dateLong": "7 août 2026"
-    },
-    {
-      "term": "In Silico Trial",
-      "full": "In Silico Clinical Trial (Computer-Simulated Clinical Trial)",
-      "fr": "Essai clinique in silico",
-      "field": "IA de développement clinique",
-      "definition": "Une simulation informatique qui prédit comment un protocole d'essai clinique va se comporter — issue, taille de cohorte, risque d'échec — avant même d'enroller le premier patient réel.",
-      "parts": [
-        {
-          "label": "Modèle mécanistique",
-          "role": "encode la biologie et la pharmacologie connues de la maladie et du traitement"
-        },
-        {
-          "label": "Jumeau numérique de patient",
-          "role": "simule la réponse individuelle d'une cohorte virtuelle représentative"
-        },
-        {
-          "label": "Boucle de calibration",
-          "role": "recale le modèle sur des données réelles (essais passés, real-world data) pour affiner ses prédictions"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Construction du modèle",
-          "t": "Le logiciel absorbe les données d'essais historiques, la littérature et parfois des données real-world pour bâtir un modèle mécanistique de la maladie et du candidat médicament."
-        },
-        {
-          "n": "2",
-          "h": "Simulation du protocole",
-          "t": "Le protocole envisagé (dose, durée, critères d'inclusion, bras de contrôle) est testé virtuellement sur des milliers de patients synthétiques."
-        },
-        {
-          "n": "3",
-          "h": "Optimisation avant le premier patient",
-          "t": "Les résultats orientent le design final — taille de cohorte, dose, endpoint — avant d'engager le capital et les patients réels dans l'essai."
-        }
-      ],
-      "why": "La levée de 45 M$ de QuantHealth cette semaine illustre une thèse simple : plus de 90% des molécules cliniques échouent, souvent pour des raisons de design d'essai évitables. Un logiciel qui réduit ce risque binaire avant le premier euro de dépense clinique change l'équation de retour pour tout VC exposé à la biotech clinique — et transforme un pari sur la molécule en pari sur la donnée.",
-      "startups": [
-        {
-          "name": "Novadiscovery",
-          "use": "Plateforme Jinkō de simulation d'essais cliniques par modèles mécanistiques + IA ; Série A de 5 M€ menée par Debiopharm",
-          "place": "Lyon, France"
-        },
-        {
-          "name": "InSilicoTrials Technologies",
-          "use": "Plateforme cloud de modélisation et simulation pour le développement de médicaments et dispositifs, pilote le consortium CARDIOVERSE (cœur virtuel, 30 M$ ARPA-H)",
-          "place": "Milan, Italie"
-        },
-        {
-          "name": "QuantHealth",
-          "use": "Simulation IA de protocoles d'essais cliniques pour 12 des 20 plus grands laboratoires mondiaux ; Série B de 45 M$ menée par Qumra Capital",
-          "place": "Tel-Aviv, Israël"
-        },
-        {
-          "name": "VeriSIM Life",
-          "use": "Plateforme BIOiSIM de biosimulation IA pour prédire la traduction préclinique-clinique des candidats médicaments",
-          "place": "San Francisco, États-Unis"
-        }
-      ],
-      "date": "2026-08-05",
-      "dateLong": "5 août 2026"
     },
     {
       "term": "Théranostique",
