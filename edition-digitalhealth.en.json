@@ -1,135 +1,73 @@
 {
-  "dateLong": "Oct 24, 2026",
+  "dateLong": "Oct 27, 2026",
   "ticker": [
-    {
-      "company": "CEREBELLA",
-      "amount": "Pre-seed",
-      "kind": "new"
-    },
-    {
-      "company": "WITHINGS",
-      "amount": "× Function",
-      "kind": "tech"
-    },
-    {
-      "company": "EPIC",
-      "amount": "Connectors",
-      "kind": "tech"
-    }
+    { "company": "FLOK HEALTH", "amount": "NHS contract", "kind": "reg" },
+    { "company": "EPIC", "amount": "−£4.1M", "kind": "tech" },
+    { "company": "PHAROSAI", "amount": "Innovate UK", "kind": "new" }
   ],
   "lead": {
-    "kicker": "New venture · Mental health & femtech",
-    "title": "UK startup Cerebella is raising a pre-seed for a digital programme tackling menopause-related brain fog",
-    "deck": "Cerebella Foundations is a self-guided ten-session programme over five weeks (25 to 30 minutes each) combining psychoeducation, CBT-based activities and gamified memory and attention exercises. A three-week proof-of-concept reports gains in verbal memory, attention and sleep; the company is aiming for employer pilots, clinical trials, then clinician recommendation and reimbursement. The size of the pre-seed and the investors are undisclosed.",
-    "company": "Cerebella",
-    "stage": "Pre-seed",
-    "sector": "Femtech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 2,
-    "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
+    "kicker": "NHS contract · Digital MSK",
+    "title": "Berkshire Healthcare selects Flok Health for a £400,000 digital musculoskeletal triage and management service",
+    "deck": "The contract, running November 2026 to November 2027 with a 12-month extension option, covers a fully managed service: 24/7 digital triage and remote treatment, with AI-enabled assessment under HCPC-registered physiotherapist oversight. An NHS adoption signal for a digital physiotherapy startup, ahead of its next raise.",
+    "company": "Flok Health",
+    "sector": "Digital Health",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://htn.co.uk/2026/10/26/berkshire-healthcare-selects-digital-msk-service-supplier/"
   },
   "milestone": {
-    "company": "Withings",
-    "milestone": "Data partnership",
-    "title": "Withings and Function link daily at-home measurements with more than 160 lab results",
-    "summary": "Withings' Body Scan and Body Smart scales and BPM Vision and BPM Connect blood pressure monitors feed Function's app automatically; in return, more than 160 lab results (ApoB, Lp(a), HbA1c, fasting insulin and more) appear in the Withings app. Available immediately to US users.",
-    "why": "The French connected-health maker is pairing with a lab-testing platform to move from one-off readings to longitudinal tracking, notably for patients on GLP-1 drugs. Whether the integration reaches Europe is not stated in the source.",
-    "place": "France",
-    "sector": "Wearables",
-    "signalType": "early_partnership",
-    "url": "https://hitconsultant.net/2026/10/22/withings-function-integrate-daily-connected-biometrics-160-clinical-lab-tests/"
+    "company": "King's College Hospital / Guy's and St Thomas'",
+    "milestone": "Proof of impact",
+    "title": "Two major London hospitals put the savings from their Epic patient record at £4.1M thanks to duplicate-test alerts",
+    "summary": "Since 2023, alerts on tests ordered too early have prevented 384,000 tests (£3.6M), about 3.3 million duplicate tests have been avoided and up to 275,000 hours of nursing and phlebotomy time saved. The trusts plan to extend the alerts to imaging.",
+    "why": "Hard ROI evidence for the EPR and the AI/clinical-decision layer built on top of it: the sales pitch of hospital software vendors.",
+    "place": "London",
+    "sector": "Hospital software",
+    "signalType": "clinical_update",
+    "url": "https://htn.co.uk/2026/10/26/kings-college-hospital-and-guys-and-st-thomas-report-4-1-million-in-savings-from-epr/"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
+  "brefsEurope": [
     {
-      "company": "Epic",
-      "place": "Verona (United States)",
-      "sector": "Hospital software",
+      "company": "PharosAI",
+      "place": "London",
+      "sector": "Health data",
       "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Epic launches \"Connectors\" to link its AI agents to third-party apps",
-      "summary": "Epic's agents (Emmie, Art, Penny and those built in Agent Factory) will be able to retrieve data and act inside third-party software; vendor-built Connectors will be listed on the Epic Showroom from March 2027. Worth watching for European hospitals running Epic.",
-      "url": "https://fiercehealthcare.com/ai-and-machine-learning/epic-launches-connectors-link-its-ai-tools-third-party-apps"
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "PharosAI launches Innovate UK's DESTINY project with Barts Health and Guy's and St Thomas' to build digital twins of human tissue",
+      "summary": "AI models predict complex biological information from routinely collected tissue data (digital pathology, spatial transcriptomics, genome, proteomics), using federated learning so data does not move. Partners include Queen Mary University of London and King's College London; selected partners can apply for up to £10M of further funding.",
+      "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "DTx",
-    "full": "Digital Therapeutics",
-    "fr": "Digital Therapeutics",
-    "field": "Digital health · Software therapeutics",
-    "definition": "Software, often an app, whose therapeutic effect is its main function and which is prescribed like a treatment.",
+    "term": "Federated Learning",
+    "full": "Federated Learning",
+    "fr": "Federated learning",
+    "field": "AI & health data",
+    "definition": "Federated learning trains an AI model on data that stays inside each hospital, circulating only the model and not the patient records.",
     "parts": [
-      {
-        "label": "Clinical content",
-        "role": "the active ingredient (CBT, rehabilitation, education)"
-      },
-      {
-        "label": "Software",
-        "role": "the vehicle: app, tracking, reminders"
-      },
-      {
-        "label": "Evidence",
-        "role": "the clinical trial that justifies use and reimbursement"
-      }
+      { "label": "Local nodes", "role": "the hospitals that keep their data" },
+      { "label": "Shared model", "role": "the algorithm sent to the data" },
+      { "label": "Aggregation", "role": "merging what was learned without centralising the data" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Design",
-        "t": "A team translates a validated therapeutic protocol (for example cognitive behavioural therapy) into a digital programme."
-      },
-      {
-        "n": "2",
-        "h": "Evidence and CE marking",
-        "t": "The software is CE-marked as a medical device (class I or IIa for a German DiGA) and tested in a randomised trial."
-      },
-      {
-        "n": "3",
-        "h": "Prescription and reimbursement",
-        "t": "Once listed in a directory (DiGA in Germany), it is prescribed by the physician and paid for by health insurance."
-      }
+      { "n": "1", "h": "Model dispatch", "t": "An initial model is distributed to participating sites." },
+      { "n": "2", "h": "Local training", "t": "Each site trains it on its own data, which never leaves the institution." },
+      { "n": "3", "h": "Aggregation", "t": "Only the learned parameters are sent back and combined into an improved model." }
     ],
-    "why": "VC angle: recurring revenue backed by a payer and a real regulatory moat, but clinical evidence and reimbursement access remain the bottleneck; young companies like Cerebella target underserved needs before aiming for that pathway.",
+    "why": "Access to health data remains the bottleneck for clinical AI in Europe (GDPR, sovereignty). Federated learning lets data be monetised without moving it: an infrastructure thesis, backed by public projects like DESTINY.",
     "startups": [
-      {
-        "name": "Kaia Health",
-        "use": "Kaia Back Pain, a digital back-pain programme permanently listed in the DiGA directory in March 2023 on the back of a trial of more than 1,200 patients",
-        "place": "Munich, Germany"
-      },
-      {
-        "name": "Big Health",
-        "use": "Sleepio, digital CBT for insomnia, the first DTx to receive NICE guidance (2022); CE-marked",
-        "place": "United Kingdom"
-      },
-      {
-        "name": "Cerebella",
-        "use": "Cerebella Foundations, a 10-session programme for menopause-related brain fog; raising a pre-seed",
-        "place": "United Kingdom"
-      }
+      { "name": "Owkin", "use": "Sends algorithms to hospital data rather than the reverse; Sanofi invested $180M in equity (2021).", "place": "Paris, France" },
+      { "name": "Apheris", "use": "Federated networks for life-sciences research; $8.25M Series A led by OTB Ventures and eCAPITAL (Jan 2025), partnership with T-Systems (Oct 2026).", "place": "Berlin, Germany" },
+      { "name": "PharosAI", "use": "AI models on tissue data with federated learning in Innovate UK's DESTINY project.", "place": "UK" }
     ],
     "sources": [
-      {
-        "publisher": "Bundesministerium für Gesundheit (gesund.bund.de)",
-        "title": "Digitale Gesundheitsanwendungen (DiGA)",
-        "url": "https://gesund.bund.de/en/digitale-gesundheitsanwendungen-diga"
-      },
-      {
-        "publisher": "Kaia Health",
-        "title": "World's most broadly covered back pain offering in Germany",
-        "url": "https://kaiahealth.com/newsroom/press-releases/worlds-most-broadly-covered-back-pain-offering-in-germany"
-      },
-      {
-        "publisher": "Big Health",
-        "title": "Sleepio is the first-ever digital therapeutic to receive NICE guidance",
-        "url": "https://www.bighealth.com/news/sleepio-is-the-first-ever-digital-therapeutic-to-receive-nice-guidance-confirming-clinical-and-cost-effectiveness"
-      },
-      {
-        "publisher": "Tech.eu",
-        "title": "Brain fog, missed diagnoses, and lost careers: the menopause gap Cerebella wants to close",
-        "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
-      }
+      { "publisher": "HTN", "title": "Barts Health and Guy's and St Thomas' funding for AI digital twins of human tissue", "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/" },
+      { "publisher": "Deutsche Telekom", "title": "Sovereign connectivity for medical research: Apheris and T-Systems enable the secure use of clinical data", "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/apheris-and-t-systems-protect-data" },
+      { "publisher": "SiliconANGLE", "title": "Apheris raises $8.25M for healthcare-focused federated AI platform", "url": "https://siliconangle.com/2025/01/02/apheris-raises-8-25m-healthcare-focused-federated-ai-platform/" },
+      { "publisher": "Silicon Canals", "title": "Owkin raises $159M from Sanofi", "url": "https://siliconcanals.com/owkin-raises-159m-from-sanofi/" }
     ]
   }
 }

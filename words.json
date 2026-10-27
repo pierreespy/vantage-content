@@ -2,6 +2,161 @@
   "generatedAt": "2026-10-27",
   "words": [
     {
+      "term": "Federated Learning",
+      "full": "Federated Learning (apprentissage fédéré)",
+      "fr": "Apprentissage fédéré",
+      "field": "IA & données de santé",
+      "definition": "L'apprentissage fédéré entraîne un modèle d'IA sur des données qui restent dans chaque hôpital, en ne faisant circuler que le modèle et non les dossiers patients.",
+      "parts": [
+        {
+          "label": "Nœuds locaux",
+          "role": "les hôpitaux qui gardent leurs données"
+        },
+        {
+          "label": "Modèle partagé",
+          "role": "l'algorithme envoyé aux données"
+        },
+        {
+          "label": "Agrégation",
+          "role": "la fusion des apprentissages sans centraliser les données"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Envoi du modèle",
+          "t": "Un modèle initial est distribué aux sites participants."
+        },
+        {
+          "n": "2",
+          "h": "Entraînement local",
+          "t": "Chaque site l'entraîne sur ses propres données, qui ne quittent jamais l'établissement."
+        },
+        {
+          "n": "3",
+          "h": "Agrégation",
+          "t": "Seuls les paramètres appris sont renvoyés et combinés en un modèle amélioré."
+        }
+      ],
+      "why": "L'accès aux données de santé reste le goulot d'étranglement de l'IA clinique en Europe (RGPD, souveraineté). L'apprentissage fédéré permet de monétiser des données sans les déplacer : une thèse infrastructure, soutenue par des projets publics comme DESTINY.",
+      "startups": [
+        {
+          "name": "Owkin",
+          "use": "Envoie les algorithmes aux données des hôpitaux plutôt que l'inverse ; Sanofi a investi 180 M$ en fonds propres (2021).",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Apheris",
+          "use": "Réseaux fédérés pour la recherche en sciences de la vie ; Series A de 8,25 M$ menée par OTB Ventures et eCAPITAL (janv. 2025), partenariat avec T-Systems (oct. 2026).",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "PharosAI",
+          "use": "Modèles d'IA sur données tissulaires avec apprentissage fédéré dans le projet DESTINY d'Innovate UK.",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "HTN",
+          "title": "Barts Health and Guy's and St Thomas' funding for AI digital twins of human tissue",
+          "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/"
+        },
+        {
+          "publisher": "Deutsche Telekom",
+          "title": "Sovereign connectivity for medical research: Apheris and T-Systems enable the secure use of clinical data",
+          "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/apheris-and-t-systems-protect-data"
+        },
+        {
+          "publisher": "SiliconANGLE",
+          "title": "Apheris raises $8.25M for healthcare-focused federated AI platform",
+          "url": "https://siliconangle.com/2025/01/02/apheris-raises-8-25m-healthcare-focused-federated-ai-platform/"
+        },
+        {
+          "publisher": "Silicon Canals",
+          "title": "Owkin raises $159M from Sanofi",
+          "url": "https://siliconcanals.com/owkin-raises-159m-from-sanofi/"
+        }
+      ],
+      "date": "2026-10-27",
+      "dateLong": "27 oct. 2026"
+    },
+    {
+      "term": "ADC",
+      "full": "Antibody-Drug Conjugate (anticorps-médicament conjugué)",
+      "fr": "Anticorps-médicament conjugué",
+      "field": "Oncologie de précision",
+      "definition": "Un ADC est un anticorps qui transporte une chimiothérapie très puissante directement vers les cellules tumorales qui portent une cible précise.",
+      "parts": [
+        {
+          "label": "Anticorps",
+          "role": "le guidage vers la cible tumorale (par exemple FRα)"
+        },
+        {
+          "label": "Linker",
+          "role": "l'attache, stable dans le sang et clivée dans la cellule"
+        },
+        {
+          "label": "Charge cytotoxique",
+          "role": "l'ogive (par exemple exatécan, inhibiteur de topoisomérase I)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "L'anticorps se fixe à une protéine présente à la surface des cellules tumorales."
+        },
+        {
+          "n": "2",
+          "h": "Internalisation",
+          "t": "Le complexe est avalé par la cellule cancéreuse, où le linker est clivé."
+        },
+        {
+          "n": "3",
+          "h": "Libération",
+          "t": "La charge cytotoxique est libérée et détruit la cellule, en épargnant davantage les tissus sains."
+        }
+      ],
+      "why": "Les ADC sont l'une des classes les plus actives en M&A et licensing oncologie. Les résultats de Phase 3 de Rina-S chez Genmab (rachat de ProfoundBio) renforcent la thèse « nouvelle charge, nouvelle cible » et valorisent les plateformes européennes de linkers et de charges.",
+      "startups": [
+        {
+          "name": "Adcytherix",
+          "use": "ADC à nouvelles charges (candidat ADCX-020) ; Series A de 105 M€ menée par Bpifrance (oct. 2025).",
+          "place": "Marseille, France"
+        },
+        {
+          "name": "Adcendo",
+          "use": "ADC cliniques dans les sarcomes et cancers mésenchymateux (ADCE-T02, ADCE-D01) ; Series C de 75 M$ (avr. 2026).",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Oncomatryx",
+          "use": "ADC ciblant le microenvironnement tumoral via les fibroblastes associés au cancer ; Series B de 67 M$ (mars 2026).",
+          "place": "Espagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology",
+          "title": "Genmab's acquisition spree starts to pay off with new ovarian and colorectal cancer data",
+          "url": "https://european-biotechnology.com/latest-news/genmabs-acquisition-spree-starts-to-pay-off-with-new-ovarian-and-colorectal-cancer-data/"
+        },
+        {
+          "publisher": "Adcytherix",
+          "title": "Adcytherix Raises EUR 105M Series A to Accelerate Breakthrough Antibody-Drug Conjugate Pipeline",
+          "url": "https://www.adcytherix.com/post/adcytherix-raises-eur-105m-series-a-to-accelerate-breakthrough-antibody-drug-conjugate-pipeline-with"
+        },
+        {
+          "publisher": "Adcendo",
+          "title": "Adcendo ApS Completes $75 Million Series C Financing",
+          "url": "https://adcendo.com/adcendo-aps-completes-75-million-series-c-financing-to-continue-advancing-first-and-best-in-class-clinical-adc-pipeline/"
+        }
+      ],
+      "date": "2026-10-27",
+      "dateLong": "27 oct. 2026"
+    },
+    {
       "term": "In Silico Trial",
       "full": "In Silico Trial (essai clinique simulé par ordinateur)",
       "fr": "Essai in silico / patients virtuels",
@@ -7884,69 +8039,6 @@
       ],
       "date": "2026-07-12",
       "dateLong": "12 juil. 2026"
-    },
-    {
-      "term": "ADC",
-      "full": "Antibody-Drug Conjugate",
-      "fr": "Anticorps-médicament conjugué",
-      "field": "Oncologie de précision",
-      "definition": "Un anticorps monoclonal relié chimiquement à une molécule cytotoxique, conçu pour livrer une chimiothérapie puissante directement à l'intérieur des cellules tumorales ciblées tout en épargnant les tissus sains.",
-      "parts": [
-        {
-          "label": "Anticorps",
-          "role": "le guidage vers l'antigène tumoral"
-        },
-        {
-          "label": "Linker",
-          "role": "l'attache chimique, stable jusqu'à la cible"
-        },
-        {
-          "label": "Payload",
-          "role": "la charge cytotoxique, l'ogive thérapeutique"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Ciblage",
-          "t": "L'anticorps se lie spécifiquement à un antigène présent à la surface des cellules tumorales, épargnant en théorie les cellules saines qui ne l'expriment pas."
-        },
-        {
-          "n": "2",
-          "h": "Internalisation",
-          "t": "Le complexe anticorps-charge est absorbé par la cellule cancéreuse, qui l'importe sans reconnaître la menace qu'il transporte."
-        },
-        {
-          "n": "3",
-          "h": "Libération",
-          "t": "Le linker se rompt à l'intérieur de la cellule, libérant la charge cytotoxique qui détruit la cellule tumorale de l'intérieur."
-        }
-      ],
-      "why": "Le rachat de Myricx Bio par Novartis (jusqu'à 1,5 Md$, annoncé cette semaine) confirme que la prochaine bataille des ADC se joue sur le payload : au-delà des auristatines et inhibiteurs de topoisomérase déjà commercialisés, des plateformes de nouvelle génération comme le NMTi de Myricx attirent des chèques massifs pour élargir la fenêtre thérapeutique — un thème que tout VC oncologie doit suivre de près.",
-      "startups": [
-        {
-          "name": "Adcytherix",
-          "place": "France",
-          "use": "Startup ADC française ; plus grosse Série A ADC d’Europe (105 M€, 2025), entrée en clinique visée en 2026."
-        },
-        {
-          "name": "Iksuda Therapeutics",
-          "place": "Newcastle",
-          "use": "Linkers stables (techno PermaLink) pour viser des cibles tumorales difficiles."
-        },
-        {
-          "name": "VALANX Biotech",
-          "place": "Vienne",
-          "use": "Plateforme de conjugaison GoldenSite ; ADC anti-LIV-1 pour le cancer du sein triple négatif."
-        },
-        {
-          "name": "Sidewinder",
-          "place": "États-Unis",
-          "use": "ADCs bispécifiques « de précision » ; 137 M$ levés (OrbiMed)."
-        }
-      ],
-      "date": "2026-07-11",
-      "dateLong": "11 juil. 2026"
     }
   ]
 }

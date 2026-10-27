@@ -1,135 +1,73 @@
 {
-  "dateLong": "24 oct. 2026",
+  "dateLong": "27 oct. 2026",
   "ticker": [
-    {
-      "company": "CEREBELLA",
-      "amount": "Pré-seed",
-      "kind": "new"
-    },
-    {
-      "company": "WITHINGS",
-      "amount": "× Function",
-      "kind": "tech"
-    },
-    {
-      "company": "EPIC",
-      "amount": "Connectors",
-      "kind": "tech"
-    }
+    { "company": "FLOK HEALTH", "amount": "Contrat NHS", "kind": "reg" },
+    { "company": "EPIC", "amount": "−4,1 M£", "kind": "tech" },
+    { "company": "PHAROSAI", "amount": "Innovate UK", "kind": "new" }
   ],
   "lead": {
-    "kicker": "Nouvelle pousse · Santé mentale & femtech",
-    "title": "Cerebella, startup britannique, prépare un pré-seed pour un programme numérique contre le « brouillard cérébral » de la ménopause",
-    "deck": "Cerebella Foundations est un programme autonome de dix séances sur cinq semaines (25 à 30 minutes chacune) mêlant psychoéducation, activités de TCC et exercices ludiques sur la mémoire et l'attention. Une preuve de concept de trois semaines rapporte des gains de mémoire verbale, d'attention et de sommeil ; la société vise des pilotes employeurs, des essais cliniques puis la recommandation par les cliniciens et le remboursement. Le montant du pré-seed et les investisseurs ne sont pas divulgués.",
-    "company": "Cerebella",
-    "stage": "Pre-seed",
-    "sector": "Femtech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 2,
-    "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
+    "kicker": "Contrat NHS · Télé-MSK",
+    "title": "Berkshire Healthcare retient Flok Health pour un service numérique de triage et de prise en charge musculo-squelettique de 400 000 £",
+    "deck": "Le contrat, de novembre 2026 à novembre 2027 avec option de 12 mois, couvre un service entièrement géré : triage numérique 24 h/24 et traitement à distance, avec évaluation assistée par IA sous supervision de kinésithérapeutes enregistrés HCPC. Un signal d'adoption NHS pour une startup de physiothérapie numérique, avant sa prochaine levée.",
+    "company": "Flok Health",
+    "sector": "Digital Health",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://htn.co.uk/2026/10/26/berkshire-healthcare-selects-digital-msk-service-supplier/"
   },
   "milestone": {
-    "company": "Withings",
-    "milestone": "Partenariat données",
-    "title": "Withings et Function relient mesures quotidiennes à domicile et plus de 160 résultats de laboratoire",
-    "summary": "Les balances Body Scan et Body Smart et les tensiomètres BPM Vision et BPM Connect de Withings alimentent automatiquement l'app de Function ; en retour, plus de 160 résultats biologiques (ApoB, Lp(a), HbA1c, insuline à jeun…) apparaissent dans l'app Withings. Disponible immédiatement pour les utilisateurs américains.",
-    "why": "Le fabricant français de santé connectée s'adosse à une plateforme de bilans biologiques pour passer de la mesure ponctuelle au suivi longitudinal, notamment pour les patients sous GLP-1. Reste à voir si l'intégration arrive en Europe : le texte source ne le précise pas.",
-    "place": "France",
-    "sector": "Wearables",
-    "signalType": "early_partnership",
-    "url": "https://hitconsultant.net/2026/10/22/withings-function-integrate-daily-connected-biometrics-160-clinical-lab-tests/"
+    "company": "King's College Hospital / Guy's and St Thomas'",
+    "milestone": "Preuve d'impact",
+    "title": "Deux grands hôpitaux londoniens chiffrent à 4,1 M£ les économies de leur dossier patient Epic grâce aux alertes anti-doublons",
+    "summary": "Depuis 2023, des alertes sur les examens prescrits trop tôt ont évité 384 000 tests (3,6 M£), environ 3,3 millions d'examens en double ont été évités et jusqu'à 275 000 heures de temps infirmier et de prélèvement économisées. Les trusts prévoient d'étendre ces alertes à l'imagerie.",
+    "why": "Une preuve chiffrée de ROI pour l'EPR et la couche d'IA/décision clinique construite par-dessus : l'argument de vente des éditeurs de logiciels hospitaliers.",
+    "place": "Londres",
+    "sector": "Logiciel hospitalier",
+    "signalType": "clinical_update",
+    "url": "https://htn.co.uk/2026/10/26/kings-college-hospital-and-guys-and-st-thomas-report-4-1-million-in-savings-from-epr/"
   },
-  "brefsEurope": [],
-  "brefsIntl": [
+  "brefsEurope": [
     {
-      "company": "Epic",
-      "place": "Verona (États-Unis)",
-      "sector": "Logiciel hospitalier",
+      "company": "PharosAI",
+      "place": "Londres",
+      "sector": "Données de santé",
       "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Epic lance « Connectors » pour relier ses agents d'IA aux applications tierces",
-      "summary": "Les agents d'Epic (Emmie, Art, Penny et ceux créés dans Agent Factory) pourront chercher des données et agir dans des logiciels tiers ; les Connectors développés par des éditeurs seront listés sur l'Epic Showroom à partir de mars 2027. À suivre pour les hôpitaux européens équipés d'Epic.",
-      "url": "https://fiercehealthcare.com/ai-and-machine-learning/epic-launches-connectors-link-its-ai-tools-third-party-apps"
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "PharosAI lance le projet DESTINY d'Innovate UK avec Barts Health et Guy's and St Thomas' pour créer des jumeaux numériques de tissus humains",
+      "summary": "Des modèles d'IA prédisent des informations biologiques complexes à partir de données tissulaires de routine (pathologie numérique, transcriptomique spatiale, génome, protéomique), avec apprentissage fédéré pour ne pas déplacer les données. Partenaires : Queen Mary University of London et King's College London ; les partenaires retenus pourront candidater à jusqu'à 10 M£ de financement complémentaire.",
+      "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "DTx",
-    "full": "Digital Therapeutics",
-    "fr": "Thérapeutique numérique",
-    "field": "Santé numérique · Thérapeutiques logicielles",
-    "definition": "Un logiciel, souvent une application, dont l'effet thérapeutique est la fonction principale et qui est prescrit comme un traitement.",
+    "term": "Federated Learning",
+    "full": "Federated Learning (apprentissage fédéré)",
+    "fr": "Apprentissage fédéré",
+    "field": "IA & données de santé",
+    "definition": "L'apprentissage fédéré entraîne un modèle d'IA sur des données qui restent dans chaque hôpital, en ne faisant circuler que le modèle et non les dossiers patients.",
     "parts": [
-      {
-        "label": "Contenu clinique",
-        "role": "le principe actif (TCC, rééducation, éducation)"
-      },
-      {
-        "label": "Logiciel",
-        "role": "le vecteur : application, suivi, rappels"
-      },
-      {
-        "label": "Preuve",
-        "role": "l'essai clinique qui justifie l'usage et le remboursement"
-      }
+      { "label": "Nœuds locaux", "role": "les hôpitaux qui gardent leurs données" },
+      { "label": "Modèle partagé", "role": "l'algorithme envoyé aux données" },
+      { "label": "Agrégation", "role": "la fusion des apprentissages sans centraliser les données" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Conception",
-        "t": "Une équipe transpose un protocole thérapeutique validé (par exemple une thérapie cognitivo-comportementale) en programme numérique."
-      },
-      {
-        "n": "2",
-        "h": "Preuve et marquage",
-        "t": "Le logiciel est marqué CE comme dispositif médical (classe I ou IIa pour une DiGA allemande) et testé en essai randomisé."
-      },
-      {
-        "n": "3",
-        "h": "Prescription et remboursement",
-        "t": "Une fois inscrit au répertoire (DiGA en Allemagne), il est prescrit par le médecin et pris en charge par l'assurance maladie."
-      }
+      { "n": "1", "h": "Envoi du modèle", "t": "Un modèle initial est distribué aux sites participants." },
+      { "n": "2", "h": "Entraînement local", "t": "Chaque site l'entraîne sur ses propres données, qui ne quittent jamais l'établissement." },
+      { "n": "3", "h": "Agrégation", "t": "Seuls les paramètres appris sont renvoyés et combinés en un modèle amélioré." }
     ],
-    "why": "Angle VC : revenus récurrents adossés à un payeur et barrière réglementaire réelle, mais la preuve clinique et l'accès au remboursement restent le goulot d'étranglement ; les jeunes pousses comme Cerebella ciblent des besoins peu couverts avant de viser ce parcours.",
+    "why": "L'accès aux données de santé reste le goulot d'étranglement de l'IA clinique en Europe (RGPD, souveraineté). L'apprentissage fédéré permet de monétiser des données sans les déplacer : une thèse infrastructure, soutenue par des projets publics comme DESTINY.",
     "startups": [
-      {
-        "name": "Kaia Health",
-        "use": "Kaia Rückenschmerzen, programme numérique contre le mal de dos, inscrit de façon définitive au répertoire DiGA en mars 2023 sur la base d'un essai de plus de 1 200 patients",
-        "place": "Munich, Allemagne"
-      },
-      {
-        "name": "Big Health",
-        "use": "Sleepio, TCC numérique de l'insomnie, premier DTx à recevoir un avis du NICE (2022) ; marqué CE",
-        "place": "Royaume-Uni"
-      },
-      {
-        "name": "Cerebella",
-        "use": "Cerebella Foundations, programme de 10 séances contre le brouillard cérébral de la ménopause ; en cours de levée pré-seed",
-        "place": "Royaume-Uni"
-      }
+      { "name": "Owkin", "use": "Envoie les algorithmes aux données des hôpitaux plutôt que l'inverse ; Sanofi a investi 180 M$ en fonds propres (2021).", "place": "Paris, France" },
+      { "name": "Apheris", "use": "Réseaux fédérés pour la recherche en sciences de la vie ; Series A de 8,25 M$ menée par OTB Ventures et eCAPITAL (janv. 2025), partenariat avec T-Systems (oct. 2026).", "place": "Berlin, Allemagne" },
+      { "name": "PharosAI", "use": "Modèles d'IA sur données tissulaires avec apprentissage fédéré dans le projet DESTINY d'Innovate UK.", "place": "Royaume-Uni" }
     ],
     "sources": [
-      {
-        "publisher": "Bundesministerium für Gesundheit (gesund.bund.de)",
-        "title": "Digitale Gesundheitsanwendungen (DiGA)",
-        "url": "https://gesund.bund.de/en/digitale-gesundheitsanwendungen-diga"
-      },
-      {
-        "publisher": "Kaia Health",
-        "title": "World's most broadly covered back pain offering in Germany",
-        "url": "https://kaiahealth.com/newsroom/press-releases/worlds-most-broadly-covered-back-pain-offering-in-germany"
-      },
-      {
-        "publisher": "Big Health",
-        "title": "Sleepio is the first-ever digital therapeutic to receive NICE guidance",
-        "url": "https://www.bighealth.com/news/sleepio-is-the-first-ever-digital-therapeutic-to-receive-nice-guidance-confirming-clinical-and-cost-effectiveness"
-      },
-      {
-        "publisher": "Tech.eu",
-        "title": "Brain fog, missed diagnoses, and lost careers: the menopause gap Cerebella wants to close",
-        "url": "https://tech.eu/2026/10/23/brain-fog-missed-diagnoses-and-lost-careers-the-menopause-gap-cerebella-wants-to-close/"
-      }
+      { "publisher": "HTN", "title": "Barts Health and Guy's and St Thomas' funding for AI digital twins of human tissue", "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/" },
+      { "publisher": "Deutsche Telekom", "title": "Sovereign connectivity for medical research: Apheris and T-Systems enable the secure use of clinical data", "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/apheris-and-t-systems-protect-data" },
+      { "publisher": "SiliconANGLE", "title": "Apheris raises $8.25M for healthcare-focused federated AI platform", "url": "https://siliconangle.com/2025/01/02/apheris-raises-8-25m-healthcare-focused-federated-ai-platform/" },
+      { "publisher": "Silicon Canals", "title": "Owkin raises $159M from Sanofi", "url": "https://siliconcanals.com/owkin-raises-159m-from-sanofi/" }
     ]
   }
 }

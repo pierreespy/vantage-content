@@ -1,85 +1,73 @@
 {
-  "dateLong": "25 oct. 2026",
+  "dateLong": "27 oct. 2026",
   "ticker": [
-    { "company": "AMBROSE", "amount": "€161M", "kind": "mna" },
-    { "company": "ROCHE", "amount": "CAR-T ✗", "kind": "tech" },
-    { "company": "VERDIVA", "amount": "Ph2 ✗", "kind": "tech" },
-    { "company": "SANOFI", "amount": "Option", "kind": "tech" }
+    { "company": "WINDWARD BIO", "amount": "IPO", "kind": "lev" },
+    { "company": "GENMAB", "amount": "Ph3 ✓", "kind": "tech" },
+    { "company": "SPAGO", "amount": "Delisting", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "M&A · Maladies rares",
-    "title": "Ambrose (Royaume-Uni) rachète AM-Pharma (Pays-Bas) jusqu'à 161 M€ pour son enzyme ilofotase alfa dans l'hypophosphatasie de l'adulte",
-    "deck": "L'acquéreur britannique de maladies rares, qui ramasse des molécules calées avec des données humaines, ajoute un troisième actif à son portefeuille : une thérapie enzymatique substitutive prête pour la Phase 2 dans l'hypophosphatasie (HPP) de l'adulte, sans traitement approuvé à ce jour. Le montant total inclut des jalons commerciaux et des royalties, l'upfront n'est pas communiqué.",
-    "company": "Ambrose Healthcare",
-    "sector": "Biotech",
+    "kicker": "IPO · Immunologie",
+    "title": "Windward Bio (Bâle) dépose sa demande d'introduction au Nasdaq, portée par deux anticorps à action ultra-longue en asthme et BPCO",
+    "deck": "La biotech bâloise, financée à hauteur de 365 M$ de fonds propres par OrbiMed, Novo Holdings, SR One, Omega Funds, Blue Owl et RTW, vise le Nasdaq Global Market ; prix, nombre d'actions et calendrier ne sont pas encore publiés. Son actif phare WIN378 est en Phase 2/3 (POLARIS-1) dans l'asthme sévère non contrôlé, avec une Phase 2 (SIRIUS) en BPCO et une Phase 3 (POLARIS-2) planifiée ; le bispécifique TSLP/IL-13 WIN027 est en Phase 1.",
+    "company": "Windward Bio",
+    "stage": "IPO",
+    "sector": "Immunologie",
     "pillar": "financement",
-    "signalType": "acquisition",
-    "strength": 5,
-    "url": "https://european-biotechnology.com/latest-news/ambrose-expands-rare-disease-pipeline-with-e161m-am-pharma-acquisition/"
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.startupticker.ch/en/news/windward-bio-files-for-ipo-at-nasdaq"
   },
   "milestone": {
-    "company": "Roche",
-    "milestone": "Programme arrêté",
-    "title": "Roche abandonne le CAR-T allogénique RG6540 hérité de Poseida, moins de deux ans après le rachat jusqu'à 1,5 Md$",
-    "summary": "Le candidat CD19/CD20 « off-the-shelf » a été retiré du pipeline de Phase 1 le 22 octobre ; l'essai lupus avait été retiré en août et l'essai en cancers B terminé. Roche garde d'autres candidats CD19/CD20 issus de Poseida qu'il juge « supérieurs », et jusqu'à 472 M$ de paiements conditionnels restent en suspens.",
-    "why": "Un signal sur la difficulté de l'allogénique en auto-immunité (persistance des cellules) : à garder en tête avant d'investir dans les CAR-T « off-the-shelf », et un rappel que l'exit par rachat n'efface pas le risque clinique.",
-    "place": "Bâle",
-    "sector": "Thérapie cellulaire",
+    "company": "Genmab",
+    "milestone": "Phase 3 positive",
+    "title": "Genmab : l'ADC Rina-S réduit de 71 % le risque de progression ou de décès dans le cancer de l'ovaire résistant au platine (Phase 3 RAINFOL-02)",
+    "summary": "Sur 584 patientes, rinatabart sesutecan (ADC ciblant FRα, charge exatécan) face à la chimiothérapie au choix de l'investigateur : HR 0,29 sur la progression ou le décès et HR 0,43 sur la survie globale ; dans l'analyse primaire prédéfinie (492 patientes), HR 0,33 et 0,44, tous significatifs. L'évaluation en aveugle indépendante n'est pas encore publiée.",
+    "why": "Rina-S est l'actif phare issu du rachat de ProfoundBio (environ 1,8 Md$, 2024) : une validation d'un deal de M&A d'ADC et un comparable pour les biotechs européennes d'ADC à charge topoisomérase.",
+    "place": "Copenhague",
+    "sector": "Oncologie",
     "signalType": "clinical_update",
-    "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/"
+    "url": "https://european-biotechnology.com/latest-news/genmabs-acquisition-spree-starts-to-pay-off-with-new-ovarian-and-colorectal-cancer-data/"
   },
   "brefsEurope": [
     {
-      "company": "Verdiva Bio",
-      "place": "Royaume-Uni",
+      "company": "Spago Nanomedical",
+      "place": "Suède",
       "sector": "Biotech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 2,
-      "title": "Verdiva met fin à sa Phase 2 de maintien du poids avec le GLP-1 oral hebdomadaire VRB-101",
-      "summary": "Le registre ClinicalTrials.gov (NCT07553299) indique une étude terminée pour « décision d'entreprise », non liée à la sécurité ; selon la presse spécialisée, 8 patients sur 120 prévus seulement étaient inclus. Verdiva, lancée en 2025 avec 410 M$ en Series A, poursuit VRB-101 en monothérapie.",
-      "url": "https://clinicaltrials.gov/study/NCT07553299"
+      "title": "Spago Nanomedical propose de quitter le Nasdaq First North pour financer la Phase 2a de son radiopharmaceutique Tumorad",
+      "summary": "Le vote est fixé au 19 novembre (90 % requis, environ 65 % des actionnaires favorables) ; l'action a chuté d'environ 54 % le 23 octobre. Une augmentation de capital de juin n'a levé que 15 MSEK : signal de la difficulté des petites biotechs cotées nordiques à se financer."
+      ,"url": "https://european-biotechnology.com/latest-news/spago-nanomedical-seeks-delisting-to-finance-cancer-drug-development/"
     }
   ],
-  "brefsIntl": [
-    {
-      "company": "Recursion",
-      "place": "Salt Lake City",
-      "sector": "IA drug discovery",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Sanofi exerce son option sur un premier candidat oral en immunologie issu de sa collaboration avec Recursion",
-      "summary": "Le jalon déclenche 10 M$ ; Sanofi pilotera le développement avec une Phase 1 prévue en 2027, et Recursion peut encore toucher plus de 300 M$ de jalons et des royalties. La cible et l'indication ne sont pas dévoilées.",
-      "url": "https://european-biotechnology.com/latest-news/evaxion-reports-durable-responses-novartis-halts-kidney-trial-astrazeneca-signs-ai-deal/"
-    }
-  ],
+  "brefsIntl": [],
   "word": {
-    "term": "Allogeneic CAR-T",
-    "full": "Allogeneic CAR-T (CAR-T allogénique « off-the-shelf »)",
-    "fr": "CAR-T allogénique prêt à l'emploi",
-    "field": "Thérapie cellulaire",
-    "definition": "Des lymphocytes T de donneurs sains, modifiés pour viser la maladie, produits en lots et conservés congelés, au lieu d'être fabriqués sur mesure à partir des cellules de chaque patient.",
+    "term": "ADC",
+    "full": "Antibody-Drug Conjugate (anticorps-médicament conjugué)",
+    "fr": "Anticorps-médicament conjugué",
+    "field": "Oncologie de précision",
+    "definition": "Un ADC est un anticorps qui transporte une chimiothérapie très puissante directement vers les cellules tumorales qui portent une cible précise.",
     "parts": [
-      { "label": "Cellules de donneur", "role": "matière première commune à de nombreux patients" },
-      { "label": "Récepteur CAR", "role": "l'antenne qui reconnaît la cible (ex. CD19, CD20)" },
-      { "label": "Édition génique", "role": "limite le rejet et la réaction du greffon contre l'hôte" }
+      { "label": "Anticorps", "role": "le guidage vers la cible tumorale (par exemple FRα)" },
+      { "label": "Linker", "role": "l'attache, stable dans le sang et clivée dans la cellule" },
+      { "label": "Charge cytotoxique", "role": "l'ogive (par exemple exatécan, inhibiteur de topoisomérase I)" }
     ],
     "how": [
-      { "n": "1", "h": "Collecte", "t": "Les lymphocytes T d'un donneur sain sont prélevés et édités pour supprimer le récepteur qui attaquerait le patient." },
-      { "n": "2", "h": "Production en lots", "t": "Les cellules reçoivent le CAR, sont multipliées puis congelées : une seule fabrication sert de nombreuses doses." },
-      { "n": "3", "h": "Perfusion", "t": "La dose décongelée est injectée sans délai d'attente ; l'enjeu clinique est la persistance des cellules face au système immunitaire du patient." }
+      { "n": "1", "h": "Ciblage", "t": "L'anticorps se fixe à une protéine présente à la surface des cellules tumorales." },
+      { "n": "2", "h": "Internalisation", "t": "Le complexe est avalé par la cellule cancéreuse, où le linker est clivé." },
+      { "n": "3", "h": "Libération", "t": "La charge cytotoxique est libérée et détruit la cellule, en épargnant davantage les tissus sains." }
     ],
-    "why": "Promesse de coût et de rapidité face aux CAR-T autologues, mais la persistance reste le point dur : Roche vient d'abandonner RG6540 (ex-Poseida) alors que l'allogénique cible l'auto-immunité. Pour un VC, c'est un pari à plateforme d'édition, sensible aux données de durabilité.",
+    "why": "Les ADC sont l'une des classes les plus actives en M&A et licensing oncologie. Les résultats de Phase 3 de Rina-S chez Genmab (rachat de ProfoundBio) renforcent la thèse « nouvelle charge, nouvelle cible » et valorisent les plateformes européennes de linkers et de charges.",
     "startups": [
-      { "name": "Cellectis", "use": "Approche allogénique en oncologie ; essai pivot de Phase 2 BALLI-01 (lasme-cel dans la LAL) et partenariat avec AstraZeneca", "place": "Paris, France" },
-      { "name": "Antion Biosciences", "use": "CAR-T allogénique avec plateforme de silençage multiplex par miARN", "place": "Genève, Suisse" },
-      { "name": "Zelluna", "use": "Thérapie cellulaire TCR-NK « off-the-shelf » pour tumeurs solides", "place": "Oslo, Norvège" }
+      { "name": "Adcytherix", "use": "ADC à nouvelles charges (candidat ADCX-020) ; Series A de 105 M€ menée par Bpifrance (oct. 2025).", "place": "Marseille, France" },
+      { "name": "Adcendo", "use": "ADC cliniques dans les sarcomes et cancers mésenchymateux (ADCE-T02, ADCE-D01) ; Series C de 75 M$ (avr. 2026).", "place": "Copenhague, Danemark" },
+      { "name": "Oncomatryx", "use": "ADC ciblant le microenvironnement tumoral via les fibroblastes associés au cancer ; Series B de 67 M$ (mars 2026).", "place": "Espagne" }
     ],
     "sources": [
-      { "publisher": "European Biotechnology", "title": "Roche scraps off-the-shelf CAR-T from Poseida deal worth up to $1.5B", "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/" },
-      { "publisher": "Patsnap Eureka", "title": "EHA 2026: allogeneic CAR-T global competitive landscape report", "url": "https://eureka.patsnap.com/blog/life-science/eha-2026-allogeneic-car-t-global-competitive-landscape-report-2026/" },
-      { "publisher": "Cellectis (SEC)", "title": "Cellectis S.A. Form 6-K 2026", "url": "https://www.sec.gov/Archives/edgar/data/0001627281/000117184326003280/exh_991.htm" }
+      { "publisher": "European Biotechnology", "title": "Genmab's acquisition spree starts to pay off with new ovarian and colorectal cancer data", "url": "https://european-biotechnology.com/latest-news/genmabs-acquisition-spree-starts-to-pay-off-with-new-ovarian-and-colorectal-cancer-data/" },
+      { "publisher": "Adcytherix", "title": "Adcytherix Raises EUR 105M Series A to Accelerate Breakthrough Antibody-Drug Conjugate Pipeline", "url": "https://www.adcytherix.com/post/adcytherix-raises-eur-105m-series-a-to-accelerate-breakthrough-antibody-drug-conjugate-pipeline-with" },
+      { "publisher": "Adcendo", "title": "Adcendo ApS Completes $75 Million Series C Financing", "url": "https://adcendo.com/adcendo-aps-completes-75-million-series-c-financing-to-continue-advancing-first-and-best-in-class-clinical-adc-pipeline/" }
     ]
   }
 }
