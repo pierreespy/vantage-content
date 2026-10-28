@@ -2,6 +2,81 @@
   "generatedAt": "2026-10-28",
   "words": [
     {
+      "term": "RWE",
+      "full": "Real-World Evidence",
+      "fr": "Evidence from real-world data",
+      "field": "Health data · Clinical research",
+      "definition": "Evidence on a treatment's or device's effectiveness and safety drawn from routine care data (patient records, registries, claims) rather than a randomized trial.",
+      "parts": [
+        {
+          "label": "Sources",
+          "role": "hospital records, registries, claims databases"
+        },
+        {
+          "label": "Harmonization",
+          "role": "common data model (OMOP, FHIR)"
+        },
+        {
+          "label": "Analysis",
+          "role": "observational studies, external control arms"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collection",
+          "t": "Data stays with the care centers, which structure and anonymize it."
+        },
+        {
+          "n": "2",
+          "h": "Harmonization",
+          "t": "It is converted to a common format (e.g. OMOP) so it is comparable across countries."
+        },
+        {
+          "n": "3",
+          "h": "Analysis",
+          "t": "Federated studies produce evidence usable by industry, regulators and payers."
+        }
+      ],
+      "why": "Regulators and payers increasingly ask for it for reimbursement; with the EHDS, platforms that make data usable without centralizing it become an infrastructure layer.",
+      "startups": [
+        {
+          "name": "Agora Labs",
+          "use": "Platform where data stays with the care center, which structures and anonymizes it; use cases include RWE, registries, epidemiology",
+          "place": "Greece"
+        },
+        {
+          "name": "Carelane",
+          "use": "HL7 FHIR-based RWE platform; €0.8M pre-seed reported",
+          "place": "Bremen, Germany"
+        },
+        {
+          "name": "Okeiro",
+          "use": "Precision medicine in transplantation and chronic disease; €10M raised per a directory",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Journal of Medical Internet Research",
+          "title": "Advancing Real-World Evidence Through a Federated Health Data Network (EHDEN)",
+          "url": "https://www.jmir.org/2025/1/e74119"
+        },
+        {
+          "publisher": "StartUs Insights",
+          "title": "10 Real World Evidence Companies & Startups to Watch in 2026",
+          "url": "https://www.startus-insights.com/innovators-guide/real-world-evidence-companies/"
+        },
+        {
+          "publisher": "Athena Research Center",
+          "title": "Agora Labs: the Greek spin-off that innovates in the healthcare sector",
+          "url": "https://www.athenarc.gr/en/news/agora-labs-greek-spin-innovates-healthcare-sector"
+        }
+      ],
+      "date": "2026-10-28",
+      "dateLong": "Oct 28, 2026"
+    },
+    {
       "term": "TCR-T",
       "full": "T-Cell Receptor engineered T-cell therapy",
       "fr": "T cells armed with a TCR",
@@ -7362,64 +7437,6 @@
       ],
       "date": "2026-07-27",
       "dateLong": "27 juil. 2026"
-    },
-    {
-      "term": "RWE",
-      "full": "Real-World Evidence",
-      "fr": "Preuve en vie réelle",
-      "field": "Diagnostic & Données de santé",
-      "definition": "Une preuve clinique construite à partir de données collectées hors des essais cliniques classiques — dossiers médicaux, objets connectés, remboursements — pour démontrer l'efficacité ou la sécurité d'un traitement en conditions réelles.",
-      "parts": [
-        {
-          "label": "Sources de données (RWD)",
-          "role": "dossiers médicaux électroniques, capteurs, remboursements, registres patients"
-        },
-        {
-          "label": "Curation & structuration",
-          "role": "la donnée brute transformée en preuve exploitable statistiquement"
-        },
-        {
-          "label": "Preneurs de décision",
-          "role": "régulateurs et payeurs qui s'appuient sur la preuve pour trancher"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Collecte",
-          "t": "Agréger des données de vie réelle (EHR, objets connectés, registres, remboursements) auprès de milliers de patients suivis hors essai clinique."
-        },
-        {
-          "n": "2",
-          "h": "Structuration",
-          "t": "Nettoyer et harmoniser ces données hétérogènes, souvent via IA/NLP sur des dossiers non structurés, pour les rendre exploitables."
-        },
-        {
-          "n": "3",
-          "h": "Preuve",
-          "t": "Produire des analyses (comparateur externe, suivi de sécurité post-AMM, extension d'indication) acceptées par les régulateurs et les payeurs."
-        }
-      ],
-      "why": "La RWE réduit le coût et le risque du développement clinique — un bras comparateur externe peut remplacer un bras placebo, accélérer une extension d'indication ou justifier un remboursement. D'où l'appétit des grands groupes pour des plateformes RWE indépendantes : Dassault Systèmes vient d'illustrer la thèse en rachetant ArisGlobal (~2 Md$) pour connecter molécule, patient et données de vie réelle — signe que la donnée clinique structurée devient un actif stratégique à part entière, pas un sous-produit de l'essai.",
-      "startups": [
-        {
-          "name": "Kap Code",
-          "use": "Mine les témoignages patients sur les réseaux sociaux via son NLP propriétaire Detec't pour détecter des signaux faibles de pharmacovigilance et alimenter des études RWE pharma",
-          "place": "Paris, France"
-        },
-        {
-          "name": "Aparito",
-          "use": "Sa plateforme Atom5 capte biomarqueurs numériques et rapports patients à distance pour transformer des essais décentralisés en preuve de vie réelle ; partenariat avec Duchenne UK sur la myopathie de Duchenne",
-          "place": "Pays de Galles, Royaume-Uni"
-        },
-        {
-          "name": "TriNetX",
-          "use": "Opère un réseau fédéré de données de vie réelle (300M+ patients, 13 000+ établissements dans 20+ pays) ; Regeneron y a pris une participation stratégique en avril 2026",
-          "place": "Cambridge, États-Unis"
-        }
-      ],
-      "date": "2026-07-26",
-      "dateLong": "26 juil. 2026"
     },
     {
       "term": "Molecular Glue",

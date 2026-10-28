@@ -1,73 +1,113 @@
 {
-  "dateLong": "27 oct. 2026",
+  "dateLong": "28 oct. 2026",
   "ticker": [
-    { "company": "FLOK HEALTH", "amount": "Contrat NHS", "kind": "reg" },
-    { "company": "EPIC", "amount": "−4,1 M£", "kind": "tech" },
-    { "company": "PHAROSAI", "amount": "Innovate UK", "kind": "new" }
-  ],
-  "lead": {
-    "kicker": "Contrat NHS · Télé-MSK",
-    "title": "Berkshire Healthcare retient Flok Health pour un service numérique de triage et de prise en charge musculo-squelettique de 400 000 £",
-    "deck": "Le contrat, de novembre 2026 à novembre 2027 avec option de 12 mois, couvre un service entièrement géré : triage numérique 24 h/24 et traitement à distance, avec évaluation assistée par IA sous supervision de kinésithérapeutes enregistrés HCPC. Un signal d'adoption NHS pour une startup de physiothérapie numérique, avant sa prochaine levée.",
-    "company": "Flok Health",
-    "sector": "Digital Health",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 3,
-    "url": "https://htn.co.uk/2026/10/26/berkshire-healthcare-selects-digital-msk-service-supplier/"
-  },
-  "milestone": {
-    "company": "King's College Hospital / Guy's and St Thomas'",
-    "milestone": "Preuve d'impact",
-    "title": "Deux grands hôpitaux londoniens chiffrent à 4,1 M£ les économies de leur dossier patient Epic grâce aux alertes anti-doublons",
-    "summary": "Depuis 2023, des alertes sur les examens prescrits trop tôt ont évité 384 000 tests (3,6 M£), environ 3,3 millions d'examens en double ont été évités et jusqu'à 275 000 heures de temps infirmier et de prélèvement économisées. Les trusts prévoient d'étendre ces alertes à l'imagerie.",
-    "why": "Une preuve chiffrée de ROI pour l'EPR et la couche d'IA/décision clinique construite par-dessus : l'argument de vente des éditeurs de logiciels hospitaliers.",
-    "place": "Londres",
-    "sector": "Logiciel hospitalier",
-    "signalType": "clinical_update",
-    "url": "https://htn.co.uk/2026/10/26/kings-college-hospital-and-guys-and-st-thomas-report-4-1-million-in-savings-from-epr/"
-  },
-  "brefsEurope": [
     {
-      "company": "PharosAI",
-      "place": "Londres",
-      "sector": "Données de santé",
-      "pillar": "innovation",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "PharosAI lance le projet DESTINY d'Innovate UK avec Barts Health et Guy's and St Thomas' pour créer des jumeaux numériques de tissus humains",
-      "summary": "Des modèles d'IA prédisent des informations biologiques complexes à partir de données tissulaires de routine (pathologie numérique, transcriptomique spatiale, génome, protéomique), avec apprentissage fédéré pour ne pas déplacer les données. Partenaires : Queen Mary University of London et King's College London ; les partenaires retenus pourront candidater à jusqu'à 10 M£ de financement complémentaire.",
-      "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/"
+      "company": "VERA HEALTH",
+      "amount": "$28,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "EMERALD",
+      "amount": "£1,4M",
+      "kind": "lev"
     }
   ],
+  "lead": {
+    "kicker": "Financement · IA clinique",
+    "title": "Vera Health lève 28,5 M$ en Series A (Threshold Ventures) : son moteur de recherche clinique, adopté par 800 000 soignants, creuse l'Europe",
+    "deck": "L'outil, gratuit pour les médecins et facturé aux hôpitaux pour des versions sur mesure, interroge plus de 60 millions de publications, recommandations et notices, relie chaque affirmation à ses sources et note la solidité de la preuve. Il revendique 800 000 cliniciens dans 190 pays — environ un médecin sur quatre en Espagne et en Italie, un sur sept en France — avec Optum Ventures, Mantis VC et SV Angel au tour, et Y Combinator et Gradient qui réinvestissent (32 M$ levés au total).",
+    "company": "Vera Health",
+    "stage": "Series A",
+    "sector": "IA clinique",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m"
+  },
+  "milestone": {
+    "company": "Emerald",
+    "milestone": "Financement + Classe I",
+    "title": "Emerald (Londres) lève 1,4 M£, moitié Innovate UK, moitié capital-risque, pour sa plateforme de santé préventive à IA (annoncé le 20 oct.)",
+    "summary": "La jeune pousse, lancée en mai 2025 avec 625 k£ d'investisseurs providentiels, est enregistrée auprès de la CQC pour le diagnostic et le dépistage et dispositif médical de classe I auprès de la MHRA ; ce tour porte son financement total à environ 2,9 M£.",
+    "why": "Un exemple de santé préventive « réglementée » : le statut dispositif médical et l'agrément CQC la distinguent des plateformes de bien-être non encadrées.",
+    "place": "Londres",
+    "sector": "Digital Health",
+    "signalType": "funding_round",
+    "url": "https://startuprise.co.uk/emerald-raises-e1-66-mn/"
+  },
+  "brefsEurope": [],
   "brefsIntl": [],
   "word": {
-    "term": "Federated Learning",
-    "full": "Federated Learning (apprentissage fédéré)",
-    "fr": "Apprentissage fédéré",
-    "field": "IA & données de santé",
-    "definition": "L'apprentissage fédéré entraîne un modèle d'IA sur des données qui restent dans chaque hôpital, en ne faisant circuler que le modèle et non les dossiers patients.",
+    "term": "RWE",
+    "full": "Real-World Evidence (données de vie réelle)",
+    "fr": "Preuves issues de la vie réelle",
+    "field": "Données de santé · Recherche clinique",
+    "definition": "Des preuves sur l'efficacité et la sécurité d'un traitement ou d'un dispositif tirées de données de soins courants (dossiers patients, registres, remboursements) plutôt que d'un essai randomisé.",
     "parts": [
-      { "label": "Nœuds locaux", "role": "les hôpitaux qui gardent leurs données" },
-      { "label": "Modèle partagé", "role": "l'algorithme envoyé aux données" },
-      { "label": "Agrégation", "role": "la fusion des apprentissages sans centraliser les données" }
+      {
+        "label": "Sources",
+        "role": "dossiers hospitaliers, registres, bases de remboursement"
+      },
+      {
+        "label": "Harmonisation",
+        "role": "modèle commun de données (OMOP, FHIR)"
+      },
+      {
+        "label": "Analyse",
+        "role": "études observationnelles, bras de contrôle externes"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Envoi du modèle", "t": "Un modèle initial est distribué aux sites participants." },
-      { "n": "2", "h": "Entraînement local", "t": "Chaque site l'entraîne sur ses propres données, qui ne quittent jamais l'établissement." },
-      { "n": "3", "h": "Agrégation", "t": "Seuls les paramètres appris sont renvoyés et combinés en un modèle amélioré." }
+      {
+        "n": "1",
+        "h": "Collecte",
+        "t": "Les données restent chez les centres de soins, qui les structurent et les anonymisent."
+      },
+      {
+        "n": "2",
+        "h": "Harmonisation",
+        "t": "Elles sont converties dans un format commun (par ex. OMOP) pour être comparables entre pays."
+      },
+      {
+        "n": "3",
+        "h": "Analyse",
+        "t": "Des études fédérées produisent des preuves exploitables par industriels, régulateurs et payeurs."
+      }
     ],
-    "why": "L'accès aux données de santé reste le goulot d'étranglement de l'IA clinique en Europe (RGPD, souveraineté). L'apprentissage fédéré permet de monétiser des données sans les déplacer : une thèse infrastructure, soutenue par des projets publics comme DESTINY.",
+    "why": "Régulateurs et payeurs en demandent de plus en plus pour le remboursement ; avec l'EHDS, les plateformes qui rendent les données utilisables sans les centraliser deviennent une brique d'infrastructure.",
     "startups": [
-      { "name": "Owkin", "use": "Envoie les algorithmes aux données des hôpitaux plutôt que l'inverse ; Sanofi a investi 180 M$ en fonds propres (2021).", "place": "Paris, France" },
-      { "name": "Apheris", "use": "Réseaux fédérés pour la recherche en sciences de la vie ; Series A de 8,25 M$ menée par OTB Ventures et eCAPITAL (janv. 2025), partenariat avec T-Systems (oct. 2026).", "place": "Berlin, Allemagne" },
-      { "name": "PharosAI", "use": "Modèles d'IA sur données tissulaires avec apprentissage fédéré dans le projet DESTINY d'Innovate UK.", "place": "Royaume-Uni" }
+      {
+        "name": "Agora Labs",
+        "use": "Plateforme où les données restent chez le centre de soins, qui les structure et les anonymise ; cas d'usage RWE, registres, épidémiologie",
+        "place": "Grèce"
+      },
+      {
+        "name": "Carelane",
+        "use": "Plateforme RWE fondée sur HL7 FHIR ; 0,8 M€ de pre-seed rapportés",
+        "place": "Brême, Allemagne"
+      },
+      {
+        "name": "Okeiro",
+        "use": "Médecine de précision en transplantation et maladies chroniques ; 10 M€ levés selon un répertoire",
+        "place": "Paris, France"
+      }
     ],
     "sources": [
-      { "publisher": "HTN", "title": "Barts Health and Guy's and St Thomas' funding for AI digital twins of human tissue", "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/" },
-      { "publisher": "Deutsche Telekom", "title": "Sovereign connectivity for medical research: Apheris and T-Systems enable the secure use of clinical data", "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/10/apheris-and-t-systems-protect-data" },
-      { "publisher": "SiliconANGLE", "title": "Apheris raises $8.25M for healthcare-focused federated AI platform", "url": "https://siliconangle.com/2025/01/02/apheris-raises-8-25m-healthcare-focused-federated-ai-platform/" },
-      { "publisher": "Silicon Canals", "title": "Owkin raises $159M from Sanofi", "url": "https://siliconcanals.com/owkin-raises-159m-from-sanofi/" }
+      {
+        "publisher": "Journal of Medical Internet Research",
+        "title": "Advancing Real-World Evidence Through a Federated Health Data Network (EHDEN)",
+        "url": "https://www.jmir.org/2025/1/e74119"
+      },
+      {
+        "publisher": "StartUs Insights",
+        "title": "10 Real World Evidence Companies & Startups to Watch in 2026",
+        "url": "https://www.startus-insights.com/innovators-guide/real-world-evidence-companies/"
+      },
+      {
+        "publisher": "Athena Research Center",
+        "title": "Agora Labs: the Greek spin-off that innovates in the healthcare sector",
+        "url": "https://www.athenarc.gr/en/news/agora-labs-greek-spin-innovates-healthcare-sector"
+      }
     ]
   }
 }
