@@ -2,6 +2,86 @@
   "generatedAt": "2026-10-28",
   "words": [
     {
+      "term": "TCR-T",
+      "full": "T-Cell Receptor engineered T-cell therapy (thérapie par lymphocytes T à récepteur modifié)",
+      "fr": "Lymphocytes T armés d'un récepteur TCR",
+      "field": "Immuno-oncologie · Tumeurs solides",
+      "definition": "On prélève les lymphocytes T du patient, on leur greffe un récepteur (TCR) qui reconnaît un fragment de protéine tumorale présenté par les cellules cancéreuses, puis on les réinjecte.",
+      "parts": [
+        {
+          "label": "TCR",
+          "role": "le détecteur de la cible"
+        },
+        {
+          "label": "Peptide-HLA",
+          "role": "la cible présentée à la surface de la tumeur"
+        },
+        {
+          "label": "Lymphocyte T",
+          "role": "le tueur"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Les lymphocytes T sont collectés chez le patient par leucaphérèse."
+        },
+        {
+          "n": "2",
+          "h": "Ingénierie",
+          "t": "Un TCR ciblant un peptide tumoral (ex. PRAME) est introduit dans les cellules, puis elles sont multipliées."
+        },
+        {
+          "n": "3",
+          "h": "Réinjection",
+          "t": "Les cellules modifiées reconnaissent et détruisent les cellules tumorales exprimant la cible."
+        }
+      ],
+      "why": "Contrairement aux CAR-T, les TCR-T voient des cibles intracellulaires, d'où un potentiel en tumeurs solides ; l'enjeu VC est la sélection des patients (HLA, expression de la cible) et le coût de fabrication.",
+      "startups": [
+        {
+          "name": "Anocca",
+          "use": "Premier essai européen de TCR-T non viral édité par gène (VIDAR-1) ciblant KRAS dans le cancer du pancréas ; 46 M$ levés en août 2025",
+          "place": "Suède"
+        },
+        {
+          "name": "Pan Cancer T",
+          "use": "Spin-out d'Erasmus MC : TCR-T contre le cancer du sein triple négatif, 10 M€ levés pour un essai first-in-human",
+          "place": "Pays-Bas"
+        },
+        {
+          "name": "Captain T Cell",
+          "use": "Spin-off du Max Delbrück Center : pipeline TCR-T de nouvelle génération vers une phase I",
+          "place": "Allemagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Immatics shows off its PRAME bispecific data at ESMO 2026",
+          "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
+        },
+        {
+          "publisher": "Labiotech.eu",
+          "title": "Europe's TCR Therapy Scene Gains Traction with €40M Series B",
+          "url": "https://www.labiotech.eu/trends-news/tcr-therapy-anocca/"
+        },
+        {
+          "publisher": "Tech Funding News",
+          "title": "Pan Cancer T raises €10M for TCR-T therapy in triple-negative breast cancer",
+          "url": "https://techfundingnews.com/pan-cancer-t-raises-10m-tcr-t-therapy-triple-negative-breast-cancer/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Captain T Cell Closes Financing Round to Advance its TCR-T Pipeline Into the Clinic",
+          "url": "https://www.biospace.com/press-releases/captain-t-cell-closes-financing-round-to-advance-its-proprietary-next-generation-tcr-t-pipeline-into-the-clinic"
+        }
+      ],
+      "date": "2026-10-28",
+      "dateLong": "28 oct. 2026"
+    },
+    {
       "term": "Remote Hemodynamic Monitoring",
       "full": "Remote Hemodynamic Monitoring (suivi hémodynamique à distance)",
       "fr": "Suivi à distance des pressions cardiaques",

@@ -2,6 +2,86 @@
   "generatedAt": "2026-10-28",
   "words": [
     {
+      "term": "TCR-T",
+      "full": "T-Cell Receptor engineered T-cell therapy",
+      "fr": "T cells armed with a TCR",
+      "field": "Immuno-oncology · Solid tumors",
+      "definition": "The patient's T cells are collected, given a receptor (TCR) that recognizes a fragment of a tumor protein displayed by cancer cells, then reinfused.",
+      "parts": [
+        {
+          "label": "TCR",
+          "role": "the target detector"
+        },
+        {
+          "label": "Peptide-HLA",
+          "role": "the target displayed on the tumor surface"
+        },
+        {
+          "label": "T cell",
+          "role": "the killer"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Collection",
+          "t": "T cells are collected from the patient by leukapheresis."
+        },
+        {
+          "n": "2",
+          "h": "Engineering",
+          "t": "A TCR targeting a tumor peptide (e.g. PRAME) is introduced into the cells, which are then expanded."
+        },
+        {
+          "n": "3",
+          "h": "Reinfusion",
+          "t": "The modified cells recognize and destroy tumor cells expressing the target."
+        }
+      ],
+      "why": "Unlike CAR-T, TCR-T sees intracellular targets, hence solid-tumor potential; the VC question is patient selection (HLA, target expression) and manufacturing cost.",
+      "startups": [
+        {
+          "name": "Anocca",
+          "use": "First European non-viral gene-edited TCR-T trial (VIDAR-1) targeting KRAS in pancreatic cancer; $46M raised in August 2025",
+          "place": "Sweden"
+        },
+        {
+          "name": "Pan Cancer T",
+          "use": "Erasmus MC spin-out: TCR-T for triple-negative breast cancer, €10M raised for a first-in-human trial",
+          "place": "Netherlands"
+        },
+        {
+          "name": "Captain T Cell",
+          "use": "Max Delbrück Center spin-off: next-generation TCR-T pipeline heading to Phase I",
+          "place": "Germany"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Immatics shows off its PRAME bispecific data at ESMO 2026",
+          "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
+        },
+        {
+          "publisher": "Labiotech.eu",
+          "title": "Europe's TCR Therapy Scene Gains Traction with €40M Series B",
+          "url": "https://www.labiotech.eu/trends-news/tcr-therapy-anocca/"
+        },
+        {
+          "publisher": "Tech Funding News",
+          "title": "Pan Cancer T raises €10M for TCR-T therapy in triple-negative breast cancer",
+          "url": "https://techfundingnews.com/pan-cancer-t-raises-10m-tcr-t-therapy-triple-negative-breast-cancer/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Captain T Cell Closes Financing Round to Advance its TCR-T Pipeline Into the Clinic",
+          "url": "https://www.biospace.com/press-releases/captain-t-cell-closes-financing-round-to-advance-its-proprietary-next-generation-tcr-t-pipeline-into-the-clinic"
+        }
+      ],
+      "date": "2026-10-28",
+      "dateLong": "Oct 28, 2026"
+    },
+    {
       "term": "Remote Hemodynamic Monitoring",
       "full": "Remote Hemodynamic Monitoring",
       "fr": "Remote monitoring of cardiac pressures",

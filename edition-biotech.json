@@ -1,73 +1,148 @@
 {
-  "dateLong": "27 oct. 2026",
+  "dateLong": "28 oct. 2026",
   "ticker": [
-    { "company": "WINDWARD BIO", "amount": "IPO", "kind": "lev" },
-    { "company": "GENMAB", "amount": "Ph3 ✓", "kind": "tech" },
-    { "company": "SPAGO", "amount": "Delisting", "kind": "lev" }
+    {
+      "company": "ATLAS BIO",
+      "amount": "$12,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "IMMATICS",
+      "amount": "ORR 25 %",
+      "kind": "tech"
+    },
+    {
+      "company": "FERRING",
+      "amount": "$1,38Md",
+      "kind": "mna"
+    },
+    {
+      "company": "CASZYME",
+      "amount": "Collab",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "IPO · Immunologie",
-    "title": "Windward Bio (Bâle) dépose sa demande d'introduction au Nasdaq, portée par deux anticorps à action ultra-longue en asthme et BPCO",
-    "deck": "La biotech bâloise, financée à hauteur de 365 M$ de fonds propres par OrbiMed, Novo Holdings, SR One, Omega Funds, Blue Owl et RTW, vise le Nasdaq Global Market ; prix, nombre d'actions et calendrier ne sont pas encore publiés. Son actif phare WIN378 est en Phase 2/3 (POLARIS-1) dans l'asthme sévère non contrôlé, avec une Phase 2 (SIRIUS) en BPCO et une Phase 3 (POLARIS-2) planifiée ; le bispécifique TSLP/IL-13 WIN027 est en Phase 1.",
-    "company": "Windward Bio",
-    "stage": "IPO",
-    "sector": "Immunologie",
-    "pillar": "financement",
+    "kicker": "Naissance · IA drug discovery",
+    "title": "Atlas Bio sort de l'ombre à Bâle avec 12,5 M$ (seed mené par Creandum) pour simuler la réponse des patients et alléger les essais de phase 2",
+    "deck": "Fondée par Simon Romanski (CEO) et Sebastian Bayer (CTO), la startup bâloise entraîne un modèle de fondation sur environ 2 millions de mesures d'ARN humain afin de prédire comment des profils de patients répondent à différents traitements — choix de maladies, de sous-populations et de design d'essai. Elle travaille déjà avec une big pharma du top 10 ; l'idée que la simulation remplace des essais de phase 2 reste, à ce stade, non démontrée.",
+    "company": "Atlas Bio",
+    "stage": "Seed",
+    "sector": "IA drug discovery",
+    "pillar": "naissances",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.startupticker.ch/en/news/windward-bio-files-for-ipo-at-nasdaq"
+    "strength": 3,
+    "url": "https://european-biotechnology.com/latest-news/atlas-bio-launches-with-12-5m-to-eliminate-animal-testing-and-simulate-phase-2-trials/"
   },
   "milestone": {
-    "company": "Genmab",
-    "milestone": "Phase 3 positive",
-    "title": "Genmab : l'ADC Rina-S réduit de 71 % le risque de progression ou de décès dans le cancer de l'ovaire résistant au platine (Phase 3 RAINFOL-02)",
-    "summary": "Sur 584 patientes, rinatabart sesutecan (ADC ciblant FRα, charge exatécan) face à la chimiothérapie au choix de l'investigateur : HR 0,29 sur la progression ou le décès et HR 0,43 sur la survie globale ; dans l'analyse primaire prédéfinie (492 patientes), HR 0,33 et 0,44, tous significatifs. L'évaluation en aveugle indépendante n'est pas encore publiée.",
-    "why": "Rina-S est l'actif phare issu du rachat de ProfoundBio (environ 1,8 Md$, 2024) : une validation d'un deal de M&A d'ADC et un comparable pour les biotechs européennes d'ADC à charge topoisomérase.",
-    "place": "Copenhague",
-    "sector": "Oncologie",
+    "company": "Immatics",
+    "milestone": "Données ESMO",
+    "title": "Immatics présente à l'ESMO 2026 ses données PRAME : 25 % de réponses confirmées pour l'engager IMA402, 41 % pour la TCR-T IMA203CD8",
+    "summary": "Sur 40 patients traités à la dose recommandée, l'engager bispécifique IMA402 affiche 25 % de réponse objective confirmée (32 % si PRAME élevé) ; la TCR-T personnalisée IMA203CD8 atteint 41 % sur 90 patients évaluables, 55 % dans les tumeurs gynécologiques à doses pertinentes. Données de phase 1b non contrôlées, à suivre avec prudence.",
+    "why": "PRAME est une cible solide « partagée » entre tumeurs : ces résultats nourrissent la thèse TCR-T / engagers en tumeurs solides, avec des premières données IMA402 + IMA401 en poumon attendues en 2027.",
+    "place": "Tübingen",
+    "sector": "Thérapie cellulaire",
     "signalType": "clinical_update",
-    "url": "https://european-biotechnology.com/latest-news/genmabs-acquisition-spree-starts-to-pay-off-with-new-ovarian-and-colorectal-cancer-data/"
+    "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
+  },
+  "deal": {
+    "company": "Gameto",
+    "amount": "jusqu'à 1,38 Md$",
+    "round": "M&A",
+    "thesis": "Le suisse Ferring rachète Gameto (New York) pour un maximum de 1,3825 Md$ incluant les jalons (upfront non divulgué) : Fertilo, maturation d'ovocytes en laboratoire via des cellules dérivées d'iPSC, en phase 3 (500 participantes), réduit les deux semaines d'injections hormonales de la FIV classique. Un comparable pour la femtech biotech.",
+    "sector": "Biotech",
+    "url": "https://european-biotechnology.com/latest-news/ferring-to-buy-fertility-biotech-gameto-for-up-to-1-38-billion/"
   },
   "brefsEurope": [
     {
-      "company": "Spago Nanomedical",
-      "place": "Suède",
+      "company": "CasZyme",
+      "place": "Lituanie",
       "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "funding_round",
+      "pillar": "marche",
+      "signalType": "early_partnership",
       "strength": 2,
-      "title": "Spago Nanomedical propose de quitter le Nasdaq First North pour financer la Phase 2a de son radiopharmaceutique Tumorad",
-      "summary": "Le vote est fixé au 19 novembre (90 % requis, environ 65 % des actionnaires favorables) ; l'action a chuté d'environ 54 % le 23 octobre. Une augmentation de capital de juin n'a levé que 15 MSEK : signal de la difficulté des petites biotechs cotées nordiques à se financer."
-      ,"url": "https://european-biotechnology.com/latest-news/spago-nanomedical-seeks-delisting-to-finance-cancer-drug-development/"
+      "title": "CasZyme s'associe à Cirena pour optimiser ses guides ARN longs avec la nucléase Cas12l",
+      "summary": "L'éditeur de nucléases lituanien testera des guides synthétiques de 150–170 nt dans des lymphocytes T primaires ; résultats d'efficacité d'édition attendus début 2027, termes financiers non divulgués.",
+      "url": "https://www.pharmafocuseurope.com/pressreleases/caszyme-and-cirena-to-collaborate"
     }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "ADC",
-    "full": "Antibody-Drug Conjugate (anticorps-médicament conjugué)",
-    "fr": "Anticorps-médicament conjugué",
-    "field": "Oncologie de précision",
-    "definition": "Un ADC est un anticorps qui transporte une chimiothérapie très puissante directement vers les cellules tumorales qui portent une cible précise.",
+    "term": "TCR-T",
+    "full": "T-Cell Receptor engineered T-cell therapy (thérapie par lymphocytes T à récepteur modifié)",
+    "fr": "Lymphocytes T armés d'un récepteur TCR",
+    "field": "Immuno-oncologie · Tumeurs solides",
+    "definition": "On prélève les lymphocytes T du patient, on leur greffe un récepteur (TCR) qui reconnaît un fragment de protéine tumorale présenté par les cellules cancéreuses, puis on les réinjecte.",
     "parts": [
-      { "label": "Anticorps", "role": "le guidage vers la cible tumorale (par exemple FRα)" },
-      { "label": "Linker", "role": "l'attache, stable dans le sang et clivée dans la cellule" },
-      { "label": "Charge cytotoxique", "role": "l'ogive (par exemple exatécan, inhibiteur de topoisomérase I)" }
+      {
+        "label": "TCR",
+        "role": "le détecteur de la cible"
+      },
+      {
+        "label": "Peptide-HLA",
+        "role": "la cible présentée à la surface de la tumeur"
+      },
+      {
+        "label": "Lymphocyte T",
+        "role": "le tueur"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "L'anticorps se fixe à une protéine présente à la surface des cellules tumorales." },
-      { "n": "2", "h": "Internalisation", "t": "Le complexe est avalé par la cellule cancéreuse, où le linker est clivé." },
-      { "n": "3", "h": "Libération", "t": "La charge cytotoxique est libérée et détruit la cellule, en épargnant davantage les tissus sains." }
+      {
+        "n": "1",
+        "h": "Prélèvement",
+        "t": "Les lymphocytes T sont collectés chez le patient par leucaphérèse."
+      },
+      {
+        "n": "2",
+        "h": "Ingénierie",
+        "t": "Un TCR ciblant un peptide tumoral (ex. PRAME) est introduit dans les cellules, puis elles sont multipliées."
+      },
+      {
+        "n": "3",
+        "h": "Réinjection",
+        "t": "Les cellules modifiées reconnaissent et détruisent les cellules tumorales exprimant la cible."
+      }
     ],
-    "why": "Les ADC sont l'une des classes les plus actives en M&A et licensing oncologie. Les résultats de Phase 3 de Rina-S chez Genmab (rachat de ProfoundBio) renforcent la thèse « nouvelle charge, nouvelle cible » et valorisent les plateformes européennes de linkers et de charges.",
+    "why": "Contrairement aux CAR-T, les TCR-T voient des cibles intracellulaires, d'où un potentiel en tumeurs solides ; l'enjeu VC est la sélection des patients (HLA, expression de la cible) et le coût de fabrication.",
     "startups": [
-      { "name": "Adcytherix", "use": "ADC à nouvelles charges (candidat ADCX-020) ; Series A de 105 M€ menée par Bpifrance (oct. 2025).", "place": "Marseille, France" },
-      { "name": "Adcendo", "use": "ADC cliniques dans les sarcomes et cancers mésenchymateux (ADCE-T02, ADCE-D01) ; Series C de 75 M$ (avr. 2026).", "place": "Copenhague, Danemark" },
-      { "name": "Oncomatryx", "use": "ADC ciblant le microenvironnement tumoral via les fibroblastes associés au cancer ; Series B de 67 M$ (mars 2026).", "place": "Espagne" }
+      {
+        "name": "Anocca",
+        "use": "Premier essai européen de TCR-T non viral édité par gène (VIDAR-1) ciblant KRAS dans le cancer du pancréas ; 46 M$ levés en août 2025",
+        "place": "Suède"
+      },
+      {
+        "name": "Pan Cancer T",
+        "use": "Spin-out d'Erasmus MC : TCR-T contre le cancer du sein triple négatif, 10 M€ levés pour un essai first-in-human",
+        "place": "Pays-Bas"
+      },
+      {
+        "name": "Captain T Cell",
+        "use": "Spin-off du Max Delbrück Center : pipeline TCR-T de nouvelle génération vers une phase I",
+        "place": "Allemagne"
+      }
     ],
     "sources": [
-      { "publisher": "European Biotechnology", "title": "Genmab's acquisition spree starts to pay off with new ovarian and colorectal cancer data", "url": "https://european-biotechnology.com/latest-news/genmabs-acquisition-spree-starts-to-pay-off-with-new-ovarian-and-colorectal-cancer-data/" },
-      { "publisher": "Adcytherix", "title": "Adcytherix Raises EUR 105M Series A to Accelerate Breakthrough Antibody-Drug Conjugate Pipeline", "url": "https://www.adcytherix.com/post/adcytherix-raises-eur-105m-series-a-to-accelerate-breakthrough-antibody-drug-conjugate-pipeline-with" },
-      { "publisher": "Adcendo", "title": "Adcendo ApS Completes $75 Million Series C Financing", "url": "https://adcendo.com/adcendo-aps-completes-75-million-series-c-financing-to-continue-advancing-first-and-best-in-class-clinical-adc-pipeline/" }
+      {
+        "publisher": "European Biotechnology Magazine",
+        "title": "Immatics shows off its PRAME bispecific data at ESMO 2026",
+        "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
+      },
+      {
+        "publisher": "Labiotech.eu",
+        "title": "Europe's TCR Therapy Scene Gains Traction with €40M Series B",
+        "url": "https://www.labiotech.eu/trends-news/tcr-therapy-anocca/"
+      },
+      {
+        "publisher": "Tech Funding News",
+        "title": "Pan Cancer T raises €10M for TCR-T therapy in triple-negative breast cancer",
+        "url": "https://techfundingnews.com/pan-cancer-t-raises-10m-tcr-t-therapy-triple-negative-breast-cancer/"
+      },
+      {
+        "publisher": "BioSpace",
+        "title": "Captain T Cell Closes Financing Round to Advance its TCR-T Pipeline Into the Clinic",
+        "url": "https://www.biospace.com/press-releases/captain-t-cell-closes-financing-round-to-advance-its-proprietary-next-generation-tcr-t-pipeline-into-the-clinic"
+      }
     ]
   }
 }
