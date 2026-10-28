@@ -1,84 +1,145 @@
 {
-  "dateLong": "Oct 27, 2026",
+  "dateLong": "Oct 28, 2026",
   "ticker": [
-    { "company": "ADSILICO", "amount": "£10M", "kind": "lev" },
-    { "company": "CHD", "amount": "Seed", "kind": "new" },
-    { "company": "DYAMEO", "amount": "€3M", "kind": "lev" },
-    { "company": "CORELINE SOFT", "amount": "FDA", "kind": "reg" },
-    { "company": "DYAMEO", "amount": "Pre-CE", "kind": "tech" }
-  ],
-  "lead": {
-    "kicker": "Funding · Virtual trials",
-    "title": "adsilico (University of Leeds spin-out) raises £10M Series A led by PXN Ventures to test medical devices on virtual patients",
-    "deck": "The company uses AI to generate virtual hearts and blood vessels from anonymised scans, then simulates device performance across varied populations (age, sex, ethnicity, body size, disease). Proceeds will extend the platform to neurovascular devices (flow diverters for brain aneurysms) and grow the team from 14 to 34: an in-silico building block that can cut the cost and recruitment bias of device trials.",
-    "company": "adsilico",
-    "stage": "Series A",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/"
-  },
-  "milestone": {
-    "company": "CHD (Connected Health Development)",
-    "milestone": "First funding",
-    "title": "CHD wins CHF 150,000 from Venture Kick, first tranche of its seed, for MONI2, a connected belt for monitoring high-risk pregnancies",
-    "summary": "The Biopôle-based startup is developing MONI2, a washable textile belt that records maternal and fetal ECG, contractions, fetal movements and fetal position, with an app for the patient and a web portal for clinicians. Prototype validation by Q2 2027, consumer version in early 2028, medical version targeting FDA clearance at end of 2029.",
-    "why": "About 15% of births worldwide are high-risk: home monitoring relieves hospitals. The seed is said to be closing in October, with other private investors and a foundation already committed: a round to track before it shuts.",
-    "place": "Lausanne",
-    "sector": "Digital Health",
-    "signalType": "grant_award",
-    "url": "https://www.startupticker.ch/en/news/chf-150-000-to-bring-chd-pregnancy-monitoring-into-patients-homes"
-  },
-  "deal": {
-    "company": "Dyameo",
-    "amount": "€3M",
-    "round": "Funding round",
-    "thesis": "The round (Bpifrance Amorçage Industriel, Medevice Capital and NACO reinvesting, OBRATORI, Estellior Capital) funds commercialisation of TempoTouch, an intraoperative system that tells the surgeon within moments whether the specimen contains cancer cells, to limit reoperations. Clinical trial completed at six French centres, CE mark expected in 2026: a typical raise just ahead of the regulatory catalyst.",
-    "sector": "Diagnostics",
-    "url": "https://presse.bpifrance.fr/dyameo-leve-3-millions-deuros-pour-commercialiser-ses-solutions-au-service-de-la-chirurgie-du-cancer/?lang=fra"
-  },
-  "brefsEurope": [],
-  "brefsIntl": [
     {
-      "company": "Coreline Soft",
-      "place": "Seoul",
-      "sector": "Imaging",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Coreline Soft wins FDA 510(k) for AVIEW Aorta Metrics, its chest-CT aortic analysis software",
-      "summary": "The software automatically segments the aorta, measures diameters by anatomical zone and produces 3D views: the company's 13th 510(k) clearance, widening its chest-CT AI portfolio in the US. A comparable for European imaging-AI vendors.",
-      "url": "https://www.medicaldevice-network.com/news/fda-coreline-softs-aview-aorta/"
+      "company": "ACORAI",
+      "amount": "FDA BDD",
+      "kind": "reg"
+    },
+    {
+      "company": "MED-EL",
+      "amount": "1st implants",
+      "kind": "tech"
+    },
+    {
+      "company": "IMPLANTICA",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "MAGNOLIA",
+      "amount": "Fund",
+      "kind": "new"
     }
   ],
+  "lead": {
+    "kicker": "Regulatory signal · Cardio",
+    "title": "Sweden's Acorai goes FDA-first: its non-invasive cardiac pressure sensor, already a Breakthrough Device, will reach US patients before Europe",
+    "deck": "The Swedish startup estimates intracardiac pressure in heart failure patients without a catheter: about 2,000 patients studied so far, 2,800 more being enrolled, a US launch targeted around Q3 2027 and MDR marking afterwards. CEO Filip Peters says reimbursement, more than regulation, is Europe's bottleneck — a textbook case of the transatlantic lag for investors.",
+    "company": "Acorai",
+    "sector": "Cardio",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
+    "strength": 4,
+    "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+  },
+  "milestone": {
+    "company": "MED-EL",
+    "milestone": "First out-of-trial cases",
+    "title": "MED-EL: first totally implantable cochlear implants placed outside a clinical trial, in Vienna and Sankt Pölten",
+    "summary": "MED-EL's TICI UNICO, the first commercial cochlear implant with every component, microphone included, under the skin, has just been implanted outside a study for the first time in Austria (about 40 patients worldwide had one until now).",
+    "why": "No external processor: the implant becomes \"invisible\", a major usage shift for severe hearing loss after roughly 15 years of development.",
+    "place": "Innsbruck",
+    "sector": "Neurotech",
+    "signalType": "clinical_update",
+    "url": "https://www.news.at/technik/horhilfe-pioniere-stellen-erstes-unsichtbares-cochlea-implantat-vor"
+  },
+  "brefsEurope": [
+    {
+      "company": "Implantica",
+      "place": "Vaduz",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Implantica trains a US USC surgeon on RefluxStop in Mainz ahead of the first US procedures",
+      "summary": "Dr. John Lipham (USC) observed RefluxStop procedures in Mainz on October 26; the anti-reflux device won FDA approval in August 2026 and its first US procedures are scheduled at USC.",
+      "url": "https://www.prnewswire.com/news-releases/implantica-announces-leading-us-surgeon-participates-in-refluxstop-training-surgeries-302920404.html"
+    },
+    {
+      "company": "Magnolia MedTech Fund",
+      "place": "Enschede",
+      "sector": "Fonds",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "The Netherlands launches the Magnolia MedTech Fund to finance university medtech spin-offs",
+      "summary": "Coordinated by the University of Twente via the TTT MedTech programme (Ministry of Economic Affairs) and managed by Thuja Capital, the fund is backed by VGZ, Nolato Unitron, Stichting Santiago and RVO; size undisclosed.",
+      "url": "https://news.europawire.eu/dutch-medtech-consortium-launches-magnolia-fund-to-support-university-spin-offs-and-healthcare-innovation/eu-press-release/2026/10/26/15/19/06/184360/"
+    }
+  ],
+  "brefsIntl": [],
   "word": {
-    "term": "In Silico Trial",
-    "full": "In Silico Trial (computer-simulated clinical trial)",
-    "fr": "In silico trial / virtual patients",
-    "field": "Simulation & regulatory",
-    "definition": "An in silico trial replaces or complements part of real-patient trials with computer simulations run on a population of virtual patients.",
+    "term": "Remote Hemodynamic Monitoring",
+    "full": "Remote Hemodynamic Monitoring",
+    "fr": "Remote monitoring of cardiac pressures",
+    "field": "Cardiology · Heart failure",
+    "definition": "Continuously measuring, remotely, the pressures inside the heart or pulmonary arteries to catch decompensation before symptoms appear.",
     "parts": [
-      { "label": "Virtual patients", "role": "the simulated population, built from anonymised scans" },
-      { "label": "Physics model", "role": "the engine that computes how the device behaves in the body" },
-      { "label": "Credibility file", "role": "the evidence showing the regulator the model is reliable" }
+      {
+        "label": "Sensor",
+        "role": "implanted (pulmonary artery, left atrium) or external non-invasive"
+      },
+      {
+        "label": "Transmission",
+        "role": "sends readings to the cloud"
+      },
+      {
+        "label": "Algorithm / care team",
+        "role": "alerts and treatment adjustment"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Build the cohort", "t": "Virtual anatomies (heart, vessels) are generated from scans, varying age, sex, body size or disease." },
-      { "n": "2", "h": "Simulate the device", "t": "A physics model computes the implant's or device's performance on each virtual patient." },
-      { "n": "3", "h": "Prove credibility", "t": "The context of use and model validation are documented, following the ASME V&V 40 framework adopted by the FDA, so the result counts in a regulatory file." }
+      {
+        "n": "1",
+        "h": "Measure",
+        "t": "The sensor reads cardiac filling pressures, today often obtained by right heart catheterization."
+      },
+      {
+        "n": "2",
+        "h": "Transmit",
+        "t": "Data goes from the patient's home or the hospital to a cloud platform."
+      },
+      {
+        "n": "3",
+        "h": "Act",
+        "t": "A pressure rise triggers an alert: the physician adjusts diuretics before a hospitalization."
+      }
     ],
-    "why": "A device trial is costly and enrols few patients (often hundreds), with women under-represented. Simulation cuts cost and tests subgroups: a picks-and-shovels thesis on which adsilico just raised £10M. Limit: the FDA covers physics-based models, not standalone machine-learning models.",
+    "why": "Heart failure hospitalizations weigh heavily on health systems; the non-invasive approach (Acorai) aims to widen a market so far limited to implanted patients, but European reimbursement remains the lock.",
     "startups": [
-      { "name": "adsilico", "use": "Leeds spin-out: AI-generated virtual hearts and vessels then simulated; £10M Series A led by PXN Ventures (Oct 2026).", "place": "Leeds, UK" },
-      { "name": "Virtonomy", "use": "Virtual patients and multiphysics simulation for devices; Series A of over €5M led by Companisto (Dec 2025).", "place": "Munich, Germany" },
-      { "name": "Sim&Cure", "use": "Digital twin of brain aneurysms to plan implant placement; Sim&Size software cleared via FDA 510(k).", "place": "Montpellier, France" }
+      {
+        "name": "Acorai",
+        "use": "Non-invasive cardiac pressure sensor (FDA Breakthrough Device, US launch targeted around Q3 2027)",
+        "place": "Sweden"
+      },
+      {
+        "name": "Vectorious Medical Technologies",
+        "use": "V-LAP implantable left atrial pressure sensor, studied in the VECTOR-HF trials",
+        "place": "Israel"
+      },
+      {
+        "name": "Cardiosense",
+        "use": "CardioTag wearable, a competing non-invasive approach",
+        "place": "United States"
+      }
     ],
     "sources": [
-      { "publisher": "FDA", "title": "Assessing the Credibility of Computational Modeling and Simulation in Medical Device Submissions", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/assessing-credibility-computational-modeling-and-simulation-medical-device-submissions" },
-      { "publisher": "Tech Funding News", "title": "Leeds spinout adsilico lands £10M Series A to fix medtech's trial diversity gap", "url": "https://techfundingnews.com/adsilico-10m-series-a-ai-virtual-patients-medtech/" },
-      { "publisher": "Munich Startup", "title": "Virtonomy closes Series A", "url": "https://www.munich-startup.de/en/news/virtonomy-closes-series-a" },
-      { "publisher": "Sim&Cure", "title": "Sim&Cure announces U.S. FDA 510(k) clearance for Sim&Size software", "url": "https://www.linnc.com/News/Press-releases/Sim-Cure-Announces-U.S.-FDA-510-k-Clearance-for-Sim-Size-software" }
+      {
+        "publisher": "Euractiv / EU Perspectives",
+        "title": "European heart device will reach US patients first",
+        "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+      },
+      {
+        "publisher": "ScienceDirect",
+        "title": "Current and Future Landscape of Remote Hemodynamic Monitoring",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1071916425003884"
+      },
+      {
+        "publisher": "MDPI Journal of Clinical Medicine",
+        "title": "Heart Failure Remote Monitoring: A Review and Implementation How-To",
+        "url": "https://www.mdpi.com/2077-0383/12/19/6200"
+      }
     ]
   }
 }

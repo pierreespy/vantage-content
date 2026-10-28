@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "words": [
+    {
+      "term": "Remote Hemodynamic Monitoring",
+      "full": "Remote Hemodynamic Monitoring (suivi hémodynamique à distance)",
+      "fr": "Suivi à distance des pressions cardiaques",
+      "field": "Cardiologie · Insuffisance cardiaque",
+      "definition": "Mesurer en continu, à distance, les pressions à l'intérieur du cœur ou des artères pulmonaires pour détecter une décompensation avant l'apparition des symptômes.",
+      "parts": [
+        {
+          "label": "Capteur",
+          "role": "implanté (artère pulmonaire, oreillette gauche) ou externe non invasif"
+        },
+        {
+          "label": "Transmission",
+          "role": "envoi des mesures vers le cloud"
+        },
+        {
+          "label": "Algorithme / équipe",
+          "role": "alertes et ajustement du traitement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mesure",
+          "t": "Le capteur relève les pressions de remplissage du cœur, aujourd'hui souvent obtenues par cathétérisme cardiaque droit."
+        },
+        {
+          "n": "2",
+          "h": "Transmission",
+          "t": "Les données sont envoyées à domicile ou à l'hôpital vers une plateforme cloud."
+        },
+        {
+          "n": "3",
+          "h": "Action",
+          "t": "Une hausse de pression déclenche une alerte : le médecin adapte les diurétiques avant l'hospitalisation."
+        }
+      ],
+      "why": "Les hospitalisations pour insuffisance cardiaque pèsent lourd sur les systèmes de santé ; l'approche non invasive (Acorai) cherche à élargir un marché jusque-là limité aux patients implantés, mais le remboursement européen reste le verrou.",
+      "startups": [
+        {
+          "name": "Acorai",
+          "use": "Capteur non invasif de pressions cardiaques (Breakthrough Device FDA, lancement US visé vers le T3 2027)",
+          "place": "Suède"
+        },
+        {
+          "name": "Vectorious Medical Technologies",
+          "use": "Capteur implantable de pression de l'oreillette gauche V-LAP, étudié dans les essais VECTOR-HF",
+          "place": "Israël"
+        },
+        {
+          "name": "Cardiosense",
+          "use": "Wearable CardioTag, approche non invasive concurrente",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Euractiv / EU Perspectives",
+          "title": "European heart device will reach US patients first",
+          "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+        },
+        {
+          "publisher": "ScienceDirect",
+          "title": "Current and Future Landscape of Remote Hemodynamic Monitoring",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1071916425003884"
+        },
+        {
+          "publisher": "MDPI Journal of Clinical Medicine",
+          "title": "Heart Failure Remote Monitoring: A Review and Implementation How-To",
+          "url": "https://www.mdpi.com/2077-0383/12/19/6200"
+        }
+      ],
+      "date": "2026-10-28",
+      "dateLong": "28 oct. 2026"
+    },
     {
       "term": "Federated Learning",
       "full": "Federated Learning (apprentissage fédéré)",

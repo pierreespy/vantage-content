@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "words": [
+    {
+      "term": "Remote Hemodynamic Monitoring",
+      "full": "Remote Hemodynamic Monitoring",
+      "fr": "Remote monitoring of cardiac pressures",
+      "field": "Cardiology · Heart failure",
+      "definition": "Continuously measuring, remotely, the pressures inside the heart or pulmonary arteries to catch decompensation before symptoms appear.",
+      "parts": [
+        {
+          "label": "Sensor",
+          "role": "implanted (pulmonary artery, left atrium) or external non-invasive"
+        },
+        {
+          "label": "Transmission",
+          "role": "sends readings to the cloud"
+        },
+        {
+          "label": "Algorithm / care team",
+          "role": "alerts and treatment adjustment"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Measure",
+          "t": "The sensor reads cardiac filling pressures, today often obtained by right heart catheterization."
+        },
+        {
+          "n": "2",
+          "h": "Transmit",
+          "t": "Data goes from the patient's home or the hospital to a cloud platform."
+        },
+        {
+          "n": "3",
+          "h": "Act",
+          "t": "A pressure rise triggers an alert: the physician adjusts diuretics before a hospitalization."
+        }
+      ],
+      "why": "Heart failure hospitalizations weigh heavily on health systems; the non-invasive approach (Acorai) aims to widen a market so far limited to implanted patients, but European reimbursement remains the lock.",
+      "startups": [
+        {
+          "name": "Acorai",
+          "use": "Non-invasive cardiac pressure sensor (FDA Breakthrough Device, US launch targeted around Q3 2027)",
+          "place": "Sweden"
+        },
+        {
+          "name": "Vectorious Medical Technologies",
+          "use": "V-LAP implantable left atrial pressure sensor, studied in the VECTOR-HF trials",
+          "place": "Israel"
+        },
+        {
+          "name": "Cardiosense",
+          "use": "CardioTag wearable, a competing non-invasive approach",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Euractiv / EU Perspectives",
+          "title": "European heart device will reach US patients first",
+          "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+        },
+        {
+          "publisher": "ScienceDirect",
+          "title": "Current and Future Landscape of Remote Hemodynamic Monitoring",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1071916425003884"
+        },
+        {
+          "publisher": "MDPI Journal of Clinical Medicine",
+          "title": "Heart Failure Remote Monitoring: A Review and Implementation How-To",
+          "url": "https://www.mdpi.com/2077-0383/12/19/6200"
+        }
+      ],
+      "date": "2026-10-28",
+      "dateLong": "Oct 28, 2026"
+    },
     {
       "term": "Federated Learning",
       "full": "Federated Learning",
