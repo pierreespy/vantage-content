@@ -1,144 +1,198 @@
 {
-  "dateLong": "Oct 28, 2026",
+  "dateLong": "Oct 31, 2026",
   "ticker": [
     {
-      "company": "ACORAI",
-      "amount": "FDA BDD",
+      "company": "GRADIENTECH",
+      "amount": "CE IVDR",
       "kind": "reg"
     },
     {
-      "company": "MED-EL",
-      "amount": "1st implants",
-      "kind": "tech"
-    },
-    {
-      "company": "IMPLANTICA",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "MAGNOLIA",
-      "amount": "Fund",
+      "company": "POLASIGHT",
+      "amount": "Spin-off",
       "kind": "new"
+    },
+    {
+      "company": "ZURIMED",
+      "amount": "M&A",
+      "kind": "mna"
+    },
+    {
+      "company": "EMPATICA",
+      "amount": "CE + FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "STIMCARDIO",
+      "amount": "$30M",
+      "kind": "lev"
+    },
+    {
+      "company": "SETPOINT",
+      "amount": "1st patient",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Regulatory signal · Cardio",
-    "title": "Sweden's Acorai goes FDA-first: its non-invasive cardiac pressure sensor, already a Breakthrough Device, will reach US patients before Europe",
-    "deck": "The Swedish startup estimates intracardiac pressure in heart failure patients without a catheter: about 2,000 patients studied so far, 2,800 more being enrolled, a US launch targeted around Q3 2027 and MDR marking afterwards. CEO Filip Peters says reimbursement, more than regulation, is Europe's bottleneck — a textbook case of the transatlantic lag for investors.",
-    "company": "Acorai",
-    "sector": "Cardio",
-    "pillar": "marche",
+    "kicker": "IVDR CE mark · Diagnostics",
+    "title": "Gradientech (Uppsala) extends its QuickMIC rapid resistance test to last-resort antibiotics, including cefiderocol",
+    "deck": "The new QuickMIC GN02 panel, CE-marked under IVDR, returns susceptibility results for multidrug-resistant Gram-negative bacteria in 3 h 14 min, with 95.5% essential agreement and 96.0% categorical agreement. The system already holds FDA Breakthrough Device status but remains investigational-use only in the US, without a 510(k): the next step to watch.",
+    "company": "Gradientech",
+    "sector": "Diagnostics",
+    "pillar": "innovation",
     "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+    "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
   },
   "milestone": {
-    "company": "MED-EL",
-    "milestone": "First out-of-trial cases",
-    "title": "MED-EL: first totally implantable cochlear implants placed outside a clinical trial, in Vienna and Sankt Pölten",
-    "summary": "MED-EL's TICI UNICO, the first commercial cochlear implant with every component, microphone included, under the skin, has just been implanted outside a study for the first time in Austria (about 40 patients worldwide had one until now).",
-    "why": "No external processor: the implant becomes \"invisible\", a major usage shift for severe hearing loss after roughly 15 years of development.",
-    "place": "Innsbruck",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://www.news.at/technik/horhilfe-pioniere-stellen-erstes-unsichtbares-cochlea-implantat-vor"
+    "company": "PolaSight",
+    "milestone": "Road to CE mark",
+    "title": "PolaSight (University of Bern spin-off) receives a CHF 100,000 Tech Seed loan from FIT for its CE mark",
+    "summary": "PolaOne maps an entire fresh sample in about a minute, without staining, versus 20 to 40 minutes for a standard frozen section. The loan funds the CE mark targeted for early 2027 and the first hospital installations.",
+    "why": "Less time under anaesthesia and fewer repeat operations: a typical academic spin-off ahead of its first regulatory milestone, before any funding round.",
+    "place": "Bern",
+    "sector": "Diagnostics",
+    "signalType": "grant_award",
+    "url": "https://www.startupticker.ch/en/news/biodelphis-therapeutics-polasight-and-swiss-soil-get-fit-backing"
+  },
+  "deal": {
+    "company": "ZuriMED",
+    "amount": "Undisclosed",
+    "round": "M&A",
+    "thesis": "Stryker has closed its acquisition of ZuriMED, the Swiss start-up behind the FiberLocker rotator cuff reinforcement (510(k) in 2024, US multicentre trial ongoing). A classic tuck-in: the acquirer buys an already-cleared device before trial data are published.",
+    "sector": "MedTech",
+    "url": "https://www.medtechdive.com/news/stryker-completes-zurimed-takeover/872835/"
   },
   "brefsEurope": [
     {
-      "company": "Implantica",
-      "place": "Vaduz",
-      "sector": "MedTech",
+      "company": "Empatica",
+      "place": "Milan",
+      "sector": "Digital Health",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Implantica trains a US USC surgeon on RefluxStop in Mainz ahead of the first US procedures",
-      "summary": "Dr. John Lipham (USC) observed RefluxStop procedures in Mainz on October 26; the anti-reflux device won FDA approval in August 2026 and its first US procedures are scheduled at USC.",
-      "url": "https://www.prnewswire.com/news-releases/implantica-announces-leading-us-surgeon-participates-in-refluxstop-training-surgeries-302920404.html"
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "Empatica launches WellPD, a home Parkinson's monitoring system available in 12 countries",
+      "summary": "A wrist unit and app measuring bradykinesia, dyskinesia and tremor with validated algorithms, described as FDA-cleared and CE-marked. It builds on the algorithms of PKG Health, acquired by Empatica in 2025.",
+      "url": "https://www.medicaldevice-network.com/news/empatica-wellpd-parkinsons-wearable-device/"
     },
     {
-      "company": "Magnolia MedTech Fund",
-      "place": "Enschede",
-      "sector": "Fonds",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "The Netherlands launches the Magnolia MedTech Fund to finance university medtech spin-offs",
-      "summary": "Coordinated by the University of Twente via the TTT MedTech programme (Ministry of Economic Affairs) and managed by Thuja Capital, the fund is backed by VGZ, Nolato Unitron, Stichting Santiago and RVO; size undisclosed.",
-      "url": "https://news.europawire.eu/dutch-medtech-consortium-launches-magnolia-fund-to-support-university-spin-offs-and-healthcare-innovation/eu-press-release/2026/10/26/15/19/06/184360/"
+      "company": "Episurf Medical",
+      "place": "Stockholm",
+      "sector": "MedTech",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 2,
+      "title": "Episurf signs a letter of intent to sell its medtech business (Episealer, Epiguide) to Canada's Oligo Medic",
+      "summary": "Price undisclosed, no sale completed. Episurf is refocusing on real estate: a small cartilage-implant medtech looking for an industrial buyer.",
+      "url": "https://nordiclifescience.org/episurf-moves-to-sell-medtech-business/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "StimCardio Medical",
+      "place": "United States",
+      "sector": "Cardio",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "StimCardio raises $30M Series A led by Metis Medtech for its Rhyvive neuromodulation wristband",
+      "summary": "The non-invasive adjunct to atrial fibrillation ablation reduced recurrences in a randomized sham-controlled pilot. Proceeds fund the NeuroPulse 2 pivotal trial and an FDA De Novo request.",
+      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
+    },
+    {
+      "company": "SetPoint Medical",
+      "place": "Boston",
+      "sector": "Neurotech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "SetPoint Medical treats its first commercial patient with its vagus nerve neurostimulator for rheumatoid arthritis",
+      "summary": "First case at Beth Israel Deaconess Medical Center after FDA approval. The company plans to study Crohn's disease and multiple sclerosis next.",
+      "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
+    },
+    {
+      "company": "Pharaoh Neuro",
+      "place": "Minnesota",
+      "sector": "Neurotech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "FDA grants Breakthrough Device status to Pharaoh Neuro's Neurapheresis for subarachnoid haemorrhage",
+      "summary": "The closed-loop system filters the patient's own cerebrospinal fluid. Founded in 2024, the company raised a $20M Series A in February 2026.",
+      "url": "https://www.medicaldevice-network.com/news/pharaoh-csf-management-system-secures-fda-breakthrough-designation/"
+    }
+  ],
   "word": {
-    "term": "Remote Hemodynamic Monitoring",
-    "full": "Remote Hemodynamic Monitoring",
-    "fr": "Remote monitoring of cardiac pressures",
-    "field": "Cardiology · Heart failure",
-    "definition": "Continuously measuring, remotely, the pressures inside the heart or pulmonary arteries to catch decompensation before symptoms appear.",
+    "term": "Rapid AST",
+    "full": "Rapid Antimicrobial Susceptibility Testing",
+    "fr": "Rapid antibiotic susceptibility test",
+    "field": "Diagnostics · Antimicrobial resistance",
+    "definition": "A test that shows within hours, instead of 1 to 2 days, which antibiotics still kill a patient's bacteria.",
     "parts": [
       {
-        "label": "Sensor",
-        "role": "implanted (pulmonary artery, left atrium) or external non-invasive"
+        "label": "Cartridge / panel",
+        "role": "the antibiotics to test"
       },
       {
-        "label": "Transmission",
-        "role": "sends readings to the cloud"
+        "label": "Phenotypic detection",
+        "role": "watching bacterial growth"
       },
       {
-        "label": "Algorithm / care team",
-        "role": "alerts and treatment adjustment"
+        "label": "Software",
+        "role": "turning it into susceptible / resistant"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Measure",
-        "t": "The sensor reads cardiac filling pressures, today often obtained by right heart catheterization."
+        "h": "Sampling",
+        "t": "Bacteria are isolated from blood or another sample."
       },
       {
         "n": "2",
-        "h": "Transmit",
-        "t": "Data goes from the patient's home or the hospital to a cloud platform."
+        "h": "Exposure",
+        "t": "They are exposed to several antibiotics at different concentrations."
       },
       {
         "n": "3",
-        "h": "Act",
-        "t": "A pressure rise triggers an alert: the physician adjusts diuretics before a hospitalization."
+        "h": "Reading",
+        "t": "Growth is measured and the algorithm returns the minimum inhibitory concentration and the verdict."
       }
     ],
-    "why": "Heart failure hospitalizations weigh heavily on health systems; the non-invasive approach (Acorai) aims to widen a market so far limited to implanted patients, but European reimbursement remains the lock.",
+    "why": "Every hour saved before the right antibiotic counts in sepsis, and resistance pushes hospitals to pay for speed. Systems are capital-heavy with recurring test and consumable revenue, but the regulatory path (IVDR, 510(k)) is long.",
     "startups": [
       {
-        "name": "Acorai",
-        "use": "Non-invasive cardiac pressure sensor (FDA Breakthrough Device, US launch targeted around Q3 2027)",
-        "place": "Sweden"
+        "name": "Gradientech",
+        "use": "QuickMIC, microfluidic susceptibility testing; GN02 panel CE-marked under IVDR, FDA Breakthrough Device status",
+        "place": "Uppsala, Sweden"
       },
       {
-        "name": "Vectorious Medical Technologies",
-        "use": "V-LAP implantable left atrial pressure sensor, studied in the VECTOR-HF trials",
-        "place": "Israel"
+        "name": "Q-linea",
+        "use": "ASTar: susceptibility results from positive blood cultures in ~6 h; FDA 510(k) for the expanded Gram-negative menu in April 2026",
+        "place": "Uppsala, Sweden"
       },
       {
-        "name": "Cardiosense",
-        "use": "CardioTag wearable, a competing non-invasive approach",
+        "name": "Pattern Bioscience",
+        "use": "Single-cell microbiology for ID/AST in ~4 h; $43M Series D in November 2025, Breakthrough Device status for its pneumonia panel",
         "place": "United States"
       }
     ],
     "sources": [
       {
-        "publisher": "Euractiv / EU Perspectives",
-        "title": "European heart device will reach US patients first",
-        "url": "https://euperspectives.eu/2026/10/european-heart-device-will-reach-us-patients-first-eu-is-failing-to-fund-innovation-its-ceo-says/"
+        "publisher": "Nordic Life Science",
+        "title": "Gradientech adds last-resort antibiotic to rapid resistance test",
+        "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
       },
       {
-        "publisher": "ScienceDirect",
-        "title": "Current and Future Landscape of Remote Hemodynamic Monitoring",
-        "url": "https://www.sciencedirect.com/science/article/pii/S1071916425003884"
+        "publisher": "Inderes",
+        "title": "Q-linea announces FDA clearance of expanded ASTar blood testing menu",
+        "url": "https://www.inderes.fi/en/releases/q-linea-announces-fda-clearance-of-expanded-astar-blood-testing-menu"
       },
       {
-        "publisher": "MDPI Journal of Clinical Medicine",
-        "title": "Heart Failure Remote Monitoring: A Review and Implementation How-To",
-        "url": "https://www.mdpi.com/2077-0383/12/19/6200"
+        "publisher": "360Dx",
+        "title": "After Series C Financing, Pattern Bioscience Preps Rapid AST System",
+        "url": "https://www.360dx.com/infectious-disease/after-series-c-financing-pattern-bioscience-preps-rapid-ast-system"
       }
     ]
   }

@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-31",
   "words": [
+    {
+      "term": "Rapid AST",
+      "full": "Rapid Antimicrobial Susceptibility Testing",
+      "fr": "Rapid antibiotic susceptibility test",
+      "field": "Diagnostics · Antimicrobial resistance",
+      "definition": "A test that shows within hours, instead of 1 to 2 days, which antibiotics still kill a patient's bacteria.",
+      "parts": [
+        {
+          "label": "Cartridge / panel",
+          "role": "the antibiotics to test"
+        },
+        {
+          "label": "Phenotypic detection",
+          "role": "watching bacterial growth"
+        },
+        {
+          "label": "Software",
+          "role": "turning it into susceptible / resistant"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sampling",
+          "t": "Bacteria are isolated from blood or another sample."
+        },
+        {
+          "n": "2",
+          "h": "Exposure",
+          "t": "They are exposed to several antibiotics at different concentrations."
+        },
+        {
+          "n": "3",
+          "h": "Reading",
+          "t": "Growth is measured and the algorithm returns the minimum inhibitory concentration and the verdict."
+        }
+      ],
+      "why": "Every hour saved before the right antibiotic counts in sepsis, and resistance pushes hospitals to pay for speed. Systems are capital-heavy with recurring test and consumable revenue, but the regulatory path (IVDR, 510(k)) is long.",
+      "startups": [
+        {
+          "name": "Gradientech",
+          "use": "QuickMIC, microfluidic susceptibility testing; GN02 panel CE-marked under IVDR, FDA Breakthrough Device status",
+          "place": "Uppsala, Sweden"
+        },
+        {
+          "name": "Q-linea",
+          "use": "ASTar: susceptibility results from positive blood cultures in ~6 h; FDA 510(k) for the expanded Gram-negative menu in April 2026",
+          "place": "Uppsala, Sweden"
+        },
+        {
+          "name": "Pattern Bioscience",
+          "use": "Single-cell microbiology for ID/AST in ~4 h; $43M Series D in November 2025, Breakthrough Device status for its pneumonia panel",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Gradientech adds last-resort antibiotic to rapid resistance test",
+          "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+        },
+        {
+          "publisher": "Inderes",
+          "title": "Q-linea announces FDA clearance of expanded ASTar blood testing menu",
+          "url": "https://www.inderes.fi/en/releases/q-linea-announces-fda-clearance-of-expanded-astar-blood-testing-menu"
+        },
+        {
+          "publisher": "360Dx",
+          "title": "After Series C Financing, Pattern Bioscience Preps Rapid AST System",
+          "url": "https://www.360dx.com/infectious-disease/after-series-c-financing-pattern-bioscience-preps-rapid-ast-system"
+        }
+      ],
+      "date": "2026-10-31",
+      "dateLong": "Oct 31, 2026"
+    },
     {
       "term": "RWE",
       "full": "Real-World Evidence",

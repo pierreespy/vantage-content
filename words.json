@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-10-28",
+  "generatedAt": "2026-10-31",
   "words": [
+    {
+      "term": "Rapid AST",
+      "full": "Rapid Antimicrobial Susceptibility Testing (antibiogramme rapide)",
+      "fr": "Antibiogramme rapide",
+      "field": "Diagnostic · Résistance aux antibiotiques",
+      "definition": "Un test qui mesure en quelques heures, au lieu de 1 à 2 jours, quels antibiotiques tuent encore la bactérie d'un patient.",
+      "parts": [
+        {
+          "label": "Cartouche / panel",
+          "role": "les antibiotiques à tester"
+        },
+        {
+          "label": "Détection phénotypique",
+          "role": "observer la croissance bactérienne"
+        },
+        {
+          "label": "Logiciel",
+          "role": "traduire en sensible / résistant"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Les bactéries sont isolées du sang ou d'un autre échantillon."
+        },
+        {
+          "n": "2",
+          "h": "Exposition",
+          "t": "Elles sont mises au contact de plusieurs antibiotiques à différentes concentrations."
+        },
+        {
+          "n": "3",
+          "h": "Lecture",
+          "t": "La croissance est mesurée et l'algorithme rend la concentration minimale inhibitrice et le verdict."
+        }
+      ],
+      "why": "Chaque heure gagnée avant le bon antibiotique compte en sepsis ; la résistance pousse les hôpitaux à payer pour la vitesse. Les systèmes sont à fort capital : tests et consommables récurrents, mais parcours réglementaire (IVDR, 510(k)) long.",
+      "startups": [
+        {
+          "name": "Gradientech",
+          "use": "QuickMIC, antibiogramme en microfluidique ; panel GN02 marqué CE IVDR, statut Breakthrough Device FDA",
+          "place": "Uppsala, Suède"
+        },
+        {
+          "name": "Q-linea",
+          "use": "ASTar : antibiogramme depuis hémocultures positives en ~6 h ; 510(k) FDA du menu Gram-négatif étendu en avril 2026",
+          "place": "Uppsala, Suède"
+        },
+        {
+          "name": "Pattern Bioscience",
+          "use": "Microbiologie unicellulaire pour ID/AST en ~4 h ; Series D de 43 M$ en novembre 2025, statut Breakthrough Device pour le panel pneumonie",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Gradientech adds last-resort antibiotic to rapid resistance test",
+          "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+        },
+        {
+          "publisher": "Inderes",
+          "title": "Q-linea announces FDA clearance of expanded ASTar blood testing menu",
+          "url": "https://www.inderes.fi/en/releases/q-linea-announces-fda-clearance-of-expanded-astar-blood-testing-menu"
+        },
+        {
+          "publisher": "360Dx",
+          "title": "After Series C Financing, Pattern Bioscience Preps Rapid AST System",
+          "url": "https://www.360dx.com/infectious-disease/after-series-c-financing-pattern-bioscience-preps-rapid-ast-system"
+        }
+      ],
+      "date": "2026-10-31",
+      "dateLong": "31 oct. 2026"
+    },
     {
       "term": "RWE",
       "full": "Real-World Evidence (données de vie réelle)",

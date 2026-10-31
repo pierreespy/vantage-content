@@ -2,6 +2,54 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-10-31",
+      "company": "Gradientech",
+      "title": "Gradientech (Uppsala) étend son test de résistance rapide QuickMIC aux antibiotiques de dernier recours, dont le céfidérocol",
+      "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "PolaSight",
+      "title": "PolaSight (spin-off de l'Université de Berne) reçoit un prêt Tech Seed de 100 000 CHF de FIT pour son marquage CE",
+      "url": "https://www.startupticker.ch/en/news/biodelphis-therapeutics-polasight-and-swiss-soil-get-fit-backing"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "ZuriMED",
+      "title": "ZuriMED · M&A",
+      "url": "https://www.medtechdive.com/news/stryker-completes-zurimed-takeover/872835/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "Empatica",
+      "title": "Empatica lance WellPD, système de suivi à domicile de la maladie de Parkinson, disponible dans 12 pays",
+      "url": "https://www.medicaldevice-network.com/news/empatica-wellpd-parkinsons-wearable-device/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "Episurf Medical",
+      "title": "Episurf signe une lettre d'intention pour céder son activité medtech (Episealer, Epiguide) au canadien Oligo Medic",
+      "url": "https://nordiclifescience.org/episurf-moves-to-sell-medtech-business/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "StimCardio Medical",
+      "title": "StimCardio lève 30 M$ en Series A menée par Metis Medtech pour son bracelet de neuromodulation Rhyvive",
+      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "SetPoint Medical",
+      "title": "SetPoint Medical traite son premier patient commercial avec son neurostimulateur du nerf vague contre la polyarthrite rhumatoïde",
+      "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
+    },
+    {
+      "date": "2026-10-31",
+      "company": "Pharaoh Neuro",
+      "title": "La FDA accorde le statut Breakthrough Device à Neurapheresis de Pharaoh Neuro contre l'hémorragie sous-arachnoïdienne",
+      "url": "https://www.medicaldevice-network.com/news/pharaoh-csf-management-system-secures-fda-breakthrough-designation/"
+    },
+    {
       "date": "2026-10-28",
       "company": "Acorai",
       "title": "Acorai (Suède) vise d'abord la FDA : son capteur non invasif de pressions cardiaques, déjà Breakthrough Device, arrivera aux États-Unis avant l'Europe",
@@ -330,108 +378,6 @@
       "company": "Dexcom",
       "title": "NEJM : le capteur de glucose en continu fait passer l'HbA1c de 8,8 % à 7,2 % chez des diabétiques de type 2 sans insuline",
       "url": "https://www.medtechdive.com/news/nejm-study-supports-cgm-use-for-people-with-diabetes-who-dont-take-insulin/833124/"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Siemens Healthineers",
-      "title": "Siemens Healthineers arrête la vente de ses échographes d'imagerie générale pour se recentrer sur l'échographie interventionnelle",
-      "url": "https://www.siemens-healthineers.com/press/releases/ultrasound"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Centinel Spine",
-      "title": "Centinel Spine obtient l'autorisation FDA du prodisc C Nova pour un usage à deux niveaux cervicaux",
-      "url": "https://www.medicaldevice-network.com/news/centinel-spine-fda-two-level-use-prodisc-c-nova/"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "BioReference Health",
-      "title": "BioReference Health · M&A",
-      "url": "https://www.medicaldevice-network.com/news/labcorp-outlays-up-872m-to-acquire-bioreference-laboratory-assets/"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Panakès Partners",
-      "title": "Panakès Partners lève 8,5 M€ auprès de Lombardia Venture STEP pour un véhicule medtech et biotech lombard",
-      "url": "https://www.eu-startups.com/2026/10/italys-panakes-partners-launches-e8-5-million-investment-vehicle-targeting-lombardys-medtech-and-biotech-sectors"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Stryker",
-      "title": "La FDA accorde à Stryker le 510(k) de Sonopet 3, plateforme à ultrasons pour la résection osseuse et des tissus mous",
-      "url": "https://www.medicaldevice-network.com/news/fda-strykers-sonopet-3-platform/"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Think Surgical",
-      "title": "Zimmer Biomet prolonge pour plusieurs années son accord de distribution exclusive du robot TMINI de Think Surgical",
-      "url": "https://www.medtechdive.com/news/zimmer-and-think-surgical-pen-multi-year-extension-to-robotic-surgery-deal/833074/"
-    },
-    {
-      "date": "2026-10-16",
-      "company": "Olympus",
-      "title": "Olympus reçoit une warning letter de la FDA après l'inspection de six sites (États-Unis, Japon, Europe) et chute de 13 % à Tokyo",
-      "url": "https://www.medicaldevice-network.com/news/olympus-shares-plunge-following-fda-warning-letter-over-manufacturing-failures/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "Butterfly Medical",
-      "title": "Butterfly Medical obtient la certification MDR de son implant de rétraction prostatique contre l'hyperplasie bénigne de la prostate",
-      "url": "https://www.medicaldevice-network.com/news/butterfly-medical-eu-mdr-bph-implant/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "VitVio",
-      "title": "VitVio déploie son système d'exploitation chirurgical IA Vetro à l'hôpital universitaire de Gdańsk (UCK)",
-      "url": "https://tech.eu/2026/10/14/vitvio-brings-ai-powered-surgical-operating-system-to-poland-in-uck-gdansk-partnership/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "Proscia",
-      "title": "Proscia · M&A",
-      "url": "https://www.medicaldevice-network.com/news/agilent-acquires-proscia-in-deal-worth-up-to-270m/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "MHRA",
-      "title": "Le régulateur britannique MHRA publie sa stratégie 2030 : conseil scientifique ramené de 90 à 45 jours",
-      "url": "https://www.medicaldevice-network.com/news/uk-mhra-2030-strategy-drug-medical-device-regulation-2/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "Stride",
-      "title": "Stride lève 4,6 M£ en seed pour sa plateforme de santé préventive (ADN, sang, microbiote)",
-      "url": "https://tech.eu/2026/10/14/uk-healthtech-startup-stride-raises-ps46m-to-expand-preventative-health-platform/"
-    },
-    {
-      "date": "2026-10-15",
-      "company": "Providence Medical Technology",
-      "title": "La FDA accorde le 510(k) au CORUS PCSS 3D-T de Providence Medical pour la fusion cervicale postérieure",
-      "url": "https://www.medicaldevice-network.com/news/fda-providence-medicals-corus-spinal-device/"
-    },
-    {
-      "date": "2026-10-14",
-      "company": "Spiro Medical",
-      "title": "Spiro Medical traite son premier patient asthmatique avec un implant de neuromodulation spinale (étude PULSAR)",
-      "url": "https://www.medicaldevice-network.com/news/first-patient-treated-spiros-pulsar-asthma-trial/"
-    },
-    {
-      "date": "2026-10-14",
-      "company": "Endovascular Engineering (E2)",
-      "title": "E2 obtient la double autorisation FDA de Hēlo Return, premier retour sanguin compatible avec l'aspiration continue sous vide",
-      "url": "https://www.medicaldevice-network.com/news/e2-wins-fda-clearances-for-integrated-helo-thrombectomy-platform/"
-    },
-    {
-      "date": "2026-10-14",
-      "company": "Xodus Medical",
-      "title": "Xodus Medical · M&A",
-      "url": "https://www.medtechdive.com/news/steris-inks-21b-xodus-buyout-to-expand-consumables-portfolio/832822/"
-    },
-    {
-      "date": "2026-10-14",
-      "company": "Abram Scientific",
-      "title": "Abram Scientific décroche jusqu'à 8,3 M$ de la DARPA (programme RAPIID) pour son test de coagulation CoagCare",
-      "url": "https://www.medicaldevice-network.com/news/abram-snags-8-us-dod-contract-to-advance-blood-coagulation-diagnostic/"
     }
   ]
 }
