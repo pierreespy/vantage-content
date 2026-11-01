@@ -1,198 +1,166 @@
 {
-  "dateLong": "Oct 31, 2026",
+  "dateLong": "Nov 1, 2026",
   "ticker": [
     {
-      "company": "GRADIENTECH",
-      "amount": "CE IVDR",
-      "kind": "reg"
-    },
-    {
-      "company": "POLASIGHT",
-      "amount": "Spin-off",
+      "company": "N23 HEALTH",
+      "amount": "Award",
       "kind": "new"
     },
     {
-      "company": "ZURIMED",
-      "amount": "M&A",
-      "kind": "mna"
-    },
-    {
-      "company": "EMPATICA",
-      "amount": "CE + FDA",
+      "company": "ABBOTT",
+      "amount": "FDA",
       "kind": "reg"
     },
     {
-      "company": "STIMCARDIO",
-      "amount": "$30M",
-      "kind": "lev"
+      "company": "ROCHE",
+      "amount": "CE",
+      "kind": "reg"
     },
     {
-      "company": "SETPOINT",
-      "amount": "1st patient",
+      "company": "DEEP REASONING AI",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "SENSEONICS",
+      "amount": "1st trial",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "IVDR CE mark · Diagnostics",
-    "title": "Gradientech (Uppsala) extends its QuickMIC rapid resistance test to last-resort antibiotics, including cefiderocol",
-    "deck": "The new QuickMIC GN02 panel, CE-marked under IVDR, returns susceptibility results for multidrug-resistant Gram-negative bacteria in 3 h 14 min, with 95.5% essential agreement and 96.0% categorical agreement. The system already holds FDA Breakthrough Device status but remains investigational-use only in the US, without a 510(k): the next step to watch.",
-    "company": "Gradientech",
-    "sector": "Diagnostics",
-    "pillar": "innovation",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+    "kicker": "New venture · Imaging",
+    "title": "Sweden's N23 Health wins MassChallenge Switzerland prize for handheld-ultrasound breast lump triage",
+    "deck": "The young Swedish company, led by CEO Lisa Falco, lets a trained nurse triage breast lumps with a handheld ultrasound, with no radiologist or internet connection. The Diamond Prize comes as its phase-2 study (5,000 women in Ethiopia) paves the way to CE-MDR marking.",
+    "company": "N23 Health",
+    "sector": "Imagerie",
+    "pillar": "naissances",
+    "signalType": "grant_award",
+    "strength": 3,
+    "url": "https://www.startupticker.ch/en/news/flycatcher-and-trilliome-shine-at-masschallenge-switzerland-awards"
   },
   "milestone": {
-    "company": "PolaSight",
-    "milestone": "Road to CE mark",
-    "title": "PolaSight (University of Bern spin-off) receives a CHF 100,000 Tech Seed loan from FIT for its CE mark",
-    "summary": "PolaOne maps an entire fresh sample in about a minute, without staining, versus 20 to 40 minutes for a standard frozen section. The loan funds the CE mark targeted for early 2027 and the first hospital installations.",
-    "why": "Less time under anaesthesia and fewer repeat operations: a typical academic spin-off ahead of its first regulatory milestone, before any funding round.",
-    "place": "Bern",
-    "sector": "Diagnostics",
-    "signalType": "grant_award",
-    "url": "https://www.startupticker.ch/en/news/biodelphis-therapeutics-polasight-and-swiss-soil-get-fit-backing"
-  },
-  "deal": {
-    "company": "ZuriMED",
-    "amount": "Undisclosed",
-    "round": "M&A",
-    "thesis": "Stryker has closed its acquisition of ZuriMED, the Swiss start-up behind the FiberLocker rotator cuff reinforcement (510(k) in 2024, US multicentre trial ongoing). A classic tuck-in: the acquirer buys an already-cleared device before trial data are published.",
-    "sector": "MedTech",
-    "url": "https://www.medtechdive.com/news/stryker-completes-zurimed-takeover/872835/"
+    "company": "Abbott",
+    "milestone": "FDA approval",
+    "title": "Abbott wins FDA approval for Amplatzer Paraclose, first US transcatheter device built for paravalvular leaks",
+    "summary": "Catheter-delivered occluder placed via a leg artery or vein, an alternative to repeat open-heart surgery; approval backed by the PARADIGM study. In Europe the device has been sold as the Amplatzer Valvular Plug III since 2020.",
+    "why": "Paravalvular leaks affect 2% to 18% of patients after valve replacement: a niche indication now opening in the US, a signal for structural-heart startups.",
+    "place": "Illinois",
+    "sector": "Cardio",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/abbott-paravalvular-leak-treatment-secures-fda-approval/"
   },
   "brefsEurope": [
     {
-      "company": "Empatica",
-      "place": "Milan",
-      "sector": "Digital Health",
+      "company": "Roche",
+      "place": "Bâle",
+      "sector": "Diagnostics",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "Empatica launches WellPD, a home Parkinson's monitoring system available in 12 countries",
-      "summary": "A wrist unit and app measuring bradykinesia, dyskinesia and tremor with validated algorithms, described as FDA-cleared and CE-marked. It builds on the algorithms of PKG Health, acquired by Empatica in 2025.",
-      "url": "https://www.medicaldevice-network.com/news/empatica-wellpd-parkinsons-wearable-device/"
-    },
-    {
-      "company": "Episurf Medical",
-      "place": "Stockholm",
-      "sector": "MedTech",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 2,
-      "title": "Episurf signs a letter of intent to sell its medtech business (Episealer, Epiguide) to Canada's Oligo Medic",
-      "summary": "Price undisclosed, no sale completed. Episurf is refocusing on real estate: a small cartilage-implant medtech looking for an industrial buyer.",
-      "url": "https://nordiclifescience.org/episurf-moves-to-sell-medtech-business/"
+      "strength": 3,
+      "title": "Roche receives CE mark for compact cobas smart e immunoanalyzer",
+      "summary": "Under one square meter, up to 60 tests/hour and more than 100 assays planned (cardiometabolic, oncology, infectious disease), launching in waves. A market comparable: the decentralization of lab diagnostics.",
+      "url": "https://labmedica.com/immunology/articles/294814275/compact-immunoanalyzer-gains-ce-mark-for-testing-across-local-care-settings.html"
     }
   ],
   "brefsIntl": [
     {
-      "company": "StimCardio Medical",
-      "place": "United States",
-      "sector": "Cardio",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "StimCardio raises $30M Series A led by Metis Medtech for its Rhyvive neuromodulation wristband",
-      "summary": "The non-invasive adjunct to atrial fibrillation ablation reduced recurrences in a randomized sham-controlled pilot. Proceeds fund the NeuroPulse 2 pivotal trial and an FDA De Novo request.",
-      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
+      "company": "Deep Reasoning AI",
+      "place": "États-Unis",
+      "sector": "Imagerie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "FDA clears Deep Reasoning AI's NeuroDR for neurovascular CT scans",
+      "summary": "FDA clearance of software supporting neurovascular CT scan analysis, per Medical Device Network.",
+      "url": "https://www.medicaldevice-network.com/news/fda-deep-reasoning-ais-neurodr-ct-scans/"
     },
     {
-      "company": "SetPoint Medical",
-      "place": "Boston",
-      "sector": "Neurotech",
+      "company": "Senseonics",
+      "place": "États-Unis",
+      "sector": "Diagnostics",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "SetPoint Medical treats its first commercial patient with its vagus nerve neurostimulator for rheumatoid arthritis",
-      "summary": "First case at Beth Israel Deaconess Medical Center after FDA approval. The company plans to study Crohn's disease and multiple sclerosis next.",
-      "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
-    },
-    {
-      "company": "Pharaoh Neuro",
-      "place": "Minnesota",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "FDA grants Breakthrough Device status to Pharaoh Neuro's Neurapheresis for subarachnoid haemorrhage",
-      "summary": "The closed-loop system filters the patient's own cerebrospinal fluid. Founded in 2024, the company raised a $20M Series A in February 2026.",
-      "url": "https://www.medicaldevice-network.com/news/pharaoh-csf-management-system-secures-fda-breakthrough-designation/"
+      "title": "Senseonics begins first human trial of its Freedom CGM",
+      "summary": "First-in-human trial of the Freedom continuous glucose monitor, the company's next implantable CGM.",
+      "url": "https://www.medicaldevice-network.com/news/senseonics-begins-freedom-cgm-trial/"
     }
   ],
   "word": {
-    "term": "Rapid AST",
-    "full": "Rapid Antimicrobial Susceptibility Testing",
-    "fr": "Rapid antibiotic susceptibility test",
-    "field": "Diagnostics · Antimicrobial resistance",
-    "definition": "A test that shows within hours, instead of 1 to 2 days, which antibiotics still kill a patient's bacteria.",
+    "term": "POCUS",
+    "full": "Point-of-Care Ultrasound",
+    "fr": "Point-of-care ultrasound",
+    "field": "Medical imaging",
+    "definition": "Portable ultrasound used on the spot by the clinician and increasingly AI-guided, to triage or diagnose without going through an imaging department.",
     "parts": [
       {
-        "label": "Cartridge / panel",
-        "role": "the antibiotics to test"
+        "label": "Handheld probe",
+        "role": "acquisition"
       },
       {
-        "label": "Phenotypic detection",
-        "role": "watching bacterial growth"
+        "label": "AI guidance",
+        "role": "image help"
       },
       {
-        "label": "Software",
-        "role": "turning it into susceptible / resistant"
+        "label": "Triage protocol",
+        "role": "the decision"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Sampling",
-        "t": "Bacteria are isolated from blood or another sample."
+        "h": "Acquisition",
+        "t": "A trained caregiver scans the area with a probe connected to a smartphone or tablet."
       },
       {
         "n": "2",
-        "h": "Exposure",
-        "t": "They are exposed to several antibiotics at different concentrations."
+        "h": "AI guidance",
+        "t": "Software guides the scan and helps flag suspicious images."
       },
       {
         "n": "3",
-        "h": "Reading",
-        "t": "Growth is measured and the algorithm returns the minimum inhibitory concentration and the verdict."
+        "h": "Triage",
+        "t": "The patient is reassured or referred for specialist testing."
       }
     ],
-    "why": "Every hour saved before the right antibiotic counts in sepsis, and resistance pushes hospitals to pay for speed. Systems are capital-heavy with recurring test and consumable revenue, but the regulatory path (IVDR, 510(k)) is long.",
+    "why": "VC angle: AI turns a specialist tool into a front-line tool, widening the market to areas without radiologists; the regulatory path (MDR/FDA) remains the bottleneck.",
     "startups": [
       {
-        "name": "Gradientech",
-        "use": "QuickMIC, microfluidic susceptibility testing; GN02 panel CE-marked under IVDR, FDA Breakthrough Device status",
-        "place": "Uppsala, Sweden"
+        "name": "N23 Health",
+        "use": "AI app on commercial portable ultrasound devices; 5,000-woman study in Ethiopia, nurses comparable to Swedish radiologists in phase 1.",
+        "place": "Sweden"
       },
       {
-        "name": "Q-linea",
-        "use": "ASTar: susceptibility results from positive blood cultures in ~6 h; FDA 510(k) for the expanded Gram-negative menu in April 2026",
-        "place": "Uppsala, Sweden"
+        "name": "UltraSight",
+        "use": "AI guidance for cardiac ultrasound by non-experts; $13M Series B.",
+        "place": "Tel Aviv"
       },
       {
-        "name": "Pattern Bioscience",
-        "use": "Single-cell microbiology for ID/AST in ~4 h; $43M Series D in November 2025, Breakthrough Device status for its pneumonia panel",
-        "place": "United States"
+        "name": "Exo Imaging",
+        "use": "Handheld ultrasound platform based on pMUT technology and AI; $35M added.",
+        "place": "US"
       }
     ],
     "sources": [
       {
-        "publisher": "Nordic Life Science",
-        "title": "Gradientech adds last-resort antibiotic to rapid resistance test",
-        "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+        "publisher": "Medicon Village",
+        "title": "New SmiLe company N23 Health shows strong clinical results with AI-supported portable mammography solution",
+        "url": "https://www.mediconvillage.se/?p=142540"
       },
       {
-        "publisher": "Inderes",
-        "title": "Q-linea announces FDA clearance of expanded ASTar blood testing menu",
-        "url": "https://www.inderes.fi/en/releases/q-linea-announces-fda-clearance-of-expanded-astar-blood-testing-menu"
+        "publisher": "AuntMinnie",
+        "title": "Handheld ultrasound + CADx helps triage breast masses",
+        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15621130/handheld-ultrasound-cadx-helps-triage-breast-masses"
       },
       {
-        "publisher": "360Dx",
-        "title": "After Series C Financing, Pattern Bioscience Preps Rapid AST System",
-        "url": "https://www.360dx.com/infectious-disease/after-series-c-financing-pattern-bioscience-preps-rapid-ast-system"
+        "publisher": "Calcalist",
+        "title": "UltraSight raises $13 million, bringing AI guidance for cardiac ultrasounds anywhere",
+        "url": "https://calcalistech.com/ctech/articles/0,7340,L-3907475,00.html"
+      },
+      {
+        "publisher": "AuntMinnie",
+        "title": "Exo Imaging adds $35M to coffers",
+        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15623777/exo-imaging-adds-35m-to-coffers"
       }
     ]
   }

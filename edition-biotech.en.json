@@ -1,147 +1,187 @@
 {
-  "dateLong": "Oct 28, 2026",
+  "dateLong": "Nov 1, 2026",
   "ticker": [
     {
-      "company": "ATLAS BIO",
-      "amount": "$12.5M",
+      "company": "TILT",
+      "amount": "Ph1b ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "XBRANE",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "VICORE",
+      "amount": "Futility ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "GENMAB",
+      "amount": "Ph3 ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "RESOTHER",
+      "amount": "SEK 80M",
       "kind": "lev"
     },
     {
-      "company": "IMMATICS",
-      "amount": "ORR 25%",
-      "kind": "tech"
-    },
-    {
-      "company": "FERRING",
-      "amount": "$1.38B",
-      "kind": "mna"
-    },
-    {
-      "company": "CASZYME",
-      "amount": "Collab",
-      "kind": "tech"
+      "company": "TOPADUR",
+      "amount": "Invest.",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Launch · AI drug discovery",
-    "title": "Atlas Bio emerges in Basel with $12.5M (seed led by Creandum) to simulate patient response and lighten Phase 2 trials",
-    "deck": "Founded by Simon Romanski (CEO) and Sebastian Bayer (CTO), the Basel startup trains a foundation model on about 2 million human RNA readouts to predict how patient profiles respond to different treatments — choosing diseases, subpopulations and trial design. It already works with a top-10 pharma; the idea that simulation can replace Phase 2 trials remains unproven for now.",
-    "company": "Atlas Bio",
-    "stage": "Seed",
-    "sector": "IA drug discovery",
-    "pillar": "naissances",
-    "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://european-biotechnology.com/latest-news/atlas-bio-launches-with-12-5m-to-eliminate-animal-testing-and-simulate-phase-2-trials/"
+    "kicker": "Clinical data · Oncology",
+    "title": "TILT Biotherapeutics: 44% objective response with intravenous oncolytic virus TILT-123 in resistant ovarian cancer",
+    "deck": "Phase Ib PROTA presented at ESMO 2026: 4 confirmed partial responses in 9 evaluable patients (2 later complete), 78% disease control, no dose-limiting toxicity, combined with Keytruda and liposomal doxorubicin. Proof of concept for an intravenously delivered oncolytic virus.",
+    "company": "TILT Biotherapeutics",
+    "sector": "Oncologie",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 4,
+    "url": "https://nordiclifescience.org/tilt-reports-durable-responses-in-ovarian-cancer/"
   },
   "milestone": {
-    "company": "Immatics",
-    "milestone": "ESMO data",
-    "title": "Immatics presents PRAME data at ESMO 2026: 25% confirmed responses for engager IMA402, 41% for TCR-T IMA203CD8",
-    "summary": "In 40 patients at the recommended dose, bispecific engager IMA402 shows a 25% confirmed objective response rate (32% in high-PRAME); personalized TCR-T IMA203CD8 reaches 41% in 90 evaluable patients, 55% in gynecologic tumors at relevant doses. Uncontrolled Phase 1b data — read with caution.",
-    "why": "PRAME is a solid \"shared\" target across tumor types: the results feed the TCR-T / engager thesis in solid tumors, with first IMA402 + IMA401 lung data expected in 2027.",
-    "place": "Tübingen",
-    "sector": "Thérapie cellulaire",
-    "signalType": "clinical_update",
-    "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
-  },
-  "deal": {
-    "company": "Gameto",
-    "amount": "up to $1.38B",
-    "round": "M&A",
-    "thesis": "Swiss Ferring acquires New York-based Gameto for up to $1.3825B including milestones (upfront undisclosed): Fertilo, lab-based egg maturation using iPSC-derived cells, is in Phase 3 (500 participants) and cuts the two weeks of hormone injections of classic IVF. A comparable for femtech biotech.",
+    "company": "Xbrane Biopharma",
+    "milestone": "FDA approval",
+    "title": "FDA approves Xbrane's Lucamzi, a Lucentis biosimilar",
+    "summary": "Lucamzi (ranibizumab-blrz) is approved in the US for wet AMD and other serious eye diseases; Xbrane is preparing a 2027 US launch with unnamed partners.",
+    "why": "First marketable US product for a small Swedish biotech in biosimilars: a de-risking milestone toward revenue.",
+    "place": "Solna",
     "sector": "Biotech",
-    "url": "https://european-biotechnology.com/latest-news/ferring-to-buy-fertility-biotech-gameto-for-up-to-1-38-billion/"
+    "signalType": "regulatory_milestone",
+    "url": "https://nordiclifescience.org/fda-approves-xbranes-lucentis-biosimilar/"
   },
   "brefsEurope": [
     {
-      "company": "CasZyme",
-      "place": "Lithuania",
+      "company": "Vicore Pharma",
+      "place": "Göteborg",
       "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Vicore's ASPIRE IPF trial passes futility analysis",
+      "summary": "The independent committee recommends continuing the phase 2b of buloxibutid unchanged (analysis on ~100 patients); topline mid-2027, cash runway into H2 2028.",
+      "url": "https://nordiclifescience.org/vicores-ipf-trial-passes-futility-analysis/"
+    },
+    {
+      "company": "Genmab",
+      "place": "Copenhague",
+      "sector": "Oncologie",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "Genmab: petosemtamab halves death risk in head and neck cancer in phase 3",
+      "summary": "LiGeR-HN1, first-line with pembrolizumab: death HR 0.50 (p<0.0001), both primary endpoints met. A major comparable for EGFR/LGR5 bispecifics.",
+      "url": "https://nordiclifescience.org/genmab-drug-halves-death-risk-in-head-and-neck-cancer/"
+    },
+    {
+      "company": "ResoTher Pharma",
+      "place": "Danemark",
+      "sector": "Biotech",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "ResoTher Pharma heads for Sweden's Spotlight via reverse takeover, ~SEK 333M valuation",
+      "summary": "Listing planned December 2026; ~SEK 80M available (48M raised in 2026 + 32M convertible loan) for RTP-026 after heart attack, phase IIb (>200 patients) targeted early 2027.",
+      "url": "https://nordiclifescience.org/resother-pharma-heads-for-swedish-listing/"
+    },
+    {
+      "company": "Topadur Pharma",
+      "place": "Suisse",
+      "sector": "Biotech",
+      "pillar": "financement",
+      "signalType": "funding_round",
       "strength": 2,
-      "title": "CasZyme teams up with Cirena to optimize long guide RNAs for its Cas12l nuclease",
-      "summary": "The Lithuanian nuclease engineer will test 150–170 nt synthetic guides in primary T cells; editing-efficiency results expected early 2027, financial terms undisclosed.",
-      "url": "https://www.pharmafocuseurope.com/pressreleases/caszyme-and-cirena-to-collaborate"
+      "title": "DEBRA Research invests in Topadur for dystrophic epidermolysis bullosa",
+      "summary": "Amount undisclosed; preclinical program with the University of Freiburg and the EB Research Institute in Salzburg. TOP-N53 is in phase 2a for systemic-sclerosis digital ulcers.",
+      "url": "https://www.startupticker.ch/en/news/debra-research-invests-in-topadur"
+    },
+    {
+      "company": "Elicera Therapeutics",
+      "place": "Uppsala",
+      "sector": "Thérapie cellulaire",
+      "pillar": "innovation",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "Elicera co-founder awarded SEK 4M for longer-lived CAR-T cells",
+      "summary": "Four-year Uppsala project on tonic signaling so CAR-T cells survive and reach solid tumors, including glioblastoma models.",
+      "url": "https://nordiclifescience.org/elicera-co-founder-awarded-sek-4-million-for-car-t-research/"
     }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "TCR-T",
-    "full": "T-Cell Receptor engineered T-cell therapy",
-    "fr": "T cells armed with a TCR",
-    "field": "Immuno-oncology · Solid tumors",
-    "definition": "The patient's T cells are collected, given a receptor (TCR) that recognizes a fragment of a tumor protein displayed by cancer cells, then reinfused.",
+    "term": "Oncolytic Virus",
+    "full": "Oncolytic Virus",
+    "fr": "Oncolytic virus",
+    "field": "Immuno-oncology",
+    "definition": "A virus engineered to selectively infect and kill tumor cells while waking up the immune system.",
     "parts": [
       {
-        "label": "TCR",
-        "role": "the target detector"
+        "label": "Viral vector",
+        "role": "the vehicle"
       },
       {
-        "label": "Peptide-HLA",
-        "role": "the target displayed on the tumor surface"
+        "label": "Armed transgene",
+        "role": "the immune weapon"
       },
       {
-        "label": "T cell",
-        "role": "the killer"
+        "label": "Combination",
+        "role": "the booster"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Collection",
-        "t": "T cells are collected from the patient by leukapheresis."
+        "h": "Injection",
+        "t": "The virus is injected into the tumor or, like TILT-123, intravenously."
       },
       {
         "n": "2",
-        "h": "Engineering",
-        "t": "A TCR targeting a tumor peptide (e.g. PRAME) is introduced into the cells, which are then expanded."
+        "h": "Selective lysis",
+        "t": "It replicates inside tumor cells and bursts them."
       },
       {
         "n": "3",
-        "h": "Reinfusion",
-        "t": "The modified cells recognize and destroy tumor cells expressing the target."
+        "h": "Immune response",
+        "t": "Tumor debris and expressed cytokines recruit T cells."
       }
     ],
-    "why": "Unlike CAR-T, TCR-T sees intracellular targets, hence solid-tumor potential; the VC question is patient selection (HLA, target expression) and manufacturing cost.",
+    "why": "VC angle: systemic delivery and combinations with checkpoint inhibitors revive a modality long confined to intratumoral injection.",
     "startups": [
       {
-        "name": "Anocca",
-        "use": "First European non-viral gene-edited TCR-T trial (VIDAR-1) targeting KRAS in pancreatic cancer; $46M raised in August 2025",
-        "place": "Sweden"
+        "name": "TILT Biotherapeutics",
+        "use": "Intravenous TILT-123; phase Ib PROTA in resistant ovarian cancer (ORR 44%).",
+        "place": "Helsinki"
       },
       {
-        "name": "Pan Cancer T",
-        "use": "Erasmus MC spin-out: TCR-T for triple-negative breast cancer, €10M raised for a first-in-human trial",
-        "place": "Netherlands"
+        "name": "Theolytics",
+        "use": "THEO-260 in phase II (OCTOPOD-IV); €8M Horizon Europe grant.",
+        "place": "UK"
       },
       {
-        "name": "Captain T Cell",
-        "use": "Max Delbrück Center spin-off: next-generation TCR-T pipeline heading to Phase I",
-        "place": "Germany"
+        "name": "Transgene",
+        "use": "Listed company; PoxSTG-EEV, enveloped virus for systemic delivery, preclinical data at SITC 2026.",
+        "place": "Strasbourg"
       }
     ],
     "sources": [
       {
-        "publisher": "European Biotechnology Magazine",
-        "title": "Immatics shows off its PRAME bispecific data at ESMO 2026",
-        "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
+        "publisher": "Nordic Life Science",
+        "title": "TILT reports durable responses in ovarian cancer",
+        "url": "https://nordiclifescience.org/tilt-reports-durable-responses-in-ovarian-cancer/"
       },
       {
-        "publisher": "Labiotech.eu",
-        "title": "Europe's TCR Therapy Scene Gains Traction with €40M Series B",
-        "url": "https://www.labiotech.eu/trends-news/tcr-therapy-anocca/"
+        "publisher": "AllSci",
+        "title": "Theolytics secures €8M Horizon Europe grant for trial of oncolytic virus in ovarian cancer",
+        "url": "https://allsci.com/news/theolytics-secures-eur-8m-horizon-europe-grant-for-trial-of-oncolytic-virus-in-ovarian-cancer/"
       },
       {
-        "publisher": "Tech Funding News",
-        "title": "Pan Cancer T raises €10M for TCR-T therapy in triple-negative breast cancer",
-        "url": "https://techfundingnews.com/pan-cancer-t-raises-10m-tcr-t-therapy-triple-negative-breast-cancer/"
-      },
-      {
-        "publisher": "BioSpace",
-        "title": "Captain T Cell Closes Financing Round to Advance its TCR-T Pipeline Into the Clinic",
-        "url": "https://www.biospace.com/press-releases/captain-t-cell-closes-financing-round-to-advance-its-proprietary-next-generation-tcr-t-pipeline-into-the-clinic"
+        "publisher": "Boursorama",
+        "title": "Transgene will present a poster on preclinical data from a novel oncolytic virus at SITC 2026",
+        "url": "https://www.boursorama.com/bourse/actualites-amp/transgene-will-present-a-poster-on-preclinical-data-from-a-novel-oncolytic-virus-at-sitc-2026-40a926b307f53f63f48d51f6742a6978"
       }
     ]
   }

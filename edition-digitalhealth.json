@@ -1,112 +1,159 @@
 {
-  "dateLong": "28 oct. 2026",
+  "dateLong": "1 nov. 2026",
   "ticker": [
     {
-      "company": "VERA HEALTH",
-      "amount": "$28,5M",
+      "company": "AGORA LABS",
+      "amount": "€4,3M",
       "kind": "lev"
     },
     {
-      "company": "EMERALD",
-      "amount": "£1,4M",
-      "kind": "lev"
+      "company": "NERVECENTRE",
+      "amount": "EPR T2",
+      "kind": "tech"
+    },
+    {
+      "company": "LYREBIRD",
+      "amount": "AVT",
+      "kind": "tech"
+    },
+    {
+      "company": "NHS ENGLAND",
+      "amount": "Accord AVT",
+      "kind": "reg"
+    },
+    {
+      "company": "X-ON HEALTH",
+      "amount": "Relais",
+      "kind": "tech"
+    },
+    {
+      "company": "SILICON PRACTICE",
+      "amount": "Faillite",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Financement · IA clinique",
-    "title": "Vera Health lève 28,5 M$ en Series A (Threshold Ventures) : son moteur de recherche clinique, adopté par 800 000 soignants, creuse l'Europe",
-    "deck": "L'outil, gratuit pour les médecins et facturé aux hôpitaux pour des versions sur mesure, interroge plus de 60 millions de publications, recommandations et notices, relie chaque affirmation à ses sources et note la solidité de la preuve. Il revendique 800 000 cliniciens dans 190 pays — environ un médecin sur quatre en Espagne et en Italie, un sur sept en France — avec Optum Ventures, Mantis VC et SV Angel au tour, et Y Combinator et Gradient qui réinvestissent (32 M$ levés au total).",
-    "company": "Vera Health",
-    "stage": "Series A",
-    "sector": "IA clinique",
+    "kicker": "Levée · Données de santé",
+    "title": "Agora Labs (Rome) lève 4,3 M€ menés par P101 SGR pour rendre les données hospitalières exploitables par la recherche",
+    "deck": "Des nœuds de calcul GPU installés dans les hôpitaux structurent et anonymisent les dossiers sans qu'ils quittent le système de l'établissement ; ~50 établissements déjà reliés, objectif de doubler le réseau et d'ouvrir les États-Unis. Un pari sur le marché RWE à l'approche de l'EHDS.",
+    "company": "Agora Labs",
+    "sector": "Données de santé",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://tech.eu/2026/10/27/from-two-doctors-to-800000-clinicians-vera-health-raises-285m"
+    "strength": 3,
+    "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
   },
   "milestone": {
-    "company": "Emerald",
-    "milestone": "Financement + Classe I",
-    "title": "Emerald (Londres) lève 1,4 M£, moitié Innovate UK, moitié capital-risque, pour sa plateforme de santé préventive à IA (annoncé le 20 oct.)",
-    "summary": "La jeune pousse, lancée en mai 2025 avec 625 k£ d'investisseurs providentiels, est enregistrée auprès de la CQC pour le diagnostic et le dépistage et dispositif médical de classe I auprès de la MHRA ; ce tour porte son financement total à environ 2,9 M£.",
-    "why": "Un exemple de santé préventive « réglementée » : le statut dispositif médical et l'agrément CQC la distinguent des plateformes de bien-être non encadrées.",
-    "place": "Londres",
-    "sector": "Digital Health",
-    "signalType": "funding_round",
-    "url": "https://startuprise.co.uk/emerald-raises-e1-66-mn/"
+    "company": "York and Scarborough Teaching Hospitals",
+    "milestone": "Déploiement DPI",
+    "title": "York et Scarborough : deuxième tranche du DPI Nervecentre en service, voix ambiante et 4 000 licences Copilot",
+    "summary": "Le DPI Nervecentre (mai 2026) couvre désormais urgences, pathologie, radiologie, ePMA et lits ; la voix ambiante s'étend aux urgences de jour, un accord d'investissement NHSE est en finalisation et un comité d'éthique IA/données est créé. Tranche 3 prévue en juin 2027.",
+    "why": "Montre que l'adoption se mesure désormais en bénéfices validés plutôt qu'en mise en service : le critère d'achat des trusts britanniques.",
+    "place": "York",
+    "sector": "Logiciel hospitalier",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/10/30/avt-copilot-and-next-phase-of-epr-at-york-and-scarborough-teaching-hospitals/"
   },
-  "brefsEurope": [],
+  "brefsEurope": [
+    {
+      "company": "Lyrebird Health",
+      "place": "Cheshire",
+      "sector": "IA clinique",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Mid Cheshire déploie la voix ambiante Lyrebird après un essai concluant",
+      "summary": "Après un essai en urgences de jour, dermatologie, rhumatologie et urologie, extension aux urgences, pédiatrie, orthopédie, AVC ; plus de 300 soignants formés.",
+      "url": "https://htn.co.uk/2026/10/27/mid-cheshire-rolls-out-avt-following-successful-trial/"
+    },
+    {
+      "company": "X-on Health",
+      "place": "Royaume-Uni",
+      "sector": "Télésanté",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "X-on Health offre trois mois d'accès aux cabinets touchés par la faillite de Silicon Practice",
+      "summary": "Silicon Practice, en administration judiciaire, a privé des centaines de cabinets (jusqu'à 600 selon GP Online) de sites web et de consultations en ligne ; X-on propose son assistant IA Surgery Assist Lite et son offre Omni Consultations.",
+      "url": "https://htn.co.uk/2026/10/29/x-on-health-offers-support-to-gp-practices-affected-by-silicon-practice-shutdown/"
+    }
+  ],
   "brefsIntl": [],
   "word": {
-    "term": "RWE",
-    "full": "Real-World Evidence (données de vie réelle)",
-    "fr": "Preuves issues de la vie réelle",
-    "field": "Données de santé · Recherche clinique",
-    "definition": "Des preuves sur l'efficacité et la sécurité d'un traitement ou d'un dispositif tirées de données de soins courants (dossiers patients, registres, remboursements) plutôt que d'un essai randomisé.",
+    "term": "EHDS",
+    "full": "European Health Data Space",
+    "fr": "Espace européen des données de santé",
+    "field": "Données de santé",
+    "definition": "Règlement européen (en vigueur depuis mars 2025) qui organise l'accès des patients à leurs données et la réutilisation sécurisée de ces données pour la recherche et l'innovation.",
     "parts": [
       {
-        "label": "Sources",
-        "role": "dossiers hospitaliers, registres, bases de remboursement"
+        "label": "Usage primaire",
+        "role": "les soins"
       },
       {
-        "label": "Harmonisation",
-        "role": "modèle commun de données (OMOP, FHIR)"
+        "label": "Usage secondaire",
+        "role": "recherche et innovation"
       },
       {
-        "label": "Analyse",
-        "role": "études observationnelles, bras de contrôle externes"
+        "label": "Organismes d’accès",
+        "role": "le guichet"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Collecte",
-        "t": "Les données restent chez les centres de soins, qui les structurent et les anonymisent."
+        "h": "Détenteurs",
+        "t": "Hôpitaux et autres détenteurs de données doivent les rendre accessibles."
       },
       {
         "n": "2",
-        "h": "Harmonisation",
-        "t": "Elles sont converties dans un format commun (par ex. OMOP) pour être comparables entre pays."
+        "h": "Demande",
+        "t": "Les utilisateurs demandent l'accès via un organisme dédié."
       },
       {
         "n": "3",
-        "h": "Analyse",
-        "t": "Des études fédérées produisent des preuves exploitables par industriels, régulateurs et payeurs."
+        "h": "Calendrier",
+        "t": "L'usage secondaire s'applique en grande partie dès mars 2029, certaines catégories (génomique, essais) en mars 2031."
       }
     ],
-    "why": "Régulateurs et payeurs en demandent de plus en plus pour le remboursement ; avec l'EHDS, les plateformes qui rendent les données utilisables sans les centraliser deviennent une brique d'infrastructure.",
+    "why": "Angle VC : crée un marché réglementé de la donnée de santé ; les usages commerciaux comme la publicité ou l'assurance sont exclus, ce qui oriente les modèles d'affaires vers la recherche et le développement de produits.",
     "startups": [
       {
         "name": "Agora Labs",
-        "use": "Plateforme où les données restent chez le centre de soins, qui les structure et les anonymise ; cas d'usage RWE, registres, épidémiologie",
-        "place": "Grèce"
+        "use": "Nœuds GPU dans les hôpitaux pour structurer et anonymiser les données ; 4,3 M€ menés par P101 SGR.",
+        "place": "Rome"
       },
       {
-        "name": "Carelane",
-        "use": "Plateforme RWE fondée sur HL7 FHIR ; 0,8 M€ de pre-seed rapportés",
-        "place": "Brême, Allemagne"
+        "name": "Owkin",
+        "use": "Envoie les algorithmes vers les données, qui restent dans les hôpitaux (apprentissage fédéré).",
+        "place": "Paris"
       },
       {
-        "name": "Okeiro",
-        "use": "Médecine de précision en transplantation et maladies chroniques ; 10 M€ levés selon un répertoire",
-        "place": "Paris, France"
+        "name": "Tandem Health",
+        "use": "Scribe IA devenu logiciel de clinique ; Series B de 100 M$ menée par le Scaleup Europe Fund (EQT).",
+        "place": "Stockholm"
       }
     ],
     "sources": [
       {
-        "publisher": "Journal of Medical Internet Research",
-        "title": "Advancing Real-World Evidence Through a Federated Health Data Network (EHDEN)",
-        "url": "https://www.jmir.org/2025/1/e74119"
+        "publisher": "Tech.eu",
+        "title": "Agora Labs raises €4.3M to expand clinical data infrastructure for medical research",
+        "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
       },
       {
-        "publisher": "StartUs Insights",
-        "title": "10 Real World Evidence Companies & Startups to Watch in 2026",
-        "url": "https://www.startus-insights.com/innovators-guide/real-world-evidence-companies/"
+        "publisher": "McCann FitzGerald",
+        "title": "EHDS Regulation: Secondary Use of Electronic Health Data",
+        "url": "https://www.mccannfitzgerald.com/knowledge/data-privacy-and-cyber-risk/ehds-regulation-secondary-use-of-electronic-health-data"
       },
       {
-        "publisher": "Athena Research Center",
-        "title": "Agora Labs: the Greek spin-off that innovates in the healthcare sector",
-        "url": "https://www.athenarc.gr/en/news/agora-labs-greek-spin-innovates-healthcare-sector"
+        "publisher": "Crunchbase News",
+        "title": "Owkin closes $18M Series A to make medical research more collaborative",
+        "url": "https://news.crunchbase.com/news/french-american-ai-startup-owkin-closes-18m-series-a-to-make-medical-research-more-collaborative"
+      },
+      {
+        "publisher": "Tech.eu",
+        "title": "Tandem Health scores $100M Series B, led by EU’s €5bn tech startup fund",
+        "url": "https://tech.eu/2026/09/14/swedish-healthtech-tandem-health-scores-100m-series-b-led-by-eus-eur5bn-tech-startup-fund/"
       }
     ]
   }

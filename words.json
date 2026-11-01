@@ -1,6 +1,241 @@
 {
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-01",
   "words": [
+    {
+      "term": "EHDS",
+      "full": "European Health Data Space",
+      "fr": "Espace européen des données de santé",
+      "field": "Données de santé",
+      "definition": "Règlement européen (en vigueur depuis mars 2025) qui organise l'accès des patients à leurs données et la réutilisation sécurisée de ces données pour la recherche et l'innovation.",
+      "parts": [
+        {
+          "label": "Usage primaire",
+          "role": "les soins"
+        },
+        {
+          "label": "Usage secondaire",
+          "role": "recherche et innovation"
+        },
+        {
+          "label": "Organismes d’accès",
+          "role": "le guichet"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Détenteurs",
+          "t": "Hôpitaux et autres détenteurs de données doivent les rendre accessibles."
+        },
+        {
+          "n": "2",
+          "h": "Demande",
+          "t": "Les utilisateurs demandent l'accès via un organisme dédié."
+        },
+        {
+          "n": "3",
+          "h": "Calendrier",
+          "t": "L'usage secondaire s'applique en grande partie dès mars 2029, certaines catégories (génomique, essais) en mars 2031."
+        }
+      ],
+      "why": "Angle VC : crée un marché réglementé de la donnée de santé ; les usages commerciaux comme la publicité ou l'assurance sont exclus, ce qui oriente les modèles d'affaires vers la recherche et le développement de produits.",
+      "startups": [
+        {
+          "name": "Agora Labs",
+          "use": "Nœuds GPU dans les hôpitaux pour structurer et anonymiser les données ; 4,3 M€ menés par P101 SGR.",
+          "place": "Rome"
+        },
+        {
+          "name": "Owkin",
+          "use": "Envoie les algorithmes vers les données, qui restent dans les hôpitaux (apprentissage fédéré).",
+          "place": "Paris"
+        },
+        {
+          "name": "Tandem Health",
+          "use": "Scribe IA devenu logiciel de clinique ; Series B de 100 M$ menée par le Scaleup Europe Fund (EQT).",
+          "place": "Stockholm"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Agora Labs raises €4.3M to expand clinical data infrastructure for medical research",
+          "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
+        },
+        {
+          "publisher": "McCann FitzGerald",
+          "title": "EHDS Regulation: Secondary Use of Electronic Health Data",
+          "url": "https://www.mccannfitzgerald.com/knowledge/data-privacy-and-cyber-risk/ehds-regulation-secondary-use-of-electronic-health-data"
+        },
+        {
+          "publisher": "Crunchbase News",
+          "title": "Owkin closes $18M Series A to make medical research more collaborative",
+          "url": "https://news.crunchbase.com/news/french-american-ai-startup-owkin-closes-18m-series-a-to-make-medical-research-more-collaborative"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Tandem Health scores $100M Series B, led by EU’s €5bn tech startup fund",
+          "url": "https://tech.eu/2026/09/14/swedish-healthtech-tandem-health-scores-100m-series-b-led-by-eus-eur5bn-tech-startup-fund/"
+        }
+      ],
+      "date": "2026-11-01",
+      "dateLong": "1 nov. 2026"
+    },
+    {
+      "term": "Oncolytic Virus",
+      "full": "Oncolytic Virus",
+      "fr": "Virus oncolytique",
+      "field": "Immuno-oncologie",
+      "definition": "Un virus modifié pour infecter et détruire sélectivement les cellules tumorales tout en réveillant le système immunitaire.",
+      "parts": [
+        {
+          "label": "Vecteur viral",
+          "role": "le véhicule"
+        },
+        {
+          "label": "Transgène armé",
+          "role": "l'arme immunitaire"
+        },
+        {
+          "label": "Association",
+          "role": "le renfort"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Injection",
+          "t": "Le virus est injecté dans la tumeur ou, comme TILT-123, par voie intraveineuse."
+        },
+        {
+          "n": "2",
+          "h": "Lyse sélective",
+          "t": "Il se réplique dans les cellules tumorales et les fait éclater."
+        },
+        {
+          "n": "3",
+          "h": "Réponse immune",
+          "t": "Les débris tumoraux et les cytokines exprimées recrutent les lymphocytes."
+        }
+      ],
+      "why": "Angle VC : l'administration systémique et les associations aux inhibiteurs de checkpoint relancent une modalité longtemps cantonnée aux injections intratumorales.",
+      "startups": [
+        {
+          "name": "TILT Biotherapeutics",
+          "use": "TILT-123 intraveineux ; phase Ib PROTA dans l'ovaire résistant (ORR 44 %).",
+          "place": "Helsinki"
+        },
+        {
+          "name": "Theolytics",
+          "use": "THEO-260 en phase II (OCTOPOD-IV) ; 8 M€ de subvention Horizon Europe.",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "Transgene",
+          "use": "Société cotée ; PoxSTG-EEV, virus enveloppé pour voie systémique, données précliniques au SITC 2026.",
+          "place": "Strasbourg"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "TILT reports durable responses in ovarian cancer",
+          "url": "https://nordiclifescience.org/tilt-reports-durable-responses-in-ovarian-cancer/"
+        },
+        {
+          "publisher": "AllSci",
+          "title": "Theolytics secures €8M Horizon Europe grant for trial of oncolytic virus in ovarian cancer",
+          "url": "https://allsci.com/news/theolytics-secures-eur-8m-horizon-europe-grant-for-trial-of-oncolytic-virus-in-ovarian-cancer/"
+        },
+        {
+          "publisher": "Boursorama",
+          "title": "Transgene will present a poster on preclinical data from a novel oncolytic virus at SITC 2026",
+          "url": "https://www.boursorama.com/bourse/actualites-amp/transgene-will-present-a-poster-on-preclinical-data-from-a-novel-oncolytic-virus-at-sitc-2026-40a926b307f53f63f48d51f6742a6978"
+        }
+      ],
+      "date": "2026-11-01",
+      "dateLong": "1 nov. 2026"
+    },
+    {
+      "term": "POCUS",
+      "full": "Point-of-Care Ultrasound",
+      "fr": "Échographie au chevet du patient",
+      "field": "Imagerie médicale",
+      "definition": "Échographie portable, utilisée sur place par le soignant et de plus en plus guidée par l'IA, pour trier ou diagnostiquer sans passer par un service d'imagerie.",
+      "parts": [
+        {
+          "label": "Sonde portable",
+          "role": "l'acquisition"
+        },
+        {
+          "label": "IA de guidage",
+          "role": "l'aide à l'image"
+        },
+        {
+          "label": "Protocole de triage",
+          "role": "la décision"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Acquisition",
+          "t": "Un soignant formé balaie la zone avec une sonde connectée à un smartphone ou une tablette."
+        },
+        {
+          "n": "2",
+          "h": "Guidage IA",
+          "t": "Le logiciel guide le geste et aide à repérer les images suspectes."
+        },
+        {
+          "n": "3",
+          "h": "Triage",
+          "t": "Le patient est rassuré ou orienté vers un examen spécialisé."
+        }
+      ],
+      "why": "Angle VC : l'IA transforme un outil de spécialiste en outil de première ligne, ce qui élargit le marché aux zones sans radiologue ; le chemin réglementaire (MDR/FDA) reste le goulot d'étranglement.",
+      "startups": [
+        {
+          "name": "N23 Health",
+          "use": "App IA sur échographes portables du commerce ; étude de 5 000 femmes en Éthiopie, infirmières comparables à des radiologues suédois en phase 1.",
+          "place": "Suède"
+        },
+        {
+          "name": "UltraSight",
+          "use": "Guidage IA pour échographies cardiaques par des non-experts ; Series B de 13 M$.",
+          "place": "Tel Aviv"
+        },
+        {
+          "name": "Exo Imaging",
+          "use": "Plateforme échographique portable à technologie pMUT et IA ; +35 M$ levés.",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Medicon Village",
+          "title": "New SmiLe company N23 Health shows strong clinical results with AI-supported portable mammography solution",
+          "url": "https://www.mediconvillage.se/?p=142540"
+        },
+        {
+          "publisher": "AuntMinnie",
+          "title": "Handheld ultrasound + CADx helps triage breast masses",
+          "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15621130/handheld-ultrasound-cadx-helps-triage-breast-masses"
+        },
+        {
+          "publisher": "Calcalist",
+          "title": "UltraSight raises $13 million, bringing AI guidance for cardiac ultrasounds anywhere",
+          "url": "https://calcalistech.com/ctech/articles/0,7340,L-3907475,00.html"
+        },
+        {
+          "publisher": "AuntMinnie",
+          "title": "Exo Imaging adds $35M to coffers",
+          "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15623777/exo-imaging-adds-35m-to-coffers"
+        }
+      ],
+      "date": "2026-11-01",
+      "dateLong": "1 nov. 2026"
+    },
     {
       "term": "Rapid AST",
       "full": "Rapid Antimicrobial Susceptibility Testing (antibiogramme rapide)",
@@ -6713,69 +6948,6 @@
       ],
       "date": "2026-08-11",
       "dateLong": "11 août 2026"
-    },
-    {
-      "term": "POCUS",
-      "full": "Point-of-Care Ultrasound",
-      "fr": "Échographie au point d'intervention",
-      "field": "Imagerie médicale / Diagnostic embarqué",
-      "definition": "Une échographie réalisée directement au chevet du patient — dialyse, urgences, domicile — par un personnel non spécialisé, de plus en plus guidée par la robotique et l'IA plutôt que par un sonographe expert en service de radiologie.",
-      "parts": [
-        {
-          "label": "Sonde connectée",
-          "role": "l'organe de capture, miniaturisé, filaire ou robotisé"
-        },
-        {
-          "label": "Guidage IA ou bras robotisé",
-          "role": "compense l'absence d'un opérateur expert en corrigeant angle et pression en temps réel"
-        },
-        {
-          "label": "Algorithme d'interprétation",
-          "role": "transforme le signal brut en mesure clinique exploitable en quelques secondes"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Positionnement",
-          "t": "La sonde est placée sur la zone d'intérêt, manuellement ou via un bras robotisé autonome."
-        },
-        {
-          "n": "2",
-          "h": "Correction en temps réel",
-          "t": "Un modèle d'IA ajuste l'angle et la pression pour obtenir une image diagnostique, même entre des mains non expertes."
-        },
-        {
-          "n": "3",
-          "h": "Restitution clinique",
-          "t": "Le débit vasculaire, la taille d'un organe ou la présence d'un fluide est renvoyé en quelques secondes, sans attendre un radiologue."
-        }
-      ],
-      "why": "Le POCUS robotisé et piloté par IA répond à la pénurie mondiale de sonographes qualifiés en déplaçant le diagnostic échographique du service de radiologie vers le lit du patient ou la dialyse — un axe qui attire à la fois des medtech pures (Vexev) et des plateformes IA d'imagerie (Exo Imaging, EchoNous), avec une voie réglementaire FDA 510(k) souvent plus rapide qu'un nouveau dispositif de radiologie classique.",
-      "startups": [
-        {
-          "name": "Vexev",
-          "use": "VxWave, plateforme robotisée d'échographie vasculaire automatisée pour l'accès de dialyse ; 6 M$ levés en août 2026 pour la clearance FDA 510(k)",
-          "place": "Sydney, Australie"
-        },
-        {
-          "name": "Fraiya",
-          "use": "FraiyaScan, couche logicielle IA guidant l'échographie prénatale, marquée CE et déployée avec Canon Medical Systems Europe dans un essai NHS sur 4 hôpitaux",
-          "place": "Londres, Royaume-Uni"
-        },
-        {
-          "name": "Exo Imaging",
-          "use": "Écosystème d'échographie portable guidée par IA (Exo Iris) ; plus de 300 M$ levés et collaboration stratégique avec Samsung",
-          "place": "Redwood City, États-Unis"
-        },
-        {
-          "name": "EchoNous",
-          "use": "Kosmos, plateforme d'échographie portable assistée par IA ; extension 2026 vers les indications OB/GYN et vasculaires",
-          "place": "Redmond, États-Unis"
-        }
-      ],
-      "date": "2026-08-10",
-      "dateLong": "10 août 2026"
     },
     {
       "term": "TNFR2",

@@ -1,198 +1,166 @@
 {
-  "dateLong": "31 oct. 2026",
+  "dateLong": "1 nov. 2026",
   "ticker": [
     {
-      "company": "GRADIENTECH",
-      "amount": "CE IVDR",
-      "kind": "reg"
-    },
-    {
-      "company": "POLASIGHT",
-      "amount": "Spin-off",
+      "company": "N23 HEALTH",
+      "amount": "Prix",
       "kind": "new"
     },
     {
-      "company": "ZURIMED",
-      "amount": "M&A",
-      "kind": "mna"
-    },
-    {
-      "company": "EMPATICA",
-      "amount": "CE + FDA",
+      "company": "ABBOTT",
+      "amount": "FDA",
       "kind": "reg"
     },
     {
-      "company": "STIMCARDIO",
-      "amount": "$30M",
-      "kind": "lev"
+      "company": "ROCHE",
+      "amount": "CE",
+      "kind": "reg"
     },
     {
-      "company": "SETPOINT",
-      "amount": "1er patient",
+      "company": "DEEP REASONING AI",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "SENSEONICS",
+      "amount": "1er essai",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Marquage CE IVDR · Diagnostic",
-    "title": "Gradientech (Uppsala) étend son test de résistance rapide QuickMIC aux antibiotiques de dernier recours, dont le céfidérocol",
-    "deck": "Le nouveau panel QuickMIC GN02, marqué CE sous IVDR, rend un antibiogramme sur bacilles Gram-négatifs multirésistants en 3 h 14, avec 95,5 % d'accord essentiel et 96,0 % d'accord catégoriel. Le système a déjà le statut Breakthrough Device de la FDA mais reste en usage investigationnel aux États-Unis, sans 510(k) : la prochaine étape à surveiller.",
-    "company": "Gradientech",
-    "sector": "Diagnostics",
-    "pillar": "innovation",
-    "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+    "kicker": "Nouvelle pousse · Imagerie",
+    "title": "N23 Health (Suède) primée aux MassChallenge Switzerland pour son triage de nodules mammaires par échographie portable",
+    "deck": "La jeune société suédoise, dirigée par Lisa Falco, permet à une infirmière formée de trier des nodules du sein avec une échographie portable, sans radiologue ni connexion internet. Le Diamond Prize intervient alors que son étude de phase 2 (5 000 femmes en Éthiopie) prépare la voie vers le marquage CE-MDR.",
+    "company": "N23 Health",
+    "sector": "Imagerie",
+    "pillar": "naissances",
+    "signalType": "grant_award",
+    "strength": 3,
+    "url": "https://www.startupticker.ch/en/news/flycatcher-and-trilliome-shine-at-masschallenge-switzerland-awards"
   },
   "milestone": {
-    "company": "PolaSight",
-    "milestone": "Cap sur le CE",
-    "title": "PolaSight (spin-off de l'Université de Berne) reçoit un prêt Tech Seed de 100 000 CHF de FIT pour son marquage CE",
-    "summary": "PolaOne cartographie un échantillon frais entier en une minute environ, sans coloration, contre 20 à 40 minutes pour une coupe congelée classique. Le prêt finance le marquage CE visé début 2027 et les premières installations hospitalières.",
-    "why": "Raccourcir le temps sous anesthésie et limiter les réinterventions : c'est un cas typique de spin-off académique à la veille de son premier jalon réglementaire, avant tout tour de table.",
-    "place": "Berne",
-    "sector": "Diagnostics",
-    "signalType": "grant_award",
-    "url": "https://www.startupticker.ch/en/news/biodelphis-therapeutics-polasight-and-swiss-soil-get-fit-backing"
-  },
-  "deal": {
-    "company": "ZuriMED",
-    "amount": "Non divulgué",
-    "round": "M&A",
-    "thesis": "Stryker finalise le rachat de ZuriMED, start-up suisse du renfort de coiffe des rotateurs FiberLocker (510(k) en 2024, essai multicentrique américain en cours). Un tuck-in typique : l'acquéreur achète un dispositif déjà autorisé avant que les données d'essai ne soient publiées.",
-    "sector": "MedTech",
-    "url": "https://www.medtechdive.com/news/stryker-completes-zurimed-takeover/872835/"
+    "company": "Abbott",
+    "milestone": "Approbation FDA",
+    "title": "Abbott obtient l'approbation FDA de l'Amplatzer Paraclose, premier dispositif transcathéter américain dédié aux fuites paravalvulaires",
+    "summary": "Occluder posé par cathéter via l'artère ou la veine de la jambe, alternative à une nouvelle chirurgie à cœur ouvert ; approbation appuyée par l'étude PARADIGM. En Europe, le dispositif est commercialisé sous le nom Amplatzer Valvular Plug III depuis 2020.",
+    "why": "Les fuites paravalvulaires touchent 2 à 18 % des patients après remplacement valvulaire : une indication de niche qui s'ouvre aux États-Unis, signal pour les startups du structurel cardiaque.",
+    "place": "Illinois",
+    "sector": "Cardio",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/abbott-paravalvular-leak-treatment-secures-fda-approval/"
   },
   "brefsEurope": [
     {
-      "company": "Empatica",
-      "place": "Milan",
-      "sector": "Digital Health",
+      "company": "Roche",
+      "place": "Bâle",
+      "sector": "Diagnostics",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "Empatica lance WellPD, système de suivi à domicile de la maladie de Parkinson, disponible dans 12 pays",
-      "summary": "Bracelet et application mesurant bradykinésie, dyskinésie et tremblements via des algorithmes validés, le système est présenté comme autorisé par la FDA et marqué CE. Il s'appuie sur les algorithmes de PKG Health, rachetée par Empatica en 2025.",
-      "url": "https://www.medicaldevice-network.com/news/empatica-wellpd-parkinsons-wearable-device/"
-    },
-    {
-      "company": "Episurf Medical",
-      "place": "Stockholm",
-      "sector": "MedTech",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 2,
-      "title": "Episurf signe une lettre d'intention pour céder son activité medtech (Episealer, Epiguide) au canadien Oligo Medic",
-      "summary": "Prix non divulgué, aucune vente finalisée. Episurf se recentre sur l'immobilier : un exemple de petite medtech d'implants cartilagineux qui cherche un repreneur industriel.",
-      "url": "https://nordiclifescience.org/episurf-moves-to-sell-medtech-business/"
+      "strength": 3,
+      "title": "Roche reçoit le marquage CE de l'immuno-analyseur compact cobas smart e",
+      "summary": "Plateforme de moins d'un mètre carré, jusqu'à 60 tests/heure et plus de 100 dosages prévus (cardiométabolique, oncologie, infectiologie), lancés par vagues. Un comparable de marché : la décentralisation du diagnostic de laboratoire.",
+      "url": "https://labmedica.com/immunology/articles/294814275/compact-immunoanalyzer-gains-ce-mark-for-testing-across-local-care-settings.html"
     }
   ],
   "brefsIntl": [
     {
-      "company": "StimCardio Medical",
+      "company": "Deep Reasoning AI",
       "place": "États-Unis",
-      "sector": "Cardio",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "StimCardio lève 30 M$ en Series A menée par Metis Medtech pour son bracelet de neuromodulation Rhyvive",
-      "summary": "Le dispositif non invasif, adjuvant à l'ablation de la fibrillation atriale, a réduit les récidives dans un pilote randomisé contre placebo. Les fonds financent l'essai pivot NeuroPulse 2 et une demande De Novo à la FDA.",
-      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
+      "sector": "Imagerie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "La FDA autorise NeuroDR de Deep Reasoning AI pour les scanners CT neurovasculaires",
+      "summary": "Autorisation FDA d'un logiciel d'aide à l'analyse des scanners CT neurovasculaires, selon Medical Device Network.",
+      "url": "https://www.medicaldevice-network.com/news/fda-deep-reasoning-ais-neurodr-ct-scans/"
     },
     {
-      "company": "SetPoint Medical",
-      "place": "Boston",
-      "sector": "Neurotech",
+      "company": "Senseonics",
+      "place": "États-Unis",
+      "sector": "Diagnostics",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "SetPoint Medical traite son premier patient commercial avec son neurostimulateur du nerf vague contre la polyarthrite rhumatoïde",
-      "summary": "Premier cas au Beth Israel Deaconess Medical Center après l'approbation FDA. La société envisage ensuite la maladie de Crohn et la sclérose en plaques.",
-      "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
-    },
-    {
-      "company": "Pharaoh Neuro",
-      "place": "Minnesota",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "La FDA accorde le statut Breakthrough Device à Neurapheresis de Pharaoh Neuro contre l'hémorragie sous-arachnoïdienne",
-      "summary": "Le système filtre le liquide céphalo-rachidien du patient en boucle fermée. Fondée en 2024, la société avait levé 20 M$ en Series A en février 2026.",
-      "url": "https://www.medicaldevice-network.com/news/pharaoh-csf-management-system-secures-fda-breakthrough-designation/"
+      "title": "Senseonics lance le premier essai humain de son CGM Freedom",
+      "summary": "Début de l'essai chez l'humain du capteur de glucose en continu Freedom, nouvelle génération du CGM implantable de la société.",
+      "url": "https://www.medicaldevice-network.com/news/senseonics-begins-freedom-cgm-trial/"
     }
   ],
   "word": {
-    "term": "Rapid AST",
-    "full": "Rapid Antimicrobial Susceptibility Testing (antibiogramme rapide)",
-    "fr": "Antibiogramme rapide",
-    "field": "Diagnostic · Résistance aux antibiotiques",
-    "definition": "Un test qui mesure en quelques heures, au lieu de 1 à 2 jours, quels antibiotiques tuent encore la bactérie d'un patient.",
+    "term": "POCUS",
+    "full": "Point-of-Care Ultrasound",
+    "fr": "Échographie au chevet du patient",
+    "field": "Imagerie médicale",
+    "definition": "Échographie portable, utilisée sur place par le soignant et de plus en plus guidée par l'IA, pour trier ou diagnostiquer sans passer par un service d'imagerie.",
     "parts": [
       {
-        "label": "Cartouche / panel",
-        "role": "les antibiotiques à tester"
+        "label": "Sonde portable",
+        "role": "l'acquisition"
       },
       {
-        "label": "Détection phénotypique",
-        "role": "observer la croissance bactérienne"
+        "label": "IA de guidage",
+        "role": "l'aide à l'image"
       },
       {
-        "label": "Logiciel",
-        "role": "traduire en sensible / résistant"
+        "label": "Protocole de triage",
+        "role": "la décision"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Prélèvement",
-        "t": "Les bactéries sont isolées du sang ou d'un autre échantillon."
+        "h": "Acquisition",
+        "t": "Un soignant formé balaie la zone avec une sonde connectée à un smartphone ou une tablette."
       },
       {
         "n": "2",
-        "h": "Exposition",
-        "t": "Elles sont mises au contact de plusieurs antibiotiques à différentes concentrations."
+        "h": "Guidage IA",
+        "t": "Le logiciel guide le geste et aide à repérer les images suspectes."
       },
       {
         "n": "3",
-        "h": "Lecture",
-        "t": "La croissance est mesurée et l'algorithme rend la concentration minimale inhibitrice et le verdict."
+        "h": "Triage",
+        "t": "Le patient est rassuré ou orienté vers un examen spécialisé."
       }
     ],
-    "why": "Chaque heure gagnée avant le bon antibiotique compte en sepsis ; la résistance pousse les hôpitaux à payer pour la vitesse. Les systèmes sont à fort capital : tests et consommables récurrents, mais parcours réglementaire (IVDR, 510(k)) long.",
+    "why": "Angle VC : l'IA transforme un outil de spécialiste en outil de première ligne, ce qui élargit le marché aux zones sans radiologue ; le chemin réglementaire (MDR/FDA) reste le goulot d'étranglement.",
     "startups": [
       {
-        "name": "Gradientech",
-        "use": "QuickMIC, antibiogramme en microfluidique ; panel GN02 marqué CE IVDR, statut Breakthrough Device FDA",
-        "place": "Uppsala, Suède"
+        "name": "N23 Health",
+        "use": "App IA sur échographes portables du commerce ; étude de 5 000 femmes en Éthiopie, infirmières comparables à des radiologues suédois en phase 1.",
+        "place": "Suède"
       },
       {
-        "name": "Q-linea",
-        "use": "ASTar : antibiogramme depuis hémocultures positives en ~6 h ; 510(k) FDA du menu Gram-négatif étendu en avril 2026",
-        "place": "Uppsala, Suède"
+        "name": "UltraSight",
+        "use": "Guidage IA pour échographies cardiaques par des non-experts ; Series B de 13 M$.",
+        "place": "Tel Aviv"
       },
       {
-        "name": "Pattern Bioscience",
-        "use": "Microbiologie unicellulaire pour ID/AST en ~4 h ; Series D de 43 M$ en novembre 2025, statut Breakthrough Device pour le panel pneumonie",
+        "name": "Exo Imaging",
+        "use": "Plateforme échographique portable à technologie pMUT et IA ; +35 M$ levés.",
         "place": "États-Unis"
       }
     ],
     "sources": [
       {
-        "publisher": "Nordic Life Science",
-        "title": "Gradientech adds last-resort antibiotic to rapid resistance test",
-        "url": "https://nordiclifescience.org/gradientech-adds-last-resort-antibiotic-to-rapid-resistance-test/"
+        "publisher": "Medicon Village",
+        "title": "New SmiLe company N23 Health shows strong clinical results with AI-supported portable mammography solution",
+        "url": "https://www.mediconvillage.se/?p=142540"
       },
       {
-        "publisher": "Inderes",
-        "title": "Q-linea announces FDA clearance of expanded ASTar blood testing menu",
-        "url": "https://www.inderes.fi/en/releases/q-linea-announces-fda-clearance-of-expanded-astar-blood-testing-menu"
+        "publisher": "AuntMinnie",
+        "title": "Handheld ultrasound + CADx helps triage breast masses",
+        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15621130/handheld-ultrasound-cadx-helps-triage-breast-masses"
       },
       {
-        "publisher": "360Dx",
-        "title": "After Series C Financing, Pattern Bioscience Preps Rapid AST System",
-        "url": "https://www.360dx.com/infectious-disease/after-series-c-financing-pattern-bioscience-preps-rapid-ast-system"
+        "publisher": "Calcalist",
+        "title": "UltraSight raises $13 million, bringing AI guidance for cardiac ultrasounds anywhere",
+        "url": "https://calcalistech.com/ctech/articles/0,7340,L-3907475,00.html"
+      },
+      {
+        "publisher": "AuntMinnie",
+        "title": "Exo Imaging adds $35M to coffers",
+        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15623777/exo-imaging-adds-35m-to-coffers"
       }
     ]
   }
