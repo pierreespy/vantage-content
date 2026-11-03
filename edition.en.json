@@ -1,166 +1,162 @@
 {
-  "dateLong": "Nov 1, 2026",
+  "dateLong": "Nov 3, 2026",
   "ticker": [
     {
-      "company": "N23 HEALTH",
-      "amount": "Award",
-      "kind": "new"
+      "company": "NIGHTINGALE HEALTH",
+      "amount": "80,000 samples",
+      "kind": "tech"
     },
     {
       "company": "ABBOTT",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "ROCHE",
-      "amount": "CE",
-      "kind": "reg"
-    },
-    {
-      "company": "DEEP REASONING AI",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "SENSEONICS",
-      "amount": "1st trial",
+      "amount": "Pivotal ✓",
       "kind": "tech"
+    },
+    {
+      "company": "J&J (IMPELLA)",
+      "amount": "EU registry",
+      "kind": "tech"
+    },
+    {
+      "company": "INSTYLLA",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "MTIP",
+      "amount": "Fund",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "New venture · Imaging",
-    "title": "Sweden's N23 Health wins MassChallenge Switzerland prize for handheld-ultrasound breast lump triage",
-    "deck": "The young Swedish company, led by CEO Lisa Falco, lets a trained nurse triage breast lumps with a handheld ultrasound, with no radiologist or internet connection. The Diamond Prize comes as its phase-2 study (5,000 women in Ethiopia) paves the way to CE-MDR marking.",
-    "company": "N23 Health",
-    "sector": "Imagerie",
-    "pillar": "naissances",
-    "signalType": "grant_award",
+    "kicker": "Diagnostics · Neurodegeneration",
+    "title": "UK-PRISM: Nightingale Health and Alamar Biosciences to measure hundreds of proteins across 80,000 UK Biobank samples",
+    "deck": "The study, funded in part by Alzheimer's Research UK and LifeArc, will use Alamar's NULISA platform, run in Nightingale's labs, to map the earliest biological changes linked to Alzheimer's and Parkinson's. The dataset, open to researchers from end-2027, is a training ground for future early-detection blood tests.",
+    "company": "Nightingale Health",
+    "stage": "Growth",
+    "sector": "Diagnostics",
+    "pillar": "innovation",
+    "signalType": "early_partnership",
     "strength": 3,
-    "url": "https://www.startupticker.ch/en/news/flycatcher-and-trilliome-shine-at-masschallenge-switzerland-awards"
+    "url": "https://www.medicaldevice-network.com/news/uk-biobank-study-initiated-to-assess-early-indicators-of-neurodegeneration/"
   },
   "milestone": {
     "company": "Abbott",
-    "milestone": "FDA approval",
-    "title": "Abbott wins FDA approval for Amplatzer Paraclose, first US transcatheter device built for paravalvular leaks",
-    "summary": "Catheter-delivered occluder placed via a leg artery or vein, an alternative to repeat open-heart surgery; approval backed by the PARADIGM study. In Europe the device has been sold as the Amplatzer Valvular Plug III since 2020.",
-    "why": "Paravalvular leaks affect 2% to 18% of patients after valve replacement: a niche indication now opening in the US, a signal for structural-heart startups.",
-    "place": "Illinois",
+    "milestone": "Pivotal trial",
+    "title": "Abbott starts pivotal trial of its Cephea mitral valve, with enrollment in Europe",
+    "summary": "Up to 585 patients with moderate-to-severe mitral regurgitation or mitral annular calcification will be enrolled in the US, Canada and Europe; a Wichita, Kansas hospital enrolled the first patient.",
+    "why": "Transcatheter mitral valve replacement (TMVR) reaches pivotal stage at a major player: a validation signal for European startups such as HighLife and InnovHeart.",
+    "place": "Chicago",
     "sector": "Cardio",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/abbott-paravalvular-leak-treatment-secures-fda-approval/"
+    "signalType": "clinical_update",
+    "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
   },
   "brefsEurope": [
     {
-      "company": "Roche",
-      "place": "Bâle",
-      "sector": "Diagnostics",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Roche receives CE mark for compact cobas smart e immunoanalyzer",
-      "summary": "Under one square meter, up to 60 tests/hour and more than 100 assays planned (cardiometabolic, oncology, infectious disease), launching in waves. A market comparable: the decentralization of lab diagnostics.",
-      "url": "https://labmedica.com/immunology/articles/294814275/compact-immunoanalyzer-gains-ce-mark-for-testing-across-local-care-settings.html"
+      "company": "Johnson & Johnson MedTech (Impella)",
+      "place": "Germany / Switzerland / Austria",
+      "sector": "Cardio",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "J&J presents the European TRI-GUARD-PCI registry at TCT 2026: 6.1% 30-day mortality on Impella",
+      "summary": "Across 279 patients at German, Swiss and Austrian centres, all-cause mortality is 6.1% at 30 days and 7.9% at 180 days; J&J sets these observational data against the CHIP-BCIS3 trial (about 8%). A market comparable: results from an established player, with PROTECT IV due in 2027.",
+      "url": "https://www.medicaldevice-network.com/news/jj-impella-hrpci-clinical-analyses/"
+    },
+    {
+      "company": "MTIP",
+      "place": "Basel",
+      "sector": "Fund",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "MTIP launches EverHealth, a Luxembourg ELTIF evergreen fund for European healthtech",
+      "summary": "The fund will invest directly, in follow-ons in MTIP portfolio companies and in secondaries, with quarterly subscriptions and redemptions in EUR and CHF. Size undisclosed; open for subscriptions.",
+      "url": "https://www.startupticker.ch/en/news/mtip-launches-evergreen-fund-for-european-healthcare-technology"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Deep Reasoning AI",
-      "place": "États-Unis",
-      "sector": "Imagerie",
+      "company": "Instylla",
+      "place": "Burlington, Massachusetts",
+      "sector": "Biomaterials",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "FDA clears Deep Reasoning AI's NeuroDR for neurovascular CT scans",
-      "summary": "FDA clearance of software supporting neurovascular CT scan analysis, per Medical Device Network.",
-      "url": "https://www.medicaldevice-network.com/news/fda-deep-reasoning-ais-neurodr-ct-scans/"
-    },
-    {
-      "company": "Senseonics",
-      "place": "États-Unis",
-      "sector": "Diagnostics",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Senseonics begins first human trial of its Freedom CGM",
-      "summary": "First-in-human trial of the Freedom continuous glucose monitor, the company's next implantable CGM.",
-      "url": "https://www.medicaldevice-network.com/news/senseonics-begins-freedom-cgm-trial/"
+      "strength": 4,
+      "title": "FDA expands indication of Instylla's Embrace HES embolic hydrogel to peripheral arterial bleeds",
+      "summary": "Cleared for vessels up to 6 mm, backed by the HALT trial (130 patients, 22 US centres): 100% freedom from major adverse events at 30 days and 90% clinical success. A resorbable PEG hydrogel worth watching in biomaterials.",
+      "url": "https://www.medicaldevice-network.com/news/fda-expands-approval-instyllas-embrace-hes/"
     }
   ],
   "word": {
-    "term": "POCUS",
-    "full": "Point-of-Care Ultrasound",
-    "fr": "Point-of-care ultrasound",
-    "field": "Medical imaging",
-    "definition": "Portable ultrasound used on the spot by the clinician and increasingly AI-guided, to triage or diagnose without going through an imaging department.",
+    "term": "TMVR",
+    "full": "Transcatheter Mitral Valve Replacement",
+    "fr": "Replacing the mitral valve without open-heart surgery",
+    "field": "Structural cardiology",
+    "definition": "A technique that implants an artificial valve in the heart through a catheter, without opening the chest, to treat a leaking mitral valve.",
     "parts": [
       {
-        "label": "Handheld probe",
-        "role": "acquisition"
+        "label": "Prosthetic valve",
+        "role": "takes over the function of the failing native valve"
       },
       {
-        "label": "AI guidance",
-        "role": "image help"
+        "label": "Anchoring",
+        "role": "holds the valve in the anatomically complex mitral annulus"
       },
       {
-        "label": "Triage protocol",
-        "role": "the decision"
+        "label": "Delivery system",
+        "role": "catheter (often trans-septal) that brings the valve to the heart"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Acquisition",
-        "t": "A trained caregiver scans the area with a probe connected to a smartphone or tablet."
+        "h": "Access",
+        "t": "The catheter enters through the femoral vein and crosses the septum between the atria."
       },
       {
         "n": "2",
-        "h": "AI guidance",
-        "t": "Software guides the scan and helps flag suspicious images."
+        "h": "Positioning",
+        "t": "The valve is guided under imaging to the mitral annulus."
       },
       {
         "n": "3",
-        "h": "Triage",
-        "t": "The patient is reassured or referred for specialist testing."
+        "h": "Deployment",
+        "t": "The valve is anchored; obstruction of the left ventricular outflow tract (LVOT) must be avoided."
       }
     ],
-    "why": "VC angle: AI turns a specialist tool into a front-line tool, widening the market to areas without radiologists; the regulatory path (MDR/FDA) remains the bottleneck.",
+    "why": "Mitral leaks are common and few patients are operable: TMVR is still an open device class, with pivotal trials starting (Abbott Cephea) and nine-figure rounds. Risks to watch: anchoring, LVOT obstruction and durability.",
     "startups": [
       {
-        "name": "N23 Health",
-        "use": "AI app on commercial portable ultrasound devices; 5,000-woman study in Ethiopia, nurses comparable to Swedish radiologists in phase 1.",
-        "place": "Sweden"
+        "name": "HighLife",
+        "use": "Transfemoral valve-in-ring TMVR system; CE mark for the Clarity valve, over $90M raised in September 2026 (Andera, Sofinnova, Supernova Invest, Mérieux Equity Partners) for the US pivotal study",
+        "place": "France"
       },
       {
-        "name": "UltraSight",
-        "use": "AI guidance for cardiac ultrasound by non-experts; $13M Series B.",
-        "place": "Tel Aviv"
+        "name": "InnovHeart",
+        "use": "Saturn TMVR prosthesis in the European CASSINI-EU trial; first-in-human implant in Lithuania in May 2024; Series C of over $55M led by Grand Pharmaceutical",
+        "place": "Milan, Italy"
       },
       {
-        "name": "Exo Imaging",
-        "use": "Handheld ultrasound platform based on pMUT technology and AI; $35M added.",
-        "place": "US"
+        "name": "4C Medical Technologies",
+        "use": "AltaValve system in the ATLAS pivotal trial (US and Europe); $175M Series D led by Boston Scientific; two FDA Breakthrough designations",
+        "place": "Minnesota, US"
       }
     ],
     "sources": [
       {
-        "publisher": "Medicon Village",
-        "title": "New SmiLe company N23 Health shows strong clinical results with AI-supported portable mammography solution",
-        "url": "https://www.mediconvillage.se/?p=142540"
+        "publisher": "Bioxconomy",
+        "title": "HighLife banks over $90m to launch US study and advance European commercial growth",
+        "url": "https://www.bioxconomy.com/investment/highlife-banks-over-90m-to-launch-us-study-and-advance-european-commercial-growth"
       },
       {
-        "publisher": "AuntMinnie",
-        "title": "Handheld ultrasound + CADx helps triage breast masses",
-        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15621130/handheld-ultrasound-cadx-helps-triage-breast-masses"
+        "publisher": "MedTech Dive",
+        "title": "Abbott starts pivotal trial for mitral valve replacement device",
+        "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
       },
       {
-        "publisher": "Calcalist",
-        "title": "UltraSight raises $13 million, bringing AI guidance for cardiac ultrasounds anywhere",
-        "url": "https://calcalistech.com/ctech/articles/0,7340,L-3907475,00.html"
-      },
-      {
-        "publisher": "AuntMinnie",
-        "title": "Exo Imaging adds $35M to coffers",
-        "url": "https://www.auntminnie.com/clinical-news/ultrasound/article/15623777/exo-imaging-adds-35m-to-coffers"
+        "publisher": "BioWorld",
+        "title": "4C raises $175M for mitral valve technology",
+        "url": "https://www.bioworld.com/articles/717735-4c-raises-175m-for-mitral-valve-technology"
       }
     ]
   }

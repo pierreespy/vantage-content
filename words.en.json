@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-11-01",
+  "generatedAt": "2026-11-03",
   "words": [
+    {
+      "term": "TMVR",
+      "full": "Transcatheter Mitral Valve Replacement",
+      "fr": "Replacing the mitral valve without open-heart surgery",
+      "field": "Structural cardiology",
+      "definition": "A technique that implants an artificial valve in the heart through a catheter, without opening the chest, to treat a leaking mitral valve.",
+      "parts": [
+        {
+          "label": "Prosthetic valve",
+          "role": "takes over the function of the failing native valve"
+        },
+        {
+          "label": "Anchoring",
+          "role": "holds the valve in the anatomically complex mitral annulus"
+        },
+        {
+          "label": "Delivery system",
+          "role": "catheter (often trans-septal) that brings the valve to the heart"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Access",
+          "t": "The catheter enters through the femoral vein and crosses the septum between the atria."
+        },
+        {
+          "n": "2",
+          "h": "Positioning",
+          "t": "The valve is guided under imaging to the mitral annulus."
+        },
+        {
+          "n": "3",
+          "h": "Deployment",
+          "t": "The valve is anchored; obstruction of the left ventricular outflow tract (LVOT) must be avoided."
+        }
+      ],
+      "why": "Mitral leaks are common and few patients are operable: TMVR is still an open device class, with pivotal trials starting (Abbott Cephea) and nine-figure rounds. Risks to watch: anchoring, LVOT obstruction and durability.",
+      "startups": [
+        {
+          "name": "HighLife",
+          "use": "Transfemoral valve-in-ring TMVR system; CE mark for the Clarity valve, over $90M raised in September 2026 (Andera, Sofinnova, Supernova Invest, Mérieux Equity Partners) for the US pivotal study",
+          "place": "France"
+        },
+        {
+          "name": "InnovHeart",
+          "use": "Saturn TMVR prosthesis in the European CASSINI-EU trial; first-in-human implant in Lithuania in May 2024; Series C of over $55M led by Grand Pharmaceutical",
+          "place": "Milan, Italy"
+        },
+        {
+          "name": "4C Medical Technologies",
+          "use": "AltaValve system in the ATLAS pivotal trial (US and Europe); $175M Series D led by Boston Scientific; two FDA Breakthrough designations",
+          "place": "Minnesota, US"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Bioxconomy",
+          "title": "HighLife banks over $90m to launch US study and advance European commercial growth",
+          "url": "https://www.bioxconomy.com/investment/highlife-banks-over-90m-to-launch-us-study-and-advance-european-commercial-growth"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "Abbott starts pivotal trial for mitral valve replacement device",
+          "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
+        },
+        {
+          "publisher": "BioWorld",
+          "title": "4C raises $175M for mitral valve technology",
+          "url": "https://www.bioworld.com/articles/717735-4c-raises-175m-for-mitral-valve-technology"
+        }
+      ],
+      "date": "2026-11-03",
+      "dateLong": "Nov 3, 2026"
+    },
     {
       "term": "EHDS",
       "full": "European Health Data Space",
@@ -4770,69 +4845,6 @@
       ],
       "date": "2026-09-24",
       "dateLong": "24 sept. 2026"
-    },
-    {
-      "term": "TMVR",
-      "full": "Transcatheter Mitral Valve Replacement",
-      "fr": "Remplacement valvulaire mitral par cathéter",
-      "field": "Cardiologie structurelle",
-      "definition": "Une technique qui remplace la valve mitrale du cœur sans chirurgie à cœur ouvert, via un cathéter introduit par la veine fémorale ou par ponction transseptale.",
-      "parts": [
-        {
-          "label": "Voie d'accès",
-          "role": "l'introduction par cathéter (fémorale ou transseptale)"
-        },
-        {
-          "label": "Valve prothétique",
-          "role": "le remplacement fonctionnel, compressée pour le transport"
-        },
-        {
-          "label": "Système d'ancrage",
-          "role": "la fixation dans l'appareil valvulaire natif"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Accès",
-          "t": "Le cathéter est introduit par la veine fémorale puis guidé jusqu'à l'oreillette gauche par ponction transseptale."
-        },
-        {
-          "n": "2",
-          "h": "Positionnement",
-          "t": "La valve prothétique compressée est acheminée sous imagerie fluoroscopique et échographique jusqu'à l'anneau mitral natif."
-        },
-        {
-          "n": "3",
-          "h": "Déploiement",
-          "t": "La valve se déploie et s'ancre dans l'appareil valvulaire natif, restaurant une fonction compétente sans arrêt cardiaque ni sternotomie."
-        }
-      ],
-      "why": "HighLife vient de lever 80 M€ auprès des plus gros fonds santé français (Sofinnova, Andera, Mérieux Equity Partners) pour lancer son étude pivot américaine sur la régurgitation mitrale sévère — un segment où la chirurgie reste risquée pour de nombreux patients âgés et où le TMVR promet une alternative mini-invasive après une décennie de faux départs (Cardiovalve et Innovalve rachetées par Edwards avant maturité commerciale). Les VCs santé y voient un sous-secteur structurel encore ouvert aux acteurs indépendants, avec des syndicats de fonds spécialisés qui financent déjà la génération suivante côté mitral et tricuspide.",
-      "startups": [
-        {
-          "name": "InnovHeart",
-          "use": "Système Saturn de remplacement valvulaire mitral par voie trans-septale ; Series C de 55 M$ menée par Grand Pharma pour la validation clinique",
-          "place": "Milan, Italie"
-        },
-        {
-          "name": "Innoventric",
-          "use": "Plateforme Trillium de remplacement valvulaire tricuspide par cathéter ; Series B menée par RA Capital Management avec le soutien de l'EIC",
-          "place": "Rehovot, Israël"
-        },
-        {
-          "name": "CroíValve",
-          "use": "Système Duo de coaptation tricuspide par cathéter ; Series B étendue à 43 M$ (dont subvention EIC Accelerator) pour l'étude pivot TANDEM II",
-          "place": "Dublin, Irlande"
-        },
-        {
-          "name": "TriCares",
-          "use": "Valve tricuspide Topaz ; essai pivot américain TRICURE autorisé par la FDA, financement total de 103 M$ mené par Andera Partners et Bayern Kapital",
-          "place": "Aschheim, Allemagne"
-        }
-      ],
-      "date": "2026-09-23",
-      "dateLong": "23 sept. 2026"
     },
     {
       "term": "Theranostics",
