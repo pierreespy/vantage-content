@@ -2,6 +2,60 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-03",
+      "company": "Doctolib",
+      "title": "NVIDIA investit au capital de Doctolib pour accélérer ses modèles d'IA de santé, avec une infrastructure européenne renforcée",
+      "url": "https://htn.co.uk/2026/10/26/nvidia-invest-in-doctolib-healthcare-ai/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "North West London Acute Provider Group",
+      "title": "North West London : appel d'offres voix ambiante pour 2027-2030 et bascule de l'automatisation vers un programme d'IA",
+      "url": "https://htn.co.uk/2026/11/02/north-west-london-acute-provider-group-updates-on-digital-and-data-plan-for-2026-27/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "Ligence",
+      "title": "Ligence (Lituanie) : IA d'échographie cardiaque marquée CE, avec une seconde clearance FDA 510(k) en avril 2026",
+      "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "Magic Vision",
+      "title": "Magic Vision lève 600 K€ (SixS, business angels) pour Silver Eye, sa surveillance des seniors par IA sans wearable",
+      "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "Clatterbridge Cancer Centre",
+      "title": "Clatterbridge : voix ambiante et Copilot en priorité, environnement de recherche de confiance pour croiser données cliniques, imagerie et moléculaires",
+      "url": "https://htn.co.uk/2026/11/02/clatterbridge-cancer-centre-on-digital-systems-investments-data-and-workforce-digital-learning/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "North West Radiotherapy Network",
+      "title": "Christie, Clatterbridge et Lancashire Teaching publient une stratégie radiothérapie à cinq ans centrée sur données et IA",
+      "url": "https://htn.co.uk/2026/11/02/radiotherapy-research-strategy-for-the-north-west-sets-out-actions-for-data-ai-and-digital-systems/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "Welsh health boards (HTN survey)",
+      "title": "Pays de Galles : un quart seulement des organisations de santé sont majoritairement électroniques, selon une enquête HTN",
+      "url": "https://htn.co.uk/2026/10/27/insight-progress-to-electronic-patient-records-in-wales/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "ONC (HHS)",
+      "title": "Les États-Unis finalisent la règle HTI-5 : 14 critères de certification supprimés, accent mis sur les API FHIR",
+      "url": "https://hitconsultant.net/2026/10/26/hhs-onc-finalizes-hti-5-deregulatory-rule-unleash-prosperity-health-it-certification/"
+    },
+    {
+      "date": "2026-11-03",
+      "company": "Wrapped Health",
+      "title": "Wrapped Health lève 2,1 M$ en pre-seed (Lightbank, Arteria Capital) pour relier recommandations cliniques et achats santé",
+      "url": "https://www.prnewswire.com/news-releases/wrapped-health-raises-2-1m-to-connect-clinical-care-and-consumer-health-302923123.html"
+    },
+    {
       "date": "2026-11-01",
       "company": "Agora Labs",
       "title": "Agora Labs (Rome) lève 4,3 M€ menés par P101 SGR pour rendre les données hospitalières exploitables par la recherche",
@@ -108,66 +162,6 @@
       "company": "NHS England",
       "title": "NHS England sonde le marché pour un jeu de données national sur les stocks de médicaments hospitaliers (6,75 M£)",
       "url": "https://htn.co.uk/2026/10/19/nhs-england-opens-6-7-million-secondary-care-medicines-data-pre-market-engagement/"
-    },
-    {
-      "date": "2026-10-19",
-      "company": "Diagnexia",
-      "title": "Diagnexia confie à la plateforme cloud de Sectra jusqu'à 100 000 cas de pathologie du NHS par an",
-      "url": "https://nordiclifescience.org/sectra-platform-to-handle-nhs-pathology-cases-for-diagnexia/"
-    },
-    {
-      "date": "2026-10-19",
-      "company": "Encare",
-      "title": "Encare signe avec l'Institut national du cancer de Thaïlande pour déployer l'ERAS en chirurgie colorectale",
-      "url": "https://nordiclifescience.org/encare-enters-thailand-through-cancer-institute-deal/"
-    },
-    {
-      "date": "2026-10-19",
-      "company": "American Medical Association",
-      "title": "L'AMA publie un cadre de gouvernance pour les solutions d'IA agentique en santé",
-      "url": "https://www.fiercehealthcare.com/regulatory/american-medical-association-rolls-out-governance-framework-agentic-ai-solutions"
-    },
-    {
-      "date": "2026-10-19",
-      "company": "Otter Health",
-      "title": "Otter Health lève 8 M$ pour une approche différente de l'autorisation préalable",
-      "url": "https://www.fiercehealthcare.com/ai-and-machine-learning/otter-health-launches-8m-take-prior-authorization"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "NHS England",
-      "title": "NHS England annonce un cadre ouvert de 838 M£ pour le futur des systèmes informatiques de médecine générale",
-      "url": "https://htn.co.uk/2026/10/13/838-million-open-framework-for-future-of-gp-it-announced/"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "Accurx",
-      "title": "Accurx Scribe déployé en santé mentale du sujet âgé au NHS Rotherham, Doncaster and South Humber",
-      "url": "https://htn.co.uk/2026/10/13/rotherham-doncaster-and-south-humber-introduces-ai-scribe-for-mental-health-services/"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "Sirona Medical",
-      "title": "Sirona Medical · Growth",
-      "url": "https://www.medicaldevice-network.com/news/sirona-medical-reels-in-40m-for-cloud-based-radiology-platform-scaleup/"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "Kainos",
-      "title": "NHS England attribue à Kainos 9,9 M£ pour le développement du « NHS Online Trust »",
-      "url": "https://htn.co.uk/2026/10/14/9-9-million-contract-awarded-for-nhs-online-trust-digital-and-data-services/"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "North West London Acute Provider Group",
-      "title": "Londres Nord-Ouest consulte les fournisseurs avant son appel d'offres de voix ambiante (AVT)",
-      "url": "https://htn.co.uk/2026/10/13/north-west-london-trusts-invite-suppliers-to-help-shape-upcoming-avt-procurement/"
-    },
-    {
-      "date": "2026-10-18",
-      "company": "Manchester University NHS FT",
-      "title": "UKRI finance à hauteur de 2,4 M£ un « living lab » pour les wearables à Manchester",
-      "url": "https://htn.co.uk/2026/10/08/2-4-million-in-funding-to-establish-living-lab-for-wearable-tech-in-manchester/"
     }
   ]
 }

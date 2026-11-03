@@ -2,6 +2,166 @@
   "generatedAt": "2026-11-03",
   "words": [
     {
+      "term": "AAV",
+      "full": "Adeno-Associated Virus (virus adéno-associé)",
+      "fr": "Vecteur viral adéno-associé",
+      "field": "Thérapie génique",
+      "definition": "Un petit virus inoffensif vidé de ses gènes et rechargé avec un gène thérapeutique, utilisé comme camion de livraison pour l'amener dans les cellules du patient.",
+      "parts": [
+        {
+          "label": "Capside",
+          "role": "le camion : sa forme décide quels tissus sont ciblés"
+        },
+        {
+          "label": "Transgène",
+          "role": "la cargaison : le gène thérapeutique (≈ 4,7 kb max)"
+        },
+        {
+          "label": "ITR",
+          "role": "les extrémités de 145 bases qui permettent la réplication et l'emballage"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le vecteur est injecté ; le sérotype dicte le tropisme (AAV9 : cerveau et cœur, AAV8 : foie, AAV1 : muscle)."
+        },
+        {
+          "n": "2",
+          "h": "Entrée dans la cellule",
+          "t": "La capside se fixe aux récepteurs, entre dans la cellule, s'échappe de l'endosome et atteint le noyau."
+        },
+        {
+          "n": "3",
+          "h": "Expression",
+          "t": "Dans le noyau, l'ADN simple brin est converti en double brin puis transcrit : la cellule produit la protéine manquante."
+        }
+      ],
+      "why": "Plateforme de référence de la thérapie génique in vivo, mais limitée par la capacité d'emballage et les anticorps neutralisants (dose unique). D'où la course à l'ingénierie de capsides par IA (licence Dyno–Astellas en avril 2026), aux systèmes à double vecteur (Series B de 141 M$ d'AAVantgarde) et les catalyseurs réglementaires comme le BLA d'uniQure en Huntington.",
+      "startups": [
+        {
+          "name": "AAVantgarde Bio",
+          "use": "Plateforme de double vecteur AAV pour les gros gènes ; Series B de 141 M$ (nov. 2025), programmes Stargardt (AAVB-039) et Usher 1B (AAVB-081)",
+          "place": "Milan, Italie"
+        },
+        {
+          "name": "SparingVision",
+          "use": "SPVN06, thérapie génique AAV « gène-agnostique » sous-rétinienne pour la rétinopathie pigmentaire ; dosage de l'essai de phase 1/2 PRODYGY terminé (fév. 2026)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Dyno Therapeutics",
+          "use": "Conception de capsides AAV par IA ; capsid musculaire licencié à Astellas (avril 2026), capsid SNC licencié à Roche (janv. 2025)",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Current Issues in Molecular Biology",
+          "title": "Therapeutic Application and Structural Features of Adeno-Associated Virus Vector",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353222"
+        },
+        {
+          "publisher": "BioDrugs (PubMed)",
+          "title": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28669112/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "AAVantgarde closes $141 million Series B financing to advance its clinical programs in Stargardt disease and Usher 1B syndrome",
+          "url": "https://www.biospace.com/press-releases/aavantgarde-closes-141-million-series-b-financing-to-advance-its-clinical-programs-in-stargardt-disease-and-usher-1b-syndrome"
+        },
+        {
+          "publisher": "Packgene",
+          "title": "Dyno Therapeutics Licenses AI-Designed AAV Capsid to Astellas for Muscle Gene Therapy",
+          "url": "https://www.packgene.com/frontier/040826-dyno-therapeutics/"
+        }
+      ],
+      "date": "2026-11-03",
+      "dateLong": "3 nov. 2026"
+    },
+    {
+      "term": "RPM",
+      "full": "Remote Patient Monitoring",
+      "fr": "Télésurveillance médicale à distance",
+      "field": "Télésurveillance",
+      "definition": "Des appareils portés ou installés au domicile du patient mesurent ses constantes et les transmettent à l'équipe soignante, qui réagit sans attendre une consultation.",
+      "parts": [
+        {
+          "label": "Capteurs",
+          "role": "tension, poids, glycémie, oxymétrie"
+        },
+        {
+          "label": "Plateforme",
+          "role": "transmission et alertes"
+        },
+        {
+          "label": "Équipe soignante",
+          "role": "revue et décision"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mesure",
+          "t": "Le patient utilise l'appareil à domicile ; la mesure part par internet ou réseau mobile vers le cloud."
+        },
+        {
+          "n": "2",
+          "h": "Tri",
+          "t": "La plateforme signale les écarts de constantes aux soignants."
+        },
+        {
+          "n": "3",
+          "h": "Réponse",
+          "t": "Le soignant évalue les données et donne recommandations ou instructions, parfois après une sortie d'hôpital."
+        }
+      ],
+      "why": "Angle VC : la télésurveillance libère des lits et suit les maladies chroniques hors les murs ; c'est un logiciel marqué dispositif médical (comme Hope Care), vendu aux systèmes de santé publics, avec des revenus récurrents.",
+      "startups": [
+        {
+          "name": "Hope Care",
+          "use": "Logiciel dispositif médical de télésurveillance ; 6 M€ en Series A menés par Iberis Capital, utilisé par 15 unités locales de santé portugaises (~45 % des assurés du SNS).",
+          "place": "Portugal"
+        },
+        {
+          "name": "Checkpoint Care",
+          "use": "Télésurveillance par wearables avec aide à la décision IA ; plus de 95 000 patients aigus suivis, 16,5 M de points de données par mois.",
+          "place": "Bulgarie"
+        },
+        {
+          "name": "Doccla",
+          "use": "Services de « virtual wards » pour le NHS ; Series B de 35 M£ menée par Lakestar (2024).",
+          "place": "Londres"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Prevounce",
+          "title": "Definition Explained: What is Remote Patient Monitoring (RPM)",
+          "url": "https://blog.prevounce.com/rpm-definition-what-is-remote-patient-monitoring"
+        },
+        {
+          "publisher": "Cuatrecasas",
+          "title": "Hope Care closes €6 million Series A funding round to accelerate European expansion",
+          "url": "https://www.cuatrecasas.com/en/global/art/hope-care-closes-eur6-million-series-a-funding-round-to-accelerate-european-expansion"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Beyond the lab: eight European healthtech scaleups taking on medicine's biggest challenges",
+          "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
+        },
+        {
+          "publisher": "UKTN",
+          "title": "Doccla virtual ward funding",
+          "url": "https://www.uktech.news/medtech/doccla-virtual-ward-funding-20240903"
+        }
+      ],
+      "date": "2026-11-03",
+      "dateLong": "3 nov. 2026"
+    },
+    {
       "term": "TMVR",
       "full": "Transcatheter Mitral Valve Replacement (remplacement valvulaire mitral par voie transcathéter)",
       "fr": "Remplacement de la valve mitrale sans chirurgie à cœur ouvert",
@@ -5341,69 +5501,6 @@
       "dateLong": "13 sept. 2026"
     },
     {
-      "term": "RPM",
-      "full": "Remote Patient Monitoring",
-      "fr": "Télésurveillance médicale",
-      "field": "Digital Health · Cardiologie et maladies chroniques",
-      "definition": "Un dispositif ou capteur connecté suit en continu un paramètre physiologique du patient à son domicile et transmet la donnée à une équipe soignante, pour agir avant l'aggravation plutôt qu'après.",
-      "parts": [
-        {
-          "label": "Capteur connecté",
-          "role": "capte en continu un paramètre physiologique hors de l'hôpital"
-        },
-        {
-          "label": "Plateforme d'agrégation IA",
-          "role": "trie et priorise les alertes selon leur urgence clinique"
-        },
-        {
-          "label": "Équipe clinique",
-          "role": "intervient sur le patient avant l'hospitalisation"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Captation",
-          "t": "Un objet connecté (patch, pilulier, ECG portable...) mesure en continu un paramètre physiologique du patient à domicile et le transmet automatiquement à une plateforme."
-        },
-        {
-          "n": "2",
-          "h": "Triage algorithmique",
-          "t": "Une IA agrège les flux de plusieurs fabricants de dispositifs, filtre le bruit et hiérarchise les alertes selon leur urgence clinique réelle."
-        },
-        {
-          "n": "3",
-          "h": "Intervention précoce",
-          "t": "L'équipe soignante contacte le patient ou ajuste son traitement avant qu'une complication ne nécessite une hospitalisation en urgence."
-        }
-      ],
-      "why": "Face à la pression sur les réhospitalisations coûteuses, les payeurs rémunèrent désormais le suivi à distance (codes CPT RPM aux États-Unis, forfaits de télésurveillance en France) : une plateforme qui prouve une baisse de mortalité ou d'hospitalisations transforme un simple outil de suivi en argument de remboursement — un modèle capital-efficient, à la croisée du logiciel et du dispositif médical, qui attire aussi bien des fonds de croissance que des VC santé early-stage.",
-      "startups": [
-        {
-          "name": "Implicity",
-          "use": "Plateforme IA de télésurveillance cardiaque multi-fabricants ; 26 % de réduction de mortalité démontrée sur 120 000 patients suivis, tour de croissance de 35 M€ mené par IRIS et Five Arrows",
-          "place": "Paris, France"
-        },
-        {
-          "name": "Hope Care",
-          "use": "Plateforme OpMA de télésurveillance multi-pathologies (insuffisance cardiaque, BPCO, diabète) déployée dans 15 unités de santé portugaises ; Series A de 6 M€ menée par Iberis Capital",
-          "place": "Óbidos, Portugal"
-        },
-        {
-          "name": "Huma",
-          "use": "Plateforme de télésurveillance et d'essais cliniques virtuels déployée dans plus de 3 000 hôpitaux et cliniques ; Series D de 80 M$",
-          "place": "Londres, UK"
-        },
-        {
-          "name": "Cadence",
-          "use": "Agents IA de télésurveillance des maladies chroniques (hypertension, diabète, insuffisance cardiaque) pour plus de 100 000 patients ; Series C de 100 M$ menée par Spark Capital, partenariat avec Duke Health",
-          "place": "New York, US"
-        }
-      ],
-      "date": "2026-09-12",
-      "dateLong": "12 sept. 2026"
-    },
-    {
       "term": "PDC",
       "full": "Peptide-Drug Conjugate",
       "fr": "Conjugué peptide-médicament",
@@ -7812,64 +7909,6 @@
       ],
       "date": "2026-07-24",
       "dateLong": "24 juil. 2026"
-    },
-    {
-      "term": "AAV",
-      "full": "Adeno-Associated Virus",
-      "fr": "Virus adéno-associé",
-      "field": "Thérapie génique / Vecteurs viraux",
-      "definition": "Un AAV est un virus inoffensif pour l'humain, vidé de son propre matériel génétique et rechargé avec un gène thérapeutique, utilisé comme véhicule pour livrer ce gène directement dans les cellules du patient.",
-      "parts": [
-        {
-          "label": "Capside",
-          "role": "l'enveloppe protéique qui détermine quels tissus le vecteur va cibler (le tropisme)"
-        },
-        {
-          "label": "Génome recombinant",
-          "role": "l'ADN synthétique inséré à la place du génome viral, qui porte le gène thérapeutique"
-        },
-        {
-          "label": "Sérotype",
-          "role": "la variante naturelle ou bio-ingéniérée du virus, choisie pour atteindre un organe précis (œil, foie, cerveau, cœur)"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Ingénierie du vecteur",
-          "t": "Conception d'une capside (naturelle ou bio-ingéniérée) associée à un transgène thérapeutique, pour maximiser le ciblage tissulaire et minimiser la réponse immunitaire."
-        },
-        {
-          "n": "2",
-          "h": "Administration",
-          "t": "Injection systémique (intraveineuse) ou locale (sous-rétinienne, intracérébrale) selon l'organe visé."
-        },
-        {
-          "n": "3",
-          "h": "Expression durable",
-          "t": "Le vecteur transduit les cellules cibles et le gène s'y exprime durablement, parfois à vie, sans s'intégrer au génome de l'hôte dans la majorité des cas."
-        }
-      ],
-      "why": "Après un coup de froid ces dernières années (plusieurs pharmas ont réduit leurs paris AAV face aux limites de sécurité et de re-dosage), le sujet revient en force côté VC grâce à une nouvelle génération de capsides bio-ingéniérées qui promettent un meilleur ciblage tissulaire, moins de toxicité hépatique et une évasion immunitaire améliorée. Pour un VC santé, c'est un pari sur la plateforme plus que sur l'actif : qui résout le problème de capside générique gagne le droit de le licencier à toute la pharma.",
-      "startups": [
-        {
-          "name": "SparingVision",
-          "use": "Thérapies géniques AAV « mutation-agnostic » pour la rétinite pigmentaire et la DMLA sèche ; a levé €75M pour financer ses essais cliniques",
-          "place": "Paris, France"
-        },
-        {
-          "name": "Coave Therapeutics",
-          "use": "Plateforme de capside universelle OneAAV, découplant ciblage tissulaire et sérotype pour les maladies rares oculaires et du SNC",
-          "place": "Paris, France"
-        },
-        {
-          "name": "Affinia Therapeutics",
-          "use": "Capsides AAV de nouvelle génération pour l'insuffisance cardiaque (AFTX-201, IND FDA acceptée) ; Series C de 40 M$ menée par NEA avec Eli Lilly",
-          "place": "Waltham, États-Unis"
-        }
-      ],
-      "date": "2026-07-23",
-      "dateLong": "23 juil. 2026"
     },
     {
       "term": "OoC",

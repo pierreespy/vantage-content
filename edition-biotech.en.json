@@ -1,187 +1,202 @@
 {
-  "dateLong": "Nov 1, 2026",
+  "dateLong": "Nov 3, 2026",
   "ticker": [
     {
-      "company": "TILT",
-      "amount": "Ph1b ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "XBRANE",
-      "amount": "FDA",
+      "company": "uniQure",
+      "amount": "Priority review",
       "kind": "reg"
     },
     {
-      "company": "VICORE",
-      "amount": "Futility ✓",
+      "company": "Tiziana",
+      "amount": "Ph2a ✓/✗",
       "kind": "tech"
     },
     {
-      "company": "GENMAB",
-      "amount": "Ph3 ✓",
+      "company": "ALLOX",
+      "amount": "€9.4M",
+      "kind": "lev"
+    },
+    {
+      "company": "Alligator",
+      "amount": "$0.75M",
+      "kind": "mna"
+    },
+    {
+      "company": "Fresenius",
+      "amount": "37 biosimilars",
+      "kind": "mna"
+    },
+    {
+      "company": "Teva",
+      "amount": "Futility",
       "kind": "tech"
-    },
-    {
-      "company": "RESOTHER",
-      "amount": "SEK 80M",
-      "kind": "lev"
-    },
-    {
-      "company": "TOPADUR",
-      "amount": "Invest.",
-      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Clinical data · Oncology",
-    "title": "TILT Biotherapeutics: 44% objective response with intravenous oncolytic virus TILT-123 in resistant ovarian cancer",
-    "deck": "Phase Ib PROTA presented at ESMO 2026: 4 confirmed partial responses in 9 evaluable patients (2 later complete), 78% disease control, no dose-limiting toxicity, combined with Keytruda and liposomal doxorubicin. Proof of concept for an intravenously delivered oncolytic virus.",
-    "company": "TILT Biotherapeutics",
-    "sector": "Oncologie",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "kicker": "FDA priority review · Gene therapy",
+    "title": "uniQure: FDA accepts the AMT-130 BLA in Huntington's disease with priority review and a May 1, 2027 decision date",
+    "deck": "The accelerated-approval filing for the gene therapy ifezuntirgene inilparvovec (AMT-130), submitted September 2 on three-year data, gets priority review: PDUFA date of May 1, 2027, with an advisory committee tentatively planned. The FDA had reversed its position on this file twice before.",
+    "company": "uniQure",
+    "sector": "Gene therapy",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 4,
-    "url": "https://nordiclifescience.org/tilt-reports-durable-responses-in-ovarian-cancer/"
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393020/0/en/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease.html"
   },
   "milestone": {
-    "company": "Xbrane Biopharma",
-    "milestone": "FDA approval",
-    "title": "FDA approves Xbrane's Lucamzi, a Lucentis biosimilar",
-    "summary": "Lucamzi (ranibizumab-blrz) is approved in the US for wet AMD and other serious eye diseases; Xbrane is preparing a 2027 US launch with unnamed partners.",
-    "why": "First marketable US product for a small Swedish biotech in biosimilars: a de-risking milestone toward revenue.",
-    "place": "Solna",
-    "sector": "Biotech",
-    "signalType": "regulatory_milestone",
-    "url": "https://nordiclifescience.org/fda-approves-xbranes-lucentis-biosimilar/"
+    "company": "Tiziana Life Sciences",
+    "milestone": "Phase 2a",
+    "title": "Nasal foralumab: the 50 µg dose meets its primary endpoints in progressive multiple sclerosis, the 100 µg dose does not",
+    "summary": "In the Phase 2a INFORM-MS trial (non-active secondary progressive MS), the intranasal anti-CD3 antibody foralumab at 50 µg (19 patients) significantly reduced microglial activation at 12 weeks versus placebo and met both primary endpoints; the 100 µg dose (11 patients) missed on efficacy. Both doses were well tolerated.",
+    "why": "An inverted dose-response is a signal to unpack before any Phase 3, but nasal anti-CD3 targets progressive neuroinflammation, an unmet need. The stock fell 17% at the open.",
+    "place": "London / Boston",
+    "sector": "Neurosciences",
+    "signalType": "clinical_update",
+    "url": "https://www.biospace.com/drug-development/tiziana-touts-multiple-sclerosis-win-at-lower-dose-as-high-dose-misses-mark"
+  },
+  "deal": {
+    "company": "Alligator Bioscience",
+    "amount": "$0.75M upfront",
+    "round": "Asset sale",
+    "thesis": "The Swedish biotech sells mitazalimab (anti-CD40, pancreatic cancer) to Biossil (Toronto, which uses AI to revive discontinued candidates; $153M raised in September) for $750,000 upfront, up to $108M in milestones and mid-single-digit royalties, despite a 42.1% confirmed response rate in a non-randomized Phase 1b/2. It signals a market where European clinical assets, short on cash (Alligator: €3.8M at end of September), change hands cheaply; Biossil is stringing together acquisitions (Theriva).",
+    "sector": "Oncology",
+    "url": "https://european-biotechnology.com/latest-news/alligator-sells-cancer-antibody-for-750000-upfront-after-abandoning-development/"
   },
   "brefsEurope": [
     {
-      "company": "Vicore Pharma",
-      "place": "Göteborg",
+      "company": "Fresenius",
+      "place": "Germany",
       "sector": "Biotech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "pillar": "marche",
+      "signalType": "early_partnership",
       "strength": 3,
-      "title": "Vicore's ASPIRE IPF trial passes futility analysis",
-      "summary": "The independent committee recommends continuing the phase 2b of buloxibutid unchanged (analysis on ~100 patients); topline mid-2027, cash runway into H2 2028.",
-      "url": "https://nordiclifescience.org/vicores-ipf-trial-passes-futility-analysis/"
+      "title": "Fresenius taps WuXi Biologics for up to 37 biosimilars over 10 years",
+      "summary": "Exclusive development agreement: Fresenius picks its candidates and pays WuXi Biologics fee-for-service, with exclusive worldwide commercial rights; the portfolio could grow from 29 to 66 biosimilars, with Polivy (polatuzumab vedotin) and Tepezza (teprotumumab) first, and manufacturing targeted at mAbxience (Spain).",
+      "url": "https://european-biotechnology.com/latest-news/fresenius-turns-to-wuxi-to-add-up-to-37-biosimilars-to-its-pipeline/"
     },
     {
-      "company": "Genmab",
-      "place": "Copenhague",
-      "sector": "Oncologie",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "Genmab: petosemtamab halves death risk in head and neck cancer in phase 3",
-      "summary": "LiGeR-HN1, first-line with pembrolizumab: death HR 0.50 (p<0.0001), both primary endpoints met. A major comparable for EGFR/LGR5 bispecifics.",
-      "url": "https://nordiclifescience.org/genmab-drug-halves-death-risk-in-head-and-neck-cancer/"
-    },
-    {
-      "company": "ResoTher Pharma",
-      "place": "Danemark",
-      "sector": "Biotech",
+      "company": "ALLOX",
+      "place": "Barcelona",
+      "sector": "AI drug discovery",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "ResoTher Pharma heads for Sweden's Spotlight via reverse takeover, ~SEK 333M valuation",
-      "summary": "Listing planned December 2026; ~SEK 80M available (48M raised in 2026 + 32M convertible loan) for RTP-026 after heart attack, phase IIb (>200 patients) targeted early 2027.",
-      "url": "https://nordiclifescience.org/resother-pharma-heads-for-swedish-listing/"
-    },
-    {
-      "company": "Topadur Pharma",
-      "place": "Suisse",
-      "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "DEBRA Research invests in Topadur for dystrophic epidermolysis bullosa",
-      "summary": "Amount undisclosed; preclinical program with the University of Freiburg and the EB Research Institute in Salzburg. TOP-N53 is in phase 2a for systemic-sclerosis digital ulcers.",
-      "url": "https://www.startupticker.ch/en/news/debra-research-invests-in-topadur"
-    },
-    {
-      "company": "Elicera Therapeutics",
-      "place": "Uppsala",
-      "sector": "Thérapie cellulaire",
-      "pillar": "innovation",
-      "signalType": "grant_award",
-      "strength": 2,
-      "title": "Elicera co-founder awarded SEK 4M for longer-lived CAR-T cells",
-      "summary": "Four-year Uppsala project on tonic signaling so CAR-T cells survive and reach solid tumors, including glioblastoma models.",
-      "url": "https://nordiclifescience.org/elicera-co-founder-awarded-sek-4-million-for-car-t-research/"
+      "stage": "Seed",
+      "title": "ALLOX (CRG spin-off) raises €9.4M seed led by Asabys to map allosteric sites",
+      "summary": "Announced October 29, with CDTI (Innvierte) and the Institut Català de Finances. Experimental biology plus AI platform that measures the effect of thousands of mutations on a protein to go after hard-to-drug targets; first allosteric inhibitor ALX-001 is preclinical, and Morten Graugaard is named board chair.",
+      "url": "https://european-biotechnology.com/latest-news/barcelonas-allox-raises-e9-4m-to-turn-protein-maps-into-drug-candidates/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "Teva",
+      "place": "Israel",
+      "sector": "Neurosciences",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Teva ends its Phase II emrusolmin trial in multiple system atrophy after an interim futility analysis",
+      "summary": "The interim analysis found the probability of success too low; Teva drops this trial from its original line-up of innovative drugs.",
+      "url": "https://www.fiercebiotech.com/biotech/teva-ends-trial-one-its-original-line-innovative-meds-over-futility"
+    },
+    {
+      "company": "Ractigen Therapeutics",
+      "place": "Shanghai",
+      "sector": "RNA",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Ractigen starts Phase II of its saRNA RAG-01 in non-muscle-invasive bladder cancer",
+      "summary": "Multicenter trial (11 Chinese centers, led from Fudan) of intravesical RAG-01, alone or with mitomycin C; RAG-01 already holds FDA Fast Track (2024) and a Chinese IND. An saRNA (gene-activating) modality to watch.",
+      "url": "https://www.biospace.com/press-releases/ractigen-therapeutics-kicks-off-multi-center-phase-ii-clinical-trial-of-first-in-class-sarna-therapeutic-rag-01-for-non-muscle-invasive-bladder-cancer"
+    },
+    {
+      "company": "Theriva Biologics",
+      "place": "United States",
+      "sector": "Biotech",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 2,
+      "title": "Theriva sells its antibiotic-degrading enzyme portfolio (SYN-004) to Biossil: $350,000 upfront",
+      "summary": "Up to $91M in milestones ($3M regulatory, $88M sales) and low-single-digit royalties; Theriva refocuses on oncology. Biossil continues the Phase 1b/2a trial at Washington University.",
+      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html"
+    }
+  ],
   "word": {
-    "term": "Oncolytic Virus",
-    "full": "Oncolytic Virus",
-    "fr": "Oncolytic virus",
-    "field": "Immuno-oncology",
-    "definition": "A virus engineered to selectively infect and kill tumor cells while waking up the immune system.",
+    "term": "AAV",
+    "full": "Adeno-Associated Virus",
+    "fr": "Adeno-associated viral vector",
+    "field": "Gene therapy",
+    "definition": "A small harmless virus emptied of its genes and reloaded with a therapeutic gene, used as a delivery truck to carry it into the patient's cells.",
     "parts": [
       {
-        "label": "Viral vector",
-        "role": "the vehicle"
+        "label": "Capsid",
+        "role": "the truck: its shape decides which tissues are targeted"
       },
       {
-        "label": "Armed transgene",
-        "role": "the immune weapon"
+        "label": "Transgene",
+        "role": "the cargo: the therapeutic gene (≈4.7 kb max)"
       },
       {
-        "label": "Combination",
-        "role": "the booster"
+        "label": "ITR",
+        "role": "145-base ends that allow replication and packaging"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Injection",
-        "t": "The virus is injected into the tumor or, like TILT-123, intravenously."
+        "h": "Targeting",
+        "t": "The vector is injected; the serotype dictates tropism (AAV9: brain and heart, AAV8: liver, AAV1: muscle)."
       },
       {
         "n": "2",
-        "h": "Selective lysis",
-        "t": "It replicates inside tumor cells and bursts them."
+        "h": "Cell entry",
+        "t": "The capsid binds receptors, enters the cell, escapes the endosome and reaches the nucleus."
       },
       {
         "n": "3",
-        "h": "Immune response",
-        "t": "Tumor debris and expressed cytokines recruit T cells."
+        "h": "Expression",
+        "t": "In the nucleus, the single-stranded DNA is converted to double-stranded and transcribed: the cell makes the missing protein."
       }
     ],
-    "why": "VC angle: systemic delivery and combinations with checkpoint inhibitors revive a modality long confined to intratumoral injection.",
+    "why": "The reference platform for in vivo gene therapy, but limited by packaging capacity and neutralizing antibodies (single dose). Hence the race for AI-designed capsids (Dyno–Astellas license, April 2026), dual-vector systems (AAVantgarde's $141M Series B) and regulatory catalysts like uniQure's Huntington's BLA.",
     "startups": [
       {
-        "name": "TILT Biotherapeutics",
-        "use": "Intravenous TILT-123; phase Ib PROTA in resistant ovarian cancer (ORR 44%).",
-        "place": "Helsinki"
+        "name": "AAVantgarde Bio",
+        "use": "Dual-vector AAV platform for large genes; $141M Series B (Nov 2025), Stargardt (AAVB-039) and Usher 1B (AAVB-081) programs",
+        "place": "Milan, Italy"
       },
       {
-        "name": "Theolytics",
-        "use": "THEO-260 in phase II (OCTOPOD-IV); €8M Horizon Europe grant.",
-        "place": "UK"
+        "name": "SparingVision",
+        "use": "SPVN06, a subretinal 'gene-agnostic' AAV gene therapy for retinitis pigmentosa; dosing of the Phase 1/2 PRODYGY trial completed (Feb 2026)",
+        "place": "Paris, France"
       },
       {
-        "name": "Transgene",
-        "use": "Listed company; PoxSTG-EEV, enveloped virus for systemic delivery, preclinical data at SITC 2026.",
-        "place": "Strasbourg"
+        "name": "Dyno Therapeutics",
+        "use": "AI-driven AAV capsid design; muscle capsid licensed to Astellas (April 2026), CNS capsid licensed to Roche (Jan 2025)",
+        "place": "United States"
       }
     ],
     "sources": [
       {
-        "publisher": "Nordic Life Science",
-        "title": "TILT reports durable responses in ovarian cancer",
-        "url": "https://nordiclifescience.org/tilt-reports-durable-responses-in-ovarian-cancer/"
+        "publisher": "Current Issues in Molecular Biology",
+        "title": "Therapeutic Application and Structural Features of Adeno-Associated Virus Vector",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353222"
       },
       {
-        "publisher": "AllSci",
-        "title": "Theolytics secures €8M Horizon Europe grant for trial of oncolytic virus in ovarian cancer",
-        "url": "https://allsci.com/news/theolytics-secures-eur-8m-horizon-europe-grant-for-trial-of-oncolytic-virus-in-ovarian-cancer/"
+        "publisher": "BioDrugs (PubMed)",
+        "title": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28669112/"
       },
       {
-        "publisher": "Boursorama",
-        "title": "Transgene will present a poster on preclinical data from a novel oncolytic virus at SITC 2026",
-        "url": "https://www.boursorama.com/bourse/actualites-amp/transgene-will-present-a-poster-on-preclinical-data-from-a-novel-oncolytic-virus-at-sitc-2026-40a926b307f53f63f48d51f6742a6978"
+        "publisher": "BioSpace",
+        "title": "AAVantgarde closes $141 million Series B financing to advance its clinical programs in Stargardt disease and Usher 1B syndrome",
+        "url": "https://www.biospace.com/press-releases/aavantgarde-closes-141-million-series-b-financing-to-advance-its-clinical-programs-in-stargardt-disease-and-usher-1b-syndrome"
+      },
+      {
+        "publisher": "Packgene",
+        "title": "Dyno Therapeutics Licenses AI-Designed AAV Capsid to Astellas for Muscle Gene Therapy",
+        "url": "https://www.packgene.com/frontier/040826-dyno-therapeutics/"
       }
     ]
   }

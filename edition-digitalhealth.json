@@ -1,159 +1,215 @@
 {
-  "dateLong": "1 nov. 2026",
+  "dateLong": "3 nov. 2026",
   "ticker": [
     {
-      "company": "AGORA LABS",
-      "amount": "€4,3M",
+      "company": "DOCTOLIB",
+      "amount": "NVIDIA",
       "kind": "lev"
     },
     {
-      "company": "NERVECENTRE",
-      "amount": "EPR T2",
+      "company": "MAGIC VISION",
+      "amount": "€600K",
+      "kind": "lev"
+    },
+    {
+      "company": "NWL APG",
+      "amount": "Appel AVT",
       "kind": "tech"
     },
     {
-      "company": "LYREBIRD",
-      "amount": "AVT",
-      "kind": "tech"
-    },
-    {
-      "company": "NHS ENGLAND",
-      "amount": "Accord AVT",
+      "company": "LIGENCE",
+      "amount": "CE + 510(k)",
       "kind": "reg"
     },
     {
-      "company": "X-ON HEALTH",
-      "amount": "Relais",
-      "kind": "tech"
+      "company": "ONC (HHS)",
+      "amount": "HTI-5",
+      "kind": "reg"
     },
     {
-      "company": "SILICON PRACTICE",
-      "amount": "Faillite",
-      "kind": "tech"
+      "company": "WRAPPED HEALTH",
+      "amount": "$2,1M",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Levée · Données de santé",
-    "title": "Agora Labs (Rome) lève 4,3 M€ menés par P101 SGR pour rendre les données hospitalières exploitables par la recherche",
-    "deck": "Des nœuds de calcul GPU installés dans les hôpitaux structurent et anonymisent les dossiers sans qu'ils quittent le système de l'établissement ; ~50 établissements déjà reliés, objectif de doubler le réseau et d'ouvrir les États-Unis. Un pari sur le marché RWE à l'approche de l'EHDS.",
-    "company": "Agora Labs",
-    "sector": "Données de santé",
+    "kicker": "Investissement stratégique · IA clinique",
+    "title": "NVIDIA investit au capital de Doctolib pour accélérer ses modèles d'IA de santé, avec une infrastructure européenne renforcée",
+    "deck": "Montant non divulgué : l'argent finance le recrutement de talents IA et le développement de modèles ouverts (open-weight), d'assistants d'aide à la décision clinique et d'un assistant de santé personnel dans l'app patient. Doctolib travaille avec plus de 40 000 généralistes en Europe et étend son infrastructure européenne dans les prochains mois.",
+    "company": "Doctolib",
+    "sector": "IA clinique",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 3,
-    "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
+    "url": "https://htn.co.uk/2026/10/26/nvidia-invest-in-doctolib-healthcare-ai/"
   },
   "milestone": {
-    "company": "York and Scarborough Teaching Hospitals",
-    "milestone": "Déploiement DPI",
-    "title": "York et Scarborough : deuxième tranche du DPI Nervecentre en service, voix ambiante et 4 000 licences Copilot",
-    "summary": "Le DPI Nervecentre (mai 2026) couvre désormais urgences, pathologie, radiologie, ePMA et lits ; la voix ambiante s'étend aux urgences de jour, un accord d'investissement NHSE est en finalisation et un comité d'éthique IA/données est créé. Tranche 3 prévue en juin 2027.",
-    "why": "Montre que l'adoption se mesure désormais en bénéfices validés plutôt qu'en mise en service : le critère d'achat des trusts britanniques.",
-    "place": "York",
+    "company": "North West London Acute Provider Group",
+    "milestone": "Marché AVT",
+    "title": "North West London : appel d'offres voix ambiante pour 2027-2030 et bascule de l'automatisation vers un programme d'IA",
+    "summary": "Le groupe prépare un contrat AVT de trois ans (1er avril 2027 – 31 mars 2030), a ouvert un dialogue fournisseurs, passe de la RPA à un programme IA plus large (dossier stratégique et note de gouvernance en préparation), et fait tourner une application de gestion des adressages et de planification des sorties de la Federated Data Platform sur ses quatre trusts.",
+    "why": "Un acheteur de quatre hôpitaux fixe calendrier et durée avant l'appel d'offres : une fenêtre claire pour les éditeurs de scribes IA, et la preuve que la FDP devient une couche applicative.",
+    "place": "Londres",
     "sector": "Logiciel hospitalier",
     "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/10/30/avt-copilot-and-next-phase-of-epr-at-york-and-scarborough-teaching-hospitals/"
+    "url": "https://htn.co.uk/2026/11/02/north-west-london-acute-provider-group-updates-on-digital-and-data-plan-for-2026-27/"
   },
   "brefsEurope": [
     {
-      "company": "Lyrebird Health",
-      "place": "Cheshire",
+      "company": "Ligence",
+      "place": "Lituanie",
+      "sector": "IA clinique",
+      "pillar": "innovation",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Ligence (Lituanie) : IA d'échographie cardiaque marquée CE, avec une seconde clearance FDA 510(k) en avril 2026",
+      "summary": "Son logiciel Ligence Heart s'intègre aux systèmes d'imagerie existants et ferait passer l'examen et son compte rendu d'environ 30 à 15 minutes ; la seconde clearance ajoute l'analyse automatisée de la déformation ventriculaire gauche. Le même dossier Tech.eu cite Checkpoint Care (Bulgarie), télésurveillance par wearables suivant plus de 95 000 patients aigus.",
+      "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
+    },
+    {
+      "company": "Magic Vision",
+      "place": "Italie",
+      "sector": "Santé connectée",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Magic Vision lève 600 K€ (SixS, business angels) pour Silver Eye, sa surveillance des seniors par IA sans wearable",
+      "summary": "Capteurs et IA embarquée détectent chutes et changements de comportement sans stocker d'images ; plus de 200 capteurs installés chez des opérateurs italiens, objectif de suivre plus de 100 personnes d'ici fin 2026 avant un nouveau tour.",
+      "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
+    },
+    {
+      "company": "Clatterbridge Cancer Centre",
+      "place": "Merseyside",
+      "sector": "Logiciel hospitalier",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Clatterbridge : voix ambiante et Copilot en priorité, environnement de recherche de confiance pour croiser données cliniques, imagerie et moléculaires",
+      "summary": "Le déploiement de l'AVT dépend de la capacité clinique et des contrôles de sécurité ; le dossier patient partagé de Liverpool est classé « rouge » dans le cadre d'assurance du conseil, faute de décisions sur le périmètre.",
+      "url": "https://htn.co.uk/2026/11/02/clatterbridge-cancer-centre-on-digital-systems-investments-data-and-workforce-digital-learning/"
+    },
+    {
+      "company": "North West Radiotherapy Network",
+      "place": "Nord-Ouest de l'Angleterre",
       "sector": "IA clinique",
       "pillar": "innovation",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "Mid Cheshire déploie la voix ambiante Lyrebird après un essai concluant",
-      "summary": "Après un essai en urgences de jour, dermatologie, rhumatologie et urologie, extension aux urgences, pédiatrie, orthopédie, AVC ; plus de 300 soignants formés.",
-      "url": "https://htn.co.uk/2026/10/27/mid-cheshire-rolls-out-avt-following-successful-trial/"
+      "title": "Christie, Clatterbridge et Lancashire Teaching publient une stratégie radiothérapie à cinq ans centrée sur données et IA",
+      "summary": "Un groupe de travail définira des standards régionaux de données et un cadre d'évaluation de l'IA (sécurité clinique, qualité des données, suivi post-déploiement) ; ambition de devenir « vanguard national » de la radiothérapie pilotée par la donnée.",
+      "url": "https://htn.co.uk/2026/11/02/radiotherapy-research-strategy-for-the-north-west-sets-out-actions-for-data-ai-and-digital-systems/"
     },
     {
-      "company": "X-on Health",
-      "place": "Royaume-Uni",
-      "sector": "Télésanté",
+      "company": "Welsh health boards (HTN survey)",
+      "place": "Pays de Galles",
+      "sector": "Logiciel hospitalier",
       "pillar": "marche",
-      "signalType": "early_partnership",
+      "signalType": "publication_preprint",
       "strength": 2,
-      "title": "X-on Health offre trois mois d'accès aux cabinets touchés par la faillite de Silicon Practice",
-      "summary": "Silicon Practice, en administration judiciaire, a privé des centaines de cabinets (jusqu'à 600 selon GP Online) de sites web et de consultations en ligne ; X-on propose son assistant IA Surgery Assist Lite et son offre Omni Consultations.",
-      "url": "https://htn.co.uk/2026/10/29/x-on-health-offers-support-to-gp-practices-affected-by-silicon-practice-shutdown/"
+      "title": "Pays de Galles : un quart seulement des organisations de santé sont majoritairement électroniques, selon une enquête HTN",
+      "summary": "Plus de la moitié préparent la sortie du papier, un tiers estime que les cliniciens perdent plus de dix heures par semaine au papier ; le Welsh Clinical Portal affiche près de 2 millions de documents consultés par mois. Enquête parrainée par Altera Digital Health.",
+      "url": "https://htn.co.uk/2026/10/27/insight-progress-to-electronic-patient-records-in-wales/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "ONC (HHS)",
+      "place": "Washington",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Les États-Unis finalisent la règle HTI-5 : 14 critères de certification supprimés, accent mis sur les API FHIR",
+      "summary": "Les exigences de fiches modèle pour l'IA d'aide à la décision sont retirées ; la règle prévoit 1,55 Md$ d'économies de conformité et annonce des API FHIR en lecture/écriture comme priorité future.",
+      "url": "https://hitconsultant.net/2026/10/26/hhs-onc-finalizes-hti-5-deregulatory-rule-unleash-prosperity-health-it-certification/"
+    },
+    {
+      "company": "Wrapped Health",
+      "place": "Washington, DC",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Wrapped Health lève 2,1 M$ en pre-seed (Lightbank, Arteria Capital) pour relier recommandations cliniques et achats santé",
+      "summary": "Intégrée aux dossiers patients, la plateforme permet d'acheter les produits recommandés en utilisant FSA/HSA ; disponible via la marketplace athenahealth.",
+      "url": "https://www.prnewswire.com/news-releases/wrapped-health-raises-2-1m-to-connect-clinical-care-and-consumer-health-302923123.html"
+    }
+  ],
   "word": {
-    "term": "EHDS",
-    "full": "European Health Data Space",
-    "fr": "Espace européen des données de santé",
-    "field": "Données de santé",
-    "definition": "Règlement européen (en vigueur depuis mars 2025) qui organise l'accès des patients à leurs données et la réutilisation sécurisée de ces données pour la recherche et l'innovation.",
+    "term": "RPM",
+    "full": "Remote Patient Monitoring",
+    "fr": "Télésurveillance médicale à distance",
+    "field": "Télésurveillance",
+    "definition": "Des appareils portés ou installés au domicile du patient mesurent ses constantes et les transmettent à l'équipe soignante, qui réagit sans attendre une consultation.",
     "parts": [
       {
-        "label": "Usage primaire",
-        "role": "les soins"
+        "label": "Capteurs",
+        "role": "tension, poids, glycémie, oxymétrie"
       },
       {
-        "label": "Usage secondaire",
-        "role": "recherche et innovation"
+        "label": "Plateforme",
+        "role": "transmission et alertes"
       },
       {
-        "label": "Organismes d’accès",
-        "role": "le guichet"
+        "label": "Équipe soignante",
+        "role": "revue et décision"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Détenteurs",
-        "t": "Hôpitaux et autres détenteurs de données doivent les rendre accessibles."
+        "h": "Mesure",
+        "t": "Le patient utilise l'appareil à domicile ; la mesure part par internet ou réseau mobile vers le cloud."
       },
       {
         "n": "2",
-        "h": "Demande",
-        "t": "Les utilisateurs demandent l'accès via un organisme dédié."
+        "h": "Tri",
+        "t": "La plateforme signale les écarts de constantes aux soignants."
       },
       {
         "n": "3",
-        "h": "Calendrier",
-        "t": "L'usage secondaire s'applique en grande partie dès mars 2029, certaines catégories (génomique, essais) en mars 2031."
+        "h": "Réponse",
+        "t": "Le soignant évalue les données et donne recommandations ou instructions, parfois après une sortie d'hôpital."
       }
     ],
-    "why": "Angle VC : crée un marché réglementé de la donnée de santé ; les usages commerciaux comme la publicité ou l'assurance sont exclus, ce qui oriente les modèles d'affaires vers la recherche et le développement de produits.",
+    "why": "Angle VC : la télésurveillance libère des lits et suit les maladies chroniques hors les murs ; c'est un logiciel marqué dispositif médical (comme Hope Care), vendu aux systèmes de santé publics, avec des revenus récurrents.",
     "startups": [
       {
-        "name": "Agora Labs",
-        "use": "Nœuds GPU dans les hôpitaux pour structurer et anonymiser les données ; 4,3 M€ menés par P101 SGR.",
-        "place": "Rome"
+        "name": "Hope Care",
+        "use": "Logiciel dispositif médical de télésurveillance ; 6 M€ en Series A menés par Iberis Capital, utilisé par 15 unités locales de santé portugaises (~45 % des assurés du SNS).",
+        "place": "Portugal"
       },
       {
-        "name": "Owkin",
-        "use": "Envoie les algorithmes vers les données, qui restent dans les hôpitaux (apprentissage fédéré).",
-        "place": "Paris"
+        "name": "Checkpoint Care",
+        "use": "Télésurveillance par wearables avec aide à la décision IA ; plus de 95 000 patients aigus suivis, 16,5 M de points de données par mois.",
+        "place": "Bulgarie"
       },
       {
-        "name": "Tandem Health",
-        "use": "Scribe IA devenu logiciel de clinique ; Series B de 100 M$ menée par le Scaleup Europe Fund (EQT).",
-        "place": "Stockholm"
+        "name": "Doccla",
+        "use": "Services de « virtual wards » pour le NHS ; Series B de 35 M£ menée par Lakestar (2024).",
+        "place": "Londres"
       }
     ],
     "sources": [
       {
-        "publisher": "Tech.eu",
-        "title": "Agora Labs raises €4.3M to expand clinical data infrastructure for medical research",
-        "url": "https://tech.eu/2026/10/27/agora-labs-raises-eur43m-to-expand-clinical-data-infrastructure-for-medical-research/"
+        "publisher": "Prevounce",
+        "title": "Definition Explained: What is Remote Patient Monitoring (RPM)",
+        "url": "https://blog.prevounce.com/rpm-definition-what-is-remote-patient-monitoring"
       },
       {
-        "publisher": "McCann FitzGerald",
-        "title": "EHDS Regulation: Secondary Use of Electronic Health Data",
-        "url": "https://www.mccannfitzgerald.com/knowledge/data-privacy-and-cyber-risk/ehds-regulation-secondary-use-of-electronic-health-data"
-      },
-      {
-        "publisher": "Crunchbase News",
-        "title": "Owkin closes $18M Series A to make medical research more collaborative",
-        "url": "https://news.crunchbase.com/news/french-american-ai-startup-owkin-closes-18m-series-a-to-make-medical-research-more-collaborative"
+        "publisher": "Cuatrecasas",
+        "title": "Hope Care closes €6 million Series A funding round to accelerate European expansion",
+        "url": "https://www.cuatrecasas.com/en/global/art/hope-care-closes-eur6-million-series-a-funding-round-to-accelerate-european-expansion"
       },
       {
         "publisher": "Tech.eu",
-        "title": "Tandem Health scores $100M Series B, led by EU’s €5bn tech startup fund",
-        "url": "https://tech.eu/2026/09/14/swedish-healthtech-tandem-health-scores-100m-series-b-led-by-eus-eur5bn-tech-startup-fund/"
+        "title": "Beyond the lab: eight European healthtech scaleups taking on medicine's biggest challenges",
+        "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
+      },
+      {
+        "publisher": "UKTN",
+        "title": "Doccla virtual ward funding",
+        "url": "https://www.uktech.news/medtech/doccla-virtual-ward-funding-20240903"
       }
     ]
   }
