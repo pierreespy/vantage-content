@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "words": [
+    {
+      "term": "pVAD",
+      "full": "Percutaneous Ventricular Assist Device (pompe ventriculaire percutanée)",
+      "fr": "Assistance ventriculaire percutanée",
+      "field": "Cardiologie interventionnelle",
+      "definition": "Une mini-pompe montée sur cathéter, insérée par une artère, qui aide temporairement le ventricule gauche à propulser le sang quand le cœur lâche.",
+      "parts": [
+        {
+          "label": "Cathéter",
+          "role": "la voie d'accès par l'artère"
+        },
+        {
+          "label": "Pompe à hélice",
+          "role": "le moteur qui propulse le sang"
+        },
+        {
+          "label": "Console",
+          "role": "le pilotage et la surveillance du débit"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Insertion",
+          "t": "Le cathéter est glissé par l'artère fémorale puis positionné à travers la valve aortique."
+        },
+        {
+          "n": "2",
+          "h": "Pompage",
+          "t": "L'hélice aspire le sang du ventricule gauche et le refoule dans l'aorte, ce qui décharge le cœur."
+        },
+        {
+          "n": "3",
+          "h": "Sevrage",
+          "t": "Une fois le cœur récupéré ou la procédure terminée, la pompe est retirée."
+        }
+      ],
+      "why": "Le choc cardiogénique et l'angioplastie à haut risque sont des marchés mal servis, dominés par Impella : Boston Scientific cofinance VITALYST avec Blackstone (455 M$), et les tours de plusieurs challengers (Novo Holdings en tête) montrent que le capital suit.",
+      "startups": [
+        {
+          "name": "Magenta Medical",
+          "use": "Pompe Elevate, présentée comme la plus petite du monde ; 105 M$ levés en juillet 2024 menés par Novo Holdings pour les essais américains",
+          "place": "Israël"
+        },
+        {
+          "name": "Supira Medical",
+          "use": "Pompe ventriculaire sur cathéter ; Series E de 120 M$ (Novo Holdings, Qatar Investment Authority) pour une étude pivot américaine",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Procyrion",
+          "use": "Aortix, pompe placée dans l'aorte descendante pour l'insuffisance cardiaque aiguë ; essai pivot DRAIN-HF en cours, désignation Breakthrough de la FDA",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Medical Device Network",
+          "title": "Boston Scientific and Blackstone agree on $455m VITALYST heart pump deal",
+          "url": "https://www.medicaldevice-network.com/news/boston-scientific-blackstone-vitalyst/"
+        },
+        {
+          "publisher": "Fierce Biotech",
+          "title": "Supira Medical raises $120M to develop catheter-based ventricular heart pump",
+          "url": "https://www.fiercebiotech.com/medtech/supira-medical-raises-120m-develop-catheter-based-ventricular-heart-pump"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Magenta Medical closes $55M funding to support miniature heart pump",
+          "url": "https://www.massdevice.com/magenta-medical-55m-funding-heart-pump/"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Procyrion first patient IDE trial Aortix",
+          "url": "https://www.massdevice.com/procyrion-first-patient-ide-trial-aortix/"
+        }
+      ],
+      "date": "2026-11-04",
+      "dateLong": "4 nov. 2026"
+    },
     {
       "term": "AAV",
       "full": "Adeno-Associated Virus (virus adéno-associé)",

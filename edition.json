@@ -1,162 +1,180 @@
 {
-  "dateLong": "3 nov. 2026",
+  "dateLong": "4 nov. 2026",
   "ticker": [
     {
-      "company": "NIGHTINGALE HEALTH",
-      "amount": "80 000 échant.",
-      "kind": "tech"
+      "company": "1NHALER",
+      "amount": "£2,2M",
+      "kind": "lev"
+    },
+    {
+      "company": "BOSTON SCIENTIFIC",
+      "amount": "$455M",
+      "kind": "lev"
     },
     {
       "company": "ABBOTT",
-      "amount": "Pivot ✓",
+      "amount": "1 an",
       "kind": "tech"
     },
     {
-      "company": "J&J (IMPELLA)",
-      "amount": "Registre UE",
-      "kind": "tech"
+      "company": "HISTOSONICS",
+      "amount": "Singapour",
+      "kind": "reg"
     },
     {
-      "company": "INSTYLLA",
+      "company": "ROCHE",
       "amount": "FDA",
       "kind": "reg"
     },
     {
-      "company": "MTIP",
-      "amount": "Fonds",
+      "company": "STIMCARDIO",
+      "amount": "$30M",
       "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Diagnostic · Neurodégénérescence",
-    "title": "UK-PRISM : Nightingale Health et Alamar Biosciences vont doser des centaines de protéines sur 80 000 échantillons de la UK Biobank",
-    "deck": "L'étude, financée notamment par Alzheimer's Research UK et LifeArc, utilisera la plateforme NULISA d'Alamar, mesurée dans les laboratoires de Nightingale, pour cartographier les premiers changements biologiques liés à Alzheimer et Parkinson. Le jeu de données, ouvert aux chercheurs fin 2027, sert de terrain d'entraînement aux futurs tests sanguins de détection précoce.",
-    "company": "Nightingale Health",
-    "stage": "Growth",
-    "sector": "Diagnostics",
-    "pillar": "innovation",
-    "signalType": "early_partnership",
+    "kicker": "Financement · Dispositif inhalé",
+    "title": "1nhaler (Écosse) lève 2,2 M£ menés par Archangels pour son inhalateur jetable en carton",
+    "deck": "La spin-off écossaise développe un inhalateur à poudre sèche de la taille d'une carte bancaire, associé au salbutamol (asthme), avec Scottish Enterprise et BBB Investments au tour. Les fonds financent le transfert de technologie vers un façonnier et le démarrage d'un essai clinique, pour un dépôt réglementaire visé fin 2027.",
+    "company": "1nhaler",
+    "stage": "Seed",
+    "sector": "MedTech",
+    "pillar": "financement",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.medicaldevice-network.com/news/uk-biobank-study-initiated-to-assess-early-indicators-of-neurodegeneration/"
+    "url": "https://www.medicaldevice-network.com/news/1nhaler-raises-2-m-to-take-pop-up-dry-powder-inhaler-to-the-clinic/"
   },
   "milestone": {
     "company": "Abbott",
-    "milestone": "Essai pivot",
-    "title": "Abbott lance l'essai pivot de sa valve mitrale Cephea, avec inclusions en Europe",
-    "summary": "Jusqu'à 585 patients atteints d'insuffisance mitrale modérée à sévère, ou de calcification de l'anneau mitral, seront inclus aux États-Unis, au Canada et en Europe ; un hôpital de Wichita (Kansas) a inclus le premier patient.",
-    "why": "Le remplacement mitral transcathéter (TMVR) passe en phase pivot chez un grand groupe : un signal de validation du segment pour les startups européennes comme HighLife ou InnovHeart.",
+    "milestone": "Données 1 an",
+    "title": "Abbott présente à TCT 2026 les résultats à un an de VERITAS pour l'occluder d'auricule gauche Amulet 360",
+    "summary": "Fermeture complète de l'auricule chez 96,3 % des patients, plus de 98 % sans AVC ischémique ni complication thrombotique et plus de 99 % sans épanchement péricardique ; données publiées dans JACC: Cardiovascular Interventions.",
+    "why": "Marqué CE depuis août 2026 mais pas encore autorisé aux États-Unis, l'Amulet 360 arrive d'abord en Europe face au Watchman de Boston Scientific (~80 % du marché américain en 2025) : un test grandeur nature pour les challengers de l'occlusion d'auricule.",
     "place": "Chicago",
     "sector": "Cardio",
     "signalType": "clinical_update",
-    "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
+    "url": "https://www.medicaldevice-network.com/news/abbott-amulet-360-demonstrates-strong-one-year-outcomes-in-afib-patients/"
   },
-  "brefsEurope": [
-    {
-      "company": "Johnson & Johnson MedTech (Impella)",
-      "place": "Allemagne / Suisse / Autriche",
-      "sector": "Cardio",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "J&J présente à TCT 2026 le registre européen TRI-GUARD-PCI : 6,1 % de mortalité à 30 jours sous Impella",
-      "summary": "Sur 279 patients de centres allemands, suisses et autrichiens, la mortalité toutes causes est de 6,1 % à 30 jours et 7,9 % à 180 jours ; J&J oppose ces données observationnelles à l'essai CHIP-BCIS3 (environ 8 %). Comparable de marché : résultats d'un acteur établi, avec PROTECT IV attendu en 2027.",
-      "url": "https://www.medicaldevice-network.com/news/jj-impella-hrpci-clinical-analyses/"
-    },
-    {
-      "company": "MTIP",
-      "place": "Bâle",
-      "sector": "Fonds",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "MTIP lance EverHealth, un fonds evergreen ELTIF luxembourgeois dédié à la healthtech européenne",
-      "summary": "Le fonds investira en direct, en follow-on sur les sociétés du portefeuille MTIP et en secondaire, avec souscriptions et rachats trimestriels en EUR et CHF. Taille non communiquée ; ouvert aux souscriptions.",
-      "url": "https://www.startupticker.ch/en/news/mtip-launches-evergreen-fund-for-european-healthcare-technology"
-    }
-  ],
+  "deal": {
+    "company": "Boston Scientific / Blackstone Life Sciences",
+    "amount": "455 M$",
+    "round": "Co-financement",
+    "thesis": "Blackstone cofinance le développement de VITALYST, pompe cardiaque transvalvulaire temporaire pour le choc cardiogénique post-infarctus (flux >4 L/min, hélice à entraînement magnétique sans purge). Le capital de private equity santé vient financer le R&D d'un dispositif d'un grand groupe : signal de valorisation du segment pVAD.",
+    "sector": "Cardio",
+    "url": "https://www.medicaldevice-network.com/news/boston-scientific-blackstone-vitalyst/"
+  },
+  "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "Instylla",
-      "place": "Burlington (Massachusetts)",
-      "sector": "Biomatériaux",
+      "company": "HistoSonics",
+      "place": "États-Unis",
+      "sector": "Robotique chirurgicale",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 4,
-      "title": "La FDA élargit l'indication de l'hydrogel embolique Embrace HES de Instylla aux hémorragies artérielles périphériques",
-      "summary": "Autorisation jusqu'à des vaisseaux de 6 mm, appuyée par l'essai HALT (130 patients, 22 centres américains) : 100 % d'absence d'événement indésirable majeur à 30 jours et 90 % de succès clinique. Un hydrogel résorbable de PEG, à surveiller côté biomatériaux.",
-      "url": "https://www.medicaldevice-network.com/news/fda-expands-approval-instyllas-embrace-hes/"
+      "title": "HistoSonics obtient l'autorisation de la HSA à Singapour pour son système d'histotripsie Edison",
+      "summary": "Déjà marqué CE en juillet 2026 et autorisé par la FDA (De Novo, 2023), Edison s'ouvre l'Asie-Pacifique ; la société compte s'appuyer sur cette autorisation pour accélérer Malaisie, Thaïlande, Australie et Philippines.",
+      "url": "https://www.medicaldevice-network.com/news/histosonics-singapore-approval-edison/"
+    },
+    {
+      "company": "StimCardio",
+      "place": "Non précisé",
+      "sector": "Neurotech",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "StimCardio lève 30 M$ en Series A menée par Metis Medtech pour son bracelet de neurostimulation après ablation de FA",
+      "summary": "Rhyvive stimule le nerf médian de façon non invasive ; le pilote NeuroPulse 1 (randomisé, contre sham) réduit les récidives post-ablation. Les fonds financent l'essai pivot NeuroPulse 2 et la préparation d'une demande De Novo FDA.",
+      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
+    },
+    {
+      "company": "Roche",
+      "place": "Bâle",
+      "sector": "Diagnostics",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "La FDA autorise le panel respiratoire cobas eplex RP3 de Roche",
+      "summary": "Le panel détecte jusqu'à 19 cibles virales et bactériennes (VRS, grippe, SARS-CoV-2) en moins de deux heures sur le système automatisé cobas eplex, et succède au RP2 sous autorisation d'urgence.",
+      "url": "https://www.medicaldevice-network.com/news/roche-cobas-eplex-rp3-respiratory-infection-test-fda-clearance/"
     }
   ],
   "word": {
-    "term": "TMVR",
-    "full": "Transcatheter Mitral Valve Replacement (remplacement valvulaire mitral par voie transcathéter)",
-    "fr": "Remplacement de la valve mitrale sans chirurgie à cœur ouvert",
-    "field": "Cardiologie structurelle",
-    "definition": "Technique qui implante une valve artificielle dans le cœur par cathéter, sans ouvrir le thorax, pour traiter une fuite de la valve mitrale.",
+    "term": "pVAD",
+    "full": "Percutaneous Ventricular Assist Device (pompe ventriculaire percutanée)",
+    "fr": "Assistance ventriculaire percutanée",
+    "field": "Cardiologie interventionnelle",
+    "definition": "Une mini-pompe montée sur cathéter, insérée par une artère, qui aide temporairement le ventricule gauche à propulser le sang quand le cœur lâche.",
     "parts": [
       {
-        "label": "Valve prothétique",
-        "role": "remplace la fonction de la valve native défaillante"
+        "label": "Cathéter",
+        "role": "la voie d'accès par l'artère"
       },
       {
-        "label": "Ancrage",
-        "role": "maintient la valve dans l'anneau mitral, souvent anatomiquement complexe"
+        "label": "Pompe à hélice",
+        "role": "le moteur qui propulse le sang"
       },
       {
-        "label": "Système de pose",
-        "role": "cathéter (souvent trans-septal) qui amène la valve au cœur"
+        "label": "Console",
+        "role": "le pilotage et la surveillance du débit"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Accès",
-        "t": "Le cathéter est introduit par la veine fémorale puis traverse le septum entre les oreillettes."
+        "h": "Insertion",
+        "t": "Le cathéter est glissé par l'artère fémorale puis positionné à travers la valve aortique."
       },
       {
         "n": "2",
-        "h": "Positionnement",
-        "t": "La valve est guidée sous imagerie jusqu'à l'anneau mitral."
+        "h": "Pompage",
+        "t": "L'hélice aspire le sang du ventricule gauche et le refoule dans l'aorte, ce qui décharge le cœur."
       },
       {
         "n": "3",
-        "h": "Déploiement",
-        "t": "La valve est ancrée ; il faut éviter l'obstruction de la chambre de chasse du ventricule gauche (LVOT)."
+        "h": "Sevrage",
+        "t": "Une fois le cœur récupéré ou la procédure terminée, la pompe est retirée."
       }
     ],
-    "why": "Les fuites mitrales sont fréquentes et peu de patients sont opérables : le TMVR est une classe de dispositifs encore ouverte, avec des essais pivots lancés (Abbott Cephea) et des tours à neuf chiffres. Les risques à surveiller : ancrage, obstruction du LVOT et durabilité.",
+    "why": "Le choc cardiogénique et l'angioplastie à haut risque sont des marchés mal servis, dominés par Impella : Boston Scientific cofinance VITALYST avec Blackstone (455 M$), et les tours de plusieurs challengers (Novo Holdings en tête) montrent que le capital suit.",
     "startups": [
       {
-        "name": "HighLife",
-        "use": "Système TMVR valve-in-ring transfémoral ; marquage CE de la valve Clarity, plus de 90 M$ levés en septembre 2026 (Andera, Sofinnova, Supernova Invest, Mérieux Equity Partners) pour l'étude pivot américaine",
-        "place": "France"
+        "name": "Magenta Medical",
+        "use": "Pompe Elevate, présentée comme la plus petite du monde ; 105 M$ levés en juillet 2024 menés par Novo Holdings pour les essais américains",
+        "place": "Israël"
       },
       {
-        "name": "InnovHeart",
-        "use": "Prothèse TMVR Saturn en essai européen CASSINI-EU ; première implantation chez l'humain en Lituanie en mai 2024 ; Série C de plus de 55 M$ menée par Grand Pharmaceutical",
-        "place": "Milan, Italie"
+        "name": "Supira Medical",
+        "use": "Pompe ventriculaire sur cathéter ; Series E de 120 M$ (Novo Holdings, Qatar Investment Authority) pour une étude pivot américaine",
+        "place": "États-Unis"
       },
       {
-        "name": "4C Medical Technologies",
-        "use": "Système AltaValve en essai pivot ATLAS (États-Unis et Europe) ; Série D de 175 M$ menée par Boston Scientific ; deux statuts Breakthrough FDA",
-        "place": "Minnesota, États-Unis"
+        "name": "Procyrion",
+        "use": "Aortix, pompe placée dans l'aorte descendante pour l'insuffisance cardiaque aiguë ; essai pivot DRAIN-HF en cours, désignation Breakthrough de la FDA",
+        "place": "États-Unis"
       }
     ],
     "sources": [
       {
-        "publisher": "Bioxconomy",
-        "title": "HighLife banks over $90m to launch US study and advance European commercial growth",
-        "url": "https://www.bioxconomy.com/investment/highlife-banks-over-90m-to-launch-us-study-and-advance-european-commercial-growth"
+        "publisher": "Medical Device Network",
+        "title": "Boston Scientific and Blackstone agree on $455m VITALYST heart pump deal",
+        "url": "https://www.medicaldevice-network.com/news/boston-scientific-blackstone-vitalyst/"
       },
       {
-        "publisher": "MedTech Dive",
-        "title": "Abbott starts pivotal trial for mitral valve replacement device",
-        "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
+        "publisher": "Fierce Biotech",
+        "title": "Supira Medical raises $120M to develop catheter-based ventricular heart pump",
+        "url": "https://www.fiercebiotech.com/medtech/supira-medical-raises-120m-develop-catheter-based-ventricular-heart-pump"
       },
       {
-        "publisher": "BioWorld",
-        "title": "4C raises $175M for mitral valve technology",
-        "url": "https://www.bioworld.com/articles/717735-4c-raises-175m-for-mitral-valve-technology"
+        "publisher": "MassDevice",
+        "title": "Magenta Medical closes $55M funding to support miniature heart pump",
+        "url": "https://www.massdevice.com/magenta-medical-55m-funding-heart-pump/"
+      },
+      {
+        "publisher": "MassDevice",
+        "title": "Procyrion first patient IDE trial Aortix",
+        "url": "https://www.massdevice.com/procyrion-first-patient-ide-trial-aortix/"
       }
     ]
   }
