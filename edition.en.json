@@ -1,180 +1,132 @@
 {
-  "dateLong": "Nov 4, 2026",
+  "dateLong": "Nov 5, 2026",
   "ticker": [
     {
-      "company": "1NHALER",
-      "amount": "£2.2M",
-      "kind": "lev"
+      "company": "PHILIPS",
+      "amount": "€288M",
+      "kind": "reg"
     },
     {
-      "company": "BOSTON SCIENTIFIC",
-      "amount": "$455M",
-      "kind": "lev"
+      "company": "GE HEALTHCARE",
+      "amount": "CE",
+      "kind": "reg"
     },
     {
-      "company": "ABBOTT",
-      "amount": "1 yr",
+      "company": "ZIMMER BIOMET",
+      "amount": "Q3 +3%",
       "kind": "tech"
-    },
-    {
-      "company": "HISTOSONICS",
-      "amount": "Singapore",
-      "kind": "reg"
-    },
-    {
-      "company": "ROCHE",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "STIMCARDIO",
-      "amount": "$30M",
-      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Funding · Inhaled device",
-    "title": "1nhaler (Scotland) raises £2.2M led by Archangels for its single-use cardboard inhaler",
-    "deck": "The Scottish spin-off is developing a credit-card-sized dry-powder inhaler paired with salbutamol (asthma), with Scottish Enterprise and BBB Investments in the round. Proceeds fund technology transfer to a contract manufacturer and the start of a clinical trial, with a regulatory filing targeted for late 2027.",
-    "company": "1nhaler",
-    "stage": "Seed",
+    "kicker": "Regulatory · Respiratory devices",
+    "title": "Philips agrees to pay €288M to the US DoJ to settle the Respironics recall case",
+    "deck": "The agreement in principle covers the Department of Justice proceedings over the June 2021 recall of CPAP/BiPAP devices and ventilators (polyurethane foam fault, about 15 million units). Payment is expected in Q1 2027; the state attorneys general probe remains open, while Philips reiterates 2026 guidance (+3 to 4.5% comparable sales) after €4.4B of Q3 sales.",
+    "company": "Philips",
     "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 3,
-    "url": "https://www.medicaldevice-network.com/news/1nhaler-raises-2-m-to-take-pop-up-dry-powder-inhaler-to-the-clinic/"
+    "url": "https://www.medicaldevice-network.com/news/philips-reports-positive-q3-outlines-e288m-recall-settlement-with-doj/"
   },
   "milestone": {
-    "company": "Abbott",
-    "milestone": "1-yr data",
-    "title": "Abbott presents one-year VERITAS results for the Amulet 360 left atrial appendage occluder at TCT 2026",
-    "summary": "Complete appendage closure in 96.3% of patients, over 98% free from ischemic stroke or clot-related complications and over 99% free from pericardial effusion; data published in JACC: Cardiovascular Interventions.",
-    "why": "CE-marked since August 2026 but not yet cleared in the US, Amulet 360 reaches Europe first, up against Boston Scientific's Watchman (~80% of the US market in 2025): a real-world test for LAAO challengers.",
-    "place": "Chicago",
-    "sector": "Cardio",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/abbott-amulet-360-demonstrates-strong-one-year-outcomes-in-afib-patients/"
-  },
-  "deal": {
-    "company": "Boston Scientific / Blackstone Life Sciences",
-    "amount": "$455M",
-    "round": "Co-funding",
-    "thesis": "Blackstone co-funds development of VITALYST, a temporary transvalvular heart pump for post-infarction cardiogenic shock (>4 L/min flow, magnetically driven impeller with no purge system). Healthcare private equity is funding a large group's device R&D: a valuation signal for the pVAD segment.",
-    "sector": "Cardio",
-    "url": "https://www.medicaldevice-network.com/news/boston-scientific-blackstone-vitalyst/"
+    "company": "GE HealthCare",
+    "milestone": "CE + 510(k)",
+    "title": "GE HealthCare adds AI-powered AutoAS and Lung Guidance to its Vscan Air handheld ultrasound, both CE-marked and FDA-cleared",
+    "summary": "AutoAS visually estimates moderate-to-severe aortic stenosis from standard 2D views (with a confidence score); Lung Guidance gives real-time directions across the 8-zone lung protocol and auto-captures clips. In validation tests, non-expert users obtained diagnostic-quality lung scans in 95.2% of evaluations versus 96.8% for experts.",
+    "why": "On-device AI in handheld ultrasound cuts operator dependence and extends cardiopulmonary screening beyond the cardiologist: one to watch for imaging-AI startups, whose distribution runs through such platforms. Rollout by late November 2026 via Innovation Packages.",
+    "sector": "Imaging",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.medicaldevice-network.com/news/ge-healthcare-capabilities-vscan-air-system/"
   },
   "brefsEurope": [],
   "brefsIntl": [
     {
-      "company": "HistoSonics",
-      "place": "United States",
-      "sector": "Surgical robotics",
+      "company": "Zimmer Biomet",
+      "place": "Warsaw (Indiana)",
+      "sector": "Orthopedics",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "HistoSonics wins Singapore HSA clearance for its Edison histotripsy system",
-      "summary": "Already CE-marked in July 2026 and FDA-authorized (De Novo, 2023), Edison now opens up Asia-Pacific; the company plans to leverage the clearance to speed up Malaysia, Thailand, Australia and the Philippines.",
-      "url": "https://www.medicaldevice-network.com/news/histosonics-singapore-approval-edison/"
-    },
-    {
-      "company": "StimCardio",
-      "place": "Not disclosed",
-      "sector": "Neurotech",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "StimCardio raises $30M Series A led by Metis Medtech for its wearable neurostimulation band after AF ablation",
-      "summary": "Rhyvive non-invasively stimulates the median nerve; the NeuroPulse 1 sham-controlled pilot reduced post-ablation recurrences. Funds back the NeuroPulse 2 pivotal trial and preparation of an FDA De Novo request.",
-      "url": "https://www.medicaldevice-network.com/news/stimcardio-30m-wearable-af-therapy/"
-    },
-    {
-      "company": "Roche",
-      "place": "Basel",
-      "sector": "Diagnostics",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "FDA clears Roche's cobas eplex RP3 respiratory panel",
-      "summary": "The panel detects up to 19 viral and bacterial targets (RSV, influenza, SARS-CoV-2) in under two hours on the automated cobas eplex system, succeeding RP2 under emergency use.",
-      "url": "https://www.medicaldevice-network.com/news/roche-cobas-eplex-rp3-respiratory-infection-test-fda-clearance/"
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Zimmer Biomet raises 2026 guidance after a Q3 above $2B (+3.1%), helped by THINK Surgical robotics",
+      "summary": "The technology, data, bone cement and surgical segment grew 11.9% ($180.6M); the expanded THINK Surgical agreement gives Zimmer exclusive distribution of the TMINI handheld robot. Growth guidance raised to 4.4–4.9%.",
+      "url": "https://www.medicaldevice-network.com/news/zimmer-biomet-stock-rises-9-after-reporting-positive-q3/"
     }
   ],
   "word": {
-    "term": "pVAD",
-    "full": "Percutaneous Ventricular Assist Device",
-    "fr": "Percutaneous ventricular assist device",
-    "field": "Interventional cardiology",
-    "definition": "A mini-pump mounted on a catheter, inserted through an artery, that temporarily helps the left ventricle push blood when the heart is failing.",
+    "term": "Non-Invasive CGM",
+    "full": "Non-Invasive Continuous Glucose Monitoring",
+    "fr": "Continuous glucose measurement with no needle or subcutaneous sensor",
+    "field": "Diabetes · Sensors",
+    "definition": "Tracking blood glucose continuously with no needle or filament under the skin, using optical or radio-frequency signals read through the skin.",
     "parts": [
       {
-        "label": "Catheter",
-        "role": "the access route through the artery"
+        "label": "Emitter",
+        "role": "sends an infrared or microwave signal into the skin"
       },
       {
-        "label": "Impeller pump",
-        "role": "the motor that propels blood"
+        "label": "Receiver",
+        "role": "picks up the response altered by glucose"
       },
       {
-        "label": "Console",
-        "role": "drives and monitors flow"
+        "label": "Algorithm",
+        "role": "turns the raw signal into a glucose value"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Insertion",
-        "t": "The catheter is threaded through the femoral artery and positioned across the aortic valve."
+        "h": "Excitation",
+        "t": "A mid-infrared laser (DiaMonTech) or an RF/microwave signal (Afon) probes the tissue at the skin or wrist."
       },
       {
         "n": "2",
-        "h": "Pumping",
-        "t": "The impeller draws blood from the left ventricle and pushes it into the aorta, unloading the heart."
+        "h": "Detection",
+        "t": "Glucose absorbs or alters the signal in a measurable way; the sensor records it."
       },
       {
         "n": "3",
-        "h": "Weaning",
-        "t": "Once the heart recovers or the procedure ends, the pump is removed."
+        "h": "Estimation",
+        "t": "A calibrated model converts the measurement into a glucose value; accuracy remains the clinical bottleneck (Afon: ~75% normal/elevated classification in a first real-world trial)."
       }
     ],
-    "why": "Cardiogenic shock and high-risk PCI are underserved markets dominated by Impella: Boston Scientific is co-funding VITALYST with Blackstone ($455M), and rounds at several challengers (Novo Holdings leading) show capital is following.",
+    "why": "Invasive CGMs (Dexcom G7 15 Day, +11% Q3 sales) opened a multi-billion-dollar market; non-invasive is the moonshot: no cleared product among the players cited, so high technical risk but huge value if accuracy reaches CGM standard.",
     "startups": [
       {
-        "name": "Magenta Medical",
-        "use": "Elevate pump, billed as the world's smallest; $105M raised in July 2024 led by Novo Holdings for US trials",
-        "place": "Israel"
+        "name": "Afon Technology",
+        "use": "Glucowear, an RF/microwave wrist sensor; ~75% classification accuracy (normal/elevated) in a first real-world trial presented at ATTD 2026; manufacturing planned with Sony UK Technology Centre",
+        "place": "Wales, UK"
       },
       {
-        "name": "Supira Medical",
-        "use": "Catheter-based ventricular pump; $120M Series E (Novo Holdings, Qatar Investment Authority) for a US pivotal study",
-        "place": "United States"
+        "name": "DiaMonTech",
+        "use": "D-Pocket, glucose measurement by mid-infrared laser; reported MARD of 19.6–20.7% (company data), still in development; Samsung Ventures on the cap table",
+        "place": "Berlin, Germany"
       },
       {
-        "name": "Procyrion",
-        "use": "Aortix, a pump placed in the descending aorta for acute heart failure; DRAIN-HF pivotal trial ongoing, FDA Breakthrough designation",
-        "place": "United States"
+        "name": "Indigo Diabetes",
+        "use": "Implantable subcutaneous sensor (evanescent field) measuring glucose, ketones and lactate; GLOW and then 6-month SHINE feasibility studies run",
+        "place": "Ghent, Belgium"
       }
     ],
     "sources": [
       {
         "publisher": "Medical Device Network",
-        "title": "Boston Scientific and Blackstone agree on $455m VITALYST heart pump deal",
-        "url": "https://www.medicaldevice-network.com/news/boston-scientific-blackstone-vitalyst/"
+        "title": "Dexcom lifts 2026 revenue outlook after positive Q3",
+        "url": "https://www.medicaldevice-network.com/news/dexcom-lifts-2026-revenue-outlook-after-positive-q3/"
       },
       {
-        "publisher": "Fierce Biotech",
-        "title": "Supira Medical raises $120M to develop catheter-based ventricular heart pump",
-        "url": "https://www.fiercebiotech.com/medtech/supira-medical-raises-120m-develop-catheter-based-ventricular-heart-pump"
+        "publisher": "Diabetes Times",
+        "title": "World's first non-invasive glucose monitoring device hits 75 per cent accuracy in first real-world trial",
+        "url": "https://diabetestimes.co.uk/worlds-first-glucose-monitoring-device-hits-75-per-cent-accuracy-in-first-real-word-trial/"
       },
       {
-        "publisher": "MassDevice",
-        "title": "Magenta Medical closes $55M funding to support miniature heart pump",
-        "url": "https://www.massdevice.com/magenta-medical-55m-funding-heart-pump/"
+        "publisher": "Indigo Diabetes",
+        "title": "SHINE study completed validating a breakthrough in continuous multi-metabolite monitoring",
+        "url": "https://indigomed.com/shine-study-completed-validating-a-breakthrough-in-continuous-multi-metabolite-monitoring/"
       },
       {
-        "publisher": "MassDevice",
-        "title": "Procyrion first patient IDE trial Aortix",
-        "url": "https://www.massdevice.com/procyrion-first-patient-ide-trial-aortix/"
+        "publisher": "Drug Delivery Business",
+        "title": "DiaMonTech raises $5M for laser-based blood glucose detection system",
+        "url": "https://www.drugdeliverybusiness.com/diamontech-raises-5m-for-laser-based-blood-glucose-detection-system/"
       }
     ]
   }

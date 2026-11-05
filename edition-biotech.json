@@ -1,202 +1,178 @@
 {
-  "dateLong": "3 nov. 2026",
+  "dateLong": "5 nov. 2026",
   "ticker": [
     {
-      "company": "uniQure",
-      "amount": "Revue prioritaire",
+      "company": "PRETZEL",
+      "amount": "MHRA",
       "kind": "reg"
     },
     {
-      "company": "Tiziana",
-      "amount": "Ph2a ✓/✗",
-      "kind": "tech"
+      "company": "BOEHRINGER",
+      "amount": "$358M",
+      "kind": "mna"
     },
     {
-      "company": "ALLOX",
-      "amount": "€9,4M",
+      "company": "BIT.BIO",
+      "amount": "$25M",
       "kind": "lev"
     },
     {
-      "company": "Alligator",
-      "amount": "$0,75M",
-      "kind": "mna"
-    },
-    {
-      "company": "Fresenius",
-      "amount": "37 biosimilaires",
-      "kind": "mna"
-    },
-    {
-      "company": "Teva",
-      "amount": "Futilité",
+      "company": "SERVIER",
+      "amount": "Ph2 ✗",
       "kind": "tech"
+    },
+    {
+      "company": "LONZA",
+      "amount": "5 sites US",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Revue prioritaire FDA · Thérapie génique",
-    "title": "uniQure : la FDA accepte le BLA de l'AMT-130 dans la maladie de Huntington, avec revue prioritaire et décision au 1er mai 2027",
-    "deck": "Le dossier d'approbation accélérée de la thérapie génique ifezuntirgene inilparvovec (AMT-130), déposé le 2 septembre sur les données à trois ans, obtient la revue prioritaire : date PDUFA au 1er mai 2027 et comité consultatif tentativement prévu. La FDA avait pourtant changé deux fois de position sur ce dossier.",
-    "company": "uniQure",
-    "sector": "Thérapie génique",
+    "kicker": "Réglementaire · Maladies mitochondriales",
+    "title": "Pretzel Therapeutics obtient le feu vert de la MHRA pour la Phase II POLARIS de PX578, activateur de POLG",
+    "deck": "C'est le troisième jalon réglementaire en quelques mois pour cette petite molécule, après l'IND de la FDA (août 2026) et la Fast Track (septembre 2026). L'essai randomisé, en double aveugle contre placebo, évaluera sécurité, PK/PD et efficacité chez l'adulte atteint d'une maladie liée à POLG ; démarrage visé d'ici fin 2026.",
+    "company": "Pretzel Therapeutics",
+    "sector": "Biotech",
     "pillar": "marche",
     "signalType": "regulatory_milestone",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393020/0/en/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease.html"
+    "strength": 3,
+    "url": "https://www.clinicaltrialsarena.com/news/pretzel-approval-px578-trial/"
   },
   "milestone": {
-    "company": "Tiziana Life Sciences",
-    "milestone": "Phase 2a",
-    "title": "Foralumab nasal : la dose de 50 µg atteint ses critères principaux dans la sclérose en plaques progressive, pas celle de 100 µg",
-    "summary": "Dans l'essai de phase 2a INFORM-MS (SEP secondairement progressive non active), l'anticorps anti-CD3 intranasal foralumab à 50 µg (19 patients) réduit significativement l'activation microgliale à 12 semaines versus placebo et atteint ses deux critères principaux ; la dose de 100 µg (11 patients) échoue sur l'efficacité. Les deux doses sont bien tolérées.",
-    "why": "Une courbe dose-réponse inversée est un signal à décortiquer avant toute phase 3, mais la voie nasale anti-CD3 vise la neuro-inflammation progressive, un besoin non couvert. Le titre a chuté de 17 % à l'ouverture.",
-    "place": "Londres / Boston",
-    "sector": "Neurosciences",
+    "company": "Servier",
+    "milestone": "Phase II négative",
+    "title": "Servier : le sevasemten, issu du rachat d'Edgewise, échoue sur son critère principal dans la dystrophie de Becker",
+    "summary": "L'essai de Phase II GRAND CANYON (18 mois, contre placebo) n'atteint pas son critère principal, le score NSAA, ni ses critères secondaires ; le profil de sécurité reste favorable.",
+    "why": "Servier avait payé 1,55 Md$ à la signature (plus jusqu'à 1,1 Md$ de jalons) pour cet actif : un rappel du risque clinique dans les rachats d'actifs de milieu de développement, utile pour calibrer la valorisation des biotechs en Phase II.",
+    "sector": "Biotech",
     "signalType": "clinical_update",
-    "url": "https://www.biospace.com/drug-development/tiziana-touts-multiple-sclerosis-win-at-lower-dose-as-high-dose-misses-mark"
+    "url": "https://www.clinicaltrialsarena.com/news/serviers-1-55bn-muscular-dystrophy-drug-fails-phase-iii-bmd-trial/"
   },
   "deal": {
-    "company": "Alligator Bioscience",
-    "amount": "0,75 M$ upfront",
-    "round": "Cession d'actif",
-    "thesis": "Le suédois cède le mitazalimab (anti-CD40, cancer du pancréas) à Biossil (Toronto, qui relance par IA des candidats abandonnés ; 153 M$ levés en septembre) pour 750 000 $ d'upfront, jusqu'à 108 M$ de jalons et des royalties « mid-single-digit », malgré 42,1 % de réponse confirmée en phase 1b/2 non randomisée. Signal d'un marché où des actifs cliniques européens, faute de cash (Alligator : 3,8 M€ fin septembre), partent à bas prix ; Biossil enchaîne les reprises (Theriva).",
+    "company": "Sino Biopharm / Boehringer Ingelheim",
+    "amount": "358 M$ upfront",
+    "round": "Licensing",
+    "thesis": "Boehringer licencie six programmes précliniques en oncologie (ADC et T-cell engagers, dont cinq de LaNova) avec jusqu'à 7 Md$ de jalons : la big pharma européenne continue d'acheter de l'innovation chinoise très tôt, ce qui sert de comparable pour les biotechs ADC/TCE européennes.",
     "sector": "Oncologie",
-    "url": "https://european-biotechnology.com/latest-news/alligator-sells-cancer-antibody-for-750000-upfront-after-abandoning-development/"
+    "url": "https://www.pharmaceutical-technology.com/news/boehringer-signs-oncology-deal-with-sino-biopharm-worth-up-to-7-4bn/"
   },
   "brefsEurope": [
     {
-      "company": "Fresenius",
-      "place": "Allemagne",
+      "company": "bit.bio",
+      "place": "Cambridge",
       "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Fresenius s'adjoint WuXi Biologics pour jusqu'à 37 biosimilaires sur 10 ans",
-      "summary": "Accord de développement exclusif : Fresenius choisit ses candidats et rémunère WuXi Biologics au service, avec droits commerciaux mondiaux exclusifs ; le portefeuille pourrait passer de 29 à 66 biosimilaires, priorités Polivy (polatuzumab vedotin) et Tepezza (teprotumumab), fabrication visée chez mAbxience (Espagne).",
-      "url": "https://european-biotechnology.com/latest-news/fresenius-turns-to-wuxi-to-add-up-to-37-biosimilars-to-its-pipeline/"
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "bit.bio lève 25 M$ en Series D pour ses cellules humaines programmées",
+      "summary": "Avec M&G Investments (existant) et Jonathan Milner, fondateur d'Abcam. La plateforme opti-ox produit plus de 50 types cellulaires (ioCells : cœur, foie, SNC) ; les fonds financent l'élargissement du catalogue et la croissance commerciale.",
+      "url": "https://tech.eu/2026/11/04/human-cell-programming-company-bitbio-closes-25m-series-d/"
     },
     {
-      "company": "ALLOX",
-      "place": "Barcelone",
+      "company": "Vitroscope",
+      "place": "Trondheim",
       "sector": "IA drug discovery",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "stage": "Seed",
-      "title": "ALLOX (spin-off du CRG) lève 9,4 M€ en seed menés par Asabys pour cartographier les sites allostériques",
-      "summary": "Annoncé le 29 octobre, avec CDTI (Innvierte) et l'Institut Català de Finances. Plateforme biologie expérimentale + IA qui mesure l'effet de milliers de mutations d'une protéine pour cibler des cibles « indruggables » ; premier inhibiteur allostérique ALX-001 en préclinique, Morten Graugaard nommé président du board.",
-      "url": "https://european-biotechnology.com/latest-news/barcelonas-allox-raises-e9-4m-to-turn-protein-maps-into-drug-candidates/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Teva",
-      "place": "Israël",
-      "sector": "Neurosciences",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Teva arrête l'essai de phase II de l'emrusolmin dans l'atrophie multisystématisée après une analyse intermédiaire de futilité",
-      "summary": "L'analyse intermédiaire a jugé la probabilité de succès trop faible ; Teva abandonne cet essai de son premier portefeuille de médicaments innovants.",
-      "url": "https://www.fiercebiotech.com/biotech/teva-ends-trial-one-its-original-line-innovative-meds-over-futility"
+      "title": "Vitroscope lève 7 M$ pour faire du tissu humain vivant une source de données de découverte de médicaments",
+      "summary": "Startup norvégienne qui travaille sur des organoïdes vascularisés et des tissus intacts maintenus sous flux, pour étudier effets des médicaments et réponse immunitaire.",
+      "url": "https://tech.eu/2026/11/03/vitroscope-raises-7m-to-turn-living-human-tissue-into-a-new-source-of-drug-discovery-data/"
     },
     {
-      "company": "Ractigen Therapeutics",
-      "place": "Shanghai",
-      "sector": "ARN",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Ractigen lance la phase II de son saRNA RAG-01 dans le cancer de la vessie non invasif",
-      "summary": "Essai multicentrique (11 centres chinois, Fudan) en intravésical, seul ou avec mitomycine C ; RAG-01 a déjà la Fast Track FDA (2024) et l'IND chinois. Une modalité saRNA (activation de gène) à suivre.",
-      "url": "https://www.biospace.com/press-releases/ractigen-therapeutics-kicks-off-multi-center-phase-ii-clinical-trial-of-first-in-class-sarna-therapeutic-rag-01-for-non-muscle-invasive-bladder-cancer"
-    },
-    {
-      "company": "Theriva Biologics",
-      "place": "États-Unis",
-      "sector": "Biotech",
+      "company": "Lonza / Merck KGaA",
+      "place": "Bâle / Darmstadt",
+      "sector": "CDMO",
       "pillar": "financement",
       "signalType": "acquisition",
-      "strength": 2,
-      "title": "Theriva cède son portefeuille d'enzymes dégradant les antibiotiques (SYN-004) à Biossil : 350 000 $ d'upfront",
-      "summary": "Jusqu'à 91 M$ de jalons (3 M$ réglementaires, 88 M$ de ventes) et royalties à un chiffre bas ; Theriva se recentre sur l'oncologie. Biossil poursuit l'essai de phase 1b/2a à Washington University.",
-      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html"
+      "strength": 4,
+      "title": "Lonza rachète cinq sites de production américains de Merck KGaA (bioconjugués, vecteurs viraux, LNP)",
+      "summary": "Valeur d'entreprise « low-to-mid triple-digit millions » de CHF, closing visé mi-2027 ; environ 1 100 salariés et 250 MCHF de ventes attendues en 2028. Signal de demande sur les capacités ADC et vecteurs viraux.",
+      "url": "https://www.pharmaceutical-technology.com/news/lonza-us-manufacturing-sites-merck-kgaa/"
+    },
+    {
+      "company": "AbbVie / Nxera Pharma",
+      "place": "Oxford / Tokyo",
+      "sector": "Immunologie",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "AbbVie licencie à Nxera un agoniste EP4 gut-sélectif pour les MICI (100 M$ upfront) et renforce son site d'Oxford",
+      "summary": "Jusqu'à 1,37 Md$ de jalons pour NXE0033744, en Phase I ; AbbVie annonce 120 M£ d'investissement au Royaume-Uni, dont un nouveau site de 12 000 sq ft à Oxford.",
+      "url": "https://www.pharmaceutical-technology.com/news/abbvie-bolsters-uk-rd-presence-inks-ibd-deal-nxera/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "AAV",
-    "full": "Adeno-Associated Virus (virus adéno-associé)",
-    "fr": "Vecteur viral adéno-associé",
-    "field": "Thérapie génique",
-    "definition": "Un petit virus inoffensif vidé de ses gènes et rechargé avec un gène thérapeutique, utilisé comme camion de livraison pour l'amener dans les cellules du patient.",
+    "term": "Organoid",
+    "full": "Organoid (mini-organe cultivé in vitro)",
+    "fr": "Organoïde",
+    "field": "Modèles précliniques",
+    "definition": "Une structure 3D cultivée à partir de cellules souches ou de tissu de patient, qui reproduit une partie de l'architecture et de la fonction d'un organe pour tester des médicaments.",
     "parts": [
       {
-        "label": "Capside",
-        "role": "le camion : sa forme décide quels tissus sont ciblés"
+        "label": "Cellules sources",
+        "role": "cellules souches ou biopsie du patient"
       },
       {
-        "label": "Transgène",
-        "role": "la cargaison : le gène thérapeutique (≈ 4,7 kb max)"
+        "label": "Matrice 3D",
+        "role": "le support qui permet l'auto-organisation"
       },
       {
-        "label": "ITR",
-        "role": "les extrémités de 145 bases qui permettent la réplication et l'emballage"
+        "label": "Lecture",
+        "role": "imagerie, omiques ou IA pour mesurer la réponse"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Ciblage",
-        "t": "Le vecteur est injecté ; le sérotype dicte le tropisme (AAV9 : cerveau et cœur, AAV8 : foie, AAV1 : muscle)."
+        "h": "Mise en culture",
+        "t": "Des cellules souches ou un fragment de tissu sont placés dans une matrice 3D avec des facteurs de croissance."
       },
       {
         "n": "2",
-        "h": "Entrée dans la cellule",
-        "t": "La capside se fixe aux récepteurs, entre dans la cellule, s'échappe de l'endosome et atteint le noyau."
+        "h": "Auto-organisation",
+        "t": "Les cellules s'organisent en micro-structures proches de l'organe d'origine, parfois avec flux ou vascularisation."
       },
       {
         "n": "3",
-        "h": "Expression",
-        "t": "Dans le noyau, l'ADN simple brin est converti en double brin puis transcrit : la cellule produit la protéine manquante."
+        "h": "Test et analyse",
+        "t": "On expose l'organoïde au médicament, puis on mesure toxicité et efficacité, souvent avec de l'IA."
       }
     ],
-    "why": "Plateforme de référence de la thérapie génique in vivo, mais limitée par la capacité d'emballage et les anticorps neutralisants (dose unique). D'où la course à l'ingénierie de capsides par IA (licence Dyno–Astellas en avril 2026), aux systèmes à double vecteur (Series B de 141 M$ d'AAVantgarde) et les catalyseurs réglementaires comme le BLA d'uniQure en Huntington.",
+    "why": "Les régulateurs encouragent les alternatives à l'animal et l'industrie veut des modèles plus prédictifs : les organoïdes réduisent le risque d'échec clinique, d'où un flux de levées sur la couche « données de découverte ». Attention aux consolidations (MIMETAS, majoritairement acquis par Bruker en août 2026).",
     "startups": [
       {
-        "name": "AAVantgarde Bio",
-        "use": "Plateforme de double vecteur AAV pour les gros gènes ; Series B de 141 M$ (nov. 2025), programmes Stargardt (AAVB-039) et Usher 1B (AAVB-081)",
-        "place": "Milan, Italie"
+        "name": "Vitroscope",
+        "use": "Organoïdes vascularisés et tissus intacts sous flux contrôlé ; 7 M$ levés (Tech.eu, nov. 2026)",
+        "place": "Trondheim, Norvège"
       },
       {
-        "name": "SparingVision",
-        "use": "SPVN06, thérapie génique AAV « gène-agnostique » sous-rétinienne pour la rétinopathie pigmentaire ; dosage de l'essai de phase 1/2 PRODYGY terminé (fév. 2026)",
-        "place": "Paris, France"
+        "name": "InSphero",
+        "use": "Microtissus 3D pour tests de toxicité et d'efficacité ; société privée avec ZEISS Ventures au capital",
+        "place": "Schlieren, Suisse"
       },
       {
-        "name": "Dyno Therapeutics",
-        "use": "Conception de capsides AAV par IA ; capsid musculaire licencié à Astellas (avril 2026), capsid SNC licencié à Roche (janv. 2025)",
-        "place": "États-Unis"
+        "name": "ALP Bio",
+        "use": "Organoïdes immunitaires dérivés d'amygdales couplés à l'IA générative ; 1,9 M€ levés (avril 2026)",
+        "place": "Suisse"
       }
     ],
     "sources": [
       {
-        "publisher": "Current Issues in Molecular Biology",
-        "title": "Therapeutic Application and Structural Features of Adeno-Associated Virus Vector",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11353222"
+        "publisher": "Tech.eu",
+        "title": "Vitroscope raises $7M to turn living human tissue into a new source of drug discovery data",
+        "url": "https://tech.eu/2026/11/03/vitroscope-raises-7m-to-turn-living-human-tissue-into-a-new-source-of-drug-discovery-data/"
       },
       {
-        "publisher": "BioDrugs (PubMed)",
-        "title": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/28669112/"
+        "publisher": "Pulse 2.0 / Pulse.bot",
+        "title": "Swiss BioTech Startup ALP Bio Raises €1.9 Million to Advance Immune Organoid and AI Platform",
+        "url": "https://www.pulse.bot/biotech/news/swiss-biotech-startup-alp-bio-raises-19-million-to-advance-immune-organoid-and-ai-platform-bfb09ebe-c867-40e4-809a-7f4694d8d392/"
       },
       {
-        "publisher": "BioSpace",
-        "title": "AAVantgarde closes $141 million Series B financing to advance its clinical programs in Stargardt disease and Usher 1B syndrome",
-        "url": "https://www.biospace.com/press-releases/aavantgarde-closes-141-million-series-b-financing-to-advance-its-clinical-programs-in-stargardt-disease-and-usher-1b-syndrome"
-      },
-      {
-        "publisher": "Packgene",
-        "title": "Dyno Therapeutics Licenses AI-Designed AAV Capsid to Astellas for Muscle Gene Therapy",
-        "url": "https://www.packgene.com/frontier/040826-dyno-therapeutics/"
+        "publisher": "InSphero",
+        "title": "About InSphero",
+        "url": "https://insphero.com/about-us/"
       }
     ]
   }

@@ -1,6 +1,161 @@
 {
-  "generatedAt": "2026-11-04",
+  "generatedAt": "2026-11-05",
   "words": [
+    {
+      "term": "Organoid",
+      "full": "Organoid (mini-organe cultivé in vitro)",
+      "fr": "Organoïde",
+      "field": "Modèles précliniques",
+      "definition": "Une structure 3D cultivée à partir de cellules souches ou de tissu de patient, qui reproduit une partie de l'architecture et de la fonction d'un organe pour tester des médicaments.",
+      "parts": [
+        {
+          "label": "Cellules sources",
+          "role": "cellules souches ou biopsie du patient"
+        },
+        {
+          "label": "Matrice 3D",
+          "role": "le support qui permet l'auto-organisation"
+        },
+        {
+          "label": "Lecture",
+          "role": "imagerie, omiques ou IA pour mesurer la réponse"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mise en culture",
+          "t": "Des cellules souches ou un fragment de tissu sont placés dans une matrice 3D avec des facteurs de croissance."
+        },
+        {
+          "n": "2",
+          "h": "Auto-organisation",
+          "t": "Les cellules s'organisent en micro-structures proches de l'organe d'origine, parfois avec flux ou vascularisation."
+        },
+        {
+          "n": "3",
+          "h": "Test et analyse",
+          "t": "On expose l'organoïde au médicament, puis on mesure toxicité et efficacité, souvent avec de l'IA."
+        }
+      ],
+      "why": "Les régulateurs encouragent les alternatives à l'animal et l'industrie veut des modèles plus prédictifs : les organoïdes réduisent le risque d'échec clinique, d'où un flux de levées sur la couche « données de découverte ». Attention aux consolidations (MIMETAS, majoritairement acquis par Bruker en août 2026).",
+      "startups": [
+        {
+          "name": "Vitroscope",
+          "use": "Organoïdes vascularisés et tissus intacts sous flux contrôlé ; 7 M$ levés (Tech.eu, nov. 2026)",
+          "place": "Trondheim, Norvège"
+        },
+        {
+          "name": "InSphero",
+          "use": "Microtissus 3D pour tests de toxicité et d'efficacité ; société privée avec ZEISS Ventures au capital",
+          "place": "Schlieren, Suisse"
+        },
+        {
+          "name": "ALP Bio",
+          "use": "Organoïdes immunitaires dérivés d'amygdales couplés à l'IA générative ; 1,9 M€ levés (avril 2026)",
+          "place": "Suisse"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Vitroscope raises $7M to turn living human tissue into a new source of drug discovery data",
+          "url": "https://tech.eu/2026/11/03/vitroscope-raises-7m-to-turn-living-human-tissue-into-a-new-source-of-drug-discovery-data/"
+        },
+        {
+          "publisher": "Pulse 2.0 / Pulse.bot",
+          "title": "Swiss BioTech Startup ALP Bio Raises €1.9 Million to Advance Immune Organoid and AI Platform",
+          "url": "https://www.pulse.bot/biotech/news/swiss-biotech-startup-alp-bio-raises-19-million-to-advance-immune-organoid-and-ai-platform-bfb09ebe-c867-40e4-809a-7f4694d8d392/"
+        },
+        {
+          "publisher": "InSphero",
+          "title": "About InSphero",
+          "url": "https://insphero.com/about-us/"
+        }
+      ],
+      "date": "2026-11-05",
+      "dateLong": "5 nov. 2026"
+    },
+    {
+      "term": "Non-Invasive CGM",
+      "full": "Non-Invasive Continuous Glucose Monitoring",
+      "fr": "Mesure continue du glucose sans piqûre ni capteur sous-cutané",
+      "field": "Diabète · Capteurs",
+      "definition": "Suivre la glycémie en continu sans aiguille ni filament inséré sous la peau, par des signaux optiques ou radiofréquence lus à travers la peau.",
+      "parts": [
+        {
+          "label": "Émetteur",
+          "role": "envoie un signal infrarouge ou micro-onde dans la peau"
+        },
+        {
+          "label": "Récepteur",
+          "role": "capte la réponse modifiée par le glucose"
+        },
+        {
+          "label": "Algorithme",
+          "role": "convertit le signal brut en valeur de glycémie"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Excitation",
+          "t": "Un laser mid-infrarouge (DiaMonTech) ou un signal RF/micro-ondes (Afon) interroge les tissus au niveau de la peau ou du poignet."
+        },
+        {
+          "n": "2",
+          "h": "Détection",
+          "t": "Le glucose absorbe ou modifie le signal de façon mesurable ; le capteur enregistre ce signal."
+        },
+        {
+          "n": "3",
+          "h": "Estimation",
+          "t": "Un modèle calibré transforme la mesure en glycémie ; la précision reste le verrou clinique (Afon : ~75 % de classification normal/élevé dans un premier essai réel)."
+        }
+      ],
+      "why": "Les CGM invasifs (Dexcom G7 15 jours, +11 % de ventes au T3) ont ouvert un marché de plusieurs Md$ ; le non-invasif est le pari « moonshot » : aucun produit autorisé à ce jour parmi les acteurs cités, donc risque technique élevé mais valeur énorme si la précision atteint le standard CGM.",
+      "startups": [
+        {
+          "name": "Afon Technology",
+          "use": "Glucowear, capteur de poignet RF/micro-ondes ; ~75 % de précision de classification (normal/élevé) au premier essai réel, présenté à l'ATTD 2026 ; fabrication prévue avec Sony UK Technology Centre",
+          "place": "Pays de Galles, Royaume-Uni"
+        },
+        {
+          "name": "DiaMonTech",
+          "use": "D-Pocket, mesure de glucose par laser mid-infrarouge ; MARD annoncé de 19,6–20,7 % (données société), toujours en développement ; Samsung Ventures au capital",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Indigo Diabetes",
+          "use": "Capteur implantable sous-cutané (champ évanescent) mesurant glucose, cétones et lactate ; études de faisabilité GLOW puis SHINE (6 mois) menées",
+          "place": "Gand, Belgique"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Medical Device Network",
+          "title": "Dexcom lifts 2026 revenue outlook after positive Q3",
+          "url": "https://www.medicaldevice-network.com/news/dexcom-lifts-2026-revenue-outlook-after-positive-q3/"
+        },
+        {
+          "publisher": "Diabetes Times",
+          "title": "World's first non-invasive glucose monitoring device hits 75 per cent accuracy in first real-world trial",
+          "url": "https://diabetestimes.co.uk/worlds-first-glucose-monitoring-device-hits-75-per-cent-accuracy-in-first-real-word-trial/"
+        },
+        {
+          "publisher": "Indigo Diabetes",
+          "title": "SHINE study completed validating a breakthrough in continuous multi-metabolite monitoring",
+          "url": "https://indigomed.com/shine-study-completed-validating-a-breakthrough-in-continuous-multi-metabolite-monitoring/"
+        },
+        {
+          "publisher": "Drug Delivery Business",
+          "title": "DiaMonTech raises $5M for laser-based blood glucose detection system",
+          "url": "https://www.drugdeliverybusiness.com/diamontech-raises-5m-for-laser-based-blood-glucose-detection-system/"
+        }
+      ],
+      "date": "2026-11-05",
+      "dateLong": "5 nov. 2026"
+    },
     {
       "term": "pVAD",
       "full": "Percutaneous Ventricular Assist Device (pompe ventriculaire percutanée)",
