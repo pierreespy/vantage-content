@@ -1,132 +1,175 @@
 {
-  "dateLong": "5 nov. 2026",
+  "dateLong": "6 nov. 2026",
   "ticker": [
     {
-      "company": "PHILIPS",
-      "amount": "€288M",
-      "kind": "reg"
+      "company": "UNDAE SCIENCE",
+      "amount": "CHF 1,15M",
+      "kind": "lev"
     },
     {
-      "company": "GE HEALTHCARE",
-      "amount": "CE",
-      "kind": "reg"
+      "company": "LAZA MEDICAL",
+      "amount": "$160M",
+      "kind": "lev"
     },
     {
-      "company": "ZIMMER BIOMET",
-      "amount": "Q3 +3%",
+      "company": "AVAISOR",
+      "amount": "CHF 0,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "SETPOINT",
+      "amount": "1er patient",
+      "kind": "tech"
+    },
+    {
+      "company": "BRACCO",
+      "amount": "$230M",
+      "kind": "tech"
+    },
+    {
+      "company": "EDWARDS",
+      "amount": "Guidance ↑",
       "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Réglementaire · Dispositifs respiratoires",
-    "title": "Philips accepte de verser 288 M€ au DoJ américain pour solder le dossier pénal du rappel Respironics",
-    "deck": "L'accord de principe couvre les poursuites du ministère de la Justice sur le rappel de juin 2021 des appareils CPAP/BiPAP et ventilateurs (défaut de mousse polyuréthane, environ 15 millions d'unités). Le paiement est attendu au T1 2027 ; l'enquête des procureurs généraux d'États reste ouverte, tandis que Philips confirme sa guidance 2026 (+3 à 4,5 % de ventes comparables) avec 4,4 Md€ de ventes au T3.",
-    "company": "Philips",
-    "sector": "MedTech",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
+    "kicker": "Seed · Sleep tech",
+    "title": "UNDAE Science (Suisse) lève 1,15 M CHF auprès de 41 investisseurs pour son tapis de diagnostic du sommeil à domicile",
+    "deck": "Le capteur non invasif posé sous le matelas remplace une nuit en laboratoire du sommeil et analyse la sévérité des troubles pour les médecins. La startup, fondée par la neuroscientifique Shanaz Diessler, revendique le soutien des cinq plus grands centres du sommeil suisses (environ deux tiers des consultations) et 12 lettres d'intention.",
+    "company": "UNDAE Science",
+    "stage": "Seed",
+    "sector": "Diagnostics",
+    "pillar": "financement",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.medicaldevice-network.com/news/philips-reports-positive-q3-outlines-e288m-recall-settlement-with-doj/"
+    "url": "https://startupticker.ch/en/news/startups-sammeln-frisches-kapital-fuer-mehr-reife"
   },
   "milestone": {
-    "company": "GE HealthCare",
-    "milestone": "CE + 510(k)",
-    "title": "GE HealthCare ajoute AutoAS et Lung Guidance (IA) à l'échographe de poche Vscan Air, deux fonctions marquées CE et cleared FDA",
-    "summary": "AutoAS estime visuellement une sténose aortique modérée à sévère à partir de vues 2D standard (score de confiance à l'appui) ; Lung Guidance guide en temps réel l'examen pulmonaire en 8 zones et enregistre automatiquement les clips. Lors des tests de validation, des utilisateurs non experts obtiennent des images de qualité diagnostique dans 95,2 % des cas, contre 96,8 % pour des experts.",
-    "why": "L'IA embarquée dans l'échographie de poche réduit la dépendance à l'opérateur et élargit le dépistage cardio-pulmonaire hors du cardiologue : une tendance à suivre pour les startups d'IA d'imagerie, dont le canal de distribution passe par ces plateformes. Déploiement fin novembre 2026 via les Innovation Packages.",
-    "sector": "Imagerie",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.medicaldevice-network.com/news/ge-healthcare-capabilities-vscan-air-system/"
+    "company": "SetPoint Medical",
+    "milestone": "1er patient",
+    "title": "SetPoint Medical traite son premier patient avec son système de neuromodulation immunitaire, approuvé FDA dans la polyarthrite rhumatoïde",
+    "summary": "L'intervention a été réalisée au Beth Israel Deaconess Medical Center (Boston) par le neurochirurgien fonctionnel Joshua Aronson, pour des adultes en polyarthrite active ayant échoué à au moins un biologique ou DMARD ciblé.",
+    "why": "Premier cas commercial d'une thérapie par stimulation nerveuse remplaçant un médicament immunosuppresseur : un jalon de référence pour la neurotech européenne.",
+    "place": "Boston (États-Unis)",
+    "sector": "Neurotech",
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
   },
-  "brefsEurope": [],
+  "deal": {
+    "company": "Laza Medical",
+    "amount": "jusqu'à 160 M$",
+    "round": "Series B",
+    "thesis": "GE HealthCare mène un financement structuré (avec AMED, PA MedTech et Unorthodox Ventures) pour un système d'imagerie robotisé et assisté par IA destiné aux salles de cathétérisme, encore sans autorisation réglementaire : un acteur majeur de l'imagerie finance l'amont plutôt que d'acquérir.",
+    "sector": "Imagerie",
+    "url": "https://www.medicaldevice-network.com/news/laza-medical-160m-robotic-imaging-system/"
+  },
+  "brefsEurope": [
+    {
+      "company": "avaisor",
+      "place": "Davos",
+      "sector": "Digital Health",
+      "pillar": "naissances",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "avaisor lève 488 000 CHF en pre-seed auprès de plus de 15 chirurgiens pour partager l'expertise chirurgicale",
+      "summary": "La plateforme (fondée en 2025 par Yabin Wu, Dmitriy Alexeev et le Pr Hans-Jörg Meisel) crée des avatars interactifs qui restituent le raisonnement clinique d'un chirurgien.",
+      "url": "https://startupticker.ch/en/news/pre-seed-funding-for-avaisor-to-scale-surgical-expertise"
+    },
+    {
+      "company": "Bracco",
+      "place": "Sanford (Caroline du Nord)",
+      "sector": "Imagerie",
+      "pillar": "marche",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Bracco (Italie) investit 230 M$ dans sa première usine américaine de produits de contraste injectables",
+      "summary": "Le site produira les agents IRM Vueway et ProHance et des produits iodés pour le scanner ; 200 emplois attendus, effectif complet d'ici 2031. Comparable de marché plus qu'une opportunité d'entrée.",
+      "url": "https://www.medtechdive.com/news/bracco-invests-230m-to-build-us-plant-for-injectable-contrast-media/873539/"
+    }
+  ],
   "brefsIntl": [
     {
-      "company": "Zimmer Biomet",
-      "place": "Warsaw (Indiana)",
-      "sector": "Orthopédie",
+      "company": "Edwards Lifesciences",
+      "place": "Irvine",
+      "sector": "Cardio",
       "pillar": "marche",
-      "signalType": "early_partnership",
+      "signalType": "reimbursement",
       "strength": 2,
-      "title": "Zimmer Biomet relève sa guidance 2026 après un T3 à plus de 2 Md$ (+3,1 %), porté par la robotique THINK Surgical",
-      "summary": "Le segment technologie, données, ciment et chirurgie progresse de 11,9 % (180,6 M$) ; l'accord élargi avec THINK Surgical donne à Zimmer la distribution exclusive du robot manuel TMINI. Guidance de croissance relevée à 4,4–4,9 %.",
-      "url": "https://www.medicaldevice-network.com/news/zimmer-biomet-stock-rises-9-after-reporting-positive-q3/"
+      "title": "Edwards relève ses prévisions 2026 sur la vigueur du TAVR au T3",
+      "summary": "Edwards table sur une hausse des volumes de procédures TAVR, portée par des données d'étude favorables et un remboursement Medicare élargi.",
+      "url": "https://www.medtechdive.com/news/edwards-bumps-up-sales-forecast-on-tavr-strength-in-q3/873876/"
     }
   ],
   "word": {
-    "term": "Non-Invasive CGM",
-    "full": "Non-Invasive Continuous Glucose Monitoring",
-    "fr": "Mesure continue du glucose sans piqûre ni capteur sous-cutané",
-    "field": "Diabète · Capteurs",
-    "definition": "Suivre la glycémie en continu sans aiguille ni filament inséré sous la peau, par des signaux optiques ou radiofréquence lus à travers la peau.",
+    "term": "Histotripsy",
+    "full": "Histotripsy (destruction mécanique de tissu par ultrasons focalisés)",
+    "fr": "Histotripsie",
+    "field": "Oncologie interventionnelle",
+    "definition": "Technique non invasive qui détruit mécaniquement une tumeur avec des ultrasons focalisés, sans chaleur ni incision.",
     "parts": [
       {
-        "label": "Émetteur",
-        "role": "envoie un signal infrarouge ou micro-onde dans la peau"
+        "label": "Transducteur",
+        "role": "émet les ultrasons focalisés"
       },
       {
-        "label": "Récepteur",
-        "role": "capte la réponse modifiée par le glucose"
+        "label": "Imagerie",
+        "role": "guide et surveille la cible"
       },
       {
-        "label": "Algorithme",
-        "role": "convertit le signal brut en valeur de glycémie"
+        "label": "Nuage de bulles",
+        "role": "fractionne les cellules"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Excitation",
-        "t": "Un laser mid-infrarouge (DiaMonTech) ou un signal RF/micro-ondes (Afon) interroge les tissus au niveau de la peau ou du poignet."
+        "h": "Ciblage",
+        "t": "La tumeur est repérée par imagerie et le faisceau est focalisé dessus."
       },
       {
         "n": "2",
-        "h": "Détection",
-        "t": "Le glucose absorbe ou modifie le signal de façon mesurable ; le capteur enregistre ce signal."
+        "h": "Cavitation",
+        "t": "Des impulsions très brèves et intenses créent un nuage de microbulles au foyer."
       },
       {
         "n": "3",
-        "h": "Estimation",
-        "t": "Un modèle calibré transforme la mesure en glycémie ; la précision reste le verrou clinique (Afon : ~75 % de classification normal/élevé dans un premier essai réel)."
+        "h": "Fractionnement",
+        "t": "Les bulles désintègrent mécaniquement le tissu, que l'organisme résorbe ensuite."
       }
     ],
-    "why": "Les CGM invasifs (Dexcom G7 15 jours, +11 % de ventes au T3) ont ouvert un marché de plusieurs Md$ ; le non-invasif est le pari « moonshot » : aucun produit autorisé à ce jour parmi les acteurs cités, donc risque technique élevé mais valeur énorme si la précision atteint le standard CGM.",
+    "why": "Alternative à l'ablation thermique et à la chirurgie pour les tumeurs hépatiques non résécables ; HistoSonics, valorisée 3,75 Md$, a obtenu le marquage CE en juillet 2026 : le marché européen s'ouvre.",
     "startups": [
       {
-        "name": "Afon Technology",
-        "use": "Glucowear, capteur de poignet RF/micro-ondes ; ~75 % de précision de classification (normal/élevé) au premier essai réel, présenté à l'ATTD 2026 ; fabrication prévue avec Sony UK Technology Centre",
-        "place": "Pays de Galles, Royaume-Uni"
+        "name": "HistoSonics",
+        "use": "Système Edison, autorisé FDA pour les tumeurs du foie et marqué CE ; valorisation 3,75 Md$ après un financement en juin 2026",
+        "place": "Plymouth, États-Unis"
       },
       {
-        "name": "DiaMonTech",
-        "use": "D-Pocket, mesure de glucose par laser mid-infrarouge ; MARD annoncé de 19,6–20,7 % (données société), toujours en développement ; Samsung Ventures au capital",
-        "place": "Berlin, Allemagne"
+        "name": "SONIRE Therapeutics",
+        "use": "Challenger histotripsie, environ 24 M$ levés selon Tracxn",
+        "place": "Japon"
       },
       {
-        "name": "Indigo Diabetes",
-        "use": "Capteur implantable sous-cutané (champ évanescent) mesurant glucose, cétones et lactate ; études de faisabilité GLOW puis SHINE (6 mois) menées",
-        "place": "Gand, Belgique"
+        "name": "Petal Surgical",
+        "use": "Challenger histotripsie, environ 18 M$ levés selon Tracxn",
+        "place": "États-Unis"
       }
     ],
     "sources": [
       {
-        "publisher": "Medical Device Network",
-        "title": "Dexcom lifts 2026 revenue outlook after positive Q3",
-        "url": "https://www.medicaldevice-network.com/news/dexcom-lifts-2026-revenue-outlook-after-positive-q3/"
+        "publisher": "AuntMinnie Europe",
+        "title": "HistoSonics gets CE Mark for histotripsy system",
+        "url": "https://www.auntminnieeurope.com/clinical-news/ultrasound/news/15829896/histosonics-gets-ce-mark-for-histotripsy-system"
       },
       {
-        "publisher": "Diabetes Times",
-        "title": "World's first non-invasive glucose monitoring device hits 75 per cent accuracy in first real-world trial",
-        "url": "https://diabetestimes.co.uk/worlds-first-glucose-monitoring-device-hits-75-per-cent-accuracy-in-first-real-word-trial/"
+        "publisher": "MassDevice",
+        "title": "HistoSonics closes new financing with value reaching $3.75B",
+        "url": "https://www.massdevice.com/histosonics-new-financing-value-reaching-3b/"
       },
       {
-        "publisher": "Indigo Diabetes",
-        "title": "SHINE study completed validating a breakthrough in continuous multi-metabolite monitoring",
-        "url": "https://indigomed.com/shine-study-completed-validating-a-breakthrough-in-continuous-multi-metabolite-monitoring/"
-      },
-      {
-        "publisher": "Drug Delivery Business",
-        "title": "DiaMonTech raises $5M for laser-based blood glucose detection system",
-        "url": "https://www.drugdeliverybusiness.com/diamontech-raises-5m-for-laser-based-blood-glucose-detection-system/"
+        "publisher": "Tracxn",
+        "title": "Histotripsy Ecosystem Report",
+        "url": "https://tracxn.com/d/insights/market-reports/histotripsy-ecosystem-report/__4OKoGCYC9sogdz_ztEVs4HCxwiz4mo5qWK9F9Kn4ysk"
       }
     ]
   }

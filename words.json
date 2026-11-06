@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-11-05",
+  "generatedAt": "2026-11-06",
   "words": [
+    {
+      "term": "Histotripsy",
+      "full": "Histotripsy (destruction mécanique de tissu par ultrasons focalisés)",
+      "fr": "Histotripsie",
+      "field": "Oncologie interventionnelle",
+      "definition": "Technique non invasive qui détruit mécaniquement une tumeur avec des ultrasons focalisés, sans chaleur ni incision.",
+      "parts": [
+        {
+          "label": "Transducteur",
+          "role": "émet les ultrasons focalisés"
+        },
+        {
+          "label": "Imagerie",
+          "role": "guide et surveille la cible"
+        },
+        {
+          "label": "Nuage de bulles",
+          "role": "fractionne les cellules"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "La tumeur est repérée par imagerie et le faisceau est focalisé dessus."
+        },
+        {
+          "n": "2",
+          "h": "Cavitation",
+          "t": "Des impulsions très brèves et intenses créent un nuage de microbulles au foyer."
+        },
+        {
+          "n": "3",
+          "h": "Fractionnement",
+          "t": "Les bulles désintègrent mécaniquement le tissu, que l'organisme résorbe ensuite."
+        }
+      ],
+      "why": "Alternative à l'ablation thermique et à la chirurgie pour les tumeurs hépatiques non résécables ; HistoSonics, valorisée 3,75 Md$, a obtenu le marquage CE en juillet 2026 : le marché européen s'ouvre.",
+      "startups": [
+        {
+          "name": "HistoSonics",
+          "use": "Système Edison, autorisé FDA pour les tumeurs du foie et marqué CE ; valorisation 3,75 Md$ après un financement en juin 2026",
+          "place": "Plymouth, États-Unis"
+        },
+        {
+          "name": "SONIRE Therapeutics",
+          "use": "Challenger histotripsie, environ 24 M$ levés selon Tracxn",
+          "place": "Japon"
+        },
+        {
+          "name": "Petal Surgical",
+          "use": "Challenger histotripsie, environ 18 M$ levés selon Tracxn",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "AuntMinnie Europe",
+          "title": "HistoSonics gets CE Mark for histotripsy system",
+          "url": "https://www.auntminnieeurope.com/clinical-news/ultrasound/news/15829896/histosonics-gets-ce-mark-for-histotripsy-system"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "HistoSonics closes new financing with value reaching $3.75B",
+          "url": "https://www.massdevice.com/histosonics-new-financing-value-reaching-3b/"
+        },
+        {
+          "publisher": "Tracxn",
+          "title": "Histotripsy Ecosystem Report",
+          "url": "https://tracxn.com/d/insights/market-reports/histotripsy-ecosystem-report/__4OKoGCYC9sogdz_ztEVs4HCxwiz4mo5qWK9F9Kn4ysk"
+        }
+      ],
+      "date": "2026-11-06",
+      "dateLong": "6 nov. 2026"
+    },
     {
       "term": "Organoid",
       "full": "Organoid (mini-organe cultivé in vitro)",
