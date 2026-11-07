@@ -1,176 +1,111 @@
 {
-  "dateLong": "Nov 6, 2026",
+  "dateLong": "Nov 7, 2026",
   "ticker": [
-    {
-      "company": "UNDAE SCIENCE",
-      "amount": "CHF 1.15M",
-      "kind": "lev"
-    },
-    {
-      "company": "LAZA MEDICAL",
-      "amount": "$160M",
-      "kind": "lev"
-    },
-    {
-      "company": "AVAISOR",
-      "amount": "CHF 0.5M",
-      "kind": "lev"
-    },
-    {
-      "company": "SETPOINT",
-      "amount": "1st patient",
-      "kind": "tech"
-    },
-    {
-      "company": "BRACCO",
-      "amount": "$230M",
-      "kind": "tech"
-    },
-    {
-      "company": "EDWARDS",
-      "amount": "Guidance ↑",
-      "kind": "tech"
-    }
+    { "company": "BIOLIBERTY", "amount": "$3.3M", "kind": "lev" },
+    { "company": "SIEMENS HEALTHINEERS", "amount": "Carve-out", "kind": "mna" },
+    { "company": "DACADOO", "amount": "Assets", "kind": "mna" },
+    { "company": "BAIRD / ALPMED", "amount": "CE + 510(k)", "kind": "reg" },
+    { "company": "PULSEAI", "amount": "FDA", "kind": "reg" },
+    { "company": "ABBOTT", "amount": "Pivotal", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Seed · Sleep tech",
-    "title": "Swiss UNDAE Science raises CHF 1.15M from 41 investors for its at-home sleep diagnostic mat",
-    "deck": "The non-invasive sensor under the mattress replaces a night in a sleep lab and assesses disorder severity for physicians. Founded by neuroscientist Shanaz Diessler, the startup cites backing from Switzerland's five largest sleep centers (about two-thirds of consultations) and 12 letters of intent.",
-    "company": "UNDAE Science",
-    "stage": "Seed",
-    "sector": "Diagnostics",
+    "kicker": "Series A extension · Robotic rehabilitation",
+    "title": "Edinburgh's Bioliberty closes a $3.3M Series A extension for its soft robotic stroke-rehab glove",
+    "deck": "Four new investors — TGH Ventures, Ballad Ventures, 25M Health and Whiterock — join the round eight months after the Series A led by the Scottish National Investment Bank. The Scottish company, whose Lifeglov glove and Lifehub platform are FDA-registered, is pushing its US commercialization.",
+    "company": "Bioliberty",
+    "stage": "Series A",
+    "sector": "MedTech",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://startupticker.ch/en/news/startups-sammeln-frisches-kapital-fuer-mehr-reife"
+    "strength": 4,
+    "url": "https://www.finsmes.com/2026/11/bioliberty-raises-additional-3-3m-in-series-a-funding.html"
   },
   "milestone": {
-    "company": "SetPoint Medical",
-    "milestone": "1st patient",
-    "title": "SetPoint Medical treats its first patient with its neuroimmune modulation system, FDA-approved in rheumatoid arthritis",
-    "summary": "The procedure was performed at Beth Israel Deaconess Medical Center (Boston) by functional neurosurgeon Joshua Aronson, for adults with active rheumatoid arthritis who failed at least one biologic or targeted DMARD.",
-    "why": "First commercial case of a nerve-stimulation therapy replacing an immunosuppressant drug: a reference milestone for European neurotech.",
-    "place": "Boston (US)",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://www.medicaldevice-network.com/news/setpoint-treats-first-patient-neuroimmune-modulation-system/"
-  },
-  "deal": {
-    "company": "Laza Medical",
-    "amount": "up to $160M",
-    "round": "Series B",
-    "thesis": "GE HealthCare leads a structured financing (with AMED, PA MedTech and Unorthodox Ventures) for a robotic, AI-assisted imaging system for cath labs, still without regulatory clearance: a major imaging player funds the upstream rather than acquiring.",
-    "sector": "Imagerie",
-    "url": "https://www.medicaldevice-network.com/news/laza-medical-160m-robotic-imaging-system/"
+    "company": "Baird Medical / Alpmed",
+    "milestone": "CE + 510(k) filings",
+    "title": "Baird Medical and Alpmed file their irreversible electroporation (IRE) system with the FDA and in Europe for CE marking",
+    "summary": "The partners submitted an FDA 510(k) and an EU CE conformity assessment application for a non-thermal IRE tissue ablation system, already marketed in China for liver and pancreatic tumors. Baird Medical holds worldwide commercial rights and targets clearance and CE marking in 2027.",
+    "why": "IRE destroys tumors without heat, useful near sensitive structures that thermal ablation handles poorly. The CE filing signals an Asian player entering European ablation, a comparable for European electroporation startups.",
+    "place": "New York / Tianjin",
+    "sector": "Interventional oncology",
+    "signalType": "regulatory_milestone",
+    "url": "https://biospace.com/press-releases/baird-medical-and-alpmed-announce-fda-510k-and-eu-ce-submissions-for-irreversible-electroporation-ire-system"
   },
   "brefsEurope": [
     {
-      "company": "avaisor",
-      "place": "Davos",
+      "company": "dacadoo",
+      "place": "Zurich",
       "sector": "Digital Health",
-      "pillar": "naissances",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "avaisor raises CHF 488,000 pre-seed from 15+ surgeons to share surgical expertise",
-      "summary": "The platform (founded in 2025 by Yabin Wu, Dmitriy Alexeev and Prof. Hans-Jörg Meisel) builds interactive avatars that reproduce a surgeon's clinical reasoning.",
-      "url": "https://startupticker.ch/en/news/pre-seed-funding-for-avaisor-to-scale-surgical-expertise"
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 3,
+      "title": "Israel's movement group buys the technology and IP of Swiss dacadoo, a company in liquidation",
+      "summary": "The buyer takes the software, source code and 51 patents of the health-engagement platform founded in 2010 and used by insurers and large employers; dacadoo ag is in liquidation and customers keep access. Price undisclosed: a reminder that B2B2C health engagement struggles to stand alone.",
+      "url": "https://startupticker.ch/en/news/wellness-company-acquires-dacadoo-s-assets"
     },
     {
-      "company": "Bracco",
-      "place": "Sanford (North Carolina)",
-      "sector": "Imagerie",
+      "company": "Siemens Healthineers",
+      "place": "Erlangen",
+      "sector": "Diagnostics",
       "pillar": "marche",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Italy's Bracco invests $230M in its first US injectable contrast media plant",
-      "summary": "The site will make the MRI agents Vueway and ProHance plus iodinated CT products; 200 jobs expected, fully staffed by 2031. A market comparable rather than an entry opportunity.",
-      "url": "https://www.medtechdive.com/news/bracco-invests-230m-to-build-us-plant-for-injectable-contrast-media/873539/"
+      "signalType": "acquisition",
+      "strength": 4,
+      "title": "Siemens Healthineers prepares to separate its in vitro diagnostics unit, renamed Olyrian Diagnostics, by mid-2028",
+      "summary": "Shareholder vote expected in February 2027; the IVD business, hit by China's decline (comparable sales −5.5% in Q3, close to €1bn), targets a further €400M in savings. The group will pay Siemens €300M for the brand transition to “Healthineers”.",
+      "url": "https://www.medtechdive.com/news/siemens-healthineers-to-rebrand-and-separate-its-ivd-business/873963/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Edwards Lifesciences",
-      "place": "Irvine",
-      "sector": "Cardio",
+      "company": "PulseAI",
+      "place": "n.c.",
+      "sector": "Digital Health",
       "pillar": "marche",
-      "signalType": "reimbursement",
-      "strength": 2,
-      "title": "Edwards raises 2026 outlook on strong Q3 TAVR demand",
-      "summary": "Edwards expects TAVR procedure volumes to climb, backed by supportive study data and broader Medicare payment.",
-      "url": "https://www.medtechdive.com/news/edwards-bumps-up-sales-forecast-on-tavr-strength-in-q3/873876/"
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "PulseAI wins FDA clearance for its wearable arrhythmia analysis model",
+      "summary": "In a prospective study of 296 participants, the algorithm improved atrial fibrillation detection and cut inconclusive readings by 92% versus the Apple Watch's native algorithm.",
+      "url": "https://www.medicaldevice-network.com/news/pulseai-arrhythmia-analysis-model-for-wearables-lands-fda-clearance/"
+    },
+    {
+      "company": "Abbott",
+      "place": "Abbott Park (United States)",
+      "sector": "Cardio",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Abbott starts the pivotal trial of its Cephea transcatheter mitral valve, with up to 585 patients in the US, Canada and Europe",
+      "summary": "First patient enrolled in Wichita (Kansas); the trial covers moderate-to-severe mitral regurgitation and mitral annular calcification. A comparable for European mitral replacement startups.",
+      "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
     }
   ],
   "word": {
-    "term": "Histotripsy",
-    "full": "Histotripsy (mechanical tissue destruction with focused ultrasound)",
-    "fr": "Histotripsy",
-    "field": "Interventional oncology",
-    "definition": "A non-invasive technique that mechanically destroys a tumor with focused ultrasound, with no heat and no incision.",
+    "term": "Rehabilitation Exoskeleton",
+    "full": "Rehabilitation Exoskeleton (robotic exoskeleton for rehabilitation)",
+    "fr": "Rehabilitation exoskeleton",
+    "field": "Rehabilitation robotics",
+    "definition": "A motorized orthosis worn on the body that assists or guides a patient's movement (walking, hand function) to relearn movement after a stroke or spinal cord injury.",
     "parts": [
-      {
-        "label": "Transducer",
-        "role": "emits the focused ultrasound"
-      },
-      {
-        "label": "Imaging",
-        "role": "guides and monitors the target"
-      },
-      {
-        "label": "Bubble cloud",
-        "role": "breaks up the cells"
-      }
+      { "label": "Structure and actuators", "role": "the motorized joints that assist movement" },
+      { "label": "Sensors and control", "role": "detect the patient's intent and balance and adjust assistance" },
+      { "label": "Clinical software", "role": "sets up the session and tracks progress for the therapist" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Targeting",
-        "t": "The tumor is located by imaging and the beam is focused on it."
-      },
-      {
-        "n": "2",
-        "h": "Cavitation",
-        "t": "Very short, intense pulses create a microbubble cloud at the focus."
-      },
-      {
-        "n": "3",
-        "h": "Fractionation",
-        "t": "The bubbles mechanically disintegrate the tissue, which the body then reabsorbs."
-      }
+      { "n": "1", "h": "Setup", "t": "The therapist sets the assistance level for the impairment (spinal cord injury, stroke, multiple sclerosis)." },
+      { "n": "2", "h": "Assisted movement", "t": "Actuators repeatedly guide the movement (steps, hand opening/closing) while the patient participates." },
+      { "n": "3", "h": "Tracking", "t": "Session data measures progress and lets the therapy be adapted, in clinic and then at home." }
     ],
-    "why": "An alternative to thermal ablation and surgery for unresectable liver tumors; HistoSonics, valued at $3.75B, got CE marking in July 2026: the European market is opening.",
+    "why": "VC angle: a regulated market (CE/MDR, FDA) with recurring revenue per machine placed in centers, and a shift toward home use and soft exosuits — lighter and cheaper — that widens the addressable market.",
     "startups": [
-      {
-        "name": "HistoSonics",
-        "use": "Edison system, FDA-authorized for liver tumors and CE-marked; $3.75B valuation after a June 2026 financing",
-        "place": "Plymouth, US"
-      },
-      {
-        "name": "SONIRE Therapeutics",
-        "use": "Histotripsy challenger, about $24M raised per Tracxn",
-        "place": "Japan"
-      },
-      {
-        "name": "Petal Surgical",
-        "use": "Histotripsy challenger, about $18M raised per Tracxn",
-        "place": "US"
-      }
+      { "name": "Wandercraft", "use": "Self-balancing Atalante X exoskeleton for neurological rehabilitation; $75M Series D in June 2025 with Renault on the cap table, 100+ centers equipped", "place": "Paris, France" },
+      { "name": "Marsi Bionics", "use": "ATLAS 2030, the first pediatric exoskeleton (CE since 2021, CSIC spin-out); home-use prototype Explorer awaiting CE marking", "place": "Madrid, Spain" },
+      { "name": "Bioliberty", "use": "Lifeglov soft robotic glove for hand strength after stroke and the Lifehub platform; Series A led by the Scottish National Investment Bank in March 2026", "place": "Edinburgh, United Kingdom" }
     ],
     "sources": [
-      {
-        "publisher": "AuntMinnie Europe",
-        "title": "HistoSonics gets CE Mark for histotripsy system",
-        "url": "https://www.auntminnieeurope.com/clinical-news/ultrasound/news/15829896/histosonics-gets-ce-mark-for-histotripsy-system"
-      },
-      {
-        "publisher": "MassDevice",
-        "title": "HistoSonics closes new financing with value reaching $3.75B",
-        "url": "https://www.massdevice.com/histosonics-new-financing-value-reaching-3b/"
-      },
-      {
-        "publisher": "Tracxn",
-        "title": "Histotripsy Ecosystem Report",
-        "url": "https://tracxn.com/d/insights/market-reports/histotripsy-ecosystem-report/__4OKoGCYC9sogdz_ztEVs4HCxwiz4mo5qWK9F9Kn4ysk"
-      }
+      { "publisher": "The Robot Report", "title": "Wandercraft earns second FDA clearance for Atalante X exoskeleton", "url": "https://www.therobotreport.com/wandercraft-earns-second-fda-clearance-for-atalante-x-exoskeleton/" },
+      { "publisher": "Medical Design & Outsourcing", "title": "Research and Public Funding Boost Personal Exoskeletons for Children", "url": "https://www.medicaldesigndevelopment.com/topics/orthopedic/news/22933894/research-and-public-funding-boost-personal-exoskeletons-for-children" },
+      { "publisher": "CORDIS (Commission européenne)", "title": "Getting up from the wheelchair", "url": "https://cordis.europa.eu/article/id/233553-getting-up-from-the-wheelchair" },
+      { "publisher": "raising.fi", "title": "Bioliberty Raises $10.2 Million in Series A Funding", "url": "https://raising.fi/news/bioliberty-series-a-march-2026-1" }
     ]
   }
 }

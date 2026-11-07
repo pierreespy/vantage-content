@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-07",
   "words": [
+    {
+      "term": "Rehabilitation Exoskeleton",
+      "full": "Rehabilitation Exoskeleton (robotic exoskeleton for rehabilitation)",
+      "fr": "Rehabilitation exoskeleton",
+      "field": "Rehabilitation robotics",
+      "definition": "A motorized orthosis worn on the body that assists or guides a patient's movement (walking, hand function) to relearn movement after a stroke or spinal cord injury.",
+      "parts": [
+        {
+          "label": "Structure and actuators",
+          "role": "the motorized joints that assist movement"
+        },
+        {
+          "label": "Sensors and control",
+          "role": "detect the patient's intent and balance and adjust assistance"
+        },
+        {
+          "label": "Clinical software",
+          "role": "sets up the session and tracks progress for the therapist"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Setup",
+          "t": "The therapist sets the assistance level for the impairment (spinal cord injury, stroke, multiple sclerosis)."
+        },
+        {
+          "n": "2",
+          "h": "Assisted movement",
+          "t": "Actuators repeatedly guide the movement (steps, hand opening/closing) while the patient participates."
+        },
+        {
+          "n": "3",
+          "h": "Tracking",
+          "t": "Session data measures progress and lets the therapy be adapted, in clinic and then at home."
+        }
+      ],
+      "why": "VC angle: a regulated market (CE/MDR, FDA) with recurring revenue per machine placed in centers, and a shift toward home use and soft exosuits — lighter and cheaper — that widens the addressable market.",
+      "startups": [
+        {
+          "name": "Wandercraft",
+          "use": "Self-balancing Atalante X exoskeleton for neurological rehabilitation; $75M Series D in June 2025 with Renault on the cap table, 100+ centers equipped",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Marsi Bionics",
+          "use": "ATLAS 2030, the first pediatric exoskeleton (CE since 2021, CSIC spin-out); home-use prototype Explorer awaiting CE marking",
+          "place": "Madrid, Spain"
+        },
+        {
+          "name": "Bioliberty",
+          "use": "Lifeglov soft robotic glove for hand strength after stroke and the Lifehub platform; Series A led by the Scottish National Investment Bank in March 2026",
+          "place": "Edinburgh, United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "The Robot Report",
+          "title": "Wandercraft earns second FDA clearance for Atalante X exoskeleton",
+          "url": "https://www.therobotreport.com/wandercraft-earns-second-fda-clearance-for-atalante-x-exoskeleton/"
+        },
+        {
+          "publisher": "Medical Design & Outsourcing",
+          "title": "Research and Public Funding Boost Personal Exoskeletons for Children",
+          "url": "https://www.medicaldesigndevelopment.com/topics/orthopedic/news/22933894/research-and-public-funding-boost-personal-exoskeletons-for-children"
+        },
+        {
+          "publisher": "CORDIS (Commission européenne)",
+          "title": "Getting up from the wheelchair",
+          "url": "https://cordis.europa.eu/article/id/233553-getting-up-from-the-wheelchair"
+        },
+        {
+          "publisher": "raising.fi",
+          "title": "Bioliberty Raises $10.2 Million in Series A Funding",
+          "url": "https://raising.fi/news/bioliberty-series-a-march-2026-1"
+        }
+      ],
+      "date": "2026-11-07",
+      "dateLong": "Nov 7, 2026"
+    },
     {
       "term": "Histotripsy",
       "full": "Histotripsy (mechanical tissue destruction with focused ultrasound)",

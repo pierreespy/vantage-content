@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-07",
   "words": [
+    {
+      "term": "Rehabilitation Exoskeleton",
+      "full": "Rehabilitation Exoskeleton (exosquelette robotisé de rééducation)",
+      "fr": "Exosquelette de rééducation",
+      "field": "Robotique de rééducation",
+      "definition": "Une orthèse motorisée portée sur le corps qui aide ou guide le mouvement d'un patient (marche, main) pour réapprendre à bouger après un AVC ou une lésion de la moelle épinière.",
+      "parts": [
+        {
+          "label": "Structure et actionneurs",
+          "role": "les articulations motorisées qui assistent le mouvement"
+        },
+        {
+          "label": "Capteurs et contrôle",
+          "role": "détectent l'intention et l'équilibre du patient et ajustent l'assistance"
+        },
+        {
+          "label": "Logiciel clinique",
+          "role": "paramètre la séance et suit les progrès pour le thérapeute"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Paramétrage",
+          "t": "Le thérapeute règle le niveau d'assistance selon le handicap (lésion médullaire, AVC, sclérose en plaques)."
+        },
+        {
+          "n": "2",
+          "h": "Mouvement assisté",
+          "t": "Les actionneurs guident répétitivement le geste (pas, ouverture/fermeture de la main) pendant que le patient participe."
+        },
+        {
+          "n": "3",
+          "h": "Suivi",
+          "t": "Les données de séance mesurent la progression et permettent d'adapter la rééducation, en centre puis à domicile."
+        }
+      ],
+      "why": "Angle VC : un marché réglementé (CE/MDR, FDA) à revenus récurrents par machines placées en centres, avec la bascule en cours vers l'usage à domicile et les exosquelettes souples, plus légers et moins chers, qui élargissent le marché adressable.",
+      "startups": [
+        {
+          "name": "Wandercraft",
+          "use": "Exosquelette auto-équilibré Atalante X pour la rééducation neurologique ; Series D de 75 M$ en juin 2025 avec Renault au capital, plus de 100 centres équipés",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Marsi Bionics",
+          "use": "ATLAS 2030, premier exosquelette pédiatrique (CE depuis 2021, issu du CSIC) ; prototype domicile Explorer en attente de marquage CE",
+          "place": "Madrid, Espagne"
+        },
+        {
+          "name": "Bioliberty",
+          "use": "Gant robotique souple Lifeglov pour la force de la main après AVC et plateforme Lifehub ; Series A menée par la Scottish National Investment Bank en mars 2026",
+          "place": "Édimbourg, Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "The Robot Report",
+          "title": "Wandercraft earns second FDA clearance for Atalante X exoskeleton",
+          "url": "https://www.therobotreport.com/wandercraft-earns-second-fda-clearance-for-atalante-x-exoskeleton/"
+        },
+        {
+          "publisher": "Medical Design & Outsourcing",
+          "title": "Research and Public Funding Boost Personal Exoskeletons for Children",
+          "url": "https://www.medicaldesigndevelopment.com/topics/orthopedic/news/22933894/research-and-public-funding-boost-personal-exoskeletons-for-children"
+        },
+        {
+          "publisher": "CORDIS (Commission européenne)",
+          "title": "Getting up from the wheelchair",
+          "url": "https://cordis.europa.eu/article/id/233553-getting-up-from-the-wheelchair"
+        },
+        {
+          "publisher": "raising.fi",
+          "title": "Bioliberty Raises $10.2 Million in Series A Funding",
+          "url": "https://raising.fi/news/bioliberty-series-a-march-2026-1"
+        }
+      ],
+      "date": "2026-11-07",
+      "dateLong": "7 nov. 2026"
+    },
     {
       "term": "Histotripsy",
       "full": "Histotripsy (destruction mécanique de tissu par ultrasons focalisés)",
