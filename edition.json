@@ -1,111 +1,152 @@
 {
-  "dateLong": "7 nov. 2026",
+  "dateLong": "8 nov. 2026",
   "ticker": [
-    { "company": "BIOLIBERTY", "amount": "$3,3M", "kind": "lev" },
-    { "company": "SIEMENS HEALTHINEERS", "amount": "Carve-out", "kind": "mna" },
-    { "company": "DACADOO", "amount": "Actifs", "kind": "mna" },
-    { "company": "BAIRD / ALPMED", "amount": "CE + 510(k)", "kind": "reg" },
-    { "company": "PULSEAI", "amount": "FDA", "kind": "reg" },
-    { "company": "ABBOTT", "amount": "Pivotal", "kind": "tech" }
+    {
+      "company": "OCTOPATH AI",
+      "amount": "£1,5M",
+      "kind": "lev"
+    },
+    {
+      "company": "MÖLNLYCKE",
+      "amount": "Nouveau CEO",
+      "kind": "tech"
+    },
+    {
+      "company": "BOULE",
+      "amount": "Désinvest.",
+      "kind": "mna"
+    },
+    {
+      "company": "OLYMPUS",
+      "amount": "Lancement US",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Extension Series A · Rééducation robotique",
-    "title": "Bioliberty (Édimbourg) boucle une extension de Series A de 3,3 M$ pour son gant robotique souple de rééducation post-AVC",
-    "deck": "Quatre nouveaux investisseurs — TGH Ventures, Ballad Ventures, 25M Health et Whiterock — rejoignent le tour, huit mois après la Series A menée par la Scottish National Investment Bank. La société écossaise, dont le gant Lifeglov et la plateforme Lifehub sont enregistrés FDA, pousse sa commercialisation aux États-Unis.",
-    "company": "Bioliberty",
-    "stage": "Series A",
-    "sector": "MedTech",
-    "pillar": "financement",
+    "kicker": "Spin-off UCL · Pathologie IA",
+    "title": "Octopath AI, spin-out de l'UCL, lève 1,5 M£ en seed (Twin Path Ventures) pour son IA de pathologie à l'échelle de la cellule",
+    "deck": "Deux modèles fondation — Kraken pour les lames H&E, Nemo pour l'IHC — analysent des lames de routine au niveau de la cellule unique en moins de deux minutes (cellularité, infiltrat immunitaire, comptage mitotique), les résultats restant soumis à la revue du pathologiste. Le tour mêle un seed mené par Twin Path Ventures et une subvention Innovate UK en contrepartie ; les fonds visent l'évaluation clinique, le produit et la voie réglementaire.",
+    "company": "Octopath AI",
+    "stage": "Seed",
+    "sector": "Diagnostics",
+    "pillar": "naissances",
     "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.finsmes.com/2026/11/bioliberty-raises-additional-3-3m-in-series-a-funding.html"
+    "strength": 3,
+    "url": "https://startup.eu/investments/octopath-ai-1-5-m-seed-11-2026"
   },
   "milestone": {
-    "company": "Baird Medical / Alpmed",
-    "milestone": "Dépôt CE + 510(k)",
-    "title": "Baird Medical et Alpmed déposent leur système d'électroporation irréversible (IRE) auprès de la FDA et en Europe pour un marquage CE",
-    "summary": "Les deux partenaires ont soumis un 510(k) FDA et un dossier d'évaluation de conformité CE pour un système IRE d'ablation tissulaire non thermique, déjà commercialisé en Chine pour les tumeurs du foie et du pancréas. Baird Medical détient les droits commerciaux mondiaux et vise clearance et marquage CE en 2027.",
-    "why": "L'IRE détruit les tumeurs sans chaleur, utile près des structures sensibles : un marché que l'ablation thermique adresse mal. Le dépôt CE signale l'arrivée d'un acteur asiatique sur l'ablation en Europe, un comparable pour les startups européennes de l'électroporation.",
-    "place": "New York / Tianjin",
-    "sector": "Oncologie interventionnelle",
-    "signalType": "regulatory_milestone",
-    "url": "https://biospace.com/press-releases/baird-medical-and-alpmed-announce-fda-510k-and-eu-ce-submissions-for-irreversible-electroporation-ire-system"
+    "company": "Mölnlycke Health Care",
+    "milestone": "Nomination CEO",
+    "title": "Mölnlycke nomme Anders Andersson CEO et Fredrik Wallefors President Surgical à compter du 1er janvier 2027",
+    "summary": "Le groupe suédois renouvelle sa direction : les deux nominations, annoncées le 3 novembre, prennent effet au 1er janvier 2027.",
+    "why": "Un changement de CEO chez un acteur européen majeur du soin des plaies et de la chirurgie peut précéder une inflexion stratégique (portefeuille, M&A, partenariats) : un signal à suivre.",
+    "place": "Göteborg",
+    "sector": "MedTech",
+    "signalType": "leadership_hire",
+    "url": "https://nordiclifescience.org/new-leaders-appointed-at-molnlycke/"
   },
   "brefsEurope": [
     {
-      "company": "dacadoo",
-      "place": "Zurich",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 3,
-      "title": "Le groupe israélien movement rachète la technologie et la propriété intellectuelle de la suisse dacadoo, société en liquidation",
-      "summary": "L'acquéreur reprend le logiciel, le code source et les 51 brevets de la plateforme d'engagement santé fondée en 2010, utilisée par des assureurs et grands employeurs ; dacadoo ag est en liquidation, les clients conservent l'accès. Prix non divulgué : rappel que le B2B2C d'engagement santé peine à tenir seul.",
-      "url": "https://startupticker.ch/en/news/wellness-company-acquires-dacadoo-s-assets"
-    },
-    {
-      "company": "Siemens Healthineers",
-      "place": "Erlangen",
+      "company": "Boule",
+      "place": "Stockholm",
       "sector": "Diagnostics",
-      "pillar": "marche",
-      "signalType": "acquisition",
-      "strength": 4,
-      "title": "Siemens Healthineers prépare la séparation de son diagnostic in vitro, rebaptisé Olyrian Diagnostics, d'ici mi-2028",
-      "summary": "Vote des actionnaires prévu en février 2027 ; l'activité IVD, pénalisée par le recul de la Chine (ventes comparables −5,5 % au T3, près de 1 Md€), vise 400 M€ d'économies supplémentaires. Le groupe versera 300 M€ à Siemens pour la transition de marque vers « Healthineers ».",
-      "url": "https://www.medtechdive.com/news/siemens-healthineers-to-rebrand-and-separate-its-ivd-business/873963/"
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Boule se retire des instruments d'hématologie et prépare une augmentation de capital de 93 MSEK",
+      "summary": "Le groupe suédois se recentre sur les consommables, les services et la fabrication sous contrat aux États-Unis, financé par une rights issue d'environ 93 millions de couronnes suédoises.",
+      "url": "https://nordiclifescience.org/boule-exits-hematology-instruments-plans-sek-93-million-rights-issue/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "PulseAI",
-      "place": "n.c.",
-      "sector": "Digital Health",
+      "company": "Olympus",
+      "place": "Tokyo",
+      "sector": "Robotique chirurgicale",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "PulseAI obtient une clearance FDA pour son modèle d'analyse d'arythmies sur wearables",
-      "summary": "Dans une étude prospective de 296 participants, l'algorithme améliore la détection de fibrillation atriale et réduit de 92 % les interprétations non concluantes face à l'algorithme natif de l'Apple Watch.",
-      "url": "https://www.medicaldevice-network.com/news/pulseai-arrhythmia-analysis-model-for-wearables-lands-fda-clearance/"
-    },
-    {
-      "company": "Abbott",
-      "place": "Abbott Park (États-Unis)",
-      "sector": "Cardio",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Abbott lance l'essai pivot de sa valve mitrale transcathéter Cephea, avec jusqu'à 585 patients aux États-Unis, au Canada et en Europe",
-      "summary": "Premier patient inclus à Wichita (Kansas) ; l'essai couvre régurgitation mitrale modérée à sévère et calcification de l'anneau. Comparable pour les startups européennes du remplacement mitral.",
-      "url": "https://www.medtechdive.com/news/abbott-starts-pivotal-trial-for-mitral-valve-replacement-device/873409/"
+      "strength": 1,
+      "title": "Olympus lance aux États-Unis son laser à fibre thulium Soltive Gemini 60W",
+      "summary": "Le système cible la lithiase rénale et les actes sur tissus mous, avec la technologie StoneSense qui coupe l'émission quand la fibre ne vise pas un calcul ; statut FDA non précisé dans l'article.",
+      "url": "https://www.medicaldevice-network.com/news/olympus-soltive-gemini-laser-system-us/"
     }
   ],
   "word": {
-    "term": "Rehabilitation Exoskeleton",
-    "full": "Rehabilitation Exoskeleton (exosquelette robotisé de rééducation)",
-    "fr": "Exosquelette de rééducation",
-    "field": "Robotique de rééducation",
-    "definition": "Une orthèse motorisée portée sur le corps qui aide ou guide le mouvement d'un patient (marche, main) pour réapprendre à bouger après un AVC ou une lésion de la moelle épinière.",
+    "term": "Computational Pathology",
+    "full": "Computational Pathology (pathologie computationnelle)",
+    "fr": "Pathologie computationnelle : analyse par algorithmes d'apprentissage profond de lames de tissu numérisées pour assister le diagnostic et prédire des critères cliniques.",
+    "field": "Diagnostic & imagerie",
+    "definition": "On scanne la lame de biopsie en image géante, puis une IA la lit pour aider le pathologiste à repérer les cellules cancéreuses et à anticiper l'évolution ou la réponse au traitement.",
     "parts": [
-      { "label": "Structure et actionneurs", "role": "les articulations motorisées qui assistent le mouvement" },
-      { "label": "Capteurs et contrôle", "role": "détectent l'intention et l'équilibre du patient et ajustent l'assistance" },
-      { "label": "Logiciel clinique", "role": "paramètre la séance et suit les progrès pour le thérapeute" }
+      {
+        "label": "Lame numérisée (whole-slide image)",
+        "role": "La lame de tissu est scannée en une image de plusieurs milliards de pixels, matière première des algorithmes."
+      },
+      {
+        "label": "Apprentissage profond",
+        "role": "Les réseaux de neurones, composante algorithmique centrale de la plupart des systèmes, analysent l'image (par ex. via l'apprentissage multi-instances)."
+      },
+      {
+        "label": "Critère clinique prédit",
+        "role": "Le modèle produit une aide au diagnostic ou une prédiction de critère clinique, voire de nouveaux biomarqueurs morphologiques."
+      }
     ],
     "how": [
-      { "n": "1", "h": "Paramétrage", "t": "Le thérapeute règle le niveau d'assistance selon le handicap (lésion médullaire, AVC, sclérose en plaques)." },
-      { "n": "2", "h": "Mouvement assisté", "t": "Les actionneurs guident répétitivement le geste (pas, ouverture/fermeture de la main) pendant que le patient participe." },
-      { "n": "3", "h": "Suivi", "t": "Les données de séance mesurent la progression et permettent d'adapter la rééducation, en centre puis à domicile." }
+      {
+        "n": "1",
+        "h": "Numériser",
+        "t": "Les lames de pathologie sont digitalisées en images haute résolution, ce qui rend l'analyse automatisable."
+      },
+      {
+        "n": "2",
+        "h": "Analyser par IA",
+        "t": "Des modèles d'apprentissage profond parcourent l'image entière pour détecter, compter ou classer des structures, comme des cellules tumorales."
+      },
+      {
+        "n": "3",
+        "h": "Assister le pathologiste",
+        "t": "Les résultats servent d'aide à la décision ; certains systèmes d'IA sont désormais approuvés pour assister le diagnostic clinique, mais des freins techniques à l'adoption demeurent."
+      }
     ],
-    "why": "Angle VC : un marché réglementé (CE/MDR, FDA) à revenus récurrents par machines placées en centres, avec la bascule en cours vers l'usage à domicile et les exosquelettes souples, plus légers et moins chers, qui élargissent le marché adressable.",
+    "why": "Angle VC : la numérisation des lames crée un goulot de données que l'IA peut monétiser, côté diagnostic comme côté pharma (aide au développement de médicaments). Le marché reste jeune : les tours européens récents sont modestes (1,5 M£ chez Octopath AI, 15,3 M$ chez Mindpeak) et la dette venture BEI chez Aiforia montre un financement en partie non dilutif. Risques : validation clinique et réglementaire longue, adoption lente, besoin de jeux de données larges et variés.",
     "startups": [
-      { "name": "Wandercraft", "use": "Exosquelette auto-équilibré Atalante X pour la rééducation neurologique ; Series D de 75 M$ en juin 2025 avec Renault au capital, plus de 100 centres équipés", "place": "Paris, France" },
-      { "name": "Marsi Bionics", "use": "ATLAS 2030, premier exosquelette pédiatrique (CE depuis 2021, issu du CSIC) ; prototype domicile Explorer en attente de marquage CE", "place": "Madrid, Espagne" },
-      { "name": "Bioliberty", "use": "Gant robotique souple Lifeglov pour la force de la main après AVC et plateforme Lifehub ; Series A menée par la Scottish National Investment Bank en mars 2026", "place": "Édimbourg, Royaume-Uni" }
+      {
+        "name": "Octopath AI",
+        "use": "Spin-out de l'UCL ; modèles de fondation Kraken et Nemo analysant des lames de routine à résolution cellulaire en moins de deux minutes, entraînés sur plus de 14 millions de cellules annotées sur 14 types de cancer ; seed + subvention de 1,5 M£ (dont 500 k£ Innovate UK) mené par TwinPath Ventures, déployé sur cinq sites dont UCLH.",
+        "place": "Londres, Royaume-Uni"
+      },
+      {
+        "name": "Mindpeak",
+        "use": "Logiciels d'IA pour pathologues (cancer du sein, PD-L1, etc.) ; Série A de 15,3 M$ annoncée le 2 octobre 2024, menée par ZEISS Ventures et IFB Innovationsstarter avec InnoVentureFonds, AI.FUND et le EIC Fund ; plus de 30 000 diagnostics soutenus ; aucune acquisition relevée.",
+        "place": "Hambourg, Allemagne"
+      },
+      {
+        "name": "Aiforia",
+        "use": "Logiciel d'IA par apprentissage profond pour la pathologie, cotée sur Nasdaq First North Helsinki ; dette venture de 20 M€ de la BEI (InvestEU), en trois tranches dont une première de 5 M€, annoncée le 31 juillet 2026.",
+        "place": "Helsinki, Finlande"
+      }
     ],
     "sources": [
-      { "publisher": "The Robot Report", "title": "Wandercraft earns second FDA clearance for Atalante X exoskeleton", "url": "https://www.therobotreport.com/wandercraft-earns-second-fda-clearance-for-atalante-x-exoskeleton/" },
-      { "publisher": "Medical Design & Outsourcing", "title": "Research and Public Funding Boost Personal Exoskeletons for Children", "url": "https://www.medicaldesigndevelopment.com/topics/orthopedic/news/22933894/research-and-public-funding-boost-personal-exoskeletons-for-children" },
-      { "publisher": "CORDIS (Commission européenne)", "title": "Getting up from the wheelchair", "url": "https://cordis.europa.eu/article/id/233553-getting-up-from-the-wheelchair" },
-      { "publisher": "raising.fi", "title": "Bioliberty Raises $10.2 Million in Series A Funding", "url": "https://raising.fi/news/bioliberty-series-a-march-2026-1" }
+      {
+        "publisher": "Dealroom.co",
+        "title": "UCL spinout Octopath AI raises £1.5M to speed up cancer pathology",
+        "url": "https://dealroom.co/news/168839-ucl-spinout-octopath-ai-raises-1-5m-to-speed-up-cancer-pathology/"
+      },
+      {
+        "publisher": "arXiv (Song et al.)",
+        "title": "Artificial Intelligence for Digital and Computational Pathology",
+        "url": "https://arxiv.org/abs/2401.06148"
+      },
+      {
+        "publisher": "Startup City Hamburg",
+        "title": "15.3 million US dollars for Mindpeak in series A funding",
+        "url": "https://startupcity.hamburg/news-events/news/153-million-us-dollars-for-mindpeak-in-series-a-funding"
+      },
+      {
+        "publisher": "Banque européenne d'investissement",
+        "title": "Aiforia lands EU financing to develop AI-powered cancer detection",
+        "url": "https://www.eib.org/en/press/all/2026-268-aiforia-lands-eu-financing-to-develop-ai-powered-cancer-detection"
+      }
     ]
   }
 }

@@ -2,6 +2,60 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-08",
+      "company": "T-Therapeutics",
+      "title": "T-Therapeutics (Cambridge) lève 133 M$ en Series B pour amener deux bispécifiques TCR-CD3 en clinique",
+      "url": "https://startup.eu/investments/t-therapeutics-133-m-series-b-11-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Lytix Biopharma",
+      "title": "Lytix : l'étude de phase II NeoLIPA atteint son critère principal dans le mélanome résécable",
+      "url": "https://nordiclifescience.org/lytix-melanoma-study-meets-primary-endpoint/"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Alethio Therapeutics",
+      "title": "Alethio Therapeutics · Series A",
+      "url": "https://startup.eu/investments/alethio-therapeutics-90-m-series-a-11-2026"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Egetis Therapeutics",
+      "title": "ANI Pharmaceuticals propose une OPA cash de 5,3 Md SEK sur Egetis, soutenue par le conseil",
+      "url": "https://nordiclifescience.org/ani-pharmaceuticals-bids-sek-5-3-billion-for-egetis/"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Abera Bioscience",
+      "title": "Abera Bioscience obtient l'autorisation néerlandaise pour un essai de phase I de son vaccin nasal anti-pneumocoque",
+      "url": "https://nordiclifescience.org/abera-cleared-for-first-in-human-trial/"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Idorsia",
+      "title": "Idorsia lance l'étude pivot de phase 3 FAB-KLEAR (lucérastat, Fabry) et perçoit 7 MCHF de Nxera",
+      "url": "https://www.startupticker.ch/en/news/biotech-collaborations-to-accelerate-clinical-progress"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Camurus",
+      "title": "Camurus dose le premier patient d'une étude de phase IIb de son dépôt mensuel de sémaglutide dans l'obésité",
+      "url": "https://nordiclifescience.org/camurus-starts-phase-iib-obesity-study/"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Alentis Therapeutics",
+      "title": "Alentis signe avec PinotBio un accord de recherche pour des ADC anti-claudine-1 de nouvelle génération",
+      "url": "https://www.startupticker.ch/en/news/biotech-collaborations-to-accelerate-clinical-progress"
+    },
+    {
+      "date": "2026-11-08",
+      "company": "Vitroscope",
+      "title": "Vitroscope lève 7 M$ en seed pour industrialiser sa plateforme de tissus vivants",
+      "url": "https://nordiclifescience.org/vitroscope-raises-usd-7-million-to-scale-up-live-tissue-platform/"
+    },
+    {
       "date": "2026-11-05",
       "company": "Pretzel Therapeutics",
       "title": "Pretzel Therapeutics obtient le feu vert de la MHRA pour la Phase II POLARIS de PX578, activateur de POLG",
@@ -198,66 +252,6 @@
       "company": "Recursion",
       "title": "Sanofi exerce son option sur un premier candidat oral en immunologie issu de sa collaboration avec Recursion",
       "url": "https://european-biotechnology.com/latest-news/evaxion-reports-durable-responses-novartis-halts-kidney-trial-astrazeneca-signs-ai-deal/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Muna Therapeutics",
-      "title": "Muna Therapeutics : son modulateur oral de TREM2 passe la Phase 1 dans Alzheimer, Phase 2 prévue début 2027",
-      "url": "https://european-biotechnology.com/latest-news/munas-oral-alzheimers-candidate-shifts-age-associated-markers-in-phase-1/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Alnylam Pharmaceuticals",
-      "title": "Alnylam : le brezosiran (ARNi) réduit de 60 à 64 % la huntingtine mutante dans le LCR dans la maladie de Huntington",
-      "url": "https://www.biospace.com/drug-development/alnylam-plans-pivotal-trial-as-huntingtons-drug-notches-best-in-class-knockdown"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Georgiamune",
-      "title": "Georgiamune · Licensing",
-      "url": "https://european-biotechnology.com/latest-news/menarini-adds-georgiamunes-oral-immunotherapy-candidate-to-its-solid-tumor-portfolio-for-45m-upfront/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Arctic Therapeutics",
-      "title": "Arctic Therapeutics lève 21,5 M$ pour amener ses programmes auto-immuns en clinique",
-      "url": "https://european-biotechnology.com/latest-news/arctic-therapeutics-raises-21-5m-to-take-autoimmune-programs-to-clinic/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Qiagen",
-      "title": "EQT et un consortium rachètent Qiagen (10,8 Md€ de valeur d'entreprise), 46,50 €/action en cash",
-      "url": "https://european-biotechnology.com/latest-news/qiagen-agrees-to-go-private-with-e10-8b-takeover-by-eqt/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Sensorion",
-      "title": "Sensorion nomme Peter Weber Chief Medical Officer au 2 novembre",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Orano Med",
-      "title": "Orano Med nomme Matthew Fyfe Chief Scientific Officer",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Maxion Therapeutics",
-      "title": "Mikael Dolsten, ex-CSO de Pfizer, rejoint le board de Maxion Therapeutics",
-      "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "Zymeworks",
-      "title": "Roche licencie ZW209 (T-cell engager trispécifique DLL3) à Zymeworks : 55 M$ upfront, jusqu'à 813 M$",
-      "url": "https://european-biotechnology.com/latest-news/roche-bets-up-to-813m-on-zymeworks-lung-cancer-candidate/"
-    },
-    {
-      "date": "2026-10-24",
-      "company": "PepStar Therapeutics",
-      "title": "Gilead s'offre l'inhibiteur oral du récepteur IL-23 de PepStar contre 1,3 Md$ upfront",
-      "url": "https://www.biospace.com/business/gilead-shops-in-il-23-inking-1-3b-upfront-i-i-deal-with-chinas-pepstar"
     }
   ]
 }

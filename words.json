@@ -1,6 +1,231 @@
 {
-  "generatedAt": "2026-11-07",
+  "generatedAt": "2026-11-08",
   "words": [
+    {
+      "term": "Telepharmacy",
+      "full": "Telepharmacy (pharmacie à distance)",
+      "fr": "Télépharmacie : un pharmacien supervise à distance, par vidéo, la délivrance de médicaments dans un lieu où il n'est pas présent, souvent via un automate.",
+      "field": "Santé numérique",
+      "definition": "La télépharmacie permet à un pharmacien d'examiner une demande, de conseiller le patient et d'autoriser la délivrance d'un médicament par liaison vidéo, sans être physiquement dans l'officine.",
+      "parts": [
+        {
+          "label": "Borne tactile + visio",
+          "role": "Le patient choisit son médicament sur un écran puis échange en vidéo avec un pharmacien diplômé."
+        },
+        {
+          "label": "Robot de stockage et de délivrance",
+          "role": "Un automate, dans une enceinte en acier sécurisée accessible au seul personnel autorisé, stocke et sort les boîtes."
+        },
+        {
+          "label": "Identité et validation",
+          "role": "L'identité est vérifiée (carte d'identité ou autre solution numérique) et le pharmacien autorise la délivrance."
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Choix et identification",
+          "t": "Le client sélectionne les médicaments sur un écran tactile ; son identité est vérifiée par carte d'identité ou autre solution numérique."
+        },
+        {
+          "n": "2",
+          "h": "Consultation vidéo",
+          "t": "Un pharmacien diplômé, à distance, examine la demande et autorise la délivrance."
+        },
+        {
+          "n": "3",
+          "h": "Délivrance robotisée",
+          "t": "Le robot, enfermé dans une enceinte sécurisée, récupère les boîtes et les remet au client, 24h/24 dans le cas du projet estonien."
+        }
+      ],
+      "why": "Angle VC : le régulateur ouvre un marché. L'Estonie a approuvé le 5 novembre 2026 un projet de loi (encore soumis au Parlement, application visée au 1er mars 2027) qui pourrait en faire le premier pays européen à permettre la délivrance à distance de médicaments sur ordonnance. Grab2Go se positionne en fournisseur de technologie (matériel et logiciel) pour les exploitants de pharmacies, avec un retour sur investissement visé de 2 à 3 ans pour l'exploitant ; le Canada, la Suède, la Norvège et l'Autriche seraient intéressés. Le moteur démographique est réel : selon l'étude d'impact citée, 53 % des pharmaciens et 43 % des préparateurs ont plus de 50 ans. Risques : adoption parlementaire, réplicabilité réglementaire pays par pays.",
+      "startups": [
+        {
+          "name": "Grab2Go",
+          "use": "Start-up estonienne qui fournit matériel et logiciel de pharmacie automatisée avec consultation vidéo d'un pharmacien ; six mois de pilote en Estonie sans panne de robot signalée, déploiement commercial visé en mars 2027.",
+          "place": "Estonie"
+        },
+        {
+          "name": "Pharmacierge",
+          "use": "Société britannique d'e-prescription privée (mPrescribe) exploitant à Londres une pharmacie robotisée avec un robot de dispensation multi-bras ; plus de 4 500 médecins utilisateurs en 2023. Adjacent à la télépharmacie (prescription et délivrance à distance), pas de la visio-pharmacien.",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Estonia approves 24/7 robotic pharmacies, paving the way for a European first",
+          "url": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/"
+        },
+        {
+          "publisher": "Retail Technology Innovation Hub",
+          "title": "‘A game-changer in the healthcare industry’: Grab2Go launches its first autonomous pharmacy unit in Estonia",
+          "url": "https://retailtechinnovationhub.com/home/2023/4/4/a-game-changer-in-the-healthcare-industry-grab2go-launches-its-first-autonomous-pharmacy-unit-in-estonia"
+        },
+        {
+          "publisher": "Clinical Services Journal",
+          "title": "30ft robot to power e-prescription service",
+          "url": "https://clinicalservicesjournal.com/story/42925/30ft-robot-to-power-e-prescription-service"
+        }
+      ],
+      "date": "2026-11-08",
+      "dateLong": "8 nov. 2026"
+    },
+    {
+      "term": "PRV",
+      "full": "Priority Review Voucher (bon d'examen prioritaire FDA)",
+      "fr": "Le PRV est un « coupon » que la FDA remet à une biotech dont le médicament pour une maladie pédiatrique rare vient d'être approuvé. Ce coupon accélère l'examen d'un autre dossier, et surtout il se revend : environ 190 M$ chez Egetis, début novembre 2026.",
+      "field": "Réglementaire & accès au marché",
+      "definition": "Un bon remis par la FDA à l'approbation d'un traitement pour maladie pédiatrique rare, qui donne droit à un examen prioritaire d'un autre produit et qui peut être vendu à un tiers.",
+      "parts": [
+        {
+          "label": "Déclencheur",
+          "role": "Approbation FDA d'un produit pour une maladie pédiatrique rare : le promoteur peut alors obtenir un bon (une désignation « maladie pédiatrique rare » peut être demandée en amont du dépôt)."
+        },
+        {
+          "label": "Le bon",
+          "role": "Un actif transférable : il peut être utilisé pour obtenir un examen prioritaire d'un autre produit, ou être vendu à un autre promoteur."
+        },
+        {
+          "label": "Le cadre légal",
+          "role": "Programme rétabli le 3 février 2026 par le Consolidated Appropriations Act 2026 ; la FDA ne pourra plus attribuer de bons après le 30 septembre 2029."
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Obtenir l'approbation",
+          "t": "La biotech fait approuver par la FDA un produit pour une maladie pédiatrique rare. Egetis a reçu son bon le 28 septembre 2026, avec l'approbation d'EMCITATE (tiratricol) dans le déficit en MCT8."
+        },
+        {
+          "n": "2",
+          "h": "Choisir : utiliser ou vendre",
+          "t": "Le bon accélère l'examen d'un autre produit. Une petite biotech sans autre dossier prêt à déposer le vend plutôt à un acquéreur, qui paie en cash."
+        },
+        {
+          "n": "3",
+          "h": "Encaisser sans dilution",
+          "t": "La vente est une cession d'actif sous réserve de conditions de clôture, dont l'expiration du délai antitrust américain Hart-Scott-Rodino. Les prix cités en 2026 vont de 180 à 210 M$. Chez Egetis, environ 50 % du net revient aux anciens propriétaires de RTTI (earn-out)."
+        }
+      ],
+      "why": "Pour un investisseur, c'est un rendement non dilutif attaché à un succès réglementaire. Une vente à 190 M$ finance plusieurs années de R&D sans émettre d'actions, et pèse sur la valorisation d'une petite biotech. Deux points à surveiller dans une due diligence : l'existence de clauses d'earn-out ou de redevances (Egetis reverse environ 50 % du net) et la fenêtre légale (la FDA ne délivrera plus de bons après le 30 septembre 2029). Autre limite : l'acheteur n'est pas toujours nommé.",
+      "startups": [
+        {
+          "name": "Egetis Therapeutics (Suède, cotée)",
+          "use": "Bon obtenu le 28 septembre 2026 avec l'approbation FDA d'EMCITATE ; accord de vente annoncé le 4 novembre 2026 pour 190 M$ bruts (environ 1,9 Md SEK), acheteur non nommé, soumis à l'expiration du délai HSR ; environ 50 % du net dû aux anciens propriétaires de RTTI.",
+          "place": "Indépendante à ce jour, mais ANI Pharmaceuticals a lancé une offre publique recommandée le 5 novembre 2026 (1,13 $ par action ; période d'acceptation prévue du 20 novembre au 18 décembre 2026) : elle n'est pas rachetée tant que l'offre n'est pas close."
+        },
+        {
+          "name": "Denali Therapeutics (États-Unis, cotée)",
+          "use": "Bon reçu après l'approbation FDA d'Avlayah (tividenofusp alfa) dans le syndrome de Hunter en mars 2026 ; vente annoncée le 18 juin 2026 pour 195 M$ bruts, acheteur non divulgué, produit destiné à financer le pipeline TransportVehicle.",
+          "place": "Hors Europe, car je n'ai pas pu vérifier de vente de bon par une biotech européenne autre qu'Egetis. Pas de rachat constaté dans mes recherches."
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Pharmaceutical Executive",
+          "title": "ANI Pharmaceuticals to Acquire Egetis Therapeutics, Egetis Sells Priority Review Voucher for $190 Million",
+          "url": "https://www.pharmexec.com/view/ani-acquire-egetis-therapeutics-sells-priority-review-voucher-190-million"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Egetis sells priority review voucher for USD 190 million",
+          "url": "https://nordiclifescience.org/egetis-sells-priority-review-voucher-for-usd-190-million/"
+        },
+        {
+          "publisher": "FDA",
+          "title": "Rare Pediatric Disease Designation and Priority Review Voucher Programs",
+          "url": "https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/rare-pediatric-disease-designation-and-priority-review-voucher-programs"
+        },
+        {
+          "publisher": "BioSpace (communiqué Denali)",
+          "title": "Denali Therapeutics Enters Agreement to Sell Rare Pediatric Disease Priority Review Voucher for $195 Million",
+          "url": "https://www.biospace.com/press-releases/denali-therapeutics-enters-agreement-to-sell-rare-pediatric-disease-priority-review-voucher-for-195-million"
+        }
+      ],
+      "date": "2026-11-08",
+      "dateLong": "8 nov. 2026"
+    },
+    {
+      "term": "Computational Pathology",
+      "full": "Computational Pathology (pathologie computationnelle)",
+      "fr": "Pathologie computationnelle : analyse par algorithmes d'apprentissage profond de lames de tissu numérisées pour assister le diagnostic et prédire des critères cliniques.",
+      "field": "Diagnostic & imagerie",
+      "definition": "On scanne la lame de biopsie en image géante, puis une IA la lit pour aider le pathologiste à repérer les cellules cancéreuses et à anticiper l'évolution ou la réponse au traitement.",
+      "parts": [
+        {
+          "label": "Lame numérisée (whole-slide image)",
+          "role": "La lame de tissu est scannée en une image de plusieurs milliards de pixels, matière première des algorithmes."
+        },
+        {
+          "label": "Apprentissage profond",
+          "role": "Les réseaux de neurones, composante algorithmique centrale de la plupart des systèmes, analysent l'image (par ex. via l'apprentissage multi-instances)."
+        },
+        {
+          "label": "Critère clinique prédit",
+          "role": "Le modèle produit une aide au diagnostic ou une prédiction de critère clinique, voire de nouveaux biomarqueurs morphologiques."
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Numériser",
+          "t": "Les lames de pathologie sont digitalisées en images haute résolution, ce qui rend l'analyse automatisable."
+        },
+        {
+          "n": "2",
+          "h": "Analyser par IA",
+          "t": "Des modèles d'apprentissage profond parcourent l'image entière pour détecter, compter ou classer des structures, comme des cellules tumorales."
+        },
+        {
+          "n": "3",
+          "h": "Assister le pathologiste",
+          "t": "Les résultats servent d'aide à la décision ; certains systèmes d'IA sont désormais approuvés pour assister le diagnostic clinique, mais des freins techniques à l'adoption demeurent."
+        }
+      ],
+      "why": "Angle VC : la numérisation des lames crée un goulot de données que l'IA peut monétiser, côté diagnostic comme côté pharma (aide au développement de médicaments). Le marché reste jeune : les tours européens récents sont modestes (1,5 M£ chez Octopath AI, 15,3 M$ chez Mindpeak) et la dette venture BEI chez Aiforia montre un financement en partie non dilutif. Risques : validation clinique et réglementaire longue, adoption lente, besoin de jeux de données larges et variés.",
+      "startups": [
+        {
+          "name": "Octopath AI",
+          "use": "Spin-out de l'UCL ; modèles de fondation Kraken et Nemo analysant des lames de routine à résolution cellulaire en moins de deux minutes, entraînés sur plus de 14 millions de cellules annotées sur 14 types de cancer ; seed + subvention de 1,5 M£ (dont 500 k£ Innovate UK) mené par TwinPath Ventures, déployé sur cinq sites dont UCLH.",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Mindpeak",
+          "use": "Logiciels d'IA pour pathologues (cancer du sein, PD-L1, etc.) ; Série A de 15,3 M$ annoncée le 2 octobre 2024, menée par ZEISS Ventures et IFB Innovationsstarter avec InnoVentureFonds, AI.FUND et le EIC Fund ; plus de 30 000 diagnostics soutenus ; aucune acquisition relevée.",
+          "place": "Hambourg, Allemagne"
+        },
+        {
+          "name": "Aiforia",
+          "use": "Logiciel d'IA par apprentissage profond pour la pathologie, cotée sur Nasdaq First North Helsinki ; dette venture de 20 M€ de la BEI (InvestEU), en trois tranches dont une première de 5 M€, annoncée le 31 juillet 2026.",
+          "place": "Helsinki, Finlande"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Dealroom.co",
+          "title": "UCL spinout Octopath AI raises £1.5M to speed up cancer pathology",
+          "url": "https://dealroom.co/news/168839-ucl-spinout-octopath-ai-raises-1-5m-to-speed-up-cancer-pathology/"
+        },
+        {
+          "publisher": "arXiv (Song et al.)",
+          "title": "Artificial Intelligence for Digital and Computational Pathology",
+          "url": "https://arxiv.org/abs/2401.06148"
+        },
+        {
+          "publisher": "Startup City Hamburg",
+          "title": "15.3 million US dollars for Mindpeak in series A funding",
+          "url": "https://startupcity.hamburg/news-events/news/153-million-us-dollars-for-mindpeak-in-series-a-funding"
+        },
+        {
+          "publisher": "Banque européenne d'investissement",
+          "title": "Aiforia lands EU financing to develop AI-powered cancer detection",
+          "url": "https://www.eib.org/en/press/all/2026-268-aiforia-lands-eu-financing-to-develop-ai-powered-cancer-detection"
+        }
+      ],
+      "date": "2026-11-08",
+      "dateLong": "8 nov. 2026"
+    },
     {
       "term": "Rehabilitation Exoskeleton",
       "full": "Rehabilitation Exoskeleton (exosquelette robotisé de rééducation)",

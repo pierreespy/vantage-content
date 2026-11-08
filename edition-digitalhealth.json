@@ -1,215 +1,141 @@
 {
-  "dateLong": "3 nov. 2026",
+  "dateLong": "8 nov. 2026",
   "ticker": [
     {
-      "company": "DOCTOLIB",
-      "amount": "NVIDIA",
+      "company": "RESILIENCE",
+      "amount": "€48M",
       "kind": "lev"
     },
     {
-      "company": "MAGIC VISION",
-      "amount": "€600K",
+      "company": "GRAB2GO",
+      "amount": "Loi pharmacie",
+      "kind": "reg"
+    },
+    {
+      "company": "NAYARA",
+      "amount": "Pre-seed",
       "kind": "lev"
     },
     {
-      "company": "NWL APG",
-      "amount": "Appel AVT",
+      "company": "ARKSTONE",
+      "amount": "Lancement IA",
       "kind": "tech"
-    },
-    {
-      "company": "LIGENCE",
-      "amount": "CE + 510(k)",
-      "kind": "reg"
-    },
-    {
-      "company": "ONC (HHS)",
-      "amount": "HTI-5",
-      "kind": "reg"
-    },
-    {
-      "company": "WRAPPED HEALTH",
-      "amount": "$2,1M",
-      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "Investissement stratégique · IA clinique",
-    "title": "NVIDIA investit au capital de Doctolib pour accélérer ses modèles d'IA de santé, avec une infrastructure européenne renforcée",
-    "deck": "Montant non divulgué : l'argent finance le recrutement de talents IA et le développement de modèles ouverts (open-weight), d'assistants d'aide à la décision clinique et d'un assistant de santé personnel dans l'app patient. Doctolib travaille avec plus de 40 000 généralistes en Europe et étend son infrastructure européenne dans les prochains mois.",
-    "company": "Doctolib",
-    "sector": "IA clinique",
+    "kicker": "Levée · Télésurveillance",
+    "title": "Resilience lève 48 M€ auprès de PSG Equity pour sortir de l'oncologie et accélérer à l'international",
+    "deck": "Le montant de 48 M€ vient de la presse française (une version de l'annonce évoque 40 M€) ; PSG Equity est seul investisseur. La plateforme de suivi à distance, développée avec Gustave-Roussy, suit 37 000 patients dans plus de 220 établissements et soutient plus de 20 études cliniques ; les fonds visent la psychiatrie, la gastro-entérologie, de nouveaux pays et d'éventuelles acquisitions.",
+    "company": "Resilience Care",
+    "sector": "Télésanté",
     "pillar": "financement",
     "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://htn.co.uk/2026/10/26/nvidia-invest-in-doctolib-healthcare-ai/"
+    "strength": 4,
+    "url": "https://startup.eu/investments/resilience-care-48-11-2026"
   },
   "milestone": {
-    "company": "North West London Acute Provider Group",
-    "milestone": "Marché AVT",
-    "title": "North West London : appel d'offres voix ambiante pour 2027-2030 et bascule de l'automatisation vers un programme d'IA",
-    "summary": "Le groupe prépare un contrat AVT de trois ans (1er avril 2027 – 31 mars 2030), a ouvert un dialogue fournisseurs, passe de la RPA à un programme IA plus large (dossier stratégique et note de gouvernance en préparation), et fait tourner une application de gestion des adressages et de planification des sorties de la Federated Data Platform sur ses quatre trusts.",
-    "why": "Un acheteur de quatre hôpitaux fixe calendrier et durée avant l'appel d'offres : une fenêtre claire pour les éditeurs de scribes IA, et la preuve que la FDP devient une couche applicative.",
-    "place": "Londres",
-    "sector": "Logiciel hospitalier",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/11/02/north-west-london-acute-provider-group-updates-on-digital-and-data-plan-for-2026-27/"
+    "company": "Grab2Go",
+    "milestone": "Cadre légal",
+    "title": "L'Estonie approuve un projet de loi autorisant les pharmacies robotisées 24/7 avec pharmacien en visio",
+    "summary": "Le gouvernement a validé le 5 novembre un amendement à la loi sur les médicaments : identification par ID numérique, consultation vidéo avec un pharmacien agréé et délivrance robotisée. Le texte doit encore passer au Parlement, pour une mise en œuvre visée au 1er mars 2027.",
+    "why": "Si le texte passe, ce serait la première autorisation européenne de délivrance de médicaments sur ordonnance sans pharmacien sur place ; la loi est technologiquement neutre, donc ouverte au-delà de Grab2Go, qui vise un déploiement commercial en mars 2027.",
+    "place": "Estonie",
+    "sector": "Télésanté",
+    "signalType": "regulatory_milestone",
+    "url": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/"
   },
   "brefsEurope": [
     {
-      "company": "Ligence",
-      "place": "Lituanie",
+      "company": "Nayara",
+      "place": "Royaume-Uni",
       "sector": "IA clinique",
-      "pillar": "innovation",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Ligence (Lituanie) : IA d'échographie cardiaque marquée CE, avec une seconde clearance FDA 510(k) en avril 2026",
-      "summary": "Son logiciel Ligence Heart s'intègre aux systèmes d'imagerie existants et ferait passer l'examen et son compte rendu d'environ 30 à 15 minutes ; la seconde clearance ajoute l'analyse automatisée de la déformation ventriculaire gauche. Le même dossier Tech.eu cite Checkpoint Care (Bulgarie), télésurveillance par wearables suivant plus de 95 000 patients aigus.",
-      "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
-    },
-    {
-      "company": "Magic Vision",
-      "place": "Italie",
-      "sector": "Santé connectée",
+      "stage": "Pre-seed",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 2,
-      "title": "Magic Vision lève 600 K€ (SixS, business angels) pour Silver Eye, sa surveillance des seniors par IA sans wearable",
-      "summary": "Capteurs et IA embarquée détectent chutes et changements de comportement sans stocker d'images ; plus de 200 capteurs installés chez des opérateurs italiens, objectif de suivre plus de 100 personnes d'ici fin 2026 avant un nouveau tour.",
-      "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
-    },
-    {
-      "company": "Clatterbridge Cancer Centre",
-      "place": "Merseyside",
-      "sector": "Logiciel hospitalier",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Clatterbridge : voix ambiante et Copilot en priorité, environnement de recherche de confiance pour croiser données cliniques, imagerie et moléculaires",
-      "summary": "Le déploiement de l'AVT dépend de la capacité clinique et des contrôles de sécurité ; le dossier patient partagé de Liverpool est classé « rouge » dans le cadre d'assurance du conseil, faute de décisions sur le périmètre.",
-      "url": "https://htn.co.uk/2026/11/02/clatterbridge-cancer-centre-on-digital-systems-investments-data-and-workforce-digital-learning/"
-    },
-    {
-      "company": "North West Radiotherapy Network",
-      "place": "Nord-Ouest de l'Angleterre",
-      "sector": "IA clinique",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Christie, Clatterbridge et Lancashire Teaching publient une stratégie radiothérapie à cinq ans centrée sur données et IA",
-      "summary": "Un groupe de travail définira des standards régionaux de données et un cadre d'évaluation de l'IA (sécurité clinique, qualité des données, suivi post-déploiement) ; ambition de devenir « vanguard national » de la radiothérapie pilotée par la donnée.",
-      "url": "https://htn.co.uk/2026/11/02/radiotherapy-research-strategy-for-the-north-west-sets-out-actions-for-data-ai-and-digital-systems/"
-    },
-    {
-      "company": "Welsh health boards (HTN survey)",
-      "place": "Pays de Galles",
-      "sector": "Logiciel hospitalier",
-      "pillar": "marche",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Pays de Galles : un quart seulement des organisations de santé sont majoritairement électroniques, selon une enquête HTN",
-      "summary": "Plus de la moitié préparent la sortie du papier, un tiers estime que les cliniciens perdent plus de dix heures par semaine au papier ; le Welsh Clinical Portal affiche près de 2 millions de documents consultés par mois. Enquête parrainée par Altera Digital Health.",
-      "url": "https://htn.co.uk/2026/10/27/insight-progress-to-electronic-patient-records-in-wales/"
+      "title": "Nayara boucle un pre-seed mené par SFC Capital pour ses compagnons IA de suivi patient",
+      "summary": "Montant non divulgué ; l'IA répond aux questions courantes des patients et alerte les équipes cliniques. Les fonds financent produit, validation clinique et expansion commerciale.",
+      "url": "https://tech.eu/2026/11/05/sfc-capital-backs-nayaras-ai-platform-for-patient-care/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "ONC (HHS)",
-      "place": "Washington",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Les États-Unis finalisent la règle HTI-5 : 14 critères de certification supprimés, accent mis sur les API FHIR",
-      "summary": "Les exigences de fiches modèle pour l'IA d'aide à la décision sont retirées ; la règle prévoit 1,55 Md$ d'économies de conformité et annonce des API FHIR en lecture/écriture comme priorité future.",
-      "url": "https://hitconsultant.net/2026/10/26/hhs-onc-finalizes-hti-5-deregulatory-rule-unleash-prosperity-health-it-certification/"
-    },
-    {
-      "company": "Wrapped Health",
-      "place": "Washington, DC",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Wrapped Health lève 2,1 M$ en pre-seed (Lightbank, Arteria Capital) pour relier recommandations cliniques et achats santé",
-      "summary": "Intégrée aux dossiers patients, la plateforme permet d'acheter les produits recommandés en utilisant FSA/HSA ; disponible via la marketplace athenahealth.",
-      "url": "https://www.prnewswire.com/news-releases/wrapped-health-raises-2-1m-to-connect-clinical-care-and-consumer-health-302923123.html"
+      "company": "Arkstone",
+      "place": "États-Unis",
+      "sector": "IA clinique",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 1,
+      "title": "Arkstone lance Arkstone Next, plateforme d'IA d'aide à la décision en maladies infectieuses",
+      "summary": "Pensée pour les structures sans spécialiste (cliniques rurales, soins de longue durée), elle guide choix, dose et durée des antibiotiques ; aucun statut réglementaire n'est mentionné.",
+      "url": "https://www.medicaldevice-network.com/news/arkstone-ai-platform-infectious-disease-guidance/"
     }
   ],
   "word": {
-    "term": "RPM",
-    "full": "Remote Patient Monitoring",
-    "fr": "Télésurveillance médicale à distance",
-    "field": "Télésurveillance",
-    "definition": "Des appareils portés ou installés au domicile du patient mesurent ses constantes et les transmettent à l'équipe soignante, qui réagit sans attendre une consultation.",
+    "term": "Telepharmacy",
+    "full": "Telepharmacy (pharmacie à distance)",
+    "fr": "Télépharmacie : un pharmacien supervise à distance, par vidéo, la délivrance de médicaments dans un lieu où il n'est pas présent, souvent via un automate.",
+    "field": "Santé numérique",
+    "definition": "La télépharmacie permet à un pharmacien d'examiner une demande, de conseiller le patient et d'autoriser la délivrance d'un médicament par liaison vidéo, sans être physiquement dans l'officine.",
     "parts": [
       {
-        "label": "Capteurs",
-        "role": "tension, poids, glycémie, oxymétrie"
+        "label": "Borne tactile + visio",
+        "role": "Le patient choisit son médicament sur un écran puis échange en vidéo avec un pharmacien diplômé."
       },
       {
-        "label": "Plateforme",
-        "role": "transmission et alertes"
+        "label": "Robot de stockage et de délivrance",
+        "role": "Un automate, dans une enceinte en acier sécurisée accessible au seul personnel autorisé, stocke et sort les boîtes."
       },
       {
-        "label": "Équipe soignante",
-        "role": "revue et décision"
+        "label": "Identité et validation",
+        "role": "L'identité est vérifiée (carte d'identité ou autre solution numérique) et le pharmacien autorise la délivrance."
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Mesure",
-        "t": "Le patient utilise l'appareil à domicile ; la mesure part par internet ou réseau mobile vers le cloud."
+        "h": "Choix et identification",
+        "t": "Le client sélectionne les médicaments sur un écran tactile ; son identité est vérifiée par carte d'identité ou autre solution numérique."
       },
       {
         "n": "2",
-        "h": "Tri",
-        "t": "La plateforme signale les écarts de constantes aux soignants."
+        "h": "Consultation vidéo",
+        "t": "Un pharmacien diplômé, à distance, examine la demande et autorise la délivrance."
       },
       {
         "n": "3",
-        "h": "Réponse",
-        "t": "Le soignant évalue les données et donne recommandations ou instructions, parfois après une sortie d'hôpital."
+        "h": "Délivrance robotisée",
+        "t": "Le robot, enfermé dans une enceinte sécurisée, récupère les boîtes et les remet au client, 24h/24 dans le cas du projet estonien."
       }
     ],
-    "why": "Angle VC : la télésurveillance libère des lits et suit les maladies chroniques hors les murs ; c'est un logiciel marqué dispositif médical (comme Hope Care), vendu aux systèmes de santé publics, avec des revenus récurrents.",
+    "why": "Angle VC : le régulateur ouvre un marché. L'Estonie a approuvé le 5 novembre 2026 un projet de loi (encore soumis au Parlement, application visée au 1er mars 2027) qui pourrait en faire le premier pays européen à permettre la délivrance à distance de médicaments sur ordonnance. Grab2Go se positionne en fournisseur de technologie (matériel et logiciel) pour les exploitants de pharmacies, avec un retour sur investissement visé de 2 à 3 ans pour l'exploitant ; le Canada, la Suède, la Norvège et l'Autriche seraient intéressés. Le moteur démographique est réel : selon l'étude d'impact citée, 53 % des pharmaciens et 43 % des préparateurs ont plus de 50 ans. Risques : adoption parlementaire, réplicabilité réglementaire pays par pays.",
     "startups": [
       {
-        "name": "Hope Care",
-        "use": "Logiciel dispositif médical de télésurveillance ; 6 M€ en Series A menés par Iberis Capital, utilisé par 15 unités locales de santé portugaises (~45 % des assurés du SNS).",
-        "place": "Portugal"
+        "name": "Grab2Go",
+        "use": "Start-up estonienne qui fournit matériel et logiciel de pharmacie automatisée avec consultation vidéo d'un pharmacien ; six mois de pilote en Estonie sans panne de robot signalée, déploiement commercial visé en mars 2027.",
+        "place": "Estonie"
       },
       {
-        "name": "Checkpoint Care",
-        "use": "Télésurveillance par wearables avec aide à la décision IA ; plus de 95 000 patients aigus suivis, 16,5 M de points de données par mois.",
-        "place": "Bulgarie"
-      },
-      {
-        "name": "Doccla",
-        "use": "Services de « virtual wards » pour le NHS ; Series B de 35 M£ menée par Lakestar (2024).",
-        "place": "Londres"
+        "name": "Pharmacierge",
+        "use": "Société britannique d'e-prescription privée (mPrescribe) exploitant à Londres une pharmacie robotisée avec un robot de dispensation multi-bras ; plus de 4 500 médecins utilisateurs en 2023. Adjacent à la télépharmacie (prescription et délivrance à distance), pas de la visio-pharmacien.",
+        "place": "Royaume-Uni"
       }
     ],
     "sources": [
       {
-        "publisher": "Prevounce",
-        "title": "Definition Explained: What is Remote Patient Monitoring (RPM)",
-        "url": "https://blog.prevounce.com/rpm-definition-what-is-remote-patient-monitoring"
-      },
-      {
-        "publisher": "Cuatrecasas",
-        "title": "Hope Care closes €6 million Series A funding round to accelerate European expansion",
-        "url": "https://www.cuatrecasas.com/en/global/art/hope-care-closes-eur6-million-series-a-funding-round-to-accelerate-european-expansion"
-      },
-      {
         "publisher": "Tech.eu",
-        "title": "Beyond the lab: eight European healthtech scaleups taking on medicine's biggest challenges",
-        "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
+        "title": "Estonia approves 24/7 robotic pharmacies, paving the way for a European first",
+        "url": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/"
       },
       {
-        "publisher": "UKTN",
-        "title": "Doccla virtual ward funding",
-        "url": "https://www.uktech.news/medtech/doccla-virtual-ward-funding-20240903"
+        "publisher": "Retail Technology Innovation Hub",
+        "title": "‘A game-changer in the healthcare industry’: Grab2Go launches its first autonomous pharmacy unit in Estonia",
+        "url": "https://retailtechinnovationhub.com/home/2023/4/4/a-game-changer-in-the-healthcare-industry-grab2go-launches-its-first-autonomous-pharmacy-unit-in-estonia"
+      },
+      {
+        "publisher": "Clinical Services Journal",
+        "title": "30ft robot to power e-prescription service",
+        "url": "https://clinicalservicesjournal.com/story/42925/30ft-robot-to-power-e-prescription-service"
       }
     ]
   }
