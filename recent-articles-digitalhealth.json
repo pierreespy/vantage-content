@@ -2,6 +2,78 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-11",
+      "company": "Hedepy",
+      "title": "Hedepy lève 4 M€ de dette auprès d'Orbit Capital pour consolider la santé mentale en ligne en Europe centrale",
+      "url": "https://tech.eu/2026/11/10/from-online-therapy-to-integrated-mental-healthcare-hedepy-secures-eur4m-for-european-growth/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "The Access Group",
+      "title": "South London and Maudsley attribue à The Access Group un contrat de DPI de 10 ans estimé à 11,9 M£",
+      "url": "https://htn.co.uk/2026/11/09/10-year-12m-epr-contract-awarded-by-south-london-and-maudsley/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Oura",
+      "title": "Oura · M&A",
+      "url": "https://hitconsultant.net/2026/11/10/oura-acquires-counsel-health-625-million-ai-primary-care-biometric-intelligence/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "TeleClinic",
+      "title": "TeleClinic, filiale de DocMorris, rachète la plateforme suisse de télémédecine Medi24 à Allianz Partners",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/switzerland-docmorris-unit-teleclinic-acquires-telemedicine-provider-medi24-from-allianz-partners/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Mayden",
+      "title": "Mayden (soutenu par G Square) rachète My Clinical Outcomes, plateforme de mesures rapportées par les patients",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-mayden-acquires-patient-reported-outcomes-platform-provider-my-clinical-outcomes/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Lyrebird Health",
+      "title": "Le Barnsley Hospital NHS FT attribue à Lyrebird Health un contrat de voix ambiante jusqu'en février 2028",
+      "url": "https://htn.co.uk/2026/11/09/barnsley-hospital-nhs-awards-ambient-voice-contract/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Digital Health and Care Wales",
+      "title": "Le Pays de Galles déploie un jeu de données national des urgences et automatise le reporting des délais ambulanciers",
+      "url": "https://htn.co.uk/2026/11/10/dhcw-shares-new-dataset-and-automation-to-improve-use-of-urgent-and-emergency-care-data/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "South East Coast Ambulance Service",
+      "title": "Projet PARA-AI : 83 % des ambulanciers de SECAmb utiliseraient l'IA en pratique clinique avec garde-fous",
+      "url": "https://htn.co.uk/2026/11/09/south-east-coast-ambulance-service-presents-findings-from-para-ai-project-exploring-attitudes-toward-ai-in-pre-hospital-care/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "dEEGtal Insights",
+      "title": "MEDICA 2026 : dEEGtal Insights, Precisia Care et RegCheck parmi les sept pousses suisses du Start-up Park",
+      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "XRHealth",
+      "title": "XRHealth rachète PursueCare et récupère RESET et RESET-O, les thérapeutiques numériques héritées de Pear",
+      "url": "https://hitconsultant.net/2026/11/09/xrhealth-acquires-pursuecare-virtual-addiction-treatment-reset-digital-therapeutics/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Zus Health",
+      "title": "Zus Health, fondé par l'ex-patron d'athenahealth Jonathan Bush, lève 33 M$ en Series B menée par Drive Capital",
+      "url": "https://hitconsultant.net/2026/11/10/zus-health-raises-33-million-series-b-connected-healthcare-ai-platform/"
+    },
+    {
+      "date": "2026-11-11",
+      "company": "Google Cloud",
+      "title": "Google Cloud lance en préversion Gemini for Healthcare, couche d'orchestration d'agents pour hôpitaux et assureurs",
+      "url": "https://hitconsultant.net/2026/11/10/google-cloud-launches-gemini-for-healthcare-agentic-orchestration-layer/"
+    },
+    {
       "date": "2026-11-08",
       "company": "Resilience Care",
       "title": "Resilience lève 48 M€ auprès de PSG Equity pour sortir de l'oncologie et accélérer à l'international",
@@ -114,24 +186,6 @@
       "company": "Emerald",
       "title": "Emerald (Londres) lève 1,4 M£, moitié Innovate UK, moitié capital-risque, pour sa plateforme de santé préventive à IA (annoncé le 20 oct.)",
       "url": "https://startuprise.co.uk/emerald-raises-e1-66-mn/"
-    },
-    {
-      "date": "2026-10-27",
-      "company": "Flok Health",
-      "title": "Berkshire Healthcare retient Flok Health pour un service numérique de triage et de prise en charge musculo-squelettique de 400 000 £",
-      "url": "https://htn.co.uk/2026/10/26/berkshire-healthcare-selects-digital-msk-service-supplier/"
-    },
-    {
-      "date": "2026-10-27",
-      "company": "King's College Hospital / Guy's and St Thomas'",
-      "title": "Deux grands hôpitaux londoniens chiffrent à 4,1 M£ les économies de leur dossier patient Epic grâce aux alertes anti-doublons",
-      "url": "https://htn.co.uk/2026/10/26/kings-college-hospital-and-guys-and-st-thomas-report-4-1-million-in-savings-from-epr/"
-    },
-    {
-      "date": "2026-10-27",
-      "company": "PharosAI",
-      "title": "PharosAI lance le projet DESTINY d'Innovate UK avec Barts Health et Guy's and St Thomas' pour créer des jumeaux numériques de tissus humains",
-      "url": "https://htn.co.uk/2026/10/20/barts-health-and-guys-and-st-thomas-funding-for-ai-digital-twins-of-human-tissue/"
     }
   ]
 }

@@ -1,142 +1,119 @@
 {
-  "dateLong": "Nov 8, 2026",
+  "dateLong": "Nov 11, 2026",
   "ticker": [
-    {
-      "company": "RESILIENCE",
-      "amount": "€48M",
-      "kind": "lev"
-    },
-    {
-      "company": "GRAB2GO",
-      "amount": "Pharmacy law",
-      "kind": "reg"
-    },
-    {
-      "company": "NAYARA",
-      "amount": "Pre-seed",
-      "kind": "lev"
-    },
-    {
-      "company": "ARKSTONE",
-      "amount": "AI launch",
-      "kind": "tech"
-    }
+    { "company": "HEDEPY", "amount": "€4M", "kind": "lev" },
+    { "company": "OURA", "amount": "$625M", "kind": "mna" },
+    { "company": "TELECLINIC", "amount": "Medi24", "kind": "mna" },
+    { "company": "ACCESS GROUP", "amount": "10-yr EPR", "kind": "tech" },
+    { "company": "LYREBIRD", "amount": "Ambient voice", "kind": "tech" },
+    { "company": "DEEGTAL", "amount": "MEDICA", "kind": "new" }
   ],
   "lead": {
-    "kicker": "Raise · Remote monitoring",
-    "title": "Resilience raises €48M from PSG Equity to move beyond oncology and expand abroad",
-    "deck": "The €48M figure comes from French press (one version of the announcement says €40M); PSG Equity is the sole investor. The remote-monitoring platform, developed with Gustave-Roussy, tracks 37,000 patients across more than 220 facilities and supports over 20 clinical studies; funds target psychiatry, gastroenterology, new countries and possible acquisitions.",
-    "company": "Resilience Care",
-    "sector": "Telehealth",
+    "kicker": "Funding · Mental health",
+    "title": "Hedepy raises €4M in debt from Orbit Capital to consolidate online mental healthcare in Central Europe",
+    "deck": "The Prague-based online psychotherapy platform (nearly 1,200 therapists, around 300,000 sessions a year, nine European countries, more than 300 corporate clients) has raised €4M in venture debt from Orbit Capital to fund acquisitions, physical clinics and a clinical arm including psychiatry. A non-dilutive consolidator play in Europe's highly fragmented mental health market, with Czech and Slovak health insurers as the next target.",
+    "company": "Hedepy",
+    "sector": "Mental health",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://startup.eu/investments/resilience-care-48-11-2026"
+    "url": "https://tech.eu/2026/11/10/from-online-therapy-to-integrated-mental-healthcare-hedepy-secures-eur4m-for-european-growth/"
   },
   "milestone": {
-    "company": "Grab2Go",
-    "milestone": "Legal framework",
-    "title": "Estonia approves a bill allowing 24/7 robotic pharmacies with a pharmacist on video",
-    "summary": "The government approved on November 5 an amendment to the medicines act: digital ID verification, video consultation with a licensed pharmacist and robotic dispensing. The bill still needs parliamentary approval, with implementation targeted for March 1, 2027.",
-    "why": "If passed, it would be Europe's first authorisation of prescription dispensing without an on-site pharmacist; the law is technology-neutral, so open beyond Grab2Go, which targets a commercial rollout in March 2027.",
-    "place": "Estonia",
-    "sector": "Telehealth",
-    "signalType": "regulatory_milestone",
-    "url": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/"
+    "company": "The Access Group",
+    "milestone": "EPR contract",
+    "title": "South London and Maudsley awards The Access Group a 10-year EPR contract estimated at £11.9M",
+    "summary": "The London mental health trust selected The Access Group's electronic patient record through the NHS LPP framework, for a contract running November 2026 to November 2036 with go-live in 2027. AI will be part of the EPR, which is also meant to underpin ambient voice technology.",
+    "why": "One of England's largest mental health trusts is committing for a decade: an EPR is becoming the entry ticket for AI tools (scribes, ambient voice) and a major outlet for vendors able to plug into it.",
+    "place": "London",
+    "sector": "Hospital software",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/11/09/10-year-12m-epr-contract-awarded-by-south-london-and-maudsley/"
+  },
+  "deal": {
+    "company": "Oura",
+    "amount": "$625M",
+    "round": "M&A",
+    "thesis": "Finland's Oura (around 6 million members, $533M in Q3 revenue, up 153%) is buying Counsel Health, an AI-native primary care practice with employed physicians, for cash. The ring stops being just a sensor: Counsel's AI will draw on weeks of biometric data to triage and advise, then hand off to a physician within minutes (prescriptions, labs, chronic care). Closing is expected before the end of 2026.",
+    "sector": "Wearables",
+    "url": "https://hitconsultant.net/2026/11/10/oura-acquires-counsel-health-625-million-ai-primary-care-biometric-intelligence/"
   },
   "brefsEurope": [
-    {
-      "company": "Nayara",
-      "place": "United Kingdom",
-      "sector": "Clinical AI",
-      "stage": "Pre-seed",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Nayara closes SFC Capital-led pre-seed for its AI patient companions",
-      "summary": "Amount undisclosed; the AI answers routine patient questions and flags concerns to clinical teams. Funds go to product, clinical validation and commercial expansion.",
-      "url": "https://tech.eu/2026/11/05/sfc-capital-backs-nayaras-ai-platform-for-patient-care/"
-    }
+    { "company": "TeleClinic", "place": "Munich / Switzerland", "sector": "Telehealth", "pillar": "financement",
+      "signalType": "acquisition", "strength": 5,
+      "title": "DocMorris unit TeleClinic acquires Swiss telemedicine platform Medi24 from Allianz Partners",
+      "summary": "Medi24 (around 250 doctors, nurses and service staff) provides contractually guaranteed first-line telemedical access to more than 4.6 million insured people, roughly half of Switzerland's insured population. Enterprise value is in the low double-digit CHF million range and closing is expected in December 2026: the first step in TeleClinic's international rollout.",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/switzerland-docmorris-unit-teleclinic-acquires-telemedicine-provider-medi24-from-allianz-partners/" },
+    { "company": "Mayden", "place": "United Kingdom", "sector": "Health data", "pillar": "financement",
+      "signalType": "acquisition", "strength": 5,
+      "title": "G Square-backed Mayden acquires My Clinical Outcomes, a patient-reported outcomes platform",
+      "summary": "Founded in 2011 by a former NHS doctor, My Clinical Outcomes automates the collection and analysis of PROMs and PREMs that patients complete at home; it counts more than 200 hospitals, 3,000 clinicians and 180,000 patients. Terms were not disclosed; Mayden keeps building its platform after acquiring Ireland's Wellola.",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-mayden-acquires-patient-reported-outcomes-platform-provider-my-clinical-outcomes/" },
+    { "company": "Lyrebird Health", "place": "Barnsley", "sector": "Clinical AI", "pillar": "marche",
+      "signalType": "early_partnership", "strength": 3,
+      "title": "Barnsley Hospital NHS FT awards Lyrebird Health an ambient voice contract running to February 2028",
+      "summary": "The contract covers ambient voice technology (AVT) licences in acute care from November 2026 to February 2028, following a pilot in outpatients and emergency care; funding arrangements allow further rollouts. Another trust win, just as Wales' DHCW abandoned its £10M AVT procurement for lack of compliant suppliers.",
+      "url": "https://htn.co.uk/2026/11/09/barnsley-hospital-nhs-awards-ambient-voice-contract/" },
+    { "company": "Digital Health and Care Wales", "place": "Wales", "sector": "Health data", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "Wales rolls out a national emergency care dataset and automates ambulance delay reporting",
+      "summary": "The Welsh Emergency Care Data Set, a mandated national standard, has been live at Aneurin Bevan since October 1 and should cover every health board by March 2027; a new cloud-first emergency care module replaces the legacy module of the Welsh PAS, starting in Powys. Ambulance handover delay data now flows automatically, seven days a week, into the national cloud platform.",
+      "url": "https://htn.co.uk/2026/11/10/dhcw-shares-new-dataset-and-automation-to-improve-use-of-urgent-and-emergency-care-data/" },
+    { "company": "South East Coast Ambulance Service", "place": "South East England", "sector": "Clinical AI", "pillar": "innovation",
+      "signalType": "conference_abstract", "strength": 1,
+      "title": "PARA-AI project: 83% of SECAmb paramedics would use AI in clinical practice with safeguards",
+      "summary": "A ten-month mixed-methods study (171 responses, 14 interviews): 96% want to keep the final decision, 92% want to help design the tools and 83% worry about over-reliance. The trust is also testing a wearable voice-operated device for electronic patient record documentation in the AT PACE project (50 participants in simulation).",
+      "url": "https://htn.co.uk/2026/11/09/south-east-coast-ambulance-service-presents-findings-from-para-ai-project-exploring-attitudes-toward-ai-in-pre-hospital-care/" },
+    { "company": "dEEGtal Insights", "place": "Switzerland", "sector": "Clinical AI", "pillar": "naissances",
+      "signalType": "conference_abstract", "strength": 1,
+      "title": "MEDICA 2026: dEEGtal Insights, Precisia Care and RegCheck among seven Swiss start-ups at the Start-up Park",
+      "summary": "At the Swiss pavilion of the Düsseldorf trade fair (November 16-19), three of the seven start-ups are pure software: dEEGtal Insights (AI that interprets EEG signals for epilepsy diagnosis), Precisia Care (predictive analytics on patient data) and RegCheck (AI compliance platform for manufacturers and certification bodies).",
+      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups" }
   ],
   "brefsIntl": [
-    {
-      "company": "Arkstone",
-      "place": "United States",
-      "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 1,
-      "title": "Arkstone launches Arkstone Next, an AI decision-support platform for infectious disease",
-      "summary": "Built for sites without specialists (rural clinics, long-term care), it guides antibiotic choice, dose and duration; no regulatory status is mentioned.",
-      "url": "https://www.medicaldevice-network.com/news/arkstone-ai-platform-infectious-disease-guidance/"
-    }
+    { "company": "XRHealth", "place": "United States", "sector": "DTx", "pillar": "financement",
+      "signalType": "acquisition", "strength": 5,
+      "title": "XRHealth acquires PursueCare and picks up RESET and RESET-O, the digital therapeutics inherited from Pear",
+      "summary": "The immersive virtual care platform acquires PursueCare's addiction telehealth clinics and its two FDA-authorized prescription digital therapeutics (substance use and opioid use disorders). Terms were not disclosed: Pear's flagship DTx assets change hands again, a sign of consolidation in the category.",
+      "url": "https://hitconsultant.net/2026/11/09/xrhealth-acquires-pursuecare-virtual-addiction-treatment-reset-digital-therapeutics/" },
+    { "company": "Zus Health", "place": "United States", "sector": "Health data", "pillar": "financement",
+      "signalType": "funding_round", "strength": 4, "stage": "Series B",
+      "title": "Zus Health, founded by former athenahealth chief Jonathan Bush, raises a $33M Series B led by Drive Capital",
+      "summary": "Sanofi Ventures, HealthX Ventures and Alumni Ventures join a16z, F-Prime and Maverick; total funding now exceeds $100M. Zus aggregates patient data from multiple sources into a unified record and uses AI to generate source-linked chart summaries for risk adjustment and quality measures.",
+      "url": "https://hitconsultant.net/2026/11/10/zus-health-raises-33-million-series-b-connected-healthcare-ai-platform/" },
+    { "company": "Google Cloud", "place": "United States", "sector": "Clinical AI", "pillar": "innovation",
+      "signalType": "early_partnership", "strength": 3,
+      "title": "Google Cloud previews Gemini for Healthcare, an agent orchestration layer for health systems and payers",
+      "summary": "Pre-configured skills (longitudinal chart synthesis, pre-visit chart prep, medical necessity review) and around 25 connectors, including Epic, Oracle Health, InterSystems, BMJ Digital Health and Suki. A US-only preview: hyperscalers are positioning themselves as the agentic layer above the EHR, with direct stakes for the European start-ups that plug into it.",
+      "url": "https://hitconsultant.net/2026/11/10/google-cloud-launches-gemini-for-healthcare-agentic-orchestration-layer/" }
   ],
   "word": {
-    "term": "Telepharmacy",
-    "full": "Telepharmacy",
-    "fr": "Telepharmacy: a pharmacist remotely supervises, by video, the dispensing of medicines at a site where they are not present, often via an automated unit.",
-    "field": "Digital health",
-    "definition": "Telepharmacy lets a pharmacist review a request, advise the patient and authorise dispensing of a medicine by video link, without being physically in the pharmacy.",
+    "term": "PROMs",
+    "full": "Patient-Reported Outcome Measures",
+    "fr": "Patient-reported outcome questionnaires",
+    "field": "Health data / quality of care",
+    "definition": "Standardised, validated questionnaires in which patients rate their own health, symptoms and quality of life before and after care, to measure what a treatment actually changed for them.",
     "parts": [
-      {
-        "label": "Touchscreen kiosk + video",
-        "role": "The patient picks a medicine on a screen then talks by video with a qualified pharmacist."
-      },
-      {
-        "label": "Storage and dispensing robot",
-        "role": "An automaton, inside a secure steel enclosure accessible only to authorised staff, stores and dispenses the boxes."
-      },
-      {
-        "label": "Identity and validation",
-        "role": "Identity is verified (ID card or other digital solution) and the pharmacist authorises dispensing."
-      }
+      { "label": "Validated questionnaire", "role": "the instrument (generic or disease-specific)" },
+      { "label": "Digital collection", "role": "the channel (tablet, smartphone, at home)" },
+      { "label": "Dashboard and alerts", "role": "the feedback loop to the care team and registries" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Choice and identification",
-        "t": "The customer selects medicines on a touchscreen; identity is verified by ID card or other digital solution."
-      },
-      {
-        "n": "2",
-        "h": "Video consultation",
-        "t": "A qualified remote pharmacist reviews the request and authorises dispensing."
-      },
-      {
-        "n": "3",
-        "h": "Robotic dispensing",
-        "t": "The robot, locked in a secure enclosure, retrieves the boxes and hands them to the customer, 24/7 in the Estonian project."
-      }
+      { "n": "1", "h": "Baseline", "t": "The patient fills in a generic quality-of-life questionnaire and a disease-specific one, on a hospital tablet or their own device." },
+      { "n": "2", "h": "Automated follow-up", "t": "The platform prompts the patient at set intervals after care; in oncology, weekly questionnaires can trigger an alert to the team when a significant symptom appears." },
+      { "n": "3", "h": "Use of the data", "t": "Scores are compared before and after treatment, across patients and across providers, and feed registries and national quality programmes." }
     ],
-    "why": "VC angle: the regulator is opening a market. Estonia approved a bill on November 5, 2026 (still before Parliament, application targeted for March 1, 2027) that could make it the first European country to allow remote dispensing of prescription medicines. Grab2Go positions itself as a technology provider (hardware and software) for pharmacy operators, with a targeted 2–3 year payback for the operator; Canada, Sweden, Norway and Austria are reportedly interested. The demographic driver is real: per the cited impact study, 53% of pharmacists and 43% of pharmacy technicians are over 50. Risks: parliamentary adoption, country-by-country regulatory replicability.",
+    "why": "PROMs are the measurement layer of value-based care: the NHS has collected them since 2009, Germany's Federal Joint Committee (G-BA) has recommended rolling them out in routine hip and knee replacement care, and in France oncology remote monitoring based on patient-reported symptoms is on the LATM list. Platforms that industrialise collection and EHR integration are becoming consolidation targets, as Mayden's acquisition of My Clinical Outcomes, reported on November 10, shows.",
     "startups": [
-      {
-        "name": "Grab2Go",
-        "use": "Estonian start-up supplying hardware and software for automated pharmacy with video consultation of a pharmacist; six-month pilot in Estonia with no robot malfunction reported, commercial rollout targeted for March 2027.",
-        "place": "Estonia"
-      },
-      {
-        "name": "Pharmacierge",
-        "use": "UK private e-prescription company (mPrescribe) running a robotic pharmacy in London with a multi-arm dispensing robot; over 4,500 doctor users in 2023. Adjacent to telepharmacy (remote prescribing and dispensing), not video-pharmacist.",
-        "place": "United Kingdom"
-      }
+      { "name": "Heartbeat Medical", "use": "CE-marked PROMs platform; won the hospital-wide rollout at Charité (up to 800,000 patients a year)", "place": "Berlin, Germany" },
+      { "name": "Amplitude Clinical Outcomes", "use": "Electronic PROMs collection for NHS hospitals and orthopaedic registries, with automated registry uploads", "place": "United Kingdom" },
+      { "name": "Resilience Care", "use": "Resilience PRO, a Class IIa software medical device for remote monitoring of symptoms reported by cancer patients, in the RC-102 randomised trial", "place": "Paris, France" }
     ],
     "sources": [
-      {
-        "publisher": "Tech.eu",
-        "title": "Estonia approves 24/7 robotic pharmacies, paving the way for a European first",
-        "url": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/"
-      },
-      {
-        "publisher": "Retail Technology Innovation Hub",
-        "title": "‘A game-changer in the healthcare industry’: Grab2Go launches its first autonomous pharmacy unit in Estonia",
-        "url": "https://retailtechinnovationhub.com/home/2023/4/4/a-game-changer-in-the-healthcare-industry-grab2go-launches-its-first-autonomous-pharmacy-unit-in-estonia"
-      },
-      {
-        "publisher": "Clinical Services Journal",
-        "title": "30ft robot to power e-prescription service",
-        "url": "https://clinicalservicesjournal.com/story/42925/30ft-robot-to-power-e-prescription-service"
-      }
+      { "publisher": "NHS England", "title": "Patient Reported Outcome Measures (PROMs) guide", "url": "https://www.england.nhs.uk/wp-content/uploads/2018/08/proms-guide-aug-18-v3.pdf" },
+      { "publisher": "Heartbeat Medical", "title": "Charité – University Hospital Berlin opts for full integration of patient-reported outcome measurements with Heartbeat Medical", "url": "https://heartbeat-med.com/resources/charite-berlin-opts-for-full-integration-of-proms-with-heartbeat-medical" },
+      { "publisher": "INAMI", "title": "Résumé demande Resilience PRO", "url": "https://www.inami.fgov.be/SiteCollectionDocuments/resume_demande_resilience_pro_samenvatting_aanvraag_resilience_pro.pdf" },
+      { "publisher": "Heartbeat Medical", "title": "PROMs in Routine Arthroplasty Care: Better Outcomes for Patients and up to 100 Million Euros in Cost Savings annually", "url": "https://heartbeat-med.com/resources/proms-in-routine-arthroplasty-care-better-outcomes-for-patients-and-up-to-100-million-euros-in-cost-savings-annually/" }
     ]
   }
 }

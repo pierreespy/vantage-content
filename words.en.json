@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-11",
   "words": [
     {
+      "term": "PROMs",
+      "full": "Patient-Reported Outcome Measures",
+      "fr": "Patient-reported outcome questionnaires",
+      "field": "Health data / quality of care",
+      "definition": "Standardised, validated questionnaires in which patients rate their own health, symptoms and quality of life before and after care, to measure what a treatment actually changed for them.",
+      "parts": [
+        {
+          "label": "Validated questionnaire",
+          "role": "the instrument (generic or disease-specific)"
+        },
+        {
+          "label": "Digital collection",
+          "role": "the channel (tablet, smartphone, at home)"
+        },
+        {
+          "label": "Dashboard and alerts",
+          "role": "the feedback loop to the care team and registries"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Baseline",
+          "t": "The patient fills in a generic quality-of-life questionnaire and a disease-specific one, on a hospital tablet or their own device."
+        },
+        {
+          "n": "2",
+          "h": "Automated follow-up",
+          "t": "The platform prompts the patient at set intervals after care; in oncology, weekly questionnaires can trigger an alert to the team when a significant symptom appears."
+        },
+        {
+          "n": "3",
+          "h": "Use of the data",
+          "t": "Scores are compared before and after treatment, across patients and across providers, and feed registries and national quality programmes."
+        }
+      ],
+      "why": "PROMs are the measurement layer of value-based care: the NHS has collected them since 2009, Germany's Federal Joint Committee (G-BA) has recommended rolling them out in routine hip and knee replacement care, and in France oncology remote monitoring based on patient-reported symptoms is on the LATM list. Platforms that industrialise collection and EHR integration are becoming consolidation targets, as Mayden's acquisition of My Clinical Outcomes, reported on November 10, shows.",
+      "startups": [
+        {
+          "name": "Heartbeat Medical",
+          "use": "CE-marked PROMs platform; won the hospital-wide rollout at Charité (up to 800,000 patients a year)",
+          "place": "Berlin, Germany"
+        },
+        {
+          "name": "Amplitude Clinical Outcomes",
+          "use": "Electronic PROMs collection for NHS hospitals and orthopaedic registries, with automated registry uploads",
+          "place": "United Kingdom"
+        },
+        {
+          "name": "Resilience Care",
+          "use": "Resilience PRO, a Class IIa software medical device for remote monitoring of symptoms reported by cancer patients, in the RC-102 randomised trial",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NHS England",
+          "title": "Patient Reported Outcome Measures (PROMs) guide",
+          "url": "https://www.england.nhs.uk/wp-content/uploads/2018/08/proms-guide-aug-18-v3.pdf"
+        },
+        {
+          "publisher": "Heartbeat Medical",
+          "title": "Charité – University Hospital Berlin opts for full integration of patient-reported outcome measurements with Heartbeat Medical",
+          "url": "https://heartbeat-med.com/resources/charite-berlin-opts-for-full-integration-of-proms-with-heartbeat-medical"
+        },
+        {
+          "publisher": "INAMI",
+          "title": "Résumé demande Resilience PRO",
+          "url": "https://www.inami.fgov.be/SiteCollectionDocuments/resume_demande_resilience_pro_samenvatting_aanvraag_resilience_pro.pdf"
+        },
+        {
+          "publisher": "Heartbeat Medical",
+          "title": "PROMs in Routine Arthroplasty Care: Better Outcomes for Patients and up to 100 Million Euros in Cost Savings annually",
+          "url": "https://heartbeat-med.com/resources/proms-in-routine-arthroplasty-care-better-outcomes-for-patients-and-up-to-100-million-euros-in-cost-savings-annually/"
+        }
+      ],
+      "date": "2026-11-11",
+      "dateLong": "Nov 11, 2026"
+    },
+    {
       "term": "LNP",
       "full": "Lipid Nanoparticle",
       "fr": "Lipid nanoparticle",

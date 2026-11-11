@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-11",
   "words": [
     {
+      "term": "PROMs",
+      "full": "Patient-Reported Outcome Measures (mesures des résultats rapportés par les patients)",
+      "fr": "Questionnaires de résultats rapportés par le patient",
+      "field": "Données de santé / qualité des soins",
+      "definition": "Des questionnaires standardisés et validés où le patient évalue lui-même sa santé, ses symptômes et sa qualité de vie, avant et après un soin, pour mesurer ce que le traitement a réellement changé pour lui.",
+      "parts": [
+        {
+          "label": "Questionnaire validé",
+          "role": "l'instrument (générique ou propre à une maladie)"
+        },
+        {
+          "label": "Collecte numérique",
+          "role": "le canal (tablette, smartphone, à domicile)"
+        },
+        {
+          "label": "Tableau de bord et alertes",
+          "role": "le retour vers l'équipe soignante et les registres"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mesure initiale",
+          "t": "Le patient remplit un questionnaire générique de qualité de vie et un questionnaire propre à sa pathologie, sur tablette à l'hôpital ou sur son propre appareil."
+        },
+        {
+          "n": "2",
+          "h": "Suivi automatisé",
+          "t": "La plateforme relance le patient à intervalles fixés après le soin ; en oncologie, des questionnaires hebdomadaires peuvent déclencher une alerte vers l'équipe en cas de symptôme important."
+        },
+        {
+          "n": "3",
+          "h": "Exploitation",
+          "t": "Les scores sont comparés avant et après le traitement, entre patients et entre établissements, et alimentent les registres et les programmes nationaux de qualité."
+        }
+      ],
+      "why": "Les PROMs sont la brique de mesure du soin fondé sur la valeur : le NHS les collecte depuis 2009, le G-BA allemand a recommandé leur généralisation aux prothèses de hanche et de genou, et en France, la télésurveillance oncologique fondée sur les symptômes rapportés figure sur la liste LATM. Les plateformes qui industrialisent la collecte et l'intégration aux DPI deviennent des cibles de consolidation, comme le montre le rachat de My Clinical Outcomes par Mayden, rapporté le 10 novembre.",
+      "startups": [
+        {
+          "name": "Heartbeat Medical",
+          "use": "Plateforme de PROMs marquée CE ; a remporté le déploiement à l'échelle de toute la Charité (jusqu'à 800 000 patients par an)",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Amplitude Clinical Outcomes",
+          "use": "Collecte électronique de PROMs pour les hôpitaux du NHS et les registres orthopédiques, avec envoi automatisé aux registres",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "Resilience Care",
+          "use": "Resilience PRO, dispositif médical logiciel (classe IIa) de télésurveillance des symptômes rapportés par les patients atteints de cancer, en essai randomisé RC-102",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NHS England",
+          "title": "Patient Reported Outcome Measures (PROMs) guide",
+          "url": "https://www.england.nhs.uk/wp-content/uploads/2018/08/proms-guide-aug-18-v3.pdf"
+        },
+        {
+          "publisher": "Heartbeat Medical",
+          "title": "Charité – University Hospital Berlin opts for full integration of patient-reported outcome measurements with Heartbeat Medical",
+          "url": "https://heartbeat-med.com/resources/charite-berlin-opts-for-full-integration-of-proms-with-heartbeat-medical"
+        },
+        {
+          "publisher": "INAMI",
+          "title": "Résumé demande Resilience PRO",
+          "url": "https://www.inami.fgov.be/SiteCollectionDocuments/resume_demande_resilience_pro_samenvatting_aanvraag_resilience_pro.pdf"
+        },
+        {
+          "publisher": "Heartbeat Medical",
+          "title": "PROMs in Routine Arthroplasty Care: Better Outcomes for Patients and up to 100 Million Euros in Cost Savings annually",
+          "url": "https://heartbeat-med.com/resources/proms-in-routine-arthroplasty-care-better-outcomes-for-patients-and-up-to-100-million-euros-in-cost-savings-annually/"
+        }
+      ],
+      "date": "2026-11-11",
+      "dateLong": "11 nov. 2026"
+    },
+    {
       "term": "LNP",
       "full": "Lipid Nanoparticle",
       "fr": "Nanoparticule lipidique",
