@@ -1,208 +1,121 @@
 {
-  "dateLong": "Nov 8, 2026",
+  "dateLong": "Nov 11, 2026",
   "ticker": [
-    {
-      "company": "T-THERAPEUTICS",
-      "amount": "$133M",
-      "kind": "lev"
-    },
-    {
-      "company": "ALETHIO",
-      "amount": "$90M",
-      "kind": "lev"
-    },
-    {
-      "company": "EGETIS",
-      "amount": "SEK 5.3B bid",
-      "kind": "mna"
-    },
-    {
-      "company": "LYTIX",
-      "amount": "Ph2 ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "ABERA",
-      "amount": "Ph1 trial",
-      "kind": "reg"
-    },
-    {
-      "company": "CAMURUS",
-      "amount": "1st patient",
-      "kind": "tech"
-    }
+    { "company": "SRTD", "amount": "€31.5M", "kind": "lev" },
+    { "company": "OYSTER", "amount": "$60M", "kind": "lev" },
+    { "company": "ARGENX", "amount": "$1.15B", "kind": "mna" },
+    { "company": "ONCOPEPTIDES", "amount": "Label expansion", "kind": "reg" },
+    { "company": "VALNEVA", "amount": "Ph2 ✓", "kind": "tech" },
+    { "company": "ONCOVITA", "amount": "EU Orphan", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Series B · TCR bispecifics",
-    "title": "Cambridge's T-Therapeutics raises $133M Series B to take two TCR-CD3 bispecifics into the clinic",
-    "deck": "The round is co-led by Advent Life Sciences and the British Business Bank, with JJDC (J&J Innovation), Samsara BioCapital, M Ventures and Eli Lilly joining; Sofinnova, Sanofi Ventures and Tencent follow on. Proceeds will bring two programmes — solid tumours and autoimmunity — from the OpTiMus fully human TCR platform into trials.",
-    "company": "T-Therapeutics",
-    "stage": "Series B",
-    "sector": "Oncology",
+    "kicker": "Seed · Targeted RNA",
+    "title": "SRTD (Jülich) raises a €31.5M seed led by Mérieux Equity Partners for RNA that switches on only in diseased cells",
+    "deck": "Mérieux Equity Partners leads the round with the Boehringer Ingelheim Venture Fund as co-lead, alongside NRW.BANK (€7M), Lilly Ventures, High-Tech Gründerfonds and the Anobis family office. Built on research from Forschungszentrum Jülich, the company pairs a \"selectively expressed\" RNA (seRNA), which stays inactive until it meets a disease-specific RNA marker, with in-house fusogenic lipid nanoparticles, and will use the money to ready its cancer, autoimmune and fibrosis programs for the clinic.",
+    "company": "SRTD Biotech",
+    "stage": "Seed",
+    "sector": "RNA",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://startup.eu/investments/t-therapeutics-133-m-series-b-11-2026"
+    "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/"
   },
   "milestone": {
-    "company": "Lytix Biopharma",
-    "milestone": "Phase II ✓",
-    "title": "Lytix: Phase II NeoLIPA study meets its primary endpoint in resectable melanoma",
-    "summary": "The Norwegian company says NeoLIPA met its primary pathological complete response endpoint (November 2 release; detailed figures not reviewed).",
-    "why": "A Phase II primary endpoint met is the kind of catalyst that precedes a partnership or a raise; the detailed data remain to be examined.",
-    "place": "Oslo",
+    "company": "Oncopeptides",
+    "milestone": "EU label expansion",
+    "title": "European Commission clears Pepaxti (melflufen) from third line in multiple myeloma",
+    "summary": "Under the November 9 decision, Pepaxti is now indicated in adults after at least two prior lines whose disease is refractory to lenalidomide and to the last line, with no triple-class-refractory requirement. The decision confirms September's positive CHMP opinion, based on the Phase 3 OCEAN trial.",
+    "why": "Oncopeptides estimates the eligible patient pool in Europe roughly doubles; a German access dossier follows within about a month and the company targets positive cash flow in 2027 — a textbook case of a small biotech widening its label to reach profitability.",
+    "place": "Stockholm",
     "sector": "Oncology",
-    "signalType": "clinical_update",
-    "url": "https://nordiclifescience.org/lytix-melanoma-study-meets-primary-endpoint/"
+    "signalType": "regulatory_milestone",
+    "url": "https://nordiclifescience.org/eu-approves-earlier-use-of-oncopeptides-pepaxti/"
   },
   "deal": {
-    "company": "Alethio Therapeutics",
-    "amount": "$90M",
+    "company": "Oyster Therapeutics",
+    "amount": "$60M",
     "round": "Series A",
-    "thesis": "Oxford spin-out (Adam Mead, Beth Psaila) built around ATX-011, an anti-G6B monoclonal antibody for essential thrombocythaemia; round co-led by Sofinnova Partners and RA Capital, with Oxford Science Enterprises, Cancer Research Horizons and the University of Oxford, to advance into Phase 1/2a.",
-    "sector": "Oncology",
-    "url": "https://startup.eu/investments/alethio-therapeutics-90-m-series-a-11-2026"
+    "thesis": "London's former Kesmalea rebrands and raises $60M led by 4BIO Capital, with Eli Lilly, CE Ventures, Actium Group and TOHO Ventures joining Syncona and Oxford Science Enterprises. The thesis: its SELFTAC platform gets two small halves into the cell that reassemble into a bifunctional degrader, aiming at an oral, brain-penetrant tau degrader for Alzheimer's — targeted protein degradation applied to the CNS, where the size of classic PROTACs is a roadblock.",
+    "sector": "Neuroscience",
+    "url": "https://european-biotechnology.com/latest-news/oyster-therapeutics-raises-60m-to-bring-alzheimers-tau-degrader-to-clinic/"
   },
   "brefsEurope": [
-    {
-      "company": "Egetis Therapeutics",
-      "place": "Stockholm",
-      "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "ANI Pharmaceuticals bids SEK 5.3B in cash for Egetis, backed by the board",
-      "summary": "The offer follows Egetis' $190M sale of its rare pediatric priority review voucher (PRV) a day earlier — a useful comparable on PRV value.",
-      "url": "https://nordiclifescience.org/ani-pharmaceuticals-bids-sek-5-3-billion-for-egetis/"
-    },
-    {
-      "company": "Abera Bioscience",
-      "place": "Europe",
-      "sector": "Vaccines",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Abera Bioscience cleared by Dutch authorities for a Phase I trial of its nasal pneumococcal vaccine",
-      "summary": "First-in-human trial of a nasally administered pneumococcal vaccine candidate.",
-      "url": "https://nordiclifescience.org/abera-cleared-for-first-in-human-trial/"
-    },
-    {
-      "company": "Idorsia",
-      "place": "Allschwil",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Idorsia starts pivotal Phase 3 FAB-KLEAR (lucerastat, Fabry) and receives CHF 7M from Nxera",
-      "summary": "Nxera Pharma, which holds rights in Japan and parts of Asia Pacific excluding China, pays CHF 7M on exercising an existing option; Idorsia stays eligible for royalties.",
-      "url": "https://www.startupticker.ch/en/news/biotech-collaborations-to-accelerate-clinical-progress"
-    },
-    {
-      "company": "Camurus",
-      "place": "Lund",
-      "sector": "Biotech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Camurus doses first patient in Phase IIb study of its monthly semaglutide depot in obesity",
-      "summary": "Placebo-controlled study of the long-acting semaglutide depot, given once a month.",
-      "url": "https://nordiclifescience.org/camurus-starts-phase-iib-obesity-study/"
-    },
-    {
-      "company": "Alentis Therapeutics",
-      "place": "Basel",
-      "sector": "Oncology",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Alentis signs research deal with PinotBio on next-generation claudin-1 ADCs",
-      "summary": "Alentis gets an exclusive option to in-license PinotBio's linkers and/or payloads; upfront undisclosed, plus milestones and royalties.",
-      "url": "https://www.startupticker.ch/en/news/biotech-collaborations-to-accelerate-clinical-progress"
-    },
-    {
-      "company": "Vitroscope",
-      "place": "Trondheim",
-      "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Vitroscope raises $7M seed to scale up its live-tissue platform",
-      "summary": "The round combines seed capital with non-dilutive Norwegian research funding.",
-      "url": "https://nordiclifescience.org/vitroscope-raises-usd-7-million-to-scale-up-live-tissue-platform/"
-    }
+    { "company": "Neobe Therapeutics", "place": "Stevenage", "sector": "Oncology", "pillar": "financement",
+      "signalType": "funding_round", "strength": 3,
+      "title": "Neobe raises a $6.8M seed led by ARC Ventures for bacteria that open up the matrix of solid tumors",
+      "summary": "Faber, Macmillan Ventures, Proven Connect and Empirical Ventures join; the NEO22 program (hyaluronidase-producing bacteria) is set to reach an IND filing in 2028.",
+      "url": "https://www.biospace.com/press-releases/neobe-raises-6-8-million-to-break-down-the-barriers-that-stop-cancer-treatments-from-working" },
+    { "company": "argenx", "place": "Ghent", "sector": "Immunology", "pillar": "financement",
+      "signalType": "acquisition", "strength": 5,
+      "title": "argenx buys its macrocyclic-peptide partner Unnatural Products for up to $1.15B",
+      "summary": "$550M in cash upfront and up to $595M in milestones; the target already works with argenx on an oral FcRn inhibitor, a possible alternative to injectable Vyvgart. Comparable: the premium paid for an oral modality in autoimmunity.",
+      "url": "https://european-biotechnology.com/latest-news/argenx-buys-macrocycle-partner-unnatural-products-for-up-to-1-15-billion/" },
+    { "company": "Valneva", "place": "Saint-Herblain", "sector": "Vaccines", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 4,
+      "title": "Valneva: two positive Phase 2 trials for S4V2, a tetravalent bioconjugate Shigella vaccine",
+      "summary": "Antibody responses against all four serotypes in 110 Kenyan infants; the adult controlled human infection trial met its primary endpoint against S. sonnei. No Shigella vaccine is licensed.",
+      "url": "https://valneva.com/press-release/valneva-announces-positive-phase-2-results-for-tetravalent-shigella-vaccine-candidate-s4v2/" },
+    { "company": "Immunocore", "place": "Oxford", "sector": "Oncology", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "Immunocore: 70% estimated two-year survival pairing brenetafusp with Kimmtrak in metastatic uveal melanoma",
+      "summary": "Phase 1/2 cohort (17 evaluable first-line patients, versus 45% for Kimmtrak alone in Phase 3, a non-randomized comparison); a randomized Phase 2/3 trial, DUET-UVEAL, is planned.",
+      "url": "https://european-biotechnology.com/latest-news/immunocore-doubles-up-on-t-cell-engagers-in-eye-cancer/" },
+    { "company": "Mendus", "place": "Stockholm", "sector": "Cell therapy", "pillar": "innovation",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "Mendus and NorthX Biologics to manufacture donor-derived \"memory\" NK cells, with Vinnova backing",
+      "summary": "A SEK 977,300 grant to set up manufacturing of these cells, being evaluated in AML patients after stem cell transplantation; a project separate from lead candidate vididencel.",
+      "url": "https://nordiclifescience.org/mendus-and-northx-to-make-memory-nk-cells/" },
+    { "company": "Oncovita", "place": "Paris", "sector": "Oncology", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Institut Pasteur spin-off Oncovita wins EU orphan designation for MVdeltaC in mesothelioma",
+      "summary": "An oncolytic virus derived from the Schwarz measles vaccine strain (Measovir platform); already an orphan drug in the US, it is preclinical, with a first trial targeted for late 2027.",
+      "url": "https://biospace.com/press-releases/oncovita-granted-orphan-drug-designation-for-mvdeltac-in-mesothelioma-by-the-european-commission" },
+    { "company": "TECregen", "place": "Basel", "sector": "Immunology", "pillar": "marche",
+      "signalType": "leadership_hire", "strength": 3,
+      "title": "TECregen names Elisabeth Svanberg CMO and adds Thomas Hanke (CARMA FUND) to its board",
+      "summary": "The thymus-regeneration company is advancing TEC001, an engineered KGF for uremia-associated immunodeficiency; Svanberg was Chief Development Officer at Ixaltis and sits on the boards of Galapagos and LEO Pharma.",
+      "url": "https://www.biospace.com/press-releases/tecregen-strengthens-management-team-and-board-to-advance-thymus-regeneration-and-lead-program-tec001" },
+    { "company": "Vale Biolabs", "place": "Schlieren", "sector": "AI drug discovery", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 3,
+      "title": "Vale Biolabs wins CHF 150,000 from Venture Kick to predict brain-drug failures on organoids",
+      "summary": "The Zurich-area startup measures how standardized human brain organoids respond to drugs and turns the data into predictive AI models (neurodegeneration, brain aging).",
+      "url": "https://startupticker.ch/en/news/vale-biolabs-s-predictive-ai-models-to-support-r-d-in-brain-disorders" }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    { "company": "Beam Therapeutics", "place": "Cambridge (MA)", "sector": "Gene therapy", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 4,
+      "title": "Beam hits the primary endpoint of pivotal BEACON and readies the first BLA for a base-editing therapy",
+      "summary": "risto-cel (formerly BEAM-101) eliminated severe vaso-occlusive crises for at least 12 months in sickle cell disease; filing targeted as early as year-end 2026, a regulatory precedent for all of European gene editing.",
+      "url": "https://www.biospace.com/drug-development/beam-preps-fda-run-for-industry-first-base-edited-therapy-after-pivotal-sickle-cell-success" }
+  ],
   "word": {
-    "term": "PRV",
-    "full": "Priority Review Voucher (FDA)",
-    "fr": "The PRV is a “coupon” the FDA gives a biotech whose rare pediatric disease drug has just been approved. It speeds up review of another filing and, above all, can be resold: about $190M at Egetis in early November 2026.",
-    "field": "Regulatory & market access",
-    "definition": "A voucher granted by the FDA on approval of a rare pediatric disease treatment, entitling the holder to priority review of another product and which can be sold to a third party.",
+    "term": "LNP",
+    "full": "Lipid Nanoparticle",
+    "fr": "Lipid nanoparticle",
+    "field": "RNA drug delivery",
+    "definition": "A tiny bubble of fats that wraps a fragile RNA, protects it in the bloodstream and carries it into cells, as in the Covid mRNA vaccines.",
     "parts": [
-      {
-        "label": "Trigger",
-        "role": "FDA approval of a product for a rare pediatric disease: the sponsor can then obtain a voucher (a “rare pediatric disease” designation can be requested before filing)."
-      },
-      {
-        "label": "The voucher",
-        "role": "A transferable asset: it can be used to obtain priority review of another product, or be sold to another sponsor."
-      },
-      {
-        "label": "Legal framework",
-        "role": "Programme reinstated on February 3, 2026 by the Consolidated Appropriations Act 2026; the FDA can no longer award vouchers after September 30, 2029."
-      }
+      { "label": "Ionizable lipid", "role": "the engine: it binds the RNA during manufacturing and turns positive in the acidic endosome, releasing the cargo" },
+      { "label": "Helper lipids (DSPC, cholesterol)", "role": "the frame: shape, stability and membrane fusion" },
+      { "label": "PEG-lipid", "role": "the coat: prevents aggregation, but slows cell entry if there is too much" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Get approved",
-        "t": "The biotech gets an FDA approval for a rare pediatric disease product. Egetis received its voucher on September 28, 2026 with the approval of EMCITATE (tiratricol) in MCT8 deficiency."
-      },
-      {
-        "n": "2",
-        "h": "Choose: use or sell",
-        "t": "The voucher speeds up review of another product. A small biotech with no other filing ready sells it to a buyer who pays cash."
-      },
-      {
-        "n": "3",
-        "h": "Cash in without dilution",
-        "t": "The sale is an asset transfer subject to closing conditions, including expiry of the US Hart-Scott-Rodino antitrust waiting period. Prices cited in 2026 range from $180M to $210M. At Egetis, about 50% of the net goes to RTTI's former owners (earn-out)."
-      }
+      { "n": "1", "h": "Packaging", "t": "The RNA and the four lipids are mixed at acidic pH: the positively charged ionizable lipid captures the negatively charged RNA and the particle closes up." },
+      { "n": "2", "h": "Travel", "t": "Injected into the blood, the particle picks up apolipoprotein E and is taken up mainly by the liver via the LDL receptor; reaching another organ requires changing the formulation or the route (nasal, inhaled)." },
+      { "n": "3", "h": "Escape", "t": "In the acidifying endosome, the ionizable lipid becomes protonated and destabilizes the membrane; only a small fraction of the RNA, often cited as under 5%, escapes into the cytoplasm, where it is translated." }
     ],
-    "why": "For an investor it is non-dilutive return attached to a regulatory success. A $190M sale funds several years of R&D without issuing shares and weighs on a small biotech's valuation. Two due-diligence points: earn-out or royalty clauses (Egetis passes on about 50% of the net) and the legal window (the FDA will issue no more vouchers after September 30, 2029). Another limit: the buyer is not always named.",
+    "why": "LNPs are clinically validated (Onpattro, Comirnaty, Spikevax) but end up in the liver by default: value is shifting to formulations that target other tissues (lung, tumor, immune system). For a VC, a proprietary delivery platform is often an RNA biotech's most defensible asset — SRTD's €31.5M raise, built on in-house fusogenic LNPs, makes the point. Due-diligence watch item: intellectual property on the ionizable lipid.",
     "startups": [
-      {
-        "name": "Egetis Therapeutics (Suède, cotée)",
-        "use": "Voucher obtained September 28, 2026 with FDA approval of EMCITATE; sale agreement announced November 4, 2026 for $190M gross (about SEK 1.9B), buyer unnamed, subject to HSR waiting-period expiry; about 50% of net owed to RTTI's former owners.",
-        "place": "Independent to date, but ANI Pharmaceuticals launched a recommended public offer on November 5, 2026 ($1.13 per share; acceptance period planned November 20 to December 18, 2026): not acquired until the offer closes."
-      },
-      {
-        "name": "Denali Therapeutics (États-Unis, cotée)",
-        "use": "Voucher received after FDA approval of Avlayah (tividenofusp alfa) in Hunter syndrome in March 2026; sale announced June 18, 2026 for $195M gross, buyer undisclosed, to fund the TransportVehicle pipeline.",
-        "place": "Outside Europe, as no sale by another European biotech could be verified. No acquisition found in searches."
-      }
+      { "name": "SRTD Biotech", "use": "Pairs its selectively expressed RNAs (seRNA) with proprietary fusogenic LNPs for organ-specific distribution; €31.5M seed led by Mérieux Equity Partners in November 2026.", "place": "Jülich, Germany" },
+      { "name": "Ethris", "use": "Lipidoid-based SNaP LNP platform for local airway delivery; its nasal mRNA ETH47 (interferon lambda) has completed a Phase 2a rhinovirus challenge study.", "place": "Munich, Germany" },
+      { "name": "NanoZymeX", "use": "University of Basel spin-off encapsulating enzymes in LNPs for enzyme replacement therapy (Pompe); CHF 150,000 from Venture Kick in March 2026.", "place": "Basel, Switzerland" },
+      { "name": "ReCode Therapeutics", "use": "SORT (Selective Organ Targeting) platform for inhaled mRNAs; first proof of activity in a Phase 1b trial in primary ciliary dyskinesia (May 2026).", "place": "Menlo Park, USA" }
     ],
     "sources": [
-      {
-        "publisher": "Pharmaceutical Executive",
-        "title": "ANI Pharmaceuticals to Acquire Egetis Therapeutics, Egetis Sells Priority Review Voucher for $190 Million",
-        "url": "https://www.pharmexec.com/view/ani-acquire-egetis-therapeutics-sells-priority-review-voucher-190-million"
-      },
-      {
-        "publisher": "Nordic Life Science",
-        "title": "Egetis sells priority review voucher for USD 190 million",
-        "url": "https://nordiclifescience.org/egetis-sells-priority-review-voucher-for-usd-190-million/"
-      },
-      {
-        "publisher": "FDA",
-        "title": "Rare Pediatric Disease Designation and Priority Review Voucher Programs",
-        "url": "https://www.fda.gov/industry/medical-products-rare-diseases-and-conditions/rare-pediatric-disease-designation-and-priority-review-voucher-programs"
-      },
-      {
-        "publisher": "BioSpace (communiqué Denali)",
-        "title": "Denali Therapeutics Enters Agreement to Sell Rare Pediatric Disease Priority Review Voucher for $195 Million",
-        "url": "https://www.biospace.com/press-releases/denali-therapeutics-enters-agreement-to-sell-rare-pediatric-disease-priority-review-voucher-for-195-million"
-      }
+      { "publisher": "Advanced Drug Delivery Reviews (PMC)", "title": "The role of lipid components in lipid nanoparticles for vaccines and gene therapy", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9250827" },
+      { "publisher": "European Biotechnology Magazine", "title": "SRTD raises €31.5M seed round to develop cell-selective RNA therapies", "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/" },
+      { "publisher": "BioSpace (communiqué Ethris)", "title": "Ethris Presents Positive Topline Phase 1 Data with mRNA Lead Candidate ETH47 for Uncontrolled Asthma", "url": "https://www.biospace.com/press-releases/ethris-presents-positive-topline-phase-1-data-with-mrna-lead-candidate-eth47-for-uncontrolled-asthma" },
+      { "publisher": "Tech.eu", "title": "NanoZymeX secures €160K to advance lipid nanoparticle enzyme therapies for rare diseases", "url": "https://tech.eu/2026/03/24/nanozymex-secures-venture-kick-backing-to-advance-lipid-nanoparticle-enzyme-therapies-for-rare-diseases/" }
     ]
   }
 }

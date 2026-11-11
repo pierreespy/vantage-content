@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-11",
   "words": [
     {
+      "term": "LNP",
+      "full": "Lipid Nanoparticle",
+      "fr": "Lipid nanoparticle",
+      "field": "RNA drug delivery",
+      "definition": "A tiny bubble of fats that wraps a fragile RNA, protects it in the bloodstream and carries it into cells, as in the Covid mRNA vaccines.",
+      "parts": [
+        {
+          "label": "Ionizable lipid",
+          "role": "the engine: it binds the RNA during manufacturing and turns positive in the acidic endosome, releasing the cargo"
+        },
+        {
+          "label": "Helper lipids (DSPC, cholesterol)",
+          "role": "the frame: shape, stability and membrane fusion"
+        },
+        {
+          "label": "PEG-lipid",
+          "role": "the coat: prevents aggregation, but slows cell entry if there is too much"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Packaging",
+          "t": "The RNA and the four lipids are mixed at acidic pH: the positively charged ionizable lipid captures the negatively charged RNA and the particle closes up."
+        },
+        {
+          "n": "2",
+          "h": "Travel",
+          "t": "Injected into the blood, the particle picks up apolipoprotein E and is taken up mainly by the liver via the LDL receptor; reaching another organ requires changing the formulation or the route (nasal, inhaled)."
+        },
+        {
+          "n": "3",
+          "h": "Escape",
+          "t": "In the acidifying endosome, the ionizable lipid becomes protonated and destabilizes the membrane; only a small fraction of the RNA, often cited as under 5%, escapes into the cytoplasm, where it is translated."
+        }
+      ],
+      "why": "LNPs are clinically validated (Onpattro, Comirnaty, Spikevax) but end up in the liver by default: value is shifting to formulations that target other tissues (lung, tumor, immune system). For a VC, a proprietary delivery platform is often an RNA biotech's most defensible asset — SRTD's €31.5M raise, built on in-house fusogenic LNPs, makes the point. Due-diligence watch item: intellectual property on the ionizable lipid.",
+      "startups": [
+        {
+          "name": "SRTD Biotech",
+          "use": "Pairs its selectively expressed RNAs (seRNA) with proprietary fusogenic LNPs for organ-specific distribution; €31.5M seed led by Mérieux Equity Partners in November 2026.",
+          "place": "Jülich, Germany"
+        },
+        {
+          "name": "Ethris",
+          "use": "Lipidoid-based SNaP LNP platform for local airway delivery; its nasal mRNA ETH47 (interferon lambda) has completed a Phase 2a rhinovirus challenge study.",
+          "place": "Munich, Germany"
+        },
+        {
+          "name": "NanoZymeX",
+          "use": "University of Basel spin-off encapsulating enzymes in LNPs for enzyme replacement therapy (Pompe); CHF 150,000 from Venture Kick in March 2026.",
+          "place": "Basel, Switzerland"
+        },
+        {
+          "name": "ReCode Therapeutics",
+          "use": "SORT (Selective Organ Targeting) platform for inhaled mRNAs; first proof of activity in a Phase 1b trial in primary ciliary dyskinesia (May 2026).",
+          "place": "Menlo Park, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Advanced Drug Delivery Reviews (PMC)",
+          "title": "The role of lipid components in lipid nanoparticles for vaccines and gene therapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9250827"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "SRTD raises €31.5M seed round to develop cell-selective RNA therapies",
+          "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/"
+        },
+        {
+          "publisher": "BioSpace (communiqué Ethris)",
+          "title": "Ethris Presents Positive Topline Phase 1 Data with mRNA Lead Candidate ETH47 for Uncontrolled Asthma",
+          "url": "https://www.biospace.com/press-releases/ethris-presents-positive-topline-phase-1-data-with-mrna-lead-candidate-eth47-for-uncontrolled-asthma"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "NanoZymeX secures €160K to advance lipid nanoparticle enzyme therapies for rare diseases",
+          "url": "https://tech.eu/2026/03/24/nanozymex-secures-venture-kick-backing-to-advance-lipid-nanoparticle-enzyme-therapies-for-rare-diseases/"
+        }
+      ],
+      "date": "2026-11-11",
+      "dateLong": "Nov 11, 2026"
+    },
+    {
       "term": "Robotic Vitreoretinal Surgery",
       "full": "Robotic Vitreoretinal Surgery (robot-assisted retina and vitreous surgery)",
       "fr": "Robot-assisted surgery of the retina and vitreous: a teleoperated robot holds and guides instruments inside the eye to filter out the surgeon's tremor and reach micron-level precision.",
@@ -8909,69 +8994,6 @@
       ],
       "date": "2026-07-17",
       "dateLong": "17 juil. 2026"
-    },
-    {
-      "term": "LNP",
-      "full": "Lipid Nanoparticle",
-      "fr": "Nanoparticule lipidique",
-      "field": "Délivrance de médicaments · Biotechnologie ARN",
-      "definition": "Une capsule graisseuse microscopique qui protège un ARN thérapeutique dans le sang et le fait entrer dans la cellule cible — la techno qui a rendu les vaccins ARNm possibles, aujourd'hui réinventée pour sortir du foie.",
-      "parts": [
-        {
-          "label": "Lipide ionisable",
-          "role": "encapsule l'ARN et se charge pour le libérer dans la cellule"
-        },
-        {
-          "label": "Lipide PEGylé",
-          "role": "le bouclier furtif qui stabilise la particule dans le sang"
-        },
-        {
-          "label": "Ligand de ciblage",
-          "role": "le GPS qui oriente la particule vers un organe ou un type cellulaire précis"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Formulation",
-          "t": "L'ARN est mélangé à un cocktail de lipides qui s'auto-assemblent en nanoparticule sphérique de quelques dizaines de nanomètres."
-        },
-        {
-          "n": "2",
-          "h": "Circulation",
-          "t": "Injectée par voie intraveineuse ou inhalée, la particule échappe à la dégradation immédiate et circule jusqu'à son tissu cible."
-        },
-        {
-          "n": "3",
-          "h": "Entrée cellulaire et libération",
-          "t": "La cellule cible internalise la particule ; le lipide ionisable déstabilise l'endosome et libère l'ARN dans le cytoplasme pour qu'il soit traduit ou qu'il inhibe sa cible."
-        }
-      ],
-      "why": "Les LNP ont prouvé leur capacité à passer à l'échelle industrielle avec les vaccins Covid, mais la plupart des formulations finissent par défaut dans le foie. La nouvelle vague de biotechs — dont Nava Therapeutics, qui vient de lever 89 M$ — construit des LNP capables d'atteindre les lymphocytes T, le rein, le poumon ou le muscle : c'est là que se joue la prochaine génération de brevets et de deals pharma, et où les VCs cherchent le prochain Moderna.",
-      "startups": [
-        {
-          "name": "Nava Therapeutics",
-          "place": "Cambridge/Philadelphie, États-Unis",
-          "use": "CAR-T in vivo et délivrance rénale par LNP ; 89 M$ en sortie de stealth (juil. 2026)."
-        },
-        {
-          "name": "Sixfold Bioscience",
-          "place": "Londres, Royaume-Uni",
-          "use": "Plateforme Mergo de siARN/ARNm programmable pour sortir du tropisme hépatique ; financée par Innovate UK et Wellcome Leap."
-        },
-        {
-          "name": "etherna (ex-eTheRNA immunotherapies)",
-          "place": "Niel, Belgique",
-          "use": "Plateforme mRNA/LNP intratumorale ; programme LAD116 nominé par Almirall contre le cancer cutané non-mélanome."
-        },
-        {
-          "name": "ReCode Therapeutics",
-          "place": "Dallas, États-Unis",
-          "use": "Plateforme LNP SORT ciblant le poumon ; RCT2100 inhalé en Phase 2 dans la mucoviscidose."
-        }
-      ],
-      "date": "2026-07-16",
-      "dateLong": "16 juil. 2026"
     },
     {
       "term": "Modulateur allostérique",

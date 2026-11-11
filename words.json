@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-11",
   "words": [
     {
+      "term": "LNP",
+      "full": "Lipid Nanoparticle",
+      "fr": "Nanoparticule lipidique",
+      "field": "Délivrance des médicaments à ARN",
+      "definition": "Une minuscule bulle de graisses qui emballe un ARN fragile, le protège dans le sang et le fait entrer dans les cellules, comme dans les vaccins ARN anti-Covid.",
+      "parts": [
+        {
+          "label": "Lipide ionisable",
+          "role": "le moteur : il se lie à l'ARN pendant la fabrication et devient positif dans l'endosome acide, ce qui libère la charge"
+        },
+        {
+          "label": "Lipides auxiliaires (DSPC, cholestérol)",
+          "role": "la charpente : forme, stabilité et fusion avec les membranes"
+        },
+        {
+          "label": "Lipide PEG",
+          "role": "le manteau : évite l'agrégation, mais freine l'entrée dans la cellule s'il y en a trop"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Emballage",
+          "t": "L'ARN et les quatre lipides sont mélangés à pH acide : le lipide ionisable, chargé positivement, capte l'ARN chargé négativement et la particule se referme."
+        },
+        {
+          "n": "2",
+          "h": "Voyage",
+          "t": "Injectée dans le sang, la particule fixe l'apolipoprotéine E et est captée surtout par le foie via le récepteur LDL ; viser un autre organe exige de changer la formule ou la voie (nasale, inhalée)."
+        },
+        {
+          "n": "3",
+          "h": "Évasion",
+          "t": "Dans l'endosome qui s'acidifie, le lipide ionisable se protone et déstabilise la membrane ; seule une petite fraction de l'ARN, souvent citée sous 5 %, s'échappe vers le cytoplasme où il est traduit."
+        }
+      ],
+      "why": "Les LNP sont validées en clinique (Onpattro, Comirnaty, Spikevax) mais tombent par défaut dans le foie : la valeur se déplace vers les formules qui ciblent d'autres tissus (poumon, tumeur, système immunitaire). Pour un VC, une plateforme de délivrance propriétaire est souvent l'actif le plus défendable d'une biotech ARN — la levée de 31,5 M€ de SRTD, adossée à des LNP fusogènes maison, le confirme. Point de vigilance en due diligence : la propriété intellectuelle sur le lipide ionisable.",
+      "startups": [
+        {
+          "name": "SRTD Biotech",
+          "use": "Associe ses ARN à expression sélective (seRNA) à des LNP fusogènes propriétaires pour une distribution spécifique d'organe ; seed de 31,5 M€ mené par Mérieux Equity Partners en novembre 2026.",
+          "place": "Jülich, Allemagne"
+        },
+        {
+          "name": "Ethris",
+          "use": "Plateforme SNaP LNP à base de lipidoïdes pour une délivrance locale des voies respiratoires ; son ARNm nasal ETH47 (interféron lambda) a terminé une phase 2a de provocation par rhinovirus.",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "NanoZymeX",
+          "use": "Spin-off de l'Université de Bâle qui encapsule des enzymes dans des LNP pour la thérapie enzymatique substitutive (Pompe) ; 150 000 CHF de Venture Kick en mars 2026.",
+          "place": "Bâle, Suisse"
+        },
+        {
+          "name": "ReCode Therapeutics",
+          "use": "Plateforme SORT (Selective Organ Targeting) pour des ARNm inhalés ; premières preuves d'activité en phase 1b dans la dyskinésie ciliaire primitive (mai 2026).",
+          "place": "Menlo Park, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Advanced Drug Delivery Reviews (PMC)",
+          "title": "The role of lipid components in lipid nanoparticles for vaccines and gene therapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9250827"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "SRTD raises €31.5M seed round to develop cell-selective RNA therapies",
+          "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/"
+        },
+        {
+          "publisher": "BioSpace (communiqué Ethris)",
+          "title": "Ethris Presents Positive Topline Phase 1 Data with mRNA Lead Candidate ETH47 for Uncontrolled Asthma",
+          "url": "https://www.biospace.com/press-releases/ethris-presents-positive-topline-phase-1-data-with-mrna-lead-candidate-eth47-for-uncontrolled-asthma"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "NanoZymeX secures €160K to advance lipid nanoparticle enzyme therapies for rare diseases",
+          "url": "https://tech.eu/2026/03/24/nanozymex-secures-venture-kick-backing-to-advance-lipid-nanoparticle-enzyme-therapies-for-rare-diseases/"
+        }
+      ],
+      "date": "2026-11-11",
+      "dateLong": "11 nov. 2026"
+    },
+    {
       "term": "Robotic Vitreoretinal Surgery",
       "full": "Robotic Vitreoretinal Surgery (chirurgie vitréo-rétinienne robot-assistée)",
       "fr": "Chirurgie robot-assistée de la rétine et du vitré : un robot téléopéré tient et guide les instruments dans l'œil pour filtrer le tremblement du chirurgien et gagner en précision micrométrique.",
@@ -8909,69 +8994,6 @@
       ],
       "date": "2026-07-17",
       "dateLong": "17 juil. 2026"
-    },
-    {
-      "term": "LNP",
-      "full": "Lipid Nanoparticle",
-      "fr": "Nanoparticule lipidique",
-      "field": "Délivrance de médicaments · Biotechnologie ARN",
-      "definition": "Une capsule graisseuse microscopique qui protège un ARN thérapeutique dans le sang et le fait entrer dans la cellule cible — la techno qui a rendu les vaccins ARNm possibles, aujourd'hui réinventée pour sortir du foie.",
-      "parts": [
-        {
-          "label": "Lipide ionisable",
-          "role": "encapsule l'ARN et se charge pour le libérer dans la cellule"
-        },
-        {
-          "label": "Lipide PEGylé",
-          "role": "le bouclier furtif qui stabilise la particule dans le sang"
-        },
-        {
-          "label": "Ligand de ciblage",
-          "role": "le GPS qui oriente la particule vers un organe ou un type cellulaire précis"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Formulation",
-          "t": "L'ARN est mélangé à un cocktail de lipides qui s'auto-assemblent en nanoparticule sphérique de quelques dizaines de nanomètres."
-        },
-        {
-          "n": "2",
-          "h": "Circulation",
-          "t": "Injectée par voie intraveineuse ou inhalée, la particule échappe à la dégradation immédiate et circule jusqu'à son tissu cible."
-        },
-        {
-          "n": "3",
-          "h": "Entrée cellulaire et libération",
-          "t": "La cellule cible internalise la particule ; le lipide ionisable déstabilise l'endosome et libère l'ARN dans le cytoplasme pour qu'il soit traduit ou qu'il inhibe sa cible."
-        }
-      ],
-      "why": "Les LNP ont prouvé leur capacité à passer à l'échelle industrielle avec les vaccins Covid, mais la plupart des formulations finissent par défaut dans le foie. La nouvelle vague de biotechs — dont Nava Therapeutics, qui vient de lever 89 M$ — construit des LNP capables d'atteindre les lymphocytes T, le rein, le poumon ou le muscle : c'est là que se joue la prochaine génération de brevets et de deals pharma, et où les VCs cherchent le prochain Moderna.",
-      "startups": [
-        {
-          "name": "Nava Therapeutics",
-          "place": "Cambridge/Philadelphie, États-Unis",
-          "use": "CAR-T in vivo et délivrance rénale par LNP ; 89 M$ en sortie de stealth (juil. 2026)."
-        },
-        {
-          "name": "Sixfold Bioscience",
-          "place": "Londres, Royaume-Uni",
-          "use": "Plateforme Mergo de siARN/ARNm programmable pour sortir du tropisme hépatique ; financée par Innovate UK et Wellcome Leap."
-        },
-        {
-          "name": "etherna (ex-eTheRNA immunotherapies)",
-          "place": "Niel, Belgique",
-          "use": "Plateforme mRNA/LNP intratumorale ; programme LAD116 nominé par Almirall contre le cancer cutané non-mélanome."
-        },
-        {
-          "name": "ReCode Therapeutics",
-          "place": "Dallas, États-Unis",
-          "use": "Plateforme LNP SORT ciblant le poumon ; RCT2100 inhalé en Phase 2 dans la mucoviscidose."
-        }
-      ],
-      "date": "2026-07-16",
-      "dateLong": "16 juil. 2026"
     },
     {
       "term": "Modulateur allostérique",
