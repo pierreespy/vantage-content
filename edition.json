@@ -1,152 +1,106 @@
 {
-  "dateLong": "8 nov. 2026",
+  "dateLong": "11 nov. 2026",
   "ticker": [
-    {
-      "company": "OCTOPATH AI",
-      "amount": "£1,5M",
-      "kind": "lev"
-    },
-    {
-      "company": "MÖLNLYCKE",
-      "amount": "Nouveau CEO",
-      "kind": "tech"
-    },
-    {
-      "company": "BOULE",
-      "amount": "Désinvest.",
-      "kind": "mna"
-    },
-    {
-      "company": "OLYMPUS",
-      "amount": "Lancement US",
-      "kind": "tech"
-    }
+    { "company": "SAIBOGEN", "amount": "Création", "kind": "new" },
+    { "company": "DEXTEROUS ENDOSCOPES", "amount": "Programme BIP", "kind": "new" },
+    { "company": "VIRTUOSO", "amount": "FDA De Novo", "kind": "reg" },
+    { "company": "CORDIO", "amount": "Pivot ✓", "kind": "tech" },
+    { "company": "ROSTI", "amount": "Rachat d'Alvi", "kind": "mna" },
+    { "company": "NANOPATH", "amount": "$25M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Spin-off UCL · Pathologie IA",
-    "title": "Octopath AI, spin-out de l'UCL, lève 1,5 M£ en seed (Twin Path Ventures) pour son IA de pathologie à l'échelle de la cellule",
-    "deck": "Deux modèles fondation — Kraken pour les lames H&E, Nemo pour l'IHC — analysent des lames de routine au niveau de la cellule unique en moins de deux minutes (cellularité, infiltrat immunitaire, comptage mitotique), les résultats restant soumis à la revue du pathologiste. Le tour mêle un seed mené par Twin Path Ventures et une subvention Innovate UK en contrepartie ; les fonds visent l'évaluation clinique, le produit et la voie réglementaire.",
-    "company": "Octopath AI",
-    "stage": "Seed",
+    "kicker": "Coentreprise · Diagnostic & IA",
+    "title": "Sysmex et la britannique Hologen créent Saibogen pour faire « lire » les prises de sang à l'IA générative",
+    "deck": "Le géant japonais de l'hématologie et la jeune pousse britannique Hologen lancent Saibogen, une coentreprise qui applique des modèles d'IA générative aux données brutes des analyseurs Sysmex pour tirer de la numération sanguine de routine une information clinique bien plus riche, sans instrument, réactif ni prélèvement supplémentaire. Pour Hologen, c'est l'accès à un parc mondial d'automates et à des jeux de données propriétaires : un actif rare pour une startup d'IA médicale.",
+    "company": "Saibogen",
     "sector": "Diagnostics",
     "pillar": "naissances",
-    "signalType": "funding_round",
+    "signalType": "company_incorporation",
     "strength": 3,
-    "url": "https://startup.eu/investments/octopath-ai-1-5-m-seed-11-2026"
+    "url": "https://www.medicaldevice-network.com/news/sysmex-hologen-saibogen-blood-test-ai-analysis/"
   },
   "milestone": {
-    "company": "Mölnlycke Health Care",
-    "milestone": "Nomination CEO",
-    "title": "Mölnlycke nomme Anders Andersson CEO et Fredrik Wallefors President Surgical à compter du 1er janvier 2027",
-    "summary": "Le groupe suédois renouvelle sa direction : les deux nominations, annoncées le 3 novembre, prennent effet au 1er janvier 2027.",
-    "why": "Un changement de CEO chez un acteur européen majeur du soin des plaies et de la chirurgie peut précéder une inflexion stratégique (portefeuille, M&A, partenariats) : un signal à suivre.",
-    "place": "Göteborg",
+    "company": "Dexterous Endoscopes",
+    "milestone": "Programme Biopôle",
+    "title": "Dexterous Endoscopes, spin-off de l'EPFL, intègre le Biopôle Investment Programme pour viser la clinique",
+    "summary": "La startup lausannoise conçoit des endoscopes à usage unique à rigidité variable : souples pour suivre les voies naturelles, rigides une fois sur la cible pour traiter. Elle rejoint pour 24 mois le programme d'accompagnement financier et stratégique de Biopôle, avec trois jalons : essais porcins dans plusieurs pays, cadrage de la voie réglementaire et validation du business case auprès de cliniques, pour son premier produit VISNEP (néphrolithotomie percutanée).",
+    "why": "Dix pilotes précliniques déjà menés dans trois pays avec 15 chirurgiens : la boîte passe du labo à la pré-soumission réglementaire, le moment typique où se prépare un premier tour institutionnel. Un signal amont sur un segment (endoscopie jetable) où les grands acteurs cherchent des briques technologiques.",
+    "place": "Lausanne",
     "sector": "MedTech",
-    "signalType": "leadership_hire",
-    "url": "https://nordiclifescience.org/new-leaders-appointed-at-molnlycke/"
+    "signalType": "grant_award",
+    "url": "https://startupticker.ch/en/news/dexterous-endoscopes-enters-biopole-investment-programme"
   },
   "brefsEurope": [
-    {
-      "company": "Boule",
-      "place": "Stockholm",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Boule se retire des instruments d'hématologie et prépare une augmentation de capital de 93 MSEK",
-      "summary": "Le groupe suédois se recentre sur les consommables, les services et la fabrication sous contrat aux États-Unis, financé par une rights issue d'environ 93 millions de couronnes suédoises.",
-      "url": "https://nordiclifescience.org/boule-exits-hematology-instruments-plans-sek-93-million-rights-issue/"
-    }
+    { "company": "AcuSurgical", "place": "Montpellier", "sector": "Robotique chirurgicale", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "AcuSurgical prépare un essai européen de 100 patients pour Luca, son robot de chirurgie rétinienne",
+      "summary": "Après une première étude sur sept patients au CHU de Gand (aucun événement indésirable lié au dispositif, geste robotisé conforme au plan chez six patients, résultats publiés dans Retina), la medtech montpelliéraine vise un essai en 2027 dans quatre centres en France et en Europe, puis le marquage CE et la FDA en 2028. Elle prépare une levée d'environ 40 M€ pour le financer.",
+      "url": "https://www.touleco.fr/AcuSurgical-premiers-resultats-encourageants-pour-Luca-son-robot,54243" },
+    { "company": "Novocure", "place": "Baar", "sector": "Oncologie (dispositif)", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "La FDA refuse Optune Mya, le dispositif TTFields de Novocure contre les métastases cérébrales",
+      "summary": "Lettre « not approvable » pour l'usage dans le cancer du poumon métastasé au cerveau : l'essai pivot METIS retardait la progression intracrânienne mais sans différence sur les critères secondaires (survie, déclin cognitif). Aucun problème de sécurité soulevé ; Novocure va rencontrer la FDA pour chercher une voie sans nouvel essai.",
+      "url": "https://www.medtechdive.com/news/novocure-denied-fda-approval-for-metastatic-cancer-treatment/874127/" },
+    { "company": "Getinge", "place": "Göteborg", "sector": "MedTech", "pillar": "marche",
+      "signalType": "leadership_hire", "strength": 3,
+      "title": "Getinge recrute Stacy Beske (Philips) à la tête de ses thérapies de soins aigus",
+      "summary": "L'ex-SVP de la thérapie guidée par l'image de Philips, passée 18 ans par Medtronic, prend le 1er décembre la présidence de l'activité Acute Care Therapies du suédois. Elle remplace Elin Frostehav, partie diriger Vitrolife Group.",
+      "url": "https://www.medtechdive.com/news/getinge-hires-president-of-acute-care-therapies/874219/" },
+    { "company": "Cepheid", "place": "UE", "sector": "Diagnostics", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Cepheid décroche le marquage CE IVDR pour son panel respiratoire Xpert à 13 pathogènes",
+      "summary": "Le test PCR multiplex de la filiale de Danaher détecte 13 virus et bactéries respiratoires sur un seul écouvillon, sur les GeneXpert déjà installés ; livraisons en Europe dans les prochaines semaines. Un comparable utile : l'IVDR reste la barrière d'entrée clé pour les diagnostics syndromiques.",
+      "url": "https://prnewswire.com/news-releases/cepheid-achieves-ce-marking-under-ivdr-for-xpert-respiratory-panel-302932484.html" },
+    { "company": "Rosti Group", "place": "Malmö", "sector": "MedTech", "pillar": "financement",
+      "signalType": "acquisition", "strength": 5,
+      "title": "Le sous-traitant suédois Rosti rachète Alvi pour muscler sa fabrication de dispositifs médicaux",
+      "summary": "Montant non divulgué ; l'opération apporte près de 400 salariés et des sites en Norvège, Pologne, Suède et Chine, pour un chiffre d'affaires combiné d'environ 450 M€. Signe de consolidation de la sous-traitance plasturgie médicale en Europe.",
+      "url": "https://www.medicaldevice-network.com/news/rosti-buys-alvi-medical-device-manufacturing/" }
   ],
   "brefsIntl": [
-    {
-      "company": "Olympus",
-      "place": "Tokyo",
-      "sector": "Robotique chirurgicale",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 1,
-      "title": "Olympus lance aux États-Unis son laser à fibre thulium Soltive Gemini 60W",
-      "summary": "Le système cible la lithiase rénale et les actes sur tissus mous, avec la technologie StoneSense qui coupe l'émission quand la fibre ne vise pas un calcul ; statut FDA non précisé dans l'article.",
-      "url": "https://www.medicaldevice-network.com/news/olympus-soltive-gemini-laser-system-us/"
-    }
+    { "company": "Virtuoso Surgical", "place": "Nashville", "sector": "Robotique chirurgicale", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Virtuoso obtient un De Novo FDA pour son robot endoscopique de résection des tumeurs de vessie",
+      "summary": "Deux bras robotisés miniatures au bout d'un endoscope standard, par voie urétrale : premier dispositif d'une nouvelle classification FDA pour les systèmes chirurgicaux endoluminaux. Dans l'étude VIABLE, le muscle détrusor était présent dans 94 % des pièces réséquées (objectif 60 %).",
+      "url": "https://www.medtechdive.com/news/virtuoso-robot-wins-fda-nod-for-bladder-tumor-removal/874261/" },
+    { "company": "Cordio Medical", "place": "Israël", "sector": "Cardio", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 4,
+      "title": "AHA 2026 : l'analyse vocale HearO de Cordio prédit plus de 70 % des décompensations cardiaques",
+      "summary": "Essai pivot aveugle DETECT-HF sur 563 patients : l'IA détecte la dégradation 24,6 jours en moyenne avant l'événement, à partir de la voix du patient. Déjà marqué CE (2022) et Breakthrough Device, Cordio va déposer à la FDA pour un lancement américain en 2027.",
+      "url": "https://www.medicaldevice-network.com/news/aha26-cordio-medical-voice-based-heart-failure-analytic-hits-in-pivotal-trial/" },
+    { "company": "Nanopath", "place": "Cambridge (MA)", "sector": "Diagnostics", "pillar": "financement",
+      "signalType": "funding_round", "strength": 4, "stage": "Series B",
+      "title": "Nanopath lève 25 M$ en Series B, co-menée par Norwest et SV Health, pour un test de vaginite en 15 minutes",
+      "summary": "Le spin-off de The Engine (MIT) mise sur un biocapteur plasmonique sans amplification d'ADN ; Labcorp Venture Fund entre au capital. Les fonds financent l'étude clinique 510(k) et la montée en production.",
+      "url": "https://prnewswire.com/news-releases/nanopath-announces-25-million-series-b-financing-to-advance-molecular-testing-for-womens-health-302934485.html" }
   ],
   "word": {
-    "term": "Computational Pathology",
-    "full": "Computational Pathology (pathologie computationnelle)",
-    "fr": "Pathologie computationnelle : analyse par algorithmes d'apprentissage profond de lames de tissu numérisées pour assister le diagnostic et prédire des critères cliniques.",
-    "field": "Diagnostic & imagerie",
-    "definition": "On scanne la lame de biopsie en image géante, puis une IA la lit pour aider le pathologiste à repérer les cellules cancéreuses et à anticiper l'évolution ou la réponse au traitement.",
+    "term": "Robotic Vitreoretinal Surgery",
+    "full": "Robotic Vitreoretinal Surgery (chirurgie vitréo-rétinienne robot-assistée)",
+    "fr": "Chirurgie robot-assistée de la rétine et du vitré : un robot téléopéré tient et guide les instruments dans l'œil pour filtrer le tremblement du chirurgien et gagner en précision micrométrique.",
+    "field": "Chirurgie & robotique",
+    "definition": "Au lieu de tenir lui-même des instruments fins comme des aiguilles dans un œil, le chirurgien pilote depuis une console un robot qui supprime le tremblement naturel de sa main et peut travailler à quelques microns près.",
     "parts": [
-      {
-        "label": "Lame numérisée (whole-slide image)",
-        "role": "La lame de tissu est scannée en une image de plusieurs milliards de pixels, matière première des algorithmes."
-      },
-      {
-        "label": "Apprentissage profond",
-        "role": "Les réseaux de neurones, composante algorithmique centrale de la plupart des systèmes, analysent l'image (par ex. via l'apprentissage multi-instances)."
-      },
-      {
-        "label": "Critère clinique prédit",
-        "role": "Le modèle produit une aide au diagnostic ou une prédiction de critère clinique, voire de nouveaux biomarqueurs morphologiques."
-      }
+      { "label": "Console de pilotage", "role": "Le chirurgien commande les bras par des gestes naturels, avec vision 3D pour la profondeur." },
+      { "label": "Bras manipulateurs", "role": "Ils portent les instruments vitréo-rétiniens standards et les stabilisent dans l'œil." },
+      { "label": "Filtrage & sécurité", "role": "Filtrage du tremblement, mise à l'échelle des mouvements, limites virtuelles et retrait rapide de l'instrument." }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Numériser",
-        "t": "Les lames de pathologie sont digitalisées en images haute résolution, ce qui rend l'analyse automatisable."
-      },
-      {
-        "n": "2",
-        "h": "Analyser par IA",
-        "t": "Des modèles d'apprentissage profond parcourent l'image entière pour détecter, compter ou classer des structures, comme des cellules tumorales."
-      },
-      {
-        "n": "3",
-        "h": "Assister le pathologiste",
-        "t": "Les résultats servent d'aide à la décision ; certains systèmes d'IA sont désormais approuvés pour assister le diagnostic clinique, mais des freins techniques à l'adoption demeurent."
-      }
+      { "n": "1", "h": "Commander", "t": "Le chirurgien pilote à distance un ou deux bras robotisés depuis une station ergonomique, sous visualisation 3D." },
+      { "n": "2", "h": "Stabiliser", "t": "Le robot filtre le tremblement (environ 1 µm contre 18 µm à la main en modèle simulé) et réduit la dérive de l'aiguille." },
+      { "n": "3", "h": "Agir au micron", "t": "Il permet des gestes très fins, comme peler une membrane de 1 à 5 µm ou maintenir une aiguille immobile pour une injection sous-rétinienne lente." }
     ],
-    "why": "Angle VC : la numérisation des lames crée un goulot de données que l'IA peut monétiser, côté diagnostic comme côté pharma (aide au développement de médicaments). Le marché reste jeune : les tours européens récents sont modestes (1,5 M£ chez Octopath AI, 15,3 M$ chez Mindpeak) et la dette venture BEI chez Aiforia montre un financement en partie non dilutif. Risques : validation clinique et réglementaire longue, adoption lente, besoin de jeux de données larges et variés.",
+    "why": "Angle VC : la rétine est l'un des rares terrains où le robot ne remplace pas seulement la main, il permet des gestes impossibles à la main, comme les injections sous-rétiniennes de thérapies géniques. Les preuves restent minces (quelques études, durées d'intervention plus longues) et le coût est un frein, mais les tours grossissent : 125 M$ de Series B pour ForSight Robotics, une levée d'environ 40 M€ préparée par le français AcuSurgical. Pour un investisseur, c'est un pari sur l'essai pivot et le marquage CE ou la FDA.",
     "startups": [
-      {
-        "name": "Octopath AI",
-        "use": "Spin-out de l'UCL ; modèles de fondation Kraken et Nemo analysant des lames de routine à résolution cellulaire en moins de deux minutes, entraînés sur plus de 14 millions de cellules annotées sur 14 types de cancer ; seed + subvention de 1,5 M£ (dont 500 k£ Innovate UK) mené par TwinPath Ventures, déployé sur cinq sites dont UCLH.",
-        "place": "Londres, Royaume-Uni"
-      },
-      {
-        "name": "Mindpeak",
-        "use": "Logiciels d'IA pour pathologues (cancer du sein, PD-L1, etc.) ; Série A de 15,3 M$ annoncée le 2 octobre 2024, menée par ZEISS Ventures et IFB Innovationsstarter avec InnoVentureFonds, AI.FUND et le EIC Fund ; plus de 30 000 diagnostics soutenus ; aucune acquisition relevée.",
-        "place": "Hambourg, Allemagne"
-      },
-      {
-        "name": "Aiforia",
-        "use": "Logiciel d'IA par apprentissage profond pour la pathologie, cotée sur Nasdaq First North Helsinki ; dette venture de 20 M€ de la BEI (InvestEU), en trois tranches dont une première de 5 M€, annoncée le 31 juillet 2026.",
-        "place": "Helsinki, Finlande"
-      }
+      { "name": "AcuSurgical", "use": "Robot bimanuel téléopéré Luca pour la vitrectomie ; première étude sur 7 patients à Gand, essai européen de 100 patients prévu en 2027.", "place": "Montpellier, France" },
+      { "name": "ForSight Robotics", "use": "Plateforme ORYOM, d'abord pour la cataracte puis le glaucome et la rétine ; Series B de 125 M$ menée par Eclipse (2025).", "place": "Israël" },
+      { "name": "Horizon Surgical Systems", "use": "Plateforme Polaris (IA de visualisation et micro-robotique), utilisée pour la première chirurgie de la cataracte robot-assistée en octobre 2025 ; spin-out de l'UCLA.", "place": "Californie, États-Unis" }
     ],
     "sources": [
-      {
-        "publisher": "Dealroom.co",
-        "title": "UCL spinout Octopath AI raises £1.5M to speed up cancer pathology",
-        "url": "https://dealroom.co/news/168839-ucl-spinout-octopath-ai-raises-1-5m-to-speed-up-cancer-pathology/"
-      },
-      {
-        "publisher": "arXiv (Song et al.)",
-        "title": "Artificial Intelligence for Digital and Computational Pathology",
-        "url": "https://arxiv.org/abs/2401.06148"
-      },
-      {
-        "publisher": "Startup City Hamburg",
-        "title": "15.3 million US dollars for Mindpeak in series A funding",
-        "url": "https://startupcity.hamburg/news-events/news/153-million-us-dollars-for-mindpeak-in-series-a-funding"
-      },
-      {
-        "publisher": "Banque européenne d'investissement",
-        "title": "Aiforia lands EU financing to develop AI-powered cancer detection",
-        "url": "https://www.eib.org/en/press/all/2026-268-aiforia-lands-eu-financing-to-develop-ai-powered-cancer-detection"
-      }
+      { "publisher": "Journal of Robotic Surgery (PMC)", "title": "Sharper vision, steady hands: can robots improve subretinal drug delivery? Systematic review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142954/" },
+      { "publisher": "AcuSurgical", "title": "Our Technology – Acusurgical", "url": "https://acusurgical.com/our-technology/" },
+      { "publisher": "HIT Consultant", "title": "ForSight Robotics Raises $125M for Ophthalmic Robotic Surgery", "url": "https://hitconsultant.net/2025/06/24/forsight-robotics-raises-125m-for-ophthalmic-robotic-surgery/" },
+      { "publisher": "Robotics 24/7", "title": "Horizon Surgical Systems performs world's first robotic-assisted cataract surgery", "url": "https://www.robotics247.com/article/horizon_surgical_systems_performs_worlds_first_robotic_assisted_cataract_surgery" }
     ]
   }
 }

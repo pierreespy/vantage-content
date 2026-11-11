@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-11",
   "words": [
+    {
+      "term": "Robotic Vitreoretinal Surgery",
+      "full": "Robotic Vitreoretinal Surgery (robot-assisted retina and vitreous surgery)",
+      "fr": "Robot-assisted surgery of the retina and vitreous: a teleoperated robot holds and guides instruments inside the eye to filter out the surgeon's tremor and reach micron-level precision.",
+      "field": "Surgery & robotics",
+      "definition": "Instead of holding needle-thin instruments inside an eye by hand, the surgeon steers a robot from a console that cancels the natural tremor of the hand and can work within a few microns.",
+      "parts": [
+        {
+          "label": "Control console",
+          "role": "The surgeon drives the arms with natural gestures, with 3D vision for depth perception."
+        },
+        {
+          "label": "Manipulator arms",
+          "role": "They carry standard vitreoretinal instruments and keep them steady inside the eye."
+        },
+        {
+          "label": "Filtering & safety",
+          "role": "Tremor filtering, motion scaling, virtual boundaries and rapid instrument retraction."
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Command",
+          "t": "The surgeon remotely drives one or two robotic arms from an ergonomic station, under 3D visualisation."
+        },
+        {
+          "n": "2",
+          "h": "Stabilise",
+          "t": "The robot filters tremor (about 1 µm versus 18 µm by hand in a simulated model) and reduces needle drift."
+        },
+        {
+          "n": "3",
+          "h": "Act at micron scale",
+          "t": "It enables very fine gestures, such as peeling a 1–5 µm membrane or holding a needle still for a slow subretinal injection."
+        }
+      ],
+      "why": "VC angle: the retina is one of the few areas where a robot doesn't just replace the hand but enables gestures that are impossible by hand, such as subretinal injections of gene therapies. Evidence is still thin (a few studies, longer procedure times) and cost is a hurdle, but rounds are getting bigger: a $125M Series B for ForSight Robotics, a raise of around €40M being prepared by France's AcuSurgical. For an investor, it is a bet on the pivotal trial and CE marking or FDA authorisation.",
+      "startups": [
+        {
+          "name": "AcuSurgical",
+          "use": "Luca, a teleoperated bimanual robot for vitrectomy; first study in 7 patients in Ghent, 100-patient European trial planned for 2027.",
+          "place": "Montpellier, France"
+        },
+        {
+          "name": "ForSight Robotics",
+          "use": "ORYOM platform, for cataract first, then glaucoma and retina; $125M Series B led by Eclipse (2025).",
+          "place": "Israel"
+        },
+        {
+          "name": "Horizon Surgical Systems",
+          "use": "Polaris platform (AI visualisation plus micro-robotics), used for the first robotic-assisted cataract surgery in October 2025; UCLA spin-out.",
+          "place": "California, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Journal of Robotic Surgery (PMC)",
+          "title": "Sharper vision, steady hands: can robots improve subretinal drug delivery? Systematic review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11142954/"
+        },
+        {
+          "publisher": "AcuSurgical",
+          "title": "Our Technology – Acusurgical",
+          "url": "https://acusurgical.com/our-technology/"
+        },
+        {
+          "publisher": "HIT Consultant",
+          "title": "ForSight Robotics Raises $125M for Ophthalmic Robotic Surgery",
+          "url": "https://hitconsultant.net/2025/06/24/forsight-robotics-raises-125m-for-ophthalmic-robotic-surgery/"
+        },
+        {
+          "publisher": "Robotics 24/7",
+          "title": "Horizon Surgical Systems performs world's first robotic-assisted cataract surgery",
+          "url": "https://www.robotics247.com/article/horizon_surgical_systems_performs_worlds_first_robotic_assisted_cataract_surgery"
+        }
+      ],
+      "date": "2026-11-11",
+      "dateLong": "Nov 11, 2026"
+    },
     {
       "term": "Telepharmacy",
       "full": "Telepharmacy",
