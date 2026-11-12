@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "words": [
+    {
+      "term": "IDE",
+      "full": "Investigational Device Exemption",
+      "fr": "Exemption pour dispositif expérimental",
+      "field": "Réglementaire US",
+      "definition": "L'autorisation de la FDA qui permet d'utiliser chez des patients américains un dispositif médical pas encore autorisé, dans le cadre d'un essai clinique, pour recueillir les données de sécurité et d'efficacité exigées avant la mise sur le marché.",
+      "parts": [
+        {
+          "label": "Plan d'investigation",
+          "role": "le protocole et les données précliniques soumis à la FDA"
+        },
+        {
+          "label": "Comité d'éthique (IRB)",
+          "role": "le feu vert local de chaque centre et le consentement des patients"
+        },
+        {
+          "label": "Étiquetage « investigational use only »",
+          "role": "le dispositif reste réservé à l'essai, suivi et monitoré"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Dépôt",
+          "t": "Pour un dispositif à risque significatif, la société soumet à la FDA son plan d'investigation et ses données de banc et précliniques."
+        },
+        {
+          "n": "2",
+          "h": "Étude de faisabilité",
+          "t": "Un premier essai sur quelques dizaines de patients vérifie la sécurité et règle la technique."
+        },
+        {
+          "n": "3",
+          "h": "Étude pivot",
+          "t": "L'essai pivot, sur des centaines de patients, produit les données qui alimenteront la demande de PMA ou de De Novo."
+        }
+      ],
+      "why": "Pour une medtech européenne, l'IDE est la porte d'entrée du premier marché mondial et un jalon de valorisation : obtenir l'IDE, puis boucler le recrutement d'une étude pivot, réduit fortement le risque réglementaire et précède souvent la levée qui financera le lancement américain. Beaucoup de startups marquées CE en Europe lèvent spécifiquement pour leur IDE.",
+      "startups": [
+        {
+          "name": "Argá Medtech",
+          "use": "Mène COHERENT-AF, étude pivot IDE de son ablation par champ pulsé sinusoïdal (cohorte FA paroxystique de 150 patients complète)",
+          "place": "Lausanne, Suisse"
+        },
+        {
+          "name": "Ciliatech",
+          "use": "IDE obtenue en 2026 pour une étude de faisabilité américaine de son implant anti-glaucome Intercil (~30 patients, 3 centres), déjà marqué CE",
+          "place": "Chavanod, France"
+        },
+        {
+          "name": "Cardiawave",
+          "use": "Marquée CE pour Valvosoft (ultrasons contre la sténose aortique), elle prépare sa demande d'IDE pour entrer aux États-Unis",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Investigational Device Exemption (IDE)",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/investigational-device-exemption-ide"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Argá Medtech Completes Enrollment of Paroxysmal AF Cohort in the COHERENT-AF Pivotal IDE Study",
+          "url": "https://www.prnewswire.com/news-releases/arga-medtech-completes-enrollment-of-paroxysmal-af-cohort-in-the-coherent-af-pivotal-ide-study-302936901.html"
+        },
+        {
+          "publisher": "Société.tech",
+          "title": "Ciliatech reçoit le feu vert de la FDA pour lancer l'essai de son implant contre le glaucome",
+          "url": "https://www.societe.tech/ciliatech-recoit-le-feu-vert-de-la-fda-pour-lancer-lessai-de-son-implant-contre-le-glaucome/"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Cardiawave reports first Valvosoft treatments in Europe",
+          "url": "https://www.massdevice.com/cardiawave-reports-first-valvosoft-treatments-in-europe/"
+        }
+      ],
+      "date": "2026-11-12",
+      "dateLong": "12 nov. 2026"
+    },
     {
       "term": "PROMs",
       "full": "Patient-Reported Outcome Measures (mesures des résultats rapportés par les patients)",

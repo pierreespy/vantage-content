@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-11",
+  "generatedAt": "2026-11-12",
   "words": [
+    {
+      "term": "IDE",
+      "full": "Investigational Device Exemption",
+      "fr": "Investigational device exemption",
+      "field": "US regulatory",
+      "definition": "The FDA authorisation that allows a not-yet-authorised medical device to be used in US patients within a clinical trial, to collect the safety and effectiveness data required before market entry.",
+      "parts": [
+        {
+          "label": "Investigational plan",
+          "role": "the protocol and preclinical data submitted to the FDA"
+        },
+        {
+          "label": "Ethics committee (IRB)",
+          "role": "each site's local green light and patient consent"
+        },
+        {
+          "label": "'Investigational use only' labelling",
+          "role": "the device stays restricted to the trial, tracked and monitored"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Filing",
+          "t": "For a significant-risk device, the company submits its investigational plan and bench and preclinical data to the FDA."
+        },
+        {
+          "n": "2",
+          "h": "Feasibility study",
+          "t": "A first trial in a few dozen patients checks safety and fine-tunes the technique."
+        },
+        {
+          "n": "3",
+          "h": "Pivotal study",
+          "t": "The pivotal trial, in hundreds of patients, generates the data that will feed the PMA or De Novo submission."
+        }
+      ],
+      "why": "For a European medtech, the IDE is the gateway to the world's largest market and a valuation milestone: securing the IDE, then completing enrollment of a pivotal study, sharply reduces regulatory risk and often precedes the round that will fund the US launch. Many startups that are CE-marked in Europe raise specifically for their IDE.",
+      "startups": [
+        {
+          "name": "Argá Medtech",
+          "use": "Runs COHERENT-AF, the pivotal IDE study of its sine-wave pulsed field ablation (150-patient paroxysmal AF cohort complete)",
+          "place": "Lausanne, Switzerland"
+        },
+        {
+          "name": "Ciliatech",
+          "use": "Secured an IDE in 2026 for a US feasibility study of its already CE-marked Intercil glaucoma implant (~30 patients, 3 sites)",
+          "place": "Chavanod, France"
+        },
+        {
+          "name": "Cardiawave",
+          "use": "CE-marked for Valvosoft (ultrasound against aortic stenosis), it is preparing its IDE application to enter the US",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Investigational Device Exemption (IDE)",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/investigational-device-exemption-ide"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Argá Medtech Completes Enrollment of Paroxysmal AF Cohort in the COHERENT-AF Pivotal IDE Study",
+          "url": "https://www.prnewswire.com/news-releases/arga-medtech-completes-enrollment-of-paroxysmal-af-cohort-in-the-coherent-af-pivotal-ide-study-302936901.html"
+        },
+        {
+          "publisher": "Société.tech",
+          "title": "Ciliatech reçoit le feu vert de la FDA pour lancer l'essai de son implant contre le glaucome",
+          "url": "https://www.societe.tech/ciliatech-recoit-le-feu-vert-de-la-fda-pour-lancer-lessai-de-son-implant-contre-le-glaucome/"
+        },
+        {
+          "publisher": "MassDevice",
+          "title": "Cardiawave reports first Valvosoft treatments in Europe",
+          "url": "https://www.massdevice.com/cardiawave-reports-first-valvosoft-treatments-in-europe/"
+        }
+      ],
+      "date": "2026-11-12",
+      "dateLong": "Nov 12, 2026"
+    },
     {
       "term": "PROMs",
       "full": "Patient-Reported Outcome Measures",
