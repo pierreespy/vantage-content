@@ -1,119 +1,224 @@
 {
-  "dateLong": "Nov 11, 2026",
+  "dateLong": "Nov 12, 2026",
   "ticker": [
-    { "company": "HEDEPY", "amount": "€4M", "kind": "lev" },
-    { "company": "OURA", "amount": "$625M", "kind": "mna" },
-    { "company": "TELECLINIC", "amount": "Medi24", "kind": "mna" },
-    { "company": "ACCESS GROUP", "amount": "10-yr EPR", "kind": "tech" },
-    { "company": "LYREBIRD", "amount": "Ambient voice", "kind": "tech" },
-    { "company": "DEEGTAL", "amount": "MEDICA", "kind": "new" }
+    {
+      "company": "EARKICK",
+      "amount": "Elomia",
+      "kind": "mna"
+    },
+    {
+      "company": "SLEEP.AI",
+      "amount": "$5.3M",
+      "kind": "lev"
+    },
+    {
+      "company": "CHARTA HEALTH",
+      "amount": "$55M",
+      "kind": "lev"
+    },
+    {
+      "company": "ESEA",
+      "amount": "50 sites",
+      "kind": "tech"
+    },
+    {
+      "company": "LSCFT",
+      "amount": "Admin −45%",
+      "kind": "tech"
+    },
+    {
+      "company": "MAVEN",
+      "amount": "475 plans",
+      "kind": "reg"
+    }
   ],
   "lead": {
-    "kicker": "Funding · Mental health",
-    "title": "Hedepy raises €4M in debt from Orbit Capital to consolidate online mental healthcare in Central Europe",
-    "deck": "The Prague-based online psychotherapy platform (nearly 1,200 therapists, around 300,000 sessions a year, nine European countries, more than 300 corporate clients) has raised €4M in venture debt from Orbit Capital to fund acquisitions, physical clinics and a clinical arm including psychiatry. A non-dilutive consolidator play in Europe's highly fragmented mental health market, with Czech and Slovak health insurers as the next target.",
-    "company": "Hedepy",
+    "kicker": "M&A · Mental health",
+    "title": "Elomia Health acquires Earkick, the AI mental health companion founded between Zurich and San Francisco",
+    "deck": "Elomia Health, a conversational AI lab founded in 2019 by Ukrainian entrepreneur Taras Pohrebniak, is buying the Earkick app (more than 250,000 users, tracking mood, sleep and activity), its AI models and ongoing early access to its Mia21 memory engine; terms were not disclosed. The deal supports Elomia's shift, after a randomised controlled trial with the University of Pennsylvania, from a consumer app to API infrastructure for care organisations: AI mental health is entering its consolidation phase.",
+    "company": "Earkick",
     "sector": "Mental health",
     "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://tech.eu/2026/11/10/from-online-therapy-to-integrated-mental-healthcare-hedepy-secures-eur4m-for-european-growth/"
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://tech.eu/2026/11/10/elomia-health-acquires-earkick-to-expand-ai-mental-wellbeing-platform/"
   },
   "milestone": {
-    "company": "The Access Group",
-    "milestone": "EPR contract",
-    "title": "South London and Maudsley awards The Access Group a 10-year EPR contract estimated at £11.9M",
-    "summary": "The London mental health trust selected The Access Group's electronic patient record through the NHS LPP framework, for a contract running November 2026 to November 2036 with go-live in 2027. AI will be part of the EPR, which is also meant to underpin ambient voice technology.",
-    "why": "One of England's largest mental health trusts is committing for a decade: an EPR is becoming the entry ticket for AI tools (scribes, ambient voice) and a major outlet for vendors able to plug into it.",
-    "place": "London",
-    "sector": "Hospital software",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/11/09/10-year-12m-epr-contract-awarded-by-south-london-and-maudsley/"
+    "company": "GRADeS ESEA",
+    "milestone": "Phase 2 funded",
+    "title": "Égide Santé Réseau: Nouvelle-Aquitaine commits €3.4M to a sovereign regional network for health data exchange",
+    "summary": "Regional e-health agency GRADeS ESEA is already piloting its secure network (fibre, regional DNS, file transfer, French intrusion probes and European firewalls, NIS2 audits) with seven hospitals, including the Bordeaux, Limoges and Poitiers university hospitals. Co-funding from the regional health agency ARS (€1.7M) and EU ERDF money via the Region (€1.7M) launches phase two: 18 more facilities, then another 25 between mid-2027 and mid-2028, for 50 health and social care sites in total.",
+    "why": "A French region is building its own 'Renater for health', pitched as an alternative to non-European solutions: sovereignty and cybersecurity become shared infrastructure, opening doors for European operators and vendors (telecom aggregator Linkt is already a partner).",
+    "place": "Nouvelle-Aquitaine, France",
+    "sector": "Health data",
+    "signalType": "grant_award",
+    "url": "https://dsih.fr/articles/6458/nouvelle-aquitaine-egide-sante-reseau-un-reseau-regional-pour-securiser-les-echanges-de-donnees-de-sante"
   },
   "deal": {
-    "company": "Oura",
-    "amount": "$625M",
-    "round": "M&A",
-    "thesis": "Finland's Oura (around 6 million members, $533M in Q3 revenue, up 153%) is buying Counsel Health, an AI-native primary care practice with employed physicians, for cash. The ring stops being just a sensor: Counsel's AI will draw on weeks of biometric data to triage and advise, then hand off to a physician within minutes (prescriptions, labs, chronic care). Closing is expected before the end of 2026.",
-    "sector": "Wearables",
-    "url": "https://hitconsultant.net/2026/11/10/oura-acquires-counsel-health-625-million-ai-primary-care-biometric-intelligence/"
+    "company": "Charta Health",
+    "amount": "$55M",
+    "round": "Series B",
+    "thesis": "Insight Partners leads the Series B, joined by Madrona, Bain Capital Ventures, South Park Commons and newcomer QuantumLight. Charta uses AI to audit medical charts before billing, inside the EHR (Charta for Providers), and sells the same engine to payers for risk adjustment and audits: a bet on shared 'ground truth' between providers and payers, upstream of disputes rather than after them.",
+    "sector": "Clinical AI",
+    "url": "https://hitconsultant.net/2026/11/10/charta-health-raises-55-million-series-b-ai-medical-chart-review-insight-partners/"
   },
   "brefsEurope": [
-    { "company": "TeleClinic", "place": "Munich / Switzerland", "sector": "Telehealth", "pillar": "financement",
-      "signalType": "acquisition", "strength": 5,
-      "title": "DocMorris unit TeleClinic acquires Swiss telemedicine platform Medi24 from Allianz Partners",
-      "summary": "Medi24 (around 250 doctors, nurses and service staff) provides contractually guaranteed first-line telemedical access to more than 4.6 million insured people, roughly half of Switzerland's insured population. Enterprise value is in the low double-digit CHF million range and closing is expected in December 2026: the first step in TeleClinic's international rollout.",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/switzerland-docmorris-unit-teleclinic-acquires-telemedicine-provider-medi24-from-allianz-partners/" },
-    { "company": "Mayden", "place": "United Kingdom", "sector": "Health data", "pillar": "financement",
-      "signalType": "acquisition", "strength": 5,
-      "title": "G Square-backed Mayden acquires My Clinical Outcomes, a patient-reported outcomes platform",
-      "summary": "Founded in 2011 by a former NHS doctor, My Clinical Outcomes automates the collection and analysis of PROMs and PREMs that patients complete at home; it counts more than 200 hospitals, 3,000 clinicians and 180,000 patients. Terms were not disclosed; Mayden keeps building its platform after acquiring Ireland's Wellola.",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-mayden-acquires-patient-reported-outcomes-platform-provider-my-clinical-outcomes/" },
-    { "company": "Lyrebird Health", "place": "Barnsley", "sector": "Clinical AI", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 3,
-      "title": "Barnsley Hospital NHS FT awards Lyrebird Health an ambient voice contract running to February 2028",
-      "summary": "The contract covers ambient voice technology (AVT) licences in acute care from November 2026 to February 2028, following a pilot in outpatients and emergency care; funding arrangements allow further rollouts. Another trust win, just as Wales' DHCW abandoned its £10M AVT procurement for lack of compliant suppliers.",
-      "url": "https://htn.co.uk/2026/11/09/barnsley-hospital-nhs-awards-ambient-voice-contract/" },
-    { "company": "Digital Health and Care Wales", "place": "Wales", "sector": "Health data", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "Wales rolls out a national emergency care dataset and automates ambulance delay reporting",
-      "summary": "The Welsh Emergency Care Data Set, a mandated national standard, has been live at Aneurin Bevan since October 1 and should cover every health board by March 2027; a new cloud-first emergency care module replaces the legacy module of the Welsh PAS, starting in Powys. Ambulance handover delay data now flows automatically, seven days a week, into the national cloud platform.",
-      "url": "https://htn.co.uk/2026/11/10/dhcw-shares-new-dataset-and-automation-to-improve-use-of-urgent-and-emergency-care-data/" },
-    { "company": "South East Coast Ambulance Service", "place": "South East England", "sector": "Clinical AI", "pillar": "innovation",
-      "signalType": "conference_abstract", "strength": 1,
-      "title": "PARA-AI project: 83% of SECAmb paramedics would use AI in clinical practice with safeguards",
-      "summary": "A ten-month mixed-methods study (171 responses, 14 interviews): 96% want to keep the final decision, 92% want to help design the tools and 83% worry about over-reliance. The trust is also testing a wearable voice-operated device for electronic patient record documentation in the AT PACE project (50 participants in simulation).",
-      "url": "https://htn.co.uk/2026/11/09/south-east-coast-ambulance-service-presents-findings-from-para-ai-project-exploring-attitudes-toward-ai-in-pre-hospital-care/" },
-    { "company": "dEEGtal Insights", "place": "Switzerland", "sector": "Clinical AI", "pillar": "naissances",
-      "signalType": "conference_abstract", "strength": 1,
-      "title": "MEDICA 2026: dEEGtal Insights, Precisia Care and RegCheck among seven Swiss start-ups at the Start-up Park",
-      "summary": "At the Swiss pavilion of the Düsseldorf trade fair (November 16-19), three of the seven start-ups are pure software: dEEGtal Insights (AI that interprets EEG signals for epilepsy diagnosis), Precisia Care (predictive analytics on patient data) and RegCheck (AI compliance platform for manufacturers and certification bodies).",
-      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups" }
+    {
+      "company": "Sleep.ai",
+      "place": "Carlsbad",
+      "sector": "Connected health",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Sleep.ai (formerly SleepScore Labs) raises $5.3M from Treasure Coast Ventures, driven by its reimbursed programme in Germany",
+      "summary": "Its 'Dein Schlaf' programme, certified as prevention under Section 20 of Germany's Social Code Book V, is covered without a prescription for all 74 million statutory insurance members, with BARMER, AOK Niedersachsen, IKK Brandenburg und Berlin and BERGISCHE Krankenkasse; 25,000 active participants year to date. The platform normalises data from around 800 consumer wearables.",
+      "url": "https://hitconsultant.net/2026/11/11/sleep-ai-raises-5-3-million-real-world-sleep-data-german-reimbursement/"
+    },
+    {
+      "company": "Lancashire and South Cumbria NHS FT",
+      "place": "Lancashire",
+      "sector": "Clinical AI",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Lancashire and South Cumbria's Heidi pilot cuts out-of-hours clinical admin by 45%",
+      "summary": "In its 2025/26 digital report, the mental health trust says 78% of staff in the Heidi AI scribe pilot reported improved wellbeing; it is preparing a competitive ambient voice procurement (business case in November, completion targeted for March 2027). Its streamlined Rio EPR (15 core forms cut to five) is modelled to release about 26,700 clinical hours a year.",
+      "url": "https://htn.co.uk/2026/11/11/lancashire-and-south-cumbria-nhs-on-cloud-ai-eprs-copilot-cyber-security/"
+    },
+    {
+      "company": "Karolinska University Hospital",
+      "place": "Stockholm",
+      "sector": "Clinical AI",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Karolinska builds its AI governance around a Chief AI Officer and a national academy",
+      "summary": "Led by Chief AI Officer Joel Preger, the hospital is rolling out common guidelines and staff training through Health AI Academy Sweden, funded by the European Social Fund with Sweden's other university hospitals (SUHA). The region is preparing a new principal EHR and a shared data platform for the controlled deployment of AI.",
+      "url": "https://www.icthealth.org/news/karolinska-strengthens-ai-governance-and-staff-training"
+    },
+    {
+      "company": "Lincolnshire Partnership NHS FT",
+      "place": "Lincolnshire",
+      "sector": "Hospital software",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 1,
+      "title": "Lincolnshire's mental health trust surveys patients before rolling out its engagement portal",
+      "summary": "A survey ranks the features patients want (electronic appointments, secure messaging, carer access, letters in one place); the app, already connected to existing systems, will start in a few services. The trust relies on an EHR–ePMA integration engine from Interoperability Health (£77,273 until March 2028).",
+      "url": "https://htn.co.uk/2026/11/11/lincolnshire-partnership-seeks-input-from-service-users-on-functionality-for-new-patient-app/"
+    }
   ],
   "brefsIntl": [
-    { "company": "XRHealth", "place": "United States", "sector": "DTx", "pillar": "financement",
-      "signalType": "acquisition", "strength": 5,
-      "title": "XRHealth acquires PursueCare and picks up RESET and RESET-O, the digital therapeutics inherited from Pear",
-      "summary": "The immersive virtual care platform acquires PursueCare's addiction telehealth clinics and its two FDA-authorized prescription digital therapeutics (substance use and opioid use disorders). Terms were not disclosed: Pear's flagship DTx assets change hands again, a sign of consolidation in the category.",
-      "url": "https://hitconsultant.net/2026/11/09/xrhealth-acquires-pursuecare-virtual-addiction-treatment-reset-digital-therapeutics/" },
-    { "company": "Zus Health", "place": "United States", "sector": "Health data", "pillar": "financement",
-      "signalType": "funding_round", "strength": 4, "stage": "Series B",
-      "title": "Zus Health, founded by former athenahealth chief Jonathan Bush, raises a $33M Series B led by Drive Capital",
-      "summary": "Sanofi Ventures, HealthX Ventures and Alumni Ventures join a16z, F-Prime and Maverick; total funding now exceeds $100M. Zus aggregates patient data from multiple sources into a unified record and uses AI to generate source-linked chart summaries for risk adjustment and quality measures.",
-      "url": "https://hitconsultant.net/2026/11/10/zus-health-raises-33-million-series-b-connected-healthcare-ai-platform/" },
-    { "company": "Google Cloud", "place": "United States", "sector": "Clinical AI", "pillar": "innovation",
-      "signalType": "early_partnership", "strength": 3,
-      "title": "Google Cloud previews Gemini for Healthcare, an agent orchestration layer for health systems and payers",
-      "summary": "Pre-configured skills (longitudinal chart synthesis, pre-visit chart prep, medical necessity review) and around 25 connectors, including Epic, Oracle Health, InterSystems, BMJ Digital Health and Suki. A US-only preview: hyperscalers are positioning themselves as the agentic layer above the EHR, with direct stakes for the European start-ups that plug into it.",
-      "url": "https://hitconsultant.net/2026/11/10/google-cloud-launches-gemini-for-healthcare-agentic-orchestration-layer/" }
+    {
+      "company": "Maven Clinic",
+      "place": "United States",
+      "sector": "Femtech",
+      "pillar": "marche",
+      "signalType": "reimbursement",
+      "strength": 3,
+      "title": "Maven's virtual clinic goes in-network with more than 475 health plans, about 80% of commercially insured lives",
+      "summary": "Aetna, UnitedHealthcare and Blue Cross Blue Shield are among them: perimenopause, menopause and hormone care visits are covered at launch, with OB-GYNs and nutritionists to follow. The women's health leader, until now sold mainly through employers, opens a direct payer channel.",
+      "url": "https://medcitynews.com/2026/11/maven-clinics-virtual-care-clinic-goes-in-network-with-475-plans/"
+    },
+    {
+      "company": "Inovalon",
+      "place": "United States",
+      "sector": "Hospital software",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Nordic Capital-backed Inovalon agrees to acquire e-prescribing specialist DrFirst",
+      "summary": "DrFirst, founded more than 25 years ago by James F. Chen, connects to more than 270 EHR interfaces; the combined group claims 71,000 pharmacies and 670,000 providers. Price undisclosed: the Swedish fund's portfolio company joins payer data with point-of-prescribing workflows.",
+      "url": "https://hitconsultant.net/2026/11/11/inovalon-acquires-drfirst-real-time-prescribing-clinical-workflow-ai/"
+    },
+    {
+      "company": "PulsePoint Foundation",
+      "place": "Canada / United States",
+      "sector": "Digital Health",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 1,
+      "title": "Randomised trial: alerting volunteer responders via the PulsePoint app does not improve cardiac arrest response",
+      "summary": "Across 355 public-location cardiac arrests (17,547 calls randomised from 2021 to 2026), bystander CPR or AED use reached 69% with alerts versus 72% without, and survival stayed around 21% in both arms. Preliminary results presented at the AHA Resuscitation Science Symposium, not yet peer-reviewed.",
+      "url": "https://www.icthealth.org/news/cpr-alert-app-fails-to-improve-emergency-response-in-trial"
+    }
   ],
   "word": {
-    "term": "PROMs",
-    "full": "Patient-Reported Outcome Measures",
-    "fr": "Patient-reported outcome questionnaires",
-    "field": "Health data / quality of care",
-    "definition": "Standardised, validated questionnaires in which patients rate their own health, symptoms and quality of life before and after care, to measure what a treatment actually changed for them.",
+    "term": "dCBT",
+    "full": "Digital Cognitive Behavioural Therapy",
+    "fr": "Digital cognitive behavioural therapy",
+    "field": "Mental health / digital therapeutics",
+    "definition": "An online programme or app that delivers the validated techniques of cognitive behavioural therapy (for insomnia, anxiety, depression) session by session, either self-guided or backed by a clinician.",
     "parts": [
-      { "label": "Validated questionnaire", "role": "the instrument (generic or disease-specific)" },
-      { "label": "Digital collection", "role": "the channel (tablet, smartphone, at home)" },
-      { "label": "Dashboard and alerts", "role": "the feedback loop to the care team and registries" }
+      {
+        "label": "CBT protocol",
+        "role": "the clinical content (exercises, cognitive restructuring, sleep restriction)"
+      },
+      {
+        "label": "Digital engine",
+        "role": "personalisation and tracking (diary, questionnaires, conversational AI)"
+      },
+      {
+        "label": "Supervision and prescription",
+        "role": "the link to the care system (doctor, psychologist, reimbursement)"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Baseline", "t": "The patient fills in a generic quality-of-life questionnaire and a disease-specific one, on a hospital tablet or their own device." },
-      { "n": "2", "h": "Automated follow-up", "t": "The platform prompts the patient at set intervals after care; in oncology, weekly questionnaires can trigger an alert to the team when a significant symptom appears." },
-      { "n": "3", "h": "Use of the data", "t": "Scores are compared before and after treatment, across patients and across providers, and feed registries and national quality programmes." }
+      {
+        "n": "1",
+        "h": "Referral",
+        "t": "The patient is referred by a doctor, insurer or psychological therapy service, or self-refers; an initial questionnaire measures symptoms."
+      },
+      {
+        "n": "2",
+        "h": "Guided sessions",
+        "t": "Over several weeks, the app delivers structured modules and daily exercises (sleep diary, exposure, reframing thoughts), adapted to the patient's answers."
+      },
+      {
+        "n": "3",
+        "h": "Measurement and handover",
+        "t": "Regular scores track progress; a psychologist or support AI helps between sessions, and more severe cases are escalated to human care."
+      }
     ],
-    "why": "PROMs are the measurement layer of value-based care: the NHS has collected them since 2009, Germany's Federal Joint Committee (G-BA) has recommended rolling them out in routine hip and knee replacement care, and in France oncology remote monitoring based on patient-reported symptoms is on the LATM list. Platforms that industrialise collection and EHR integration are becoming consolidation targets, as Mayden's acquisition of My Clinical Outcomes, reported on November 10, shows.",
+    "why": "dCBT is the most advanced digital therapeutics category in terms of market access: NICE recommends Sleepio as a cost-saving option for insomnia, Germany reimburses several HelloBetter programmes as DiGA, and in 2025 the US created Medicare codes for FDA-cleared digital mental health treatments. With generative AI, the frontier is moving to conversational companions that support patients between sessions, hence the ongoing consolidation (Elomia's acquisition of Earkick, reported on November 10).",
     "startups": [
-      { "name": "Heartbeat Medical", "use": "CE-marked PROMs platform; won the hospital-wide rollout at Charité (up to 800,000 patients a year)", "place": "Berlin, Germany" },
-      { "name": "Amplitude Clinical Outcomes", "use": "Electronic PROMs collection for NHS hospitals and orthopaedic registries, with automated registry uploads", "place": "United Kingdom" },
-      { "name": "Resilience Care", "use": "Resilience PRO, a Class IIa software medical device for remote monitoring of symptoms reported by cancer patients, in the RC-102 randomised trial", "place": "Paris, France" }
+      {
+        "name": "Big Health",
+        "use": "Sleepio and Daylight, digital CBT for insomnia and anxiety; Sleepio recommended by NICE, SleepioRx and DaylightRx cleared by the FDA; raised $23.7M in February 2026",
+        "place": "San Francisco / London"
+      },
+      {
+        "name": "HelloBetter",
+        "use": "Prescription online therapy programmes reimbursed in Germany (Schlafen, Panik, Stress und Burnout, Diabetes…), backed by 30 clinical studies and more than 140,000 participants",
+        "place": "Hamburg, Germany"
+      },
+      {
+        "name": "Limbic",
+        "use": "Limbic Care, an AI companion delivering CBT tools between sessions in NHS Talking Therapies services, 45% of which already use Limbic; Limbic Access carries a UKCA Class IIa mark",
+        "place": "London, UK"
+      }
     ],
     "sources": [
-      { "publisher": "NHS England", "title": "Patient Reported Outcome Measures (PROMs) guide", "url": "https://www.england.nhs.uk/wp-content/uploads/2018/08/proms-guide-aug-18-v3.pdf" },
-      { "publisher": "Heartbeat Medical", "title": "Charité – University Hospital Berlin opts for full integration of patient-reported outcome measurements with Heartbeat Medical", "url": "https://heartbeat-med.com/resources/charite-berlin-opts-for-full-integration-of-proms-with-heartbeat-medical" },
-      { "publisher": "INAMI", "title": "Résumé demande Resilience PRO", "url": "https://www.inami.fgov.be/SiteCollectionDocuments/resume_demande_resilience_pro_samenvatting_aanvraag_resilience_pro.pdf" },
-      { "publisher": "Heartbeat Medical", "title": "PROMs in Routine Arthroplasty Care: Better Outcomes for Patients and up to 100 Million Euros in Cost Savings annually", "url": "https://heartbeat-med.com/resources/proms-in-routine-arthroplasty-care-better-outcomes-for-patients-and-up-to-100-million-euros-in-cost-savings-annually/" }
+      {
+        "publisher": "NICE",
+        "title": "Sleepio to treat insomnia and insomnia symptoms (HealthTech guidance 624)",
+        "url": "https://www.nice.org.uk/guidance/htg624"
+      },
+      {
+        "publisher": "Big Health",
+        "title": "Big Health Secures Funding to Accelerate Adoption of Digital Mental Health Treatments",
+        "url": "https://www.bighealth.com/news/big-health-secures-funding-to-accelerate-adoption-of-digital-mental-health-treatments"
+      },
+      {
+        "publisher": "HelloBetter",
+        "title": "Dein kostenfreies Online-Therapieprogramm auf Rezept",
+        "url": "https://hellobetter.de/"
+      },
+      {
+        "publisher": "Limbic",
+        "title": "Limbic for NHS Talking Therapies",
+        "url": "https://limbic.ai/nhs-talking-therapies"
+      }
     ]
   }
 }

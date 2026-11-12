@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-12",
   "words": [
     {
+      "term": "dCBT",
+      "full": "Digital Cognitive Behavioural Therapy (thérapie cognitivo-comportementale numérique)",
+      "fr": "Thérapie cognitivo-comportementale numérique",
+      "field": "Santé mentale / thérapeutiques numériques",
+      "definition": "Un programme en ligne ou une appli qui délivre, séance après séance, les techniques validées de la thérapie cognitivo-comportementale (contre l'insomnie, l'anxiété, la dépression), en autonomie ou avec un soignant en appui.",
+      "parts": [
+        {
+          "label": "Protocole TCC",
+          "role": "le contenu clinique (exercices, restructuration des pensées, restriction de sommeil)"
+        },
+        {
+          "label": "Moteur numérique",
+          "role": "la personnalisation et le suivi (journal, questionnaires, IA conversationnelle)"
+        },
+        {
+          "label": "Supervision et prescription",
+          "role": "le lien au système de soins (médecin, psychologue, remboursement)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Orientation",
+          "t": "Le patient est adressé par son médecin, son assureur ou un service de psychothérapie, ou s'inscrit lui-même ; un questionnaire initial mesure ses symptômes."
+        },
+        {
+          "n": "2",
+          "h": "Séances guidées",
+          "t": "Sur plusieurs semaines, l'appli déroule des modules structurés et des exercices quotidiens (agenda du sommeil, exposition, recadrage des pensées), adaptés aux réponses saisies."
+        },
+        {
+          "n": "3",
+          "h": "Mesure et relais",
+          "t": "Des scores réguliers suivent l'évolution ; un psychologue ou une IA de soutien accompagne entre les séances, et les cas plus sévères sont renvoyés vers une prise en charge humaine."
+        }
+      ],
+      "why": "La dCBT est la catégorie de thérapeutique numérique la plus avancée en accès au marché : le NICE recommande Sleepio comme option économique contre l'insomnie, l'Allemagne rembourse plusieurs programmes de HelloBetter comme DiGA, et les États-Unis ont créé en 2025 des codes Medicare pour les traitements numériques de santé mentale autorisés par la FDA. Avec l'IA générative, la frontière se déplace vers des compagnons conversationnels capables d'accompagner entre les séances, d'où la consolidation en cours (rachat d'Earkick par Elomia, rapporté le 10 novembre).",
+      "startups": [
+        {
+          "name": "Big Health",
+          "use": "Sleepio et Daylight, TCC numériques contre l'insomnie et l'anxiété ; Sleepio recommandé par le NICE, SleepioRx et DaylightRx autorisés par la FDA ; 23,7 M$ levés en février 2026",
+          "place": "San Francisco / Londres"
+        },
+        {
+          "name": "HelloBetter",
+          "use": "Programmes de thérapie en ligne sur prescription remboursés en Allemagne (Schlafen, Panik, Stress und Burnout, Diabetes…), étayés par 30 études cliniques, plus de 140 000 participants",
+          "place": "Hambourg, Allemagne"
+        },
+        {
+          "name": "Limbic",
+          "use": "Limbic Care, compagnon IA qui délivre des outils de TCC entre les séances dans les services NHS Talking Therapies, dont 45 % ont déjà recours à Limbic ; Limbic Access est marqué UKCA classe IIa",
+          "place": "Londres, Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NICE",
+          "title": "Sleepio to treat insomnia and insomnia symptoms (HealthTech guidance 624)",
+          "url": "https://www.nice.org.uk/guidance/htg624"
+        },
+        {
+          "publisher": "Big Health",
+          "title": "Big Health Secures Funding to Accelerate Adoption of Digital Mental Health Treatments",
+          "url": "https://www.bighealth.com/news/big-health-secures-funding-to-accelerate-adoption-of-digital-mental-health-treatments"
+        },
+        {
+          "publisher": "HelloBetter",
+          "title": "Dein kostenfreies Online-Therapieprogramm auf Rezept",
+          "url": "https://hellobetter.de/"
+        },
+        {
+          "publisher": "Limbic",
+          "title": "Limbic for NHS Talking Therapies",
+          "url": "https://limbic.ai/nhs-talking-therapies"
+        }
+      ],
+      "date": "2026-11-12",
+      "dateLong": "12 nov. 2026"
+    },
+    {
       "term": "Dark Genome",
       "full": "Dark Genome (génome sombre)",
       "fr": "Génome sombre",

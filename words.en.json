@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-12",
   "words": [
     {
+      "term": "dCBT",
+      "full": "Digital Cognitive Behavioural Therapy",
+      "fr": "Digital cognitive behavioural therapy",
+      "field": "Mental health / digital therapeutics",
+      "definition": "An online programme or app that delivers the validated techniques of cognitive behavioural therapy (for insomnia, anxiety, depression) session by session, either self-guided or backed by a clinician.",
+      "parts": [
+        {
+          "label": "CBT protocol",
+          "role": "the clinical content (exercises, cognitive restructuring, sleep restriction)"
+        },
+        {
+          "label": "Digital engine",
+          "role": "personalisation and tracking (diary, questionnaires, conversational AI)"
+        },
+        {
+          "label": "Supervision and prescription",
+          "role": "the link to the care system (doctor, psychologist, reimbursement)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Referral",
+          "t": "The patient is referred by a doctor, insurer or psychological therapy service, or self-refers; an initial questionnaire measures symptoms."
+        },
+        {
+          "n": "2",
+          "h": "Guided sessions",
+          "t": "Over several weeks, the app delivers structured modules and daily exercises (sleep diary, exposure, reframing thoughts), adapted to the patient's answers."
+        },
+        {
+          "n": "3",
+          "h": "Measurement and handover",
+          "t": "Regular scores track progress; a psychologist or support AI helps between sessions, and more severe cases are escalated to human care."
+        }
+      ],
+      "why": "dCBT is the most advanced digital therapeutics category in terms of market access: NICE recommends Sleepio as a cost-saving option for insomnia, Germany reimburses several HelloBetter programmes as DiGA, and in 2025 the US created Medicare codes for FDA-cleared digital mental health treatments. With generative AI, the frontier is moving to conversational companions that support patients between sessions, hence the ongoing consolidation (Elomia's acquisition of Earkick, reported on November 10).",
+      "startups": [
+        {
+          "name": "Big Health",
+          "use": "Sleepio and Daylight, digital CBT for insomnia and anxiety; Sleepio recommended by NICE, SleepioRx and DaylightRx cleared by the FDA; raised $23.7M in February 2026",
+          "place": "San Francisco / London"
+        },
+        {
+          "name": "HelloBetter",
+          "use": "Prescription online therapy programmes reimbursed in Germany (Schlafen, Panik, Stress und Burnout, Diabetes…), backed by 30 clinical studies and more than 140,000 participants",
+          "place": "Hamburg, Germany"
+        },
+        {
+          "name": "Limbic",
+          "use": "Limbic Care, an AI companion delivering CBT tools between sessions in NHS Talking Therapies services, 45% of which already use Limbic; Limbic Access carries a UKCA Class IIa mark",
+          "place": "London, UK"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NICE",
+          "title": "Sleepio to treat insomnia and insomnia symptoms (HealthTech guidance 624)",
+          "url": "https://www.nice.org.uk/guidance/htg624"
+        },
+        {
+          "publisher": "Big Health",
+          "title": "Big Health Secures Funding to Accelerate Adoption of Digital Mental Health Treatments",
+          "url": "https://www.bighealth.com/news/big-health-secures-funding-to-accelerate-adoption-of-digital-mental-health-treatments"
+        },
+        {
+          "publisher": "HelloBetter",
+          "title": "Dein kostenfreies Online-Therapieprogramm auf Rezept",
+          "url": "https://hellobetter.de/"
+        },
+        {
+          "publisher": "Limbic",
+          "title": "Limbic for NHS Talking Therapies",
+          "url": "https://limbic.ai/nhs-talking-therapies"
+        }
+      ],
+      "date": "2026-11-12",
+      "dateLong": "Nov 12, 2026"
+    },
+    {
       "term": "Dark Genome",
       "full": "Dark Genome",
       "fr": "Dark genome",
