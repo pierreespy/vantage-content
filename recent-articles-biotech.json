@@ -2,6 +2,66 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-12",
+      "company": "VectorY Therapeutics",
+      "title": "VectorY (Amsterdam) lève 74,5 M€ pour son anticorps vectorisé anti-TDP-43, en phase 1/2 dans la SLA",
+      "url": "https://european-biotechnology.com/latest-news/vectory-secures-e74-5m-to-advance-als-gene-therapy-trial/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Epitopea",
+      "title": "Epitopea dose la première patiente de l'essai OVACT de son vaccin ARN CryptiVax-1001 dans le cancer de l'ovaire",
+      "url": "https://www.epitopea.com/epitopea-announces-first-patient-dosed-in-ovact-phase-1-1b-clinical-trial-of-cryptivax-1001-in-advanced-high-grade-serous-ovarian-cancer/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Switchpoint Bio",
+      "title": "Switchpoint Bio sort de l'ombre avec 5,3 M$ en pre-seed pour prédire la réponse aux médicaments par l'épigénome",
+      "url": "https://tech.eu/2026/11/11/why-do-some-patients-respond-to-drugs-and-others-dont-switchpoint-bio-raises-53m-to-find-out/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Herantis Pharma",
+      "title": "Horizon Europe finance à hauteur de 8 M€ le projet HERMOD autour de la phase 2 de HER-096 dans Parkinson",
+      "url": "https://nordiclifescience.org/eu-funded-project-launches-to-back-herantis-phase-2-parkinsons-trial/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Circio",
+      "title": "Circio associe son ARN circulaire circVec à la capside cardiaque de Solid Biosciences pour réduire les doses d'AAV",
+      "url": "https://nordiclifescience.org/circio-and-solid-biosciences-test-circular-rna-in-heart-gene-therapy/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "AAX Biotech",
+      "title": "AAX Biotech et Discovery Evolution s'allient pour concevoir des anticorps bispécifiques contre des cibles membranaires difficiles",
+      "url": "https://nordiclifescience.org/aax-biotech-and-discovery-evolution-team-up-on-bispecific-cancer-antibodies/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Orexo",
+      "title": "Orexo teste avec SVF Vaccines une version en poudre des vaccins ARN encapsulés en LNP",
+      "url": "https://nordiclifescience.org/orexo-to-test-powder-formulation-of-mrna-vaccines-with-svf-vaccines/"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Redalpine",
+      "title": "Redalpine boucle à 250 M$ son huitième fonds early-stage, biotech comprise",
+      "url": "https://startupticker.ch/en/news/redalpine-closes-oversubscribed-250m-early-stage-fund"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Bayer",
+      "title": "Bayer obtient l'approbation FDA de Sunharbo (asundexian), premier inhibiteur oral du facteur XIa",
+      "url": "https://www.biospace.com/drug-development/bayer-wins-first-in-class-fda-nod-for-blood-thinner-setting-stage-for-bms-j-j-rival"
+    },
+    {
+      "date": "2026-11-12",
+      "company": "Omniose",
+      "title": "AstraZeneca rachète Omniose, spécialiste des vaccins bioconjugués antibactériens",
+      "url": "https://www.pharmaceutical-technology.com/news/astrazeneca-omniose-acquisition-bacterial-infection/"
+    },
+    {
       "date": "2026-11-11",
       "company": "SRTD Biotech",
       "title": "SRTD (Jülich) lève 31,5 M€ en seed, menés par Mérieux Equity Partners, pour des ARN qui ne s'activent que dans les cellules malades",
@@ -258,30 +318,6 @@
       "company": "Elicera Therapeutics",
       "title": "Le cofondateur d'Elicera obtient 4 M SEK du Conseil suédois de la recherche pour des CAR-T plus durables",
       "url": "https://nordiclifescience.org/elicera-co-founder-awarded-sek-4-million-for-car-t-research/"
-    },
-    {
-      "date": "2026-10-28",
-      "company": "Atlas Bio",
-      "title": "Atlas Bio sort de l'ombre à Bâle avec 12,5 M$ (seed mené par Creandum) pour simuler la réponse des patients et alléger les essais de phase 2",
-      "url": "https://european-biotechnology.com/latest-news/atlas-bio-launches-with-12-5m-to-eliminate-animal-testing-and-simulate-phase-2-trials/"
-    },
-    {
-      "date": "2026-10-28",
-      "company": "Immatics",
-      "title": "Immatics présente à l'ESMO 2026 ses données PRAME : 25 % de réponses confirmées pour l'engager IMA402, 41 % pour la TCR-T IMA203CD8",
-      "url": "https://european-biotechnology.com/latest-news/immatics-shows-off-its-prame-bispecific-data-at-esmo-2026/"
-    },
-    {
-      "date": "2026-10-28",
-      "company": "Gameto",
-      "title": "Gameto · M&A",
-      "url": "https://european-biotechnology.com/latest-news/ferring-to-buy-fertility-biotech-gameto-for-up-to-1-38-billion/"
-    },
-    {
-      "date": "2026-10-28",
-      "company": "CasZyme",
-      "title": "CasZyme s'associe à Cirena pour optimiser ses guides ARN longs avec la nucléase Cas12l",
-      "url": "https://www.pharmafocuseurope.com/pressreleases/caszyme-and-cirena-to-collaborate"
     }
   ]
 }

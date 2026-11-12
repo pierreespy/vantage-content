@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-12",
   "words": [
     {
+      "term": "Dark Genome",
+      "full": "Dark Genome",
+      "fr": "Dark genome",
+      "field": "Target discovery and immuno-oncology",
+      "definition": "The large share of our DNA long written off as \"junk\" (repeated sequences, viral remnants, hidden reading frames) which, when reawakened in tumours or autoimmune disease, supplies new drug targets.",
+      "parts": [
+        {
+          "label": "Endogenous retroviruses (HERVs)",
+          "role": "the viral fossils: at least 8% of the genome, normally kept silent"
+        },
+        {
+          "label": "Repeat elements (LINE-1…)",
+          "role": "the \"repeatome\": mobile sequences that can trigger inflammation"
+        },
+        {
+          "label": "Alternative reading frames",
+          "role": "the hidden proteins: fragments translated outside classic genes, such as DARKFOX within FOXM1"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Reawakening",
+          "t": "In a cancer cell, the DNA methylation and histone marks that lock these sequences go awry, and HERVs and other elements are transcribed again."
+        },
+        {
+          "n": "2",
+          "h": "Presentation",
+          "t": "Their products are translated, cut into peptides and displayed on the tumour surface by MHC class I, making them antigens that healthy tissue lacks."
+        },
+        {
+          "n": "3",
+          "h": "Targeting",
+          "t": "These antigens become targets for a vaccine, a T-cell engager or engineered T cells; conversely, blocking an enzyme such as LINE-1 reverse transcriptase aims to switch off autoimmune inflammation."
+        }
+      ],
+      "why": "Classic targets are crowded; the dark genome offers tumour-specific antigens shared across patients, suited to off-the-shelf products. Pharma pays for access (Boehringer Ingelheim's licences from Enara Bio) and Epitopea has just entered the clinic. Due diligence watch-point: mass spectrometry proof that the antigen is truly presented on tumours, and absent from healthy tissue.",
+      "startups": [
+        {
+          "name": "Epitopea",
+          "use": "CryptoMap platform that finds dark-genome tumour antigens (\"Cryptigens\"); first patient dosed in November 2026 in the Phase 1/1b OVACT trial of its RNA vaccine CryptiVax-1001 (ovarian cancer).",
+          "place": "Cambridge, UK"
+        },
+        {
+          "name": "Enara Bio",
+          "use": "EDAPT \"Dark Antigen\" platform; Boehringer Ingelheim has licensed several of its targets, and its T-cell engager ENA101 (targeting DARKFOX, derived from FOXM1) is preparing to enter the clinic.",
+          "place": "Oxford, UK"
+        },
+        {
+          "name": "ROME Therapeutics",
+          "use": "Mines the \"repeatome\": a LINE-1 reverse transcriptase inhibitor for lupus; nearly $200M raised since 2020, with J&J and BMS joining in 2023.",
+          "place": "Cambridge (MA), USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Frontiers in Cellular and Infection Microbiology",
+          "title": "Mechanistic regulation of HERV activation in tumors and implications for translational research in oncology",
+          "url": "https://frontiersin.org/articles/10.3389/fcimb.2024.1358470/full"
+        },
+        {
+          "publisher": "BioSpace (Enara Bio press release)",
+          "title": "Enara Bio Enters 2026 with Dark Antigen Licensing to Boehringer Ingelheim, Appointment of Chief Medical Officer and Plans to Advance DARKFOX T-cell Engager into First-in-Human Studies",
+          "url": "https://www.biospace.com/press-releases/enara-bio-enters-2026-with-dark-antigen-licensing-to-boehringer-ingelheim-appointment-of-chief-medical-officer-and-plans-to-advance-darkfox-t-cell-engager-into-first-in-human-studies"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "With latest fundraise, Rome Therapeutics works to drug the 'dark genome'",
+          "url": "https://www.biopharmadive.com/news/rome-rosana-kapeller-series-b-dark-genome/693272/"
+        },
+        {
+          "publisher": "Epitopea",
+          "title": "Epitopea Announces First Patient Dosed in OVACT Phase 1/1b Clinical Trial of CryptiVax-1001 in Advanced High-Grade Serous Ovarian Cancer",
+          "url": "https://www.epitopea.com/epitopea-announces-first-patient-dosed-in-ovact-phase-1-1b-clinical-trial-of-cryptivax-1001-in-advanced-high-grade-serous-ovarian-cancer/"
+        }
+      ],
+      "date": "2026-11-12",
+      "dateLong": "Nov 12, 2026"
+    },
+    {
       "term": "IDE",
       "full": "Investigational Device Exemption",
       "fr": "Investigational device exemption",
