@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-13",
   "words": [
     {
+      "term": "PAM",
+      "full": "Positive Allosteric Modulator",
+      "fr": "Positive allosteric modulator",
+      "field": "Pharmacology and neuroscience",
+      "definition": "A molecule that binds a receptor at a different spot from its natural messenger and, without activating it on its own, amplifies the response when that messenger is present — like a volume knob rather than an on/off switch.",
+      "parts": [
+        {
+          "label": "Orthosteric site",
+          "role": "the main lock, where the natural messenger binds (acetylcholine, glutamate, GABA)"
+        },
+        {
+          "label": "Allosteric site",
+          "role": "the control dial: a separate pocket, less conserved from one receptor subtype to another"
+        },
+        {
+          "label": "Modulator (PAM)",
+          "role": "the tuner: it makes the receptor more sensitive or more effective in response to the natural messenger"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Binding",
+          "t": "The PAM settles into the allosteric site and stabilises a more responsive form of the receptor, without triggering a signal by itself."
+        },
+        {
+          "n": "2",
+          "h": "Amplification",
+          "t": "When the natural messenger arrives, the response is stronger: the timing and location of the physiological signal are preserved, since nothing happens in its absence."
+        },
+        {
+          "n": "3",
+          "h": "Ceiling",
+          "t": "Once all allosteric sites are occupied, the effect stops increasing: this \"ceiling effect\" limits overdose risk, and the less conserved site makes it possible to target a single receptor subtype."
+        }
+      ],
+      "why": "Benzodiazepines are the historic PAMs of the GABA-A receptor; the new generation aims for selectivity to avoid sedation and side effects. The success of Cobenfy (Karuna, acquired by BMS) has revived neuropsychiatry, and investors are funding PAMs for specific receptors: Neurosterix raises $105M for its M4 PAM, Draig has raised $205M for its AMPA PAM. Due-diligence watch point: structure-activity relationships are often \"flat\" and small chemical changes can flip the effect (a PAM turning into a NAM).",
+      "startups": [
+        {
+          "name": "Neurosterix",
+          "use": "Addex spin-off; NTX-253, an oral PAM of the muscarinic M4 receptor for schizophrenia, moves into Phase 2 after a $105M Series B led by RTW Investments (November 2026).",
+          "place": "Geneva, Switzerland"
+        },
+        {
+          "name": "Draig Therapeutics",
+          "use": "DT-101, an oral AMPA receptor PAM, in Phase 2 in major depressive disorder (results expected in 2027); $205M raised, including a $65M Series B led by Deep Track Capital in July 2026.",
+          "place": "Cardiff, UK"
+        },
+        {
+          "name": "Engrail Therapeutics",
+          "use": "ENX-102, a GABA-A receptor PAM selective for the α2/α3/α5 subunits (sparing α1, which drives sedation), in Phase 2 in generalised anxiety disorder.",
+          "place": "San Diego, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Annual Review of Pharmacology and Toxicology (PMC)",
+          "title": "Drugs for Allosteric Sites on Receptors",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063350"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Addex spinout Neurosterix raises $105M to advance schizophrenia drug into Phase 2",
+          "url": "https://european-biotechnology.com/latest-news/addex-spinout-neurosterix-raises-105m-to-advance-schizophrenia-drug-into-phase-2/"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Draig raises $65M Series B as depression trials advance",
+          "url": "https://european-biotechnology.com/latest-news/draig-raises-65m-series-b-as-depression-trials-advance/"
+        },
+        {
+          "publisher": "Engrail Therapeutics",
+          "title": "ENX-102",
+          "url": "https://www.engrail.com/enx-102/"
+        }
+      ],
+      "date": "2026-11-13",
+      "dateLong": "Nov 13, 2026"
+    },
+    {
       "term": "ESD",
       "full": "Endoscopic Submucosal Dissection",
       "fr": "Endoscopic submucosal dissection",

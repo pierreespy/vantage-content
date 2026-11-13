@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-13",
   "words": [
     {
+      "term": "PAM",
+      "full": "Positive Allosteric Modulator (modulateur allostérique positif)",
+      "fr": "Modulateur allostérique positif",
+      "field": "Pharmacologie et neurosciences",
+      "definition": "Une molécule qui se fixe sur un récepteur à un autre endroit que son messager naturel et, sans l'activer elle-même, amplifie la réponse quand ce messager est présent — comme un bouton de volume plutôt qu'un interrupteur.",
+      "parts": [
+        {
+          "label": "Site orthostérique",
+          "role": "la serrure principale, où se fixe le messager naturel (acétylcholine, glutamate, GABA)"
+        },
+        {
+          "label": "Site allostérique",
+          "role": "la poignée de réglage : une poche distincte, moins conservée d'un sous-type de récepteur à l'autre"
+        },
+        {
+          "label": "Modulateur (PAM)",
+          "role": "le régleur : il rend le récepteur plus sensible ou plus efficace face au messager naturel"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Fixation",
+          "t": "Le PAM se loge dans le site allostérique et stabilise une forme du récepteur plus réceptive, sans déclencher de signal à lui seul."
+        },
+        {
+          "n": "2",
+          "h": "Amplification",
+          "t": "Quand le messager naturel arrive, la réponse est plus forte : le rythme et la localisation du signal physiologique sont respectés, puisque rien ne se passe en son absence."
+        },
+        {
+          "n": "3",
+          "h": "Plafond",
+          "t": "Une fois tous les sites allostériques occupés, l'effet n'augmente plus : cet « effet plafond » limite le risque de surdosage, et la moindre conservation du site permet de viser un seul sous-type de récepteur."
+        }
+      ],
+      "why": "Les benzodiazépines sont des PAM historiques du récepteur GABA-A ; la nouvelle génération vise la sélectivité pour éviter sédation et effets secondaires. Le succès de Cobenfy (Karuna, rachetée par BMS) a relancé la neuropsychiatrie, et les investisseurs financent des PAM de récepteurs précis : Neurosterix lève 105 M$ pour son PAM M4, Draig a levé 205 M$ pour son PAM AMPA. Point de vigilance en due diligence : les relations structure-activité sont souvent « plates » et de petites modifications chimiques peuvent inverser l'effet (PAM devenant NAM).",
+      "startups": [
+        {
+          "name": "Neurosterix",
+          "use": "Spin-off d'Addex ; NTX-253, PAM oral du récepteur muscarinique M4 contre la schizophrénie, entre en phase 2 après une Series B de 105 M$ menée par RTW Investments (novembre 2026).",
+          "place": "Genève, Suisse"
+        },
+        {
+          "name": "Draig Therapeutics",
+          "use": "DT-101, PAM oral du récepteur AMPA, en phase 2 dans la dépression majeure (résultats attendus en 2027) ; 205 M$ levés dont une Series B de 65 M$ menée par Deep Track Capital en juillet 2026.",
+          "place": "Cardiff, Royaume-Uni"
+        },
+        {
+          "name": "Engrail Therapeutics",
+          "use": "ENX-102, PAM du récepteur GABA-A sélectif des sous-unités α2/α3/α5 (épargnant α1, responsable de la sédation), en phase 2 dans le trouble anxieux généralisé.",
+          "place": "San Diego, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Annual Review of Pharmacology and Toxicology (PMC)",
+          "title": "Drugs for Allosteric Sites on Receptors",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4063350"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Addex spinout Neurosterix raises $105M to advance schizophrenia drug into Phase 2",
+          "url": "https://european-biotechnology.com/latest-news/addex-spinout-neurosterix-raises-105m-to-advance-schizophrenia-drug-into-phase-2/"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "Draig raises $65M Series B as depression trials advance",
+          "url": "https://european-biotechnology.com/latest-news/draig-raises-65m-series-b-as-depression-trials-advance/"
+        },
+        {
+          "publisher": "Engrail Therapeutics",
+          "title": "ENX-102",
+          "url": "https://www.engrail.com/enx-102/"
+        }
+      ],
+      "date": "2026-11-13",
+      "dateLong": "13 nov. 2026"
+    },
+    {
       "term": "ESD",
       "full": "Endoscopic Submucosal Dissection (dissection sous-muqueuse endoscopique)",
       "fr": "Dissection sous-muqueuse endoscopique",
