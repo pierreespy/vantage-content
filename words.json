@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-12",
+  "generatedAt": "2026-11-13",
   "words": [
+    {
+      "term": "ESD",
+      "full": "Endoscopic Submucosal Dissection (dissection sous-muqueuse endoscopique)",
+      "fr": "Dissection sous-muqueuse endoscopique",
+      "field": "Endoscopie thérapeutique / gastro-entérologie",
+      "definition": "Une technique qui retire d'un seul bloc une lésion cancéreuse ou précancéreuse du tube digestif en la « décollant » de la paroi par l'intérieur, avec un endoscope, sans incision ni ablation d'organe.",
+      "parts": [
+        {
+          "label": "Endoscope",
+          "role": "l'accès par les voies naturelles"
+        },
+        {
+          "label": "Couteau électrique",
+          "role": "la découpe sous la muqueuse"
+        },
+        {
+          "label": "Traction / fermeture",
+          "role": "l'exposition du plan et la suture"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Marquage & injection",
+          "t": "On délimite la lésion puis on injecte un liquide sous la muqueuse pour la soulever de la couche musculaire."
+        },
+        {
+          "n": "2",
+          "h": "Incision & dissection",
+          "t": "Un couteau électrique incise autour de la lésion puis la décolle progressivement, plan par plan, sous vision endoscopique."
+        },
+        {
+          "n": "3",
+          "h": "Retrait en bloc",
+          "t": "La lésion sort entière (en bloc), ce qui permet une analyse fiable des marges ; la paroi est refermée si besoin."
+        }
+      ],
+      "why": "L'ESD évite à certains patients une chirurgie lourde (ablation d'une partie du côlon ou de l'estomac), mais reste longue et difficile, donc peu pratiquée en Occident. Deux verrous sautent : le remboursement (nouveaux codes CPT américains effectifs en 2027) et la difficulté technique, que des plateformes robotisées et des dispositifs de traction veulent rendre accessible à plus d'endoscopistes. Un marché d'outils et de robots d'endoscopie qui s'ouvre.",
+      "startups": [
+        {
+          "name": "EndoQuest Robotics",
+          "use": "Robot endoluminal ELS : essai pivot IDE PARADIGM bouclé sur 50 ESD colorectales robotisées, en vue d'une demande De Novo",
+          "place": "Houston (États-Unis)"
+        },
+        {
+          "name": "EndoRobotics",
+          "use": "Plateforme RoSE qui robotise des endoscopes souples pour l'ESD ; distribution mondiale confiée à Olympus en 2026",
+          "place": "Séoul (Corée du Sud)"
+        },
+        {
+          "name": "Lumendi",
+          "use": "Plateforme jetable DiLumen (ballonnets + effecteurs) pour stabiliser le côlon et tracter les tissus pendant l'ESD",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Olympus / PR Newswire",
+          "title": "Olympus Announces CMS Valuation and Reimbursement Rates for New ESD CPT Codes",
+          "url": "https://www.prnewswire.com/news-releases/olympus-announces-cms-valuation-and-reimbursement-rates-for-new-esd-cpt-codes-302938339.html"
+        },
+        {
+          "publisher": "The Robot Report",
+          "title": "EndoQuest Robotics completes first robotic ESD procedure at Mayo Clinic",
+          "url": "https://www.therobotreport.com/endoquest-robotics-completes-first-robotic-esd-procedure-mayo-clinic/"
+        },
+        {
+          "publisher": "BioSpectrum Asia",
+          "title": "Japan's Olympus inks global distribution agreement with Korean startup EndoRobotics",
+          "url": "https://www.biospectrumasia.com/news/51/27591/japans-olympus-inks-global-distribution-agreement-with-korean-startup-endorobotics.html"
+        },
+        {
+          "publisher": "Lumendi",
+          "title": "Pioneering endosurgery",
+          "url": "https://lumendi.com/"
+        }
+      ],
+      "date": "2026-11-13",
+      "dateLong": "13 nov. 2026"
+    },
     {
       "term": "dCBT",
       "full": "Digital Cognitive Behavioural Therapy (thérapie cognitivo-comportementale numérique)",
