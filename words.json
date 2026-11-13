@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-13",
   "words": [
     {
+      "term": "openEHR",
+      "full": "openEHR (standard ouvert de dossier de santé électronique)",
+      "fr": "Standard ouvert de modélisation du dossier patient",
+      "field": "Interopérabilité / données de santé",
+      "definition": "Un standard ouvert et neutre vis-à-vis des éditeurs qui décrit les données cliniques avec des modèles conçus par des soignants, pour que le dossier d'un patient reste lisible toute sa vie, quel que soit le logiciel qui l'affiche.",
+      "parts": [
+        {
+          "label": "Modèle de référence",
+          "role": "le socle technique stable et générique commun à tous les systèmes openEHR"
+        },
+        {
+          "label": "Archétypes et templates",
+          "role": "le contenu clinique (une pression artérielle, un compte rendu de sortie) défini et revu par des cliniciens"
+        },
+        {
+          "label": "Entrepôt clinique (CDR) et AQL",
+          "role": "le stockage des données et leur interrogation par une API REST et un langage de requête standard"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Modéliser",
+          "t": "Des cliniciens construisent des archétypes réutilisables, puis les combinent en templates adaptés à un usage précis (consultation, prescription, sortie)."
+        },
+        {
+          "n": "2",
+          "h": "Stocker",
+          "t": "Les applications écrivent les données dans un entrepôt clinique (CDR) indépendant de l'éditeur, via une API REST standardisée."
+        },
+        {
+          "n": "3",
+          "h": "Exploiter",
+          "t": "Toute application, outil analytique ou modèle d'IA interroge les mêmes données en AQL ; FHIR sert souvent de couche d'échange avec les systèmes extérieurs."
+        }
+      ],
+      "why": "openEHR sépare la donnée clinique de l'application : un hôpital ou une région peut changer de logiciel sans migrer son patrimoine de données, et ajouter des outils d'analyse ou d'IA sans dépendre d'un éditeur de DPI. Avec la construction du « single patient record » du NHS, l'EHDS et la course aux données structurées pour l'IA, le standard porte un écosystème européen de plateformes de données cliniques qui se positionnent face aux grands DPI intégrés.",
+      "startups": [
+        {
+          "name": "Better",
+          "use": "Better Platform, couche de données cliniques en openEHR (et FHIR pour l'opérationnel) : plus de 40 millions de dossiers, 1 000 organisations de santé dans plus de 30 pays, prescription Better Meds en service dans plus de 10 trusts du NHS",
+          "place": "Ljubljana, Slovénie"
+        },
+        {
+          "name": "Cadasto",
+          "use": "Plateforme de données ouverte lancée début 2026 à partir de la couche openEHR de CODE24, premier éditeur néerlandais à adopter le standard ; partenaire Platinum d'openEHR, elle propose fédération de données, connecteur SMART-on-openEHR et un serveur MCP open source pour concevoir archétypes et templates",
+          "place": "Pays-Bas"
+        },
+        {
+          "name": "vitagroup",
+          "use": "Édite EHRbase, entrepôt openEHR open source, et sa version commerciale HIP EHRbase ; plus de 400 abonnés à son bac à sable en cinq mois (Allemagne, Royaume-Uni, pays nordiques, Pays-Bas)",
+          "place": "Allemagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "openEHR International",
+          "title": "What is openEHR?",
+          "url": "https://openehr.org/about/what_is_openehr"
+        },
+        {
+          "publisher": "Better",
+          "title": "Better | openEHR clinical data platform for health systems",
+          "url": "https://www.better.care/"
+        },
+        {
+          "publisher": "openEHR International",
+          "title": "Cadasto: Open Data Platform & new openEHR Platinum Partner",
+          "url": "https://openehr.org/cadasto-open-data-platform-new-openehr-platinum-partner/"
+        },
+        {
+          "publisher": "vitagroup",
+          "title": "vitagroup's digital health platform EHRbase reaches over 400 subscribers in just 5 months",
+          "url": "https://www.vitagroup.ag/en/ehrbase-sandbox-400-user/"
+        }
+      ],
+      "date": "2026-11-13",
+      "dateLong": "13 nov. 2026"
+    },
+    {
       "term": "PAM",
       "full": "Positive Allosteric Modulator (modulateur allostérique positif)",
       "fr": "Modulateur allostérique positif",

@@ -1,223 +1,195 @@
 {
-  "dateLong": "Nov 12, 2026",
+  "dateLong": "Nov 13, 2026",
   "ticker": [
     {
-      "company": "EARKICK",
-      "amount": "Elomia",
+      "company": "KRY",
+      "amount": "Min Doktor",
       "kind": "mna"
     },
     {
-      "company": "SLEEP.AI",
-      "amount": "$5.3M",
-      "kind": "lev"
-    },
-    {
-      "company": "CHARTA HEALTH",
-      "amount": "$55M",
-      "kind": "lev"
-    },
-    {
-      "company": "ESEA",
-      "amount": "50 sites",
-      "kind": "tech"
-    },
-    {
-      "company": "LSCFT",
-      "amount": "Admin −45%",
-      "kind": "tech"
-    },
-    {
-      "company": "MAVEN",
-      "amount": "475 plans",
+      "company": "FLO HEALTH",
+      "amount": "ISO 13485",
       "kind": "reg"
+    },
+    {
+      "company": "LAGUNA HEALTH",
+      "amount": "Acquired",
+      "kind": "mna"
+    },
+    {
+      "company": "DEEPINVOICE",
+      "amount": "€700K",
+      "kind": "lev"
+    },
+    {
+      "company": "ONC / CMS",
+      "amount": "FHIR PA",
+      "kind": "reg"
+    },
+    {
+      "company": "BARTS HEALTH",
+      "amount": "1,350 AI users",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "M&A · Mental health",
-    "title": "Elomia Health acquires Earkick, the AI mental health companion founded between Zurich and San Francisco",
-    "deck": "Elomia Health, a conversational AI lab founded in 2019 by Ukrainian entrepreneur Taras Pohrebniak, is buying the Earkick app (more than 250,000 users, tracking mood, sleep and activity), its AI models and ongoing early access to its Mia21 memory engine; terms were not disclosed. The deal supports Elomia's shift, after a randomised controlled trial with the University of Pennsylvania, from a consumer app to API infrastructure for care organisations: AI mental health is entering its consolidation phase.",
-    "company": "Earkick",
-    "sector": "Mental health",
+    "kicker": "M&A · Digital primary care",
+    "title": "Kry buys Min Doktor and passes 150 physical care sites in Sweden",
+    "deck": "Sweden's Kry (SEK 2.5B revenue in 2025) is acquiring all of Min Doktor: nearly 100 clinics run alongside Apotek Hjärtat pharmacies and ICA stores, around 400,000 digital visits and more than 300,000 vaccinations in 2025, for revenue of about SEK 400M; the price was not disclosed. The deal is paid in shares: Apotek Hjärtat (49.5% of Min Doktor), EQT Ventures and Swedbank Robur become Kry shareholders. Subject to competition clearance, it confirms that the winning model in European digital primary care is hybrid, from the screen to the shop floor.",
+    "company": "Kry",
+    "stage": "Growth",
+    "sector": "Telehealth",
     "pillar": "financement",
     "signalType": "acquisition",
     "strength": 5,
-    "url": "https://tech.eu/2026/11/10/elomia-health-acquires-earkick-to-expand-ai-mental-wellbeing-platform/"
+    "url": "https://www.investorsinhealthcare.com/articles/category/news/sweden-kry-acquires-primary-care-provider-min-doktor-to-expand-its-swedish-clinic-network/"
   },
   "milestone": {
-    "company": "GRADeS ESEA",
-    "milestone": "Phase 2 funded",
-    "title": "Égide Santé Réseau: Nouvelle-Aquitaine commits €3.4M to a sovereign regional network for health data exchange",
-    "summary": "Regional e-health agency GRADeS ESEA is already piloting its secure network (fibre, regional DNS, file transfer, French intrusion probes and European firewalls, NIS2 audits) with seven hospitals, including the Bordeaux, Limoges and Poitiers university hospitals. Co-funding from the regional health agency ARS (€1.7M) and EU ERDF money via the Region (€1.7M) launches phase two: 18 more facilities, then another 25 between mid-2027 and mid-2028, for 50 health and social care sites in total.",
-    "why": "A French region is building its own 'Renater for health', pitched as an alternative to non-European solutions: sovereignty and cybersecurity become shared infrastructure, opening doors for European operators and vendors (telecom aggregator Linkt is already a partner).",
-    "place": "Nouvelle-Aquitaine, France",
-    "sector": "Health data",
-    "signalType": "grant_award",
-    "url": "https://dsih.fr/articles/6458/nouvelle-aquitaine-egide-sante-reseau-un-reseau-regional-pour-securiser-les-echanges-de-donnees-de-sante"
-  },
-  "deal": {
-    "company": "Charta Health",
-    "amount": "$55M",
-    "round": "Series B",
-    "thesis": "Insight Partners leads the Series B, joined by Madrona, Bain Capital Ventures, South Park Commons and newcomer QuantumLight. Charta uses AI to audit medical charts before billing, inside the EHR (Charta for Providers), and sells the same engine to payers for risk adjustment and audits: a bet on shared 'ground truth' between providers and payers, upstream of disputes rather than after them.",
-    "sector": "Clinical AI",
-    "url": "https://hitconsultant.net/2026/11/10/charta-health-raises-55-million-series-b-ai-medical-chart-review-insight-partners/"
+    "company": "Flo Health",
+    "milestone": "ISO 13485",
+    "title": "Flo Health earns ISO 13485 certification, the foundation for future medical device software",
+    "summary": "The London women's health app (80 million monthly active users) had its quality management system for designing medical software, built on the Ketryx platform, audited by Scarlet, an accredited body specialising in AI medical devices; no major findings were reported. The certification opens the route to CE and UKCA marking and aligns with the FDA's quality system regulation.",
+    "why": "Europe's first femtech unicorn is moving from wellness to regulated medicine: the next day it published in the journal Menopause, with Mayo Clinic clinicians, the validation of its perimenopause symptom scale (Peri-SS, 16 items, 1,255 women). A signal ahead of a first SaMD product, and so ahead of new payer channels.",
+    "place": "London",
+    "sector": "Femtech",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.prnewswire.com/news-releases/flo-health-earns-iso-13485-certification-for-its-quality-management-system-302936804.html"
   },
   "brefsEurope": [
     {
-      "company": "Sleep.ai",
-      "place": "Carlsbad",
-      "sector": "Connected health",
+      "company": "Deepinvoice",
+      "place": "Münster",
+      "sector": "Clinical AI",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "Sleep.ai (formerly SleepScore Labs) raises $5.3M from Treasure Coast Ventures, driven by its reimbursed programme in Germany",
-      "summary": "Its 'Dein Schlaf' programme, certified as prevention under Section 20 of Germany's Social Code Book V, is covered without a prescription for all 74 million statutory insurance members, with BARMER, AOK Niedersachsen, IKK Brandenburg und Berlin and BERGISCHE Krankenkasse; 25,000 active participants year to date. The platform normalises data from around 800 consumer wearables.",
-      "url": "https://hitconsultant.net/2026/11/11/sleep-ai-raises-5-3-million-real-world-sleep-data-german-reimbursement/"
+      "stage": "Pre-seed",
+      "title": "Deepinvoice raises €700K pre-seed, led by BDOC Plus AG, to automate medical billing with AI",
+      "summary": "Its software reads the patient record, identifies billable services and generates GOÄ, EBM and ICD-10 coding lists for private and statutory insurance, trained on ophthalmology billing. NRW.BANK (NRW.SeedCon), Dresden's Augenzentrum am Blauen Wunder and angel Burkhard Awe complete the round, which will make the product cloud-ready and extend it to other specialties.",
+      "url": "https://www.startup.eu/investments/deepinvoice-700-k-pre-seed-11-2026"
     },
     {
-      "company": "Lancashire and South Cumbria NHS FT",
-      "place": "Lancashire",
+      "company": "Barts Health NHS Trust",
+      "place": "London",
       "sector": "Clinical AI",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 2,
-      "title": "Lancashire and South Cumbria's Heidi pilot cuts out-of-hours clinical admin by 45%",
-      "summary": "In its 2025/26 digital report, the mental health trust says 78% of staff in the Heidi AI scribe pilot reported improved wellbeing; it is preparing a competitive ambient voice procurement (business case in November, completion targeted for March 2027). Its streamlined Rio EPR (15 core forms cut to five) is modelled to release about 26,700 clinical hours a year.",
-      "url": "https://htn.co.uk/2026/11/11/lancashire-and-south-cumbria-nhs-on-cloud-ai-eprs-copilot-cyber-security/"
+      "title": "At Barts Health, 1,350 clinicians have already used Oracle's clinical AI agent, open to more than 2,000",
+      "summary": "The London trust counted 700 users in September; it is also rolling out Ovia's automated follow-up calls for its heart and lung virtual wards. In intensive care, nurse Anna Lazcano is prototyping VOCAL, an AI tool that helps patients who cannot speak build messages with their eyes or touch.",
+      "url": "https://htn.co.uk/2026/11/12/barts-health-project-sees-ai-eye-tracking-tech-to-help-patients-with-speech-difficulties-communicate/"
     },
     {
-      "company": "Karolinska University Hospital",
-      "place": "Stockholm",
-      "sector": "Clinical AI",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Karolinska builds its AI governance around a Chief AI Officer and a national academy",
-      "summary": "Led by Chief AI Officer Joel Preger, the hospital is rolling out common guidelines and staff training through Health AI Academy Sweden, funded by the European Social Fund with Sweden's other university hospitals (SUHA). The region is preparing a new principal EHR and a shared data platform for the controlled deployment of AI.",
-      "url": "https://www.icthealth.org/news/karolinska-strengthens-ai-governance-and-staff-training"
-    },
-    {
-      "company": "Lincolnshire Partnership NHS FT",
-      "place": "Lincolnshire",
+      "company": "Croydon Health Services NHS Trust",
+      "place": "Croydon",
       "sector": "Hospital software",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 1,
-      "title": "Lincolnshire's mental health trust surveys patients before rolling out its engagement portal",
-      "summary": "A survey ranks the features patients want (electronic appointments, secure messaging, carer access, letters in one place); the app, already connected to existing systems, will start in a few services. The trust relies on an EHR–ePMA integration engine from Interoperability Health (£77,273 until March 2028).",
-      "url": "https://htn.co.uk/2026/11/11/lincolnshire-partnership-seeks-input-from-service-users-on-functionality-for-new-patient-app/"
+      "strength": 2,
+      "title": "Croydon Health Services sets its AI priorities: ambient voice in the ED, Patienteer and prostate cancer screening",
+      "summary": "The strategy requires a named sponsor and outcome metrics for every use, assessment through the NHS T.E.S.T framework and bias audits from Q4 2026/27, funded by productivity savings. An AI centre of excellence, ambient voice in community services and automated clinical coding follow from 2027/28.",
+      "url": "https://htn.co.uk/2026/11/12/croydon-health-services-sets-out-ai-use-cases-across-discharge-planning-virtual-wards-documentation-referral-triage-imaging/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Maven Clinic",
-      "place": "United States",
-      "sector": "Femtech",
-      "pillar": "marche",
-      "signalType": "reimbursement",
-      "strength": 3,
-      "title": "Maven's virtual clinic goes in-network with more than 475 health plans, about 80% of commercially insured lives",
-      "summary": "Aetna, UnitedHealthcare and Blue Cross Blue Shield are among them: perimenopause, menopause and hormone care visits are covered at launch, with OB-GYNs and nutritionists to follow. The women's health leader, until now sold mainly through employers, opens a direct payer channel.",
-      "url": "https://medcitynews.com/2026/11/maven-clinics-virtual-care-clinic-goes-in-network-with-475-plans/"
-    },
-    {
-      "company": "Inovalon",
-      "place": "United States",
-      "sector": "Hospital software",
+      "company": "Laguna Health",
+      "place": "United States / Tel Aviv",
+      "sector": "Clinical AI",
       "pillar": "financement",
       "signalType": "acquisition",
       "strength": 5,
-      "title": "Nordic Capital-backed Inovalon agrees to acquire e-prescribing specialist DrFirst",
-      "summary": "DrFirst, founded more than 25 years ago by James F. Chen, connects to more than 270 EHR interfaces; the combined group claims 71,000 pharmacies and 670,000 providers. Price undisclosed: the Swedish fund's portfolio company joins payer data with point-of-prescribing workflows.",
-      "url": "https://hitconsultant.net/2026/11/11/inovalon-acquires-drfirst-real-time-prescribing-clinical-workflow-ai/"
+      "title": "Elligint Health acquires Laguna Health and its conversational AI for care management",
+      "summary": "Founded in 2020 by Yoni Shtein and Yael Peled Adam, Laguna (Edison, New Jersey and Tel Aviv) audits 100% of health plan member calls and cut care manager documentation time by 66% at one client; it keeps its brand and stays available on rival platforms. Elligint's Helios platform covers more than 13 million managed lives; the price was not disclosed.",
+      "url": "https://hitconsultant.net/2026/11/12/elligint-health-acquires-laguna-health-conversational-ai-care-management-helios/"
     },
     {
-      "company": "PulsePoint Foundation",
-      "place": "Canada / United States",
-      "sector": "Digital Health",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 1,
-      "title": "Randomised trial: alerting volunteer responders via the PulsePoint app does not improve cardiac arrest response",
-      "summary": "Across 355 public-location cardiac arrests (17,547 calls randomised from 2021 to 2026), bystander CPR or AED use reached 69% with alerts versus 72% without, and survival stayed around 21% in both arms. Preliminary results presented at the AHA Resuscitation Science Symposium, not yet peer-reviewed.",
-      "url": "https://www.icthealth.org/news/cpr-alert-app-fails-to-improve-emergency-response-in-trial"
+      "company": "ONC et CMS",
+      "place": "United States",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "ONC and CMS launch 10-to-12-week testing sprints for FHIR-based electronic prior authorization",
+      "summary": "Payers, hospitals, EHR developers and clearinghouses will test the Da Vinci CRD, DTR and PAS guides on Drummond Group's FHIRplace environment, supported by MITRE, ahead of the requirement for impacted payers to run prior authorization APIs by January 1, 2027 (72-hour decisions for urgent requests, seven days otherwise).",
+      "url": "https://hitconsultant.net/2026/11/12/onc-cms-launch-electronic-prior-authorization-testing-initiative-fhirplace-2027/"
     }
   ],
   "word": {
-    "term": "dCBT",
-    "full": "Digital Cognitive Behavioural Therapy",
-    "fr": "Digital cognitive behavioural therapy",
-    "field": "Mental health / digital therapeutics",
-    "definition": "An online programme or app that delivers the validated techniques of cognitive behavioural therapy (for insomnia, anxiety, depression) session by session, either self-guided or backed by a clinician.",
+    "term": "openEHR",
+    "full": "openEHR (open electronic health record standard)",
+    "fr": "Open standard for modelling the patient record",
+    "field": "Interoperability / health data",
+    "definition": "An open, vendor-neutral standard that describes clinical data with models designed by clinicians, so a patient's record stays readable for life, whatever software displays it.",
     "parts": [
       {
-        "label": "CBT protocol",
-        "role": "the clinical content (exercises, cognitive restructuring, sleep restriction)"
+        "label": "Reference model",
+        "role": "the stable, generic technical foundation shared by every openEHR system"
       },
       {
-        "label": "Digital engine",
-        "role": "personalisation and tracking (diary, questionnaires, conversational AI)"
+        "label": "Archetypes and templates",
+        "role": "the clinical content (a blood pressure reading, a discharge summary) defined and reviewed by clinicians"
       },
       {
-        "label": "Supervision and prescription",
-        "role": "the link to the care system (doctor, psychologist, reimbursement)"
+        "label": "Clinical data repository (CDR) and AQL",
+        "role": "storing the data and querying it through a REST API and a standard query language"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Referral",
-        "t": "The patient is referred by a doctor, insurer or psychological therapy service, or self-refers; an initial questionnaire measures symptoms."
+        "h": "Model",
+        "t": "Clinicians build reusable archetypes, then combine them into templates tailored to a specific use (consultation, prescription, discharge)."
       },
       {
         "n": "2",
-        "h": "Guided sessions",
-        "t": "Over several weeks, the app delivers structured modules and daily exercises (sleep diary, exposure, reframing thoughts), adapted to the patient's answers."
+        "h": "Store",
+        "t": "Applications write data into a vendor-independent clinical data repository (CDR) through a standardised REST API."
       },
       {
         "n": "3",
-        "h": "Measurement and handover",
-        "t": "Regular scores track progress; a psychologist or support AI helps between sessions, and more severe cases are escalated to human care."
+        "h": "Use",
+        "t": "Any application, analytics tool or AI model queries the same data in AQL; FHIR often serves as the exchange layer with outside systems."
       }
     ],
-    "why": "dCBT is the most advanced digital therapeutics category in terms of market access: NICE recommends Sleepio as a cost-saving option for insomnia, Germany reimburses several HelloBetter programmes as DiGA, and in 2025 the US created Medicare codes for FDA-cleared digital mental health treatments. With generative AI, the frontier is moving to conversational companions that support patients between sessions, hence the ongoing consolidation (Elomia's acquisition of Earkick, reported on November 10).",
+    "why": "openEHR separates clinical data from the application: a hospital or region can switch software without migrating its data estate, and add analytics or AI tools without depending on an EHR vendor. With the NHS single patient record under construction, the EHDS and the race for structured data to feed AI, the standard underpins a European ecosystem of clinical data platforms positioning themselves against the big integrated EHRs.",
     "startups": [
       {
-        "name": "Big Health",
-        "use": "Sleepio and Daylight, digital CBT for insomnia and anxiety; Sleepio recommended by NICE, SleepioRx and DaylightRx cleared by the FDA; raised $23.7M in February 2026",
-        "place": "San Francisco / London"
+        "name": "Better",
+        "use": "Better Platform, an openEHR clinical data layer (with FHIR for operational data): more than 40 million records, 1,000 healthcare organisations in 30+ countries, Better Meds e-prescribing live in more than 10 NHS trusts",
+        "place": "Ljubljana, Slovenia"
       },
       {
-        "name": "HelloBetter",
-        "use": "Prescription online therapy programmes reimbursed in Germany (Schlafen, Panik, Stress und Burnout, Diabetes…), backed by 30 clinical studies and more than 140,000 participants",
-        "place": "Hamburg, Germany"
+        "name": "Cadasto",
+        "use": "Open data platform launched in early 2026 from the openEHR layer of CODE24, the first Dutch vendor to adopt the standard; an openEHR Platinum Partner offering data federation, a SMART-on-openEHR connector and an open-source MCP server for designing archetypes and templates",
+        "place": "Netherlands"
       },
       {
-        "name": "Limbic",
-        "use": "Limbic Care, an AI companion delivering CBT tools between sessions in NHS Talking Therapies services, 45% of which already use Limbic; Limbic Access carries a UKCA Class IIa mark",
-        "place": "London, UK"
+        "name": "vitagroup",
+        "use": "Develops EHRbase, an open-source openEHR repository, and its commercial version HIP EHRbase; more than 400 subscribers to its sandbox in five months (Germany, UK, Nordics, Netherlands)",
+        "place": "Germany"
       }
     ],
     "sources": [
       {
-        "publisher": "NICE",
-        "title": "Sleepio to treat insomnia and insomnia symptoms (HealthTech guidance 624)",
-        "url": "https://www.nice.org.uk/guidance/htg624"
+        "publisher": "openEHR International",
+        "title": "What is openEHR?",
+        "url": "https://openehr.org/about/what_is_openehr"
       },
       {
-        "publisher": "Big Health",
-        "title": "Big Health Secures Funding to Accelerate Adoption of Digital Mental Health Treatments",
-        "url": "https://www.bighealth.com/news/big-health-secures-funding-to-accelerate-adoption-of-digital-mental-health-treatments"
+        "publisher": "Better",
+        "title": "Better | openEHR clinical data platform for health systems",
+        "url": "https://www.better.care/"
       },
       {
-        "publisher": "HelloBetter",
-        "title": "Dein kostenfreies Online-Therapieprogramm auf Rezept",
-        "url": "https://hellobetter.de/"
+        "publisher": "openEHR International",
+        "title": "Cadasto: Open Data Platform & new openEHR Platinum Partner",
+        "url": "https://openehr.org/cadasto-open-data-platform-new-openehr-platinum-partner/"
       },
       {
-        "publisher": "Limbic",
-        "title": "Limbic for NHS Talking Therapies",
-        "url": "https://limbic.ai/nhs-talking-therapies"
+        "publisher": "vitagroup",
+        "title": "vitagroup's digital health platform EHRbase reaches over 400 subscribers in just 5 months",
+        "url": "https://www.vitagroup.ag/en/ehrbase-sandbox-400-user/"
       }
     ]
   }
