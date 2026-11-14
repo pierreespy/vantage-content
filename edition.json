@@ -1,86 +1,88 @@
 {
-  "dateLong": "13 nov. 2026",
+  "dateLong": "14 nov. 2026",
   "ticker": [
-    { "company": "AKARA", "amount": "$5.5M", "kind": "lev" },
-    { "company": "CENTINEL SPINE", "amount": "MDR", "kind": "reg" },
-    { "company": "SCIBASE", "amount": "510(k) déposé", "kind": "reg" },
-    { "company": "OLYMPUS", "amount": "CPT ESD", "kind": "reg" },
-    { "company": "TANDEM", "amount": "Rappel", "kind": "reg" },
-    { "company": "PARSYS MEDICAL", "amount": "Reprise", "kind": "mna" }
+    { "company": "AVICENNA.AI", "amount": "FDA ×2", "kind": "reg" },
+    { "company": "VVARDIS", "amount": "IPO $175M", "kind": "lev" },
+    { "company": "SYNCHRON", "amount": "Pause essai", "kind": "tech" },
+    { "company": "BECHTEL MEDICAL", "amount": "510(k)", "kind": "reg" },
+    { "company": "LUNGPACER", "amount": "1er patient", "kind": "tech" },
+    { "company": "DEEGTAL INSIGHTS", "amount": "MEDICA", "kind": "new" }
   ],
   "lead": {
-    "kicker": "Levée · IA hospitalière",
-    "title": "Akara, spin-off de Trinity College Dublin, lève 5,5 M$ menés par Locke Health pour ses capteurs thermiques à IA embarquée dans les hôpitaux",
-    "deck": "La startup dublinoise fixe au mur des capteurs thermiques qui « comprennent » l'usage des salles (blocs, chambres, box) sans filmer patients ni soignants, l'IA tournant sur le capteur lui-même ; un logiciel détecte les événements clés et alerte les équipes, et des agents IA génèrent les rapports. Le tour, mené par Locke Health avec VTC Ventures, l'EIC Fund, CommonKind et NovaVector, porte le total levé à 12,3 M$ : une alternative « privacy by design » aux caméras, déjà déployée en Irlande, au Royaume-Uni et aux États-Unis, qui veut accélérer son adoption hospitalière.",
-    "company": "Akara",
-    "sector": "MedTech",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.siliconrepublic.com/start-ups/dublins-akara-raises-5-5m-to-accelerate-hospital-ai-tech"
+    "kicker": "Feu vert FDA · IA d'imagerie",
+    "title": "Avicenna.AI décroche deux clearances FDA pour son IA de détection des anévrismes cérébraux, lancée aux États-Unis avec Bracco sous la marque UPTUNITY",
+    "deck": "La startup de La Ciotat a obtenu deux 510(k) (K262062 « CINA-Aneurysm » et K262147 « CINA-Aneurysm+ ») pour un logiciel qui repère sur angioscanner cérébral les anévrismes sacculaires de plus de 3 mm, en donne la position et la taille, puis mesure leur évolution d'un examen à l'autre ; la FDA a aussi validé un plan de modifications prédéfini (PCCP) qui permettra de faire évoluer l'algorithme sans nouveau dossier. Premier produit de la gamme UPTUNITY du groupe italien Bracco, partenaire depuis mars 2026, il sera commercialisé aux États-Unis par Avicenna.AI elle-même : un éditeur français d'IA radiologique qui transforme ses autorisations en canal de distribution adossé à un industriel de l'imagerie.",
+    "company": "Avicenna.AI",
+    "sector": "Imagerie",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html"
   },
   "milestone": {
-    "company": "Centinel Spine",
-    "milestone": "Certification MDR",
-    "title": "La prothèse discale lombaire prodisc L de Centinel Spine obtient sa certification sous le règlement européen MDR",
-    "summary": "La prothèse totale de disque lombaire prodisc L, à noyau fixe (technologie prodisc CORE) conçue pour préserver le mouvement du segment traité plutôt que de le fusionner, est certifiée MDR, ce qui sécurise son maintien sur le marché européen. Elle suit la certification MDR des prothèses cervicales prodisc C Vivo et C Nova obtenue en septembre 2025 ; la famille prodisc revendique plus de 300 000 implantations depuis 1990.",
-    "why": "La re-certification MDR des dispositifs « historiques » est devenue un tri sélectif : faute de dossier clinique solide, des produits implantables disparaissent du marché européen. Un implant de classe III qui franchit l'étape conserve un avantage sur les alternatives à la fusion vertébrale, et illustre le coût réglementaire que devront aussi absorber les startups de la colonne.",
-    "place": "West Chester (États-Unis)",
+    "company": "Synchron",
+    "milestone": "Pause d'essai",
+    "title": "Synchron suspend le recrutement de ses essais du Stentrode de 2e génération après un défaut de performance du câble de liaison",
+    "summary": "L'interface cerveau-machine implantée par voie veineuse (sans ouvrir le crâne) a vu ses essais mis en pause volontairement : le « lead », le câble qui transmet les signaux du Stentrode à l'électronique implantée, ne fonctionne pas comme prévu. Synchron indique n'avoir identifié aucun problème de sécurité, précise que la pause n'est pas imposée par la FDA et va rapatrier en interne la conception et la fabrication du câble, en profitant de l'arrêt pour mettre à niveau tout le système, sans date de reprise.",
+    "why": "C'est le rappel que, dans les implants cérébraux, la connectique et la durabilité du matériel pèsent autant que l'algorithme : un défaut de câble peut retarder de plusieurs trimestres l'essai pivot nécessaire à l'autorisation FDA. Pour les acteurs européens de la neurotech implantable (Clinatec, INBRAIN, ONWARD), le leader endovasculaire marque le pas, et la fiabilité du hardware devient un critère de due diligence central.",
+    "place": "New York (États-Unis)",
+    "sector": "Neurotech",
+    "signalType": "clinical_update",
+    "url": "https://www.massdevice.com/synchron-halts-brain-computer-interface-trials-after-stentrode-device-fails-to-perform/"
+  },
+  "deal": {
+    "company": "vVARDIS",
+    "amount": "175 M$",
+    "round": "IPO",
+    "thesis": "La medtech dentaire de Zoug, qui soigne les caries débutantes sans fraise ni anesthésie avec ses produits Curodont, a introduit 9,72 millions d'actions à 18 $ sur le NYSE (ticker VVVV), sous sa fourchette de 21-24 $, pour une valorisation d'environ 1,6 Md$, avec Goldman Sachs et J.P. Morgan comme chefs de file. Une rare IPO medtech européenne à New York : la fenêtre est ouverte, mais les investisseurs imposent une décote, un comparable direct pour les sorties des scale-ups de dispositifs du continent.",
     "sector": "MedTech",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/news-releases/centinel-spine-receives-mdr-certification-for-prodisc-l-lumbar-total-disc-replacement-system-302936969.html"
+    "url": "https://www.investing.com/news/stock-market-news/vvardis-prices-ipo-at-18-per-share-on-nyse-under-ticker-vvvv-432SI-5024151"
   },
   "brefsEurope": [
-    { "company": "SciBase", "place": "Stockholm", "sector": "Diagnostics", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "SciBase a déposé un 510(k) pour étendre Nevisense aux cancers cutanés non mélanomes et voit ses ventes bondir de 41 % au T3",
-      "summary": "Le spécialiste suédois de la détection du cancer de la peau par impédance électrique a soumis à la FDA une extension d'indication de Nevisense ; ses ventes du trimestre atteignent 14,6 MSEK (+41 %), portées par les États-Unis (+68 % en cancer cutané). Une étude NIH–SIAF (THREAT) utilisera Nevisense comme critère principal, et une augmentation de capital garantie d'environ 57,5 MSEK finance la suite.",
-      "url": "https://www.prnewswire.com/news-releases/scibase-interim-report-302937518.html" },
-    { "company": "Parsys Medical", "place": "France", "sector": "Digital Health", "pillar": "financement",
-      "signalType": "acquisition", "strength": 3,
-      "title": "Parsys Télémédecine, placée en liquidation, est reprise par son ancien directeur technique et devient Parsys Medical",
-      "summary": "Le fabricant français de stations de télémédecine pour zones isolées (électrocardiographes connectés), en redressement judiciaire depuis le 21 juillet, a vu accepter début novembre l'offre de reprise de Jean-Christophe Bohin, cofondateur du studio Matters et ancien directeur technique de la société. Un rappel de la fragilité des fabricants de matériel de télésanté, même avec des clients institutionnels.",
-      "url": "https://www.mind.eu.com/health/article/parsys-telemedecine-est-morte-vive-parsys-medical/" }
+    { "company": "dEEGtal Insights", "place": "Suisse", "sector": "Neurotech", "pillar": "naissances",
+      "signalType": "conference_abstract", "strength": 1,
+      "title": "Sept jeunes pousses suisses, dont dEEGtal Insights (IA de lecture de l'EEG pour l'épilepsie), exposeront au Start-up Park de MEDICA 2026",
+      "summary": "Le pavillon suisse du salon de Düsseldorf (16-19 novembre) réunit dEEGtal Insights, Airscale (tapis capteur intégré au lit pour peser en continu les patients alités), Alivion (mesure de marqueurs métaboliques dans l'air expiré), Precisia Care (analyse prédictive des données patients), Skaaltec, RegCheck et Flawa. Une vitrine de jeunes sociétés de 0 à 5 ans, à suivre avant leur premier tour.",
+      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups" }
   ],
   "brefsIntl": [
-    { "company": "Olympus", "place": "Tokyo", "sector": "MedTech", "pillar": "marche",
-      "signalType": "reimbursement", "strength": 5,
-      "title": "Les nouveaux codes CPT de la dissection sous-muqueuse endoscopique (ESD) reçoivent leur valorisation Medicare pour 2027",
-      "summary": "Le CMS a publié les valorisations finales et les tarifs Medicare 2027 des codes CPT 43498 (ESD du tube digestif haut) et 45991 (ESD du tube digestif bas), effectifs au 1er janvier 2027. Un déblocage du remboursement américain qui ouvre le marché aux outils et robots d'endoscopie thérapeutique, y compris européens.",
-      "url": "https://www.prnewswire.com/news-releases/olympus-announces-cms-valuation-and-reimbursement-rates-for-new-esd-cpt-codes-302938339.html" },
-    { "company": "Tandem Diabetes Care", "place": "San Diego", "sector": "MedTech", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Tandem corrige plus de 80 000 pompes à insuline Mobi après 230 événements indésirables",
-      "summary": "Une friction accrue dans le module d'entraînement peut déclencher de fausses alarmes d'occlusion qui suspendent l'insuline ; 230 événements ayant nécessité une intervention médicale ou une hospitalisation ont été signalés au 29 octobre, sans décès. Deuxième rappel de la Mobi en 2026, alors que sa version sans tubulure est en fin d'examen FDA.",
-      "url": "https://www.medtechdive.com/news/tandem-recalls-mobi-insulin-pump-reports-230-adverse-events/874386/" }
+    { "company": "Bechtel Medical", "place": "Pennsylvanie (États-Unis)", "sector": "MedTech", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Bechtel Medical obtient le premier 510(k) d'un système combinant thérapie par pression négative et oxygénothérapie topique pour les plaies",
+      "summary": "Le système Wound Vox réunit dans un seul appareil la pression négative (continue ou intermittente) et l'oxygène topique, deux traitements des plaies complexes jusqu'ici gérés séparément ; lancement commercial limité prévu en décembre 2026. Un signal sur la convergence des thérapies de plaies, segment où l'Europe compte des acteurs établis.",
+      "url": "https://www.medicaldevice-network.com/news/fda-bechtel-medicals-wound-therapy-system/" },
+    { "company": "Lungpacer Medical", "place": "San Francisco (États-Unis)", "sector": "MedTech", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 2,
+      "title": "Lungpacer recrute le premier patient de l'étude post-autorisation AERO-PAS de son stimulateur diaphragmatique AeroPace",
+      "summary": "L'étude multicentrique à bras unique inclura jusqu'à 120 adultes ventilés ; le premier patient a été recruté au California Pacific Medical Center (Sutter Health). La stimulation du nerf phrénique pour aider au sevrage de la ventilation mécanique entre ainsi dans la collecte de données en vie réelle, un préalable à son adoption hors des États-Unis.",
+      "url": "https://www.globenewswire.com/news-release/2026/11/12/3401997/0/en/lungpacer-medical-announces-first-patient-enrollment-in-aero-pas-post-approval-study-of-the-aeropace-system.html" }
   ],
   "word": {
-    "term": "ESD",
-    "full": "Endoscopic Submucosal Dissection (dissection sous-muqueuse endoscopique)",
-    "fr": "Dissection sous-muqueuse endoscopique",
-    "field": "Endoscopie thérapeutique / gastro-entérologie",
-    "definition": "Une technique qui retire d'un seul bloc une lésion cancéreuse ou précancéreuse du tube digestif en la « décollant » de la paroi par l'intérieur, avec un endoscope, sans incision ni ablation d'organe.",
+    "term": "PCCP",
+    "full": "Predetermined Change Control Plan (plan de contrôle des modifications prédéfini)",
+    "fr": "Plan de modifications pré-autorisé",
+    "field": "Réglementaire FDA / IA médicale",
+    "definition": "Un plan, validé par la FDA en même temps que le dispositif, qui décrit à l'avance comment un logiciel (souvent une IA) pourra être modifié et réentraîné, pour que ces mises à jour n'exigent pas un nouveau dossier d'autorisation.",
     "parts": [
-      { "label": "Endoscope", "role": "l'accès par les voies naturelles" },
-      { "label": "Couteau électrique", "role": "la découpe sous la muqueuse" },
-      { "label": "Traction / fermeture", "role": "l'exposition du plan et la suture" }
+      { "label": "Description des modifications", "role": "ce qui pourra changer (performances, données, spécifications)" },
+      { "label": "Protocole de modification", "role": "comment chaque changement sera testé, avec des critères d'acceptation fixés d'avance" },
+      { "label": "Analyse d'impact", "role": "les bénéfices et risques de chaque changement, seul et cumulé" }
     ],
     "how": [
-      { "n": "1", "h": "Marquage & injection", "t": "On délimite la lésion puis on injecte un liquide sous la muqueuse pour la soulever de la couche musculaire." },
-      { "n": "2", "h": "Incision & dissection", "t": "Un couteau électrique incise autour de la lésion puis la décolle progressivement, plan par plan, sous vision endoscopique." },
-      { "n": "3", "h": "Retrait en bloc", "t": "La lésion sort entière (en bloc), ce qui permet une analyse fiable des marges ; la paroi est refermée si besoin." }
+      { "n": "1", "h": "Anticiper", "t": "Le fabricant liste dans son dossier 510(k), De Novo ou PMA les évolutions prévisibles de son algorithme (réentraînement, nouveaux scanners, seuils) et la manière de les valider." },
+      { "n": "2", "h": "Faire valider", "t": "La FDA examine et autorise ce plan en même temps que le dispositif : la lettre de clearance mentionne explicitement le PCCP approuvé." },
+      { "n": "3", "h": "Mettre à jour", "t": "Toute modification conforme au plan peut être déployée sans nouvelle soumission (section 515C de la loi américaine) ; ce qui en sort exige un nouveau dossier." }
     ],
-    "why": "L'ESD évite à certains patients une chirurgie lourde (ablation d'une partie du côlon ou de l'estomac), mais reste longue et difficile, donc peu pratiquée en Occident. Deux verrous sautent : le remboursement (nouveaux codes CPT américains effectifs en 2027) et la difficulté technique, que des plateformes robotisées et des dispositifs de traction veulent rendre accessible à plus d'endoscopistes. Un marché d'outils et de robots d'endoscopie qui s'ouvre.",
+    "why": "Pour une startup d'IA médicale, le PCCP transforme un produit figé en produit qui peut s'améliorer sans repasser par la FDA à chaque version : moins de coûts réglementaires, des cycles d'itération plus courts, un avantage défendable face aux concurrents qui doivent redéposer. La FDA a finalisé sa guidance en décembre 2024 et le PCCP se généralise en radiologie : un dossier qui en comporte un est un signal de maturité réglementaire à regarder en due diligence.",
     "startups": [
-      { "name": "EndoQuest Robotics", "use": "Robot endoluminal ELS : essai pivot IDE PARADIGM bouclé sur 50 ESD colorectales robotisées, en vue d'une demande De Novo", "place": "Houston (États-Unis)" },
-      { "name": "EndoRobotics", "use": "Plateforme RoSE qui robotise des endoscopes souples pour l'ESD ; distribution mondiale confiée à Olympus en 2026", "place": "Séoul (Corée du Sud)" },
-      { "name": "Lumendi", "use": "Plateforme jetable DiLumen (ballonnets + effecteurs) pour stabiliser le côlon et tracter les tissus pendant l'ESD", "place": "États-Unis" }
+      { "name": "Avicenna.AI", "use": "Clearance FDA de CINA-Aneurysm (K262062) incluant un PCCP validé ; détection des anévrismes cérébraux sur angioscanner", "place": "La Ciotat, France" },
+      { "name": "Gleamer", "use": "ChestView US (1.1), IA de lecture des radiographies thoraciques, autorisée par la FDA avec un PCCP (K252486)", "place": "Paris, France" },
+      { "name": "Brainomix", "use": "Brainomix 360 Hyperdensity, IA d'imagerie de l'AVC, figure sur la liste FDA des dispositifs autorisés avec PCCP (K260406)", "place": "Oxford, Royaume-Uni" }
     ],
     "sources": [
-      { "publisher": "Olympus / PR Newswire", "title": "Olympus Announces CMS Valuation and Reimbursement Rates for New ESD CPT Codes", "url": "https://www.prnewswire.com/news-releases/olympus-announces-cms-valuation-and-reimbursement-rates-for-new-esd-cpt-codes-302938339.html" },
-      { "publisher": "The Robot Report", "title": "EndoQuest Robotics completes first robotic ESD procedure at Mayo Clinic", "url": "https://www.therobotreport.com/endoquest-robotics-completes-first-robotic-esd-procedure-mayo-clinic/" },
-      { "publisher": "BioSpectrum Asia", "title": "Japan's Olympus inks global distribution agreement with Korean startup EndoRobotics", "url": "https://www.biospectrumasia.com/news/51/27591/japans-olympus-inks-global-distribution-agreement-with-korean-startup-endorobotics.html" },
-      { "publisher": "Lumendi", "title": "Pioneering endosurgery", "url": "https://lumendi.com/" }
+      { "publisher": "FDA", "title": "Predetermined Change Control Plans", "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/predetermined-change-control-plans" },
+      { "publisher": "FDA", "title": "510(k) K262062 — CINA-Aneurysm (Avicenna.AI), lettre de décision", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262062.pdf" },
+      { "publisher": "Foley & Lardner", "title": "AI-Enabled Device Software Functions: FDA's Final Guidance for Predetermined Change Control Plans", "url": "https://www.foley.com/insights/publications/2025/01/fda-final-guidance-ai-device-software-predetermined-change-control-plan/" }
     ]
   }
 }

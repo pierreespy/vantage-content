@@ -1,6 +1,241 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "words": [
+    {
+      "term": "PCCP",
+      "full": "Predetermined Change Control Plan",
+      "fr": "Pre-authorized change plan",
+      "field": "FDA regulation / medical AI",
+      "definition": "A plan, cleared by the FDA together with the device, that describes in advance how software (often an AI) may be modified and retrained, so those updates do not require a new marketing submission.",
+      "parts": [
+        {
+          "label": "Description of modifications",
+          "role": "what may change (performance, data, specifications)"
+        },
+        {
+          "label": "Modification protocol",
+          "role": "how each change will be tested, with acceptance criteria set in advance"
+        },
+        {
+          "label": "Impact assessment",
+          "role": "the benefits and risks of each change, alone and cumulatively"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Anticipate",
+          "t": "In its 510(k), De Novo or PMA, the manufacturer lists the foreseeable changes to its algorithm (retraining, new scanners, thresholds) and how they will be validated."
+        },
+        {
+          "n": "2",
+          "h": "Get it cleared",
+          "t": "The FDA reviews and authorizes the plan together with the device: the clearance letter explicitly mentions the approved PCCP."
+        },
+        {
+          "n": "3",
+          "h": "Update",
+          "t": "Any change consistent with the plan can be rolled out without a new submission (section 515C of the US FD&C Act); anything outside it requires a new filing."
+        }
+      ],
+      "why": "For a medical AI startup, a PCCP turns a frozen product into one that can improve without going back to the FDA for every version: lower regulatory costs, shorter iteration cycles, a defensible edge over competitors that must refile. The FDA finalized its guidance in December 2024 and PCCPs are spreading in radiology: a file that includes one is a sign of regulatory maturity worth checking in due diligence.",
+      "startups": [
+        {
+          "name": "Avicenna.AI",
+          "use": "FDA clearance for CINA-Aneurysm (K262062) including a cleared PCCP; brain aneurysm detection on CT angiography",
+          "place": "La Ciotat, France"
+        },
+        {
+          "name": "Gleamer",
+          "use": "ChestView US (1.1), AI for reading chest X-rays, authorized by the FDA with a PCCP (K252486)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Brainomix",
+          "use": "Brainomix 360 Hyperdensity, stroke imaging AI, listed among FDA-authorized devices with a PCCP (K260406)",
+          "place": "Oxford, UK"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Predetermined Change Control Plans",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/predetermined-change-control-plans"
+        },
+        {
+          "publisher": "FDA",
+          "title": "510(k) K262062 — CINA-Aneurysm (Avicenna.AI), lettre de décision",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262062.pdf"
+        },
+        {
+          "publisher": "Foley & Lardner",
+          "title": "AI-Enabled Device Software Functions: FDA's Final Guidance for Predetermined Change Control Plans",
+          "url": "https://www.foley.com/insights/publications/2025/01/fda-final-guidance-ai-device-software-predetermined-change-control-plan/"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "Nov 14, 2026"
+    },
+    {
+      "term": "Enzyme Engineering",
+      "full": "Enzyme Engineering",
+      "fr": "Enzyme engineering",
+      "field": "Synthetic biology and biomanufacturing",
+      "definition": "The craft of modifying — or building from scratch — an enzyme, the proteins that speed up chemical reactions, so it cleanly makes a useful molecule (an mRNA vaccine ingredient, a drug substance, a reagent) where conventional chemistry is slow, costly or polluting.",
+      "parts": [
+        {
+          "label": "Sequence",
+          "role": "the recipe: the chain of amino acids that sets the enzyme's shape and therefore its activity"
+        },
+        {
+          "label": "Predictive model",
+          "role": "the brain: an AI trained on lab data that proposes the most promising mutations"
+        },
+        {
+          "label": "Test bench",
+          "role": "the judge: lab screening that measures activity, stability and purity, then feeds the model"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Specification",
+          "t": "Define the target reaction and its industrial constraints: temperature, solvent, no costly cofactor, impurities to avoid."
+        },
+        {
+          "n": "2",
+          "h": "Design",
+          "t": "AI models generate or mutate candidate sequences — where classic directed evolution randomly tested thousands of variants."
+        },
+        {
+          "n": "3",
+          "h": "Test-and-learn loop",
+          "t": "The best variants are produced and measured; results retrain the model, and each cycle shortens the next until the enzyme is ready for industrial scale."
+        }
+      ],
+      "why": "Biomanufacturing of mRNA, peptides and oligonucleotides needs enzymes nature does not provide: it is a picks-and-shovels market that wins whichever drug comes out on top. AI is cutting design from months to weeks, and Europe's leaders (Biomatter, Cradle, EnginZyme) already work with AstraZeneca, Sanofi or Novo Nordisk. Diligence points: ability to scale industrially, ownership of enzymes designed for clients, and business model (licence, royalty or supply).",
+      "startups": [
+        {
+          "name": "Biomatter",
+          "use": "Designs custom enzymes with AI (including a SAM-free methylase for mRNA) for AstraZeneca, BASF, Sanofi and Tereos; $18M Series A led by Astanor in November 2026.",
+          "place": "Vilnius, Lithuania"
+        },
+        {
+          "name": "Cradle",
+          "use": "Generative AI software that helps R&D teams design proteins and enzymes; customers include Novo Nordisk, J&J and Novonesis, $73M Series B led by IVP.",
+          "place": "Amsterdam (Netherlands) and Zurich"
+        },
+        {
+          "name": "EnginZyme",
+          "use": "Cell-free biocatalysis: patented with Ajinomoto Bio-Pharma an enzymatic process to make pseudouridine, a key mRNA vaccine ingredient, without the alpha impurity.",
+          "place": "Stockholm, Sweden"
+        },
+        {
+          "name": "Enzymit",
+          "use": "Computational enzyme design platform for cell-free bioproduction; $10M Series A led by Grove Ventures and Khosla Ventures.",
+          "place": "Israel"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Biomatter lands $18M to speed up enzyme development with AI",
+          "url": "https://tech.eu/2026/11/12/biomatter-lands-18m-to-speed-up-enzyme-development-with-ai/"
+        },
+        {
+          "publisher": "Cradle",
+          "title": "Cradle raises $73M Series B to Put AI-Powered Protein Engineering in Every Lab",
+          "url": "https://www.cradle.bio/blog/series-b"
+        },
+        {
+          "publisher": "Sofinnova Partners",
+          "title": "EnginZyme produces key mRNA vaccine ingredient using biocatalysis",
+          "url": "https://sofinnovapartners.com/news/enginzyme-produces-key-mrna-vaccine-ingredient-using-biocatalysis"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "Nov 14, 2026"
+    },
+    {
+      "term": "PDM",
+      "full": "Post-Deployment Monitoring (of clinical AI)",
+      "fr": "Monitoring clinical AI after go-live",
+      "field": "Clinical AI / governance and regulation",
+      "definition": "Continuous, real-world, site-by-site tracking of how a medical AI tool already in use is performing, to catch in time a drop in reliability, data drift or bias against certain patients.",
+      "parts": [
+        {
+          "label": "Output capture",
+          "role": "continuously collect the AI's predictions (via API, HL7 or DICOM) and, when available, clinical ground truth"
+        },
+        {
+          "label": "Metrics and alerts",
+          "role": "track performance, data drift and subgroup gaps, and alert on degradation"
+        },
+        {
+          "label": "Governance",
+          "role": "the decision loop (radiologists, AI committee, manufacturer, regulator) that fixes, retrains or withdraws the tool"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Connect",
+          "t": "The monitoring platform plugs into the deployed AI's outputs and hospital data, ideally without data leaving the site (federated approach)."
+        },
+        {
+          "n": "2",
+          "h": "Measure",
+          "t": "It computes clinical metrics in near real time (agreement with the radiologist, alert rates, subgroup performance) and detects drift."
+        },
+        {
+          "n": "3",
+          "h": "Act",
+          "t": "When something is off (imaging artefacts, automation bias, a sensitivity drop), teams and the manufacturer are alerted to fix or pause the tool, and the report feeds vigilance."
+        }
+      ],
+      "why": "Regulators are moving from one-off approval to whole-lifecycle oversight: the MHRA adopted all 44 recommendations of a commission that found one-off assessments insufficient, the FDA asks for performance-monitoring plans, and the NHS is designing a national scheme. A vendor-neutral, hospital-bought, recurring software layer is forming between hundreds of cleared AI tools and their users: a nascent market where Europe already has pioneers.",
+      "startups": [
+        {
+          "name": "Aival",
+          "use": "Aival Monitor alerts hospitals when a deployed AI product loses performance (data drift) and breaks results down by subgroup; listed in the UK government's AI assurance portfolio",
+          "place": "London"
+        },
+        {
+          "name": "Newton's Tree",
+          "use": "Vendor-neutral hospital platform for selecting, evaluating and monitoring AI; its federated FAMOS service monitored chest X-ray AI (Annalise.ai, Qure.ai) in real time at Leeds Teaching Hospitals",
+          "place": "London"
+        },
+        {
+          "name": "deepc",
+          "use": "Radiology AI orchestration platform (deepcOS) that publishes a post-deployment governance framework built on technical performance, algorithm stability and clinical use",
+          "place": "Munich"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK (Portfolio of AI assurance techniques)",
+          "title": "Aival Monitor, Aival Analysis Lab: enabling organisations to understand how a deployed AI product is working over time",
+          "url": "https://gov.uk/ai-assurance-techniques/aival-monitor-aival-analysis-lab-enabling-organisations-to-understand-how-a-deployed-ai-product-is-working-over-time"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "UK backs continuous oversight of AI medical devices",
+          "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
+        },
+        {
+          "publisher": "Leeds Teaching Hospitals NHS Trust",
+          "title": "Proactive AI monitoring in radiology: Newton's Tree",
+          "url": "https://www.leedsth.nhs.uk/news/proactive-ai-monitoring-in-radiology-newtons-tree/"
+        },
+        {
+          "publisher": "deepc",
+          "title": "How to monitor AI in radiology: a practical framework for post-deployment governance",
+          "url": "https://www.deepc.ai/blog/how-to-monitor-ai-in-radiology-a-practical-framework-for-post-deployment-governance"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "Nov 14, 2026"
+    },
     {
       "term": "openEHR",
       "full": "openEHR (open electronic health record standard)",

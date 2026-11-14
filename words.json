@@ -1,6 +1,241 @@
 {
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "words": [
+    {
+      "term": "PCCP",
+      "full": "Predetermined Change Control Plan (plan de contrôle des modifications prédéfini)",
+      "fr": "Plan de modifications pré-autorisé",
+      "field": "Réglementaire FDA / IA médicale",
+      "definition": "Un plan, validé par la FDA en même temps que le dispositif, qui décrit à l'avance comment un logiciel (souvent une IA) pourra être modifié et réentraîné, pour que ces mises à jour n'exigent pas un nouveau dossier d'autorisation.",
+      "parts": [
+        {
+          "label": "Description des modifications",
+          "role": "ce qui pourra changer (performances, données, spécifications)"
+        },
+        {
+          "label": "Protocole de modification",
+          "role": "comment chaque changement sera testé, avec des critères d'acceptation fixés d'avance"
+        },
+        {
+          "label": "Analyse d'impact",
+          "role": "les bénéfices et risques de chaque changement, seul et cumulé"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Anticiper",
+          "t": "Le fabricant liste dans son dossier 510(k), De Novo ou PMA les évolutions prévisibles de son algorithme (réentraînement, nouveaux scanners, seuils) et la manière de les valider."
+        },
+        {
+          "n": "2",
+          "h": "Faire valider",
+          "t": "La FDA examine et autorise ce plan en même temps que le dispositif : la lettre de clearance mentionne explicitement le PCCP approuvé."
+        },
+        {
+          "n": "3",
+          "h": "Mettre à jour",
+          "t": "Toute modification conforme au plan peut être déployée sans nouvelle soumission (section 515C de la loi américaine) ; ce qui en sort exige un nouveau dossier."
+        }
+      ],
+      "why": "Pour une startup d'IA médicale, le PCCP transforme un produit figé en produit qui peut s'améliorer sans repasser par la FDA à chaque version : moins de coûts réglementaires, des cycles d'itération plus courts, un avantage défendable face aux concurrents qui doivent redéposer. La FDA a finalisé sa guidance en décembre 2024 et le PCCP se généralise en radiologie : un dossier qui en comporte un est un signal de maturité réglementaire à regarder en due diligence.",
+      "startups": [
+        {
+          "name": "Avicenna.AI",
+          "use": "Clearance FDA de CINA-Aneurysm (K262062) incluant un PCCP validé ; détection des anévrismes cérébraux sur angioscanner",
+          "place": "La Ciotat, France"
+        },
+        {
+          "name": "Gleamer",
+          "use": "ChestView US (1.1), IA de lecture des radiographies thoraciques, autorisée par la FDA avec un PCCP (K252486)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Brainomix",
+          "use": "Brainomix 360 Hyperdensity, IA d'imagerie de l'AVC, figure sur la liste FDA des dispositifs autorisés avec PCCP (K260406)",
+          "place": "Oxford, Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "FDA",
+          "title": "Predetermined Change Control Plans",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/predetermined-change-control-plans"
+        },
+        {
+          "publisher": "FDA",
+          "title": "510(k) K262062 — CINA-Aneurysm (Avicenna.AI), lettre de décision",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262062.pdf"
+        },
+        {
+          "publisher": "Foley & Lardner",
+          "title": "AI-Enabled Device Software Functions: FDA's Final Guidance for Predetermined Change Control Plans",
+          "url": "https://www.foley.com/insights/publications/2025/01/fda-final-guidance-ai-device-software-predetermined-change-control-plan/"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "14 nov. 2026"
+    },
+    {
+      "term": "Enzyme Engineering",
+      "full": "Enzyme Engineering (ingénierie des enzymes)",
+      "fr": "Ingénierie des enzymes",
+      "field": "Biologie de synthèse et biofabrication",
+      "definition": "L'art de modifier — ou de créer de toutes pièces — une enzyme, ces protéines qui accélèrent les réactions chimiques, pour qu'elle fabrique proprement une molécule utile (ingrédient de vaccin ARNm, principe actif, réactif) là où la chimie classique est lente, coûteuse ou polluante.",
+      "parts": [
+        {
+          "label": "Séquence",
+          "role": "la recette : l'enchaînement d'acides aminés qui détermine la forme et donc l'activité de l'enzyme"
+        },
+        {
+          "label": "Modèle prédictif",
+          "role": "le cerveau : une IA entraînée sur des données de laboratoire qui propose les mutations les plus prometteuses"
+        },
+        {
+          "label": "Banc de test",
+          "role": "le juge : le criblage en laboratoire qui mesure activité, stabilité et pureté, puis nourrit le modèle"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cahier des charges",
+          "t": "On définit la réaction voulue et ses contraintes industrielles : température, solvant, absence de cofacteur coûteux, impuretés à éviter."
+        },
+        {
+          "n": "2",
+          "h": "Conception",
+          "t": "Des modèles d'IA génèrent ou mutent des séquences candidates — là où l'évolution dirigée classique testait au hasard des milliers de variants."
+        },
+        {
+          "n": "3",
+          "h": "Boucle test-apprentissage",
+          "t": "Les meilleurs variants sont produits et mesurés ; les résultats réentraînent le modèle, et chaque cycle raccourcit le suivant jusqu'à l'enzyme industrialisable."
+        }
+      ],
+      "why": "La biofabrication de l'ARNm, des peptides et des oligonucléotides a besoin d'enzymes que la nature ne fournit pas : c'est un marché « pelle et pioche » qui gagne quel que soit le médicament vainqueur. L'IA fait passer la conception de mois à quelques semaines, et les leaders européens (Biomatter, Cradle, EnginZyme) signent déjà avec AstraZeneca, Sanofi ou Novo Nordisk. Points de diligence : capacité à passer à l'échelle industrielle, propriété des enzymes conçues pour les clients, et modèle économique (licence, redevance ou fourniture).",
+      "startups": [
+        {
+          "name": "Biomatter",
+          "use": "Conçoit par IA des enzymes sur mesure (dont une méthylase sans SAM pour l'ARNm) pour AstraZeneca, BASF, Sanofi ou Tereos ; Series A de 18 M$ menée par Astanor en novembre 2026.",
+          "place": "Vilnius, Lituanie"
+        },
+        {
+          "name": "Cradle",
+          "use": "Logiciel d'IA générative qui aide les équipes de R&D à concevoir des protéines et enzymes ; clients dont Novo Nordisk, J&J et Novonesis, Series B de 73 M$ menée par IVP.",
+          "place": "Amsterdam (Pays-Bas) et Zurich"
+        },
+        {
+          "name": "EnginZyme",
+          "use": "Biocatalyse acellulaire : a breveté avec Ajinomoto Bio-Pharma un procédé enzymatique de production de pseudouridine, ingrédient clé des vaccins ARNm, sans l'impureté alpha.",
+          "place": "Stockholm, Suède"
+        },
+        {
+          "name": "Enzymit",
+          "use": "Plateforme de conception d'enzymes par calcul pour une bioproduction acellulaire ; Series A de 10 M$ menée par Grove Ventures et Khosla Ventures.",
+          "place": "Israël"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Biomatter lands $18M to speed up enzyme development with AI",
+          "url": "https://tech.eu/2026/11/12/biomatter-lands-18m-to-speed-up-enzyme-development-with-ai/"
+        },
+        {
+          "publisher": "Cradle",
+          "title": "Cradle raises $73M Series B to Put AI-Powered Protein Engineering in Every Lab",
+          "url": "https://www.cradle.bio/blog/series-b"
+        },
+        {
+          "publisher": "Sofinnova Partners",
+          "title": "EnginZyme produces key mRNA vaccine ingredient using biocatalysis",
+          "url": "https://sofinnovapartners.com/news/enginzyme-produces-key-mrna-vaccine-ingredient-using-biocatalysis"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "14 nov. 2026"
+    },
+    {
+      "term": "PDM",
+      "full": "Post-Deployment Monitoring (surveillance post-déploiement des IA cliniques)",
+      "fr": "Surveillance des IA cliniques après leur mise en service",
+      "field": "IA clinique / gouvernance et réglementation",
+      "definition": "Le suivi continu, en conditions réelles et dans chaque hôpital, des performances d'un outil d'IA médicale déjà en service, pour repérer à temps une baisse de fiabilité, une dérive des données ou un biais envers certains patients.",
+      "parts": [
+        {
+          "label": "Collecte des sorties",
+          "role": "récupérer en continu les prédictions de l'IA (via API, HL7 ou DICOM) et, quand elle existe, la vérité terrain clinique"
+        },
+        {
+          "label": "Indicateurs et alertes",
+          "role": "suivre performance, dérive des données et écarts par sous-groupe de patients, et alerter en cas de dégradation"
+        },
+        {
+          "label": "Gouvernance",
+          "role": "le circuit de décision (radiologues, comité IA, fabricant, régulateur) qui corrige, réentraîne ou retire l'outil"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Brancher",
+          "t": "La plateforme de monitoring se connecte aux sorties de l'IA déployée et aux données de l'hôpital, sans forcément sortir les données du site (approche fédérée)."
+        },
+        {
+          "n": "2",
+          "h": "Mesurer",
+          "t": "Elle calcule en quasi temps réel des métriques cliniques (concordance avec le radiologue, taux d'alertes, performance par sous-groupe) et détecte la dérive."
+        },
+        {
+          "n": "3",
+          "h": "Agir",
+          "t": "En cas d'anomalie (artefacts d'imagerie, biais d'automatisation, chute de sensibilité), les équipes et le fabricant sont alertés pour corriger ou suspendre l'outil, et le signalement alimente la matériovigilance."
+        }
+      ],
+      "why": "Les régulateurs passent de l'autorisation ponctuelle à la surveillance sur toute la durée de vie : la MHRA a adopté les 44 recommandations d'une commission jugeant les évaluations « one-off » insuffisantes, la FDA demande des plans de suivi de performance, et le NHS conçoit un dispositif national. Une couche logicielle neutre vis-à-vis des éditeurs, achetée par l'hôpital et récurrente, se crée entre les centaines d'IA autorisées et leurs utilisateurs : un marché naissant où l'Europe a déjà des pionniers.",
+      "startups": [
+        {
+          "name": "Aival",
+          "use": "Aival Monitor alerte l'hôpital quand un produit d'IA déployé perd en performance (dérive de données) et ventile les résultats par sous-groupe ; référencé dans le catalogue d'assurance IA du gouvernement britannique",
+          "place": "Londres"
+        },
+        {
+          "name": "Newton's Tree",
+          "use": "Plateforme hospitalière neutre de sélection, d'évaluation et de monitoring des IA ; son service fédéré FAMOS a surveillé en temps réel des IA de radiographie thoracique (Annalise.ai, Qure.ai) à Leeds Teaching Hospitals",
+          "place": "Londres"
+        },
+        {
+          "name": "deepc",
+          "use": "Plateforme d'orchestration des IA de radiologie (deepcOS) qui publie un cadre de gouvernance post-déploiement fondé sur performance technique, stabilité de l'algorithme et usage clinique",
+          "place": "Munich"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK (Portfolio of AI assurance techniques)",
+          "title": "Aival Monitor, Aival Analysis Lab: enabling organisations to understand how a deployed AI product is working over time",
+          "url": "https://gov.uk/ai-assurance-techniques/aival-monitor-aival-analysis-lab-enabling-organisations-to-understand-how-a-deployed-ai-product-is-working-over-time"
+        },
+        {
+          "publisher": "MedTech Dive",
+          "title": "UK backs continuous oversight of AI medical devices",
+          "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
+        },
+        {
+          "publisher": "Leeds Teaching Hospitals NHS Trust",
+          "title": "Proactive AI monitoring in radiology: Newton's Tree",
+          "url": "https://www.leedsth.nhs.uk/news/proactive-ai-monitoring-in-radiology-newtons-tree/"
+        },
+        {
+          "publisher": "deepc",
+          "title": "How to monitor AI in radiology: a practical framework for post-deployment governance",
+          "url": "https://www.deepc.ai/blog/how-to-monitor-ai-in-radiology-a-practical-framework-for-post-deployment-governance"
+        }
+      ],
+      "date": "2026-11-14",
+      "dateLong": "14 nov. 2026"
+    },
     {
       "term": "openEHR",
       "full": "openEHR (standard ouvert de dossier de santé électronique)",
