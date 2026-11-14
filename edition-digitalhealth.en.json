@@ -1,195 +1,213 @@
 {
-  "dateLong": "Nov 13, 2026",
+  "dateLong": "Nov 14, 2026",
   "ticker": [
     {
-      "company": "KRY",
-      "amount": "Min Doktor",
-      "kind": "mna"
-    },
-    {
-      "company": "FLO HEALTH",
-      "amount": "ISO 13485",
-      "kind": "reg"
-    },
-    {
-      "company": "LAGUNA HEALTH",
-      "amount": "Acquired",
-      "kind": "mna"
-    },
-    {
-      "company": "DEEPINVOICE",
-      "amount": "€700K",
+      "company": "INCISION",
+      "amount": "€4M",
       "kind": "lev"
     },
     {
-      "company": "ONC / CMS",
-      "amount": "FHIR PA",
+      "company": "CGI / NHS",
+      "amount": "SPR £48M",
+      "kind": "tech"
+    },
+    {
+      "company": "WOLTERS KLUWER",
+      "amount": "$100M",
+      "kind": "mna"
+    },
+    {
+      "company": "MPASSIST",
+      "amount": "Break-even",
+      "kind": "new"
+    },
+    {
+      "company": "NHS / RCR",
+      "amount": "AI monitoring",
       "kind": "reg"
     },
     {
-      "company": "BARTS HEALTH",
-      "amount": "1,350 AI users",
-      "kind": "tech"
+      "company": "XPERTDOX",
+      "amount": "$20M",
+      "kind": "lev"
     }
   ],
   "lead": {
-    "kicker": "M&A · Digital primary care",
-    "title": "Kry buys Min Doktor and passes 150 physical care sites in Sweden",
-    "deck": "Sweden's Kry (SEK 2.5B revenue in 2025) is acquiring all of Min Doktor: nearly 100 clinics run alongside Apotek Hjärtat pharmacies and ICA stores, around 400,000 digital visits and more than 300,000 vaccinations in 2025, for revenue of about SEK 400M; the price was not disclosed. The deal is paid in shares: Apotek Hjärtat (49.5% of Min Doktor), EQT Ventures and Swedbank Robur become Kry shareholders. Subject to competition clearance, it confirms that the winning model in European digital primary care is hybrid, from the screen to the shop floor.",
-    "company": "Kry",
-    "stage": "Growth",
-    "sector": "Telehealth",
+    "kicker": "Funding · Operating-room software",
+    "title": "Amsterdam's Incision raises €4M from HERAN Partners to take its digital assistant for surgical teams to the US",
+    "deck": "Founded in 2014 by surgeon Theo Wiggers, Incision makes Assist, which gives OR staff procedure-, role- and surgeon-specific guidance (instruments, materials, room set-up), plus MySPD for sterile processing and Incision Academy for training; its platforms run in about 300 hospitals across more than 20 countries. The third investment from HERAN HealthTech Fund II, whose partner Mercedes Tuin joins the supervisory board, the round will fund US expansion (a market entered in 2022), partnerships with device makers and platform development: user hospitals report 15% faster room turnover and 14% fewer intraoperative door movements.",
+    "company": "Incision",
+    "sector": "Hospital software",
     "pillar": "financement",
-    "signalType": "acquisition",
-    "strength": 5,
-    "url": "https://www.investorsinhealthcare.com/articles/category/news/sweden-kry-acquires-primary-care-provider-min-doktor-to-expand-its-swedish-clinic-network/"
+    "signalType": "funding_round",
+    "strength": 4,
+    "url": "https://www.incision.care/news/heran-invests-eur-4-million-in-incision"
   },
   "milestone": {
-    "company": "Flo Health",
-    "milestone": "ISO 13485",
-    "title": "Flo Health earns ISO 13485 certification, the foundation for future medical device software",
-    "summary": "The London women's health app (80 million monthly active users) had its quality management system for designing medical software, built on the Ketryx platform, audited by Scarlet, an accredited body specialising in AI medical devices; no major findings were reported. The certification opens the route to CE and UKCA marking and aligns with the FDA's quality system regulation.",
-    "why": "Europe's first femtech unicorn is moving from wellness to regulated medicine: the next day it published in the journal Menopause, with Mayo Clinic clinicians, the validation of its perimenopause symptom scale (Peri-SS, 16 items, 1,255 women). A signal ahead of a first SaMD product, and so ahead of new payer channels.",
+    "company": "CGI",
+    "milestone": "National contract",
+    "title": "NHS England hands CGI £47.7M to build the foundations of England's Single Patient Record",
+    "summary": "The UK arm of the Canadian group will build the patient-level datastore, ingestion pipelines, APIs, authorisation and audit, integrate with the National Care Records Service, and develop Clinician360 for clinicians, then Patient360 via the NHS App; first care pathways: maternity and frailty. The 12-month contract started on November 2 and can be extended by a year.",
+    "why": "It is the first major building block of the single record promised by the NHS 10 Year Health Plan, which aims to give clinicians access to the history of at least 80% of patients by April 2027. NHS England says several suppliers will be involved, with more contracts over two years: an opening for interoperability and clinical-app vendors able to plug into this layer.",
     "place": "London",
-    "sector": "Femtech",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/news-releases/flo-health-earns-iso-13485-certification-for-its-quality-management-system-302936804.html"
+    "sector": "Health data",
+    "signalType": "early_partnership",
+    "url": "https://www.pharmacymagazine.co.uk/news/canadian-firm-awarded-48m-contract-to-develop-single-patient-record"
+  },
+  "deal": {
+    "company": "AgileMD",
+    "amount": "up to $100M",
+    "round": "M&A",
+    "thesis": "Dutch group Wolters Kluwer Health pays $40M in cash and up to $60M in performance-based earn-outs for the Californian maker of EHR-embedded clinical decision support (Pathways, and eCART, a 510(k)-cleared deterioration-detection engine): about 5.7x expected year-end 2026 ARR ($7M) upfront, 14.3x at most. Two lessons for VCs: clinical-content giants (UpToDate Expert AI, adopted by 2,700+ US hospitals) now buy workflow distribution rather than build it, and earn-outs are becoming the norm to bridge valuations and revenue.",
+    "sector": "Clinical AI",
+    "url": "https://hitconsultant.net/2026/11/13/wolters-kluwer-to-acquire-ai-clinical-decision-support-platform-agilemd/"
   },
   "brefsEurope": [
     {
-      "company": "Deepinvoice",
-      "place": "Münster",
+      "company": "MPAssist",
+      "place": "Zug",
       "sector": "Clinical AI",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Pre-seed",
-      "title": "Deepinvoice raises €700K pre-seed, led by BDOC Plus AG, to automate medical billing with AI",
-      "summary": "Its software reads the patient record, identifies billable services and generates GOÄ, EBM and ICD-10 coding lists for private and statutory insurance, trained on ophthalmology billing. NRW.BANK (NRW.SeedCon), Dresden's Augenzentrum am Blauen Wunder and angel Burkhard Awe complete the round, which will make the product cloud-ready and extend it to other specialties.",
-      "url": "https://www.startup.eu/investments/deepinvoice-700-k-pre-seed-11-2026"
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 2,
+      "title": "MPAssist, a Swiss AI documentation assistant founded in 2024, breaks even without raising capital",
+      "summary": "Founded by Michelle Plüss and Enrico Mayor, the startup automates reports, nursing documentation and patient-record summaries for 170+ Swiss healthcare institutions and has beaten its CHF 500,000 revenue target. The CHF 500,000-for-20% offer made on 'Die Höhle der Löwen' was not finalised, as the parties disagreed on long-term strategy.",
+      "url": "https://www.startupticker.ch/en/news/hoehle-der-loewen-mpassist-erreicht-break-even-ohne-investment"
     },
     {
-      "company": "Barts Health NHS Trust",
+      "company": "NHS England",
       "place": "London",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "NHS England taps the Royal College of Radiologists to design national monitoring of deployed diagnostic AI",
+      "summary": "A five-month contract (almost £230,000 incl. VAT, starting November 26) to define how to track real-world performance, model drift and bias of AI tools, especially in cancer screening, and whether to procure a dedicated platform. A future market for AI-monitoring vendors.",
+      "url": "https://publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/"
+    },
+    {
+      "company": "Leeds Community Healthcare NHS Trust",
+      "place": "Leeds",
       "sector": "Clinical AI",
       "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "At Barts Health, 1,350 clinicians have already used Oracle's clinical AI agent, open to more than 2,000",
-      "summary": "The London trust counted 700 users in September; it is also rolling out Ovia's automated follow-up calls for its heart and lung virtual wards. In intensive care, nurse Anna Lazcano is prototyping VOCAL, an AI tool that helps patients who cannot speak build messages with their eyes or touch.",
-      "url": "https://htn.co.uk/2026/11/12/barts-health-project-sees-ai-eye-tracking-tech-to-help-patients-with-speech-difficulties-communicate/"
-    },
-    {
-      "company": "Croydon Health Services NHS Trust",
-      "place": "Croydon",
-      "sector": "Hospital software",
-      "pillar": "marche",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "Croydon Health Services sets its AI priorities: ambient voice in the ED, Patienteer and prostate cancer screening",
-      "summary": "The strategy requires a named sponsor and outcome metrics for every use, assessment through the NHS T.E.S.T framework and bias audits from Q4 2026/27, funded by productivity savings. An AI centre of excellence, ambient voice in community services and automated clinical coding follow from 2027/28.",
-      "url": "https://htn.co.uk/2026/11/12/croydon-health-services-sets-out-ai-use-cases-across-discharge-planning-virtual-wards-documentation-referral-triage-imaging/"
+      "title": "Heidi ambient AI pilot in Leeds: 91% of patients say clinicians were more focused",
+      "summary": "At the Leeds Gender Identity Service, where 72.7% of staff reported a negative impact from admin, Heidi Health's ambient scribe was piloted; 91% of service users found clinicians more focused. The trust is now consulting service users on AI in its community services, open until January 2027.",
+      "url": "https://htn.co.uk/2026/11/13/leeds-community-calls-for-views-of-local-service-users-on-use-of-ai-in-community-services/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Laguna Health",
-      "place": "United States / Tel Aviv",
+      "company": "XpertDox",
+      "place": "Scottsdale (US)",
       "sector": "Clinical AI",
       "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Elligint Health acquires Laguna Health and its conversational AI for care management",
-      "summary": "Founded in 2020 by Yoni Shtein and Yael Peled Adam, Laguna (Edison, New Jersey and Tel Aviv) audits 100% of health plan member calls and cut care manager documentation time by 66% at one client; it keeps its brand and stays available on rival platforms. Elligint's Helios platform covers more than 13 million managed lives; the price was not disclosed.",
-      "url": "https://hitconsultant.net/2026/11/12/elligint-health-acquires-laguna-health-conversational-ai-care-management-helios/"
+      "signalType": "funding_round",
+      "strength": 4,
+      "stage": "Series A",
+      "title": "XpertDox raises $20M Series A led by Savant Growth for neuro-symbolic AI medical coding",
+      "summary": "XpertCoding turns unstructured EHR documentation into billing codes for 40+ organisations, including seven major community health centres; Kennet Partners participates. Autonomous coding remains one of the fastest-paying AI use cases for thin-margin providers.",
+      "url": "https://hitconsultant.net/2026/11/13/xpertdox-raises-20m-series-a-savant-growth-ai-medical-coding/"
     },
     {
-      "company": "ONC et CMS",
+      "company": "Oracle Health",
       "place": "United States",
-      "sector": "Regulatory",
+      "sector": "Health data",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "signalType": "early_partnership",
       "strength": 3,
-      "title": "ONC and CMS launch 10-to-12-week testing sprints for FHIR-based electronic prior authorization",
-      "summary": "Payers, hospitals, EHR developers and clearinghouses will test the Da Vinci CRD, DTR and PAS guides on Drummond Group's FHIRplace environment, supported by MITRE, ahead of the requirement for impacted payers to run prior authorization APIs by January 1, 2027 (72-hour decisions for urgent requests, seven days otherwise).",
-      "url": "https://hitconsultant.net/2026/11/12/onc-cms-launch-electronic-prior-authorization-testing-initiative-fhirplace-2027/"
+      "title": "The VA and the Department of War connect to Oracle Health's exchange network under TEFCA",
+      "summary": "Since November 5, military and veterans' clinicians can query civilian hospitals' and clinics' records through a single connection point and reconcile them into the primary chart; imaging and medication histories will follow. A large-scale public-private exchange precedent worth watching for the EHDS.",
+      "url": "https://hitconsultant.net/2026/11/13/va-department-of-war-go-live-oracle-health-information-network-tefca-qhin/"
+    },
+    {
+      "company": "Redesign Health",
+      "place": "New York",
+      "sector": "Fund",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "Redesign Health launches a growth equity practice, Series A to pre-IPO, in healthcare AI",
+      "summary": "The New York venture builder, with Richie Chaikof leading the effort, will back health IT, AI-enabled services and clinical AI companies; fund and cheque sizes undisclosed. One more buyer for health-AI scale-ups, including European ones targeting the US.",
+      "url": "https://hitconsultant.net/2026/11/13/redesign-health-launches-growth-equity-practice-series-a-pre-ipo-healthcare-ai/"
     }
   ],
   "word": {
-    "term": "openEHR",
-    "full": "openEHR (open electronic health record standard)",
-    "fr": "Open standard for modelling the patient record",
-    "field": "Interoperability / health data",
-    "definition": "An open, vendor-neutral standard that describes clinical data with models designed by clinicians, so a patient's record stays readable for life, whatever software displays it.",
+    "term": "PDM",
+    "full": "Post-Deployment Monitoring (of clinical AI)",
+    "fr": "Monitoring clinical AI after go-live",
+    "field": "Clinical AI / governance and regulation",
+    "definition": "Continuous, real-world, site-by-site tracking of how a medical AI tool already in use is performing, to catch in time a drop in reliability, data drift or bias against certain patients.",
     "parts": [
       {
-        "label": "Reference model",
-        "role": "the stable, generic technical foundation shared by every openEHR system"
+        "label": "Output capture",
+        "role": "continuously collect the AI's predictions (via API, HL7 or DICOM) and, when available, clinical ground truth"
       },
       {
-        "label": "Archetypes and templates",
-        "role": "the clinical content (a blood pressure reading, a discharge summary) defined and reviewed by clinicians"
+        "label": "Metrics and alerts",
+        "role": "track performance, data drift and subgroup gaps, and alert on degradation"
       },
       {
-        "label": "Clinical data repository (CDR) and AQL",
-        "role": "storing the data and querying it through a REST API and a standard query language"
+        "label": "Governance",
+        "role": "the decision loop (radiologists, AI committee, manufacturer, regulator) that fixes, retrains or withdraws the tool"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Model",
-        "t": "Clinicians build reusable archetypes, then combine them into templates tailored to a specific use (consultation, prescription, discharge)."
+        "h": "Connect",
+        "t": "The monitoring platform plugs into the deployed AI's outputs and hospital data, ideally without data leaving the site (federated approach)."
       },
       {
         "n": "2",
-        "h": "Store",
-        "t": "Applications write data into a vendor-independent clinical data repository (CDR) through a standardised REST API."
+        "h": "Measure",
+        "t": "It computes clinical metrics in near real time (agreement with the radiologist, alert rates, subgroup performance) and detects drift."
       },
       {
         "n": "3",
-        "h": "Use",
-        "t": "Any application, analytics tool or AI model queries the same data in AQL; FHIR often serves as the exchange layer with outside systems."
+        "h": "Act",
+        "t": "When something is off (imaging artefacts, automation bias, a sensitivity drop), teams and the manufacturer are alerted to fix or pause the tool, and the report feeds vigilance."
       }
     ],
-    "why": "openEHR separates clinical data from the application: a hospital or region can switch software without migrating its data estate, and add analytics or AI tools without depending on an EHR vendor. With the NHS single patient record under construction, the EHDS and the race for structured data to feed AI, the standard underpins a European ecosystem of clinical data platforms positioning themselves against the big integrated EHRs.",
+    "why": "Regulators are moving from one-off approval to whole-lifecycle oversight: the MHRA adopted all 44 recommendations of a commission that found one-off assessments insufficient, the FDA asks for performance-monitoring plans, and the NHS is designing a national scheme. A vendor-neutral, hospital-bought, recurring software layer is forming between hundreds of cleared AI tools and their users: a nascent market where Europe already has pioneers.",
     "startups": [
       {
-        "name": "Better",
-        "use": "Better Platform, an openEHR clinical data layer (with FHIR for operational data): more than 40 million records, 1,000 healthcare organisations in 30+ countries, Better Meds e-prescribing live in more than 10 NHS trusts",
-        "place": "Ljubljana, Slovenia"
+        "name": "Aival",
+        "use": "Aival Monitor alerts hospitals when a deployed AI product loses performance (data drift) and breaks results down by subgroup; listed in the UK government's AI assurance portfolio",
+        "place": "London"
       },
       {
-        "name": "Cadasto",
-        "use": "Open data platform launched in early 2026 from the openEHR layer of CODE24, the first Dutch vendor to adopt the standard; an openEHR Platinum Partner offering data federation, a SMART-on-openEHR connector and an open-source MCP server for designing archetypes and templates",
-        "place": "Netherlands"
+        "name": "Newton's Tree",
+        "use": "Vendor-neutral hospital platform for selecting, evaluating and monitoring AI; its federated FAMOS service monitored chest X-ray AI (Annalise.ai, Qure.ai) in real time at Leeds Teaching Hospitals",
+        "place": "London"
       },
       {
-        "name": "vitagroup",
-        "use": "Develops EHRbase, an open-source openEHR repository, and its commercial version HIP EHRbase; more than 400 subscribers to its sandbox in five months (Germany, UK, Nordics, Netherlands)",
-        "place": "Germany"
+        "name": "deepc",
+        "use": "Radiology AI orchestration platform (deepcOS) that publishes a post-deployment governance framework built on technical performance, algorithm stability and clinical use",
+        "place": "Munich"
       }
     ],
     "sources": [
       {
-        "publisher": "openEHR International",
-        "title": "What is openEHR?",
-        "url": "https://openehr.org/about/what_is_openehr"
+        "publisher": "GOV.UK (Portfolio of AI assurance techniques)",
+        "title": "Aival Monitor, Aival Analysis Lab: enabling organisations to understand how a deployed AI product is working over time",
+        "url": "https://gov.uk/ai-assurance-techniques/aival-monitor-aival-analysis-lab-enabling-organisations-to-understand-how-a-deployed-ai-product-is-working-over-time"
       },
       {
-        "publisher": "Better",
-        "title": "Better | openEHR clinical data platform for health systems",
-        "url": "https://www.better.care/"
+        "publisher": "MedTech Dive",
+        "title": "UK backs continuous oversight of AI medical devices",
+        "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
       },
       {
-        "publisher": "openEHR International",
-        "title": "Cadasto: Open Data Platform & new openEHR Platinum Partner",
-        "url": "https://openehr.org/cadasto-open-data-platform-new-openehr-platinum-partner/"
+        "publisher": "Leeds Teaching Hospitals NHS Trust",
+        "title": "Proactive AI monitoring in radiology: Newton's Tree",
+        "url": "https://www.leedsth.nhs.uk/news/proactive-ai-monitoring-in-radiology-newtons-tree/"
       },
       {
-        "publisher": "vitagroup",
-        "title": "vitagroup's digital health platform EHRbase reaches over 400 subscribers in just 5 months",
-        "url": "https://www.vitagroup.ag/en/ehrbase-sandbox-400-user/"
+        "publisher": "deepc",
+        "title": "How to monitor AI in radiology: a practical framework for post-deployment governance",
+        "url": "https://www.deepc.ai/blog/how-to-monitor-ai-in-radiology-a-practical-framework-for-post-deployment-governance"
       }
     ]
   }
