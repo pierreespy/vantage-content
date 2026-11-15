@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "words": [
+    {
+      "term": "MCED",
+      "full": "Multi-Cancer Early Detection",
+      "fr": "Screening for several cancers with one test",
+      "field": "In vitro diagnostics / oncology",
+      "definition": "A single test, usually a blood draw (sometimes urine), that looks in a person without symptoms for the biological traces left by several cancer types at once, including those for which no screening exists.",
+      "parts": [
+        {
+          "label": "Biomarker",
+          "role": "the signal measured: circulating tumour DNA (methylation, fragments), proteins or metabolites such as glycosaminoglycans"
+        },
+        {
+          "label": "Algorithm",
+          "role": "the machine-learning model that separates the \"cancer\" signal from noise and often predicts the organ of origin"
+        },
+        {
+          "label": "Confirmation pathway",
+          "role": "the imaging and biopsy that follow a positive test, without which the result has no clinical value"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sample",
+          "t": "A blood or urine sample is collected from an adult without symptoms, typically aged 45 to 75."
+        },
+        {
+          "n": "2",
+          "h": "Analyse",
+          "t": "The lab measures the biomarker profile (circulating DNA sequencing or mass spectrometry) and the algorithm computes a risk score or a positive/negative signal."
+        },
+        {
+          "n": "3",
+          "h": "Confirm",
+          "t": "If a signal is found, the patient is referred for targeted diagnostic work-up; the challenge is to limit false positives and unnecessary procedures."
+        }
+      ],
+      "why": "Organised screening covers only a handful of cancers (breast, colon, cervix, lung): a test targeting dozens addresses a potentially massive market, but proof of a mortality benefit does not exist yet. The US National Cancer Institute launched the Vanguard study (up to 24,000 people) to prepare a large randomised trial: for an investor, value hinges on the quality of clinical data, cost per test and the ability to target people at risk, which leaves room for alternatives to DNA such as urinary metabolites.",
+      "startups": [
+        {
+          "name": "Elypta",
+          "use": "Urine glycosaminoglycan score (GAGome) published on 5,436 adults from the Lifelines cohort to flag five-year cancer risk",
+          "place": "Solna, Sweden"
+        },
+        {
+          "name": "Adela",
+          "use": "Blood test based on circulating DNA methylation; more than 6,100 participants enrolled in its MCED study spanning 20 cancer types (ASCO 2026)",
+          "place": "Foster City, United States / Toronto, Canada"
+        },
+        {
+          "name": "Harbinger Health",
+          "use": "Resolve line of blood-based cancer detection tests, funded by a $100M round led by Flagship Pioneering in 2026",
+          "place": "Cambridge, United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "National Cancer Institute",
+          "title": "Vanguard Study",
+          "url": "https://www.cancer.gov/research/areas/screening/vanguard-study"
+        },
+        {
+          "publisher": "LabMedica",
+          "title": "Study Finds Urine Biomarker Score Improves Five-Year Cancer Risk Prediction",
+          "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html"
+        },
+        {
+          "publisher": "Adela",
+          "title": "Adela News",
+          "url": "https://www.adelabio.com/adela-news"
+        },
+        {
+          "publisher": "GenomeWeb",
+          "title": "Harbinger Health to Commercialize Multi-Cancer Detection Tests With $100M Financing Round",
+          "url": "https://www.genomeweb.com/cancer/harbinger-health-commercialize-multi-cancer-detection-tests-100m-financing-round/"
+        }
+      ],
+      "date": "2026-11-15",
+      "dateLong": "Nov 15, 2026"
+    },
     {
       "term": "PCCP",
       "full": "Predetermined Change Control Plan",

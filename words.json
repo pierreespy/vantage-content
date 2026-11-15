@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-14",
+  "generatedAt": "2026-11-15",
   "words": [
+    {
+      "term": "MCED",
+      "full": "Multi-Cancer Early Detection (détection précoce multi-cancers)",
+      "fr": "Dépistage de plusieurs cancers en un seul test",
+      "field": "Diagnostic in vitro / oncologie",
+      "definition": "Un test unique, le plus souvent une prise de sang (parfois l'urine), qui cherche chez une personne sans symptômes les traces biologiques laissées par plusieurs types de cancers à la fois, y compris ceux pour lesquels il n'existe aucun dépistage.",
+      "parts": [
+        {
+          "label": "Biomarqueur",
+          "role": "le signal mesuré : ADN tumoral circulant (méthylation, fragments), protéines ou métabolites comme les glycosaminoglycanes"
+        },
+        {
+          "label": "Algorithme",
+          "role": "le modèle d'apprentissage qui sépare le signal « cancer » du bruit et, souvent, devine l'organe d'origine"
+        },
+        {
+          "label": "Parcours de confirmation",
+          "role": "l'imagerie et la biopsie qui suivent un test positif, sans lesquelles le résultat n'a pas de valeur clinique"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélever",
+          "t": "Un échantillon de sang ou d'urine est recueilli chez un adulte sans symptômes, typiquement entre 45 et 75 ans."
+        },
+        {
+          "n": "2",
+          "h": "Analyser",
+          "t": "Le laboratoire mesure le profil de biomarqueurs (séquençage de l'ADN circulant ou spectrométrie de masse) et l'algorithme calcule un score de risque ou un signal positif/négatif."
+        },
+        {
+          "n": "3",
+          "h": "Confirmer",
+          "t": "En cas de signal, le patient est orienté vers des examens diagnostiques ciblés ; l'enjeu est de limiter les faux positifs et les examens inutiles."
+        }
+      ],
+      "why": "Les dépistages organisés ne couvrent que quelques cancers (sein, côlon, col de l'utérus, poumon) : un test qui en vise des dizaines adresse un marché potentiellement massif, mais la preuve d'un bénéfice sur la mortalité n'existe pas encore. Le National Cancer Institute américain a lancé l'étude Vanguard (jusqu'à 24 000 personnes) pour préparer un grand essai randomisé : pour un investisseur, la valeur se joue sur la qualité des données cliniques, le coût par test et la capacité à cibler les personnes à risque, ce qui laisse de la place à des approches alternatives à l'ADN comme les métabolites urinaires.",
+      "startups": [
+        {
+          "name": "Elypta",
+          "use": "Score urinaire de glycosaminoglycanes (GAGome) publié sur 5 436 adultes de la cohorte Lifelines pour repérer le risque de cancer à cinq ans",
+          "place": "Solna, Suède"
+        },
+        {
+          "name": "Adela",
+          "use": "Test sanguin fondé sur la méthylation de l'ADN circulant ; plus de 6 100 participants inclus dans son étude MCED couvrant 20 types de cancer (ASCO 2026)",
+          "place": "Foster City, États-Unis / Toronto, Canada"
+        },
+        {
+          "name": "Harbinger Health",
+          "use": "Gamme de tests sanguins de détection des cancers Resolve, financée par un tour de 100 M$ mené par Flagship Pioneering en 2026",
+          "place": "Cambridge, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "National Cancer Institute",
+          "title": "Vanguard Study",
+          "url": "https://www.cancer.gov/research/areas/screening/vanguard-study"
+        },
+        {
+          "publisher": "LabMedica",
+          "title": "Study Finds Urine Biomarker Score Improves Five-Year Cancer Risk Prediction",
+          "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html"
+        },
+        {
+          "publisher": "Adela",
+          "title": "Adela News",
+          "url": "https://www.adelabio.com/adela-news"
+        },
+        {
+          "publisher": "GenomeWeb",
+          "title": "Harbinger Health to Commercialize Multi-Cancer Detection Tests With $100M Financing Round",
+          "url": "https://www.genomeweb.com/cancer/harbinger-health-commercialize-multi-cancer-detection-tests-100m-financing-round/"
+        }
+      ],
+      "date": "2026-11-15",
+      "dateLong": "15 nov. 2026"
+    },
     {
       "term": "PCCP",
       "full": "Predetermined Change Control Plan (plan de contrôle des modifications prédéfini)",

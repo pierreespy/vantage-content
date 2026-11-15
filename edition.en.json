@@ -1,88 +1,86 @@
 {
-  "dateLong": "Nov 14, 2026",
+  "dateLong": "Nov 15, 2026",
   "ticker": [
-    { "company": "AVICENNA.AI", "amount": "FDA ×2", "kind": "reg" },
-    { "company": "VVARDIS", "amount": "IPO $175M", "kind": "lev" },
-    { "company": "SYNCHRON", "amount": "Trial paused", "kind": "tech" },
-    { "company": "BECHTEL MEDICAL", "amount": "510(k)", "kind": "reg" },
-    { "company": "LUNGPACER", "amount": "1st patient", "kind": "tech" },
-    { "company": "DEEGTAL INSIGHTS", "amount": "MEDICA", "kind": "new" }
+    { "company": "ELYPTA", "amount": "Publication", "kind": "tech" },
+    { "company": "MOLECULAR DESIGNS", "amount": "510(k)", "kind": "reg" },
+    { "company": "NEUROSOFT", "amount": "Gold medal", "kind": "new" },
+    { "company": "NATERA", "amount": "Ph2 MRD", "kind": "tech" },
+    { "company": "ACCURAY", "amount": "$40M", "kind": "lev" },
+    { "company": "NORTHWESTERN", "amount": "TB test", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "FDA clearance · Imaging AI",
-    "title": "Avicenna.AI wins two FDA clearances for its brain aneurysm detection AI, launching in the US with Bracco under the UPTUNITY brand",
-    "deck": "The La Ciotat-based startup secured two 510(k)s (K262062 \"CINA-Aneurysm\" and K262147 \"CINA-Aneurysm+\") for software that flags saccular aneurysms larger than 3 mm on head CT angiography, reports their location and size, then tracks how they change between exams; the FDA also cleared a Predetermined Change Control Plan (PCCP) that will let the algorithm evolve without a new submission. The first product in Italian group Bracco's UPTUNITY line, a partner since March 2026, it will be sold in the US by Avicenna.AI itself: a French radiology AI developer turning its clearances into a distribution channel backed by an imaging major.",
-    "company": "Avicenna.AI",
-    "sector": "Imaging",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.prnewswire.com/news-releases/bracco-and-avicennaai-announce-fda-clearance-for-uptunity--aneurysm-a-new-ai-enabled-software-for-brain-aneurysm-detection-and-assessment-302938500.html"
+    "kicker": "Publication · Cancer diagnostics",
+    "title": "Elypta publishes evidence that a simple urine test flags adults at high risk of cancer within five years, across 5,436 people",
+    "deck": "The Solna-based Swedish medtech published a pre-registered study (NCT05235009) on the Dutch Lifelines cohort in Cancer Epidemiology, Biomarkers & Prevention: its urine score built on three glycosaminoglycans (the \"GAGome\"), combined with age and smoking history, places 13% to 23% of participants in a \"high-risk\" group that accounts for 54% of cancers diagnosed within five years, with the strongest effect in cancers that are not screened for today (pancreas, kidney, brain, lymphoma). The authors stress that independent prospective validation is still needed, but for a still-independent, ISO 13485-certified company that launched its MIRAM kit in October, this is the clinical data that opens the door to triaging populations ahead of costlier multi-cancer screening tests.",
+    "company": "Elypta",
+    "sector": "Diagnostics",
+    "pillar": "innovation",
+    "signalType": "publication_preprint",
+    "strength": 2,
+    "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html"
   },
   "milestone": {
-    "company": "Synchron",
-    "milestone": "Trial paused",
-    "title": "Synchron pauses enrollment in its second-generation Stentrode trials after a performance problem with the connecting lead",
-    "summary": "Trials of the brain-computer interface implanted through a blood vessel (no open skull surgery) have been voluntarily paused: the lead, the cable carrying signals from the Stentrode to the implanted electronics, is not performing as expected. Synchron says it has identified no associated safety issue, stresses the pause was not FDA-directed and will bring lead design and manufacturing in-house, using the halt to upgrade the whole system, with no restart date given.",
-    "why": "A reminder that in brain implants, connectors and hardware durability matter as much as the algorithm: a cable defect can delay by several quarters the pivotal trial needed for FDA authorization. For Europe's implantable neurotech players (Clinatec, INBRAIN, ONWARD), the endovascular leader is stalling, and hardware reliability becomes a core due diligence criterion.",
-    "place": "New York (USA)",
-    "sector": "Neurotech",
-    "signalType": "clinical_update",
-    "url": "https://www.massdevice.com/synchron-halts-brain-computer-interface-trials-after-stentrode-device-fails-to-perform/"
-  },
-  "deal": {
-    "company": "vVARDIS",
-    "amount": "$175M",
-    "round": "IPO",
-    "thesis": "The Zug-based dental medtech, which treats early cavities without drilling or anaesthesia with its Curodont products, sold 9.72 million shares at $18 on the NYSE (ticker VVVV), below its $21-24 range, for a valuation of about $1.6B, with Goldman Sachs and J.P. Morgan as lead bookrunners. A rare European medtech IPO in New York: the window is open, but investors are demanding a discount, a direct comparable for exits by the continent's device scale-ups.",
-    "sector": "MedTech",
-    "url": "https://www.investing.com/news/stock-market-news/vvardis-prices-ipo-at-18-per-share-on-nyse-under-ticker-vvvv-432SI-5024151"
+    "company": "Molecular Designs",
+    "milestone": "First 510(k)",
+    "title": "Molecular Designs wins its first FDA clearance for a flu A, flu B and RSV PCR panel (K262789)",
+    "summary": "The physician-founded molecular test maker cleared its SimplicityDx Panel FluA/FluB/RSV, a multiplex real-time RT-PCR that detects and differentiates influenza A, influenza B and respiratory syncytial virus from anterior nasal swabs. Its breakaway format lets labs run only the tests they need, with minimal pipetting.",
+    "why": "Moving from a research-use-only catalogue to a first cleared diagnostic changes the nature of a young diagnostics company: it can sell to clinical labs and build recurring consumables revenue. It is also a comparable for European respiratory-testing players facing established platforms (Cepheid, bioMérieux, Roche).",
+    "place": "Birmingham, Alabama (United States)",
+    "sector": "Diagnostics",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.prnewswire.com/news-releases/molecular-designs-earns-its-first-fda-510k-clearance-with-simplicitydx-panel-fluaflubrsv-302939167.html"
   },
   "brefsEurope": [
-    { "company": "dEEGtal Insights", "place": "Switzerland", "sector": "Neurotech", "pillar": "naissances",
-      "signalType": "conference_abstract", "strength": 1,
-      "title": "Seven young Swiss startups, including dEEGtal Insights (AI reading of EEG for epilepsy), will exhibit at the MEDICA 2026 Start-up Park",
-      "summary": "The Swiss pavilion at the Düsseldorf show (Nov 16-19) brings together dEEGtal Insights, Airscale (a sensor mat built into the bed to weigh bedridden patients continuously), Alivion (metabolic markers measured in exhaled breath), Precisia Care (predictive analytics on patient data), Skaaltec, RegCheck and Flawa. A showcase of companies aged 0 to 5 years, worth tracking before their first round.",
-      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups" }
+    { "company": "Neurosoft Bioelectronics", "place": "Geneva", "sector": "Neurotech", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 2,
+      "title": "EPFL spin-off Neurosoft Bioelectronics wins gold in biotechnology at the Fujian Global Innovation and Entrepreneurship Competition",
+      "summary": "The Geneva start-up, which is industrialising soft cortical electrodes (SOFT ECOG) for epilepsy and motor restoration in people with paralysis, was picked from more than 1,000 projects; it is preparing an international expansion of its clinical trials and a presence in China. A European brain-computer interface to watch, six months after its $7.5M seed.",
+      "url": "https://www.startupticker.ch/en/news/awards-for-western-switzerland-startups" }
   ],
   "brefsIntl": [
-    { "company": "Bechtel Medical", "place": "Pennsylvania (USA)", "sector": "MedTech", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Bechtel Medical wins the first 510(k) for a system combining negative pressure wound therapy and topical oxygen therapy",
-      "summary": "The Wound Vox system combines negative pressure (continuous or intermittent) and topical oxygen in a single unit, two treatments for complex wounds that were previously managed separately; a limited commercial launch is planned for December 2026. A signal of convergence in wound therapies, a segment where Europe has established players.",
-      "url": "https://www.medicaldevice-network.com/news/fda-bechtel-medicals-wound-therapy-system/" },
-    { "company": "Lungpacer Medical", "place": "San Francisco (USA)", "sector": "MedTech", "pillar": "innovation",
-      "signalType": "clinical_update", "strength": 2,
-      "title": "Lungpacer enrolls the first patient in AERO-PAS, the post-approval study of its AeroPace diaphragm stimulator",
-      "summary": "The single-arm multicenter study will enroll up to 120 ventilated adults; the first patient was enrolled at California Pacific Medical Center (Sutter Health). Phrenic nerve stimulation to help wean patients off mechanical ventilation thus enters real-world data collection, a prerequisite for adoption outside the US.",
-      "url": "https://www.globenewswire.com/news-release/2026/11/12/3401997/0/en/lungpacer-medical-announces-first-patient-enrollment-in-aero-pas-post-approval-study-of-the-aeropace-system.html" }
+    { "company": "Natera", "place": "Austin (United States)", "sector": "Diagnostics", "pillar": "innovation",
+      "signalType": "early_partnership", "strength": 3,
+      "title": "Natera and Incyte launch NEXERA-204, a phase II trial in which the Signatera ctDNA blood test decides who gets treated",
+      "summary": "The study targets stage II or III colorectal cancer patients who have had surgery and chemotherapy and whose Signatera test turns positive with no sign on imaging; they will receive INCA33890, Incyte's PD-1 × TGFβR2 bispecific antibody. The companion diagnostic becomes both an inclusion criterion and an endpoint: a template for European molecular residual disease companies.",
+      "url": "https://www.labmedica.com/industry-news/articles/294814668/natera-and-incyte-collaborate-on-mrd-guided-colorectal-cancer-treatment-study.html" },
+    { "company": "Accuray", "place": "Madison, Wisconsin (United States)", "sector": "MedTech", "pillar": "financement",
+      "signalType": "funding_round", "strength": 3,
+      "title": "Accuray closes its TCW restructuring: $40M of debt converted into preferred stock",
+      "summary": "The maker of CyberKnife and TomoTherapy radiotherapy systems swaps a $40M term loan for convertible preferred stock, also converts July's $15M investment, gets covenant relief through end-2027 and gives TCW two board seats, after a 1-for-40 reverse stock split. A comparable on financial pressure in radiotherapy, a market where Sweden's Elekta competes.",
+      "url": "https://www.prnewswire.com/news-releases/accuray-closes-tcw-transaction-strengthening-balance-sheet-to-support-long-term-value-growth-302939374.html" },
+    { "company": "Northwestern University", "place": "Evanston (United States)", "sector": "Diagnostics", "pillar": "innovation",
+      "signalType": "publication_preprint", "strength": 2,
+      "title": "A rapid tuberculosis PCR test run on a simple tongue swab matches the Xpert Ultra reference in Open Forum Infectious Diseases",
+      "summary": "The DASH MTB test, developed by Northwestern engineers with the University of Washington and the universities of Cape Town and Stellenbosch, works on sputum or tongue swabs and returns a result within the clinic visit. Sampling the tongue, without sputum, is what matters for mass point-of-care screening.",
+      "url": "https://www.labmedica.com/microbiology/articles/294814756/rapid-point-of-care-test-detects-tuberculosis-from-tongue-swab-and-sputum.html" }
   ],
   "word": {
-    "term": "PCCP",
-    "full": "Predetermined Change Control Plan",
-    "fr": "Pre-authorized change plan",
-    "field": "FDA regulation / medical AI",
-    "definition": "A plan, cleared by the FDA together with the device, that describes in advance how software (often an AI) may be modified and retrained, so those updates do not require a new marketing submission.",
+    "term": "MCED",
+    "full": "Multi-Cancer Early Detection",
+    "fr": "Screening for several cancers with one test",
+    "field": "In vitro diagnostics / oncology",
+    "definition": "A single test, usually a blood draw (sometimes urine), that looks in a person without symptoms for the biological traces left by several cancer types at once, including those for which no screening exists.",
     "parts": [
-      { "label": "Description of modifications", "role": "what may change (performance, data, specifications)" },
-      { "label": "Modification protocol", "role": "how each change will be tested, with acceptance criteria set in advance" },
-      { "label": "Impact assessment", "role": "the benefits and risks of each change, alone and cumulatively" }
+      { "label": "Biomarker", "role": "the signal measured: circulating tumour DNA (methylation, fragments), proteins or metabolites such as glycosaminoglycans" },
+      { "label": "Algorithm", "role": "the machine-learning model that separates the \"cancer\" signal from noise and often predicts the organ of origin" },
+      { "label": "Confirmation pathway", "role": "the imaging and biopsy that follow a positive test, without which the result has no clinical value" }
     ],
     "how": [
-      { "n": "1", "h": "Anticipate", "t": "In its 510(k), De Novo or PMA, the manufacturer lists the foreseeable changes to its algorithm (retraining, new scanners, thresholds) and how they will be validated." },
-      { "n": "2", "h": "Get it cleared", "t": "The FDA reviews and authorizes the plan together with the device: the clearance letter explicitly mentions the approved PCCP." },
-      { "n": "3", "h": "Update", "t": "Any change consistent with the plan can be rolled out without a new submission (section 515C of the US FD&C Act); anything outside it requires a new filing." }
+      { "n": "1", "h": "Sample", "t": "A blood or urine sample is collected from an adult without symptoms, typically aged 45 to 75." },
+      { "n": "2", "h": "Analyse", "t": "The lab measures the biomarker profile (circulating DNA sequencing or mass spectrometry) and the algorithm computes a risk score or a positive/negative signal." },
+      { "n": "3", "h": "Confirm", "t": "If a signal is found, the patient is referred for targeted diagnostic work-up; the challenge is to limit false positives and unnecessary procedures." }
     ],
-    "why": "For a medical AI startup, a PCCP turns a frozen product into one that can improve without going back to the FDA for every version: lower regulatory costs, shorter iteration cycles, a defensible edge over competitors that must refile. The FDA finalized its guidance in December 2024 and PCCPs are spreading in radiology: a file that includes one is a sign of regulatory maturity worth checking in due diligence.",
+    "why": "Organised screening covers only a handful of cancers (breast, colon, cervix, lung): a test targeting dozens addresses a potentially massive market, but proof of a mortality benefit does not exist yet. The US National Cancer Institute launched the Vanguard study (up to 24,000 people) to prepare a large randomised trial: for an investor, value hinges on the quality of clinical data, cost per test and the ability to target people at risk, which leaves room for alternatives to DNA such as urinary metabolites.",
     "startups": [
-      { "name": "Avicenna.AI", "use": "FDA clearance for CINA-Aneurysm (K262062) including a cleared PCCP; brain aneurysm detection on CT angiography", "place": "La Ciotat, France" },
-      { "name": "Gleamer", "use": "ChestView US (1.1), AI for reading chest X-rays, authorized by the FDA with a PCCP (K252486)", "place": "Paris, France" },
-      { "name": "Brainomix", "use": "Brainomix 360 Hyperdensity, stroke imaging AI, listed among FDA-authorized devices with a PCCP (K260406)", "place": "Oxford, UK" }
+      { "name": "Elypta", "use": "Urine glycosaminoglycan score (GAGome) published on 5,436 adults from the Lifelines cohort to flag five-year cancer risk", "place": "Solna, Sweden" },
+      { "name": "Adela", "use": "Blood test based on circulating DNA methylation; more than 6,100 participants enrolled in its MCED study spanning 20 cancer types (ASCO 2026)", "place": "Foster City, United States / Toronto, Canada" },
+      { "name": "Harbinger Health", "use": "Resolve line of blood-based cancer detection tests, funded by a $100M round led by Flagship Pioneering in 2026", "place": "Cambridge, United States" }
     ],
     "sources": [
-      { "publisher": "FDA", "title": "Predetermined Change Control Plans", "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/predetermined-change-control-plans" },
-      { "publisher": "FDA", "title": "510(k) K262062 — CINA-Aneurysm (Avicenna.AI), lettre de décision", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262062.pdf" },
-      { "publisher": "Foley & Lardner", "title": "AI-Enabled Device Software Functions: FDA's Final Guidance for Predetermined Change Control Plans", "url": "https://www.foley.com/insights/publications/2025/01/fda-final-guidance-ai-device-software-predetermined-change-control-plan/" }
+      { "publisher": "National Cancer Institute", "title": "Vanguard Study", "url": "https://www.cancer.gov/research/areas/screening/vanguard-study" },
+      { "publisher": "LabMedica", "title": "Study Finds Urine Biomarker Score Improves Five-Year Cancer Risk Prediction", "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html" },
+      { "publisher": "Adela", "title": "Adela News", "url": "https://www.adelabio.com/adela-news" },
+      { "publisher": "GenomeWeb", "title": "Harbinger Health to Commercialize Multi-Cancer Detection Tests With $100M Financing Round", "url": "https://www.genomeweb.com/cancer/harbinger-health-commercialize-multi-cancer-detection-tests-100m-financing-round/" }
     ]
   }
 }
