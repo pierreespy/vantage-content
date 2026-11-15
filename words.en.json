@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-15",
   "words": [
     {
+      "term": "Ambient Intelligence",
+      "full": "Ambient Intelligence (in care settings)",
+      "fr": "Sensors and AI that 'watch' care spaces to support clinical teams",
+      "field": "Clinical AI / hospital operations",
+      "definition": "Contactless sensors (thermal, depth, video, audio) installed in patient rooms, theatres or corridors, paired with AI that interprets what is happening in order to alert clinicians, document or organise care better, without anyone having to type anything in.",
+      "parts": [
+        {
+          "label": "Contactless sensors",
+          "role": "thermal, depth or video sensors that capture presence, posture and movement in the room"
+        },
+        {
+          "label": "Perception AI",
+          "role": "vision and machine-learning models that turn these signals into events (a fall, a patient getting up, a room freed up, a hand-hygiene action)"
+        },
+        {
+          "label": "Action layer",
+          "role": "alerts to staff, dashboards and agents that answer managers' questions"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Sense",
+          "t": "Wall- or ceiling-mounted sensors observe the room continuously; to protect privacy, some record only silhouettes or thermal images, with no detailed video."
+        },
+        {
+          "n": "2",
+          "h": "Interpret",
+          "t": "The AI, often running directly on the sensor (edge AI), recognises useful situations: a patient getting up alone, a fall, a room or theatre becoming free."
+        },
+        {
+          "n": "3",
+          "h": "Act",
+          "t": "The system alerts the right clinician, feeds patient-flow and bed management, and can automatically produce reports and metrics."
+        }
+      ],
+      "why": "A review in Nature by Fei-Fei Li's team at Stanford sees ambient intelligence as a way to light up the 'dark spaces' of healthcare, from intensive care and operating rooms to older people's homes, provided it overcomes clinical validation, data privacy and model transparency. That is exactly where the competition lies: startups that process data on the sensor and avoid identifying video remove the ethical hurdle flagged in The Lancet Digital Health (privacy, consent, bias) and sell an operational return (clinician time, room turnover) rather than a medical device awaiting reimbursement.",
+      "startups": [
+        {
+          "name": "Akara",
+          "use": "Wall-mounted thermal sensors with on-device AI that track how clinical spaces are used without detailed images, plus AI agents for staff; $5.5M led by Locke Health in November 2026",
+          "place": "Dublin"
+        },
+        {
+          "name": "Teton.ai",
+          "use": "AI 'nursing companion' that builds digital twins of patient and staff activity to flag fall risks and forecast staffing needs; $20M Series A led by Plural",
+          "place": "Copenhagen"
+        },
+        {
+          "name": "Kepler Vision Technologies",
+          "use": "Night Nurse, computer vision that analyses patients' posture and alerts nurses to falls or distress; University of Amsterdam spin-off backed by ROM InWest",
+          "place": "Amsterdam"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nature (via PubMed)",
+          "title": "Illuminating the dark spaces of healthcare with ambient intelligence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32908264/"
+        },
+        {
+          "publisher": "The Lancet Digital Health (via PubMed)",
+          "title": "Ethical issues in using ambient intelligence in health-care settings",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33358138/"
+        },
+        {
+          "publisher": "Trinity College Dublin",
+          "title": "Trinity spinout Akara raises $5.5 million to bring privacy-preserving AI to hospitals",
+          "url": "https://www.tcd.ie/news_events/top-stories/featured/akara-funding-round/"
+        },
+        {
+          "publisher": "HLTH",
+          "title": "Teton.ai Secures $20M to Accelerate U.S. Expansion of AI Nursing Technology",
+          "url": "https://hlth.com/insights/news/teton-ai-secures-20m-to-accelerate-u-s-expansion-of-ai-nursing-technology-2025-09-11"
+        }
+      ],
+      "date": "2026-11-15",
+      "dateLong": "Nov 15, 2026"
+    },
+    {
       "term": "MCED",
       "full": "Multi-Cancer Early Detection",
       "fr": "Screening for several cancers with one test",

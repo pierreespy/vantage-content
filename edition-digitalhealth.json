@@ -1,213 +1,178 @@
 {
-  "dateLong": "14 nov. 2026",
+  "dateLong": "15 nov. 2026",
   "ticker": [
     {
-      "company": "INCISION",
-      "amount": "€4M",
+      "company": "AKARA",
+      "amount": "$5.5M",
       "kind": "lev"
     },
     {
-      "company": "CGI / NHS",
-      "amount": "SPR £48M",
-      "kind": "tech"
-    },
-    {
-      "company": "WOLTERS KLUWER",
-      "amount": "$100M",
-      "kind": "mna"
-    },
-    {
-      "company": "MPASSIST",
-      "amount": "Break-even",
-      "kind": "new"
-    },
-    {
-      "company": "NHS / RCR",
-      "amount": "Suivi IA",
+      "company": "JAWBUDDY",
+      "amount": "MDR",
       "kind": "reg"
     },
     {
-      "company": "XPERTDOX",
-      "amount": "$20M",
+      "company": "ICO",
+      "amount": "Lettre aux DG",
+      "kind": "reg"
+    },
+    {
+      "company": "CANCER 360",
+      "amount": "6 trusts",
+      "kind": "tech"
+    },
+    {
+      "company": "SUKI",
+      "amount": "$90M",
       "kind": "lev"
+    },
+    {
+      "company": "TALUVU",
+      "amount": "Lancement",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Levée · Logiciel de bloc opératoire",
-    "title": "L'Amstellodamois Incision lève 4 M€ auprès de HERAN Partners pour exporter aux États-Unis son assistant numérique des équipes de bloc",
-    "deck": "Fondée en 2014 par le chirurgien Theo Wiggers, Incision édite Assist, qui donne au personnel de bloc les consignes propres à chaque intervention, rôle et chirurgien (instruments, matériel, installation de salle), ainsi que MySPD pour la stérilisation et Incision Academy pour la formation ; ses plateformes tournent dans environ 300 hôpitaux de plus de 20 pays. Troisième ticket du fonds HERAN HealthTech Fund II, dont l'associée Mercedes Tuin entre au conseil de surveillance, le tour financera l'expansion américaine (marché ouvert en 2022), des partenariats avec des industriels du dispositif et la plateforme : les hôpitaux utilisateurs revendiquent des rotations de salle 15 % plus rapides et 14 % de passages de porte en moins pendant l'opération.",
-    "company": "Incision",
+    "kicker": "Levée · IA hospitalière",
+    "title": "Akara, spin-off du Trinity College Dublin, lève 5,5 M$ menés par Locke Health pour ses capteurs thermiques et agents IA qui libèrent du temps soignant",
+    "deck": "La startup de Conor McGinn installe au mur des capteurs thermiques qui mesurent l'usage des salles et des chambres sans capter d'image détaillée des patients ni du personnel ; l'IA tourne sur le capteur (edge AI), détecte les événements clés, prévient les équipes et des agents répondent en langage naturel aux questions des gestionnaires. Le tour, mené par Locke Health avec VTC Ventures, l'EIC Fund, CommonKind et NovaVector Holdings aux côtés d'ACT, Atlantic Bridge et Enterprise Ireland, porte le total levé à 12,3 M$ et financera l'adoption dans les hôpitaux (déjà en Irlande, au Royaume-Uni et aux États-Unis), les équipes en Irlande et de nouveaux agents IA, avant une trajectoire vers la robotique.",
+    "company": "Akara",
     "sector": "Logiciel hospitalier",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 4,
-    "url": "https://www.incision.care/news/heran-invests-eur-4-million-in-incision"
+    "url": "https://www.tcd.ie/news_events/top-stories/featured/akara-funding-round/"
   },
   "milestone": {
-    "company": "CGI",
-    "milestone": "Contrat national",
-    "title": "NHS England confie à CGI 47,7 M£ pour bâtir le socle du « Single Patient Record », le dossier patient unique anglais",
-    "summary": "La filiale britannique du groupe canadien construira l'entrepôt de données au niveau du patient, les flux d'ingestion, les API, l'authentification et l'audit, s'intégrera au National Care Records Service et développera Clinician360 pour les soignants puis Patient360, accessible via l'appli NHS ; premiers parcours : maternité et fragilité. Contrat de 12 mois démarré le 2 novembre, prolongeable d'un an.",
-    "why": "C'est la première brique majeure du dossier unique promis par le plan à 10 ans du NHS, qui vise l'accès des cliniciens à l'historique d'au moins 80 % des patients d'ici avril 2027. NHS England annonce plusieurs fournisseurs et d'autres contrats sur deux ans : une fenêtre pour les éditeurs d'interopérabilité et d'applications cliniques capables de se brancher sur cette couche.",
-    "place": "Londres",
-    "sector": "Données de santé",
-    "signalType": "early_partnership",
-    "url": "https://www.pharmacymagazine.co.uk/news/canadian-firm-awarded-48m-contract-to-develop-single-patient-record"
+    "company": "JawBuddy",
+    "milestone": "Dispositif MDR",
+    "title": "JawBuddy, appli leipzigoise contre le bruxisme certifiée dispositif médical MDR, vise une première caisse d'assurance maladie début 2027",
+    "summary": "Fondée en 2025 par Leon Rauch, Moritz Scherer et Benjamín Cádiz de Gracia, la startup propose des exercices personnalisés contre les douleurs chroniques de la mâchoire (CMD) et suit les progrès via la caméra du smartphone. Sa version JawBuddy Therapy, certifiée dispositif médical selon le MDR avec l'aide du programme EXIST, sera distribuée uniquement via les caisses, avec une première caisse au premier trimestre 2027 ; plus de 200 patients paient déjà 79,99 € par an pour l'appli grand public, après un pre-seed de 818 000 € (HALBZEIT, MBG Sachsen, business angels dont de nombreux médecins et dentistes).",
+    "why": "Le fondateur le dit sans détour : après les déboires de nombreuses startups DiGA, les investisseurs se méfient du digital health allemand. JawBuddy répond par trois canaux (contrats sélectifs avec les caisses, paiement direct, prescription par les cabinets dentaires) plutôt que la seule voie DiGA : un modèle de distribution hybride à suivre pour les thérapeutiques numériques européennes, avec une étude clinique et un prochain tour en préparation.",
+    "place": "Leipzig",
+    "sector": "DTx",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.deutsche-startups.de/2026/11/13/jawbuddy-und-der-kampf-gegen-das-zaehneknirschen/"
   },
   "deal": {
-    "company": "AgileMD",
-    "amount": "jusqu'à 100 M$",
-    "round": "M&A",
-    "thesis": "Le néerlandais Wolters Kluwer Health paie 40 M$ comptant et jusqu'à 60 M$ de compléments liés à la performance pour l'éditeur californien d'aide à la décision intégrée au DPI (Pathways, et eCART, détection de dégradation clinique validée 510(k)) : environ 5,7 fois l'ARR attendu fin 2026 (7 M$) en upfront, 14,3 fois au maximum. Deux leçons pour les VC : les géants du contenu clinique (UpToDate Expert AI, adopté par plus de 2 700 hôpitaux américains) achètent désormais la distribution dans le workflow plutôt que de la construire, et l'earn-out devient la norme pour combler l'écart entre valorisations et revenus.",
+    "company": "Suki",
+    "amount": "90 M$",
+    "round": "Series E",
+    "thesis": "Le scribe IA californien fait entrer Healthier Capital (dont l'associé Aman Mahajan rejoint le board), Crosslink Capital et Hercules Capital aux côtés de Venrock, Flare, Hedosophia, Philips Ventures et Zoom Ventures, avec plus de 450 organisations clientes, des consultations traitées en hausse de plus de 190 % sur un an et des revenus doublés en 2025. La thèse n'est plus la seule dictée : Suki for Partners (SDK et API) équipe plus de 30 éditeurs, dont les revenus ont été multipliés par plus de dix en deux ans, et la fonction Ask intègre UpToDate Expert AI. Le scribe devient une couche d'infrastructure distribuée par les logiciels des autres, au moment où Wolters Kluwer rachète AgileMD : la consolidation passe désormais par l'embarqué dans le workflow.",
     "sector": "IA clinique",
-    "url": "https://hitconsultant.net/2026/11/13/wolters-kluwer-to-acquire-ai-clinical-decision-support-platform-agilemd/"
+    "url": "https://htworld.co.uk/news/ai/suki-raises-us90m-series-e-lead26/"
   },
   "brefsEurope": [
     {
-      "company": "MPAssist",
-      "place": "Zoug",
-      "sector": "IA clinique",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
-      "strength": 2,
-      "title": "MPAssist, assistant IA de documentation suisse créé en 2024, atteint l'équilibre sans lever de fonds",
-      "summary": "Fondée par Michelle Plüss et Enrico Mayor, la startup automatise rapports, documentation infirmière et synthèses de dossiers pour plus de 170 établissements de santé suisses et dépasse son objectif de 500 000 CHF de revenus. L'offre de 500 000 CHF pour 20 % faite dans « Die Höhle der Löwen » n'a pas été finalisée, faute d'accord sur la stratégie long terme.",
-      "url": "https://www.startupticker.ch/en/news/hoehle-der-loewen-mpassist-erreicht-break-even-ohne-investment"
-    },
-    {
-      "company": "NHS England",
+      "company": "Information Commissioner's Office",
       "place": "Londres",
       "sector": "Réglementaire",
       "pillar": "marche",
-      "signalType": "grant_award",
+      "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "NHS England mandate le Royal College of Radiologists pour concevoir la surveillance nationale des IA diagnostiques déployées",
-      "summary": "Un contrat de cinq mois (près de 230 000 £ TTC, à partir du 26 novembre) pour définir comment suivre en vie réelle les performances, la dérive des modèles et les biais des outils d'IA, en particulier en dépistage du cancer, et s'il faut acheter une plateforme dédiée. Un futur marché pour les éditeurs de monitoring d'IA.",
-      "url": "https://publictechnology.net/2026/11/13/health-and-social-care/nhs-launches-200k-project-to-shape-how-safety-and-performance-of-ai-diagnostic-tools-are-monitored/"
+      "title": "L'ICO somme plus de 200 dirigeants de santé britanniques de prouver qu'ils empêchent la consultation abusive des dossiers patients",
+      "summary": "Après plus de 300 signalements d'agents consultant des dossiers sans raison entre janvier et mi-octobre 2026, le directeur général Paul Arnold exige une réponse avant le 27 novembre sur qui accède aux dossiers, qui contrôle et quelles sanctions s'appliquent ; les organisations non satisfaites de leurs garde-fous auront trois mois pour corriger, sous menace de mesures coercitives. Un marché pour les outils d'audit et de détection des accès anormaux aux DPI.",
+      "url": "https://www.theregister.com/security/2026/11/13/crackdown-on-uk-medical-record-snooping-after-staff-reported-sneaking-300-times-this-year/5309421"
     },
     {
-      "company": "Leeds Community Healthcare NHS Trust",
-      "place": "Leeds",
-      "sector": "IA clinique",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Pilote d'IA ambiante Heidi à Leeds : 91 % des patients jugent les cliniciens plus attentifs",
-      "summary": "Au Leeds Gender Identity Service, où 72,7 % des soignants déclaraient un impact négatif de l'administratif, le scribe ambiant de Heidi Health a été testé ; 91 % des usagers ont trouvé les cliniciens plus concentrés. Le trust lance une consultation des usagers sur l'IA dans ses services communautaires, ouverte jusqu'en janvier 2027.",
-      "url": "https://htn.co.uk/2026/11/13/leeds-community-calls-for-views-of-local-service-users-on-use-of-ai-in-community-services/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "XpertDox",
-      "place": "Scottsdale (États-Unis)",
-      "sector": "IA clinique",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "XpertDox lève 20 M$ en Series A menée par Savant Growth pour son codage médical par IA neuro-symbolique",
-      "summary": "XpertCoding transforme la documentation clinique non structurée du dossier patient en codes de facturation pour plus de 40 organisations, dont sept grands centres de santé communautaires ; Kennet Partners participe. Le codage autonome reste l'un des cas d'usage d'IA les plus vite rentables pour des prestataires à faibles marges.",
-      "url": "https://hitconsultant.net/2026/11/13/xpertdox-raises-20m-series-a-savant-growth-ai-medical-coding/"
-    },
-    {
-      "company": "Oracle Health",
-      "place": "États-Unis",
+      "company": "Palantir",
+      "place": "Londres",
       "sector": "Données de santé",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Le VA et le Department of War se connectent au réseau d'échange d'Oracle Health sous TEFCA",
-      "summary": "Depuis le 5 novembre, les cliniciens militaires et des anciens combattants interrogent, via un point de connexion unique, les dossiers des hôpitaux et cliniques civils participants, puis les réconcilient dans le dossier principal ; l'imagerie et l'historique médicamenteux suivront. Un précédent d'échange public-privé à grande échelle, à suivre pour l'EHDS.",
-      "url": "https://hitconsultant.net/2026/11/13/va-department-of-war-go-live-oracle-health-information-network-tefca-qhin/"
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Cancer 360, l'appli cancer de Palantir sur la Federated Data Platform du NHS, plafonne à six trusts utilisateurs",
+      "summary": "Selon les données de NHS England et des demandes FoI compilées par The Register, six trusts déclaraient des utilisateurs sur douze mois, dont deux pilotes vantés (Chelsea and Westminster, Royal United Hospitals Bath) à zéro ; East Kent et Bedfordshire ont refusé l'outil. Le gouvernement doit décider d'ici février 2027 de prolonger ou non le contrat FDP de 330 M£ : une fenêtre pour les éditeurs alternatifs de pilotage des parcours.",
+      "url": "https://www.theregister.com/public-sector/2026/11/13/palantirs-nhs-cancer-app-gets-plenty-of-praise-precious-few-users/5309316"
     },
     {
-      "company": "Redesign Health",
-      "place": "New York",
-      "sector": "Fonds",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "Redesign Health ouvre une activité de growth equity, de la Series A au pré-IPO, dans l'IA de santé",
-      "summary": "Le studio new-yorkais, dirigé sur ce volet par Richie Chaikof, investira dans les logiciels de santé, les services augmentés par l'IA et l'IA clinique ; taille et tickets non communiqués. Un acheteur de plus pour les scale-ups d'IA santé, y compris européennes visant les États-Unis.",
-      "url": "https://hitconsultant.net/2026/11/13/redesign-health-launches-growth-equity-practice-series-a-pre-ipo-healthcare-ai/"
+      "company": "taluvu",
+      "place": "Manchester",
+      "sector": "Maladies chroniques",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 1,
+      "title": "Le Mancunien Mike Sefton lance taluvu, journal de santé avec compagnon IA pour les malades chroniques",
+      "summary": "Disponible sur l'App Store, l'appli permet de consigner symptômes et ressentis, d'échanger avec une IA nommée Asha et de générer une synthèse d'une page pour le rendez-vous chez le généraliste ou le spécialiste ; abonnement Pro à 12,99 £ par mois. Le fondateur précise qu'elle n'est pas un dispositif médical et que le journal reste sur le téléphone.",
+      "url": "https://businesscloud.co.uk/news/manchester-founder-launches-chronic-illness-app/"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "PDM",
-    "full": "Post-Deployment Monitoring (surveillance post-déploiement des IA cliniques)",
-    "fr": "Surveillance des IA cliniques après leur mise en service",
-    "field": "IA clinique / gouvernance et réglementation",
-    "definition": "Le suivi continu, en conditions réelles et dans chaque hôpital, des performances d'un outil d'IA médicale déjà en service, pour repérer à temps une baisse de fiabilité, une dérive des données ou un biais envers certains patients.",
+    "term": "Ambient Intelligence",
+    "full": "Ambient Intelligence (intelligence ambiante en milieu de soins)",
+    "fr": "Capteurs et IA qui « observent » les lieux de soins pour assister les équipes",
+    "field": "IA clinique / opérations hospitalières",
+    "definition": "Des capteurs sans contact (thermiques, de profondeur, vidéo, audio) installés dans les chambres, blocs ou couloirs, couplés à de l'IA qui interprète ce qui s'y passe pour alerter les soignants, documenter ou mieux organiser les soins, sans que personne n'ait à saisir quoi que ce soit.",
     "parts": [
       {
-        "label": "Collecte des sorties",
-        "role": "récupérer en continu les prédictions de l'IA (via API, HL7 ou DICOM) et, quand elle existe, la vérité terrain clinique"
+        "label": "Capteurs sans contact",
+        "role": "thermiques, de profondeur ou vidéo, ils captent présence, posture et mouvements dans la pièce"
       },
       {
-        "label": "Indicateurs et alertes",
-        "role": "suivre performance, dérive des données et écarts par sous-groupe de patients, et alerter en cas de dégradation"
+        "label": "IA de perception",
+        "role": "des modèles de vision et d'apprentissage qui transforment ces signaux en événements (chute, lever, salle libérée, geste d'hygiène)"
       },
       {
-        "label": "Gouvernance",
-        "role": "le circuit de décision (radiologues, comité IA, fabricant, régulateur) qui corrige, réentraîne ou retire l'outil"
+        "label": "Couche d'action",
+        "role": "alertes aux équipes, tableaux de bord et agents qui répondent aux questions des gestionnaires"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Brancher",
-        "t": "La plateforme de monitoring se connecte aux sorties de l'IA déployée et aux données de l'hôpital, sans forcément sortir les données du site (approche fédérée)."
+        "h": "Capter",
+        "t": "Les capteurs fixés au mur ou au plafond observent en continu la pièce ; pour protéger la vie privée, certains n'enregistrent que des silhouettes ou des images thermiques, sans vidéo détaillée."
       },
       {
         "n": "2",
-        "h": "Mesurer",
-        "t": "Elle calcule en quasi temps réel des métriques cliniques (concordance avec le radiologue, taux d'alertes, performance par sous-groupe) et détecte la dérive."
+        "h": "Interpréter",
+        "t": "L'IA, souvent exécutée directement sur le capteur (edge AI), reconnaît les situations utiles : patient qui se lève seul, chute, chambre ou bloc qui se libère."
       },
       {
         "n": "3",
         "h": "Agir",
-        "t": "En cas d'anomalie (artefacts d'imagerie, biais d'automatisation, chute de sensibilité), les équipes et le fabricant sont alertés pour corriger ou suspendre l'outil, et le signalement alimente la matériovigilance."
+        "t": "Le système prévient le bon soignant, alimente le pilotage des flux et des lits, et peut produire automatiquement rapports et indicateurs."
       }
     ],
-    "why": "Les régulateurs passent de l'autorisation ponctuelle à la surveillance sur toute la durée de vie : la MHRA a adopté les 44 recommandations d'une commission jugeant les évaluations « one-off » insuffisantes, la FDA demande des plans de suivi de performance, et le NHS conçoit un dispositif national. Une couche logicielle neutre vis-à-vis des éditeurs, achetée par l'hôpital et récurrente, se crée entre les centaines d'IA autorisées et leurs utilisateurs : un marché naissant où l'Europe a déjà des pionniers.",
+    "why": "Une revue publiée dans Nature par l'équipe de Fei-Fei Li à Stanford voit dans l'intelligence ambiante un moyen d'éclairer les « espaces sombres » du soin, des soins intensifs au bloc et au domicile des personnes âgées, à condition de surmonter validation clinique, confidentialité et transparence des modèles. C'est précisément le terrain de concurrence : les startups qui traitent la donnée sur le capteur et évitent la vidéo identifiante lèvent l'obstacle éthique pointé par The Lancet Digital Health (vie privée, consentement, biais) et vendent un retour sur investissement opérationnel (temps soignant, rotation des salles) plutôt qu'un dispositif médical à rembourser.",
     "startups": [
       {
-        "name": "Aival",
-        "use": "Aival Monitor alerte l'hôpital quand un produit d'IA déployé perd en performance (dérive de données) et ventile les résultats par sous-groupe ; référencé dans le catalogue d'assurance IA du gouvernement britannique",
-        "place": "Londres"
+        "name": "Akara",
+        "use": "Capteurs thermiques muraux avec IA embarquée qui suivent l'usage des espaces cliniques sans image détaillée et agents IA pour les équipes ; 5,5 M$ menés par Locke Health en novembre 2026",
+        "place": "Dublin"
       },
       {
-        "name": "Newton's Tree",
-        "use": "Plateforme hospitalière neutre de sélection, d'évaluation et de monitoring des IA ; son service fédéré FAMOS a surveillé en temps réel des IA de radiographie thoracique (Annalise.ai, Qure.ai) à Leeds Teaching Hospitals",
-        "place": "Londres"
+        "name": "Teton.ai",
+        "use": "« Compagnon infirmier » IA qui crée des jumeaux numériques de l'activité des patients et soignants pour repérer les risques de chute et anticiper les besoins en personnel ; Series A de 20 M$ menée par Plural",
+        "place": "Copenhague"
       },
       {
-        "name": "deepc",
-        "use": "Plateforme d'orchestration des IA de radiologie (deepcOS) qui publie un cadre de gouvernance post-déploiement fondé sur performance technique, stabilité de l'algorithme et usage clinique",
-        "place": "Munich"
+        "name": "Kepler Vision Technologies",
+        "use": "Night Nurse, vision par ordinateur qui analyse la posture des patients et alerte les soignants en cas de chute ou de détresse ; spin-off de l'Université d'Amsterdam financée par ROM InWest",
+        "place": "Amsterdam"
       }
     ],
     "sources": [
       {
-        "publisher": "GOV.UK (Portfolio of AI assurance techniques)",
-        "title": "Aival Monitor, Aival Analysis Lab: enabling organisations to understand how a deployed AI product is working over time",
-        "url": "https://gov.uk/ai-assurance-techniques/aival-monitor-aival-analysis-lab-enabling-organisations-to-understand-how-a-deployed-ai-product-is-working-over-time"
+        "publisher": "Nature (via PubMed)",
+        "title": "Illuminating the dark spaces of healthcare with ambient intelligence",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32908264/"
       },
       {
-        "publisher": "MedTech Dive",
-        "title": "UK backs continuous oversight of AI medical devices",
-        "url": "https://www.medtechdive.com/news/uk-backs-continuous-oversight-of-ai-medical-devices/832413/"
+        "publisher": "The Lancet Digital Health (via PubMed)",
+        "title": "Ethical issues in using ambient intelligence in health-care settings",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33358138/"
       },
       {
-        "publisher": "Leeds Teaching Hospitals NHS Trust",
-        "title": "Proactive AI monitoring in radiology: Newton's Tree",
-        "url": "https://www.leedsth.nhs.uk/news/proactive-ai-monitoring-in-radiology-newtons-tree/"
+        "publisher": "Trinity College Dublin",
+        "title": "Trinity spinout Akara raises $5.5 million to bring privacy-preserving AI to hospitals",
+        "url": "https://www.tcd.ie/news_events/top-stories/featured/akara-funding-round/"
       },
       {
-        "publisher": "deepc",
-        "title": "How to monitor AI in radiology: a practical framework for post-deployment governance",
-        "url": "https://www.deepc.ai/blog/how-to-monitor-ai-in-radiology-a-practical-framework-for-post-deployment-governance"
+        "publisher": "HLTH",
+        "title": "Teton.ai Secures $20M to Accelerate U.S. Expansion of AI Nursing Technology",
+        "url": "https://hlth.com/insights/news/teton-ai-secures-20m-to-accelerate-u-s-expansion-of-ai-nursing-technology-2025-09-11"
       }
     ]
   }

@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-15",
   "words": [
     {
+      "term": "Ambient Intelligence",
+      "full": "Ambient Intelligence (intelligence ambiante en milieu de soins)",
+      "fr": "Capteurs et IA qui « observent » les lieux de soins pour assister les équipes",
+      "field": "IA clinique / opérations hospitalières",
+      "definition": "Des capteurs sans contact (thermiques, de profondeur, vidéo, audio) installés dans les chambres, blocs ou couloirs, couplés à de l'IA qui interprète ce qui s'y passe pour alerter les soignants, documenter ou mieux organiser les soins, sans que personne n'ait à saisir quoi que ce soit.",
+      "parts": [
+        {
+          "label": "Capteurs sans contact",
+          "role": "thermiques, de profondeur ou vidéo, ils captent présence, posture et mouvements dans la pièce"
+        },
+        {
+          "label": "IA de perception",
+          "role": "des modèles de vision et d'apprentissage qui transforment ces signaux en événements (chute, lever, salle libérée, geste d'hygiène)"
+        },
+        {
+          "label": "Couche d'action",
+          "role": "alertes aux équipes, tableaux de bord et agents qui répondent aux questions des gestionnaires"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capter",
+          "t": "Les capteurs fixés au mur ou au plafond observent en continu la pièce ; pour protéger la vie privée, certains n'enregistrent que des silhouettes ou des images thermiques, sans vidéo détaillée."
+        },
+        {
+          "n": "2",
+          "h": "Interpréter",
+          "t": "L'IA, souvent exécutée directement sur le capteur (edge AI), reconnaît les situations utiles : patient qui se lève seul, chute, chambre ou bloc qui se libère."
+        },
+        {
+          "n": "3",
+          "h": "Agir",
+          "t": "Le système prévient le bon soignant, alimente le pilotage des flux et des lits, et peut produire automatiquement rapports et indicateurs."
+        }
+      ],
+      "why": "Une revue publiée dans Nature par l'équipe de Fei-Fei Li à Stanford voit dans l'intelligence ambiante un moyen d'éclairer les « espaces sombres » du soin, des soins intensifs au bloc et au domicile des personnes âgées, à condition de surmonter validation clinique, confidentialité et transparence des modèles. C'est précisément le terrain de concurrence : les startups qui traitent la donnée sur le capteur et évitent la vidéo identifiante lèvent l'obstacle éthique pointé par The Lancet Digital Health (vie privée, consentement, biais) et vendent un retour sur investissement opérationnel (temps soignant, rotation des salles) plutôt qu'un dispositif médical à rembourser.",
+      "startups": [
+        {
+          "name": "Akara",
+          "use": "Capteurs thermiques muraux avec IA embarquée qui suivent l'usage des espaces cliniques sans image détaillée et agents IA pour les équipes ; 5,5 M$ menés par Locke Health en novembre 2026",
+          "place": "Dublin"
+        },
+        {
+          "name": "Teton.ai",
+          "use": "« Compagnon infirmier » IA qui crée des jumeaux numériques de l'activité des patients et soignants pour repérer les risques de chute et anticiper les besoins en personnel ; Series A de 20 M$ menée par Plural",
+          "place": "Copenhague"
+        },
+        {
+          "name": "Kepler Vision Technologies",
+          "use": "Night Nurse, vision par ordinateur qui analyse la posture des patients et alerte les soignants en cas de chute ou de détresse ; spin-off de l'Université d'Amsterdam financée par ROM InWest",
+          "place": "Amsterdam"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nature (via PubMed)",
+          "title": "Illuminating the dark spaces of healthcare with ambient intelligence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32908264/"
+        },
+        {
+          "publisher": "The Lancet Digital Health (via PubMed)",
+          "title": "Ethical issues in using ambient intelligence in health-care settings",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33358138/"
+        },
+        {
+          "publisher": "Trinity College Dublin",
+          "title": "Trinity spinout Akara raises $5.5 million to bring privacy-preserving AI to hospitals",
+          "url": "https://www.tcd.ie/news_events/top-stories/featured/akara-funding-round/"
+        },
+        {
+          "publisher": "HLTH",
+          "title": "Teton.ai Secures $20M to Accelerate U.S. Expansion of AI Nursing Technology",
+          "url": "https://hlth.com/insights/news/teton-ai-secures-20m-to-accelerate-u-s-expansion-of-ai-nursing-technology-2025-09-11"
+        }
+      ],
+      "date": "2026-11-15",
+      "dateLong": "15 nov. 2026"
+    },
+    {
       "term": "MCED",
       "full": "Multi-Cancer Early Detection (détection précoce multi-cancers)",
       "fr": "Dépistage de plusieurs cancers en un seul test",
