@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-15",
   "words": [
     {
+      "term": "Fast Track",
+      "full": "Fast Track Designation (FDA)",
+      "fr": "Désignation « Fast Track » (procédure accélérée de la FDA)",
+      "field": "Réglementaire (États-Unis)",
+      "definition": "Un statut accordé par l'agence américaine du médicament à un candidat qui vise une maladie grave sans réponse satisfaisante : il ne garantit pas l'approbation, mais accélère le dialogue avec la FDA et l'examen du dossier.",
+      "parts": [
+        {
+          "label": "Maladie grave",
+          "role": "le terrain : une affection qui menace la survie, le fonctionnement quotidien ou risque de s'aggraver (cancer, insuffisance cardiaque, épilepsie, Alzheimer…)"
+        },
+        {
+          "label": "Besoin non couvert",
+          "role": "la justification : aucun traitement n'existe, ou le candidat peut faire mieux — plus efficace, moins toxique, diagnostic plus précoce"
+        },
+        {
+          "label": "Dialogue renforcé",
+          "role": "la contrepartie : réunions et retours écrits plus fréquents avec la FDA sur le plan de développement, le design des essais et les biomarqueurs"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Demande",
+          "t": "C'est le laboratoire qui sollicite le statut, en même temps que sa demande d'essai clinique (IND) ou à tout moment après."
+        },
+        {
+          "n": "2",
+          "h": "Décision",
+          "t": "La FDA a 60 jours pour répondre, sur la base des données non cliniques ou cliniques qui montrent le potentiel du candidat face au besoin médical."
+        },
+        {
+          "n": "3",
+          "h": "Bénéfices",
+          "t": "Le produit peut ensuite déposer son dossier d'approbation par morceaux (« rolling review ») et devenir éligible à l'approbation accélérée et à l'examen prioritaire si les critères sont remplis."
+        }
+      ],
+      "why": "Pour un investisseur, c'est un jalon peu coûteux mais lisible : il valide qu'une petite biotech a su convaincre la FDA de la gravité de la cible et du besoin médical, et lui donne un accès privilégié à l'agence au moment de dessiner ses essais. De jeunes sociétés européennes l'obtiennent dès les premiers stades cliniques (Vasa Therapeutics, Artios, SOTIO) pour préparer leur dossier américain. Point de diligence : le statut ne dit rien de l'efficacité ni des chances d'approbation, et il reste moins exigeant qu'une désignation Breakthrough Therapy.",
+      "startups": [
+        {
+          "name": "Vasa Therapeutics",
+          "use": "Fast Track obtenu en novembre 2025 pour VS-041, inhibiteur oral de MMP-2/MMP-9 dans l'insuffisance cardiaque à fraction d'éjection préservée ; résultats positifs de phase 1c annoncés le 12 novembre 2026.",
+          "place": "Encinitas (États-Unis) et Wrocław (Pologne)"
+        },
+        {
+          "name": "Artios Pharma",
+          "use": "Fast Track en février 2026 pour ART6043, inhibiteur de l'ADN polymérase thêta, associé à l'olaparib dans le cancer du sein BRCA muté HER2 négatif ; Series D de 115 M$ co-menée par SV Health Investors et RA Capital fin 2025.",
+          "place": "Cambridge, Royaume-Uni"
+        },
+        {
+          "name": "SOTIO Biotech",
+          "use": "Fast Track en juillet 2026 pour SOT109, un ADC ciblant CDH17 dans le cancer colorectal avancé ou métastatique en échec des traitements standard.",
+          "place": "Prague, République tchèque"
+        },
+        {
+          "name": "Shanton Pharma",
+          "use": "Fast Track pour SAP-001, hypo-uricémiant oral en une prise par jour contre la goutte réfractaire, sur la base d'une phase IIb ; dispenses d'études pédiatriques obtenues auprès de l'EMA et de la FDA en novembre 2026.",
+          "place": "Singapour"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "U.S. Food and Drug Administration",
+          "title": "Fast Track",
+          "url": "https://www.fda.gov/patients/fast-track-breakthrough-therapy-accelerated-approval-priority-review/fast-track"
+        },
+        {
+          "publisher": "Vasa Therapeutics (PR Newswire)",
+          "title": "Vasa Therapeutics Granted FDA Fast Track Designation for VS-041, a Novel Investigational Treatment of Heart Failure with Preserved Ejection Fraction (HFpEF)",
+          "url": "https://www.prnewswire.com/news-releases/vasa-therapeutics-granted-fda-fast-track-designation-for-vs-041-a-novel-investigational-treatment-of-heart-failure-with-preserved-ejection-fraction-hfpef-302618309.html"
+        },
+        {
+          "publisher": "CancerNetwork",
+          "title": "FDA Grants Fast Track Designation to ART6043/Olaparib in BRCA-Mutated, HER2– Breast Cancer",
+          "url": "https://www.cancernetwork.com/view/fda-grants-fast-track-designation-to-art6043-olaparib-in-brca-mutated-her2-breast-cancer"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "FDA Grants Fast Track Designation to SOTIO's SOT109, a CDH17-targeting ADC for Colorectal Cancer",
+          "url": "https://www.biospace.com/press-releases/fda-grants-fast-track-designation-to-sotios-sot109-a-cdh17-targeting-adc-for-colorectal-cancer"
+        }
+      ],
+      "date": "2026-11-15",
+      "dateLong": "15 nov. 2026"
+    },
+    {
       "term": "Ambient Intelligence",
       "full": "Ambient Intelligence (intelligence ambiante en milieu de soins)",
       "fr": "Capteurs et IA qui « observent » les lieux de soins pour assister les équipes",
