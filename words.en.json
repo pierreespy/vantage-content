@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-16",
   "words": [
     {
+      "term": "Incretin",
+      "full": "Incretin (incretin hormone)",
+      "fr": "Incretin",
+      "field": "Metabolism & obesity",
+      "definition": "A hormone released by the gut when we eat that prompts the pancreas to secrete more insulin: the two main ones, GLP-1 and GIP, have become the basis of today's drugs for type 2 diabetes and obesity.",
+      "parts": [
+        {
+          "label": "GLP-1",
+          "role": "the star incretin: secreted by L cells in the gut, it stays active in type 2 diabetes and is the template for GLP-1 receptor agonists (semaglutide…)"
+        },
+        {
+          "label": "GIP",
+          "role": "the second incretin: produced by K cells in the upper gut, it is targeted either by activation (dual agonists such as tirzepatide) or by blockade (GIPR antagonists)"
+        },
+        {
+          "label": "Receptors",
+          "role": "the locks drugs aim for: they are switched on, blocked, or linked to another molecule to broaden the effect"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Meal",
+          "t": "Nutrients arriving in the gut trigger the release of GLP-1 and GIP into the bloodstream."
+        },
+        {
+          "n": "2",
+          "h": "Incretin effect",
+          "t": "These hormones amplify glucose-dependent insulin secretion: in healthy people they are thought to account for about 50–70% of the insulin released after a meal."
+        },
+        {
+          "n": "3",
+          "h": "Drugs",
+          "t": "GLP-1 agonists, then dual GIP/GLP-1 agonists, mimic and strengthen this signal; the new wave is testing combinations, oral forms and reverse approaches such as blocking the GIP receptor."
+        }
+      ],
+      "why": "Incretins created the biggest market in pharma today, and the battle has moved to the second generation: weekly pills, better tolerability, muscle preservation, combinations. Europe has solid startups here, often born in the Danish ecosystem (Antag Therapeutics, Ousia Pharma) or backed by mega-rounds (Verdiva Bio, $411M Series A). Diligence point: against Novo Nordisk and Lilly — CagriSema still delivers about 21% weight loss at lower doses in REDEFINE 9 — a newcomer must prove a real differentiator, which explains the interest in complementary mechanisms such as Mitotech's.",
+      "startups": [
+        {
+          "name": "Antag Therapeutics",
+          "use": "AT7687, a first-in-class GIP receptor antagonist: first patient dosed in July 2026 in a 150-patient Phase 2a in combination with semaglutide (topline expected H1 2027); €80M Series A led by Versant Ventures.",
+          "place": "Copenhagen, Denmark"
+        },
+        {
+          "name": "Verdiva Bio",
+          "use": "VRB-101, a once-weekly oral form of ecnoglutide (a GLP-1 peptide analog): enrollment in the Phase 2b EVOLVE-2 (200+ participants) completed in February 2026, results expected end-2026; $411M Series A co-led by Forbion and General Atlantic.",
+          "place": "London, UK"
+        },
+        {
+          "name": "Ousia Pharma",
+          "use": "University of Copenhagen spin-off developing a once-weekly dual-incretin + NMDA receptor antagonist conjugate designed to act on the brain's appetite centers; preclinical, seed round led by Omega Funds.",
+          "place": "Copenhagen, Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "International Journal of Molecular Sciences (PMC)",
+          "title": "The Roles of Incretin Hormones GIP and GLP-1 in Metabolic and Cardiovascular Health: A Comprehensive Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12785922/"
+        },
+        {
+          "publisher": "Antag Therapeutics (BioSpace)",
+          "title": "Antag Therapeutics Announces Dosing of First Patient in Phase 2a Trial of First-in-Class GIPR Antagonist AT7687",
+          "url": "https://www.biospace.com/press-releases/antag-therapeutics-announces-dosing-of-first-patient-in-phase-2a-trial-of-first-in-class-gipr-antagonist-at7687"
+        },
+        {
+          "publisher": "Verdiva Bio (BioSpace)",
+          "title": "Verdiva Bio Announces Completion of Enrollment for EVOLVE-2 Phase 2b Study of VRB-101, a Potential Once-Weekly Oral GLP-1 Peptide Analog in Individuals with Obesity",
+          "url": "https://www.biospace.com/press-releases/verdiva-bio-announces-completion-of-enrollment-for-evolve-2-phase-2b-study-of-vrb-101-a-potential-once-weekly-oral-glp-1-peptide-analog-in-individuals-with-obesity"
+        },
+        {
+          "publisher": "Ousia Pharma (PR Newswire)",
+          "title": "Ousia Pharma Secures Substantial Seed Financing Led by Omega Funds to Advance Groundbreaking Obesity Treatment",
+          "url": "https://www.prnewswire.co.uk/news-releases/ousia-pharma-secures-substantial-seed-financing-led-by-omega-funds-to-advance-groundbreaking-obesity-treatment-302446485.html"
+        }
+      ],
+      "date": "2026-11-16",
+      "dateLong": "Nov 16, 2026"
+    },
+    {
       "term": "Teleconsultation",
       "full": "Teleconsultation (remote video medical consultation)",
       "fr": "Remote video consultation",

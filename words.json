@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-16",
   "words": [
     {
+      "term": "Incretin",
+      "full": "Incretin (hormone incrétine)",
+      "fr": "Incrétine",
+      "field": "Métabolisme & obésité",
+      "definition": "Une hormone libérée par l'intestin quand on mange, qui pousse le pancréas à sécréter plus d'insuline : les deux principales, GLP-1 et GIP, sont devenues la base des médicaments actuels contre le diabète de type 2 et l'obésité.",
+      "parts": [
+        {
+          "label": "GLP-1",
+          "role": "l'incrétine vedette : sécrétée par les cellules L de l'intestin, elle reste active dans le diabète de type 2 et sert de modèle aux agonistes du récepteur GLP-1 (sémaglutide…)"
+        },
+        {
+          "label": "GIP",
+          "role": "la seconde incrétine : produite par les cellules K du haut de l'intestin, elle est ciblée soit en activation (doubles agonistes comme le tirzépatide), soit en blocage (antagonistes du récepteur GIPR)"
+        },
+        {
+          "label": "Récepteurs",
+          "role": "les serrures que visent les médicaments : on les active, on les bloque ou on y accroche une autre molécule pour en élargir l'effet"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Repas",
+          "t": "L'arrivée des nutriments dans l'intestin déclenche la libération de GLP-1 et de GIP dans le sang."
+        },
+        {
+          "n": "2",
+          "h": "Effet incrétine",
+          "t": "Ces hormones amplifient la sécrétion d'insuline en fonction du glucose : chez une personne en bonne santé, elles expliqueraient environ 50 à 70 % de l'insuline libérée après un repas."
+        },
+        {
+          "n": "3",
+          "h": "Médicaments",
+          "t": "Les agonistes du GLP-1, puis les doubles agonistes GIP/GLP-1, imitent et renforcent ce signal ; la nouvelle vague teste des combinaisons, des formes orales et des approches inverses comme le blocage du récepteur GIP."
+        }
+      ],
+      "why": "Les incrétines ont créé le plus gros marché de la pharmacie actuelle, et la bataille se joue désormais sur la deuxième génération : pilules hebdomadaires, meilleure tolérance, préservation du muscle, combinaisons. L'Europe y a des startups solides, souvent nées dans l'écosystème danois (Antag Therapeutics, Ousia Pharma) ou financées par des tours géants (Verdiva Bio, 411 M$ en Series A). Point de diligence : face à Novo Nordisk et Lilly — le CagriSema fait encore environ 21 % de perte de poids à doses réduites dans REDEFINE 9 — un nouvel entrant doit prouver un vrai différenciant, ce qui explique l'intérêt pour des mécanismes complémentaires comme celui de Mitotech.",
+      "startups": [
+        {
+          "name": "Antag Therapeutics",
+          "use": "AT7687, antagoniste du récepteur GIP « first-in-class » : premier patient traité en juillet 2026 dans une phase 2a de 150 patients en association au sémaglutide (résultats attendus au 1er semestre 2027) ; Series A de 80 M€ menée par Versant Ventures.",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Verdiva Bio",
+          "use": "VRB-101, forme orale hebdomadaire de l'écnoglutide (analogue peptidique du GLP-1) : recrutement de la phase 2b EVOLVE-2 (plus de 200 participants) bouclé en février 2026, résultats attendus fin 2026 ; Series A de 411 M$ co-menée par Forbion et General Atlantic.",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "Ousia Pharma",
+          "use": "Spin-off de l'université de Copenhague qui développe un conjugué hebdomadaire double incrétine + antagoniste du récepteur NMDA pour agir sur les centres cérébraux de l'appétit ; stade préclinique, seed menée par Omega Funds.",
+          "place": "Copenhague, Danemark"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "International Journal of Molecular Sciences (PMC)",
+          "title": "The Roles of Incretin Hormones GIP and GLP-1 in Metabolic and Cardiovascular Health: A Comprehensive Review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12785922/"
+        },
+        {
+          "publisher": "Antag Therapeutics (BioSpace)",
+          "title": "Antag Therapeutics Announces Dosing of First Patient in Phase 2a Trial of First-in-Class GIPR Antagonist AT7687",
+          "url": "https://www.biospace.com/press-releases/antag-therapeutics-announces-dosing-of-first-patient-in-phase-2a-trial-of-first-in-class-gipr-antagonist-at7687"
+        },
+        {
+          "publisher": "Verdiva Bio (BioSpace)",
+          "title": "Verdiva Bio Announces Completion of Enrollment for EVOLVE-2 Phase 2b Study of VRB-101, a Potential Once-Weekly Oral GLP-1 Peptide Analog in Individuals with Obesity",
+          "url": "https://www.biospace.com/press-releases/verdiva-bio-announces-completion-of-enrollment-for-evolve-2-phase-2b-study-of-vrb-101-a-potential-once-weekly-oral-glp-1-peptide-analog-in-individuals-with-obesity"
+        },
+        {
+          "publisher": "Ousia Pharma (PR Newswire)",
+          "title": "Ousia Pharma Secures Substantial Seed Financing Led by Omega Funds to Advance Groundbreaking Obesity Treatment",
+          "url": "https://www.prnewswire.co.uk/news-releases/ousia-pharma-secures-substantial-seed-financing-led-by-omega-funds-to-advance-groundbreaking-obesity-treatment-302446485.html"
+        }
+      ],
+      "date": "2026-11-16",
+      "dateLong": "16 nov. 2026"
+    },
+    {
       "term": "Teleconsultation",
       "full": "Teleconsultation (consultation médicale à distance par vidéo)",
       "fr": "Téléconsultation",
