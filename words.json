@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-15",
+  "generatedAt": "2026-11-16",
   "words": [
+    {
+      "term": "Cochlear Implant",
+      "full": "Cochlear Implant (implant cochléaire)",
+      "fr": "Implant cochléaire",
+      "field": "Implants auditifs / neuroprothèses",
+      "definition": "Un appareil électronique, en partie posé chirurgicalement, qui contourne la partie abîmée de l'oreille interne et stimule directement le nerf auditif pour redonner une perception des sons aux personnes sourdes profondes ou sévèrement malentendantes.",
+      "parts": [
+        {
+          "label": "Microphone et processeur",
+          "role": "captent le son et le traduisent en signal codé ; classiquement derrière l'oreille, désormais sous la peau sur les modèles totalement implantables"
+        },
+        {
+          "label": "Récepteur-stimulateur",
+          "role": "implanté sous la peau, il convertit le signal en impulsions électriques"
+        },
+        {
+          "label": "Faisceau d'électrodes",
+          "role": "inséré dans la cochlée, il délivre les impulsions aux différentes zones du nerf auditif"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capter",
+          "t": "Le microphone recueille les sons et le processeur sélectionne et code ceux qui portent la parole."
+        },
+        {
+          "n": "2",
+          "h": "Transmettre",
+          "t": "Le signal passe au récepteur-stimulateur implanté, par la peau sur un implant classique, directement sur un implant totalement implantable."
+        },
+        {
+          "n": "3",
+          "h": "Stimuler",
+          "t": "Les électrodes stimulent le nerf auditif ; le cerveau apprend, au fil de la rééducation, à interpréter cette nouvelle forme d'audition."
+        }
+      ],
+      "why": "Marché de neuroprothèses le plus mature (environ 737 000 appareils implantés dans le monde dès 2019 selon la FDA), il est verrouillé par une poignée d'acteurs mais entre dans une nouvelle phase : l'implant totalement invisible (TICI UNICO de MED-EL, marqué CE en 2026 ; Acclaim d'Envoy Medical en essai pivot aux États-Unis) et l'insertion robotisée des électrodes pour préserver l'audition résiduelle. Pour un investisseur, la valeur se déplace vers ce qui élargit les indications et améliore les résultats : batteries, électrodes, chirurgie assistée.",
+      "startups": [
+        {
+          "name": "MED-EL",
+          "use": "A lancé fin septembre 2026 TICI UNICO, implant cochléaire sans pièce externe marqué CE, et ouvre son étude post-marché dans six centres européens",
+          "place": "Innsbruck, Autriche"
+        },
+        {
+          "name": "Envoy Medical",
+          "use": "Implant cochléaire totalement implanté Acclaim (Breakthrough Device) : 56 patients suivis à six mois dans l'essai pivot, deuxième module du dossier PMA déposé",
+          "place": "White Bear Lake, États-Unis"
+        },
+        {
+          "name": "iotaMotion",
+          "use": "Système robotisé iotaSOFT d'insertion des électrodes, clearance FDA étendue en janvier 2026 aux enfants dès 4 ans",
+          "place": "Iowa City, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NIDCD (National Institutes of Health)",
+          "title": "Cochlear Implants",
+          "url": "https://www.nidcd.nih.gov/health/cochlear-implants"
+        },
+        {
+          "publisher": "MED-EL",
+          "title": "MED-EL Launches TICI UNICO, the World's First and Only Totally Invisible Cochlear Implant",
+          "url": "https://www.medel.com/press-room/press-list/press-details/2026/09/29/medel-launches-tici-unico-the-worlds-first-and-only-totally-invisible-cochlear-implant"
+        },
+        {
+          "publisher": "Envoy Medical",
+          "title": "Envoy Medical Reports Third Quarter 2026 Results and Highlights Continued Progress",
+          "url": "https://ir.envoymedical.com/news-events/press-releases/detail/107/envoy-medical-reports-third-quarter-2026-results-and-highlights-continued-progress"
+        },
+        {
+          "publisher": "Contemporary Pediatrics",
+          "title": "FDA clears expanded pediatric use of robotic-assisted cochlear implant insertion system",
+          "url": "https://www.contemporarypediatrics.com/view/fda-clears-expanded-pediatric-use-of-robotic-assisted-cochlear-implant-insertion-system"
+        }
+      ],
+      "date": "2026-11-16",
+      "dateLong": "16 nov. 2026"
+    },
     {
       "term": "Fast Track",
       "full": "Fast Track Designation (FDA)",

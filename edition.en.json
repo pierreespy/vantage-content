@@ -1,86 +1,101 @@
 {
-  "dateLong": "Nov 15, 2026",
+  "dateLong": "Nov 16, 2026",
   "ticker": [
-    { "company": "ELYPTA", "amount": "Publication", "kind": "tech" },
-    { "company": "MOLECULAR DESIGNS", "amount": "510(k)", "kind": "reg" },
-    { "company": "NEUROSOFT", "amount": "Gold medal", "kind": "new" },
-    { "company": "NATERA", "amount": "Ph2 MRD", "kind": "tech" },
-    { "company": "ACCURAY", "amount": "$40M", "kind": "lev" },
-    { "company": "NORTHWESTERN", "amount": "TB test", "kind": "tech" }
+    { "company": "MED-EL", "amount": "PMCF started", "kind": "tech" },
+    { "company": "BIOMÉRIEUX", "amount": "510(k) + IVDR", "kind": "reg" },
+    { "company": "DIASORIN", "amount": "IVDR", "kind": "reg" },
+    { "company": "ALIKO", "amount": "MEDICA launch", "kind": "tech" },
+    { "company": "3DEUS DYNAMICS", "amount": "€7M", "kind": "lev" },
+    { "company": "MOSAIC", "amount": "$47M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Publication · Cancer diagnostics",
-    "title": "Elypta publishes evidence that a simple urine test flags adults at high risk of cancer within five years, across 5,436 people",
-    "deck": "The Solna-based Swedish medtech published a pre-registered study (NCT05235009) on the Dutch Lifelines cohort in Cancer Epidemiology, Biomarkers & Prevention: its urine score built on three glycosaminoglycans (the \"GAGome\"), combined with age and smoking history, places 13% to 23% of participants in a \"high-risk\" group that accounts for 54% of cancers diagnosed within five years, with the strongest effect in cancers that are not screened for today (pancreas, kidney, brain, lymphoma). The authors stress that independent prospective validation is still needed, but for a still-independent, ISO 13485-certified company that launched its MIRAM kit in October, this is the clinical data that opens the door to triaging populations ahead of costlier multi-cancer screening tests.",
-    "company": "Elypta",
-    "sector": "Diagnostics",
+    "kicker": "Post-market follow-up · Hearing implants",
+    "title": "MED-EL opens its post-market study of the first cochlear implant with no external parts at six European centers",
+    "deck": "On Nov. 11 the Austrian manufacturer began enrolling its post-market clinical follow-up study (PMCF, NCT07897318) of the Mi2000 TICI, sold as TICI UNICO: 22 patients are planned in Vienna (AKH), Antwerp, Liège, Munich, Würzburg and Nadarzyn (Poland). Launched in late September with CE marking, the implant places the microphone, processor and rechargeable battery under the skin; this real-world data will shape uptake by European implant centers, while the only comparable rival, US-based Envoy Medical, is still in its US pivotal trial.",
+    "company": "MED-EL",
+    "sector": "Hearing implants",
     "pillar": "innovation",
-    "signalType": "publication_preprint",
-    "strength": 2,
-    "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html"
+    "signalType": "clinical_update",
+    "strength": 3,
+    "url": "https://clinicaltrials.gov/study/NCT07897318"
   },
   "milestone": {
-    "company": "Molecular Designs",
-    "milestone": "First 510(k)",
-    "title": "Molecular Designs wins its first FDA clearance for a flu A, flu B and RSV PCR panel (K262789)",
-    "summary": "The physician-founded molecular test maker cleared its SimplicityDx Panel FluA/FluB/RSV, a multiplex real-time RT-PCR that detects and differentiates influenza A, influenza B and respiratory syncytial virus from anterior nasal swabs. Its breakaway format lets labs run only the tests they need, with minimal pipetting.",
-    "why": "Moving from a research-use-only catalogue to a first cleared diagnostic changes the nature of a young diagnostics company: it can sell to clinical labs and build recurring consumables revenue. It is also a comparable for European respiratory-testing players facing established platforms (Cepheid, bioMérieux, Roche).",
-    "place": "Birmingham, Alabama (United States)",
+    "company": "bioMérieux",
+    "milestone": "510(k) + IVDR",
+    "title": "bioMérieux wins FDA clearance and IVDR CE marking for VITEK PRO, its bacterial identification and susceptibility testing system",
+    "summary": "VITEK PRO combines microbial identification and antimicrobial susceptibility testing on a single platform for medium- and high-volume microbiology labs. The Lyon-area group plans a Q1 2027 launch in the US and selected European countries, then a worldwide rollout in Q2 to replace its VITEK 2 and VITEK XL systems.",
+    "why": "Replacing a global installed base of lab analyzers is rare: it sets the routine susceptibility-testing standard for years, just as antimicrobial resistance pushes hospitals to pick the right antibiotic faster. For rapid-AST startups it is the new benchmark to beat, and one more reason to aim for integration rather than replacement.",
+    "place": "Marcy-l'Étoile",
     "sector": "Diagnostics",
     "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/news-releases/molecular-designs-earns-its-first-fda-510k-clearance-with-simplicitydx-panel-fluaflubrsv-302939167.html"
+    "url": "https://www.labmedica.com/microbiology/articles/294814648/automated-microbial-identification-and-susceptibility-system-gains-fda-clearance.html"
   },
   "brefsEurope": [
-    { "company": "Neurosoft Bioelectronics", "place": "Geneva", "sector": "Neurotech", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 2,
-      "title": "EPFL spin-off Neurosoft Bioelectronics wins gold in biotechnology at the Fujian Global Innovation and Entrepreneurship Competition",
-      "summary": "The Geneva start-up, which is industrialising soft cortical electrodes (SOFT ECOG) for epilepsy and motor restoration in people with paralysis, was picked from more than 1,000 projects; it is preparing an international expansion of its clinical trials and a presence in China. A European brain-computer interface to watch, six months after its $7.5M seed.",
-      "url": "https://www.startupticker.ch/en/news/awards-for-western-switzerland-startups" }
+    { "company": "Aliko Scientific", "place": "Paris", "sector": "Diagnostics", "pillar": "innovation",
+      "signalType": "conference_abstract", "strength": 2,
+      "title": "Aliko Scientific unveils its CYTOfast Auto liquid-based cytology system at MEDICA",
+      "summary": "The Euronext Growth-listed company is showing, Nov. 16–19 in Düsseldorf, the fully automated system from its Italian subsidiary Hospitex, which determines the sample volume needed for each slide and tracks every sample to its slide. The announcement does not yet mention CE marking: the step to watch before any sales.",
+      "url": "https://sg.finance.yahoo.com/news/aliko-scientific-launches-cytofast-auto-063000354.html" },
+    { "company": "3Deus Dynamics", "place": "Lyon", "sector": "Biomaterials", "pillar": "financement",
+      "signalType": "funding_round", "strength": 3,
+      "title": "3Deus Dynamics has already secured €5.75M of a €7M round to industrialize its silicone anatomical simulators",
+      "summary": "Founded in 2020, the company uses its patented Dynamic Molding process to 3D-print vessel replicas without molds or supports that mimic tissue distensibility, used to validate devices before clinical trials. The balance is open to individual investors via Sowefund until Dec. 15; the institutional investors are not named.",
+      "url": "https://www.devicemed.fr/dossiers/materiaux/materiaux-plastiques/impression-3d-de-simulateurs-anatomiques-en-silicone-une-levee-de-fonds-de-7-me/55494" },
+    { "company": "Diasorin", "place": "Saluggia", "sector": "Diagnostics", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "Diasorin wins IVDR CE marking for its LIAISON PLEX gastrointestinal and respiratory \"Flex\" panels",
+      "summary": "The gastrointestinal panel detects up to 24 bacterial, viral and parasitic targets and the respiratory panel up to 19, with software that lets labs pay only for the targets they order. The Italian group will bring this approach to European labs in Q1 2027.",
+      "url": "https://www.labmedica.com/microbiology/articles/294814610/gastrointestinal-flex-assay-gains-eu-certification-for-tailored-pathogen-testing.html" },
+    { "company": "Bioretec", "place": "Tampere", "sector": "Biomaterials", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "Bioretec's bioabsorbable implant sales jump 85.5% in the third quarter",
+      "summary": "The Finnish company booked €1.33M in quarterly revenue, driven by its Activa bioabsorbable polymer screws (more than 500,000 units sold to date) and the FDA clearance won in September for a new compression screw. Its magnesium-alloy RemeOs range holds three Breakthrough Device designations; cash stands at €9.25M.",
+      "url": "https://news.cision.com/bioretec/r/commercial-momentum-continues-across-key-markets,c4423432" }
   ],
   "brefsIntl": [
-    { "company": "Natera", "place": "Austin (United States)", "sector": "Diagnostics", "pillar": "innovation",
-      "signalType": "early_partnership", "strength": 3,
-      "title": "Natera and Incyte launch NEXERA-204, a phase II trial in which the Signatera ctDNA blood test decides who gets treated",
-      "summary": "The study targets stage II or III colorectal cancer patients who have had surgery and chemotherapy and whose Signatera test turns positive with no sign on imaging; they will receive INCA33890, Incyte's PD-1 × TGFβR2 bispecific antibody. The companion diagnostic becomes both an inclusion criterion and an endpoint: a template for European molecular residual disease companies.",
-      "url": "https://www.labmedica.com/industry-news/articles/294814668/natera-and-incyte-collaborate-on-mrd-guided-colorectal-cancer-treatment-study.html" },
-    { "company": "Accuray", "place": "Madison, Wisconsin (United States)", "sector": "MedTech", "pillar": "financement",
-      "signalType": "funding_round", "strength": 3,
-      "title": "Accuray closes its TCW restructuring: $40M of debt converted into preferred stock",
-      "summary": "The maker of CyberKnife and TomoTherapy radiotherapy systems swaps a $40M term loan for convertible preferred stock, also converts July's $15M investment, gets covenant relief through end-2027 and gives TCW two board seats, after a 1-for-40 reverse stock split. A comparable on financial pressure in radiotherapy, a market where Sweden's Elekta competes.",
-      "url": "https://www.prnewswire.com/news-releases/accuray-closes-tcw-transaction-strengthening-balance-sheet-to-support-long-term-value-growth-302939374.html" },
-    { "company": "Northwestern University", "place": "Evanston (United States)", "sector": "Diagnostics", "pillar": "innovation",
+    { "company": "Mosaic Intelligence Labs", "place": "San Francisco", "sector": "Surgical robotics", "pillar": "financement",
+      "signalType": "funding_round", "strength": 4, "stage": "Seed",
+      "title": "Mosaic Intelligence Labs emerges from stealth with a $47M seed to robotically navigate blood vessels",
+      "summary": "The startup is building sensing instruments, spatial mapping and robots for endovascular procedures, including a semi-autonomous catheter; two rounds led by 8VC and Fundomo, with Lingotto Innovation and Obvious Ventures. A seed this size sets a valuation marker for European endovascular robotics players.",
+      "url": "https://thenextweb.com/news/mosaic-intelligence-labs-47m-seed-ai-surgical-catheter" },
+    { "company": "Olympus", "place": "Tokyo", "sector": "Endoscopy", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "Olympus says it is making progress with the FDA after a new warning letter on its endoscopes",
+      "summary": "CEO Bob White says quality remediation has intensified since January, following the October letter covering six sites in Japan, Europe and the US and new import alerts. The holds have already cost about ¥9B in revenue: a risk that opens room for alternative endoscopes.",
+      "url": "https://www.medtechdive.com/news/olympus-making-strides-on-fda-quality-concerns-ceo-says/874627/" },
+    { "company": "Technion", "place": "Haifa", "sector": "Cardio", "pillar": "innovation",
       "signalType": "publication_preprint", "strength": 2,
-      "title": "A rapid tuberculosis PCR test run on a simple tongue swab matches the Xpert Ultra reference in Open Forum Infectious Diseases",
-      "summary": "The DASH MTB test, developed by Northwestern engineers with the University of Washington and the universities of Cape Town and Stellenbosch, works on sputum or tongue swabs and returns a result within the clinic visit. Sampling the tongue, without sputum, is what matters for mass point-of-care screening.",
-      "url": "https://www.labmedica.com/microbiology/articles/294814756/rapid-point-of-care-test-detects-tuberculosis-from-tongue-swab-and-sputum.html" }
+      "title": "Technion publishes SPADE, a miniature sensor that measures blood pressure continuously without a cuff",
+      "summary": "Published in Nature Communications, the sensor combines silicon photonics and optoacoustics to measure the artery's absolute diameter with each heartbeat, then reconstructs the pressure waveform with an AI model, at 100 measurements per second in volunteers. A proof of concept that could eventually fit into watches or patches.",
+      "url": "https://hospimedica.com/critical-care/articles/294814684/miniature-wearable-sensor-enables-continuous-cuffless-blood-pressure-monitoring.html" }
   ],
   "word": {
-    "term": "MCED",
-    "full": "Multi-Cancer Early Detection",
-    "fr": "Screening for several cancers with one test",
-    "field": "In vitro diagnostics / oncology",
-    "definition": "A single test, usually a blood draw (sometimes urine), that looks in a person without symptoms for the biological traces left by several cancer types at once, including those for which no screening exists.",
+    "term": "Cochlear Implant",
+    "full": "Cochlear Implant",
+    "fr": "Cochlear implant",
+    "field": "Hearing implants / neuroprosthetics",
+    "definition": "An electronic device, partly placed by surgery, that bypasses the damaged part of the inner ear and directly stimulates the auditory nerve to restore a sense of sound to people who are profoundly deaf or severely hard of hearing.",
     "parts": [
-      { "label": "Biomarker", "role": "the signal measured: circulating tumour DNA (methylation, fragments), proteins or metabolites such as glycosaminoglycans" },
-      { "label": "Algorithm", "role": "the machine-learning model that separates the \"cancer\" signal from noise and often predicts the organ of origin" },
-      { "label": "Confirmation pathway", "role": "the imaging and biopsy that follow a positive test, without which the result has no clinical value" }
+      { "label": "Microphone and processor", "role": "pick up sound and turn it into a coded signal; traditionally worn behind the ear, now under the skin on totally implantable models" },
+      { "label": "Receiver-stimulator", "role": "implanted under the skin, it converts the signal into electrical impulses" },
+      { "label": "Electrode array", "role": "inserted into the cochlea, it delivers the impulses to different regions of the auditory nerve" }
     ],
     "how": [
-      { "n": "1", "h": "Sample", "t": "A blood or urine sample is collected from an adult without symptoms, typically aged 45 to 75." },
-      { "n": "2", "h": "Analyse", "t": "The lab measures the biomarker profile (circulating DNA sequencing or mass spectrometry) and the algorithm computes a risk score or a positive/negative signal." },
-      { "n": "3", "h": "Confirm", "t": "If a signal is found, the patient is referred for targeted diagnostic work-up; the challenge is to limit false positives and unnecessary procedures." }
+      { "n": "1", "h": "Capture", "t": "The microphone picks up sounds and the processor selects and encodes those that carry speech." },
+      { "n": "2", "h": "Transmit", "t": "The signal reaches the implanted receiver-stimulator, through the skin on a conventional implant, directly on a totally implantable one." },
+      { "n": "3", "h": "Stimulate", "t": "The electrodes stimulate the auditory nerve; through rehabilitation, the brain learns to interpret this new form of hearing." }
     ],
-    "why": "Organised screening covers only a handful of cancers (breast, colon, cervix, lung): a test targeting dozens addresses a potentially massive market, but proof of a mortality benefit does not exist yet. The US National Cancer Institute launched the Vanguard study (up to 24,000 people) to prepare a large randomised trial: for an investor, value hinges on the quality of clinical data, cost per test and the ability to target people at risk, which leaves room for alternatives to DNA such as urinary metabolites.",
+    "why": "The most mature neuroprosthetics market (about 737,000 devices implanted worldwide as of 2019, per the FDA) is locked up by a handful of players but is entering a new phase: the fully invisible implant (MED-EL's TICI UNICO, CE-marked in 2026; Envoy Medical's Acclaim in a US pivotal trial) and robotic electrode insertion to preserve residual hearing. For investors, value is shifting to whatever widens indications and improves outcomes: batteries, electrodes, assisted surgery.",
     "startups": [
-      { "name": "Elypta", "use": "Urine glycosaminoglycan score (GAGome) published on 5,436 adults from the Lifelines cohort to flag five-year cancer risk", "place": "Solna, Sweden" },
-      { "name": "Adela", "use": "Blood test based on circulating DNA methylation; more than 6,100 participants enrolled in its MCED study spanning 20 cancer types (ASCO 2026)", "place": "Foster City, United States / Toronto, Canada" },
-      { "name": "Harbinger Health", "use": "Resolve line of blood-based cancer detection tests, funded by a $100M round led by Flagship Pioneering in 2026", "place": "Cambridge, United States" }
+      { "name": "MED-EL", "use": "Launched TICI UNICO in late September 2026, a CE-marked cochlear implant with no external parts, and is opening its post-market study at six European centers", "place": "Innsbruck, Austria" },
+      { "name": "Envoy Medical", "use": "Fully implanted Acclaim cochlear implant (Breakthrough Device): all 56 patients past six-month follow-up in the pivotal trial, second PMA module filed", "place": "White Bear Lake, USA" },
+      { "name": "iotaMotion", "use": "iotaSOFT robotic electrode insertion system, FDA clearance expanded in January 2026 to children aged 4 and up", "place": "Iowa City, USA" }
     ],
     "sources": [
-      { "publisher": "National Cancer Institute", "title": "Vanguard Study", "url": "https://www.cancer.gov/research/areas/screening/vanguard-study" },
-      { "publisher": "LabMedica", "title": "Study Finds Urine Biomarker Score Improves Five-Year Cancer Risk Prediction", "url": "https://www.labmedica.com/clinical-chemistry/articles/294814654/study-finds-urine-biomarker-score-improves-five-year-cancer-risk-prediction.html" },
-      { "publisher": "Adela", "title": "Adela News", "url": "https://www.adelabio.com/adela-news" },
-      { "publisher": "GenomeWeb", "title": "Harbinger Health to Commercialize Multi-Cancer Detection Tests With $100M Financing Round", "url": "https://www.genomeweb.com/cancer/harbinger-health-commercialize-multi-cancer-detection-tests-100m-financing-round/" }
+      { "publisher": "NIDCD (National Institutes of Health)", "title": "Cochlear Implants", "url": "https://www.nidcd.nih.gov/health/cochlear-implants" },
+      { "publisher": "MED-EL", "title": "MED-EL Launches TICI UNICO, the World's First and Only Totally Invisible Cochlear Implant", "url": "https://www.medel.com/press-room/press-list/press-details/2026/09/29/medel-launches-tici-unico-the-worlds-first-and-only-totally-invisible-cochlear-implant" },
+      { "publisher": "Envoy Medical", "title": "Envoy Medical Reports Third Quarter 2026 Results and Highlights Continued Progress", "url": "https://ir.envoymedical.com/news-events/press-releases/detail/107/envoy-medical-reports-third-quarter-2026-results-and-highlights-continued-progress" },
+      { "publisher": "Contemporary Pediatrics", "title": "FDA clears expanded pediatric use of robotic-assisted cochlear implant insertion system", "url": "https://www.contemporarypediatrics.com/view/fda-clears-expanded-pediatric-use-of-robotic-assisted-cochlear-implant-insertion-system" }
     ]
   }
 }
