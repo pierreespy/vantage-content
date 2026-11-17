@@ -1,91 +1,239 @@
 {
-  "dateLong": "Nov 16, 2026",
+  "dateLong": "Nov 17, 2026",
   "ticker": [
-    { "company": "MITOTECH", "amount": "Poster", "kind": "tech" },
-    { "company": "SERVIER", "amount": "4-year data", "kind": "tech" },
-    { "company": "NOVO NORDISK", "amount": "Ph3 ✓", "kind": "tech" },
-    { "company": "SUMMIT", "amount": "CRL", "kind": "reg" },
-    { "company": "FDA", "amount": "CNPV paused", "kind": "reg" },
-    { "company": "KLARIA", "amount": "SEK 111M", "kind": "lev" }
+    {
+      "company": "TRIMTECH",
+      "amount": "$411M",
+      "kind": "mna"
+    },
+    {
+      "company": "BIOARCTIC",
+      "amount": "5 years",
+      "kind": "tech"
+    },
+    {
+      "company": "FLAGSHIP",
+      "amount": "London lab",
+      "kind": "new"
+    },
+    {
+      "company": "AMYRIAD",
+      "amount": "AD04",
+      "kind": "mna"
+    },
+    {
+      "company": "NOVO NORDISK",
+      "amount": "Bone data",
+      "kind": "tech"
+    },
+    {
+      "company": "LIFEGLUE",
+      "amount": "Spin-off",
+      "kind": "new"
+    }
   ],
   "lead": {
-    "kicker": "Preclinical proof of concept · Obesity",
-    "title": "Mitotech takes its oral obesity pill MT-1101 head-to-head with semaglutide in preclinical data at ObesityWeek",
-    "deck": "The London biotech presented two invited posters on MT-1101 in Washington on Saturday, November 14: a once-daily oral treatment that drives weight loss by raising energy expenditure (speeding up mitochondrial fat-burning) rather than suppressing appetite. One poster measures energy expenditure and food intake in a diet-induced obesity model; the other compares MT-1101 directly with semaglutide on weight loss — no figures have been released yet. Billed as muscle-sparing and also aimed at MASH, the candidate is preparing to enter the clinic, and Mitotech plans to rely on pharma partners for late-stage development — one to watch as the market looks for mechanisms that complement GLP-1s.",
-    "company": "Mitotech",
-    "sector": "Metabolism",
-    "pillar": "innovation",
-    "signalType": "conference_abstract",
-    "strength": 2,
-    "url": "https://www.biospace.com/press-releases/mitotech-to-present-new-data-on-oral-obesity-treatment-candidate-mt-1101-at-obesityweek-2026"
+    "kicker": "Licensing · Targeted protein degradation",
+    "title": "TRIMTECH signs a deal worth up to $411M with Biogen for its degraders of toxic brain proteins",
+    "deck": "The Cambridge biotech, founded in 2023 on Leo James and William McEwan's work on the TRIM21 enzyme, announced on November 16 a research collaboration with a license option: up to $32M in upfront and research milestone payments, up to $411M in total plus royalties, with Biogen able to take an exclusive global license to the resulting degraders (targets and indications undisclosed). Its TRIMTAC and TRIMGLUE small molecules reach the central nervous system and preferentially clear toxic aggregates and oligomers while sparing the normal form of the protein: a major pact for a young company that has raised only $47M in seed funding, though the findings remain preclinical.",
+    "company": "TRIMTECH Therapeutics",
+    "stage": "Seed",
+    "sector": "Neuroscience",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 4,
+    "url": "https://european-biotechnology.com/latest-news/trimtech-lands-411m-biogen-deal-for-neurodegeneration-protein-degraders/"
   },
   "milestone": {
-    "company": "Servier",
-    "milestone": "4-year follow-up",
-    "title": "Servier presents four-year results from the FIREFLY-1 trial of tovorafenib in pediatric low-grade glioma at SNO",
-    "summary": "In children and young adults (6 months to 25 years) with relapsed or refractory BRAF-altered low-grade glioma, the once-weekly oral therapy OJEMDA (tovorafenib) shows a median time to next treatment of 50.9 months, up from 42.6 months at three years; among the 41 patients followed after stopping treatment, 76% stayed treatment-free for at least 12 months and 54% for at least 24 months, with no new discontinuations due to toxicity.",
-    "why": "These exploratory data address the key question for pediatric targeted therapies: can treatment be stopped without rapid relapse? 54% of patients saw tumor rebound after stopping, but most of those retreated with OJEMDA saw their tumors shrink. Approved in the US under accelerated approval, the drug holds only an orphan designation in Europe — a comparable for European pediatric neuro-oncology biotechs.",
-    "place": "Suresnes",
-    "sector": "Oncology",
+    "company": "Novo Nordisk",
+    "milestone": "Bone data",
+    "title": "Novo Nordisk presents data at ObesityWeek suggesting that amylin and calcitonin receptor activation protects bone during weight loss",
+    "summary": "In ovariectomized rats, femur trabecular bone volume was 43% higher on cagrilintide and 40% higher on CagriSema than in weight-matched controls (11%, not significant, on semaglutide alone); in healthy volunteers, cagrilintide and zenagamtide suppressed the bone-resorption marker CTX-I, which NN1213, a selective amylin agonist, did not. In the REDEFINE 1 DXA substudy (252 participants), bone density fell on CagriSema but stayed within the normal range for age and sex at week 68.",
+    "why": "Bone and muscle loss is the blind spot of obesity treatments: Novo points to the calcitonin receptor as a protective lever, giving European amylin biotechs a new axis of differentiation. The analyses are exploratory and not designed to assess fracture risk, while the FDA is due to rule on CagriSema in Q4 2026.",
+    "place": "Bagsværd",
+    "sector": "Metabolism",
     "signalType": "conference_abstract",
-    "url": "https://www.prnewswire.com/news-releases/servier-presents-updated-four-year-results-from-phase-2-firefly-1-study-of-ojemda-tovorafenib-in-pediatric-low-grade-glioma-plgg-at-sno-2026-302939577.html"
+    "url": "https://www.prnewswire.com/news-releases/novo-presents-preclinical-and-human-data-suggesting-a-role-for-amylin-and-calcitonin-receptor-activation-in-preserving-bone-during-weight-loss-at-obesityweek-302940814.html"
   },
   "brefsEurope": [
-    { "company": "Novo Nordisk", "place": "Bagsværd", "sector": "Metabolism", "pillar": "innovation",
-      "signalType": "clinical_update", "strength": 3,
-      "title": "Novo Nordisk: CagriSema delivers about 21% weight loss at lower doses in the Phase 3 REDEFINE 9 trial",
-      "summary": "In 309 adults with obesity or overweight and no diabetes, the 1.7/1.7 mg and 1.0/1.0 mg doses of the GLP-1 + amylin combination produced 20.7% and 21.0% weight loss at 68 weeks among adherent patients (2.0% on placebo), with 2.9% and 4.9% discontinuing due to adverse events. Presented at ObesityWeek and published in The Lancet Diabetes & Endocrinology, the data raise the low-dose bar for European obesity biotechs, as the FDA is due to rule on the 2.4 mg dose in Q4 2026.",
-      "url": "https://www.prnewswire.com/news-releases/novos-investigational-cagrisema-a-glp-1-and-amylin-analog-demonstrated-21-average-weight-loss-with-lower-doses-in-the-redefine-9-trial-presented-at-obesityweek-2026-and-published-in-the-lancet-diabetes--endocrinology-302939556.html" },
-    { "company": "Bavarian Nordic", "place": "Copenhagen", "sector": "Vaccines", "pillar": "marche",
-      "signalType": "leadership_hire", "strength": 2,
-      "title": "Bavarian Nordic to lose CFO Henrik Juuel, who will step down at the end of April 2027",
-      "summary": "Juuel, who joined in 2018 and steered the vaccine specialist's finances through several acquisitions, is leaving for personal reasons; the board has started the search for a successor. Another change at the top, weeks after new CEO Tarja Stenvall took over.",
-      "url": "https://www.biospace.com/press-releases/henrik-juuel-to-step-down-as-chief-financial-officer-of-bavarian-nordic-in-2027" },
-    { "company": "Klaria Pharma", "place": "Sweden", "sector": "Biotech", "pillar": "financement",
-      "signalType": "funding_round", "strength": 2,
-      "title": "Klaria Pharma closes its rights issue at SEK 111.1M, 75% subscribed with the underwriter's contribution",
-      "summary": "Subscriptions covered 61.4% of the offering and underwriting by Vator Securities brought it to 75.3%; about SEK 37.3M is paid by set-off of claims, leaving roughly SEK 73.8M in cash before costs to shore up the balance sheet and execute the commercial strategy for its alginate film that sticks to the oral mucosa (migraine, cancer-related pain). Non-participating shareholders face dilution of about 43%.",
-      "url": "https://mfn.se/cis/a/klaria-pharma-holding/klaria-pharma-holding-ab-klaria-announces-the-final-outcome-of-its-rights-issue-of-units-raising-approximately-sek-111-1-million-before-issue-costs-of-which-approximately-sek-37-3-million-will-be-paid-by-way-of-set-off-9465c3bf" }
+    {
+      "company": "Flagship Pioneering",
+      "place": "London",
+      "sector": "AI drug discovery",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 3,
+      "title": "Moderna creator Flagship Pioneering commits £100M to a London lab that will build AI-native biotechs",
+      "summary": "The group's first company-creation lab outside the US, the Flagship Origination Lab plans to recruit around 50 scientist-entrepreneurs in the UK and work with British universities; Flagship is targeting a further £500M through partnerships, not yet secured. No companies or founding teams have been announced yet: a new source of spin-outs to watch in King's Cross.",
+      "url": "https://european-biotechnology.com/latest-news/moderna-creator-flagship-pioneering-brings-100m-ai-lab-to-london/"
+    },
+    {
+      "company": "AmyriAD Therapeutics",
+      "place": "Amsterdam",
+      "sector": "Neuroscience",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 3,
+      "title": "AmyriAD acquires AD04, a Phase 2b-ready anti-neuroinflammation candidate for mild Alzheimer's, from ADvantage Therapeutics",
+      "summary": "The Amsterdam biotech acquires worldwide rights (IP, clinical data, regulatory assets) to this subcutaneous aluminum hydroxide hydrogel injection, which holds a UK Innovation Passport (ILAP); the signal comes from exploratory post hoc analyses of the 332-patient Phase 2 AFF006 trial, where AD04 served as the control. Financial terms were not disclosed.",
+      "url": "https://www.prnewswire.com/news-releases/amyriad-therapeutics-acquires-ad04-alzheimers-program-from-advantage-further-expanding-its-clinical-stage-cognition-pipeline-302940420.html"
+    },
+    {
+      "company": "Galimedix Therapeutics",
+      "place": "Martinsried",
+      "sector": "Neuroscience",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 2,
+      "title": "Galimedix details at CTAD the SAPHARY Phase 2a trial of its GAL-101 pill against toxic forms of amyloid",
+      "summary": "The oral small molecule targets misfolded amyloid-beta monomers to prevent the formation of toxic oligomers and protofibrils; the planned trial (NCT07789873) will test 28 days of treatment against placebo in 100 patients with mild to moderate Alzheimer's, assessing safety, PK/PD and exploratory EEG, biomarker and cognition readouts. An oral alternative to anti-amyloid antibodies, still at the planning stage.",
+      "url": "https://www.boerse.de/nachrichten/EQS-News-Galimedix-Therapeutics-outlines-development-plans-in-Alzheimer-s-disease-at-CTAD-2026/38723582"
+    },
+    {
+      "company": "BioArctic",
+      "place": "Stockholm",
+      "sector": "Neuroscience",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "Five years of lecanemab: the antibody born at BioArctic keeps slowing decline in the Clarity AD extension presented at CTAD",
+      "summary": "In the 351 patients treated continuously for five years, Eisai and Biogen report a 2.05-point CDR-SB difference versus the ADNI natural-history cohort and a 36% relative reduction in the risk of progressing to the next disease stage; among low-tau patients, 66% showed no decline on CDR-SB. An external, non-randomized comparison, but a durability argument for the asset discovered by the Swedish biotech, which licensed global rights to Eisai in 2007.",
+      "url": "https://www.prnewswire.com/news-releases/new-five-year-lecanemab-data-from-clarity-ad-study-long-term-extension-presented-at-ctad-2026-302941089.html"
+    },
+    {
+      "company": "LifeGlue Technologies",
+      "place": "Tampere",
+      "sector": "Biotech",
+      "pillar": "naissances",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "LifeGlue, a Tampere University spin-out, raises €705,000 to produce its tissue-culture gel to GMP standards",
+      "summary": "Its Glue4Life gel, hyaluronic acid-based rather than animal-derived, acts as a scaffold for growing tissues (brain, liver, nerve); on sale since December 2024, it has 15 paying customers in Europe, the US and Australia. The round brings together Finnish, Estonian and Lithuanian business angels and Innovestor's Angel Cofund, with clinical-trial use as the goal.",
+      "url": "https://nordiclifescience.org/lifeglue-raises-eur-705000-seed-round/"
+    },
+    {
+      "company": "Kos Biotechnology Partners",
+      "place": "Heraklion",
+      "sector": "Fund",
+      "pillar": "naissances",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Kos Biotechnology Partners and research center FORTH to set up a biotech incubator in Crete",
+      "summary": "The New York- and Athens-based investor ($125M under management) signed a memorandum of understanding with the Foundation for Research and Technology-Hellas to host startups from the US, Europe, China and Israel on its Heraklion campus, with access to FORTH's labs and equipment. No amounts were disclosed: a signal of an emerging Greek biotech hub.",
+      "url": "https://www.prnewswire.com/news-releases/kos-biotechnology-partners-and-forth-announce-strategic-partnership-to-advance-biotechnology-innovation-in-greece-302940869.html"
+    }
   ],
   "brefsIntl": [
-    { "company": "Summit Therapeutics", "place": "United States", "sector": "Oncology", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "FDA declines, for now, to approve Summit and Akeso's PD-1×VEGF bispecific ivonescimab in EGFR-mutated lung cancer",
-      "summary": "The complete response letter (CRL) cites the lack of a significant overall survival benefit in the international population of the Phase 3 HARMONi trial, despite a progression-free survival gain; the HARMONi-3 trial against Keytruda is due to deliver first results by end-2026. A regulatory signal for the whole PD-(L)1×VEGF class, where BioNTech and BMS (pumitamig) are also in the race.",
-      "url": "https://pharmaphorum.com/news/fda-wont-approve-summit-akesos-ivonescimab" },
-    { "company": "FDA", "place": "United States", "sector": "Regulatory", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "FDA pauses its Commissioner's National Priority Voucher (CNPV) program, Reuters reports",
-      "summary": "Launched in June 2025 to cut some reviews to two months, the scheme has awarded 22 vouchers (slightly more than half of them leading to approval), mostly to big pharma, but none since Marty Makary resigned in May 2026; HHS says the program remains ongoing. One less fast lane for European biotechs targeting the US market.",
-      "url": "https://www.pharmaceutical-technology.com/news/fda-puts-commissioners-priority-voucher-framework-on-ice/" }
+    {
+      "company": "Seawolf Therapeutics",
+      "place": "San Diego",
+      "sector": "Gene therapy",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Seawolf emerges from stealth with $100M and a Sanofi deal worth up to $1.2B for redosable DNA medicines",
+      "summary": "Its TRIDENT platform packages in lipid nanoparticles DNA engineered not to trigger an immune response, able to reach the nucleus and drive protein production for longer than RNA; the Versant-led seed and a Series A include Eli Lilly, CRISPR Therapeutics and Novartis's venture fund. Sanofi is committing across multiple targets, including bleeding disorders.",
+      "url": "https://www.biopharmadive.com/news/seawolf-therapeutics-dna-versant-startup-financing/874465/"
+    },
+    {
+      "company": "Calytrix Bio",
+      "place": "Wellesley",
+      "sector": "Oncology",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Lilly buys Calytrix Bio for up to $1.5B, its 14th acquisition of the year, for a preclinical antibody against myeloproliferative neoplasms",
+      "summary": "Formed in 2025 by J.P. Morgan Asset Management's life sciences venture arm, the startup is developing a biparatopic antibody targeting a cell-surface protein specific to CALR mutation-driven disease (myelofibrosis, essential thrombocythemia). A comparable showing that big pharma is now buying as early as preclinical.",
+      "url": "https://www.biopharmadive.com/news/lilly-calytrix-bio-acquire-deal-myelofibrosis-essential-thrombocythemiaenial-/874719/"
+    },
+    {
+      "company": "CG Oncology",
+      "place": "Irvine",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "CG Oncology's oncolytic virus cuts the risk of relapse after bladder cancer surgery by 68% in Phase 3",
+      "summary": "In the PIVOT-006 trial, in patients with intermediate-risk or high-grade non-muscle invasive bladder cancer, cretostimogene reduced the relative risk of relapse by 68% versus surveillance after 17 months of follow-up, with no severe treatment-related adverse events. The company plans to seek approval in this post-surgery setting.",
+      "url": "https://www.biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740/"
+    }
   ],
   "word": {
-    "term": "Incretin",
-    "full": "Incretin (incretin hormone)",
-    "fr": "Incretin",
-    "field": "Metabolism & obesity",
-    "definition": "A hormone released by the gut when we eat that prompts the pancreas to secrete more insulin: the two main ones, GLP-1 and GIP, have become the basis of today's drugs for type 2 diabetes and obesity.",
+    "term": "E3 Ligase",
+    "full": "E3 Ubiquitin Ligase",
+    "fr": "E3 ubiquitin ligase",
+    "field": "Targeted protein degradation",
+    "definition": "An enzyme that sticks a ubiquitin \"tag\" onto a specific protein to send it to the cell's shredder, the proteasome: new \"degrader\" drugs hijack these enzymes to get disease-causing proteins destroyed.",
     "parts": [
-      { "label": "GLP-1", "role": "the star incretin: secreted by L cells in the gut, it stays active in type 2 diabetes and is the template for GLP-1 receptor agonists (semaglutide…)" },
-      { "label": "GIP", "role": "the second incretin: produced by K cells in the upper gut, it is targeted either by activation (dual agonists such as tirzepatide) or by blockade (GIPR antagonists)" },
-      { "label": "Receptors", "role": "the locks drugs aim for: they are switched on, blocked, or linked to another molecule to broaden the effect" }
+      {
+        "label": "E3 ligase",
+        "role": "the recruiter: it recognizes the protein to be removed and transfers ubiquitin to it; humans have more than 600"
+      },
+      {
+        "label": "Ubiquitin",
+        "role": "the tag: a small protein whose chain signals \"destroy me\""
+      },
+      {
+        "label": "Proteasome",
+        "role": "the shredder: it cuts the tagged protein into small pieces"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Meal", "t": "Nutrients arriving in the gut trigger the release of GLP-1 and GIP into the bloodstream." },
-      { "n": "2", "h": "Incretin effect", "t": "These hormones amplify glucose-dependent insulin secretion: in healthy people they are thought to account for about 50–70% of the insulin released after a meal." },
-      { "n": "3", "h": "Drugs", "t": "GLP-1 agonists, then dual GIP/GLP-1 agonists, mimic and strengthen this signal; the new wave is testing combinations, oral forms and reverse approaches such as blocking the GIP receptor." }
+      {
+        "n": "1",
+        "h": "Proximity",
+        "t": "A degrader molecule (a two-armed PROTAC or a \"molecular glue\") brings an E3 ligase into contact with a target protein it would not have recognized on its own."
+      },
+      {
+        "n": "2",
+        "h": "Tagging",
+        "t": "The E3 ligase attaches a ubiquitin chain to the target protein."
+      },
+      {
+        "n": "3",
+        "h": "Destruction",
+        "t": "The proteasome recognizes the tag and destroys the protein; the degrader is released and can start again."
+      }
     ],
-    "why": "Incretins created the biggest market in pharma today, and the battle has moved to the second generation: weekly pills, better tolerability, muscle preservation, combinations. Europe has solid startups here, often born in the Danish ecosystem (Antag Therapeutics, Ousia Pharma) or backed by mega-rounds (Verdiva Bio, $411M Series A). Diligence point: against Novo Nordisk and Lilly — CagriSema still delivers about 21% weight loss at lower doses in REDEFINE 9 — a newcomer must prove a real differentiator, which explains the interest in complementary mechanisms such as Mitotech's.",
+    "why": "Choosing the E3 ligase has become the crux of the field: of more than 600 human ligases, only about ten have been used for targeted degradation, dominated by CRBN and VHL, which limits tissue selectivity and invites resistance. Each newly exploitable ligase opens up otherwise inaccessible targets: TRIM21, which only activates when its substrate is clustered, preferentially clears tau aggregates where a conventional PROTAC fails preclinically, hence the deal worth up to $411M between TRIMTECH and Biogen. VC diligence point: is the ligase present in the target tissue (brain, tumor) and protected by IP?",
     "startups": [
-      { "name": "Antag Therapeutics", "use": "AT7687, a first-in-class GIP receptor antagonist: first patient dosed in July 2026 in a 150-patient Phase 2a in combination with semaglutide (topline expected H1 2027); €80M Series A led by Versant Ventures.", "place": "Copenhagen, Denmark" },
-      { "name": "Verdiva Bio", "use": "VRB-101, a once-weekly oral form of ecnoglutide (a GLP-1 peptide analog): enrollment in the Phase 2b EVOLVE-2 (200+ participants) completed in February 2026, results expected end-2026; $411M Series A co-led by Forbion and General Atlantic.", "place": "London, UK" },
-      { "name": "Ousia Pharma", "use": "University of Copenhagen spin-off developing a once-weekly dual-incretin + NMDA receptor antagonist conjugate designed to act on the brain's appetite centers; preclinical, seed round led by Omega Funds.", "place": "Copenhagen, Denmark" }
+      {
+        "name": "TRIMTECH Therapeutics",
+        "use": "TRIMTAC and TRIMGLUE degraders built on the E3 ligase TRIM21 to clear toxic aggregates in neurodegenerative diseases; deal worth up to $411M with Biogen (November 2026)",
+        "place": "Cambridge, UK"
+      },
+      {
+        "name": "Amphista Therapeutics",
+        "use": "Dundee spin-out: Eclipsys \"Targeted Glue\" platform recruiting novel E3 ligases; its DCAF16-dependent BRD9 degrader AMX-883 received FDA IND clearance in June 2026 in acute myeloid leukemia",
+        "place": "United Kingdom"
+      },
+      {
+        "name": "Proxygen",
+        "use": "CeMM spin-off systematically mapping interactions between disease proteins and E3 ligases; two glue degrader programs (p300, CDK12) heading toward candidate nomination",
+        "place": "Vienna, Austria"
+      }
     ],
     "sources": [
-      { "publisher": "International Journal of Molecular Sciences (PMC)", "title": "The Roles of Incretin Hormones GIP and GLP-1 in Metabolic and Cardiovascular Health: A Comprehensive Review", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12785922/" },
-      { "publisher": "Antag Therapeutics (BioSpace)", "title": "Antag Therapeutics Announces Dosing of First Patient in Phase 2a Trial of First-in-Class GIPR Antagonist AT7687", "url": "https://www.biospace.com/press-releases/antag-therapeutics-announces-dosing-of-first-patient-in-phase-2a-trial-of-first-in-class-gipr-antagonist-at7687" },
-      { "publisher": "Verdiva Bio (BioSpace)", "title": "Verdiva Bio Announces Completion of Enrollment for EVOLVE-2 Phase 2b Study of VRB-101, a Potential Once-Weekly Oral GLP-1 Peptide Analog in Individuals with Obesity", "url": "https://www.biospace.com/press-releases/verdiva-bio-announces-completion-of-enrollment-for-evolve-2-phase-2b-study-of-vrb-101-a-potential-once-weekly-oral-glp-1-peptide-analog-in-individuals-with-obesity" },
-      { "publisher": "Ousia Pharma (PR Newswire)", "title": "Ousia Pharma Secures Substantial Seed Financing Led by Omega Funds to Advance Groundbreaking Obesity Treatment", "url": "https://www.prnewswire.co.uk/news-releases/ousia-pharma-secures-substantial-seed-financing-led-by-omega-funds-to-advance-groundbreaking-obesity-treatment-302446485.html" }
+      {
+        "publisher": "Nature Reviews Cancer (PMC)",
+        "title": "Advancing targeted protein degradation for cancer therapy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8463487/"
+      },
+      {
+        "publisher": "Nature Communications (PMC)",
+        "title": "State-selective small molecule degraders that preferentially remove aggregates and oligomers",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12647892/"
+      },
+      {
+        "publisher": "Cambridge Innovation Capital",
+        "title": "TRIMTECH Therapeutics enters strategic research collaboration with Biogen to advance small molecule degraders for neurodegenerative disease",
+        "url": "https://www.cic.vc/trimtech-therapeutics-enters-strategic-research-collaboration-with-biogen-to-advance-small-molecule-degraders-for-neurodegenerative-disease/"
+      },
+      {
+        "publisher": "BioSpace",
+        "title": "Amphista Therapeutics Announces FDA Clearance of IND Application for AMX-883, its Lead Targeted Glue Degrader for Acute Myeloid Leukaemia",
+        "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-fda-clearance-of-ind-application-for-amx-883-its-lead-targeted-glue-degrader-for-acute-myeloid-leukaemia"
+      }
     ]
   }
 }

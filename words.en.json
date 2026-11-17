@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-17",
   "words": [
     {
+      "term": "E3 Ligase",
+      "full": "E3 Ubiquitin Ligase",
+      "fr": "E3 ubiquitin ligase",
+      "field": "Targeted protein degradation",
+      "definition": "An enzyme that sticks a ubiquitin \"tag\" onto a specific protein to send it to the cell's shredder, the proteasome: new \"degrader\" drugs hijack these enzymes to get disease-causing proteins destroyed.",
+      "parts": [
+        {
+          "label": "E3 ligase",
+          "role": "the recruiter: it recognizes the protein to be removed and transfers ubiquitin to it; humans have more than 600"
+        },
+        {
+          "label": "Ubiquitin",
+          "role": "the tag: a small protein whose chain signals \"destroy me\""
+        },
+        {
+          "label": "Proteasome",
+          "role": "the shredder: it cuts the tagged protein into small pieces"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Proximity",
+          "t": "A degrader molecule (a two-armed PROTAC or a \"molecular glue\") brings an E3 ligase into contact with a target protein it would not have recognized on its own."
+        },
+        {
+          "n": "2",
+          "h": "Tagging",
+          "t": "The E3 ligase attaches a ubiquitin chain to the target protein."
+        },
+        {
+          "n": "3",
+          "h": "Destruction",
+          "t": "The proteasome recognizes the tag and destroys the protein; the degrader is released and can start again."
+        }
+      ],
+      "why": "Choosing the E3 ligase has become the crux of the field: of more than 600 human ligases, only about ten have been used for targeted degradation, dominated by CRBN and VHL, which limits tissue selectivity and invites resistance. Each newly exploitable ligase opens up otherwise inaccessible targets: TRIM21, which only activates when its substrate is clustered, preferentially clears tau aggregates where a conventional PROTAC fails preclinically, hence the deal worth up to $411M between TRIMTECH and Biogen. VC diligence point: is the ligase present in the target tissue (brain, tumor) and protected by IP?",
+      "startups": [
+        {
+          "name": "TRIMTECH Therapeutics",
+          "use": "TRIMTAC and TRIMGLUE degraders built on the E3 ligase TRIM21 to clear toxic aggregates in neurodegenerative diseases; deal worth up to $411M with Biogen (November 2026)",
+          "place": "Cambridge, UK"
+        },
+        {
+          "name": "Amphista Therapeutics",
+          "use": "Dundee spin-out: Eclipsys \"Targeted Glue\" platform recruiting novel E3 ligases; its DCAF16-dependent BRD9 degrader AMX-883 received FDA IND clearance in June 2026 in acute myeloid leukemia",
+          "place": "United Kingdom"
+        },
+        {
+          "name": "Proxygen",
+          "use": "CeMM spin-off systematically mapping interactions between disease proteins and E3 ligases; two glue degrader programs (p300, CDK12) heading toward candidate nomination",
+          "place": "Vienna, Austria"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nature Reviews Cancer (PMC)",
+          "title": "Advancing targeted protein degradation for cancer therapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8463487/"
+        },
+        {
+          "publisher": "Nature Communications (PMC)",
+          "title": "State-selective small molecule degraders that preferentially remove aggregates and oligomers",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12647892/"
+        },
+        {
+          "publisher": "Cambridge Innovation Capital",
+          "title": "TRIMTECH Therapeutics enters strategic research collaboration with Biogen to advance small molecule degraders for neurodegenerative disease",
+          "url": "https://www.cic.vc/trimtech-therapeutics-enters-strategic-research-collaboration-with-biogen-to-advance-small-molecule-degraders-for-neurodegenerative-disease/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Amphista Therapeutics Announces FDA Clearance of IND Application for AMX-883, its Lead Targeted Glue Degrader for Acute Myeloid Leukaemia",
+          "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-fda-clearance-of-ind-application-for-amx-883-its-lead-targeted-glue-degrader-for-acute-myeloid-leukaemia"
+        }
+      ],
+      "date": "2026-11-17",
+      "dateLong": "Nov 17, 2026"
+    },
+    {
       "term": "Endovascular Robotics",
       "full": "Endovascular Robotics",
       "fr": "Endovascular robotics",
