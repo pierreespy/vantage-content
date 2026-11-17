@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-16",
+  "generatedAt": "2026-11-17",
   "words": [
+    {
+      "term": "Endovascular Robotics",
+      "full": "Endovascular Robotics",
+      "fr": "Endovascular robotics",
+      "field": "Interventional cardiology and neuroradiology",
+      "definition": "Robots that manipulate, in place of the physician's hand, the guidewires and catheters threaded through blood vessels to place a stent or remove a clot, while the operator drives from a station shielded from X-rays, or even from another hospital.",
+      "parts": [
+        {
+          "label": "Control station",
+          "role": "the console, often haptic, from which the operator drives while seated, outside the X-ray field"
+        },
+        {
+          "label": "Drive unit",
+          "role": "mounted on the table, it pushes, pulls and rotates standard guidewires and catheters"
+        },
+        {
+          "label": "Software and imaging",
+          "role": "fuses fluoroscopy, records forces and trajectories, and lays the groundwork for AI assistance"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Access",
+          "t": "The team sets up vascular access and loads guidewires and catheters into the robotic unit, as in a conventional procedure."
+        },
+        {
+          "n": "2",
+          "h": "Navigation",
+          "t": "From the console, the operator navigates millimeter by millimeter under fluoroscopy; some systems even steer the wire with a magnetic field."
+        },
+        {
+          "n": "3",
+          "h": "Remote procedure",
+          "t": "Angioplasty, stenting or thrombectomy are performed without a lead apron, and tomorrow remotely, to treat a stroke far from an expert center."
+        }
+      ],
+      "why": "The first argument: literature reviews report up to a 95% cut in operator radiation exposure. But the real thesis is tele-intervention: stroke thrombectomy is limited by the number of neurointerventionalists, not by technique, hence the large recent rounds (Remedy Robotics, $62M). The first generation (Corindus, Robocath) was absorbed by industrial players; the second, largely European, is being fought on teleoperation, data and autonomy.",
+      "startups": [
+        {
+          "name": "Sentante",
+          "use": "Haptic tele-operated endovascular platform, CE-marked in May 2026, in commercial rollout in vascular surgery and interventional radiology",
+          "place": "Lithuania"
+        },
+        {
+          "name": "Nanoflex Robotics",
+          "use": "ETH Zurich spin-off: ultra-flexible magnetic guidewire steered by an electromagnetic field for remote thrombectomy; EU REACT project (2026-2028) for clinical validation and approval in peripheral vascular use, then teleoperation",
+          "place": "Zurich, Switzerland"
+        },
+        {
+          "name": "Remedy Robotics",
+          "use": "AI-driven N1 robot (on-site, remote or autonomous); $62M Series B led by DCVC for a neurovascular pivotal trial",
+          "place": "San Francisco, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PMC (NIH)",
+          "title": "Radiation-Free Percutaneous Coronary Intervention: Myth or Reality?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470751/"
+        },
+        {
+          "publisher": "Endovascular Today",
+          "title": "Sentante Endovascular Robotic Platform Receives CE Mark Approval",
+          "url": "https://evtoday.com/news/sentante-endovascular-robotic-platform-receives-ce-mark-approval"
+        },
+        {
+          "publisher": "CORDIS (Commission européenne)",
+          "title": "Robotic Endovascular Access for Critical Treatment (REACT)",
+          "url": "https://cordis.europa.eu/project/id/101330984"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Remedy Robotics Raises $62 Million Series B to Bring Life-Saving Cardiovascular Intervention to Patients Everywhere",
+          "url": "https://www.prnewswire.com/news-releases/remedy-robotics-raises-62-million-series-b-to-bring-life-saving-cardiovascular-intervention-to-patients-everywhere-302939871.html"
+        }
+      ],
+      "date": "2026-11-17",
+      "dateLong": "Nov 17, 2026"
+    },
     {
       "term": "Incretin",
       "full": "Incretin (incretin hormone)",

@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-16",
+  "generatedAt": "2026-11-17",
   "words": [
+    {
+      "term": "Endovascular Robotics",
+      "full": "Endovascular Robotics (robotique endovasculaire)",
+      "fr": "Robotique endovasculaire",
+      "field": "Cardiologie et neuroradiologie interventionnelles",
+      "definition": "Des robots qui manipulent à la place de la main du médecin les guides et cathéters introduits dans les vaisseaux, pour poser un stent ou retirer un caillot, pendant que l'opérateur pilote depuis un poste à l'abri des rayons X, voire depuis un autre hôpital.",
+      "parts": [
+        {
+          "label": "Poste de commande",
+          "role": "la console, souvent haptique, d'où l'opérateur pilote assis, hors du champ de rayons X"
+        },
+        {
+          "label": "Unité motrice",
+          "role": "fixée à la table, elle pousse, tire et fait tourner guides et cathéters standards"
+        },
+        {
+          "label": "Logiciel et imagerie",
+          "role": "fusionne la fluoroscopie, enregistre forces et trajectoires, et prépare l'assistance par IA"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Accès",
+          "t": "L'équipe pose l'accès vasculaire et charge les guides et cathéters dans l'unité robotisée, comme dans une intervention classique."
+        },
+        {
+          "n": "2",
+          "h": "Pilotage",
+          "t": "Depuis la console, l'opérateur navigue au millimètre sous fluoroscopie ; certains systèmes guident même le fil par champ magnétique."
+        },
+        {
+          "n": "3",
+          "h": "Geste à distance",
+          "t": "Angioplastie, stent ou thrombectomie sont réalisés sans tablier plombé, et demain à distance pour traiter un AVC loin d'un centre expert."
+        }
+      ],
+      "why": "Premier argument : les revues de la littérature rapportent jusqu'à 95 % de baisse d'exposition aux rayons pour l'opérateur. Mais la vraie thèse est la télé-intervention : la thrombectomie de l'AVC est limitée par le nombre de neuroradiologues, pas par la technique, d'où les gros tours récents (Remedy Robotics, 62 M$). La première génération (Corindus, Robocath) a été absorbée par des industriels ; la deuxième, européenne en bonne partie, se joue sur la télé-opération, la donnée et l'autonomie.",
+      "startups": [
+        {
+          "name": "Sentante",
+          "use": "Plateforme endovasculaire haptique télé-opérée marquée CE en mai 2026, en déploiement commercial en chirurgie vasculaire et radiologie interventionnelle",
+          "place": "Lituanie"
+        },
+        {
+          "name": "Nanoflex Robotics",
+          "use": "Spin-off de l'ETH Zurich : guide magnétique ultra-flexible piloté par champ électromagnétique pour la thrombectomie à distance ; projet européen REACT (2026-2028) pour la validation clinique et l'autorisation en vasculaire périphérique, puis la télé-opération",
+          "place": "Zurich, Suisse"
+        },
+        {
+          "name": "Remedy Robotics",
+          "use": "Robot N1 piloté par IA (sur place, à distance ou autonome) ; Series B de 62 M$ menée par DCVC pour un essai pivot en neurovasculaire",
+          "place": "San Francisco, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PMC (NIH)",
+          "title": "Radiation-Free Percutaneous Coronary Intervention: Myth or Reality?",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12470751/"
+        },
+        {
+          "publisher": "Endovascular Today",
+          "title": "Sentante Endovascular Robotic Platform Receives CE Mark Approval",
+          "url": "https://evtoday.com/news/sentante-endovascular-robotic-platform-receives-ce-mark-approval"
+        },
+        {
+          "publisher": "CORDIS (Commission européenne)",
+          "title": "Robotic Endovascular Access for Critical Treatment (REACT)",
+          "url": "https://cordis.europa.eu/project/id/101330984"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Remedy Robotics Raises $62 Million Series B to Bring Life-Saving Cardiovascular Intervention to Patients Everywhere",
+          "url": "https://www.prnewswire.com/news-releases/remedy-robotics-raises-62-million-series-b-to-bring-life-saving-cardiovascular-intervention-to-patients-everywhere-302939871.html"
+        }
+      ],
+      "date": "2026-11-17",
+      "dateLong": "17 nov. 2026"
+    },
     {
       "term": "Incretin",
       "full": "Incretin (hormone incrétine)",
