@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-17",
   "words": [
     {
+      "term": "EDS",
+      "full": "Entrepôt de données de santé (Health Data Warehouse)",
+      "fr": "Entrepôt de données de santé",
+      "field": "Données de santé / recherche en vie réelle",
+      "definition": "Une base qui rassemble, nettoie et rend interrogeables les données produites pendant les soins (dossier patient, codage, biologie, cohortes) pour les réutiliser dans la recherche et le pilotage, sous autorisation et dans un cadre de sécurité strict.",
+      "parts": [
+        {
+          "label": "Connecteurs",
+          "role": "extraient les données des logiciels de l'hôpital : DPI, gestion administrative, codage PMSI, laboratoire"
+        },
+        {
+          "label": "Couche de standardisation",
+          "role": "harmonise et apparie les sources, par exemple des cohortes cliniques avec le SNDS"
+        },
+        {
+          "label": "Cadre d'accès",
+          "role": "autorisation CNIL, hébergement certifié HDS et outils d'information des patients et de gestion de leurs oppositions"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Captation",
+          "t": "Des connecteurs aux logiciels métiers alimentent l'entrepôt ; Arkhn revendique une plateforme exploitable quelques semaines après son déploiement dans un CHU."
+        },
+        {
+          "n": "2",
+          "h": "Appariement",
+          "t": "Les sources sont reliées entre elles : chez Unicancer, l'appariement des cohortes au SNDS atteint 87 % à 94 %, avec jusqu'à 2 000 variables par patient."
+        },
+        {
+          "n": "3",
+          "h": "Exploitation encadrée",
+          "t": "Les chercheurs lancent des études dans l'environnement sécurisé, après autorisation de la CNIL, pendant que les patients sont informés et peuvent s'opposer à l'usage de leurs données."
+        }
+      ],
+      "why": "Les EDS transforment les données de soins en actif de recherche, et l'État continue de financer leur mise en réseau : un appel à projets de la DGRINES doté de 2,325 M€ pour 2026 vise à étendre ou créer des réseaux d'entrepôts hospitaliers. Pour un investisseur, la valeur se loge chez les éditeurs qui équipent les établissements (connecteurs, standardisation, outils d'étude) et chez ceux qui savent exploiter ces données pour la RWE et l'IA, avec la conformité HDS et CNIL comme barrière à l'entrée.",
+      "startups": [
+        {
+          "name": "Arkhn",
+          "use": "Plateforme de données et d'IA agentique déployée à l'échelle de l'hôpital, revendiquant 19 CHU partenaires dont les Hospices Civils de Lyon et le CHU de Toulouse, certifiée HDS et ISO 27001",
+          "place": "France"
+        },
+        {
+          "name": "Codoc",
+          "use": "Entrepôt codoc Warehouse, Research Hub pour mener des études et codoc Transparency pour gérer les oppositions des patients, utilisés notamment par Gustave Roussy, l'Hôpital Foch et le CHU de Caen",
+          "place": "France"
+        },
+        {
+          "name": "Aindo",
+          "use": "Génère des données de santé synthétiques pour la RWE et les bras de contrôle externes, sans exposer de patients identifiables ; finaliste de la MEDICA Start-up Competition 2026",
+          "place": "Trieste, Italie"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "TICsanté",
+          "title": "Unicancer met en service son entrepôt de données de santé",
+          "url": "https://www.ticsante.com/story?id=8523"
+        },
+        {
+          "publisher": "FHF",
+          "title": "Elargissement des réseaux d'entrepôts de données de santé hospitaliers (EDSH)",
+          "url": "https://www.fhf.fr/expertises/finances/budget-eprd/elargissement-des-reseaux-dentrepots-de-donnees-de-sante-hospitaliers-edsh"
+        },
+        {
+          "publisher": "Arkhn",
+          "title": "Arkhn — plateforme de données et d'IA pour les établissements de santé",
+          "url": "https://www.arkhn.com"
+        },
+        {
+          "publisher": "codoc",
+          "title": "codoc — entrepôt de données de santé et applications",
+          "url": "https://www.codoc.co"
+        }
+      ],
+      "date": "2026-11-17",
+      "dateLong": "17 nov. 2026"
+    },
+    {
       "term": "E3 Ligase",
       "full": "E3 Ubiquitin Ligase (ubiquitine ligase E3)",
       "fr": "Ubiquitine ligase E3",

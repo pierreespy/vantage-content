@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-17",
   "words": [
     {
+      "term": "EDS",
+      "full": "Health Data Warehouse (French: entrepôt de données de santé)",
+      "fr": "Health data warehouse",
+      "field": "Health data / real-world research",
+      "definition": "A database that gathers, cleans and makes searchable the data generated during care (patient records, coding, lab results, cohorts) so it can be reused for research and management, under authorisation and within a strict security framework.",
+      "parts": [
+        {
+          "label": "Connectors",
+          "role": "pull data from hospital software: EPR, administrative systems, PMSI coding, laboratory"
+        },
+        {
+          "label": "Standardisation layer",
+          "role": "harmonises and links sources, for example clinical cohorts with the SNDS"
+        },
+        {
+          "label": "Access framework",
+          "role": "CNIL authorisation, HDS-certified hosting and tools to inform patients and manage their objections"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "Connectors to clinical and business software feed the warehouse; Arkhn says its platform is usable within a few weeks of deployment in a university hospital."
+        },
+        {
+          "n": "2",
+          "h": "Linkage",
+          "t": "Sources are linked together: at Unicancer, cohort matching to the SNDS reaches 87% to 94%, with up to 2,000 variables per patient."
+        },
+        {
+          "n": "3",
+          "h": "Governed use",
+          "t": "Researchers run studies inside the secure environment after CNIL authorisation, while patients are informed and can object to the use of their data."
+        }
+      ],
+      "why": "Health data warehouses turn care data into a research asset, and the French state keeps funding their networking: a DGRINES call for projects worth €2.325M for 2026 aims to expand or create networks of hospital warehouses. For investors, value lies with vendors that equip facilities (connectors, standardisation, study tools) and with those able to exploit the data for RWE and AI, with HDS and CNIL compliance as a barrier to entry.",
+      "startups": [
+        {
+          "name": "Arkhn",
+          "use": "Hospital-wide data and agentic AI platform claiming 19 university hospital partners including Hospices Civils de Lyon and CHU Toulouse, HDS- and ISO 27001-certified",
+          "place": "France"
+        },
+        {
+          "name": "Codoc",
+          "use": "codoc Warehouse, a Research Hub to run studies and codoc Transparency to manage patient objections, used by Gustave Roussy, Hôpital Foch and CHU Caen among others",
+          "place": "France"
+        },
+        {
+          "name": "Aindo",
+          "use": "Generates synthetic health data for RWE and external control arms without exposing identifiable patients; a 2026 MEDICA Start-up Competition finalist",
+          "place": "Trieste, Italy"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "TICsanté",
+          "title": "Unicancer met en service son entrepôt de données de santé",
+          "url": "https://www.ticsante.com/story?id=8523"
+        },
+        {
+          "publisher": "FHF",
+          "title": "Elargissement des réseaux d'entrepôts de données de santé hospitaliers (EDSH)",
+          "url": "https://www.fhf.fr/expertises/finances/budget-eprd/elargissement-des-reseaux-dentrepots-de-donnees-de-sante-hospitaliers-edsh"
+        },
+        {
+          "publisher": "Arkhn",
+          "title": "Arkhn — plateforme de données et d'IA pour les établissements de santé",
+          "url": "https://www.arkhn.com"
+        },
+        {
+          "publisher": "codoc",
+          "title": "codoc — entrepôt de données de santé et applications",
+          "url": "https://www.codoc.co"
+        }
+      ],
+      "date": "2026-11-17",
+      "dateLong": "Nov 17, 2026"
+    },
+    {
       "term": "E3 Ligase",
       "full": "E3 Ubiquitin Ligase",
       "fr": "E3 ubiquitin ligase",

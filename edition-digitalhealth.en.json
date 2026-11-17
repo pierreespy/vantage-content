@@ -1,183 +1,155 @@
 {
-  "dateLong": "Nov 16, 2026",
+  "dateLong": "Nov 17, 2026",
   "ticker": [
-    {
-      "company": "QARE",
-      "amount": "3-year approval",
-      "kind": "reg"
-    },
-    {
-      "company": "NHS ENGLAND",
-      "amount": "GP IT buying review",
-      "kind": "reg"
-    },
-    {
-      "company": "SLEEPCOGNI",
-      "amount": "100 devices",
-      "kind": "tech"
-    },
-    {
-      "company": "RESAH",
-      "amount": "€1B digital",
-      "kind": "tech"
-    },
-    {
-      "company": "DYANIA",
-      "amount": "NVIDIA",
-      "kind": "tech"
-    },
-    {
-      "company": "MAYO CLINIC",
-      "amount": "Launch",
-      "kind": "tech"
-    }
+    { "company": "TREAT", "amount": "€3M", "kind": "lev" },
+    { "company": "UNICANCER", "amount": "Data warehouse live", "kind": "tech" },
+    { "company": "FHF", "amount": "Hospiconnect", "kind": "reg" },
+    { "company": "ESNEFT", "amount": "Epic-first", "kind": "tech" },
+    { "company": "DIGGAI", "amount": "MEDICA final", "kind": "new" },
+    { "company": "OPENAI", "amount": "AI agents", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Approval · Telehealth",
-    "title": "Qare, part of HealthHero, wins a three-year renewal of its teleconsultation company approval, the key to reimbursement",
-    "deck": "Since France's 2023 social security financing act (LFSS), national health insurance only reimburses teleconsultations by doctors employed by specialist companies if those companies are approved; Qare's first approval, granted in April 2024 for two years, expired in April 2026, and the renewal conditions were only published in July. Caught up in the row over \"queue-jumping fees\", which the ministry threatened in September to punish by withdrawing approval, the platform brought itself into compliance and secures its reimbursed model until around 2029, while other players reliant on such fees remain under pressure.",
-    "company": "Qare",
+    "kicker": "Pre-seed · Primary care",
+    "title": "Finland's Treat raises €3M pre-seed, led by byFounders and Illusian, for consultations where the doctor arrives already briefed by an AI intake tool",
+    "deck": "The Helsinki startup pairs adaptive symptom intake, which patients fill in in their own words, with a doctor-led consultation: the tool organises the context into a brief the physician reviews before the call, clinical decisions stay with the doctor, and identifiable data is kept away from public AI models. The round, led by byFounders and Illusian, the family office of Supercell founder Ilkka Paananen, funds an offering designed to complement the occupational healthcare employers already provide: an early signal of AI moving from the back office into the patient journey itself.",
+    "company": "Treat",
+    "stage": "Pre-seed",
     "sector": "Telehealth",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
+    "pillar": "financement",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.ticsante.com/story?id=8519"
+    "url": "https://tech.eu/2026/11/16/finnish-healthtech-treat-raises-eur3m-to-tackle-inefficiencies-in-private-healthcare"
   },
   "milestone": {
-    "company": "NHS England",
-    "milestone": "GP IT procurement review",
-    "title": "After Silicon Practice's collapse, NHS England reviews its procurement frameworks to tighten resilience requirements for GP digital suppliers",
-    "summary": "The Swindon supplier, which served more than 470 GP practices (websites, chatbots, the FootFall online consultation platform), went into administration in October. Health minister Dame Diana Johnson told Parliament that NHS England is reviewing its procurement frameworks to widen the choice of tools and tighten checks on supplier standards, resilience and business continuity.",
-    "why": "The bar for primary care vendors is shifting: financial strength and continuity plans will weigh more, favouring well-capitalised players and pushing young companies to prove their resilience before signing practices.",
-    "place": "London",
-    "sector": "Primary care software",
+    "company": "Unicancer",
+    "milestone": "Data warehouse live",
+    "title": "Unicancer switches on Harmonie, a data warehouse that for the first time links its large patient cohorts with the SNDS",
+    "summary": "The federation of French cancer centres announced at the end of October that it had brought its CNIL-authorised health data warehouse Harmonie into service: it links the CANTO, ESME and ODH cohorts (nearly 200,000 patients treated in 80 facilities, up to 2,000 variables per patient) with France's national health data system (SNDS), with matching rates of 87% to 94%. It covers breast, lung and ovarian cancer first; colorectal, prostate and bladder cancer will follow in the second half of 2027.",
+    "why": "Unicancer bills Harmonie as the first warehouse that lets its cohorts be cross-referenced with one another: a real-world data asset linked to the care pathway, valuable for effectiveness studies and market-access dossiers, and a playground for AI and RWE vendors able to operate within a regulated framework.",
+    "place": "Paris",
+    "sector": "Health data",
     "signalType": "regulatory_milestone",
-    "url": "https://www.publictechnology.net/2026/11/12/health-and-social-care/digital-firms-collapse-shows-value-of-nhs-resilience-arrangements/"
+    "url": "https://www.ticsante.com/story?id=8523"
   },
   "brefsEurope": [
     {
-      "company": "SleepCogni",
-      "place": "Sheffield",
-      "sector": "DTx",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
+      "company": "Fédération hospitalière de France",
+      "place": "Paris",
+      "sector": "Healthcare cybersecurity",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "SleepCogni rolls out 100 devices for paediatric insomnia at Sheffield Children's NHS Foundation Trust",
-      "summary": "Funded by the NIHR and Innovate UK, the rollout lets children on the sleep service waiting list, or referred from the community, use the device at home for up to three months to self-manage their sleep; an independent health economic assessment will be run by the Centre for Healthcare Equipment and Technology Adoption.",
-      "url": "https://htn.co.uk/2026/11/11/innovation-brief-womens-health-paediatric-insomnia-ai-funding/"
+      "title": "FHF, Fehap and FHP call for a rethink of the \"unworkable\" timetable of Hospiconnect, France's hospital access-security programme",
+      "summary": "The three federations have asked Health Minister Stéphanie Rist to revise the June 2027 targets of the programme (Hop'EN 2 and Care strands), launched in January: 60% of facilities surveyed say they cannot meet the shared medical record (DMP) consultation targets, and the FHF proposes refocusing the milestone on achievable technical goals, citing immature solutions and insufficient funding.",
+      "url": "https://www.ticsante.com/story?id=8524"
     },
     {
-      "company": "Resah",
-      "place": "Paris",
+      "company": "East Suffolk and North Essex NHS Foundation Trust",
+      "place": "Colchester",
       "sector": "Hospital software",
       "pillar": "marche",
-      "signalType": "publication_preprint",
+      "signalType": "early_partnership",
       "strength": 2,
-      "title": "Resah's pooled purchases of digital systems top €1 billion in 2025",
-      "summary": "According to its annual report, the French purchasing body ordered €1.019B of digital systems in 2025, about 30% of its €3.4B total (up from 21% in 2023), making it the fastest-growing category, ahead of medical devices and medicines. A must-have distribution channel for vendors targeting French hospitals.",
-      "url": "https://www.ticsante.com/story?id=8522"
+      "title": "ESNEFT adopts an \"Epic-first\" doctrine: any new digital solution must first show that Epic cannot meet the need",
+      "summary": "Its 2027-2030 strategy focuses on optimising its Epic EPR, including the Chart with Art ambient voice module, the Beans renal module and the MyChart patient app, before any third-party purchase or integration; targeted AI use cases range from decision support to imaging and digital pathology.",
+      "url": "https://htn.co.uk/2026/11/16/east-suffolk-and-north-essex-nhs-outlines-epic-first-approach/"
+    },
+    {
+      "company": "DiggAi",
+      "place": "Husum",
+      "sector": "Digital Health",
+      "pillar": "naissances",
+      "signalType": "conference_abstract",
+      "strength": 1,
+      "title": "DiggAi, Aindo and Transmural Platform among the 15 finalists of the MEDICA Start-up Competition, pitching on November 17 in Düsseldorf",
+      "summary": "DiggAi, founded by a physician and an engineer, sends practices pre-filled intake forms in 13 languages; Italy's Aindo generates synthetic health data for RWE and Belgium's Transmural Platform standardises the integration of remote-monitoring data into hospital EPRs. The final runs from 3pm to 5pm on the Main Stage, with €3,500 in prizes.",
+      "url": "https://www.medica-tradefair.com/en/Program/Forums/MEDICA_INNOVATION_FORUM/MEDICA_START-UP_COMPETITION_1"
+    },
+    {
+      "company": "Galeon",
+      "place": "Marseille",
+      "sector": "Hospital software",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 1,
+      "title": "Galeon, maker of an AI-built EPR deployed in 19 hospitals, gathers nine medical-AI case studies in Marseille",
+      "summary": "On November 18 at Hôpital Saint-Joseph, the France-hosted, HDS- and ISO 27001-certified vendor will feature among others Luxembourg's Hôpitaux Robert Schuman on HRS Sentinel, an AI deployed in emergency care, Atreon on remote monitoring in rheumatology, and France's Health Data Hub.",
+      "url": "https://dsih.fr/articles/6466/galeon-reunit-a-marseille-9-medecins-et-chercheurs-pour-un-retour-dexperience-sur-lia-medicale"
+    },
+    {
+      "company": "Kaiko",
+      "place": "Zurich",
+      "sector": "Clinical AI",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 1,
+      "title": "At a Kaiko event, Insel Gruppe puts a number on clinical AI's bottleneck: over two years to get a single platform approved by the cantonal authority",
+      "summary": "At the Zurich AI Festival, the Bern hospital's CMIO argued for AI embedded in the EPR rather than one tool per use case; the Antoni van Leeuwenhoek and Kaiko presented a model that segments mesothelioma tumour volume on CT in one minute, where two experts agree in only 53% of cases.",
+      "url": "https://www.icthealth.org/news/the-challenges-of-scaling-up-clinical-ai"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Dyania Health",
-      "place": "Jersey City",
-      "sector": "Clinical AI",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Dyania Health teams up with NVIDIA to run its clinical reasoning AI inside hospital firewalls",
-      "summary": "Synapsis AI reads the full patient record on the hospital's own infrastructure; at Cleveland Clinic, the first named customer, it answered 88 clinical questions for each of 7,812 aortic valve replacement patients (2005-2021) to estimate valve failure risk. An on-premise \"sovereign AI\" model that echoes European data-localisation demands.",
-      "url": "https://prnewswire.com/news-releases/dyania-health-brings-clinical-reasoning-ai-inside-the-hospital-firewall-to-advance-patient-care-with-nvidia-302939231.html"
-    },
-    {
-      "company": "Mayo Clinic Platform",
-      "place": "Rochester",
+      "company": "OpenAI",
+      "place": "San Francisco",
       "sector": "Clinical AI",
       "pillar": "innovation",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "Mayo Clinic Platform embeds AI decision support covering 35+ specialties into the EHR",
-      "summary": "The tool combines a clinical chat (differential diagnoses, treatment options) with 22 clinical calculators, available from November 2026 to Mayo clinicians and organisations in its provider programmes; the announcement gives no figures on accuracy or time saved.",
-      "url": "https://www.icthealth.org/news/mayo-clinic-integrates-ai-decision-support-into-the-ehr"
+      "title": "OpenAI launches computer-use agents that operate EHRs and payer portals, and opens 20+ health plugins in ChatGPT for Healthcare",
+      "summary": "Across 325 reviewed EHR inbox tasks, 99% of actions were rated clinically safe; CVS Health, Cigna, Abridge and Ambience are already deploying the agents. A direct threat to admin-automation startups lacking proprietary data or regulatory clearance.",
+      "url": "https://hitconsultant.net/2026/11/16/openai-launches-healthcare-computer-use-agents-clinical-search-20-plugins/"
+    },
+    {
+      "company": "Apple",
+      "place": "Cupertino",
+      "sector": "Wearables",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Apple opens Health AI Study, enrolling up to 200,000 Americans to test conversational AI on Apple Health data, with OpenEvidence",
+      "summary": "The iPhone app answers health questions using HealthKit data (heart rate, sleep, lab results) and measures trust, quality and comprehension of the answers; Apple says the data will not be used to train models.",
+      "url": "https://htn.co.uk/2026/11/16/apple-launches-ai-app-as-part-of-research-study/"
+    },
+    {
+      "company": "Heidi",
+      "place": "Melbourne",
+      "sector": "Clinical AI",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Heidi signs an MOU with Samsung Medical Center for a Korean version of its AI scribe, deployed on-premise",
+      "summary": "The scribe, which claims more than 3 million consultations a week across 190 countries, will be trialled as a proof of concept inside the hospital's infrastructure, linked to its EMR, with a Korean FHIR implementation guide among the deliverables.",
+      "url": "https://technode.global/2026/11/16/australias-ai-healthcare-firm-heidi-samsung-medical-center-to-jointly-build-korean-ready-ai-documentation-platform"
     }
   ],
   "word": {
-    "term": "Teleconsultation",
-    "full": "Teleconsultation (remote video medical consultation)",
-    "fr": "Remote video consultation",
-    "field": "Telehealth / access to care",
-    "definition": "A consultation where patient and doctor are not in the same room and talk by video, from a smartphone, a computer or a booth in a pharmacy, ending with a prescription and, under conditions, reimbursement.",
+    "term": "EDS",
+    "full": "Health Data Warehouse (French: entrepôt de données de santé)",
+    "fr": "Health data warehouse",
+    "field": "Health data / real-world research",
+    "definition": "A database that gathers, cleans and makes searchable the data generated during care (patient records, coding, lab results, cohorts) so it can be reused for research and management, under authorisation and within a strict security framework.",
     "parts": [
-      {
-        "label": "Access point",
-        "role": "app, website or teleconsultation kiosk/booth at a partner pharmacy or optician"
-      },
-      {
-        "label": "Doctor network",
-        "role": "clinicians, sometimes employed by the teleconsultation company, available without appointment over long hours"
-      },
-      {
-        "label": "Reimbursement framework",
-        "role": "in France, the company's ministerial approval is the condition for reimbursing consultations by its salaried doctors"
-      }
+      { "label": "Connectors", "role": "pull data from hospital software: EPR, administrative systems, PMSI coding, laboratory" },
+      { "label": "Standardisation layer", "role": "harmonises and links sources, for example clinical cohorts with the SNDS" },
+      { "label": "Access framework", "role": "CNIL authorisation, HDS-certified hosting and tools to inform patients and manage their objections" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Log in",
-        "t": "The patient connects online or from a device in a pharmacy; at MEDADOM, a GP is available without appointment 7 days a week, 6 a.m. to 11 p.m."
-      },
-      {
-        "n": "2",
-        "h": "Consult",
-        "t": "The doctor runs the visit by video; assisted booths add measuring equipment and maintenance, which the operator has to fund."
-      },
-      {
-        "n": "3",
-        "h": "Reimbursement",
-        "t": "The visit is billed to national health insurance if the company is approved: approval is renewed for three years, on an application filed at least four months before it expires."
-      }
+      { "n": "1", "h": "Capture", "t": "Connectors to clinical and business software feed the warehouse; Arkhn says its platform is usable within a few weeks of deployment in a university hospital." },
+      { "n": "2", "h": "Linkage", "t": "Sources are linked together: at Unicancer, cohort matching to the SNDS reaches 87% to 94%, with up to 2,000 variables per patient." },
+      { "n": "3", "h": "Governed use", "t": "Researchers run studies inside the secure environment after CNIL authorisation, while patients are informed and can object to the use of their data." }
     ],
-    "why": "Regulation is sorting the French market: since the 2023 LFSS, no approval means no reimbursement, and in September 2026 the ministry threatened to withdraw approval from platforms charging \"queue-jumping fees\". Usage is growing (15% of adults had at least one teleconsultation in 2024, per DREES) but does not guarantee profitability, as Tessan's receivership shows: value is shifting to approved, compliant players able to fund their kiosk and doctor networks.",
+    "why": "Health data warehouses turn care data into a research asset, and the French state keeps funding their networking: a DGRINES call for projects worth €2.325M for 2026 aims to expand or create networks of hospital warehouses. For investors, value lies with vendors that equip facilities (connectors, standardisation, study tools) and with those able to exploit the data for RWE and AI, with HDS and CNIL compliance as a barrier to entry.",
     "startups": [
-      {
-        "name": "MEDADOM",
-        "use": "Online and pharmacy-kiosk teleconsultation; first company to win a three-year renewal of its approval, with founders back in majority control alongside Verdane and Bpifrance",
-        "place": "Paris"
-      },
-      {
-        "name": "Kry",
-        "use": "Swedish online and in-clinic primary care platform, which bought rival Min Doktor in November 2026 to expand its clinic network",
-        "place": "Stockholm"
-      },
-      {
-        "name": "Tessan",
-        "use": "Assisted teleconsultation booths at 1,700+ partners, placed in receivership in April 2026 and aiming to exit the procedure in the autumn",
-        "place": "Paris"
-      }
+      { "name": "Arkhn", "use": "Hospital-wide data and agentic AI platform claiming 19 university hospital partners including Hospices Civils de Lyon and CHU Toulouse, HDS- and ISO 27001-certified", "place": "France" },
+      { "name": "Codoc", "use": "codoc Warehouse, a Research Hub to run studies and codoc Transparency to manage patient objections, used by Gustave Roussy, Hôpital Foch and CHU Caen among others", "place": "France" },
+      { "name": "Aindo", "use": "Generates synthetic health data for RWE and external control arms without exposing identifiable patients; a 2026 MEDICA Start-up Competition finalist", "place": "Trieste, Italy" }
     ],
     "sources": [
-      {
-        "publisher": "Légifrance",
-        "title": "Code de la santé publique — Article D4081-2 (Renouvellement de l'agrément)",
-        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054421478"
-      },
-      {
-        "publisher": "TICsanté",
-        "title": "Qare obtient le renouvellement de son agrément",
-        "url": "https://www.ticsante.com/story?id=8519"
-      },
-      {
-        "publisher": "Caducee.net",
-        "title": "Tessan en redressement judiciaire, les cabines de téléconsultation à l'épreuve du modèle économique",
-        "url": "https://www.caducee.net/actualite-medicale/16916/tessan-en-redressement-judiciaire-les-cabines-de-teleconsultation-a-l-epreuve-du-modele-economique.html"
-      },
-      {
-        "publisher": "MEDADOM",
-        "title": "MEDADOM obtient le renouvellement de son agrément",
-        "url": "https://info.medadom.com/blog/medadom-renouvellement-agrement"
-      }
+      { "publisher": "TICsanté", "title": "Unicancer met en service son entrepôt de données de santé", "url": "https://www.ticsante.com/story?id=8523" },
+      { "publisher": "FHF", "title": "Elargissement des réseaux d'entrepôts de données de santé hospitaliers (EDSH)", "url": "https://www.fhf.fr/expertises/finances/budget-eprd/elargissement-des-reseaux-dentrepots-de-donnees-de-sante-hospitaliers-edsh" },
+      { "publisher": "Arkhn", "title": "Arkhn — plateforme de données et d'IA pour les établissements de santé", "url": "https://www.arkhn.com" },
+      { "publisher": "codoc", "title": "codoc — entrepôt de données de santé et applications", "url": "https://www.codoc.co" }
     ]
   }
 }
