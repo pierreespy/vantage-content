@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-17",
+  "generatedAt": "2026-11-18",
   "words": [
+    {
+      "term": "Mechanical Thrombectomy",
+      "full": "Mechanical Thrombectomy",
+      "fr": "Mechanical thrombectomy",
+      "field": "Interventional neuroradiology",
+      "definition": "A procedure in which a catheter is threaded from an artery in the groin or wrist up to the brain to suck out or grab the clot blocking a large artery during a stroke, restoring blood flow before the brain tissue dies.",
+      "parts": [
+        {
+          "label": "Sheath and access catheter",
+          "role": "the road: they travel from the femoral or radial artery up to the carotids and stabilize the whole setup"
+        },
+        {
+          "label": "Aspiration catheter",
+          "role": "the vacuum: a large-bore tube placed against the clot to aspirate it in one piece"
+        },
+        {
+          "label": "Stent retriever",
+          "role": "the net: a metal mesh deployed inside the clot to trap it and pull it out"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Selection",
+          "t": "CT or MRI confirms a large vessel occlusion and, beyond the first hours, that salvageable tissue (penumbra) remains."
+        },
+        {
+          "n": "2",
+          "h": "Navigation",
+          "t": "Under X-ray, the neurointerventionalist advances the sheath, access catheter and then the aspiration catheter up to the clot."
+        },
+        {
+          "n": "3",
+          "h": "Reperfusion",
+          "t": "The clot is aspirated or pulled out with the stent retriever; the result is graded on the TICI scale, with near-complete reperfusion on the first pass as the goal."
+        }
+      ],
+      "why": "Since the DAWN and DEFUSE-3 trials, thrombectomy can benefit selected patients up to 24 hours after symptom onset: the market has grown far faster than the number of operators. Startups now compete on first-pass success (0.088-inch super-bore catheters, funnels, retrievers for small distal arteries) and on system simplicity, hence a string of clearances (Perfuze, Route 92) and sizable rounds (Anaconda, $56M). The giants (Stryker, Medtronic, Penumbra, J&J) remain the natural acquirers.",
+      "startups": [
+        {
+          "name": "Perfuze",
+          "use": "Millipede88 super-bore aspiration catheter FDA-cleared for standalone direct aspiration (March 2026), completed in November by the NeuroSheath 8F sheath",
+          "place": "Galway, Ireland"
+        },
+        {
+          "name": "Anaconda Biomed",
+          "use": "Funnel thrombectomy catheters (ANA) and CONDA stent retriever; $56M raise to complete the U.S. ATHENA pivotal trial",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "Rapid Medical",
+          "use": "Adjustable Tigertriever stent retrievers; Tigertriever 25 FDA-cleared in April 2026 and Tigertriever 13 tested in distal occlusions (DISTALS trial)",
+          "place": "Israel"
+        },
+        {
+          "name": "Route 92 Medical",
+          "use": "0.088-inch HiPoint aspiration system backed by the SUMMIT MAX randomized trial; $50M growth round led by Novo Holdings in 2026",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "StatPearls (NCBI Bookshelf)",
+          "title": "Mechanical Thrombectomy",
+          "url": "https://ncbi.nlm.nih.gov/books/NBK562154"
+        },
+        {
+          "publisher": "Practical Neurology",
+          "title": "Mechanical Thrombectomy",
+          "url": "https://practicalneurology.com/articles/2019-jan/mechanical-thrombectomy"
+        },
+        {
+          "publisher": "BioSpace (Business Wire)",
+          "title": "Perfuze Receives FDA Clearance for NeuroSheath 8F Long Sheath, Completing Its Stroke Thrombectomy System",
+          "url": "https://www.biospace.com/press-releases/perfuze-receives-fda-clearance-for-neurosheath-8f-long-sheath-completing-its-stroke-thrombectomy-system"
+        },
+        {
+          "publisher": "Novo Holdings",
+          "title": "Novo Holdings leads $50 million growth financing in Route 92 Medical",
+          "url": "https://novoholdings.com/news/novo-holdings-leads-50-million-growth-financing-in-route-92-medical"
+        }
+      ],
+      "date": "2026-11-18",
+      "dateLong": "Nov 18, 2026"
+    },
     {
       "term": "EDS",
       "full": "Health Data Warehouse (French: entrepôt de données de santé)",
@@ -6927,69 +7012,6 @@
       ],
       "date": "2026-09-30",
       "dateLong": "30 sept. 2026"
-    },
-    {
-      "term": "Mechanical Thrombectomy",
-      "full": "Mechanical Thrombectomy (Catheter-Based Clot Removal)",
-      "fr": "Thrombectomie mécanique",
-      "field": "MedTech · Neurovasculaire & vasculaire",
-      "definition": "Une procédure où un cathéter est guidé jusqu'au caillot qui bouche un vaisseau pour l'aspirer ou le capturer mécaniquement, rétablissant la circulation sanguine sans médicament.",
-      "parts": [
-        {
-          "label": "Cathéter d'accès",
-          "role": "le chemin jusqu'au caillot"
-        },
-        {
-          "label": "Aspiration ou stent retriever",
-          "role": "l'outil qui retire le caillot"
-        },
-        {
-          "label": "Pompe / console",
-          "role": "la source de dépression"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Accès",
-          "t": "Le cathéter est introduit par l'artère (fémorale ou radiale) puis navigué jusqu'au vaisseau occlus sous imagerie."
-        },
-        {
-          "n": "2",
-          "h": "Capture",
-          "t": "Un cathéter d'aspiration crée une dépression sur le caillot, ou un stent retriever l'englobe pour l'extraire."
-        },
-        {
-          "n": "3",
-          "h": "Reperfusion",
-          "t": "Le caillot est retiré, le flux est vérifié à l'imagerie et le résultat est mesuré (par ex. le first-pass effect)."
-        }
-      ],
-      "why": "Marché en expansion : après l'AVC ischémique, la thrombectomie s'étend à l'embolie pulmonaire et aux thromboses veineuses, avec des cathéters plus petits pour les vaisseaux distaux. Côté VC : le cycle clearance FDA → levée est court, les preuves cliniques (first-pass effect) sont chiffrables, et les strategics (Boston Scientific, Medtronic, Stryker) rachètent activement.",
-      "startups": [
-        {
-          "name": "Route 92 Medical",
-          "use": "Système FreeClimb pour l'AVC ; clearance 510(k) du FreeClimb 46 avec Tenzing 4 le 28 sept. 2026 ; Novo Holdings au capital.",
-          "place": "Californie, États-Unis"
-        },
-        {
-          "name": "Perfuze",
-          "use": "Cathéter d'aspiration Millipede88, cleared par la FDA en mars 2026 pour l'aspiration directe seule (technologie corruguée brevetée).",
-          "place": "Galway, Irlande"
-        },
-        {
-          "name": "Imperative Care",
-          "use": "Portefeuille Zoom (AVC) et Symphony (thrombectomie vasculaire) ; 100 M$ de financement en obligations convertibles en mars 2026 (Ally Bridge, Bain Capital Life Sciences).",
-          "place": "Californie, États-Unis"
-        },
-        {
-          "name": "Rapid Medical",
-          "use": "Tigertriever 13, stent retriever ajustable pour les petits vaisseaux ; environ 79 M$ levés au total.",
-          "place": "Yokneam, Israël"
-        }
-      ],
-      "date": "2026-09-29",
-      "dateLong": "29 sept. 2026"
     },
     {
       "term": "RNAi",

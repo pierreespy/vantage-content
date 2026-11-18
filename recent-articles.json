@@ -2,6 +2,66 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-18",
+      "company": "Perfuze",
+      "title": "Perfuze obtient la clearance FDA de NeuroSheath et boucle son système complet de thrombectomie de l'AVC",
+      "url": "https://www.biospace.com/press-releases/perfuze-receives-fda-clearance-for-neurosheath-8f-long-sheath-completing-its-stroke-thrombectomy-system"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Sine Health",
+      "title": "La jeune pousse stockholmoise Sine Health décroche le premier 510(k) d'un suivi du tremblement essentiel par simple smartphone",
+      "url": "https://www.prnewswire.com/news-releases/sine-health-receives-fda-510k-clearance-for-the-first-smartphone-essential-tremor-monitoring-device-302942052.html"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Galvanize Therapeutics",
+      "title": "Galvanize Therapeutics · Series D",
+      "url": "https://www.medtechdive.com/news/galvanize-raises-130m-to-advance-pulsed-electric-field-ablation/874861/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Indivi",
+      "title": "La neurotech bâloise Indivi rachète Cogitat, spin-off de l'Imperial College et son modèle de fondation EEG",
+      "url": "https://tech.eu/2026/11/17/swiss-neurotech-company-indivi-acquires-imperial-college-spin-out-cogitat-to-advance-ai-powered-brain-monitoring/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "EndoGene.Bio",
+      "title": "L'EIC Accelerator retient les françaises EndoGene.Bio et Surgecare parmi ses 35 lauréats",
+      "url": "https://eic.ec.europa.eu/document/download/b9e5675e-940d-4ad4-acfb-2019912077d2_en?filename=EIC%20Accelerator-May-July%202026%20Cut%20Off.pdf"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Werfen",
+      "title": "Werfen obtient la clearance FDA de la cartouche ROTEM sigma complete pour les hémorragies du traumatisé",
+      "url": "https://www.prnewswire.com/news-releases/werfen-receives-us-fda-510k-clearance-for-rotem-sigma-complete-cartridge-for-use-in-trauma-302941528.html"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "MHRA",
+      "title": "La MHRA lance un Women's Health Programme pour faire entrer davantage de femmes dans les essais de médicaments et de dispositifs",
+      "url": "https://www.medicaldevice-network.com/news/mhra-launches-initiative-to-improve-female-participation-in-trials/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Medtronic",
+      "title": "Medtronic étend la clearance FDA de son robot Hugo à la chirurgie générale",
+      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-fda-clearance-of-general-surgery-procedures-for-the-hugo-robotic-assisted-surgery-ras-system-302941366.html"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Newton",
+      "title": "Newton obtient le marquage CE MDR de Neurolens N3, son système de mesure du désalignement oculaire",
+      "url": "https://www.prnewswire.com/news-releases/newtons-neurolens-n3-receives-ce-mark-under-eu-mdr-302941457.html"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Integer",
+      "title": "KKR finalise le rachat d'Integer pour 5,7 Md$ et retire de la bourse l'un des grands sous-traitants de la medtech",
+      "url": "https://www.medicaldesignandoutsourcing.com/integer-holdings-sold-private-equity-firm-kkr/"
+    },
+    {
       "date": "2026-11-17",
       "company": "MacuMira Medical Devices",
       "title": "MacuMira décroche le marquage CE MDR de sa stimulation par microcourant contre la DMLA sèche",
@@ -492,30 +552,6 @@
       "company": "Roche",
       "title": "La FDA autorise le panel respiratoire cobas eplex RP3 de Roche",
       "url": "https://www.medicaldevice-network.com/news/roche-cobas-eplex-rp3-respiratory-infection-test-fda-clearance/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Nightingale Health",
-      "title": "UK-PRISM : Nightingale Health et Alamar Biosciences vont doser des centaines de protéines sur 80 000 échantillons de la UK Biobank",
-      "url": "https://www.medicaldevice-network.com/news/uk-biobank-study-initiated-to-assess-early-indicators-of-neurodegeneration/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Johnson & Johnson MedTech (Impella)",
-      "title": "J&J présente à TCT 2026 le registre européen TRI-GUARD-PCI : 6,1 % de mortalité à 30 jours sous Impella",
-      "url": "https://www.medicaldevice-network.com/news/jj-impella-hrpci-clinical-analyses/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "MTIP",
-      "title": "MTIP lance EverHealth, un fonds evergreen ELTIF luxembourgeois dédié à la healthtech européenne",
-      "url": "https://www.startupticker.ch/en/news/mtip-launches-evergreen-fund-for-european-healthcare-technology"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Instylla",
-      "title": "La FDA élargit l'indication de l'hydrogel embolique Embrace HES de Instylla aux hémorragies artérielles périphériques",
-      "url": "https://www.medicaldevice-network.com/news/fda-expands-approval-instyllas-embrace-hes/"
     }
   ]
 }
