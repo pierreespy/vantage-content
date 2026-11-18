@@ -1,155 +1,239 @@
 {
-  "dateLong": "Nov 17, 2026",
+  "dateLong": "Nov 18, 2026",
   "ticker": [
-    { "company": "TREAT", "amount": "€3M", "kind": "lev" },
-    { "company": "UNICANCER", "amount": "Data warehouse live", "kind": "tech" },
-    { "company": "FHF", "amount": "Hospiconnect", "kind": "reg" },
-    { "company": "ESNEFT", "amount": "Epic-first", "kind": "tech" },
-    { "company": "DIGGAI", "amount": "MEDICA final", "kind": "new" },
-    { "company": "OPENAI", "amount": "AI agents", "kind": "tech" }
+    {
+      "company": "PRIMEDEA",
+      "amount": "Pre-seed",
+      "kind": "lev"
+    },
+    {
+      "company": "DEVON PARTNERSHIP",
+      "amount": "AVT tender",
+      "kind": "reg"
+    },
+    {
+      "company": "ANS",
+      "amount": "PMS portability",
+      "kind": "reg"
+    },
+    {
+      "company": "ATOS",
+      "amount": "DMP taken over",
+      "kind": "tech"
+    },
+    {
+      "company": "HEALTHMATE",
+      "amount": "NEOTEC €325K",
+      "kind": "new"
+    },
+    {
+      "company": "TUCUVI",
+      "amount": "Digital Health 50",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Pre-seed · Primary care",
-    "title": "Finland's Treat raises €3M pre-seed, led by byFounders and Illusian, for consultations where the doctor arrives already briefed by an AI intake tool",
-    "deck": "The Helsinki startup pairs adaptive symptom intake, which patients fill in in their own words, with a doctor-led consultation: the tool organises the context into a brief the physician reviews before the call, clinical decisions stay with the doctor, and identifiable data is kept away from public AI models. The round, led by byFounders and Illusian, the family office of Supercell founder Ilkka Paananen, funds an offering designed to complement the occupational healthcare employers already provide: an early signal of AI moving from the back office into the patient journey itself.",
-    "company": "Treat",
+    "kicker": "Pre-seed · Teleradiology",
+    "title": "Primedea, a Zurich teleradiology network founded in 2026, closes a pre-seed round led by Hansi Hansmann, promising emergency reports in under 30 minutes",
+    "deck": "Founded this year by radiologist Florian Huber, Samuel Frey and Christopher Zemina, with an office in Vienna, the startup routes studies within minutes to one of its 20-plus freelance radiologists through direct integration with clients' RIS, around the clock, billed per report with no minimum volume; one Zurich institute already sends it about 100 MRI and CT reports a week. The round, led by Austrian business angel Hansi Hansmann (amount undisclosed), funds the expansion of the network and platform: a software bet on the radiologist shortage, where value lies in orchestrating the workflow rather than in the image itself.",
+    "company": "Primedea",
     "stage": "Pre-seed",
     "sector": "Telehealth",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 3,
-    "url": "https://tech.eu/2026/11/16/finnish-healthtech-treat-raises-eur3m-to-tackle-inefficiencies-in-private-healthcare"
+    "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
   },
   "milestone": {
-    "company": "Unicancer",
-    "milestone": "Data warehouse live",
-    "title": "Unicancer switches on Harmonie, a data warehouse that for the first time links its large patient cohorts with the SNDS",
-    "summary": "The federation of French cancer centres announced at the end of October that it had brought its CNIL-authorised health data warehouse Harmonie into service: it links the CANTO, ESME and ODH cohorts (nearly 200,000 patients treated in 80 facilities, up to 2,000 variables per patient) with France's national health data system (SNDS), with matching rates of 87% to 94%. It covers breast, lung and ovarian cancer first; colorectal, prostate and bladder cancer will follow in the second half of 2027.",
-    "why": "Unicancer bills Harmonie as the first warehouse that lets its cohorts be cross-referenced with one another: a real-world data asset linked to the care pathway, valuable for effectiveness studies and market-access dossiers, and a playground for AI and RWE vendors able to operate within a regulated framework.",
+    "company": "Agence du numérique en santé",
+    "milestone": "Consultation opened",
+    "title": "France's digital health agency ANS opens a consultation, until December 4, on the framework that will make practice-management software data portable",
+    "summary": "Stemming from Article 55 of the simplification law and drafted by a working group of the Conseil du numérique en santé, the security, interoperability and ethics framework requires free export of a \"pivot scope\" of data, in a common format with shared security and documentation rules, delivered within 30 days at most. It will become binding by ministerial order, alongside an implementation guide and a decree; five vendors have already committed to meeting the obligations early.",
+    "why": "Switching practice software without losing patients' records has long locked the market in favour of incumbent vendors. By removing that exit cost, portability opens a window for new entrants (AI-native, cloud-based software) just as the second wave of France's Ségur programme pushes practitioners to rethink their tools.",
     "place": "Paris",
-    "sector": "Health data",
+    "sector": "Regulatory",
     "signalType": "regulatory_milestone",
-    "url": "https://www.ticsante.com/story?id=8523"
+    "url": "https://www.ticsante.com/story?ID=8525"
   },
   "brefsEurope": [
     {
-      "company": "Fédération hospitalière de France",
+      "company": "Atos",
       "place": "Paris",
-      "sector": "Healthcare cybersecurity",
+      "sector": "Health data",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "FHF, Fehap and FHP call for a rethink of the \"unworkable\" timetable of Hospiconnect, France's hospital access-security programme",
-      "summary": "The three federations have asked Health Minister Stéphanie Rist to revise the June 2027 targets of the programme (Hop'EN 2 and Care strands), launched in January: 60% of facilities surveyed say they cannot meet the shared medical record (DMP) consultation targets, and the FHF proposes refocusing the milestone on achievable technical goals, citing immature solutions and insufficient funding.",
-      "url": "https://www.ticsante.com/story?id=8524"
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Atos, leading a consortium with Accenture, takes over management of France's shared medical record (DMP) for the Cnam and merges it into Mon espace santé",
+      "summary": "The consortium says it migrated the DMP into the Mon espace santé architecture with no service interruption, hosted in its French data centers, and has had its Mon espace santé mandate renewed: nearly 28 million activated accounts and more than 40 million documents uploaded each month, according to Atos. A single national backbone that software vendors will now have to plug into.",
+      "url": "https://www.santematin.fr/dmp-atos-accenture-cnam-transition-17-novembre-2026"
     },
     {
-      "company": "East Suffolk and North Essex NHS Foundation Trust",
-      "place": "Colchester",
+      "company": "HealthMate",
+      "place": "Elche",
+      "sector": "Clinical AI",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "HealthMate, backed by Miguel Hernández University's science park, wins €325,000 from Spain's CDTI (NEOTEC 2026) for voice agents that read the patient's tone",
+      "summary": "PHYSIA-VOICE will analyse voice tone and rhythm, combined with conversation context and clinical data, to adapt real-world calls; the company already claims an AI assistant for scheduling, records and billing used in 327 centres by more than 3,100 professionals and for 563,000 patients.",
+      "url": "https://teleelx.es/2026/11/16/healthmate-firma-participada-e-impulsada-por-el-pcumh-obtiene-325-000-euros-del-cdti-para-desarrollar-una-nueva-ia-conversacional-aplicada-a-la-salud/"
+    },
+    {
+      "company": "Tucuvi",
+      "place": "Madrid",
+      "sector": "Clinical AI",
+      "pillar": "innovation",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "Spain's Tucuvi is the only European company singled out in CB Insights' Digital Health 50, with its Class IIb-certified voice agent LOLA",
+      "summary": "The ranking, drawn from more than 50,000 companies, highlights LOLA, a phone follow-up agent described as Europe's first voice AI certified as a Class IIb medical device and deployed in more than 10% of Spain's public hospitals; 26 of the 50 winners target administrative burden.",
+      "url": "https://hitconsultant.net/2026/11/17/cb-insights-digital-health-50-most-promising-startups-2026/"
+    },
+    {
+      "company": "East Lancashire Hospitals NHS Trust",
+      "place": "Blackburn",
       "sector": "Hospital software",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "East Lancashire Hospitals moves its neonatal ICU to electronic prescribing and co-leads a shared EPR with three neighbouring trusts",
+      "summary": "The NICU ePMA relies on 220 prescribing bundles developed and tested over two years; ambient voice technology already drafts notes and letters, and the trust co-leads a shared EPR with Blackpool, Lancashire Teaching and Morecambe Bay across Lancashire and South Cumbria.",
+      "url": "https://htn.co.uk/2026/11/17/epma-go-live-shared-epr-and-avt-at-east-lancashire-hospitals/"
+    },
+    {
+      "company": "Devon Partnership NHS Trust",
+      "place": "Exeter",
+      "sector": "Clinical AI",
       "pillar": "marche",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "ESNEFT adopts an \"Epic-first\" doctrine: any new digital solution must first show that Epic cannot meet the need",
-      "summary": "Its 2027-2030 strategy focuses on optimising its Epic EPR, including the Chart with Art ambient voice module, the Beans renal module and the MyChart patient app, before any third-party purchase or integration; targeted AI use cases range from decision support to imaging and digital pathology.",
-      "url": "https://htn.co.uk/2026/11/16/east-suffolk-and-north-essex-nhs-outlines-epic-first-approach/"
+      "title": "Devon's mental health trust launches an ambient voice procurement to onboard about 200 users a month over 11 months",
+      "summary": "Funded with £159,000 in capital and £300,000 in revenue over three years, rollout will start in early FY2027/28 under conditions (EPR integration, clinical and cyber safety, benefit measurement); the current pilot is extended, while Wales has just abandoned its own £10M AVT procurement for lack of compliant suppliers.",
+      "url": "https://htn.co.uk/2026/11/17/devon-partnership-identifies-digital-workforce-knowledge-gap-and-plans-avt-procurement/"
     },
     {
-      "company": "DiggAi",
-      "place": "Husum",
-      "sector": "Digital Health",
-      "pillar": "naissances",
-      "signalType": "conference_abstract",
-      "strength": 1,
-      "title": "DiggAi, Aindo and Transmural Platform among the 15 finalists of the MEDICA Start-up Competition, pitching on November 17 in Düsseldorf",
-      "summary": "DiggAi, founded by a physician and an engineer, sends practices pre-filled intake forms in 13 languages; Italy's Aindo generates synthetic health data for RWE and Belgium's Transmural Platform standardises the integration of remote-monitoring data into hospital EPRs. The final runs from 3pm to 5pm on the Main Stage, with €3,500 in prizes.",
-      "url": "https://www.medica-tradefair.com/en/Program/Forums/MEDICA_INNOVATION_FORUM/MEDICA_START-UP_COMPETITION_1"
-    },
-    {
-      "company": "Galeon",
-      "place": "Marseille",
+      "company": "MEDIN +",
+      "place": "France",
       "sector": "Hospital software",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 1,
-      "title": "Galeon, maker of an AI-built EPR deployed in 19 hospitals, gathers nine medical-AI case studies in Marseille",
-      "summary": "On November 18 at Hôpital Saint-Joseph, the France-hosted, HDS- and ISO 27001-certified vendor will feature among others Luxembourg's Hôpitaux Robert Schuman on HRS Sentinel, an AI deployed in emergency care, Atreon on remote monitoring in rheumatology, and France's Health Data Hub.",
-      "url": "https://dsih.fr/articles/6466/galeon-reunit-a-marseille-9-medecins-et-chercheurs-pour-un-retour-dexperience-sur-lia-medicale"
-    },
-    {
-      "company": "Kaiko",
-      "place": "Zurich",
-      "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 1,
-      "title": "At a Kaiko event, Insel Gruppe puts a number on clinical AI's bottleneck: over two years to get a single platform approved by the cantonal authority",
-      "summary": "At the Zurich AI Festival, the Bern hospital's CMIO argued for AI embedded in the EPR rather than one tool per use case; the Antoni van Leeuwenhoek and Kaiko presented a model that segments mesothelioma tumour volume on CT in one minute, where two experts agree in only 53% of cases.",
-      "url": "https://www.icthealth.org/news/the-challenges-of-scaling-up-clinical-ai"
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "DRIMbox: French facilities have until January 12, 2027 to secure Ségur funding for their imaging-sharing gateway",
+      "summary": "The funding request must be filed by the supplier before noon that day; PACS vendor MEDIN +, whose DRIMbox'IN has been listed as Ségur wave 2 compliant since July 6, 2026, claims 250 sites and more than 100,000 patients a month. A deadline that concentrates shared-imaging purchasing decisions into the next eight weeks.",
+      "url": "https://dsih.fr/articles/6468/drimbox-a-huit-semaines-de-lecheance-segur-choisir-vite-sans-choisir-par-defaut"
     }
   ],
   "brefsIntl": [
     {
-      "company": "OpenAI",
+      "company": "Aevius",
+      "place": "Boston",
+      "sector": "Health data",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Aevius, a Mass General Brigham spin-out founded by the team behind Modella AI (acquired by AstraZeneca), raises $22M led by Insight Partners",
+      "summary": "Its multimodal models, trained on EHR data, notes, pathology, imaging and genomics, build a continuously updated patient representation to forecast outcomes, find similar patients and identify trial cohorts; Eric Topol chairs its scientific advisory board.",
+      "url": "https://hitconsultant.net/2026/11/17/aevius-raises-22-million-insight-partners-make-medicine-computable/"
+    },
+    {
+      "company": "Knit Health",
       "place": "San Francisco",
       "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "OpenAI launches computer-use agents that operate EHRs and payer portals, and opens 20+ health plugins in ChatGPT for Healthcare",
-      "summary": "Across 325 reviewed EHR inbox tasks, 99% of actions were rated clinically safe; CVS Health, Cigna, Abridge and Ambience are already deploying the agents. A direct threat to admin-automation startups lacking proprietary data or regulatory clearance.",
-      "url": "https://hitconsultant.net/2026/11/16/openai-launches-healthcare-computer-use-agents-clinical-search-20-plugins/"
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "Knit Health raises a $35M Series A led by NEA and unveils Med-BEAM, a \"world model\" that learns from clinical decisions rather than text",
+      "summary": "A UC Berkeley spin-out founded in 2025 ($46.6M raised in total, with Town Hall Ventures and SignalFire), it models each patient's trajectory from sequences of orders, referrals and diagnoses and claims, on its own benchmarks, up to 4x the accuracy of a frontier LLM at 24 hours.",
+      "url": "https://hitconsultant.net/2026/11/16/knit-health-raises-35m-series-a-nea-unveils-med-beam-world-model-healthcare/"
     },
     {
-      "company": "Apple",
-      "place": "Cupertino",
-      "sector": "Wearables",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Apple opens Health AI Study, enrolling up to 200,000 Americans to test conversational AI on Apple Health data, with OpenEvidence",
-      "summary": "The iPhone app answers health questions using HealthKit data (heart rate, sleep, lab results) and measures trust, quality and comprehension of the answers; Apple says the data will not be used to train models.",
-      "url": "https://htn.co.uk/2026/11/16/apple-launches-ai-app-as-part-of-research-study/"
-    },
-    {
-      "company": "Heidi",
-      "place": "Melbourne",
-      "sector": "Clinical AI",
+      "company": "HHS (OCR)",
+      "place": "Washington",
+      "sector": "Regulatory",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Heidi signs an MOU with Samsung Medical Center for a Korean version of its AI scribe, deployed on-premise",
-      "summary": "The scribe, which claims more than 3 million consultations a week across 190 countries, will be trialled as a proof of concept inside the hospital's infrastructure, linked to its EMR, with a Korean FHIR implementation guide among the deliverables.",
-      "url": "https://technode.global/2026/11/16/australias-ai-healthcare-firm-heidi-samsung-medical-center-to-jointly-build-korean-ready-ai-documentation-platform"
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "The US finalises its HIPAA overhaul: patient record access within 15 days and free transfer to the health app of their choice",
+      "summary": "The rule, published in the Federal Register on November 19, cuts the access deadline from 30 to 15 days, makes electronic copies sent via a personal app free, and clarifies that such app developers are not business associates: a tailwind for consumer apps that aggregate medical records.",
+      "url": "https://hitconsultant.net/2026/11/16/hhs-ocr-issues-2026-hipaa-privacy-rule-final-rule-15-day-access-coordinated-care/"
     }
   ],
   "word": {
-    "term": "EDS",
-    "full": "Health Data Warehouse (French: entrepôt de données de santé)",
-    "fr": "Health data warehouse",
-    "field": "Health data / real-world research",
-    "definition": "A database that gathers, cleans and makes searchable the data generated during care (patient records, coding, lab results, cohorts) so it can be reused for research and management, under authorisation and within a strict security framework.",
+    "term": "Teleradiology",
+    "full": "Teleradiology",
+    "fr": "Teleradiology (remote image reading)",
+    "field": "Telehealth / remote imaging",
+    "definition": "The interpretation of imaging studies (CT, MRI, X-ray) by a radiologist located somewhere other than where the images were acquired, thanks to their secure transmission.",
     "parts": [
-      { "label": "Connectors", "role": "pull data from hospital software: EPR, administrative systems, PMSI coding, laboratory" },
-      { "label": "Standardisation layer", "role": "harmonises and links sources, for example clinical cohorts with the SNDS" },
-      { "label": "Access framework", "role": "CNIL authorisation, HDS-certified hosting and tools to inform patients and manage their objections" }
+      {
+        "label": "Transmitting site",
+        "role": "the hospital or practice that performs the scan and sends images and patient data"
+      },
+      {
+        "label": "Routing platform",
+        "role": "integrates with the client's RIS/PACS and assigns each study to the right radiologist"
+      },
+      {
+        "label": "Receiving site",
+        "role": "the teleradiologist who reads the images and writes the report"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Capture", "t": "Connectors to clinical and business software feed the warehouse; Arkhn says its platform is usable within a few weeks of deployment in a university hospital." },
-      { "n": "2", "h": "Linkage", "t": "Sources are linked together: at Unicancer, cohort matching to the SNDS reaches 87% to 94%, with up to 2,000 variables per patient." },
-      { "n": "3", "h": "Governed use", "t": "Researchers run studies inside the secure environment after CNIL authorisation, while patients are informed and can object to the use of their data." }
+      {
+        "n": "1",
+        "h": "Transmission",
+        "t": "Images leave the acquisition site via VPN, DICOM push with HL7 messaging, or secure web services (IHE XDS/XDR profiles)."
+      },
+      {
+        "n": "2",
+        "h": "Assignment",
+        "t": "The platform assigns the study to an available, qualified radiologist; Primedea says it routes studies within minutes through direct RIS integration."
+      },
+      {
+        "n": "3",
+        "h": "Report",
+        "t": "The teleradiologist delivers a preliminary read (on call), a final report or a second opinion, which flows back into the transmitting site's record."
+      }
     ],
-    "why": "Health data warehouses turn care data into a research asset, and the French state keeps funding their networking: a DGRINES call for projects worth €2.325M for 2026 aims to expand or create networks of hospital warehouses. For investors, value lies with vendors that equip facilities (connectors, standardisation, study tools) and with those able to exploit the data for RWE and AI, with HDS and CNIL compliance as a barrier to entry.",
+    "why": "The radiologist shortage and steadily rising imaging volumes make remote reading a structural answer, especially for night and weekend cover. For investors, value is shifting from the doctor network itself to orchestration software (routing, RIS/PACS integration, quality control) and AI triage, under a strong constraint: the European Society of Radiology treats teleradiology as a medical act subject to the same quality requirements as on-site reading.",
     "startups": [
-      { "name": "Arkhn", "use": "Hospital-wide data and agentic AI platform claiming 19 university hospital partners including Hospices Civils de Lyon and CHU Toulouse, HDS- and ISO 27001-certified", "place": "France" },
-      { "name": "Codoc", "use": "codoc Warehouse, a Research Hub to run studies and codoc Transparency to manage patient objections, used by Gustave Roussy, Hôpital Foch and CHU Caen among others", "place": "France" },
-      { "name": "Aindo", "use": "Generates synthetic health data for RWE and external control arms without exposing identifiable patients; a 2026 MEDICA Start-up Competition finalist", "place": "Trieste, Italy" }
+      {
+        "name": "Primedea",
+        "use": "Network of 20-plus freelance radiologists connected to clients' RIS, emergency reports in under 30 minutes 24/7; pre-seed led by Hansi Hansmann in November 2026",
+        "place": "Zurich, Switzerland"
+      },
+      {
+        "name": "Hexarad",
+        "use": "Teleradiology firm founded in 2016 by NHS consultant radiologists, with its own software suite (RIS, Hexarad Edge integration engine, Hub for urgent reporting); €13M Series B led by MTIP",
+        "place": "London, UK"
+      },
+      {
+        "name": "HLH Group",
+        "use": "UK firm providing remote subspecialist radiology reporting (lung, heart, prostate), describing itself as the leading independent reporting provider for the NHS Lung Cancer Screening programme, with cloud-hosted PACS/RIS and AI integrations",
+        "place": "UK"
+      }
     ],
     "sources": [
-      { "publisher": "TICsanté", "title": "Unicancer met en service son entrepôt de données de santé", "url": "https://www.ticsante.com/story?id=8523" },
-      { "publisher": "FHF", "title": "Elargissement des réseaux d'entrepôts de données de santé hospitaliers (EDSH)", "url": "https://www.fhf.fr/expertises/finances/budget-eprd/elargissement-des-reseaux-dentrepots-de-donnees-de-sante-hospitaliers-edsh" },
-      { "publisher": "Arkhn", "title": "Arkhn — plateforme de données et d'IA pour les établissements de santé", "url": "https://www.arkhn.com" },
-      { "publisher": "codoc", "title": "codoc — entrepôt de données de santé et applications", "url": "https://www.codoc.co" }
+      {
+        "publisher": "Insights into Imaging (ESR)",
+        "title": "ESR white paper on teleradiology: an update from the teleradiology subgroup",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3948905/"
+      },
+      {
+        "publisher": "startupticker.ch",
+        "title": "Frisches Kapital für Teleradiologie-Netzwerk Primedea",
+        "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
+      },
+      {
+        "publisher": "Tech.eu",
+        "title": "Hexarad secures €13M for radiology workflow software",
+        "url": "https://tech.eu/2024/08/15/hexarad-secures-eur13m-for-radiology-workflow-software/"
+      },
+      {
+        "publisher": "HLH Group",
+        "title": "HLH Group — The UK’s Leading Subspecialist Radiology Reporting Firm",
+        "url": "https://thehlhgroup.com/"
+      }
     ]
   }
 }

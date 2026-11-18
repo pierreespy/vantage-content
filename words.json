@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-18",
   "words": [
     {
+      "term": "Teleradiology",
+      "full": "Teleradiology (téléradiologie)",
+      "fr": "Téléradiologie",
+      "field": "Télésanté / imagerie à distance",
+      "definition": "L'interprétation d'examens d'imagerie (scanner, IRM, radio) par un radiologue situé ailleurs que le lieu où les images ont été acquises, grâce à leur transmission sécurisée.",
+      "parts": [
+        {
+          "label": "Site émetteur",
+          "role": "l'hôpital ou le cabinet qui réalise l'examen et envoie images et données patient"
+        },
+        {
+          "label": "Plateforme de routage",
+          "role": "intègre le RIS/PACS du client et distribue chaque examen au bon radiologue"
+        },
+        {
+          "label": "Site récepteur",
+          "role": "le téléradiologue qui lit les images et rédige le compte rendu"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Transmission",
+          "t": "Les images partent du site d'acquisition par VPN, envoi DICOM avec messages HL7 ou services web sécurisés (profils IHE XDS/XDR)."
+        },
+        {
+          "n": "2",
+          "h": "Attribution",
+          "t": "La plateforme affecte l'examen à un radiologue disponible et compétent ; Primedea annonce un routage en quelques minutes par intégration directe aux RIS."
+        },
+        {
+          "n": "3",
+          "h": "Compte rendu",
+          "t": "Le téléradiologue livre une lecture préliminaire (garde), un compte rendu définitif ou un second avis, qui revient dans le dossier du site émetteur."
+        }
+      ],
+      "why": "La pénurie de radiologues et la hausse continue des volumes d'imagerie font de la lecture à distance une réponse structurelle, en particulier pour les gardes de nuit et de week-end. Pour un investisseur, la valeur se déplace du simple réseau de médecins vers le logiciel d'orchestration (routage, intégration RIS/PACS, contrôle qualité) et l'IA de priorisation, avec une contrainte forte : la Société européenne de radiologie considère la téléradiologie comme un acte médical soumis aux mêmes exigences de qualité que la lecture sur place.",
+      "startups": [
+        {
+          "name": "Primedea",
+          "use": "Réseau de plus de 20 radiologues indépendants relié aux RIS des clients, comptes rendus d'urgence en moins de 30 minutes 24 h/24 ; pre-seed mené par Hansi Hansmann en novembre 2026",
+          "place": "Zurich, Suisse"
+        },
+        {
+          "name": "Hexarad",
+          "use": "Téléradiologie fondée en 2016 par des radiologues consultants du NHS, avec sa propre suite logicielle (RIS, moteur d'intégration Hexarad Edge, Hub pour l'urgence) ; Series B de 13 M€ menée par MTIP",
+          "place": "Londres, Royaume-Uni"
+        },
+        {
+          "name": "HLH Group",
+          "use": "Cabinet britannique de comptes rendus radiologiques sous-spécialisés à distance (poumon, cœur, prostate), qui se présente comme le premier prestataire indépendant de lecture du programme NHS de dépistage du cancer du poumon, avec intégrations PACS/RIS et IA hébergées dans le cloud",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Insights into Imaging (ESR)",
+          "title": "ESR white paper on teleradiology: an update from the teleradiology subgroup",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3948905/"
+        },
+        {
+          "publisher": "startupticker.ch",
+          "title": "Frisches Kapital für Teleradiologie-Netzwerk Primedea",
+          "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Hexarad secures €13M for radiology workflow software",
+          "url": "https://tech.eu/2024/08/15/hexarad-secures-eur13m-for-radiology-workflow-software/"
+        },
+        {
+          "publisher": "HLH Group",
+          "title": "HLH Group — The UK’s Leading Subspecialist Radiology Reporting Firm",
+          "url": "https://thehlhgroup.com/"
+        }
+      ],
+      "date": "2026-11-18",
+      "dateLong": "18 nov. 2026"
+    },
+    {
       "term": "Biomolecular Condensate",
       "full": "Biomolecular Condensate (condensat biomoléculaire)",
       "fr": "Condensat biomoléculaire",

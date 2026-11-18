@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-18",
   "words": [
     {
+      "term": "Teleradiology",
+      "full": "Teleradiology",
+      "fr": "Teleradiology (remote image reading)",
+      "field": "Telehealth / remote imaging",
+      "definition": "The interpretation of imaging studies (CT, MRI, X-ray) by a radiologist located somewhere other than where the images were acquired, thanks to their secure transmission.",
+      "parts": [
+        {
+          "label": "Transmitting site",
+          "role": "the hospital or practice that performs the scan and sends images and patient data"
+        },
+        {
+          "label": "Routing platform",
+          "role": "integrates with the client's RIS/PACS and assigns each study to the right radiologist"
+        },
+        {
+          "label": "Receiving site",
+          "role": "the teleradiologist who reads the images and writes the report"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Transmission",
+          "t": "Images leave the acquisition site via VPN, DICOM push with HL7 messaging, or secure web services (IHE XDS/XDR profiles)."
+        },
+        {
+          "n": "2",
+          "h": "Assignment",
+          "t": "The platform assigns the study to an available, qualified radiologist; Primedea says it routes studies within minutes through direct RIS integration."
+        },
+        {
+          "n": "3",
+          "h": "Report",
+          "t": "The teleradiologist delivers a preliminary read (on call), a final report or a second opinion, which flows back into the transmitting site's record."
+        }
+      ],
+      "why": "The radiologist shortage and steadily rising imaging volumes make remote reading a structural answer, especially for night and weekend cover. For investors, value is shifting from the doctor network itself to orchestration software (routing, RIS/PACS integration, quality control) and AI triage, under a strong constraint: the European Society of Radiology treats teleradiology as a medical act subject to the same quality requirements as on-site reading.",
+      "startups": [
+        {
+          "name": "Primedea",
+          "use": "Network of 20-plus freelance radiologists connected to clients' RIS, emergency reports in under 30 minutes 24/7; pre-seed led by Hansi Hansmann in November 2026",
+          "place": "Zurich, Switzerland"
+        },
+        {
+          "name": "Hexarad",
+          "use": "Teleradiology firm founded in 2016 by NHS consultant radiologists, with its own software suite (RIS, Hexarad Edge integration engine, Hub for urgent reporting); €13M Series B led by MTIP",
+          "place": "London, UK"
+        },
+        {
+          "name": "HLH Group",
+          "use": "UK firm providing remote subspecialist radiology reporting (lung, heart, prostate), describing itself as the leading independent reporting provider for the NHS Lung Cancer Screening programme, with cloud-hosted PACS/RIS and AI integrations",
+          "place": "UK"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Insights into Imaging (ESR)",
+          "title": "ESR white paper on teleradiology: an update from the teleradiology subgroup",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3948905/"
+        },
+        {
+          "publisher": "startupticker.ch",
+          "title": "Frisches Kapital für Teleradiologie-Netzwerk Primedea",
+          "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Hexarad secures €13M for radiology workflow software",
+          "url": "https://tech.eu/2024/08/15/hexarad-secures-eur13m-for-radiology-workflow-software/"
+        },
+        {
+          "publisher": "HLH Group",
+          "title": "HLH Group — The UK’s Leading Subspecialist Radiology Reporting Firm",
+          "url": "https://thehlhgroup.com/"
+        }
+      ],
+      "date": "2026-11-18",
+      "dateLong": "Nov 18, 2026"
+    },
+    {
       "term": "Biomolecular Condensate",
       "full": "Biomolecular Condensate",
       "fr": "Biomolecular condensate",

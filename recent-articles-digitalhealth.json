@@ -2,6 +2,72 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-18",
+      "company": "Primedea",
+      "title": "Primedea, réseau de téléradiologie zurichois créé en 2026, boucle un pre-seed mené par Hansi Hansmann pour promettre des comptes rendus d'urgence en moins de 30 minutes",
+      "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Agence du numérique en santé",
+      "title": "L'ANS met en concertation jusqu'au 4 décembre le référentiel qui rendra portables les données des logiciels de gestion de cabinet",
+      "url": "https://www.ticsante.com/story?ID=8525"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Atos",
+      "title": "Atos, mandataire d'un groupement avec Accenture, reprend pour la Cnam la gestion du Dossier médical partagé et l'intègre à Mon espace santé",
+      "url": "https://www.santematin.fr/dmp-atos-accenture-cnam-transition-17-novembre-2026"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "HealthMate",
+      "title": "HealthMate, issue du parc scientifique de l'Université Miguel Hernández, obtient 325 000 € du CDTI (NEOTEC 2026) pour des agents vocaux qui lisent le ton du patient",
+      "url": "https://teleelx.es/2026/11/16/healthmate-firma-participada-e-impulsada-por-el-pcumh-obtiene-325-000-euros-del-cdti-para-desarrollar-una-nueva-ia-conversacional-aplicada-a-la-salud/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Tucuvi",
+      "title": "L'espagnol Tucuvi, seul européen nommément cité du Digital Health 50 de CB Insights, avec son agent vocal LOLA certifié en classe IIb",
+      "url": "https://hitconsultant.net/2026/11/17/cb-insights-digital-health-50-most-promising-startups-2026/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "East Lancashire Hospitals NHS Trust",
+      "title": "East Lancashire Hospitals passe sa réanimation néonatale en prescription électronique et pilote un DPI partagé avec trois trusts voisins",
+      "url": "https://htn.co.uk/2026/11/17/epma-go-live-shared-epr-and-avt-at-east-lancashire-hospitals/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Devon Partnership NHS Trust",
+      "title": "Le trust de santé mentale du Devon lance un appel d'offres de voix ambiante pour environ 200 nouveaux utilisateurs par mois sur 11 mois",
+      "url": "https://htn.co.uk/2026/11/17/devon-partnership-identifies-digital-workforce-knowledge-gap-and-plans-avt-procurement/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "MEDIN +",
+      "title": "DRIMbox : les établissements ont jusqu'au 12 janvier 2027 pour obtenir le financement Ségur de leur passerelle d'imagerie",
+      "url": "https://dsih.fr/articles/6468/drimbox-a-huit-semaines-de-lecheance-segur-choisir-vite-sans-choisir-par-defaut"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Aevius",
+      "title": "Aevius, spin-out de Mass General Brigham fondé par l'équipe de Modella AI (rachetée par AstraZeneca), lève 22 M$ menés par Insight Partners",
+      "url": "https://hitconsultant.net/2026/11/17/aevius-raises-22-million-insight-partners-make-medicine-computable/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Knit Health",
+      "title": "Knit Health lève 35 M$ en Series A menée par NEA et dévoile Med-BEAM, un « world model » qui apprend des décisions cliniques plutôt que du texte",
+      "url": "https://hitconsultant.net/2026/11/16/knit-health-raises-35m-series-a-nea-unveils-med-beam-world-model-healthcare/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "HHS (OCR)",
+      "title": "Les États-Unis finalisent la révision HIPAA : accès du patient à son dossier en 15 jours et transfert gratuit vers l'appli de santé de son choix",
+      "url": "https://hitconsultant.net/2026/11/16/hhs-ocr-issues-2026-hipaa-privacy-rule-final-rule-15-day-access-coordinated-care/"
+    },
+    {
       "date": "2026-11-17",
       "company": "Treat",
       "title": "Le finlandais Treat lève 3 M€ en pre-seed, menés par byFounders et Illusian, pour des consultations où le médecin arrive déjà briefé par une IA d'anamnèse",
@@ -384,60 +450,6 @@
       "company": "Arkstone",
       "title": "Arkstone lance Arkstone Next, plateforme d'IA d'aide à la décision en maladies infectieuses",
       "url": "https://www.medicaldevice-network.com/news/arkstone-ai-platform-infectious-disease-guidance/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Doctolib",
-      "title": "NVIDIA investit au capital de Doctolib pour accélérer ses modèles d'IA de santé, avec une infrastructure européenne renforcée",
-      "url": "https://htn.co.uk/2026/10/26/nvidia-invest-in-doctolib-healthcare-ai/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "North West London Acute Provider Group",
-      "title": "North West London : appel d'offres voix ambiante pour 2027-2030 et bascule de l'automatisation vers un programme d'IA",
-      "url": "https://htn.co.uk/2026/11/02/north-west-london-acute-provider-group-updates-on-digital-and-data-plan-for-2026-27/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Ligence",
-      "title": "Ligence (Lituanie) : IA d'échographie cardiaque marquée CE, avec une seconde clearance FDA 510(k) en avril 2026",
-      "url": "https://tech.eu/2026/10/30/beyond-the-lab-eight-european-healthtech-scaleups-taking-on-medicines-biggest-challenges"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Magic Vision",
-      "title": "Magic Vision lève 600 K€ (SixS, business angels) pour Silver Eye, sa surveillance des seniors par IA sans wearable",
-      "url": "https://tech.eu/2026/10/28/magic-vision-lands-eur600k-for-ai-powered-monitoring-solution-silver-eye/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Clatterbridge Cancer Centre",
-      "title": "Clatterbridge : voix ambiante et Copilot en priorité, environnement de recherche de confiance pour croiser données cliniques, imagerie et moléculaires",
-      "url": "https://htn.co.uk/2026/11/02/clatterbridge-cancer-centre-on-digital-systems-investments-data-and-workforce-digital-learning/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "North West Radiotherapy Network",
-      "title": "Christie, Clatterbridge et Lancashire Teaching publient une stratégie radiothérapie à cinq ans centrée sur données et IA",
-      "url": "https://htn.co.uk/2026/11/02/radiotherapy-research-strategy-for-the-north-west-sets-out-actions-for-data-ai-and-digital-systems/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Welsh health boards (HTN survey)",
-      "title": "Pays de Galles : un quart seulement des organisations de santé sont majoritairement électroniques, selon une enquête HTN",
-      "url": "https://htn.co.uk/2026/10/27/insight-progress-to-electronic-patient-records-in-wales/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "ONC (HHS)",
-      "title": "Les États-Unis finalisent la règle HTI-5 : 14 critères de certification supprimés, accent mis sur les API FHIR",
-      "url": "https://hitconsultant.net/2026/10/26/hhs-onc-finalizes-hti-5-deregulatory-rule-unleash-prosperity-health-it-certification/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Wrapped Health",
-      "title": "Wrapped Health lève 2,1 M$ en pre-seed (Lightbank, Arteria Capital) pour relier recommandations cliniques et achats santé",
-      "url": "https://www.prnewswire.com/news-releases/wrapped-health-raises-2-1m-to-connect-clinical-care-and-consumer-health-302923123.html"
     }
   ]
 }
