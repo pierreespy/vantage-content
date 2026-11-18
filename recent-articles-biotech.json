@@ -2,6 +2,78 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-18",
+      "company": "Commit Biologics",
+      "title": "Commit Biologics, spin-off de l'université d'Aarhus, boucle 60 M$ de seed menés par Ackermans & van Haaren pour ses anticorps qui recrutent le complément",
+      "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Dewpoint Therapeutics",
+      "title": "Cancer Research UK financera et conduira le premier essai chez l'humain de DPTX8743, modulateur des condensats de MYC conçu par Dewpoint",
+      "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Isomorphic Labs",
+      "title": "Isomorphic Labs · Series C",
+      "url": "https://www.biospace.com/drug-development/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Human Biome Institute",
+      "title": "Human Biome Institute lève 75,5 M de zlotys (environ 18,9 M$) en Series A pour passer de la greffe fécale au médicament du microbiote",
+      "url": "https://dealroom.co/news/173283-poland-s-human-biome-raises-18-9m-series-a-and-needs-far-more/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Enterprise Therapeutics",
+      "title": "Enterprise Therapeutics obtient la désignation orpheline de l'EMA pour ETD001, son bloqueur inhalé d'ENaC contre la mucoviscidose",
+      "url": "https://www.biospace.com/press-releases/enterprise-therapeutics-granted-ema-orphan-medicinal-product-designation-for-novel-cystic-fibrosis-therapy-etd001"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Cradle",
+      "title": "argenx étend à davantage d'équipes et de programmes d'anticorps l'usage de la plateforme d'IA de conception de protéines de Cradle",
+      "url": "https://www.biospace.com/press-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Nuclera",
+      "title": "Nuclera et l'université de Cambridge obtiennent la structure cryo-EM d'un récepteur GPCR en quatre jours, du gène à l'échantillon",
+      "url": "https://www.biospace.com/press-releases/nuclera-and-university-of-cambridge-researchers-demonstrate-rapid-structural-analysis-of-challenging-drug-target"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Viralgen",
+      "title": "Le façonnier AAV Viralgen (groupe Bayer) produira les thérapies géniques de la fondation Gene2Cure contre trois maladies pédiatriques ultra-rares",
+      "url": "https://www.prnewswire.com/news-releases/gene2cure-foundation-and-viralgen-collaborate-to-advance-a-portfolio-of-gene-therapy-programs-for-rare-and-ultra-rare-genetic-conditions-302942237.html"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Roche",
+      "title": "La FDA approuve Wilserdly (giredestrant), le SERD oral de Roche, avec l'évérolimus dans le cancer du sein avancé muté ESR1",
+      "url": "https://www.biospace.com/press-releases/fda-approves-roches-wilserdly-giredestrant-a-next-generation-oral-serd-for-er-positive-esr1-mutated-advanced-breast-cancer"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Marrow Therapeutics",
+      "title": "Marrow Therapeutics sort de l'ombre avec 173 M$ en Series A et B pour traiter la drépanocytose par une simple injection d'ARN interférent",
+      "url": "https://www.biopharmadive.com/news/marrow-therapeutics-sickle-cell-beta-thalassemia-drug/874789/"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Stipple Bio",
+      "title": "Lilly signe avec Stipple Bio un accord multi-cibles pouvant atteindre 5,9 Md$ pour des liants d'épitopes propres aux tumeurs",
+      "url": "https://www.biospace.com/business/lilly-pens-another-deal-inking-up-to-5-9b-oncology-pact-with-stipple"
+    },
+    {
+      "date": "2026-11-18",
+      "company": "Sellas Life Sciences",
+      "title": "Le vaccin peptidique anti-WT1 de Sellas réduit de 41 % le risque de décès dans la leucémie aiguë myéloïde en phase 3",
+      "url": "https://www.biospace.com/drug-development/sellas-cancer-vaccine-slashes-death-risk-by-41-in-late-stage-aml-study"
+    },
+    {
       "date": "2026-11-17",
       "company": "TRIMTECH Therapeutics",
       "title": "TRIMTECH signe avec Biogen un accord pouvant atteindre 411 M$ pour ses dégradeurs de protéines toxiques du cerveau",
@@ -510,54 +582,6 @@
       "company": "AbbVie / Nxera Pharma",
       "title": "AbbVie licencie à Nxera un agoniste EP4 gut-sélectif pour les MICI (100 M$ upfront) et renforce son site d'Oxford",
       "url": "https://www.pharmaceutical-technology.com/news/abbvie-bolsters-uk-rd-presence-inks-ibd-deal-nxera/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "uniQure",
-      "title": "uniQure : la FDA accepte le BLA de l'AMT-130 dans la maladie de Huntington, avec revue prioritaire et décision au 1er mai 2027",
-      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393020/0/en/uniqure-announces-fda-acceptance-and-priority-review-of-the-biologics-license-application-for-ifezuntirgene-inilparvovec-for-the-treatment-of-huntington-s-disease.html"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Tiziana Life Sciences",
-      "title": "Foralumab nasal : la dose de 50 µg atteint ses critères principaux dans la sclérose en plaques progressive, pas celle de 100 µg",
-      "url": "https://www.biospace.com/drug-development/tiziana-touts-multiple-sclerosis-win-at-lower-dose-as-high-dose-misses-mark"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Alligator Bioscience",
-      "title": "Alligator Bioscience · Cession d'actif",
-      "url": "https://european-biotechnology.com/latest-news/alligator-sells-cancer-antibody-for-750000-upfront-after-abandoning-development/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Fresenius",
-      "title": "Fresenius s'adjoint WuXi Biologics pour jusqu'à 37 biosimilaires sur 10 ans",
-      "url": "https://european-biotechnology.com/latest-news/fresenius-turns-to-wuxi-to-add-up-to-37-biosimilars-to-its-pipeline/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "ALLOX",
-      "title": "ALLOX (spin-off du CRG) lève 9,4 M€ en seed menés par Asabys pour cartographier les sites allostériques",
-      "url": "https://european-biotechnology.com/latest-news/barcelonas-allox-raises-e9-4m-to-turn-protein-maps-into-drug-candidates/"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Teva",
-      "title": "Teva arrête l'essai de phase II de l'emrusolmin dans l'atrophie multisystématisée après une analyse intermédiaire de futilité",
-      "url": "https://www.fiercebiotech.com/biotech/teva-ends-trial-one-its-original-line-innovative-meds-over-futility"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Ractigen Therapeutics",
-      "title": "Ractigen lance la phase II de son saRNA RAG-01 dans le cancer de la vessie non invasif",
-      "url": "https://www.biospace.com/press-releases/ractigen-therapeutics-kicks-off-multi-center-phase-ii-clinical-trial-of-first-in-class-sarna-therapeutic-rag-01-for-non-muscle-invasive-bladder-cancer"
-    },
-    {
-      "date": "2026-11-03",
-      "company": "Theriva Biologics",
-      "title": "Theriva cède son portefeuille d'enzymes dégradant les antibiotiques (SYN-004) à Biossil : 350 000 $ d'upfront",
-      "url": "https://www.globenewswire.com/news-release/2026/11/02/3393092/0/en/theriva-biologics-announces-sale-of-syn-004-ribaxamase-and-related-antibiotic-degrading-enzyme-portfolio-to-biossil-labs-inc.html"
     }
   ]
 }

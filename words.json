@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-18",
   "words": [
     {
+      "term": "Biomolecular Condensate",
+      "full": "Biomolecular Condensate (condensat biomoléculaire)",
+      "fr": "Condensat biomoléculaire",
+      "field": "Découverte de médicaments",
+      "definition": "Une gouttelette sans membrane qui se forme dans la cellule quand certaines protéines et ARN se rassemblent, un peu comme de l'huile dans l'eau, pour concentrer une réaction ; les nouveaux médicaments « c-mods » visent ces gouttelettes plutôt qu'une protéine isolée.",
+      "parts": [
+        {
+          "label": "Protéines désordonnées",
+          "role": "les briques : des protéines aux longues régions flexibles, très présentes dans les condensats"
+        },
+        {
+          "label": "Réseau d'interactions",
+          "role": "le ciment : protéines, ARN et métabolites s'attirent et forment un compartiment distinct"
+        },
+        {
+          "label": "Condensat",
+          "role": "l'atelier : il concentre la machinerie d'une fonction (expression des gènes, réponse au stress, signalisation)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Cartographie",
+          "t": "On identifie les condensats où se joue une maladie, par exemple les gouttelettes de transcription qu'utilise MYC pour activer ses gènes."
+        },
+        {
+          "n": "2",
+          "h": "Criblage",
+          "t": "On cherche des molécules qui dissolvent, induisent, déplacent les composants ou modifient l'état physique de ces condensats (dissolvers, inducers, localizers, morphers)."
+        },
+        {
+          "n": "3",
+          "h": "Effet",
+          "t": "En désorganisant le condensat pathologique, le médicament coupe le programme qu'il porte, même si la protéine cible n'a pas de poche classique."
+        }
+      ],
+      "why": "C'est une porte d'entrée vers les cibles réputées « non médicamentables », comme les facteurs de transcription : Dewpoint et Cancer Research UK vont tester sur cette base un modulateur des condensats de MYC chez l'humain. La thèse est séduisante mais encore peu validée en clinique ; pour un VC, la question est de savoir si l'effet passe bien par le condensat et non par un mécanisme classique, et si le premier essai MYC confirme le concept.",
+      "startups": [
+        {
+          "name": "Dewpoint Therapeutics",
+          "use": "Modulateurs de condensats en oncologie, neurologie et cardiométabolisme ; DPTX8743 (condensats de MYC) va entrer en phase 1/2a avec Cancer Research UK",
+          "place": "Boston / Dresde"
+        },
+        {
+          "name": "Nuage Therapeutics",
+          "use": "Spin-off de l'IRB Barcelona et de l'ICREA, soutenue par Sabadell Asabys : cible des protéines désordonnées qui forment des condensats, d'abord dans le cancer de la prostate résistant à la castration",
+          "place": "Barcelone, Espagne"
+        },
+        {
+          "name": "Transition Bio",
+          "use": "Spin-out Harvard-Cambridge : plateforme de microfluidique et d'IA pour cartographier et moduler les condensats, Series A de 50 M$ menée par Northpond Ventures avec BMS",
+          "place": "Cambridge, Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Frontiers in Molecular Biosciences (PMC)",
+          "title": "Principles and functions of condensate modifying drugs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9725174"
+        },
+        {
+          "publisher": "BioSpace (GlobeNewswire)",
+          "title": "Cancer Research UK and Dewpoint Therapeutics partner to advance potential first-in-class MYC condensate modulator into clinical development",
+          "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development"
+        },
+        {
+          "publisher": "IRB Barcelona",
+          "title": "Nuage Therapeutics, the spin-off from IRB Barcelona and ICREA, is launched with the support of Asabys",
+          "url": "https://www.irbbarcelona.org/en/news/innovation/nuage-therapeutics-spin-irb-barcelona-and-icrea-launched-support-asabys"
+        },
+        {
+          "publisher": "Cambridge Enterprise",
+          "title": "Joint Harvard-Cambridge spin-out closes $50m Series A to drive biomolecular condensate drug discovery",
+          "url": "https://www.enterprise.cam.ac.uk/news/joint-harvard-cambridge-spin-out-closes-50m-series-a-to-drive-biomolecular-condensate-drug-discovery/"
+        }
+      ],
+      "date": "2026-11-18",
+      "dateLong": "18 nov. 2026"
+    },
+    {
       "term": "Mechanical Thrombectomy",
       "full": "Mechanical Thrombectomy (thrombectomie mécanique)",
       "fr": "Thrombectomie mécanique",

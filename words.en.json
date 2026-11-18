@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-18",
   "words": [
     {
+      "term": "Biomolecular Condensate",
+      "full": "Biomolecular Condensate",
+      "fr": "Biomolecular condensate",
+      "field": "Drug discovery",
+      "definition": "A membraneless droplet that forms inside the cell when certain proteins and RNAs cluster together, a bit like oil in water, to concentrate a reaction; new \"c-mod\" drugs target these droplets rather than a single protein.",
+      "parts": [
+        {
+          "label": "Disordered proteins",
+          "role": "the bricks: proteins with long flexible regions, highly enriched in condensates"
+        },
+        {
+          "label": "Interaction network",
+          "role": "the cement: proteins, RNAs and metabolites attract each other and form a distinct compartment"
+        },
+        {
+          "label": "Condensate",
+          "role": "the workshop: it concentrates the machinery of a function (gene expression, stress response, signalling)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Mapping",
+          "t": "Identify the condensates where a disease plays out, such as the transcriptional droplets MYC uses to switch on its genes."
+        },
+        {
+          "n": "2",
+          "h": "Screening",
+          "t": "Look for molecules that dissolve or induce these condensates, relocate their components or change their physical state (dissolvers, inducers, localizers, morphers)."
+        },
+        {
+          "n": "3",
+          "h": "Effect",
+          "t": "By disrupting the pathological condensate, the drug shuts down the program it carries, even when the target protein has no classic pocket."
+        }
+      ],
+      "why": "It is a way into targets considered \"undruggable\", such as transcription factors: Dewpoint and Cancer Research UK will test a MYC condensate modulator in humans on this basis. The thesis is attractive but still clinically unproven; for a VC, the questions are whether the effect really runs through the condensate rather than a classic mechanism, and whether the first MYC trial validates the concept.",
+      "startups": [
+        {
+          "name": "Dewpoint Therapeutics",
+          "use": "Condensate modulators in oncology, neurology and cardiometabolic disease; DPTX8743 (MYC condensates) is heading into Phase 1/2a with Cancer Research UK",
+          "place": "Boston / Dresden"
+        },
+        {
+          "name": "Nuage Therapeutics",
+          "use": "IRB Barcelona and ICREA spinout backed by Sabadell Asabys: targets disordered proteins that form condensates, starting with castration-resistant prostate cancer",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "Transition Bio",
+          "use": "Harvard-Cambridge spinout: microfluidics and AI platform to map and modulate condensates, $50M Series A led by Northpond Ventures with BMS",
+          "place": "Cambridge, UK"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Frontiers in Molecular Biosciences (PMC)",
+          "title": "Principles and functions of condensate modifying drugs",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9725174"
+        },
+        {
+          "publisher": "BioSpace (GlobeNewswire)",
+          "title": "Cancer Research UK and Dewpoint Therapeutics partner to advance potential first-in-class MYC condensate modulator into clinical development",
+          "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development"
+        },
+        {
+          "publisher": "IRB Barcelona",
+          "title": "Nuage Therapeutics, the spin-off from IRB Barcelona and ICREA, is launched with the support of Asabys",
+          "url": "https://www.irbbarcelona.org/en/news/innovation/nuage-therapeutics-spin-irb-barcelona-and-icrea-launched-support-asabys"
+        },
+        {
+          "publisher": "Cambridge Enterprise",
+          "title": "Joint Harvard-Cambridge spin-out closes $50m Series A to drive biomolecular condensate drug discovery",
+          "url": "https://www.enterprise.cam.ac.uk/news/joint-harvard-cambridge-spin-out-closes-50m-series-a-to-drive-biomolecular-condensate-drug-discovery/"
+        }
+      ],
+      "date": "2026-11-18",
+      "dateLong": "Nov 18, 2026"
+    },
+    {
       "term": "Mechanical Thrombectomy",
       "full": "Mechanical Thrombectomy",
       "fr": "Mechanical thrombectomy",

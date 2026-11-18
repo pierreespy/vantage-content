@@ -1,239 +1,175 @@
 {
-  "dateLong": "Nov 17, 2026",
+  "dateLong": "Nov 18, 2026",
   "ticker": [
-    {
-      "company": "TRIMTECH",
-      "amount": "$411M",
-      "kind": "mna"
-    },
-    {
-      "company": "BIOARCTIC",
-      "amount": "5 years",
-      "kind": "tech"
-    },
-    {
-      "company": "FLAGSHIP",
-      "amount": "London lab",
-      "kind": "new"
-    },
-    {
-      "company": "AMYRIAD",
-      "amount": "AD04",
-      "kind": "mna"
-    },
-    {
-      "company": "NOVO NORDISK",
-      "amount": "Bone data",
-      "kind": "tech"
-    },
-    {
-      "company": "LIFEGLUE",
-      "amount": "Spin-off",
-      "kind": "new"
-    }
+    { "company": "COMMIT BIOLOGICS", "amount": "$60M", "kind": "lev" },
+    { "company": "DEWPOINT", "amount": "CRUK deal", "kind": "tech" },
+    { "company": "ENTERPRISE TX", "amount": "EMA orphan", "kind": "reg" },
+    { "company": "ISOMORPHIC", "amount": "$5B", "kind": "lev" },
+    { "company": "NUCLERA", "amount": "Preprint", "kind": "tech" },
+    { "company": "ROCHE", "amount": "FDA", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "Licensing · Targeted protein degradation",
-    "title": "TRIMTECH signs a deal worth up to $411M with Biogen for its degraders of toxic brain proteins",
-    "deck": "The Cambridge biotech, founded in 2023 on Leo James and William McEwan's work on the TRIM21 enzyme, announced on November 16 a research collaboration with a license option: up to $32M in upfront and research milestone payments, up to $411M in total plus royalties, with Biogen able to take an exclusive global license to the resulting degraders (targets and indications undisclosed). Its TRIMTAC and TRIMGLUE small molecules reach the central nervous system and preferentially clear toxic aggregates and oligomers while sparing the normal form of the protein: a major pact for a young company that has raised only $47M in seed funding, though the findings remain preclinical.",
-    "company": "TRIMTECH Therapeutics",
+    "kicker": "Seed · Immuno-oncology",
+    "title": "Aarhus University spinout Commit Biologics closes a $60M seed led by Ackermans & van Haaren for antibodies that recruit complement",
+    "deck": "The Danish biotech announced on November 17 the final close of a $60M (€54M) seed led by Belgium's Ackermans & van Haaren, with AbbVie Ventures and M Ventures (Merck KGaA) joining Novo Holdings, Bioqube Ventures and Korys; the money funds IND-enabling work on COM002, its first candidate for relapsed non-Hodgkin lymphoma, and a second program. Its BiCE platform has the complement system, rather than T cells, attack diseased cells: in preclinical work a single dose depleted B cells in primates for more than four weeks without cytokine release, which explains why two pharma corporate VCs came in well ahead of the clinic, expected in early 2028.",
+    "company": "Commit Biologics",
     "stage": "Seed",
-    "sector": "Neuroscience",
-    "pillar": "marche",
-    "signalType": "early_partnership",
+    "sector": "Immunology",
+    "pillar": "financement",
+    "signalType": "funding_round",
     "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/trimtech-lands-411m-biogen-deal-for-neurodegeneration-protein-degraders/"
+    "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/"
   },
   "milestone": {
-    "company": "Novo Nordisk",
-    "milestone": "Bone data",
-    "title": "Novo Nordisk presents data at ObesityWeek suggesting that amylin and calcitonin receptor activation protects bone during weight loss",
-    "summary": "In ovariectomized rats, femur trabecular bone volume was 43% higher on cagrilintide and 40% higher on CagriSema than in weight-matched controls (11%, not significant, on semaglutide alone); in healthy volunteers, cagrilintide and zenagamtide suppressed the bone-resorption marker CTX-I, which NN1213, a selective amylin agonist, did not. In the REDEFINE 1 DXA substudy (252 participants), bone density fell on CagriSema but stayed within the normal range for age and sex at week 68.",
-    "why": "Bone and muscle loss is the blind spot of obesity treatments: Novo points to the calcitonin receptor as a protective lever, giving European amylin biotechs a new axis of differentiation. The analyses are exploratory and not designed to assess fracture risk, while the FDA is due to rule on CagriSema in Q4 2026.",
-    "place": "Bagsværd",
-    "sector": "Metabolism",
-    "signalType": "conference_abstract",
-    "url": "https://www.prnewswire.com/news-releases/novo-presents-preclinical-and-human-data-suggesting-a-role-for-amylin-and-calcitonin-receptor-activation-in-preserving-bone-during-weight-loss-at-obesityweek-302940814.html"
+    "company": "Dewpoint Therapeutics",
+    "milestone": "Toward Phase 1/2a",
+    "title": "Cancer Research UK will fund and run the first-in-human trial of DPTX8743, Dewpoint's MYC condensate modulator",
+    "summary": "Rather than hitting the notoriously \"undruggable\" MYC protein, the small molecule DPTX8743 disrupts the droplets (condensates) where MYC switches on its genes; preclinically it suppresses MYC-driven gene expression and kills tumour cells. CRUK's Centre for Drug Development will pay for and run the CTA-enabling studies and then a Phase 1/2a targeting ovarian, oesophageal, colorectal and pancreatic cancers among others; Dewpoint keeps all rights, and CRUK is eligible for milestones and royalties.",
+    "why": "MYC is dysregulated in most human cancers and has resisted drug hunters for forty years: this is a real-world test of the whole condensate thesis. The model is also instructive for VCs, since the charity carries the early clinical risk without diluting the biotech.",
+    "place": "London",
+    "sector": "Oncology",
+    "signalType": "early_partnership",
+    "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development"
+  },
+  "deal": {
+    "company": "Isomorphic Labs",
+    "amount": "$5B",
+    "round": "Series C",
+    "thesis": "Greenoaks and Sequoia co-lead, with Andreessen Horowitz joining and Alphabet, Thrive, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund following on: the largest private biotech raise ever, six months after a $2.1B Series B, for a London company with no disclosed asset and nothing yet in the clinic. Investors are paying for the IsoDDE design engine and the partnerships with Lilly, Novartis and J&J; for the rest of the ecosystem it is mainly a comparable that pulls talent and capital toward AI drug discovery, and its first clinical entry will be the real test.",
+    "sector": "AI drug discovery",
+    "url": "https://www.biospace.com/drug-development/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c"
   },
   "brefsEurope": [
     {
-      "company": "Flagship Pioneering",
-      "place": "London",
-      "sector": "AI drug discovery",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
-      "strength": 3,
-      "title": "Moderna creator Flagship Pioneering commits £100M to a London lab that will build AI-native biotechs",
-      "summary": "The group's first company-creation lab outside the US, the Flagship Origination Lab plans to recruit around 50 scientist-entrepreneurs in the UK and work with British universities; Flagship is targeting a further £500M through partnerships, not yet secured. No companies or founding teams have been announced yet: a new source of spin-outs to watch in King's Cross.",
-      "url": "https://european-biotechnology.com/latest-news/moderna-creator-flagship-pioneering-brings-100m-ai-lab-to-london/"
-    },
-    {
-      "company": "AmyriAD Therapeutics",
-      "place": "Amsterdam",
-      "sector": "Neuroscience",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 3,
-      "title": "AmyriAD acquires AD04, a Phase 2b-ready anti-neuroinflammation candidate for mild Alzheimer's, from ADvantage Therapeutics",
-      "summary": "The Amsterdam biotech acquires worldwide rights (IP, clinical data, regulatory assets) to this subcutaneous aluminum hydroxide hydrogel injection, which holds a UK Innovation Passport (ILAP); the signal comes from exploratory post hoc analyses of the 332-patient Phase 2 AFF006 trial, where AD04 served as the control. Financial terms were not disclosed.",
-      "url": "https://www.prnewswire.com/news-releases/amyriad-therapeutics-acquires-ad04-alzheimers-program-from-advantage-further-expanding-its-clinical-stage-cognition-pipeline-302940420.html"
-    },
-    {
-      "company": "Galimedix Therapeutics",
-      "place": "Martinsried",
-      "sector": "Neuroscience",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 2,
-      "title": "Galimedix details at CTAD the SAPHARY Phase 2a trial of its GAL-101 pill against toxic forms of amyloid",
-      "summary": "The oral small molecule targets misfolded amyloid-beta monomers to prevent the formation of toxic oligomers and protofibrils; the planned trial (NCT07789873) will test 28 days of treatment against placebo in 100 patients with mild to moderate Alzheimer's, assessing safety, PK/PD and exploratory EEG, biomarker and cognition readouts. An oral alternative to anti-amyloid antibodies, still at the planning stage.",
-      "url": "https://www.boerse.de/nachrichten/EQS-News-Galimedix-Therapeutics-outlines-development-plans-in-Alzheimer-s-disease-at-CTAD-2026/38723582"
-    },
-    {
-      "company": "BioArctic",
-      "place": "Stockholm",
-      "sector": "Neuroscience",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Five years of lecanemab: the antibody born at BioArctic keeps slowing decline in the Clarity AD extension presented at CTAD",
-      "summary": "In the 351 patients treated continuously for five years, Eisai and Biogen report a 2.05-point CDR-SB difference versus the ADNI natural-history cohort and a 36% relative reduction in the risk of progressing to the next disease stage; among low-tau patients, 66% showed no decline on CDR-SB. An external, non-randomized comparison, but a durability argument for the asset discovered by the Swedish biotech, which licensed global rights to Eisai in 2007.",
-      "url": "https://www.prnewswire.com/news-releases/new-five-year-lecanemab-data-from-clarity-ad-study-long-term-extension-presented-at-ctad-2026-302941089.html"
-    },
-    {
-      "company": "LifeGlue Technologies",
-      "place": "Tampere",
+      "company": "Human Biome Institute",
+      "place": "Warsaw",
       "sector": "Biotech",
-      "pillar": "naissances",
+      "pillar": "financement",
       "signalType": "funding_round",
-      "strength": 2,
-      "title": "LifeGlue, a Tampere University spin-out, raises €705,000 to produce its tissue-culture gel to GMP standards",
-      "summary": "Its Glue4Life gel, hyaluronic acid-based rather than animal-derived, acts as a scaffold for growing tissues (brain, liver, nerve); on sale since December 2024, it has 15 paying customers in Europe, the US and Australia. The round brings together Finnish, Estonian and Lithuanian business angels and Innovestor's Angel Cofund, with clinical-trial use as the goal.",
-      "url": "https://nordiclifescience.org/lifeglue-raises-eur-705000-seed-round/"
+      "strength": 4,
+      "stage": "Series A",
+      "title": "Human Biome Institute raises PLN 75.5M (about $18.9M) in a Series A to move from faecal transplants to microbiome drugs",
+      "summary": "The Warsaw company already sells faecal microbiota transplant capsules and suspensions against C. difficile infections to about half of Poland's hospitals; Twiti Investments, the NCBR and IGS funds and private backers are financing its new candidates, with no lead announced. It puts its next round at $30M or more for preclinical work and a first clinical phase, and is eyeing a listing outside Poland.",
+      "url": "https://dealroom.co/news/173283-poland-s-human-biome-raises-18-9m-series-a-and-needs-far-more/"
     },
     {
-      "company": "Kos Biotechnology Partners",
-      "place": "Heraklion",
-      "sector": "Fund",
-      "pillar": "naissances",
+      "company": "Enterprise Therapeutics",
+      "place": "Brighton",
+      "sector": "Biotech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Enterprise Therapeutics wins EMA orphan designation for ETD001, its inhaled ENaC blocker for cystic fibrosis",
+      "summary": "The EMA's COMP granted the designation to this inhaled molecule, which blocks the epithelial sodium channel to thin mucus, for patients who cannot benefit from CFTR modulators; the Phase 2 ET-ENAC-03 trial had pointed to improved lung function. An orphan niche left behind by Vertex's modulators.",
+      "url": "https://www.biospace.com/press-releases/enterprise-therapeutics-granted-ema-orphan-medicinal-product-designation-for-novel-cystic-fibrosis-therapy-etd001"
+    },
+    {
+      "company": "Cradle",
+      "place": "Amsterdam",
+      "sector": "AI drug discovery",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "argenx expands use of Cradle's AI protein design platform to more teams and antibody programs",
+      "summary": "After early results it called successful, the Belgian autoimmune specialist's scientists use the Amsterdam startup's tool (backed by IVP, Index Ventures and Kindred) to optimise the affinity and selectivity of candidates and generate new ones. No financial terms disclosed: a commercial traction signal for a European AI vendor.",
+      "url": "https://www.biospace.com/press-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx"
+    },
+    {
+      "company": "Nuclera",
+      "place": "Cambridge",
+      "sector": "Biotech",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Nuclera and the University of Cambridge get a GPCR cryo-EM structure in four days, from gene to sample",
+      "summary": "Using cell-free protein synthesis and a lipid nanodisc panel, the team solved the adenosine A2A receptor bound to an antagonist at 3.38 Å and produced twelve other GPCRs, six of them orphans (bioRxiv preprint, presented at PEGS Europe on November 19). GPCRs remain the largest family of drug targets, and producing them is a discovery bottleneck.",
+      "url": "https://www.biospace.com/press-releases/nuclera-and-university-of-cambridge-researchers-demonstrate-rapid-structural-analysis-of-challenging-drug-target"
+    },
+    {
+      "company": "Viralgen",
+      "place": "San Sebastián",
+      "sector": "Gene therapy",
+      "pillar": "marche",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "Kos Biotechnology Partners and research center FORTH to set up a biotech incubator in Crete",
-      "summary": "The New York- and Athens-based investor ($125M under management) signed a memorandum of understanding with the Foundation for Research and Technology-Hellas to host startups from the US, Europe, China and Israel on its Heraklion campus, with access to FORTH's labs and equipment. No amounts were disclosed: a signal of an emerging Greek biotech hub.",
-      "url": "https://www.prnewswire.com/news-releases/kos-biotechnology-partners-and-forth-announce-strategic-partnership-to-advance-biotechnology-innovation-in-greece-302940869.html"
+      "title": "AAV manufacturer Viralgen (Bayer group) will produce the Gene2Cure foundation's gene therapies for three ultra-rare paediatric diseases",
+      "summary": "AskBio's Spanish subsidiary will supply toxicology and then clinical batches through its Aava platform for the US foundation's PUS3, Smith-Lemli-Opitz and GAND programs. An example of the philanthropic model taking over from biotechs in indications too small for venture capital.",
+      "url": "https://www.prnewswire.com/news-releases/gene2cure-foundation-and-viralgen-collaborate-to-advance-a-portfolio-of-gene-therapy-programs-for-rare-and-ultra-rare-genetic-conditions-302942237.html"
+    },
+    {
+      "company": "Roche",
+      "place": "Basel",
+      "sector": "Oncology",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "FDA approves Wilserdly (giredestrant), Roche's oral SERD, with everolimus in ESR1-mutated advanced breast cancer",
+      "summary": "In the Phase III evERA trial, the combination cut the risk of progression or death by 62% in ESR1-mutated patients after a CDK4/6 inhibitor (HR 0.38). A second decision, in the adjuvant setting based on lidERA, is due by November 30: a key comparable for European biotechs working on oestrogen receptor degraders.",
+      "url": "https://www.biospace.com/press-releases/fda-approves-roches-wilserdly-giredestrant-a-next-generation-oral-serd-for-er-positive-esr1-mutated-advanced-breast-cancer"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Seawolf Therapeutics",
-      "place": "San Diego",
-      "sector": "Gene therapy",
+      "company": "Marrow Therapeutics",
+      "place": "United States",
+      "sector": "RNA",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 4,
-      "title": "Seawolf emerges from stealth with $100M and a Sanofi deal worth up to $1.2B for redosable DNA medicines",
-      "summary": "Its TRIDENT platform packages in lipid nanoparticles DNA engineered not to trigger an immune response, able to reach the nucleus and drive protein production for longer than RNA; the Versant-led seed and a Series A include Eli Lilly, CRISPR Therapeutics and Novartis's venture fund. Sanofi is committing across multiple targets, including bleeding disorders.",
-      "url": "https://www.biopharmadive.com/news/seawolf-therapeutics-dna-versant-startup-financing/874465/"
+      "title": "Marrow Therapeutics emerges from stealth with $173M in Series A and B to treat sickle cell disease with a simple siRNA injection",
+      "summary": "Its preclinical candidate MAR-101 links an siRNA to an anti-transferrin-receptor antibody to restart fetal haemoglobin production in the bone marrow, without the cell collection and chemotherapy conditioning that Casgevy requires; OrbiMed, venBio and founder Scion Life Sciences are among eleven investors. An in vivo alternative competing head-on with gene editing.",
+      "url": "https://www.biopharmadive.com/news/marrow-therapeutics-sickle-cell-beta-thalassemia-drug/874789/"
     },
     {
-      "company": "Calytrix Bio",
-      "place": "Wellesley",
+      "company": "Stipple Bio",
+      "place": "United States",
       "sector": "Oncology",
       "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "Lilly buys Calytrix Bio for up to $1.5B, its 14th acquisition of the year, for a preclinical antibody against myeloproliferative neoplasms",
-      "summary": "Formed in 2025 by J.P. Morgan Asset Management's life sciences venture arm, the startup is developing a biparatopic antibody targeting a cell-surface protein specific to CALR mutation-driven disease (myelofibrosis, essential thrombocythemia). A comparable showing that big pharma is now buying as early as preclinical.",
-      "url": "https://www.biopharmadive.com/news/lilly-calytrix-bio-acquire-deal-myelofibrosis-essential-thrombocythemiaenial-/874719/"
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Lilly signs a multi-target deal worth up to $5.9B with Stipple Bio for tumour-specific epitope binders",
+      "summary": "Stipple receives an undisclosed upfront and an equity investment from Lilly, which gains exclusive worldwide rights to products from its Pointillist platform, designed to limit toxicity in healthy tissue. Another giant preclinical pact for Lilly, a day after Calytrix.",
+      "url": "https://www.biospace.com/business/lilly-pens-another-deal-inking-up-to-5-9b-oncology-pact-with-stipple"
     },
     {
-      "company": "CG Oncology",
-      "place": "Irvine",
-      "sector": "Oncology",
+      "company": "Sellas Life Sciences",
+      "place": "New York",
+      "sector": "Vaccines",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 4,
-      "title": "CG Oncology's oncolytic virus cuts the risk of relapse after bladder cancer surgery by 68% in Phase 3",
-      "summary": "In the PIVOT-006 trial, in patients with intermediate-risk or high-grade non-muscle invasive bladder cancer, cretostimogene reduced the relative risk of relapse by 68% versus surveillance after 17 months of follow-up, with no severe treatment-related adverse events. The company plans to seek approval in this post-surgery setting.",
-      "url": "https://www.biopharmadive.com/news/cg-oncology-cretostimogene-adjuvant-bladder-cancer-results-pivot/874740/"
+      "title": "Sellas' WT1 peptide vaccine cuts the risk of death by 41% in acute myeloid leukaemia in Phase 3",
+      "summary": "In the REGAL trial (126 patients in second or later remission), galinpepimut-S maintenance lifted median survival to 24 months versus 14.7 months on investigator's choice, meeting the primary endpoint. Sellas wants to discuss accelerated approval with the FDA and file in the first half of 2027: a rare pivotal win for therapeutic cancer vaccines.",
+      "url": "https://www.biospace.com/drug-development/sellas-cancer-vaccine-slashes-death-risk-by-41-in-late-stage-aml-study"
     }
   ],
   "word": {
-    "term": "E3 Ligase",
-    "full": "E3 Ubiquitin Ligase",
-    "fr": "E3 ubiquitin ligase",
-    "field": "Targeted protein degradation",
-    "definition": "An enzyme that sticks a ubiquitin \"tag\" onto a specific protein to send it to the cell's shredder, the proteasome: new \"degrader\" drugs hijack these enzymes to get disease-causing proteins destroyed.",
+    "term": "Biomolecular Condensate",
+    "full": "Biomolecular Condensate",
+    "fr": "Biomolecular condensate",
+    "field": "Drug discovery",
+    "definition": "A membraneless droplet that forms inside the cell when certain proteins and RNAs cluster together, a bit like oil in water, to concentrate a reaction; new \"c-mod\" drugs target these droplets rather than a single protein.",
     "parts": [
-      {
-        "label": "E3 ligase",
-        "role": "the recruiter: it recognizes the protein to be removed and transfers ubiquitin to it; humans have more than 600"
-      },
-      {
-        "label": "Ubiquitin",
-        "role": "the tag: a small protein whose chain signals \"destroy me\""
-      },
-      {
-        "label": "Proteasome",
-        "role": "the shredder: it cuts the tagged protein into small pieces"
-      }
+      { "label": "Disordered proteins", "role": "the bricks: proteins with long flexible regions, highly enriched in condensates" },
+      { "label": "Interaction network", "role": "the cement: proteins, RNAs and metabolites attract each other and form a distinct compartment" },
+      { "label": "Condensate", "role": "the workshop: it concentrates the machinery of a function (gene expression, stress response, signalling)" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Proximity",
-        "t": "A degrader molecule (a two-armed PROTAC or a \"molecular glue\") brings an E3 ligase into contact with a target protein it would not have recognized on its own."
-      },
-      {
-        "n": "2",
-        "h": "Tagging",
-        "t": "The E3 ligase attaches a ubiquitin chain to the target protein."
-      },
-      {
-        "n": "3",
-        "h": "Destruction",
-        "t": "The proteasome recognizes the tag and destroys the protein; the degrader is released and can start again."
-      }
+      { "n": "1", "h": "Mapping", "t": "Identify the condensates where a disease plays out, such as the transcriptional droplets MYC uses to switch on its genes." },
+      { "n": "2", "h": "Screening", "t": "Look for molecules that dissolve or induce these condensates, relocate their components or change their physical state (dissolvers, inducers, localizers, morphers)." },
+      { "n": "3", "h": "Effect", "t": "By disrupting the pathological condensate, the drug shuts down the program it carries, even when the target protein has no classic pocket." }
     ],
-    "why": "Choosing the E3 ligase has become the crux of the field: of more than 600 human ligases, only about ten have been used for targeted degradation, dominated by CRBN and VHL, which limits tissue selectivity and invites resistance. Each newly exploitable ligase opens up otherwise inaccessible targets: TRIM21, which only activates when its substrate is clustered, preferentially clears tau aggregates where a conventional PROTAC fails preclinically, hence the deal worth up to $411M between TRIMTECH and Biogen. VC diligence point: is the ligase present in the target tissue (brain, tumor) and protected by IP?",
+    "why": "It is a way into targets considered \"undruggable\", such as transcription factors: Dewpoint and Cancer Research UK will test a MYC condensate modulator in humans on this basis. The thesis is attractive but still clinically unproven; for a VC, the questions are whether the effect really runs through the condensate rather than a classic mechanism, and whether the first MYC trial validates the concept.",
     "startups": [
-      {
-        "name": "TRIMTECH Therapeutics",
-        "use": "TRIMTAC and TRIMGLUE degraders built on the E3 ligase TRIM21 to clear toxic aggregates in neurodegenerative diseases; deal worth up to $411M with Biogen (November 2026)",
-        "place": "Cambridge, UK"
-      },
-      {
-        "name": "Amphista Therapeutics",
-        "use": "Dundee spin-out: Eclipsys \"Targeted Glue\" platform recruiting novel E3 ligases; its DCAF16-dependent BRD9 degrader AMX-883 received FDA IND clearance in June 2026 in acute myeloid leukemia",
-        "place": "United Kingdom"
-      },
-      {
-        "name": "Proxygen",
-        "use": "CeMM spin-off systematically mapping interactions between disease proteins and E3 ligases; two glue degrader programs (p300, CDK12) heading toward candidate nomination",
-        "place": "Vienna, Austria"
-      }
+      { "name": "Dewpoint Therapeutics", "use": "Condensate modulators in oncology, neurology and cardiometabolic disease; DPTX8743 (MYC condensates) is heading into Phase 1/2a with Cancer Research UK", "place": "Boston / Dresden" },
+      { "name": "Nuage Therapeutics", "use": "IRB Barcelona and ICREA spinout backed by Sabadell Asabys: targets disordered proteins that form condensates, starting with castration-resistant prostate cancer", "place": "Barcelona, Spain" },
+      { "name": "Transition Bio", "use": "Harvard-Cambridge spinout: microfluidics and AI platform to map and modulate condensates, $50M Series A led by Northpond Ventures with BMS", "place": "Cambridge, UK" }
     ],
     "sources": [
-      {
-        "publisher": "Nature Reviews Cancer (PMC)",
-        "title": "Advancing targeted protein degradation for cancer therapy",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8463487/"
-      },
-      {
-        "publisher": "Nature Communications (PMC)",
-        "title": "State-selective small molecule degraders that preferentially remove aggregates and oligomers",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12647892/"
-      },
-      {
-        "publisher": "Cambridge Innovation Capital",
-        "title": "TRIMTECH Therapeutics enters strategic research collaboration with Biogen to advance small molecule degraders for neurodegenerative disease",
-        "url": "https://www.cic.vc/trimtech-therapeutics-enters-strategic-research-collaboration-with-biogen-to-advance-small-molecule-degraders-for-neurodegenerative-disease/"
-      },
-      {
-        "publisher": "BioSpace",
-        "title": "Amphista Therapeutics Announces FDA Clearance of IND Application for AMX-883, its Lead Targeted Glue Degrader for Acute Myeloid Leukaemia",
-        "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-fda-clearance-of-ind-application-for-amx-883-its-lead-targeted-glue-degrader-for-acute-myeloid-leukaemia"
-      }
+      { "publisher": "Frontiers in Molecular Biosciences (PMC)", "title": "Principles and functions of condensate modifying drugs", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9725174" },
+      { "publisher": "BioSpace (GlobeNewswire)", "title": "Cancer Research UK and Dewpoint Therapeutics partner to advance potential first-in-class MYC condensate modulator into clinical development", "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development" },
+      { "publisher": "IRB Barcelona", "title": "Nuage Therapeutics, the spin-off from IRB Barcelona and ICREA, is launched with the support of Asabys", "url": "https://www.irbbarcelona.org/en/news/innovation/nuage-therapeutics-spin-irb-barcelona-and-icrea-launched-support-asabys" },
+      { "publisher": "Cambridge Enterprise", "title": "Joint Harvard-Cambridge spin-out closes $50m Series A to drive biomolecular condensate drug discovery", "url": "https://www.enterprise.cam.ac.uk/news/joint-harvard-cambridge-spin-out-closes-50m-series-a-to-drive-biomolecular-condensate-drug-discovery/" }
     ]
   }
 }
