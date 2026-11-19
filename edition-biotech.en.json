@@ -1,175 +1,262 @@
 {
-  "dateLong": "Nov 18, 2026",
+  "dateLong": "Nov 19, 2026",
   "ticker": [
-    { "company": "COMMIT BIOLOGICS", "amount": "$60M", "kind": "lev" },
-    { "company": "DEWPOINT", "amount": "CRUK deal", "kind": "tech" },
-    { "company": "ENTERPRISE TX", "amount": "EMA orphan", "kind": "reg" },
-    { "company": "ISOMORPHIC", "amount": "$5B", "kind": "lev" },
-    { "company": "NUCLERA", "amount": "Preprint", "kind": "tech" },
-    { "company": "ROCHE", "amount": "FDA", "kind": "reg" }
+    {
+      "company": "GENOMICS",
+      "amount": "Vertex deal",
+      "kind": "tech"
+    },
+    {
+      "company": "INNATE",
+      "amount": "Ph1 data",
+      "kind": "tech"
+    },
+    {
+      "company": "LYTIX",
+      "amount": "NOK 80M",
+      "kind": "lev"
+    },
+    {
+      "company": "EKTAH",
+      "amount": "i-Démo",
+      "kind": "new"
+    },
+    {
+      "company": "BIOCON",
+      "amount": "EU approval",
+      "kind": "reg"
+    },
+    {
+      "company": "STARNA",
+      "amount": "$330M upfront",
+      "kind": "mna"
+    }
   ],
   "lead": {
-    "kicker": "Seed · Immuno-oncology",
-    "title": "Aarhus University spinout Commit Biologics closes a $60M seed led by Ackermans & van Haaren for antibodies that recruit complement",
-    "deck": "The Danish biotech announced on November 17 the final close of a $60M (€54M) seed led by Belgium's Ackermans & van Haaren, with AbbVie Ventures and M Ventures (Merck KGaA) joining Novo Holdings, Bioqube Ventures and Korys; the money funds IND-enabling work on COM002, its first candidate for relapsed non-Hodgkin lymphoma, and a second program. Its BiCE platform has the complement system, rather than T cells, attack diseased cells: in preclinical work a single dose depleted B cells in primates for more than four weeks without cytokine release, which explains why two pharma corporate VCs came in well ahead of the clinic, expected in early 2028.",
-    "company": "Commit Biologics",
-    "stage": "Seed",
-    "sector": "Immunology",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/"
+    "kicker": "Pharma partnership · AI drug discovery",
+    "title": "Oxford spinout Genomics Ltd extends its human-genetics target discovery alliance with Vertex by four years, in a deal that could exceed $220M",
+    "deck": "On November 18, Peter Donnelly's company announced the extension of the target discovery and validation collaboration it struck with Vertex in 2018: potential value exceeds $220M in research, development, regulatory and commercial milestones, plus tiered royalties on sales. Vertex, a Genomics shareholder since 2018, is signing up for four more years of a platform (a genotype-phenotype database and the Mystra tool) that uses human genetic variation to pick targets and biomarkers, a rare traction signal for a still-independent European techbio.",
+    "company": "Genomics Ltd",
+    "sector": "AI drug discovery",
+    "pillar": "marche",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/genomics-ltd-announces-extension-of-strategic-drug-discovery-collaboration-with-vertex-pharmaceuticals"
   },
   "milestone": {
-    "company": "Dewpoint Therapeutics",
-    "milestone": "Toward Phase 1/2a",
-    "title": "Cancer Research UK will fund and run the first-in-human trial of DPTX8743, Dewpoint's MYC condensate modulator",
-    "summary": "Rather than hitting the notoriously \"undruggable\" MYC protein, the small molecule DPTX8743 disrupts the droplets (condensates) where MYC switches on its genes; preclinically it suppresses MYC-driven gene expression and kills tumour cells. CRUK's Centre for Drug Development will pay for and run the CTA-enabling studies and then a Phase 1/2a targeting ovarian, oesophageal, colorectal and pancreatic cancers among others; Dewpoint keeps all rights, and CRUK is eligible for milestones and royalties.",
-    "why": "MYC is dysregulated in most human cancers and has resisted drug hunters for forty years: this is a real-world test of the whole condensate thesis. The model is also instructive for VCs, since the charity carries the early clinical risk without diluting the biotech.",
-    "place": "London",
+    "company": "Innate Pharma",
+    "milestone": "Phase 1 data",
+    "title": "Innate Pharma's Nectin-4 ADC IPH4502 shows responses in urothelial cancer patients already treated with enfortumab vedotin",
+    "summary": "Presented at ENA 2026, dose escalation enrolled 76 heavily pretreated patients (median 3.5 prior lines): among the 19 urothelial cancer patients previously given Padcev, there were three partial responses (one confirmed) and an unconfirmed disease control rate of 68.4%, with responses regardless of Nectin-4 expression level. Stomatitis was the only dose-limiting toxicity, with no neuropathy or febrile neutropenia; a dose-optimization phase is due to start in the first half of 2027.",
+    "why": "Padcev (enfortumab vedotin) now dominates advanced bladder cancer, and patients who relapse after it have few options: an ADC hitting the same target with a different payload (exatecan, a topoisomerase I inhibitor) that still works there would open a niche. Patient numbers remain very small, hence the caution.",
+    "place": "Marseille",
     "sector": "Oncology",
-    "signalType": "early_partnership",
-    "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development"
+    "signalType": "clinical_update",
+    "url": "https://www.biospace.com/press-releases/innate-pharma-presents-initial-phase-1-clinical-data-for-iph4502-at-ena-2026"
   },
   "deal": {
-    "company": "Isomorphic Labs",
-    "amount": "$5B",
-    "round": "Series C",
-    "thesis": "Greenoaks and Sequoia co-lead, with Andreessen Horowitz joining and Alphabet, Thrive, MGX, GV, CapitalG, Temasek and the UK Sovereign AI Fund following on: the largest private biotech raise ever, six months after a $2.1B Series B, for a London company with no disclosed asset and nothing yet in the clinic. Investors are paying for the IsoDDE design engine and the partnerships with Lilly, Novartis and J&J; for the rest of the ecosystem it is mainly a comparable that pulls talent and capital toward AI drug discovery, and its first clinical entry will be the real test.",
-    "sector": "AI drug discovery",
-    "url": "https://www.biospace.com/drug-development/isomorphic-labs-breaks-biotech-vc-fundraising-record-with-5b-series-c"
+    "company": "Lytix Biopharma",
+    "amount": "NOK 80M",
+    "round": "Private placement",
+    "thesis": "The Oslo biotech raises NOK 80M at NOK 8 per share from Norwegian private investors (Saturn Invest, HIFO Invest, TAJ Holding, Jakob Hatteland Holding, Per Strand Eiendom), with no named lead and about 12% dilution, ten days after its NeoLIPA phase II success in melanoma. The money prepares a registrational phase III of ruxotemitide in the neoadjuvant setting and moves LTX-401 toward phase I, but the phase III itself will need a partner or more funding: a typical bridge round for a Nordic oncolytic waiting for pharma.",
+    "sector": "Oncology",
+    "url": "https://nordiclifescience.org/lytix-biopharma-raises-nok-80-million/"
   },
   "brefsEurope": [
     {
-      "company": "Human Biome Institute",
-      "place": "Warsaw",
-      "sector": "Biotech",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "stage": "Series A",
-      "title": "Human Biome Institute raises PLN 75.5M (about $18.9M) in a Series A to move from faecal transplants to microbiome drugs",
-      "summary": "The Warsaw company already sells faecal microbiota transplant capsules and suspensions against C. difficile infections to about half of Poland's hospitals; Twiti Investments, the NCBR and IGS funds and private backers are financing its new candidates, with no lead announced. It puts its next round at $30M or more for preclinical work and a first clinical phase, and is eyeing a listing outside Poland.",
-      "url": "https://dealroom.co/news/173283-poland-s-human-biome-raises-18-9m-series-a-and-needs-far-more/"
-    },
-    {
-      "company": "Enterprise Therapeutics",
-      "place": "Brighton",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "company": "Priavoid",
+      "place": "Düsseldorf",
+      "sector": "Neuroscience",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
       "strength": 3,
-      "title": "Enterprise Therapeutics wins EMA orphan designation for ETD001, its inhaled ENaC blocker for cystic fibrosis",
-      "summary": "The EMA's COMP granted the designation to this inhaled molecule, which blocks the epithelial sodium channel to thin mucus, for patients who cannot benefit from CFTR modulators; the Phase 2 ET-ENAC-03 trial had pointed to improved lung function. An orphan niche left behind by Vertex's modulators.",
-      "url": "https://www.biospace.com/press-releases/enterprise-therapeutics-granted-ema-orphan-medicinal-product-designation-for-novel-cystic-fibrosis-therapy-etd001"
+      "title": "Priavoid's Alzheimer's pill PRI-002 misses its primary efficacy endpoint in phase 2, despite signals at 72 weeks",
+      "summary": "The PRImus-AD trial (304 patients, 38 sites in six European countries) showed no significant effect on CDR-SB at 48 weeks; only ADAS-Cog13 at 72 weeks, per protocol, slowed decline by 35.9% (p=0.022), with very little ARIA-E edema. The oral all-D peptide, designed to dismantle amyloid oligomers, will be reassessed before any new study.",
+      "url": "https://www.biospace.com/press-releases/priavoid-announces-topline-phase-2-data-for-oral-all-d-peptide-pri-002-in-alzheimers-disease-at-ctad-2026"
     },
     {
-      "company": "Cradle",
-      "place": "Amsterdam",
-      "sector": "AI drug discovery",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "argenx expands use of Cradle's AI protein design platform to more teams and antibody programs",
-      "summary": "After early results it called successful, the Belgian autoimmune specialist's scientists use the Amsterdam startup's tool (backed by IVP, Index Ventures and Kindred) to optimise the affinity and selectivity of candidates and generate new ones. No financial terms disclosed: a commercial traction signal for a European AI vendor.",
-      "url": "https://www.biospace.com/press-releases/cradles-antibody-discovery-platform-for-autoimmune-diseases-supports-scientific-mission-of-argenx"
+      "company": "Oncoinvent",
+      "place": "Oslo",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Oncoinvent: independent committee clears the randomized phase 2 of Radspherin in ovarian cancer peritoneal metastases to continue unchanged",
+      "summary": "The first safety analysis, covering 56 patients (40 treated), found no serious adverse events related to this alpha radiopharmaceutical injected into the abdomen after surgery; 74 patients have been randomized. Full enrollment is expected in the first half of 2027, with a first efficacy readout in April 2027.",
+      "url": "https://nordiclifescience.org/oncoinvents-radspherin-clears-first-randomized-safety-review/"
     },
     {
-      "company": "Nuclera",
-      "place": "Cambridge",
+      "company": "Zealand Pharma",
+      "place": "Copenhagen",
       "sector": "Biotech",
       "pillar": "innovation",
-      "signalType": "publication_preprint",
+      "signalType": "clinical_update",
       "strength": 2,
-      "title": "Nuclera and the University of Cambridge get a GPCR cryo-EM structure in four days, from gene to sample",
-      "summary": "Using cell-free protein synthesis and a lipid nanodisc panel, the team solved the adenosine A2A receptor bound to an antagonist at 3.38 Å and produced twelve other GPCRs, six of them orphans (bioRxiv preprint, presented at PEGS Europe on November 19). GPCRs remain the largest family of drug targets, and producing them is a discovery bottleneck.",
-      "url": "https://www.biospace.com/press-releases/nuclera-and-university-of-cambridge-researchers-demonstrate-rapid-structural-analysis-of-challenging-drug-target"
+      "title": "Roche starts the phase 2 ZYNERGY trial combining Zealand's petrelintide with its dual GLP-1/GIP agonist enicepatide in obesity",
+      "summary": "About 480 patients will test three weekly combinations of the amylin analog and Roche's incretin against placebo and each drug alone, with weight loss at 40 weeks as the primary endpoint. A comparable for the obesity market: amylin + incretin combinations are becoming the core of the partnership signed in 2025.",
+      "url": "https://www.biospace.com/press-releases/zealand-pharma-announces-initiation-of-the-phase-2-zynergy-trial-of-petrelintide-co-administered-with-enicepatide-in-people-with-obesity-or-overweight"
     },
     {
-      "company": "Viralgen",
-      "place": "San Sebastián",
-      "sector": "Gene therapy",
+      "company": "TreeFrog Therapeutics",
+      "place": "Bordeaux",
+      "sector": "Cell therapy",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "AAV manufacturer Viralgen (Bayer group) will produce the Gene2Cure foundation's gene therapies for three ultra-rare paediatric diseases",
-      "summary": "AskBio's Spanish subsidiary will supply toxicology and then clinical batches through its Aava platform for the US foundation's PUS3, Smith-Lemli-Opitz and GAND programs. An example of the philanthropic model taking over from biotechs in indications too small for venture capital.",
-      "url": "https://www.prnewswire.com/news-releases/gene2cure-foundation-and-viralgen-collaborate-to-advance-a-portfolio-of-gene-therapy-programs-for-rare-and-ultra-rare-genetic-conditions-302942237.html"
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "TreeFrog Therapeutics hires James Sterling, former bluebird bio CFO who led Renalytix's IPOs, as chief financial officer",
+      "summary": "The Bordeaux biotech, which mass-produces stem cells with its C-Stem technology and targets Parkinson's disease first, hands finance, investor relations and corporate development to a CFO who has run listings in London and on Nasdaq. It has raised $82M since 2021: a hire that often precedes the next round.",
+      "url": "https://www.biospace.com/press-releases/treefrog-therapeutics-appoints-james-sterling-as-chief-financial-officer"
     },
     {
-      "company": "Roche",
-      "place": "Basel",
-      "sector": "Oncology",
+      "company": "Sobi",
+      "place": "Stockholm",
+      "sector": "RNA",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "FDA approves Wilserdly (giredestrant), Roche's oral SERD, with everolimus in ESR1-mutated advanced breast cancer",
-      "summary": "In the Phase III evERA trial, the combination cut the risk of progression or death by 62% in ESR1-mutated patients after a CDK4/6 inhibitor (HR 0.38). A second decision, in the adjuvant setting based on lidERA, is due by November 30: a key comparable for European biotechs working on oestrogen receptor degraders.",
-      "url": "https://www.biospace.com/press-releases/fda-approves-roches-wilserdly-giredestrant-a-next-generation-oral-serd-for-er-positive-esr1-mutated-advanced-breast-cancer"
+      "title": "European Commission extends approval of Tryngolza (olezarsen), the RNA-targeted therapy marketed by Sobi, to severe hypertriglyceridemia",
+      "summary": "Originated by Ionis, the monthly autoinjector cut triglycerides by up to 73% versus placebo and acute pancreatitis by 83% in the phase 3 CORE and CORE2 trials. Sobi holds rights outside the US, Canada and China: a comparable for the rise of oligonucleotides in common cardiometabolic diseases.",
+      "url": "https://nordiclifescience.org/eu-approves-sobis-tryngolza-for-severe-hypertriglyceridemia/"
+    },
+    {
+      "company": "Ellipses Pharma",
+      "place": "London",
+      "sector": "Oncology",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 2,
+      "title": "Ellipses Pharma explores a London Stock Exchange listing via a reverse takeover by SPAC Wolfram Resources",
+      "summary": "A non-binding memorandum of understanding has Wolfram buying Ellipses for shares ahead of a relisting on the Main Market, alongside an undisclosed fundraise, targeted for early 2027. Ellipses is developing a selective RET inhibitor (EP0031, partnered with Kelun-Biotech) and an oral SARM in breast cancer, both in phase 2.",
+      "url": "https://www.biospace.com/press-releases/ellipses-pharma-explores-a-london-stock-exchange-listing-opportunity"
+    },
+    {
+      "company": "EktaH",
+      "place": "Dijon",
+      "sector": "Biotech",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "EktaH wins €2.4M through Bpifrance's i-Démo program for its phase IIa in obesity",
+      "summary": "Founded in 2021 on fifteen years of academic research into fat taste receptors, the Dijon startup is preparing an exploratory phase IIa in Tunisia to generate the clinical data investors want. CEO Xavier Boidevezi says a US fund is ready to invest if a European investor leads the ongoing round.",
+      "url": "https://biotech-finances.com/fr/articles/ektah-24-meuro-via-i-demo-90-jours-convaincre-04639f66"
+    },
+    {
+      "company": "Novo Nordisk Foundation",
+      "place": "Copenhagen",
+      "sector": "Fund",
+      "pillar": "financement",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Novo Nordisk Foundation raises its support for CARB-X, the antimicrobial resistance accelerator, to $60M over four years",
+      "summary": "Up from an initial $25M in 2024, the Danish foundation funds the public-private partnership that gives grants to antibiotics, vaccines and early diagnostics, with Gram-negative bacteria as a priority. CARB-X, which accepts projects from anywhere in the world, is a key source of non-dilutive funding for European anti-infective startups.",
+      "url": "https://www.biospace.com/press-releases/novo-nordisk-foundation-commits-us-60-million-to-strengthen-carb-x-efforts-against-antimicrobial-resistance"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Marrow Therapeutics",
-      "place": "United States",
-      "sector": "RNA",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Marrow Therapeutics emerges from stealth with $173M in Series A and B to treat sickle cell disease with a simple siRNA injection",
-      "summary": "Its preclinical candidate MAR-101 links an siRNA to an anti-transferrin-receptor antibody to restart fetal haemoglobin production in the bone marrow, without the cell collection and chemotherapy conditioning that Casgevy requires; OrbiMed, venBio and founder Scion Life Sciences are among eleven investors. An in vivo alternative competing head-on with gene editing.",
-      "url": "https://www.biopharmadive.com/news/marrow-therapeutics-sickle-cell-beta-thalassemia-drug/874789/"
-    },
-    {
-      "company": "Stipple Bio",
-      "place": "United States",
-      "sector": "Oncology",
+      "company": "Starna Therapeutics",
+      "place": "China",
+      "sector": "Cell therapy",
       "pillar": "financement",
       "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Lilly signs a multi-target deal worth up to $5.9B with Stipple Bio for tumour-specific epitope binders",
-      "summary": "Stipple receives an undisclosed upfront and an equity investment from Lilly, which gains exclusive worldwide rights to products from its Pointillist platform, designed to limit toxicity in healthy tissue. Another giant preclinical pact for Lilly, a day after Calytrix.",
-      "url": "https://www.biospace.com/business/lilly-pens-another-deal-inking-up-to-5-9b-oncology-pact-with-stipple"
+      "strength": 5,
+      "title": "Pfizer moves into in vivo CAR-T: $330M upfront for three preclinical programs from China's Starna, worth up to $2.6B",
+      "summary": "Pfizer gets ex-Greater China rights to three autoimmune programs based on RNA that reprograms immune cells directly inside the body, with up to $2.3B in milestones. A comparable that prices in vivo CAR-T for European biotechs in the field, just as Novartis and BMS have paused CAR-T trials in autoimmunity.",
+      "url": "https://www.biopharmadive.com/news/pfizer-starna-in-vivo-cell-therapy-autoimmune-disease-deal/875018/"
     },
     {
-      "company": "Sellas Life Sciences",
-      "place": "New York",
-      "sector": "Vaccines",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "Sellas' WT1 peptide vaccine cuts the risk of death by 41% in acute myeloid leukaemia in Phase 3",
-      "summary": "In the REGAL trial (126 patients in second or later remission), galinpepimut-S maintenance lifted median survival to 24 months versus 14.7 months on investigator's choice, meeting the primary endpoint. Sellas wants to discuss accelerated approval with the FDA and file in the first half of 2027: a rare pivotal win for therapeutic cancer vaccines.",
-      "url": "https://www.biospace.com/drug-development/sellas-cancer-vaccine-slashes-death-risk-by-41-in-late-stage-aml-study"
+      "company": "Biocon",
+      "place": "Bengaluru",
+      "sector": "Oncology",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "Biocon's pertuzumab Pebrilzo becomes the first biosimilar authorized in the EU under the EMA's new tailored clinical approach",
+      "summary": "The authorization, following a positive CHMP opinion in September, relies on comparative pharmacokinetic data to demonstrate similarity. A lighter regulatory path that lowers the entry cost for antibody biosimilars in Europe.",
+      "url": "https://www.prnewswire.com/news-releases/le-pertuzumab-de-biocon-obtient-une-autorisation-de-mise-sur-le-marche-dans-lunion-europeenne-premier-biosimilaire-autorise-dans-le-cadre-de-la-nouvelle-approche-clinique-de-lema-302944185.html"
     }
   ],
   "word": {
-    "term": "Biomolecular Condensate",
-    "full": "Biomolecular Condensate",
-    "fr": "Biomolecular condensate",
-    "field": "Drug discovery",
-    "definition": "A membraneless droplet that forms inside the cell when certain proteins and RNAs cluster together, a bit like oil in water, to concentrate a reaction; new \"c-mod\" drugs target these droplets rather than a single protein.",
+    "term": "TAT",
+    "full": "Targeted Alpha Therapy",
+    "fr": "Targeted alpha therapy",
+    "field": "Radiopharmaceuticals",
+    "definition": "A treatment that attaches a radioactive atom emitting alpha particles to a guide molecule (antibody, peptide, small molecule) to irradiate cancer cells at very close range, across just a few cells.",
     "parts": [
-      { "label": "Disordered proteins", "role": "the bricks: proteins with long flexible regions, highly enriched in condensates" },
-      { "label": "Interaction network", "role": "the cement: proteins, RNAs and metabolites attract each other and form a distinct compartment" },
-      { "label": "Condensate", "role": "the workshop: it concentrates the machinery of a function (gene expression, stress response, signalling)" }
+      {
+        "label": "Vector",
+        "role": "guidance to the tumor"
+      },
+      {
+        "label": "Chelator",
+        "role": "the clamp that holds the atom"
+      },
+      {
+        "label": "Alpha emitter",
+        "role": "the warhead (actinium-225, lead-212, radium…)"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Mapping", "t": "Identify the condensates where a disease plays out, such as the transcriptional droplets MYC uses to switch on its genes." },
-      { "n": "2", "h": "Screening", "t": "Look for molecules that dissolve or induce these condensates, relocate their components or change their physical state (dissolvers, inducers, localizers, morphers)." },
-      { "n": "3", "h": "Effect", "t": "By disrupting the pathological condensate, the drug shuts down the program it carries, even when the target protein has no classic pocket." }
+      {
+        "n": "1",
+        "h": "Targeting",
+        "t": "The vector binds a receptor overexpressed by the tumor (PSMA, SSTR2…) or, for Radspherin, the radium is injected straight into the abdominal cavity."
+      },
+      {
+        "n": "2",
+        "h": "Decay",
+        "t": "The atom emits alpha particles that travel only 20 to 100 µm, i.e. 2 to 10 cell diameters, depositing a huge amount of energy."
+      },
+      {
+        "n": "3",
+        "h": "DNA breaks",
+        "t": "That highly concentrated energy causes clustered, hard-to-repair double-strand breaks that kill the cell even when it is poorly oxygenated or not dividing."
+      }
     ],
-    "why": "It is a way into targets considered \"undruggable\", such as transcription factors: Dewpoint and Cancer Research UK will test a MYC condensate modulator in humans on this basis. The thesis is attractive but still clinically unproven; for a VC, the questions are whether the effect really runs through the condensate rather than a classic mechanism, and whether the first MYC trial validates the concept.",
+    "why": "Beta radioligands (lutetium-177) proved the model; alpha promises more potency over a shorter range, including after lutetium fails. The bottleneck is isotope supply (actinium-225, lead-212) and manufacturing: mega-rounds such as AdvanCell's fund plants as much as clinics, and a biotech that controls its isotope chain commands a premium.",
     "startups": [
-      { "name": "Dewpoint Therapeutics", "use": "Condensate modulators in oncology, neurology and cardiometabolic disease; DPTX8743 (MYC condensates) is heading into Phase 1/2a with Cancer Research UK", "place": "Boston / Dresden" },
-      { "name": "Nuage Therapeutics", "use": "IRB Barcelona and ICREA spinout backed by Sabadell Asabys: targets disordered proteins that form condensates, starting with castration-resistant prostate cancer", "place": "Barcelona, Spain" },
-      { "name": "Transition Bio", "use": "Harvard-Cambridge spinout: microfluidics and AI platform to map and modulate condensates, $50M Series A led by Northpond Ventures with BMS", "place": "Cambridge, UK" }
+      {
+        "name": "Oncoinvent",
+        "use": "Radspherin, radium-224 microparticles injected into the peritoneum after surgery; randomized phase 2 in ovarian cancer",
+        "place": "Oslo"
+      },
+      {
+        "name": "Ariceum Therapeutics",
+        "use": "225Ac-SSO110, an actinium-225-labelled SSTR2 antagonist; phase I/II SANTANA-225 in small cell lung cancer and Merkel cell carcinoma",
+        "place": "Berlin"
+      },
+      {
+        "name": "AdvanCell",
+        "use": "Lead-212 platform; PSMA-targeted ADVC001 in phase 2 in prostate cancer, $315M Series D in July 2026",
+        "place": "Australia"
+      },
+      {
+        "name": "Convergent Therapeutics",
+        "use": "CONV01-α, an actinium-225 anti-PSMA radioantibody; phase 2 data at ASCO 2026 after lutetium-PSMA failure",
+        "place": "United States"
+      }
     ],
     "sources": [
-      { "publisher": "Frontiers in Molecular Biosciences (PMC)", "title": "Principles and functions of condensate modifying drugs", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9725174" },
-      { "publisher": "BioSpace (GlobeNewswire)", "title": "Cancer Research UK and Dewpoint Therapeutics partner to advance potential first-in-class MYC condensate modulator into clinical development", "url": "https://www.biospace.com/press-releases/cancer-research-uk-and-dewpoint-therapeutics-partner-to-advance-potential-first-in-class-myc-condensate-modulator-into-clinical-development" },
-      { "publisher": "IRB Barcelona", "title": "Nuage Therapeutics, the spin-off from IRB Barcelona and ICREA, is launched with the support of Asabys", "url": "https://www.irbbarcelona.org/en/news/innovation/nuage-therapeutics-spin-irb-barcelona-and-icrea-launched-support-asabys" },
-      { "publisher": "Cambridge Enterprise", "title": "Joint Harvard-Cambridge spin-out closes $50m Series A to drive biomolecular condensate drug discovery", "url": "https://www.enterprise.cam.ac.uk/news/joint-harvard-cambridge-spin-out-closes-50m-series-a-to-drive-biomolecular-condensate-drug-discovery/" }
+      {
+        "publisher": "Cancer Biotherapy & Radiopharmaceuticals (PMC)",
+        "title": "Advances in Precision Oncology: Targeted Thorium-227 Conjugates As a New Modality in Targeted Alpha Therapy",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475103"
+      },
+      {
+        "publisher": "Nordic Life Science",
+        "title": "Oncoinvent’s Radspherin clears first randomized safety review",
+        "url": "https://nordiclifescience.org/oncoinvents-radspherin-clears-first-randomized-safety-review/"
+      },
+      {
+        "publisher": "Contract Pharma",
+        "title": "AdvanCell Closes Oversubscribed $315M Series D Round",
+        "url": "https://www.contractpharma.com/breaking-news/advancell-closes-oversubscribed-315m-series-d-round/"
+      },
+      {
+        "publisher": "World Pharmaceutical Frontiers",
+        "title": "Ariceum Therapeutics doses first patient for SANTANA-225 trial for MCC and ES-SCLC",
+        "url": "https://www.worldpharmaceuticals.net/news/ariceum-therapeutics-doses-first-patient-for-santana-225-trial-for-mcc-and-es-sclc/"
+      }
     ]
   }
 }

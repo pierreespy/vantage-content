@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-19",
   "words": [
     {
+      "term": "TAT",
+      "full": "Targeted Alpha Therapy",
+      "fr": "Thérapie alpha ciblée",
+      "field": "Radiopharmaceutiques",
+      "definition": "Un traitement qui accroche un atome radioactif émetteur de particules alpha à une molécule-guide (anticorps, peptide, petite molécule) pour irradier les cellules cancéreuses de très près, sur quelques cellules seulement.",
+      "parts": [
+        {
+          "label": "Vecteur",
+          "role": "le guidage vers la tumeur"
+        },
+        {
+          "label": "Chélateur",
+          "role": "l'attache qui retient l'atome"
+        },
+        {
+          "label": "Émetteur alpha",
+          "role": "l'ogive (actinium-225, plomb-212, radium…)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le vecteur se fixe sur un récepteur surexprimé par la tumeur (PSMA, SSTR2…) ou, pour Radspherin, le radium est injecté directement dans la cavité abdominale."
+        },
+        {
+          "n": "2",
+          "h": "Désintégration",
+          "t": "L'atome émet des particules alpha qui ne parcourent que 20 à 100 µm, soit 2 à 10 diamètres de cellule, en déposant énormément d'énergie."
+        },
+        {
+          "n": "3",
+          "h": "Cassure de l'ADN",
+          "t": "Cette énergie très concentrée provoque des cassures double brin groupées, difficiles à réparer, qui tuent la cellule même si elle est peu oxygénée ou ne se divise pas."
+        }
+      ],
+      "why": "Les radioligands bêta (lutétium-177) ont prouvé le modèle ; l'alpha promet plus de puissance sur une portée plus courte, y compris après échec du lutétium. Le goulot est l'approvisionnement en isotopes (actinium-225, plomb-212) et la fabrication : les tours géants comme celui d'AdvanCell financent autant les usines que la clinique, et une biotech qui maîtrise sa chaîne d'isotopes vaut une prime.",
+      "startups": [
+        {
+          "name": "Oncoinvent",
+          "use": "Radspherin, microparticules de radium-224 injectées dans le péritoine après chirurgie ; phase 2 randomisée dans le cancer de l'ovaire",
+          "place": "Oslo"
+        },
+        {
+          "name": "Ariceum Therapeutics",
+          "use": "225Ac-SSO110, antagoniste de SSTR2 marqué à l'actinium-225 ; phase I/II SANTANA-225 dans le cancer du poumon à petites cellules et le carcinome de Merkel",
+          "place": "Berlin"
+        },
+        {
+          "name": "AdvanCell",
+          "use": "Plateforme plomb-212 ; ADVC001 anti-PSMA en phase 2 dans le cancer de la prostate, Series D de 315 M$ en juillet 2026",
+          "place": "Australie"
+        },
+        {
+          "name": "Convergent Therapeutics",
+          "use": "CONV01-α, radio-anticorps anti-PSMA à l'actinium-225 ; données de phase 2 à l'ASCO 2026 après échec du lutétium-PSMA",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Cancer Biotherapy & Radiopharmaceuticals (PMC)",
+          "title": "Advances in Precision Oncology: Targeted Thorium-227 Conjugates As a New Modality in Targeted Alpha Therapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475103"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Oncoinvent’s Radspherin clears first randomized safety review",
+          "url": "https://nordiclifescience.org/oncoinvents-radspherin-clears-first-randomized-safety-review/"
+        },
+        {
+          "publisher": "Contract Pharma",
+          "title": "AdvanCell Closes Oversubscribed $315M Series D Round",
+          "url": "https://www.contractpharma.com/breaking-news/advancell-closes-oversubscribed-315m-series-d-round/"
+        },
+        {
+          "publisher": "World Pharmaceutical Frontiers",
+          "title": "Ariceum Therapeutics doses first patient for SANTANA-225 trial for MCC and ES-SCLC",
+          "url": "https://www.worldpharmaceuticals.net/news/ariceum-therapeutics-doses-first-patient-for-santana-225-trial-for-mcc-and-es-sclc/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "19 nov. 2026"
+    },
+    {
       "term": "AR Surgical Navigation",
       "full": "Augmented Reality Surgical Navigation (navigation chirurgicale en réalité augmentée)",
       "fr": "Navigation chirurgicale en réalité augmentée",

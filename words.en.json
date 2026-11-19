@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-19",
   "words": [
     {
+      "term": "TAT",
+      "full": "Targeted Alpha Therapy",
+      "fr": "Targeted alpha therapy",
+      "field": "Radiopharmaceuticals",
+      "definition": "A treatment that attaches a radioactive atom emitting alpha particles to a guide molecule (antibody, peptide, small molecule) to irradiate cancer cells at very close range, across just a few cells.",
+      "parts": [
+        {
+          "label": "Vector",
+          "role": "guidance to the tumor"
+        },
+        {
+          "label": "Chelator",
+          "role": "the clamp that holds the atom"
+        },
+        {
+          "label": "Alpha emitter",
+          "role": "the warhead (actinium-225, lead-212, radium…)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Targeting",
+          "t": "The vector binds a receptor overexpressed by the tumor (PSMA, SSTR2…) or, for Radspherin, the radium is injected straight into the abdominal cavity."
+        },
+        {
+          "n": "2",
+          "h": "Decay",
+          "t": "The atom emits alpha particles that travel only 20 to 100 µm, i.e. 2 to 10 cell diameters, depositing a huge amount of energy."
+        },
+        {
+          "n": "3",
+          "h": "DNA breaks",
+          "t": "That highly concentrated energy causes clustered, hard-to-repair double-strand breaks that kill the cell even when it is poorly oxygenated or not dividing."
+        }
+      ],
+      "why": "Beta radioligands (lutetium-177) proved the model; alpha promises more potency over a shorter range, including after lutetium fails. The bottleneck is isotope supply (actinium-225, lead-212) and manufacturing: mega-rounds such as AdvanCell's fund plants as much as clinics, and a biotech that controls its isotope chain commands a premium.",
+      "startups": [
+        {
+          "name": "Oncoinvent",
+          "use": "Radspherin, radium-224 microparticles injected into the peritoneum after surgery; randomized phase 2 in ovarian cancer",
+          "place": "Oslo"
+        },
+        {
+          "name": "Ariceum Therapeutics",
+          "use": "225Ac-SSO110, an actinium-225-labelled SSTR2 antagonist; phase I/II SANTANA-225 in small cell lung cancer and Merkel cell carcinoma",
+          "place": "Berlin"
+        },
+        {
+          "name": "AdvanCell",
+          "use": "Lead-212 platform; PSMA-targeted ADVC001 in phase 2 in prostate cancer, $315M Series D in July 2026",
+          "place": "Australia"
+        },
+        {
+          "name": "Convergent Therapeutics",
+          "use": "CONV01-α, an actinium-225 anti-PSMA radioantibody; phase 2 data at ASCO 2026 after lutetium-PSMA failure",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Cancer Biotherapy & Radiopharmaceuticals (PMC)",
+          "title": "Advances in Precision Oncology: Targeted Thorium-227 Conjugates As a New Modality in Targeted Alpha Therapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7475103"
+        },
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Oncoinvent’s Radspherin clears first randomized safety review",
+          "url": "https://nordiclifescience.org/oncoinvents-radspherin-clears-first-randomized-safety-review/"
+        },
+        {
+          "publisher": "Contract Pharma",
+          "title": "AdvanCell Closes Oversubscribed $315M Series D Round",
+          "url": "https://www.contractpharma.com/breaking-news/advancell-closes-oversubscribed-315m-series-d-round/"
+        },
+        {
+          "publisher": "World Pharmaceutical Frontiers",
+          "title": "Ariceum Therapeutics doses first patient for SANTANA-225 trial for MCC and ES-SCLC",
+          "url": "https://www.worldpharmaceuticals.net/news/ariceum-therapeutics-doses-first-patient-for-santana-225-trial-for-mcc-and-es-sclc/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "Nov 19, 2026"
+    },
+    {
       "term": "AR Surgical Navigation",
       "full": "Augmented Reality Surgical Navigation",
       "fr": "Augmented reality surgical navigation",
