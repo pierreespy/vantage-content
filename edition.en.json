@@ -1,110 +1,99 @@
 {
-  "dateLong": "Nov 18, 2026",
+  "dateLong": "Nov 19, 2026",
   "ticker": [
-    { "company": "PERFUZE", "amount": "FDA", "kind": "reg" },
-    { "company": "SINE HEALTH", "amount": "FDA", "kind": "reg" },
-    { "company": "INDIVI", "amount": "Acquisition", "kind": "mna" },
-    { "company": "ENDOGENE.BIO", "amount": "EIC", "kind": "new" },
-    { "company": "GALVANIZE", "amount": "$130M", "kind": "lev" },
-    { "company": "WERFEN", "amount": "FDA", "kind": "reg" }
+    { "company": "BERLIN HEALS", "amount": "1st patient", "kind": "tech" },
+    { "company": "LIFEBLOOM", "amount": "Production", "kind": "tech" },
+    { "company": "SCIENCE CORP.", "amount": "$400M", "kind": "lev" },
+    { "company": "NYXOAH", "amount": "UPC", "kind": "reg" },
+    { "company": "PERCISIO", "amount": "MEDICA", "kind": "new" },
+    { "company": "MASIMO", "amount": "FDA", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "FDA clearance · Neurovascular",
-    "title": "Perfuze wins FDA clearance for NeuroSheath, completing its stroke thrombectomy system",
-    "deck": "The Galway medtech announced on Nov. 17 510(k) clearance for NeuroSheath, an 8F long sheath for neurovascular access sized for its Millipede88 super-bore aspiration catheter, which was cleared in March for standalone direct aspiration; a limited market release is starting at select U.S. stroke centers ahead of a full launch in 2027. With access and aspiration now under one brand, the Irish startup is no longer selling a catheter but a system, which changes its standing against the thrombectomy giants and makes it a natural target.",
-    "company": "Perfuze",
-    "sector": "Neurovascular",
-    "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://www.biospace.com/press-releases/perfuze-receives-fda-clearance-for-neurosheath-8f-long-sheath-completing-its-stroke-thrombectomy-system"
+    "kicker": "First patient · Cardio",
+    "title": "Berlin Heals implants first patient in C-MIC IV, the first double-blind, sham-controlled trial of its cardiac microcurrent therapy",
+    "deck": "The Zug-based medtech announced on November 18 the first implant in the international C-MIC IV trial, performed at the university hospital in Kragujevac, Serbia: 60 heart failure patients with reduced ejection fraction, randomized 1:1 to active microcurrent or a switched-off device, across six European countries including Spain, Belgium, the Netherlands and Denmark. Because patients cannot feel the current, blinding is complete — higher-grade evidence meant to set up the pivotal US IDE study, the company's real value catalyst.",
+    "company": "Berlin Heals",
+    "sector": "Cardio",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 3,
+    "url": "https://www.prnewswire.co.uk/news-releases/berlin-heals-initiates-international-randomized-double-blind-sham-controlled-c-mic-iv-trial-302943663.html"
   },
   "milestone": {
-    "company": "Sine Health",
-    "milestone": "2nd FDA clearance",
-    "title": "Stockholm startup Sine Health secures the first 510(k) for essential tremor monitoring using only a smartphone",
-    "summary": "Cleared under K261026, Sine passively measures tremor with the phone's own sensors, running in the background, and gives the neurologist an objective view of how it evolves between visits. It is the company's second FDA clearance (formerly Nordic Kinetics), after an Apple Watch-based Parkinson's monitoring system in June, even though it was only founded last year.",
-    "why": "Essential tremor affects about 7 million Americans and is still judged on a few minutes of in-clinic observation; continuous measurement becomes valuable as new therapies (drugs, focused ultrasound, neurostimulation) arrive and must prove their real-world effect. Two FDA clearances in a year for such a young European company: a profile to track ahead of its next round.",
-    "place": "Stockholm",
-    "sector": "Neurotech",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/news-releases/sine-health-receives-fda-510k-clearance-for-the-first-smartphone-essential-tremor-monitoring-device-302942052.html"
+    "company": "Lifebloom",
+    "milestone": "Production start",
+    "title": "Lille medtech Lifebloom starts producing its Oxilio wheelchair-exoskeleton, already ordered by some twenty hospitals",
+    "summary": "CE-marked Oxilio is a wheelchair that turns into a walking-assistance exoskeleton: it supports up to 80% of the patient's weight and brings them back to a seated position if they lose balance. The first 120 units are coming off the Villeneuve-d'Ascq line, funded by an €8M raise in early 2026; Lille University Hospital and the hospitals of Gonesse, Laval and Tulle are among the first customers.",
+    "why": "Moving from prototype to series production is where many rehabilitation medtechs fail; Lifebloom tackles it with firm orders and a target of more than 100 facilities within two years. The next step — home-use reimbursement, still to be built — will decide the real size of the market.",
+    "place": "Lille",
+    "sector": "Rehabilitation",
+    "signalType": "early_partnership",
+    "url": "https://www.faire-face.fr/2026/11/17/la-start-up-lifebloom-lance-la-production-dun-fauteuil-exosquelette-dassistance-a-la-marche/"
   },
   "deal": {
-    "company": "Galvanize Therapeutics",
-    "amount": "$130M",
+    "company": "Science Corporation",
+    "amount": "$400M",
     "round": "Series D",
-    "thesis": "HealthQuest Capital leads this oversubscribed round, with Braidwell and Olympus Innovation Ventures joining Sofinnova Partners, Norwest and Perceptive, to accelerate commercialization of the Aliya pulsed electric field (PEF) soft-tissue ablation platform and advance RheOx in chronic bronchitis, already launched in Europe in 2022. The thesis: electroporation, which conquered atrial fibrillation, can become a general ablation modality in oncology and pulmonology, and Olympus joining the cap table sketches a natural acquirer.",
-    "sector": "MedTech",
-    "url": "https://www.medtechdive.com/news/galvanize-raises-130m-to-advance-pulsed-electric-field-ablation/874861/"
+    "thesis": "Eight months after a $230M Series C, Science raises $400M (Khosla Ventures, 885 Capital, Tenet Healthcare, Y Combinator…) to roll out PRIMA in Europe — the retinal implant that came with its acquisition of France's Pixium, CE-marked in July: national reimbursement applications filed, first sites activated, first commercial implant expected in Germany. The thesis: Europe as the first commercial market for a brain-computer interface, ahead of FDA approval via the HDE pathway.",
+    "sector": "Neurotech",
+    "url": "https://www.medtechdive.com/news/science-corporation-raises-400m-to-commercialize-bci-device/875009/"
   },
   "brefsEurope": [
-    { "company": "Indivi", "place": "Basel", "sector": "Neurotech", "pillar": "financement",
-      "signalType": "acquisition", "strength": 5,
-      "title": "Basel neurotech Indivi acquires Cogitat, the Imperial College spin-out, and its EEG foundation model",
-      "summary": "Announced on Nov. 17 with undisclosed terms, the deal brings NeuroRVQ, an AI model that decodes cognitive activity from EEG across any patient or headset, and Cogitat's team, which will keep developing it. Indivi, which already runs smartphone-based motor and cognitive assessments in Parkinson's, MS and Alzheimer's, wants to detect disease and treatment effects earlier for pharma trials.",
-      "url": "https://tech.eu/2026/11/17/swiss-neurotech-company-indivi-acquires-imperial-college-spin-out-cogitat-to-advance-ai-powered-brain-monitoring/" },
-    { "company": "EndoGene.Bio", "place": "Paris", "sector": "Diagnostics", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 3,
-      "title": "EIC Accelerator picks French startups EndoGene.Bio and Surgecare among its 35 winners",
-      "summary": "Published on Nov. 16, the selection (35 companies out of 453 proposals, €84M in proposed grants and up to €10M of equity each via the EIC Fund) includes EndoGene.Bio and its uterine disease stratification engine based on menstrual blood analysis, and Surgecare, whose PreCyte test aims to support day-1 discharge decisions after abdominal surgery. France is among the three best-represented countries.",
-      "url": "https://eic.ec.europa.eu/document/download/b9e5675e-940d-4ad4-acfb-2019912077d2_en?filename=EIC%20Accelerator-May-July%202026%20Cut%20Off.pdf" },
-    { "company": "Werfen", "place": "Barcelona", "sector": "Diagnostics", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Werfen wins FDA clearance for the ROTEM sigma complete cartridge in trauma bleeding",
-      "summary": "Announced on Nov. 17, the expanded indication lets this viscoelastic test be used at the point of care or in the lab to assess bleeding and thrombosis in adult trauma patients, beyond cardiac surgery and liver transplantation. The Catalan diagnostics group is targeting trauma-induced coagulopathy, where guidelines already recommend this type of testing.",
-      "url": "https://www.prnewswire.com/news-releases/werfen-receives-us-fda-510k-clearance-for-rotem-sigma-complete-cartridge-for-use-in-trauma-302941528.html" },
-    { "company": "MHRA", "place": "London", "sector": "Regulatory", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "MHRA launches a Women's Health Programme to bring more women into drug and device trials",
-      "summary": "Unveiled at the DIA-MHRA summit on Nov. 16-17, the programme starts from a hard number: of 4,616 UK trial applications from 2019 to 2023, pregnant women were included in just 1.1%. A signal for UK femtech (nearly £300M in annual turnover), whose regulatory framework is struggling to keep pace with software tools.",
-      "url": "https://www.medicaldevice-network.com/news/mhra-launches-initiative-to-improve-female-participation-in-trials/" }
+    { "company": "Nyxoah", "place": "Mont-Saint-Guibert", "sector": "Neurotech", "pillar": "marche",
+      "signalType": "patent_filing", "strength": 3,
+      "title": "Nyxoah wins default decision against Inspire at the Unified Patent Court",
+      "summary": "The UPC's Munich division issued a default decision on November 18 in favor of the Belgian medtech, which develops hypoglossal nerve stimulation for sleep apnea, in its European patent infringement action against US market leader Inspire Medical Systems. An interim win in a patent war fought on both sides of the Atlantic, with stakes for access to the European market.",
+      "url": "https://www.globenewswire.com/news-release/2026/11/18/3405385/0/en/nyxoah-obtains-default-decision-against-inspire-medical-systems-in-unified-patent-court-case.html" },
+    { "company": "Percisio", "place": "Paris", "sector": "Imaging", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 2,
+      "title": "Percisio takes the podium at the MEDICA Start-up Competition with radiation-free navigation",
+      "summary": "Incubated at Paris Biotech Santé, the startup finished third in the November 17 final in Düsseldorf with a portable system that overlays 3D anatomy during interventional radiology procedures, with no additional radiation. The competition was won by Exalt, a Medical University of Vienna spin-off that tests how a patient's cancer cells respond to more than 100 drugs, ahead of Germany's Paracly (device cybersecurity).",
+      "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/" }
   ],
   "brefsIntl": [
-    { "company": "Medtronic", "place": "Galway", "sector": "Surgical robotics", "pillar": "marche",
+    { "company": "Masimo", "place": "Irvine", "sector": "Neurotech", "pillar": "marche",
       "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Medtronic expands FDA clearance of its Hugo robot to general surgery",
-      "summary": "The expanded 510(k) announced on Nov. 17 covers all upper abdominal general surgery (cholecystectomy, gastric bypass, ventral hernia…), inguinal hernia and appendectomy, about 3.5 million U.S. procedures a year. Key comparable: in the U.S., Hugo moves beyond urology into the core of Intuitive's market, raising the bar for European challengers CMR Surgical, Distalmotion and Moon Surgical.",
-      "url": "https://www.prnewswire.com/news-releases/medtronic-announces-fda-clearance-of-general-surgery-procedures-for-the-hugo-robotic-assisted-surgery-ras-system-302941366.html" },
-    { "company": "Newton", "place": "Dallas", "sector": "Ophthalmology", "pillar": "marche",
+      "title": "Masimo wins 510(k) for smartSedLine, the next generation of its anesthesia-depth monitor",
+      "summary": "The new module and EEG sensor carry an enhanced Patient State Index algorithm, faster at induction and more stable when EEG power is low. It is the seventh FDA clearance of the year for Masimo, now a Danaher company: intraoperative brain monitoring is becoming a consolidation play for large groups.",
+      "url": "https://www.prnewswire.com/news-releases/masimo-receives-fda-510k-clearance-for-smartsedline-to-advance-brain-health-during-anesthesia-302943088.html" },
+    { "company": "MedInTech", "place": "Seoul", "sector": "Surgical robotics", "pillar": "financement",
+      "signalType": "funding_round", "strength": 5,
+      "title": "MedInTech raises $25.7M Series C to move from robotic endoscopy into surgery",
+      "summary": "The round, co-led by Atinum Investment and KB Investment, will broaden its AI-assisted robotic endoscope range and take it into therapeutic and surgical applications. An Asian comparable worth tracking for Europe's endoluminal robotics players.",
+      "url": "https://en.wowtale.net/2026/11/17/236032/" },
+    { "company": "Fziomed", "place": "San Luis Obispo", "sector": "Biomaterials", "pillar": "marche",
       "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Newton wins MDR CE mark for Neurolens N3, its ocular misalignment measurement system",
-      "summary": "Issued by Intertek Medical Notified Body and announced on Nov. 17, the certificate covers the eye-tracking device that measures eye alignment at distance and near to prescribe prism lenses against headaches and eye strain. Launch in the first European markets is planned for 2027.",
-      "url": "https://www.prnewswire.com/news-releases/newtons-neurolens-n3-receives-ce-mark-under-eu-mdr-302941457.html" },
-    { "company": "Integer", "place": "Plano", "sector": "MedTech", "pillar": "financement",
-      "signalType": "acquisition", "strength": 5,
-      "title": "KKR completes its $5.7B buyout of Integer, taking one of medtech's largest contract manufacturers private",
-      "summary": "The contract maker of cardiovascular, neuromodulation and cardiac rhythm devices, the world's 56th-largest medtech group, leaves the NYSE at $127 a share. Market comparable: private equity is paying up for the catheter and implant manufacturing capacity that startups depend on.",
-      "url": "https://www.medicaldesignandoutsourcing.com/integer-holdings-sold-private-equity-firm-kkr/" }
+      "title": "Fziomed secures 510(k) for Dynavisc, an absorbable tendon-protection gel",
+      "summary": "The synthetic gel, applied after tendon repair to keep tissues apart during healing, has been sold outside the US for more than a decade (over 50,000 patients). A textbook case of the \"Europe first, FDA later\" path for biomaterials.",
+      "url": "https://www.prnewswire.com/news-releases/fziomed-announces-fda-510k-clearance-for-dynavisc-tendon-protector-in-the-united-states-302942783.html" }
   ],
   "word": {
-    "term": "Mechanical Thrombectomy",
-    "full": "Mechanical Thrombectomy",
-    "fr": "Mechanical thrombectomy",
-    "field": "Interventional neuroradiology",
-    "definition": "A procedure in which a catheter is threaded from an artery in the groin or wrist up to the brain to suck out or grab the clot blocking a large artery during a stroke, restoring blood flow before the brain tissue dies.",
+    "term": "AR Surgical Navigation",
+    "full": "Augmented Reality Surgical Navigation",
+    "fr": "Augmented reality surgical navigation",
+    "field": "Image-guided surgery",
+    "definition": "A system that overlays the patient's 3D imaging and the path of the surgeon's instruments directly in their field of view (headset, glasses or tablet), letting them \"see through\" the skin during the procedure.",
     "parts": [
-      { "label": "Sheath and access catheter", "role": "the road: they travel from the femoral or radial artery up to the carotids and stabilize the whole setup" },
-      { "label": "Aspiration catheter", "role": "the vacuum: a large-bore tube placed against the clot to aspirate it in one piece" },
-      { "label": "Stent retriever", "role": "the net: a metal mesh deployed inside the clot to trap it and pull it out" }
+      { "label": "Preoperative imaging", "role": "the map (CT, MRI or ultrasound rebuilt in 3D)" },
+      { "label": "Optical or electromagnetic tracking", "role": "the GPS (position of patient and instruments)" },
+      { "label": "AR display", "role": "the screen (headset, glasses or tablet)" }
     ],
     "how": [
-      { "n": "1", "h": "Selection", "t": "CT or MRI confirms a large vessel occlusion and, beyond the first hours, that salvageable tissue (penumbra) remains." },
-      { "n": "2", "h": "Navigation", "t": "Under X-ray, the neurointerventionalist advances the sheath, access catheter and then the aspiration catheter up to the clot." },
-      { "n": "3", "h": "Reperfusion", "t": "The clot is aspirated or pulled out with the stent retriever; the result is graded on the TICI scale, with near-complete reperfusion on the first pass as the goal." }
+      { "n": "1", "h": "Registration", "t": "The software aligns the 3D model from imaging with the patient's actual anatomy on the operating table." },
+      { "n": "2", "h": "Tracking", "t": "Cameras or sensors follow the patient and instruments in real time so the overlay stays accurate as everything moves." },
+      { "n": "3", "h": "Guidance", "t": "The surgeon sees hidden anatomy and the ideal trajectory right on the surgical field, without looking away to a remote screen." }
     ],
-    "why": "Since the DAWN and DEFUSE-3 trials, thrombectomy can benefit selected patients up to 24 hours after symptom onset: the market has grown far faster than the number of operators. Startups now compete on first-pass success (0.088-inch super-bore catheters, funnels, retrievers for small distal arteries) and on system simplicity, hence a string of clearances (Perfuze, Route 92) and sizable rounds (Anaconda, $56M). The giants (Stryker, Medtronic, Penumbra, J&J) remain the natural acquirers.",
+    "why": "Conventional navigation relies on large, fixed, expensive stations; AR promises portable, cheaper guidance with no additional radiation, reaching operating rooms and departments that never had it. The FDA lists more than 100 authorized AR/VR devices, mostly via 510(k), and new reimbursement codes for navigation open up a business model: favorable ground for capital-efficient startups against the navigation giants.",
     "startups": [
-      { "name": "Perfuze", "use": "Millipede88 super-bore aspiration catheter FDA-cleared for standalone direct aspiration (March 2026), completed in November by the NeuroSheath 8F sheath", "place": "Galway, Ireland" },
-      { "name": "Anaconda Biomed", "use": "Funnel thrombectomy catheters (ANA) and CONDA stent retriever; $56M raise to complete the U.S. ATHENA pivotal trial", "place": "Barcelona, Spain" },
-      { "name": "Rapid Medical", "use": "Adjustable Tigertriever stent retrievers; Tigertriever 25 FDA-cleared in April 2026 and Tigertriever 13 tested in distal occlusions (DISTALS trial)", "place": "Israel" },
-      { "name": "Route 92 Medical", "use": "0.088-inch HiPoint aspiration system backed by the SUMMIT MAX randomized trial; $50M growth round led by Novo Holdings in 2026", "place": "United States" }
+      { "name": "Percisio", "use": "Portable, radiation-free navigation overlaying 3D anatomy during interventional radiology; 3rd at the 2026 MEDICA Start-up Competition", "place": "Paris, France" },
+      { "name": "Pixee Medical", "use": "Knee+ NexSight, AR navigation for total knee arthroplasty: CE mark in March 2026, FDA 510(k) in April", "place": "Besançon, France" },
+      { "name": "Medivis", "use": "Headset-based AR platform, 510(k) for cranial navigation in neurosurgery in December 2025 after spine navigation", "place": "New York, USA" }
     ],
     "sources": [
-      { "publisher": "StatPearls (NCBI Bookshelf)", "title": "Mechanical Thrombectomy", "url": "https://ncbi.nlm.nih.gov/books/NBK562154" },
-      { "publisher": "Practical Neurology", "title": "Mechanical Thrombectomy", "url": "https://practicalneurology.com/articles/2019-jan/mechanical-thrombectomy" },
-      { "publisher": "BioSpace (Business Wire)", "title": "Perfuze Receives FDA Clearance for NeuroSheath 8F Long Sheath, Completing Its Stroke Thrombectomy System", "url": "https://www.biospace.com/press-releases/perfuze-receives-fda-clearance-for-neurosheath-8f-long-sheath-completing-its-stroke-thrombectomy-system" },
-      { "publisher": "Novo Holdings", "title": "Novo Holdings leads $50 million growth financing in Route 92 Medical", "url": "https://novoholdings.com/news/novo-holdings-leads-50-million-growth-financing-in-route-92-medical" }
+      { "publisher": "Exponent", "title": "FDA Expands AR/VR Medical Device List", "url": "https://www.exponent.com/article/fda-expands-arvr-medical-device-list" },
+      { "publisher": "Medivis", "title": "Medivis First to Receive FDA Clearance for Augmented Reality Navigation in Neurosurgery", "url": "https://www.medivis.com/press/medivis-first-to-receive-fda-clearance-for-augmented-reality-navigation-in-neurosurgery" },
+      { "publisher": "Pulse", "title": "Pixee Medical's Knee+ NexSight Receives the European CE Mark for Knee Arthroplasty", "url": "https://www.pulse.bot/healthtech/news/pixee-medicals-knee-nexsight-receives-the-european-ce-mark-for-knee-arthroplasty-1d8278c2-40e7-4ec9-9815-6a6b184d5428" },
+      { "publisher": "Innovation World Cup", "title": "The Top 3 Medical Start-Ups of 2026 are announced", "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/" }
     ]
   }
 }

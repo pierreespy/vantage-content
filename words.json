@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-18",
+  "generatedAt": "2026-11-19",
   "words": [
+    {
+      "term": "AR Surgical Navigation",
+      "full": "Augmented Reality Surgical Navigation (navigation chirurgicale en réalité augmentée)",
+      "fr": "Navigation chirurgicale en réalité augmentée",
+      "field": "Chirurgie guidée par l'image",
+      "definition": "Un système qui superpose, dans le champ de vision du chirurgien (casque, lunettes ou tablette), l'imagerie 3D du patient et la trajectoire de ses instruments, pour voir « à travers » la peau pendant le geste.",
+      "parts": [
+        {
+          "label": "Imagerie préopératoire",
+          "role": "la carte (scanner, IRM, échographie reconstruits en 3D)"
+        },
+        {
+          "label": "Suivi optique ou électromagnétique",
+          "role": "le GPS (position du patient et des instruments)"
+        },
+        {
+          "label": "Affichage AR",
+          "role": "l'écran (casque, lunettes ou tablette)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Recalage",
+          "t": "Le logiciel aligne le modèle 3D issu de l'imagerie sur l'anatomie réelle du patient installé au bloc."
+        },
+        {
+          "n": "2",
+          "h": "Suivi",
+          "t": "Caméras ou capteurs suivent en temps réel le patient et les instruments, pour que la superposition reste juste quand tout bouge."
+        },
+        {
+          "n": "3",
+          "h": "Guidage",
+          "t": "Le chirurgien voit l'anatomie cachée et la trajectoire idéale directement sur le champ opératoire, sans quitter le patient des yeux pour un écran déporté."
+        }
+      ],
+      "why": "La navigation classique repose sur de grosses stations fixes et coûteuses ; l'AR promet un guidage portable, moins cher et sans irradiation supplémentaire, accessible à des blocs et des services qui n'en avaient pas. La FDA recense plus de 100 dispositifs AR/VR autorisés, en majorité par 510(k), et l'arrivée de codes de remboursement pour la navigation ouvre un modèle économique : un terrain favorable aux jeunes pousses capital-efficientes face aux géants de la navigation.",
+      "startups": [
+        {
+          "name": "Percisio",
+          "use": "Navigation portable sans rayons X qui superpose l'anatomie 3D pendant la radiologie interventionnelle ; 3e du MEDICA Start-up Competition 2026",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Pixee Medical",
+          "use": "Knee+ NexSight, navigation AR pour la prothèse totale de genou : marquage CE en mars 2026, 510(k) FDA en avril",
+          "place": "Besançon, France"
+        },
+        {
+          "name": "Medivis",
+          "use": "Plateforme AR sur casque, 510(k) pour la navigation crânienne en neurochirurgie en décembre 2025 après la navigation rachidienne",
+          "place": "New York, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Exponent",
+          "title": "FDA Expands AR/VR Medical Device List",
+          "url": "https://www.exponent.com/article/fda-expands-arvr-medical-device-list"
+        },
+        {
+          "publisher": "Medivis",
+          "title": "Medivis First to Receive FDA Clearance for Augmented Reality Navigation in Neurosurgery",
+          "url": "https://www.medivis.com/press/medivis-first-to-receive-fda-clearance-for-augmented-reality-navigation-in-neurosurgery"
+        },
+        {
+          "publisher": "Pulse",
+          "title": "Pixee Medical's Knee+ NexSight Receives the European CE Mark for Knee Arthroplasty",
+          "url": "https://www.pulse.bot/healthtech/news/pixee-medicals-knee-nexsight-receives-the-european-ce-mark-for-knee-arthroplasty-1d8278c2-40e7-4ec9-9815-6a6b184d5428"
+        },
+        {
+          "publisher": "Innovation World Cup",
+          "title": "The Top 3 Medical Start-Ups of 2026 are announced",
+          "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "19 nov. 2026"
+    },
     {
       "term": "Teleradiology",
       "full": "Teleradiology (téléradiologie)",

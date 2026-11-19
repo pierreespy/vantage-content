@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-18",
+  "generatedAt": "2026-11-19",
   "words": [
+    {
+      "term": "AR Surgical Navigation",
+      "full": "Augmented Reality Surgical Navigation",
+      "fr": "Augmented reality surgical navigation",
+      "field": "Image-guided surgery",
+      "definition": "A system that overlays the patient's 3D imaging and the path of the surgeon's instruments directly in their field of view (headset, glasses or tablet), letting them \"see through\" the skin during the procedure.",
+      "parts": [
+        {
+          "label": "Preoperative imaging",
+          "role": "the map (CT, MRI or ultrasound rebuilt in 3D)"
+        },
+        {
+          "label": "Optical or electromagnetic tracking",
+          "role": "the GPS (position of patient and instruments)"
+        },
+        {
+          "label": "AR display",
+          "role": "the screen (headset, glasses or tablet)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Registration",
+          "t": "The software aligns the 3D model from imaging with the patient's actual anatomy on the operating table."
+        },
+        {
+          "n": "2",
+          "h": "Tracking",
+          "t": "Cameras or sensors follow the patient and instruments in real time so the overlay stays accurate as everything moves."
+        },
+        {
+          "n": "3",
+          "h": "Guidance",
+          "t": "The surgeon sees hidden anatomy and the ideal trajectory right on the surgical field, without looking away to a remote screen."
+        }
+      ],
+      "why": "Conventional navigation relies on large, fixed, expensive stations; AR promises portable, cheaper guidance with no additional radiation, reaching operating rooms and departments that never had it. The FDA lists more than 100 authorized AR/VR devices, mostly via 510(k), and new reimbursement codes for navigation open up a business model: favorable ground for capital-efficient startups against the navigation giants.",
+      "startups": [
+        {
+          "name": "Percisio",
+          "use": "Portable, radiation-free navigation overlaying 3D anatomy during interventional radiology; 3rd at the 2026 MEDICA Start-up Competition",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Pixee Medical",
+          "use": "Knee+ NexSight, AR navigation for total knee arthroplasty: CE mark in March 2026, FDA 510(k) in April",
+          "place": "Besançon, France"
+        },
+        {
+          "name": "Medivis",
+          "use": "Headset-based AR platform, 510(k) for cranial navigation in neurosurgery in December 2025 after spine navigation",
+          "place": "New York, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Exponent",
+          "title": "FDA Expands AR/VR Medical Device List",
+          "url": "https://www.exponent.com/article/fda-expands-arvr-medical-device-list"
+        },
+        {
+          "publisher": "Medivis",
+          "title": "Medivis First to Receive FDA Clearance for Augmented Reality Navigation in Neurosurgery",
+          "url": "https://www.medivis.com/press/medivis-first-to-receive-fda-clearance-for-augmented-reality-navigation-in-neurosurgery"
+        },
+        {
+          "publisher": "Pulse",
+          "title": "Pixee Medical's Knee+ NexSight Receives the European CE Mark for Knee Arthroplasty",
+          "url": "https://www.pulse.bot/healthtech/news/pixee-medicals-knee-nexsight-receives-the-european-ce-mark-for-knee-arthroplasty-1d8278c2-40e7-4ec9-9815-6a6b184d5428"
+        },
+        {
+          "publisher": "Innovation World Cup",
+          "title": "The Top 3 Medical Start-Ups of 2026 are announced",
+          "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "Nov 19, 2026"
+    },
     {
       "term": "Teleradiology",
       "full": "Teleradiology",
