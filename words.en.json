@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-19",
   "words": [
     {
+      "term": "rPPG",
+      "full": "Remote Photoplethysmography",
+      "fr": "Contactless, camera-based vital signs measurement",
+      "field": "Connected health · Vital signs",
+      "definition": "A software technique that infers pulse, breathing and even blood pressure from the tiny colour changes in facial skin, filmed by an ordinary camera, with each heartbeat.",
+      "parts": [
+        {
+          "label": "Standard camera",
+          "role": "capture (smartphone, webcam, robot)"
+        },
+        {
+          "label": "Signal processing",
+          "role": "extracting the pulse wave"
+        },
+        {
+          "label": "AI models",
+          "role": "converting it into vital signs"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Record",
+          "t": "The user looks at the camera for 30 to 60 seconds; the software tracks skin regions of the face."
+        },
+        {
+          "n": "2",
+          "h": "Extract",
+          "t": "Blood inflow slightly changes skin colour with each heartbeat: these variations form a pulse signal."
+        },
+        {
+          "n": "3",
+          "h": "Estimate",
+          "t": "Algorithms trained on reference measurements derive heart rate, variability, respiratory rate and blood pressure."
+        }
+      ],
+      "why": "With no sensor to manufacture or ship, the vital sign becomes an SDK sold to insurers, telehealth platforms and home care, with software margins. Value lies in clinical evidence and CE marking (Class IIa for blood pressure): that regulatory moat separates a wellness gadget from a reimbursable screening tool, and IntelliProve's round shows investors are funding that class upgrade first.",
+      "startups": [
+        {
+          "name": "IntelliProve",
+          "use": "30-second face scan (HR, HRV, breathing, blood pressure) built in by customers in more than 50 countries; CE Class I, targeting IIa; €2.7M seed led by Miles Ahead",
+          "place": "Ghent, Belgium"
+        },
+        {
+          "name": "Shen.AI",
+          "use": "rPPG SDK CE marked as Class IIa under the MDR for HR, HRV, blood pressure and respiratory rate in a 60-second scan",
+          "place": "Tallinn, Estonia / Wrocław, Poland"
+        },
+        {
+          "name": "Lifelight",
+          "use": "Xim Ltd app measuring blood pressure and pulse from a face video, CE Class IIa under the MDR, offered as SaaS to 1,700 NHS primary care practices",
+          "place": "United Kingdom"
+        },
+        {
+          "name": "Binah.ai",
+          "use": "B2B SDK that extracts the PPG signal from a 35-to-60-second video selfie, with results kept on the user's device and no access by Binah",
+          "place": "Israel"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "The Next Web",
+          "title": "IntelliProve raises €2.7M to take its face scan health check to robots",
+          "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+        },
+        {
+          "publisher": "Shen.AI",
+          "title": "Medical device Shen AI",
+          "url": "https://shen.ai/medical-device"
+        },
+        {
+          "publisher": "Lifelight",
+          "title": "About The Product | Lifelight",
+          "url": "https://lifelight.ai/solution/"
+        },
+        {
+          "publisher": "Binah.ai",
+          "title": "Technology - Binah",
+          "url": "https://www.binah.ai/technology/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "Nov 19, 2026"
+    },
+    {
       "term": "TAT",
       "full": "Targeted Alpha Therapy",
       "fr": "Targeted alpha therapy",

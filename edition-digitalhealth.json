@@ -1,239 +1,167 @@
 {
-  "dateLong": "18 nov. 2026",
+  "dateLong": "19 nov. 2026",
   "ticker": [
-    {
-      "company": "PRIMEDEA",
-      "amount": "Pre-seed",
-      "kind": "lev"
-    },
-    {
-      "company": "DEVON PARTNERSHIP",
-      "amount": "Appel d’offres AVT",
-      "kind": "reg"
-    },
-    {
-      "company": "ANS",
-      "amount": "Portabilité LGC",
-      "kind": "reg"
-    },
-    {
-      "company": "ATOS",
-      "amount": "DMP repris",
-      "kind": "tech"
-    },
-    {
-      "company": "HEALTHMATE",
-      "amount": "NEOTEC 325 k€",
-      "kind": "new"
-    },
-    {
-      "company": "TUCUVI",
-      "amount": "Digital Health 50",
-      "kind": "tech"
-    }
+    { "company": "INTELLIPROVE", "amount": "€2.7M", "kind": "lev" },
+    { "company": "MANCHESTER UNIVERSITY NHS", "amount": "Agent NICE", "kind": "tech" },
+    { "company": "BLACK COUNTRY", "amount": "Appel d’offres £3M", "kind": "reg" },
+    { "company": "OMNIDOC", "amount": "Télé-expertise", "kind": "tech" },
+    { "company": "SYMBIOFLOW", "amount": "Création", "kind": "new" },
+    { "company": "PAJAMA.AI", "amount": "Rachat", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Pre-seed · Téléradiologie",
-    "title": "Primedea, réseau de téléradiologie zurichois créé en 2026, boucle un pre-seed mené par Hansi Hansmann pour promettre des comptes rendus d'urgence en moins de 30 minutes",
-    "deck": "Fondée cette année par le radiologue Florian Huber, Samuel Frey et Christopher Zemina, avec un bureau à Vienne, la jeune pousse route les examens vers l'un de ses plus de 20 radiologues indépendants en quelques minutes grâce à une intégration directe aux RIS des clients, 24 h/24, facturés au compte rendu sans volume minimum ; un institut zurichois lui confie déjà environ 100 IRM et scanners par semaine. Le tour, mené par le business angel autrichien Hansi Hansmann (montant non communiqué), finance l'extension du réseau et de la plateforme : un pari logiciel sur la pénurie de radiologues, où la valeur se joue dans l'orchestration du flux plus que dans l'image elle-même.",
-    "company": "Primedea",
-    "stage": "Pre-seed",
-    "sector": "Télésanté",
+    "kicker": "Seed · Signes vitaux sans contact",
+    "title": "IntelliProve lève 2,7 M€ en seed mené par Miles Ahead pour porter son scan facial des signes vitaux des applis de soins aux robots humanoïdes",
+    "deck": "La pousse gantoise estime fréquence cardiaque, variabilité cardiaque, respiration et pression artérielle à partir d'un scan du visage de 30 secondes par photopléthysmographie à distance, déjà intégré dans les applications de soignants, d'assureurs et de plateformes de bien-être de plus de 50 pays ; le moteur d'acquisition est marqué CE classe I sous MDR. Le tour, mené par Miles Ahead avec l'organisation de soins à domicile Wit-Gele Kruis, l'imec.istart Fund et des business angels, ira pour un tiers à la réglementation (cap sur la classe IIa), un tiers à la recherche et un tiers au commercial : un pari sur le signe vital devenu simple logiciel, embarquable sur n'importe quelle caméra.",
+    "company": "IntelliProve",
+    "stage": "Seed",
+    "sector": "Digital Health",
     "pillar": "financement",
     "signalType": "funding_round",
     "strength": 3,
-    "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
+    "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
   },
   "milestone": {
-    "company": "Agence du numérique en santé",
-    "milestone": "Concertation ouverte",
-    "title": "L'ANS met en concertation jusqu'au 4 décembre le référentiel qui rendra portables les données des logiciels de gestion de cabinet",
-    "summary": "Issu de l'article 55 de la loi de simplification, le référentiel de sécurité, d'interopérabilité et d'éthique, préparé par un groupe de travail du Conseil du numérique en santé, impose l'export gratuit d'un « périmètre pivot » de données, dans un format, une sécurité et une documentation communs, mis à disposition sous 30 jours au maximum. Il sera rendu opposable par arrêté, accompagné d'un guide de mise en œuvre et d'un décret ; cinq éditeurs se sont déjà engagés à anticiper ces obligations.",
-    "why": "Changer de logiciel de cabinet sans perdre le dossier de ses patients a longtemps verrouillé le marché au profit des éditeurs historiques. En supprimant ce coût de sortie, la portabilité ouvre une fenêtre aux nouveaux entrants (logiciels nativement IA, cloud) au moment où la vague 2 du Ségur pousse les praticiens à revoir leur équipement.",
-    "place": "Paris",
-    "sector": "Réglementaire",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.ticsante.com/story?ID=8525"
+    "company": "Manchester University NHS Foundation Trust",
+    "milestone": "Partenariat NICE",
+    "title": "Manchester University NHS FT et le NICE testent un « agent de recommandations NICE » intégré au dossier patient Hive",
+    "summary": "Pendant deux ans, le trust et le National Institute for Health and Care Excellence mèneront des projets pour intégrer directement les recommandations du NICE dans les flux de travail de l'EPR Hive, via un agent qui donne aux cliniciens les preuves et conseils pertinents au moment de la décision. Le partenariat doit aussi produire des données de vie réelle pour l'évaluation des technologies de santé.",
+    "why": "Le régulateur de l'évaluation britannique se branche sur un dossier patient en production pour accélérer à la fois l'adoption de ses recommandations et la génération de preuves : pour les éditeurs d'IA clinique, c'est un futur raccourci vers l'évaluation NICE, à condition de savoir s'intégrer à l'EPR.",
+    "place": "Manchester",
+    "sector": "Logiciel hospitalier",
+    "signalType": "early_partnership",
+    "url": "https://htn.co.uk/2026/11/18/manchester-university-nhs-and-nice-partnership-to-improve-implementation-and-adoption-of-clinical-guidance/"
   },
   "brefsEurope": [
     {
-      "company": "Atos",
-      "place": "Paris",
-      "sector": "Données de santé",
+      "company": "Black Country NHS trusts",
+      "place": "Dudley",
+      "sector": "Télésurveillance",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Atos, mandataire d'un groupement avec Accenture, reprend pour la Cnam la gestion du Dossier médical partagé et l'intègre à Mon espace santé",
-      "summary": "Le groupement annonce avoir basculé le DMP dans l'architecture de Mon espace santé sans interruption de service, avec hébergement dans ses data centers en France, et voit renouvelée sa mission sur Mon espace santé : près de 28 millions de comptes activés et plus de 40 millions de documents déposés chaque mois, selon Atos. Un socle national unique sur lequel les éditeurs devront désormais se brancher.",
-      "url": "https://www.santematin.fr/dmp-atos-accenture-cnam-transition-17-novembre-2026"
+      "strength": 2,
+      "title": "Quatre trusts du Black Country lancent un appel d'offres commun de 3 M£ pour une plateforme de télésurveillance et de virtual wards",
+      "summary": "The Dudley Group, Sandwell and West Birmingham, The Royal Wolverhampton et Walsall Healthcare cherchent une plateforme unique couvrant télésurveillance, hospitalisation virtuelle et soins urgents à domicile (2UCR), du 1er avril 2027 au 31 mars 2030 (+2 ans possibles), extensible à trois trusts de Birmingham. Offres attendues avant le 14 décembre, attribution vers le 11 janvier 2027, notée à 65 % sur la qualité technique.",
+      "url": "https://htn.co.uk/2026/11/18/the-black-country-launches-multi-trust-3m-remote-monitoring-and-virtual-ward-procurement/"
     },
     {
-      "company": "HealthMate",
-      "place": "Elche",
+      "company": "Omnidoc",
+      "place": "Centre-Val de Loire",
+      "sector": "Télésanté",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Une ligne unique de télé-expertise sur les maladies pulmonaires rares ouvre en Centre-Val de Loire sur la plateforme Omnidoc",
+      "summary": "Portée par une équipe de soins spécialisés adossée à l'Association des pneumologues du Centre, avec des spécialistes des CHU de Tours et d'Orléans et une pneumologue libérale, elle couvre six départements pour une convention de trois ans et reçoit environ 30 demandes par mois. Omnidoc, retenu par l'ARS comme éditeur régional officiel, facture la ligne 180 € par mois.",
+      "url": "https://www.ticsante.com/story?ID=8527"
+    },
+    {
+      "company": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
+      "place": "Liverpool",
+      "sector": "Télésanté",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Liverpool Heart and Chest déploie l'évaluation à distance des prélèvements pulmonaires en cours d'endoscopie",
+      "summary": "La technologie de ROSE à distance prépare et colore les lames pendant l'échoendoscopie bronchique, puis les transmet à des pathologistes qui pilotent le microscope à distance et confirment en direct si le tissu prélevé suffit au diagnostic. Proposée d'abord aux patients à plus haut risque de cancer du poumon, elle évite un second examen.",
+      "url": "https://htn.co.uk/2026/11/17/new-tech-for-remote-assessment-of-lung-tissue-samples-at-liverpool-heart-and-chest/"
+    },
+    {
+      "company": "SymbioFlow",
+      "place": "Berlin",
       "sector": "IA clinique",
       "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "HealthMate, issue du parc scientifique de l'Université Miguel Hernández, obtient 325 000 € du CDTI (NEOTEC 2026) pour des agents vocaux qui lisent le ton du patient",
-      "summary": "PHYSIA-VOICE analysera le ton et le rythme de la voix, croisés avec le contexte et les données cliniques, pour adapter l'échange lors d'appels réels ; la société revendique déjà un assistant IA d'agenda, de dossier et de facturation utilisé dans 327 centres, par plus de 3 100 professionnels et pour 563 000 patients.",
-      "url": "https://teleelx.es/2026/11/16/healthmate-firma-participada-e-impulsada-por-el-pcumh-obtiene-325-000-euros-del-cdti-para-desarrollar-una-nueva-ia-conversacional-aplicada-a-la-salud/"
-    },
-    {
-      "company": "Tucuvi",
-      "place": "Madrid",
-      "sector": "IA clinique",
-      "pillar": "innovation",
-      "signalType": "grant_award",
+      "signalType": "company_incorporation",
       "strength": 2,
-      "title": "L'espagnol Tucuvi, seul européen nommément cité du Digital Health 50 de CB Insights, avec son agent vocal LOLA certifié en classe IIb",
-      "summary": "Le classement, tiré de plus de 50 000 sociétés, met en avant l'agent de suivi téléphonique LOLA, présenté comme la première IA vocale européenne certifiée dispositif médical de classe IIb et déployée dans plus de 10 % des hôpitaux publics espagnols ; 26 des 50 lauréats ciblent la charge administrative.",
-      "url": "https://hitconsultant.net/2026/11/17/cb-insights-digital-health-50-most-promising-startups-2026/"
+      "title": "SymbioFlow, nouvelle pousse berlinoise, veut automatiser la première évaluation aux urgences avec une borne de triage assistée par IA",
+      "summary": "Fondée par Kami Mainkar et Fabio Pellacini, la société combine mesure des signes vitaux, vision par ordinateur et IA dans sa « Sentinel Booth », qui propose un niveau de triage à l'infirmière d'accueil, laquelle garde la décision finale ; les données restent dans l'hôpital.",
+      "url": "https://www.deutsche-startups.de/2026/11/17/5-neue-startups-fideno-gobonki-abnoba-symbioflow-hoosh/"
     },
     {
-      "company": "East Lancashire Hospitals NHS Trust",
-      "place": "Blackburn",
-      "sector": "Logiciel hospitalier",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "East Lancashire Hospitals passe sa réanimation néonatale en prescription électronique et pilote un DPI partagé avec trois trusts voisins",
-      "summary": "L'ePMA de la NICU s'appuie sur 220 protocoles de prescription développés et testés pendant deux ans ; la voix ambiante rédige déjà notes et courriers, et le trust co-conduit un DPI commun avec Blackpool, Lancashire Teaching et Morecambe Bay pour toute la région Lancashire and South Cumbria.",
-      "url": "https://htn.co.uk/2026/11/17/epma-go-live-shared-epr-and-avt-at-east-lancashire-hospitals/"
-    },
-    {
-      "company": "Devon Partnership NHS Trust",
-      "place": "Exeter",
-      "sector": "IA clinique",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Le trust de santé mentale du Devon lance un appel d'offres de voix ambiante pour environ 200 nouveaux utilisateurs par mois sur 11 mois",
-      "summary": "Financé par 159 000 £ d'investissement et 300 000 £ de fonctionnement sur trois ans, le déploiement démarrera début 2027-28 sous conditions (intégration au DPI, sécurité clinique et cyber, mesure des bénéfices) ; le pilote actuel est prolongé, alors que le Pays de Galles vient d'abandonner son propre marché AVT de 10 M£ faute de fournisseurs conformes.",
-      "url": "https://htn.co.uk/2026/11/17/devon-partnership-identifies-digital-workforce-knowledge-gap-and-plans-avt-procurement/"
-    },
-    {
-      "company": "MEDIN +",
-      "place": "France",
-      "sector": "Logiciel hospitalier",
+      "company": "Regionaal Tuchtcollege voor de Gezondheidszorg Amsterdam",
+      "place": "Amsterdam",
+      "sector": "Réglementaire",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "DRIMbox : les établissements ont jusqu'au 12 janvier 2027 pour obtenir le financement Ségur de leur passerelle d'imagerie",
-      "summary": "La demande de financement doit être déposée par le fournisseur avant midi ce jour-là ; l'éditeur de PACS MEDIN +, dont la DRIMbox'IN est référencée Ségur vague 2 depuis le 6 juillet 2026, revendique 250 sites et plus de 100 000 patients par mois. Une échéance qui concentre les décisions d'achat d'imagerie partagée sur les huit prochaines semaines.",
-      "url": "https://dsih.fr/articles/6468/drimbox-a-huit-semaines-de-lecheance-segur-choisir-vite-sans-choisir-par-defaut"
+      "title": "Aux Pays-Bas, le conseil de discipline médical d'Amsterdam avertit une médecin pour usage imprudent d'OpenAI dans ses avis",
+      "summary": "La médecin-conseil a reconnu avoir rédigé ses avis avec OpenAI sans toujours vérifier les sorties et avoir pu y saisir des données identifiantes ; le collège y voit une atteinte à la vie privée et au secret médical. Une procédure civile réclame en parallèle 380 000 € de dommages : un précédent qui pousse vers des outils d'IA conformes et auditables.",
+      "url": "https://www.skipr.nl/uitgelicht/arts-krijg-waarschuwing-van-tuchtcollege-voor-onzorgvuldig-ai-gebruik/"
+    },
+    {
+      "company": "CNIL",
+      "place": "Paris",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "La CNIL et le Groupe VYV publient « La Voix des jeunesses » : 48 % des 11–25 ans confient des sujets intimes à une IA conversationnelle",
+      "summary": "Le livret, issu d'une consultation de 133 participants, réclame des formations sur l'IA et la santé mentale pour les 16 ans et moins et une information plus claire sur l'usage des données, sans créer d'obligation nouvelle ; 64 % des jeunes qui sollicitent ces outils pour des conseils les voient comme un « conseiller de vie ».",
+      "url": "https://www.santematin.fr/sante-ia-jeunes-cnil-formations-donnees-18-novembre-2026"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Aevius",
-      "place": "Boston",
-      "sector": "Données de santé",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Aevius, spin-out de Mass General Brigham fondé par l'équipe de Modella AI (rachetée par AstraZeneca), lève 22 M$ menés par Insight Partners",
-      "summary": "Ses modèles multimodaux entraînés sur DPI, notes, pathologie, imagerie et génomique construisent une représentation patient continue pour prévoir l'évolution, retrouver des patients similaires et cibler des cohortes d'essai ; Eric Topol préside son conseil scientifique.",
-      "url": "https://hitconsultant.net/2026/11/17/aevius-raises-22-million-insight-partners-make-medicine-computable/"
-    },
-    {
-      "company": "Knit Health",
-      "place": "San Francisco",
-      "sector": "IA clinique",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "Knit Health lève 35 M$ en Series A menée par NEA et dévoile Med-BEAM, un « world model » qui apprend des décisions cliniques plutôt que du texte",
-      "summary": "Spin-out de UC Berkeley fondé en 2025 (46,6 M$ levés au total, avec Town Hall Ventures et SignalFire), il modélise la trajectoire de chaque patient à partir de séquences d'ordres, d'orientations et de diagnostics et revendique, sur ses propres tests, jusqu'à 4 fois plus de précision qu'un LLM de pointe à 24 h.",
-      "url": "https://hitconsultant.net/2026/11/16/knit-health-raises-35m-series-a-nea-unveils-med-beam-world-model-healthcare/"
-    },
-    {
-      "company": "HHS (OCR)",
+      "company": "CMS",
       "place": "Washington",
       "sector": "Réglementaire",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Les États-Unis finalisent la révision HIPAA : accès du patient à son dossier en 15 jours et transfert gratuit vers l'appli de santé de son choix",
-      "summary": "La règle, publiée au Federal Register le 19 novembre, réduit le délai d'accès de 30 à 15 jours, rend gratuite la copie électronique transmise via une appli personnelle et précise que ces éditeurs ne sont pas des « business associates » : un accélérateur pour les applis grand public qui agrègent les dossiers médicaux.",
-      "url": "https://hitconsultant.net/2026/11/16/hhs-ocr-issues-2026-hipaa-privacy-rule-final-rule-15-day-access-coordinated-care/"
+      "title": "L'administration américaine publie une feuille de route pour accélérer l'adoption de l'IA clinique, paiement à la performance compris",
+      "summary": "Le document de HHS et des CMS prévoit des partenariats avec les bacs à sable réglementaires des États (comme l'Utah), une régulation fondée sur le risque, la surveillance post-déploiement et l'extension du modèle ACCESS qui rémunère les résultats obtenus avec des applis IA, y compris dans Medicaid. Un modèle de remboursement que les payeurs européens observeront.",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/11/trump-administration-releases-roadmap-boost-clinical-ai/417254/"
+    },
+    {
+      "company": "Aimbient",
+      "place": "Toronto",
+      "sector": "IA clinique",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Aimbient : une étude de Stanford dans JAMA Surgery valide la documentation automatique du bloc opératoire au niveau humain",
+      "summary": "Sur huit mois, 14 salles d'opération et une salle d'intervention, la vision par ordinateur d'Aimbient (ex-Surgical Safety Technologies) a horodaté entrées et sorties des patients sans différence significative de précision avec la saisie manuelle dans sept spécialités, et sans les 5 à 6 minutes de retard moyen des infirmières.",
+      "url": "https://hitconsultant.net/2026/11/18/aimbient-ai-automates-or-documentation-human-accuracy-stanford-jama-surgery/"
+    },
+    {
+      "company": "Pajama.ai",
+      "place": "États-Unis",
+      "sector": "IA clinique",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "Credo Health rachète Affineon Health et devient Pajama.ai, assistant IA qui prépare les dossiers et vide la boîte de réception des médecins",
+      "summary": "L'ensemble revendique plus de 200 groupes cliniques, 3 000 médecins et 5 millions de patients, automatise 40 à 60 % des messages de la boîte de réception et promet environ 40 heures rendues par médecin et par mois ; montant non communiqué. Signe de consolidation des « copilotes » post-consultation.",
+      "url": "https://www.prnewswire.com/news-releases/credo-health-acquires-affineon-launches-pajamaai-to-end-doctors-pajama-time-302939962.html"
     }
   ],
   "word": {
-    "term": "Teleradiology",
-    "full": "Teleradiology (téléradiologie)",
-    "fr": "Téléradiologie",
-    "field": "Télésanté / imagerie à distance",
-    "definition": "L'interprétation d'examens d'imagerie (scanner, IRM, radio) par un radiologue situé ailleurs que le lieu où les images ont été acquises, grâce à leur transmission sécurisée.",
+    "term": "rPPG",
+    "full": "Remote Photoplethysmography (photopléthysmographie à distance)",
+    "fr": "Mesure des signes vitaux par caméra, sans contact",
+    "field": "Santé connectée · Signes vitaux",
+    "definition": "Une technique logicielle qui déduit le pouls, la respiration, voire la pression artérielle, des infimes variations de couleur de la peau du visage filmée par une simple caméra, à chaque battement du cœur.",
     "parts": [
-      {
-        "label": "Site émetteur",
-        "role": "l'hôpital ou le cabinet qui réalise l'examen et envoie images et données patient"
-      },
-      {
-        "label": "Plateforme de routage",
-        "role": "intègre le RIS/PACS du client et distribue chaque examen au bon radiologue"
-      },
-      {
-        "label": "Site récepteur",
-        "role": "le téléradiologue qui lit les images et rédige le compte rendu"
-      }
+      { "label": "Caméra standard", "role": "la captation (smartphone, webcam, robot)" },
+      { "label": "Traitement du signal", "role": "l'extraction de l'onde de pouls" },
+      { "label": "Modèles d'IA", "role": "la conversion en signes vitaux" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Transmission",
-        "t": "Les images partent du site d'acquisition par VPN, envoi DICOM avec messages HL7 ou services web sécurisés (profils IHE XDS/XDR)."
-      },
-      {
-        "n": "2",
-        "h": "Attribution",
-        "t": "La plateforme affecte l'examen à un radiologue disponible et compétent ; Primedea annonce un routage en quelques minutes par intégration directe aux RIS."
-      },
-      {
-        "n": "3",
-        "h": "Compte rendu",
-        "t": "Le téléradiologue livre une lecture préliminaire (garde), un compte rendu définitif ou un second avis, qui revient dans le dossier du site émetteur."
-      }
+      { "n": "1", "h": "Filmer", "t": "L'utilisateur regarde la caméra 30 à 60 secondes ; le logiciel suit les zones de peau du visage." },
+      { "n": "2", "h": "Extraire", "t": "L'afflux de sang modifie légèrement la couleur de la peau à chaque battement : ces variations forment un signal de pouls." },
+      { "n": "3", "h": "Estimer", "t": "Des algorithmes entraînés sur des mesures de référence en tirent fréquence cardiaque, variabilité, fréquence respiratoire et pression artérielle." }
     ],
-    "why": "La pénurie de radiologues et la hausse continue des volumes d'imagerie font de la lecture à distance une réponse structurelle, en particulier pour les gardes de nuit et de week-end. Pour un investisseur, la valeur se déplace du simple réseau de médecins vers le logiciel d'orchestration (routage, intégration RIS/PACS, contrôle qualité) et l'IA de priorisation, avec une contrainte forte : la Société européenne de radiologie considère la téléradiologie comme un acte médical soumis aux mêmes exigences de qualité que la lecture sur place.",
+    "why": "Sans capteur à fabriquer ni à distribuer, le signe vital devient un SDK vendu aux assureurs, plateformes de téléconsultation et soins à domicile, avec une marge logicielle. La valeur se joue dans la preuve clinique et le marquage CE (classe IIa pour la pression artérielle) : c'est le fossé réglementaire qui sépare un gadget de bien-être d'un outil de dépistage remboursable, et la levée d'IntelliProve montre que les investisseurs financent d'abord ce saut de classe.",
     "startups": [
-      {
-        "name": "Primedea",
-        "use": "Réseau de plus de 20 radiologues indépendants relié aux RIS des clients, comptes rendus d'urgence en moins de 30 minutes 24 h/24 ; pre-seed mené par Hansi Hansmann en novembre 2026",
-        "place": "Zurich, Suisse"
-      },
-      {
-        "name": "Hexarad",
-        "use": "Téléradiologie fondée en 2016 par des radiologues consultants du NHS, avec sa propre suite logicielle (RIS, moteur d'intégration Hexarad Edge, Hub pour l'urgence) ; Series B de 13 M€ menée par MTIP",
-        "place": "Londres, Royaume-Uni"
-      },
-      {
-        "name": "HLH Group",
-        "use": "Cabinet britannique de comptes rendus radiologiques sous-spécialisés à distance (poumon, cœur, prostate), qui se présente comme le premier prestataire indépendant de lecture du programme NHS de dépistage du cancer du poumon, avec intégrations PACS/RIS et IA hébergées dans le cloud",
-        "place": "Royaume-Uni"
-      }
+      { "name": "IntelliProve", "use": "Scan facial de 30 s (FC, VFC, respiration, pression artérielle) intégré par des clients dans plus de 50 pays ; CE classe I, vise la IIa ; seed de 2,7 M€ menée par Miles Ahead", "place": "Gand, Belgique" },
+      { "name": "Shen.AI", "use": "SDK rPPG marqué CE classe IIa sous MDR pour FC, VFC, pression artérielle et fréquence respiratoire en un scan de 60 s", "place": "Tallinn, Estonie / Wrocław, Pologne" },
+      { "name": "Lifelight", "use": "Appli de Xim Ltd mesurant pression artérielle et pouls par vidéo du visage, CE classe IIa sous MDR, proposée en SaaS à 1 700 cabinets de soins primaires du NHS", "place": "Royaume-Uni" },
+      { "name": "Binah.ai", "use": "SDK B2B qui extrait le signal PPG d'un selfie vidéo de 35 à 60 s, les résultats restant sur l'appareil de l'utilisateur sans accès de Binah", "place": "Israël" }
     ],
     "sources": [
-      {
-        "publisher": "Insights into Imaging (ESR)",
-        "title": "ESR white paper on teleradiology: an update from the teleradiology subgroup",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3948905/"
-      },
-      {
-        "publisher": "startupticker.ch",
-        "title": "Frisches Kapital für Teleradiologie-Netzwerk Primedea",
-        "url": "https://www.startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea"
-      },
-      {
-        "publisher": "Tech.eu",
-        "title": "Hexarad secures €13M for radiology workflow software",
-        "url": "https://tech.eu/2024/08/15/hexarad-secures-eur13m-for-radiology-workflow-software/"
-      },
-      {
-        "publisher": "HLH Group",
-        "title": "HLH Group — The UK’s Leading Subspecialist Radiology Reporting Firm",
-        "url": "https://thehlhgroup.com/"
-      }
+      { "publisher": "The Next Web", "title": "IntelliProve raises €2.7M to take its face scan health check to robots", "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots" },
+      { "publisher": "Shen.AI", "title": "Medical device Shen AI", "url": "https://shen.ai/medical-device" },
+      { "publisher": "Lifelight", "title": "About The Product | Lifelight", "url": "https://lifelight.ai/solution/" },
+      { "publisher": "Binah.ai", "title": "Technology - Binah", "url": "https://www.binah.ai/technology/" }
     ]
   }
 }

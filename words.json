@@ -2,6 +2,91 @@
   "generatedAt": "2026-11-19",
   "words": [
     {
+      "term": "rPPG",
+      "full": "Remote Photoplethysmography (photopléthysmographie à distance)",
+      "fr": "Mesure des signes vitaux par caméra, sans contact",
+      "field": "Santé connectée · Signes vitaux",
+      "definition": "Une technique logicielle qui déduit le pouls, la respiration, voire la pression artérielle, des infimes variations de couleur de la peau du visage filmée par une simple caméra, à chaque battement du cœur.",
+      "parts": [
+        {
+          "label": "Caméra standard",
+          "role": "la captation (smartphone, webcam, robot)"
+        },
+        {
+          "label": "Traitement du signal",
+          "role": "l'extraction de l'onde de pouls"
+        },
+        {
+          "label": "Modèles d'IA",
+          "role": "la conversion en signes vitaux"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Filmer",
+          "t": "L'utilisateur regarde la caméra 30 à 60 secondes ; le logiciel suit les zones de peau du visage."
+        },
+        {
+          "n": "2",
+          "h": "Extraire",
+          "t": "L'afflux de sang modifie légèrement la couleur de la peau à chaque battement : ces variations forment un signal de pouls."
+        },
+        {
+          "n": "3",
+          "h": "Estimer",
+          "t": "Des algorithmes entraînés sur des mesures de référence en tirent fréquence cardiaque, variabilité, fréquence respiratoire et pression artérielle."
+        }
+      ],
+      "why": "Sans capteur à fabriquer ni à distribuer, le signe vital devient un SDK vendu aux assureurs, plateformes de téléconsultation et soins à domicile, avec une marge logicielle. La valeur se joue dans la preuve clinique et le marquage CE (classe IIa pour la pression artérielle) : c'est le fossé réglementaire qui sépare un gadget de bien-être d'un outil de dépistage remboursable, et la levée d'IntelliProve montre que les investisseurs financent d'abord ce saut de classe.",
+      "startups": [
+        {
+          "name": "IntelliProve",
+          "use": "Scan facial de 30 s (FC, VFC, respiration, pression artérielle) intégré par des clients dans plus de 50 pays ; CE classe I, vise la IIa ; seed de 2,7 M€ menée par Miles Ahead",
+          "place": "Gand, Belgique"
+        },
+        {
+          "name": "Shen.AI",
+          "use": "SDK rPPG marqué CE classe IIa sous MDR pour FC, VFC, pression artérielle et fréquence respiratoire en un scan de 60 s",
+          "place": "Tallinn, Estonie / Wrocław, Pologne"
+        },
+        {
+          "name": "Lifelight",
+          "use": "Appli de Xim Ltd mesurant pression artérielle et pouls par vidéo du visage, CE classe IIa sous MDR, proposée en SaaS à 1 700 cabinets de soins primaires du NHS",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "Binah.ai",
+          "use": "SDK B2B qui extrait le signal PPG d'un selfie vidéo de 35 à 60 s, les résultats restant sur l'appareil de l'utilisateur sans accès de Binah",
+          "place": "Israël"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "The Next Web",
+          "title": "IntelliProve raises €2.7M to take its face scan health check to robots",
+          "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+        },
+        {
+          "publisher": "Shen.AI",
+          "title": "Medical device Shen AI",
+          "url": "https://shen.ai/medical-device"
+        },
+        {
+          "publisher": "Lifelight",
+          "title": "About The Product | Lifelight",
+          "url": "https://lifelight.ai/solution/"
+        },
+        {
+          "publisher": "Binah.ai",
+          "title": "Technology - Binah",
+          "url": "https://www.binah.ai/technology/"
+        }
+      ],
+      "date": "2026-11-19",
+      "dateLong": "19 nov. 2026"
+    },
+    {
       "term": "TAT",
       "full": "Targeted Alpha Therapy",
       "fr": "Thérapie alpha ciblée",
