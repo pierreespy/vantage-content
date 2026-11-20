@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-20",
   "words": [
     {
+      "term": "Extracellular Protein Degrader",
+      "full": "Extracellular Protein Degrader (dégradeur de protéines extracellulaires)",
+      "fr": "Dégradeur de protéines extracellulaires",
+      "field": "Dégradation ciblée des protéines",
+      "definition": "Une molécule à deux bras qui attrape une protéine nocive circulant dans le sang ou posée à la surface des cellules, et l'entraîne dans la cellule pour qu'elle y soit détruite, là où les PROTAC ne savent atteindre que les protéines intracellulaires.",
+      "parts": [
+        {
+          "label": "Bras de capture",
+          "role": "se lie à la protéine cible (anticorps, IgE, IgG4…)"
+        },
+        {
+          "label": "Ligand de récepteur",
+          "role": "s'accroche à un récepteur qui mène au lysosome (ASGPR du foie, CI-M6PR…)"
+        },
+        {
+          "label": "Lysosome",
+          "role": "le compartiment de recyclage où la cible est broyée"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Pontage",
+          "t": "La molécule relie la protéine cible à un récepteur de surface, formant un complexe à trois éléments."
+        },
+        {
+          "n": "2",
+          "h": "Internalisation",
+          "t": "La cellule avale le complexe par endocytose ; l'acidité des endosomes fait se séparer la cible du récepteur."
+        },
+        {
+          "n": "3",
+          "h": "Destruction et recyclage",
+          "t": "La cible part au lysosome pour y être dégradée tandis que le récepteur revient à la membrane, prêt à resservir."
+        }
+      ],
+      "why": "Une large part des protéines liées aux maladies (auto-anticorps, cytokines, récepteurs membranaires) vivent hors de la cellule, hors de portée des PROTAC et colles moléculaires. Ces dégradeurs promettent d'éliminer sélectivement un seul anticorps pathogène là où les anti-FcRn abaissent toutes les IgG : la première introduction en Bourse réussie (Lycia, 318 M$ en octobre) et l'entrée en clinique de GlycoEra font passer la modalité du concept à la preuve chez l'humain, avec 2027 comme année des premières données.",
+      "startups": [
+        {
+          "name": "GlycoEra",
+          "use": "Plateforme de glyco-ingénierie ; GE8820, dégradeur sélectif des IgG4, en phase 1a depuis novembre 2026 ; Series B de 130 M$ menée par Novo Holdings en 2025",
+          "place": "Wädenswil, Suisse"
+        },
+        {
+          "name": "Lycia Therapeutics",
+          "use": "LYTAC (chimères ciblant le lysosome) ; LCA-0061 anti-IgE en phase 1 dans l'allergie alimentaire, introduction au Nasdaq de 318 M$ en octobre 2026",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Avilar Therapeutics",
+          "use": "ATAC, qui emmènent les protéines circulantes dans le foie via le récepteur ASGPR ; programme de tête contre sFlt1 dans la pré-éclampsie, nouvelle CEO Leslie Meltzer en octobre 2026",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Theranostics",
+          "title": "Emerging protein degradation strategies: expanding the scope to extracellular and membrane proteins",
+          "url": "https://www.thno.org/v11p8337.htm"
+        },
+        {
+          "publisher": "GlycoEra",
+          "title": "GlycoEra Initiates Phase 1a Trial of GE8820, the First IgG4-Selective Degrader to Enter the Clinic",
+          "url": "https://www.glycoera.com/wp-content/uploads/2026/11/FINALGlycoEra-Phase-1a-Trial-Initiation-PR_11.16.26.pdf"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Protein degrader specialist Lycia prices $318M IPO",
+          "url": "https://www.biopharmadive.com/news/lycia-therapeutics-targeted-protein-degraders-ipo-pricing/833624/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Avilar Therapeutics Launches With $60 Million Seed Financing to Pioneer Extracellular Protein Degradation",
+          "url": "https://www.biospace.com/avilar-therapeutics-launches-with-60-million-seed-financing-to-pioneer-extracellular-protein-degradation"
+        }
+      ],
+      "date": "2026-11-20",
+      "dateLong": "20 nov. 2026"
+    },
+    {
       "term": "Digital Biomarker",
       "full": "Digital Biomarker (biomarqueur numérique)",
       "fr": "Biomarqueur numérique",

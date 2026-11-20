@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-20",
   "words": [
     {
+      "term": "Extracellular Protein Degrader",
+      "full": "Extracellular Protein Degrader",
+      "fr": "Extracellular protein degrader",
+      "field": "Targeted protein degradation",
+      "definition": "A two-armed molecule that grabs a harmful protein circulating in the blood or sitting on the cell surface and drags it into the cell to be destroyed, whereas PROTACs can only reach proteins inside the cell.",
+      "parts": [
+        {
+          "label": "Capture arm",
+          "role": "binds the target protein (antibody, IgE, IgG4…)"
+        },
+        {
+          "label": "Receptor ligand",
+          "role": "latches onto a receptor that leads to the lysosome (liver ASGPR, CI-M6PR…)"
+        },
+        {
+          "label": "Lysosome",
+          "role": "the recycling compartment where the target is broken down"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Bridging",
+          "t": "The molecule links the target protein to a surface receptor, forming a three-part complex."
+        },
+        {
+          "n": "2",
+          "h": "Internalization",
+          "t": "The cell swallows the complex by endocytosis; acidity in the endosomes makes the target separate from the receptor."
+        },
+        {
+          "n": "3",
+          "h": "Destruction and recycling",
+          "t": "The target goes on to the lysosome to be degraded while the receptor returns to the membrane, ready to be reused."
+        }
+      ],
+      "why": "A large share of disease-linked proteins (autoantibodies, cytokines, membrane receptors) live outside the cell, out of reach of PROTACs and molecular glues. These degraders promise to selectively remove a single pathogenic antibody where FcRn blockers lower all IgG: the first successful IPO (Lycia, $318M in October) and GlycoEra's entry into the clinic move the modality from concept to proof in humans, with 2027 as the year of first data.",
+      "startups": [
+        {
+          "name": "GlycoEra",
+          "use": "Glycoengineering platform; GE8820, an IgG4-selective degrader, in phase 1a since November 2026; $130M Series B led by Novo Holdings in 2025",
+          "place": "Wädenswil, Switzerland"
+        },
+        {
+          "name": "Lycia Therapeutics",
+          "use": "LYTACs (lysosome-targeting chimeras); anti-IgE LCA-0061 in phase 1 in food allergy, $318M Nasdaq IPO in October 2026",
+          "place": "United States"
+        },
+        {
+          "name": "Avilar Therapeutics",
+          "use": "ATACs, which carry circulating proteins into the liver via the ASGPR receptor; lead program against sFlt1 in preeclampsia, new CEO Leslie Meltzer in October 2026",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Theranostics",
+          "title": "Emerging protein degradation strategies: expanding the scope to extracellular and membrane proteins",
+          "url": "https://www.thno.org/v11p8337.htm"
+        },
+        {
+          "publisher": "GlycoEra",
+          "title": "GlycoEra Initiates Phase 1a Trial of GE8820, the First IgG4-Selective Degrader to Enter the Clinic",
+          "url": "https://www.glycoera.com/wp-content/uploads/2026/11/FINALGlycoEra-Phase-1a-Trial-Initiation-PR_11.16.26.pdf"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Protein degrader specialist Lycia prices $318M IPO",
+          "url": "https://www.biopharmadive.com/news/lycia-therapeutics-targeted-protein-degraders-ipo-pricing/833624/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Avilar Therapeutics Launches With $60 Million Seed Financing to Pioneer Extracellular Protein Degradation",
+          "url": "https://www.biospace.com/avilar-therapeutics-launches-with-60-million-seed-financing-to-pioneer-extracellular-protein-degradation"
+        }
+      ],
+      "date": "2026-11-20",
+      "dateLong": "Nov 20, 2026"
+    },
+    {
       "term": "Digital Biomarker",
       "full": "Digital Biomarker",
       "fr": "Digital biomarker",
