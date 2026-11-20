@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-19",
+  "generatedAt": "2026-11-20",
   "words": [
+    {
+      "term": "PNS",
+      "full": "Peripheral Nerve Stimulation (stimulation des nerfs périphériques)",
+      "fr": "Stimulation des nerfs périphériques",
+      "field": "Neuromodulation",
+      "definition": "Une thérapie qui place une petite électrode près d'un nerf périphérique (occipital, tibial, nerfs du dos ou du crâne) et y envoie de faibles impulsions électriques pour moduler la douleur ou une fonction, sans médicament.",
+      "parts": [
+        {
+          "label": "Électrode",
+          "role": "le contact au plus près du nerf ciblé"
+        },
+        {
+          "label": "Générateur / antenne",
+          "role": "l'énergie, de plus en plus externe (sans batterie implantée)"
+        },
+        {
+          "label": "Programmation",
+          "role": "le réglage des impulsions selon le patient"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le médecin repère le nerf responsable (ex. nerf occipital pour l'algie vasculaire de la face) et y place l'électrode par une incision ou une injection mini-invasive."
+        },
+        {
+          "n": "2",
+          "h": "Alimentation",
+          "t": "Un générateur implanté ou, dans les dispositifs récents, une unité externe portée sur la peau alimente l'implant à travers les tissus."
+        },
+        {
+          "n": "3",
+          "h": "Modulation",
+          "t": "Les impulsions électriques modifient la transmission des signaux nerveux, ce qui réduit la fréquence ou l'intensité des crises douloureuses."
+        }
+      ],
+      "why": "La PNS se miniaturise : sans batterie implantée ni câble tunnelisé, la chirurgie s'allège et le dispositif devient plus facile à déployer. Les majors consolident le segment (Medtronic a racheté SPR Therapeutics, Boston Scientific a racheté Nalu), ce qui ouvre des sorties lisibles pour les startups européennes encore en clinique sur la céphalée et la migraine.",
+      "startups": [
+        {
+          "name": "Man & Science",
+          "use": "Implant miniaturisé de stimulation occipitale contre l'algie vasculaire chronique ; étude ONFIELD (10 patients) entièrement implantée, désignation Breakthrough FDA",
+          "place": "Liège, Belgique"
+        },
+        {
+          "name": "Salvia BioElectronics",
+          "use": "Système MySalvia (deux implants ultrafins sous le cuir chevelu) contre la migraine ; premier patient US de l'essai randomisé RECLAIM-II en octobre 2026",
+          "place": "Eindhoven, Pays-Bas"
+        },
+        {
+          "name": "Neuronoff",
+          "use": "Injectrode, électrode injectable mini-invasive pour la PNS ; premier patient d'un essai financé par le DoD (vessie neurogène), soumission 510(k) visée en 2026",
+          "place": "États-Unis"
+        },
+        {
+          "name": "Curonix",
+          "use": "Système Freedom PNS sans batterie implantée (510(k) K233162), étendu aux douleurs crânio-faciales chroniques en 2026",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PMC (NCBI)",
+          "title": "Occipital nerve stimulation in medically intractable chronic cluster headache",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11235842/"
+        },
+        {
+          "publisher": "Innovation Origins / IO+",
+          "title": "Salvia launches US trial of implantable migraine treatment",
+          "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment"
+        },
+        {
+          "publisher": "U.S. FDA",
+          "title": "510(k) K233162 — Freedom Peripheral Nerve Stimulator System",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233162.pdf"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Neuronoff implants first patient in DoD-funded trial of Injectrode for neurogenic bladder in spinal cord injury",
+          "url": "https://www.biospace.com/press-releases/neuronoff-implants-first-patient-in-dod-funded-trial-of-injectrode-for-neurogenic-bladder-in-spinal-cord-injury"
+        }
+      ],
+      "date": "2026-11-20",
+      "dateLong": "20 nov. 2026"
+    },
     {
       "term": "rPPG",
       "full": "Remote Photoplethysmography (photopléthysmographie à distance)",

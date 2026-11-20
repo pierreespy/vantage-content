@@ -1,202 +1,107 @@
 {
-  "dateLong": "19 nov. 2026",
+  "dateLong": "20 nov. 2026",
   "ticker": [
-    {
-      "company": "BERLIN HEALS",
-      "amount": "1er patient",
-      "kind": "tech"
-    },
-    {
-      "company": "LIFEBLOOM",
-      "amount": "Production",
-      "kind": "tech"
-    },
-    {
-      "company": "SCIENCE CORP.",
-      "amount": "$400M",
-      "kind": "lev"
-    },
-    {
-      "company": "NYXOAH",
-      "amount": "UPC",
-      "kind": "reg"
-    },
-    {
-      "company": "PERCISIO",
-      "amount": "MEDICA",
-      "kind": "new"
-    },
-    {
-      "company": "MASIMO",
-      "amount": "FDA",
-      "kind": "reg"
-    }
+    { "company": "MAN & SCIENCE", "amount": "10 patients", "kind": "tech" },
+    { "company": "IMPLANTICA", "amount": "1ers patients US", "kind": "tech" },
+    { "company": "HAEMONETICS", "amount": "CE", "kind": "reg" },
+    { "company": "SIEMENS HEALTHINEERS", "amount": "FDA", "kind": "reg" },
+    { "company": "EXALT", "amount": "Lauréat", "kind": "new" },
+    { "company": "PRIMEDEA", "amount": "Pre-seed", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Premier patient · Cardio",
-    "title": "Berlin Heals implante le premier patient de C-MIC IV, premier essai en double aveugle contre placebo de sa microstimulation cardiaque",
-    "deck": "La medtech de Zoug a annoncé le 18 novembre le premier implant de l'essai international C-MIC IV, réalisé au CHU de Kragujevac (Serbie) : 60 insuffisants cardiaques à fraction d'éjection réduite, randomisés 1:1 entre microcourant actif et dispositif éteint, dans six pays européens dont l'Espagne, la Belgique, les Pays-Bas et le Danemark. Comme le patient ne sent pas le courant, l'aveugle est total — une preuve de niveau supérieur qui doit préparer l'étude pivot IDE américaine, le vrai catalyseur de valeur de la société.",
-    "company": "Berlin Heals",
-    "sector": "Cardio",
+    "kicker": "First-in-human · Neurotech",
+    "title": "Man & Science implante ses 10 patients dans ONFIELD, première étude chez l'homme de son stimulateur occipital miniaturisé",
+    "deck": "La medtech liégeoise a implanté et activé les dix patients prévus dans ONFIELD, l'étude first-in-human de son implant de stimulation du nerf occipital (ONS) sans batterie implantée ni câble tunnelisé, contre l'algie vasculaire de la face chronique : premiers signaux de baisse des crises, aucun événement indésirable grave lié au dispositif. Prochaine étape annoncée : préparer la phase pivot, sur un programme déjà désigné Breakthrough Device par la FDA — une jeune pousse wallonne (Noshaq, Wallonie Entreprendre) à suivre avant son prochain tour.",
+    "company": "Man & Science",
+    "sector": "Neurotech",
     "pillar": "innovation",
     "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://www.prnewswire.co.uk/news-releases/berlin-heals-initiates-international-randomized-double-blind-sham-controlled-c-mic-iv-trial-302943663.html"
+    "url": "https://lifestyle.middletownlifemagazine.com/story/846229/man-science-completes-implantation-in-onfield-first-in-human-study-of-miniaturised-ons-system-for-chronic-cluster-headache/"
   },
   "milestone": {
-    "company": "Lifebloom",
-    "milestone": "Mise en production",
-    "title": "La medtech lilloise Lifebloom lance la production de son fauteuil-exosquelette Oxilio, déjà commandé par une vingtaine d'hôpitaux",
-    "summary": "Marqué CE, Oxilio est un fauteuil roulant qui se transforme en exosquelette d'assistance à la marche : il porte jusqu'à 80 % du poids du patient et le ramène en position assise en cas de perte d'équilibre. Les 120 premiers exemplaires sortent du site de Villeneuve-d'Ascq, financé par une levée de 8 M€ début 2026 ; le CHU de Lille et les hôpitaux de Gonesse, Laval et Tulle figurent parmi les premiers clients.",
-    "why": "Le passage du prototype à la série est l'étape où beaucoup de medtech de rééducation échouent ; Lifebloom l'aborde avec des commandes fermes et un objectif de plus de 100 établissements en deux ans. La prochaine marche — une prise en charge à domicile, encore à construire — décidera de la taille réelle du marché.",
-    "place": "Lille",
-    "sector": "Rééducation",
-    "signalType": "early_partnership",
-    "url": "https://www.faire-face.fr/2026/11/17/la-start-up-lifebloom-lance-la-production-dun-fauteuil-exosquelette-dassistance-a-la-marche/"
-  },
-  "deal": {
-    "company": "Science Corporation",
-    "amount": "400 M$",
-    "round": "Series D",
-    "thesis": "Huit mois après une Series C de 230 M$, Science lève 400 M$ (Khosla Ventures, 885 Capital, Tenet Healthcare, Y Combinator…) pour déployer en Europe PRIMA, l'implant rétinien issu du rachat du français Pixium, marqué CE en juillet : demandes de remboursement nationales déposées, premiers sites activés, premier implant commercial attendu en Allemagne. La thèse : l'Europe sert de premier marché commercial d'une interface cerveau-machine, avant une approbation FDA par la voie HDE.",
-    "sector": "Neurotech",
-    "url": "https://www.medtechdive.com/news/science-corporation-raises-400m-to-commercialize-bci-device/875009/"
+    "company": "Implantica",
+    "milestone": "1ers patients US",
+    "title": "Implantica réalise ses premières implantations de RefluxStop aux États-Unis après le feu vert PMA",
+    "summary": "Trois mois après l'approbation PMA de la FDA (20 août 2026), les premières procédures américaines RefluxStop — un implant anti-reflux qui restaure l'anatomie sans comprimer l'œsophage — ont été réalisées début novembre par le Dr John Lipham à l'USC. Au T3, les ventes ont bondi de 105 % (748 k€), avec 38,3 M€ de trésorerie.",
+    "why": "Une medtech européenne qui franchit le cap PMA puis le premier patient US prouve que la voie la plus exigeante de la FDA reste accessible depuis l'Europe ; la courbe d'adoption américaine sera le vrai test de valorisation des implants gastro-intestinaux.",
+    "place": "Vaduz",
+    "sector": "MedTech",
+    "signalType": "clinical_update",
+    "url": "https://www.prnewswire.co.uk/news-releases/implantica-publishes-interim-report-january--september-2026-q3-302945111.html"
   },
   "brefsEurope": [
-    {
-      "company": "Nyxoah",
-      "place": "Mont-Saint-Guibert",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "patent_filing",
-      "strength": 3,
-      "title": "Nyxoah obtient une décision par défaut contre Inspire devant la Juridiction unifiée du brevet",
-      "summary": "La division de Munich de l'UPC a rendu le 18 novembre une décision par défaut en faveur de la medtech belge, spécialiste de la stimulation du nerf hypoglosse contre l'apnée du sommeil, dans son action pour contrefaçon d'un brevet européen contre le leader américain Inspire Medical Systems. Une victoire d'étape dans une guerre de brevets ouverte des deux côtés de l'Atlantique, qui pèse sur l'accès au marché européen.",
-      "url": "https://www.globenewswire.com/news-release/2026/11/18/3405385/0/en/nyxoah-obtains-default-decision-against-inspire-medical-systems-in-unified-patent-court-case.html"
-    },
-    {
-      "company": "Percisio",
-      "place": "Paris",
-      "sector": "Imagerie",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 2,
-      "title": "Percisio monte sur le podium du MEDICA Start-up Competition avec sa navigation sans rayons X",
-      "summary": "Incubée à Paris Biotech Santé, la jeune pousse a fini 3e de la finale du 17 novembre à Düsseldorf avec un système portable qui superpose l'anatomie en 3D pendant les gestes de radiologie interventionnelle, sans irradiation supplémentaire. Le concours a été remporté par Exalt, spin-off de l'Université de médecine de Vienne qui teste la réponse des cellules cancéreuses du patient à plus de 100 médicaments, devant l'allemand Paracly (cybersécurité des dispositifs).",
-      "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/"
-    }
+    { "company": "Haemonetics", "place": "Hambourg / Milan / Londres", "sector": "Cardio", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "Haemonetics obtient le marquage CE (MDR) du VASCADE MVP XL pour la fermeture veineuse fémorale",
+      "summary": "Le système de fermeture vasculaire veineuse, conçu pour les gaines 10–12F (ablation PFA, cryoablation, fermeture d'auricule), est certifié sous MDR ; les premières procédures européennes ont eu lieu en octobre à Hambourg, Milan et Londres. Comparable : l'essor de la PFA tire tout l'écosystème d'accessoires d'accès vasculaire.",
+      "url": "https://www.investing.com/news/company-news/haemonetics-receives-ce-mark-for-vascular-closure-system-93CH-5035515" },
+    { "company": "Siemens Healthineers", "place": "Erlangen", "sector": "Imagerie", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Siemens Healthineers décroche la 510(k) FDA de syngo.CT Coronary Cockpit, IA d'analyse de plaque coronaire",
+      "summary": "Le logiciel quantifie et caractérise la plaque coronaire à partir du coroscanner (CCTA) grâce à une segmentation par IA, pour stratifier le risque et aider à planifier une angioplastie. Signal de marché : les majors s'installent sur l'analyse de plaque, terrain des startups d'IA cardiaque.",
+      "url": "https://www.diagnosticimaging.com/view/fda-ccta-based-ai-software-facilitating-management-coronary-artery-disease" },
+    { "company": "Abbott", "place": "Toulouse", "sector": "Cardio", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "Abbott lance VOYAGER CE, essai de son TAVI expansible par ballonnet Encantor guidé par logiciel",
+      "summary": "L'étude pré-marché monobras vise jusqu'à 300 patients en Europe et en Australie ; le Dr Didier Tchétché (Clinique Pasteur, Toulouse) en est co-investigateur principal. Abbott attaque le segment TAVI balloon-expandable dominé par Edwards, avec l'Europe comme première porte d'entrée.",
+      "url": "https://www.prnewswire.com/news-releases/abbott-initiates-voyager-clinical-trial-for-investigational-encantor-software-guided-balloon-expandable-tavi-system-to-treat-aortic-stenosis-302944937.html" },
+    { "company": "Exalt", "place": "Vienne", "sector": "Diagnostics", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 2,
+      "title": "La spin-off de MedUni Vienna Exalt remporte la 15e MEDICA Start-up Competition",
+      "summary": "Sa plateforme d'oncologie fonctionnelle teste les cellules tumorales du patient contre plus de 100 anticancéreux et livre un classement de traitements en ~72 h (hémopathies malignes). Sur le podium : Paracly (Cologne), cybersécurité des dispositifs médicaux, 2e et prix du public.",
+      "url": "https://www.hospimedica.com/medica-2026/articles/294815004/winners-announced-of-the-15th-medica-start-up-competition.html" },
+    { "company": ".lumen", "place": "Cluj-Napoca", "sector": "MedTech", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 2,
+      "title": "Le roumain .lumen gagne la 18e Healthcare Innovation World Cup avec ses lunettes de guidage pour aveugles",
+      "summary": "Les lunettes à IA détectent obstacles et chemins praticables et guident l'utilisateur par retour haptique ; .lumen rafle aussi le vote du public. Le belge Allow Motion (Seraing, main myoélectrique NeoHand imprimée en 3D) prend la 3e place.",
+      "url": "https://www.hospimedica.com/medica-2026/articles/294814974/winners-announced-of-the-18th-healthcare-innovation-world-cup-at-medica-2026.html" },
+    { "company": "Primedea", "place": "Zurich", "sector": "Imagerie", "pillar": "financement",
+      "signalType": "funding_round", "strength": 2, "stage": "Pre-seed",
+      "title": "Primedea lève un tour pre-seed mené par Hansi Hansmann pour son réseau de téléradiologie",
+      "summary": "La startup zurichoise fédère un réseau de radiologues pour l'interprétation à distance d'examens d'imagerie ; le tour (montant non communiqué) est mené par le business angel autrichien Hansi Hansmann. Réponse à la pénurie de radiologues en Europe.",
+      "url": "https://startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea" }
   ],
   "brefsIntl": [
-    {
-      "company": "Masimo",
-      "place": "Irvine",
-      "sector": "Neurotech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Masimo obtient le 510(k) de smartSedLine, nouvelle génération de son moniteur de profondeur d'anesthésie",
-      "summary": "Le nouveau module et capteur EEG embarquent un algorithme Patient State Index amélioré, plus réactif à l'induction et plus stable quand le signal EEG est faible. Septième clearance FDA de l'année pour Masimo, désormais filiale de Danaher : le monitoring cérébral peropératoire devient un terrain de consolidation des grands groupes.",
-      "url": "https://www.prnewswire.com/news-releases/masimo-receives-fda-510k-clearance-for-smartsedline-to-advance-brain-health-during-anesthesia-302943088.html"
-    },
-    {
-      "company": "MedInTech",
-      "place": "Séoul",
-      "sector": "Robotique chirurgicale",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 5,
-      "title": "MedInTech lève 25,7 M$ en Series C pour passer de l'endoscopie robotisée à la chirurgie",
-      "summary": "Le tour, mené conjointement par Atinum Investment et KB Investment, doit élargir sa gamme d'endoscopes robotisés assistés par IA et l'emmener vers les applications thérapeutiques et chirurgicales. Un comparable asiatique à suivre pour les robots endoluminaux européens.",
-      "url": "https://en.wowtale.net/2026/11/17/236032/"
-    },
-    {
-      "company": "Fziomed",
-      "place": "San Luis Obispo",
-      "sector": "Biomatériaux",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "Fziomed décroche le 510(k) de Dynavisc, gel résorbable de protection des tendons",
-      "summary": "Ce gel synthétique, appliqué après réparation tendineuse pour séparer les tissus pendant la cicatrisation, est vendu hors des États-Unis depuis plus de dix ans (plus de 50 000 patients). Illustration classique du parcours « Europe d'abord, FDA ensuite » des biomatériaux.",
-      "url": "https://www.prnewswire.com/news-releases/fziomed-announces-fda-510k-clearance-for-dynavisc-tendon-protector-in-the-united-states-302942783.html"
-    }
+    { "company": "Biostream", "place": "Haïfa", "sector": "Diagnostics", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 4,
+      "title": "Biostream obtient la Breakthrough Device Designation pour un test urinaire de l'hydrocéphalie à pression normale",
+      "summary": "Fondée en 2025, la startup mesure un panel de protéines urinaires et produit un score de probabilité pour distinguer l'hydrocéphalie à pression normale idiopathique d'Alzheimer chez les plus de 60 ans (désignation du 12 novembre). Un diagnostic non invasif pour une démence potentiellement réversible.",
+      "url": "https://finance.yahoo.com/healthcare/articles/biostream-receives-fda-breakthrough-device-130000226.html" },
+    { "company": "BURL Concepts", "place": "San Diego", "sector": "Imagerie", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "BURL Concepts décroche la 510(k) FDA de FOQUS, échographe transcrânien automatisé pour dépister le FOP",
+      "summary": "Le casque à ultrasons basse fréquence scanne le cerveau en ~40 s pour détecter les shunts droite-gauche (foramen ovale perméable), opérable par une seule infirmière. Déjà utilisé aux Pays-Bas et au Royaume-Uni sous marquage CE ; lancement US début 2027.",
+      "url": "https://www.prnewswire.com/news-releases/burl-concepts-announces-fda-510k-clearance-for-foqus-ultrasound-system-for-rapid-automated-patent-foramen-ovale-pfo-screening-302944716.html" }
   ],
   "word": {
-    "term": "AR Surgical Navigation",
-    "full": "Augmented Reality Surgical Navigation (navigation chirurgicale en réalité augmentée)",
-    "fr": "Navigation chirurgicale en réalité augmentée",
-    "field": "Chirurgie guidée par l'image",
-    "definition": "Un système qui superpose, dans le champ de vision du chirurgien (casque, lunettes ou tablette), l'imagerie 3D du patient et la trajectoire de ses instruments, pour voir « à travers » la peau pendant le geste.",
+    "term": "PNS",
+    "full": "Peripheral Nerve Stimulation (stimulation des nerfs périphériques)",
+    "fr": "Stimulation des nerfs périphériques",
+    "field": "Neuromodulation",
+    "definition": "Une thérapie qui place une petite électrode près d'un nerf périphérique (occipital, tibial, nerfs du dos ou du crâne) et y envoie de faibles impulsions électriques pour moduler la douleur ou une fonction, sans médicament.",
     "parts": [
-      {
-        "label": "Imagerie préopératoire",
-        "role": "la carte (scanner, IRM, échographie reconstruits en 3D)"
-      },
-      {
-        "label": "Suivi optique ou électromagnétique",
-        "role": "le GPS (position du patient et des instruments)"
-      },
-      {
-        "label": "Affichage AR",
-        "role": "l'écran (casque, lunettes ou tablette)"
-      }
+      { "label": "Électrode", "role": "le contact au plus près du nerf ciblé" },
+      { "label": "Générateur / antenne", "role": "l'énergie, de plus en plus externe (sans batterie implantée)" },
+      { "label": "Programmation", "role": "le réglage des impulsions selon le patient" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Recalage",
-        "t": "Le logiciel aligne le modèle 3D issu de l'imagerie sur l'anatomie réelle du patient installé au bloc."
-      },
-      {
-        "n": "2",
-        "h": "Suivi",
-        "t": "Caméras ou capteurs suivent en temps réel le patient et les instruments, pour que la superposition reste juste quand tout bouge."
-      },
-      {
-        "n": "3",
-        "h": "Guidage",
-        "t": "Le chirurgien voit l'anatomie cachée et la trajectoire idéale directement sur le champ opératoire, sans quitter le patient des yeux pour un écran déporté."
-      }
+      { "n": "1", "h": "Ciblage", "t": "Le médecin repère le nerf responsable (ex. nerf occipital pour l'algie vasculaire de la face) et y place l'électrode par une incision ou une injection mini-invasive." },
+      { "n": "2", "h": "Alimentation", "t": "Un générateur implanté ou, dans les dispositifs récents, une unité externe portée sur la peau alimente l'implant à travers les tissus." },
+      { "n": "3", "h": "Modulation", "t": "Les impulsions électriques modifient la transmission des signaux nerveux, ce qui réduit la fréquence ou l'intensité des crises douloureuses." }
     ],
-    "why": "La navigation classique repose sur de grosses stations fixes et coûteuses ; l'AR promet un guidage portable, moins cher et sans irradiation supplémentaire, accessible à des blocs et des services qui n'en avaient pas. La FDA recense plus de 100 dispositifs AR/VR autorisés, en majorité par 510(k), et l'arrivée de codes de remboursement pour la navigation ouvre un modèle économique : un terrain favorable aux jeunes pousses capital-efficientes face aux géants de la navigation.",
+    "why": "La PNS se miniaturise : sans batterie implantée ni câble tunnelisé, la chirurgie s'allège et le dispositif devient plus facile à déployer. Les majors consolident le segment (Medtronic a racheté SPR Therapeutics, Boston Scientific a racheté Nalu), ce qui ouvre des sorties lisibles pour les startups européennes encore en clinique sur la céphalée et la migraine.",
     "startups": [
-      {
-        "name": "Percisio",
-        "use": "Navigation portable sans rayons X qui superpose l'anatomie 3D pendant la radiologie interventionnelle ; 3e du MEDICA Start-up Competition 2026",
-        "place": "Paris, France"
-      },
-      {
-        "name": "Pixee Medical",
-        "use": "Knee+ NexSight, navigation AR pour la prothèse totale de genou : marquage CE en mars 2026, 510(k) FDA en avril",
-        "place": "Besançon, France"
-      },
-      {
-        "name": "Medivis",
-        "use": "Plateforme AR sur casque, 510(k) pour la navigation crânienne en neurochirurgie en décembre 2025 après la navigation rachidienne",
-        "place": "New York, États-Unis"
-      }
+      { "name": "Man & Science", "use": "Implant miniaturisé de stimulation occipitale contre l'algie vasculaire chronique ; étude ONFIELD (10 patients) entièrement implantée, désignation Breakthrough FDA", "place": "Liège, Belgique" },
+      { "name": "Salvia BioElectronics", "use": "Système MySalvia (deux implants ultrafins sous le cuir chevelu) contre la migraine ; premier patient US de l'essai randomisé RECLAIM-II en octobre 2026", "place": "Eindhoven, Pays-Bas" },
+      { "name": "Neuronoff", "use": "Injectrode, électrode injectable mini-invasive pour la PNS ; premier patient d'un essai financé par le DoD (vessie neurogène), soumission 510(k) visée en 2026", "place": "États-Unis" },
+      { "name": "Curonix", "use": "Système Freedom PNS sans batterie implantée (510(k) K233162), étendu aux douleurs crânio-faciales chroniques en 2026", "place": "États-Unis" }
     ],
     "sources": [
-      {
-        "publisher": "Exponent",
-        "title": "FDA Expands AR/VR Medical Device List",
-        "url": "https://www.exponent.com/article/fda-expands-arvr-medical-device-list"
-      },
-      {
-        "publisher": "Medivis",
-        "title": "Medivis First to Receive FDA Clearance for Augmented Reality Navigation in Neurosurgery",
-        "url": "https://www.medivis.com/press/medivis-first-to-receive-fda-clearance-for-augmented-reality-navigation-in-neurosurgery"
-      },
-      {
-        "publisher": "Pulse",
-        "title": "Pixee Medical's Knee+ NexSight Receives the European CE Mark for Knee Arthroplasty",
-        "url": "https://www.pulse.bot/healthtech/news/pixee-medicals-knee-nexsight-receives-the-european-ce-mark-for-knee-arthroplasty-1d8278c2-40e7-4ec9-9815-6a6b184d5428"
-      },
-      {
-        "publisher": "Innovation World Cup",
-        "title": "The Top 3 Medical Start-Ups of 2026 are announced",
-        "url": "https://www.innovationworldcup.com/the-top-3-medical-start-ups-of-2026-are-announced/"
-      }
+      { "publisher": "PMC (NCBI)", "title": "Occipital nerve stimulation in medically intractable chronic cluster headache", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11235842/" },
+      { "publisher": "Innovation Origins / IO+", "title": "Salvia launches US trial of implantable migraine treatment", "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment" },
+      { "publisher": "U.S. FDA", "title": "510(k) K233162 — Freedom Peripheral Nerve Stimulator System", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233162.pdf" },
+      { "publisher": "BioSpace", "title": "Neuronoff implants first patient in DoD-funded trial of Injectrode for neurogenic bladder in spinal cord injury", "url": "https://www.biospace.com/press-releases/neuronoff-implants-first-patient-in-dod-funded-trial-of-injectrode-for-neurogenic-bladder-in-spinal-cord-injury" }
     ]
   }
 }

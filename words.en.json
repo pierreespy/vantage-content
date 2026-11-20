@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-19",
+  "generatedAt": "2026-11-20",
   "words": [
+    {
+      "term": "PNS",
+      "full": "Peripheral Nerve Stimulation",
+      "fr": "Peripheral nerve stimulation",
+      "field": "Neuromodulation",
+      "definition": "A therapy that places a small electrode next to a peripheral nerve (occipital, tibial, back or cranial nerves) and sends it weak electrical pulses to modulate pain or a function, without drugs.",
+      "parts": [
+        {
+          "label": "Electrode",
+          "role": "the contact right next to the target nerve"
+        },
+        {
+          "label": "Generator / antenna",
+          "role": "the power source, increasingly external (no implanted battery)"
+        },
+        {
+          "label": "Programming",
+          "role": "tuning the pulses to each patient"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Targeting",
+          "t": "The physician identifies the responsible nerve (e.g. the occipital nerve in cluster headache) and places the electrode through an incision or a minimally invasive injection."
+        },
+        {
+          "n": "2",
+          "h": "Powering",
+          "t": "An implanted generator or, in recent devices, an external unit worn on the skin powers the implant through the tissue."
+        },
+        {
+          "n": "3",
+          "h": "Modulation",
+          "t": "The electrical pulses alter nerve signal transmission, reducing the frequency or intensity of pain attacks."
+        }
+      ],
+      "why": "PNS is shrinking: with no implanted battery or tunnelled leads, surgery gets lighter and devices easier to roll out. The majors are consolidating the segment (Medtronic bought SPR Therapeutics, Boston Scientific bought Nalu), creating clear exit paths for European startups still in the clinic for headache and migraine.",
+      "startups": [
+        {
+          "name": "Man & Science",
+          "use": "Miniaturised occipital stimulation implant for chronic cluster headache; ONFIELD study (10 patients) fully implanted, FDA Breakthrough designation",
+          "place": "Liège, Belgium"
+        },
+        {
+          "name": "Salvia BioElectronics",
+          "use": "MySalvia system (two ultra-thin implants under the scalp) for migraine; first US patient in the randomised RECLAIM-II trial in October 2026",
+          "place": "Eindhoven, Netherlands"
+        },
+        {
+          "name": "Neuronoff",
+          "use": "Injectrode, a minimally invasive injectable electrode for PNS; first patient in a DoD-funded trial (neurogenic bladder), 510(k) submission targeted in 2026",
+          "place": "United States"
+        },
+        {
+          "name": "Curonix",
+          "use": "Freedom PNS system with no implanted battery (510(k) K233162), extended to chronic craniofacial pain in 2026",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "PMC (NCBI)",
+          "title": "Occipital nerve stimulation in medically intractable chronic cluster headache",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11235842/"
+        },
+        {
+          "publisher": "Innovation Origins / IO+",
+          "title": "Salvia launches US trial of implantable migraine treatment",
+          "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment"
+        },
+        {
+          "publisher": "U.S. FDA",
+          "title": "510(k) K233162 — Freedom Peripheral Nerve Stimulator System",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233162.pdf"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Neuronoff implants first patient in DoD-funded trial of Injectrode for neurogenic bladder in spinal cord injury",
+          "url": "https://www.biospace.com/press-releases/neuronoff-implants-first-patient-in-dod-funded-trial-of-injectrode-for-neurogenic-bladder-in-spinal-cord-injury"
+        }
+      ],
+      "date": "2026-11-20",
+      "dateLong": "Nov 20, 2026"
+    },
     {
       "term": "rPPG",
       "full": "Remote Photoplethysmography",
