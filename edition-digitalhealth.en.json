@@ -1,167 +1,173 @@
 {
-  "dateLong": "Nov 19, 2026",
+  "dateLong": "Nov 20, 2026",
   "ticker": [
-    { "company": "INTELLIPROVE", "amount": "€2.7M", "kind": "lev" },
-    { "company": "MANCHESTER UNIVERSITY NHS", "amount": "NICE agent", "kind": "tech" },
-    { "company": "BLACK COUNTRY", "amount": "£3M tender", "kind": "reg" },
-    { "company": "OMNIDOC", "amount": "Tele-expertise", "kind": "tech" },
-    { "company": "SYMBIOFLOW", "amount": "Founded", "kind": "new" },
-    { "company": "PAJAMA.AI", "amount": "Acquisition", "kind": "mna" }
+    { "company": "INDIVI", "amount": "Acquisition", "kind": "mna" },
+    { "company": "CONSULTANT CONNECT", "amount": "73% no referral", "kind": "tech" },
+    { "company": "MEDIPULSE", "amount": "€2.6M", "kind": "lev" },
+    { "company": "NEN", "amount": "NEN 7517", "kind": "reg" },
+    { "company": "PALANTIR", "amount": "Ends 2029", "kind": "reg" },
+    { "company": "DEDALUS", "amount": "Acquisition", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Seed · Contactless vital signs",
-    "title": "IntelliProve raises €2.7M seed led by Miles Ahead to take its face-scan vital signs check from care apps to humanoid robots",
-    "deck": "The Ghent startup estimates heart rate, heart rate variability, breathing and blood pressure from a 30-second face scan using remote photoplethysmography, already built into the apps of care providers, insurers and wellbeing platforms in more than 50 countries; its signal acquisition engine is CE marked as Class I under the MDR. The round, led by Miles Ahead with home nursing organisation Wit-Gele Kruis, the imec.istart Fund and business angels, will go one third each to regulatory work (targeting Class IIa), research and commercial growth: a bet on the vital sign becoming pure software that runs on any camera.",
-    "company": "IntelliProve",
-    "stage": "Seed",
+    "kicker": "M&A · Digital biomarkers",
+    "title": "Basel-based Indivi acquires Imperial College spin-out Cogitat and its NeuroRVQ EEG foundation model",
+    "deck": "Indivi, which provides drug developers with smartphone-based motor and cognitive assessments to design smaller early-phase trials (Parkinson's, FSHD, multiple sclerosis, Alzheimer's), is buying the London team that decodes cognitive function from EEG with NeuroRVQ, a model built to work across people and devices and a winner of the BEETL benchmark at NeurIPS; terms were not disclosed. CEO Guilhem Dupont calls it the birth of a \"neuroscience-based AI company\": a European digital biomarker consolidator adding brain signals to the smartphone to sell sponsors earlier evidence of efficacy.",
+    "company": "Indivi",
     "sector": "Digital Health",
     "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition"
   },
   "milestone": {
-    "company": "Manchester University NHS Foundation Trust",
-    "milestone": "NICE partnership",
-    "title": "Manchester University NHS FT and NICE test a \"NICE guidance agent\" embedded in the Hive patient record",
-    "summary": "Over two years, the trust and the National Institute for Health and Care Excellence will run projects to integrate NICE recommendations directly into Hive EPR workflows, through an agent that surfaces relevant evidence and advice to clinicians at the point of decision. The partnership will also generate real-world evidence to support health technology assessment.",
-    "why": "The UK's assessment body is plugging into a live patient record to speed up both the uptake of its guidance and the generation of evidence: for clinical AI vendors, that is a future fast lane to NICE assessment, provided they can integrate with the EPR.",
+    "company": "Consultant Connect",
+    "milestone": "Regional rollout",
+    "title": "In Greater Manchester, Consultant Connect's remote specialist advice avoids a hospital referral in 73% of calls",
+    "summary": "Rolled out across all 10 NHS Greater Manchester localities, the Advice & Guidance service is used by 92% of the region's 406 GP surgeries and more than 2,600 clinicians: over 11,000 calls (answered in 34 seconds on average) and 10,000 messages (answered within 4 hours) to specialists. After advice, 73% of calls and 68% of messages allowed the patient to stay in primary care without an immediate referral.",
+    "why": "The region started in the bottom national quartile (2% referral diversion versus a 6% median): synchronous tele-expertise is showing a measurable effect on elective waiting lists, the argument payers need to fund these platforms at scale.",
     "place": "Manchester",
-    "sector": "Hospital software",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/11/18/manchester-university-nhs-and-nice-partnership-to-improve-implementation-and-adoption-of-clinical-guidance/"
+    "sector": "Telehealth",
+    "signalType": "clinical_update",
+    "url": "https://www.intelligenthealth.tech/2026/11/18/greater-manchester-gps-keep-thousands-of-patients-out-of-hospital-after-specialist-advice-rollout/"
+  },
+  "deal": {
+    "company": "MediPulse",
+    "amount": "€2.6M",
+    "round": "Pre-seed",
+    "thesis": "The Munich startup plugs its AI into the practice management system and bank accounts of medical practices and MVZ care centres to track revenue, costs and liquidity daily, aiming to run practice management autonomously; around 300 practices have used it since its January 2026 launch. The round led by Fortino Ventures (with HIC/Redstone and WENVEST) bets on a blind spot of healthcare AI: not care itself, but practice profitability.",
+    "sector": "Digital Health",
+    "url": "https://startupvalley.news/de/arztpraxen-medipulse-finanzierung-ki/"
   },
   "brefsEurope": [
     {
-      "company": "Black Country NHS trusts",
-      "place": "Dudley",
-      "sector": "Remote monitoring",
+      "company": "Palantir",
+      "place": "London",
+      "sector": "Health data",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Four Black Country trusts launch a joint £3M tender for a remote monitoring and virtual ward platform",
-      "summary": "The Dudley Group, Sandwell and West Birmingham, The Royal Wolverhampton and Walsall Healthcare are seeking a single platform covering remote monitoring, virtual wards and two-hour urgent community response (2UCR), running from April 1, 2027 to March 31, 2030 (with a possible two-year extension) and extendable to three Birmingham trusts. Bids are due by December 14, with award expected around January 11, 2027 and technical quality weighted at 65%.",
-      "url": "https://htn.co.uk/2026/11/18/the-black-country-launches-multi-trust-3m-remote-monitoring-and-virtual-ward-procurement/"
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "UK government sets March 2029 end date for Palantir's NHS Federated Data Platform contract",
+      "summary": "Minister James Frith told the Commons that the £330M contract signed in 2023 is extended two years past the 2027 break clause, \"a bridge, not the destination\"; a new procurement open to British companies will start in the second half of 2027, with mandatory open data standards. A window for European health data infrastructure players.",
+      "url": "https://pharmaphorum.com/news/uk-sets-2029-timeline-end-palantirs-nhs-contract"
     },
     {
-      "company": "Omnidoc",
-      "place": "Centre-Val de Loire",
-      "sector": "Telehealth",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "A single tele-expertise line for rare lung diseases opens in France's Centre-Val de Loire region on the Omnidoc platform",
-      "summary": "Run by a specialist care team backed by the Association des pneumologues du Centre, with specialists from Tours and Orléans university hospitals and a private-practice pulmonologist, it covers six departments under a three-year agreement and handles about 30 requests a month. Omnidoc, chosen by the regional health agency as its official provider, charges €180 a month for the line.",
-      "url": "https://www.ticsante.com/story?ID=8527"
+      "company": "Dedalus",
+      "place": "France",
+      "sector": "Hospital software",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 4,
+      "title": "Dedalus acquires Deigma's assets to digitise clinical labs' external activity",
+      "summary": "Founded in 2019 by Elisa Grimoin, Deigma digitises exchanges between labs and freelance nurses (home blood draws, prescription transmission, sample traceability) and was already integrated with Dedalus's lab information systems, used by more than 70% of French labs. External activity accounts for over 30% of a lab's work and remains under-digitised.",
+      "url": "https://dsih.fr/articles/6470/dedalus-acquiert-deigma-et-fait-de-lactivite-externe-des-laboratoires-un-axe-strategique"
     },
     {
-      "company": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
-      "place": "Liverpool",
-      "sector": "Telehealth",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Liverpool Heart and Chest rolls out remote assessment of lung tissue samples during endoscopy",
-      "summary": "Remote ROSE technology prepares and stains slides during endobronchial ultrasound, then sends them to pathologists who control the microscope remotely and confirm live whether enough tissue has been collected for diagnosis. Offered first to patients at highest risk of lung cancer, it avoids a second procedure.",
-      "url": "https://htn.co.uk/2026/11/17/new-tech-for-remote-assessment-of-lung-tissue-samples-at-liverpool-heart-and-chest/"
-    },
-    {
-      "company": "SymbioFlow",
-      "place": "Berlin",
-      "sector": "Clinical AI",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
-      "strength": 2,
-      "title": "New Berlin startup SymbioFlow aims to automate emergency department intake with an AI-assisted triage booth",
-      "summary": "Founded by Kami Mainkar and Fabio Pellacini, the company combines vital sign measurement, computer vision and AI in its \"Sentinel Booth\", which proposes a triage level to the triage nurse, who keeps the final call; patient data stays inside the hospital.",
-      "url": "https://www.deutsche-startups.de/2026/11/17/5-neue-startups-fideno-gobonki-abnoba-symbioflow-hoosh/"
-    },
-    {
-      "company": "Regionaal Tuchtcollege voor de Gezondheidszorg Amsterdam",
-      "place": "Amsterdam",
-      "sector": "Regulatory",
+      "company": "NEN",
+      "place": "Delft",
+      "sector": "Health data",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "In the Netherlands, Amsterdam's medical disciplinary board warns a doctor over careless use of OpenAI in her medical opinions",
-      "summary": "The medical adviser admitted drafting opinions with OpenAI without always checking the output, and possibly entering identifiable patient data; the board found a breach of privacy and medical confidentiality. A parallel civil case seeks €380,000 in damages: a precedent that pushes clinicians toward compliant, auditable AI tools.",
-      "url": "https://www.skipr.nl/uitgelicht/arts-krijg-waarschuwing-van-tuchtcollege-voor-onzorgvuldig-ai-gebruik/"
+      "title": "In the Netherlands, the NEN 7517 standard sets the rules for consent to electronic health data exchange",
+      "summary": "The standard governs how explicit or presumed consent is requested, recorded and managed, for care providers and the IT systems supporting them, and underpins the uniform exchange required by the Wegiz law. Standards on identification, localisation and authorisation are still in development: a shared specification for software vendors.",
+      "url": "https://www.skipr.nl/nieuws/nen-publiceert-norm-voor-toestemming-voor-uitwisseling-zorggegevens/"
     },
     {
-      "company": "CNIL",
+      "company": "Agence du numérique en santé",
       "place": "Paris",
       "sector": "Regulatory",
       "pillar": "marche",
-      "signalType": "publication_preprint",
+      "signalType": "grant_award",
       "strength": 2,
-      "title": "France's CNIL and Groupe VYV publish \"La Voix des jeunesses\": 48% of 11–25-year-olds share intimate topics with conversational AI",
-      "summary": "The booklet, drawn from a consultation of 133 participants, calls for training on AI and mental health for those aged 16 and under and clearer information on data use, without creating new obligations; 64% of young people who turn to these tools for advice see them as a \"life adviser\".",
-      "url": "https://www.santematin.fr/sante-ia-jeunes-cnil-formations-donnees-18-novembre-2026"
+      "title": "France's ANS opens a call for projects to co-fund usage studies of digital innovations in primary care and hospitals",
+      "summary": "Open to digital health experimentation hubs and living labs linked to a care facility, it co-funds up to €35,000 (50% of the project at most) for need validation, protocol design or running a usage study with the companies involved. Applications close on 30 November, with projects launching in March.",
+      "url": "https://www.ticsante.com/story?ID=8530"
+    },
+    {
+      "company": "Assurance maladie",
+      "place": "Paris",
+      "sector": "Mental health",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "France's national health insurer opens its \"Mon journal mental\" app to the general public and carers",
+      "summary": "The free app for tracking mood, sleep and anxiety (formerly \"Jardin mental\", created by Dr Lya Pedron with ARS Île-de-France and the Fabrique numérique des ministères sociaux) adds 66 committee-reviewed resources and a PDF export for clinicians, with no account and data kept on the phone. A free public offering that competes head-on with mental wellbeing apps.",
+      "url": "https://www.santematin.fr/assurance-maladie-mon-journal-mental-application-2026"
+    },
+    {
+      "company": "Mindstep",
+      "place": "United Kingdom",
+      "sector": "Mental health",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Mindstep (Onebright) launches mPAL, an AI tool that prepares patients for therapy",
+      "summary": "Paired with the MCAi adaptive algorithm, mPAL offers personalised, interactive psychological learning distributed via insurers, cash plans and employers; initial findings show a mean 7.16-point improvement on the Cognitive Flexibility Inventory and 90.3% of users saying they better understand their reactions.",
+      "url": "https://www.intelligenthealth.tech/2026/11/19/mindstep-launches-ai-powered-tool-to-bridge-the-gap-between-digital-mental-health-content-and-therapy/"
+    },
+    {
+      "company": "adesso Ventures",
+      "place": "Dortmund",
+      "sector": "Fund",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "adesso Ventures holds a €26M first close of its second fund, led by Digital Health",
+      "summary": "The fund targets €30M and will invest at pre-seed and seed, mainly in the DACH region, in enterprise software and digital health with an AI focus: a new early-stage cheque for German e-health startups.",
+      "url": "https://www.deutsche-startups.de/2026/11/19/roll-ups-vcs-adesso-ventures-marble-imaging-nunc-deutsche-dienstrad/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "CMS",
-      "place": "Washington",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "The US administration publishes a roadmap to speed clinical AI adoption, including outcomes-based payment",
-      "summary": "The HHS and CMS document plans partnerships with state regulatory sandboxes (such as Utah's), risk-based regulation, post-market surveillance and an expansion of the ACCESS model, which rewards outcomes achieved with AI-powered apps, including in Medicaid. A reimbursement model European payers will be watching.",
-      "url": "https://www.nextgov.com/artificial-intelligence/2026/11/trump-administration-releases-roadmap-boost-clinical-ai/417254/"
-    },
-    {
-      "company": "Aimbient",
-      "place": "Toronto",
-      "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Aimbient: a Stanford study in JAMA Surgery validates automated operating room documentation at human-level accuracy",
-      "summary": "Over eight months across 14 operating rooms and one procedure room, the computer vision of Aimbient (formerly Surgical Safety Technologies) timestamped patient room entry and exit with no significant accuracy difference from manual entry across seven specialties, and without nurses' average five-to-six-minute lag.",
-      "url": "https://hitconsultant.net/2026/11/18/aimbient-ai-automates-or-documentation-human-accuracy-stanford-jama-surgery/"
-    },
-    {
-      "company": "Pajama.ai",
+      "company": "Layer Health",
       "place": "United States",
       "sector": "Clinical AI",
       "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Banner Health invests in Layer Health and hands it its cardiovascular, surgical, oncology and stroke clinical registries",
+      "summary": "The 33-hospital system is dropping outsourced vendors for an in-house AI-assisted registry programme on Layer's platform, which reads structured records and free-text notes and links each answer to its source in the chart; the amount was not disclosed, and the company is backed by GV and General Catalyst. A \"hospital as client-investor\" model that could transfer to European registries.",
+      "url": "https://hitconsultant.net/2026/11/19/banner-health-strategic-investment-layer-health-enterprise-clinical-registries/"
+    },
+    {
+      "company": "Vivo Care",
+      "place": "United States",
+      "sector": "Remote monitoring",
+      "pillar": "financement",
       "signalType": "acquisition",
-      "strength": 5,
-      "title": "Credo Health acquires Affineon Health and relaunches as Pajama.ai, an AI assistant that preps charts and clears doctors' inboxes",
-      "summary": "The combined company claims more than 200 clinical groups, 3,000 doctors and 5 million patients, automates 40% to 60% of inbox messages and promises about 40 hours back per doctor per month; terms were not disclosed. A sign of consolidation among post-visit \"copilots\".",
-      "url": "https://www.prnewswire.com/news-releases/credo-health-acquires-affineon-launches-pajamaai-to-end-doctors-pajama-time-302939962.html"
+      "strength": 3,
+      "title": "Vivo Care and Onpoint Healthcare Partners combine remote monitoring and clinical workflow optimisation",
+      "summary": "The combined group covers more than 2,000 providers and 120,000 remotely monitored patients, with an offering live on athenahealth and eClinicalWorks; Vivo Care reports average RPM retention of 18.6 months. Terms were not disclosed: US RPM consolidation runs through integration into the practice.",
+      "url": "https://hitconsultant.net/2026/11/18/vivo-care-onpoint-healthcare-partners-combine-unify-office-visit-remote-care/"
     }
   ],
   "word": {
-    "term": "rPPG",
-    "full": "Remote Photoplethysmography",
-    "fr": "Contactless, camera-based vital signs measurement",
-    "field": "Connected health · Vital signs",
-    "definition": "A software technique that infers pulse, breathing and even blood pressure from the tiny colour changes in facial skin, filmed by an ordinary camera, with each heartbeat.",
+    "term": "Digital Biomarker",
+    "full": "Digital Biomarker",
+    "fr": "Digital biomarker",
+    "field": "Health measurement via sensors and smartphones",
+    "definition": "An objective measure of health (gait, voice, movement, cognition) captured continuously by a connected device or smartphone in real life, rather than during a one-off clinic exam.",
     "parts": [
-      { "label": "Standard camera", "role": "capture (smartphone, webcam, robot)" },
-      { "label": "Signal processing", "role": "extracting the pulse wave" },
-      { "label": "AI models", "role": "converting it into vital signs" }
+      { "label": "Sensor", "role": "data capture (accelerometer, microphone, screen, EEG)" },
+      { "label": "Algorithm", "role": "turning the raw signal into a clinical variable" },
+      { "label": "Validation", "role": "proof that the variable truly reflects the disease" }
     ],
     "how": [
-      { "n": "1", "h": "Record", "t": "The user looks at the camera for 30 to 60 seconds; the software tracks skin regions of the face." },
-      { "n": "2", "h": "Extract", "t": "Blood inflow slightly changes skin colour with each heartbeat: these variations form a pulse signal." },
-      { "n": "3", "h": "Estimate", "t": "Algorithms trained on reference measurements derive heart rate, variability, respiratory rate and blood pressure." }
+      { "n": "1", "h": "Capture", "t": "The patient wears a sensor or performs short smartphone tasks at home, for weeks." },
+      { "n": "2", "h": "Extraction", "t": "An algorithm derives a variable, such as the speed of the fastest 5% of strides (SV95C) or dozens of voice features." },
+      { "n": "3", "h": "Qualification", "t": "The variable is validated against clinical scales and then, ideally, qualified by a regulator as a trial endpoint." }
     ],
-    "why": "With no sensor to manufacture or ship, the vital sign becomes an SDK sold to insurers, telehealth platforms and home care, with software margins. Value lies in clinical evidence and CE marking (Class IIa for blood pressure): that regulatory moat separates a wellness gadget from a reimbursable screening tool, and IntelliProve's round shows investors are funding that class upgrade first.",
+    "why": "In 2023 the EMA qualified SV95C, measured by an ankle-worn sensor, as the first digital primary endpoint in Duchenne muscular dystrophy: proof that a real-world signal can replace an in-clinic test. For a VC the stakes are twofold: smaller, more sensitive trials that pharma pays well for, and an ongoing consolidation, such as Indivi's acquisition of Cogitat.",
     "startups": [
-      { "name": "IntelliProve", "use": "30-second face scan (HR, HRV, breathing, blood pressure) built in by customers in more than 50 countries; CE Class I, targeting IIa; €2.7M seed led by Miles Ahead", "place": "Ghent, Belgium" },
-      { "name": "Shen.AI", "use": "rPPG SDK CE marked as Class IIa under the MDR for HR, HRV, blood pressure and respiratory rate in a 60-second scan", "place": "Tallinn, Estonia / Wrocław, Poland" },
-      { "name": "Lifelight", "use": "Xim Ltd app measuring blood pressure and pulse from a face video, CE Class IIa under the MDR, offered as SaaS to 1,700 NHS primary care practices", "place": "United Kingdom" },
-      { "name": "Binah.ai", "use": "B2B SDK that extracts the PPG signal from a 35-to-60-second video selfie, with results kept on the user's device and no access by Binah", "place": "Israel" }
+      { "name": "Indivi", "use": "Smartphone-based motor and cognitive assessments for Parkinson's, MS and Alzheimer's trials; just acquired Cogitat for EEG", "place": "Basel, Switzerland" },
+      { "name": "ki:elements", "use": "Speech Biomarker for Cognition: 70 voice features analysed over the phone to pre-screen Alzheimer's trial participants", "place": "Saarbrücken, Germany" },
+      { "name": "thymia", "use": "Voice biomarkers for mental health and fatigue, combined with Speechmatics' medical transcription", "place": "London, United Kingdom" }
     ],
     "sources": [
-      { "publisher": "The Next Web", "title": "IntelliProve raises €2.7M to take its face scan health check to robots", "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots" },
-      { "publisher": "Shen.AI", "title": "Medical device Shen AI", "url": "https://shen.ai/medical-device" },
-      { "publisher": "Lifelight", "title": "About The Product | Lifelight", "url": "https://lifelight.ai/solution/" },
-      { "publisher": "Binah.ai", "title": "Technology - Binah", "url": "https://www.binah.ai/technology/" }
+      { "publisher": "European Medicines Agency", "title": "Qualification opinion for stride velocity 95th centile as primary endpoint in studies in ambulatory Duchenne muscular dystrophy", "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/qualification-opinion-stride-velocity-95th-centile-primary-endpoint-studies-ambulatory-duchenne_en.pdf" },
+      { "publisher": "Scientific Reports", "title": "Evidentiary basis of the first regulatory qualification of a digital primary efficacy endpoint", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11606965" },
+      { "publisher": "Startupticker.ch", "title": "Indivi strengthens AI capabilities for brain analysis with Cogitat acquisition", "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition" },
+      { "publisher": "HospiMedica", "title": "Automated Phone Speech Test Identifies Alzheimer's Pathology for Prescreening", "url": "https://mobile.hospimedica.com/ai/articles/294810750/automated-phone-speech-test-identifies-alzheimers-pathology-for-prescreening.amp.html" }
     ]
   }
 }

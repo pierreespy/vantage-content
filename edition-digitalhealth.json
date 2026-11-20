@@ -1,167 +1,173 @@
 {
-  "dateLong": "19 nov. 2026",
+  "dateLong": "20 nov. 2026",
   "ticker": [
-    { "company": "INTELLIPROVE", "amount": "€2.7M", "kind": "lev" },
-    { "company": "MANCHESTER UNIVERSITY NHS", "amount": "Agent NICE", "kind": "tech" },
-    { "company": "BLACK COUNTRY", "amount": "Appel d’offres £3M", "kind": "reg" },
-    { "company": "OMNIDOC", "amount": "Télé-expertise", "kind": "tech" },
-    { "company": "SYMBIOFLOW", "amount": "Création", "kind": "new" },
-    { "company": "PAJAMA.AI", "amount": "Rachat", "kind": "mna" }
+    { "company": "INDIVI", "amount": "Rachat", "kind": "mna" },
+    { "company": "CONSULTANT CONNECT", "amount": "73 % sans adressage", "kind": "tech" },
+    { "company": "MEDIPULSE", "amount": "€2.6M", "kind": "lev" },
+    { "company": "NEN", "amount": "NEN 7517", "kind": "reg" },
+    { "company": "PALANTIR", "amount": "Fin en 2029", "kind": "reg" },
+    { "company": "DEDALUS", "amount": "Rachat", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Seed · Signes vitaux sans contact",
-    "title": "IntelliProve lève 2,7 M€ en seed mené par Miles Ahead pour porter son scan facial des signes vitaux des applis de soins aux robots humanoïdes",
-    "deck": "La pousse gantoise estime fréquence cardiaque, variabilité cardiaque, respiration et pression artérielle à partir d'un scan du visage de 30 secondes par photopléthysmographie à distance, déjà intégré dans les applications de soignants, d'assureurs et de plateformes de bien-être de plus de 50 pays ; le moteur d'acquisition est marqué CE classe I sous MDR. Le tour, mené par Miles Ahead avec l'organisation de soins à domicile Wit-Gele Kruis, l'imec.istart Fund et des business angels, ira pour un tiers à la réglementation (cap sur la classe IIa), un tiers à la recherche et un tiers au commercial : un pari sur le signe vital devenu simple logiciel, embarquable sur n'importe quelle caméra.",
-    "company": "IntelliProve",
-    "stage": "Seed",
+    "kicker": "M&A · Biomarqueurs numériques",
+    "title": "La bâloise Indivi rachète Cogitat, spin-off d'Imperial College, et son modèle de fondation EEG NeuroRVQ",
+    "deck": "Indivi, qui fournit aux laboratoires des évaluations motrices et cognitives sur smartphone pour concevoir des essais précoces plus petits (Parkinson, FSHD, sclérose en plaques, Alzheimer), s'offre l'équipe londonienne qui décode la fonction cognitive à partir de l'EEG avec NeuroRVQ, un modèle conçu pour fonctionner d'un individu et d'un appareil à l'autre et primé au benchmark BEETL de NeurIPS ; le montant n'est pas communiqué. Le PDG Guilhem Dupont y voit la naissance d'une « société d'IA fondée sur les neurosciences » : un consolidateur européen des biomarqueurs numériques qui ajoute le signal cérébral au smartphone pour vendre aux promoteurs des preuves d'efficacité plus précoces.",
+    "company": "Indivi",
     "sector": "Digital Health",
     "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 3,
-    "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition"
   },
   "milestone": {
-    "company": "Manchester University NHS Foundation Trust",
-    "milestone": "Partenariat NICE",
-    "title": "Manchester University NHS FT et le NICE testent un « agent de recommandations NICE » intégré au dossier patient Hive",
-    "summary": "Pendant deux ans, le trust et le National Institute for Health and Care Excellence mèneront des projets pour intégrer directement les recommandations du NICE dans les flux de travail de l'EPR Hive, via un agent qui donne aux cliniciens les preuves et conseils pertinents au moment de la décision. Le partenariat doit aussi produire des données de vie réelle pour l'évaluation des technologies de santé.",
-    "why": "Le régulateur de l'évaluation britannique se branche sur un dossier patient en production pour accélérer à la fois l'adoption de ses recommandations et la génération de preuves : pour les éditeurs d'IA clinique, c'est un futur raccourci vers l'évaluation NICE, à condition de savoir s'intégrer à l'EPR.",
+    "company": "Consultant Connect",
+    "milestone": "Déploiement régional",
+    "title": "À Greater Manchester, l'avis spécialisé à distance de Consultant Connect évite l'adressage hospitalier dans 73 % des appels",
+    "summary": "Déployé dans les 10 localités de NHS Greater Manchester, le service d'« Advice & Guidance » est utilisé par 92 % des 406 cabinets de médecine générale et plus de 2 600 cliniciens : plus de 11 000 appels (réponse en 34 secondes en moyenne) et 10 000 messages (réponse sous 4 heures) vers des spécialistes. Après avis, 73 % des appels et 68 % des messages ont permis de garder le patient en ville sans adressage immédiat.",
+    "why": "La région partait du dernier quartile national (2 % de détournement d'adressages contre 6 % de médiane) : la télé-expertise synchrone y montre un effet mesurable sur les listes d'attente programmées, l'argument que recherchent les payeurs pour financer ces plateformes à l'échelle.",
     "place": "Manchester",
-    "sector": "Logiciel hospitalier",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/11/18/manchester-university-nhs-and-nice-partnership-to-improve-implementation-and-adoption-of-clinical-guidance/"
+    "sector": "Télésanté",
+    "signalType": "clinical_update",
+    "url": "https://www.intelligenthealth.tech/2026/11/18/greater-manchester-gps-keep-thousands-of-patients-out-of-hospital-after-specialist-advice-rollout/"
+  },
+  "deal": {
+    "company": "MediPulse",
+    "amount": "2,6 M€",
+    "round": "Pre-seed",
+    "thesis": "La pousse munichoise branche son IA sur le logiciel de gestion du cabinet et les comptes bancaires des cabinets médicaux et MVZ pour piloter chaque jour chiffre d'affaires, coûts et trésorerie, avec l'ambition de prendre en charge la gestion de façon autonome ; environ 300 cabinets l'utilisent depuis le lancement en janvier 2026. Le tour mené par Fortino Ventures (avec HIC/Redstone et WENVEST) parie sur un angle mort de l'IA en santé : non pas le soin, mais la rentabilité des cabinets.",
+    "sector": "Digital Health",
+    "url": "https://startupvalley.news/de/arztpraxen-medipulse-finanzierung-ki/"
   },
   "brefsEurope": [
     {
-      "company": "Black Country NHS trusts",
-      "place": "Dudley",
-      "sector": "Télésurveillance",
+      "company": "Palantir",
+      "place": "Londres",
+      "sector": "Données de santé",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Quatre trusts du Black Country lancent un appel d'offres commun de 3 M£ pour une plateforme de télésurveillance et de virtual wards",
-      "summary": "The Dudley Group, Sandwell and West Birmingham, The Royal Wolverhampton et Walsall Healthcare cherchent une plateforme unique couvrant télésurveillance, hospitalisation virtuelle et soins urgents à domicile (2UCR), du 1er avril 2027 au 31 mars 2030 (+2 ans possibles), extensible à trois trusts de Birmingham. Offres attendues avant le 14 décembre, attribution vers le 11 janvier 2027, notée à 65 % sur la qualité technique.",
-      "url": "https://htn.co.uk/2026/11/18/the-black-country-launches-multi-trust-3m-remote-monitoring-and-virtual-ward-procurement/"
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Le gouvernement britannique fixe à mars 2029 la fin du contrat de Palantir pour la Federated Data Platform du NHS",
+      "summary": "Le ministre James Frith a confirmé aux Communes que le contrat de 330 M£ signé en 2023 est prolongé deux ans au-delà de la clause de sortie de 2027, « un pont, pas une destination » ; un nouvel appel d'offres ouvert aux entreprises britanniques démarrera au second semestre 2027, avec des standards de données ouverts obligatoires. Une fenêtre pour les acteurs européens de l'infrastructure de données de santé.",
+      "url": "https://pharmaphorum.com/news/uk-sets-2029-timeline-end-palantirs-nhs-contract"
     },
     {
-      "company": "Omnidoc",
-      "place": "Centre-Val de Loire",
-      "sector": "Télésanté",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Une ligne unique de télé-expertise sur les maladies pulmonaires rares ouvre en Centre-Val de Loire sur la plateforme Omnidoc",
-      "summary": "Portée par une équipe de soins spécialisés adossée à l'Association des pneumologues du Centre, avec des spécialistes des CHU de Tours et d'Orléans et une pneumologue libérale, elle couvre six départements pour une convention de trois ans et reçoit environ 30 demandes par mois. Omnidoc, retenu par l'ARS comme éditeur régional officiel, facture la ligne 180 € par mois.",
-      "url": "https://www.ticsante.com/story?ID=8527"
+      "company": "Dedalus",
+      "place": "France",
+      "sector": "Logiciel hospitalier",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 4,
+      "title": "Dedalus rachète les actifs de Deigma pour numériser l'activité externe des laboratoires de biologie",
+      "summary": "Fondée en 2019 par Elisa Grimoin, Deigma digitalise les échanges entre laboratoires et infirmiers libéraux (prélèvements à domicile, transmission des prescriptions, traçabilité des échantillons) et était déjà intégrée aux SIL de Dedalus, utilisés par plus de 70 % des laboratoires français. L'activité externe pèse plus de 30 % de l'activité d'un laboratoire et reste peu numérisée.",
+      "url": "https://dsih.fr/articles/6470/dedalus-acquiert-deigma-et-fait-de-lactivite-externe-des-laboratoires-un-axe-strategique"
     },
     {
-      "company": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
-      "place": "Liverpool",
-      "sector": "Télésanté",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Liverpool Heart and Chest déploie l'évaluation à distance des prélèvements pulmonaires en cours d'endoscopie",
-      "summary": "La technologie de ROSE à distance prépare et colore les lames pendant l'échoendoscopie bronchique, puis les transmet à des pathologistes qui pilotent le microscope à distance et confirment en direct si le tissu prélevé suffit au diagnostic. Proposée d'abord aux patients à plus haut risque de cancer du poumon, elle évite un second examen.",
-      "url": "https://htn.co.uk/2026/11/17/new-tech-for-remote-assessment-of-lung-tissue-samples-at-liverpool-heart-and-chest/"
-    },
-    {
-      "company": "SymbioFlow",
-      "place": "Berlin",
-      "sector": "IA clinique",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
-      "strength": 2,
-      "title": "SymbioFlow, nouvelle pousse berlinoise, veut automatiser la première évaluation aux urgences avec une borne de triage assistée par IA",
-      "summary": "Fondée par Kami Mainkar et Fabio Pellacini, la société combine mesure des signes vitaux, vision par ordinateur et IA dans sa « Sentinel Booth », qui propose un niveau de triage à l'infirmière d'accueil, laquelle garde la décision finale ; les données restent dans l'hôpital.",
-      "url": "https://www.deutsche-startups.de/2026/11/17/5-neue-startups-fideno-gobonki-abnoba-symbioflow-hoosh/"
-    },
-    {
-      "company": "Regionaal Tuchtcollege voor de Gezondheidszorg Amsterdam",
-      "place": "Amsterdam",
-      "sector": "Réglementaire",
+      "company": "NEN",
+      "place": "Delft",
+      "sector": "Données de santé",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "Aux Pays-Bas, le conseil de discipline médical d'Amsterdam avertit une médecin pour usage imprudent d'OpenAI dans ses avis",
-      "summary": "La médecin-conseil a reconnu avoir rédigé ses avis avec OpenAI sans toujours vérifier les sorties et avoir pu y saisir des données identifiantes ; le collège y voit une atteinte à la vie privée et au secret médical. Une procédure civile réclame en parallèle 380 000 € de dommages : un précédent qui pousse vers des outils d'IA conformes et auditables.",
-      "url": "https://www.skipr.nl/uitgelicht/arts-krijg-waarschuwing-van-tuchtcollege-voor-onzorgvuldig-ai-gebruik/"
+      "title": "Aux Pays-Bas, la norme NEN 7517 fixe les règles du consentement à l'échange électronique de données de santé",
+      "summary": "La norme encadre la manière de demander, d'enregistrer et de gérer le consentement, explicite ou présumé, pour les soignants comme pour les systèmes informatiques qui les équipent, et soutient l'échange uniforme imposé par la loi Wegiz. Les normes sur l'identification, la localisation et l'autorisation sont encore en préparation : un cahier des charges commun pour les éditeurs.",
+      "url": "https://www.skipr.nl/nieuws/nen-publiceert-norm-voor-toestemming-voor-uitwisseling-zorggegevens/"
     },
     {
-      "company": "CNIL",
+      "company": "Agence du numérique en santé",
       "place": "Paris",
       "sector": "Réglementaire",
       "pillar": "marche",
-      "signalType": "publication_preprint",
+      "signalType": "grant_award",
       "strength": 2,
-      "title": "La CNIL et le Groupe VYV publient « La Voix des jeunesses » : 48 % des 11–25 ans confient des sujets intimes à une IA conversationnelle",
-      "summary": "Le livret, issu d'une consultation de 133 participants, réclame des formations sur l'IA et la santé mentale pour les 16 ans et moins et une information plus claire sur l'usage des données, sans créer d'obligation nouvelle ; 64 % des jeunes qui sollicitent ces outils pour des conseils les voient comme un « conseiller de vie ».",
-      "url": "https://www.santematin.fr/sante-ia-jeunes-cnil-formations-donnees-18-novembre-2026"
+      "title": "L'ANS ouvre un appel à projets pour cofinancer des études d'usage d'innovations numériques en ville et à l'hôpital",
+      "summary": "Ouvert aux tiers-lieux d'expérimentation en santé numérique et living labs liés à un établissement, il cofinance jusqu'à 35 000 € (50 % maximum du projet) la validation du besoin, le protocole ou la conduite d'une étude d'usage menée avec les industriels. Candidatures jusqu'au 30 novembre, projets lancés en mars.",
+      "url": "https://www.ticsante.com/story?ID=8530"
+    },
+    {
+      "company": "Assurance maladie",
+      "place": "Paris",
+      "sector": "Santé mentale",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "L'Assurance maladie élargit « Mon journal mental » au grand public et aux aidants",
+      "summary": "L'application gratuite de suivi de l'humeur, du sommeil et de l'anxiété (ex-« Jardin mental », créée par la Dr Lya Pedron avec l'ARS Île-de-France et la Fabrique numérique des ministères sociaux) ajoute 66 ressources validées par un comité et un export PDF pour le soignant, sans compte et avec des données qui restent sur le téléphone. Une offre publique gratuite qui concurrence directement les applis de bien-être mental.",
+      "url": "https://www.santematin.fr/assurance-maladie-mon-journal-mental-application-2026"
+    },
+    {
+      "company": "Mindstep",
+      "place": "Royaume-Uni",
+      "sector": "Santé mentale",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Mindstep (Onebright) lance mPAL, un outil d'IA qui prépare les patients à la thérapie",
+      "summary": "Couplé à l'algorithme adaptatif MCAi, mPAL propose un apprentissage psychologique interactif et personnalisé, distribué via assureurs, mutuelles et employeurs ; les premiers résultats font état d'un gain moyen de 7,16 points sur le Cognitive Flexibility Inventory et de 90,3 % d'utilisateurs disant mieux comprendre leurs réactions.",
+      "url": "https://www.intelligenthealth.tech/2026/11/19/mindstep-launches-ai-powered-tool-to-bridge-the-gap-between-digital-mental-health-content-and-therapy/"
+    },
+    {
+      "company": "adesso Ventures",
+      "place": "Dortmund",
+      "sector": "Fonds",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 2,
+      "title": "adesso Ventures boucle un premier closing à 26 M€ pour son deuxième fonds, Digital Health en tête",
+      "summary": "Le fonds vise 30 M€ et investira en pre-seed et seed, surtout dans la région DACH, dans le logiciel d'entreprise et la santé numérique avec un accent sur l'IA : un nouveau ticket d'amorçage pour les pousses allemandes de la e-santé.",
+      "url": "https://www.deutsche-startups.de/2026/11/19/roll-ups-vcs-adesso-ventures-marble-imaging-nunc-deutsche-dienstrad/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "CMS",
-      "place": "Washington",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "L'administration américaine publie une feuille de route pour accélérer l'adoption de l'IA clinique, paiement à la performance compris",
-      "summary": "Le document de HHS et des CMS prévoit des partenariats avec les bacs à sable réglementaires des États (comme l'Utah), une régulation fondée sur le risque, la surveillance post-déploiement et l'extension du modèle ACCESS qui rémunère les résultats obtenus avec des applis IA, y compris dans Medicaid. Un modèle de remboursement que les payeurs européens observeront.",
-      "url": "https://www.nextgov.com/artificial-intelligence/2026/11/trump-administration-releases-roadmap-boost-clinical-ai/417254/"
-    },
-    {
-      "company": "Aimbient",
-      "place": "Toronto",
-      "sector": "IA clinique",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Aimbient : une étude de Stanford dans JAMA Surgery valide la documentation automatique du bloc opératoire au niveau humain",
-      "summary": "Sur huit mois, 14 salles d'opération et une salle d'intervention, la vision par ordinateur d'Aimbient (ex-Surgical Safety Technologies) a horodaté entrées et sorties des patients sans différence significative de précision avec la saisie manuelle dans sept spécialités, et sans les 5 à 6 minutes de retard moyen des infirmières.",
-      "url": "https://hitconsultant.net/2026/11/18/aimbient-ai-automates-or-documentation-human-accuracy-stanford-jama-surgery/"
-    },
-    {
-      "company": "Pajama.ai",
+      "company": "Layer Health",
       "place": "États-Unis",
       "sector": "IA clinique",
       "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Banner Health investe dans Layer Health et lui confie ses registres cliniques en cardiologie, chirurgie, oncologie et AVC",
+      "summary": "Le système de 33 hôpitaux abandonne ses prestataires externes au profit d'un programme de registres interne assisté par l'IA de Layer, qui lit dossier structuré et notes libres et relie chaque réponse à sa source dans le dossier ; montant non communiqué, la société étant soutenue par GV et General Catalyst. Un modèle « hôpital client-investisseur » transposable aux registres européens.",
+      "url": "https://hitconsultant.net/2026/11/19/banner-health-strategic-investment-layer-health-enterprise-clinical-registries/"
+    },
+    {
+      "company": "Vivo Care",
+      "place": "États-Unis",
+      "sector": "Télésurveillance",
+      "pillar": "financement",
       "signalType": "acquisition",
-      "strength": 5,
-      "title": "Credo Health rachète Affineon Health et devient Pajama.ai, assistant IA qui prépare les dossiers et vide la boîte de réception des médecins",
-      "summary": "L'ensemble revendique plus de 200 groupes cliniques, 3 000 médecins et 5 millions de patients, automatise 40 à 60 % des messages de la boîte de réception et promet environ 40 heures rendues par médecin et par mois ; montant non communiqué. Signe de consolidation des « copilotes » post-consultation.",
-      "url": "https://www.prnewswire.com/news-releases/credo-health-acquires-affineon-launches-pajamaai-to-end-doctors-pajama-time-302939962.html"
+      "strength": 3,
+      "title": "Vivo Care et Onpoint Healthcare Partners fusionnent télésurveillance et optimisation des flux cliniques",
+      "summary": "L'ensemble réunit plus de 2 000 soignants et 120 000 patients suivis à distance, avec une offre intégrée à athenahealth et eClinicalWorks ; Vivo Care revendique une rétention moyenne de 18,6 mois en télésurveillance. Termes non communiqués : la consolidation du RPM américain passe par l'intégration au cabinet.",
+      "url": "https://hitconsultant.net/2026/11/18/vivo-care-onpoint-healthcare-partners-combine-unify-office-visit-remote-care/"
     }
   ],
   "word": {
-    "term": "rPPG",
-    "full": "Remote Photoplethysmography (photopléthysmographie à distance)",
-    "fr": "Mesure des signes vitaux par caméra, sans contact",
-    "field": "Santé connectée · Signes vitaux",
-    "definition": "Une technique logicielle qui déduit le pouls, la respiration, voire la pression artérielle, des infimes variations de couleur de la peau du visage filmée par une simple caméra, à chaque battement du cœur.",
+    "term": "Digital Biomarker",
+    "full": "Digital Biomarker (biomarqueur numérique)",
+    "fr": "Biomarqueur numérique",
+    "field": "Mesure de la santé par capteurs et smartphone",
+    "definition": "Une mesure objective de l'état de santé (marche, voix, gestes, cognition) captée en continu par un objet connecté ou un smartphone dans la vie réelle, plutôt que lors d'un examen ponctuel en clinique.",
     "parts": [
-      { "label": "Caméra standard", "role": "la captation (smartphone, webcam, robot)" },
-      { "label": "Traitement du signal", "role": "l'extraction de l'onde de pouls" },
-      { "label": "Modèles d'IA", "role": "la conversion en signes vitaux" }
+      { "label": "Capteur", "role": "la collecte (accéléromètre, micro, écran, EEG)" },
+      { "label": "Algorithme", "role": "la transformation du signal brut en variable clinique" },
+      { "label": "Validation", "role": "la preuve que la variable reflète bien la maladie" }
     ],
     "how": [
-      { "n": "1", "h": "Filmer", "t": "L'utilisateur regarde la caméra 30 à 60 secondes ; le logiciel suit les zones de peau du visage." },
-      { "n": "2", "h": "Extraire", "t": "L'afflux de sang modifie légèrement la couleur de la peau à chaque battement : ces variations forment un signal de pouls." },
-      { "n": "3", "h": "Estimer", "t": "Des algorithmes entraînés sur des mesures de référence en tirent fréquence cardiaque, variabilité, fréquence respiratoire et pression artérielle." }
+      { "n": "1", "h": "Capture", "t": "Le patient porte un capteur ou réalise des tâches courtes sur smartphone, chez lui, pendant des semaines." },
+      { "n": "2", "h": "Extraction", "t": "Un algorithme dérive une variable, par exemple la vitesse des 5 % de foulées les plus rapides (SV95C) ou des dizaines de traits de la voix." },
+      { "n": "3", "h": "Qualification", "t": "La variable est validée face aux échelles cliniques puis, idéalement, qualifiée par un régulateur comme critère d'essai." }
     ],
-    "why": "Sans capteur à fabriquer ni à distribuer, le signe vital devient un SDK vendu aux assureurs, plateformes de téléconsultation et soins à domicile, avec une marge logicielle. La valeur se joue dans la preuve clinique et le marquage CE (classe IIa pour la pression artérielle) : c'est le fossé réglementaire qui sépare un gadget de bien-être d'un outil de dépistage remboursable, et la levée d'IntelliProve montre que les investisseurs financent d'abord ce saut de classe.",
+    "why": "L'EMA a qualifié en 2023 la SV95C, mesurée par un capteur à la cheville, comme premier critère principal numérique dans la myopathie de Duchenne : la preuve qu'un signal capté en vie réelle peut remplacer un test en clinique. Pour un VC, l'enjeu est double : des essais plus petits et plus sensibles que les laboratoires paient cher, et une consolidation en cours, comme le rachat de Cogitat par Indivi.",
     "startups": [
-      { "name": "IntelliProve", "use": "Scan facial de 30 s (FC, VFC, respiration, pression artérielle) intégré par des clients dans plus de 50 pays ; CE classe I, vise la IIa ; seed de 2,7 M€ menée par Miles Ahead", "place": "Gand, Belgique" },
-      { "name": "Shen.AI", "use": "SDK rPPG marqué CE classe IIa sous MDR pour FC, VFC, pression artérielle et fréquence respiratoire en un scan de 60 s", "place": "Tallinn, Estonie / Wrocław, Pologne" },
-      { "name": "Lifelight", "use": "Appli de Xim Ltd mesurant pression artérielle et pouls par vidéo du visage, CE classe IIa sous MDR, proposée en SaaS à 1 700 cabinets de soins primaires du NHS", "place": "Royaume-Uni" },
-      { "name": "Binah.ai", "use": "SDK B2B qui extrait le signal PPG d'un selfie vidéo de 35 à 60 s, les résultats restant sur l'appareil de l'utilisateur sans accès de Binah", "place": "Israël" }
+      { "name": "Indivi", "use": "Évaluations motrices et cognitives sur smartphone pour les essais en Parkinson, sclérose en plaques et Alzheimer ; vient de racheter Cogitat pour l'EEG", "place": "Bâle, Suisse" },
+      { "name": "ki:elements", "use": "Speech Biomarker for Cognition : 70 traits de la voix analysés par téléphone pour présélectionner les patients des essais Alzheimer", "place": "Sarrebruck, Allemagne" },
+      { "name": "thymia", "use": "Biomarqueurs vocaux de santé mentale et de fatigue, combinés à la transcription médicale de Speechmatics", "place": "Londres, Royaume-Uni" }
     ],
     "sources": [
-      { "publisher": "The Next Web", "title": "IntelliProve raises €2.7M to take its face scan health check to robots", "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots" },
-      { "publisher": "Shen.AI", "title": "Medical device Shen AI", "url": "https://shen.ai/medical-device" },
-      { "publisher": "Lifelight", "title": "About The Product | Lifelight", "url": "https://lifelight.ai/solution/" },
-      { "publisher": "Binah.ai", "title": "Technology - Binah", "url": "https://www.binah.ai/technology/" }
+      { "publisher": "European Medicines Agency", "title": "Qualification opinion for stride velocity 95th centile as primary endpoint in studies in ambulatory Duchenne muscular dystrophy", "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/qualification-opinion-stride-velocity-95th-centile-primary-endpoint-studies-ambulatory-duchenne_en.pdf" },
+      { "publisher": "Scientific Reports", "title": "Evidentiary basis of the first regulatory qualification of a digital primary efficacy endpoint", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11606965" },
+      { "publisher": "Startupticker.ch", "title": "Indivi strengthens AI capabilities for brain analysis with Cogitat acquisition", "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition" },
+      { "publisher": "HospiMedica", "title": "Automated Phone Speech Test Identifies Alzheimer's Pathology for Prescreening", "url": "https://mobile.hospimedica.com/ai/articles/294810750/automated-phone-speech-test-identifies-alzheimers-pathology-for-prescreening.amp.html" }
     ]
   }
 }

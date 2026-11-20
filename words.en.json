@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-20",
   "words": [
     {
+      "term": "Digital Biomarker",
+      "full": "Digital Biomarker",
+      "fr": "Digital biomarker",
+      "field": "Health measurement via sensors and smartphones",
+      "definition": "An objective measure of health (gait, voice, movement, cognition) captured continuously by a connected device or smartphone in real life, rather than during a one-off clinic exam.",
+      "parts": [
+        {
+          "label": "Sensor",
+          "role": "data capture (accelerometer, microphone, screen, EEG)"
+        },
+        {
+          "label": "Algorithm",
+          "role": "turning the raw signal into a clinical variable"
+        },
+        {
+          "label": "Validation",
+          "role": "proof that the variable truly reflects the disease"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "The patient wears a sensor or performs short smartphone tasks at home, for weeks."
+        },
+        {
+          "n": "2",
+          "h": "Extraction",
+          "t": "An algorithm derives a variable, such as the speed of the fastest 5% of strides (SV95C) or dozens of voice features."
+        },
+        {
+          "n": "3",
+          "h": "Qualification",
+          "t": "The variable is validated against clinical scales and then, ideally, qualified by a regulator as a trial endpoint."
+        }
+      ],
+      "why": "In 2023 the EMA qualified SV95C, measured by an ankle-worn sensor, as the first digital primary endpoint in Duchenne muscular dystrophy: proof that a real-world signal can replace an in-clinic test. For a VC the stakes are twofold: smaller, more sensitive trials that pharma pays well for, and an ongoing consolidation, such as Indivi's acquisition of Cogitat.",
+      "startups": [
+        {
+          "name": "Indivi",
+          "use": "Smartphone-based motor and cognitive assessments for Parkinson's, MS and Alzheimer's trials; just acquired Cogitat for EEG",
+          "place": "Basel, Switzerland"
+        },
+        {
+          "name": "ki:elements",
+          "use": "Speech Biomarker for Cognition: 70 voice features analysed over the phone to pre-screen Alzheimer's trial participants",
+          "place": "Saarbrücken, Germany"
+        },
+        {
+          "name": "thymia",
+          "use": "Voice biomarkers for mental health and fatigue, combined with Speechmatics' medical transcription",
+          "place": "London, United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "European Medicines Agency",
+          "title": "Qualification opinion for stride velocity 95th centile as primary endpoint in studies in ambulatory Duchenne muscular dystrophy",
+          "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/qualification-opinion-stride-velocity-95th-centile-primary-endpoint-studies-ambulatory-duchenne_en.pdf"
+        },
+        {
+          "publisher": "Scientific Reports",
+          "title": "Evidentiary basis of the first regulatory qualification of a digital primary efficacy endpoint",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11606965"
+        },
+        {
+          "publisher": "Startupticker.ch",
+          "title": "Indivi strengthens AI capabilities for brain analysis with Cogitat acquisition",
+          "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition"
+        },
+        {
+          "publisher": "HospiMedica",
+          "title": "Automated Phone Speech Test Identifies Alzheimer's Pathology for Prescreening",
+          "url": "https://mobile.hospimedica.com/ai/articles/294810750/automated-phone-speech-test-identifies-alzheimers-pathology-for-prescreening.amp.html"
+        }
+      ],
+      "date": "2026-11-20",
+      "dateLong": "Nov 20, 2026"
+    },
+    {
       "term": "PNS",
       "full": "Peripheral Nerve Stimulation",
       "fr": "Peripheral nerve stimulation",
