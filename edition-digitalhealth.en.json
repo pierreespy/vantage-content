@@ -1,173 +1,113 @@
 {
-  "dateLong": "Nov 20, 2026",
+  "dateLong": "Nov 21, 2026",
   "ticker": [
-    { "company": "INDIVI", "amount": "Acquisition", "kind": "mna" },
-    { "company": "CONSULTANT CONNECT", "amount": "73% no referral", "kind": "tech" },
-    { "company": "MEDIPULSE", "amount": "€2.6M", "kind": "lev" },
-    { "company": "NEN", "amount": "NEN 7517", "kind": "reg" },
-    { "company": "PALANTIR", "amount": "Ends 2029", "kind": "reg" },
-    { "company": "DEDALUS", "amount": "Acquisition", "kind": "mna" }
+    { "company": "WILCO", "amount": "€2.5M", "kind": "lev" },
+    { "company": "ANEURIN BEVAN", "amount": "30 days → 0.5 day", "kind": "tech" },
+    { "company": "CONECSIO", "amount": "Grand Prix", "kind": "new" },
+    { "company": "PALM HEALTH", "amount": "€1.25M", "kind": "lev" },
+    { "company": "QARE", "amount": "CNIL", "kind": "reg" },
+    { "company": "WHO EUROPE", "amount": "2035 roadmap", "kind": "reg" }
   ],
   "lead": {
-    "kicker": "M&A · Digital biomarkers",
-    "title": "Basel-based Indivi acquires Imperial College spin-out Cogitat and its NeuroRVQ EEG foundation model",
-    "deck": "Indivi, which provides drug developers with smartphone-based motor and cognitive assessments to design smaller early-phase trials (Parkinson's, FSHD, multiple sclerosis, Alzheimer's), is buying the London team that decodes cognitive function from EEG with NeuroRVQ, a model built to work across people and devices and a winner of the BEETL benchmark at NeurIPS; terms were not disclosed. CEO Guilhem Dupont calls it the birth of a \"neuroscience-based AI company\": a European digital biomarker consolidator adding brain signals to the smartphone to sell sponsors earlier evidence of efficacy.",
-    "company": "Indivi",
+    "kicker": "Seed · Patient-access AI",
+    "title": "Madrid's Wilco raises €2.5M led by Samaipata for AI agents that walk patients all the way to the clinic chair",
+    "deck": "Wilco deploys AI agents (voice and messaging) that follow every patient request through to the consultation and treatment-plan acceptance, handing over to staff or a clinician as soon as a clinical question comes up; its customers are large dental, ophthalmology, aesthetics and veterinary clinic groups such as Vitaldent, Baviera and WM Clinics. The round, led by Samaipata with ABAC Nest Ventures and industry executives, will fund engineering, deployment and expansion into the rest of Europe, the US and Latin America: a bet on the 60-80% of requests lost before the first appointment, measured in visits and accepted treatments rather than calls handled.",
+    "company": "Wilco",
     "sector": "Digital Health",
     "pillar": "financement",
-    "signalType": "acquisition",
-    "strength": 5,
-    "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition"
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/"
   },
   "milestone": {
-    "company": "Consultant Connect",
-    "milestone": "Regional rollout",
-    "title": "In Greater Manchester, Consultant Connect's remote specialist advice avoids a hospital referral in 73% of calls",
-    "summary": "Rolled out across all 10 NHS Greater Manchester localities, the Advice & Guidance service is used by 92% of the region's 406 GP surgeries and more than 2,600 clinicians: over 11,000 calls (answered in 34 seconds on average) and 10,000 messages (answered within 4 hours) to specialists. After advice, 73% of calls and 68% of messages allowed the patient to stay in primary care without an immediate referral.",
-    "why": "The region started in the bottom national quartile (2% referral diversion versus a 6% median): synchronous tele-expertise is showing a measurable effect on elective waiting lists, the argument payers need to fund these platforms at scale.",
-    "place": "Manchester",
-    "sector": "Telehealth",
+    "company": "Aneurin Bevan University Health Board",
+    "milestone": "Measured automation",
+    "title": "In Wales, Aneurin Bevan cuts mental health referral processing from 30 days to half a day with RPA",
+    "summary": "The Welsh health board handed referral processing for its primary care mental health support service to software robots (RPA): turnaround fell from up to 30 days to about 0.5 day, with 95% compliance against the 28-day target. More than 72,000 patients have been onboarded to digital outcome collection, yielding over 147,000 PROMs and 1,700 PREMs, ahead of a switch of its patient record to Rio planned for March 2027.",
+    "why": "The simplest kind of administrative automation delivers a measurable gain in access to care here, with no generative AI or new device: proof that workflow and outcomes vendors can sell to the NHS on immediate operational ROI, at a time when AI budgets are struggling to scale.",
+    "place": "Newport",
+    "sector": "Hospital software",
     "signalType": "clinical_update",
-    "url": "https://www.intelligenthealth.tech/2026/11/18/greater-manchester-gps-keep-thousands-of-patients-out-of-hospital-after-specialist-advice-rollout/"
+    "url": "https://htn.co.uk/2026/11/20/aneurin-bevan-highlights-rpa-epr-and-progress-on-key-digital-milestones/"
   },
   "deal": {
-    "company": "MediPulse",
-    "amount": "€2.6M",
+    "company": "Palm Health",
+    "amount": "€1.25M",
     "round": "Pre-seed",
-    "thesis": "The Munich startup plugs its AI into the practice management system and bank accounts of medical practices and MVZ care centres to track revenue, costs and liquidity daily, aiming to run practice management autonomously; around 300 practices have used it since its January 2026 launch. The round led by Fortino Ventures (with HIC/Redstone and WENVEST) bets on a blind spot of healthcare AI: not care itself, but practice profitability.",
+    "thesis": "Founded by Chiara Longhi (CEO) and neonatologist Valentina Bozzetti (CMO), the Rome startup brings a child's health record (discharge letters, test results, vaccinations, paediatric visits) into one app, with an AI assistant that answers parents using paediatric guidelines curated by its clinical team. The round, co-led by Techshop Capital and Exceptional Ventures with Vento and Moffu Labs, bets on the parent as the entry point to the patient record: a paediatric segment still underserved by consumer health platforms.",
     "sector": "Digital Health",
-    "url": "https://startupvalley.news/de/arztpraxen-medipulse-finanzierung-ki/"
+    "url": "https://startupitalia.eu/startup/palm-health-round-da-125-milioni/"
   },
   "brefsEurope": [
-    {
-      "company": "Palantir",
-      "place": "London",
-      "sector": "Health data",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "UK government sets March 2029 end date for Palantir's NHS Federated Data Platform contract",
-      "summary": "Minister James Frith told the Commons that the £330M contract signed in 2023 is extended two years past the 2027 break clause, \"a bridge, not the destination\"; a new procurement open to British companies will start in the second half of 2027, with mandatory open data standards. A window for European health data infrastructure players.",
-      "url": "https://pharmaphorum.com/news/uk-sets-2029-timeline-end-palantirs-nhs-contract"
-    },
-    {
-      "company": "Dedalus",
-      "place": "France",
-      "sector": "Hospital software",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 4,
-      "title": "Dedalus acquires Deigma's assets to digitise clinical labs' external activity",
-      "summary": "Founded in 2019 by Elisa Grimoin, Deigma digitises exchanges between labs and freelance nurses (home blood draws, prescription transmission, sample traceability) and was already integrated with Dedalus's lab information systems, used by more than 70% of French labs. External activity accounts for over 30% of a lab's work and remains under-digitised.",
-      "url": "https://dsih.fr/articles/6470/dedalus-acquiert-deigma-et-fait-de-lactivite-externe-des-laboratoires-un-axe-strategique"
-    },
-    {
-      "company": "NEN",
-      "place": "Delft",
-      "sector": "Health data",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "In the Netherlands, the NEN 7517 standard sets the rules for consent to electronic health data exchange",
-      "summary": "The standard governs how explicit or presumed consent is requested, recorded and managed, for care providers and the IT systems supporting them, and underpins the uniform exchange required by the Wegiz law. Standards on identification, localisation and authorisation are still in development: a shared specification for software vendors.",
-      "url": "https://www.skipr.nl/nieuws/nen-publiceert-norm-voor-toestemming-voor-uitwisseling-zorggegevens/"
-    },
-    {
-      "company": "Agence du numérique en santé",
-      "place": "Paris",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "grant_award",
-      "strength": 2,
-      "title": "France's ANS opens a call for projects to co-fund usage studies of digital innovations in primary care and hospitals",
-      "summary": "Open to digital health experimentation hubs and living labs linked to a care facility, it co-funds up to €35,000 (50% of the project at most) for need validation, protocol design or running a usage study with the companies involved. Applications close on 30 November, with projects launching in March.",
-      "url": "https://www.ticsante.com/story?ID=8530"
-    },
-    {
-      "company": "Assurance maladie",
-      "place": "Paris",
-      "sector": "Mental health",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "France's national health insurer opens its \"Mon journal mental\" app to the general public and carers",
-      "summary": "The free app for tracking mood, sleep and anxiety (formerly \"Jardin mental\", created by Dr Lya Pedron with ARS Île-de-France and the Fabrique numérique des ministères sociaux) adds 66 committee-reviewed resources and a PDF export for clinicians, with no account and data kept on the phone. A free public offering that competes head-on with mental wellbeing apps.",
-      "url": "https://www.santematin.fr/assurance-maladie-mon-journal-mental-application-2026"
-    },
-    {
-      "company": "Mindstep",
-      "place": "United Kingdom",
-      "sector": "Mental health",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Mindstep (Onebright) launches mPAL, an AI tool that prepares patients for therapy",
-      "summary": "Paired with the MCAi adaptive algorithm, mPAL offers personalised, interactive psychological learning distributed via insurers, cash plans and employers; initial findings show a mean 7.16-point improvement on the Cognitive Flexibility Inventory and 90.3% of users saying they better understand their reactions.",
-      "url": "https://www.intelligenthealth.tech/2026/11/19/mindstep-launches-ai-powered-tool-to-bridge-the-gap-between-digital-mental-health-content-and-therapy/"
-    },
-    {
-      "company": "adesso Ventures",
-      "place": "Dortmund",
-      "sector": "Fund",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 2,
-      "title": "adesso Ventures holds a €26M first close of its second fund, led by Digital Health",
-      "summary": "The fund targets €30M and will invest at pre-seed and seed, mainly in the DACH region, in enterprise software and digital health with an AI focus: a new early-stage cheque for German e-health startups.",
-      "url": "https://www.deutsche-startups.de/2026/11/19/roll-ups-vcs-adesso-ventures-marble-imaging-nunc-deutsche-dienstrad/"
-    }
+    { "company": "Qare", "place": "Paris", "sector": "Telehealth", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "Teleconsultation platform Qare confirms theft of patient account data and has notified the CNIL",
+      "summary": "In an intrusion on October 31, resolved the same day according to the company, an attacker accessed patients' civil status, contact details, sex and date of birth; Qare says no health data was affected. A complaint has been filed, patients informed and the CNIL notified. A reminder for telehealth players: cybersecurity is becoming as decisive a buying criterion as patient experience.",
+      "url": "https://www.ticsante.com/story?ID=8532" },
+    { "company": "Conecsio", "place": "Montpellier", "sector": "Health data", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 3,
+      "title": "Conecsio wins the Grand Prix of the 2026 Trophées de la e-santé for speeding up clinical trial recruitment",
+      "summary": "The AI and health-data platform, which helps identify investigator sites and eligible patients, took the jury's Grand Prix at the 20th Université de la e-santé in Castres; MAGE-X, which turns unstructured patient records into validated clinical databases, won the Health Data prize. Two building blocks upstream of the EHDS, where reusing data for research is becoming a market.",
+      "url": "https://buzz-esante.fr/trophees-de-la-e-sante-2026-decouvrez-les-laureats/" },
+    { "company": "Chelsea and Westminster Hospital NHS Foundation Trust", "place": "London", "sector": "Clinical AI", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 2,
+      "title": "Chelsea and Westminster rolls out multilingual AI avatars of its team to guide patients with suspected lung cancer",
+      "summary": "Designed by the hospital's clinicians under respiratory consultant Orhan Orhan, with patient advocates, the platform explains tests and appointments through avatar videos of the team in the ten most-requested languages, plus written content and an AI-assisted Q&A module. It is being deployed across the suspected cancer pathway and could be extended to other services.",
+      "url": "https://htn.co.uk/2026/11/20/ai-powered-digital-avatars-help-support-lung-cancer-patients-at-chelsea-and-westminster-hospital/" },
+    { "company": "Department of Health (Ireland)", "place": "Dublin", "sector": "Regulatory", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "Ireland co-leads a WHO Europe digital mental health roadmap running to 2035",
+      "summary": "Built with the HSE, the roadmap covers six domains (strategy, governance, standards and regulation, infrastructure, skills, evaluation) in three phases, from data protection standards to procurement rules and full integration into the care system. WHO rates the evidence for internet-delivered CBT in depression and anxiety as solid: a common framework that will ease public procurement for digital mental health vendors.",
+      "url": "https://htn.co.uk/2026/11/20/irelands-department-of-health-partners-on-who-digital-mental-health-roadmap-for-the-european-region/" },
+    { "company": "Swansea Bay University Health Board", "place": "Swansea", "sector": "Hospital software", "pillar": "marche",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "Swansea Bay outsources its digital pathology services to Business and Service Solutions for £400k",
+      "summary": "The Welsh health board is outsourcing its digital pathology services for four months, from November 2026 to March 2027, to the Stockport company, awarded through a framework agreement without competition. A sign that remote slide reading is already serving as a release valve for stretched laboratories.",
+      "url": "https://htn.co.uk/2026/11/19/swansea-bay-university-health-board-outsources-400k-digital-pathology-contract/" },
+    { "company": "East and North Hertfordshire Teaching NHS Trust", "place": "Stevenage", "sector": "Clinical AI", "pillar": "innovation",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "East and North Hertfordshire receives 1,000 Copilot licences from NHS England and pilots ambient AI in ENT",
+      "summary": "The trust has 1,000 Copilot licences funded until March 2027 (normally £80,000 a year), whose renewal will depend on a benefits evaluation, and is testing ambient voice technology in ENT and pre-operative assessment before any wider rollout, subject to a future procurement. Its 2026-2030 quality strategy plans to embed AI in quality management by 2028-2030.",
+      "url": "https://htn.co.uk/2026/11/19/east-and-north-hertfordshire-teaching-on-its-people-stategy-innovation-avt-one-epr/" }
   ],
   "brefsIntl": [
-    {
-      "company": "Layer Health",
-      "place": "United States",
-      "sector": "Clinical AI",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Banner Health invests in Layer Health and hands it its cardiovascular, surgical, oncology and stroke clinical registries",
-      "summary": "The 33-hospital system is dropping outsourced vendors for an in-house AI-assisted registry programme on Layer's platform, which reads structured records and free-text notes and links each answer to its source in the chart; the amount was not disclosed, and the company is backed by GV and General Catalyst. A \"hospital as client-investor\" model that could transfer to European registries.",
-      "url": "https://hitconsultant.net/2026/11/19/banner-health-strategic-investment-layer-health-enterprise-clinical-registries/"
-    },
-    {
-      "company": "Vivo Care",
-      "place": "United States",
-      "sector": "Remote monitoring",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 3,
-      "title": "Vivo Care and Onpoint Healthcare Partners combine remote monitoring and clinical workflow optimisation",
-      "summary": "The combined group covers more than 2,000 providers and 120,000 remotely monitored patients, with an offering live on athenahealth and eClinicalWorks; Vivo Care reports average RPM retention of 18.6 months. Terms were not disclosed: US RPM consolidation runs through integration into the practice.",
-      "url": "https://hitconsultant.net/2026/11/18/vivo-care-onpoint-healthcare-partners-combine-unify-office-visit-remote-care/"
-    }
+    { "company": "Artera", "place": "United States", "sector": "Digital Health", "pillar": "innovation",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "Artera launches AI patient-intake agents to tackle claim denials caused by registration errors",
+      "summary": "Built on its Harmony platform, Artera Intake uses AI agents (SMS/RCS, web, voice) to collect information before the visit, at check-in and for complex consents, with a staff dashboard; the vendor serves more than 1,000 provider organisations and cites 56% of providers blaming denied claims on patient data errors. The same digital front door market Wilco is targeting in Europe.",
+      "url": "https://hitconsultant.net/2026/11/19/artera-rolls-out-agentic-patient-intake-hub-harmony-platform/" },
+    { "company": "KPMG", "place": "International", "sector": "Clinical AI", "pillar": "marche",
+      "signalType": "publication_preprint", "strength": 2,
+      "title": "Only 2% of large healthcare organisations have scaled AI with measurable benefits, KPMG finds",
+      "summary": "The Global Healthcare CEO Outlook 2026 (100 leaders of organisations with over $500M in revenue) shows 52% deploying AI across several areas and 41% still experimenting, while 83% call it an investment priority for the next three years and 23% expect a return within 6 to 12 months. The gap between pilots and scale remains the window for solutions with proven ROI.",
+      "url": "https://www.icthealth.org/news/kpmg-only-2-of-healthcare-organisations-have-scaled-ai" }
   ],
   "word": {
-    "term": "Digital Biomarker",
-    "full": "Digital Biomarker",
-    "fr": "Digital biomarker",
-    "field": "Health measurement via sensors and smartphones",
-    "definition": "An objective measure of health (gait, voice, movement, cognition) captured continuously by a connected device or smartphone in real life, rather than during a one-off clinic exam.",
+    "term": "Digital Front Door",
+    "full": "Digital Front Door (the digital entry point to the care pathway)",
+    "fr": "Digital front door",
+    "field": "Access to care and patient engagement",
+    "definition": "All the digital channels through which a patient first contacts a hospital or practice (website, portal, booking, online triage, messaging, teleconsultation), designed to steer them to the right care without going through the phone line or front desk.",
     "parts": [
-      { "label": "Sensor", "role": "data capture (accelerometer, microphone, screen, EEG)" },
-      { "label": "Algorithm", "role": "turning the raw signal into a clinical variable" },
-      { "label": "Validation", "role": "proof that the variable truly reflects the disease" }
+      { "label": "Triage", "role": "routing (symptoms, urgency, right level of care)" },
+      { "label": "Access", "role": "self-service booking, registration and payment" },
+      { "label": "Follow-up", "role": "reminders and nudges through to the consultation and treatment" }
     ],
     "how": [
-      { "n": "1", "h": "Capture", "t": "The patient wears a sensor or performs short smartphone tasks at home, for weeks." },
-      { "n": "2", "h": "Extraction", "t": "An algorithm derives a variable, such as the speed of the fastest 5% of strides (SV95C) or dozens of voice features." },
-      { "n": "3", "h": "Qualification", "t": "The variable is validated against clinical scales and then, ideally, qualified by a regulator as a trial endpoint." }
+      { "n": "1", "h": "First contact", "t": "The patient describes their need on the web, in the app or by phone, where a questionnaire or an AI agent collects their information." },
+      { "n": "2", "h": "Routing", "t": "A clinical triage engine assesses urgency and directs them to the right pathway: self-care, teleconsultation, an in-person appointment or the emergency department." },
+      { "n": "3", "h": "Conversion", "t": "Automated booking, reminders and follow-ups until the patient shows up, with handover to a human as soon as a clinical question arises." }
     ],
-    "why": "In 2023 the EMA qualified SV95C, measured by an ankle-worn sensor, as the first digital primary endpoint in Duchenne muscular dystrophy: proof that a real-world signal can replace an in-clinic test. For a VC the stakes are twofold: smaller, more sensitive trials that pharma pays well for, and an ongoing consolidation, such as Indivi's acquisition of Cogitat.",
+    "why": "Patients want this self-service: 72% cite quicker access to a doctor and 58% appointment scheduling as improvements since the pandemic, according to Experian Health. For a VC, it is where agentic AI monetises fastest, in admin hours saved and appointments no longer lost, as shown by GP Triage's certified triage in the NHS and Wilco's raise with clinic groups.",
     "startups": [
-      { "name": "Indivi", "use": "Smartphone-based motor and cognitive assessments for Parkinson's, MS and Alzheimer's trials; just acquired Cogitat for EEG", "place": "Basel, Switzerland" },
-      { "name": "ki:elements", "use": "Speech Biomarker for Cognition: 70 voice features analysed over the phone to pre-screen Alzheimer's trial participants", "place": "Saarbrücken, Germany" },
-      { "name": "thymia", "use": "Voice biomarkers for mental health and fatigue, combined with Speechmatics' medical transcription", "place": "London, United Kingdom" }
+      { "name": "Wilco", "use": "Voice and messaging AI agents that follow every request through to the consultation for Vitaldent, Baviera and WM Clinics; €2.5M led by Samaipata", "place": "Madrid, Spain" },
+      { "name": "Infermedica", "use": "AI clinical triage engine powering GP Triage's pathway in the NHS and Healthdirect's symptom checker", "place": "Wrocław, Poland" },
+      { "name": "GP Triage", "use": "NHS-assured digital front door for GP practices: more than one million patients and up to 450 automated care navigation pathways", "place": "United Kingdom" }
     ],
     "sources": [
-      { "publisher": "European Medicines Agency", "title": "Qualification opinion for stride velocity 95th centile as primary endpoint in studies in ambulatory Duchenne muscular dystrophy", "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/qualification-opinion-stride-velocity-95th-centile-primary-endpoint-studies-ambulatory-duchenne_en.pdf" },
-      { "publisher": "Scientific Reports", "title": "Evidentiary basis of the first regulatory qualification of a digital primary efficacy endpoint", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11606965" },
-      { "publisher": "Startupticker.ch", "title": "Indivi strengthens AI capabilities for brain analysis with Cogitat acquisition", "url": "https://www.startupticker.ch/en/news/indivi-strengthens-ai-capabilities-for-brain-analysis-with-cogitat-acquisition" },
-      { "publisher": "HospiMedica", "title": "Automated Phone Speech Test Identifies Alzheimer's Pathology for Prescreening", "url": "https://mobile.hospimedica.com/ai/articles/294810750/automated-phone-speech-test-identifies-alzheimers-pathology-for-prescreening.amp.html" }
+      { "publisher": "Experian Health", "title": "Why a digital front door in healthcare matters more than ever", "url": "https://www.experian.com/blogs/healthcare/why-a-digital-front-door-in-healthcare-matters-more-than-ever/" },
+      { "publisher": "Infermedica", "title": "GP Triage and Infermedica partner to bring certified AI triage to NHS general practice", "url": "https://infermedica.com/blog/articles/gp-triage-and-infermedica-standardising-triage-in-nhs-practices" },
+      { "publisher": "Capital-Riesgo.es", "title": "Wilco cierra una ronda de 2.5M€ liderada por Samaipata para ayudar a las clínicas sanitarias a cerrar más tratamientos con agentes de IA", "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/" }
     ]
   }
 }

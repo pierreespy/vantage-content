@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-21",
   "words": [
     {
+      "term": "Digital Front Door",
+      "full": "Digital Front Door (porte d'entrée numérique du parcours de soins)",
+      "fr": "Porte d'entrée numérique",
+      "field": "Accès aux soins et relation patient",
+      "definition": "L'ensemble des canaux numériques par lesquels un patient entre en contact avec un établissement ou un cabinet (site, portail, prise de rendez-vous, triage en ligne, messagerie, téléconsultation), conçus pour l'orienter jusqu'au bon soin sans passer par le téléphone ou le guichet.",
+      "parts": [
+        {
+          "label": "Triage",
+          "role": "l'orientation (symptômes, urgence, bon niveau de soin)"
+        },
+        {
+          "label": "Accès",
+          "role": "la prise de rendez-vous, l'enregistrement et le paiement en libre-service"
+        },
+        {
+          "label": "Suivi",
+          "role": "les rappels et relances jusqu'à la consultation et au traitement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Premier contact",
+          "t": "Le patient décrit son besoin sur le web, l'app ou par téléphone, où un questionnaire ou un agent d'IA recueille ses informations."
+        },
+        {
+          "n": "2",
+          "h": "Orientation",
+          "t": "Un moteur de triage clinique évalue l'urgence et dirige vers le bon parcours : autosoin, téléconsultation, rendez-vous en cabinet ou urgences."
+        },
+        {
+          "n": "3",
+          "h": "Conversion",
+          "t": "Réservation, rappels et relances automatisés jusqu'à la venue du patient, avec passage à un humain dès qu'une question clinique se pose."
+        }
+      ],
+      "why": "Les patients réclament ce libre-service : 72 % citent l'accès plus rapide à un médecin et 58 % la prise de rendez-vous comme progrès depuis la pandémie selon Experian Health. Pour un VC, c'est l'endroit où l'IA agentique monétise le plus vite, en heures de secrétariat économisées et en rendez-vous non perdus, comme le montrent le triage certifié de GP Triage dans le NHS ou la levée de Wilco auprès des réseaux de cliniques.",
+      "startups": [
+        {
+          "name": "Wilco",
+          "use": "Agents d'IA voix et messagerie qui suivent chaque demande jusqu'à la consultation pour Vitaldent, Baviera ou WM Clinics ; 2,5 M€ menés par Samaipata",
+          "place": "Madrid, Espagne"
+        },
+        {
+          "name": "Infermedica",
+          "use": "Moteur de triage clinique par IA qui alimente le parcours de GP Triage dans le NHS et le vérificateur de symptômes de Healthdirect",
+          "place": "Wrocław, Pologne"
+        },
+        {
+          "name": "GP Triage",
+          "use": "Porte d'entrée numérique assurée par le NHS pour les cabinets de médecine générale : plus d'un million de patients et jusqu'à 450 parcours de navigation automatisés",
+          "place": "Royaume-Uni"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Experian Health",
+          "title": "Why a digital front door in healthcare matters more than ever",
+          "url": "https://www.experian.com/blogs/healthcare/why-a-digital-front-door-in-healthcare-matters-more-than-ever/"
+        },
+        {
+          "publisher": "Infermedica",
+          "title": "GP Triage and Infermedica partner to bring certified AI triage to NHS general practice",
+          "url": "https://infermedica.com/blog/articles/gp-triage-and-infermedica-standardising-triage-in-nhs-practices"
+        },
+        {
+          "publisher": "Capital-Riesgo.es",
+          "title": "Wilco cierra una ronda de 2.5M€ liderada por Samaipata para ayudar a las clínicas sanitarias a cerrar más tratamientos con agentes de IA",
+          "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "21 nov. 2026"
+    },
+    {
       "term": "Dual-Payload ADC",
       "full": "Dual-Payload Antibody-Drug Conjugate (conjugué anticorps-médicament à double charge)",
       "fr": "Conjugué anticorps-médicament à double charge",

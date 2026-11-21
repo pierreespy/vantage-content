@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-21",
   "words": [
     {
+      "term": "Digital Front Door",
+      "full": "Digital Front Door (the digital entry point to the care pathway)",
+      "fr": "Digital front door",
+      "field": "Access to care and patient engagement",
+      "definition": "All the digital channels through which a patient first contacts a hospital or practice (website, portal, booking, online triage, messaging, teleconsultation), designed to steer them to the right care without going through the phone line or front desk.",
+      "parts": [
+        {
+          "label": "Triage",
+          "role": "routing (symptoms, urgency, right level of care)"
+        },
+        {
+          "label": "Access",
+          "role": "self-service booking, registration and payment"
+        },
+        {
+          "label": "Follow-up",
+          "role": "reminders and nudges through to the consultation and treatment"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "First contact",
+          "t": "The patient describes their need on the web, in the app or by phone, where a questionnaire or an AI agent collects their information."
+        },
+        {
+          "n": "2",
+          "h": "Routing",
+          "t": "A clinical triage engine assesses urgency and directs them to the right pathway: self-care, teleconsultation, an in-person appointment or the emergency department."
+        },
+        {
+          "n": "3",
+          "h": "Conversion",
+          "t": "Automated booking, reminders and follow-ups until the patient shows up, with handover to a human as soon as a clinical question arises."
+        }
+      ],
+      "why": "Patients want this self-service: 72% cite quicker access to a doctor and 58% appointment scheduling as improvements since the pandemic, according to Experian Health. For a VC, it is where agentic AI monetises fastest, in admin hours saved and appointments no longer lost, as shown by GP Triage's certified triage in the NHS and Wilco's raise with clinic groups.",
+      "startups": [
+        {
+          "name": "Wilco",
+          "use": "Voice and messaging AI agents that follow every request through to the consultation for Vitaldent, Baviera and WM Clinics; €2.5M led by Samaipata",
+          "place": "Madrid, Spain"
+        },
+        {
+          "name": "Infermedica",
+          "use": "AI clinical triage engine powering GP Triage's pathway in the NHS and Healthdirect's symptom checker",
+          "place": "Wrocław, Poland"
+        },
+        {
+          "name": "GP Triage",
+          "use": "NHS-assured digital front door for GP practices: more than one million patients and up to 450 automated care navigation pathways",
+          "place": "United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Experian Health",
+          "title": "Why a digital front door in healthcare matters more than ever",
+          "url": "https://www.experian.com/blogs/healthcare/why-a-digital-front-door-in-healthcare-matters-more-than-ever/"
+        },
+        {
+          "publisher": "Infermedica",
+          "title": "GP Triage and Infermedica partner to bring certified AI triage to NHS general practice",
+          "url": "https://infermedica.com/blog/articles/gp-triage-and-infermedica-standardising-triage-in-nhs-practices"
+        },
+        {
+          "publisher": "Capital-Riesgo.es",
+          "title": "Wilco cierra una ronda de 2.5M€ liderada por Samaipata para ayudar a las clínicas sanitarias a cerrar más tratamientos con agentes de IA",
+          "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "Nov 21, 2026"
+    },
+    {
       "term": "Dual-Payload ADC",
       "full": "Dual-Payload Antibody-Drug Conjugate",
       "fr": "Dual-payload antibody-drug conjugate",
