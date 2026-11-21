@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-21",
   "words": [
     {
+      "term": "Dual-Payload ADC",
+      "full": "Dual-Payload Antibody-Drug Conjugate (conjugué anticorps-médicament à double charge)",
+      "fr": "Conjugué anticorps-médicament à double charge",
+      "field": "Oncologie de précision",
+      "definition": "Un anticorps « missile » qui transporte non plus une mais deux molécules toxiques différentes, libérées ensemble dans la tumeur pour frapper par deux mécanismes à la fois et empêcher la cellule cancéreuse de s'adapter.",
+      "parts": [
+        {
+          "label": "Vecteur",
+          "role": "l'anticorps (ou le peptide) qui reconnaît la cible tumorale, par exemple HER2"
+        },
+        {
+          "label": "Linker ramifié",
+          "role": "l'attache capable de porter deux charges, stable dans le sang et clivée dans la tumeur"
+        },
+        {
+          "label": "Deux charges",
+          "role": "souvent un inhibiteur de topoisomérase 1 associé à un inhibiteur d'ATR ou à l'auristatine MMAE"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Ciblage",
+          "t": "Le conjugué circule dans le sang sans relâcher ses charges et se fixe sur les cellules qui expriment l'antigène visé."
+        },
+        {
+          "n": "2",
+          "h": "Libération simultanée",
+          "t": "Une fois internalisé, ou clivé par une enzyme du micro-environnement tumoral comme la FAP, il libère les deux molécules au même endroit et au même moment."
+        },
+        {
+          "n": "3",
+          "h": "Double coup",
+          "t": "La première charge casse l'ADN ; la seconde bloque la réparation (ATR) ou attaque un autre mécanisme, ce qui coupe la route aux cellules résistantes à une seule charge."
+        }
+      ],
+      "why": "Les ADC à inhibiteur de topoisomérase 1 (Enhertu, sac-TMT) dominent l'oncologie, mais les résistances à leur charge unique apparaissent : la double charge est la réponse la plus suivie, avec la promesse d'une combinaison synergique dans une seule molécule au lieu de deux traitements cumulant leurs toxicités. Le rachat de CrossBridge Bio par Eli Lilly (jusqu'à 300 M$ en avril 2026) a validé la thèse ; l'enjeu des prochains mois est de montrer chez l'humain que la seconde charge apporte plus d'efficacité que de toxicité.",
+      "startups": [
+        {
+          "name": "Callio Therapeutics",
+          "use": "ADC multi-charges issus de la technologie de Hummingbird Bioscience ; CLIO-8221 anti-HER2 (inhibiteur de topoisomérase 1 + inhibiteur d'ATR), premier patient dosé en phase 1 en mars 2026 ; Series A de 187 M$ menée par Frazier Life Sciences",
+          "place": "Seattle / Singapour"
+        },
+        {
+          "name": "Avacta Therapeutics",
+          "use": "AVA6207, conjugué peptidique pre|CISION à double charge exatécan + berzosertib activé par la FAP ; entrée en études IND-enabling au quatrième trimestre 2026",
+          "place": "Londres"
+        },
+        {
+          "name": "Debiopharm",
+          "use": "Suite de linkers MultiLINK et technologie MLINK Duo pour ADC à double charge (MMAE + exatécan), en preuve de concept préclinique sur anticorps mono- et bispécifiques",
+          "place": "Lausanne, Suisse"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Debiopharm",
+          "title": "Enhancing therapeutic efficacy and overcoming resistance with a novel dual-payload antibody-drug conjugate technology",
+          "url": "https://www.debiopharm.com/?p=17933"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Biotech startup pulls in $187M to make 'multi-payload' ADCs",
+          "url": "https://www.biopharmadive.com/news/callio-adc-cancer-biotech-startup-series-a/741370/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "AVA6207 Overcomes Topoisomerase I Inhibitor Resistance In Vitro and In Vivo with Robust and Tumor-Selective Release of Dual Exatecan and ATR Inhibitor Payloads",
+          "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Lilly boosts ADC portfolio with CrossBridge Bio deal",
+          "url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "21 nov. 2026"
+    },
+    {
       "term": "ULF MRI",
       "full": "Ultra-Low-Field MRI (IRM ultra-bas champ)",
       "fr": "IRM ultra-bas champ",

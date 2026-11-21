@@ -1,174 +1,155 @@
 {
-  "dateLong": "Nov 20, 2026",
+  "dateLong": "Nov 21, 2026",
   "ticker": [
-    { "company": "DISCO", "amount": "$40M upfront", "kind": "mna" },
-    { "company": "GLYCOERA", "amount": "1st subject dosed", "kind": "tech" },
-    { "company": "SCANCELL", "amount": "RMAT", "kind": "reg" },
-    { "company": "BOLTZ", "amount": "$110M", "kind": "lev" },
-    { "company": "ASGARD", "amount": "EIC", "kind": "new" },
-    { "company": "MEDIVIR", "amount": "RPD", "kind": "reg" }
+    { "company": "ADCENDO", "amount": "30% ORR", "kind": "tech" },
+    { "company": "BIOVERSYS", "amount": "Ph2a ✓", "kind": "tech" },
+    { "company": "NOEMA", "amount": "Orphan", "kind": "reg" },
+    { "company": "SANOFI", "amount": "EU approval", "kind": "reg" },
+    { "company": "AVACTA", "amount": "IND-enabling", "kind": "tech" },
+    { "company": "ONWARD", "amount": "$28M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Pharma licensing · Oncology",
-    "title": "Cologne startup DISCO Pharmaceuticals signs a $40M-upfront deal worth up to $2.5B with AbbVie for its AND-gated bispecifics against solid tumors",
-    "deck": "Under the deal announced on November 19, DISCO will carry out defined research and AbbVie can then exercise options for exclusive licenses to selected programs: $40M upfront, up to $2.5B in option and milestone payments, plus tiered royalties; neither the number of programs nor the targets were disclosed. After January's Amgen deal (up to $618M), it is the second major pharma partnership this year for the still-preclinical company, whose upfront roughly matches its €36M seed round (Sofinnova, M Ventures, Panakes, AbbVie Ventures): its DISCOtech platform maps the surfaceome to find pairs of antigens that appear together on tumors but rarely on healthy tissue.",
-    "company": "DISCO Pharmaceuticals",
-    "stage": "Seed",
+    "kicker": "Phase 1 data · Oncology",
+    "title": "Adcendo's anti-uPARAP ADC posts a 30% objective response rate in advanced soft tissue sarcoma, a tumor that resists chemotherapy",
+    "deck": "Presented as a late-breaker at the EORTC-NCI-AACR Symposium in Barcelona on November 19, the Phase 1/2 ADCElerate1 study of ADCE-D01 (an anti-uPARAP antibody armed with a deruxtecan payload) enrolled 47 patients across 17 sarcoma subtypes: on the every-two-weeks schedule, 8 partial responses in 27 evaluable patients (30%) and 85% disease control, with all responses ongoing, no interstitial lung disease, no discontinuations for toxicity and no maximum tolerated dose reached. The Copenhagen biotech, which closed a $75M Series C led by Jeito Capital in April and already holds FDA Fast Track and orphan drug designations, has in uPARAP a novel target in a cancer where options after first line are thin.",
+    "company": "Adcendo",
+    "stage": "Series C",
     "sector": "Oncology",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 4,
-    "url": "https://european-biotechnology.com/latest-news/after-amgen-disco-lands-abbvie-deal-worth-up-to-2-5b/"
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/adcendo-aps-announces-phase-1-clinical-data-showing-compelling-safety-antitumor-activity-with-adce-d01-in-advanced-soft-tissue-sarcoma-in-late-breaking-oral-presentation-at-2026-eortc-nci-aacr-symposium-on-molecular-targets-and-cancer-therapeutics"
   },
   "milestone": {
-    "company": "GlycoEra",
-    "milestone": "Enters the clinic",
-    "title": "GlycoEra starts dosing in a phase 1a trial of GE8820, the first IgG4-selective degrader to enter the clinic",
-    "summary": "On November 16 the Wädenswil biotech launched a trial in healthy volunteers (single ascending doses, then planned multiple ascending doses, intravenous and subcutaneous): GE8820 is designed to rapidly clear IgG4 autoantibodies through the liver's natural clearance system while sparing other immunoglobulins. In non-human primates, a single dose cut circulating human IgG4 by more than 95% in under a day; data are expected in the first half of 2027, ahead of a phase 1b in pemphigus vulgaris and primary membranous nephropathy.",
-    "why": "IgG4-driven diseases (pemphigus, membranous nephropathy, MuSK myasthenia gravis) are treated today with broad immunosuppression; removing only the culprit antibody would be more precise than FcRn blockers, which lower all IgG. Because IgG4 levels are comparable in healthy volunteers and patients, this phase 1a should already give a read on depth of effect.",
-    "place": "Wädenswil",
-    "sector": "Immunology",
+    "company": "BioVersys",
+    "milestone": "Phase 2a ✓",
+    "title": "BioVersys shows in Phase 2a that a tuberculosis regimen built on alpibectir-ethionamide can replace isoniazid",
+    "summary": "In the 14-day ENABLE trial (EU project UNITE4TB, run by TASK in patients with drug-sensitive pulmonary tuberculosis), every AlpE-containing regimen showed early bactericidal activity; alpibectir 45 mg + ethionamide 250 mg combined with rifampicin, pyrazinamide and ethambutol delivered activity numerically close to standard HRZE, and was well tolerated. Results were presented on November 20 at the Union World Conference on Lung Health in Rio.",
+    "why": "Alpibectir, co-developed with GSK and born at Institut Pasteur de Lille, potentiates an old antibiotic so it can be dosed lower and get around resistance: a path to shorter regimens against drug-resistant tuberculosis. The Phase 2b STEP2C trial, testing AlpE-RZE over the first two months of treatment in six African countries, is already underway.",
+    "place": "Basel",
+    "sector": "Anti-infectives",
     "signalType": "clinical_update",
-    "url": "https://www.glycoera.com/wp-content/uploads/2026/11/FINALGlycoEra-Phase-1a-Trial-Initiation-PR_11.16.26.pdf"
-  },
-  "deal": {
-    "company": "Boltz",
-    "amount": "$110M",
-    "round": "Series A",
-    "thesis": "Less than a year after emerging from stealth, the London company founded by MIT researchers (open-source models Boltz-1 and Boltz-2) raises $110M led by Bessemer Venture Partners, with Andreessen Horowitz, Amplify, Zetta, Obvious and newcomers Greycroft, F-Prime, Hummingbird and Benchling. The thesis: sell compute on a usage basis (molecular tokens, up 50-fold since June) rather than develop its own molecules, with six of the 20 largest pharma companies already customers (including Pfizer, GSK, Takeda and BMS): a picks-and-shovels model for AI drug discovery, the opposite of Isomorphic's pipeline bet.",
-    "sector": "AI drug discovery",
-    "url": "https://tech.eu/2026/11/19/london-based-boltz-raises-110m-series-a"
+    "url": "https://www.prnewswire.com/news-releases/bioversys-reports-results-from-phase-2a-enable-study-for-tuberculosis-treatments-containing-alpe-302946581.html"
   },
   "brefsEurope": [
     {
-      "company": "Scancell",
-      "place": "Oxford",
+      "company": "Avacta Therapeutics",
+      "place": "London",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 2,
+      "title": "Avacta moves AVA6207, a FAP-activated dual-payload (exatecan + ATR inhibitor) peptide-drug conjugate, into IND-enabling studies",
+      "summary": "Preclinical data presented in Barcelona show reversal of topoisomerase 1 inhibitor resistance and complete responses in mice bearing patient-derived ovarian and lung tumors, plus superiority over Enhertu in a gastric model. The candidate enters IND-enabling studies in Q4 2026, with biomarker-driven enrollment planned (SLFN11-low or ATM-deficient tumors).",
+      "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads"
+    },
+    {
+      "company": "multiQure",
+      "place": "Warsaw",
+      "sector": "Gene therapy",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "multiQure starts manufacturing MQ-201, an RNAi gene therapy that silences only the mutant copy of the Huntington's gene",
+      "summary": "The Warsaw-listed company has picked US CDMO Andelyn Biosciences to make the AAV5 vector and, with Warsaw's Bródno Hospital and Munich consultancy Granzer on the IND package, is preparing a first dosing in patients, funded by PLN 50M raised in June. It is positioning behind uniQure's AMT-130, whose FDA decision is due May 1, 2027.",
+      "url": "https://www.biospace.com/press-releases/multiqure-begins-manufacturing-phase-of-mq-201-gene-therapy-for-first-huntingtons-disease-patients-u-s-based-andelyn-biosciences-selected-as-manufacturing-partner"
+    },
+    {
+      "company": "Noema Pharma",
+      "place": "Basel",
+      "sector": "Neuroscience",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "FDA grants Noema Pharma orphan drug designation for basimglurant in trigeminal neuralgia",
+      "summary": "The oral mGluR5 negative allosteric modulator, which already had Fast Track in this rare facial pain disorder (about 150,000 patients in the US), gains up to seven years of potential US market exclusivity. The Sofinnova-backed Basel biotech had won FDA clearance back in 2022 for a Phase 2/3 trial in this indication.",
+      "url": "https://www.startupticker.ch/en/news/key-milestones-from-biotechs-advancing-treatments-across-multiple-indications"
+    },
+    {
+      "company": "Laverock Therapeutics",
+      "place": "London",
+      "sector": "Cell therapy",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Laverock Therapeutics names Parker Moss, Exscientia's former corporate development head, as CEO ahead of a Series A planned for 2027",
+      "summary": "Paul J. Sekhri, who chaired Longboard Pharmaceuticals through its sale to Lundbeck, becomes executive chair; founder David Venables steps down on December 31. The preclinical company aims to select a candidate from its CAR-T programs in the first half of 2027.",
+      "url": "https://european-biotechnology.com/latest-news/laverock-names-ceo-ahead-of-series-a-gh-research-hires-j-treefrog-taps-former-bluebird-bio-cfo/"
+    },
+    {
+      "company": "Sanofi",
+      "place": "Paris",
       "sector": "Vaccines",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "FDA grants RMAT designation to Scancell's DNA vaccine iSCIB1+ in advanced melanoma, ahead of a phase 3 planned for December",
-      "summary": "The designation adds to April's Fast Track; in the phase 2 SCOPE trial (November 12 data cut), 24-month overall survival reaches 87% for iSCIB1+ combined with ipilimumab and nivolumab. Funding for the phase 3 depends on the merger with Neuphoria Therapeutics, which is set to give Scancell a Nasdaq listing.",
-      "url": "https://www.globenewswire.com/news-release/2026/11/19/3406304/0/en/scancell-provides-corporate-and-clinical-update.html"
+      "strength": 5,
+      "title": "European Commission approves VaxRabeo, Sanofi's next-generation rabies vaccine, for all ages",
+      "summary": "Made on Vero cells, the vaccine covers pre-exposure prophylaxis (WHO's reduced 2-dose schedule) and post-bite prophylaxis (4 doses), with 100% of participants reaching protective antibody levels with intramuscular dosing. A 60-month shelf life and stability up to 27°C for 96 hours make it a comparable for the value of thermostability in vaccines.",
+      "url": "https://www.biospace.com/press-releases/press-release-sanofis-next-generation-rabies-vaccine-vaxrabeo-approved-in-the-eu-for-all-ages"
     },
     {
-      "company": "Asgard Therapeutics",
-      "place": "Lund",
+      "company": "Onward Therapeutics",
+      "place": "Taipei",
       "sector": "Oncology",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Asgard Therapeutics wins a €2.5M EIC Accelerator grant to take AT-108, which reprograms tumor cells into dendritic cells, into the clinic",
-      "summary": "Selected among 35 winners out of 453 applicants, the company is also eligible for up to €10M in equity from the EIC Fund in an upcoming round. AT-108 first targets head and neck cancers and MSS colorectal cancer, with first patient dosing targeted for 2027.",
-      "url": "https://www.biospace.com/press-releases/asgard-therapeutics-awarded-2-5m-eic-accelerator-grant-to-advance-lead-program-at-108-toward-the-clinic"
-    },
-    {
-      "company": "Isomorphic Labs",
-      "place": "London",
-      "sector": "AI drug discovery",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Two days after its $5B Series C, Isomorphic Labs adds MSD to its partners to design small molecules against an oncology target",
-      "summary": "Isomorphic will deliver designs from its IsoDDE engine, fed with proprietary MSD data, while MSD handles development and commercialization; upfront, milestones and royalties are undisclosed, with an option to co-fund in exchange for higher royalties. MSD joins Novartis, Eli Lilly and J&J.",
-      "url": "https://www.merck.com/news/merck-and-isomorphic-labs-enter-strategic-research-collaboration/"
-    },
-    {
-      "company": "Medivir",
-      "place": "Stockholm",
-      "sector": "Rare diseases",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "FDA grants Medivir Rare Pediatric Disease Designation for MIV-711 in osteogenesis imperfecta",
-      "summary": "The cathepsin K inhibitor, already an orphan drug in this brittle bone disease, could earn a priority review voucher (PRV, resold for $180M to $210M in 2026) if approved. A proof-of-concept study is designed and funded.",
-      "url": "https://nordiclifescience.org/fda-grants-medivir-rare-pediatric-disease-designation/"
-    },
-    {
-      "company": "Cereno Scientific",
-      "place": "Gothenburg",
-      "sector": "Cardio",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Cereno Scientific doses the first patient in the global phase IIb EPIMODE trial of CS1 in pulmonary arterial hypertension",
-      "summary": "Primary endpoint: pulmonary vascular resistance after nine months, followed by re-randomization of patients; up to 15 active sites by end-2026 across North America, Europe and South America. Results are expected in the fourth quarter of 2028, subject to recruitment and financing.",
-      "url": "https://nordiclifescience.org/first-patient-dosed-in-cerenos-pah-trial/"
-    },
-    {
-      "company": "MHRA",
-      "place": "London",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "The UK redefines gene therapy to include synthetic nucleic acids and genome editing",
-      "summary": "Backed by 83% of respondents to the MHRA consultation, the new technology-neutral definition will classify a product by whether it contains a recombinant or synthetic nucleic acid that is transcribed or translated, or acts through sequence-specific genome editing. The amendment to the Human Medicines Regulations 2012 still needs parliamentary approval.",
-      "url": "https://www.gov.uk/government/news/government-backs-modernisation-of-gene-therapy-definitions"
-    },
-    {
-      "company": "British Business Bank",
-      "place": "London",
-      "sector": "Fund",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "British Business Bank lifts its life sciences backing to £1.13B and puts €58M into Sofinnova's Crossover II fund",
-      "summary": "£832M is committed to 20 specialist funds and £302M invested directly in 28 companies since 2021, including Alchemab (£25M) and T-Therapeutics (£15M). A public player that has become a key LP for European late-stage biotech.",
-      "url": "https://european-biotechnology.com/latest-news/british-business-bank-commits-over-1b-to-life-sciences/"
-    },
-    {
-      "company": "ITM Isotope Technologies Munich",
-      "place": "Garching",
-      "sector": "Radiopharmaceuticals",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "ITM will supply non-carrier-added lutetium-177 to Canadian CDMO AtomVie for radiopharmaceutical developers",
-      "summary": "The Bavarian company's isotope, authorized in the EU as EndolucinBeta, will feed programs run by AtomVie's clients; AtomVie is commissioning a 72,300 sq. ft. facility in Hamilton, Ontario. Duration and value were not disclosed. Isotope supply remains the bottleneck for radioligands.",
-      "url": "https://www.prnewswire.com/news-releases/atomvie-global-radiopharma-and-itm-enter-supply-agreement-for-nca-lutetium-177-302944376.html"
+      "title": "Lausanne-born Onward Therapeutics closes a TWD 900M (about $28M) Series B for programs targeting cancer drug resistance",
+      "summary": "The round, closed in two tranches, brings together existing shareholders CDIB Capital Healthcare Ventures and Hong Kong Chlitina plus Beiley Biofund, Everbright Biofund and Top Taiwan Venture Capital, with no named lead. The company, which moved its headquarters to Taiwan in 2025 while keeping an R&D team in Lausanne, aims to list on Taipei's Emerging Stock Board by end-2027.",
+      "url": "https://www.startupticker.ch/index.php/en/news/onward-therapeutics-closes-usd-28-million-series-b-financing"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Regeneron",
-      "place": "Tarrytown",
-      "sector": "RNA",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "FDA approves Regeneron's Livsayis (cemdisiran), the first RNAi drug cleared in an autoimmune disease, generalized myasthenia gravis",
-      "summary": "Discovered by Alnylam ($25M milestone), the anti-C5 siRNA is injected four times a year at a list price of $410,000 per year. It takes on AstraZeneca's C5 drugs and Belgium-based argenx's treatment: a comparable that validates RNAi beyond rare liver diseases.",
-      "url": "https://www.biopharmadive.com/news/regeneron-fda-approve-cemdisiran-livsayis-myasthenia-gravis-alnylam/875160/"
+      "company": "Merck & Co.",
+      "place": "Rahway",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 4,
+      "title": "Merck and Kelun-Biotech's anti-TROP2 ADC sac-TMT improves overall survival in Phase 3 in advanced gastroesophageal cancer",
+      "summary": "The TroFuse-015 trial (473 patients in third line or later) met its primary endpoint against physician's choice, regardless of TROP2 level, but missed on progression-free survival and response rate. Another milestone for topoisomerase 1 inhibitor-payload ADCs, the class dual payloads aim to surpass.",
+      "url": "https://www.biospace.com/drug-development/merck-kelun-adc-scores-survival-win-in-phase-3-gastroesophageal-cancer-trial"
+    },
+    {
+      "company": "PAQ Therapeutics",
+      "place": "Burlington",
+      "sector": "Oncology",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "PAQ Therapeutics reports first clinical data for PT0253, a selective KRAS G12D degrader, with 6 responses in 7 first-line pancreatic cancer patients",
+      "summary": "As monotherapy (44 patients, 10 to 750 mg weekly), no dose-limiting toxicities and 3 confirmed partial responses in 10 RAS-inhibitor-naive pancreatic cancers; combined with mFOLFIRINOX, 6 objective responses in 7 evaluable patients, including one complete response. Targeted degradation gains clinical proof on the most coveted oncogene.",
+      "url": "https://www.prnewswire.com/news-releases/paq-therapeutics-presents-first-clinical-data-for-pt0253-a-selective-kras-g12d-degrader-showing-a-differentiated-safety-profile-and-antitumor-activity-at-ena-2026-302939854.html"
     }
   ],
   "word": {
-    "term": "Extracellular Protein Degrader",
-    "full": "Extracellular Protein Degrader",
-    "fr": "Extracellular protein degrader",
-    "field": "Targeted protein degradation",
-    "definition": "A two-armed molecule that grabs a harmful protein circulating in the blood or sitting on the cell surface and drags it into the cell to be destroyed, whereas PROTACs can only reach proteins inside the cell.",
+    "term": "Dual-Payload ADC",
+    "full": "Dual-Payload Antibody-Drug Conjugate",
+    "fr": "Dual-payload antibody-drug conjugate",
+    "field": "Precision oncology",
+    "definition": "A \"guided missile\" antibody that carries not one but two different toxic molecules, released together inside the tumor to strike through two mechanisms at once and stop the cancer cell from adapting.",
     "parts": [
-      { "label": "Capture arm", "role": "binds the target protein (antibody, IgE, IgG4…)" },
-      { "label": "Receptor ligand", "role": "latches onto a receptor that leads to the lysosome (liver ASGPR, CI-M6PR…)" },
-      { "label": "Lysosome", "role": "the recycling compartment where the target is broken down" }
+      { "label": "Carrier", "role": "the antibody (or peptide) that recognizes the tumor target, e.g. HER2" },
+      { "label": "Branched linker", "role": "the attachment that can hold two payloads, stable in blood and cleaved in the tumor" },
+      { "label": "Two payloads", "role": "often a topoisomerase 1 inhibitor paired with an ATR inhibitor or the auristatin MMAE" }
     ],
     "how": [
-      { "n": "1", "h": "Bridging", "t": "The molecule links the target protein to a surface receptor, forming a three-part complex." },
-      { "n": "2", "h": "Internalization", "t": "The cell swallows the complex by endocytosis; acidity in the endosomes makes the target separate from the receptor." },
-      { "n": "3", "h": "Destruction and recycling", "t": "The target goes on to the lysosome to be degraded while the receptor returns to the membrane, ready to be reused." }
+      { "n": "1", "h": "Targeting", "t": "The conjugate circulates without releasing its payloads and binds to cells expressing the target antigen." },
+      { "n": "2", "h": "Simultaneous release", "t": "Once internalized, or cleaved by an enzyme in the tumor microenvironment such as FAP, it releases both molecules in the same place at the same time." },
+      { "n": "3", "h": "One-two punch", "t": "The first payload breaks DNA; the second blocks its repair (ATR) or hits another mechanism, cutting off cells that resist a single payload." }
     ],
-    "why": "A large share of disease-linked proteins (autoantibodies, cytokines, membrane receptors) live outside the cell, out of reach of PROTACs and molecular glues. These degraders promise to selectively remove a single pathogenic antibody where FcRn blockers lower all IgG: the first successful IPO (Lycia, $318M in October) and GlycoEra's entry into the clinic move the modality from concept to proof in humans, with 2027 as the year of first data.",
+    "why": "Topoisomerase 1 inhibitor ADCs (Enhertu, sac-TMT) dominate oncology, but resistance to their single payload is emerging: dual payloads are the most watched answer, promising a synergistic combination in one molecule instead of two treatments stacking their toxicities. Eli Lilly's buyout of CrossBridge Bio (up to $300M in April 2026) validated the thesis; the test in the coming months is to show in humans that the second payload adds more efficacy than toxicity.",
     "startups": [
-      { "name": "GlycoEra", "use": "Glycoengineering platform; GE8820, an IgG4-selective degrader, in phase 1a since November 2026; $130M Series B led by Novo Holdings in 2025", "place": "Wädenswil, Switzerland" },
-      { "name": "Lycia Therapeutics", "use": "LYTACs (lysosome-targeting chimeras); anti-IgE LCA-0061 in phase 1 in food allergy, $318M Nasdaq IPO in October 2026", "place": "United States" },
-      { "name": "Avilar Therapeutics", "use": "ATACs, which carry circulating proteins into the liver via the ASGPR receptor; lead program against sFlt1 in preeclampsia, new CEO Leslie Meltzer in October 2026", "place": "United States" }
+      { "name": "Callio Therapeutics", "use": "Multi-payload ADCs based on Hummingbird Bioscience technology; anti-HER2 CLIO-8221 (topoisomerase 1 inhibitor + ATR inhibitor), first patient dosed in Phase 1 in March 2026; $187M Series A led by Frazier Life Sciences", "place": "Seattle / Singapore" },
+      { "name": "Avacta Therapeutics", "use": "AVA6207, a FAP-activated pre|CISION peptide conjugate carrying exatecan + berzosertib; entering IND-enabling studies in Q4 2026", "place": "London" },
+      { "name": "Debiopharm", "use": "MultiLINK linker suite and MLINK Duo technology for dual-payload ADCs (MMAE + exatecan), in preclinical proof of concept on mono- and bispecific antibodies", "place": "Lausanne, Switzerland" }
     ],
     "sources": [
-      { "publisher": "Theranostics", "title": "Emerging protein degradation strategies: expanding the scope to extracellular and membrane proteins", "url": "https://www.thno.org/v11p8337.htm" },
-      { "publisher": "GlycoEra", "title": "GlycoEra Initiates Phase 1a Trial of GE8820, the First IgG4-Selective Degrader to Enter the Clinic", "url": "https://www.glycoera.com/wp-content/uploads/2026/11/FINALGlycoEra-Phase-1a-Trial-Initiation-PR_11.16.26.pdf" },
-      { "publisher": "BioPharma Dive", "title": "Protein degrader specialist Lycia prices $318M IPO", "url": "https://www.biopharmadive.com/news/lycia-therapeutics-targeted-protein-degraders-ipo-pricing/833624/" },
-      { "publisher": "BioSpace", "title": "Avilar Therapeutics Launches With $60 Million Seed Financing to Pioneer Extracellular Protein Degradation", "url": "https://www.biospace.com/avilar-therapeutics-launches-with-60-million-seed-financing-to-pioneer-extracellular-protein-degradation" }
+      { "publisher": "Debiopharm", "title": "Enhancing therapeutic efficacy and overcoming resistance with a novel dual-payload antibody-drug conjugate technology", "url": "https://www.debiopharm.com/?p=17933" },
+      { "publisher": "BioPharma Dive", "title": "Biotech startup pulls in $187M to make 'multi-payload' ADCs", "url": "https://www.biopharmadive.com/news/callio-adc-cancer-biotech-startup-series-a/741370/" },
+      { "publisher": "BioSpace", "title": "AVA6207 Overcomes Topoisomerase I Inhibitor Resistance In Vitro and In Vivo with Robust and Tumor-Selective Release of Dual Exatecan and ATR Inhibitor Payloads", "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads" },
+      { "publisher": "BioPharma Dive", "title": "Lilly boosts ADC portfolio with CrossBridge Bio deal", "url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/" }
     ]
   }
 }

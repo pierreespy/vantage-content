@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-21",
   "words": [
     {
+      "term": "Dual-Payload ADC",
+      "full": "Dual-Payload Antibody-Drug Conjugate",
+      "fr": "Dual-payload antibody-drug conjugate",
+      "field": "Precision oncology",
+      "definition": "A \"guided missile\" antibody that carries not one but two different toxic molecules, released together inside the tumor to strike through two mechanisms at once and stop the cancer cell from adapting.",
+      "parts": [
+        {
+          "label": "Carrier",
+          "role": "the antibody (or peptide) that recognizes the tumor target, e.g. HER2"
+        },
+        {
+          "label": "Branched linker",
+          "role": "the attachment that can hold two payloads, stable in blood and cleaved in the tumor"
+        },
+        {
+          "label": "Two payloads",
+          "role": "often a topoisomerase 1 inhibitor paired with an ATR inhibitor or the auristatin MMAE"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Targeting",
+          "t": "The conjugate circulates without releasing its payloads and binds to cells expressing the target antigen."
+        },
+        {
+          "n": "2",
+          "h": "Simultaneous release",
+          "t": "Once internalized, or cleaved by an enzyme in the tumor microenvironment such as FAP, it releases both molecules in the same place at the same time."
+        },
+        {
+          "n": "3",
+          "h": "One-two punch",
+          "t": "The first payload breaks DNA; the second blocks its repair (ATR) or hits another mechanism, cutting off cells that resist a single payload."
+        }
+      ],
+      "why": "Topoisomerase 1 inhibitor ADCs (Enhertu, sac-TMT) dominate oncology, but resistance to their single payload is emerging: dual payloads are the most watched answer, promising a synergistic combination in one molecule instead of two treatments stacking their toxicities. Eli Lilly's buyout of CrossBridge Bio (up to $300M in April 2026) validated the thesis; the test in the coming months is to show in humans that the second payload adds more efficacy than toxicity.",
+      "startups": [
+        {
+          "name": "Callio Therapeutics",
+          "use": "Multi-payload ADCs based on Hummingbird Bioscience technology; anti-HER2 CLIO-8221 (topoisomerase 1 inhibitor + ATR inhibitor), first patient dosed in Phase 1 in March 2026; $187M Series A led by Frazier Life Sciences",
+          "place": "Seattle / Singapore"
+        },
+        {
+          "name": "Avacta Therapeutics",
+          "use": "AVA6207, a FAP-activated pre|CISION peptide conjugate carrying exatecan + berzosertib; entering IND-enabling studies in Q4 2026",
+          "place": "London"
+        },
+        {
+          "name": "Debiopharm",
+          "use": "MultiLINK linker suite and MLINK Duo technology for dual-payload ADCs (MMAE + exatecan), in preclinical proof of concept on mono- and bispecific antibodies",
+          "place": "Lausanne, Switzerland"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Debiopharm",
+          "title": "Enhancing therapeutic efficacy and overcoming resistance with a novel dual-payload antibody-drug conjugate technology",
+          "url": "https://www.debiopharm.com/?p=17933"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Biotech startup pulls in $187M to make 'multi-payload' ADCs",
+          "url": "https://www.biopharmadive.com/news/callio-adc-cancer-biotech-startup-series-a/741370/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "AVA6207 Overcomes Topoisomerase I Inhibitor Resistance In Vitro and In Vivo with Robust and Tumor-Selective Release of Dual Exatecan and ATR Inhibitor Payloads",
+          "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads"
+        },
+        {
+          "publisher": "BioPharma Dive",
+          "title": "Lilly boosts ADC portfolio with CrossBridge Bio deal",
+          "url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "Nov 21, 2026"
+    },
+    {
       "term": "ULF MRI",
       "full": "Ultra-Low-Field MRI",
       "fr": "Ultra-low-field MRI",
