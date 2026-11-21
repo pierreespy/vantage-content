@@ -1,107 +1,209 @@
 {
-  "dateLong": "Nov 20, 2026",
+  "dateLong": "Nov 21, 2026",
   "ticker": [
-    { "company": "MAN & SCIENCE", "amount": "10 patients", "kind": "tech" },
-    { "company": "IMPLANTICA", "amount": "1st US patients", "kind": "tech" },
-    { "company": "HAEMONETICS", "amount": "CE", "kind": "reg" },
-    { "company": "SIEMENS HEALTHINEERS", "amount": "FDA", "kind": "reg" },
-    { "company": "EXALT", "amount": "Winner", "kind": "new" },
-    { "company": "PRIMEDEA", "amount": "Pre-seed", "kind": "lev" }
+    {
+      "company": "MULTIWAVE",
+      "amount": "FDA",
+      "kind": "reg"
+    },
+    {
+      "company": "MMI",
+      "amount": "1st cases",
+      "kind": "tech"
+    },
+    {
+      "company": "INTELLIPROVE",
+      "amount": "€2.7M",
+      "kind": "lev"
+    },
+    {
+      "company": "CLARITY SENSORS",
+      "amount": "€2.2M",
+      "kind": "lev"
+    },
+    {
+      "company": "ZIMMER BIOMET",
+      "amount": "510(k) filed",
+      "kind": "reg"
+    },
+    {
+      "company": "J&J MEDTECH",
+      "amount": "1st install",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "First-in-human · Neurotech",
-    "title": "Man & Science implants all 10 patients in ONFIELD, the first-in-human study of its miniaturised occipital nerve stimulator",
-    "deck": "The Liège-based medtech has implanted and activated all ten planned patients in ONFIELD, the first-in-human study of its occipital nerve stimulation (ONS) implant — no implanted battery, no tunnelled leads — for chronic cluster headache: early signs of fewer attacks and no serious device-related adverse events. Next step: preparing the pivotal phase for a programme already holding FDA Breakthrough Device designation — a Walloon startup (Noshaq, Wallonie Entreprendre) to track ahead of its next round.",
-    "company": "Man & Science",
-    "sector": "Neurotech",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://lifestyle.middletownlifemagazine.com/story/846229/man-science-completes-implantation-in-onfield-first-in-human-study-of-miniaturised-ons-system-for-chronic-cluster-headache/"
+    "kicker": "FDA 510(k) · Imaging",
+    "title": "Multiwave wins FDA clearance for its AI-powered ultra-low-field portable brain MRI",
+    "deck": "The Geneva medtech has secured FDA 510(k) clearance for MGNTQv0, a brain MRI weighing just over 250 kg that plugs into a wall outlet, needs no cooling or magnetic shielding, and targets a cost 5-10x lower than conventional MRI; a US commercial launch on a subscription model is planned for 2027 from its Lowell, Massachusetts subsidiary. The company says it is the first portable MRI from Europe to clear the FDA — a young startup (CHF 3.6M raised in 2025) now preparing its CE mark and, logically, a larger round.",
+    "company": "Multiwave",
+    "stage": "Seed",
+    "sector": "Imaging",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
+    "strength": 5,
+    "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
   },
   "milestone": {
-    "company": "Implantica",
-    "milestone": "1st US patients",
-    "title": "Implantica performs its first US RefluxStop implantations following PMA approval",
-    "summary": "Three months after FDA PMA approval (Aug 20, 2026), the first US procedures with RefluxStop — an anti-reflux implant that restores anatomy without compressing the oesophagus — were performed in early November by Dr John Lipham at USC. Q3 sales jumped 105% (€748K), with €38.3M in cash.",
-    "why": "A European medtech clearing PMA and then treating its first US patient shows the FDA's most demanding pathway is still reachable from Europe; the US adoption curve will be the real valuation test for gastrointestinal implants.",
-    "place": "Vaduz",
-    "sector": "MedTech",
+    "company": "MMI (Medical Microinstruments)",
+    "milestone": "1st clinical cases",
+    "title": "MMI adds monopolar energy to its Symani microsurgery robot and performs first cases in Europe",
+    "summary": "The NanoWrist Monopolar Scissors, CE-marked in October, add electrical dissection and bleeding control to the Symani robot; first uses at Bellvitge Hospital (Spain, two lymphovenous bypasses in a breast cancer patient with lymphedema) and RWTH Aachen University (head and neck tumor resection). The instrument is still 510(k) pending in the US.",
+    "why": "Robotic microsurgery is moving from suturing alone to a full platform that can dissect and coagulate: that broadens indications (reconstruction, lymphedema, ENT) and makes the robot more profitable for hospitals — a textbook case for a medtech born near Pisa.",
+    "place": "Pisa",
+    "sector": "Surgical robotics",
     "signalType": "clinical_update",
-    "url": "https://www.prnewswire.co.uk/news-releases/implantica-publishes-interim-report-january--september-2026-q3-302945111.html"
+    "url": "https://www.globenewswire.com/news-release/2026/11/20/3407449/0/en/mmi-adds-energy-capabilities-to-the-symani-surgical-system-with-the-introduction-of-nanowrist-monopolar-scissors.html"
+  },
+  "deal": {
+    "company": "IntelliProve",
+    "amount": "€2.7M",
+    "round": "Seed",
+    "thesis": "Led by Miles Ahead with Wit-Gele Kruis (a home nursing network that is also a partner), the imec.istart Fund and business angels, the round funds regulatory work (from CE Class I to MDR Class IIa), R&D and commercial growth in equal parts. Thesis: a purely software sensor — the camera — that measures blood pressure, HRV and stress in 30 seconds becomes a reusable building block, from telecare apps to humanoid robots.",
+    "sector": "Diagnostics",
+    "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
   },
   "brefsEurope": [
-    { "company": "Haemonetics", "place": "Hamburg / Milan / London", "sector": "Cardio", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "Haemonetics wins CE mark (MDR) for VASCADE MVP XL femoral venous closure",
-      "summary": "The venous vascular closure system, designed for 10–12F sheaths (PFA, cryoablation, LAA closure), is certified under MDR; first European procedures took place in October in Hamburg, Milan and London. Comparable: the PFA boom is lifting the whole vascular-access accessory ecosystem.",
-      "url": "https://www.investing.com/news/company-news/haemonetics-receives-ce-mark-for-vascular-closure-system-93CH-5035515" },
-    { "company": "Siemens Healthineers", "place": "Erlangen", "sector": "Imaging", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Siemens Healthineers secures FDA 510(k) for syngo.CT Coronary Cockpit, an AI coronary plaque analysis tool",
-      "summary": "The software quantifies and characterises coronary plaque from CCTA scans using AI segmentation, to stratify risk and help plan PCI. Market signal: the majors are moving into plaque analysis, turf of cardiac AI startups.",
-      "url": "https://www.diagnosticimaging.com/view/fda-ccta-based-ai-software-facilitating-management-coronary-artery-disease" },
-    { "company": "Abbott", "place": "Toulouse", "sector": "Cardio", "pillar": "innovation",
-      "signalType": "clinical_update", "strength": 3,
-      "title": "Abbott launches VOYAGER CE trial of its software-guided balloon-expandable Encantor TAVI",
-      "summary": "The single-arm pre-market study will enrol up to 300 patients in Europe and Australia; Dr Didier Tchétché (Clinique Pasteur, Toulouse) is co-principal investigator. Abbott is taking on the Edwards-dominated balloon-expandable TAVI segment, with Europe as its first gateway.",
-      "url": "https://www.prnewswire.com/news-releases/abbott-initiates-voyager-clinical-trial-for-investigational-encantor-software-guided-balloon-expandable-tavi-system-to-treat-aortic-stenosis-302944937.html" },
-    { "company": "Exalt", "place": "Vienna", "sector": "Diagnostics", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 2,
-      "title": "MedUni Vienna spin-off Exalt wins the 15th MEDICA Start-up Competition",
-      "summary": "Its functional oncology platform tests a patient's tumour cells against more than 100 cancer drugs and returns a ranked treatment profile in ~72 hours (haematological malignancies). Also on the podium: Paracly (Cologne), medical-device cybersecurity, 2nd place and public vote.",
-      "url": "https://www.hospimedica.com/medica-2026/articles/294815004/winners-announced-of-the-15th-medica-start-up-competition.html" },
-    { "company": ".lumen", "place": "Cluj-Napoca", "sector": "MedTech", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 2,
-      "title": "Romania's .lumen wins the 18th Healthcare Innovation World Cup with its navigation glasses for the blind",
-      "summary": "The AI glasses detect obstacles and walkable paths and guide the user through haptic feedback; .lumen also took the public vote. Belgium's Allow Motion (Seraing, 3D-printed NeoHand myoelectric hand) came third.",
-      "url": "https://www.hospimedica.com/medica-2026/articles/294814974/winners-announced-of-the-18th-healthcare-innovation-world-cup-at-medica-2026.html" },
-    { "company": "Primedea", "place": "Zurich", "sector": "Imaging", "pillar": "financement",
-      "signalType": "funding_round", "strength": 2, "stage": "Pre-seed",
-      "title": "Primedea raises a pre-seed round led by Hansi Hansmann for its teleradiology network",
-      "summary": "The Zurich startup runs a network of radiologists for remote reporting of imaging studies; the round (undisclosed amount) is led by Austrian business angel Hansi Hansmann. A response to Europe's radiologist shortage.",
-      "url": "https://startupticker.ch/en/news/frisches-kapital-fuer-teleradiologie-netzwerk-primedea" }
+    {
+      "company": "IntelliProve",
+      "place": "Ghent",
+      "sector": "Diagnostics",
+      "pillar": "financement",
+      "stage": "Seed",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "IntelliProve raises €2.7M seed to pursue MDR Class IIa for its face-scan health check",
+      "summary": "The Belgian startup, already CE-marked Class I for its signal acquisition engine, measures biomarkers (blood pressure, heart rate variability, stress) from a 30-second face scan; the round was led by Miles Ahead, with Wit-Gele Kruis and the imec.istart Fund.",
+      "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+    },
+    {
+      "company": "Clarity Sensors",
+      "place": "Cambridge",
+      "sector": "Imaging",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Clarity Sensors wins €2.2M NIHR award for low-cost photon-counting CT detectors",
+      "summary": "A 2022 University of Cambridge spin-out, Clarity Sensors leads the three-year PICASO project with the STFC Technology Department to make photon-counting CT more affordable using perovskite semiconductors; the project will also assess its clinical and economic impact for the NHS.",
+      "url": "https://www.eu-startups.com/2026/11/uk-startup-clarity-sensors-receives-e2-2-million-nihr-award-to-make-advanced-medical-imaging-more-accessible"
+    }
   ],
   "brefsIntl": [
-    { "company": "Biostream", "place": "Haifa", "sector": "Diagnostics", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 4,
-      "title": "Biostream receives Breakthrough Device Designation for a urine test for normal pressure hydrocephalus",
-      "summary": "Founded in 2025, the startup measures a urinary protein panel and outputs a probability score to tell idiopathic normal pressure hydrocephalus apart from Alzheimer's in people over 60 (designation granted Nov 12). A non-invasive diagnostic for a potentially reversible dementia.",
-      "url": "https://finance.yahoo.com/healthcare/articles/biostream-receives-fda-breakthrough-device-130000226.html" },
-    { "company": "BURL Concepts", "place": "San Diego", "sector": "Imaging", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "BURL Concepts wins FDA 510(k) for FOQUS, an automated transcranial ultrasound for PFO screening",
-      "summary": "The low-frequency ultrasound headset scans the brain in ~40 seconds to detect right-to-left shunts (patent foramen ovale) and can be run by a single nurse. Already used in the Netherlands and the UK under CE mark; US launch in early 2027.",
-      "url": "https://www.prnewswire.com/news-releases/burl-concepts-announces-fda-510k-clearance-for-foqus-ultrasound-system-for-rapid-automated-patent-foramen-ovale-pfo-screening-302944716.html" }
+    {
+      "company": "Zimmer Biomet",
+      "place": "Warsaw (Indiana)",
+      "sector": "Surgical robotics",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Zimmer Biomet files a 510(k) for the autonomous version of its Monogram orthopedic robot",
+      "summary": "A hands-free, foot-pedal-activated version compatible with CT imaging, for total knee replacement; Zimmer is targeting clearance in 2027, a year ahead of its original plan. Comparable: robotic autonomy is entering the standard regulatory pathway.",
+      "url": "https://www.medtechdive.com/news/zimmer-submits-monogram-robot-to-fda/875347/"
+    },
+    {
+      "company": "J&J MedTech",
+      "place": "Houston",
+      "sector": "Surgical robotics",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "J&J installs its first commercial Ottava robot at Memorial Hermann in Houston",
+      "summary": "Granted De Novo authorization in July for ten upper-abdominal procedures, Ottava builds its four arms into the operating table; first installation through the early access program. A market signal for European robotics players (CMR, Distalmotion) facing Hugo and da Vinci.",
+      "url": "https://www.medtechdive.com/news/jj-to-install-first-ottava-robot-in-us-hospital/875343/"
+    },
+    {
+      "company": "Exo",
+      "place": "Santa Clara",
+      "sector": "Imaging",
+      "pillar": "financement",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Exo receives $11.6M from the Gates Foundation to expand access to portable ultrasound",
+      "summary": "The grant targets low- and middle-income countries, where nearly two-thirds of people lack reliable access to ultrasound according to the World Bank; it confirms funders' appetite for point-of-care imaging, the same segment portable MRI is chasing.",
+      "url": "https://www.medicaldevice-network.com/news/exo-lands-11-m-gates-foundation-grant-to-expand-ultrasound-access/"
+    }
   ],
   "word": {
-    "term": "PNS",
-    "full": "Peripheral Nerve Stimulation",
-    "fr": "Peripheral nerve stimulation",
-    "field": "Neuromodulation",
-    "definition": "A therapy that places a small electrode next to a peripheral nerve (occipital, tibial, back or cranial nerves) and sends it weak electrical pulses to modulate pain or a function, without drugs.",
+    "term": "ULF MRI",
+    "full": "Ultra-Low-Field MRI",
+    "fr": "Ultra-low-field MRI",
+    "field": "Medical imaging",
+    "definition": "An MRI that runs on a magnetic field tens of times weaker than a hospital scanner (a few tens of millitesla instead of 1.5 to 3 tesla), making it light and frugal enough to be wheeled to the patient's bedside.",
     "parts": [
-      { "label": "Electrode", "role": "the contact right next to the target nerve" },
-      { "label": "Generator / antenna", "role": "the power source, increasingly external (no implanted battery)" },
-      { "label": "Programming", "role": "tuning the pulses to each patient" }
+      {
+        "label": "Low-field permanent magnet",
+        "role": "the magnetic field, with no helium or cooling"
+      },
+      {
+        "label": "RF coils and electronics",
+        "role": "capturing a very weak signal"
+      },
+      {
+        "label": "AI reconstruction",
+        "role": "the denoising that makes the image readable"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Targeting", "t": "The physician identifies the responsible nerve (e.g. the occipital nerve in cluster headache) and places the electrode through an incision or a minimally invasive injection." },
-      { "n": "2", "h": "Powering", "t": "An implanted generator or, in recent devices, an external unit worn on the skin powers the implant through the tissue." },
-      { "n": "3", "h": "Modulation", "t": "The electrical pulses alter nerve signal transmission, reducing the frequency or intensity of pain attacks." }
+      {
+        "n": "1",
+        "h": "Magnetization",
+        "t": "A compact magnet aligns the protons in the body's water; at low field, the resonance frequency drops and the collected signal is much weaker."
+      },
+      {
+        "n": "2",
+        "h": "Acquisition",
+        "t": "Radiofrequency coils excite and then listen to those protons; the machine plugs into a standard outlet and tolerates metal implants better."
+      },
+      {
+        "n": "3",
+        "h": "Reconstruction",
+        "t": "AI and advanced reconstruction algorithms offset the low signal-to-noise ratio to produce a clinically usable brain image."
+      }
     ],
-    "why": "PNS is shrinking: with no implanted battery or tunnelled leads, surgery gets lighter and devices easier to roll out. The majors are consolidating the segment (Medtronic bought SPR Therapeutics, Boston Scientific bought Nalu), creating clear exit paths for European startups still in the clinic for headache and migraine.",
+    "why": "Conventional MRI costs millions and needs a shielded room: ultra-low field promises bedside MRI (stroke, ICU, emerging markets) on a subscription model. Multiwave's FDA clearance, after Hyperfine's Swoop, shows the regulatory path is open; the VC question is now clinical proof versus CT and the business model.",
     "startups": [
-      { "name": "Man & Science", "use": "Miniaturised occipital stimulation implant for chronic cluster headache; ONFIELD study (10 patients) fully implanted, FDA Breakthrough designation", "place": "Liège, Belgium" },
-      { "name": "Salvia BioElectronics", "use": "MySalvia system (two ultra-thin implants under the scalp) for migraine; first US patient in the randomised RECLAIM-II trial in October 2026", "place": "Eindhoven, Netherlands" },
-      { "name": "Neuronoff", "use": "Injectrode, a minimally invasive injectable electrode for PNS; first patient in a DoD-funded trial (neurogenic bladder), 510(k) submission targeted in 2026", "place": "United States" },
-      { "name": "Curonix", "use": "Freedom PNS system with no implanted battery (510(k) K233162), extended to chronic craniofacial pain in 2026", "place": "United States" }
+      {
+        "name": "Multiwave",
+        "use": "MGNTQv0 AI-powered ultra-low-field portable brain MRI; FDA 510(k) in November 2026, US launch planned for 2027",
+        "place": "Geneva, Switzerland"
+      },
+      {
+        "name": "Chipiron",
+        "use": "Portable MRI with quantum (SQUID) detection; $17M Series A led by Blast to build its first hospital prototypes",
+        "place": "Paris, France"
+      },
+      {
+        "name": "Hyperfine",
+        "use": "Swoop, the first FDA-cleared portable low-field brain MRI; next generation launched in Europe in 2026 (CE/UKCA)",
+        "place": "Guilford, USA"
+      },
+      {
+        "name": "Promaxo",
+        "use": "Office-based low-field MRI (58–74 mT) to guide prostate biopsies, 510(k)-cleared",
+        "place": "Oakland, USA"
+      }
     ],
     "sources": [
-      { "publisher": "PMC (NCBI)", "title": "Occipital nerve stimulation in medically intractable chronic cluster headache", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11235842/" },
-      { "publisher": "Innovation Origins / IO+", "title": "Salvia launches US trial of implantable migraine treatment", "url": "https://ioplus.nl/en/posts/salvia-launches-us-trial-of-implantable-migraine-treatment" },
-      { "publisher": "U.S. FDA", "title": "510(k) K233162 — Freedom Peripheral Nerve Stimulator System", "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf23/K233162.pdf" },
-      { "publisher": "BioSpace", "title": "Neuronoff implants first patient in DoD-funded trial of Injectrode for neurogenic bladder in spinal cord injury", "url": "https://www.biospace.com/press-releases/neuronoff-implants-first-patient-in-dod-funded-trial-of-injectrode-for-neurogenic-bladder-in-spinal-cord-injury" }
+      {
+        "publisher": "startupticker.ch",
+        "title": "Milestone FDA Clearance paves way for Multiwave U.S. Launch",
+        "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
+      },
+      {
+        "publisher": "PMC (NIH)",
+        "title": "Ultra-low-field MRI: a David versus Goliath challenge in modern imaging",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12669372/"
+      },
+      {
+        "publisher": "Business Wire",
+        "title": "Hyperfine Announces European Launch of Next Generation Swoop System",
+        "url": "https://secure.businesswire.com/news/home/20260701134409/en/Hyperfine-Announces-European-Launch-of-Next-Generation-Swoop-System"
+      },
+      {
+        "publisher": "MobiHealthNews",
+        "title": "Chipiron raises $17M for miniature MRI prototype",
+        "url": "https://www.mobihealthnews.com/news/chipiron-raises-17m-miniature-mri-prototype"
+      }
     ]
   }
 }

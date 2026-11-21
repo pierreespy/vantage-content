@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "words": [
+    {
+      "term": "ULF MRI",
+      "full": "Ultra-Low-Field MRI",
+      "fr": "Ultra-low-field MRI",
+      "field": "Medical imaging",
+      "definition": "An MRI that runs on a magnetic field tens of times weaker than a hospital scanner (a few tens of millitesla instead of 1.5 to 3 tesla), making it light and frugal enough to be wheeled to the patient's bedside.",
+      "parts": [
+        {
+          "label": "Low-field permanent magnet",
+          "role": "the magnetic field, with no helium or cooling"
+        },
+        {
+          "label": "RF coils and electronics",
+          "role": "capturing a very weak signal"
+        },
+        {
+          "label": "AI reconstruction",
+          "role": "the denoising that makes the image readable"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Magnetization",
+          "t": "A compact magnet aligns the protons in the body's water; at low field, the resonance frequency drops and the collected signal is much weaker."
+        },
+        {
+          "n": "2",
+          "h": "Acquisition",
+          "t": "Radiofrequency coils excite and then listen to those protons; the machine plugs into a standard outlet and tolerates metal implants better."
+        },
+        {
+          "n": "3",
+          "h": "Reconstruction",
+          "t": "AI and advanced reconstruction algorithms offset the low signal-to-noise ratio to produce a clinically usable brain image."
+        }
+      ],
+      "why": "Conventional MRI costs millions and needs a shielded room: ultra-low field promises bedside MRI (stroke, ICU, emerging markets) on a subscription model. Multiwave's FDA clearance, after Hyperfine's Swoop, shows the regulatory path is open; the VC question is now clinical proof versus CT and the business model.",
+      "startups": [
+        {
+          "name": "Multiwave",
+          "use": "MGNTQv0 AI-powered ultra-low-field portable brain MRI; FDA 510(k) in November 2026, US launch planned for 2027",
+          "place": "Geneva, Switzerland"
+        },
+        {
+          "name": "Chipiron",
+          "use": "Portable MRI with quantum (SQUID) detection; $17M Series A led by Blast to build its first hospital prototypes",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Hyperfine",
+          "use": "Swoop, the first FDA-cleared portable low-field brain MRI; next generation launched in Europe in 2026 (CE/UKCA)",
+          "place": "Guilford, USA"
+        },
+        {
+          "name": "Promaxo",
+          "use": "Office-based low-field MRI (58–74 mT) to guide prostate biopsies, 510(k)-cleared",
+          "place": "Oakland, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "startupticker.ch",
+          "title": "Milestone FDA Clearance paves way for Multiwave U.S. Launch",
+          "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
+        },
+        {
+          "publisher": "PMC (NIH)",
+          "title": "Ultra-low-field MRI: a David versus Goliath challenge in modern imaging",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12669372/"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "Hyperfine Announces European Launch of Next Generation Swoop System",
+          "url": "https://secure.businesswire.com/news/home/20260701134409/en/Hyperfine-Announces-European-Launch-of-Next-Generation-Swoop-System"
+        },
+        {
+          "publisher": "MobiHealthNews",
+          "title": "Chipiron raises $17M for miniature MRI prototype",
+          "url": "https://www.mobihealthnews.com/news/chipiron-raises-17m-miniature-mri-prototype"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "Nov 21, 2026"
+    },
     {
       "term": "Extracellular Protein Degrader",
       "full": "Extracellular Protein Degrader",

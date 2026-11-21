@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-20",
+  "generatedAt": "2026-11-21",
   "words": [
+    {
+      "term": "ULF MRI",
+      "full": "Ultra-Low-Field MRI (IRM ultra-bas champ)",
+      "fr": "IRM ultra-bas champ",
+      "field": "Imagerie médicale",
+      "definition": "Une IRM qui fonctionne avec un champ magnétique des dizaines de fois plus faible qu'une IRM hospitalière (quelques dizaines de millitesla au lieu de 1,5 à 3 tesla), ce qui la rend assez légère et sobre pour être déplacée jusqu'au lit du patient.",
+      "parts": [
+        {
+          "label": "Aimant permanent bas champ",
+          "role": "le champ magnétique, sans hélium ni refroidissement"
+        },
+        {
+          "label": "Antennes et électronique RF",
+          "role": "la capture d'un signal très faible"
+        },
+        {
+          "label": "Reconstruction par IA",
+          "role": "le débruitage qui rend l'image lisible"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Aimantation",
+          "t": "Un aimant compact aligne les protons de l'eau du corps ; à bas champ, la fréquence de résonance chute et le signal recueilli est beaucoup plus faible."
+        },
+        {
+          "n": "2",
+          "h": "Acquisition",
+          "t": "Des antennes radiofréquence excitent puis écoutent ces protons ; la machine se branche sur une prise standard et tolère mieux les implants métalliques."
+        },
+        {
+          "n": "3",
+          "h": "Reconstruction",
+          "t": "Des algorithmes d'IA et de reconstruction avancée compensent le faible rapport signal/bruit pour produire une image cérébrale exploitable cliniquement."
+        }
+      ],
+      "why": "L'IRM classique coûte des millions et exige une salle blindée : l'ultra-bas champ promet l'IRM au lit du patient (AVC, réanimation, pays émergents) en abonnement. La clearance FDA de Multiwave, après le Swoop de Hyperfine, montre que la voie réglementaire est ouverte ; l'enjeu VC est désormais la preuve clinique face au scanner et le modèle économique.",
+      "startups": [
+        {
+          "name": "Multiwave",
+          "use": "IRM cérébrale portable ultra-bas champ MGNTQv0, assistée par IA ; 510(k) FDA en novembre 2026, lancement US prévu en 2027",
+          "place": "Genève, Suisse"
+        },
+        {
+          "name": "Chipiron",
+          "use": "IRM portable à détection quantique (SQUID) ; Series A de 17 M$ menée par Blast pour ses premiers prototypes hospitaliers",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Hyperfine",
+          "use": "Swoop, première IRM cérébrale portable bas champ autorisée par la FDA ; nouvelle génération lancée en Europe en 2026 (CE/UKCA)",
+          "place": "Guilford, États-Unis"
+        },
+        {
+          "name": "Promaxo",
+          "use": "IRM bas champ de cabinet (58–74 mT) pour guider les biopsies de la prostate, clearance 510(k)",
+          "place": "Oakland, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "startupticker.ch",
+          "title": "Milestone FDA Clearance paves way for Multiwave U.S. Launch",
+          "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
+        },
+        {
+          "publisher": "PMC (NIH)",
+          "title": "Ultra-low-field MRI: a David versus Goliath challenge in modern imaging",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12669372/"
+        },
+        {
+          "publisher": "Business Wire",
+          "title": "Hyperfine Announces European Launch of Next Generation Swoop System",
+          "url": "https://secure.businesswire.com/news/home/20260701134409/en/Hyperfine-Announces-European-Launch-of-Next-Generation-Swoop-System"
+        },
+        {
+          "publisher": "MobiHealthNews",
+          "title": "Chipiron raises $17M for miniature MRI prototype",
+          "url": "https://www.mobihealthnews.com/news/chipiron-raises-17m-miniature-mri-prototype"
+        }
+      ],
+      "date": "2026-11-21",
+      "dateLong": "21 nov. 2026"
+    },
     {
       "term": "Extracellular Protein Degrader",
       "full": "Extracellular Protein Degrader (dégradeur de protéines extracellulaires)",
