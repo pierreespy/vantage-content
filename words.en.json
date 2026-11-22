@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-22",
   "words": [
     {
+      "term": "No-Show Prediction",
+      "full": "No-Show Prediction",
+      "fr": "Predicting missed appointments",
+      "field": "Access to care and capacity management",
+      "definition": "AI models that estimate, for each appointment, the probability that the patient will not turn up or will cancel at the last minute, so the patient can be reminded or rebooked, or the slot reassigned, before it is lost.",
+      "parts": [
+        {
+          "label": "Data",
+          "role": "attendance history, appointment type and non-clinical factors"
+        },
+        {
+          "label": "Risk score",
+          "role": "the probability of a no-show or late cancellation, appointment by appointment"
+        },
+        {
+          "label": "Action",
+          "role": "targeted reminders, back-up bookings or slot reassignment"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Training",
+          "t": "The model learns from the organisation's attended, missed and last-minute cancelled appointments."
+        },
+        {
+          "n": "2",
+          "h": "Scoring",
+          "t": "Each upcoming appointment gets a risk score, letting booking teams focus on the cases to watch."
+        },
+        {
+          "n": "3",
+          "h": "Intervention",
+          "t": "High-risk appointments trigger personalised reminders (SMS, WhatsApp, call) or slot reassignment, under the supervision of clinical teams."
+        }
+      ],
+      "why": "Missed appointments cost the NHS more than £2bn a year according to Deep Medical, which counts 8 million missed appointments and 4 million short-notice cancellations, and US providers $150bn a year according to Spryt. For a VC, it is one of the few AI use cases with an immediately measurable ROI in recovered slots, sold to operations leaders rather than clinicians, and a natural complement to conversational booking agents.",
+      "startups": [
+        {
+          "name": "Spryt",
+          "use": "AI receptionist Asa (SMS, WhatsApp, Messenger) that predicts no-shows; claims attendance gains of more than 160% in the NHS, 2026 National Startup Awards Grand Prix winner",
+          "place": "Monaghan, Ireland"
+        },
+        {
+          "name": "Deep Medical",
+          "use": "AI that flags the risk of non-attendance and short-notice cancellation, live at Mid and South Essex NHS FT where it halves DNAs after text reminders",
+          "place": "United Kingdom"
+        },
+        {
+          "name": "HealthAI",
+          "use": "AI scheduling agents that anticipate no-shows for MRI appointments at Ramón y Cajal hospital; winner of the 2026 Desafío e-Dea Salud",
+          "place": "Spain"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NHS Innovation Accelerator",
+          "title": "Deep Medical - AI-Driven Solutions to Reduce Missed Appointments and Enhance Healthcare Efficiency",
+          "url": "https://nhsaccelerator.com/innovation/deep-medical"
+        },
+        {
+          "publisher": "Silicon Republic",
+          "title": "Monaghan's Spryt wins Grand Prix at 2026 National Startup Awards",
+          "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards"
+        },
+        {
+          "publisher": "Capital-Riesgo.es",
+          "title": "HealthAI gana la 10.ª edición del Desafío e-Dea Salud",
+          "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/"
+        }
+      ],
+      "date": "2026-11-22",
+      "dateLong": "Nov 22, 2026"
+    },
+    {
       "term": "IND",
       "full": "Investigational New Drug application",
       "fr": "US filing to enter clinical trials",

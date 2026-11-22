@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-22",
   "words": [
     {
+      "term": "No-Show Prediction",
+      "full": "No-Show Prediction (prédiction des rendez-vous non honorés)",
+      "fr": "Prédiction des absences aux rendez-vous",
+      "field": "Accès aux soins et gestion des capacités",
+      "definition": "Des modèles d'IA qui estiment, pour chaque rendez-vous, la probabilité que le patient ne vienne pas ou annule au dernier moment, afin de le relancer, de reprogrammer ou de réattribuer le créneau avant qu'il ne soit perdu.",
+      "parts": [
+        {
+          "label": "Données",
+          "role": "l'historique de présence, le type de consultation et des facteurs non cliniques"
+        },
+        {
+          "label": "Score de risque",
+          "role": "la probabilité d'absence ou d'annulation tardive, rendez-vous par rendez-vous"
+        },
+        {
+          "label": "Action",
+          "role": "la relance ciblée, la réservation de secours ou la réattribution du créneau"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Apprentissage",
+          "t": "Le modèle s'entraîne sur les rendez-vous honorés, manqués et annulés à la dernière minute de l'établissement."
+        },
+        {
+          "n": "2",
+          "h": "Scoring",
+          "t": "Chaque rendez-vous à venir reçoit un score de risque, qui permet aux équipes de prise de rendez-vous de cibler les cas à surveiller."
+        },
+        {
+          "n": "3",
+          "h": "Intervention",
+          "t": "Les rendez-vous à risque déclenchent des relances personnalisées (SMS, WhatsApp, appel) ou la réaffectation du créneau, sous contrôle des équipes cliniques."
+        }
+      ],
+      "why": "Les rendez-vous manqués coûtent plus de 2 Md£ par an au NHS selon Deep Medical, qui recense 8 millions d'absences et 4 millions d'annulations tardives, et 150 Md$ par an aux prestataires américains selon Spryt. Pour un VC, c'est l'un des rares cas d'usage de l'IA au ROI immédiatement mesurable en créneaux récupérés, vendu aux directions des opérations plutôt qu'aux cliniciens, et qui se combine naturellement avec les agents conversationnels de prise de rendez-vous.",
+      "startups": [
+        {
+          "name": "Spryt",
+          "use": "Réceptionniste IA Asa (SMS, WhatsApp, Messenger) qui prédit les absences ; plus de 160 % d'assiduité en plus revendiqués dans le NHS, Grand Prix des National Startup Awards 2026",
+          "place": "Monaghan, Irlande"
+        },
+        {
+          "name": "Deep Medical",
+          "use": "IA qui identifie le risque d'absence et d'annulation tardive, en service à Mid and South Essex NHS FT où elle divise par deux les absences après relance par SMS",
+          "place": "Royaume-Uni"
+        },
+        {
+          "name": "HealthAI",
+          "use": "Agents d'IA de convocation qui anticipent les absences aux IRM de l'hôpital Ramón y Cajal ; lauréate du Desafío e-Dea Salud 2026",
+          "place": "Espagne"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "NHS Innovation Accelerator",
+          "title": "Deep Medical - AI-Driven Solutions to Reduce Missed Appointments and Enhance Healthcare Efficiency",
+          "url": "https://nhsaccelerator.com/innovation/deep-medical"
+        },
+        {
+          "publisher": "Silicon Republic",
+          "title": "Monaghan's Spryt wins Grand Prix at 2026 National Startup Awards",
+          "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards"
+        },
+        {
+          "publisher": "Capital-Riesgo.es",
+          "title": "HealthAI gana la 10.ª edición del Desafío e-Dea Salud",
+          "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/"
+        }
+      ],
+      "date": "2026-11-22",
+      "dateLong": "22 nov. 2026"
+    },
+    {
       "term": "IND",
       "full": "Investigational New Drug application (demande d'autorisation de médicament expérimental)",
       "fr": "Dossier d'entrée en essai clinique aux États-Unis",
