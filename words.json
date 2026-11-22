@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-22",
   "words": [
     {
+      "term": "IND",
+      "full": "Investigational New Drug application (demande d'autorisation de médicament expérimental)",
+      "fr": "Dossier d'entrée en essai clinique aux États-Unis",
+      "field": "Réglementaire",
+      "definition": "Le dossier qu'une biotech dépose auprès de la FDA pour avoir le droit de tester pour la première fois sa molécule chez l'humain aux États-Unis : sans lui, un médicament non approuvé ne peut même pas être expédié d'un État à l'autre vers les centres d'essai.",
+      "parts": [
+        {
+          "label": "Pharmacologie et toxicologie",
+          "role": "les données précliniques (animal, in vitro) qui montrent que la molécule est raisonnablement sûre pour un premier essai humain"
+        },
+        {
+          "label": "Fabrication (CMC)",
+          "role": "la composition, le fabricant, la stabilité et les contrôles qualité qui garantissent des lots constants"
+        },
+        {
+          "label": "Protocoles cliniques",
+          "role": "le plan de l'essai, les investigateurs, et les engagements de consentement éclairé et de revue par un comité d'éthique (IRB)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Études IND-enabling",
+          "t": "La biotech réalise les études réglementaires de toxicologie et de fabrication exigées avant toute administration à l'humain."
+        },
+        {
+          "n": "2",
+          "h": "Dépôt et 30 jours",
+          "t": "Après le dépôt, le promoteur doit attendre 30 jours calendaires : la FDA vérifie que les participants ne seront pas exposés à un risque déraisonnable."
+        },
+        {
+          "n": "3",
+          "h": "Feu vert",
+          "t": "Sans objection de la FDA, l'IND est « clearée » : la phase 1 peut démarrer et le dossier vit ensuite au rythme des amendements de l'essai."
+        }
+      ],
+      "why": "L'IND est le premier jalon réglementaire qui transforme un actif préclinique en société clinique : il conditionne le premier patient dosé, et donc la première vraie lecture de valeur, comme le rappelle la deuxième IND de l'alliance Evotec-BMS. Pour un VC, suivre les tours qui financent explicitement les « études IND-enabling » (Commit Biologics, par exemple) permet de repérer une biotech avant ses premières données humaines.",
+      "startups": [
+        {
+          "name": "Complement Therapeutics",
+          "use": "IND clearée par la FDA en octobre 2025 pour CTx001, thérapie génique AAV délivrant un mini-récepteur CR1 dans l'atrophie géographique ; premier patient dosé dans la phase I/II Opti-GAIN en mars 2026",
+          "place": "Munich, Allemagne"
+        },
+        {
+          "name": "Commit Biologics",
+          "use": "Seed de 60 M$ bouclé en novembre 2026 (final mené par Ackermans & van Haaren) pour financer les études IND-enabling et le dossier réglementaire de COM002, engageur du complément contre le lymphome non hodgkinien",
+          "place": "Copenhague, Danemark"
+        },
+        {
+          "name": "Biolojic Design",
+          "use": "IND clearée par la FDA en novembre 2026 pour BD200, multibody conjugué anti-Trop2/Nectin-4 à charge inhibitrice de topoisomérase ; phase 1 mondiale lancée aux États-Unis",
+          "place": "Ness Ziona, Israël"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "U.S. FDA",
+          "title": "Investigational New Drug Application (IND)",
+          "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Complement Therapeutics Receives FDA IND Clearance to Advance CTx001 into Opti-GAIN, a Phase I/II Clinical Trial in Geographic Atrophy secondary to AMD",
+          "url": "https://www.biospace.com/press-releases/complement-therapeutics-receives-fda-ind-clearance-to-advance-ctx001-into-opti-gain-a-phase-i-ii-clinical-trial-in-geographic-atrophy-secondary-to-amd"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Biolojic Design Receives U.S. FDA Clearance of Investigational New Drug (IND) Application for BD200, the First Multibody to Enter Clinical Trials",
+          "url": "https://www.biospace.com/press-releases/biolojic-design-receives-u-s-fda-clearance-of-investigational-new-drug-ind-application-for-bd200-the-first-multibody-to-enter-clinical-trials"
+        },
+        {
+          "publisher": "European Biotechnology",
+          "title": "Commit Biologics secures $60M to advance complement-based immunotherapies",
+          "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/"
+        }
+      ],
+      "date": "2026-11-22",
+      "dateLong": "22 nov. 2026"
+    },
+    {
       "term": "LITT",
       "full": "Laser Interstitial Thermal Therapy (thermothérapie laser interstitielle)",
       "fr": "Thermothérapie laser interstitielle",

@@ -1,155 +1,132 @@
 {
-  "dateLong": "21 nov. 2026",
+  "dateLong": "22 nov. 2026",
   "ticker": [
-    { "company": "ADCENDO", "amount": "ORR 30 %", "kind": "tech" },
-    { "company": "BIOVERSYS", "amount": "Ph2a ✓", "kind": "tech" },
-    { "company": "NOEMA", "amount": "Orphan", "kind": "reg" },
-    { "company": "SANOFI", "amount": "AMM", "kind": "reg" },
-    { "company": "AVACTA", "amount": "IND-enabling", "kind": "tech" },
-    { "company": "ONWARD", "amount": "$28M", "kind": "lev" }
+    { "company": "EVOTEC", "amount": "IND", "kind": "reg" },
+    { "company": "SANOFI", "amount": "FDA", "kind": "reg" },
+    { "company": "NUCANA", "amount": "Préclinique", "kind": "tech" },
+    { "company": "ERASCA", "amount": "ORR 44 %", "kind": "tech" },
+    { "company": "NANOLOGICA", "amount": "SEK 85,7M", "kind": "lev" },
+    { "company": "VITRIVAX", "amount": "$87M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Données de phase 1 · Oncologie",
-    "title": "L'ADC anti-uPARAP d'Adcendo obtient 30 % de réponses objectives dans les sarcomes des tissus mous avancés, une tumeur rebelle à la chimiothérapie",
-    "deck": "Présentée en late-breaking au symposium EORTC-NCI-AACR de Barcelone le 19 novembre, la phase 1/2 ADCElerate1 d'ADCE-D01 (anticorps anti-uPARAP armé d'une charge deruxtecan) a recruté 47 patients couvrant 17 sous-types de sarcome : avec le schéma toutes les deux semaines, 8 réponses partielles sur 27 patients évaluables (30 %) et 85 % de contrôle de la maladie, toutes les réponses étant en cours, sans pneumopathie interstitielle ni arrêt pour toxicité, et sans dose maximale tolérée atteinte. La biotech de Copenhague, qui a bouclé en avril une Series C de 75 M$ menée par Jeito Capital et détient déjà Fast Track et désignation orpheline de la FDA, tient avec uPARAP une cible inédite dans un cancer où les options après la première ligne sont maigres.",
-    "company": "Adcendo",
-    "stage": "Series C",
+    "kicker": "Feu vert IND · Dégradation ciblée",
+    "title": "Evotec et Bristol Myers Squibb obtiennent de la FDA une deuxième IND pour une colle moléculaire CELMoD issue de leur alliance",
+    "deck": "Annoncée le 19 novembre par la société de Hambourg, l'autorisation de la FDA porte sur un modulateur de la ligase E3 céréblon (CELMoD), dont le nom et l'indication ne sont pas dévoilés ; un essai de phase 1 doit démarrer en 2027, alors que le premier candidat de l'alliance est en phase 1 depuis mars 2026 dans le cancer du rein à cellules claires avancé. Née en 2018 avec Celgene puis élargie en 2022, la collaboration combine les plateformes PanOmics et PanHunter et l'IA d'Evotec avec la chimiothèque CELMoD de BMS : cette deuxième IND valide un modèle de découverte « industrialisé » des colles moléculaires, du criblage assisté par IA jusqu'à la clinique.",
+    "company": "Evotec",
     "sector": "Oncologie",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 3,
-    "url": "https://www.biospace.com/press-releases/adcendo-aps-announces-phase-1-clinical-data-showing-compelling-safety-antitumor-activity-with-adce-d01-in-advanced-soft-tissue-sarcoma-in-late-breaking-oral-presentation-at-2026-eortc-nci-aacr-symposium-on-molecular-targets-and-cancer-therapeutics"
+    "url": "https://boerse.de/nachrichten/EQS-News-Evotec-und-Bristol-Myers-Squibb-erreichen-zweite-IND-Freigabe-in-strategischer-Partnerschaft-zur-Protein-Degradation/38727616"
   },
   "milestone": {
-    "company": "BioVersys",
-    "milestone": "Phase 2a ✓",
-    "title": "BioVersys montre en phase 2a qu'un schéma antituberculeux bâti sur alpibectir-éthionamide peut remplacer l'isoniazide",
-    "summary": "Dans l'essai ENABLE de 14 jours (projet européen UNITE4TB, mené par TASK chez des patients atteints de tuberculose pulmonaire sensible), tous les schémas contenant AlpE ont montré une activité bactéricide précoce ; la combinaison alpibectir 45 mg + éthionamide 250 mg associée à rifampicine, pyrazinamide et éthambutol a donné une activité numériquement proche du traitement standard HRZE, avec une bonne tolérance. Résultats présentés le 20 novembre à la Union World Conference on Lung Health de Rio.",
-    "why": "Alpibectir, co-développé avec GSK et issu de l'Institut Pasteur de Lille, potentialise un vieil antibiotique pour en baisser la dose et contourner la résistance : une voie pour des schémas plus courts face aux tuberculoses résistantes. La phase 2b STEP2C, qui teste AlpE-RZE sur les deux premiers mois de traitement dans six pays africains, est déjà en cours.",
-    "place": "Bâle",
-    "sector": "Anti-infectieux",
-    "signalType": "clinical_update",
-    "url": "https://www.prnewswire.com/news-releases/bioversys-reports-results-from-phase-2a-enable-study-for-tuberculosis-treatments-containing-alpe-302946581.html"
+    "company": "Sanofi",
+    "milestone": "Approbation FDA",
+    "title": "La FDA approuve Infilbray (venglustat), premier traitement des symptômes neurologiques de la maladie de Gaucher de type 3",
+    "summary": "Pilule quotidienne capable de franchir la barrière hémato-encéphalique, cet inhibiteur de la glucosylcéramide synthase est autorisé chez l'adulte et l'enfant de plus de 15 kg. Dans l'essai LEAP2MONO, il a amélioré de façon significative les scores neurologiques (SARA, RBANS) à 52 semaines face aux perfusions de Cerezyme, tout en faisant jeu égal sur la rate, le foie et l'hémoglobine.",
+    "why": "Les enzymes de substitution ne passent pas dans le cerveau : une petite molécule qui y parvient ouvre la voie aux formes neurologiques des maladies lysosomales. Un comparable à relativiser — le venglustat a échoué dans Parkinson, la maladie de Fabry et la gangliosidose GM2, et les analystes ne lui prêtent plus que 300 à 500 M$ de ventes annuelles au pic ; il reste en examen dans l'UE et au Japon.",
+    "place": "Paris",
+    "sector": "Maladies rares",
+    "signalType": "regulatory_milestone",
+    "url": "https://pharmaphorum.com/news/fda-clears-sanofis-type-3-gaucher-therapy-infilbray"
   },
   "brefsEurope": [
     {
-      "company": "Avacta Therapeutics",
-      "place": "Londres",
+      "company": "NuCana",
+      "place": "Édimbourg",
       "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "conference_abstract",
       "strength": 2,
-      "title": "Avacta passe en études réglementaires précliniques AVA6207, conjugué peptidique à double charge (exatécan + inhibiteur d'ATR) activé par la protéine FAP",
-      "summary": "Présentées à Barcelone, les données précliniques montrent une levée de la résistance aux inhibiteurs de topoisomérase 1 et des réponses complètes chez la souris dans des tumeurs de l'ovaire et du poumon issues de patients, avec une supériorité sur Enhertu dans un modèle gastrique. Le candidat entre en études IND-enabling au quatrième trimestre 2026, avec un recrutement guidé par biomarqueurs (tumeurs SLFN11-bas ou déficientes en ATM).",
-      "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads"
+      "title": "NuCana montre en préclinique que NUC-7738 renforce le carfilzomib dans le myélome multiple",
+      "summary": "Présentées en poster le 20 novembre au symposium EORTC-NCI-AACR de Barcelone, les données montrent que la combinaison fait tomber la viabilité cellulaire à 3 % dans deux lignées de myélome (26 % dans la troisième) et, dans un criblage de 70 partenaires sur 35 lignées, le carfilzomib arrive en tête. NUC-7738 est en phase 2 dans le mélanome résistant aux anti-PD-1, dont les résultats finaux seront présentés à l'ESMO IO de Londres du 14 au 16 décembre.",
+      "url": "https://www.wboc.com/online_features/press_releases/nucana-presents-preclinical-data-showing-nuc-7738-enhances-carfilzomib-activity-in-multiple-myeloma-cell-lines/article_5f903aee-0ee9-5fd9-819c-1a9e83d092b6.html"
     },
     {
-      "company": "multiQure",
-      "place": "Varsovie",
-      "sector": "Thérapie génique",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "multiQure lance la fabrication de MQ-201, thérapie génique ARNi qui ne réduit au silence que la copie mutée du gène de Huntington",
-      "summary": "La société cotée à Varsovie confie la production du vecteur AAV5 au façonnier américain Andelyn Biosciences et prépare, avec l'hôpital Bródno de Varsovie et le consultant munichois Granzer pour le dossier IND, une première administration chez des patients, financée par 50 M PLN levés en juin. Elle se positionne derrière AMT-130 d'uniQure, dont la décision FDA est attendue le 1er mai 2027.",
-      "url": "https://www.biospace.com/press-releases/multiqure-begins-manufacturing-phase-of-mq-201-gene-therapy-for-first-huntingtons-disease-patients-u-s-based-andelyn-biosciences-selected-as-manufacturing-partner"
-    },
-    {
-      "company": "Noema Pharma",
-      "place": "Bâle",
-      "sector": "Neurosciences",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "La FDA accorde à Noema Pharma la désignation de médicament orphelin pour basimglurant dans la névralgie du trijumeau",
-      "summary": "Le modulateur allostérique négatif oral du récepteur mGluR5, qui disposait déjà du Fast Track dans cette douleur faciale rare (environ 150 000 patients aux États-Unis), gagne sept ans d'exclusivité potentielle sur le marché américain. La biotech bâloise, soutenue par Sofinnova, avait obtenu dès 2022 le feu vert de la FDA pour une phase 2/3 dans cette indication.",
-      "url": "https://www.startupticker.ch/en/news/key-milestones-from-biotechs-advancing-treatments-across-multiple-indications"
-    },
-    {
-      "company": "Laverock Therapeutics",
-      "place": "Londres",
-      "sector": "Thérapie cellulaire",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Laverock Therapeutics nomme Parker Moss, ex-directeur du corporate development d'Exscientia, au poste de CEO avant une Series A prévue en 2027",
-      "summary": "Paul J. Sekhri, qui a présidé Longboard Pharmaceuticals jusqu'à son rachat par Lundbeck, devient président exécutif ; le fondateur David Venables quitte la direction le 31 décembre. La société préclinique veut choisir un candidat parmi ses programmes CAR-T au premier semestre 2027.",
-      "url": "https://european-biotechnology.com/latest-news/laverock-names-ceo-ahead-of-series-a-gh-research-hires-j-treefrog-taps-former-bluebird-bio-cfo/"
-    },
-    {
-      "company": "Sanofi",
-      "place": "Paris",
-      "sector": "Vaccins",
+      "company": "Novo Nordisk",
+      "place": "Bagsværd",
+      "sector": "Endocrinologie",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "La Commission européenne autorise VaxRabeo, vaccin antirabique de nouvelle génération de Sanofi, à tous les âges",
-      "summary": "Produit sur cellules Vero, le vaccin couvre la prévention avant exposition (schéma OMS réduit à 2 doses) et après morsure (4 doses), avec 100 % de participants atteignant un taux d'anticorps protecteur en intramusculaire. Durée de conservation de 60 mois et stabilité jusqu'à 27 °C pendant 96 heures : un comparable sur la valeur de la thermostabilité dans les vaccins.",
-      "url": "https://www.biospace.com/press-releases/press-release-sanofis-next-generation-rabies-vaccine-vaxrabeo-approved-in-the-eu-for-all-ages"
+      "title": "La FDA autorise Sogroya, hormone de croissance hebdomadaire de Novo Nordisk, chez l'enfant atteint du syndrome de Turner",
+      "summary": "Dans la cohorte Turner de la phase 3 REAL8 (105 enfants de 2,5 à 10 ans), le somapacitan a donné une vitesse de croissance annualisée de 8,9 cm par an contre 9,7 cm sous somatropine quotidienne. Une injection par semaine au lieu de sept : un comparable sur la valeur des formulations longue durée face aux biologiques quotidiens.",
+      "url": "https://www.prnewswire.com/news-releases/novos-sogroya-receives-fda-approval-as-the-first-and-only-once-weekly-long-acting-growth-hormone-for-children-with-turner-syndrome-ts-302947192.html"
     },
     {
-      "company": "Onward Therapeutics",
-      "place": "Taipei",
-      "sector": "Oncologie",
+      "company": "Angelini Pharma",
+      "place": "Rome",
+      "sector": "Neurosciences",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "Angelini Pharma perd son directeur scientifique Rafal Kaminski, architecte de son pipeline dans l'épilepsie",
+      "summary": "Le CSO quitte le groupe italien fin novembre après près de cinq ans ; la directrice du business Preethi Sundaram reprend ses fonctions le temps du recrutement. Le départ intervient en pleine intégration de l'américain Catalyst Pharma, racheté 4,1 Md$ en juillet.",
+      "url": "https://pharmaphorum.com/news/angelini-pharmas-rd-chief-heads-exit"
+    },
+    {
+      "company": "Nanologica",
+      "place": "Södertälje",
+      "sector": "Bioproduction",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "Onward Therapeutics, née à Lausanne, boucle une Series B de 900 M TWD (environ 28 M$) pour ses programmes contre la résistance aux traitements du cancer",
-      "summary": "Le tour, clos en deux temps, réunit CDIB Capital Healthcare Ventures et Hong Kong Chlitina, déjà actionnaires, ainsi que Beiley Biofund, Everbright Biofund et Top Taiwan Venture Capital, sans lead désigné. La société, qui a transféré son siège à Taïwan en 2025 en gardant une équipe R&D à Lausanne, vise une inscription au marché émergent de Taipei d'ici fin 2027.",
-      "url": "https://www.startupticker.ch/index.php/en/news/onward-therapeutics-closes-usd-28-million-series-b-financing"
+      "title": "Nanologica lève environ 85,7 M SEK pour ses silices de purification des peptides de type insuline et GLP-1",
+      "summary": "Close le 17 novembre, l'augmentation de capital a été souscrite à 77,55 % après appel aux garants, dont Sterling Pharma Solutions en garantie de tête ; le 21 novembre, la société a payé en actions la commission de Bergs Securities et d'Ardena pour préserver sa trésorerie. Un fournisseur de consommables adossé à la vague des GLP-1, coté à Stockholm.",
+      "url": "https://mfn.se/a/nanologica/nanologica-carries-out-a-directed-share-issue-to-guarantors-in-connection-with-the-completed-rights-issue"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Merck & Co.",
-      "place": "Rahway",
-      "sector": "Oncologie",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "L'ADC anti-TROP2 sac-TMT de Merck et Kelun-Biotech améliore la survie globale en phase 3 dans le cancer gastro-œsophagien avancé",
-      "summary": "L'essai TroFuse-015 (473 patients en troisième ligne ou plus) atteint son critère principal face au traitement au choix du médecin, quel que soit le niveau de TROP2, mais manque la survie sans progression et le taux de réponse. Un nouveau jalon pour les ADC à charge inhibitrice de topoisomérase 1, la classe que les doubles charges cherchent à dépasser.",
-      "url": "https://www.biospace.com/drug-development/merck-kelun-adc-scores-survival-win-in-phase-3-gastroesophageal-cancer-trial"
-    },
-    {
-      "company": "PAQ Therapeutics",
-      "place": "Burlington",
+      "company": "Erasca",
+      "place": "San Diego",
       "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "PAQ Therapeutics publie les premières données cliniques de PT0253, dégradeur sélectif de KRAS G12D, avec 6 réponses sur 7 en première ligne du cancer du pancréas",
-      "summary": "En monothérapie (44 patients, 10 à 750 mg par semaine), aucune toxicité limitant la dose et 3 réponses partielles confirmées sur 10 cancers du pancréas naïfs d'inhibiteur de RAS ; associé au mFOLFIRINOX, 6 réponses objectives sur 7 patients évaluables, dont une réponse complète. La dégradation ciblée gagne une preuve clinique sur l'oncogène le plus convoité.",
-      "url": "https://www.prnewswire.com/news-releases/paq-therapeutics-presents-first-clinical-data-for-pt0253-a-selective-kras-g12d-degrader-showing-a-differentiated-safety-profile-and-antitumor-activity-at-ena-2026-302939854.html"
+      "title": "La colle moléculaire pan-RAS ERAS-0015 d'Erasca obtient 44 % de réponses dans le cancer du pancréas prétraité",
+      "summary": "En phase 1 (122 patients après au moins deux lignes), le taux de réponse atteint 63 % chez les mutés G12D et 80 % chez les G12V, avec des effets indésirables surtout légers et aucun arrêt pour toxicité ; Erasca prépare une phase 3. Une pression directe sur Rasonque de Revolution Medicines, autorisé dans l'UE cette semaine.",
+      "url": "https://www.biopharmadive.com/news/erasca-kras-pancreatic-cancer-drug-results-revolution-rasonque/875314/"
+    },
+    {
+      "company": "VitriVax",
+      "place": "Boulder",
+      "sector": "Vaccins",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 4,
+      "title": "VitriVax lève 87 M$ en Series C pour amener en clinique un vaccin monodose contre la maladie de Lyme",
+      "summary": "Le tour réunit F-Prime Capital, RA Capital Management, NEA, Eli Lilly et le fonds de capital-risque de Sanofi. Le candidat se passe d'adjuvant, ce qui pourrait réduire les effets secondaires et le coût de production ; les fonds financent le premier essai chez l'humain.",
+      "url": "https://www.biopharmadive.com/news/celldex-eczema-nchroma-layoffs-isomorphic-merck-teva-vitrivax/875241/"
     }
   ],
   "word": {
-    "term": "Dual-Payload ADC",
-    "full": "Dual-Payload Antibody-Drug Conjugate (conjugué anticorps-médicament à double charge)",
-    "fr": "Conjugué anticorps-médicament à double charge",
-    "field": "Oncologie de précision",
-    "definition": "Un anticorps « missile » qui transporte non plus une mais deux molécules toxiques différentes, libérées ensemble dans la tumeur pour frapper par deux mécanismes à la fois et empêcher la cellule cancéreuse de s'adapter.",
+    "term": "IND",
+    "full": "Investigational New Drug application (demande d'autorisation de médicament expérimental)",
+    "fr": "Dossier d'entrée en essai clinique aux États-Unis",
+    "field": "Réglementaire",
+    "definition": "Le dossier qu'une biotech dépose auprès de la FDA pour avoir le droit de tester pour la première fois sa molécule chez l'humain aux États-Unis : sans lui, un médicament non approuvé ne peut même pas être expédié d'un État à l'autre vers les centres d'essai.",
     "parts": [
-      { "label": "Vecteur", "role": "l'anticorps (ou le peptide) qui reconnaît la cible tumorale, par exemple HER2" },
-      { "label": "Linker ramifié", "role": "l'attache capable de porter deux charges, stable dans le sang et clivée dans la tumeur" },
-      { "label": "Deux charges", "role": "souvent un inhibiteur de topoisomérase 1 associé à un inhibiteur d'ATR ou à l'auristatine MMAE" }
+      { "label": "Pharmacologie et toxicologie", "role": "les données précliniques (animal, in vitro) qui montrent que la molécule est raisonnablement sûre pour un premier essai humain" },
+      { "label": "Fabrication (CMC)", "role": "la composition, le fabricant, la stabilité et les contrôles qualité qui garantissent des lots constants" },
+      { "label": "Protocoles cliniques", "role": "le plan de l'essai, les investigateurs, et les engagements de consentement éclairé et de revue par un comité d'éthique (IRB)" }
     ],
     "how": [
-      { "n": "1", "h": "Ciblage", "t": "Le conjugué circule dans le sang sans relâcher ses charges et se fixe sur les cellules qui expriment l'antigène visé." },
-      { "n": "2", "h": "Libération simultanée", "t": "Une fois internalisé, ou clivé par une enzyme du micro-environnement tumoral comme la FAP, il libère les deux molécules au même endroit et au même moment." },
-      { "n": "3", "h": "Double coup", "t": "La première charge casse l'ADN ; la seconde bloque la réparation (ATR) ou attaque un autre mécanisme, ce qui coupe la route aux cellules résistantes à une seule charge." }
+      { "n": "1", "h": "Études IND-enabling", "t": "La biotech réalise les études réglementaires de toxicologie et de fabrication exigées avant toute administration à l'humain." },
+      { "n": "2", "h": "Dépôt et 30 jours", "t": "Après le dépôt, le promoteur doit attendre 30 jours calendaires : la FDA vérifie que les participants ne seront pas exposés à un risque déraisonnable." },
+      { "n": "3", "h": "Feu vert", "t": "Sans objection de la FDA, l'IND est « clearée » : la phase 1 peut démarrer et le dossier vit ensuite au rythme des amendements de l'essai." }
     ],
-    "why": "Les ADC à inhibiteur de topoisomérase 1 (Enhertu, sac-TMT) dominent l'oncologie, mais les résistances à leur charge unique apparaissent : la double charge est la réponse la plus suivie, avec la promesse d'une combinaison synergique dans une seule molécule au lieu de deux traitements cumulant leurs toxicités. Le rachat de CrossBridge Bio par Eli Lilly (jusqu'à 300 M$ en avril 2026) a validé la thèse ; l'enjeu des prochains mois est de montrer chez l'humain que la seconde charge apporte plus d'efficacité que de toxicité.",
+    "why": "L'IND est le premier jalon réglementaire qui transforme un actif préclinique en société clinique : il conditionne le premier patient dosé, et donc la première vraie lecture de valeur, comme le rappelle la deuxième IND de l'alliance Evotec-BMS. Pour un VC, suivre les tours qui financent explicitement les « études IND-enabling » (Commit Biologics, par exemple) permet de repérer une biotech avant ses premières données humaines.",
     "startups": [
-      { "name": "Callio Therapeutics", "use": "ADC multi-charges issus de la technologie de Hummingbird Bioscience ; CLIO-8221 anti-HER2 (inhibiteur de topoisomérase 1 + inhibiteur d'ATR), premier patient dosé en phase 1 en mars 2026 ; Series A de 187 M$ menée par Frazier Life Sciences", "place": "Seattle / Singapour" },
-      { "name": "Avacta Therapeutics", "use": "AVA6207, conjugué peptidique pre|CISION à double charge exatécan + berzosertib activé par la FAP ; entrée en études IND-enabling au quatrième trimestre 2026", "place": "Londres" },
-      { "name": "Debiopharm", "use": "Suite de linkers MultiLINK et technologie MLINK Duo pour ADC à double charge (MMAE + exatécan), en preuve de concept préclinique sur anticorps mono- et bispécifiques", "place": "Lausanne, Suisse" }
+      { "name": "Complement Therapeutics", "use": "IND clearée par la FDA en octobre 2025 pour CTx001, thérapie génique AAV délivrant un mini-récepteur CR1 dans l'atrophie géographique ; premier patient dosé dans la phase I/II Opti-GAIN en mars 2026", "place": "Munich, Allemagne" },
+      { "name": "Commit Biologics", "use": "Seed de 60 M$ bouclé en novembre 2026 (final mené par Ackermans & van Haaren) pour financer les études IND-enabling et le dossier réglementaire de COM002, engageur du complément contre le lymphome non hodgkinien", "place": "Copenhague, Danemark" },
+      { "name": "Biolojic Design", "use": "IND clearée par la FDA en novembre 2026 pour BD200, multibody conjugué anti-Trop2/Nectin-4 à charge inhibitrice de topoisomérase ; phase 1 mondiale lancée aux États-Unis", "place": "Ness Ziona, Israël" }
     ],
     "sources": [
-      { "publisher": "Debiopharm", "title": "Enhancing therapeutic efficacy and overcoming resistance with a novel dual-payload antibody-drug conjugate technology", "url": "https://www.debiopharm.com/?p=17933" },
-      { "publisher": "BioPharma Dive", "title": "Biotech startup pulls in $187M to make 'multi-payload' ADCs", "url": "https://www.biopharmadive.com/news/callio-adc-cancer-biotech-startup-series-a/741370/" },
-      { "publisher": "BioSpace", "title": "AVA6207 Overcomes Topoisomerase I Inhibitor Resistance In Vitro and In Vivo with Robust and Tumor-Selective Release of Dual Exatecan and ATR Inhibitor Payloads", "url": "https://www.biospace.com/press-releases/ava6207-overcomes-topoisomerase-i-inhibitor-resistance-in-vitro-and-in-vivo-with-robust-and-tumor-selective-release-of-dual-exatecan-and-atr-inhibitor-payloads" },
-      { "publisher": "BioPharma Dive", "title": "Lilly boosts ADC portfolio with CrossBridge Bio deal", "url": "https://www.biopharmadive.com/news/lilly-crossbridge-acquire-deal-antibody-drug-conjugates/817421/" }
+      { "publisher": "U.S. FDA", "title": "Investigational New Drug Application (IND)", "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind" },
+      { "publisher": "BioSpace", "title": "Complement Therapeutics Receives FDA IND Clearance to Advance CTx001 into Opti-GAIN, a Phase I/II Clinical Trial in Geographic Atrophy secondary to AMD", "url": "https://www.biospace.com/press-releases/complement-therapeutics-receives-fda-ind-clearance-to-advance-ctx001-into-opti-gain-a-phase-i-ii-clinical-trial-in-geographic-atrophy-secondary-to-amd" },
+      { "publisher": "BioSpace", "title": "Biolojic Design Receives U.S. FDA Clearance of Investigational New Drug (IND) Application for BD200, the First Multibody to Enter Clinical Trials", "url": "https://www.biospace.com/press-releases/biolojic-design-receives-u-s-fda-clearance-of-investigational-new-drug-ind-application-for-bd200-the-first-multibody-to-enter-clinical-trials" },
+      { "publisher": "European Biotechnology", "title": "Commit Biologics secures $60M to advance complement-based immunotherapies", "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/" }
     ]
   }
 }
