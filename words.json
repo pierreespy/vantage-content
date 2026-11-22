@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "words": [
+    {
+      "term": "LITT",
+      "full": "Laser Interstitial Thermal Therapy (thermothérapie laser interstitielle)",
+      "fr": "Thermothérapie laser interstitielle",
+      "field": "Ablation mini-invasive guidée par l'image",
+      "definition": "Une fibre laser glissée par un trou de quelques millimètres jusqu'au cœur d'une lésion la chauffe de l'intérieur pour la détruire, sous contrôle IRM en temps réel, sans chirurgie ouverte.",
+      "parts": [
+        {
+          "label": "Applicateur laser",
+          "role": "la source de chaleur placée dans la cible"
+        },
+        {
+          "label": "Thermométrie IRM",
+          "role": "le contrôle en temps réel de la zone chauffée"
+        },
+        {
+          "label": "Navigation stéréotaxique",
+          "role": "le guidage jusqu'à la cible"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Trajectoire",
+          "t": "Sur l'imagerie préopératoire, l'équipe planifie le trajet ; un petit trou est percé et la fibre est positionnée en stéréotaxie dans la lésion."
+        },
+        {
+          "n": "2",
+          "h": "Chauffe sous IRM",
+          "t": "Le laser délivre l'énergie par la fibre ; la thermométrie IRM montre en continu la zone qui atteint la température de destruction."
+        },
+        {
+          "n": "3",
+          "h": "Arrêt contrôlé",
+          "t": "Le chirurgien stoppe quand la lésion est couverte, en protégeant les structures voisines ; l'imagerie confirme le volume traité."
+        }
+      ],
+      "why": "Alternative mini-invasive à la chirurgie ouverte pour l'épilepsie pharmacorésistante et les tumeurs cérébrales difficiles d'accès, la LITT gagne la prostate et d'autres organes. Le marché reste concentré sur quelques systèmes (Visualase de Medtronic, NeuroBlate de Monteris) : les challengers jouent la simplicité (applicateurs non refroidis), le guidage échographique et de nouvelles indications — d'où des alliances comme CLS × AFT et des tours de growth chez les indépendants.",
+      "startups": [
+        {
+          "name": "Clinical Laserthermia Systems (CLS)",
+          "use": "Laser non refroidi des systèmes TRANBERG et ClearPoint Prism (tumeurs, épilepsie) ; partenariat avec advanced fiber tools signé en novembre 2026",
+          "place": "Lund, Suède"
+        },
+        {
+          "name": "Elesta",
+          "use": "EchoLaser X4, ablation laser guidée par échographie (thyroïde, prostate) ; nouveau 510(k) FDA en août 2026",
+          "place": "Calenzano (Florence), Italie"
+        },
+        {
+          "name": "Monteris Medical",
+          "use": "Système NeuroBlate de LITT cérébrale guidée par IRM ; 28 M$ de growth equity (Series E) levés en mars 2026",
+          "place": "Minnetonka, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Frontiers in Surgery",
+          "title": "Stereotactic Laser Ablation for Medically Intractable Epilepsy: The Next Generation of Minimally Invasive Epilepsy Surgery",
+          "url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2016.00064/full"
+        },
+        {
+          "publisher": "Cision / Clinical Laserthermia Systems",
+          "title": "CLS and advanced fiber tools enter strategic partnership to pursue broader commercial opportunities in medical laser therapy",
+          "url": "https://news.cision.com/cls/r/cls-and-advanced-fiber-tools-enter-strategic-partnership-to-pursue-broader-commercial-opportunities-,c4426600"
+        },
+        {
+          "publisher": "BioSpace / Monteris Medical",
+          "title": "Monteris Medical Secures $28 Million in Growth Equity to Accelerate Revenue and Innovation in Minimally Invasive Neurosurgery",
+          "url": "https://www.biospace.com/press-releases/monteris-medical-secures-28-million-in-growth-equity-to-accelerate-revenue-and-innovation-in-minimally-invasive-neurosurgery"
+        }
+      ],
+      "date": "2026-11-22",
+      "dateLong": "22 nov. 2026"
+    },
     {
       "term": "Digital Front Door",
       "full": "Digital Front Door (porte d'entrée numérique du parcours de soins)",

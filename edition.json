@@ -1,209 +1,93 @@
 {
-  "dateLong": "21 nov. 2026",
+  "dateLong": "22 nov. 2026",
   "ticker": [
-    {
-      "company": "MULTIWAVE",
-      "amount": "FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "MMI",
-      "amount": "1ers cas",
-      "kind": "tech"
-    },
-    {
-      "company": "INTELLIPROVE",
-      "amount": "€2.7M",
-      "kind": "lev"
-    },
-    {
-      "company": "CLARITY SENSORS",
-      "amount": "€2.2M",
-      "kind": "lev"
-    },
-    {
-      "company": "ZIMMER BIOMET",
-      "amount": "510(k) déposé",
-      "kind": "reg"
-    },
-    {
-      "company": "J&J MEDTECH",
-      "amount": "1re install",
-      "kind": "tech"
-    }
+    { "company": "CLS", "amount": "Co-dév", "kind": "tech" },
+    { "company": "FAMID / DNV", "amount": "IVDR C", "kind": "reg" },
+    { "company": "INNOVATIVE HEALTH", "amount": "FDA", "kind": "reg" },
+    { "company": "FDA", "amount": "Guidance 510(k)", "kind": "reg" },
+    { "company": "BOSTON SCIENTIFIC", "amount": "$14.5Md", "kind": "mna" },
+    { "company": "CYTOSORBENTS", "amount": "$6.25M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "FDA 510(k) · Imagerie",
-    "title": "Multiwave décroche la clearance FDA de son IRM cérébrale portable ultra-bas champ assistée par IA",
-    "deck": "La medtech genevoise a obtenu le 510(k) de la FDA pour MGNTQv0, une IRM cérébrale d'un peu plus de 250 kg qui se branche sur une prise murale, sans refroidissement ni blindage magnétique, et vise un coût 5 à 10 fois inférieur à une IRM classique ; lancement commercial américain prévu en 2027 en modèle par abonnement, depuis sa filiale de Lowell (Massachusetts). C'est, selon la société, la première IRM portable venue d'Europe à franchir la FDA — une jeune pousse (CHF 3,6 M levés en 2025) qui prépare désormais son marquage CE et, logiquement, un tour plus important.",
-    "company": "Multiwave",
-    "stage": "Seed",
-    "sector": "Imagerie",
+    "kicker": "Partenariat · Ablation laser",
+    "title": "Clinical Laserthermia Systems s'allie à l'allemand advanced fiber tools pour emmener son laser non refroidi au-delà du cerveau et de l'urologie",
+    "deck": "La medtech de Lund (Suède) et le spécialiste allemand de la fibre optique advanced fiber tools (AFT) ont signé le 19 novembre un accord stratégique non exclusif pour développer ensemble de nouveaux dispositifs laser thérapeutiques, sur la base de leur contrat de fabrication existant ; pas d'engagement financier ni de volume garanti à ce stade, chaque projet sera contractualisé séparément. CLS, dont la technologie laser non refroidie équipe le TRANBERG et le ClearPoint Prism (ablation guidée par l'image des tumeurs et de l'épilepsie pharmacorésistante), estime ces nouveaux marchés potentiellement plus grands que la neurochirurgie et l'urologie — un signal amont sur une petite cotée suédoise à suivre avant ses prochains accords commerciaux.",
+    "company": "Clinical Laserthermia Systems (CLS)",
+    "sector": "MedTech",
     "pillar": "marche",
-    "signalType": "regulatory_milestone",
-    "strength": 5,
-    "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://news.cision.com/cls/r/cls-and-advanced-fiber-tools-enter-strategic-partnership-to-pursue-broader-commercial-opportunities-,c4426600"
   },
   "milestone": {
-    "company": "MMI (Medical Microinstruments)",
-    "milestone": "1ers cas cliniques",
-    "title": "MMI dote son robot de microchirurgie Symani d'une énergie monopolaire et réalise ses premiers cas en Europe",
-    "summary": "Les ciseaux monopolaires NanoWrist, marqués CE en octobre, ajoutent la dissection et l'hémostase électrique au robot Symani ; premiers usages à l'hôpital de Bellvitge (Espagne, deux pontages lympho-veineux chez une patiente atteinte de lymphœdème après cancer du sein) et à l'université RWTH d'Aix-la-Chapelle (résection tumorale tête et cou). L'instrument reste en attente de 510(k) aux États-Unis.",
-    "why": "La robotique de microchirurgie passe du simple geste de suture à une plateforme complète capable de disséquer et de coaguler : c'est ce qui élargit les indications (reconstruction, lymphœdème, ORL) et rend le robot plus rentable pour l'hôpital — un cas d'école pour une medtech née près de Pise.",
-    "place": "Pise",
-    "sector": "Robotique chirurgicale",
-    "signalType": "clinical_update",
-    "url": "https://www.globenewswire.com/news-release/2026/11/20/3407449/0/en/mmi-adds-energy-capabilities-to-the-symani-surgical-system-with-the-introduction-of-nanowrist-monopolar-scissors.html"
+    "company": "FAMID Biomedical Technology",
+    "milestone": "Certificat IVDR classe C",
+    "title": "L'organisme notifié DNV certifie en six mois un test rapide HPV de classe C, autotest compris, sous IVDR",
+    "summary": "DNV (Høvik, Norvège) a délivré le certificat IVDR du test rapide de l'oncoprotéine E7 du HPV de FAMID Biomedical Technology (Tianjin), classé C, qui aide au diagnostic des lésions du col de l'utérus en laboratoire comme en autotest ; l'évaluation du système qualité, des preuves cliniques et du dossier technique a pris environ six mois après la signature du contrat.",
+    "why": "La capacité des organismes notifiés reste le premier goulot de l'IVDR : un délai de six mois sur une classe C avec autotest montre que l'étau se desserre. Bonne nouvelle pour les startups diagnostic européennes qui calent leur levée sur la date de marquage — mais aussi une porte d'entrée plus rapide pour leurs concurrents asiatiques.",
+    "place": "Høvik",
+    "sector": "Diagnostics",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.prnewswire.com/apac/news-releases/dnv-supports-famid-biomedical-technology-in-achieving-ivdr-certification-for-its-class-c-ivd-in-six-months-302943774.html"
   },
   "deal": {
-    "company": "IntelliProve",
-    "amount": "2,7 M€",
-    "round": "Seed",
-    "thesis": "Mené par Miles Ahead avec Wit-Gele Kruis (réseau de soins à domicile, aussi partenaire), l'imec.istart Fund et des business angels, ce tour finance à parts égales le réglementaire (passage du marquage CE classe I à la classe IIa MDR), la R&D et le commercial. Thèse : un capteur purement logiciel — la caméra — qui mesure tension, VFC et stress en 30 secondes devient une brique réutilisable, des apps de télésoin jusqu'aux robots humanoïdes.",
-    "sector": "Diagnostics",
-    "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
+    "company": "Boston Scientific",
+    "amount": "3 Md$ + 4,25 Md€",
+    "round": "Dette (financement M&A)",
+    "thesis": "Boston Scientific a placé le 19 novembre 3 Md$ et 4,25 Md€ d'obligations senior pour régler la part en cash du rachat de Penumbra (valeur d'entreprise d'environ 14,5 Md$, annoncé en janvier) ; clôture des émissions attendue le 1er décembre. Un comparable de sortie, pas une opportunité d'entrée : la thrombectomie et l'embolisation se paient au prix fort, ce qui soutient la valorisation des startups européennes du neurovasculaire et de la thrombectomie.",
+    "sector": "Cardio",
+    "url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-pricing-of-3-0-billion-and-4-25-billion-offerings-of-senior-notes-302946308.html"
   },
   "brefsEurope": [
-    {
-      "company": "IntelliProve",
-      "place": "Gand",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "stage": "Seed",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "IntelliProve lève 2,7 M€ en seed pour viser la classe IIa MDR de son scan facial de santé",
-      "summary": "La startup belge, déjà marquée CE classe I pour son moteur d'acquisition de signaux, mesure des biomarqueurs (tension, variabilité cardiaque, stress) via un scan du visage de 30 secondes ; tour mené par Miles Ahead, avec Wit-Gele Kruis et l'imec.istart Fund.",
-      "url": "https://thenextweb.com/news/intelliprove-2-7m-seed-face-scan-humanoid-robots"
-    },
-    {
-      "company": "Clarity Sensors",
-      "place": "Cambridge",
-      "sector": "Imagerie",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Clarity Sensors obtient 2,2 M€ du NIHR pour des détecteurs de scanner à comptage de photons à bas coût",
-      "summary": "Spin-off de l'université de Cambridge (2022), Clarity Sensors mène le projet PICASO sur trois ans avec le département technologie du STFC, pour rendre le scanner à comptage de photons plus abordable grâce à des semi-conducteurs pérovskites ; le projet évaluera aussi son impact clinique et économique pour le NHS.",
-      "url": "https://www.eu-startups.com/2026/11/uk-startup-clarity-sensors-receives-e2-2-million-nihr-award-to-make-advanced-medical-imaging-more-accessible"
-    }
+    { "company": "Optomed", "place": "Oulu", "sector": "Imagerie", "pillar": "marche",
+      "signalType": "leadership_hire", "strength": 2,
+      "title": "Optomed voit partir son directeur financier Sakari Knuutti et lance le recrutement d'un nouveau CFO",
+      "summary": "Le fabricant finlandais de rétinographes portables annonce le départ de son CFO, en poste depuis 2019, qui restera jusqu'à six mois pour assurer la transition ; la recherche d'un successeur démarre immédiatement. Un poste clé à surveiller pour la suite de la trajectoire de la cotée d'Helsinki.",
+      "url": "https://news.cision.com/optomed-oyj/r/change-in-optomed-s-leadership-team--sakari-knuutti-to-take-up-a-new-position-outside-the-company,c4427409" }
   ],
   "brefsIntl": [
-    {
-      "company": "Zimmer Biomet",
-      "place": "Warsaw (Indiana)",
-      "sector": "Robotique chirurgicale",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Zimmer Biomet dépose le 510(k) de la version autonome de son robot orthopédique Monogram",
-      "summary": "Version « mains libres » activée par pédales, compatible avec l'imagerie scanner, pour la prothèse totale de genou ; Zimmer vise une clearance dès 2027, un an avant son plan initial. Comparable : l'autonomie robotique entre dans le circuit réglementaire classique.",
-      "url": "https://www.medtechdive.com/news/zimmer-submits-monogram-robot-to-fda/875347/"
-    },
-    {
-      "company": "J&J MedTech",
-      "place": "Houston",
-      "sector": "Robotique chirurgicale",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "J&J installe son premier robot Ottava en usage commercial au Memorial Hermann de Houston",
-      "summary": "Autorisé en De Novo en juillet pour dix procédures de chirurgie digestive haute, Ottava intègre ses quatre bras dans la table opératoire ; première installation via le programme d'accès précoce. Signal de marché pour les roboticiens européens (CMR, Distalmotion) face à Hugo et da Vinci.",
-      "url": "https://www.medtechdive.com/news/jj-to-install-first-ottava-robot-in-us-hospital/875343/"
-    },
-    {
-      "company": "Exo",
-      "place": "Santa Clara",
-      "sector": "Imagerie",
-      "pillar": "financement",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Exo reçoit 11,6 M$ de la Fondation Gates pour élargir l'accès à l'échographie portable",
-      "summary": "La subvention vise les pays à revenu faible et intermédiaire, où près des deux tiers de la population n'ont pas d'accès fiable à l'échographie selon la Banque mondiale ; confirme l'appétit des financeurs pour l'imagerie de point de soin, segment où se positionnent aussi les IRM portables.",
-      "url": "https://www.medicaldevice-network.com/news/exo-lands-11-m-gates-foundation-grant-to-expand-ultrasound-access/"
-    }
+    { "company": "Innovative Health", "place": "Scottsdale", "sector": "Cardio", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 5,
+      "title": "Innovative Health obtient la clearance FDA pour retraiter le cathéter de cartographie OCTARAY de Johnson & Johnson",
+      "summary": "Le spécialiste américain du retraitement décroche sa 52e clearance FDA et devient le seul autorisé à retraiter ce cathéter à usage unique de Biosense Webster utilisé en électrophysiologie. Un levier de coût et de déchets pour les labos d'EP, qui met sous pression le modèle du jetable — y compris pour les acteurs européens de l'ablation.",
+      "url": "https://www.prnewswire.com/news-releases/innovative-health-receives-fda-clearance-to-reprocess-octaray-mapping-catheter-302944723.html" },
+    { "company": "FDA", "place": "Silver Spring", "sector": "Réglementaire", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "La FDA finalise sa guidance sur le transfert des clearances 510(k)",
+      "summary": "Publiée au Federal Register le 20 novembre, la guidance précise qu'un acquéreur n'a en général pas besoin d'un nouveau 510(k) si le dispositif n'est pas modifié de façon significative, mais qu'il doit s'enregistrer sous 30 jours, lister le produit et mettre à jour étiquetage et base GUDID. Utile pour les medtechs européennes qui achètent ou cèdent des actifs déjà autorisés aux États-Unis.",
+      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23668/transfer-of-a-premarket-notification-510k-clearance-questions-and-answers-guidance-for-industry-and" },
+    { "company": "CytoSorbents", "place": "Princeton", "sector": "MedTech", "pillar": "financement",
+      "signalType": "funding_round", "strength": 3,
+      "title": "CytoSorbents lève 6,25 M$ et restructure sa dette en attendant le feu vert FDA de DrugSorb-ATR",
+      "summary": "Environ 4 M$ en cash, souscrits à 75 % par les actionnaires existants, la direction et le board, plus 2,25 M$ de dette Avenue convertie en actions : l'endettement passe de 17,5 à 12,25 M$ et l'échéance glisse à juillet 2028. L'adsorbeur sanguin CytoSorb, approuvé dans l'UE et vendu dans plus de 70 pays, attend toujours son homologation américaine via DrugSorb-ATR (deux désignations Breakthrough).",
+      "url": "https://www.prnewswire.com/news-releases/cytosorbents-announces-6-25-million-common-stock-financing-priced-at-the-market-under-nasdaq-rules-and-concurrent-restructuring-of-avenue-capital-credit-facility-302946616.html" }
   ],
   "word": {
-    "term": "ULF MRI",
-    "full": "Ultra-Low-Field MRI (IRM ultra-bas champ)",
-    "fr": "IRM ultra-bas champ",
-    "field": "Imagerie médicale",
-    "definition": "Une IRM qui fonctionne avec un champ magnétique des dizaines de fois plus faible qu'une IRM hospitalière (quelques dizaines de millitesla au lieu de 1,5 à 3 tesla), ce qui la rend assez légère et sobre pour être déplacée jusqu'au lit du patient.",
+    "term": "LITT",
+    "full": "Laser Interstitial Thermal Therapy (thermothérapie laser interstitielle)",
+    "fr": "Thermothérapie laser interstitielle",
+    "field": "Ablation mini-invasive guidée par l'image",
+    "definition": "Une fibre laser glissée par un trou de quelques millimètres jusqu'au cœur d'une lésion la chauffe de l'intérieur pour la détruire, sous contrôle IRM en temps réel, sans chirurgie ouverte.",
     "parts": [
-      {
-        "label": "Aimant permanent bas champ",
-        "role": "le champ magnétique, sans hélium ni refroidissement"
-      },
-      {
-        "label": "Antennes et électronique RF",
-        "role": "la capture d'un signal très faible"
-      },
-      {
-        "label": "Reconstruction par IA",
-        "role": "le débruitage qui rend l'image lisible"
-      }
+      { "label": "Applicateur laser", "role": "la source de chaleur placée dans la cible" },
+      { "label": "Thermométrie IRM", "role": "le contrôle en temps réel de la zone chauffée" },
+      { "label": "Navigation stéréotaxique", "role": "le guidage jusqu'à la cible" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Aimantation",
-        "t": "Un aimant compact aligne les protons de l'eau du corps ; à bas champ, la fréquence de résonance chute et le signal recueilli est beaucoup plus faible."
-      },
-      {
-        "n": "2",
-        "h": "Acquisition",
-        "t": "Des antennes radiofréquence excitent puis écoutent ces protons ; la machine se branche sur une prise standard et tolère mieux les implants métalliques."
-      },
-      {
-        "n": "3",
-        "h": "Reconstruction",
-        "t": "Des algorithmes d'IA et de reconstruction avancée compensent le faible rapport signal/bruit pour produire une image cérébrale exploitable cliniquement."
-      }
+      { "n": "1", "h": "Trajectoire", "t": "Sur l'imagerie préopératoire, l'équipe planifie le trajet ; un petit trou est percé et la fibre est positionnée en stéréotaxie dans la lésion." },
+      { "n": "2", "h": "Chauffe sous IRM", "t": "Le laser délivre l'énergie par la fibre ; la thermométrie IRM montre en continu la zone qui atteint la température de destruction." },
+      { "n": "3", "h": "Arrêt contrôlé", "t": "Le chirurgien stoppe quand la lésion est couverte, en protégeant les structures voisines ; l'imagerie confirme le volume traité." }
     ],
-    "why": "L'IRM classique coûte des millions et exige une salle blindée : l'ultra-bas champ promet l'IRM au lit du patient (AVC, réanimation, pays émergents) en abonnement. La clearance FDA de Multiwave, après le Swoop de Hyperfine, montre que la voie réglementaire est ouverte ; l'enjeu VC est désormais la preuve clinique face au scanner et le modèle économique.",
+    "why": "Alternative mini-invasive à la chirurgie ouverte pour l'épilepsie pharmacorésistante et les tumeurs cérébrales difficiles d'accès, la LITT gagne la prostate et d'autres organes. Le marché reste concentré sur quelques systèmes (Visualase de Medtronic, NeuroBlate de Monteris) : les challengers jouent la simplicité (applicateurs non refroidis), le guidage échographique et de nouvelles indications — d'où des alliances comme CLS × AFT et des tours de growth chez les indépendants.",
     "startups": [
-      {
-        "name": "Multiwave",
-        "use": "IRM cérébrale portable ultra-bas champ MGNTQv0, assistée par IA ; 510(k) FDA en novembre 2026, lancement US prévu en 2027",
-        "place": "Genève, Suisse"
-      },
-      {
-        "name": "Chipiron",
-        "use": "IRM portable à détection quantique (SQUID) ; Series A de 17 M$ menée par Blast pour ses premiers prototypes hospitaliers",
-        "place": "Paris, France"
-      },
-      {
-        "name": "Hyperfine",
-        "use": "Swoop, première IRM cérébrale portable bas champ autorisée par la FDA ; nouvelle génération lancée en Europe en 2026 (CE/UKCA)",
-        "place": "Guilford, États-Unis"
-      },
-      {
-        "name": "Promaxo",
-        "use": "IRM bas champ de cabinet (58–74 mT) pour guider les biopsies de la prostate, clearance 510(k)",
-        "place": "Oakland, États-Unis"
-      }
+      { "name": "Clinical Laserthermia Systems (CLS)", "use": "Laser non refroidi des systèmes TRANBERG et ClearPoint Prism (tumeurs, épilepsie) ; partenariat avec advanced fiber tools signé en novembre 2026", "place": "Lund, Suède" },
+      { "name": "Elesta", "use": "EchoLaser X4, ablation laser guidée par échographie (thyroïde, prostate) ; nouveau 510(k) FDA en août 2026", "place": "Calenzano (Florence), Italie" },
+      { "name": "Monteris Medical", "use": "Système NeuroBlate de LITT cérébrale guidée par IRM ; 28 M$ de growth equity (Series E) levés en mars 2026", "place": "Minnetonka, États-Unis" }
     ],
     "sources": [
-      {
-        "publisher": "startupticker.ch",
-        "title": "Milestone FDA Clearance paves way for Multiwave U.S. Launch",
-        "url": "https://startupticker.ch/en/news/milestone-fda-clearance-paves-way-for-multiwave-u-s-launch"
-      },
-      {
-        "publisher": "PMC (NIH)",
-        "title": "Ultra-low-field MRI: a David versus Goliath challenge in modern imaging",
-        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12669372/"
-      },
-      {
-        "publisher": "Business Wire",
-        "title": "Hyperfine Announces European Launch of Next Generation Swoop System",
-        "url": "https://secure.businesswire.com/news/home/20260701134409/en/Hyperfine-Announces-European-Launch-of-Next-Generation-Swoop-System"
-      },
-      {
-        "publisher": "MobiHealthNews",
-        "title": "Chipiron raises $17M for miniature MRI prototype",
-        "url": "https://www.mobihealthnews.com/news/chipiron-raises-17m-miniature-mri-prototype"
-      }
+      { "publisher": "Frontiers in Surgery", "title": "Stereotactic Laser Ablation for Medically Intractable Epilepsy: The Next Generation of Minimally Invasive Epilepsy Surgery", "url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2016.00064/full" },
+      { "publisher": "Cision / Clinical Laserthermia Systems", "title": "CLS and advanced fiber tools enter strategic partnership to pursue broader commercial opportunities in medical laser therapy", "url": "https://news.cision.com/cls/r/cls-and-advanced-fiber-tools-enter-strategic-partnership-to-pursue-broader-commercial-opportunities-,c4426600" },
+      { "publisher": "BioSpace / Monteris Medical", "title": "Monteris Medical Secures $28 Million in Growth Equity to Accelerate Revenue and Innovation in Minimally Invasive Neurosurgery", "url": "https://www.biospace.com/press-releases/monteris-medical-secures-28-million-in-growth-equity-to-accelerate-revenue-and-innovation-in-minimally-invasive-neurosurgery" }
     ]
   }
 }
