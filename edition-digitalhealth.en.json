@@ -1,106 +1,216 @@
 {
-  "dateLong": "Nov 22, 2026",
+  "dateLong": "Nov 23, 2026",
   "ticker": [
-    { "company": "IMPLICITY", "amount": "$40M", "kind": "lev" },
-    { "company": "SPRYT", "amount": "Grand Prix", "kind": "new" },
-    { "company": "MEDATIXX", "amount": "25+ FHIR apps", "kind": "tech" },
-    { "company": "ASSEMBLÉE NATIONALE", "amount": "NIS2", "kind": "reg" },
-    { "company": "HEALTHAI", "amount": "Winner", "kind": "new" },
-    { "company": "BLACK COUNTRY", "amount": "Go-live", "kind": "tech" }
+    {
+      "company": "TANDEM HEALTH",
+      "amount": "10+ specialties",
+      "kind": "tech"
+    },
+    {
+      "company": "AMD",
+      "amount": "Digital twin",
+      "kind": "tech"
+    },
+    {
+      "company": "FOODMARBLE",
+      "amount": "Kirin CVC",
+      "kind": "lev"
+    },
+    {
+      "company": "INTERSYSTEMS",
+      "amount": "CE IIa",
+      "kind": "reg"
+    },
+    {
+      "company": "DGRINES",
+      "amount": "Decree",
+      "kind": "reg"
+    },
+    {
+      "company": "PHILIPS",
+      "amount": "Launch",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Growth · Cardiac remote monitoring",
-    "title": "Implicity raises $40M led by IRIS with Five Arrows for its AI cardiac remote monitoring platform",
-    "deck": "Implicity aggregates, normalises and analyses data from cardiac implantable electronic devices (CIEDs) and heart failure monitoring regardless of manufacturer, with EHR integration; its algorithms, certified as medical devices and FDA-cleared, include SignalHF, which predicts heart failure risk, and an ECG Analyzer that cuts false alarms by up to 76%, with the company claiming a 26% reduction in mortality versus conventional remote monitoring. The round, led by European growth investor IRIS with Five Arrows (Rothschild & Co), will fund US commercial hiring from its Cambridge, Massachusetts base and the next generation of algorithms: proof that the value in remote monitoring, now the standard of care in cardiology, is shifting from the sensor to the vendor-agnostic software layer.",
-    "company": "Implicity",
-    "stage": "Growth",
-    "sector": "Telehealth",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.mpo-mag.com/breaking-news/implicity-secures-40-million-growth-equity-funding/"
+    "kicker": "Hospital rollout · Clinical AI",
+    "title": "Tandem Health extends its AI clinical documentation to more than ten specialties at Rotterdam's Maasstad Ziekenhuis",
+    "deck": "Tandem's assistant listens to the consultation and drafts a structured clinical note, which the physician reviews, edits and approves before it enters the patient record; the Rotterdam hospital, part of the Santeon group (seven hospitals) and the Coöperatie Zorg op Zuid, now uses it across more than ten specialties, with more than 20,000 consultations already supported according to the hospital. For the former Juvoly, CE-marked under the MDR, certified to ISO 13485, ISO 42001 and BSI C5 and claiming 10,000 care organisations in 14 countries, it shows that after its $100M raise led in September by EQT's Scaleup Europe Fund, the European AI scribe battle is now fought at whole-hospital scale, with more than 130 patient record systems already connected across Europe.",
+    "company": "Tandem Health",
+    "sector": "Clinical AI",
+    "pillar": "innovation",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://tandemhealth.ai/resources/news/tandem-partners-with-maasstad-ziekenhuis-bringing-ai-documentation-to-more-than-ten-hospital-specialties"
   },
   "milestone": {
-    "company": "medatixx",
-    "milestone": "Open FHIR interface",
-    "title": "medatixx publishes the FHIR specification of its HealthHub on Simplifier, now connected to more than 25 third-party solutions",
-    "summary": "One year after launch, the standardised gateway linking the medatixx, psyx and x.isynet practice software to external applications (digital patient history, online reception and booking, AI phone assistants, video consultations, digital initial assessment) counts more than 25 partner solutions and more than 2,000 users; since October, a 'Clinical Intelligence' module has added clinical decision support with Prof. Valmed and Praedigo.",
-    "why": "medatixx equips more than 30% of human-medicine practices in Germany (over 48,000 physicians and psychotherapists): by publishing its specification, the vendor turns its software into an integration marketplace, a direct distribution channel for startups that until now ran into the practice-software bottleneck.",
-    "place": "Germany",
-    "sector": "Medical software",
-    "signalType": "early_partnership",
-    "url": "https://www.e-health-com.de/details-unternehmensnews/ein-jahr-medatixx-healthhub-medatixx-veroeffentlicht-spezifikationen-auf-simplifier/"
+    "company": "AMD (Associazione Medici Diabetologi)",
+    "milestone": "Digital twin",
+    "title": "Italy's AMD diabetologists unveil a \"kidney digital twin\" that predicts three-year risk of chronic kidney disease",
+    "summary": "Presented at the 13th national congress of the AMD Foundation in Trieste, the model, built with Rita Zilich (Mix-x), relies on a Logic Learning Machine, an explainable AI with readable decision rules, trained on data from more than 136,000 patients in the Annali AMD database (1.5 million people with type 2 diabetes followed from 2010 to 2023). It estimates the risk of chronic kidney failure and simulates how glomerular filtration rate evolves with or without SGLT2 inhibitors; first analyses show 89% accuracy for kidney failure and 79% for albuminuria.",
+    "why": "Chronic kidney disease affects about half of people with type 2 diabetes: a tool that simulates a treatment's benefit before prescribing moves the digital twin from the lab to the consultation room. Next step: a web app for clinicians, to be tested in a group of diabetes centres, after a special mention at the Politecnico di Milano's 2026 Premio Innovazione Digitale in Sanità.",
+    "place": "Trieste",
+    "sector": "Clinical AI",
+    "signalType": "conference_abstract",
+    "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
   },
   "brefsEurope": [
-    { "company": "Spryt", "place": "Monaghan", "sector": "Clinical AI", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 3,
-      "title": "Ireland's Spryt, maker of AI receptionist Asa, named Startup of the Year at the National Startup Awards",
-      "summary": "The startup took the Grand Prix in Dublin on November 19, along with gold in the Tech and Export categories. Asa lets patients book, change and pay for appointments via SMS, WhatsApp or Messenger and helps providers anticipate no-shows; Spryt claims attendance improvements of more than 160% in the NHS, pilots in the US, Saudi Arabia and the UAE, and a strategic investment from MediDrive that valued it at $12.5M earlier this year.",
-      "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards" },
-    { "company": "HealthAI", "place": "Spain", "sector": "Clinical AI", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 2,
-      "title": "HealthAI wins the 10th Desafío e-Dea Salud with AI agents for MRI scheduling at Ramón y Cajal hospital",
-      "summary": "Its generative-AI and agent-based solution automates scheduling, calendar and incident management, anticipates no-shows and makes it easier to reassign slots, under radiologists' supervision; it beat Health Force Technologies and Omniloy before a jury from the hospital, the Pfizer Foundation and Wayra (Telefónica). The prize: €2,500 and the chance to apply for a Richi Lifesciences programme fellowship in Boston.",
-      "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/" },
-    { "company": "Assemblée nationale", "place": "Paris", "sector": "Regulatory", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "French MPs pass the 'resilience' bill transposing NIS2 at first reading, without subjecting all software vendors to it",
-      "summary": "The bill, voted on November 17, will regulate thousands of healthcare entities; MPs removed the inclusion of all software vendors, whatever their size, among essential entities, a measure that 'mainly targeted healthcare software vendors', according to rapporteur Éric Bothorel. France, taken to the CJEU for missing the October 17, 2024 deadline, is speeding up: a direct signal for healthcare cybersecurity players, whose regulated market is widening.",
-      "url": "https://www.ticsante.com/story?ID=8533" },
-    { "company": "Essex Integrated Care Board", "place": "Essex", "sector": "Telehealth", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "Essex ICB prepares a joint online consultation purchase for 204 GP practices",
-      "summary": "The health body, covering 1.9 million people, is targeting an initial two-year contract from spring 2027 to replace a patchwork of local tools; an online supplier showcase is scheduled for December 9 (registration by December 3, Find a Tender notice 109218-2026), with no value or procurement structure set yet. A consolidation tender to watch for online triage and consultation vendors.",
-      "url": "https://www.publictechnology.net/2026/11/20/health-and-social-care/essex-nhs-plans-online-consultation-investment-for-200-gps-across-county/" },
-    { "company": "Black Country Healthcare NHS Foundation Trust", "place": "Black Country", "sector": "Hospital software", "pillar": "innovation",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "Black Country Healthcare goes live with the Portasana patient portal for its mental health and community services",
-      "summary": "Rolled out under a three-year agreement, the platform lets patients manage appointments, receive reminders and digital letters and complete questionnaires; it integrates with the NHS App, the Rio electronic patient record and hybrid mail, and replaces several manual processes for clinical and admin teams across Dudley, Sandwell, Walsall and Wolverhampton.",
-      "url": "https://htworld.co.uk/news/digital-health/black-country-healthcare-introduces-new-digital-platform-to-improve-patient-access-sb26/" },
-    { "company": "Baden-Württemberg", "place": "Stuttgart", "sector": "Regulatory", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "Baden-Württemberg unveils its 'Gesundheit 2030' strategy: preventive and digital before outpatient and hospital care",
-      "summary": "Health minister Oliver Hildenbrand plans AI-assisted patient navigation, outpatient and inpatient care that is 'highly digitised and data-driven', and a shift of standardised tasks, monitoring and case management to non-physician professionals equipped with digital tools and AI. A regional roadmap that opens the door to triage and remote follow-up platforms.",
-      "url": "https://www.aerzteblatt.de/themen/e-health/baden-wurttemberg-will-versorgung-mit-strategie-gesundheit-2030-weiterentwickeln-67e677f6-386e-4f75-989e-be335eefb077" }
+    {
+      "company": "FoodMarble",
+      "place": "Dublin",
+      "sector": "Wearables",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Kirin makes Ireland's FoodMarble, which measures gut fermentation through breath, the first investment of its KIRIN VENTURES fund",
+      "summary": "Announced on November 20 (for a stake dated September 30, amount undisclosed), the deal targets the digestive health platform founded in 2015 and led by Aonghus Shortt: a pocket breath analyser and an app that match gases produced by gut fermentation with meal and symptom logs. Kirin wants to combine this data with its fermentation and microbiome expertise to co-create services in Japan, while FoodMarble plans to expand its AI-driven self-care features.",
+      "url": "https://prtimes.jp/main/html/rd/p/000001672.000073077.html"
+    },
+    {
+      "company": "InterSystems",
+      "place": "Italy",
+      "sector": "Hospital software",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "InterSystems launches IntelliCare in Italy, its AI-native hospital information system CE-marked as Class IIa",
+      "summary": "The successor to TrakCare (more than 600 hospitals in 29 countries, 14 of them in Italy) embeds an ambient-voice AI scribe that structures the note in the record, prepares test orders and visit reports and lets nurses dictate handovers, with the clinician keeping the final decision. Already adopted in Indonesia, the UAE and Saudi Arabia, it will be showcased at the Forum Risk Management in Arezzo (Nov 24-27): a comparable for scribe startups, now that EHR vendors build the feature in natively.",
+      "url": "https://www.sanita-digitale.com/in-evidenza/intersystems-intellicare-arriva-in-italia/"
+    },
+    {
+      "company": "Philips",
+      "place": "Netherlands",
+      "sector": "Imaging",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Philips launches Advanced Image Insights, a cloud platform orchestrating third-party imaging AI inside the radiologist's workflow",
+      "summary": "Announced ahead of RSNA 2026, the AWS-hosted SaaS combines Philips' advanced visualisation applications with centralised management of third-party AI algorithms, each keeping its intended use and regulatory status; connected to the HealthSuite Imaging PACS, it can for instance run incidental pulmonary embolism detection and lung nodule analysis in parallel on the same chest CT, then feed results into a structured report. A sign that distribution for radiology AI startups runs through the big OEMs' marketplaces.",
+      "url": "https://hitconsultant.net/2026/11/19/royal-philips-launches-advanced-image-insights-healthsuite-rsna-2026/"
+    },
+    {
+      "company": "DGRINES",
+      "place": "Paris",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "A decree seats France's new directorate for health research, innovation and digital on six bodies, including the CEPS",
+      "summary": "Operational since November 1, the DGRINES, which merges the digital health delegation, most of the Agence de l'innovation en santé and the \"article 51\" mission, takes over the DNS seats at the Conférence nationale de santé, the ARS steering council and the Fmis committee, and replaces the DGOS on the Comité économique des produits de santé. Its director general Lise Alter will therefore sit where health product prices, digital devices included, are negotiated.",
+      "url": "https://www.ticsante.com/story?id=8531"
+    },
+    {
+      "company": "Agences régionales de santé",
+      "place": "France",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "France renews €4.74M to fund dedicated digital health posts in its regional health agencies",
+      "summary": "An order renews this allocation from the Fonds pour la modernisation et l'investissement en santé for the posts driving the Ségur numérique, the promotion of Mon espace santé and cybersecurity in the regions; the largest envelopes (€303,800 each) go to Hauts-de-France, Martinique, Mayotte and Pays de la Loire, the smallest (€178,800) to La Réunion. Regional relays are maintained, which matters for vendors that must win adoption facility by facility.",
+      "url": "https://www.ticsante.com/story?id=8529"
+    },
+    {
+      "company": "ABN AMRO",
+      "place": "Netherlands",
+      "sector": "Fund",
+      "pillar": "marche",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "ABN AMRO warns that Dutch care organisations lagging on AI will slip into the red",
+      "summary": "According to the bank's sector report published on November 19, only one care organisation in eight uses speech recognition for documentation, which can cut documentation time by 10%; the sector's caution stems from data protection, limited experience, misdiagnosis risk and unclear liability. Protected budgets limit the pressure for now, but room to invest should shrink after next year, and those who have not automated will fall behind once competitors have lowered their costs.",
+      "url": "https://www.skipr.nl/nieuws/abn-amro-zorgorganisaties-die-achterblijven-met-ai-gaan-rode-cijfers-schrijven/"
+    }
   ],
   "brefsIntl": [
-    { "company": "Imagen Technologies", "place": "United States", "sector": "Clinical AI", "pillar": "financement",
-      "signalType": "funding_round", "strength": 4,
-      "title": "Imagen raises more than $100M in 2026 and secures access to 150 million studies to train its radiology AI",
-      "summary": "The remote radiology practice, whose radiologist headcount is doubling year on year, will fund hiring and clinical resources, and has secured rights to up to 150 million additional studies (X-ray, CT, MRI, ultrasound) to train and validate its models. A comparable for European teleradiology players betting on vertical integration of radiologists plus AI.",
-      "url": "https://www.unite.ai/imagen-raises-over-100m-in-growth-capital-for-radiologists-and-ai/" },
-    { "company": "Zane Networks", "place": "US Virgin Islands", "sector": "Health data", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "ONC makes the US Virgin Islands the first national implementation site of its TEFCA data-exchange initiative",
-      "summary": "The roughly $600,000, 12-month federal contract awarded to Team Zane (Zane Networks, net.America and CRISP Shared Services) will assess hospital and clinic readiness, deliver an interoperability, cybersecurity and governance roadmap, and support the creation of a non-profit Health Data Utility, before scaling to tribal and rural systems. A 'small territory first' model worth watching for EHDS implementation.",
-      "url": "https://hitconsultant.net/2026/11/19/usvi-selected-first-national-implementation-site-federal-hie-tefca-initiative/" }
+    {
+      "company": "Function Health",
+      "place": "United States",
+      "sector": "Digital Health",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Function Health adds personalised action plans, specialist booking and $340 family plans",
+      "summary": "The lab-testing platform (160+ tests a year) now generates, through its Medical Intelligence Lab, prioritised action plans reviewed by clinicians, lets members book an in-network specialist, offers supplements via SuppCo (acquired in May) and at-home blood draws with Getlabs at $149. A comparable for European consumer preventive-health players, who are also trying to move from one-off check-ups to ongoing subscriptions.",
+      "url": "https://hitconsultant.net/2026/11/20/function-adds-membership-benefits-action-plans-specialist-referrals-supplements-family-plans/"
+    }
   ],
   "word": {
-    "term": "No-Show Prediction",
-    "full": "No-Show Prediction",
-    "fr": "Predicting missed appointments",
-    "field": "Access to care and capacity management",
-    "definition": "AI models that estimate, for each appointment, the probability that the patient will not turn up or will cancel at the last minute, so the patient can be reminded or rebooked, or the slot reassigned, before it is lost.",
+    "term": "Digital Twin",
+    "full": "Patient Digital Twin",
+    "fr": "Patient digital twin",
+    "field": "Clinical AI and modelling",
+    "definition": "A digital representation of a patient, an organ or a disease, built from their data and models, that simulates how it will evolve and respond to treatment before acting on the real patient.",
     "parts": [
-      { "label": "Data", "role": "attendance history, appointment type and non-clinical factors" },
-      { "label": "Risk score", "role": "the probability of a no-show or late cancellation, appointment by appointment" },
-      { "label": "Action", "role": "targeted reminders, back-up bookings or slot reassignment" }
+      {
+        "label": "Data",
+        "role": "the patient's or a cohort's tests, imaging, lab results and history"
+      },
+      {
+        "label": "Model",
+        "role": "the AI or physics-based simulation that reproduces the organ or disease"
+      },
+      {
+        "label": "Scenarios",
+        "role": "treatment options tested virtually to compare their effects"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Training", "t": "The model learns from the organisation's attended, missed and last-minute cancelled appointments." },
-      { "n": "2", "h": "Scoring", "t": "Each upcoming appointment gets a risk score, letting booking teams focus on the cases to watch." },
-      { "n": "3", "h": "Intervention", "t": "High-risk appointments trigger personalised reminders (SMS, WhatsApp, call) or slot reassignment, under the supervision of clinical teams." }
+      {
+        "n": "1",
+        "h": "Build",
+        "t": "The model is built from the patient's data (CT, MRI, lab results) or trained on large cohorts, such as the 136,000 patients AMD used for its kidney twin."
+      },
+      {
+        "n": "2",
+        "h": "Simulate",
+        "t": "The twin projects how the organ or disease evolves and tests scenarios: with or without treatment, or a device's performance across a virtual population."
+      },
+      {
+        "n": "3",
+        "h": "Decide",
+        "t": "The clinician or manufacturer relies on these forecasts to choose a strategy, plan a procedure or flag at-risk patients, with the decision remaining human."
+      }
     ],
-    "why": "Missed appointments cost the NHS more than £2bn a year according to Deep Medical, which counts 8 million missed appointments and 4 million short-notice cancellations, and US providers $150bn a year according to Spryt. For a VC, it is one of the few AI use cases with an immediately measurable ROI in recovered slots, sold to operations leaders rather than clinicians, and a natural complement to conversational booking agents.",
+    "why": "The European Commission has invested more than €100M in its Virtual Human Twins initiative, with a dedicated platform funded by the Digital Europe programme, and the first twins are moving from labs into the consultation room. For a VC the appeal is twofold: decision-support tools that personalise treatment, and \"virtual\" trials that cut the cost and risk of device development, two markets where value concentrates in data and clinical validation.",
     "startups": [
-      { "name": "Spryt", "use": "AI receptionist Asa (SMS, WhatsApp, Messenger) that predicts no-shows; claims attendance gains of more than 160% in the NHS, 2026 National Startup Awards Grand Prix winner", "place": "Monaghan, Ireland" },
-      { "name": "Deep Medical", "use": "AI that flags the risk of non-attendance and short-notice cancellation, live at Mid and South Essex NHS FT where it halves DNAs after text reminders", "place": "United Kingdom" },
-      { "name": "HealthAI", "use": "AI scheduling agents that anticipate no-shows for MRI appointments at Ramón y Cajal hospital; winner of the 2026 Desafío e-Dea Salud", "place": "Spain" }
+      {
+        "name": "adsilico",
+        "use": "University of Leeds spinout whose Virtual Chimera technology uses AI to generate virtual hearts and vessels for testing medical devices; £10M Series A led by PXN Ventures in October 2026",
+        "place": "Leeds, UK"
+      },
+      {
+        "name": "inHEART",
+        "use": "AI-generated digital twin of the heart built from CT or MRI scans to plan cardiac ablations; raised $11M to accelerate commercialisation of its software",
+        "place": "Pessac, France"
+      },
+      {
+        "name": "Integratome",
+        "use": "SaaS platform that assembles questionnaires, measurements and lab results into a digital health twin (73 conditions modelled) to prepare check-ups, with a simulator of lifestyle-change effects",
+        "place": "France"
+      }
     ],
     "sources": [
-      { "publisher": "NHS Innovation Accelerator", "title": "Deep Medical - AI-Driven Solutions to Reduce Missed Appointments and Enhance Healthcare Efficiency", "url": "https://nhsaccelerator.com/innovation/deep-medical" },
-      { "publisher": "Silicon Republic", "title": "Monaghan's Spryt wins Grand Prix at 2026 National Startup Awards", "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards" },
-      { "publisher": "Capital-Riesgo.es", "title": "HealthAI gana la 10.ª edición del Desafío e-Dea Salud", "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/" }
+      {
+        "publisher": "Commission européenne",
+        "title": "European Virtual Human Twins (VHT) Initiative",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/virtual-human-twins"
+      },
+      {
+        "publisher": "Sanità Digitale",
+        "title": "Kidney Digital Twin: stima il rischio renale nel diabete",
+        "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
+      },
+      {
+        "publisher": "Intelligent Health Tech",
+        "title": "Leeds AI spinout raises £10 million to assess medical device performance in virtual patients before they reach real ones",
+        "url": "https://www.intelligenthealth.tech/2026/10/27/leeds-ai-spinout-raises-10m-to-assess-medical-device-performance-in-virtual-patients-before-they-reach-real-ones/"
+      },
+      {
+        "publisher": "EIT",
+        "title": "inHEART secures USD 11 million to optimise cardiac care",
+        "url": "https://eit.europa.eu/news-events/news/inheart-secures-usd-11-million-optimise-cardiac-care"
+      }
     ]
   }
 }

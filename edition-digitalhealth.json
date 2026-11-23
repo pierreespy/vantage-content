@@ -1,106 +1,216 @@
 {
-  "dateLong": "22 nov. 2026",
+  "dateLong": "23 nov. 2026",
   "ticker": [
-    { "company": "IMPLICITY", "amount": "$40M", "kind": "lev" },
-    { "company": "SPRYT", "amount": "Grand Prix", "kind": "new" },
-    { "company": "MEDATIXX", "amount": "25+ apps FHIR", "kind": "tech" },
-    { "company": "ASSEMBLÉE NATIONALE", "amount": "NIS2", "kind": "reg" },
-    { "company": "HEALTHAI", "amount": "Lauréat", "kind": "new" },
-    { "company": "BLACK COUNTRY", "amount": "Mise en service", "kind": "tech" }
+    {
+      "company": "TANDEM HEALTH",
+      "amount": "10+ spécialités",
+      "kind": "tech"
+    },
+    {
+      "company": "AMD",
+      "amount": "Jumeau numérique",
+      "kind": "tech"
+    },
+    {
+      "company": "FOODMARBLE",
+      "amount": "CVC Kirin",
+      "kind": "lev"
+    },
+    {
+      "company": "INTERSYSTEMS",
+      "amount": "CE IIa",
+      "kind": "reg"
+    },
+    {
+      "company": "DGRINES",
+      "amount": "Décret",
+      "kind": "reg"
+    },
+    {
+      "company": "PHILIPS",
+      "amount": "Lancement",
+      "kind": "tech"
+    }
   ],
   "lead": {
-    "kicker": "Growth · Télésurveillance cardiaque",
-    "title": "Implicity lève 40 M$ menés par IRIS avec Five Arrows pour sa plateforme d'IA de télésurveillance cardiaque",
-    "deck": "Implicity agrège, normalise et analyse, quel que soit le fabricant, les données des dispositifs cardiaques implantables (CIED) et du suivi de l'insuffisance cardiaque, avec une intégration aux dossiers patients ; ses algorithmes certifiés dispositifs médicaux et autorisés par la FDA incluent SignalHF, qui prédit le risque d'insuffisance cardiaque, et un ECG Analyzer qui réduit jusqu'à 76 % les fausses alertes, la société revendiquant 26 % de mortalité en moins par rapport à une télésurveillance conventionnelle. Le tour, mené par le fonds européen de growth IRIS avec Five Arrows (Rothschild & Co), financera des recrutements commerciaux aux États-Unis depuis Cambridge (Massachusetts) et la prochaine génération d'algorithmes : la preuve que la valeur de la télésurveillance, devenue standard de soins en cardiologie, se déplace du capteur vers la couche logicielle agnostique.",
-    "company": "Implicity",
-    "stage": "Growth",
-    "sector": "Télésanté",
-    "pillar": "financement",
-    "signalType": "funding_round",
-    "strength": 4,
-    "url": "https://www.mpo-mag.com/breaking-news/implicity-secures-40-million-growth-equity-funding/"
+    "kicker": "Déploiement hospitalier · IA clinique",
+    "title": "Tandem Health étend sa documentation clinique par IA à plus de dix spécialités du Maasstad Ziekenhuis de Rotterdam",
+    "deck": "L'assistant de Tandem écoute la consultation et rédige une note clinique structurée, que le médecin relit, corrige et valide avant son entrée dans le dossier patient ; l'hôpital rotterdamois, membre du groupe Santeon (sept hôpitaux) et de la Coöperatie Zorg op Zuid, l'utilise désormais dans plus de dix spécialités, avec plus de 20 000 consultations déjà accompagnées selon l'établissement. Pour l'ex-Juvoly, marquée CE au titre du MDR, certifiée ISO 13485, ISO 42001 et BSI C5 et revendiquant 10 000 organisations de soins dans 14 pays, c'est la preuve qu'après sa levée de 100 M$ menée en septembre par le Scaleup Europe Fund d'EQT, la bataille européenne des scribes IA se joue désormais à l'échelle de l'hôpital entier, avec plus de 130 logiciels de dossier patient déjà connectés en Europe.",
+    "company": "Tandem Health",
+    "sector": "IA clinique",
+    "pillar": "innovation",
+    "signalType": "early_partnership",
+    "strength": 3,
+    "url": "https://tandemhealth.ai/resources/news/tandem-partners-with-maasstad-ziekenhuis-bringing-ai-documentation-to-more-than-ten-hospital-specialties"
   },
   "milestone": {
-    "company": "medatixx",
-    "milestone": "Interface FHIR ouverte",
-    "title": "medatixx publie sur Simplifier la spécification FHIR de son HealthHub, branché à plus de 25 solutions tierces",
-    "summary": "Un an après son lancement, la passerelle standardisée qui relie les logiciels de cabinet medatixx, psyx et x.isynet à des applications externes (anamnèse numérique, accueil et prise de rendez-vous en ligne, assistance téléphonique par IA, vidéoconsultation, première évaluation numérique) compte plus de 25 solutions partenaires et plus de 2 000 utilisateurs ; depuis octobre, un volet « Clinical Intelligence » y ajoute l'aide à la décision clinique avec Prof. Valmed et Praedigo.",
-    "why": "medatixx équipe plus de 30 % des cabinets de médecine humaine en Allemagne (plus de 48 000 médecins et psychothérapeutes) : en rendant publique sa spécification, l'éditeur transforme son logiciel en place de marché d'intégration, soit un canal de distribution direct pour les startups qui butaient jusqu'ici sur le verrou des logiciels de cabinet.",
-    "place": "Allemagne",
-    "sector": "Logiciel médical",
-    "signalType": "early_partnership",
-    "url": "https://www.e-health-com.de/details-unternehmensnews/ein-jahr-medatixx-healthhub-medatixx-veroeffentlicht-spezifikationen-auf-simplifier/"
+    "company": "AMD (Associazione Medici Diabetologi)",
+    "milestone": "Jumeau numérique",
+    "title": "Les diabétologues italiens de l'AMD présentent un « jumeau numérique du rein » qui prédit à trois ans le risque de maladie rénale chronique",
+    "summary": "Présenté au XIIIe congrès national de la Fondation AMD à Trieste, le modèle, construit avec Rita Zilich (Mix-x), repose sur une Logic Learning Machine, une IA explicable aux règles de décision lisibles, entraînée sur les données de plus de 136 000 patients issues des Annali AMD (1,5 million de diabétiques de type 2 suivis entre 2010 et 2023). Il estime le risque d'insuffisance rénale chronique et simule l'évolution du débit de filtration glomérulaire avec ou sans inhibiteurs de SGLT2 ; les premières analyses affichent 89 % de précision sur l'insuffisance rénale et 79 % sur l'albuminurie.",
+    "why": "La maladie rénale chronique touche environ la moitié des diabétiques de type 2 : un outil qui simule le bénéfice d'un traitement avant de le prescrire fait passer le jumeau numérique du laboratoire à la consultation. Prochaine étape : une application web pour les soignants, testée dans un groupe de centres de diabétologie, et une mention spéciale déjà obtenue au Premio Innovazione Digitale in Sanità 2026 du Politecnico di Milano.",
+    "place": "Trieste",
+    "sector": "IA clinique",
+    "signalType": "conference_abstract",
+    "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
   },
   "brefsEurope": [
-    { "company": "Spryt", "place": "Monaghan", "sector": "IA clinique", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 3,
-      "title": "L'irlandaise Spryt, éditrice du réceptionniste IA Asa, sacrée Startup of the Year aux National Startup Awards",
-      "summary": "La pousse a remporté le 19 novembre à Dublin le Grand Prix ainsi que l'or dans les catégories Tech et Export. Asa permet de réserver, modifier et payer un rendez-vous par SMS, WhatsApp ou Messenger et aide les soignants à anticiper les absences ; Spryt revendique plus de 160 % d'amélioration de l'assiduité dans le NHS, des pilotes aux États-Unis, en Arabie saoudite et aux Émirats, et un investissement stratégique de MediDrive qui la valorisait 12,5 M$ plus tôt cette année.",
-      "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards" },
-    { "company": "HealthAI", "place": "Espagne", "sector": "IA clinique", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 2,
-      "title": "HealthAI remporte le 10e Desafío e-Dea Salud avec des agents d'IA pour la convocation aux IRM de l'hôpital Ramón y Cajal",
-      "summary": "Sa solution d'IA générative et d'agents automatise la convocation, la gestion des agendas et des incidents, anticipe les absences et facilite la réattribution des créneaux, sous le contrôle des radiologues ; elle s'est imposée face à Health Force Technologies et Omniloy devant un jury de l'hôpital, de la Fondation Pfizer et de Wayra (Telefónica). À la clé, 2 500 € et la possibilité de candidater à une bourse du programme Richi Lifesciences à Boston.",
-      "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/" },
-    { "company": "Assemblée nationale", "place": "Paris", "sector": "Réglementaire", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "Les députés adoptent en première lecture la loi « résilience » qui transpose NIS2, sans y assujettir tous les éditeurs de logiciels",
-      "summary": "Le texte, voté le 17 novembre, régulera des milliers d'entités du secteur de la santé ; les députés ont supprimé l'inclusion de tous les éditeurs de logiciels, quelle que soit leur taille, parmi les entités essentielles, une mesure qui « visait essentiellement les éditeurs du monde de la santé » selon le rapporteur Éric Bothorel. La France, poursuivie devant la CJUE pour avoir manqué l'échéance du 17 octobre 2024, accélère : un signal direct pour les acteurs de la cybersécurité santé, dont le marché réglementé s'élargit.",
-      "url": "https://www.ticsante.com/story?ID=8533" },
-    { "company": "Essex Integrated Care Board", "place": "Essex", "sector": "Télésanté", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "L'ICB d'Essex prépare un achat groupé de consultation en ligne pour 204 cabinets de médecine générale",
-      "summary": "L'autorité de santé, qui couvre 1,9 million d'habitants, vise un premier contrat de deux ans à partir du printemps 2027 pour remplacer un patchwork d'outils locaux ; une présentation des fournisseurs est prévue en ligne le 9 décembre (inscriptions avant le 3, avis Find a Tender 109218-2026), sans montant ni structure d'achat arrêtés. Un marché de consolidation à suivre pour les éditeurs de triage et de consultation en ligne.",
-      "url": "https://www.publictechnology.net/2026/11/20/health-and-social-care/essex-nhs-plans-online-consultation-investment-for-200-gps-across-county/" },
-    { "company": "Black Country Healthcare NHS Foundation Trust", "place": "Black Country", "sector": "Logiciel hospitalier", "pillar": "innovation",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "Black Country Healthcare met en service le portail patient Portasana pour ses services de santé mentale et communautaires",
-      "summary": "Déployée dans le cadre d'un accord de trois ans, la plateforme permet aux patients de gérer leurs rendez-vous, de recevoir rappels et courriers numériques et de remplir des questionnaires ; elle s'intègre à l'app NHS, au dossier patient Rio et au courrier hybride, et remplace plusieurs processus manuels des équipes cliniques et administratives à Dudley, Sandwell, Walsall et Wolverhampton.",
-      "url": "https://htworld.co.uk/news/digital-health/black-country-healthcare-introduces-new-digital-platform-to-improve-patient-access-sb26/" },
-    { "company": "Baden-Württemberg", "place": "Stuttgart", "sector": "Réglementaire", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "Le Bade-Wurtemberg présente sa stratégie « Gesundheit 2030 » : le préventif et le numérique avant l'ambulatoire et l'hôpital",
-      "summary": "Le ministre de la Santé Oliver Hildenbrand prévoit une orientation des patients assistée par IA, des soins ambulatoires et hospitaliers « fortement numérisés et pilotés par les données » et le transfert de tâches standardisées, de monitoring ou de case management vers des professionnels non médecins outillés par le numérique et l'IA. Une feuille de route régionale qui ouvre la porte aux plateformes de triage et de télésuivi.",
-      "url": "https://www.aerzteblatt.de/themen/e-health/baden-wurttemberg-will-versorgung-mit-strategie-gesundheit-2030-weiterentwickeln-67e677f6-386e-4f75-989e-be335eefb077" }
+    {
+      "company": "FoodMarble",
+      "place": "Dublin",
+      "sector": "Wearables",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Kirin fait de l'irlandaise FoodMarble, qui mesure la fermentation intestinale par le souffle, le premier investissement de son fonds KIRIN VENTURES",
+      "summary": "Annoncée le 20 novembre (pour une prise de participation datée du 30 septembre, montant non divulgué), l'opération vise la plateforme de santé digestive fondée en 2015 et dirigée par Aonghus Shortt : un analyseur de souffle de poche et une application qui croisent les gaz produits par la fermentation intestinale avec le journal des repas et des symptômes. Kirin veut combiner ces données à son expertise en fermentation et microbiote pour co-créer des services au Japon, tandis que FoodMarble prévoit d'enrichir ses fonctions d'auto-soin par IA.",
+      "url": "https://prtimes.jp/main/html/rd/p/000001672.000073077.html"
+    },
+    {
+      "company": "InterSystems",
+      "place": "Italie",
+      "sector": "Logiciel hospitalier",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "InterSystems lance en Italie IntelliCare, son système d'information hospitalier à IA native marqué CE en classe IIa",
+      "summary": "Héritier de TrakCare (plus de 600 hôpitaux dans 29 pays, dont 14 en Italie), le système intègre un scribe IA à voix ambiante qui structure la note dans le dossier, prépare les prescriptions d'examens et les comptes rendus et permet aux infirmiers de dicter leurs transmissions, le clinicien gardant la décision finale. Déjà adopté en Indonésie, aux Émirats et en Arabie saoudite, il sera présenté au Forum Risk Management d'Arezzo (24-27 novembre) : un comparable pour les startups de scribes, que les éditeurs de DPI intègrent désormais en natif.",
+      "url": "https://www.sanita-digitale.com/in-evidenza/intersystems-intellicare-arriva-in-italia/"
+    },
+    {
+      "company": "Philips",
+      "place": "Pays-Bas",
+      "sector": "Imagerie",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Philips lance Advanced Image Insights, une plateforme cloud qui orchestre les IA d'imagerie tierces dans le flux du radiologue",
+      "summary": "Annoncé avant le RSNA 2026, ce service SaaS hébergé sur AWS réunit les applications de visualisation avancée de Philips et le pilotage centralisé d'algorithmes d'IA de tiers, chacun conservant son usage prévu et son statut réglementaire ; branché au PACS HealthSuite Imaging, il peut par exemple lancer en parallèle sur un même scanner thoracique la détection d'une embolie pulmonaire fortuite et l'analyse de nodules, puis verser les résultats dans un compte rendu structuré. Un signal que la distribution des startups d'IA radiologique passe par les places de marché des grands constructeurs.",
+      "url": "https://hitconsultant.net/2026/11/19/royal-philips-launches-advanced-image-insights-healthsuite-rsna-2026/"
+    },
+    {
+      "company": "DGRINES",
+      "place": "Paris",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "Un décret installe la nouvelle direction de la recherche, de l'innovation et du numérique en santé dans six instances, dont le CEPS",
+      "summary": "Entrée en fonction le 1er novembre, la DGRINES, qui regroupe la délégation au numérique en santé, l'essentiel de l'Agence de l'innovation en santé et la mission « article 51 », reprend les sièges de la DNS à la Conférence nationale de santé, au conseil de pilotage des ARS et à la commission du Fmis, et remplace la DGOS au Comité économique des produits de santé. Sa directrice générale Lise Alter siégera donc là où se négocient les prix des produits de santé, dispositifs numériques compris.",
+      "url": "https://www.ticsante.com/story?id=8531"
+    },
+    {
+      "company": "Agences régionales de santé",
+      "place": "France",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "L'État reconduit 4,74 M€ pour financer les postes dédiés au numérique en santé dans les ARS",
+      "summary": "Un arrêté renouvelle cette dotation du Fonds pour la modernisation et l'investissement en santé pour les emplois qui portent en région le Ségur numérique, la promotion de Mon espace santé et la cybersécurité ; les plus grosses enveloppes (303 800 € chacune) vont aux Hauts-de-France, à la Martinique, à Mayotte et aux Pays de la Loire, la plus petite (178 800 €) à La Réunion. Des relais régionaux maintenus, utiles aux éditeurs qui doivent faire adopter leurs outils établissement par établissement.",
+      "url": "https://www.ticsante.com/story?id=8529"
+    },
+    {
+      "company": "ABN AMRO",
+      "place": "Pays-Bas",
+      "sector": "Fonds",
+      "pillar": "marche",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "ABN AMRO prévient que les organisations de soins néerlandaises en retard sur l'IA passeront dans le rouge",
+      "summary": "Selon le rapport sectoriel de la banque publié le 19 novembre, une organisation de soins sur huit seulement utilise la reconnaissance vocale pour la documentation, qui peut réduire de 10 % le temps de saisie ; la prudence du secteur tient à la protection des données, au manque d'expérience, au risque d'erreur diagnostique et à la responsabilité floue. Les budgets protégés limitent la pression pour l'instant, mais la marge d'investissement devrait se réduire après l'an prochain, et ceux qui n'auront pas automatisé décrocheront lorsque leurs concurrents auront abaissé leurs coûts.",
+      "url": "https://www.skipr.nl/nieuws/abn-amro-zorgorganisaties-die-achterblijven-met-ai-gaan-rode-cijfers-schrijven/"
+    }
   ],
   "brefsIntl": [
-    { "company": "Imagen Technologies", "place": "États-Unis", "sector": "IA clinique", "pillar": "financement",
-      "signalType": "funding_round", "strength": 4,
-      "title": "Imagen lève plus de 100 M$ en 2026 et s'assure l'accès à 150 millions d'examens pour entraîner ses IA de radiologie",
-      "summary": "Le cabinet de radiologie à distance, dont l'effectif de radiologues double chaque année, financera recrutements et outils cliniques, et a obtenu les droits sur jusqu'à 150 millions d'examens supplémentaires (radiographie, scanner, IRM, échographie) pour entraîner et valider ses modèles. Un comparable pour les téléradiologues européens qui misent sur l'intégration verticale médecins + IA.",
-      "url": "https://www.unite.ai/imagen-raises-over-100m-in-growth-capital-for-radiologists-and-ai/" },
-    { "company": "Zane Networks", "place": "Îles Vierges américaines", "sector": "Données de santé", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "L'ONC fait des Îles Vierges américaines le premier site pilote national de son programme d'échange de données sous TEFCA",
-      "summary": "Le contrat fédéral d'environ 600 000 $ sur 12 mois, confié à Team Zane (Zane Networks, net.America et CRISP Shared Services), doit évaluer la maturité des hôpitaux et cliniques, livrer une feuille de route interopérabilité, cybersécurité et gouvernance, et soutenir la création d'une Health Data Utility à but non lucratif, avant un déploiement vers les systèmes tribaux et ruraux. Un modèle de « petit territoire d'abord » utile à observer pour la mise en œuvre de l'EHDS.",
-      "url": "https://hitconsultant.net/2026/11/19/usvi-selected-first-national-implementation-site-federal-hie-tefca-initiative/" }
+    {
+      "company": "Function Health",
+      "place": "États-Unis",
+      "sector": "Digital Health",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Function Health ajoute plans d'action personnalisés, prise de rendez-vous chez des spécialistes et forfaits familiaux à 340 $",
+      "summary": "La plateforme de bilans biologiques (plus de 160 analyses par an) génère désormais, via son Medical Intelligence Lab, des plans d'action priorisés relus par des cliniciens, permet de réserver un spécialiste dans son réseau d'assurance, propose des compléments alimentaires via SuppCo (rachetée en mai) et des prélèvements à domicile avec Getlabs à 149 $. Un comparable pour les acteurs européens de la médecine préventive grand public, qui cherchent eux aussi à passer du bilan ponctuel à l'abonnement de suivi.",
+      "url": "https://hitconsultant.net/2026/11/20/function-adds-membership-benefits-action-plans-specialist-referrals-supplements-family-plans/"
+    }
   ],
   "word": {
-    "term": "No-Show Prediction",
-    "full": "No-Show Prediction (prédiction des rendez-vous non honorés)",
-    "fr": "Prédiction des absences aux rendez-vous",
-    "field": "Accès aux soins et gestion des capacités",
-    "definition": "Des modèles d'IA qui estiment, pour chaque rendez-vous, la probabilité que le patient ne vienne pas ou annule au dernier moment, afin de le relancer, de reprogrammer ou de réattribuer le créneau avant qu'il ne soit perdu.",
+    "term": "Digital Twin",
+    "full": "Patient Digital Twin (jumeau numérique du patient)",
+    "fr": "Jumeau numérique du patient",
+    "field": "IA clinique et modélisation",
+    "definition": "Une représentation numérique d'un patient, d'un organe ou d'une maladie, construite à partir de ses données et de modèles, qui permet de simuler son évolution et sa réponse à un traitement avant d'agir sur le vrai patient.",
     "parts": [
-      { "label": "Données", "role": "l'historique de présence, le type de consultation et des facteurs non cliniques" },
-      { "label": "Score de risque", "role": "la probabilité d'absence ou d'annulation tardive, rendez-vous par rendez-vous" },
-      { "label": "Action", "role": "la relance ciblée, la réservation de secours ou la réattribution du créneau" }
+      {
+        "label": "Données",
+        "role": "les examens, l'imagerie, la biologie et l'historique du patient ou d'une cohorte"
+      },
+      {
+        "label": "Modèle",
+        "role": "l'IA ou la simulation physique qui reproduit l'organe ou la maladie"
+      },
+      {
+        "label": "Scénarios",
+        "role": "les options de traitement testées virtuellement pour comparer leurs effets"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Apprentissage", "t": "Le modèle s'entraîne sur les rendez-vous honorés, manqués et annulés à la dernière minute de l'établissement." },
-      { "n": "2", "h": "Scoring", "t": "Chaque rendez-vous à venir reçoit un score de risque, qui permet aux équipes de prise de rendez-vous de cibler les cas à surveiller." },
-      { "n": "3", "h": "Intervention", "t": "Les rendez-vous à risque déclenchent des relances personnalisées (SMS, WhatsApp, appel) ou la réaffectation du créneau, sous contrôle des équipes cliniques." }
+      {
+        "n": "1",
+        "h": "Construction",
+        "t": "Le modèle est bâti à partir des données du patient (scanner, IRM, biologie) ou entraîné sur de grandes cohortes, comme les 136 000 patients utilisés par l'AMD pour son jumeau du rein."
+      },
+      {
+        "n": "2",
+        "h": "Simulation",
+        "t": "Le jumeau projette l'évolution de l'organe ou de la maladie et teste des scénarios : avec ou sans traitement, ou les performances d'un dispositif sur une population virtuelle."
+      },
+      {
+        "n": "3",
+        "h": "Décision",
+        "t": "Le clinicien ou l'industriel s'appuie sur ces prévisions pour choisir une stratégie, planifier un geste ou identifier les patients à risque, la décision restant humaine."
+      }
     ],
-    "why": "Les rendez-vous manqués coûtent plus de 2 Md£ par an au NHS selon Deep Medical, qui recense 8 millions d'absences et 4 millions d'annulations tardives, et 150 Md$ par an aux prestataires américains selon Spryt. Pour un VC, c'est l'un des rares cas d'usage de l'IA au ROI immédiatement mesurable en créneaux récupérés, vendu aux directions des opérations plutôt qu'aux cliniciens, et qui se combine naturellement avec les agents conversationnels de prise de rendez-vous.",
+    "why": "La Commission européenne a investi plus de 100 M€ dans son initiative Virtual Human Twins, avec une plateforme dédiée financée par le programme Digital Europe, et les premiers jumeaux sortent des laboratoires vers la consultation. Pour un VC, l'intérêt est double : des outils d'aide à la décision qui personnalisent le traitement, et des essais « virtuels » qui réduisent le coût et le risque du développement de dispositifs, deux marchés où la valeur se concentre sur la donnée et la validation clinique.",
     "startups": [
-      { "name": "Spryt", "use": "Réceptionniste IA Asa (SMS, WhatsApp, Messenger) qui prédit les absences ; plus de 160 % d'assiduité en plus revendiqués dans le NHS, Grand Prix des National Startup Awards 2026", "place": "Monaghan, Irlande" },
-      { "name": "Deep Medical", "use": "IA qui identifie le risque d'absence et d'annulation tardive, en service à Mid and South Essex NHS FT où elle divise par deux les absences après relance par SMS", "place": "Royaume-Uni" },
-      { "name": "HealthAI", "use": "Agents d'IA de convocation qui anticipent les absences aux IRM de l'hôpital Ramón y Cajal ; lauréate du Desafío e-Dea Salud 2026", "place": "Espagne" }
+      {
+        "name": "adsilico",
+        "use": "Spin-off de l'université de Leeds dont la technologie Virtual Chimera génère par IA des cœurs et vaisseaux virtuels pour tester les dispositifs médicaux ; Series A de 10 M£ menée par PXN Ventures en octobre 2026",
+        "place": "Leeds, Royaume-Uni"
+      },
+      {
+        "name": "inHEART",
+        "use": "Jumeau numérique du cœur créé par IA à partir de scanners ou d'IRM pour planifier les ablations cardiaques ; a levé 11 M$ pour accélérer la commercialisation de son logiciel",
+        "place": "Pessac, France"
+      },
+      {
+        "name": "Integratome",
+        "use": "Plateforme SaaS qui assemble questionnaires, mesures et biologie en jumeau numérique de santé (73 pathologies modélisées) pour préparer les bilans, avec simulateur d'effets des changements de mode de vie",
+        "place": "France"
+      }
     ],
     "sources": [
-      { "publisher": "NHS Innovation Accelerator", "title": "Deep Medical - AI-Driven Solutions to Reduce Missed Appointments and Enhance Healthcare Efficiency", "url": "https://nhsaccelerator.com/innovation/deep-medical" },
-      { "publisher": "Silicon Republic", "title": "Monaghan's Spryt wins Grand Prix at 2026 National Startup Awards", "url": "https://www.siliconrepublic.com/start-ups/monaghans-spryt-wins-gran-prix-at-2026-national-startup-awards" },
-      { "publisher": "Capital-Riesgo.es", "title": "HealthAI gana la 10.ª edición del Desafío e-Dea Salud", "url": "https://capital-riesgo.es/es/articles/healthai-gana-la-10-edici-n-del-desaf-o-e-dea-salud/" }
+      {
+        "publisher": "Commission européenne",
+        "title": "European Virtual Human Twins (VHT) Initiative",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/virtual-human-twins"
+      },
+      {
+        "publisher": "Sanità Digitale",
+        "title": "Kidney Digital Twin: stima il rischio renale nel diabete",
+        "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
+      },
+      {
+        "publisher": "Intelligent Health Tech",
+        "title": "Leeds AI spinout raises £10 million to assess medical device performance in virtual patients before they reach real ones",
+        "url": "https://www.intelligenthealth.tech/2026/10/27/leeds-ai-spinout-raises-10m-to-assess-medical-device-performance-in-virtual-patients-before-they-reach-real-ones/"
+      },
+      {
+        "publisher": "EIT",
+        "title": "inHEART secures USD 11 million to optimise cardiac care",
+        "url": "https://eit.europa.eu/news-events/news/inheart-secures-usd-11-million-optimise-cardiac-care"
+      }
     ]
   }
 }
