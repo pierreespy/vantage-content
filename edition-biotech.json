@@ -1,132 +1,122 @@
 {
-  "dateLong": "22 nov. 2026",
+  "dateLong": "23 nov. 2026",
   "ticker": [
-    { "company": "EVOTEC", "amount": "IND", "kind": "reg" },
-    { "company": "SANOFI", "amount": "FDA", "kind": "reg" },
-    { "company": "NUCANA", "amount": "Préclinique", "kind": "tech" },
-    { "company": "ERASCA", "amount": "ORR 44 %", "kind": "tech" },
-    { "company": "NANOLOGICA", "amount": "SEK 85,7M", "kind": "lev" },
-    { "company": "VITRIVAX", "amount": "$87M", "kind": "lev" }
+    { "company": "CARSGEN", "amount": "3 RC / 6", "kind": "tech" },
+    { "company": "ABIVAX", "amount": "−17 %", "kind": "tech" },
+    { "company": "CAPRICOR", "amount": "CRL", "kind": "reg" },
+    { "company": "THÉA", "amount": "€150M", "kind": "lev" },
+    { "company": "REVMED", "amount": "ORR 61 %", "kind": "tech" },
+    { "company": "EVAXION", "amount": "Recentrage", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Feu vert IND · Dégradation ciblée",
-    "title": "Evotec et Bristol Myers Squibb obtiennent de la FDA une deuxième IND pour une colle moléculaire CELMoD issue de leur alliance",
-    "deck": "Annoncée le 19 novembre par la société de Hambourg, l'autorisation de la FDA porte sur un modulateur de la ligase E3 céréblon (CELMoD), dont le nom et l'indication ne sont pas dévoilés ; un essai de phase 1 doit démarrer en 2027, alors que le premier candidat de l'alliance est en phase 1 depuis mars 2026 dans le cancer du rein à cellules claires avancé. Née en 2018 avec Celgene puis élargie en 2022, la collaboration combine les plateformes PanOmics et PanHunter et l'IA d'Evotec avec la chimiothèque CELMoD de BMS : cette deuxième IND valide un modèle de découverte « industrialisé » des colles moléculaires, du criblage assisté par IA jusqu'à la clinique.",
-    "company": "Evotec",
-    "sector": "Oncologie",
+    "kicker": "Vendeur à découvert · Immunologie",
+    "title": "Abivax chute de 17 % à Paris après l'attaque du vendeur à découvert Scorpion Capital contre l'obéfazimod, à quelques semaines du dépôt FDA",
+    "deck": "Le 20 novembre, Scorpion Capital, qui a déclaré une position vendeuse, a qualifié de « toxine » le candidat oral d'Abivax dans la rectocolite hémorragique : lipophilie comparée à celle de pesticides interdits, tests de laboratoire qu'il a lui-même commandés suggérant un risque photocarcinogène, interrogations sur le suivi de la sécurité cutanée et sur des études chinoises. Abivax répond que le rapport contient « de nombreuses déclarations factuellement inexactes et trompeuses », souligne que certaines études citées ont été financées par Scorpion et maintient sa demande d'autorisation auprès de la FDA avant la fin de l'année : un test de solidité pour l'actif le plus suivi de la biotech française, dont l'action recule de 48 % depuis janvier.",
+    "company": "Abivax",
+    "sector": "Immunologie",
     "pillar": "marche",
-    "signalType": "regulatory_milestone",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://boerse.de/nachrichten/EQS-News-Evotec-und-Bristol-Myers-Squibb-erreichen-zweite-IND-Freigabe-in-strategischer-Partnerschaft-zur-Protein-Degradation/38727616"
+    "url": "https://www.briefs.co/news/short-seller-calls-abivax-drug-a-toxin-shares-slide-17-in-pa/"
   },
   "milestone": {
-    "company": "Sanofi",
-    "milestone": "Approbation FDA",
-    "title": "La FDA approuve Infilbray (venglustat), premier traitement des symptômes neurologiques de la maladie de Gaucher de type 3",
-    "summary": "Pilule quotidienne capable de franchir la barrière hémato-encéphalique, cet inhibiteur de la glucosylcéramide synthase est autorisé chez l'adulte et l'enfant de plus de 15 kg. Dans l'essai LEAP2MONO, il a amélioré de façon significative les scores neurologiques (SARA, RBANS) à 52 semaines face aux perfusions de Cerezyme, tout en faisant jeu égal sur la rate, le foie et l'hémoglobine.",
-    "why": "Les enzymes de substitution ne passent pas dans le cerveau : une petite molécule qui y parvient ouvre la voie aux formes neurologiques des maladies lysosomales. Un comparable à relativiser — le venglustat a échoué dans Parkinson, la maladie de Fabry et la gangliosidose GM2, et les analystes ne lui prêtent plus que 300 à 500 M$ de ventes annuelles au pic ; il reste en examen dans l'UE et au Japon.",
-    "place": "Paris",
-    "sector": "Maladies rares",
-    "signalType": "regulatory_milestone",
-    "url": "https://pharmaphorum.com/news/fda-clears-sanofis-type-3-gaucher-therapy-infilbray"
+    "company": "CARsgen Therapeutics",
+    "milestone": "1res données cliniques",
+    "title": "CARsgen publie les premières données humaines de CT1182, CAR-T anti-CD19/CD20 fabriqué directement dans le corps du patient",
+    "summary": "Une seule perfusion intraveineuse, sans chimiothérapie de lymphodéplétion, génère les cellules CAR-T in situ grâce à la plateforme CARvivo (enveloppes virales propriétaires et promoteurs spécifiques des lymphocytes T). Chez six patients atteints de lymphome B non hodgkinien en rechute (médiane de trois lignes antérieures), on compte trois réponses complètes et deux partielles, toutes en cours au 31 octobre, avec un syndrome de relargage cytokinique limité au grade 1 et aucune neurotoxicité (ICANS).",
+    "why": "C'est l'une des premières preuves cliniques que le CAR-T « in vivo » peut produire des réponses complètes sans usine de thérapie cellulaire ni lymphodéplétion, au lendemain de l'accord Pfizer-Starna à 330 M$ d'upfront. Prudence : six patients et 3,2 mois de suivi médian ; CARsgen vise un dépôt d'essai d'enregistrement au premier semestre 2027.",
+    "place": "Shanghai",
+    "sector": "Thérapie cellulaire",
+    "signalType": "clinical_update",
+    "url": "https://www.prnewswire.com/news-releases/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182-302947651.html"
   },
   "brefsEurope": [
     {
-      "company": "NuCana",
-      "place": "Édimbourg",
-      "sector": "Oncologie",
+      "company": "Evaxion",
+      "place": "Hørsholm",
+      "sector": "Vaccins",
       "pillar": "innovation",
-      "signalType": "conference_abstract",
+      "signalType": "clinical_update",
       "strength": 2,
-      "title": "NuCana montre en préclinique que NUC-7738 renforce le carfilzomib dans le myélome multiple",
-      "summary": "Présentées en poster le 20 novembre au symposium EORTC-NCI-AACR de Barcelone, les données montrent que la combinaison fait tomber la viabilité cellulaire à 3 % dans deux lignées de myélome (26 % dans la troisième) et, dans un criblage de 70 partenaires sur 35 lignées, le carfilzomib arrive en tête. NUC-7738 est en phase 2 dans le mélanome résistant aux anti-PD-1, dont les résultats finaux seront présentés à l'ESMO IO de Londres du 14 au 16 décembre.",
-      "url": "https://www.wboc.com/online_features/press_releases/nucana-presents-preclinical-data-showing-nuc-7738-enhances-carfilzomib-activity-in-multiple-myeloma-cell-lines/article_5f903aee-0ee9-5fd9-819c-1a9e83d092b6.html"
+      "title": "Evaxion se recentre sur les vaccins anticancéreux et met en pause ses programmes infectieux et auto-immuns",
+      "summary": "La biotech danoise s'appuie sur les données de phase II de son vaccin personnalisé EVX-01 dans le mélanome avancé pour concentrer sa plateforme AI-Immunology sur les vaccins « sur étagère » EVX-04 et EVX-05, en ciblant notamment des rétrovirus endogènes du génome non codant. Ses actifs précliniques en infectiologie ne progresseront qu'avec un partenaire.",
+      "url": "https://nordiclifescience.org/evaxion-refocuses-on-cancer-vaccines/"
     },
     {
-      "company": "Novo Nordisk",
-      "place": "Bagsværd",
-      "sector": "Endocrinologie",
+      "company": "Novartis",
+      "place": "Bâle",
+      "sector": "Pharma",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA autorise Sogroya, hormone de croissance hebdomadaire de Novo Nordisk, chez l'enfant atteint du syndrome de Turner",
-      "summary": "Dans la cohorte Turner de la phase 3 REAL8 (105 enfants de 2,5 à 10 ans), le somapacitan a donné une vitesse de croissance annualisée de 8,9 cm par an contre 9,7 cm sous somatropine quotidienne. Une injection par semaine au lieu de sept : un comparable sur la valeur des formulations longue durée face aux biologiques quotidiens.",
-      "url": "https://www.prnewswire.com/news-releases/novos-sogroya-receives-fda-approval-as-the-first-and-only-once-weekly-long-acting-growth-hormone-for-children-with-turner-syndrome-ts-302947192.html"
-    },
-    {
-      "company": "Angelini Pharma",
-      "place": "Rome",
-      "sector": "Neurosciences",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
+      "signalType": "clinical_update",
       "strength": 2,
-      "title": "Angelini Pharma perd son directeur scientifique Rafal Kaminski, architecte de son pipeline dans l'épilepsie",
-      "summary": "Le CSO quitte le groupe italien fin novembre après près de cinq ans ; la directrice du business Preethi Sundaram reprend ses fonctions le temps du recrutement. Le départ intervient en pleine intégration de l'américain Catalyst Pharma, racheté 4,1 Md$ en juillet.",
-      "url": "https://pharmaphorum.com/news/angelini-pharmas-rd-chief-heads-exit"
+      "title": "Novartis vise 5 % de croissance annuelle jusqu'en 2031 et relève de 4 Md$ les pics de ventes de Kesimpta, Scemblix et Leqvio",
+      "summary": "Kesimpta passe à 8 Md$, Scemblix et Leqvio à 5 Md$ chacun, face à « la plus forte perte d'exclusivité de notre histoire » (Entresto, Promacta). Un comparable qui rappelle aussi les revers récents : échec de phase 3 du del-desiran issu du rachat d'Avidity (dépréciation de 1,9 Md$) et suspension des essais de son CAR-T rap-cel dans les maladies auto-immunes.",
+      "url": "https://pharmaphorum.com/news/novartis-raises-forecasts-three-key-growth-products"
     },
     {
-      "company": "Nanologica",
-      "place": "Södertälje",
-      "sector": "Bioproduction",
+      "company": "Théa",
+      "place": "Clermont-Ferrand",
+      "sector": "Ophtalmologie",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "Nanologica lève environ 85,7 M SEK pour ses silices de purification des peptides de type insuline et GLP-1",
-      "summary": "Close le 17 novembre, l'augmentation de capital a été souscrite à 77,55 % après appel aux garants, dont Sterling Pharma Solutions en garantie de tête ; le 21 novembre, la société a payé en actions la commission de Bergs Securities et d'Ardena pour préserver sa trésorerie. Un fournisseur de consommables adossé à la vague des GLP-1, coté à Stockholm.",
-      "url": "https://mfn.se/a/nanologica/nanologica-carries-out-a-directed-share-issue-to-guarantors-in-connection-with-the-completed-rights-issue"
+      "title": "La BEI prête 150 M€ à Théa pour sa R&D en ophtalmologie et son outil industriel européen",
+      "summary": "Deuxième prêt de la Banque européenne d'investissement après 50 M€ en 2021, adossé à la garantie InvestEU : il financera de nouvelles molécules, formulations et systèmes d'administration (maladies rétiniennes, maladies héréditaires rares de l'œil, glaucome, sécheresse oculaire) et le site industriel de Milan. Le groupe familial a réalisé 1,02 Md€ de chiffre d'affaires en 2025.",
+      "url": "https://www.eib.org/de/press/all/2026-423-european-investment-bank-provides-eur150-million-in-financing-to-thea-to-support-innovation-in-ophthalmology"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Erasca",
+      "company": "Capricor Therapeutics",
       "place": "San Diego",
+      "sector": "Thérapie cellulaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "La FDA rejette pour la deuxième fois le deramiocel de Capricor dans la myopathie de Duchenne",
+      "summary": "L'agence juge les données insuffisantes pour établir une « preuve substantielle d'efficacité » et dénonce de « graves violations de l'intégrité des données » dans l'essai HOPE-3 (levées d'aveugle, plan d'analyse modifié a posteriori). Un signal de rigueur réglementaire pour toutes les thérapies cellulaires qui misent sur des critères fonctionnels dans les maladies rares.",
+      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/"
+    },
+    {
+      "company": "Revolution Medicines",
+      "place": "Redwood City",
       "sector": "Oncologie",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 3,
-      "title": "La colle moléculaire pan-RAS ERAS-0015 d'Erasca obtient 44 % de réponses dans le cancer du pancréas prétraité",
-      "summary": "En phase 1 (122 patients après au moins deux lignes), le taux de réponse atteint 63 % chez les mutés G12D et 80 % chez les G12V, avec des effets indésirables surtout légers et aucun arrêt pour toxicité ; Erasca prépare une phase 3. Une pression directe sur Rasonque de Revolution Medicines, autorisé dans l'UE cette semaine.",
-      "url": "https://www.biopharmadive.com/news/erasca-kras-pancreatic-cancer-drug-results-revolution-rasonque/875314/"
-    },
-    {
-      "company": "VitriVax",
-      "place": "Boulder",
-      "sector": "Vaccins",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 4,
-      "title": "VitriVax lève 87 M$ en Series C pour amener en clinique un vaccin monodose contre la maladie de Lyme",
-      "summary": "Le tour réunit F-Prime Capital, RA Capital Management, NEA, Eli Lilly et le fonds de capital-risque de Sanofi. Le candidat se passe d'adjuvant, ce qui pourrait réduire les effets secondaires et le coût de production ; les fonds financent le premier essai chez l'humain.",
-      "url": "https://www.biopharmadive.com/news/celldex-eczema-nchroma-layoffs-isomorphic-merck-teva-vitrivax/875241/"
+      "title": "Associé à la chimiothérapie, le pan-RAS Rasonque de Revolution Medicines obtient 61 % de réponses en première ligne du cancer du pancréas",
+      "summary": "Dans la phase 1/2 RMC-GI-102 (61 patients métastatiques), présentée au symposium ENA de Barcelone, le taux de contrôle dépasse 90 %, la survie sans progression médiane atteint 12,8 mois et la survie à 12 mois près de 77 %, sans bras contrôle. L'extension de l'indication dépendra de la phase 3 RASolute 303, attendue en 2028.",
+      "url": "https://pharmaphorum.com/news/revmed-hails-first-line-data-pancreatic-cancer-drug"
     }
   ],
   "word": {
-    "term": "IND",
-    "full": "Investigational New Drug application (demande d'autorisation de médicament expérimental)",
-    "fr": "Dossier d'entrée en essai clinique aux États-Unis",
-    "field": "Réglementaire",
-    "definition": "Le dossier qu'une biotech dépose auprès de la FDA pour avoir le droit de tester pour la première fois sa molécule chez l'humain aux États-Unis : sans lui, un médicament non approuvé ne peut même pas être expédié d'un État à l'autre vers les centres d'essai.",
+    "term": "In vivo CAR-T",
+    "full": "In vivo Chimeric Antigen Receptor T-cell therapy",
+    "fr": "CAR-T fabriqué directement dans le corps du patient",
+    "field": "Thérapie cellulaire et génique",
+    "definition": "Au lieu de prélever les lymphocytes T du patient, de les modifier en usine puis de les réinjecter, on injecte un vecteur qui va lui-même installer le récepteur CAR dans les lymphocytes T, à l'intérieur du corps.",
     "parts": [
-      { "label": "Pharmacologie et toxicologie", "role": "les données précliniques (animal, in vitro) qui montrent que la molécule est raisonnablement sûre pour un premier essai humain" },
-      { "label": "Fabrication (CMC)", "role": "la composition, le fabricant, la stabilité et les contrôles qualité qui garantissent des lots constants" },
-      { "label": "Protocoles cliniques", "role": "le plan de l'essai, les investigateurs, et les engagements de consentement éclairé et de revue par un comité d'éthique (IRB)" }
+      { "label": "Vecteur de livraison", "role": "le véhicule : lentivirus à enveloppe modifiée, nanoparticule lipidique (LNP) ou polymérique, qui transporte le matériel génétique jusqu'au sang" },
+      { "label": "Cargo CAR", "role": "le gène ou l'ARN codant le récepteur chimérique dirigé contre une cible tumorale ou auto-immune (CD19, CD20, CD22…)" },
+      { "label": "Ciblage des lymphocytes T", "role": "l'adresse : enveloppe virale, ligand ou promoteur spécifique des cellules T pour éviter de modifier d'autres cellules" }
     ],
     "how": [
-      { "n": "1", "h": "Études IND-enabling", "t": "La biotech réalise les études réglementaires de toxicologie et de fabrication exigées avant toute administration à l'humain." },
-      { "n": "2", "h": "Dépôt et 30 jours", "t": "Après le dépôt, le promoteur doit attendre 30 jours calendaires : la FDA vérifie que les participants ne seront pas exposés à un risque déraisonnable." },
-      { "n": "3", "h": "Feu vert", "t": "Sans objection de la FDA, l'IND est « clearée » : la phase 1 peut démarrer et le dossier vit ensuite au rythme des amendements de l'essai." }
+      { "n": "1", "h": "Une injection", "t": "Le patient reçoit une perfusion intraveineuse du vecteur, sans aphérèse ni attente de fabrication ; certains programmes, comme CT1182 de CARsgen, se passent même de lymphodéplétion." },
+      { "n": "2", "h": "Reprogrammation in situ", "t": "Le vecteur reconnaît les lymphocytes T circulants et leur fait exprimer le récepteur CAR, de façon durable (lentivirus) ou transitoire (ARN dans des LNP)." },
+      { "n": "3", "h": "Expansion et élimination", "t": "Les cellules CAR-T ainsi créées se multiplient au contact de leur cible et détruisent les cellules qui la portent, par exemple les lymphocytes B malins ou auto-réactifs." }
     ],
-    "why": "L'IND est le premier jalon réglementaire qui transforme un actif préclinique en société clinique : il conditionne le premier patient dosé, et donc la première vraie lecture de valeur, comme le rappelle la deuxième IND de l'alliance Evotec-BMS. Pour un VC, suivre les tours qui financent explicitement les « études IND-enabling » (Commit Biologics, par exemple) permet de repérer une biotech avant ses premières données humaines.",
+    "why": "Le CAR-T in vivo promet de transformer une thérapie artisanale et coûteuse en produit injectable « sur étagère », ouvrant les maladies auto-immunes et un accès plus large aux patients. Les big pharmas paient désormais cher des actifs encore précliniques (330 M$ d'upfront de Pfizer pour trois programmes de Starna), et les premières données humaines arrivent (CARsgen, IND d'Umoja) : pour un VC européen, les plateformes de livraison non virales encore indépendantes sont les cibles à suivre.",
     "startups": [
-      { "name": "Complement Therapeutics", "use": "IND clearée par la FDA en octobre 2025 pour CTx001, thérapie génique AAV délivrant un mini-récepteur CR1 dans l'atrophie géographique ; premier patient dosé dans la phase I/II Opti-GAIN en mars 2026", "place": "Munich, Allemagne" },
-      { "name": "Commit Biologics", "use": "Seed de 60 M$ bouclé en novembre 2026 (final mené par Ackermans & van Haaren) pour financer les études IND-enabling et le dossier réglementaire de COM002, engageur du complément contre le lymphome non hodgkinien", "place": "Copenhague, Danemark" },
-      { "name": "Biolojic Design", "use": "IND clearée par la FDA en novembre 2026 pour BD200, multibody conjugué anti-Trop2/Nectin-4 à charge inhibitrice de topoisomérase ; phase 1 mondiale lancée aux États-Unis", "place": "Ness Ziona, Israël" }
+      { "name": "Alaya.bio", "use": "Nanoparticule polymérique propriétaire qui reprogramme les lymphocytes T dans le corps ; cofondée en 2022 avec Michel Sadelain, pionnier du CAR-T, encore au stade préclinique", "place": "Paris, France" },
+      { "name": "T-CURX", "use": "Spin-off de l'université de Würzburg ; premier closing de Series A de 20 M$ mené par BiomedVC pour ses CAR-T non viraux et sa plateforme in vivo de vecteurs non viraux délivrés par LNP", "place": "Würzburg, Allemagne" },
+      { "name": "Umoja Biopharma", "use": "Plateforme lentivirale VivoVec ; IND clearée par la FDA en juillet 2026 pour UB-VV400, premier CAR-T in vivo anti-CD22 connu, dans l'essai de phase 1/2 VIBRANT-1", "place": "Seattle, États-Unis" },
+      { "name": "Starna Therapeutics", "use": "LNP ciblées et technologie ARN ; a licencié à Pfizer en novembre 2026 trois programmes précliniques de CAR-T in vivo dans l'auto-immunité contre 330 M$ d'upfront", "place": "Chine" }
     ],
     "sources": [
-      { "publisher": "U.S. FDA", "title": "Investigational New Drug Application (IND)", "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind" },
-      { "publisher": "BioSpace", "title": "Complement Therapeutics Receives FDA IND Clearance to Advance CTx001 into Opti-GAIN, a Phase I/II Clinical Trial in Geographic Atrophy secondary to AMD", "url": "https://www.biospace.com/press-releases/complement-therapeutics-receives-fda-ind-clearance-to-advance-ctx001-into-opti-gain-a-phase-i-ii-clinical-trial-in-geographic-atrophy-secondary-to-amd" },
-      { "publisher": "BioSpace", "title": "Biolojic Design Receives U.S. FDA Clearance of Investigational New Drug (IND) Application for BD200, the First Multibody to Enter Clinical Trials", "url": "https://www.biospace.com/press-releases/biolojic-design-receives-u-s-fda-clearance-of-investigational-new-drug-ind-application-for-bd200-the-first-multibody-to-enter-clinical-trials" },
-      { "publisher": "European Biotechnology", "title": "Commit Biologics secures $60M to advance complement-based immunotherapies", "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/" }
+      { "publisher": "Nordic Life Science", "title": "Pfizer licenses in vivo CAR-T programs", "url": "https://nordiclifescience.org/pfizer-licenses-in-vivo-car-t-programs/" },
+      { "publisher": "PR Newswire (CARsgen Therapeutics)", "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182", "url": "https://www.prnewswire.com/news-releases/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182-302947651.html" },
+      { "publisher": "BioSpace", "title": "Umoja Biopharma Announces FDA Clearance of IND Application for UB-VV400, the Industry's First Known CD22-Directed In Vivo CAR T Cell Therapy for Relapsed/Refractory B Cell Malignancies", "url": "https://www.biospace.com/press-releases/umoja-biopharma-announces-fda-clearance-of-ind-application-for-ub-vv400-the-industrys-first-known-cd22-directed-in-vivo-car-t-cell-therapy-for-relapsed-refractory-b-cell-malignancies" },
+      { "publisher": "Bionity", "title": "T-CURX raises $20M Series A for non-viral CAR-T therapies", "url": "https://www.bionity.com/en/news/1187797/t-curx-raises-20m-series-a-for-non-viral-car-t-therapies.html" }
     ]
   }
 }
