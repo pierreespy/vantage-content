@@ -1,93 +1,76 @@
 {
-  "dateLong": "22 nov. 2026",
+  "dateLong": "23 nov. 2026",
   "ticker": [
-    { "company": "CLS", "amount": "Co-dév", "kind": "tech" },
-    { "company": "FAMID / DNV", "amount": "IVDR C", "kind": "reg" },
-    { "company": "INNOVATIVE HEALTH", "amount": "FDA", "kind": "reg" },
-    { "company": "FDA", "amount": "Guidance 510(k)", "kind": "reg" },
-    { "company": "BOSTON SCIENTIFIC", "amount": "$14.5Md", "kind": "mna" },
-    { "company": "CYTOSORBENTS", "amount": "$6.25M", "kind": "lev" }
+    { "company": "CARDIOVALVE", "amount": "Endpoints ✓", "kind": "tech" },
+    { "company": "CARDIOVALVE", "amount": "CE en cours", "kind": "reg" },
+    { "company": "ANTERIS", "amount": "1 an ✓", "kind": "tech" },
+    { "company": "LADERA", "amount": "FASTEN ✓", "kind": "tech" },
+    { "company": "DHSC", "amount": "DTAC", "kind": "reg" },
+    { "company": "ANTERIS", "amount": "RCT pivot", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Partenariat · Ablation laser",
-    "title": "Clinical Laserthermia Systems s'allie à l'allemand advanced fiber tools pour emmener son laser non refroidi au-delà du cerveau et de l'urologie",
-    "deck": "La medtech de Lund (Suède) et le spécialiste allemand de la fibre optique advanced fiber tools (AFT) ont signé le 19 novembre un accord stratégique non exclusif pour développer ensemble de nouveaux dispositifs laser thérapeutiques, sur la base de leur contrat de fabrication existant ; pas d'engagement financier ni de volume garanti à ce stade, chaque projet sera contractualisé séparément. CLS, dont la technologie laser non refroidie équipe le TRANBERG et le ClearPoint Prism (ablation guidée par l'image des tumeurs et de l'épilepsie pharmacorésistante), estime ces nouveaux marchés potentiellement plus grands que la neurochirurgie et l'urologie — un signal amont sur une petite cotée suédoise à suivre avant ses prochains accords commerciaux.",
-    "company": "Clinical Laserthermia Systems (CLS)",
-    "sector": "MedTech",
-    "pillar": "marche",
-    "signalType": "early_partnership",
-    "strength": 3,
-    "url": "https://news.cision.com/cls/r/cls-and-advanced-fiber-tools-enter-strategic-partnership-to-pursue-broader-commercial-opportunities-,c4426600"
+    "kicker": "Résultats cliniques · Cardio structurel",
+    "title": "Cardiovalve tient ses endpoints dans l'essai TARGET et prépare l'arrivée en Europe de sa valve tricuspide percutanée",
+    "deck": "Présentées le 22 novembre en late-breaking à PCR London Valves par le Pr Georg Nickenig (CHU de Bonn), les données à six mois de la cohorte complète de TARGET (157 patients inclus, 148 implantés, âge moyen 78 ans, près de 40 % de fuite tricuspide « torrentielle ») valident les deux endpoints primaires à 30 jours, performance et sécurité ; 76,9 % des patients n'ont plus de fuite ou une fuite minime à trois ans, et le système de largage amélioré fait chuter les saignements majeurs de 21 % à 5 %. La filiale de Venus Medtech a déposé son dossier de marquage CE et vise une commercialisation dans l'UE au second semestre 2027 : un nouveau concurrent face à EVOQUE d'Edwards, seule valve tricuspide percutanée orthotopique vendue en Europe.",
+    "company": "Cardiovalve",
+    "sector": "Cardio",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 4,
+    "url": "https://www.prnewswire.com/news-releases/target-study-demonstrates-sustained-performance-and-favorable-safety-profile-of-the-cardiovalve-tr-system-in-high-risk-patients-with-severe-tricuspid-regurgitation-302947606.html"
   },
   "milestone": {
-    "company": "FAMID Biomedical Technology",
-    "milestone": "Certificat IVDR classe C",
-    "title": "L'organisme notifié DNV certifie en six mois un test rapide HPV de classe C, autotest compris, sous IVDR",
-    "summary": "DNV (Høvik, Norvège) a délivré le certificat IVDR du test rapide de l'oncoprotéine E7 du HPV de FAMID Biomedical Technology (Tianjin), classé C, qui aide au diagnostic des lésions du col de l'utérus en laboratoire comme en autotest ; l'évaluation du système qualité, des preuves cliniques et du dossier technique a pris environ six mois après la signature du contrat.",
-    "why": "La capacité des organismes notifiés reste le premier goulot de l'IVDR : un délai de six mois sur une classe C avec autotest montre que l'étau se desserre. Bonne nouvelle pour les startups diagnostic européennes qui calent leur levée sur la date de marquage — mais aussi une porte d'entrée plus rapide pour leurs concurrents asiatiques.",
-    "place": "Høvik",
-    "sector": "Diagnostics",
-    "signalType": "regulatory_milestone",
-    "url": "https://www.prnewswire.com/apac/news-releases/dnv-supports-famid-biomedical-technology-in-achieving-ivdr-certification-for-its-class-c-ivd-in-six-months-302943774.html"
-  },
-  "deal": {
-    "company": "Boston Scientific",
-    "amount": "3 Md$ + 4,25 Md€",
-    "round": "Dette (financement M&A)",
-    "thesis": "Boston Scientific a placé le 19 novembre 3 Md$ et 4,25 Md€ d'obligations senior pour régler la part en cash du rachat de Penumbra (valeur d'entreprise d'environ 14,5 Md$, annoncé en janvier) ; clôture des émissions attendue le 1er décembre. Un comparable de sortie, pas une opportunité d'entrée : la thrombectomie et l'embolisation se paient au prix fort, ce qui soutient la valorisation des startups européennes du neurovasculaire et de la thrombectomie.",
+    "company": "Anteris Technologies",
+    "milestone": "Résultats à 1 an",
+    "title": "La valve aortique « biomimétique » DurAVR d'Anteris affiche 1 % d'hospitalisation pour insuffisance cardiaque à un an chez les petits anneaux",
+    "summary": "Sur 100 patients atteints de sténose aortique sévère et d'un petit anneau aortique, issus des études EMBARK et de faisabilité menées aux États-Unis et en Europe, la valve percutanée à feuillet unique DurAVR montre à un an un gradient moyen de 8,9 mmHg (contre 48,1 mmHg avant l'implantation), aucune fuite paravalvulaire modérée ou sévère, aucun décès lié à la valve (mortalité toutes causes 6 %) et 1 % d'hospitalisation pour insuffisance cardiaque ; données présentées le 22 novembre à PCR London Valves par Rishi Puri (Cleveland Clinic).",
+    "why": "Les petits anneaux, fréquents chez les femmes, sont le point faible des TAVI actuelles (mauvaise hémodynamique, mismatch prothèse-patient). Anteris joue désormais sa thèse dans PARADIGM, un essai pivot randomisé d'environ 1 000 patients, en face-à-face contre les valves commercialisées, qui recrute aux États-Unis et en Europe : un test grandeur nature pour savoir si un challenger peut encore bousculer le duopole Edwards-Medtronic.",
+    "place": "Minneapolis",
     "sector": "Cardio",
-    "url": "https://www.prnewswire.com/news-releases/boston-scientific-announces-pricing-of-3-0-billion-and-4-25-billion-offerings-of-senior-notes-302946308.html"
+    "signalType": "clinical_update",
+    "url": "https://www.globenewswire.com/news-release/2026/11/22/3407938/0/en/anteris-duravr-thv-demonstrates-1-heart-failure-hospitalization-single-digit-gradients-and-no-valve-related-deaths-at-1-year-in-patients-with-small-aortic-annuli.html"
   },
   "brefsEurope": [
-    { "company": "Optomed", "place": "Oulu", "sector": "Imagerie", "pillar": "marche",
-      "signalType": "leadership_hire", "strength": 2,
-      "title": "Optomed voit partir son directeur financier Sakari Knuutti et lance le recrutement d'un nouveau CFO",
-      "summary": "Le fabricant finlandais de rétinographes portables annonce le départ de son CFO, en poste depuis 2019, qui restera jusqu'à six mois pour assurer la transition ; la recherche d'un successeur démarre immédiatement. Un poste clé à surveiller pour la suite de la trajectoire de la cotée d'Helsinki.",
-      "url": "https://news.cision.com/optomed-oyj/r/change-in-optomed-s-leadership-team--sakari-knuutti-to-take-up-a-new-position-outside-the-company,c4427409" }
+    { "company": "DHSC", "place": "Londres", "sector": "Réglementaire", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "Le ministère britannique de la Santé veut ramener l'évaluation DTAC des technologies numériques « de plusieurs mois à quelques jours »",
+      "summary": "David Lawson, directeur des technologies médicales du DHSC, détaille la feuille de route : un système numérique centralisant les informations sur tous les dispositifs médicaux lancé en partie (webinaires en décembre), un outil d'assurance des circuits d'achat attendu au printemps 2027 pour éviter les dossiers répétés, et des objectifs chiffrés de délai pour les contrôles de risque locaux. L'enjeu pour les medtechs : un accès au NHS moins long, alors que le délai moyen du DTAC dépasse 12 semaines selon une enquête de l'ABHI.",
+      "url": "https://med-techinsights.com/an-update-from-david-lawson-director-of-medical-technology-and-innovation-at-the-department-for-health-social-care-dhsc/" }
   ],
   "brefsIntl": [
-    { "company": "Innovative Health", "place": "Scottsdale", "sector": "Cardio", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 5,
-      "title": "Innovative Health obtient la clearance FDA pour retraiter le cathéter de cartographie OCTARAY de Johnson & Johnson",
-      "summary": "Le spécialiste américain du retraitement décroche sa 52e clearance FDA et devient le seul autorisé à retraiter ce cathéter à usage unique de Biosense Webster utilisé en électrophysiologie. Un levier de coût et de déchets pour les labos d'EP, qui met sous pression le modèle du jetable — y compris pour les acteurs européens de l'ablation.",
-      "url": "https://www.prnewswire.com/news-releases/innovative-health-receives-fda-clearance-to-reprocess-octaray-mapping-catheter-302944723.html" },
-    { "company": "FDA", "place": "Silver Spring", "sector": "Réglementaire", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 3,
-      "title": "La FDA finalise sa guidance sur le transfert des clearances 510(k)",
-      "summary": "Publiée au Federal Register le 20 novembre, la guidance précise qu'un acquéreur n'a en général pas besoin d'un nouveau 510(k) si le dispositif n'est pas modifié de façon significative, mais qu'il doit s'enregistrer sous 30 jours, lister le produit et mettre à jour étiquetage et base GUDID. Utile pour les medtechs européennes qui achètent ou cèdent des actifs déjà autorisés aux États-Unis.",
-      "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23668/transfer-of-a-premarket-notification-510k-clearance-questions-and-answers-guidance-for-industry-and" },
-    { "company": "CytoSorbents", "place": "Princeton", "sector": "MedTech", "pillar": "financement",
-      "signalType": "funding_round", "strength": 3,
-      "title": "CytoSorbents lève 6,25 M$ et restructure sa dette en attendant le feu vert FDA de DrugSorb-ATR",
-      "summary": "Environ 4 M$ en cash, souscrits à 75 % par les actionnaires existants, la direction et le board, plus 2,25 M$ de dette Avenue convertie en actions : l'endettement passe de 17,5 à 12,25 M$ et l'échéance glisse à juillet 2028. L'adsorbeur sanguin CytoSorb, approuvé dans l'UE et vendu dans plus de 70 pays, attend toujours son homologation américaine via DrugSorb-ATR (deux désignations Breakthrough).",
-      "url": "https://www.prnewswire.com/news-releases/cytosorbents-announces-6-25-million-common-stock-financing-priced-at-the-market-under-nasdaq-rules-and-concurrent-restructuring-of-avenue-capital-credit-facility-302946616.html" }
+    { "company": "Ladera Medical", "place": "Menlo Park", "sector": "Cardio", "pillar": "innovation",
+      "signalType": "clinical_update", "strength": 3,
+      "title": "Ladera Medical présente les résultats complets de FASTEN pour son système de fermeture des accès artériels de gros calibre",
+      "summary": "Chez 55 patients TAVI opérés par voie fémorale dans six centres en Australie, en Belgique et aux Pays-Bas, le dispositif obtient 98,1 % d'absence de complication majeure au point de ponction à 30 jours et une hémostase en 0,5 minute en moyenne (late-breaking à London Valves, présenté par Jan van der Heyden, hôpital Sint-Jan de Bruges). Le dispositif reste expérimental et n'est commercialisé nulle part : une startup à suivre avant son étape réglementaire suivante.",
+      "url": "https://www.prnewswire.com/news-releases/ladera-medical-presents-full-fasten-results-showing-rapid-hemostasis-and-a-strong-safety-profile-with-its-large-bore-closure-system-302947571.html" }
   ],
   "word": {
-    "term": "LITT",
-    "full": "Laser Interstitial Thermal Therapy (thermothérapie laser interstitielle)",
-    "fr": "Thermothérapie laser interstitielle",
-    "field": "Ablation mini-invasive guidée par l'image",
-    "definition": "Une fibre laser glissée par un trou de quelques millimètres jusqu'au cœur d'une lésion la chauffe de l'intérieur pour la détruire, sous contrôle IRM en temps réel, sans chirurgie ouverte.",
+    "term": "TTVR",
+    "full": "Transcatheter Tricuspid Valve Replacement",
+    "fr": "Remplacement valvulaire tricuspide percutané",
+    "field": "Cardiologie structurelle",
+    "definition": "Une valve cardiaque artificielle, repliée dans un cathéter glissé par une veine de la jambe ou du cou, est déployée à la place de la valve tricuspide qui fuit, sans ouvrir le thorax ni arrêter le cœur.",
     "parts": [
-      { "label": "Applicateur laser", "role": "la source de chaleur placée dans la cible" },
-      { "label": "Thermométrie IRM", "role": "le contrôle en temps réel de la zone chauffée" },
-      { "label": "Navigation stéréotaxique", "role": "le guidage jusqu'à la cible" }
+      { "label": "Armature auto-expansible", "role": "l'ancrage dans l'anneau et les feuillets natifs" },
+      { "label": "Bioprothèse valvulaire", "role": "l'étanchéité (feuillets en tissu biologique)" },
+      { "label": "Système de largage", "role": "l'acheminement par voie veineuse fémorale ou jugulaire" }
     ],
     "how": [
-      { "n": "1", "h": "Trajectoire", "t": "Sur l'imagerie préopératoire, l'équipe planifie le trajet ; un petit trou est percé et la fibre est positionnée en stéréotaxie dans la lésion." },
-      { "n": "2", "h": "Chauffe sous IRM", "t": "Le laser délivre l'énergie par la fibre ; la thermométrie IRM montre en continu la zone qui atteint la température de destruction." },
-      { "n": "3", "h": "Arrêt contrôlé", "t": "Le chirurgien stoppe quand la lésion est couverte, en protégeant les structures voisines ; l'imagerie confirme le volume traité." }
+      { "n": "1", "h": "Planification", "t": "Un scanner synchronisé à l'ECG mesure l'anneau tricuspide et simule l'implantation ; l'échographie transœsophagienne évalue la fuite, la fonction du ventricule droit et les éventuelles sondes de pacemaker." },
+      { "n": "2", "h": "Navigation", "t": "Par une veine fémorale, l'équipe pousse un guide jusqu'au ventricule droit, puis avance le système de largage de gros calibre à travers l'anneau, sous contrôle de l'échographie transœsophagienne." },
+      { "n": "3", "h": "Ancrage et largage", "t": "La valve est libérée côté ventricule, ses ancres accrochent les feuillets natifs, puis elle est relâchée côté oreillette ; pour EVOQUE, le déploiement prend une trentaine de minutes." }
     ],
-    "why": "Alternative mini-invasive à la chirurgie ouverte pour l'épilepsie pharmacorésistante et les tumeurs cérébrales difficiles d'accès, la LITT gagne la prostate et d'autres organes. Le marché reste concentré sur quelques systèmes (Visualase de Medtronic, NeuroBlate de Monteris) : les challengers jouent la simplicité (applicateurs non refroidis), le guidage échographique et de nouvelles indications — d'où des alliances comme CLS × AFT et des tours de growth chez les indépendants.",
+    "why": "La fuite tricuspide, longtemps « valve oubliée », touche surtout des patients âgés trop fragiles pour la chirurgie. Le remplacement supprime la fuite de façon plus prévisible que la réparation bord à bord (environ 95 % de fuite au plus légère à un an, contre environ 50 %), mais au prix de plus de pacemakers (28 % contre 4 % dans TRISCEND II) et d'anneaux parfois trop grands pour les valves actuelles. Avec EVOQUE d'Edwards seule valve orthotopique commercialisée en Europe, la course est lancée : pivots européens et américains de TRiCares, face-à-face de VDyne contre EVOQUE, dossier CE de Cardiovalve — et autant de cibles potentielles pour les majors.",
     "startups": [
-      { "name": "Clinical Laserthermia Systems (CLS)", "use": "Laser non refroidi des systèmes TRANBERG et ClearPoint Prism (tumeurs, épilepsie) ; partenariat avec advanced fiber tools signé en novembre 2026", "place": "Lund, Suède" },
-      { "name": "Elesta", "use": "EchoLaser X4, ablation laser guidée par échographie (thyroïde, prostate) ; nouveau 510(k) FDA en août 2026", "place": "Calenzano (Florence), Italie" },
-      { "name": "Monteris Medical", "use": "Système NeuroBlate de LITT cérébrale guidée par IRM ; 28 M$ de growth equity (Series E) levés en mars 2026", "place": "Minnetonka, États-Unis" }
+      { "name": "TRiCares", "use": "Valve Topaz ; essai pivot TRICURE en Europe et essai pivot IDE aux États-Unis lancé en juillet 2026 ; prêt BEI de 20 M€ en janvier 2026 après une Series D de 50 M$", "place": "Aschheim (Munich), Allemagne" },
+      { "name": "VDyne", "use": "Valve TriNova à largage latéral, ancrée sur l'anneau ; essai pivot randomisé TRIVITA contre EVOQUE (jusqu'à 70 centres aux États-Unis et en Europe), premier patient traité en juillet 2026", "place": "Minnesota, États-Unis" },
+      { "name": "Trisol Medical", "use": "Valve tricuspide en dôme posée par voie jugulaire puis fémorale ; étude de faisabilité américaine publiée dans EuroIntervention en novembre 2026 (succès technique 94,7 %)", "place": "Yokneam, Israël" }
     ],
     "sources": [
-      { "publisher": "Frontiers in Surgery", "title": "Stereotactic Laser Ablation for Medically Intractable Epilepsy: The Next Generation of Minimally Invasive Epilepsy Surgery", "url": "https://www.frontiersin.org/journals/surgery/articles/10.3389/fsurg.2016.00064/full" },
-      { "publisher": "Cision / Clinical Laserthermia Systems", "title": "CLS and advanced fiber tools enter strategic partnership to pursue broader commercial opportunities in medical laser therapy", "url": "https://news.cision.com/cls/r/cls-and-advanced-fiber-tools-enter-strategic-partnership-to-pursue-broader-commercial-opportunities-,c4426600" },
-      { "publisher": "BioSpace / Monteris Medical", "title": "Monteris Medical Secures $28 Million in Growth Equity to Accelerate Revenue and Innovation in Minimally Invasive Neurosurgery", "url": "https://www.biospace.com/press-releases/monteris-medical-secures-28-million-in-growth-equity-to-accelerate-revenue-and-innovation-in-minimally-invasive-neurosurgery" }
+      { "publisher": "JRSM Cardiovascular Disease (PMC)", "title": "State of the art: Transcatheter tricuspid valve intervention", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13424762/" },
+      { "publisher": "TRiCares", "title": "News", "url": "https://www.tricares.com/news" },
+      { "publisher": "Cardiac Interventions Today", "title": "VDyne Commences TriNova TTVR System's TRIVITA US Pivotal Study", "url": "https://citoday.com/news/vdyne-commences-trinova-ttvr-systems-trivita-us-pivotal-study" },
+      { "publisher": "SOLACI", "title": "Transcatheter Tricuspid Valve Replacement with the Trisol Valve: Early Outcomes", "url": "https://solaci.org/en/2026/11/20/transcatheter-tricuspid-valve-replacement-with-the-trisol-valve-early-outcomes/" }
     ]
   }
 }

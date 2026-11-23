@@ -1,6 +1,251 @@
 {
-  "generatedAt": "2026-11-22",
+  "generatedAt": "2026-11-23",
   "words": [
+    {
+      "term": "Digital Twin",
+      "full": "Patient Digital Twin",
+      "fr": "Patient digital twin",
+      "field": "Clinical AI and modelling",
+      "definition": "A digital representation of a patient, an organ or a disease, built from their data and models, that simulates how it will evolve and respond to treatment before acting on the real patient.",
+      "parts": [
+        {
+          "label": "Data",
+          "role": "the patient's or a cohort's tests, imaging, lab results and history"
+        },
+        {
+          "label": "Model",
+          "role": "the AI or physics-based simulation that reproduces the organ or disease"
+        },
+        {
+          "label": "Scenarios",
+          "role": "treatment options tested virtually to compare their effects"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Build",
+          "t": "The model is built from the patient's data (CT, MRI, lab results) or trained on large cohorts, such as the 136,000 patients AMD used for its kidney twin."
+        },
+        {
+          "n": "2",
+          "h": "Simulate",
+          "t": "The twin projects how the organ or disease evolves and tests scenarios: with or without treatment, or a device's performance across a virtual population."
+        },
+        {
+          "n": "3",
+          "h": "Decide",
+          "t": "The clinician or manufacturer relies on these forecasts to choose a strategy, plan a procedure or flag at-risk patients, with the decision remaining human."
+        }
+      ],
+      "why": "The European Commission has invested more than €100M in its Virtual Human Twins initiative, with a dedicated platform funded by the Digital Europe programme, and the first twins are moving from labs into the consultation room. For a VC the appeal is twofold: decision-support tools that personalise treatment, and \"virtual\" trials that cut the cost and risk of device development, two markets where value concentrates in data and clinical validation.",
+      "startups": [
+        {
+          "name": "adsilico",
+          "use": "University of Leeds spinout whose Virtual Chimera technology uses AI to generate virtual hearts and vessels for testing medical devices; £10M Series A led by PXN Ventures in October 2026",
+          "place": "Leeds, UK"
+        },
+        {
+          "name": "inHEART",
+          "use": "AI-generated digital twin of the heart built from CT or MRI scans to plan cardiac ablations; raised $11M to accelerate commercialisation of its software",
+          "place": "Pessac, France"
+        },
+        {
+          "name": "Integratome",
+          "use": "SaaS platform that assembles questionnaires, measurements and lab results into a digital health twin (73 conditions modelled) to prepare check-ups, with a simulator of lifestyle-change effects",
+          "place": "France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Commission européenne",
+          "title": "European Virtual Human Twins (VHT) Initiative",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/virtual-human-twins"
+        },
+        {
+          "publisher": "Sanità Digitale",
+          "title": "Kidney Digital Twin: stima il rischio renale nel diabete",
+          "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
+        },
+        {
+          "publisher": "Intelligent Health Tech",
+          "title": "Leeds AI spinout raises £10 million to assess medical device performance in virtual patients before they reach real ones",
+          "url": "https://www.intelligenthealth.tech/2026/10/27/leeds-ai-spinout-raises-10m-to-assess-medical-device-performance-in-virtual-patients-before-they-reach-real-ones/"
+        },
+        {
+          "publisher": "EIT",
+          "title": "inHEART secures USD 11 million to optimise cardiac care",
+          "url": "https://eit.europa.eu/news-events/news/inheart-secures-usd-11-million-optimise-cardiac-care"
+        }
+      ],
+      "date": "2026-11-23",
+      "dateLong": "Nov 23, 2026"
+    },
+    {
+      "term": "In vivo CAR-T",
+      "full": "In vivo Chimeric Antigen Receptor T-cell therapy",
+      "fr": "CAR-T made directly inside the patient's body",
+      "field": "Cell and gene therapy",
+      "definition": "Instead of collecting a patient's T cells, engineering them in a factory and infusing them back, doctors inject a vector that installs the CAR receptor in the T cells itself, inside the body.",
+      "parts": [
+        {
+          "label": "Delivery vector",
+          "role": "the vehicle: an envelope-modified lentivirus or a lipid (LNP) or polymeric nanoparticle that carries the genetic material through the bloodstream"
+        },
+        {
+          "label": "CAR cargo",
+          "role": "the gene or RNA encoding the chimeric receptor aimed at a tumor or autoimmune target (CD19, CD20, CD22…)"
+        },
+        {
+          "label": "T-cell targeting",
+          "role": "the address: a viral envelope, ligand or T-cell-specific promoter that avoids modifying other cells"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "One injection",
+          "t": "The patient receives an intravenous infusion of the vector, with no apheresis and no manufacturing wait; some programs, such as CARsgen's CT1182, even skip lymphodepletion."
+        },
+        {
+          "n": "2",
+          "h": "In situ reprogramming",
+          "t": "The vector recognizes circulating T cells and makes them express the CAR receptor, either durably (lentivirus) or transiently (RNA in LNPs)."
+        },
+        {
+          "n": "3",
+          "h": "Expansion and clearance",
+          "t": "The newly created CAR-T cells multiply on contact with their target and destroy the cells that carry it, for example malignant or autoreactive B cells."
+        }
+      ],
+      "why": "In vivo CAR-T promises to turn a bespoke, costly therapy into an off-the-shelf injectable, opening up autoimmune diseases and broader patient access. Big Pharma is now paying top dollar for assets still in preclinical development (Pfizer's $330M upfront for three Starna programs), and the first human data are arriving (CARsgen, Umoja's IND): for a European VC, still-independent non-viral delivery platforms are the targets to watch.",
+      "startups": [
+        {
+          "name": "Alaya.bio",
+          "use": "Proprietary polymeric nanoparticle that reprograms T cells inside the body; co-founded in 2022 with CAR-T pioneer Michel Sadelain, still preclinical",
+          "place": "Paris, France"
+        },
+        {
+          "name": "T-CURX",
+          "use": "University of Würzburg spin-off; $20M Series A first close led by BiomedVC for its non-viral CAR-Ts and its in vivo platform of non-viral vectors delivered by LNPs",
+          "place": "Würzburg, Germany"
+        },
+        {
+          "name": "Umoja Biopharma",
+          "use": "VivoVec lentiviral platform; FDA IND clearance in July 2026 for UB-VV400, the first known CD22-directed in vivo CAR-T, in the Phase 1/2 VIBRANT-1 trial",
+          "place": "Seattle, USA"
+        },
+        {
+          "name": "Starna Therapeutics",
+          "use": "Targeted LNPs and RNA technology; licensed three preclinical in vivo CAR-T programs in autoimmunity to Pfizer in November 2026 for $330M upfront",
+          "place": "China"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Nordic Life Science",
+          "title": "Pfizer licenses in vivo CAR-T programs",
+          "url": "https://nordiclifescience.org/pfizer-licenses-in-vivo-car-t-programs/"
+        },
+        {
+          "publisher": "PR Newswire (CARsgen Therapeutics)",
+          "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182",
+          "url": "https://www.prnewswire.com/news-releases/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182-302947651.html"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Umoja Biopharma Announces FDA Clearance of IND Application for UB-VV400, the Industry's First Known CD22-Directed In Vivo CAR T Cell Therapy for Relapsed/Refractory B Cell Malignancies",
+          "url": "https://www.biospace.com/press-releases/umoja-biopharma-announces-fda-clearance-of-ind-application-for-ub-vv400-the-industrys-first-known-cd22-directed-in-vivo-car-t-cell-therapy-for-relapsed-refractory-b-cell-malignancies"
+        },
+        {
+          "publisher": "Bionity",
+          "title": "T-CURX raises $20M Series A for non-viral CAR-T therapies",
+          "url": "https://www.bionity.com/en/news/1187797/t-curx-raises-20m-series-a-for-non-viral-car-t-therapies.html"
+        }
+      ],
+      "date": "2026-11-23",
+      "dateLong": "Nov 23, 2026"
+    },
+    {
+      "term": "TTVR",
+      "full": "Transcatheter Tricuspid Valve Replacement",
+      "fr": "Transcatheter tricuspid valve replacement",
+      "field": "Structural heart",
+      "definition": "An artificial heart valve, folded inside a catheter threaded through a vein in the leg or neck, is deployed in place of the leaking tricuspid valve, without opening the chest or stopping the heart.",
+      "parts": [
+        {
+          "label": "Self-expanding frame",
+          "role": "anchoring in the native annulus and leaflets"
+        },
+        {
+          "label": "Bioprosthetic valve",
+          "role": "sealing (biological tissue leaflets)"
+        },
+        {
+          "label": "Delivery system",
+          "role": "transport via the femoral or jugular vein"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Planning",
+          "t": "ECG-gated CT measures the tricuspid annulus and simulates implantation; transesophageal echo assesses the regurgitation, right-ventricular function and any pacemaker leads."
+        },
+        {
+          "n": "2",
+          "h": "Navigation",
+          "t": "Through a femoral vein, the team advances a guidewire into the right ventricle, then pushes the large-bore delivery system across the annulus under transesophageal echo guidance."
+        },
+        {
+          "n": "3",
+          "h": "Anchoring and release",
+          "t": "The valve is released on the ventricular side, its anchors grasp the native leaflets, then it is released on the atrial side; for EVOQUE, deployment takes about 30 minutes."
+        }
+      ],
+      "why": "Tricuspid regurgitation, long the 'forgotten valve', mostly affects elderly patients too frail for surgery. Replacement removes the leak more predictably than edge-to-edge repair (about 95% at most mild regurgitation at one year, versus about 50%), but at the cost of more pacemakers (28% vs 4% in TRISCEND II) and annuli sometimes too large for current valves. With Edwards' EVOQUE the only orthotopic valve sold in Europe, the race is on: TRiCares' European and US pivotal trials, VDyne's head-to-head against EVOQUE, Cardiovalve's CE filing — and as many potential targets for the majors.",
+      "startups": [
+        {
+          "name": "TRiCares",
+          "use": "Topaz valve; TRICURE pivotal trial in Europe and US IDE pivotal trial started in July 2026; €20M EIB loan in January 2026 after a $50M Series D",
+          "place": "Aschheim (Munich), Germany"
+        },
+        {
+          "name": "VDyne",
+          "use": "Side-delivered, annulus-anchored TriNova valve; randomized TRIVITA pivotal trial against EVOQUE (up to 70 sites in the US and Europe), first patient treated in July 2026",
+          "place": "Minnesota, USA"
+        },
+        {
+          "name": "Trisol Medical",
+          "use": "Dome-shaped tricuspid valve implanted via jugular then femoral access; US feasibility study published in EuroIntervention in November 2026 (94.7% technical success)",
+          "place": "Yokneam, Israel"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "JRSM Cardiovascular Disease (PMC)",
+          "title": "State of the art: Transcatheter tricuspid valve intervention",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13424762/"
+        },
+        {
+          "publisher": "TRiCares",
+          "title": "News",
+          "url": "https://www.tricares.com/news"
+        },
+        {
+          "publisher": "Cardiac Interventions Today",
+          "title": "VDyne Commences TriNova TTVR System's TRIVITA US Pivotal Study",
+          "url": "https://citoday.com/news/vdyne-commences-trinova-ttvr-systems-trivita-us-pivotal-study"
+        },
+        {
+          "publisher": "SOLACI",
+          "title": "Transcatheter Tricuspid Valve Replacement with the Trisol Valve: Early Outcomes",
+          "url": "https://solaci.org/en/2026/11/20/transcatheter-tricuspid-valve-replacement-with-the-trisol-valve-early-outcomes/"
+        }
+      ],
+      "date": "2026-11-23",
+      "dateLong": "Nov 23, 2026"
+    },
     {
       "term": "No-Show Prediction",
       "full": "No-Show Prediction",
@@ -11056,69 +11301,6 @@
       ],
       "date": "2026-07-30",
       "dateLong": "30 juil. 2026"
-    },
-    {
-      "term": "Digital Twin",
-      "full": "Patient Digital Twin",
-      "fr": "Jumeau numérique (patient virtuel)",
-      "field": "IA appliquée à la santé / Essais cliniques",
-      "definition": "Une réplique virtuelle et dynamique d'un patient, d'un organe ou d'un système physiologique, construite à partir de ses données individuelles, pour simuler sa réponse à un traitement sans l'exposer au risque réel.",
-      "parts": [
-        {
-          "label": "Données individuelles",
-          "role": "l'input"
-        },
-        {
-          "label": "Modèle biophysique / génératif",
-          "role": "le moteur"
-        },
-        {
-          "label": "Simulation prédictive",
-          "role": "la sortie"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Acquisition",
-          "t": "Imagerie, biomarqueurs, génétique et données comportementales du patient sont collectées et structurées."
-        },
-        {
-          "n": "2",
-          "h": "Calibration",
-          "t": "Un modèle biophysique ou génératif calibre un jumeau virtuel spécifique à ce patient à partir de ces données."
-        },
-        {
-          "n": "3",
-          "h": "Simulation",
-          "t": "Le jumeau prédit une réponse — dose optimale, risque, évolution clinique — sans exposer le patient réel à l'intervention."
-        }
-      ],
-      "why": "Le jumeau numérique attaque directement le coût et la durée des essais cliniques — bras de contrôle synthétiques qualifiés par l'EMA, cohortes réduites — tout en ouvrant un marché de dosage personnalisé et de prévention métabolique. Un thème porté par un nombre croissant de deals à la croisée du logiciel et du soin, avec une barrière réglementaire qui protège les premiers entrants qualifiés.",
-      "startups": [
-        {
-          "name": "Unlearn.AI",
-          "use": "Génère des jumeaux numériques de participants d'essais cliniques comme bras de contrôle synthétiques ; méthodologie qualifiée par l'EMA",
-          "place": "San Francisco, États-Unis"
-        },
-        {
-          "name": "Twin Health",
-          "use": "Jumeau numérique métabolique corps-entier pour inverser diabète de type 2 et obésité ; Series E de 53 M$, valorisation ~950 M$",
-          "place": "États-Unis"
-        },
-        {
-          "name": "Sim&Cure",
-          "use": "Jumeau numérique et IA pour planifier le traitement endovasculaire des anévrismes cérébraux ; Series A de 2,3 M€",
-          "place": "Montpellier, France"
-        },
-        {
-          "name": "ebenbuild",
-          "use": "Jumeau numérique pulmonaire patient-spécifique pour prédire la dose locale des médicaments inhalés ; étude de validation publiée dans Nature Communications Medicine",
-          "place": "Munich, Allemagne"
-        }
-      ],
-      "date": "2026-07-29",
-      "dateLong": "29 juil. 2026"
     },
     {
       "term": "Spatial Omics",
