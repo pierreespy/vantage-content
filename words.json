@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-24",
   "words": [
+    {
+      "term": "AI Mammography",
+      "full": "AI-Supported Mammography Screening (dépistage mammographique assisté par IA)",
+      "fr": "Mammographie de dépistage assistée par IA",
+      "field": "Imagerie & IA médicale",
+      "definition": "Un logiciel d'IA analyse chaque mammographie de dépistage, attribue un score de risque et signale les zones suspectes, pour trier les examens et épauler, voire remplacer, l'un des deux lecteurs humains.",
+      "parts": [
+        {
+          "label": "Modèle de détection",
+          "role": "repère et localise les lésions suspectes"
+        },
+        {
+          "label": "Score de risque",
+          "role": "classe les examens du plus normal au plus suspect"
+        },
+        {
+          "label": "Intégration au flux",
+          "role": "branche l'IA sur le PACS et l'organisation de la double lecture"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Analyse",
+          "t": "Les images du dépistage sont envoyées au logiciel, qui marque les zones suspectes et calcule un score de malignité."
+        },
+        {
+          "n": "2",
+          "h": "Triage",
+          "t": "Les examens à faible score passent en simple lecture, ceux à haut score en double lecture renforcée : c'est le protocole testé dans l'essai suédois MASAI."
+        },
+        {
+          "n": "3",
+          "h": "Décision",
+          "t": "Le radiologue garde la décision de rappel ; l'IA sert d'aide ou de second lecteur selon le marquage obtenu."
+        }
+      ],
+      "why": "Avec la pénurie de radiologues, le dépistage du sein est le cas d'usage le plus mûr de l'IA en imagerie : l'essai randomisé MASAI (Lancet, 2026) a montré une sensibilité supérieure et 12 % de cancers d'intervalle en moins, et le NIHR finance EDITH sur 700 000 femmes. L'enjeu VC se déplace de la performance de l'algorithme vers le remboursement et le droit à la lecture autonome — là où les européens ont une longueur d'avance.",
+      "startups": [
+        {
+          "name": "ScreenPoint Medical",
+          "use": "Son logiciel Transpara est l'IA utilisée dans l'essai randomisé suédois MASAI",
+          "place": "Nimègue, Pays-Bas"
+        },
+        {
+          "name": "Vara",
+          "use": "Plateforme d'IA de dépistage qui traitait près de 40 % des mammographies du programme national allemand lors de sa levée de 8,9 M$",
+          "place": "Berlin, Allemagne"
+        },
+        {
+          "name": "Therapixel",
+          "use": "Sa suite MammoScreen 5 a obtenu une clearance 510(k) de la FDA en juin 2026",
+          "place": "Nice, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Lund University",
+          "title": "AI support in breast cancer screening: fewer missed cancer cases",
+          "url": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases"
+        },
+        {
+          "publisher": "ScreenPoint Medical",
+          "title": "MASAI RCT: 12% reduction in interval cancer rate using Transpara",
+          "url": "https://screenpoint-medical.com/insights/final-results-masai-trial"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "UK's NIHR backs largest global AI breast cancer screening trial",
+          "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/"
+        },
+        {
+          "publisher": "FDA",
+          "title": "510(k) K260714 — MammoScreen 5 (Therapixel)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260714"
+        }
+      ],
+      "date": "2026-11-24",
+      "dateLong": "24 nov. 2026"
+    },
     {
       "term": "Digital Twin",
       "full": "Patient Digital Twin (jumeau numérique du patient)",

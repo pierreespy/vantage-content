@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-23",
+  "generatedAt": "2026-11-24",
   "words": [
+    {
+      "term": "AI Mammography",
+      "full": "AI-Supported Mammography Screening",
+      "fr": "AI-assisted screening mammography",
+      "field": "Imaging & medical AI",
+      "definition": "AI software reads every screening mammogram, assigns a risk score and flags suspicious areas, to triage exams and support — or even replace — one of the two human readers.",
+      "parts": [
+        {
+          "label": "Detection model",
+          "role": "finds and localizes suspicious lesions"
+        },
+        {
+          "label": "Risk score",
+          "role": "ranks exams from most normal to most suspicious"
+        },
+        {
+          "label": "Workflow integration",
+          "role": "connects the AI to the PACS and the double-reading setup"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Analysis",
+          "t": "Screening images are sent to the software, which marks suspicious areas and computes a malignancy score."
+        },
+        {
+          "n": "2",
+          "h": "Triage",
+          "t": "Low-score exams go to single reading, high-score exams to reinforced double reading: the protocol tested in Sweden's MASAI trial."
+        },
+        {
+          "n": "3",
+          "h": "Decision",
+          "t": "The radiologist keeps the recall decision; the AI acts as an aid or a second reader depending on its approval."
+        }
+      ],
+      "why": "With radiologists in short supply, breast screening is the most mature AI use case in imaging: the randomized MASAI trial (Lancet, 2026) showed higher sensitivity and 12% fewer interval cancers, and NIHR is funding EDITH across 700,000 women. The VC question is shifting from algorithm performance to reimbursement and the right to autonomous reading — where European players are ahead.",
+      "startups": [
+        {
+          "name": "ScreenPoint Medical",
+          "use": "Its Transpara software is the AI used in Sweden's randomized MASAI trial",
+          "place": "Nijmegen, Netherlands"
+        },
+        {
+          "name": "Vara",
+          "use": "AI screening platform that handled nearly 40% of mammograms in Germany's national programme at the time of its $8.9M raise",
+          "place": "Berlin, Germany"
+        },
+        {
+          "name": "Therapixel",
+          "use": "Its MammoScreen 5 suite received FDA 510(k) clearance in June 2026",
+          "place": "Nice, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Lund University",
+          "title": "AI support in breast cancer screening: fewer missed cancer cases",
+          "url": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases"
+        },
+        {
+          "publisher": "ScreenPoint Medical",
+          "title": "MASAI RCT: 12% reduction in interval cancer rate using Transpara",
+          "url": "https://screenpoint-medical.com/insights/final-results-masai-trial"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "UK's NIHR backs largest global AI breast cancer screening trial",
+          "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/"
+        },
+        {
+          "publisher": "FDA",
+          "title": "510(k) K260714 — MammoScreen 5 (Therapixel)",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260714"
+        }
+      ],
+      "date": "2026-11-24",
+      "dateLong": "Nov 24, 2026"
+    },
     {
       "term": "Digital Twin",
       "full": "Patient Digital Twin",

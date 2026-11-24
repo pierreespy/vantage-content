@@ -1,76 +1,90 @@
 {
-  "dateLong": "Nov 23, 2026",
+  "dateLong": "Nov 24, 2026",
   "ticker": [
-    { "company": "CARDIOVALVE", "amount": "Endpoints ✓", "kind": "tech" },
-    { "company": "CARDIOVALVE", "amount": "CE under review", "kind": "reg" },
-    { "company": "ANTERIS", "amount": "1 year ✓", "kind": "tech" },
-    { "company": "LADERA", "amount": "FASTEN ✓", "kind": "tech" },
-    { "company": "DHSC", "amount": "DTAC", "kind": "reg" },
-    { "company": "ANTERIS", "amount": "Pivotal RCT", "kind": "tech" }
+    { "company": "NYXOAH", "amount": "UPC ✓", "kind": "reg" },
+    { "company": "YAQRIT", "amount": "CE · China", "kind": "reg" },
+    { "company": "POLASIGHT", "amount": "CHF150K", "kind": "lev" },
+    { "company": "POLASIGHT", "amount": "Spin-off", "kind": "new" },
+    { "company": "EDITH", "amount": "£10M trial", "kind": "tech" },
+    { "company": "3SHAPE", "amount": "AI Dx Plus", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Clinical results · Structural heart",
-    "title": "Cardiovalve meets its endpoints in the TARGET trial and readies its transcatheter tricuspid valve for Europe",
-    "deck": "Presented on Nov. 22 as a late-breaker at PCR London Valves by Prof. Georg Nickenig (Bonn University Hospital), six-month full-cohort data from TARGET (157 patients enrolled, 148 implanted, mean age 78, nearly 40% with torrential tricuspid regurgitation) met both 30-day primary endpoints, performance and safety; 76.9% of patients had no or trace regurgitation at three years, and the enhanced delivery system cut major bleeding from 21% to 5%. The Venus Medtech subsidiary has filed for CE marking and targets EU commercialization in the second half of 2027: a new challenger to Edwards' EVOQUE, the only orthotopic transcatheter tricuspid valve sold in Europe.",
-    "company": "Cardiovalve",
-    "sector": "Cardio",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "kicker": "Intellectual property · Neuromodulation",
+    "title": "Nyxoah moves to enforce its Unified Patent Court win: Inspire must stop selling its stimulator in four European countries",
+    "deck": "On November 23, the Belgian medtech said it is enforcing the default decision issued on November 16 by the Munich local division of the Unified Patent Court (UPC) on its patent EP 2 760 534: Inspire Medical Systems must stop offering, selling, using, importing or storing infringing products in Germany, France, the Netherlands and Belgium, recall and destroy those placed on the market since March 31, 2021, and pay damages to be set in separate proceedings. In hypoglossal nerve stimulation for sleep apnea, this could flip the balance of power in Europe — and shows how much a unitary patent can do for a challenger medtech against the market leader.",
+    "company": "Nyxoah",
+    "sector": "Neurotech",
+    "pillar": "marche",
+    "signalType": "patent_filing",
     "strength": 4,
-    "url": "https://www.prnewswire.com/news-releases/target-study-demonstrates-sustained-performance-and-favorable-safety-profile-of-the-cardiovalve-tr-system-in-high-risk-patients-with-severe-tricuspid-regurgitation-302947606.html"
+    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408876/0/en/nyxoah-initiates-enforcement-of-unified-patent-court-decision-against-inspire-medical-systems.html"
   },
   "milestone": {
-    "company": "Anteris Technologies",
-    "milestone": "1-year results",
-    "title": "Anteris' 'biomimetic' DurAVR aortic valve posts 1% heart failure hospitalization at one year in small annuli",
-    "summary": "In 100 patients with severe aortic stenosis and small aortic annuli, pooled from the EMBARK and early feasibility studies in the US and Europe, the single-leaflet DurAVR transcatheter valve showed at one year a mean gradient of 8.9 mmHg (down from 48.1 mmHg before implant), no moderate or severe paravalvular leak, no valve-related deaths (all-cause mortality 6%) and 1% heart failure hospitalization; data presented on Nov. 22 at PCR London Valves by Rishi Puri (Cleveland Clinic).",
-    "why": "Small annuli, common in women, are the weak spot of current TAVI valves (poor hemodynamics, patient-prosthesis mismatch). Anteris now tests its thesis in PARADIGM, a randomized pivotal trial of about 1,000 patients, head to head against commercial valves, enrolling in the US and Europe: a real-world test of whether a challenger can still shake up the Edwards-Medtronic duopoly.",
-    "place": "Minneapolis",
-    "sector": "Cardio",
-    "signalType": "clinical_update",
-    "url": "https://www.globenewswire.com/news-release/2026/11/22/3407938/0/en/anteris-duravr-thv-demonstrates-1-heart-failure-hospitalization-single-digit-gradients-and-no-valve-related-deaths-at-1-year-in-patients-with-small-aortic-annuli.html"
+    "company": "Yaqrit",
+    "milestone": "Distribution deal",
+    "title": "Yaqrit signs Chinese distribution for Dialive, its CE-marked liver dialysis system",
+    "summary": "Its subsidiary Cytox Lifesciences has appointed Guorun International Medical Group to distribute Dialive, a CE-marked extracorporeal device for patients with advanced liver disease, starting with hospitals in the Boao Lecheng medical tourism pilot zone (Hainan); treated patients will join post-marketing studies modelled on the UK ALIVER 2.0 trial. A letter of intent also covers Carbalive, its oral adsorbent, once it is CE-marked.",
+    "why": "Boao Lecheng allows devices already approved abroad to be used in China before national registration: a rare shortcut into a market of roughly 7 million cirrhosis patients, and a source of real-world data for a young London company whose CE mark is its key asset.",
+    "place": "London",
+    "sector": "MedTech",
+    "signalType": "early_partnership",
+    "url": "https://www.biospace.com/press-releases/yaqrits-subsidiary-cytox-signs-chinese-distribution-agreement-for-dialive-dialysis-system"
   },
   "brefsEurope": [
-    { "company": "DHSC", "place": "London", "sector": "Regulatory", "pillar": "marche",
-      "signalType": "regulatory_milestone", "strength": 2,
-      "title": "UK health department wants to cut DTAC assessment of digital technologies 'from months to days'",
-      "summary": "David Lawson, DHSC's director of medical technology, laid out the roadmap: a digital system surfacing information on all medical devices is partly launching (webinars in December), a workflow assurance tool is due in spring 2027 to avoid repeated submissions, and completion targets will be set for local risk checks. For medtechs, the prize is faster NHS access, with average DTAC lead times above 12 weeks according to an ABHI survey.",
-      "url": "https://med-techinsights.com/an-update-from-david-lawson-director-of-medical-technology-and-innovation-at-the-department-for-health-social-care-dhsc/" }
+    { "company": "PolaSight", "place": "Pully", "sector": "Imaging", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 3,
+      "title": "University of Bern spin-off PolaSight wins CHF 150,000 from Venture Kick for its polarized-light tissue imaging",
+      "summary": "The PolaOne platform analyses fresh tissue in about 60 seconds, without staining, using Mueller-matrix polarimetry and AI, with intraoperative frozen-section analysis as its first application. The funds will expand clinical studies with partner hospitals and prepare regulatory steps, a week after the start-up won the Falling Walls Lab global final.",
+      "url": "https://www.startupticker.ch/en/news/fresh-funding-to-advance-polasight-s-cancer-tissue-imaging-platform" },
+    { "company": "NIHR", "place": "United Kingdom", "sector": "Imaging", "pillar": "innovation",
+      "signalType": "grant_award", "strength": 3,
+      "title": "NIHR puts £10M into EDITH, the world's largest trial of AI-assisted breast cancer screening",
+      "summary": "Nearly 700,000 women will be enrolled at 30 UK centres, led by the universities of Warwick and Cambridge and Cambridge University Hospitals NHS Foundation Trust, working with NHS England. The trial will test whether AI can replace one of the two radiologists in mammography double reading: a reference market for European breast-imaging AI vendors.",
+      "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/" },
+    { "company": "3Shape", "place": "Copenhagen", "sector": "Diagnostics", "pillar": "marche",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "3Shape plugs its Dx Plus AI dental diagnostics into Henry Schein One practice software",
+      "summary": "Integrating 3Shape Unite with Dentrix, Ascend and Dentally puts TRIOS 6 scans and Dx Plus visualizations (caries, plaque, wear, gingival recession) directly into the patient record across North America, the UK, Australia and parts of Europe. The Danish company is pushing its AI into tens of thousands of practices already running a third-party system.",
+      "url": "https://www.prnewswire.com/news-releases/3shape-and-henry-schein-one-connect-digital-workflows-with-ai-assisted-diagnostics-302948152.html" },
+    { "company": "Sectra", "place": "Linköping", "sector": "Imaging", "pillar": "marche",
+      "signalType": "early_partnership", "strength": 2,
+      "title": "A large Danish region rolls out Sectra's imaging case-based training portal",
+      "summary": "The region's hospitals can now train staff on anonymized patient cases via the Sectra Education Portal, a cloud component of its enterprise imaging suite; the initial order covers at least 250 users per month, with room to grow, after a national launch in Norway this year.",
+      "url": "https://www.prnewswire.com/news-releases/danish-region-goes-live-with-sectra-education-portal-to-strengthen-collaboration-and-skills-development-for-healthcare-professionals-302948021.html" },
+    { "company": "Smith + Nephew", "place": "Watford", "sector": "MedTech", "pillar": "marche",
+      "signalType": "leadership_hire", "strength": 3,
+      "title": "Smith + Nephew names Nick Alexos, former CFO of Univar and Dentsply Sirona, as finance chief",
+      "summary": "He starts on November 30, succeeding John Rogers, who left for Baxter in September; a 30-year Madison Dearborn Partners veteran, he steered Univar's $8B take-private by Apollo. Chair Rupert Soames highlighted his M&A and capital-allocation record: a comparable to watch for orthopedics consolidation.",
+      "url": "https://medtechdive.com/news/smith-nephew-names-new-cfo/875485" }
   ],
-  "brefsIntl": [
-    { "company": "Ladera Medical", "place": "Menlo Park", "sector": "Cardio", "pillar": "innovation",
-      "signalType": "clinical_update", "strength": 3,
-      "title": "Ladera Medical presents full FASTEN results for its large-bore arterial closure system",
-      "summary": "In 55 transfemoral TAVI patients at six sites in Australia, Belgium and the Netherlands, the device achieved 98.1% freedom from major access-site complications at 30 days and hemostasis in 0.5 minutes on average (late-breaker at London Valves, presented by Jan van der Heyden, Sint-Jan Hospital Bruges). The device remains investigational and is not for sale anywhere: a startup to watch ahead of its next regulatory step.",
-      "url": "https://www.prnewswire.com/news-releases/ladera-medical-presents-full-fasten-results-showing-rapid-hemostasis-and-a-strong-safety-profile-with-its-large-bore-closure-system-302947571.html" }
-  ],
+  "brefsIntl": [],
   "word": {
-    "term": "TTVR",
-    "full": "Transcatheter Tricuspid Valve Replacement",
-    "fr": "Transcatheter tricuspid valve replacement",
-    "field": "Structural heart",
-    "definition": "An artificial heart valve, folded inside a catheter threaded through a vein in the leg or neck, is deployed in place of the leaking tricuspid valve, without opening the chest or stopping the heart.",
+    "term": "AI Mammography",
+    "full": "AI-Supported Mammography Screening",
+    "fr": "AI-assisted screening mammography",
+    "field": "Imaging & medical AI",
+    "definition": "AI software reads every screening mammogram, assigns a risk score and flags suspicious areas, to triage exams and support — or even replace — one of the two human readers.",
     "parts": [
-      { "label": "Self-expanding frame", "role": "anchoring in the native annulus and leaflets" },
-      { "label": "Bioprosthetic valve", "role": "sealing (biological tissue leaflets)" },
-      { "label": "Delivery system", "role": "transport via the femoral or jugular vein" }
+      { "label": "Detection model", "role": "finds and localizes suspicious lesions" },
+      { "label": "Risk score", "role": "ranks exams from most normal to most suspicious" },
+      { "label": "Workflow integration", "role": "connects the AI to the PACS and the double-reading setup" }
     ],
     "how": [
-      { "n": "1", "h": "Planning", "t": "ECG-gated CT measures the tricuspid annulus and simulates implantation; transesophageal echo assesses the regurgitation, right-ventricular function and any pacemaker leads." },
-      { "n": "2", "h": "Navigation", "t": "Through a femoral vein, the team advances a guidewire into the right ventricle, then pushes the large-bore delivery system across the annulus under transesophageal echo guidance." },
-      { "n": "3", "h": "Anchoring and release", "t": "The valve is released on the ventricular side, its anchors grasp the native leaflets, then it is released on the atrial side; for EVOQUE, deployment takes about 30 minutes." }
+      { "n": "1", "h": "Analysis", "t": "Screening images are sent to the software, which marks suspicious areas and computes a malignancy score." },
+      { "n": "2", "h": "Triage", "t": "Low-score exams go to single reading, high-score exams to reinforced double reading: the protocol tested in Sweden's MASAI trial." },
+      { "n": "3", "h": "Decision", "t": "The radiologist keeps the recall decision; the AI acts as an aid or a second reader depending on its approval." }
     ],
-    "why": "Tricuspid regurgitation, long the 'forgotten valve', mostly affects elderly patients too frail for surgery. Replacement removes the leak more predictably than edge-to-edge repair (about 95% at most mild regurgitation at one year, versus about 50%), but at the cost of more pacemakers (28% vs 4% in TRISCEND II) and annuli sometimes too large for current valves. With Edwards' EVOQUE the only orthotopic valve sold in Europe, the race is on: TRiCares' European and US pivotal trials, VDyne's head-to-head against EVOQUE, Cardiovalve's CE filing — and as many potential targets for the majors.",
+    "why": "With radiologists in short supply, breast screening is the most mature AI use case in imaging: the randomized MASAI trial (Lancet, 2026) showed higher sensitivity and 12% fewer interval cancers, and NIHR is funding EDITH across 700,000 women. The VC question is shifting from algorithm performance to reimbursement and the right to autonomous reading — where European players are ahead.",
     "startups": [
-      { "name": "TRiCares", "use": "Topaz valve; TRICURE pivotal trial in Europe and US IDE pivotal trial started in July 2026; €20M EIB loan in January 2026 after a $50M Series D", "place": "Aschheim (Munich), Germany" },
-      { "name": "VDyne", "use": "Side-delivered, annulus-anchored TriNova valve; randomized TRIVITA pivotal trial against EVOQUE (up to 70 sites in the US and Europe), first patient treated in July 2026", "place": "Minnesota, USA" },
-      { "name": "Trisol Medical", "use": "Dome-shaped tricuspid valve implanted via jugular then femoral access; US feasibility study published in EuroIntervention in November 2026 (94.7% technical success)", "place": "Yokneam, Israel" }
+      { "name": "ScreenPoint Medical", "use": "Its Transpara software is the AI used in Sweden's randomized MASAI trial", "place": "Nijmegen, Netherlands" },
+      { "name": "Vara", "use": "AI screening platform that handled nearly 40% of mammograms in Germany's national programme at the time of its $8.9M raise", "place": "Berlin, Germany" },
+      { "name": "Therapixel", "use": "Its MammoScreen 5 suite received FDA 510(k) clearance in June 2026", "place": "Nice, France" }
     ],
     "sources": [
-      { "publisher": "JRSM Cardiovascular Disease (PMC)", "title": "State of the art: Transcatheter tricuspid valve intervention", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13424762/" },
-      { "publisher": "TRiCares", "title": "News", "url": "https://www.tricares.com/news" },
-      { "publisher": "Cardiac Interventions Today", "title": "VDyne Commences TriNova TTVR System's TRIVITA US Pivotal Study", "url": "https://citoday.com/news/vdyne-commences-trinova-ttvr-systems-trivita-us-pivotal-study" },
-      { "publisher": "SOLACI", "title": "Transcatheter Tricuspid Valve Replacement with the Trisol Valve: Early Outcomes", "url": "https://solaci.org/en/2026/11/20/transcatheter-tricuspid-valve-replacement-with-the-trisol-valve-early-outcomes/" }
+      { "publisher": "Lund University", "title": "AI support in breast cancer screening: fewer missed cancer cases", "url": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases" },
+      { "publisher": "ScreenPoint Medical", "title": "MASAI RCT: 12% reduction in interval cancer rate using Transpara", "url": "https://screenpoint-medical.com/insights/final-results-masai-trial" },
+      { "publisher": "Medical Device Network", "title": "UK's NIHR backs largest global AI breast cancer screening trial", "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/" },
+      { "publisher": "FDA", "title": "510(k) K260714 — MammoScreen 5 (Therapixel)", "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260714" }
     ]
   }
 }
