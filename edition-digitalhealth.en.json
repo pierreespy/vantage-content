@@ -1,216 +1,153 @@
 {
-  "dateLong": "Nov 23, 2026",
+  "dateLong": "Nov 24, 2026",
   "ticker": [
-    {
-      "company": "TANDEM HEALTH",
-      "amount": "10+ specialties",
-      "kind": "tech"
-    },
-    {
-      "company": "AMD",
-      "amount": "Digital twin",
-      "kind": "tech"
-    },
-    {
-      "company": "FOODMARBLE",
-      "amount": "Kirin CVC",
-      "kind": "lev"
-    },
-    {
-      "company": "INTERSYSTEMS",
-      "amount": "CE IIa",
-      "kind": "reg"
-    },
-    {
-      "company": "DGRINES",
-      "amount": "Decree",
-      "kind": "reg"
-    },
-    {
-      "company": "PHILIPS",
-      "amount": "Launch",
-      "kind": "tech"
-    }
+    { "company": "SOFTWAY MEDICAL", "amount": "11M breach", "kind": "tech" },
+    { "company": "SOLTI", "amount": "300 patients", "kind": "tech" },
+    { "company": "OFSP", "amount": "SwissHDS", "kind": "reg" },
+    { "company": "ANS", "amount": "2027 doctrine", "kind": "reg" },
+    { "company": "AMSTERDAM MEDTECH", "amount": "Founded", "kind": "new" },
+    { "company": "EQUASENS", "amount": "Launch", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Hospital rollout · Clinical AI",
-    "title": "Tandem Health extends its AI clinical documentation to more than ten specialties at Rotterdam's Maasstad Ziekenhuis",
-    "deck": "Tandem's assistant listens to the consultation and drafts a structured clinical note, which the physician reviews, edits and approves before it enters the patient record; the Rotterdam hospital, part of the Santeon group (seven hospitals) and the Coöperatie Zorg op Zuid, now uses it across more than ten specialties, with more than 20,000 consultations already supported according to the hospital. For the former Juvoly, CE-marked under the MDR, certified to ISO 13485, ISO 42001 and BSI C5 and claiming 10,000 care organisations in 14 countries, it shows that after its $100M raise led in September by EQT's Scaleup Europe Fund, the European AI scribe battle is now fought at whole-hospital scale, with more than 130 patient record systems already connected across Europe.",
-    "company": "Tandem Health",
-    "sector": "Clinical AI",
-    "pillar": "innovation",
-    "signalType": "early_partnership",
+    "kicker": "Cybersecurity · Hospital software",
+    "title": "Softway Medical puts numbers on the breach of its One Manager radiology software: 11 million patients exposed, 4 million of them with their social security number",
+    "deck": "The vendor told TICsanté the toll of the cyberattack that hit One Manager, its radiology information system, in early November: administrative data on some 11 million patients leaked, and for about 4 million of them the social security number was on file. A vendor incident rather than a hospital one, it knocks on to the imaging centres that use the software and turns software supply-chain security (vendor access, segmentation, logging) into a purchasing and due-diligence criterion in its own right across health software.",
+    "company": "Softway Medical",
+    "sector": "Hospital software",
+    "pillar": "marche",
+    "signalType": "regulatory_milestone",
     "strength": 3,
-    "url": "https://tandemhealth.ai/resources/news/tandem-partners-with-maasstad-ziekenhuis-bringing-ai-documentation-to-more-than-ten-hospital-specialties"
+    "url": "https://www.ticsante.com/story?id=8535"
   },
   "milestone": {
-    "company": "AMD (Associazione Medici Diabetologi)",
-    "milestone": "Digital twin",
-    "title": "Italy's AMD diabetologists unveil a \"kidney digital twin\" that predicts three-year risk of chronic kidney disease",
-    "summary": "Presented at the 13th national congress of the AMD Foundation in Trieste, the model, built with Rita Zilich (Mix-x), relies on a Logic Learning Machine, an explainable AI with readable decision rules, trained on data from more than 136,000 patients in the Annali AMD database (1.5 million people with type 2 diabetes followed from 2010 to 2023). It estimates the risk of chronic kidney failure and simulates how glomerular filtration rate evolves with or without SGLT2 inhibitors; first analyses show 89% accuracy for kidney failure and 79% for albuminuria.",
-    "why": "Chronic kidney disease affects about half of people with type 2 diabetes: a tool that simulates a treatment's benefit before prescribing moves the digital twin from the lab to the consultation room. Next step: a web app for clinicians, to be tested in a group of diabetes centres, after a special mention at the Politecnico di Milano's 2026 Premio Innovazione Digitale in Sanità.",
-    "place": "Trieste",
-    "sector": "Clinical AI",
-    "signalType": "conference_abstract",
-    "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
+    "company": "SOLTI",
+    "milestone": "Multicentre trial",
+    "title": "The TOP-REAL trial tests app, pulse-oximeter and smartwatch remote monitoring to catch trastuzumab deruxtecan toxicities earlier in HER2+ breast cancer",
+    "summary": "Run by Spanish academic group SOLTI with Unicancer and the West German Study Group, and supported by AstraZeneca and Daiichi Sankyo, the phase II trial targets around 300 patients at 60 centres in Spain, France and Germany receiving first-line T-DXd plus pertuzumab. Between visits, patients report ePROs in the CANKADO or Resilience app depending on the country, check their oxygen saturation daily and wear a smartwatch, to spot interstitial lung disease early; enrolment is under way in Spain and France and recruitment is open in Germany.",
+    "why": "Here digital remote monitoring is not a bolt-on module but the tool meant to keep patients on one of the most effective drugs in HER2+ breast cancer: a concrete oncology use case, backed by cooperative groups and industry, for two European remote-follow-up apps. Presented at ESMO AI & Digital Oncology 2026 (press release dated November 20).",
+    "place": "Barcelona",
+    "sector": "Telehealth",
+    "signalType": "clinical_update",
+    "url": "https://www.prnewswire.co.uk/news-releases/top-real-investigates-whether-digital-monitoring-can-support-earlier-detection-of-toxicities-and-preserve-continuity-of-one-of-the-most-effective-treatments-for-her2-positive-metastatic-breast-cancer-302946914.html"
   },
   "brefsEurope": [
     {
-      "company": "FoodMarble",
-      "place": "Dublin",
-      "sector": "Wearables",
-      "pillar": "financement",
-      "signalType": "funding_round",
+      "company": "Office fédéral de la santé publique (OFSP)",
+      "place": "Bern",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Kirin makes Ireland's FoodMarble, which measures gut fermentation through breath, the first investment of its KIRIN VENTURES fund",
-      "summary": "Announced on November 20 (for a stake dated September 30, amount undisclosed), the deal targets the digestive health platform founded in 2015 and led by Aonghus Shortt: a pocket breath analyser and an app that match gases produced by gut fermentation with meal and symptom logs. Kirin wants to combine this data with its fermentation and microbiome expertise to co-create services in Japan, while FoodMarble plans to expand its AI-driven self-care features.",
-      "url": "https://prtimes.jp/main/html/rd/p/000001672.000073077.html"
+      "title": "Switzerland sketches a federated health data space, SwissHDS, built on HL7 FHIR and with no central national database",
+      "summary": "Presented on November 23 in Bern at the annual meeting of the DigiSanté programme, the model leaves data with the institutions and professionals that produce it, with shared services handling exchange; the national health data governance group recommends FHIR as the foundation, a central patient registry will link identities across hospitals and practices, and SwissHDS will share its technical infrastructure with the future electronic patient record. The legal bases are being drafted, with a public consultation planned for summer 2027: a window for interoperability vendors.",
+      "url": "https://dsih.fr/articles/6476/donnees-de-sante-la-suisse-prepare-une-architecture-federee-pour-connecter-ses-etablissements"
     },
     {
-      "company": "InterSystems",
-      "place": "Italy",
+      "company": "Konsortium DigitalRadar Krankenhaus",
+      "place": "Germany",
       "sector": "Hospital software",
+      "pillar": "marche",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "DigitalRadar scores German hospitals' digital maturity at 55 out of 100, up from 33.3 in 2021, but telehealth still trails",
+      "summary": "Commissioned by the Federal Ministry of Health, the consortium credits the roughly 65% rise to the KHZG hospital fund: €1,000 of funding per bed is associated on average with a 1.2-point gain, and the improvement spans every hospital size and every federal state. The two weakest dimensions remain patient participation (29.5% fulfilment) and telehealth (28.7%): ground still to be equipped by patient-portal and remote-monitoring vendors.",
+      "url": "https://kma-online.de/aktuelles/it-digital-health/detail/digitalradar-krankenhaeuser-steigern-digitale-reife-deutlich-56570"
+    },
+    {
+      "company": "CHU de Guadeloupe",
+      "place": "Pointe-à-Pitre",
+      "sector": "Cybersecurity",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "InterSystems launches IntelliCare in Italy, its AI-native hospital information system CE-marked as Class IIa",
-      "summary": "The successor to TrakCare (more than 600 hospitals in 29 countries, 14 of them in Italy) embeds an ambient-voice AI scribe that structures the note in the record, prepares test orders and visit reports and lets nurses dictate handovers, with the clinician keeping the final decision. Already adopted in Indonesia, the UAE and Saudi Arabia, it will be showcased at the Forum Risk Management in Arezzo (Nov 24-27): a comparable for scribe startups, now that EHR vendors build the feature in natively.",
-      "url": "https://www.sanita-digitale.com/in-evidenza/intersystems-intellicare-arriva-in-italia/"
+      "title": "Cyberattack at CHU de Guadeloupe: emergency plan triggered, operations and scans postponed until November 27",
+      "summary": "Hit on Saturday November 21, the hospital found its databases encrypted; business applications and internal telephony are heavily disrupted across its three sites, and the new Belle-Plaine hospital in Les Abymes is affected to a lesser degree. Management, which cites a possible but unconfirmed compromise at an IT contractor, is working with ANSSI; the emergency department and SAMU are running, and wards have gone back to paper.",
+      "url": "https://dsih.fr/articles/6474/cyberattaque-au-chu-de-guadeloupe-le-plan-blanc-declenche-des-soins-reportes-jusquau-27-novembre"
     },
     {
-      "company": "Philips",
-      "place": "Netherlands",
-      "sector": "Imaging",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Philips launches Advanced Image Insights, a cloud platform orchestrating third-party imaging AI inside the radiologist's workflow",
-      "summary": "Announced ahead of RSNA 2026, the AWS-hosted SaaS combines Philips' advanced visualisation applications with centralised management of third-party AI algorithms, each keeping its intended use and regulatory status; connected to the HealthSuite Imaging PACS, it can for instance run incidental pulmonary embolism detection and lung nodule analysis in parallel on the same chest CT, then feed results into a structured report. A sign that distribution for radiology AI startups runs through the big OEMs' marketplaces.",
-      "url": "https://hitconsultant.net/2026/11/19/royal-philips-launches-advanced-image-insights-healthsuite-rsna-2026/"
-    },
-    {
-      "company": "DGRINES",
+      "company": "Agence du numérique en santé",
       "place": "Paris",
       "sector": "Regulatory",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "A decree seats France's new directorate for health research, innovation and digital on six bodies, including the CEPS",
-      "summary": "Operational since November 1, the DGRINES, which merges the digital health delegation, most of the Agence de l'innovation en santé and the \"article 51\" mission, takes over the DNS seats at the Conférence nationale de santé, the ARS steering council and the Fmis committee, and replaces the DGOS on the Comité économique des produits de santé. Its director general Lise Alter will therefore sit where health product prices, digital devices included, are negotiated.",
-      "url": "https://www.ticsante.com/story?id=8531"
+      "title": "France's ANS opens its 2027 digital health doctrine to consultation until January 15, financial penalties included",
+      "summary": "Opened on November 23 to hospitals, professionals and software vendors, the consultation covers access conditions for the DMP shared medical record, digital identification of professionals, how care-coordination tools (e-Parcours) fit with practice software, and regulation, including financial penalties for failing certain requirements. The update also folds in the Cyber Resilience Act and HDS certification requirements; a presentation webinar is set for November 26 with DGRINES, the national health insurer and GIE SESAM-Vitale.",
+      "url": "https://dsih.fr/articles/6475/doctrine-du-numerique-en-sante-2027-lans-met-le-dmp-lidentite-numerique-et-la-regulation-en-concertation"
     },
     {
-      "company": "Agences régionales de santé",
+      "company": "ELSAN",
+      "place": "Paris",
+      "sector": "Clinical AI",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "ELSAN brings onto its supervisory board Mehdi Ghissassi, a former applied-AI leader at Google Brain and DeepMind",
+      "summary": "At Google from 2012 to 2024, now head of product and technology at Abu Dhabi's AI71 and chair of Teleperformance's AI & Innovation committee, he is to support the clinic group's ambition to become, by 2030, a European benchmark for deploying AI at scale in hospitals. First uses cited: fracture-detection support and analysis of patient feedback, an implicit call for clinical and administrative AI startups.",
+      "url": "https://www.mysih.fr/elsan-nomme-mehdi-ghissassi-a-son-conseil-de-surveillance-pour-accompagner-ses-ambitions-dans-lintelligence-artificielle/"
+    },
+    {
+      "company": "Equasens",
       "place": "France",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "grant_award",
-      "strength": 2,
-      "title": "France renews €4.74M to fund dedicated digital health posts in its regional health agencies",
-      "summary": "An order renews this allocation from the Fonds pour la modernisation et l'investissement en santé for the posts driving the Ségur numérique, the promotion of Mon espace santé and cybersecurity in the regions; the largest envelopes (€303,800 each) go to Hauts-de-France, Martinique, Mayotte and Pays de la Loire, the smallest (€178,800) to La Réunion. Regional relays are maintained, which matters for vendors that must win adoption facility by facility.",
-      "url": "https://www.ticsante.com/story?id=8529"
-    },
-    {
-      "company": "ABN AMRO",
-      "place": "Netherlands",
-      "sector": "Fund",
-      "pillar": "marche",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "ABN AMRO warns that Dutch care organisations lagging on AI will slip into the red",
-      "summary": "According to the bank's sector report published on November 19, only one care organisation in eight uses speech recognition for documentation, which can cut documentation time by 10%; the sector's caution stems from data protection, limited experience, misdiagnosis risk and unclear liability. Protected budgets limit the pressure for now, but room to invest should shrink after next year, and those who have not automated will fall behind once competitors have lowered their costs.",
-      "url": "https://www.skipr.nl/nieuws/abn-amro-zorgorganisaties-die-achterblijven-met-ai-gaan-rode-cijfers-schrijven/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "Function Health",
-      "place": "United States",
-      "sector": "Digital Health",
+      "sector": "Telehealth",
       "pillar": "innovation",
       "signalType": "early_partnership",
       "strength": 2,
-      "title": "Function Health adds personalised action plans, specialist booking and $340 family plans",
-      "summary": "The lab-testing platform (160+ tests a year) now generates, through its Medical Intelligence Lab, prioritised action plans reviewed by clinicians, lets members book an in-network specialist, offers supplements via SuppCo (acquired in May) and at-home blood draws with Getlabs at $149. A comparable for European consumer preventive-health players, who are also trying to move from one-off check-ups to ongoing subscriptions.",
-      "url": "https://hitconsultant.net/2026/11/20/function-adds-membership-benefits-action-plans-specialist-referrals-supplements-family-plans/"
+      "title": "Equasens launches Eqwo, an online booking tool with teleconsultation built into its MediStory practice software",
+      "summary": "Unveiled on November 19, the app combines appointment booking, teleconsultation and document exchange for under €100 a month incl. VAT per self-employed doctor; it starts on MediStory and its 15,000+ users, before easy-care and then pharmacy software in H1 2027. Already used by pilot practices, it rolls out in Q1 2027: a practice-software vendor going head-on at the booking platforms' turf.",
+      "url": "https://dsih.fr/articles/6473/equasens-lance-eqwo-un-agenda-en-ligne-integre-au-logiciel-des-cabinets-medicaux"
+    },
+    {
+      "company": "Digizorg",
+      "place": "Rotterdam",
+      "sector": "Health data",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Digizorg, Erasmus MC's data-exchange platform, expands into elderly and home care after pioneers Aafje and Laurens",
+      "summary": "Since this year the two Rotterdam care organisations use the Digizorg Cockpit to view lab results, appointments and letters from connected hospitals, with about 90 users; Amarijn's Zeeland sites and the Zorgring network in Noord-Holland Noord are preparing to follow, PharmaPartners is opening the link to GP practices on Medicom, and a first version of a patient app is expected by year-end; the platform is expanding with IZA agreement funding.",
+      "url": "https://www.skipr.nl/nieuws/digizorg-pioniers-aafje-en-laurens-krijgen-navolging-in-de-vvt/"
+    },
+    {
+      "company": "Amsterdam MedTech",
+      "place": "Amsterdam",
+      "sector": "Digital Health",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 2,
+      "title": "Amsterdam UMC, UvA and VU launch Amsterdam MedTech to get innovations, AI and digital care included, to the bedside faster",
+      "summary": "The new ecosystem starts from concrete care problems to connect clinicians, researchers, technologists and companies around imaging, photonics, AI, digital care and robotics, applied to oncology, cardiovascular care, neurology and mental health. First project: exploring lung cancer diagnosis and treatment in a single procedure, combining HHG microscopy and AI; it ties into the Dutch goal of having Europe's strongest MedTech sector by 2035.",
+      "url": "https://www.icthealth.nl/nieuws/amsterdam-medtech-moet-zorginnovaties-sneller-toepasbaar-maken"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "Digital Twin",
-    "full": "Patient Digital Twin",
-    "fr": "Patient digital twin",
-    "field": "Clinical AI and modelling",
-    "definition": "A digital representation of a patient, an organ or a disease, built from their data and models, that simulates how it will evolve and respond to treatment before acting on the real patient.",
+    "term": "HDS",
+    "full": "Hébergeur de Données de Santé (French health data hosting certification)",
+    "fr": "Health data host",
+    "field": "Cybersecurity & health data",
+    "definition": "A mandatory French certification for any organisation that hosts or operates personal health data on behalf of a third party: without it, a health software product cannot store its customers' records.",
     "parts": [
-      {
-        "label": "Data",
-        "role": "the patient's or a cohort's tests, imaging, lab results and history"
-      },
-      {
-        "label": "Model",
-        "role": "the AI or physics-based simulation that reproduces the organ or disease"
-      },
-      {
-        "label": "Scenarios",
-        "role": "treatment options tested virtually to compare their effects"
-      }
+      { "label": "ANS framework", "role": "the security specification" },
+      { "label": "COFRAC-accredited body", "role": "the auditor that issues the certificate" },
+      { "label": "Six activities", "role": "the scope, from data centre to backup" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Build",
-        "t": "The model is built from the patient's data (CT, MRI, lab results) or trained on large cohorts, such as the 136,000 patients AMD used for its kidney twin."
-      },
-      {
-        "n": "2",
-        "h": "Simulate",
-        "t": "The twin projects how the organ or disease evolves and tests scenarios: with or without treatment, or a device's performance across a virtual population."
-      },
-      {
-        "n": "3",
-        "h": "Decide",
-        "t": "The clinician or manufacturer relies on these forecasts to choose a strategy, plan a procedure or flag at-risk patients, with the decision remaining human."
-      }
+      { "n": "1", "h": "Scope", "t": "The host picks which of six activities it certifies: physical sites, hardware infrastructure, virtual infrastructure, application hosting platform, system administration and operation, outsourced backup." },
+      { "n": "2", "h": "Audit", "t": "A COFRAC-accredited certification body audits it against the framework drawn up by the ANS; data must stay within the European Economic Area, and encryption does not exempt anyone from certification." },
+      { "n": "3", "h": "Upkeep", "t": "The certificate lasts three years and carries ongoing duties, such as keeping for each customer an up-to-date health-professional contact that can be handed to the authorities without delay." }
     ],
-    "why": "The European Commission has invested more than €100M in its Virtual Human Twins initiative, with a dedicated platform funded by the Digital Europe programme, and the first twins are moving from labs into the consultation room. For a VC the appeal is twofold: decision-support tools that personalise treatment, and \"virtual\" trials that cut the cost and risk of device development, two markets where value concentrates in data and clinical validation.",
+    "why": "For a digital health startup, HDS is the entry ticket to the French market: most lean on a certified host rather than certifying themselves, which makes the choice of host and the exact scope of the certificate a key due-diligence point. With the Softway Medical breach and the ANS 2027 doctrine folding in HDS requirements, hosting security and sovereignty are becoming a sales argument as much as a compliance box.",
     "startups": [
-      {
-        "name": "adsilico",
-        "use": "University of Leeds spinout whose Virtual Chimera technology uses AI to generate virtual hearts and vessels for testing medical devices; £10M Series A led by PXN Ventures in October 2026",
-        "place": "Leeds, UK"
-      },
-      {
-        "name": "inHEART",
-        "use": "AI-generated digital twin of the heart built from CT or MRI scans to plan cardiac ablations; raised $11M to accelerate commercialisation of its software",
-        "place": "Pessac, France"
-      },
-      {
-        "name": "Integratome",
-        "use": "SaaS platform that assembles questionnaires, measurements and lab results into a digital health twin (73 conditions modelled) to prepare check-ups, with a simulator of lifestyle-change effects",
-        "place": "France"
-      }
+      { "name": "Scalingo", "use": "Cloud platform HDS-certified since September 2022, renewed in 2025 under the v2 framework across all six activities (certificate valid until 2028)", "place": "France" },
+      { "name": "Clever Cloud", "use": "Cloud host HDS-certified in January 2025 across all six framework activities, alongside ISO 27001, and working towards SecNumCloud", "place": "France" },
+      { "name": "Nabla", "use": "AI clinical documentation assistant whose application is hosted on Google Cloud, described as HDS-certified in its legal notice", "place": "Paris" }
     ],
     "sources": [
-      {
-        "publisher": "Commission européenne",
-        "title": "European Virtual Human Twins (VHT) Initiative",
-        "url": "https://digital-strategy.ec.europa.eu/en/policies/virtual-human-twins"
-      },
-      {
-        "publisher": "Sanità Digitale",
-        "title": "Kidney Digital Twin: stima il rischio renale nel diabete",
-        "url": "https://www.sanita-digitale.com/cura/kidney-digital-twin-stima-il-rischio-renale-nel-diabete/"
-      },
-      {
-        "publisher": "Intelligent Health Tech",
-        "title": "Leeds AI spinout raises £10 million to assess medical device performance in virtual patients before they reach real ones",
-        "url": "https://www.intelligenthealth.tech/2026/10/27/leeds-ai-spinout-raises-10m-to-assess-medical-device-performance-in-virtual-patients-before-they-reach-real-ones/"
-      },
-      {
-        "publisher": "EIT",
-        "title": "inHEART secures USD 11 million to optimise cardiac care",
-        "url": "https://eit.europa.eu/news-events/news/inheart-secures-usd-11-million-optimise-cardiac-care"
-      }
+      { "publisher": "G_NIUS (Agence du numérique en santé)", "title": "Simplific'Action: Understanding HDS Certification", "url": "https://gnius.esante.gouv.fr/en/whats-new/news/simplificaction-understanding-hds-certification" },
+      { "publisher": "Scalingo", "title": "Health Data Hosting Provider - Hébergeur de Données de Santé - Scalingo", "url": "https://doc.scalingo.com/compliance/hds" },
+      { "publisher": "Clever Cloud", "title": "Clever Cloud obtains HDS (Health Data Hosting) certification", "url": "https://clever.cloud/blog/press/2025/01/15/clever-cloud-obtains-hds-certification" },
+      { "publisher": "Nabla", "title": "Avis légal", "url": "https://nabla.com/fr/legal-notice" }
     ]
   }
 }

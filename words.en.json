@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-24",
   "words": [
     {
+      "term": "HDS",
+      "full": "Hébergeur de Données de Santé (French health data hosting certification)",
+      "fr": "Health data host",
+      "field": "Cybersecurity & health data",
+      "definition": "A mandatory French certification for any organisation that hosts or operates personal health data on behalf of a third party: without it, a health software product cannot store its customers' records.",
+      "parts": [
+        {
+          "label": "ANS framework",
+          "role": "the security specification"
+        },
+        {
+          "label": "COFRAC-accredited body",
+          "role": "the auditor that issues the certificate"
+        },
+        {
+          "label": "Six activities",
+          "role": "the scope, from data centre to backup"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Scope",
+          "t": "The host picks which of six activities it certifies: physical sites, hardware infrastructure, virtual infrastructure, application hosting platform, system administration and operation, outsourced backup."
+        },
+        {
+          "n": "2",
+          "h": "Audit",
+          "t": "A COFRAC-accredited certification body audits it against the framework drawn up by the ANS; data must stay within the European Economic Area, and encryption does not exempt anyone from certification."
+        },
+        {
+          "n": "3",
+          "h": "Upkeep",
+          "t": "The certificate lasts three years and carries ongoing duties, such as keeping for each customer an up-to-date health-professional contact that can be handed to the authorities without delay."
+        }
+      ],
+      "why": "For a digital health startup, HDS is the entry ticket to the French market: most lean on a certified host rather than certifying themselves, which makes the choice of host and the exact scope of the certificate a key due-diligence point. With the Softway Medical breach and the ANS 2027 doctrine folding in HDS requirements, hosting security and sovereignty are becoming a sales argument as much as a compliance box.",
+      "startups": [
+        {
+          "name": "Scalingo",
+          "use": "Cloud platform HDS-certified since September 2022, renewed in 2025 under the v2 framework across all six activities (certificate valid until 2028)",
+          "place": "France"
+        },
+        {
+          "name": "Clever Cloud",
+          "use": "Cloud host HDS-certified in January 2025 across all six framework activities, alongside ISO 27001, and working towards SecNumCloud",
+          "place": "France"
+        },
+        {
+          "name": "Nabla",
+          "use": "AI clinical documentation assistant whose application is hosted on Google Cloud, described as HDS-certified in its legal notice",
+          "place": "Paris"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "G_NIUS (Agence du numérique en santé)",
+          "title": "Simplific'Action: Understanding HDS Certification",
+          "url": "https://gnius.esante.gouv.fr/en/whats-new/news/simplificaction-understanding-hds-certification"
+        },
+        {
+          "publisher": "Scalingo",
+          "title": "Health Data Hosting Provider - Hébergeur de Données de Santé - Scalingo",
+          "url": "https://doc.scalingo.com/compliance/hds"
+        },
+        {
+          "publisher": "Clever Cloud",
+          "title": "Clever Cloud obtains HDS (Health Data Hosting) certification",
+          "url": "https://clever.cloud/blog/press/2025/01/15/clever-cloud-obtains-hds-certification"
+        },
+        {
+          "publisher": "Nabla",
+          "title": "Avis légal",
+          "url": "https://nabla.com/fr/legal-notice"
+        }
+      ],
+      "date": "2026-11-24",
+      "dateLong": "Nov 24, 2026"
+    },
+    {
       "term": "AntimiR",
       "full": "Anti-microRNA oligonucleotide",
       "fr": "Anti-microRNA oligonucleotide",

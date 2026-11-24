@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-24",
   "words": [
     {
+      "term": "HDS",
+      "full": "Hébergeur de Données de Santé (certification française d'hébergement des données de santé)",
+      "fr": "Hébergeur de données de santé",
+      "field": "Cybersécurité & données de santé",
+      "definition": "Certification obligatoire en France pour toute organisation qui héberge ou exploite, pour le compte d'un tiers, des données de santé à caractère personnel : sans elle, un logiciel de santé ne peut pas stocker les dossiers de ses clients.",
+      "parts": [
+        {
+          "label": "Référentiel ANS",
+          "role": "le cahier des charges de sécurité"
+        },
+        {
+          "label": "Organisme accrédité COFRAC",
+          "role": "l'auditeur qui délivre le certificat"
+        },
+        {
+          "label": "Six activités",
+          "role": "le périmètre, du datacenter à la sauvegarde"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Périmètre",
+          "t": "L'hébergeur choisit les activités qu'il certifie parmi six : sites physiques, infrastructure matérielle, infrastructure virtuelle, plateforme d'hébergement applicatif, administration et exploitation du système, sauvegarde externalisée."
+        },
+        {
+          "n": "2",
+          "h": "Audit",
+          "t": "Un organisme certificateur accrédité par le COFRAC l'audite selon le référentiel élaboré par l'ANS ; les données doivent rester dans l'Espace économique européen, et le chiffrement n'exonère pas de la certification."
+        },
+        {
+          "n": "3",
+          "h": "Maintien",
+          "t": "Le certificat vaut trois ans et impose des obligations continues, comme tenir à jour pour chaque client un contact professionnel de santé communicable sans délai aux autorités."
+        }
+      ],
+      "why": "Pour une startup de santé numérique, HDS est un ticket d'entrée sur le marché français : la plupart s'adossent à un hébergeur certifié plutôt que de se certifier elles-mêmes, ce qui fait du choix de l'hébergeur et du périmètre exact du certificat un point clé de due diligence. Avec la fuite Softway Medical et la doctrine 2027 de l'ANS qui intègre les exigences HDS, la sécurité et la souveraineté de l'hébergement deviennent un argument commercial autant qu'une conformité.",
+      "startups": [
+        {
+          "name": "Scalingo",
+          "use": "Plateforme cloud certifiée HDS depuis septembre 2022, renouvelée en 2025 sous le référentiel v2 sur les six activités (certificat valable jusqu'en 2028)",
+          "place": "France"
+        },
+        {
+          "name": "Clever Cloud",
+          "use": "Hébergeur cloud certifié HDS en janvier 2025 sur les six activités du référentiel, aux côtés de l'ISO 27001, et engagé vers SecNumCloud",
+          "place": "France"
+        },
+        {
+          "name": "Nabla",
+          "use": "Assistant IA de documentation clinique dont l'application est hébergée sur Google Cloud, présenté comme certifié HDS dans ses mentions légales",
+          "place": "Paris"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "G_NIUS (Agence du numérique en santé)",
+          "title": "Simplific'Action: Understanding HDS Certification",
+          "url": "https://gnius.esante.gouv.fr/en/whats-new/news/simplificaction-understanding-hds-certification"
+        },
+        {
+          "publisher": "Scalingo",
+          "title": "Health Data Hosting Provider - Hébergeur de Données de Santé - Scalingo",
+          "url": "https://doc.scalingo.com/compliance/hds"
+        },
+        {
+          "publisher": "Clever Cloud",
+          "title": "Clever Cloud obtains HDS (Health Data Hosting) certification",
+          "url": "https://clever.cloud/blog/press/2025/01/15/clever-cloud-obtains-hds-certification"
+        },
+        {
+          "publisher": "Nabla",
+          "title": "Avis légal",
+          "url": "https://nabla.com/fr/legal-notice"
+        }
+      ],
+      "date": "2026-11-24",
+      "dateLong": "24 nov. 2026"
+    },
+    {
       "term": "AntimiR",
       "full": "Anti-microRNA oligonucleotide",
       "fr": "Oligonucléotide anti-microARN",
