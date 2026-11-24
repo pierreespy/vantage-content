@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-24",
   "words": [
     {
+      "term": "AntimiR",
+      "full": "Anti-microRNA oligonucleotide",
+      "fr": "Anti-microRNA oligonucleotide",
+      "field": "RNA / Oligonucleotides",
+      "definition": "A short, chemically reinforced synthetic RNA strand that sticks to a microRNA that is overactive in disease and stops it from switching off its target genes.",
+      "parts": [
+        {
+          "label": "Complementary sequence",
+          "role": "precisely recognizes the targeted microRNA (miR-134, miR-22, miR-23b…)"
+        },
+        {
+          "label": "Modified chemistry (LNA, 2'-O-methyl, phosphorothioate)",
+          "role": "resists nucleases and strengthens binding"
+        },
+        {
+          "label": "Conjugate or route of administration",
+          "role": "brings the molecule to the right tissue (cholesterol, GalNAc, intrathecal, intravenous)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Identify the disease-causing microRNA",
+          "t": "A microRNA overexpressed in disease can single-handedly repress dozens of messenger RNAs, like miR-23b, which holds back the MBNL protein in myotonic dystrophy type 1."
+        },
+        {
+          "n": "2",
+          "h": "Sequester it",
+          "t": "The antimiR hybridizes to the mature microRNA and neutralizes it or triggers its degradation, releasing the brake on its target genes."
+        },
+        {
+          "n": "3",
+          "h": "Restore a gene network",
+          "t": "Because one microRNA regulates many genes, a single molecule can correct a whole biological program, but the same cascade effect creates off-target risks that must be monitored."
+        }
+      ],
+      "why": "After a rocky start (no antimiR has yet reached Phase 3 or approval), the field is returning through indications where the mechanism is well established: neurology, rare neuromuscular diseases, metabolism. For a VC, it is a capital-efficient modality built on advances in oligonucleotide chemistry, where Europe has several pure players and big pharma appetite has already been shown (Novo Nordisk's acquisition of Cardior, Sanofi's stake in Resalis).",
+      "startups": [
+        {
+          "name": "Neumirna Therapeutics",
+          "use": "Antisense oligonucleotide NMT.001 blocks miR-134 in drug-resistant epilepsy; selected by the EIC Accelerator (up to €12.5M) for a Phase 1/2",
+          "place": "Copenhagen, Denmark"
+        },
+        {
+          "name": "Resalis Therapeutics",
+          "use": "RES-010, an anti-miR-22 compound for obesity, in Phase 1 in the Netherlands; strategic investment from Sanofi",
+          "place": "Turin, Italy"
+        },
+        {
+          "name": "Arthex Biotech",
+          "use": "ATX-01, a miR-23b inhibitor that restores the MBNL protein, in the Phase 1/2a ArthemiR trial in myotonic dystrophy type 1",
+          "place": "Valencia, Spain"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "International Journal of Molecular Sciences (PMC)",
+          "title": "Trials and Tribulations of MicroRNA Therapeutics",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10855871/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Neumirna Therapeutics Selected to Receive up to EUR12.5 Million Funding from the EIC Accelerator to Advance NMT.001 into the Clinic for Drug-Resistant Epilepsy",
+          "url": "https://www.biospace.com/press-releases/neumirna-therapeutics-selected-to-receive-up-to-eur12-5-million-funding-from-the-eic-accelerator-to-advance-nmt-001-into-the-clinic-for-drug-resistant-epilepsy"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Resalis Therapeutics Announces Initiation of Phase 1 Clinical Trial for RES-010 in Obesity",
+          "url": "https://www.biospace.com/press-releases/resalis-therapeutics-announces-initiation-of-phase-1-clinical-trial-for-res-010-in-obesity"
+        },
+        {
+          "publisher": "NHS Health Research Authority",
+          "title": "Phase 1/2a study of ATX-01 in participants with DM1 (ArthemiR study)",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phase-12a-study-of-atx-01-in-participants-with-dm1-arthemir-study/"
+        }
+      ],
+      "date": "2026-11-24",
+      "dateLong": "Nov 24, 2026"
+    },
+    {
       "term": "AI Mammography",
       "full": "AI-Supported Mammography Screening",
       "fr": "AI-assisted screening mammography",

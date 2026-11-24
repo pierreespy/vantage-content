@@ -1,122 +1,151 @@
 {
-  "dateLong": "Nov 23, 2026",
+  "dateLong": "Nov 24, 2026",
   "ticker": [
-    { "company": "CARSGEN", "amount": "3 CR / 6", "kind": "tech" },
-    { "company": "ABIVAX", "amount": "−17%", "kind": "tech" },
-    { "company": "CAPRICOR", "amount": "CRL", "kind": "reg" },
-    { "company": "THÉA", "amount": "€150M", "kind": "lev" },
-    { "company": "REVMED", "amount": "ORR 61%", "kind": "tech" },
-    { "company": "EVAXION", "amount": "Refocus", "kind": "tech" }
+    { "company": "LOQUS23", "amount": "$725M", "kind": "mna" },
+    { "company": "RITZEY", "amount": "$112.5M", "kind": "lev" },
+    { "company": "NEUMIRNA", "amount": "EIC", "kind": "new" },
+    { "company": "NOVARTIS", "amount": "Ph3 ✓", "kind": "tech" },
+    { "company": "BRIDGEBIO", "amount": "FDA", "kind": "reg" },
+    { "company": "EGENESIS", "amount": "1 year off dialysis", "kind": "tech" }
   ],
   "lead": {
-    "kicker": "Short seller · Immunology",
-    "title": "Abivax falls 17% in Paris after short seller Scorpion Capital attacks obefazimod weeks before its FDA filing",
-    "deck": "On November 20, Scorpion Capital, which disclosed a short position, branded Abivax's oral ulcerative colitis candidate a \"toxin\": it compared the drug's lipophilicity to that of banned pesticides, cited lab tests it commissioned itself suggesting photocarcinogenic risk, and questioned skin-safety monitoring and the reliance on Chinese studies. Abivax says the report contains \"numerous factually inaccurate and misleading statements\", notes that some of the cited studies were funded by Scorpion, and maintains its plan to file with the FDA before year-end: a stress test for the most closely watched asset in French biotech, whose shares are down 48% since January.",
-    "company": "Abivax",
-    "sector": "Immunology",
-    "pillar": "marche",
-    "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://www.briefs.co/news/short-seller-calls-abivax-drug-a-toxin-shares-slide-17-in-pa/"
+    "kicker": "Acquisition · Neuroscience",
+    "title": "Lilly buys UK-based LoQus23 for up to $725M for its oral MSH3 inhibitor in Huntington's disease, before it has even reached the clinic",
+    "deck": "The Cambridge biotech, founded in 2019 by David Reynolds, Ruth McKernan and Caroline Benn at SV Health Investors' Dementia Discovery Fund and backed by a £35M Series A led by Forbion in 2024, is being sold for an undisclosed upfront plus milestone payments. Its candidate LQT-23 blocks MSH3, a DNA-repair protein that drives the 'somatic' expansion of CAG repeats in the huntingtin gene: a bet on modifying the course of the disease, paid for at the preclinical stage, with a clinical trial application expected by the end of 2026.",
+    "company": "LoQus23 Therapeutics",
+    "sector": "Neuroscience",
+    "pillar": "financement",
+    "signalType": "acquisition",
+    "strength": 5,
+    "url": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/"
   },
   "milestone": {
-    "company": "CARsgen Therapeutics",
-    "milestone": "First clinical data",
-    "title": "CARsgen reports first human data for CT1182, a CD19/CD20 CAR-T made directly inside the patient's body",
-    "summary": "A single intravenous infusion, with no lymphodepleting chemotherapy, generates CAR-T cells in situ via the CARvivo platform (proprietary viral envelopes and T-cell-specific promoters). Among six patients with relapsed B-cell non-Hodgkin lymphoma (median of three prior lines), there were three complete and two partial responses, all ongoing at the October 31 cut-off, with cytokine release syndrome limited to grade 1 and no neurotoxicity (ICANS).",
-    "why": "It is one of the first clinical proofs that in vivo CAR-T can deliver complete responses without a cell therapy factory or lymphodepletion, coming right after Pfizer's $330M-upfront deal with Starna. Caution: six patients and 3.2 months of median follow-up; CARsgen aims to file for a registrational trial in the first half of 2027.",
-    "place": "Shanghai",
-    "sector": "Cell therapy",
+    "company": "eGenesis",
+    "milestone": "1 year off dialysis",
+    "title": "An eGenesis gene-edited pig kidney has now worked for a year in a patient, a xenotransplantation record",
+    "summary": "Molly Falco, 58, transplanted on November 22, 2025 at Massachusetts General Hospital under the FDA's Expanded Access pathway, remains off dialysis one year later. The EGEN-2784 graft combines three classes of edits: inactivated porcine endogenous retroviruses, three glycan antigens removed and seven human transgenes inserted; six patients have received it to date.",
+    "why": "It is the longest sustained function of a pig kidney in a living human, just ahead of the FDA-cleared Phase 1/2/3 RESTORE trial (33 waitlisted patients aged 50 to 70) slated for Q1 2027: multiplex genome editing is becoming a credible answer to the organ shortage.",
+    "place": "Cambridge (Massachusetts)",
+    "sector": "Xenotransplantation",
     "signalType": "clinical_update",
-    "url": "https://www.prnewswire.com/news-releases/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182-302947651.html"
+    "url": "https://www.biospace.com/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant"
+  },
+  "deal": {
+    "company": "Ritzey Therapeutics",
+    "amount": "$112.5M",
+    "round": "Series A",
+    "thesis": "Sharon Mates, founder of Intra-Cellular Therapies (sold to J&J for $14.6B), launches Ritzey with Vida Ventures leading (Fidelity, Alexandria, EcoR1, Perceptive) after buying France's Perha Pharmaceuticals, whose oral DYRK1A kinase inhibitor has completed Phase 1. US capital is picking up an asset developed by a French biotech to take it into Phase 2 in Down syndrome and in type 1 and type 2 diabetes: a signal for European funds that let such assets slip away at an early stage.",
+    "sector": "Biotech",
+    "url": "https://dealroom.co/news/175064-sharon-mates-returns-with-113m-to-tackle-down-syndrome-and-diabetes/"
   },
   "brefsEurope": [
     {
-      "company": "Evaxion",
-      "place": "Hørsholm",
-      "sector": "Vaccines",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Evaxion refocuses on cancer vaccines and pauses its infectious disease and autoimmune programs",
-      "summary": "The Danish biotech is leaning on Phase II data from its personalized vaccine EVX-01 in advanced melanoma to focus its AI-Immunology platform on off-the-shelf vaccines EVX-04 and EVX-05, notably targeting endogenous retroviruses from the non-coding genome. Its preclinical infectious disease assets will only advance with a partner.",
-      "url": "https://nordiclifescience.org/evaxion-refocuses-on-cancer-vaccines/"
-    },
-    {
       "company": "Novartis",
       "place": "Basel",
-      "sector": "Pharma",
-      "pillar": "marche",
+      "sector": "RNA",
+      "pillar": "innovation",
       "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Novartis targets 5% annual growth through 2031 and lifts peak sales for Kesimpta, Scemblix and Leqvio by $4B",
-      "summary": "Kesimpta rises to $8B, Scemblix and Leqvio to $5B each, as the group faces \"the largest loss-of-exclusivity impact in our history\" (Entresto, Promacta). A comparable that also recalls recent setbacks: the Phase 3 failure of del-desiran from the Avidity buyout ($1.9B impairment) and suspended trials of its CAR-T rap-cel in autoimmune diseases.",
-      "url": "https://pharmaphorum.com/news/novartis-raises-forecasts-three-key-growth-products"
+      "strength": 4,
+      "title": "Novartis' siRNA Leqvio cuts major cardiovascular events in the Phase 3 ORION-4 trial",
+      "summary": "Added to standard care, including moderate-intensity statins, inclisiran produced a statistically significant reduction in major adverse cardiovascular events (MACE) in patients with atherosclerotic cardiovascular disease: the first positive cardiovascular outcomes study for an siRNA. The effect size will be unveiled at a congress in the first half of 2027; a comparable that validates RNA modalities in large populations.",
+      "url": "https://pharmaphorum.com/news/trial-helps-novartis-build-its-blockbuster-case-leqvio"
     },
     {
-      "company": "Théa",
-      "place": "Clermont-Ferrand",
-      "sector": "Ophthalmology",
-      "pillar": "financement",
-      "signalType": "funding_round",
+      "company": "Saniona",
+      "place": "Copenhagen",
+      "sector": "Neuroscience",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Saniona ends its partnership with Medix and drops anti-obesity drug tesofensine from its pipeline",
+      "summary": "After Mexico's regulator COFEPRIS asked for an additional Phase 3, which Medix deemed commercially unviable, Saniona is dropping tesofensine and Tesomet to focus on neurology and psychiatry: SAN2668 (epileptic encephalopathies) and SAN2465 (depression), cleared by the FDA to enter Phase 1. Its partnerships (Jazz, Acadia, AstronauTx) have already brought in $75M and provide for up to $1.75B in milestone payments.",
+      "url": "https://mfn.se/a/saniona/saniona-provides-update-on-tesofensine-collaboration-and-its-pipeline"
+    },
+    {
+      "company": "Neumirna Therapeutics",
+      "place": "Copenhagen",
+      "sector": "RNA",
+      "pillar": "naissances",
+      "signalType": "grant_award",
       "strength": 3,
-      "title": "EIB lends Théa €150M for ophthalmology R&D and its European manufacturing base",
-      "summary": "The European Investment Bank's second loan after €50M in 2021, backed by the InvestEU guarantee, will fund new molecules, formulations and delivery systems (retinal diseases, rare inherited eye diseases, glaucoma, dry eye) and the Milan industrial site. The family-owned group posted €1.02B in revenue in 2025.",
-      "url": "https://www.eib.org/de/press/all/2026-423-european-investment-bank-provides-eur150-million-in-financing-to-thea-to-support-innovation-in-ophthalmology"
+      "title": "Neumirna selected by the EIC Accelerator for up to €12.5M to take its epilepsy antimiR into the clinic",
+      "summary": "The Danish biotech receives a €2.5M grant and up to €10M in equity from the EIC Fund for a Phase 1/2 study of NMT.001, an antisense oligonucleotide that blocks microRNA miR-134 in focal drug-resistant epilepsy, with a first-in-human trial planned for 2027. It raised a €20M Series A in January 2025 (Angelini Ventures, Invivo Partners, Innovestor).",
+      "url": "https://www.biospace.com/press-releases/neumirna-therapeutics-selected-to-receive-up-to-eur12-5-million-funding-from-the-eic-accelerator-to-advance-nmt-001-into-the-clinic-for-drug-resistant-epilepsy"
+    },
+    {
+      "company": "Quotient Sciences",
+      "place": "Nottingham",
+      "sector": "Biotech",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "IQVIA buys UK early-development provider Quotient Sciences from Permira",
+      "summary": "Quotient, which combines formulation, small-batch manufacturing, early-phase trials and bioanalysis ('Translational Pharmaceutics') at sites in Nottingham, Alnwick, Miami and Philadelphia, expects around $200M in 2026 revenue; the price was not disclosed. A comparable showing the value placed on tools that cut up to 12 months from a candidate's path to the clinic.",
+      "url": "https://www.biospace.com/press-releases/iqvia-announces-acquisition-of-quotient-sciences"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Capricor Therapeutics",
-      "place": "San Diego",
-      "sector": "Cell therapy",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "FDA rejects Capricor's deramiocel in Duchenne muscular dystrophy for a second time",
-      "summary": "The agency found the data insufficient to establish \"substantial evidence of effectiveness\" and cited \"serious data integrity violations\" in the HOPE-3 trial (blinding breaches, statistical analysis plan changed after the fact). A signal of regulatory rigor for every cell therapy betting on functional endpoints in rare diseases.",
-      "url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/"
-    },
-    {
-      "company": "Revolution Medicines",
-      "place": "Redwood City",
-      "sector": "Oncology",
+      "company": "Kymera Therapeutics",
+      "place": "Watertown",
+      "sector": "Immunology",
       "pillar": "innovation",
       "signalType": "clinical_update",
-      "strength": 3,
-      "title": "Combined with chemotherapy, Revolution Medicines' pan-RAS drug Rasonque hits a 61% response rate in first-line pancreatic cancer",
-      "summary": "In the Phase 1/2 RMC-GI-102 study (61 metastatic patients), presented at the ENA symposium in Barcelona, disease control exceeded 90%, median progression-free survival reached 12.8 months and 12-month survival nearly 77%, with no control arm. A label expansion will hinge on the Phase 3 RASolute 303, expected in 2028.",
-      "url": "https://pharmaphorum.com/news/revmed-hails-first-line-data-pancreatic-cancer-drug"
+      "strength": 4,
+      "title": "Kymera's oral STAT6 degrader hits its primary endpoint in Phase 2b eczema, with Dupixent-like efficacy",
+      "summary": "In the BROADEN2 trial (244 patients), the mid dose of KT-621 cut EASI scores by 72% at 16 weeks (45 points better than placebo) and 62% of patients reached EASI-75 versus 22% on placebo. A Phase 3 is planned by mid-2027; shares jumped 34%, a strong signal for oral transcription-factor degradation.",
+      "url": "https://www.biopharmadive.com/news/kymera-eczema-pill-phase2-data-protein-degrader-dupixent-ebglyss/875462/"
+    },
+    {
+      "company": "BridgeBio Pharma",
+      "place": "Palo Alto",
+      "sector": "Rare diseases",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "FDA approves BridgeBio's Welgemda, the first targeted therapy for limb-girdle muscular dystrophy LGMD2I/R9",
+      "summary": "An oral glycosylation substrate therapy that raises glycosylated alpha-dystroglycan, BBP-418 was approved ahead of its November 27 action date on the basis of the Phase 3 FORTIFY trial (112 patients), with the FDA citing improvements in walking speed and lung function.",
+      "url": "https://www.biospace.com/fda/fda-approves-bridgebios-welgemda-as-1st-targeted-therapy-for-rare-muscle-disease"
+    },
+    {
+      "company": "Curium",
+      "place": "Boston",
+      "sector": "Radiopharmaceuticals",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "Curium wins FDA Fast Track designation for its copper-64 PSMA PET tracer in prostate cancer",
+      "summary": "A PET/CT imaging agent pairing a PSMA-targeting molecule with copper-64, Copper Cu 64 PSMA I&T is being evaluated in the SOLAR-STAGE (initial staging of unfavorable intermediate- to very high-risk cancers) and SOLAR-RECUR (suspected biochemical recurrence) studies. The nuclear medicine group keeps its international headquarters in Paris.",
+      "url": "https://www.biospace.com/press-releases/curium-receives-fda-fast-track-designation-for-investigational-copper-cu-64-psma-i-t-in-prostate-cancer"
     }
   ],
   "word": {
-    "term": "In vivo CAR-T",
-    "full": "In vivo Chimeric Antigen Receptor T-cell therapy",
-    "fr": "CAR-T made directly inside the patient's body",
-    "field": "Cell and gene therapy",
-    "definition": "Instead of collecting a patient's T cells, engineering them in a factory and infusing them back, doctors inject a vector that installs the CAR receptor in the T cells itself, inside the body.",
+    "term": "AntimiR",
+    "full": "Anti-microRNA oligonucleotide",
+    "fr": "Anti-microRNA oligonucleotide",
+    "field": "RNA / Oligonucleotides",
+    "definition": "A short, chemically reinforced synthetic RNA strand that sticks to a microRNA that is overactive in disease and stops it from switching off its target genes.",
     "parts": [
-      { "label": "Delivery vector", "role": "the vehicle: an envelope-modified lentivirus or a lipid (LNP) or polymeric nanoparticle that carries the genetic material through the bloodstream" },
-      { "label": "CAR cargo", "role": "the gene or RNA encoding the chimeric receptor aimed at a tumor or autoimmune target (CD19, CD20, CD22…)" },
-      { "label": "T-cell targeting", "role": "the address: a viral envelope, ligand or T-cell-specific promoter that avoids modifying other cells" }
+      { "label": "Complementary sequence", "role": "precisely recognizes the targeted microRNA (miR-134, miR-22, miR-23b…)" },
+      { "label": "Modified chemistry (LNA, 2'-O-methyl, phosphorothioate)", "role": "resists nucleases and strengthens binding" },
+      { "label": "Conjugate or route of administration", "role": "brings the molecule to the right tissue (cholesterol, GalNAc, intrathecal, intravenous)" }
     ],
     "how": [
-      { "n": "1", "h": "One injection", "t": "The patient receives an intravenous infusion of the vector, with no apheresis and no manufacturing wait; some programs, such as CARsgen's CT1182, even skip lymphodepletion." },
-      { "n": "2", "h": "In situ reprogramming", "t": "The vector recognizes circulating T cells and makes them express the CAR receptor, either durably (lentivirus) or transiently (RNA in LNPs)." },
-      { "n": "3", "h": "Expansion and clearance", "t": "The newly created CAR-T cells multiply on contact with their target and destroy the cells that carry it, for example malignant or autoreactive B cells." }
+      { "n": "1", "h": "Identify the disease-causing microRNA", "t": "A microRNA overexpressed in disease can single-handedly repress dozens of messenger RNAs, like miR-23b, which holds back the MBNL protein in myotonic dystrophy type 1." },
+      { "n": "2", "h": "Sequester it", "t": "The antimiR hybridizes to the mature microRNA and neutralizes it or triggers its degradation, releasing the brake on its target genes." },
+      { "n": "3", "h": "Restore a gene network", "t": "Because one microRNA regulates many genes, a single molecule can correct a whole biological program, but the same cascade effect creates off-target risks that must be monitored." }
     ],
-    "why": "In vivo CAR-T promises to turn a bespoke, costly therapy into an off-the-shelf injectable, opening up autoimmune diseases and broader patient access. Big Pharma is now paying top dollar for assets still in preclinical development (Pfizer's $330M upfront for three Starna programs), and the first human data are arriving (CARsgen, Umoja's IND): for a European VC, still-independent non-viral delivery platforms are the targets to watch.",
+    "why": "After a rocky start (no antimiR has yet reached Phase 3 or approval), the field is returning through indications where the mechanism is well established: neurology, rare neuromuscular diseases, metabolism. For a VC, it is a capital-efficient modality built on advances in oligonucleotide chemistry, where Europe has several pure players and big pharma appetite has already been shown (Novo Nordisk's acquisition of Cardior, Sanofi's stake in Resalis).",
     "startups": [
-      { "name": "Alaya.bio", "use": "Proprietary polymeric nanoparticle that reprograms T cells inside the body; co-founded in 2022 with CAR-T pioneer Michel Sadelain, still preclinical", "place": "Paris, France" },
-      { "name": "T-CURX", "use": "University of Würzburg spin-off; $20M Series A first close led by BiomedVC for its non-viral CAR-Ts and its in vivo platform of non-viral vectors delivered by LNPs", "place": "Würzburg, Germany" },
-      { "name": "Umoja Biopharma", "use": "VivoVec lentiviral platform; FDA IND clearance in July 2026 for UB-VV400, the first known CD22-directed in vivo CAR-T, in the Phase 1/2 VIBRANT-1 trial", "place": "Seattle, USA" },
-      { "name": "Starna Therapeutics", "use": "Targeted LNPs and RNA technology; licensed three preclinical in vivo CAR-T programs in autoimmunity to Pfizer in November 2026 for $330M upfront", "place": "China" }
+      { "name": "Neumirna Therapeutics", "use": "Antisense oligonucleotide NMT.001 blocks miR-134 in drug-resistant epilepsy; selected by the EIC Accelerator (up to €12.5M) for a Phase 1/2", "place": "Copenhagen, Denmark" },
+      { "name": "Resalis Therapeutics", "use": "RES-010, an anti-miR-22 compound for obesity, in Phase 1 in the Netherlands; strategic investment from Sanofi", "place": "Turin, Italy" },
+      { "name": "Arthex Biotech", "use": "ATX-01, a miR-23b inhibitor that restores the MBNL protein, in the Phase 1/2a ArthemiR trial in myotonic dystrophy type 1", "place": "Valencia, Spain" }
     ],
     "sources": [
-      { "publisher": "Nordic Life Science", "title": "Pfizer licenses in vivo CAR-T programs", "url": "https://nordiclifescience.org/pfizer-licenses-in-vivo-car-t-programs/" },
-      { "publisher": "PR Newswire (CARsgen Therapeutics)", "title": "CARsgen Presents First Clinical Data on Its In Vivo CAR-T Product Candidate CT1182", "url": "https://www.prnewswire.com/news-releases/carsgen-presents-first-clinical-data-on-its-in-vivo-car-t-product-candidate-ct1182-302947651.html" },
-      { "publisher": "BioSpace", "title": "Umoja Biopharma Announces FDA Clearance of IND Application for UB-VV400, the Industry's First Known CD22-Directed In Vivo CAR T Cell Therapy for Relapsed/Refractory B Cell Malignancies", "url": "https://www.biospace.com/press-releases/umoja-biopharma-announces-fda-clearance-of-ind-application-for-ub-vv400-the-industrys-first-known-cd22-directed-in-vivo-car-t-cell-therapy-for-relapsed-refractory-b-cell-malignancies" },
-      { "publisher": "Bionity", "title": "T-CURX raises $20M Series A for non-viral CAR-T therapies", "url": "https://www.bionity.com/en/news/1187797/t-curx-raises-20m-series-a-for-non-viral-car-t-therapies.html" }
+      { "publisher": "International Journal of Molecular Sciences (PMC)", "title": "Trials and Tribulations of MicroRNA Therapeutics", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10855871/" },
+      { "publisher": "BioSpace", "title": "Neumirna Therapeutics Selected to Receive up to EUR12.5 Million Funding from the EIC Accelerator to Advance NMT.001 into the Clinic for Drug-Resistant Epilepsy", "url": "https://www.biospace.com/press-releases/neumirna-therapeutics-selected-to-receive-up-to-eur12-5-million-funding-from-the-eic-accelerator-to-advance-nmt-001-into-the-clinic-for-drug-resistant-epilepsy" },
+      { "publisher": "BioSpace", "title": "Resalis Therapeutics Announces Initiation of Phase 1 Clinical Trial for RES-010 in Obesity", "url": "https://www.biospace.com/press-releases/resalis-therapeutics-announces-initiation-of-phase-1-clinical-trial-for-res-010-in-obesity" },
+      { "publisher": "NHS Health Research Authority", "title": "Phase 1/2a study of ATX-01 in participants with DM1 (ArthemiR study)", "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phase-12a-study-of-atx-01-in-participants-with-dm1-arthemir-study/" }
     ]
   }
 }
