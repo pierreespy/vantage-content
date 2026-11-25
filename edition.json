@@ -1,90 +1,205 @@
 {
-  "dateLong": "24 nov. 2026",
+  "dateLong": "25 nov. 2026",
   "ticker": [
-    { "company": "NYXOAH", "amount": "UPC ✓", "kind": "reg" },
-    { "company": "YAQRIT", "amount": "CE · Chine", "kind": "reg" },
-    { "company": "POLASIGHT", "amount": "CHF150K", "kind": "lev" },
-    { "company": "POLASIGHT", "amount": "Spin-off", "kind": "new" },
-    { "company": "EDITH", "amount": "£10M essai", "kind": "tech" },
-    { "company": "3SHAPE", "amount": "IA Dx Plus", "kind": "tech" }
+    {
+      "company": "TRICARES",
+      "amount": "Pivot ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "INNOVHEART",
+      "amount": "30 j ✓",
+      "kind": "tech"
+    },
+    {
+      "company": "CGI · HUS",
+      "amount": "CE IIb",
+      "kind": "reg"
+    },
+    {
+      "company": "HERAEUS",
+      "amount": "Rappel",
+      "kind": "reg"
+    },
+    {
+      "company": "MEDICAL GROUP",
+      "amount": "Riverside",
+      "kind": "mna"
+    },
+    {
+      "company": "OSE",
+      "amount": "£43M",
+      "kind": "lev"
+    }
   ],
   "lead": {
-    "kicker": "Propriété intellectuelle · Neuromodulation",
-    "title": "Nyxoah lance l'exécution de sa victoire devant la Juridiction unifiée du brevet : Inspire doit cesser de vendre son stimulateur dans quatre pays européens",
-    "deck": "Le 23 novembre, la medtech belge a annoncé faire exécuter la décision par défaut rendue le 16 novembre par la division locale de Munich de la Juridiction unifiée du brevet (UPC) sur son brevet EP 2 760 534 : Inspire Medical Systems doit cesser d'offrir, vendre, utiliser, importer ou stocker les produits contrefaisants en Allemagne, en France, aux Pays-Bas et en Belgique, rappeler et détruire ceux mis sur le marché depuis le 31 mars 2021, et verser des dommages-intérêts fixés dans une procédure séparée. Pour la stimulation du nerf hypoglosse contre l'apnée du sommeil, c'est un renversement potentiel du rapport de force en Europe — et une démonstration de la puissance d'un brevet unitaire pour une medtech challengeuse face au leader du marché.",
-    "company": "Nyxoah",
-    "sector": "Neurotech",
-    "pillar": "marche",
-    "signalType": "patent_filing",
+    "kicker": "Essai pivot · Cardio structurel",
+    "title": "TRiCares atteint le critère principal de son essai pivot européen TRICURE : la valve tricuspide Topaz vise le marquage CE en 2027",
+    "deck": "Présentées le 23 novembre en session « Top Late-Breaking Trials » à PCR London Valves, les données à 30 jours de TRICURE EU (77 patients atteints d'insuffisance tricuspide sévère, 24 centres dans six pays européens, investigateur principal Jörg Hausleiter, LMU Munich) montrent le critère principal atteint chez 98 % des patients — régurgitation réduite d'au moins un grade et au plus modérée —, avec 15,6 % d'événements indésirables majeurs, 5 % de nouveaux pacemakers et 32 minutes d'implantation en moyenne. Pour cette medtech franco-allemande non cotée (Andera, Wellington Partners, Bayern Kapital, Karista, BioMed Partners…), c'est le dossier qui doit porter la demande de marquage CE et un lancement européen l'an prochain, pendant que l'essai IDE américain recrute sur jusqu'à 75 sites.",
+    "company": "TRiCares",
+    "sector": "Cardio",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
     "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408876/0/en/nyxoah-initiates-enforcement-of-unified-patent-court-decision-against-inspire-medical-systems.html"
+    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408224/0/en/tricares-presents-positive-topaz-primary-endpoints-from-the-tricure-eu-pivotal-study-at-pcr-london-valves.html"
   },
   "milestone": {
-    "company": "Yaqrit",
-    "milestone": "Accord de distribution",
-    "title": "Yaqrit signe la distribution en Chine de Dialive, son système de dialyse du foie marqué CE",
-    "summary": "Sa filiale Cytox Lifesciences confie à Guorun International Medical Group la distribution de Dialive, dispositif extracorporel marqué CE destiné aux patients atteints de maladie hépatique avancée, d'abord dans les hôpitaux de la zone pilote de tourisme médical de Boao Lecheng (Hainan) ; les patients traités rejoindront des études post-commercialisation calquées sur l'essai britannique ALIVER 2.0. Une lettre d'intention couvre aussi Carbalive, son adsorbant oral, une fois le marquage CE obtenu.",
-    "why": "Boao Lecheng permet d'utiliser en Chine des dispositifs déjà autorisés à l'étranger avant leur homologation nationale : un raccourci rare vers un marché d'environ 7 millions de patients cirrhotiques, et une source de données réelles pour une jeune pousse londonienne dont le marquage CE est le principal actif.",
-    "place": "Londres",
-    "sector": "MedTech",
-    "signalType": "early_partnership",
-    "url": "https://www.biospace.com/press-releases/yaqrits-subsidiary-cytox-signs-chinese-distribution-agreement-for-dialive-dialysis-system"
+    "company": "InnovHeart",
+    "milestone": "Résultats à 30 jours",
+    "title": "InnovHeart présente les premiers résultats européens de Saturn, sa valve mitrale transseptale, à PCR London Valves",
+    "summary": "Dans l'étude CASSINI-EU, présentée par le chirurgien milanais Paolo Denti, 15 patients à haut risque atteints d'insuffisance mitrale fonctionnelle ≥3+ ont été traités : succès technique de 93,3 % (une conversion chirurgicale après défaillance d'un composant du système de pose), insuffisance mitrale ≤1+ chez les 14 patients évalués à 30 jours, et aucun décès cardiovasculaire, AVC invalidant ni réintervention. Le score de qualité de vie KCCQ passe de 42,9 à 70,1.",
+    "why": "Le remplacement mitral par voie transseptale reste le Graal du cardio structurel, freiné par le risque d'obstruction de la chambre de chasse du ventricule gauche : le système bas profil de Saturn, qui capture le feuillet antérieur, s'attaque précisément à ce verrou. Pour une société italo-américaine non cotée encore au stade de la faisabilité, ces données ouvrent la voie à des études plus larges.",
+    "place": "Colleretto Giacosa (Italie)",
+    "sector": "Cardio",
+    "signalType": "clinical_update",
+    "url": "https://solaci.org/en/2026/11/24/london-valves-2026-cassini-eu-what-does-saturn-bring-to-transseptal-mitral-valve-replacement/"
   },
   "brefsEurope": [
-    { "company": "PolaSight", "place": "Pully", "sector": "Imagerie", "pillar": "naissances",
-      "signalType": "grant_award", "strength": 3,
-      "title": "PolaSight, spin-off de l'Université de Berne, obtient 150 000 CHF de Venture Kick pour son imagerie des tissus par lumière polarisée",
-      "summary": "La plateforme PolaOne analyse un tissu frais en une soixantaine de secondes, sans coloration, grâce à la polarimétrie de Mueller et à l'IA, avec l'examen extemporané en peropératoire comme première application. Les fonds serviront à élargir les études cliniques avec les hôpitaux partenaires et à préparer les étapes réglementaires, une semaine après la victoire de la start-up à la finale mondiale du Falling Walls Lab.",
-      "url": "https://www.startupticker.ch/en/news/fresh-funding-to-advance-polasight-s-cancer-tissue-imaging-platform" },
-    { "company": "NIHR", "place": "Royaume-Uni", "sector": "Imagerie", "pillar": "innovation",
-      "signalType": "grant_award", "strength": 3,
-      "title": "Le NIHR finance à hauteur de 10 M£ EDITH, plus grand essai mondial du dépistage du cancer du sein assisté par IA",
-      "summary": "Près de 700 000 femmes seront incluses dans 30 centres britanniques, sous la conduite des universités de Warwick et de Cambridge et du Cambridge University Hospitals NHS Foundation Trust, avec NHS England. L'essai doit dire si l'IA peut remplacer l'un des deux radiologues de la double lecture des mammographies : un marché de référence pour les éditeurs européens d'IA en imagerie mammaire.",
-      "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/" },
-    { "company": "3Shape", "place": "Copenhague", "sector": "Diagnostics", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "3Shape branche son diagnostic dentaire par IA Dx Plus sur les logiciels de cabinet de Henry Schein One",
-      "summary": "L'intégration de 3Shape Unite à Dentrix, Ascend et Dentally met les scans TRIOS 6 et les visualisations de Dx Plus (caries, plaque, usure, récession gingivale) directement dans le dossier patient, en Amérique du Nord, au Royaume-Uni, en Australie et dans une partie de l'Europe. Le danois pousse ainsi son IA vers des dizaines de milliers de cabinets déjà équipés chez un tiers.",
-      "url": "https://www.prnewswire.com/news-releases/3shape-and-henry-schein-one-connect-digital-workflows-with-ai-assisted-diagnostics-302948152.html" },
-    { "company": "Sectra", "place": "Linköping", "sector": "Imagerie", "pillar": "marche",
-      "signalType": "early_partnership", "strength": 2,
-      "title": "Une grande région danoise déploie le portail de formation sur cas d'imagerie de Sectra",
-      "summary": "Les hôpitaux de la région peuvent désormais former leurs équipes sur des cas patients anonymisés via le Sectra Education Portal, brique cloud de sa solution d'imagerie d'entreprise ; la commande initiale porte sur au moins 250 utilisateurs par mois, extensible, après un lancement national en Norvège cette année.",
-      "url": "https://www.prnewswire.com/news-releases/danish-region-goes-live-with-sectra-education-portal-to-strengthen-collaboration-and-skills-development-for-healthcare-professionals-302948021.html" },
-    { "company": "Smith + Nephew", "place": "Watford", "sector": "MedTech", "pillar": "marche",
-      "signalType": "leadership_hire", "strength": 3,
-      "title": "Smith + Nephew nomme Nick Alexos, ex-CFO de Univar et de Dentsply Sirona, directeur financier",
-      "summary": "Il prend ses fonctions le 30 novembre et succède à John Rogers, parti chez Baxter en septembre ; passé 30 ans chez Madison Dearborn Partners, il a piloté le rachat d'Univar par Apollo (8 Md$). Un profil M&A et allocation du capital que le président Rupert Soames met en avant : comparable à surveiller pour la consolidation de l'orthopédie.",
-      "url": "https://medtechdive.com/news/smith-nephew-names-new-cfo/875485" }
+    {
+      "company": "CGI",
+      "place": "Helsinki",
+      "sector": "Imagerie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 4,
+      "title": "L'IA de détection des hémorragies cérébrales co-développée par CGI et l'hôpital universitaire d'Helsinki certifiée classe IIb sous MDR",
+      "summary": "CGI AI Head Analysis, conçue avec HUS et Planmeca sous la direction du neurochirurgien Miikka Korja, signale sur les scanners cérébraux les saignements intracrâniens spontanés suspects pour relecture par le médecin. Avec sa certification MDR classe IIb annoncée le 24 novembre, elle peut désormais être intégrée directement aux flux d'imagerie des urgences — un exemple rare d'IA née à l'hôpital et industrialisée par une ESN.",
+      "url": "https://www.prnewswire.com/news-releases/cgi-and-huss-ai-solution-certified-as-eu-mdr-medical-device-for-brain-hemorrhage-detection-302948683.html"
+    },
+    {
+      "company": "Heraeus Medevio",
+      "place": "Hanau",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Heraeus retire des guides vasculaires en nitinol pour risque de détachement du revêtement hydrophile",
+      "summary": "Le sous-traitant allemand demande à ses clients de cesser immédiatement d'utiliser et de distribuer certains lots de guides Arrow, Navilyst et Spectrum : leur revêtement hydrophile peut gonfler de manière inégale au contact du sérum physiologique et s'en détacher, avec un risque d'embolie. La FDA en a publié l'alerte précoce ; aucun blessé grave ni décès n'était signalé au 5 novembre — un rappel qui touche les marques des OEM servis par Heraeus.",
+      "url": "https://www.medtechdive.com/news/heraeus-pulls-vascular-guidewires-over-coating-detachment-risk/875585/"
+    },
+    {
+      "company": "Medical Group",
+      "place": "Saint-Priest",
+      "sector": "MedTech",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Riverside investit dans le sous-traitant lyonnais Medical Group, qui s'allie à Selenium Medical",
+      "summary": "Le fonds américain fait son entrée, hors processus d'enchères, au capital de ce CDMO de dispositifs médicaux (traitement de surface, revêtements d'hydroxyapatite, salle blanche, conditionnement stérile), surtout orthopédique et dentaire, tandis qu'un partenariat avec le Rochelais Selenium Medical crée un guichet unique. Cinquième opération santé de Riverside en France, avec un programme d'acquisitions européennes à la clé.",
+      "url": "https://www.devicemed.fr/dossiers/actualites/riverside-investit-dans-medical-group-qui-noue-un-partenariat-avec-selenium-medical/55630"
+    },
+    {
+      "company": "Oxford Science Enterprises",
+      "place": "Oxford",
+      "sector": "Fonds",
+      "pillar": "naissances",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "La British Business Bank investit 43 M£ dans Oxford Science Enterprises, la fabrique de spin-offs d'Oxford",
+      "summary": "Premier investissement de la banque publique britannique dans OSE, qui transforme la recherche de l'Université d'Oxford en startups (sciences de la vie, healthtech, deeptech) ; l'accord doit faciliter les co-investissements et l'accès des sociétés du portefeuille au capital long de la BBB. Un signal pour le pipeline de spin-offs universitaires — près de six startups européennes du dispositif médical sur dix en sont issues, selon AlbionVC.",
+      "url": "https://tech.eu/2026/11/23/bbb-invests-ps43m-in-oxford-university-spinout-backer/"
+    }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "NEXTBIOMEDICAL",
+      "place": "Séoul",
+      "sector": "MedTech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 3,
+      "title": "NEXTBIOMEDICAL achève les procédures des 126 patients de son essai pivot FDA d'embolisation du genou",
+      "summary": "L'essai randomisé RESORB compare l'embolisation des artères géniculées avec les microsphères résorbables Nexsphere-F aux infiltrations de corticoïdes dans l'arthrose du genou ; critères évalués à 6 et 12 mois, soumission FDA visée pour une autorisation en 2028. Un comparable pour l'embolisation musculo-squelettique, nouvelle frontière de la radiologie interventionnelle.",
+      "url": "https://www.prnewswire.com/news-releases/nextbiomedical-completes-assigned-procedures-for-all-126-patients-in-us-fda-pivotal-trial-of-nexsphere-f-advances-us-commercialization-plans-302948829.html"
+    },
+    {
+      "company": "Renerva",
+      "place": "Pittsburgh",
+      "sector": "Neurotech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Renerva boucle le suivi à 3 mois de la première étude chez l'homme de son capuchon nerveux Terminus",
+      "summary": "Fabriqué à partir de matrice extracellulaire de nerf porcin pour empêcher la formation de névromes douloureux, le dispositif a été implanté chez quatre patients à l'Ohio State University (IDE G250147) sans événement indésirable lié au dispositif ; douleur et handicap évoluent favorablement, sur un échantillon très réduit et non contrôlé.",
+      "url": "https://www.prnewswire.com/news-releases/renerva-announces-completion-of-3-month-interim-follow-up-in-first-in-human-clinical-study-of-investigational-renerva-terminus-device-302949133.html"
+    }
+  ],
   "word": {
-    "term": "AI Mammography",
-    "full": "AI-Supported Mammography Screening (dépistage mammographique assisté par IA)",
-    "fr": "Mammographie de dépistage assistée par IA",
-    "field": "Imagerie & IA médicale",
-    "definition": "Un logiciel d'IA analyse chaque mammographie de dépistage, attribue un score de risque et signale les zones suspectes, pour trier les examens et épauler, voire remplacer, l'un des deux lecteurs humains.",
+    "term": "MDR Rule 11",
+    "full": "MDR Annex VIII, Classification Rule 11 (règle de classification des logiciels)",
+    "fr": "Règle 11 du règlement européen sur les dispositifs médicaux",
+    "field": "Réglementaire · Logiciel dispositif médical",
+    "definition": "La règle du règlement européen MDR qui fixe la classe de risque d'un logiciel médical selon la gravité des décisions qu'il éclaire : par défaut classe IIa, IIb si une erreur peut entraîner une dégradation grave de l'état de santé ou une intervention chirurgicale, III si elle peut causer la mort.",
     "parts": [
-      { "label": "Modèle de détection", "role": "repère et localise les lésions suspectes" },
-      { "label": "Score de risque", "role": "classe les examens du plus normal au plus suspect" },
-      { "label": "Intégration au flux", "role": "branche l'IA sur le PACS et l'organisation de la double lecture" }
+      {
+        "label": "Finalité",
+        "role": "ce que le logiciel informe : diagnostic, thérapie ou surveillance"
+      },
+      {
+        "label": "Gravité",
+        "role": "l'impact d'une erreur sur le patient, qui fait monter la classe"
+      },
+      {
+        "label": "Organisme notifié",
+        "role": "l'auditeur obligatoire dès la classe IIa"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Analyse", "t": "Les images du dépistage sont envoyées au logiciel, qui marque les zones suspectes et calcule un score de malignité." },
-      { "n": "2", "h": "Triage", "t": "Les examens à faible score passent en simple lecture, ceux à haut score en double lecture renforcée : c'est le protocole testé dans l'essai suédois MASAI." },
-      { "n": "3", "h": "Décision", "t": "Le radiologue garde la décision de rappel ; l'IA sert d'aide ou de second lecteur selon le marquage obtenu." }
+      {
+        "n": "1",
+        "h": "Qualification",
+        "t": "Le fabricant vérifie d'abord, avec le guide MDCG 2019-11, que son logiciel a bien une finalité médicale et relève du MDR."
+      },
+      {
+        "n": "2",
+        "h": "Classification",
+        "t": "Il applique la Rule 11 : un logiciel d'aide au diagnostic est au moins IIa ; détecter une hémorragie ou une occlusion cérébrale, où un retard peut être grave, le pousse vers la IIb."
+      },
+      {
+        "n": "3",
+        "h": "Certification",
+        "t": "Un organisme notifié audite le système qualité et la documentation clinique avant de délivrer le certificat qui autorise le marquage CE."
+      }
     ],
-    "why": "Avec la pénurie de radiologues, le dépistage du sein est le cas d'usage le plus mûr de l'IA en imagerie : l'essai randomisé MASAI (Lancet, 2026) a montré une sensibilité supérieure et 12 % de cancers d'intervalle en moins, et le NIHR finance EDITH sur 700 000 femmes. L'enjeu VC se déplace de la performance de l'algorithme vers le remboursement et le droit à la lecture autonome — là où les européens ont une longueur d'avance.",
+    "why": "Depuis le MDR, la Rule 11 a fait basculer la quasi-totalité des logiciels médicaux d'une auto-certification en classe I vers un audit par organisme notifié : un coût et des délais qui pèsent sur le plan de financement d'une startup d'IA médicale. Pour un VC, la classe visée (IIa ou IIb) dimensionne la preuve clinique à produire, le calendrier de mise sur le marché et la barrière à l'entrée face aux concurrents — la certification IIb du jour pour l'outil de CGI et du CHU d'Helsinki en est l'illustration.",
     "startups": [
-      { "name": "ScreenPoint Medical", "use": "Son logiciel Transpara est l'IA utilisée dans l'essai randomisé suédois MASAI", "place": "Nimègue, Pays-Bas" },
-      { "name": "Vara", "use": "Plateforme d'IA de dépistage qui traitait près de 40 % des mammographies du programme national allemand lors de sa levée de 8,9 M$", "place": "Berlin, Allemagne" },
-      { "name": "Therapixel", "use": "Sa suite MammoScreen 5 a obtenu une clearance 510(k) de la FDA en juin 2026", "place": "Nice, France" }
+      {
+        "name": "Avicenna.AI",
+        "use": "Ses algorithmes CINA de triage sur scanner (hémorragie intracrânienne, occlusion de gros vaisseau, embolie pulmonaire) ont été certifiés MDR par BSI ; partenaire de Bracco pour la FDA",
+        "place": "La Ciotat, France"
+      },
+      {
+        "name": "Methinks AI",
+        "use": "Sa Stroke Suite marquée CE détecte occlusions de gros vaisseaux et hémorragies dès le scanner sans contraste ; soutenue par l'EIC Accelerator",
+        "place": "Barcelone, Espagne"
+      },
+      {
+        "name": "Cerebriu",
+        "use": "Son IA Apollo, marquée CE, repère infarctus, hémorragies et tumeurs pendant l'IRM cérébrale et adapte le protocole en direct, intégrée aux consoles Siemens Healthineers",
+        "place": "Copenhague, Danemark"
+      }
     ],
     "sources": [
-      { "publisher": "Lund University", "title": "AI support in breast cancer screening: fewer missed cancer cases", "url": "https://www.lunduniversity.lu.se/article/ai-support-breast-cancer-screening-fewer-missed-cancer-cases" },
-      { "publisher": "ScreenPoint Medical", "title": "MASAI RCT: 12% reduction in interval cancer rate using Transpara", "url": "https://screenpoint-medical.com/insights/final-results-masai-trial" },
-      { "publisher": "Medical Device Network", "title": "UK's NIHR backs largest global AI breast cancer screening trial", "url": "https://www.medicaldevice-network.com/news/nihr-backs-ai-breast-cancer-screening-trial-edith/" },
-      { "publisher": "FDA", "title": "510(k) K260714 — MammoScreen 5 (Therapixel)", "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm?ID=K260714" }
+      {
+        "publisher": "Johner Institute",
+        "title": "MDR Classification Rule 11: The classification nightmare?",
+        "url": "https://blog.johner-institute.com/regulatory-affairs/mdr-rule-11/"
+      },
+      {
+        "publisher": "Commission européenne",
+        "title": "Update - MDCG 2019-11 rev.1 - Qualification and classification of software - Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+        "url": "https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en"
+      },
+      {
+        "publisher": "Medical Device Network",
+        "title": "Avicenna.AI secures EU MDR certification for five AI tools",
+        "url": "https://www.medicaldevice-network.com/news/avicenna-ai-secures-eu-mdr-certification-for-five-ai-tools/"
+      },
+      {
+        "publisher": "ITN",
+        "title": "Cerebriu Secures CE Mark for First OEM-Embedded AI Product with Siemens Healthineers",
+        "url": "https://www.itnonline.com/content/cerebriu-secures-ce-mark-first-oem-embedded-ai-product-siemens-healthineers"
+      }
     ]
   }
 }

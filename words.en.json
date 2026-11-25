@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-24",
+  "generatedAt": "2026-11-25",
   "words": [
+    {
+      "term": "MDR Rule 11",
+      "full": "MDR Annex VIII, Classification Rule 11 (software classification rule)",
+      "fr": "Rule 11 of the EU Medical Device Regulation",
+      "field": "Regulatory · Medical device software",
+      "definition": "The EU MDR rule that sets a medical software's risk class by the severity of the decisions it informs: Class IIa by default, IIb if an error could cause serious deterioration of health or a surgical intervention, III if it could cause death.",
+      "parts": [
+        {
+          "label": "Intended purpose",
+          "role": "what the software informs: diagnosis, therapy or monitoring"
+        },
+        {
+          "label": "Severity",
+          "role": "the impact of an error on the patient, which raises the class"
+        },
+        {
+          "label": "Notified body",
+          "role": "the mandatory auditor from Class IIa upward"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Qualification",
+          "t": "The manufacturer first checks, using MDCG 2019-11 guidance, that its software has a medical purpose and falls under the MDR."
+        },
+        {
+          "n": "2",
+          "h": "Classification",
+          "t": "It applies Rule 11: diagnostic support software is at least IIa; detecting a brain bleed or occlusion, where delay can be serious, pushes it to IIb."
+        },
+        {
+          "n": "3",
+          "h": "Certification",
+          "t": "A notified body audits the quality system and clinical documentation before issuing the certificate that allows CE marking."
+        }
+      ],
+      "why": "Under the MDR, Rule 11 moved almost all medical software from Class I self-certification to notified-body audits: cost and delays that weigh on a medical-AI startup's funding plan. For a VC, the target class (IIa or IIb) sizes the clinical evidence required, the time to market and the barrier to entry against competitors — today's Class IIb certification for the CGI–Helsinki University Hospital tool is a case in point.",
+      "startups": [
+        {
+          "name": "Avicenna.AI",
+          "use": "Its CINA CT triage algorithms (intracranial hemorrhage, large vessel occlusion, pulmonary embolism) are MDR-certified by BSI; partnered with Bracco for the FDA",
+          "place": "La Ciotat, France"
+        },
+        {
+          "name": "Methinks AI",
+          "use": "Its CE-marked Stroke Suite detects large vessel occlusions and hemorrhages on non-contrast CT; backed by the EIC Accelerator",
+          "place": "Barcelona, Spain"
+        },
+        {
+          "name": "Cerebriu",
+          "use": "Its CE-marked Apollo AI spots infarcts, hemorrhages and tumors during brain MRI and adapts the protocol in real time, embedded in Siemens Healthineers consoles",
+          "place": "Copenhagen, Denmark"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Johner Institute",
+          "title": "MDR Classification Rule 11: The classification nightmare?",
+          "url": "https://blog.johner-institute.com/regulatory-affairs/mdr-rule-11/"
+        },
+        {
+          "publisher": "European Commission",
+          "title": "Update - MDCG 2019-11 rev.1 - Qualification and classification of software - Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
+          "url": "https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "Avicenna.AI secures EU MDR certification for five AI tools",
+          "url": "https://www.medicaldevice-network.com/news/avicenna-ai-secures-eu-mdr-certification-for-five-ai-tools/"
+        },
+        {
+          "publisher": "ITN",
+          "title": "Cerebriu Secures CE Mark for First OEM-Embedded AI Product with Siemens Healthineers",
+          "url": "https://www.itnonline.com/content/cerebriu-secures-ce-mark-first-oem-embedded-ai-product-siemens-healthineers"
+        }
+      ],
+      "date": "2026-11-25",
+      "dateLong": "Nov 25, 2026"
+    },
     {
       "term": "HDS",
       "full": "Hébergeur de Données de Santé (French health data hosting certification)",
