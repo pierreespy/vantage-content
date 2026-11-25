@@ -1,153 +1,151 @@
 {
-  "dateLong": "24 nov. 2026",
+  "dateLong": "25 nov. 2026",
   "ticker": [
-    { "company": "SOFTWAY MEDICAL", "amount": "Fuite 11 M", "kind": "tech" },
-    { "company": "SOLTI", "amount": "300 patients", "kind": "tech" },
-    { "company": "OFSP", "amount": "SwissHDS", "kind": "reg" },
-    { "company": "ANS", "amount": "Doctrine 2027", "kind": "reg" },
-    { "company": "AMSTERDAM MEDTECH", "amount": "Création", "kind": "new" },
-    { "company": "EQUASENS", "amount": "Lancement", "kind": "tech" }
+    { "company": "DOCYET · ZOLLSOFT", "amount": "Pilote 2027", "kind": "tech" },
+    { "company": "MHRA · NICE", "amount": "Sandbox IA", "kind": "reg" },
+    { "company": "PLAYBOOK", "amount": "€8M", "kind": "lev" },
+    { "company": "OCTOPATH AI", "amount": "Spin-off", "kind": "new" },
+    { "company": "CHU DE NICE", "amount": "HDS", "kind": "reg" },
+    { "company": "DOCGO", "amount": "$25M", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Cybersécurité · Logiciel hospitalier",
-    "title": "Softway Medical chiffre la fuite de son logiciel de radiologie One Manager : 11 millions de patients exposés, dont 4 millions avec leur numéro de sécurité sociale",
-    "deck": "L'éditeur a communiqué à TICsanté le bilan de la cyberattaque qui a visé début novembre One Manager, son système d'information de radiologie : les données administratives d'environ 11 millions de patients ont fuité et, pour quelque 4 millions d'entre eux, le numéro de sécurité sociale figurait dans le dossier. Un incident d'éditeur, et non d'hôpital, qui touche par ricochet les centres d'imagerie utilisateurs et fait de la sécurité de la chaîne logicielle (accès des prestataires, segmentation, journalisation) un critère d'achat et de due diligence à part entière pour tout le logiciel de santé.",
-    "company": "Softway Medical",
-    "sector": "Logiciel hospitalier",
+    "kicker": "Plateforme de soins · Logiciel ambulatoire",
+    "title": "Généralistes, spécialistes, pédiatres et neurologues allemands lancent leur propre plateforme de prise de rendez-vous et d'orientation, développée par AVG, filiale de Docyet et Zollsoft",
+    "deck": "Le Hausärztinnen- und Hausärzteverband, le Spifa, le BVKJ et le Spitzenverband ZNS ont présenté le 24 novembre une « plateforme de soins » aux mains des médecins : appli patient avec première évaluation numérique de l'urgence, prise de rendez-vous, orientation vers le bon interlocuteur et transmission structurée des comptes rendus entre cabinets, compatible avec tous les logiciels de cabinet ; tests dans de premiers cabinets dès janvier 2027, puis régions pilotes avant un déploiement national. À l'approche de la réforme du parcours de soins primaires, les médecins veulent garder la main sur l'accès aux soins plutôt que de le laisser aux plateformes extérieures et aux caisses : un débouché national potentiel pour le triage numérique de Docyet et le logiciel de cabinet tomedo de Zollsoft, appuyé sur l'appli « Meine pädiatrische Praxis » et ses plus de deux millions d'utilisateurs.",
+    "company": "Ambulante Versorgungsgemeinschaft (AVG)",
+    "sector": "Digital Health",
     "pillar": "marche",
-    "signalType": "regulatory_milestone",
+    "signalType": "early_partnership",
     "strength": 3,
-    "url": "https://www.ticsante.com/story?id=8535"
+    "url": "https://www.aerzteblatt.de/themen/e-health/haus-und-facharzte-wollen-digitale-terminvergabe-selbst-in-die-hand-nehmen-cfdda3bc-7a9d-4ffd-941f-5b599e54f4d1"
   },
   "milestone": {
-    "company": "SOLTI",
-    "milestone": "Essai multicentrique",
-    "title": "L'essai TOP-REAL teste la télésurveillance par appli, oxymètre et montre connectée pour détecter plus tôt les toxicités du trastuzumab deruxtecan dans le cancer du sein HER2+",
-    "summary": "Conduit par le groupe académique espagnol SOLTI avec Unicancer et le West German Study Group, avec le soutien d'AstraZeneca et Daiichi Sankyo, cet essai de phase II vise environ 300 patientes dans 60 centres d'Espagne, de France et d'Allemagne, traitées en première ligne par T-DXd et pertuzumab. Entre les visites, les patientes renseignent des ePROs dans l'application CANKADO ou Resilience selon le pays, mesurent chaque jour leur saturation en oxygène et portent une montre connectée, pour repérer précocement une pneumopathie interstitielle ; les inclusions ont démarré en Espagne et en France, le recrutement est ouvert en Allemagne.",
-    "why": "Ici, la télésurveillance numérique n'est pas un module annexe mais l'outil qui doit permettre de garder sous traitement les patientes sous l'un des médicaments les plus efficaces du cancer du sein HER2+ : un cas d'usage oncologique concret, porté par des groupes coopérateurs et l'industrie, pour deux applications européennes de suivi à distance. Présenté à l'ESMO AI & Digital Oncology 2026 (communiqué du 20 novembre).",
-    "place": "Barcelone",
-    "sector": "Télésanté",
-    "signalType": "clinical_update",
-    "url": "https://www.prnewswire.co.uk/news-releases/top-real-investigates-whether-digital-monitoring-can-support-earlier-detection-of-toxicities-and-preserve-continuity-of-one-of-the-most-effective-treatments-for-her2-positive-metastatic-breast-cancer-302946914.html"
+    "company": "MHRA",
+    "milestone": "Bac à sable réglementaire",
+    "title": "Le régulateur britannique MHRA et le NICE ouvrent l'AI in Mental Health Airlock, un bac à sable consacré aux IA de santé mentale",
+    "summary": "Annoncé le 24 novembre, ce programme étend l'AI Airlock de la MHRA à la santé mentale : régulateurs, développeurs, cliniciens et personnes concernées y examinent comment évaluer et encadrer les outils à IA, des aides thérapeutiques aux chatbots et à la réalité virtuelle. Il travaille avec le HTA Lab du NICE, qui teste de nouvelles méthodes d'évaluation sans toucher aux évaluations en cours, et constitue la deuxième phase d'un programme financé par Wellcome depuis 2023.",
+    "why": "37 % des adultes disent avoir déjà utilisé un chatbot pour leur santé mentale, et la frontière entre outil de bien-être et dispositif médical reste floue. Clarifier les preuves attendues par le régulateur et par l'évaluateur, c'est dérisquer le chemin vers le marché du NHS pour les startups de santé mentale numérique, et donner un signal suivi au-delà du Royaume-Uni.",
+    "place": "Londres",
+    "sector": "Réglementaire",
+    "signalType": "regulatory_milestone",
+    "url": "https://htworld.co.uk/leadership/legal/mhra-launches-ai-in-mental-health-airlock-htai26/"
+  },
+  "deal": {
+    "company": "Playbook",
+    "amount": "8 M€",
+    "round": "Tour de financement",
+    "thesis": "La munichoise lève 8 M€ menés par Heal Capital, avec Bayern Kapital et Capnamic (10,5 M€ au total), pour son « Operating Memory » : les procédures opératoires standard, instructions de travail et manuels de formation deviennent des données structurées dans une base de graphes auditable, que les agents d'IA consultent sans pouvoir les modifier, les changements passant par le contrôle des modifications existant. La thèse : dans la pharma et la medtech régulées, la valeur de l'IA agentique se jouera sur la conformité et la traçabilité, une couche d'infrastructure que des grands laboratoires paient déjà.",
+    "sector": "IA",
+    "url": "https://tech.eu/2026/11/24/playbook-raises-eur8m-to-help-pharma-companies-keep-ai-agents-compliant/"
   },
   "brefsEurope": [
     {
-      "company": "Office fédéral de la santé publique (OFSP)",
-      "place": "Berne",
-      "sector": "Réglementaire",
+      "company": "Great Ormond Street Hospital",
+      "place": "Londres",
+      "sector": "IA clinique",
+      "pillar": "innovation",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Great Ormond Street lance avec Hyland et AWS « Agentic Hospital », un programme de 15 mois pour tester des agents d'IA à l'hôpital",
+      "summary": "Financé par NHS England, le programme développe des agents d'IA sur la Hyland Content Innovation Cloud, hébergée sur AWS, avec Amazon Bedrock pour choisir les modèles et l'AI Control Tower de Hyland pour suivre et auditer leurs actions, en lien avec l'ICO. Premiers cas d'usage, administratifs et menés en parallèle des processus manuels : le rapprochement des relevés fournisseurs avec les factures, avec les écarts signalés à des humains.",
+      "url": "https://e-health-com.de/details-unternehmensnews/erstes-agentic-hospital-programm-mit-hyland-und-aws-erprobt-agentische-ki-im-krankenhaus/"
+    },
+    {
+      "company": "Octopath AI",
+      "place": "Londres",
+      "sector": "IA clinique",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
+      "strength": 3,
+      "title": "Octopath AI sort de l'UCL avec 1 M£ de seed mené par TwinPath Ventures et 500 000 £ d'Innovate UK pour l'analyse cellule par cellule des lames",
+      "summary": "Issue du département de physique médicale et d'ingénierie biomédicale de l'UCL et fondée par Esther Bär, Charles-Antoine Collins-Fekete et Zhuoyan Shen, la spin-off développe deux modèles de fondation, Kraken et Nemo, qui repèrent et mesurent chaque cellule sur l'image numérique d'une lame entière, selon le type de coloration. Une subvention Innovate UK Growth Catalyst complète le tour, avec le soutien d'UCL Ventures.",
+      "url": "https://htworld.co.uk/news/ai/ucl-spin-out-octopath-ai-secures-1-5m-funding-htsu26/"
+    },
+    {
+      "company": "NHS Transformation Directorate",
+      "place": "Londres",
+      "sector": "Données de santé",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "La Suisse dessine un espace de données de santé fédéré, SwissHDS, bâti sur HL7 FHIR et sans base nationale centrale",
-      "summary": "Présenté le 23 novembre à Berne lors de la rencontre annuelle du programme DigiSanté, le modèle laisse les données chez les établissements et professionnels qui les produisent, des services communs assurant l'échange ; le groupe national sur la gouvernance des données recommande FHIR comme socle, un registre central des patients reliera les identités entre hôpitaux et cabinets, et SwissHDS partagera son infrastructure technique avec le futur dossier électronique du patient. Les bases légales sont en rédaction, avec une consultation publique prévue à l'été 2027 : une fenêtre pour les éditeurs d'interopérabilité.",
-      "url": "https://dsih.fr/articles/6476/donnees-de-sante-la-suisse-prepare-une-architecture-federee-pour-connecter-ses-etablissements"
-    },
-    {
-      "company": "Konsortium DigitalRadar Krankenhaus",
-      "place": "Allemagne",
-      "sector": "Logiciel hospitalier",
-      "pillar": "marche",
-      "signalType": "publication_preprint",
       "strength": 2,
-      "title": "Le DigitalRadar mesure la maturité numérique des hôpitaux allemands à 55 points sur 100, contre 33,3 en 2021, mais la télésanté reste la lanterne rouge",
-      "summary": "Mandaté par le ministère fédéral de la Santé, le consortium attribue cette hausse d'environ 65 % au fonds hospitalier KHZG : 1 000 € de subvention par lit sont associés en moyenne à 1,2 point de progression, et le gain touche toutes les tailles d'établissements et tous les Länder. Les deux dimensions les plus faibles restent la participation des patients (29,5 % de réalisation) et la télésanté (28,7 %) : le terrain encore à équiper pour les éditeurs de portails patients et de télésurveillance.",
-      "url": "https://kma-online.de/aktuelles/it-digital-health/detail/digitalradar-krankenhaeuser-steigern-digitale-reife-deutlich-56570"
+      "title": "Le NHS ouvre la consultation des fournisseurs pour sa future plateforme fédérée de données, avant un appel d'offres au second semestre 2027",
+      "summary": "La Transformation Directorate sollicite les idées et solutions des industriels pour la prochaine génération de la Federated Data Platform, dont le contrat actuel avec Palantir doit prendre fin en 2029 ; une présentation en direct est prévue le 1er décembre et un formulaire d'intérêt est ouvert. Objectif affiché : un marché de fournisseurs plus diversifié et des capacités britanniques renforcées, alors que le conseil de NHS England a relevé de 8 à 12 son score de risque technologie et innovation.",
+      "url": "https://htn.co.uk/2026/11/24/transformation-directorate-calls-for-innovative-solutions-and-ideas-for-future-fdp/"
     },
     {
-      "company": "CHU de Guadeloupe",
-      "place": "Pointe-à-Pitre",
+      "company": "Ramsay Santé",
+      "place": "Paris",
+      "sector": "Données de santé",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Ramsay Santé crée l'Institut européen des données médicales autour de son entrepôt de données de santé",
+      "summary": "Ce think & do tank, doté d'un comité stratégique et d'un comité scientifique et éthique, ouvrira aux médecins-chercheurs habilités des centaines de milliers de séjours anonymisés issus des établissements français du groupe, noue des partenariats avec des écoles d'ingénieurs et le Syndicat national des cardiologues, et veut à terme labelliser des centres d'excellence sur la base de données de qualité en vie réelle. Un nouvel acteur privé de la donnée de santé, entre la France et la Scandinavie.",
+      "url": "https://www.hospitalia.fr/Ramsay-Sante-lance-l-Institut-Europeen-des-Donnees-Medicales-pour-accelerer-la-recherche-et-ameliorer-les-soins-en_a5333.html"
+    },
+    {
+      "company": "CHU de Nice",
+      "place": "Nice",
       "sector": "Cybersécurité",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 2,
-      "title": "Cyberattaque au CHU de Guadeloupe : plan blanc déclenché, opérations et examens reportés jusqu'au 27 novembre",
-      "summary": "Frappé le samedi 21 novembre, l'établissement a découvert des bases de données chiffrées ; applications métier et téléphonie interne sont fortement perturbées sur ses trois sites, et le nouveau CHU de Belle-Plaine aux Abymes est touché dans une moindre mesure. La direction, qui évoque une possible compromission chez un prestataire informatique non confirmée, travaille avec l'ANSSI ; les urgences et le SAMU fonctionnent, les services sont repassés au papier.",
-      "url": "https://dsih.fr/articles/6474/cyberattaque-au-chu-de-guadeloupe-le-plan-blanc-declenche-des-soins-reportes-jusquau-27-novembre"
+      "title": "Le CHU de Nice décroche les certifications ISO 27001 et HDS pour la protection de ses données de santé",
+      "summary": "Obtenues en avril 2026 pour trois ans et annoncées par communiqué le 20 novembre, elles couvrent le système de management de la sécurité de l'information et l'hébergement des données de santé à caractère personnel. Le CHU précise qu'elles ne garantissent pas contre une cyberattaque mais attestent d'un cadre structuré de gestion des risques, alors que les établissements, du CHU de Guadeloupe à Softway Medical, enchaînent les incidents.",
+      "url": "https://dsih.fr/articles/6479/le-chu-de-nice-obtient-les-certifications-iso-27001-et-hds-pour-la-protection-des-donnees-de-sante"
     },
     {
-      "company": "Agence du numérique en santé",
-      "place": "Paris",
-      "sector": "Réglementaire",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "L'ANS met en concertation jusqu'au 15 janvier sa doctrine du numérique en santé 2027, sanctions financières comprises",
-      "summary": "Ouverte le 23 novembre aux établissements, professionnels et éditeurs, la concertation porte sur les conditions d'accès au DMP, l'identification numérique des professionnels, l'articulation des outils de coordination (e-Parcours) avec les logiciels métier et la régulation, y compris des pénalités financières en cas de non-respect de certaines exigences. La mise à jour intègre aussi le Cyber Resilience Act et les exigences de certification HDS ; un webinaire de présentation est prévu le 26 novembre avec la DGRINES, l'Assurance maladie et le GIE SESAM-Vitale.",
-      "url": "https://dsih.fr/articles/6475/doctrine-du-numerique-en-sante-2027-lans-met-le-dmp-lidentite-numerique-et-la-regulation-en-concertation"
-    },
-    {
-      "company": "ELSAN",
-      "place": "Paris",
+      "company": "Liberties",
+      "place": "Bruxelles",
       "sector": "IA clinique",
       "pillar": "marche",
-      "signalType": "leadership_hire",
+      "signalType": "publication_preprint",
       "strength": 2,
-      "title": "ELSAN fait entrer à son conseil de surveillance Mehdi Ghissassi, ex-cadre de l'IA appliquée chez Google Brain et DeepMind",
-      "summary": "Passé par Google de 2012 à 2024, aujourd'hui responsable produit et technologie d'AI71 à Abu Dhabi et président du comité IA & Innovation de Teleperformance, il doit accompagner l'ambition du groupe de cliniques de devenir d'ici 2030 une référence européenne du déploiement à grande échelle de l'IA à l'hôpital. Premiers usages cités : l'aide à la détection des fractures et l'analyse des retours patients, un appel d'offres implicite pour les startups d'IA clinique et administrative.",
-      "url": "https://www.mysih.fr/elsan-nomme-mehdi-ghissassi-a-son-conseil-de-surveillance-pour-accompagner-ses-ambitions-dans-lintelligence-artificielle/"
-    },
-    {
-      "company": "Equasens",
-      "place": "France",
-      "sector": "Télésanté",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Equasens lance Eqwo, agenda en ligne avec téléconsultation intégré à son logiciel de cabinet MediStory",
-      "summary": "Présentée le 19 novembre, l'application réunit prise de rendez-vous, téléconsultation et échange de documents pour moins de 100 € TTC par mois et par médecin libéral ; elle s'appuie d'abord sur MediStory et ses plus de 15 000 utilisateurs, avant easy-care puis les logiciels d'officine au premier semestre 2027. Déjà utilisée par des cabinets pilotes, elle sera déployée au premier trimestre 2027 : un éditeur de logiciel métier qui attaque frontalement le terrain des plateformes de prise de rendez-vous.",
-      "url": "https://dsih.fr/articles/6473/equasens-lance-eqwo-un-agenda-en-ligne-integre-au-logiciel-des-cabinets-medicaux"
-    },
-    {
-      "company": "Digizorg",
-      "place": "Rotterdam",
-      "sector": "Données de santé",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Digizorg, la plateforme d'échange de l'Erasmus MC, s'étend aux soins aux personnes âgées et à domicile après les pionniers Aafje et Laurens",
-      "summary": "Depuis cette année, les deux organisations rotterdamoises consultent via le Digizorg Cockpit les résultats de laboratoire, rendez-vous et courriers des hôpitaux connectés, avec environ 90 utilisateurs ; les sites zélandais d'Amarijn et le réseau Zorgring de Noord-Holland Noord se préparent à suivre, PharmaPartners ouvre la connexion aux cabinets sous Medicom, et une première version d'une appli pour les patients est attendue d'ici la fin de l'année ; la plateforme s'étend grâce à des fonds de l'accord IZA.",
-      "url": "https://www.skipr.nl/nieuws/digizorg-pioniers-aafje-en-laurens-krijgen-navolging-in-de-vvt/"
-    },
-    {
-      "company": "Amsterdam MedTech",
-      "place": "Amsterdam",
-      "sector": "Digital Health",
-      "pillar": "naissances",
-      "signalType": "company_incorporation",
-      "strength": 2,
-      "title": "Amsterdam UMC, l'UvA et la VU lancent Amsterdam MedTech pour faire passer plus vite les innovations, IA et soins numériques compris, au lit du patient",
-      "summary": "Le nouvel écosystème part des problèmes concrets du soin pour relier cliniciens, chercheurs, technologues et entreprises autour de l'imagerie, de la photonique, de l'IA, des soins numériques et de la robotique, appliqués à l'oncologie, au cardiovasculaire, à la neurologie et à la santé mentale. Premier projet : explorer un diagnostic et un traitement du cancer du poumon en une seule intervention, alliant microscopie HHG et IA ; l'ambition s'inscrit dans l'objectif néerlandais du secteur MedTech le plus fort d'Europe en 2035.",
-      "url": "https://www.icthealth.nl/nieuws/amsterdam-medtech-moet-zorginnovaties-sneller-toepasbaar-maken"
+      "title": "Un rapport publié avec l'ONG Liberties décrit des médecins européens qui collent des données patients dans ChatGPT ou Gemini sans autorisation",
+      "summary": "Fondée sur plus de 50 entretiens avec des soignants, chercheurs et représentants de patients, l'étude de la chercheuse Júlia Keserű, publiée le 24 novembre, pointe la « shadow AI » des cliniciens épuisés, des hôpitaux dépendants d'IA qu'ils ne contrôlent pas, des règles européennes sur les données et l'IA jugées redondantes, et des startups financées par l'UE qui atteignent rarement l'hôpital public. De quoi nourrir la demande d'outils d'IA validés et intégrés.",
+      "url": "https://euobserver.com/251126/stressed-doctors-and-swamped-hospitals-secretly-using-ai-amid-confusing-eu-rules-report-finds/"
     }
   ],
-  "brefsIntl": [],
+  "brefsIntl": [
+    {
+      "company": "DocGo",
+      "place": "New York",
+      "sector": "Télésanté",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 5,
+      "title": "DocGo cède à Medical Monitoring Corp la télésurveillance des implants cardiaques de Cardiac RMS pour jusqu'à 25 M$",
+      "summary": "L'accord porte sur 20 M$ en numéraire à la clôture et jusqu'à 5 M$ de compléments de prix sur deux ans ; l'acquéreur reprend la marque, les contrats et les actifs de suivi à distance des pacemakers, défibrillateurs et moniteurs implantables, tandis que DocGo garde la gestion des soins virtuels pour l'intégrer à la télésurveillance d'Hicuity Health. Un comparable pour la valorisation des services de télésurveillance cardiaque.",
+      "url": "https://hitconsultant.net/2026/11/23/docgo-sells-cardiac-rms-implantable-device-monitoring-medical-monitoring-corp/"
+    }
+  ],
   "word": {
-    "term": "HDS",
-    "full": "Hébergeur de Données de Santé (certification française d'hébergement des données de santé)",
-    "fr": "Hébergeur de données de santé",
-    "field": "Cybersécurité & données de santé",
-    "definition": "Certification obligatoire en France pour toute organisation qui héberge ou exploite, pour le compte d'un tiers, des données de santé à caractère personnel : sans elle, un logiciel de santé ne peut pas stocker les dossiers de ses clients.",
+    "term": "Agentic AI",
+    "full": "Agentic AI (IA agentique)",
+    "fr": "IA agentique",
+    "field": "IA clinique & administrative",
+    "definition": "Une IA qui ne se contente pas de répondre ou de résumer : elle enchaîne seule plusieurs étapes d'une tâche, en consultant des données et en agissant dans les logiciels, dans des règles fixées et sous supervision humaine.",
     "parts": [
-      { "label": "Référentiel ANS", "role": "le cahier des charges de sécurité" },
-      { "label": "Organisme accrédité COFRAC", "role": "l'auditeur qui délivre le certificat" },
-      { "label": "Six activités", "role": "le périmètre, du datacenter à la sauvegarde" }
+      { "label": "Modèle de fondation", "role": "le raisonnement et la planification" },
+      { "label": "Outils et données connectés", "role": "les mains : agir dans les systèmes" },
+      { "label": "Garde-fous et supervision", "role": "le contrôle, l'audit et la validation humaine" }
     ],
     "how": [
-      { "n": "1", "h": "Périmètre", "t": "L'hébergeur choisit les activités qu'il certifie parmi six : sites physiques, infrastructure matérielle, infrastructure virtuelle, plateforme d'hébergement applicatif, administration et exploitation du système, sauvegarde externalisée." },
-      { "n": "2", "h": "Audit", "t": "Un organisme certificateur accrédité par le COFRAC l'audite selon le référentiel élaboré par l'ANS ; les données doivent rester dans l'Espace économique européen, et le chiffrement n'exonère pas de la certification." },
-      { "n": "3", "h": "Maintien", "t": "Le certificat vaut trois ans et impose des obligations continues, comme tenir à jour pour chaque client un contact professionnel de santé communicable sans délai aux autorités." }
+      { "n": "1", "h": "Planifier", "t": "L'agent reçoit un objectif et le découpe en étapes, en raisonnant sur ce qu'il doit faire, là où une IA générative classique se limite à produire une réponse." },
+      { "n": "2", "h": "Agir", "t": "Il accède aux informations utiles et exécute la tâche de bout en bout, par exemple rapprocher des relevés fournisseurs et des factures, ou relancer un patient jusqu'au rendez-vous." },
+      { "n": "3", "h": "Contrôler", "t": "Ses actions restent encadrées : règles et sources approuvées, journalisation et audit, escalade vers un humain pour les écarts et les questions cliniques." }
     ],
-    "why": "Pour une startup de santé numérique, HDS est un ticket d'entrée sur le marché français : la plupart s'adossent à un hébergeur certifié plutôt que de se certifier elles-mêmes, ce qui fait du choix de l'hébergeur et du périmètre exact du certificat un point clé de due diligence. Avec la fuite Softway Medical et la doctrine 2027 de l'ANS qui intègre les exigences HDS, la sécurité et la souveraineté de l'hébergement deviennent un argument commercial autant qu'une conformité.",
+    "why": "Après les scribes, l'IA agentique est la nouvelle frontière de la santé numérique : elle vise le travail administratif (facturation, prise de rendez-vous, suivi des patients) qui pèse sur des équipes épuisées. L'angle VC se déplace vers la confiance : programmes de test encadrés comme Agentic Hospital à Great Ormond Street, couches de conformité comme celle de Playbook, et des modèles jugés au résultat comme celui de Wilco, qui se mesure aux consultations et aux traitements acceptés, pas aux appels traités.",
     "startups": [
-      { "name": "Scalingo", "use": "Plateforme cloud certifiée HDS depuis septembre 2022, renouvelée en 2025 sous le référentiel v2 sur les six activités (certificat valable jusqu'en 2028)", "place": "France" },
-      { "name": "Clever Cloud", "use": "Hébergeur cloud certifié HDS en janvier 2025 sur les six activités du référentiel, aux côtés de l'ISO 27001, et engagé vers SecNumCloud", "place": "France" },
-      { "name": "Nabla", "use": "Assistant IA de documentation clinique dont l'application est hébergée sur Google Cloud, présenté comme certifié HDS dans ses mentions légales", "place": "Paris" }
+      { "name": "Wilco", "use": "Agents d'IA qui suivent chaque patient jusqu'à la consultation et l'acceptation du traitement ; 2,5 M€ menés par Samaipata avec ABAC Nest Ventures", "place": "Madrid" },
+      { "name": "Playbook", "use": "« Operating Memory » qui transforme les procédures de la pharma en données auditables pour des agents d'IA conformes ; 8 M€ menés par Heal Capital", "place": "Munich" },
+      { "name": "Nayara", "use": "Compagnons IA qui relancent les patients entre deux rendez-vous et signalent les alertes aux équipes, déjà en oncologie ; pre-seed mené par SFC Capital", "place": "Royaume-Uni" }
     ],
     "sources": [
-      { "publisher": "G_NIUS (Agence du numérique en santé)", "title": "Simplific'Action: Understanding HDS Certification", "url": "https://gnius.esante.gouv.fr/en/whats-new/news/simplificaction-understanding-hds-certification" },
-      { "publisher": "Scalingo", "title": "Health Data Hosting Provider - Hébergeur de Données de Santé - Scalingo", "url": "https://doc.scalingo.com/compliance/hds" },
-      { "publisher": "Clever Cloud", "title": "Clever Cloud obtains HDS (Health Data Hosting) certification", "url": "https://clever.cloud/blog/press/2025/01/15/clever-cloud-obtains-hds-certification" },
-      { "publisher": "Nabla", "title": "Avis légal", "url": "https://nabla.com/fr/legal-notice" }
+      { "publisher": "E-HEALTH-COM", "title": "Erstes „Agentic Hospital“-Programm mit Hyland und AWS erprobt agentische KI im Krankenhaus", "url": "https://e-health-com.de/details-unternehmensnews/erstes-agentic-hospital-programm-mit-hyland-und-aws-erprobt-agentische-ki-im-krankenhaus/" },
+      { "publisher": "AWS Public Sector Blog", "title": "Breaking down healthcare’s walls with agentic AI", "url": "https://aws.amazon.com/blogs/publicsector/breaking-down-healthcares-walls-with-agentic-ai/" },
+      { "publisher": "Tech.eu", "title": "Playbook raises €8M to help pharma companies keep AI agents compliant", "url": "https://tech.eu/2026/11/24/playbook-raises-eur8m-to-help-pharma-companies-keep-ai-agents-compliant/" },
+      { "publisher": "Capital-Riesgo.es", "title": "Wilco cierra una ronda de 2.5M€ liderada por Samaipata para ayudar a las clínicas sanitarias a cerrar más tratamientos con agentes de IA", "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/" }
     ]
   }
 }

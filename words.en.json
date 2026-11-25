@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-25",
   "words": [
     {
+      "term": "Agentic AI",
+      "full": "Agentic AI",
+      "fr": "Agentic AI",
+      "field": "Clinical & administrative AI",
+      "definition": "AI that does more than answer or summarise: it carries out several steps of a task on its own, pulling data and acting inside software, within set rules and under human oversight.",
+      "parts": [
+        {
+          "label": "Foundation model",
+          "role": "reasoning and planning"
+        },
+        {
+          "label": "Connected tools and data",
+          "role": "the hands: acting inside systems"
+        },
+        {
+          "label": "Guardrails and oversight",
+          "role": "control, audit and human sign-off"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Plan",
+          "t": "The agent receives a goal and breaks it into steps, reasoning about what to do, whereas classic generative AI stops at producing an answer."
+        },
+        {
+          "n": "2",
+          "h": "Act",
+          "t": "It accesses the information it needs and completes the task end to end, for example reconciling supplier statements with invoices, or following up with a patient until the appointment."
+        },
+        {
+          "n": "3",
+          "h": "Control",
+          "t": "Its actions stay bounded: approved rules and sources, logging and audit, escalation to a human for discrepancies and clinical questions."
+        }
+      ],
+      "why": "After scribes, agentic AI is digital health's new frontier: it targets the administrative workload (billing, scheduling, patient follow-up) weighing on exhausted teams. The VC angle is shifting to trust: supervised test programmes such as Agentic Hospital at Great Ormond Street, compliance layers such as Playbook's, and outcome-judged models such as Wilco's, measured by visits and accepted treatments rather than calls handled.",
+      "startups": [
+        {
+          "name": "Wilco",
+          "use": "AI agents that follow each patient through to the consultation and treatment acceptance; €2.5M led by Samaipata with ABAC Nest Ventures",
+          "place": "Madrid"
+        },
+        {
+          "name": "Playbook",
+          "use": "\"Operating Memory\" that turns pharma procedures into auditable data for compliant AI agents; €8M led by Heal Capital",
+          "place": "Munich"
+        },
+        {
+          "name": "Nayara",
+          "use": "AI companions that check in with patients between appointments and flag concerns to care teams, already used in oncology; pre-seed led by SFC Capital",
+          "place": "United Kingdom"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "E-HEALTH-COM",
+          "title": "Erstes „Agentic Hospital“-Programm mit Hyland und AWS erprobt agentische KI im Krankenhaus",
+          "url": "https://e-health-com.de/details-unternehmensnews/erstes-agentic-hospital-programm-mit-hyland-und-aws-erprobt-agentische-ki-im-krankenhaus/"
+        },
+        {
+          "publisher": "AWS Public Sector Blog",
+          "title": "Breaking down healthcare’s walls with agentic AI",
+          "url": "https://aws.amazon.com/blogs/publicsector/breaking-down-healthcares-walls-with-agentic-ai/"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Playbook raises €8M to help pharma companies keep AI agents compliant",
+          "url": "https://tech.eu/2026/11/24/playbook-raises-eur8m-to-help-pharma-companies-keep-ai-agents-compliant/"
+        },
+        {
+          "publisher": "Capital-Riesgo.es",
+          "title": "Wilco cierra una ronda de 2.5M€ liderada por Samaipata para ayudar a las clínicas sanitarias a cerrar más tratamientos con agentes de IA",
+          "url": "https://capital-riesgo.es/es/articles/wilco-cierra-una-ronda-de-2-5m-liderada-por-samaipata-para-ayudar-a-las-cl-nicas-sanitarias-a-cerrar-m-s-tratamientos-con-agentes-de-ia/"
+        }
+      ],
+      "date": "2026-11-25",
+      "dateLong": "Nov 25, 2026"
+    },
+    {
       "term": "IDP",
       "full": "Intrinsically Disordered Protein",
       "fr": "Intrinsically disordered protein",
@@ -12175,69 +12255,6 @@
       ],
       "date": "2026-07-18",
       "dateLong": "18 juil. 2026"
-    },
-    {
-      "term": "Agentic AI",
-      "full": "Agentic Artificial Intelligence",
-      "fr": "IA agentique",
-      "field": "Opérations cliniques et administratives pilotées par IA",
-      "definition": "Des systèmes d'IA qui ne se contentent plus de suggérer une action au clinicien : ils l'exécutent eux-mêmes, de bout en bout, dans les systèmes hospitaliers existants.",
-      "parts": [
-        {
-          "label": "Perception",
-          "role": "capter l'information (voix, scanner, fax, dossier)"
-        },
-        {
-          "label": "Raisonnement",
-          "role": "décider de la tâche à accomplir"
-        },
-        {
-          "label": "Action",
-          "role": "exécuter directement dans l'EHR ou la facturation"
-        }
-      ],
-      "how": [
-        {
-          "n": "1",
-          "h": "Détection",
-          "t": "L'agent identifie un événement à traiter — un nodule incident sur un scanner, un fax entrant, une demande de pré-autorisation."
-        },
-        {
-          "n": "2",
-          "h": "Décision",
-          "t": "Il croise le contexte clinique ou administratif pour déterminer l'action appropriée, sans script rigide."
-        },
-        {
-          "n": "3",
-          "h": "Exécution",
-          "t": "Il agit directement dans les systèmes en place (dossier patient, facturation, adressage) et documente la traçabilité de son action."
-        }
-      ],
-      "why": "Les hôpitaux croulent sous la charge administrative et les listes d'attente de suivi ; les VCs santé financent désormais des agents mesurés en ETP économisés et en workflows automatisés de bout en bout, pas seulement en taux d'adoption d'un copilote — un changement de critère d'investissement.",
-      "startups": [
-        {
-          "name": "Nabla",
-          "use": "Agents IA pour les workflows cliniques au-delà du compte-rendu ambiant ; 85 000+ cliniciens, Series C 70 M$ menée par HV Capital",
-          "place": "Paris, France"
-        },
-        {
-          "name": "Corti",
-          "use": "Copilote IA temps réel pour la documentation clinique et le codage médical ; Series B 60 M$ (Prosus Ventures, Atomico)",
-          "place": "Copenhague, Danemark"
-        },
-        {
-          "name": "Ambience Healthcare",
-          "use": "Agents dédiés au fax, à la pré-autorisation et au recouvrement patient, intégrés à Epic et Oracle Cerner ; Series C 243 M$",
-          "place": "États-Unis"
-        },
-        {
-          "name": "Bunkerhill Health",
-          "use": "Plateforme Carebricks : agents pour le suivi des découvertes incidentes et la pré-autorisation, déployée chez Mayo Clinic et Cleveland Clinic",
-          "place": "États-Unis"
-        }
-      ],
-      "date": "2026-07-17",
-      "dateLong": "17 juil. 2026"
     },
     {
       "term": "Modulateur allostérique",
