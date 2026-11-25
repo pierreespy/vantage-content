@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-25",
   "words": [
     {
+      "term": "IDP",
+      "full": "Intrinsically Disordered Protein",
+      "fr": "Intrinsically disordered protein",
+      "field": "Medicinal chemistry",
+      "definition": "A protein (or protein region) that has no fixed 3D shape and constantly shifts conformation, which long made it 'undruggable' for lack of a stable pocket to hold a drug.",
+      "parts": [
+        {
+          "label": "Disordered region",
+          "role": "the moving target"
+        },
+        {
+          "label": "Conformational ensemble",
+          "role": "the map of possible shapes"
+        },
+        {
+          "label": "Small molecule",
+          "role": "the lock on a transient state"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Model the ensemble",
+          "t": "The protein is described as a cloud of shifting shapes, using biophysics and AI models, rather than as a single structure."
+        },
+        {
+          "n": "2",
+          "h": "Catch the moment",
+          "t": "Binding sites that exist only briefly are identified, for example when several copies of the protein cluster into small oligomers."
+        },
+        {
+          "n": "3",
+          "h": "Block the function",
+          "t": "The molecule binds that state and neutralizes the protein, such as the androgen receptor's N-terminal domain in prostate cancer."
+        }
+      ],
+      "why": "Roughly a third of the human proteome is thought to be disordered, including key cancer transcription factors and neurodegeneration proteins such as alpha-synuclein: a pool of first-in-class targets that AI and biophysics are finally making tractable, with seed rounds and candidates now reaching IND-enabling studies.",
+      "startups": [
+        {
+          "name": "Peptone",
+          "use": "Small molecules against disordered proteins; PEP-5089, an androgen receptor N-terminal domain inhibitor, in IND-enabling studies in prostate cancer",
+          "place": "Bellinzona (Switzerland)"
+        },
+        {
+          "name": "Nuage Therapeutics",
+          "use": "IRB Barcelona spin-off targeting IDPs through their transient oligomers; focused on small-cell lung cancer and gastrointestinal cancers",
+          "place": "Barcelona (Spain)"
+        },
+        {
+          "name": "Topos Bio",
+          "use": "$10.5M seed (Boldstart, Threshold, Neo); Topos-1 foundation model for disordered proteins and a Gladstone Institutes collaboration on alpha-synuclein",
+          "place": "United States"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "IRB Barcelona",
+          "title": "The key to attacking 'undruggable' proteins: IRB Barcelona reveals a breakthrough drug mechanism",
+          "url": "https://www.irbbarcelona.org/en/news/scientific/key-attacking-undruggable-proteins-irb-barcelona-reveals-breakthrough-drug"
+        },
+        {
+          "publisher": "HLTH",
+          "title": "Topos Bio Raises $10.5M Seed to Target 'Undruggable' Proteins in Alzheimer's and Cancer",
+          "url": "https://hlth.com/insights/news/topos-bio-raises-10-5m-seed-to-target-undruggable-proteins-in-alzheimer-s-and-cancer-2026-01-09"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Peptone Appoints Deepak Sampath, Ph.D., as Chief Scientific Officer and Advances PEP-5089, a First-in-Class AI- and Biophysics-Developed Drug Candidate for Prostate Cancer, into IND-Enabling Development",
+          "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html"
+        }
+      ],
+      "date": "2026-11-25",
+      "dateLong": "Nov 25, 2026"
+    },
+    {
       "term": "MDR Rule 11",
       "full": "MDR Annex VIII, Classification Rule 11 (software classification rule)",
       "fr": "Rule 11 of the EU Medical Device Regulation",

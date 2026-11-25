@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-25",
   "words": [
     {
+      "term": "IDP",
+      "full": "Intrinsically Disordered Protein",
+      "fr": "Protéine intrinsèquement désordonnée",
+      "field": "Chimie médicinale",
+      "definition": "Une protéine (ou une région de protéine) qui n'adopte pas de forme 3D fixe et change sans cesse de conformation, ce qui l'a longtemps rendue « non droguable » faute de poche stable où loger un médicament.",
+      "parts": [
+        {
+          "label": "Région désordonnée",
+          "role": "la cible mouvante"
+        },
+        {
+          "label": "Ensemble de conformations",
+          "role": "la carte des formes possibles"
+        },
+        {
+          "label": "Petite molécule",
+          "role": "le verrou sur un état transitoire"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Modéliser l'ensemble",
+          "t": "On décrit la protéine comme un nuage de formes changeantes, par biophysique et modèles d'IA, plutôt que comme une structure unique."
+        },
+        {
+          "n": "2",
+          "h": "Saisir l'instant",
+          "t": "On repère les sites de liaison qui n'existent que brièvement, par exemple quand plusieurs copies de la protéine s'assemblent en petits oligomères."
+        },
+        {
+          "n": "3",
+          "h": "Bloquer la fonction",
+          "t": "La molécule se fixe sur cet état et neutralise la protéine, comme le domaine N-terminal du récepteur aux androgènes dans le cancer de la prostate."
+        }
+      ],
+      "why": "Environ un tiers du protéome humain serait désordonné, dont des facteurs de transcription clés du cancer et des protéines de la neurodégénérescence comme l'alpha-synucléine : c'est un réservoir de cibles first-in-class que l'IA et la biophysique rendent enfin abordables, avec des tours seed et des candidats qui atteignent les études précliniques réglementaires.",
+      "startups": [
+        {
+          "name": "Peptone",
+          "use": "Petites molécules contre les protéines désordonnées ; PEP-5089, inhibiteur du domaine N-terminal du récepteur aux androgènes, en études précliniques réglementaires dans la prostate",
+          "place": "Bellinzona (Suisse)"
+        },
+        {
+          "name": "Nuage Therapeutics",
+          "use": "Spin-off de l'IRB Barcelona qui cible les IDP via leurs oligomères transitoires ; priorité au cancer du poumon à petites cellules et aux cancers digestifs",
+          "place": "Barcelone (Espagne)"
+        },
+        {
+          "name": "Topos Bio",
+          "use": "Seed de 10,5 M$ (Boldstart, Threshold, Neo) ; modèle de fondation Topos-1 pour les protéines désordonnées et collaboration avec les Gladstone Institutes sur l'alpha-synucléine",
+          "place": "États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "IRB Barcelona",
+          "title": "The key to attacking 'undruggable' proteins: IRB Barcelona reveals a breakthrough drug mechanism",
+          "url": "https://www.irbbarcelona.org/en/news/scientific/key-attacking-undruggable-proteins-irb-barcelona-reveals-breakthrough-drug"
+        },
+        {
+          "publisher": "HLTH",
+          "title": "Topos Bio Raises $10.5M Seed to Target 'Undruggable' Proteins in Alzheimer's and Cancer",
+          "url": "https://hlth.com/insights/news/topos-bio-raises-10-5m-seed-to-target-undruggable-proteins-in-alzheimer-s-and-cancer-2026-01-09"
+        },
+        {
+          "publisher": "PR Newswire",
+          "title": "Peptone Appoints Deepak Sampath, Ph.D., as Chief Scientific Officer and Advances PEP-5089, a First-in-Class AI- and Biophysics-Developed Drug Candidate for Prostate Cancer, into IND-Enabling Development",
+          "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html"
+        }
+      ],
+      "date": "2026-11-25",
+      "dateLong": "25 nov. 2026"
+    },
+    {
       "term": "MDR Rule 11",
       "full": "MDR Annex VIII, Classification Rule 11 (règle de classification des logiciels)",
       "fr": "Règle 11 du règlement européen sur les dispositifs médicaux",

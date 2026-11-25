@@ -1,151 +1,150 @@
 {
-  "dateLong": "24 nov. 2026",
+  "dateLong": "25 nov. 2026",
   "ticker": [
-    { "company": "LOQUS23", "amount": "$725M", "kind": "mna" },
-    { "company": "RITZEY", "amount": "$112.5M", "kind": "lev" },
-    { "company": "NEUMIRNA", "amount": "EIC", "kind": "new" },
-    { "company": "NOVARTIS", "amount": "Ph3 ✓", "kind": "tech" },
-    { "company": "BRIDGEBIO", "amount": "FDA", "kind": "reg" },
-    { "company": "EGENESIS", "amount": "1 an sans dialyse", "kind": "tech" }
+    { "company": "TIAKIS", "amount": "1er patient", "kind": "tech" },
+    { "company": "AC IMMUNE", "amount": "Candidat ALS", "kind": "tech" },
+    { "company": "BIOARCTIC", "amount": "Ph2a ✓", "kind": "tech" },
+    { "company": "KORRO BIO", "amount": "Orphan FDA", "kind": "reg" },
+    { "company": "SANOFI", "amount": "$41B", "kind": "mna" },
+    { "company": "HERANTIS", "amount": "€15M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Acquisition · Neurosciences",
-    "title": "Lilly rachète la britannique LoQus23 jusqu'à 725 M$ pour son inhibiteur oral de MSH3 contre la maladie de Huntington, avant même l'entrée en clinique",
-    "deck": "La biotech de Cambridge, fondée en 2019 par David Reynolds, Ruth McKernan et Caroline Benn au sein du Dementia Discovery Fund de SV Health Investors, et financée par une Series A de 35 M£ menée par Forbion en 2024, est cédée contre un upfront non communiqué et des paiements d'étapes. Son candidat LQT-23 bloque MSH3, une protéine de réparation de l'ADN qui alimente l'expansion « somatique » des répétitions CAG du gène de la huntingtine : un pari sur la modification du cours de la maladie, payé au stade préclinique alors que la demande d'essai clinique est attendue d'ici fin 2026.",
-    "company": "LoQus23 Therapeutics",
-    "sector": "Neurosciences",
-    "pillar": "financement",
-    "signalType": "acquisition",
-    "strength": 5,
-    "url": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/"
+    "kicker": "Premier patient · Hypertension pulmonaire",
+    "title": "La biotech allemande tiakis dose le premier patient de l'essai de phase II Athena de tiprelestat dans l'hypertension artérielle pulmonaire",
+    "deck": "Basée à Kiel, tiakis Biotech a vu le premier patient atteint d'hypertension artérielle pulmonaire (HTAP) recevoir tiprelestat dans Athena, une phase II randomisée, en double aveugle contre placebo (jusqu'à 90 patients, deux doses, 24 semaines), menée aux États-Unis par l'université Stanford grâce à une importante subvention des NIH, avec la résistance vasculaire pulmonaire comme critère principal. Tiprelestat, un inhibiteur biologique de l'élastase des neutrophiles qui renforce la signalisation BMPR2, vise l'inflammation et le remodelage vasculaire à l'origine de la maladie, et non plus seulement la vasodilatation : un actif désigné médicament orphelin aux États-Unis et en Europe, déjà testé chez plus de 100 personnes dans cinq essais.",
+    "company": "tiakis Biotech",
+    "sector": "Biotech",
+    "pillar": "innovation",
+    "signalType": "clinical_update",
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/first-pulmonary-arterial-hypertension-pah-patient-dosed-with-tiakis-biotechs-lead-compund-tiprelestat-in-phase-ii-athena-study-in-the-u-s"
   },
   "milestone": {
-    "company": "eGenesis",
-    "milestone": "1 an sans dialyse",
-    "title": "Un rein de porc génétiquement modifié d'eGenesis fonctionne depuis un an chez une patiente, un record pour la xénogreffe",
-    "summary": "Molly Falco, 58 ans, greffée le 22 novembre 2025 au Massachusetts General Hospital dans le cadre de l'accès étendu de la FDA, n'a plus besoin de dialyse un an après. Le greffon EGEN-2784 cumule trois familles de modifications : rétrovirus endogènes porcins inactivés, trois antigènes glucidiques supprimés et sept transgènes humains insérés ; six patients l'ont reçu à ce jour.",
-    "why": "C'est la plus longue fonction soutenue d'un rein de porc chez un humain vivant, juste avant l'essai de phase 1/2/3 RESTORE (33 patients de 50 à 70 ans en attente de greffe) autorisé par la FDA et prévu au premier trimestre 2027 : l'édition génomique multiplex devient une réponse crédible à la pénurie d'organes.",
-    "place": "Cambridge (Massachusetts)",
-    "sector": "Xénotransplantation",
-    "signalType": "clinical_update",
-    "url": "https://www.biospace.com/press-releases/egenesis-and-mass-general-brigham-announce-first-patient-to-surpass-one-year-of-dialysis-independence-following-porcine-kidney-transplant"
+    "company": "AC Immune",
+    "milestone": "Candidat nommé",
+    "title": "AC Immune désigne ACI-6758, un intracorps délivré par AAV contre la TDP-43 pathologique, comme candidat principal dans la SLA",
+    "summary": "Le fragment d'anticorps humanisé est produit directement dans les neurones après injection de son gène par un vecteur AAV, et stabilisé par la technologie de linker chargé de la biotech de Lausanne. Chez la souris rNLS8, il réduit jusqu'à 75 % la TDP-43 phosphorylée dans plusieurs régions du cerveau, améliore la fonction motrice et abaisse les neurofilaments légers (NfL) dans le liquide céphalorachidien, sans perturber l'épissage normal de STMN2, POLDIP3 et UNC13A.",
+    "why": "La TDP-43 s'agrège dans environ 97 % des cas de SLA mais reste à l'intérieur des cellules, hors de portée des anticorps classiques : AC Immune rejoint VectorY (VTx-002, phase 1/2) sur l'approche des anticorps vectorisés, et dispose d'un traceur TEP maison, ACI-19626, en phase 1, pour suivre la cible chez le patient. Aucun calendrier d'entrée en clinique n'est encore annoncé.",
+    "place": "Lausanne",
+    "sector": "Neurosciences",
+    "signalType": "publication_preprint",
+    "url": "https://european-biotechnology.com/latest-news/ac-immune-selects-als-candidate-after-promising-mouse-data/"
   },
   "deal": {
-    "company": "Ritzey Therapeutics",
-    "amount": "112,5 M$",
-    "round": "Series A",
-    "thesis": "Sharon Mates, fondatrice d'Intra-Cellular Therapies (vendue 14,6 Md$ à J&J), lance Ritzey avec Vida Ventures en lead (Fidelity, Alexandria, EcoR1, Perceptive) après avoir racheté la française Perha Pharmaceuticals, dont l'inhibiteur oral de la kinase DYRK1A a terminé sa phase 1. Le capital américain vient chercher un actif développé par une biotech française pour le porter en phase 2 dans le syndrome de Down et les diabètes de type 1 et 2 : un signal pour les fonds européens qui laissent filer ce type d'actifs au stade précoce.",
-    "sector": "Biotech",
-    "url": "https://dealroom.co/news/175064-sharon-mates-returns-with-113m-to-tackle-down-syndrome-and-diabetes/"
+    "company": "Sanofi",
+    "amount": "41 Md$",
+    "round": "Acquisition",
+    "thesis": "Sanofi rachète l'américaine Insmed 175 $ par action en numéraire (prime de 46 %), la plus grosse acquisition biopharma de 2026, pour préparer la perte d'exclusivité de Dupixent : Brinsupri (brensocatib), premier traitement oral de la bronchectasie hors mucoviscidose, a déjà cumulé 1,09 Md$ de ventes, et TPIP est en phase 3 dans l'hypertension pulmonaire. Un comparable qui valorise la classe des inhibiteurs de DPP1, où des fonds européens (Sofinnova, Novo Holdings, Forbion) ont financé Expedition Therapeutics dans la BPCO ; clôture attendue au premier semestre 2027.",
+    "sector": "Immunologie",
+    "url": "https://european-biotechnology.com/latest-news/sanofi-to-buy-insmed-for-41b-as-dupixent-patent-clock-ticks/"
   },
   "brefsEurope": [
     {
-      "company": "Novartis",
-      "place": "Bâle",
-      "sector": "ARN",
+      "company": "BioArctic",
+      "place": "Stockholm",
+      "sector": "Neurosciences",
       "pillar": "innovation",
       "signalType": "clinical_update",
-      "strength": 4,
-      "title": "Le siRNA Leqvio de Novartis réduit les événements cardiovasculaires majeurs dans l'essai de phase 3 ORION-4",
-      "summary": "Ajouté au traitement standard, statines modérées comprises, l'inclisiran réduit de façon statistiquement significative les événements cardiovasculaires majeurs (MACE) chez des patients atteints de maladie cardiovasculaire athéroscléreuse : première étude de résultats cardiovasculaires positive pour un siRNA. L'ampleur de l'effet sera dévoilée en congrès au premier semestre 2027 ; un comparable qui valide les modalités ARN dans les grandes populations.",
-      "url": "https://pharmaphorum.com/news/trial-helps-novartis-build-its-blockbuster-case-leqvio"
+      "strength": 3,
+      "title": "L'anticorps anti-alpha-synucléine exidavnemab de BioArctic franchit la phase 2a EXIST dans Parkinson et l'atrophie multisystématisée",
+      "summary": "Chez 38 patients randomisés 2:1 contre placebo, aucun événement indésirable grave lié au traitement, une demi-vie sérique d'environ 32 jours et un ratio d'exposition LCR/sérum de 0,4 %, que la société juge supérieur à la moyenne des anticorps. Deux phases 2b doivent démarrer au premier semestre 2027, l'une dans les troubles cognitifs liés à Parkinson ou à la démence à corps de Lewy, l'autre dans l'AMS.",
+      "url": "https://nordiclifescience.org/bioarctics-parkinsons-antibody-passes-phase-2a-safety-study/"
     },
     {
-      "company": "Saniona",
-      "place": "Copenhague",
+      "company": "Alzinova",
+      "place": "Göteborg",
+      "sector": "Vaccins",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Alzinova libère le lot GMP de son vaccin anti-Alzheimer ALZ-101 pour la phase 2a ADVANCE",
+      "summary": "Le lot de produit fini a passé les tests de libération qualité selon les BPF, et le procédé a été optimisé pour fournir les volumes d'une phase 2. Le vaccin thérapeutique, qui cible les oligomères toxiques de bêta-amyloïde, doit recruter son premier participant atteint d'Alzheimer précoce vers le tournant 2026/2027.",
+      "url": "https://nordiclifescience.org/alzinova-completes-quality-control-of-alz-101-batch-for-phase-2a-study/"
+    },
+    {
+      "company": "Peptone",
+      "place": "Bellinzona",
+      "sector": "Oncologie",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 3,
+      "title": "Peptone recrute Deepak Sampath (ex-Ultragenyx, Genentech) comme CSO et lance les études précliniques réglementaires de PEP-5089",
+      "summary": "Ancien responsable de la recherche d'Ultragenyx, ayant contribué au venetoclax, Deepak Sampath revendique 15 IND déposés. PEP-5089, petite molécule orale découverte par les plateformes biophysique et IA de Peptone, se lie au domaine N-terminal désordonné du récepteur aux androgènes et reste active contre le variant AR-V7, moteur des résistances dans le cancer de la prostate : un candidat passé du concept à la nomination en 18 mois, désormais en route vers la phase I.",
+      "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html"
+    },
+    {
+      "company": "AlzeCure Pharma",
+      "place": "Huddinge",
       "sector": "Neurosciences",
       "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "Saniona met fin à son partenariat avec Medix et retire le tesofensine anti-obésité de son pipeline",
-      "summary": "Après la demande d'une phase 3 supplémentaire par le régulateur mexicain COFEPRIS, jugée non rentable par Medix, Saniona abandonne tesofensine et Tesomet pour se concentrer sur la neurologie et la psychiatrie : SAN2668 (encéphalopathies épileptiques) et SAN2465 (dépression), autorisé par la FDA à entrer en phase 1. Ses partenariats (Jazz, Acadia, AstronauTx) ont déjà rapporté 75 M$ et prévoient jusqu'à 1,75 Md$ de paiements d'étapes.",
-      "url": "https://mfn.se/a/saniona/saniona-provides-update-on-tesofensine-collaboration-and-its-pipeline"
-    },
-    {
-      "company": "Neumirna Therapeutics",
-      "place": "Copenhague",
-      "sector": "ARN",
-      "pillar": "naissances",
-      "signalType": "grant_award",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "Neumirna sélectionnée par l'EIC Accelerator pour jusqu'à 12,5 M€ afin d'amener son antimiR contre l'épilepsie en clinique",
-      "summary": "La biotech danoise reçoit 2,5 M€ de subvention et jusqu'à 10 M€ en equity du Fonds EIC pour une étude de phase 1/2 de NMT.001, un oligonucléotide antisens qui bloque le microARN miR-134 dans l'épilepsie focale pharmacorésistante, avec un premier essai chez l'humain prévu en 2027. Elle avait levé une Series A de 20 M€ en janvier 2025 (Angelini Ventures, Invivo Partners, Innovestor).",
-      "url": "https://www.biospace.com/press-releases/neumirna-therapeutics-selected-to-receive-up-to-eur12-5-million-funding-from-the-eic-accelerator-to-advance-nmt-001-into-the-clinic-for-drug-resistant-epilepsy"
+      "title": "AlzeCure Pharma confirme son cofondateur Johan Sandin comme CEO et confie la présidence à Janet Hoogstraate",
+      "summary": "Directeur général par intérim depuis le 27 octobre, l'ancien CSO est titularisé ; le président sortant Eggert Mörling devient Chief Business Officer et Janet Hoogstraate, CEO de NorthX Biologics et ex-AstraZeneca, prend la présidence. Une équipe taillée pour les accords : la plateforme Alzstatin est licenciée à Eli Lilly, NeuroRestore à QuantumCell, et la plateforme anti-douleur Painless cherche preneur.",
+      "url": "https://mfn.se/a/alzecure-pharma/alzecure-pharma-appoints-johan-sandin-as-permanent-ceo-strengthens-its-commercial-organization-and-elects-janet-hoogstraate-as-new-chair-of-the-board"
     },
     {
-      "company": "Quotient Sciences",
-      "place": "Nottingham",
+      "company": "Herantis Pharma",
+      "place": "Espoo",
+      "sector": "Neurosciences",
+      "pillar": "financement",
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Herantis Pharma lève 15 M€ par placement privé pour la phase 2 de HER-096 dans Parkinson",
+      "summary": "Placement à 1,20 € par action (décote d'environ 14 %), Danske Bank comme teneur de livre unique, avec un engagement de garantie de Joensuun Kauppa ja Kone et la participation de l'European Innovation Council ; l'essentiel (14,8 M€) attend le feu vert d'une assemblée générale extraordinaire. S'y ajoute une subvention Horizon Europe de 8 M€ pour la phase 2 du candidat contre Parkinson.",
+      "url": "https://mfn.se/ind/a/herantis-pharma/inside-information-herantis-pharma-announces-the-results-of-its-directed-share-issue-raising-eur-15-million-e1ee2dd0"
+    },
+    {
+      "company": "Infant Bacterial Therapeutics",
+      "place": "Stockholm",
       "sector": "Biotech",
       "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 5,
-      "title": "IQVIA rachète à Permira le prestataire britannique de développement précoce Quotient Sciences",
-      "summary": "Quotient, qui combine formulation, fabrication de petits lots, essais de phase précoce et bioanalyse (« Translational Pharmaceutics ») sur des sites à Nottingham, Alnwick, Miami et Philadelphie, vise environ 200 M$ de chiffre d'affaires en 2026 ; le prix n'est pas communiqué. Un comparable qui montre la valeur accordée aux outils qui raccourcissent jusqu'à 12 mois le passage du candidat à la clinique.",
-      "url": "https://www.biospace.com/press-releases/iqvia-announces-acquisition-of-quotient-sciences"
+      "signalType": "funding_round",
+      "strength": 3,
+      "title": "Infant Bacterial Therapeutics prépare une augmentation de capital de 154 MSEK avant de déposer IBP-9414 à l'EMA",
+      "summary": "Souscrite à 44 % par des actionnaires dont le fonds de pension AP4, l'opération doit financer la société jusqu'en 2027. IBP-9414, destiné à réduire la mortalité des grands prématurés, vise à devenir le premier produit bactérien vivant approuvé au monde : demande d'AMM à l'EMA avant fin 2026 et dossier BLA complet auprès de la FDA au premier semestre 2027.",
+      "url": "https://nordiclifescience.org/ibt-plans-sek-154-million-rights-issue-ahead-of-ibp-9414-launch/"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Kymera Therapeutics",
-      "place": "Watertown",
-      "sector": "Immunologie",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 4,
-      "title": "Le dégradeur oral de STAT6 de Kymera atteint son critère principal en phase 2b dans l'eczéma, avec une efficacité proche de Dupixent",
-      "summary": "Dans l'essai BROADEN2 (244 patients), la dose intermédiaire de KT-621 réduit le score EASI de 72 % à 16 semaines (45 points de mieux que le placebo) et 62 % des patients atteignent l'EASI-75 contre 22 % sous placebo. Une phase 3 est prévue d'ici mi-2027 ; l'action a bondi de 34 %, un signal fort pour la dégradation de facteurs de transcription par voie orale.",
-      "url": "https://www.biopharmadive.com/news/kymera-eczema-pill-phase2-data-protein-degrader-dupixent-ebglyss/875462/"
-    },
-    {
-      "company": "BridgeBio Pharma",
-      "place": "Palo Alto",
-      "sector": "Maladies rares",
+      "company": "Korro Bio",
+      "place": "Cambridge (Massachusetts)",
+      "sector": "ARN",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "La FDA approuve Welgemda de BridgeBio, première thérapie ciblée de la dystrophie musculaire des ceinture LGMD2I/R9",
-      "summary": "Thérapie orale de substrat de glycosylation qui augmente l'alpha-dystroglycane glycosylé, BBP-418 a été approuvée avant sa date butoir du 27 novembre sur la base de l'essai de phase 3 FORTIFY (112 patients), la FDA citant des améliorations de la vitesse de marche et de la fonction respiratoire.",
-      "url": "https://www.biospace.com/fda/fda-approves-bridgebios-welgemda-as-1st-targeted-therapy-for-rare-muscle-disease"
-    },
-    {
-      "company": "Curium",
-      "place": "Boston",
-      "sector": "Radiopharmaceutiques",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "Curium obtient la désignation Fast Track de la FDA pour son traceur TEP au cuivre 64 ciblant le PSMA dans le cancer de la prostate",
-      "summary": "Agent d'imagerie TEP/TDM associant une molécule ciblant le PSMA au cuivre 64, le Copper Cu 64 PSMA I&T est évalué dans les études SOLAR-STAGE (bilan initial des cancers à risque intermédiaire défavorable à très élevé) et SOLAR-RECUR (suspicion de récidive biochimique). Le groupe de médecine nucléaire garde son siège international à Paris.",
-      "url": "https://www.biospace.com/press-releases/curium-receives-fda-fast-track-designation-for-investigational-copper-cu-64-psma-i-t-in-prostate-cancer"
+      "strength": 3,
+      "title": "La FDA accorde la désignation orpheline à KRRO-121, l'éditeur d'ARN de Korro Bio, dans les troubles du cycle de l'urée",
+      "summary": "L'oligonucléotide conjugué GalNAc recrute l'enzyme ADAR du foie pour modifier une seule lettre de l'ARN et produire une glutamine synthétase résistante à la dégradation ; la désignation couvre aussi l'encéphalopathie hépatique. Les premiers patients de la phase 1/2 ANCHOR sont attendus au premier semestre 2027 : un repère pour les acteurs européens de l'édition d'ARN.",
+      "url": "https://www.techtimes.com/articles/331430/20261124/rna-editing-drug-krro-121-wins-fda-orphan-status-before-any-patient-ammonia-disorder-dosed.htm"
     }
   ],
   "word": {
-    "term": "AntimiR",
-    "full": "Anti-microRNA oligonucleotide",
-    "fr": "Oligonucléotide anti-microARN",
-    "field": "ARN / Oligonucléotides",
-    "definition": "Un court brin d'ARN synthétique, chimiquement renforcé, qui se colle à un microARN suractivé dans la maladie pour l'empêcher d'éteindre ses gènes cibles.",
+    "term": "IDP",
+    "full": "Intrinsically Disordered Protein",
+    "fr": "Protéine intrinsèquement désordonnée",
+    "field": "Chimie médicinale",
+    "definition": "Une protéine (ou une région de protéine) qui n'adopte pas de forme 3D fixe et change sans cesse de conformation, ce qui l'a longtemps rendue « non droguable » faute de poche stable où loger un médicament.",
     "parts": [
-      { "label": "Séquence complémentaire", "role": "reconnaît précisément le microARN visé (miR-134, miR-22, miR-23b…)" },
-      { "label": "Chimie modifiée (LNA, 2'-O-méthyl, phosphorothioate)", "role": "résiste aux nucléases et renforce la liaison" },
-      { "label": "Conjugué ou voie d'administration", "role": "amène la molécule au bon tissu (cholestérol, GalNAc, intrathécal, intraveineux)" }
+      { "label": "Région désordonnée", "role": "la cible mouvante" },
+      { "label": "Ensemble de conformations", "role": "la carte des formes possibles" },
+      { "label": "Petite molécule", "role": "le verrou sur un état transitoire" }
     ],
     "how": [
-      { "n": "1", "h": "Identifier le microARN pathogène", "t": "Un microARN surexprimé dans la maladie réprime à lui seul des dizaines d'ARN messagers, comme miR-23b qui freine la protéine MBNL dans la dystrophie myotonique de type 1." },
-      { "n": "2", "h": "Le séquestrer", "t": "L'antimiR s'hybride au microARN mature et le neutralise ou le fait dégrader, ce qui lève le frein sur ses gènes cibles." },
-      { "n": "3", "h": "Restaurer un réseau de gènes", "t": "Comme un microARN régule de nombreux gènes, une seule molécule peut corriger tout un programme biologique, mais ce même effet en cascade expose à des effets hors cible à surveiller." }
+      { "n": "1", "h": "Modéliser l'ensemble", "t": "On décrit la protéine comme un nuage de formes changeantes, par biophysique et modèles d'IA, plutôt que comme une structure unique." },
+      { "n": "2", "h": "Saisir l'instant", "t": "On repère les sites de liaison qui n'existent que brièvement, par exemple quand plusieurs copies de la protéine s'assemblent en petits oligomères." },
+      { "n": "3", "h": "Bloquer la fonction", "t": "La molécule se fixe sur cet état et neutralise la protéine, comme le domaine N-terminal du récepteur aux androgènes dans le cancer de la prostate." }
     ],
-    "why": "Après des débuts difficiles (aucun antimiR n'a encore atteint la phase 3 ni d'approbation), le domaine revient par des indications où le mécanisme est bien établi : neurologie, maladies neuromusculaires rares, métabolisme. Pour un VC, c'est une modalité capital-efficiente, issue des progrès de chimie des oligonucléotides, où l'Europe compte plusieurs pure players, avec un appétit des grands groupes déjà démontré (rachat de Cardior par Novo Nordisk, prise de participation de Sanofi dans Resalis).",
+    "why": "Environ un tiers du protéome humain serait désordonné, dont des facteurs de transcription clés du cancer et des protéines de la neurodégénérescence comme l'alpha-synucléine : c'est un réservoir de cibles first-in-class que l'IA et la biophysique rendent enfin abordables, avec des tours seed et des candidats qui atteignent les études précliniques réglementaires.",
     "startups": [
-      { "name": "Neumirna Therapeutics", "use": "Oligonucléotide antisens NMT.001 qui bloque miR-134 dans l'épilepsie pharmacorésistante ; sélectionnée par l'EIC Accelerator (jusqu'à 12,5 M€) pour une phase 1/2", "place": "Copenhague, Danemark" },
-      { "name": "Resalis Therapeutics", "use": "RES-010, composé anti-miR-22 contre l'obésité, en phase 1 aux Pays-Bas ; investissement stratégique de Sanofi", "place": "Turin, Italie" },
-      { "name": "Arthex Biotech", "use": "ATX-01, inhibiteur de miR-23b qui restaure la protéine MBNL, en essai de phase 1/2a ArthemiR dans la dystrophie myotonique de type 1", "place": "Valence, Espagne" }
+      { "name": "Peptone", "use": "Petites molécules contre les protéines désordonnées ; PEP-5089, inhibiteur du domaine N-terminal du récepteur aux androgènes, en études précliniques réglementaires dans la prostate", "place": "Bellinzona (Suisse)" },
+      { "name": "Nuage Therapeutics", "use": "Spin-off de l'IRB Barcelona qui cible les IDP via leurs oligomères transitoires ; priorité au cancer du poumon à petites cellules et aux cancers digestifs", "place": "Barcelone (Espagne)" },
+      { "name": "Topos Bio", "use": "Seed de 10,5 M$ (Boldstart, Threshold, Neo) ; modèle de fondation Topos-1 pour les protéines désordonnées et collaboration avec les Gladstone Institutes sur l'alpha-synucléine", "place": "États-Unis" }
     ],
     "sources": [
-      { "publisher": "International Journal of Molecular Sciences (PMC)", "title": "Trials and Tribulations of MicroRNA Therapeutics", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10855871/" },
-      { "publisher": "BioSpace", "title": "Neumirna Therapeutics Selected to Receive up to EUR12.5 Million Funding from the EIC Accelerator to Advance NMT.001 into the Clinic for Drug-Resistant Epilepsy", "url": "https://www.biospace.com/press-releases/neumirna-therapeutics-selected-to-receive-up-to-eur12-5-million-funding-from-the-eic-accelerator-to-advance-nmt-001-into-the-clinic-for-drug-resistant-epilepsy" },
-      { "publisher": "BioSpace", "title": "Resalis Therapeutics Announces Initiation of Phase 1 Clinical Trial for RES-010 in Obesity", "url": "https://www.biospace.com/press-releases/resalis-therapeutics-announces-initiation-of-phase-1-clinical-trial-for-res-010-in-obesity" },
-      { "publisher": "NHS Health Research Authority", "title": "Phase 1/2a study of ATX-01 in participants with DM1 (ArthemiR study)", "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/phase-12a-study-of-atx-01-in-participants-with-dm1-arthemir-study/" }
+      { "publisher": "IRB Barcelona", "title": "The key to attacking 'undruggable' proteins: IRB Barcelona reveals a breakthrough drug mechanism", "url": "https://www.irbbarcelona.org/en/news/scientific/key-attacking-undruggable-proteins-irb-barcelona-reveals-breakthrough-drug" },
+      { "publisher": "HLTH", "title": "Topos Bio Raises $10.5M Seed to Target 'Undruggable' Proteins in Alzheimer's and Cancer", "url": "https://hlth.com/insights/news/topos-bio-raises-10-5m-seed-to-target-undruggable-proteins-in-alzheimer-s-and-cancer-2026-01-09" },
+      { "publisher": "PR Newswire", "title": "Peptone Appoints Deepak Sampath, Ph.D., as Chief Scientific Officer and Advances PEP-5089, a First-in-Class AI- and Biophysics-Developed Drug Candidate for Prostate Cancer, into IND-Enabling Development", "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html" }
     ]
   }
 }
