@@ -1,150 +1,161 @@
 {
-  "dateLong": "25 nov. 2026",
+  "dateLong": "26 nov. 2026",
   "ticker": [
-    { "company": "TIAKIS", "amount": "1er patient", "kind": "tech" },
-    { "company": "AC IMMUNE", "amount": "Candidat ALS", "kind": "tech" },
-    { "company": "BIOARCTIC", "amount": "Ph2a ✓", "kind": "tech" },
-    { "company": "KORRO BIO", "amount": "Orphan FDA", "kind": "reg" },
-    { "company": "SANOFI", "amount": "$41B", "kind": "mna" },
-    { "company": "HERANTIS", "amount": "€15M", "kind": "lev" }
+    { "company": "DESENTUM", "amount": "Ph2 ✓", "kind": "tech" },
+    { "company": "KALVISTA", "amount": "NICE", "kind": "reg" },
+    { "company": "XBRANE", "amount": "Licence Chine", "kind": "reg" },
+    { "company": "ENPICOM", "amount": "€22M", "kind": "mna" },
+    { "company": "HANSOH", "amount": "$3.25Md", "kind": "mna" },
+    { "company": "FLUICELL", "amount": "13,7 MSEK", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "Premier patient · Hypertension pulmonaire",
-    "title": "La biotech allemande tiakis dose le premier patient de l'essai de phase II Athena de tiprelestat dans l'hypertension artérielle pulmonaire",
-    "deck": "Basée à Kiel, tiakis Biotech a vu le premier patient atteint d'hypertension artérielle pulmonaire (HTAP) recevoir tiprelestat dans Athena, une phase II randomisée, en double aveugle contre placebo (jusqu'à 90 patients, deux doses, 24 semaines), menée aux États-Unis par l'université Stanford grâce à une importante subvention des NIH, avec la résistance vasculaire pulmonaire comme critère principal. Tiprelestat, un inhibiteur biologique de l'élastase des neutrophiles qui renforce la signalisation BMPR2, vise l'inflammation et le remodelage vasculaire à l'origine de la maladie, et non plus seulement la vasodilatation : un actif désigné médicament orphelin aux États-Unis et en Europe, déjà testé chez plus de 100 personnes dans cinq essais.",
-    "company": "tiakis Biotech",
-    "sector": "Biotech",
+    "kicker": "Endpoint primaire atteint · Immunothérapie allergénique",
+    "title": "La finlandaise Desentum atteint le critère principal de la phase 2 BASIT : dix semaines d'injections soulagent l'allergie au bouleau pendant au moins 25 semaines",
+    "deck": "Chez 97 adultes allergiques au pollen de bouleau, randomisés en double aveugle contre placebo, DM-101PX, un allergène recombinant de bouleau modifié pour freiner la libération d'histamine, a réduit les symptômes nasaux déclenchés par provocation allergénique après un traitement sous-cutané de seulement 10 semaines, avec un effet encore visible 25 semaines après la dernière injection, une forte hausse des IgG4 spécifiques et une bonne tolérance (aucun arrêt lié au traitement, tous les participants ayant atteint la dose maximale). Face aux désensibilisations classiques, qui s'étalent sur plusieurs années, la biotech d'Espoo, financée par une levée de 28 M€ en octobre, prépare une étude de recherche de dose et vise ensuite une licence, une M&A ou une IPO.",
+    "company": "Desentum",
+    "sector": "Immunologie",
     "pillar": "innovation",
     "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://www.biospace.com/press-releases/first-pulmonary-arterial-hypertension-pah-patient-dosed-with-tiakis-biotechs-lead-compund-tiprelestat-in-phase-ii-athena-study-in-the-u-s"
+    "strength": 4,
+    "url": "https://www.globenewswire.com/news-release/2026/11/25/3410024/0/en/desentum-announces-successful-outcome-of-phase-2-trial-with-its-short-course-birch-pollen-allergen-immunotherapy-demonstrating-persistent-clinical-symptom-reduction.html"
   },
   "milestone": {
-    "company": "AC Immune",
-    "milestone": "Candidat nommé",
-    "title": "AC Immune désigne ACI-6758, un intracorps délivré par AAV contre la TDP-43 pathologique, comme candidat principal dans la SLA",
-    "summary": "Le fragment d'anticorps humanisé est produit directement dans les neurones après injection de son gène par un vecteur AAV, et stabilisé par la technologie de linker chargé de la biotech de Lausanne. Chez la souris rNLS8, il réduit jusqu'à 75 % la TDP-43 phosphorylée dans plusieurs régions du cerveau, améliore la fonction motrice et abaisse les neurofilaments légers (NfL) dans le liquide céphalorachidien, sans perturber l'épissage normal de STMN2, POLDIP3 et UNC13A.",
-    "why": "La TDP-43 s'agrège dans environ 97 % des cas de SLA mais reste à l'intérieur des cellules, hors de portée des anticorps classiques : AC Immune rejoint VectorY (VTx-002, phase 1/2) sur l'approche des anticorps vectorisés, et dispose d'un traceur TEP maison, ACI-19626, en phase 1, pour suivre la cible chez le patient. Aucun calendrier d'entrée en clinique n'est encore annoncé.",
-    "place": "Lausanne",
-    "sector": "Neurosciences",
-    "signalType": "publication_preprint",
-    "url": "https://european-biotechnology.com/latest-news/ac-immune-selects-als-candidate-after-promising-mouse-data/"
+    "company": "KalVista Pharmaceuticals",
+    "milestone": "Avis NICE",
+    "title": "Le NICE recommande Ekterly (sebetralstat), premier traitement oral à la demande des crises d'angio-œdème héréditaire, pour le NHS d'Angleterre et du pays de Galles",
+    "summary": "Dans son projet final de recommandation, l'agence britannique d'évaluation retient l'inhibiteur oral de la kallicréine plasmatique de KalVista, désormais filiale du groupe italien Chiesi, chez les patients de 12 ans et plus. Dans la phase 3 KONFIDENT, le début du soulagement survenait en médiane après 1,61 heure avec 300 mg de sebetralstat, contre 6,72 heures sous placebo ; l'effet indésirable le plus fréquent était la céphalée (9,2 %).",
+    "why": "Jusqu'ici, une crise d'angio-œdème héréditaire se traitait par injection ou perfusion : un comprimé pris dès les premiers symptômes change la prise en charge des 1 000 à 1 500 patients britanniques. Le même jour, le néerlandais Pharming suspendait la production de Ruconest, son traitement injectable des crises : la bascule vers l'oral fragilise les acteurs historiques de la maladie.",
+    "place": "Salisbury",
+    "sector": "Immunologie",
+    "signalType": "reimbursement",
+    "url": "https://www.biospace.com/press-releases/nice-recommends-ekterly-sebetralstat-the-first-oral-on-demand-treatment-option-for-hereditary-angioedema-hae-attacks"
   },
   "deal": {
-    "company": "Sanofi",
-    "amount": "41 Md$",
+    "company": "ENPICOM",
+    "amount": "22 M€",
     "round": "Acquisition",
-    "thesis": "Sanofi rachète l'américaine Insmed 175 $ par action en numéraire (prime de 46 %), la plus grosse acquisition biopharma de 2026, pour préparer la perte d'exclusivité de Dupixent : Brinsupri (brensocatib), premier traitement oral de la bronchectasie hors mucoviscidose, a déjà cumulé 1,09 Md$ de ventes, et TPIP est en phase 3 dans l'hypertension pulmonaire. Un comparable qui valorise la classe des inhibiteurs de DPP1, où des fonds européens (Sofinnova, Novo Holdings, Forbion) ont financé Expedition Therapeutics dans la BPCO ; clôture attendue au premier semestre 2027.",
-    "sector": "Immunologie",
-    "url": "https://european-biotechnology.com/latest-news/sanofi-to-buy-insmed-for-41b-as-dupixent-patent-clock-ticks/"
+    "thesis": "L'américain Schrödinger rachète en numéraire, pour environ 22 M€, cette société de 's-Hertogenbosch fondée par Nicola Bonzanni, dont le logiciel automatise l'analyse des données de séquençage des répertoires d'anticorps et classe les candidats par apprentissage automatique ; l'opération est bouclée le jour même. Le spécialiste de la simulation physique relie ainsi la découverte amont des biologiques à son outil d'optimisation LiveDesign for Biologics : un signal que la consolidation des briques logicielles de l'IA appliquée aux anticorps a commencé, avec un prix qui reste modeste pour une plateforme européenne.",
+    "sector": "IA drug discovery",
+    "url": "https://www.stocktitan.net/news/SDGR/schrodinger-acquires-enpicom-to-establish-end-to-end-computational-siuhbpu7x8k1.html"
   },
   "brefsEurope": [
     {
-      "company": "BioArctic",
-      "place": "Stockholm",
-      "sector": "Neurosciences",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "company": "Pharming",
+      "place": "Leyde",
+      "sector": "Immunologie",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "L'anticorps anti-alpha-synucléine exidavnemab de BioArctic franchit la phase 2a EXIST dans Parkinson et l'atrophie multisystématisée",
-      "summary": "Chez 38 patients randomisés 2:1 contre placebo, aucun événement indésirable grave lié au traitement, une demi-vie sérique d'environ 32 jours et un ratio d'exposition LCR/sérum de 0,4 %, que la société juge supérieur à la moyenne des anticorps. Deux phases 2b doivent démarrer au premier semestre 2027, l'une dans les troubles cognitifs liés à Parkinson ou à la démence à corps de Lewy, l'autre dans l'AMS.",
-      "url": "https://nordiclifescience.org/bioarctics-parkinsons-antibody-passes-phase-2a-safety-study/"
+      "title": "Pharming suspend la production de Ruconest après l'échec d'un test de remplissage stérile chez son façonnier et prévient la FDA d'une rupture possible",
+      "summary": "Un test de simulation aseptique (media fill) a échoué chez le sous-traitant chargé du remplissage ; la production ne reprendra qu'après correction de la cause et requalification du procédé, et le stock ne couvre le marché américain que jusqu'à mi-décembre. Ruconest pèse environ 80 % du chiffre d'affaires (93,8 M$ au troisième trimestre) : l'action a perdu 14,6 % à Amsterdam.",
+      "url": "https://www.biospace.com/drug-delivery/pharming-pauses-ruconest-production-over-fill-finish-issue-threatening-us-supply"
     },
     {
-      "company": "Alzinova",
-      "place": "Göteborg",
+      "company": "Bayer",
+      "place": "Leverkusen",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "reimbursement",
+      "strength": 3,
+      "title": "Bayer retire Kerendia du marché allemand à la mi-décembre, faute d'un prix jugé économiquement acceptable",
+      "summary": "En octobre, le G-BA n'a reconnu aucun bénéfice ajouté à la finérénone dans l'insuffisance cardiaque à fraction d'éjection ≥ 40 % ; or le système AMNOG fixe un prix unique pour toutes les indications, ce qui tire aussi vers le bas le remboursement dans la maladie rénale chronique. Un signal pour toute biotech européenne qui vise l'Allemagne, dont les prix servent de référence à d'autres pays.",
+      "url": "https://pharmaphorum.com/news/bayer-pulls-kerendia-germany-over-pricing-regime"
+    },
+    {
+      "company": "Xbrane Biopharma",
+      "place": "Solna",
+      "sector": "Biotech",
+      "pillar": "marche",
+      "signalType": "early_partnership",
+      "strength": 3,
+      "title": "Xbrane confie à Hong Kong Yongtao Pharmaceutical la licence exclusive de Ximluci, son biosimilaire du ranibizumab, en Grande Chine",
+      "summary": "Yongtao finance enregistrement, accès au marché et commercialisation en Chine continentale, à Hong Kong, Macao et Taïwan, Xbrane gardant la fabrication ; 2 M$ d'upfront si l'agence chinoise NMPA n'exige pas d'étude locale, aucun sinon, et partage des profits dans les deux cas. Réponse de la NMPA attendue au premier trimestre 2027, dépôt visé au deuxième trimestre.",
+      "url": "https://nordiclifescience.org/xbrane-licenses-ximluci-to-yongtao-in-greater-china/"
+    },
+    {
+      "company": "Valneva",
+      "place": "Saint-Herblain",
       "sector": "Vaccins",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 2,
-      "title": "Alzinova libère le lot GMP de son vaccin anti-Alzheimer ALZ-101 pour la phase 2a ADVANCE",
-      "summary": "Le lot de produit fini a passé les tests de libération qualité selon les BPF, et le procédé a été optimisé pour fournir les volumes d'une phase 2. Le vaccin thérapeutique, qui cible les oligomères toxiques de bêta-amyloïde, doit recruter son premier participant atteint d'Alzheimer précoce vers le tournant 2026/2027.",
-      "url": "https://nordiclifescience.org/alzinova-completes-quality-control-of-alz-101-batch-for-phase-2a-study/"
+      "title": "Valneva reporte le prochain essai de son vaccin anti-Shigella S4V2 en attendant 143 M$ de paiements de Pfizer liés au vaccin contre la maladie de Lyme",
+      "summary": "Une nouvelle phase 2 doit optimiser doses et calendrier après deux essais encourageants mais pas assez homogènes ; elle attendra les progrès réglementaires de LB6V, dont les trois prochains jalons Pfizer dépendent des premières ventes en Europe et aux États-Unis. La trésorerie est tombée à 85,2 M€ fin septembre, et LimmaTech (désormais chez Lilly) peut reprendre les droits dans les pays à revenu faible ou intermédiaire faute de partenaire de santé mondiale à l'issue de la phase 2.",
+      "url": "https://european-biotechnology.com/latest-news/valneva-delays-next-shigella-trial-as-it-awaits-143m-in-lyme-vaccine-payments-from-pfizer/"
     },
     {
-      "company": "Peptone",
-      "place": "Bellinzona",
+      "company": "Zelluna",
+      "place": "Oslo",
+      "sector": "Thérapie cellulaire",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "Zelluna propose Adrian Woolfson (ex-Sangamo, fondateur de Replay) comme président et Nerida Scott (ex-J&J Innovation EMEA) au board",
+      "summary": "La biotech norvégienne développe des cellules NK allogéniques équipées d'un récepteur de lymphocyte T (TCR-NK), dont ZI-MA4-1 contre MAGE-A4 dans les tumeurs solides. Une assemblée générale extraordinaire du 18 décembre doit entériner l'arrivée de deux profils rompus au business development, le cofondateur Anders Tuv restant administrateur.",
+      "url": "https://www.biospace.com/press-releases/zelluna-asa-notice-of-egm-international-biopharma-executives-adrian-woolfson-and-nerida-scott-proposed-as-new-chair-and-board-member-to-further-strengthen-the-board"
+    },
+    {
+      "company": "Bayer",
+      "place": "Leverkusen",
       "sector": "Oncologie",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Peptone recrute Deepak Sampath (ex-Ultragenyx, Genentech) comme CSO et lance les études précliniques réglementaires de PEP-5089",
-      "summary": "Ancien responsable de la recherche d'Ultragenyx, ayant contribué au venetoclax, Deepak Sampath revendique 15 IND déposés. PEP-5089, petite molécule orale découverte par les plateformes biophysique et IA de Peptone, se lie au domaine N-terminal désordonné du récepteur aux androgènes et reste active contre le variant AR-V7, moteur des résistances dans le cancer de la prostate : un candidat passé du concept à la nomination en 18 mois, désormais en route vers la phase I.",
-      "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html"
-    },
-    {
-      "company": "AlzeCure Pharma",
-      "place": "Huddinge",
-      "sector": "Neurosciences",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "AlzeCure Pharma confirme son cofondateur Johan Sandin comme CEO et confie la présidence à Janet Hoogstraate",
-      "summary": "Directeur général par intérim depuis le 27 octobre, l'ancien CSO est titularisé ; le président sortant Eggert Mörling devient Chief Business Officer et Janet Hoogstraate, CEO de NorthX Biologics et ex-AstraZeneca, prend la présidence. Une équipe taillée pour les accords : la plateforme Alzstatin est licenciée à Eli Lilly, NeuroRestore à QuantumCell, et la plateforme anti-douleur Painless cherche preneur.",
-      "url": "https://mfn.se/a/alzecure-pharma/alzecure-pharma-appoints-johan-sandin-as-permanent-ceo-strengthens-its-commercial-organization-and-elects-janet-hoogstraate-as-new-chair-of-the-board"
-    },
-    {
-      "company": "Herantis Pharma",
-      "place": "Espoo",
-      "sector": "Neurosciences",
       "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "Herantis Pharma lève 15 M€ par placement privé pour la phase 2 de HER-096 dans Parkinson",
-      "summary": "Placement à 1,20 € par action (décote d'environ 14 %), Danske Bank comme teneur de livre unique, avec un engagement de garantie de Joensuun Kauppa ja Kone et la participation de l'European Innovation Council ; l'essentiel (14,8 M€) attend le feu vert d'une assemblée générale extraordinaire. S'y ajoute une subvention Horizon Europe de 8 M€ pour la phase 2 du candidat contre Parkinson.",
-      "url": "https://mfn.se/ind/a/herantis-pharma/inside-information-herantis-pharma-announces-the-results-of-its-directed-share-issue-raising-eur-15-million-e1ee2dd0"
+      "signalType": "early_partnership",
+      "strength": 4,
+      "title": "Bayer verse 150 M$ d'upfront au chinois Hansoh pour HS-20122, ADC bispécifique EGFR × c-MET en phase 1, dans un accord pouvant atteindre 3,25 Md$",
+      "summary": "Licence mondiale exclusive hors Chine continentale, Hong Kong, Macao et Taïwan, avec jusqu'à 3,1 Md$ de jalons et des redevances, sous réserve du feu vert antitrust ; première indication visée, le cancer du poumon non à petites cellules. Un comparable : les grands laboratoires européens continuent de se fournir en ADC précoces en Chine plutôt qu'auprès de biotechs du continent.",
+      "url": "https://european-biotechnology.com/latest-news/bayer-taps-china-again-with-up-to-3-25b-oncology-deal-with-hansoh/"
     },
     {
-      "company": "Infant Bacterial Therapeutics",
-      "place": "Stockholm",
+      "company": "Fluicell",
+      "place": "Mölndal",
       "sector": "Biotech",
       "pillar": "financement",
       "signalType": "funding_round",
-      "strength": 3,
-      "title": "Infant Bacterial Therapeutics prépare une augmentation de capital de 154 MSEK avant de déposer IBP-9414 à l'EMA",
-      "summary": "Souscrite à 44 % par des actionnaires dont le fonds de pension AP4, l'opération doit financer la société jusqu'en 2027. IBP-9414, destiné à réduire la mortalité des grands prématurés, vise à devenir le premier produit bactérien vivant approuvé au monde : demande d'AMM à l'EMA avant fin 2026 et dossier BLA complet auprès de la FDA au premier semestre 2027.",
-      "url": "https://nordiclifescience.org/ibt-plans-sek-154-million-rights-issue-ahead-of-ibp-9414-launch/"
+      "strength": 2,
+      "title": "Fluicell lance une émission de droits de 13,7 MSEK, entièrement garantie, pour commercialiser sa plateforme de bio-impression Nexocyte",
+      "summary": "Engagements de souscription d'environ 34 % (président, directeur général et actionnaires) et garantie d'Aqurat pour le reste ; souscription du 7 au 21 décembre. Le produit net, estimé à 11,3 MSEK, financera la commercialisation de modèles de tissu cardiaque assistés par IA pour le criblage de médicaments et les collaborations dans le diabète de type 1.",
+      "url": "https://mfn.se/a/fluicell/fluicell-genomfor-fullt-garanterad-foretradesemission-om-cirka-13-7-msek-for-att-accelerera-kommersialiseringen-av-nexocyte-inom-fler-marknadssegment"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Korro Bio",
-      "place": "Cambridge (Massachusetts)",
-      "sector": "ARN",
+      "company": "Cogent Biosciences",
+      "place": "Waltham",
+      "sector": "Oncologie",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "La FDA accorde la désignation orpheline à KRRO-121, l'éditeur d'ARN de Korro Bio, dans les troubles du cycle de l'urée",
-      "summary": "L'oligonucléotide conjugué GalNAc recrute l'enzyme ADAR du foie pour modifier une seule lettre de l'ARN et produire une glutamine synthétase résistante à la dégradation ; la désignation couvre aussi l'encéphalopathie hépatique. Les premiers patients de la phase 1/2 ANCHOR sont attendus au premier semestre 2027 : un repère pour les acteurs européens de l'édition d'ARN.",
-      "url": "https://www.techtimes.com/articles/331430/20261124/rna-editing-drug-krro-121-wins-fda-orphan-status-before-any-patient-ammonia-disorder-dosed.htm"
+      "strength": 5,
+      "title": "La FDA approuve Ekitna (bezuclastinib) de Cogent avec le sunitinib dans les tumeurs stromales gastro-intestinales après l'imatinib",
+      "summary": "Dans l'essai PEAK, l'association a porté la survie sans progression médiane à 16,5 mois contre 9,2 mois sous sunitinib seul (risque réduit de 50 %), avec 46 % de réponses contre 26 %. Premier médicament de Cogent, il ouvre la deuxième ligne des GIST, où GSK prépare son inhibiteur de KIT velzatinib, en phase 3.",
+      "url": "https://pharmaphorum.com/news/cogent-gets-its-first-drug-approval-gist-drug-ekitna"
     }
   ],
   "word": {
-    "term": "IDP",
-    "full": "Intrinsically Disordered Protein",
-    "fr": "Protéine intrinsèquement désordonnée",
-    "field": "Chimie médicinale",
-    "definition": "Une protéine (ou une région de protéine) qui n'adopte pas de forme 3D fixe et change sans cesse de conformation, ce qui l'a longtemps rendue « non droguable » faute de poche stable où loger un médicament.",
+    "term": "AIT",
+    "full": "Allergen Immunotherapy (immunothérapie allergénique)",
+    "fr": "Désensibilisation à un allergène",
+    "field": "Immunologie / allergologie",
+    "definition": "Un traitement qui administre à petites doses croissantes l'allergène responsable (pollen, arachide, acariens…) pour rééduquer le système immunitaire, afin qu'il cesse de réagir violemment au lieu de seulement masquer les symptômes.",
     "parts": [
-      { "label": "Région désordonnée", "role": "la cible mouvante" },
-      { "label": "Ensemble de conformations", "role": "la carte des formes possibles" },
-      { "label": "Petite molécule", "role": "le verrou sur un état transitoire" }
+      { "label": "Allergène", "role": "la cible, naturelle ou recombinante, parfois modifiée pour être moins réactive" },
+      { "label": "Voie d'administration", "role": "sous-cutanée, sublinguale, orale ou cutanée (patch)" },
+      { "label": "Lymphocytes T régulateurs", "role": "les chefs d'orchestre de la tolérance (IL-10, TGF-β)" }
     ],
     "how": [
-      { "n": "1", "h": "Modéliser l'ensemble", "t": "On décrit la protéine comme un nuage de formes changeantes, par biophysique et modèles d'IA, plutôt que comme une structure unique." },
-      { "n": "2", "h": "Saisir l'instant", "t": "On repère les sites de liaison qui n'existent que brièvement, par exemple quand plusieurs copies de la protéine s'assemblent en petits oligomères." },
-      { "n": "3", "h": "Bloquer la fonction", "t": "La molécule se fixe sur cet état et neutralise la protéine, comme le domaine N-terminal du récepteur aux androgènes dans le cancer de la prostate." }
+      { "n": "1", "h": "Désensibilisation précoce", "t": "Dès les premières doses, les mastocytes et basophiles libèrent moins d'histamine, avant même que les anticorps ne changent." },
+      { "n": "2", "h": "Tolérance", "t": "Des lymphocytes T régulateurs spécifiques de l'allergène apparaissent et sécrètent IL-10 et TGF-β, qui freinent la réponse allergique." },
+      { "n": "3", "h": "Anticorps bloquants", "t": "Les IgG4 spécifiques montent et captent l'allergène avant qu'il n'atteigne les IgE, dont le niveau baisse lentement sur des mois ou des années." }
     ],
-    "why": "Environ un tiers du protéome humain serait désordonné, dont des facteurs de transcription clés du cancer et des protéines de la neurodégénérescence comme l'alpha-synucléine : c'est un réservoir de cibles first-in-class que l'IA et la biophysique rendent enfin abordables, avec des tours seed et des candidats qui atteignent les études précliniques réglementaires.",
+    "why": "C'est le seul traitement capable de modifier le cours de l'allergie, mais il reste contraignant (des années de prises régulières) et peut déclencher des réactions avec les extraits naturels. Les allergènes recombinants modifiés, les peptides et les patchs promettent des cures plus courtes et plus sûres : Desentum vient de montrer un effet durable après dix semaines, DBV attend la FDA pour son patch anti-arachide. Un marché de niche longtemps délaissé par les VC, où une preuve de durabilité peut déclencher licence ou M&A.",
     "startups": [
-      { "name": "Peptone", "use": "Petites molécules contre les protéines désordonnées ; PEP-5089, inhibiteur du domaine N-terminal du récepteur aux androgènes, en études précliniques réglementaires dans la prostate", "place": "Bellinzona (Suisse)" },
-      { "name": "Nuage Therapeutics", "use": "Spin-off de l'IRB Barcelona qui cible les IDP via leurs oligomères transitoires ; priorité au cancer du poumon à petites cellules et aux cancers digestifs", "place": "Barcelone (Espagne)" },
-      { "name": "Topos Bio", "use": "Seed de 10,5 M$ (Boldstart, Threshold, Neo) ; modèle de fondation Topos-1 pour les protéines désordonnées et collaboration avec les Gladstone Institutes sur l'alpha-synucléine", "place": "États-Unis" }
+      { "name": "Desentum", "use": "Allergène de bouleau recombinant modifié DM-101PX : phase 2 BASIT positive en novembre 2026 après 10 semaines de traitement ; programmes arachide et chat en préclinique", "place": "Espoo, Finlande" },
+      { "name": "Aravax", "use": "PVX108, mélange de peptides reproduisant les épitopes T des allergènes d'arachide, sans protéine entière ; phase 2 positive chez l'enfant et désignation Fast Track de la FDA", "place": "Melbourne, Australie" },
+      { "name": "DBV Technologies", "use": "Immunothérapie épicutanée par patch Viaskin Peanut : BLA déposé à la FDA en septembre 2026 pour les enfants de 4 à 7 ans, après la phase 3 VITESSE", "place": "Châtillon, France" }
     ],
     "sources": [
-      { "publisher": "IRB Barcelona", "title": "The key to attacking 'undruggable' proteins: IRB Barcelona reveals a breakthrough drug mechanism", "url": "https://www.irbbarcelona.org/en/news/scientific/key-attacking-undruggable-proteins-irb-barcelona-reveals-breakthrough-drug" },
-      { "publisher": "HLTH", "title": "Topos Bio Raises $10.5M Seed to Target 'Undruggable' Proteins in Alzheimer's and Cancer", "url": "https://hlth.com/insights/news/topos-bio-raises-10-5m-seed-to-target-undruggable-proteins-in-alzheimer-s-and-cancer-2026-01-09" },
-      { "publisher": "PR Newswire", "title": "Peptone Appoints Deepak Sampath, Ph.D., as Chief Scientific Officer and Advances PEP-5089, a First-in-Class AI- and Biophysics-Developed Drug Candidate for Prostate Cancer, into IND-Enabling Development", "url": "https://www.prnewswire.com/news-releases/peptone-appoints-deepak-sampath-phd-as-chief-scientific-officer-and-advances-pep-5089-a-first-in-class-ai--and-biophysics-developed-drug-candidate-for-prostate-cancer-into-ind-enabling-development-302948180.html" }
+      { "publisher": "Clinical and Translational Allergy", "title": "Mechanisms of allergen-specific immunotherapy", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3395833/" },
+      { "publisher": "World Allergy Organization Journal", "title": "Mechanisms of allergen-specific immunotherapy and immune tolerance to allergens", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4430874/" },
+      { "publisher": "Clinical Trials Arena", "title": "Desentum's Phase II birch allergy trial meets primary endpoint", "url": "https://www.clinicaltrialsarena.com/news/desentums-phase-ii-birch-allergy-trial-meets-primary-endpoint/" }
     ]
   }
 }

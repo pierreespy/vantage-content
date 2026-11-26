@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-26",
   "words": [
     {
+      "term": "AIT",
+      "full": "Allergen Immunotherapy (immunothérapie allergénique)",
+      "fr": "Désensibilisation à un allergène",
+      "field": "Immunologie / allergologie",
+      "definition": "Un traitement qui administre à petites doses croissantes l'allergène responsable (pollen, arachide, acariens…) pour rééduquer le système immunitaire, afin qu'il cesse de réagir violemment au lieu de seulement masquer les symptômes.",
+      "parts": [
+        {
+          "label": "Allergène",
+          "role": "la cible, naturelle ou recombinante, parfois modifiée pour être moins réactive"
+        },
+        {
+          "label": "Voie d'administration",
+          "role": "sous-cutanée, sublinguale, orale ou cutanée (patch)"
+        },
+        {
+          "label": "Lymphocytes T régulateurs",
+          "role": "les chefs d'orchestre de la tolérance (IL-10, TGF-β)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Désensibilisation précoce",
+          "t": "Dès les premières doses, les mastocytes et basophiles libèrent moins d'histamine, avant même que les anticorps ne changent."
+        },
+        {
+          "n": "2",
+          "h": "Tolérance",
+          "t": "Des lymphocytes T régulateurs spécifiques de l'allergène apparaissent et sécrètent IL-10 et TGF-β, qui freinent la réponse allergique."
+        },
+        {
+          "n": "3",
+          "h": "Anticorps bloquants",
+          "t": "Les IgG4 spécifiques montent et captent l'allergène avant qu'il n'atteigne les IgE, dont le niveau baisse lentement sur des mois ou des années."
+        }
+      ],
+      "why": "C'est le seul traitement capable de modifier le cours de l'allergie, mais il reste contraignant (des années de prises régulières) et peut déclencher des réactions avec les extraits naturels. Les allergènes recombinants modifiés, les peptides et les patchs promettent des cures plus courtes et plus sûres : Desentum vient de montrer un effet durable après dix semaines, DBV attend la FDA pour son patch anti-arachide. Un marché de niche longtemps délaissé par les VC, où une preuve de durabilité peut déclencher licence ou M&A.",
+      "startups": [
+        {
+          "name": "Desentum",
+          "use": "Allergène de bouleau recombinant modifié DM-101PX : phase 2 BASIT positive en novembre 2026 après 10 semaines de traitement ; programmes arachide et chat en préclinique",
+          "place": "Espoo, Finlande"
+        },
+        {
+          "name": "Aravax",
+          "use": "PVX108, mélange de peptides reproduisant les épitopes T des allergènes d'arachide, sans protéine entière ; phase 2 positive chez l'enfant et désignation Fast Track de la FDA",
+          "place": "Melbourne, Australie"
+        },
+        {
+          "name": "DBV Technologies",
+          "use": "Immunothérapie épicutanée par patch Viaskin Peanut : BLA déposé à la FDA en septembre 2026 pour les enfants de 4 à 7 ans, après la phase 3 VITESSE",
+          "place": "Châtillon, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Clinical and Translational Allergy",
+          "title": "Mechanisms of allergen-specific immunotherapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3395833/"
+        },
+        {
+          "publisher": "World Allergy Organization Journal",
+          "title": "Mechanisms of allergen-specific immunotherapy and immune tolerance to allergens",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4430874/"
+        },
+        {
+          "publisher": "Clinical Trials Arena",
+          "title": "Desentum's Phase II birch allergy trial meets primary endpoint",
+          "url": "https://www.clinicaltrialsarena.com/news/desentums-phase-ii-birch-allergy-trial-meets-primary-endpoint/"
+        }
+      ],
+      "date": "2026-11-26",
+      "dateLong": "26 nov. 2026"
+    },
+    {
       "term": "Leadless Pacemaker",
       "full": "Leadless Pacemaker (stimulateur cardiaque sans sonde)",
       "fr": "Pacemaker sans sonde",

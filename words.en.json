@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-26",
   "words": [
     {
+      "term": "AIT",
+      "full": "Allergen Immunotherapy",
+      "fr": "Allergen desensitization",
+      "field": "Immunology / allergy",
+      "definition": "A treatment that gives small, rising doses of the offending allergen (pollen, peanut, dust mites…) to retrain the immune system so it stops overreacting, rather than merely masking symptoms.",
+      "parts": [
+        {
+          "label": "Allergen",
+          "role": "the target, natural or recombinant, sometimes modified to be less reactive"
+        },
+        {
+          "label": "Route of administration",
+          "role": "subcutaneous, sublingual, oral or skin (patch)"
+        },
+        {
+          "label": "Regulatory T cells",
+          "role": "the conductors of tolerance (IL-10, TGF-β)"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Early desensitization",
+          "t": "From the first doses, mast cells and basophils release less histamine, even before antibodies change."
+        },
+        {
+          "n": "2",
+          "h": "Tolerance",
+          "t": "Allergen-specific regulatory T cells emerge and secrete IL-10 and TGF-β, which dampen the allergic response."
+        },
+        {
+          "n": "3",
+          "h": "Blocking antibodies",
+          "t": "Specific IgG4 rises and captures the allergen before it reaches IgE, whose levels decline slowly over months or years."
+        }
+      ],
+      "why": "It is the only treatment able to change the course of allergy, but it remains demanding (years of regular dosing) and can trigger reactions with natural extracts. Modified recombinant allergens, peptides and patches promise shorter, safer courses: Desentum just showed a lasting effect after ten weeks, and DBV is awaiting the FDA on its peanut patch. A niche long overlooked by VCs, where proof of durability can trigger licensing or M&A.",
+      "startups": [
+        {
+          "name": "Desentum",
+          "use": "Modified recombinant birch allergen DM-101PX: positive Phase 2 BASIT in November 2026 after 10 weeks of treatment; peanut and cat programs in preclinical",
+          "place": "Espoo, Finland"
+        },
+        {
+          "name": "Aravax",
+          "use": "PVX108, a peptide mix mimicking the T-cell epitopes of peanut allergens, with no whole protein; positive Phase 2 in children and FDA Fast Track designation",
+          "place": "Melbourne, Australia"
+        },
+        {
+          "name": "DBV Technologies",
+          "use": "Epicutaneous immunotherapy with the Viaskin Peanut patch: BLA filed with the FDA in September 2026 for children aged 4 to 7, after the Phase 3 VITESSE trial",
+          "place": "Châtillon, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Clinical and Translational Allergy",
+          "title": "Mechanisms of allergen-specific immunotherapy",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3395833/"
+        },
+        {
+          "publisher": "World Allergy Organization Journal",
+          "title": "Mechanisms of allergen-specific immunotherapy and immune tolerance to allergens",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4430874/"
+        },
+        {
+          "publisher": "Clinical Trials Arena",
+          "title": "Desentum's Phase II birch allergy trial meets primary endpoint",
+          "url": "https://www.clinicaltrialsarena.com/news/desentums-phase-ii-birch-allergy-trial-meets-primary-endpoint/"
+        }
+      ],
+      "date": "2026-11-26",
+      "dateLong": "Nov 26, 2026"
+    },
+    {
       "term": "Leadless Pacemaker",
       "full": "Leadless Pacemaker",
       "fr": "Leadless pacemaker",
