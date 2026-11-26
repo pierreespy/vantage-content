@@ -1,6 +1,86 @@
 {
-  "generatedAt": "2026-11-25",
+  "generatedAt": "2026-11-26",
   "words": [
+    {
+      "term": "Leadless Pacemaker",
+      "full": "Leadless Pacemaker",
+      "fr": "Leadless pacemaker",
+      "field": "Cardiac rhythm · Implantable devices",
+      "definition": "A miniature pacemaker, about the size of a large capsule, placed directly inside the heart by catheter from the femoral vein, with no pocket under the skin and no wire (lead) between the two — the two main sources of complications of conventional pacemakers.",
+      "parts": [
+        {
+          "label": "Capsule",
+          "role": "the complete pacemaker (electronics, electrode, power) anchored in the ventricle wall"
+        },
+        {
+          "label": "Power source",
+          "role": "a sealed battery today, tomorrow a harvester of the heart's own energy"
+        },
+        {
+          "label": "Delivery catheter",
+          "role": "the tool that brings the capsule up the femoral vein and anchors it"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Implant",
+          "t": "The electrophysiologist advances a catheter from the groin into the right ventricle and anchors the capsule there, with no chest incision or subcutaneous pocket."
+        },
+        {
+          "n": "2",
+          "h": "Pacing",
+          "t": "The capsule senses the heart rhythm and delivers an electrical pulse when the heart is too slow; it is programmed and monitored remotely, wirelessly."
+        },
+        {
+          "n": "3",
+          "h": "Power",
+          "t": "In current models the battery eventually runs out; new generations harvest energy from the heart's motion (piezoelectric, at Cairdac) or from its electrical activity (at Celtro) to do away with it."
+        }
+      ],
+      "why": "Leadless pacemakers remove lead and pocket complications, but the leaders (Medtronic Micra, Abbott Aveir) remain limited by their battery and by the difficulty of implanting several over a lifetime. Innovation is therefore shifting to energy autonomy, multi-chamber pacing and wireless resynchronisation: patentable technology building blocks carried by small European and US companies that are natural targets for the cardiac rhythm giants — Cairdac's first patients in Prague are today's milestone.",
+      "startups": [
+        {
+          "name": "Cairdac",
+          "use": "Develops ALPS, a leadless pacemaker powered by a piezoelectric harvester of cardiac motion; first patients implanted in Prague (ASCEND study), €17M Series A",
+          "place": "Antony, France"
+        },
+        {
+          "name": "Celtro",
+          "use": "Designs a battery-free, leadless pacemaker whose chip harvests energy from the heart's electrical activity through multiple electrodes; still preclinical",
+          "place": "Dresden, Germany"
+        },
+        {
+          "name": "EBR Systems",
+          "use": "Its WiSE CRT system, FDA-approved in April 2025, paces the left ventricle without a lead via an ultrasound-powered receiver electrode, alongside an existing pacemaker",
+          "place": "Sunnyvale, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "EP Europace (PMC)",
+          "title": "A novel leadless pacemaker powered by a piezoelectric energy harvester",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13300453/"
+        },
+        {
+          "publisher": "FDA",
+          "title": "Premarket Approval (PMA) P240028 — WiSE CRT System, EBR Systems",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240028"
+        },
+        {
+          "publisher": "Celtro",
+          "title": "Energy harvesting from biological cells",
+          "url": "https://celtro.de/"
+        },
+        {
+          "publisher": "BioSpace",
+          "title": "Cairdac Announces First-in-Human Implantations of Its Autonomous Leadless Pacemaker",
+          "url": "https://www.biospace.com/press-releases/cairdac-announces-first-in-human-implantations-of-its-autonomous-leadless-pacemaker"
+        }
+      ],
+      "date": "2026-11-26",
+      "dateLong": "Nov 26, 2026"
+    },
     {
       "term": "Agentic AI",
       "full": "Agentic AI",

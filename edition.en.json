@@ -1,204 +1,203 @@
 {
-  "dateLong": "Nov 25, 2026",
+  "dateLong": "Nov 26, 2026",
   "ticker": [
     {
-      "company": "TRICARES",
-      "amount": "Pivotal ✓",
+      "company": "CAIRDAC",
+      "amount": "1st patient",
       "kind": "tech"
     },
     {
-      "company": "INNOVHEART",
-      "amount": "30-day ✓",
-      "kind": "tech"
-    },
-    {
-      "company": "CGI · HUS",
-      "amount": "CE IIb",
+      "company": "SIEMENS HEALTHINEERS",
+      "amount": "De Novo",
       "kind": "reg"
     },
     {
-      "company": "HERAEUS",
-      "amount": "Recall",
-      "kind": "reg"
-    },
-    {
-      "company": "MEDICAL GROUP",
-      "amount": "Riverside",
-      "kind": "mna"
-    },
-    {
-      "company": "OSE",
-      "amount": "£43M",
+      "company": "TAGOMICS",
+      "amount": "£10M",
       "kind": "lev"
+    },
+    {
+      "company": "BRAINOMIX",
+      "amount": "146 patients",
+      "kind": "tech"
+    },
+    {
+      "company": "ADENOCYTE",
+      "amount": "$3.3M",
+      "kind": "lev"
+    },
+    {
+      "company": "GENTUITY",
+      "amount": "New CEO",
+      "kind": "new"
     }
   ],
   "lead": {
-    "kicker": "Pivotal trial · Structural heart",
-    "title": "TRiCares meets the primary endpoint of its European TRICURE pivotal trial: the Topaz tricuspid valve targets CE mark in 2027",
-    "deck": "Presented on Nov. 23 in a Top Late-Breaking Trials session at PCR London Valves, 30-day data from TRICURE EU (77 patients with severe tricuspid regurgitation, 24 sites in six European countries, principal investigator Jörg Hausleiter, LMU Munich) show the primary endpoint met in 98% of patients — regurgitation reduced by at least one grade and no worse than moderate — with a 15.6% major adverse event rate, 5% new pacemakers and a 32-minute average implant time. For this privately held French-German medtech (Andera, Wellington Partners, Bayern Kapital, Karista, BioMed Partners…), it is the dataset meant to support a CE mark filing and a European launch next year, while the US IDE trial enrolls at up to 75 sites.",
-    "company": "TRiCares",
+    "kicker": "First-in-human · Cardiac rhythm",
+    "title": "Cairdac implants its first patients with ALPS, a leadless pacemaker that draws its energy from the heartbeat",
+    "deck": "Announced on November 25, the first implants of the ASCEND study were performed at Motol & Homolka University Hospital in Prague by Profs. Petr Neužil and Vivek Reddy (Mount Sinai): the still-investigational device is powered by a piezoelectric energy harvester that turns the heart's motion into electricity, instead of relying on a battery whose depletion today forces the implant to be replaced. For this privately held medtech from Antony, France (a €17M Series A led in 2022 by Mérieux Equity Partners, Supernova Invest and Bpifrance), it marks the decisive step from sheep — 3 months of 100% pacing published in Europace — to humans, in a global pacemaker market estimated at $5.5B.",
+    "company": "Cairdac",
+    "stage": "Series A",
     "sector": "Cardio",
     "pillar": "innovation",
     "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/11/23/3408224/0/en/tricares-presents-positive-topaz-primary-endpoints-from-the-tricure-eu-pivotal-study-at-pcr-london-valves.html"
+    "strength": 3,
+    "url": "https://www.biospace.com/press-releases/cairdac-announces-first-in-human-implantations-of-its-autonomous-leadless-pacemaker"
   },
   "milestone": {
-    "company": "InnovHeart",
-    "milestone": "30-day results",
-    "title": "InnovHeart presents first European results for Saturn, its transseptal mitral valve, at PCR London Valves",
-    "summary": "In the CASSINI-EU study, presented by Milan surgeon Paolo Denti, 15 high-risk patients with functional mitral regurgitation ≥3+ were treated: 93.3% technical success (one surgical conversion after a delivery-system component failure), MR ≤1+ in all 14 patients evaluated at 30 days, and no cardiovascular death, disabling stroke or reintervention. The KCCQ quality-of-life score rose from 42.9 to 70.1.",
-    "why": "Transseptal mitral replacement remains structural heart's holy grail, held back by the risk of left ventricular outflow tract obstruction: Saturn's low-profile system, which captures the anterior leaflet, targets precisely that bottleneck. For a privately held Italian-American company still at feasibility stage, these data open the door to larger studies.",
-    "place": "Colleretto Giacosa (Italy)",
-    "sector": "Cardio",
-    "signalType": "clinical_update",
-    "url": "https://solaci.org/en/2026/11/24/london-valves-2026-cassini-eu-what-does-saturn-bring-to-transseptal-mitral-valve-replacement/"
+    "company": "Siemens Healthineers",
+    "milestone": "FDA De Novo",
+    "title": "Siemens Healthineers wins the first FDA authorization for a neurofilament light chain (NfL) blood test in multiple sclerosis",
+    "summary": "On November 23, the FDA granted De Novo authorization to the Atellica IM NfL assay, developed with Novartis: it measures a protein released into the blood when neurons are damaged, to help evaluate disease activity in adults aged 18 to 55 with relapsing-remitting multiple sclerosis, alongside clinical findings and MRI. The file draws notably on the Swiss MS Cohort (an NfL z-score above 1.5 roughly triples the odds of future activity) and a Swedish validation in 4,341 patients.",
+    "why": "It is the first time a blood biomarker of neuronal injury enters routine MS monitoring in the US: an automated, repeatable test that is cheaper than an MRI, creating a new reference regulatory category. The De Novo also opens a 510(k) path for followers — a signal for European startups in blood-based neurological diagnostics (Alzheimer's, stroke, concussion).",
+    "place": "Erlangen (Germany)",
+    "sector": "Diagnostics",
+    "signalType": "regulatory_milestone",
+    "url": "https://www.neurologylive.com/view/fda-grants-de-novo-authorization-first-neurofilament-light-chain-blood-test-ms"
+  },
+  "deal": {
+    "company": "Tagomics",
+    "amount": "£10M",
+    "round": "Seed (extension)",
+    "thesis": "The CVC arm of Spanish diagnostics group Werfen (We Venture Capital) co-leads with Calculus Capital, alongside Illumina Ventures, IQ Capital, Meltwind and Mercia: a syndicate of diagnostics strategics betting that liquid biopsy will monetise first with pharma (early blood-based detection of organ toxicity, patient stratification) before screening. Six big pharmas are already in early access: a path to revenue ahead of the clinical lung cancer test.",
+    "sector": "Diagnostics",
+    "url": "https://www.medicaldevice-network.com/news/tagomics-secures-advance-liquipath-platform/"
   },
   "brefsEurope": [
     {
-      "company": "CGI",
-      "place": "Helsinki",
-      "sector": "Imaging",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 4,
-      "title": "AI brain-bleed detection tool co-developed by CGI and Helsinki University Hospital certified Class IIb under MDR",
-      "summary": "CGI AI Head Analysis, built with HUS and Planmeca under neurosurgeon Miikka Korja, flags suspected spontaneous intracranial hemorrhages on head CT for physician review. With its MDR Class IIb certification announced Nov. 24, it can now be integrated directly into emergency imaging workflows — a rare case of hospital-born AI industrialized by an IT services group.",
-      "url": "https://www.prnewswire.com/news-releases/cgi-and-huss-ai-solution-certified-as-eu-mdr-medical-device-for-brain-hemorrhage-detection-302948683.html"
-    },
-    {
-      "company": "Heraeus Medevio",
-      "place": "Hanau",
-      "sector": "MedTech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Heraeus pulls nitinol vascular guidewires over hydrophilic coating detachment risk",
-      "summary": "The German component maker told customers to immediately stop using and distributing certain lots of Arrow, Navilyst and Spectrum guidewires: their hydrophilic coating can swell unevenly when hydrated with saline and detach, risking embolism. The FDA posted an early alert; no serious injuries or deaths had been reported as of Nov. 5 — a recall that hits the OEM brands Heraeus supplies.",
-      "url": "https://www.medtechdive.com/news/heraeus-pulls-vascular-guidewires-over-coating-detachment-risk/875585/"
-    },
-    {
-      "company": "Medical Group",
-      "place": "Saint-Priest",
-      "sector": "MedTech",
+      "company": "Tagomics",
+      "place": "Cambridge",
+      "sector": "Diagnostics",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
-      "title": "Riverside invests in Lyon-area contract manufacturer Medical Group, which teams up with Selenium Medical",
-      "summary": "The US firm takes a stake, off-market, in this medical device CDMO (surface treatment, hydroxyapatite coatings, cleanroom, sterile packaging), mainly serving orthopedics and dental, while a partnership with La Rochelle-based Selenium Medical creates a one-stop shop. It is Riverside's fifth healthcare deal in France, with a European acquisition program to follow.",
-      "url": "https://www.devicemed.fr/dossiers/actualites/riverside-investit-dans-medical-group-qui-noue-un-partenariat-avec-selenium-medical/55630"
+      "stage": "Seed",
+      "title": "Tagomics raises a £10M seed extension, co-led by Werfen's CVC, for its LiquiPath liquid biopsy",
+      "summary": "The platform combines epigenetics, cell-type atlases and deconvolution algorithms to identify which tissue circulating DNA comes from, in order to flag organ damage or drug toxicity early. The company, which has raised £19M in total, adds Anthony Vallance-Owen (We Venture Capital) and Robert Hornby (Mercia) to its board and is preparing the clinical evaluation of a lung cancer detection test.",
+      "url": "https://www.medicaldevice-network.com/news/tagomics-secures-advance-liquipath-platform/"
     },
     {
-      "company": "Oxford Science Enterprises",
+      "company": "Brainomix",
       "place": "Oxford",
-      "sector": "Fund",
-      "pillar": "naissances",
-      "signalType": "funding_round",
-      "strength": 3,
-      "title": "British Business Bank invests £43M in Oxford Science Enterprises, Oxford's spinout engine",
-      "summary": "It is the UK state bank's first investment in OSE, which turns University of Oxford research into startups (life sciences, healthtech, deeptech); the deal is meant to ease co-investment and give portfolio companies access to BBB's long-term capital. A signal for the university spinout pipeline — nearly six in ten European medical device startups come from it, according to AlbionVC.",
-      "url": "https://tech.eu/2026/11/23/bbb-invests-ps43m-in-oxford-university-spinout-backer/"
+      "sector": "Imaging",
+      "pillar": "innovation",
+      "signalType": "conference_abstract",
+      "strength": 1,
+      "title": "Brainomix shows a plain non-contrast CT predicts final infarct better than CT perfusion, ahead of RSNA",
+      "summary": "In a 146-patient multicenter retrospective study of reperfused patients (lead author Kambiz Nael, UCSF), Brainomix 360 Stroke biomarkers — hypodense core volume and edema-adjusted core via net water uptake — were more strongly associated with final infarct volume than conventional perfusion core estimates. An argument for triaging strokes on the baseline scan available everywhere; poster on December 2 in Chicago.",
+      "url": "https://www.prnewswire.com/news-releases/brainomix-to-present-new-research-on-advanced-stroke-imaging-biomarkers-at-rsna-2026-302949380.html"
+    },
+    {
+      "company": "Demant",
+      "place": "Copenhagen",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "Demant cuts its organic growth target to 5-7% a year and sees the global hearing aid market slowing in 2027",
+      "summary": "At its November 24 capital markets day, Oticon's parent lowered its medium-term target from 6-8% to 5-7%, reflecting the growing weight of its hearing care clinics, and expects the 2027 market at the low end of its 4-6% range, held back by the US managed care channel and no recovery in China — alongside at least DKK 3B of share buybacks. A comparable that cools audiology valuations.",
+      "url": "https://au.investing.com/news/stock-market-news/demant-cuts-longterm-growth-target-plans-dkk-3-billion-buyback-93CH-4792693"
     }
   ],
   "brefsIntl": [
     {
-      "company": "NEXTBIOMEDICAL",
-      "place": "Seoul",
-      "sector": "MedTech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
+      "company": "Gentuity",
+      "place": "Sudbury (Massachusetts)",
+      "sector": "Imaging",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
       "strength": 3,
-      "title": "NEXTBIOMEDICAL completes procedures for all 126 patients in its FDA pivotal knee embolization trial",
-      "summary": "The randomized RESORB trial compares genicular artery embolization using Nexsphere-F resorbable microspheres with corticosteroid injections in knee osteoarthritis; outcomes are assessed at 6 and 12 months, with an FDA filing aimed at 2028 approval. A comparable for musculoskeletal embolization, interventional radiology's new frontier.",
-      "url": "https://www.prnewswire.com/news-releases/nextbiomedical-completes-assigned-procedures-for-all-126-patients-in-us-fda-pivotal-trial-of-nexsphere-f-advances-us-commercialization-plans-302948829.html"
+      "title": "Gentuity names Desmond Adler CEO to accelerate its HF-OCT intravascular imaging",
+      "summary": "President since 2022 and formerly at Avedro (acquired by Glaukos) and LightLab Imaging (acquired by St. Jude Medical), he succeeds founder David Kolstad, who remains chairman. The company sells a 1.8F imaging catheter that captures 100 mm of vessel in about one second — an 'industrial exit' leadership profile in a segment dominated by Abbott and Philips.",
+      "url": "https://www.prnewswire.com/news-releases/gentuity-appoints-desmond-adler-as-president-and-ceo-positions-company-for-next-stage-of-growth-302948609.html"
     },
     {
-      "company": "Renerva",
-      "place": "Pittsburgh",
-      "sector": "Neurotech",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
-      "strength": 2,
-      "title": "Renerva completes 3-month follow-up in first-in-human study of its Terminus nerve cap",
-      "summary": "Made from porcine nerve extracellular matrix to prevent painful neuroma formation, the device was implanted in four patients at Ohio State University (IDE G250147) with no device-related adverse events; pain and disability trended favorably, in a very small, uncontrolled sample.",
-      "url": "https://www.prnewswire.com/news-releases/renerva-announces-completion-of-3-month-interim-follow-up-in-first-in-human-clinical-study-of-investigational-renerva-terminus-device-302949133.html"
+      "company": "Adenocyte",
+      "place": "Israel",
+      "sector": "Diagnostics",
+      "pillar": "financement",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Adenocyte wins up to NIS 13M ($3.3M) from the Israel Innovation Authority for early pancreatic cancer detection",
+      "summary": "Its LINFU platform uses low-intensity non-focused ultrasound to collect cells from the pancreatic duct for direct cytological testing. Already used in California, Florida and New York, the technology is set to be adopted by Shaare Zedek hospital in Jerusalem.",
+      "url": "https://www.medicaldevice-network.com/news/adenocyte-3m-grant-pancreatic-cancer-technology/"
     }
   ],
   "word": {
-    "term": "MDR Rule 11",
-    "full": "MDR Annex VIII, Classification Rule 11 (software classification rule)",
-    "fr": "Rule 11 of the EU Medical Device Regulation",
-    "field": "Regulatory · Medical device software",
-    "definition": "The EU MDR rule that sets a medical software's risk class by the severity of the decisions it informs: Class IIa by default, IIb if an error could cause serious deterioration of health or a surgical intervention, III if it could cause death.",
+    "term": "Leadless Pacemaker",
+    "full": "Leadless Pacemaker",
+    "fr": "Leadless pacemaker",
+    "field": "Cardiac rhythm · Implantable devices",
+    "definition": "A miniature pacemaker, about the size of a large capsule, placed directly inside the heart by catheter from the femoral vein, with no pocket under the skin and no wire (lead) between the two — the two main sources of complications of conventional pacemakers.",
     "parts": [
       {
-        "label": "Intended purpose",
-        "role": "what the software informs: diagnosis, therapy or monitoring"
+        "label": "Capsule",
+        "role": "the complete pacemaker (electronics, electrode, power) anchored in the ventricle wall"
       },
       {
-        "label": "Severity",
-        "role": "the impact of an error on the patient, which raises the class"
+        "label": "Power source",
+        "role": "a sealed battery today, tomorrow a harvester of the heart's own energy"
       },
       {
-        "label": "Notified body",
-        "role": "the mandatory auditor from Class IIa upward"
+        "label": "Delivery catheter",
+        "role": "the tool that brings the capsule up the femoral vein and anchors it"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Qualification",
-        "t": "The manufacturer first checks, using MDCG 2019-11 guidance, that its software has a medical purpose and falls under the MDR."
+        "h": "Implant",
+        "t": "The electrophysiologist advances a catheter from the groin into the right ventricle and anchors the capsule there, with no chest incision or subcutaneous pocket."
       },
       {
         "n": "2",
-        "h": "Classification",
-        "t": "It applies Rule 11: diagnostic support software is at least IIa; detecting a brain bleed or occlusion, where delay can be serious, pushes it to IIb."
+        "h": "Pacing",
+        "t": "The capsule senses the heart rhythm and delivers an electrical pulse when the heart is too slow; it is programmed and monitored remotely, wirelessly."
       },
       {
         "n": "3",
-        "h": "Certification",
-        "t": "A notified body audits the quality system and clinical documentation before issuing the certificate that allows CE marking."
+        "h": "Power",
+        "t": "In current models the battery eventually runs out; new generations harvest energy from the heart's motion (piezoelectric, at Cairdac) or from its electrical activity (at Celtro) to do away with it."
       }
     ],
-    "why": "Under the MDR, Rule 11 moved almost all medical software from Class I self-certification to notified-body audits: cost and delays that weigh on a medical-AI startup's funding plan. For a VC, the target class (IIa or IIb) sizes the clinical evidence required, the time to market and the barrier to entry against competitors — today's Class IIb certification for the CGI–Helsinki University Hospital tool is a case in point.",
+    "why": "Leadless pacemakers remove lead and pocket complications, but the leaders (Medtronic Micra, Abbott Aveir) remain limited by their battery and by the difficulty of implanting several over a lifetime. Innovation is therefore shifting to energy autonomy, multi-chamber pacing and wireless resynchronisation: patentable technology building blocks carried by small European and US companies that are natural targets for the cardiac rhythm giants — Cairdac's first patients in Prague are today's milestone.",
     "startups": [
       {
-        "name": "Avicenna.AI",
-        "use": "Its CINA CT triage algorithms (intracranial hemorrhage, large vessel occlusion, pulmonary embolism) are MDR-certified by BSI; partnered with Bracco for the FDA",
-        "place": "La Ciotat, France"
+        "name": "Cairdac",
+        "use": "Develops ALPS, a leadless pacemaker powered by a piezoelectric harvester of cardiac motion; first patients implanted in Prague (ASCEND study), €17M Series A",
+        "place": "Antony, France"
       },
       {
-        "name": "Methinks AI",
-        "use": "Its CE-marked Stroke Suite detects large vessel occlusions and hemorrhages on non-contrast CT; backed by the EIC Accelerator",
-        "place": "Barcelona, Spain"
+        "name": "Celtro",
+        "use": "Designs a battery-free, leadless pacemaker whose chip harvests energy from the heart's electrical activity through multiple electrodes; still preclinical",
+        "place": "Dresden, Germany"
       },
       {
-        "name": "Cerebriu",
-        "use": "Its CE-marked Apollo AI spots infarcts, hemorrhages and tumors during brain MRI and adapts the protocol in real time, embedded in Siemens Healthineers consoles",
-        "place": "Copenhagen, Denmark"
+        "name": "EBR Systems",
+        "use": "Its WiSE CRT system, FDA-approved in April 2025, paces the left ventricle without a lead via an ultrasound-powered receiver electrode, alongside an existing pacemaker",
+        "place": "Sunnyvale, USA"
       }
     ],
     "sources": [
       {
-        "publisher": "Johner Institute",
-        "title": "MDR Classification Rule 11: The classification nightmare?",
-        "url": "https://blog.johner-institute.com/regulatory-affairs/mdr-rule-11/"
+        "publisher": "EP Europace (PMC)",
+        "title": "A novel leadless pacemaker powered by a piezoelectric energy harvester",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13300453/"
       },
       {
-        "publisher": "European Commission",
-        "title": "Update - MDCG 2019-11 rev.1 - Qualification and classification of software - Regulation (EU) 2017/745 and Regulation (EU) 2017/746",
-        "url": "https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en"
+        "publisher": "FDA",
+        "title": "Premarket Approval (PMA) P240028 — WiSE CRT System, EBR Systems",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240028"
       },
       {
-        "publisher": "Medical Device Network",
-        "title": "Avicenna.AI secures EU MDR certification for five AI tools",
-        "url": "https://www.medicaldevice-network.com/news/avicenna-ai-secures-eu-mdr-certification-for-five-ai-tools/"
+        "publisher": "Celtro",
+        "title": "Energy harvesting from biological cells",
+        "url": "https://celtro.de/"
       },
       {
-        "publisher": "ITN",
-        "title": "Cerebriu Secures CE Mark for First OEM-Embedded AI Product with Siemens Healthineers",
-        "url": "https://www.itnonline.com/content/cerebriu-secures-ce-mark-first-oem-embedded-ai-product-siemens-healthineers"
+        "publisher": "BioSpace",
+        "title": "Cairdac Announces First-in-Human Implantations of Its Autonomous Leadless Pacemaker",
+        "url": "https://www.biospace.com/press-releases/cairdac-announces-first-in-human-implantations-of-its-autonomous-leadless-pacemaker"
       }
     ]
   }
