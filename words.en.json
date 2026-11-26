@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-26",
   "words": [
     {
+      "term": "SDE",
+      "full": "Secure Data Environment",
+      "fr": "Secure health data environment",
+      "field": "Health data & research",
+      "definition": "A platform where approved researchers come to analyse health data without ever being able to download it: researchers go to the data, rather than the data going to researchers.",
+      "parts": [
+        {
+          "label": "Linked, pseudonymised data",
+          "role": "the foundation: hospital, GP and other care records, non-identifiable by default"
+        },
+        {
+          "label": "Controlled analysis space",
+          "role": "the lab: tools and code used inside the environment"
+        },
+        {
+          "label": "Output checking",
+          "role": "the airlock: only aggregated, checked results leave the environment"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Approve",
+          "t": "The project and the researcher are approved under the Five Safes framework (safe people, projects, settings, data and outputs), with an ethics opinion and, in England, advice from the Confidentiality Advisory Group."
+        },
+        {
+          "n": "2",
+          "h": "Analyse in place",
+          "t": "The researcher works inside the NHS-controlled environment and cannot download or remove patient-level data."
+        },
+        {
+          "n": "3",
+          "h": "Check before release",
+          "t": "Everything that leaves, whether data, code or results, is checked: only approved outputs, such as aggregates, leave the environment."
+        }
+      ],
+      "why": "England has made SDEs the default route to NHS data for research and analysis, and the regional network is now complete. The same principle, never moving the data, is now being used to monitor AI in service, as in the SENTINEL-AI project led by the West Midlands SDE, and paves the way for the secondary data use planned under the EHDS. For VCs, value is shifting to the building blocks that make these environments usable: trusted research environments, federated analytics and output-checking tools.",
+      "startups": [
+        {
+          "name": "Lifebit",
+          "use": "Federated trusted research environment; selected again by Genomics England in 2026 to build its next research environment, due to open to researchers in 2027",
+          "place": "London"
+        },
+        {
+          "name": "Aridhia",
+          "use": "Digital Research Environment on Azure with inbound and outbound airlocks; powers Great Ormond Street's DRIVE, offered to other organisations since 2025",
+          "place": "Edinburgh"
+        },
+        {
+          "name": "Bitfount",
+          "use": "Federated analytics and AI that send algorithms to where the data lives, for TREs and SDEs; raised $8M in 2025",
+          "place": "London"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK (DHSC)",
+          "title": "Secure data environment for NHS health and social care data - policy guidelines",
+          "url": "https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines"
+        },
+        {
+          "publisher": "Health Research Authority",
+          "title": "Secure Data Environments: reaching a national milestone for trusted research",
+          "url": "https://www.hra.nhs.uk/about-us/news-updates/secure-data-environments-reaching-a-national-milestone-for-trusted-research"
+        },
+        {
+          "publisher": "Genomics England",
+          "title": "Genomics England selects Lifebit for enhanced research environment to enable cutting-edge genomic research",
+          "url": "https://www.genomicsengland.co.uk/news/genomics-england-selects-lifebit-for-enhanced-research-environment-to-enable-cutting-edge-genomic-research"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Bitfount raises $8M to unlock clinical research data with federated AI",
+          "url": "https://tech.eu/2025/07/23/bitfount-raises-8m-to-unlock-clinical-research-data-with-federated-ai/"
+        }
+      ],
+      "date": "2026-11-26",
+      "dateLong": "Nov 26, 2026"
+    },
+    {
       "term": "AIT",
       "full": "Allergen Immunotherapy",
       "fr": "Allergen desensitization",

@@ -2,6 +2,84 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-26",
+      "company": "Satelia",
+      "title": "Satelia ouvre sa télésurveillance de l'insuffisance cardiaque aux patients éloignés du numérique avec un tensiomètre Withings qui transmet seul ses mesures",
+      "url": "https://www.hospitalia.fr/Insuffisance-cardiaque-Satelia-ouvre-la-telesurveillance-aux-patients-eloignes-du-numerique-grace-a-un-tensiometre-qui_a5341.html"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "West Midlands Secure Data Environment",
+      "title": "Le Secure Data Environment des West Midlands pilotera SENTINEL-AI, le suivi national des performances des IA déployées dans le NHS, sur la plateforme de Newton's Tree",
+      "url": "https://htn.co.uk/2026/11/25/west-midlands-sde-to-lead-national-project-monitoring-ai-performance-across-the-nhs/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "ADHD Now",
+      "title": "ADHD Now · Prise de participation minoritaire",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/ireland-melior-equity-partners-agrees-investment-in-adhd-now-and-autismcare/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Health Partners Group",
+      "title": "Health Partners Group, adossé à Warburg Pincus, rachète ICE Creates, spécialiste des programmes de changement de comportement et de coaching santé",
+      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-health-partners-group-agrees-to-acquire-behaviour-change-specialist-ice-creates/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "medishift",
+      "title": "medishift lance Kira, une IA qui planifie seule les plannings des cabinets médicaux et organise les remplacements en cas d'arrêt maladie",
+      "url": "https://e-health-com.de/details-unternehmensnews/digitale-praxismanagerin-statt-chatbot-medishift-ki-kira-plant-dienste-in-arztpraxen-selbststaendig/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Ministère de la Santé",
+      "title": "Le ministère de la Santé installe un comité conseil de l'IA en santé réunissant fédérations hospitalières, médecine de ville et patients, sans industriels",
+      "url": "https://buzz-esante.fr/ia-en-sante-le-premier-comite-conseil-reunit-les-acteurs-de-terrain/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Department of Health and Social Care",
+      "title": "Le DHSC et le ministère de l'Éducation britanniques publient un guide sur l'usage de l'IA dans l'aide sociale à l'enfance et aux adultes",
+      "url": "https://htn.co.uk/2026/11/25/cross-sector-guidance-published-on-ai-use-in-childrens-and-adult-social-care/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Domoplaies",
+      "title": "Télémédecine des plaies chroniques : la généralisation de Domoplaies se fait attendre, le ministère assure maintenir son financement",
+      "url": "https://www.ticsante.com/story?ID=8539"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "BfArM",
+      "title": "DiGA : le président du BfArM Karl Broich plaide pour une prescription et une activation entièrement numériques, alors que le code d'activation met jusqu'à trois semaines à arriver",
+      "url": "https://www.e-health-com.de/details-news/digas-was-geht-besser/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Barts Health NHS Trust",
+      "title": "À Barts Health, Copilot fait passer le taux de réponse aux plaintes de patients de 60 % à 92 % et divise par deux le temps de rédaction",
+      "url": "https://htn.co.uk/2026/11/23/barts-health-on-copilot-use-for-complaints-investigations-and-administrative-tasks/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Cegedim",
+      "title": "Cegedim ouvre EB6, un datacenter certifié HDS V2 et éligible SecNumCloud conçu pour l'IA et la haute densité",
+      "url": "https://www.mysih.fr/souverainete-des-donnees-cegedim-ouvre-eb6-un-datacenter-nouvelle-generation-pour-lia-et-la-haute-densite/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "WebMD Ignite",
+      "title": "WebMD Ignite lance avec OpenAI une offre publicitaire dans ChatGPT pour les systèmes de santé américains",
+      "url": "https://hitconsultant.net/2026/11/24/webmd-ignite-introduces-chatgpt-advertising/"
+    },
+    {
+      "date": "2026-11-26",
+      "company": "Waystar",
+      "title": "Waystar branche sa facturation et ses vérifications d'éligibilité sur Gemini for healthcare de Google Cloud via un connecteur MCP",
+      "url": "https://hitconsultant.net/2026/11/25/waystar-brings-revenue-cycle-intelligence-google-cloud-gemini-for-healthcare/"
+    },
+    {
       "date": "2026-11-25",
       "company": "Ambulante Versorgungsgemeinschaft (AVG)",
       "title": "Généralistes, spécialistes, pédiatres et neurologues allemands lancent leur propre plateforme de prise de rendez-vous et d'orientation, développée par AVG, filiale de Docyet et Zollsoft",
@@ -792,78 +870,6 @@
       "company": "PulsePoint Foundation",
       "title": "Essai randomisé : l'alerte de secouristes bénévoles par l'appli PulsePoint n'améliore pas la prise en charge des arrêts cardiaques",
       "url": "https://www.icthealth.org/news/cpr-alert-app-fails-to-improve-emergency-response-in-trial"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Hedepy",
-      "title": "Hedepy lève 4 M€ de dette auprès d'Orbit Capital pour consolider la santé mentale en ligne en Europe centrale",
-      "url": "https://tech.eu/2026/11/10/from-online-therapy-to-integrated-mental-healthcare-hedepy-secures-eur4m-for-european-growth/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "The Access Group",
-      "title": "South London and Maudsley attribue à The Access Group un contrat de DPI de 10 ans estimé à 11,9 M£",
-      "url": "https://htn.co.uk/2026/11/09/10-year-12m-epr-contract-awarded-by-south-london-and-maudsley/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Oura",
-      "title": "Oura · M&A",
-      "url": "https://hitconsultant.net/2026/11/10/oura-acquires-counsel-health-625-million-ai-primary-care-biometric-intelligence/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "TeleClinic",
-      "title": "TeleClinic, filiale de DocMorris, rachète la plateforme suisse de télémédecine Medi24 à Allianz Partners",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/switzerland-docmorris-unit-teleclinic-acquires-telemedicine-provider-medi24-from-allianz-partners/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Mayden",
-      "title": "Mayden (soutenu par G Square) rachète My Clinical Outcomes, plateforme de mesures rapportées par les patients",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-mayden-acquires-patient-reported-outcomes-platform-provider-my-clinical-outcomes/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Lyrebird Health",
-      "title": "Le Barnsley Hospital NHS FT attribue à Lyrebird Health un contrat de voix ambiante jusqu'en février 2028",
-      "url": "https://htn.co.uk/2026/11/09/barnsley-hospital-nhs-awards-ambient-voice-contract/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Digital Health and Care Wales",
-      "title": "Le Pays de Galles déploie un jeu de données national des urgences et automatise le reporting des délais ambulanciers",
-      "url": "https://htn.co.uk/2026/11/10/dhcw-shares-new-dataset-and-automation-to-improve-use-of-urgent-and-emergency-care-data/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "South East Coast Ambulance Service",
-      "title": "Projet PARA-AI : 83 % des ambulanciers de SECAmb utiliseraient l'IA en pratique clinique avec garde-fous",
-      "url": "https://htn.co.uk/2026/11/09/south-east-coast-ambulance-service-presents-findings-from-para-ai-project-exploring-attitudes-toward-ai-in-pre-hospital-care/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "dEEGtal Insights",
-      "title": "MEDICA 2026 : dEEGtal Insights, Precisia Care et RegCheck parmi les sept pousses suisses du Start-up Park",
-      "url": "https://startupticker.ch/en/news/medica-2026-to-host-seven-swiss-start-ups"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "XRHealth",
-      "title": "XRHealth rachète PursueCare et récupère RESET et RESET-O, les thérapeutiques numériques héritées de Pear",
-      "url": "https://hitconsultant.net/2026/11/09/xrhealth-acquires-pursuecare-virtual-addiction-treatment-reset-digital-therapeutics/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Zus Health",
-      "title": "Zus Health, fondé par l'ex-patron d'athenahealth Jonathan Bush, lève 33 M$ en Series B menée par Drive Capital",
-      "url": "https://hitconsultant.net/2026/11/10/zus-health-raises-33-million-series-b-connected-healthcare-ai-platform/"
-    },
-    {
-      "date": "2026-11-11",
-      "company": "Google Cloud",
-      "title": "Google Cloud lance en préversion Gemini for Healthcare, couche d'orchestration d'agents pour hôpitaux et assureurs",
-      "url": "https://hitconsultant.net/2026/11/10/google-cloud-launches-gemini-for-healthcare-agentic-orchestration-layer/"
     }
   ]
 }

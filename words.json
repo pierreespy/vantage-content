@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-26",
   "words": [
     {
+      "term": "SDE",
+      "full": "Secure Data Environment (environnement sécurisé de données de santé)",
+      "fr": "Environnement sécurisé de données",
+      "field": "Données de santé & recherche",
+      "definition": "Une plateforme où les chercheurs autorisés viennent analyser les données de santé sans jamais pouvoir les télécharger : ce sont les chercheurs qui vont aux données, pas les données qui vont aux chercheurs.",
+      "parts": [
+        {
+          "label": "Données liées et pseudonymisées",
+          "role": "le socle : dossiers hospitaliers, de ville et d'autres soins, non identifiants par défaut"
+        },
+        {
+          "label": "Espace d'analyse contrôlé",
+          "role": "le laboratoire : outils et code utilisés à l'intérieur de l'environnement"
+        },
+        {
+          "label": "Contrôle des sorties",
+          "role": "le sas : seuls des résultats agrégés et vérifiés quittent l'environnement"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Autoriser",
+          "t": "Le projet et le chercheur sont approuvés selon le cadre des Five Safes (personnes, projets, environnement, données et sorties sûrs), avec avis éthique et, en Angleterre, l'avis du Confidentiality Advisory Group."
+        },
+        {
+          "n": "2",
+          "h": "Analyser sur place",
+          "t": "Le chercheur travaille dans l'environnement contrôlé par le NHS et ne peut ni télécharger ni extraire de données au niveau patient."
+        },
+        {
+          "n": "3",
+          "h": "Vérifier avant de sortir",
+          "t": "Tout ce qui sort, données, code ou résultats, est contrôlé : seuls des résultats approuvés, comme des agrégats, quittent l'environnement."
+        }
+      ],
+      "why": "L'Angleterre a fait des SDE la voie par défaut d'accès aux données du NHS pour la recherche et l'analyse, et le réseau régional est désormais complet. Le même principe, ne jamais déplacer les données, sert maintenant à surveiller les IA en service, comme le projet SENTINEL-AI piloté par le SDE des West Midlands, et prépare l'accès secondaire aux données prévu par l'EHDS. Pour un VC, la valeur se déplace vers les briques qui rendent ces environnements utilisables : environnements de recherche de confiance, analyses fédérées, outils de contrôle des sorties.",
+      "startups": [
+        {
+          "name": "Lifebit",
+          "use": "Environnement de recherche de confiance fédéré ; de nouveau retenu par Genomics England en 2026 pour bâtir son prochain environnement de recherche, ouverture aux chercheurs prévue en 2027",
+          "place": "Londres"
+        },
+        {
+          "name": "Aridhia",
+          "use": "Digital Research Environment sur Azure avec sas d'entrée et de sortie ; fournit le DRIVE de Great Ormond Street, offre ouverte depuis 2025 à d'autres organisations",
+          "place": "Édimbourg"
+        },
+        {
+          "name": "Bitfount",
+          "use": "Analyses et IA fédérées qui envoient les algorithmes là où sont les données, pour les TRE et SDE ; 8 M$ levés en 2025",
+          "place": "Londres"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "GOV.UK (DHSC)",
+          "title": "Secure data environment for NHS health and social care data - policy guidelines",
+          "url": "https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines"
+        },
+        {
+          "publisher": "Health Research Authority",
+          "title": "Secure Data Environments: reaching a national milestone for trusted research",
+          "url": "https://www.hra.nhs.uk/about-us/news-updates/secure-data-environments-reaching-a-national-milestone-for-trusted-research"
+        },
+        {
+          "publisher": "Genomics England",
+          "title": "Genomics England selects Lifebit for enhanced research environment to enable cutting-edge genomic research",
+          "url": "https://www.genomicsengland.co.uk/news/genomics-england-selects-lifebit-for-enhanced-research-environment-to-enable-cutting-edge-genomic-research"
+        },
+        {
+          "publisher": "Tech.eu",
+          "title": "Bitfount raises $8M to unlock clinical research data with federated AI",
+          "url": "https://tech.eu/2025/07/23/bitfount-raises-8m-to-unlock-clinical-research-data-with-federated-ai/"
+        }
+      ],
+      "date": "2026-11-26",
+      "dateLong": "26 nov. 2026"
+    },
+    {
       "term": "AIT",
       "full": "Allergen Immunotherapy (immunothérapie allergénique)",
       "fr": "Désensibilisation à un allergène",
