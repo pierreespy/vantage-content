@@ -2,6 +2,60 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-27",
+      "company": "TORTUS",
+      "title": "Aux urgences de Leeds, le scribe vocal de TORTUS réduit de 61 % le temps de documentation et sera étendu à tout le service",
+      "url": "https://healthcaretoday.com/article/emergency-clinicians-in-leeds-benefit-from-ai-note-taking-tool"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "Universitätsklinikum Leipzig",
+      "title": "Le CHU de Leipzig publie en open source « Ampel », son système d'aide à la décision clinique qui alerte les équipes sur les situations critiques passées inaperçues",
+      "url": "https://www.aerzteblatt.de/themen/e-health/open-source-uniklinik-leipzig-stellt-sein-klinisches-entscheidungs-unterstutzungssystem-zur-verfugung-9daf50c6-24a9-44f0-bf12-2aea69a89118"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "Kosme",
+      "title": "Kosme · Seed",
+      "url": "https://www.jaimelesstartups.fr/news/kosme-levee-de-fonds-1-millions-euros-soignants-lieu-exercice/"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "Ditto",
+      "title": "Ditto lance Ditto Familie pour partager le suivi de soins d'un proche, et l'assureur ONVZ le propose à ses assurés aidants",
+      "url": "https://www.skipr.nl/nieuws/zorg-app-ditto-laat-familie-van-patient-voortaan-zorggegevens-inzien/"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "Catharina Ziekenhuis",
+      "title": "Le Catharina Ziekenhuis et la TU/e obtiennent 3,5 M€ du NWO pour OCTAVE-CAD, un jumeau numérique du cœur qui simule les traitements avant de les choisir",
+      "url": "https://www.skipr.nl/nieuws/catharina-ziekenhuis-krijgt-35-miljoen-voor-digitale-kopie-van-het-hart/"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "North East and North Cumbria ICB",
+      "title": "L'environnement sécurisé de données du Nord-Est de l'Angleterre sert à cartographier la polymédication à partir des prescriptions de centaines de cabinets",
+      "url": "https://htn.co.uk/2026/11/26/north-east-and-north-cumbria-secure-data-environment-analyses-medicines-use/"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "OCDE",
+      "title": "Health at a Glance: Europe 2026 : seuls 5 des 24 pays étudiés ont une stratégie nationale d'IA en santé, et 28 % des Européens consultent leur dossier en ligne",
+      "url": "https://www.euronews.com/2026/11/25/europe-is-embracing-digital-health-but-do-patients-actually-benefit"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "HaDEA",
+      "title": "EU4Health : quatre appels de la DG SANTE, 19,35 M€ au total, pour préparer l'EHDS et évaluer localement les IA cliniques",
+      "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en"
+    },
+    {
+      "date": "2026-11-27",
+      "company": "Agence du numérique en santé",
+      "title": "Ségur du numérique : la vague 2 est lancée pour les logiciels de gestion d'officine, de l'INS à l'ordonnance numérique",
+      "url": "https://www.ticsante.com/story?id=8540"
+    },
+    {
       "date": "2026-11-26",
       "company": "Satelia",
       "title": "Satelia ouvre sa télésurveillance de l'insuffisance cardiaque aux patients éloignés du numérique avec un tensiomètre Withings qui transmet seul ses mesures",
@@ -810,66 +864,6 @@
       "company": "ONC et CMS",
       "title": "L'ONC et les CMS lancent des sprints de test de 10 à 12 semaines pour l'autorisation préalable électronique en FHIR",
       "url": "https://hitconsultant.net/2026/11/12/onc-cms-launch-electronic-prior-authorization-testing-initiative-fhirplace-2027/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Earkick",
-      "title": "Elomia Health rachète Earkick, le compagnon IA de santé mentale fondé entre Zurich et San Francisco",
-      "url": "https://tech.eu/2026/11/10/elomia-health-acquires-earkick-to-expand-ai-mental-wellbeing-platform/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "GRADeS ESEA",
-      "title": "Égide Santé Réseau : la Nouvelle-Aquitaine finance 3,4 M€ pour un réseau régional souverain d'échange de données de santé",
-      "url": "https://dsih.fr/articles/6458/nouvelle-aquitaine-egide-sante-reseau-un-reseau-regional-pour-securiser-les-echanges-de-donnees-de-sante"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Charta Health",
-      "title": "Charta Health · Series B",
-      "url": "https://hitconsultant.net/2026/11/10/charta-health-raises-55-million-series-b-ai-medical-chart-review-insight-partners/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Sleep.ai",
-      "title": "Sleep.ai (ex-SleepScore Labs) lève 5,3 M$ auprès de Treasure Coast Ventures, porté par son programme remboursé en Allemagne",
-      "url": "https://hitconsultant.net/2026/11/11/sleep-ai-raises-5-3-million-real-world-sleep-data-german-reimbursement/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Lancashire and South Cumbria NHS FT",
-      "title": "Le pilote Heidi de Lancashire and South Cumbria réduit de 45 % l'administratif clinique hors des heures de travail",
-      "url": "https://htn.co.uk/2026/11/11/lancashire-and-south-cumbria-nhs-on-cloud-ai-eprs-copilot-cyber-security/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Karolinska University Hospital",
-      "title": "Karolinska structure sa gouvernance de l'IA autour d'un Chief AI Officer et d'une académie nationale",
-      "url": "https://www.icthealth.org/news/karolinska-strengthens-ai-governance-and-staff-training"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Lincolnshire Partnership NHS FT",
-      "title": "Le trust de santé mentale du Lincolnshire consulte ses patients avant de déployer son portail d'engagement",
-      "url": "https://htn.co.uk/2026/11/11/lincolnshire-partnership-seeks-input-from-service-users-on-functionality-for-new-patient-app/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Maven Clinic",
-      "title": "La clinique virtuelle de Maven passe en réseau chez plus de 475 assureurs, environ 80 % des assurés commerciaux",
-      "url": "https://medcitynews.com/2026/11/maven-clinics-virtual-care-clinic-goes-in-network-with-475-plans/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "Inovalon",
-      "title": "Inovalon, détenu par Nordic Capital, signe l'acquisition de DrFirst, spécialiste de la prescription électronique",
-      "url": "https://hitconsultant.net/2026/11/11/inovalon-acquires-drfirst-real-time-prescribing-clinical-workflow-ai/"
-    },
-    {
-      "date": "2026-11-12",
-      "company": "PulsePoint Foundation",
-      "title": "Essai randomisé : l'alerte de secouristes bénévoles par l'appli PulsePoint n'améliore pas la prise en charge des arrêts cardiaques",
-      "url": "https://www.icthealth.org/news/cpr-alert-app-fails-to-improve-emergency-response-in-trial"
     }
   ]
 }

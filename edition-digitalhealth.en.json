@@ -1,184 +1,212 @@
 {
-  "dateLong": "Nov 26, 2026",
+  "dateLong": "Nov 27, 2026",
   "ticker": [
-    { "company": "SATELIA", "amount": "3G remote monitoring", "kind": "tech" },
-    { "company": "WM SDE · NEWTON'S TREE", "amount": "SENTINEL-AI", "kind": "tech" },
-    { "company": "MEDISHIFT", "amount": "Launch", "kind": "tech" },
-    { "company": "MINISTÈRE DE LA SANTÉ", "amount": "AI board", "kind": "reg" },
-    { "company": "MELIOR · ADHD NOW", "amount": "Stake", "kind": "lev" },
-    { "company": "HEALTH PARTNERS", "amount": "Acquisition", "kind": "mna" }
+    {
+      "company": "TORTUS",
+      "amount": "−61% documentation",
+      "kind": "tech"
+    },
+    {
+      "company": "UKL · AMPEL",
+      "amount": "Open source",
+      "kind": "tech"
+    },
+    {
+      "company": "EU4HEALTH",
+      "amount": "AI / EHDS calls",
+      "kind": "reg"
+    },
+    {
+      "company": "ANS",
+      "amount": "Ségur wave 2",
+      "kind": "reg"
+    },
+    {
+      "company": "KOSME",
+      "amount": "€1M",
+      "kind": "lev"
+    },
+    {
+      "company": "CATHARINA · TU/E",
+      "amount": "€3.5M NWO",
+      "kind": "lev"
+    }
   ],
   "lead": {
-    "kicker": "Remote monitoring · Heart failure",
-    "title": "Satelia opens its heart failure remote monitoring to digitally excluded patients with a Withings blood pressure monitor that sends readings on its own",
-    "deck": "Announced on November 25, the first deployments of the Withings BPM Connect Pro within the Satelia Cardio offering automatically send blood pressure and heart rate over the mobile network, with no Wi-Fi or smartphone needed, straight into the follow-up questionnaire reviewed by the cardiologist; the 3G monitor is optional and offered by care teams to patients with poor eyesight or little comfort with digital tools. The stakes are high: 1.4 million adults live with heart failure in France and more than 180,000 are hospitalised each year; the TELESAT PRIOR-HF analysis associates Satelia monitoring with 46% lower mortality and 15% fewer readmissions after a hospital stay, with no significant extra cost to the national health insurer at 6, 12 and 24 months. Removing the usability barrier is the precondition for scaling under standard reimbursement.",
-    "company": "Satelia",
-    "sector": "Telehealth",
+    "kicker": "AI voice scribe · Emergency care",
+    "title": "In Leeds' emergency department, TORTUS's AI voice scribe cuts documentation time by 61% and will be extended across the whole department",
+    "deck": "Published on November 26, results from a three-month pilot (February to April) in the ambulatory area of the Leeds General Infirmary emergency department show 61% less documentation time and an average of 13 minutes saved per consultation, accuracy that stayed high on medications and allergies, and no serious safety incidents; the tool listens to the consultation through wireless microphones and drafts the note, which the clinician finalises after a manual check. Leeds Teaching Hospitals will now roll it out in phases to emergency nurses and to the majors, minors and paediatrics areas. For the London startup, which in June became the first ambient voice technology to achieve Class IIa medical device status under UKCA marking, it is proof of use in the hospital's most demanding setting, just as NHS trusts launch their AI scribe procurements.",
+    "company": "TORTUS",
+    "sector": "Clinical AI",
     "pillar": "innovation",
-    "signalType": "early_partnership",
+    "signalType": "clinical_update",
     "strength": 3,
-    "url": "https://www.hospitalia.fr/Insuffisance-cardiaque-Satelia-ouvre-la-telesurveillance-aux-patients-eloignes-du-numerique-grace-a-un-tensiometre-qui_a5341.html"
+    "url": "https://healthcaretoday.com/article/emergency-clinicians-in-leeds-benefit-from-ai-note-taking-tool"
   },
   "milestone": {
-    "company": "West Midlands Secure Data Environment",
-    "milestone": "National programme",
-    "title": "The West Midlands Secure Data Environment will lead SENTINEL-AI, national monitoring of the performance of AI deployed across the NHS, on Newton's Tree's platform",
-    "summary": "Announced on November 25 with support from the Health Data Research Service, the project brings together University Hospitals Birmingham, NHS Greater Glasgow and Clyde, Cambridge University Hospitals and CERSI-AI, with Newton's Tree providing the technical platform. It aims to let organisations generate and compare evidence on the safety and effectiveness of AI tools in use without transferring patient-level data; it starts with chest X-ray reading and is set to extend to ambient voice technology, retinal imaging and pathology, with findings due in 2027.",
-    "why": "Clinical AI is bought on performance measured before market entry and rarely checked afterwards at health-system scale. A national, federated framework for real-world monitoring creates a new infrastructure layer, and a market for deployment platforms such as Newton's Tree.",
-    "place": "Birmingham",
-    "sector": "Health data",
-    "signalType": "early_partnership",
-    "url": "https://htn.co.uk/2026/11/25/west-midlands-sde-to-lead-national-project-monitoring-ai-performance-across-the-nhs/"
+    "company": "Universitätsklinikum Leipzig",
+    "milestone": "Open-source release",
+    "title": "Leipzig University Hospital open-sources \"Ampel\", its clinical decision support system that alerts care teams to critical conditions that went unnoticed",
+    "summary": "Developed since 2018 within the MedKIT department of medical AI, the platform analyses digitally available patient data to flag risks and critical conditions, without replacing the physician's decision; it started in laboratory medicine and has grown into a cross-specialty infrastructure. The hospital is releasing source code, technical components, documentation and two preprints (regulatory concept and architecture) so other institutions can build their own software compliant with the EU MDR; Dresden is already testing the transfer and Schleswig-Holstein University Hospital is preparing a go-live in 2027.",
+    "why": "It is an alternative to buying proprietary software: a university hospital that builds and certifies its own tool, then shares it along with its regulatory approach. For decision-support vendors, it creates a \"commons\" competitor and raises the bar on transparency and in-house MDR compliance.",
+    "place": "Leipzig",
+    "sector": "Clinical AI",
+    "signalType": "publication_preprint",
+    "url": "https://www.aerzteblatt.de/themen/e-health/open-source-uniklinik-leipzig-stellt-sein-klinisches-entscheidungs-unterstutzungssystem-zur-verfugung-9daf50c6-24a9-44f0-bf12-2aea69a89118"
   },
   "deal": {
-    "company": "ADHD Now",
-    "amount": "Undisclosed",
-    "round": "Minority stake",
-    "thesis": "Irish investor Melior Equity Partners is backing ADHD Now and AutismCare, two Cork-based providers that combine online appointments with physical clinics (Cork, Dublin, Limerick, Kilkenny, Donegal) for ADHD and autism assessment and follow-up care: more than 15,000 people treated since 2023, around 100 clinicians, and contracts with the HSE and insurers; co-founders Danny Buckley and Jack Starling remain majority owners. The thesis: with public waiting lists growing, hybrid mental health models that bill the public payer, insurers and private patients are becoming private equity targets, with the money going into clinicians, assessment capacity and technology.",
-    "sector": "Mental health",
-    "url": "https://www.investorsinhealthcare.com/articles/category/news/ireland-melior-equity-partners-agrees-investment-in-adhd-now-and-autismcare/"
+    "company": "Kosme",
+    "amount": "€1M",
+    "round": "Seed",
+    "thesis": "The Rennes startup, co-founded by Stéphane Guivarc'h (founder of Office Santé, acquired in early 2026 by Groupe Crédit Agricole), raises about €1M from Bpifrance (Bourse French Tech), the Brittany Region, mutual insurer MBA Mutuelle and Alban Boyé (Trecobat) for a hybrid platform that helps healthcare professionals choose where and how to practise: job offers, zoning rules, public aid and territorial data in one place, personalised scoring and human support, free for clinicians, launching in early 2027. The thesis: in a country where 87% of the territory is classed as a medical desert, where France's 1.2 million health professionals set up practice becomes a data market that insurers and regions have every reason to fund.",
+    "sector": "Digital Health",
+    "url": "https://www.jaimelesstartups.fr/news/kosme-levee-de-fonds-1-millions-euros-soignants-lieu-exercice/"
   },
   "brefsEurope": [
     {
-      "company": "Health Partners Group",
-      "place": "United Kingdom",
-      "sector": "Occupational health",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 4,
-      "title": "Warburg Pincus-backed Health Partners Group acquires ICE Creates, a specialist in behaviour change programmes and health coaching",
-      "summary": "The occupational health provider, which supports more than 6 million client employees in the UK and Ireland, is buying a company founded more than 25 years ago whose health coaching, digital support and population health programmes are commissioned by local authorities and healthcare organisations; terms were not disclosed. The group is moving beyond the workplace into prevention and early intervention.",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/uk-health-partners-group-agrees-to-acquire-behaviour-change-specialist-ice-creates/"
-    },
-    {
-      "company": "medishift",
-      "place": "Hamburg",
-      "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "medishift launches Kira, an AI that builds medical practice rosters on its own and organises cover when staff call in sick",
-      "summary": "Built into Lindotech's scheduling software, Kira applies practice rules written in plain language, plans a full week in one pass and asks suitable colleagues to cover via the app; by default every change is approved by the team, with models hosted in the EU and data in Frankfurt. More than 900 practices have signed up since launch in August 2025.",
-      "url": "https://e-health-com.de/details-unternehmensnews/digitale-praxismanagerin-statt-chatbot-medishift-ki-kira-plant-dienste-in-arztpraxen-selbststaendig/"
-    },
-    {
-      "company": "Ministère de la Santé",
-      "place": "Paris",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "France's health ministry sets up an AI in healthcare advisory board of hospital federations, community care and patients, with no industry members",
-      "summary": "Meeting for the first time on November 18 under the 2025-2028 \"AI and health data\" strategy, it includes the FHF, FHP, FEHAP, Unicancer, France Assos Santé and 100000médecins.org, and will map uses, rank use cases and organise post-deployment \"algorithmovigilance\" of AI tools. Context: 91% of surveyed health professionals use AI, but only 24% through a secure tool provided by their organisation.",
-      "url": "https://buzz-esante.fr/ia-en-sante-le-premier-comite-conseil-reunit-les-acteurs-de-terrain/"
-    },
-    {
-      "company": "Department of Health and Social Care",
-      "place": "London",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "The UK's DHSC and Department for Education publish guidance on using AI in children's and adult social care",
-      "summary": "Four principles: AI-generated content is a first draft to be reviewed, AI does not make decisions that directly affect people, it must support better outcomes, and no personal information goes into public tools; agentic AI must work within defined boundaries under human oversight. The guidance cites Kingston Council, where social workers save 50% to 60% of the time spent transcribing and drafting.",
-      "url": "https://htn.co.uk/2026/11/25/cross-sector-guidance-published-on-ai-use-in-childrens-and-adult-social-care/"
-    },
-    {
-      "company": "Domoplaies",
-      "place": "Occitanie",
-      "sector": "Telehealth",
-      "pillar": "marche",
-      "signalType": "reimbursement",
-      "strength": 2,
-      "title": "Chronic wound telemedicine: Domoplaies is still waiting for nationwide rollout, while the ministry says its funding is maintained",
-      "summary": "Launched in 2011 and trialled under France's Article 51 scheme, the tele-expertise service for community teams, care homes and hospitals received a favourable opinion for nationwide rollout after a positive clinical and economic evaluation in early 2025; but the transition period was due to end on August 1 and founder Dr Luc Téot says he has heard nothing since and is advancing the costs. A textbook case of how hard it is to move from experiment to standard reimbursement.",
-      "url": "https://www.ticsante.com/story?ID=8539"
-    },
-    {
-      "company": "BfArM",
-      "place": "Berlin",
-      "sector": "DTx",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "DiGA: BfArM president Karl Broich backs fully digital prescription and activation, as activation codes take up to three weeks to reach patients",
-      "summary": "At the Bitkom Health conference, DiGA are still prescribed on paper (Muster 16) pending the GeDIG law; Anna Haas (Oviva, deputy chair of SVDGV) argued for real-world data to set reimbursement, against the PNOG plan to cut prices according to early drop-out rates. Broich also said the BfArM has built an internal database to make its advice and decisions more consistent.",
-      "url": "https://www.e-health-com.de/details-news/digas-was-geht-besser/"
-    },
-    {
-      "company": "Barts Health NHS Trust",
-      "place": "London",
-      "sector": "Hospital software",
-      "pillar": "innovation",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "At Barts Health, Copilot lifts the patient complaint response rate from 60% to 92% and halves drafting time",
-      "summary": "The patient experience team uses it to analyse complaint narratives, draft investigation documents and prepare responses, with every output reviewed and approved by a human; reopened complaints have fallen to \"almost zero\". Separately, more than 2,000 clinicians have access to Oracle's Clinical AI Agent, already used by 1,350 of them.",
-      "url": "https://htn.co.uk/2026/11/23/barts-health-on-copilot-use-for-complaints-investigations-and-administrative-tasks/"
-    },
-    {
-      "company": "Cegedim",
-      "place": "Yvelines",
-      "sector": "Health data",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "Cegedim opens EB6, an HDS V2-certified, SecNumCloud-eligible data centre designed for AI and high-density workloads",
-      "summary": "The group's fifth data centre in France, operational since September on a 2.2-hectare site, relies on direct liquid cooling and targets dual Tier IV certification to host the group's healthcare clients in a sovereign cloud. A market signal: AI compute is becoming a selling point for health data hosting in France.",
-      "url": "https://www.mysih.fr/souverainete-des-donnees-cegedim-ouvre-eb6-un-datacenter-nouvelle-generation-pour-lia-et-la-haute-densite/"
-    }
-  ],
-  "brefsIntl": [
-    {
-      "company": "WebMD Ignite",
-      "place": "United States",
+      "company": "Ditto",
+      "place": "Rotterdam",
       "sector": "Digital Health",
       "pillar": "marche",
       "signalType": "early_partnership",
-      "strength": 2,
-      "title": "WebMD Ignite launches a ChatGPT advertising offering for US health systems with OpenAI",
-      "summary": "The Internet Brands unit runs campaigns end to end, while OpenAI keeps the final say on eligibility, creative approval and delivery; ads are labelled, separated from answers, barred from sensitive health conversations and have no access to chats. A first cardiology campaign is live for an academic medical centre: the chatbot becomes a patient acquisition channel.",
-      "url": "https://hitconsultant.net/2026/11/24/webmd-ignite-introduces-chatgpt-advertising/"
+      "strength": 3,
+      "title": "Ditto launches Ditto Familie to share a relative's care tracking, and insurer ONVZ offers it to members who are carers",
+      "summary": "Launched on November 26, the feature lets users manage several profiles (themselves, a parent, a child): the owner decides who has access and can revoke it, co-managers add appointments, record consultations and prepare questions, followers receive updates, all end-to-end encrypted. Dutch insurer ONVZ is actively offering it to informal carers; according to the SCP, one carer in five lacks knowledge about their relative's condition or medication.",
+      "url": "https://www.skipr.nl/nieuws/zorg-app-ditto-laat-familie-van-patient-voortaan-zorggegevens-inzien/"
     },
     {
-      "company": "Waystar",
-      "place": "United States",
+      "company": "Catharina Ziekenhuis",
+      "place": "Eindhoven",
       "sector": "Clinical AI",
-      "pillar": "marche",
-      "signalType": "early_partnership",
+      "pillar": "innovation",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Catharina Hospital and TU/e win €3.5M from NWO for OCTAVE-CAD, a digital twin of the heart that simulates treatments before choosing one",
+      "summary": "Over about six years, the project combines medical data, AI and digital heart models to test options and their risks virtually for patients with both a narrowed heart valve and narrowed coronary arteries. Interventional cardiologist Pim Tonino notes that a single patient may have seven or eight valve options: the computer should help predict the best one.",
+      "url": "https://www.skipr.nl/nieuws/catharina-ziekenhuis-krijgt-35-miljoen-voor-digitale-kopie-van-het-hart/"
+    },
+    {
+      "company": "North East and North Cumbria ICB",
+      "place": "Newcastle",
+      "sector": "Health data",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
       "strength": 2,
-      "title": "Waystar plugs its revenue cycle analytics and eligibility checks into Google Cloud's Gemini for healthcare via an MCP connector",
-      "summary": "Built on the Model Context Protocol, the connector lets users query claims and payer payment data in natural language and run real-time eligibility checks from the Gemini workspace; early adopters report up to 75% less time spent on analysis. General-purpose AI agents are opening up to the transactional layers of the revenue cycle.",
-      "url": "https://hitconsultant.net/2026/11/25/waystar-brings-revenue-cycle-intelligence-google-cloud-gemini-for-healthcare/"
+      "title": "North East England's secure data environment is being used to map polypharmacy from the prescribing data of hundreds of GP practices",
+      "summary": "Newcastle University researchers are analysing how medicine use varies by age, sex, deprivation and over time, to target the groups that would benefit most from a medication review; GP prescribing data is de-identified and analysis happens in place with tools such as RStudio. Separately, NHS England is sounding out the market, for a total of £6.75M, on a hospital medicines data tool (stock, daily issuance, price comparison).",
+      "url": "https://htn.co.uk/2026/11/26/north-east-and-north-cumbria-secure-data-environment-analyses-medicines-use/"
+    },
+    {
+      "company": "OCDE",
+      "place": "Europe",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "publication_preprint",
+      "strength": 2,
+      "title": "Health at a Glance: Europe 2026: only 5 of 24 countries surveyed have a national health AI strategy, and 28% of Europeans access their records online",
+      "summary": "The OECD-European Commission report published on November 25 describes a \"digital health implementation gap\": the EU scores 87% on technical capability for electronic health records, but use ranges from 5% in Germany to 74% in Finland; AI-assisted imaging is used in around 75% of countries, often before systems can assess its safety and value. It calls for continuous evaluation of tools and training clinicians against automation bias.",
+      "url": "https://www.euronews.com/2026/11/25/europe-is-embracing-digital-health-but-do-patients-actually-benefit"
+    },
+    {
+      "company": "HaDEA",
+      "place": "Brussels",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "EU4Health: four DG SANTE calls worth €19.35M in total to prepare the EHDS and assess clinical AI locally",
+      "summary": "HaDEA's calendar sets publication on November 26 and closing on February 24, 2027: €14.35M for an EHDS readiness package on secondary use of health data, €3M for AI supporting EHDS compliance, €1M for local performance assessment of healthcare AI and €1M for a multimodal AI ecosystem for preventing neurodegenerative diseases. A direct opening for data and AI-validation startups.",
+      "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en"
+    },
+    {
+      "company": "Agence du numérique en santé",
+      "place": "Paris",
+      "sector": "Hospital software",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "Ségur digital programme: wave 2 launches for pharmacy management software, from national patient ID to e-prescriptions",
+      "summary": "Published in the Journal officiel in early November, the order requires pharmacy software vendors to support the national health identifier (INS), feeding and reading the DMP in Mon espace santé, MSSanté secure messaging, the pharmaceutical record, document structuring, access security, e-prescriptions and automated reporting of epidemiological data. The timeline runs about two and a half years: 6 months for the administrative file, 15 for proof of compliance, 18 to validate listing with the ANS.",
+      "url": "https://www.ticsante.com/story?id=8540"
     }
   ],
+  "brefsIntl": [],
   "word": {
-    "term": "SDE",
-    "full": "Secure Data Environment",
-    "fr": "Secure health data environment",
-    "field": "Health data & research",
-    "definition": "A platform where approved researchers come to analyse health data without ever being able to download it: researchers go to the data, rather than the data going to researchers.",
+    "term": "Synthetic Data",
+    "full": "Synthetic Health Data",
+    "fr": "Synthetic health data",
+    "field": "Health data & privacy",
+    "definition": "Records of \"fake patients\" generated by an algorithm from real data: they reproduce the same statistical patterns without matching any real person.",
     "parts": [
-      { "label": "Linked, pseudonymised data", "role": "the foundation: hospital, GP and other care records, non-identifiable by default" },
-      { "label": "Controlled analysis space", "role": "the lab: tools and code used inside the environment" },
-      { "label": "Output checking", "role": "the airlock: only aggregated, checked results leave the environment" }
+      {
+        "label": "Source data",
+        "role": "the template: a real patient dataset, with whatever biases it carries"
+      },
+      {
+        "label": "Generator",
+        "role": "the engine: a statistical or AI model that learns the data's structure and produces new records"
+      },
+      {
+        "label": "Utility / privacy evaluation",
+        "role": "the check: verifying results stay faithful and no one can be re-identified"
+      }
     ],
     "how": [
-      { "n": "1", "h": "Approve", "t": "The project and the researcher are approved under the Five Safes framework (safe people, projects, settings, data and outputs), with an ethics opinion and, in England, advice from the Confidentiality Advisory Group." },
-      { "n": "2", "h": "Analyse in place", "t": "The researcher works inside the NHS-controlled environment and cannot download or remove patient-level data." },
-      { "n": "3", "h": "Check before release", "t": "Everything that leaves, whether data, code or results, is checked: only approved outputs, such as aggregates, leave the environment." }
+      {
+        "n": "1",
+        "h": "Learn",
+        "t": "A model is trained on the real data to reproduce its characteristics and structure; this step is itself processing of personal data."
+      },
+      {
+        "n": "2",
+        "h": "Generate",
+        "t": "It produces artificial records, partially (only some variables) or fully synthetic, whose analysis should yield results close to the original."
+      },
+      {
+        "n": "3",
+        "h": "Test the risk",
+        "t": "Re-identification risk (membership inference, attribute disclosure) is measured and inherited bias corrected: until that risk is shown to be negligible, the data is still treated as personal."
+      }
     ],
-    "why": "England has made SDEs the default route to NHS data for research and analysis, and the regional network is now complete. The same principle, never moving the data, is now being used to monitor AI in service, as in the SENTINEL-AI project led by the West Midlands SDE, and paves the way for the secondary data use planned under the EHDS. For VCs, value is shifting to the building blocks that make these environments usable: trusted research environments, federated analytics and output-checking tools.",
+    "why": "Hospitals leave most of their data unused because they cannot share it: synthetic data promises to open it up to research, trials (partly simulated control arms) and AI training without exposing patients. The EHDS and EU4Health calls on data reuse are creating demand; the risk for investors is regulatory, since the \"non-personal\" status of such data still has to be proven case by case.",
     "startups": [
-      { "name": "Lifebit", "use": "Federated trusted research environment; selected again by Genomics England in 2026 to build its next research environment, due to open to researchers in 2027", "place": "London" },
-      { "name": "Aridhia", "use": "Digital Research Environment on Azure with inbound and outbound airlocks; powers Great Ormond Street's DRIVE, offered to other organisations since 2025", "place": "Edinburgh" },
-      { "name": "Bitfount", "use": "Federated analytics and AI that send algorithms to where the data lives, for TREs and SDEs; raised $8M in 2025", "place": "London" }
+      {
+        "name": "Aindo",
+        "use": "SISSA spin-off, EIC Accelerator winner, over €11M raised; generates synthetic cohorts for RWE and trials, and is building a cardiology decision-support tool with Centro Cardiologico Monzino",
+        "place": "Trieste, Italy"
+      },
+      {
+        "name": "Octopize",
+        "use": "\"Avatar\" method that creates one synthetic patient for each real individual, validated in npj Digital Medicine; published a synthetic data guide with the Health Data Hub",
+        "place": "Nantes, France"
+      },
+      {
+        "name": "Syntho",
+        "use": "Synthetic data platform for healthcare and the public sector; industry partner of the University of Amsterdam's ELSA Lab on fairer healthcare AI",
+        "place": "Amsterdam, Netherlands"
+      }
     ],
     "sources": [
-      { "publisher": "GOV.UK (DHSC)", "title": "Secure data environment for NHS health and social care data - policy guidelines", "url": "https://www.gov.uk/government/publications/secure-data-environment-policy-guidelines/secure-data-environment-for-nhs-health-and-social-care-data-policy-guidelines" },
-      { "publisher": "Health Research Authority", "title": "Secure Data Environments: reaching a national milestone for trusted research", "url": "https://www.hra.nhs.uk/about-us/news-updates/secure-data-environments-reaching-a-national-milestone-for-trusted-research" },
-      { "publisher": "Genomics England", "title": "Genomics England selects Lifebit for enhanced research environment to enable cutting-edge genomic research", "url": "https://www.genomicsengland.co.uk/news/genomics-england-selects-lifebit-for-enhanced-research-environment-to-enable-cutting-edge-genomic-research" },
-      { "publisher": "Tech.eu", "title": "Bitfount raises $8M to unlock clinical research data with federated AI", "url": "https://tech.eu/2025/07/23/bitfount-raises-8m-to-unlock-clinical-research-data-with-federated-ai/" }
+      {
+        "publisher": "Information Commissioner's Office (ICO)",
+        "title": "Synthetic data",
+        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/what-pets-are-there/synthetic-data"
+      },
+      {
+        "publisher": "PHG Foundation (Cambridge)",
+        "title": "Synthetic health data, real regulatory challenge",
+        "url": "https://www.phgcambridge.org/blog/synthetic-data-real-regulatory-challenge/"
+      },
+      {
+        "publisher": "Open",
+        "title": "C’è una start up italiana che vuole usare l’intelligenza artificiale per rivoluzionare la sanità (senza violare la privacy)",
+        "url": "https://www.open.online/2026/07/14/aindo-dati-sintetici-ia-sanita/"
+      },
+      {
+        "publisher": "Syntho",
+        "title": "Syntho Joins UvA-Led ELSA Lab to Advance Fair and Inclusive AI in Healthcare",
+        "url": "https://www.syntho.ai/syntho-partners-uva-elsa-lab-fair-inclusive-ai-healthcare/"
+      }
     ]
   }
 }

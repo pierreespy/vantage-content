@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-27",
   "words": [
     {
+      "term": "Synthetic Data",
+      "full": "Synthetic Health Data (données de santé synthétiques)",
+      "fr": "Données de santé synthétiques",
+      "field": "Données de santé & confidentialité",
+      "definition": "Des dossiers de « faux patients » fabriqués par un algorithme à partir de vraies données : ils reproduisent les mêmes tendances statistiques sans correspondre à aucune personne réelle.",
+      "parts": [
+        {
+          "label": "Données sources",
+          "role": "le modèle : un vrai jeu de données patients, avec ses biais éventuels"
+        },
+        {
+          "label": "Générateur",
+          "role": "le moteur : un modèle statistique ou d'IA qui apprend la structure des données et en produit de nouvelles"
+        },
+        {
+          "label": "Évaluation utilité / confidentialité",
+          "role": "le contrôle : vérifier que les résultats restent fidèles et que personne n'est ré-identifiable"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Apprendre",
+          "t": "Un modèle est entraîné sur les données réelles pour en reproduire les caractéristiques et la structure ; cette étape est elle-même un traitement de données personnelles."
+        },
+        {
+          "n": "2",
+          "h": "Générer",
+          "t": "Il produit des enregistrements artificiels, partiellement (seules certaines variables) ou totalement synthétiques, dont l'analyse doit donner des résultats proches de l'original."
+        },
+        {
+          "n": "3",
+          "h": "Tester le risque",
+          "t": "On mesure le risque de ré-identification (inférence d'appartenance, divulgation d'attributs) et on corrige les biais hérités : tant que ce risque n'est pas démontré négligeable, les données restent traitées comme personnelles."
+        }
+      ],
+      "why": "Les hôpitaux laissent dormir l'essentiel de leurs données faute de pouvoir les partager : les données synthétiques promettent de les ouvrir à la recherche, aux essais (bras de contrôle partiellement simulés) et à l'entraînement d'IA sans exposer de patients. L'EHDS et les appels EU4Health sur la réutilisation des données créent la demande ; le risque pour un investisseur est réglementaire, car le statut « non personnel » de ces données reste à prouver au cas par cas.",
+      "startups": [
+        {
+          "name": "Aindo",
+          "use": "Spin-off de la SISSA, lauréate de l'EIC Accelerator, plus de 11 M€ levés ; génère des cohortes synthétiques pour la RWE et les essais, et développe avec le Centro Cardiologico Monzino une aide à la décision en cardiologie",
+          "place": "Trieste, Italie"
+        },
+        {
+          "name": "Octopize",
+          "use": "Méthode « Avatar » qui crée un patient synthétique pour chaque individu réel, validée dans npj Digital Medicine ; guide sur les données de synthèse publié avec le Health Data Hub",
+          "place": "Nantes, France"
+        },
+        {
+          "name": "Syntho",
+          "use": "Plateforme de données synthétiques pour la santé et le secteur public ; partenaire industriel du laboratoire ELSA de l'université d'Amsterdam sur une IA de santé plus équitable",
+          "place": "Amsterdam, Pays-Bas"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Information Commissioner's Office (ICO)",
+          "title": "Synthetic data",
+          "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/what-pets-are-there/synthetic-data"
+        },
+        {
+          "publisher": "PHG Foundation (Cambridge)",
+          "title": "Synthetic health data, real regulatory challenge",
+          "url": "https://www.phgcambridge.org/blog/synthetic-data-real-regulatory-challenge/"
+        },
+        {
+          "publisher": "Open",
+          "title": "C’è una start up italiana che vuole usare l’intelligenza artificiale per rivoluzionare la sanità (senza violare la privacy)",
+          "url": "https://www.open.online/2026/07/14/aindo-dati-sintetici-ia-sanita/"
+        },
+        {
+          "publisher": "Syntho",
+          "title": "Syntho Joins UvA-Led ELSA Lab to Advance Fair and Inclusive AI in Healthcare",
+          "url": "https://www.syntho.ai/syntho-partners-uva-elsa-lab-fair-inclusive-ai-healthcare/"
+        }
+      ],
+      "date": "2026-11-27",
+      "dateLong": "27 nov. 2026"
+    },
+    {
       "term": "EV",
       "full": "Extracellular Vesicles (vésicules extracellulaires)",
       "fr": "Vésicules extracellulaires",
