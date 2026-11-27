@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-11-26",
+  "generatedAt": "2026-11-27",
   "words": [
+    {
+      "term": "Intraoperative Margin Assessment",
+      "full": "Intraoperative Margin Assessment",
+      "fr": "Checking surgical margins during the operation",
+      "field": "Surgical oncology · Intraoperative imaging",
+      "definition": "Checking, during surgery and within minutes, that the tissue removed around a tumour is \"clean\" at its edges, so the surgeon can remove what remains right away instead of waiting days for the pathology report.",
+      "parts": [
+        {
+          "label": "Surgical specimen",
+          "role": "the removed tissue, whose surfaces (margins) are examined"
+        },
+        {
+          "label": "Imaging sensor",
+          "role": "OCT, confocal microscopy or optical imaging that sees the tissue's microstructure"
+        },
+        {
+          "label": "AI algorithm",
+          "role": "flags areas suspicious for tumour cells to the surgeon"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Excision",
+          "t": "As soon as the tumour is removed (for instance in breast-conserving surgery), the specimen is placed on the device in the OR, without lengthy histology preparation."
+        },
+        {
+          "n": "2",
+          "h": "Imaging",
+          "t": "The system scans the margins at near-cellular resolution: wide-field OCT at Perimeter, fluorescence confocal microscopy at SamanTree, optical imaging at SPCTR."
+        },
+        {
+          "n": "3",
+          "h": "Decision",
+          "t": "AI highlights at-risk areas; the surgeon removes additional tissue during the same procedure, while pathology remains the reference for the final diagnosis."
+        }
+      ],
+      "why": "About 20% of breast-conserving surgeries in the US lead to a repeat operation because a margin turns out to be involved after the fact: a human and economic cost these tools promise to eliminate. The category has just taken regulatory shape — FDA PMA for Perimeter's Claire in March 2026, 510(k) for SamanTree's Histolog Scanner in 2024 — and AI turns it into an OR product with strong recurring revenue (consumables, software). SPCTR's raise shows new European entrants coming in through optical imaging, natural targets for imaging and surgery majors.",
+      "startups": [
+        {
+          "name": "SPCTR",
+          "use": "Develops SPCTRone, optical imaging + AI that analyses margins intraoperatively in breast cancer; €2.8M seed in November 2026, CE marking in preparation",
+          "place": "Utrecht / Groningen, Netherlands"
+        },
+        {
+          "name": "SamanTree Medical",
+          "use": "Its Histolog Scanner (fluorescence confocal microscopy) is CE-marked and FDA 510(k)-cleared; the SHIELD study reported a 67% drop in reoperations; Series B extension led by Karista in 2026 for the US launch",
+          "place": "Lausanne, Switzerland"
+        },
+        {
+          "name": "Perimeter Medical Imaging AI",
+          "use": "Claire (wide-field OCT + ImgAssist AI) became in March 2026 the first FDA-approved (PMA) AI imaging device for breast cancer margins, with 88.1% accuracy in the pivotal trial",
+          "place": "Toronto, Canada"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "AdvaMed (communiqué Perimeter)",
+          "title": "Perimeter Medical Imaging AI's 'Claire' Becomes First FDA-approved AI-Enabled Imaging Device for Breast Cancer Surgery",
+          "url": "https://www.advamed.org/industry-updates/news/perimeter-medical-imaging-ais-claire-becomes-first-fda-approved-ai-enabled-imaging-device-for-breast-cancer-surgery/"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "SamanTree Medical's Histolog scanner shows promise in breast surgery outcomes",
+          "url": "https://medicaldevice-network.com/news/samantree-scanner-breast-surgery"
+        },
+        {
+          "publisher": "IO+",
+          "title": "Dutch startup SPCTR raises €2.8M for AI-guided cancer surgery",
+          "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
+        }
+      ],
+      "date": "2026-11-27",
+      "dateLong": "Nov 27, 2026"
+    },
     {
       "term": "SDE",
       "full": "Secure Data Environment",

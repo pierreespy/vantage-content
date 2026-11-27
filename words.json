@@ -1,6 +1,81 @@
 {
-  "generatedAt": "2026-11-26",
+  "generatedAt": "2026-11-27",
   "words": [
+    {
+      "term": "Intraoperative Margin Assessment",
+      "full": "Intraoperative Margin Assessment (évaluation peropératoire des marges)",
+      "fr": "Contrôle des marges en cours d'opération",
+      "field": "Chirurgie oncologique · Imagerie peropératoire",
+      "definition": "Vérifier, pendant l'opération et en quelques minutes, que le tissu retiré autour d'une tumeur est bien « propre » sur ses bords, pour que le chirurgien puisse enlever immédiatement ce qui reste au lieu d'attendre le résultat d'anatomopathologie plusieurs jours plus tard.",
+      "parts": [
+        {
+          "label": "Pièce opératoire",
+          "role": "le tissu retiré, dont on examine les surfaces (les berges)"
+        },
+        {
+          "label": "Capteur d'imagerie",
+          "role": "OCT, microscopie confocale ou imagerie optique qui voit la microstructure du tissu"
+        },
+        {
+          "label": "Algorithme d'IA",
+          "role": "signale au chirurgien les zones suspectes de cellules tumorales"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Prélèvement",
+          "t": "Dès l'ablation de la tumeur (par exemple lors d'une chirurgie conservatrice du sein), la pièce est posée sur l'appareil, au bloc, sans préparation histologique longue."
+        },
+        {
+          "n": "2",
+          "h": "Imagerie",
+          "t": "Le système balaie les berges à une résolution quasi cellulaire : OCT grand champ chez Perimeter, microscopie confocale à fluorescence chez SamanTree, imagerie optique chez SPCTR."
+        },
+        {
+          "n": "3",
+          "h": "Décision",
+          "t": "L'IA met en évidence les zones à risque ; le chirurgien retire du tissu supplémentaire pendant la même intervention, l'anatomopathologie restant la référence pour le diagnostic final."
+        }
+      ],
+      "why": "Environ 20 % des chirurgies conservatrices du sein aux États-Unis débouchent sur une réopération parce qu'une marge s'avère envahie après coup : un coût humain et économique que ces outils promettent d'effacer. La catégorie vient de se structurer réglementairement — PMA FDA de Claire (Perimeter) en mars 2026, 510(k) de l'Histolog Scanner de SamanTree en 2024 — et l'IA en fait un produit « bloc opératoire » à forte récurrence (consommables, logiciels). La levée de SPCTR montre que de nouveaux entrants européens arrivent par l'imagerie optique, une cible naturelle pour les grands de l'imagerie et de la chirurgie.",
+      "startups": [
+        {
+          "name": "SPCTR",
+          "use": "Développe SPCTRone, imagerie optique + IA qui analyse les berges en peropératoire dans le cancer du sein ; seed de 2,8 M€ en novembre 2026, marquage CE en préparation",
+          "place": "Utrecht / Groningue, Pays-Bas"
+        },
+        {
+          "name": "SamanTree Medical",
+          "use": "Son Histolog Scanner (microscopie confocale à fluorescence) est marqué CE et autorisé 510(k) par la FDA ; l'étude SHIELD a rapporté une baisse de 67 % des réopérations ; extension de Series B menée par Karista en 2026 pour le lancement américain",
+          "place": "Lausanne, Suisse"
+        },
+        {
+          "name": "Perimeter Medical Imaging AI",
+          "use": "Claire (OCT grand champ + IA ImgAssist) est devenu en mars 2026 le premier dispositif d'imagerie à IA approuvé par la FDA (PMA) pour les marges du cancer du sein, avec 88,1 % de précision dans l'essai pivot",
+          "place": "Toronto, Canada"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "AdvaMed (communiqué Perimeter)",
+          "title": "Perimeter Medical Imaging AI's 'Claire' Becomes First FDA-approved AI-Enabled Imaging Device for Breast Cancer Surgery",
+          "url": "https://www.advamed.org/industry-updates/news/perimeter-medical-imaging-ais-claire-becomes-first-fda-approved-ai-enabled-imaging-device-for-breast-cancer-surgery/"
+        },
+        {
+          "publisher": "Medical Device Network",
+          "title": "SamanTree Medical's Histolog scanner shows promise in breast surgery outcomes",
+          "url": "https://medicaldevice-network.com/news/samantree-scanner-breast-surgery"
+        },
+        {
+          "publisher": "IO+",
+          "title": "Dutch startup SPCTR raises €2.8M for AI-guided cancer surgery",
+          "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
+        }
+      ],
+      "date": "2026-11-27",
+      "dateLong": "27 nov. 2026"
+    },
     {
       "term": "SDE",
       "full": "Secure Data Environment (environnement sécurisé de données de santé)",

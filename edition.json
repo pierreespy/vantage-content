@@ -1,203 +1,208 @@
 {
-  "dateLong": "26 nov. 2026",
+  "dateLong": "27 nov. 2026",
   "ticker": [
     {
-      "company": "CAIRDAC",
-      "amount": "1er patient",
+      "company": "CORWAVE",
+      "amount": "Faisabilité ✓",
       "kind": "tech"
     },
     {
-      "company": "SIEMENS HEALTHINEERS",
-      "amount": "De Novo",
+      "company": "NEURALINK",
+      "amount": "Pivot FDA",
       "kind": "reg"
     },
     {
-      "company": "TAGOMICS",
-      "amount": "£10M",
-      "kind": "lev"
-    },
-    {
-      "company": "BRAINOMIX",
-      "amount": "146 patients",
-      "kind": "tech"
-    },
-    {
-      "company": "ADENOCYTE",
-      "amount": "$3.3M",
-      "kind": "lev"
-    },
-    {
-      "company": "GENTUITY",
-      "amount": "Nv. CEO",
+      "company": "AMSTERDAM MEDTECH",
+      "amount": "Création",
       "kind": "new"
+    },
+    {
+      "company": "SALVIA",
+      "amount": "€25M",
+      "kind": "lev"
+    },
+    {
+      "company": "SPCTR",
+      "amount": "€2.8M",
+      "kind": "lev"
+    },
+    {
+      "company": "SYNAPSE MEDICINE",
+      "amount": "Négo. excl.",
+      "kind": "mna"
     }
   ],
   "lead": {
-    "kicker": "Premier chez l'homme · Rythmologie",
-    "title": "Cairdac implante ses premiers patients avec ALPS, un pacemaker sans sonde qui tire son énergie des battements du cœur",
-    "deck": "Annoncées le 25 novembre, les premières implantations de l'étude ASCEND ont été réalisées à l'hôpital universitaire Motol & Homolka de Prague par les Prs Petr Neužil et Vivek Reddy (Mount Sinai) : le dispositif, encore expérimental, est alimenté par un récupérateur d'énergie piézoélectrique qui convertit le mouvement du cœur en électricité, au lieu de dépendre d'une pile dont l'épuisement impose aujourd'hui de remplacer l'implant. Pour cette medtech d'Antony non cotée (Series A de 17 M€ menée en 2022 par Mérieux Equity Partners, Supernova Invest et Bpifrance), c'est le passage décisif du mouton — 3 mois de stimulation à 100 % publiés dans Europace — à l'humain, sur un marché mondial du pacemaker estimé à 5,5 Md$.",
-    "company": "Cairdac",
-    "stage": "Series A",
+    "kicker": "Résultats cliniques · Assistance cardiaque",
+    "title": "CorWave valide chez ses cinq premiers patients sa pompe cardiaque à membrane ondulante et décroche jusqu'à 51,9 M€ d'aide européenne",
+    "deck": "Présentée au sommet EACTS MCS d'Amsterdam (19-21 novembre) et annoncée le 26 novembre, l'étude de faisabilité de l'assistance ventriculaire gauche (LVAS) de CorWave a atteint son critère principal : les cinq patients en insuffisance cardiaque avancée, implantés au St Vincent's Hospital de Sydney et à l'UMC Heart Center d'Astana, sont tous vivants et sans événement indésirable lié au dispositif à 30 jours, avec plus de 650 jours cumulés de support sans panne de pompe ni thrombose. Au lieu d'une turbine, une membrane en polymère ondule au rythme du cœur pour imiter son pompage naturel ; la medtech de Clichy (plus de 100 M€ levés auprès de Sofinnova, Novo Holdings, Ysios, l'EIC Fund et Bpifrance) obtient en parallèle jusqu'à 51,9 M€ via le PIEEC Tech4Cure — la plus grosse dotation du programme — et prépare l'étude pivot qui doit soutenir son marquage CE.",
+    "company": "CorWave",
     "sector": "Cardio",
     "pillar": "innovation",
     "signalType": "clinical_update",
-    "strength": 3,
-    "url": "https://www.biospace.com/press-releases/cairdac-announces-first-in-human-implantations-of-its-autonomous-leadless-pacemaker"
+    "strength": 4,
+    "url": "https://www.biospace.com/press-releases/corwave-reports-positive-feasibility-study-results-for-its-wave-membrane-lvad"
   },
   "milestone": {
-    "company": "Siemens Healthineers",
-    "milestone": "De Novo FDA",
-    "title": "Siemens Healthineers obtient la première autorisation FDA d'un test sanguin des neurofilaments légers (NfL) dans la sclérose en plaques",
-    "summary": "Le 23 novembre, la FDA a accordé un De Novo au test Atellica IM NfL, développé avec Novartis : il mesure dans le sang une protéine libérée quand les neurones sont abîmés, pour aider à évaluer l'activité de la maladie chez les adultes de 18 à 55 ans atteints de sclérose en plaques récurrente-rémittente, en complément de la clinique et de l'IRM. Le dossier s'appuie notamment sur la cohorte suisse de la SEP (un z-score NfL > 1,5 triple le risque d'activité future) et une validation suédoise sur 4 341 patients.",
-    "why": "C'est la première fois qu'un biomarqueur sanguin de lésion neuronale entre dans le suivi de routine de la SEP aux États-Unis : un examen automatisé, répétable et moins cher qu'une IRM, qui crée une nouvelle catégorie réglementaire de référence. Le De Novo ouvre aussi la voie 510(k) aux suiveurs — un signal pour les startups européennes du diagnostic neurologique sanguin (Alzheimer, AVC, commotion).",
-    "place": "Erlangen (Allemagne)",
-    "sector": "Diagnostics",
+    "company": "Neuralink",
+    "milestone": "Étude pivot autorisée",
+    "title": "Neuralink obtient le feu vert de la FDA pour LINK, premier essai pivot d'une interface cerveau-machine implantable aux États-Unis",
+    "summary": "Annoncée le 25 novembre, l'autorisation lance l'étude LINK chez des adultes américains atteints de SLA (maladie de Charcot) sévèrement paralysés : elle doit montrer qu'ils peuvent piloter ordinateurs et téléphones par la pensée au quotidien, avec environ 24 mois de suivi et une surveillance de la sécurité à long terme sur plusieurs centres. Plus de 30 personnes portent déjà l'implant dans les études de faisabilité menées aux États-Unis, au Canada et au Royaume-Uni.",
+    "why": "Un essai pivot est la dernière marche avant une demande d'autorisation de mise sur le marché : la neurotech implantable quitte le stade expérimental pour entrer dans une logique de dossier réglementaire. C'est un repère de calendrier et de standard de preuve pour toute la filière, y compris les acteurs européens des implants neuraux, qui seront jugés à cette aune par les investisseurs.",
+    "place": "Fremont (Californie)",
+    "sector": "Neurotech",
     "signalType": "regulatory_milestone",
-    "url": "https://www.neurologylive.com/view/fda-grants-de-novo-authorization-first-neurofilament-light-chain-blood-test-ms"
+    "url": "https://thenextweb.com/news/neuralink-fda-approval-link-pivotal-study-als"
   },
   "deal": {
-    "company": "Tagomics",
-    "amount": "10 M£",
-    "round": "Seed (extension)",
-    "thesis": "Le CVC du diagnosticien espagnol Werfen (We Venture Capital) co-mène avec Calculus Capital, aux côtés d'Illumina Ventures, IQ Capital, Meltwind et Mercia : un syndicat de stratégiques du diagnostic qui parie que la biopsie liquide se monétisera d'abord auprès des pharmas (toxicité d'organe détectée tôt dans le sang, stratification des patients) avant le dépistage. Six grandes pharmas déjà en accès anticipé : un chemin vers le revenu avant le test clinique de cancer du poumon.",
-    "sector": "Diagnostics",
-    "url": "https://www.medicaldevice-network.com/news/tagomics-secures-advance-liquipath-platform/"
+    "company": "Salvia BioElectronics",
+    "amount": "25 M€",
+    "round": "Venture debt (BEI)",
+    "thesis": "La Banque européenne d'investissement prête 25 M€ en venture debt, dans le cadre d'InvestEU, à la medtech d'Eindhoven qui avait bouclé une Series B de 60 M$ en 2025 : de la dette non dilutive adossée à un actif clinique avancé, pour financer les essais européens et américains (dont RECLAIM-II, lancé aux États-Unis) de son implant ultrafin contre la migraine résistante. Le signe que la neuromodulation périphérique, encore pré-commerciale, est jugée assez dérisquée pour être financée par la dette publique européenne.",
+    "sector": "Neurotech",
+    "url": "https://ioplus.nl/en/posts/25-million-for-salvia-bioelectronics-migraine-treatment"
   },
   "brefsEurope": [
     {
-      "company": "Tagomics",
-      "place": "Cambridge",
-      "sector": "Diagnostics",
+      "company": "SPCTR",
+      "place": "Utrecht / Groningue",
+      "sector": "Imagerie",
       "pillar": "financement",
       "signalType": "funding_round",
       "strength": 3,
       "stage": "Seed",
-      "title": "Tagomics lève 10 M£ en extension de seed, co-menée par le CVC de Werfen, pour sa biopsie liquide LiquiPath",
-      "summary": "La plateforme combine épigénétique, atlas cellulaires et algorithmes de déconvolution pour identifier de quel tissu provient l'ADN circulant, afin de repérer tôt une atteinte d'organe ou une toxicité médicamenteuse. La société, qui a levé 19 M£ au total, accueille au board Anthony Vallance-Owen (We Venture Capital) et Robert Hornby (Mercia) et prépare l'évaluation clinique d'un test de détection du cancer du poumon.",
-      "url": "https://www.medicaldevice-network.com/news/tagomics-secures-advance-liquipath-platform/"
+      "title": "SPCTR lève 2,8 M€ pour dire au chirurgien, en salle, s'il reste des cellules tumorales en bordure de la pièce opératoire",
+      "summary": "Son dispositif SPCTRone combine imagerie optique et IA pour analyser les berges du tissu retiré pendant l'opération du cancer du sein ; il a été testé à l'UMC Utrecht et au Centre académique du sein de Groningue. Le tour réunit le fonds VGZ Voorop in Zorg, Future Tech Ventures, l'agence NV NOM, des business angels et le Fonds européen pour une transition juste, pour une étude multicentrique, une première série d'appareils et le marquage CE.",
+      "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
     },
     {
-      "company": "Brainomix",
-      "place": "Oxford",
-      "sector": "Imagerie",
-      "pillar": "innovation",
-      "signalType": "conference_abstract",
-      "strength": 1,
-      "title": "Brainomix montre qu'un simple scanner sans contraste prédit mieux l'infarctus final que la perfusion CT, avant le RSNA",
-      "summary": "Dans une étude rétrospective multicentrique de 146 patients reperfusés (premier auteur Kambiz Nael, UCSF), les biomarqueurs de Brainomix 360 Stroke — volume de cœur hypodense et cœur ajusté sur l'œdème via l'absorption nette d'eau — sont plus fortement associés au volume d'infarctus final que les estimations classiques de perfusion. Un argument pour trier les AVC sur le scanner de base, présent partout ; poster le 2 décembre à Chicago.",
-      "url": "https://www.prnewswire.com/news-releases/brainomix-to-present-new-research-on-advanced-stroke-imaging-biomarkers-at-rsna-2026-302949380.html"
+      "company": "Synapse Medicine",
+      "place": "Bordeaux",
+      "sector": "Digital Health",
+      "pillar": "financement",
+      "signalType": "acquisition",
+      "strength": 3,
+      "title": "Equasens entre en négociations exclusives pour prendre la majorité de Synapse Medicine, éditeur de MedGPT",
+      "summary": "Fondée en 2017, la société bordelaise revendique 7 dispositifs médicaux marqués CE classe IIb, une base de données médicamenteuse agréée par la HAS et l'assistant d'IA MedGPT, déployé dans des dizaines d'hôpitaux dont cinq CHU et disponible dans dix pays européens ; ses outils touchent plus de 400 000 professionnels de santé. Conditions financières non communiquées : une sortie industrielle type pour les logiciels dispositifs médicaux d'aide à la prescription.",
+      "url": "https://equasens.com/wp-content/uploads/2026/11/CP_EQUASENS_Acquisition_FR.pdf"
     },
     {
-      "company": "Demant",
-      "place": "Copenhague",
-      "sector": "MedTech",
+      "company": "BiBBInstruments",
+      "place": "Lund",
+      "sector": "Diagnostics",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "signalType": "early_partnership",
       "strength": 2,
-      "title": "Demant abaisse son objectif de croissance organique à 5-7 % par an et voit le marché mondial de l'aide auditive ralentir en 2027",
-      "summary": "Lors de sa journée investisseurs du 24 novembre, la maison mère d'Oticon a ramené sa cible de moyen terme de 6-8 % à 5-7 %, sous l'effet du poids croissant de ses centres d'audioprothèse, et anticipe un marché 2027 en bas de fourchette (4-6 %), freiné par le canal managed care américain et l'absence de reprise en Chine — avec au moins 3 Md DKK de rachats d'actions. Un comparable qui refroidit les valorisations de l'audiologie.",
-      "url": "https://au.investing.com/news/stock-market-news/demant-cuts-longterm-growth-target-plans-dkk-3-billion-buyback-93CH-4792693"
+      "title": "BiBBInstruments reçoit une nouvelle commande américaine pour EndoDrill GI, sa biopsie motorisée sous écho-endoscopie",
+      "summary": "Son distributeur TaeWoong Medical USA commande pour environ 1,2 M SEK (118 000 $), livraison prévue au premier trimestre 2027, après 1,75 M SEK de commandes en septembre. Fondée par un chercheur en cancérologie de l'université de Lund, la société présente EndoDrill GI comme le premier instrument de biopsie motorisé autorisé (510(k) FDA et marquage CE) pour l'écho-endoscopie, un outil pour mieux prélever les tumeurs du pancréas.",
+      "url": "https://news.cision.com/bibbinstruments-ab/r/bibbinstruments-receives-new-order-for-endodrill--gi-from-the-us,c4428589"
+    },
+    {
+      "company": "Calla Lily Clinical Care",
+      "place": "Londres",
+      "sector": "MedTech",
+      "pillar": "innovation",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Calla Lily Clinical Care obtient 700 000 £ d'Innovate UK pour adapter son dispositif intravaginal Callavid aux probiotiques",
+      "summary": "Accordée via le programme Growth Catalyst: Investor Partnerships (projet total de 1 M£ avec investissement privé apparié), la subvention finance le projet FLORA : améliorer le transfert et la rétention de lactobacilles avec sa plateforme brevetée d'administration intravaginale, et bâtir un modèle de laboratoire de colonisation bactérienne, en visant un premier produit en vente libre.",
+      "url": "https://med-techinsights.com/calla-lily-clinical-care-awarded-innovate-uk-grant/"
+    },
+    {
+      "company": "Amsterdam MedTech",
+      "place": "Amsterdam",
+      "sector": "MedTech",
+      "pillar": "naissances",
+      "signalType": "early_partnership",
+      "strength": 2,
+      "title": "Amsterdam UMC, l'UvA et la VU créent Amsterdam MedTech pour accélérer le passage des innovations au patient",
+      "summary": "L'initiative relie cliniciens, chercheurs et industriels autour de l'imagerie, de l'IA et de la robotique, appliquées à l'oncologie et au cardiovasculaire, dans le cadre du plan de croissance MedTech néerlandais (le meilleur écosystème medtech d'Europe d'ici 2035). Premier projet : diagnostiquer et traiter un cancer du poumon en une seule visite grâce à la microscopie avancée et à l'IA — un futur vivier de spin-offs.",
+      "url": "https://ioplus.nl/en/posts/amsterdam-universities-join-forces-to-fast-track-medtech"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Gentuity",
-      "place": "Sudbury (Massachusetts)",
+      "company": "DeepHealth",
+      "place": "États-Unis",
       "sector": "Imagerie",
       "pillar": "marche",
-      "signalType": "leadership_hire",
-      "strength": 3,
-      "title": "Gentuity nomme Desmond Adler PDG pour accélérer son imagerie intravasculaire HF-OCT",
-      "summary": "Président depuis 2022, passé par Avedro (racheté par Glaukos) et LightLab Imaging (racheté par St. Jude Medical), il succède au fondateur David Kolstad, qui reste président du conseil. La société commercialise un cathéter d'imagerie de 1,8 F qui capture 100 mm de vaisseau en une seconde environ — un profil de dirigeant « sortie industrielle » sur un segment où Abbott et Philips dominent.",
-      "url": "https://www.prnewswire.com/news-releases/gentuity-appoints-desmond-adler-as-president-and-ceo-positions-company-for-next-stage-of-growth-302948609.html"
-    },
-    {
-      "company": "Adenocyte",
-      "place": "Israël",
-      "sector": "Diagnostics",
-      "pillar": "financement",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Adenocyte obtient jusqu'à 13 M NIS (3,3 M$) de l'Autorité israélienne de l'innovation pour le dépistage précoce du cancer du pancréas",
-      "summary": "Sa plateforme LINFU utilise des ultrasons non focalisés de faible intensité pour recueillir des cellules du canal pancréatique et les analyser directement en cytologie. Déjà utilisée en Californie, en Floride et à New York, la technologie doit être adoptée par l'hôpital Shaare Zedek de Jérusalem.",
-      "url": "https://www.medicaldevice-network.com/news/adenocyte-3m-grant-pancreatic-cancer-technology/"
+      "signalType": "regulatory_milestone",
+      "strength": 5,
+      "title": "DeepHealth obtient la 510(k) de Mammo Risk, qui prédit le risque de cancer du sein à 3-5 ans à partir d'une mammographie 3D",
+      "summary": "Clearance K262709 du 23 novembre : l'IA, entraînée sur 220 000 examens, estime le risque à partir des seules images de tomosynthèse, sans questionnaire ni examen supplémentaire, avec des performances homogènes sur plus de 65 000 mammographies de dix sites américains. Sa génération précédente (risque à deux ans) est déjà marquée CE en Europe et validée par des chercheurs du Karolinska Institutet.",
+      "url": "https://itnonline.com/content/fda-clears-deephealths-ai-can-predict-five-year-breast-cancer-risk-3d-mammogram"
     }
   ],
   "word": {
-    "term": "Leadless Pacemaker",
-    "full": "Leadless Pacemaker (stimulateur cardiaque sans sonde)",
-    "fr": "Pacemaker sans sonde",
-    "field": "Rythmologie · Dispositifs implantables",
-    "definition": "Un stimulateur cardiaque miniature, de la taille d'une grosse gélule, posé directement dans le cœur par cathéter depuis la veine fémorale, sans boîtier sous la peau ni fil (sonde) reliant les deux — les deux sources principales de complications des pacemakers classiques.",
+    "term": "Intraoperative Margin Assessment",
+    "full": "Intraoperative Margin Assessment (évaluation peropératoire des marges)",
+    "fr": "Contrôle des marges en cours d'opération",
+    "field": "Chirurgie oncologique · Imagerie peropératoire",
+    "definition": "Vérifier, pendant l'opération et en quelques minutes, que le tissu retiré autour d'une tumeur est bien « propre » sur ses bords, pour que le chirurgien puisse enlever immédiatement ce qui reste au lieu d'attendre le résultat d'anatomopathologie plusieurs jours plus tard.",
     "parts": [
       {
-        "label": "Capsule",
-        "role": "le pacemaker complet (électronique, électrode, énergie) fixé dans la paroi du ventricule"
+        "label": "Pièce opératoire",
+        "role": "le tissu retiré, dont on examine les surfaces (les berges)"
       },
       {
-        "label": "Source d'énergie",
-        "role": "une pile scellée aujourd'hui, demain un récupérateur d'énergie du cœur"
+        "label": "Capteur d'imagerie",
+        "role": "OCT, microscopie confocale ou imagerie optique qui voit la microstructure du tissu"
       },
       {
-        "label": "Cathéter de pose",
-        "role": "l'outil qui amène la capsule par la veine fémorale et la fixe"
+        "label": "Algorithme d'IA",
+        "role": "signale au chirurgien les zones suspectes de cellules tumorales"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Pose",
-        "t": "Le rythmologue remonte un cathéter depuis l'aine jusqu'au ventricule droit et y ancre la capsule, sans incision thoracique ni poche sous-cutanée."
+        "h": "Prélèvement",
+        "t": "Dès l'ablation de la tumeur (par exemple lors d'une chirurgie conservatrice du sein), la pièce est posée sur l'appareil, au bloc, sans préparation histologique longue."
       },
       {
         "n": "2",
-        "h": "Stimulation",
-        "t": "La capsule détecte le rythme cardiaque et envoie une impulsion électrique quand le cœur est trop lent ; elle se règle et se surveille à distance, sans fil."
+        "h": "Imagerie",
+        "t": "Le système balaie les berges à une résolution quasi cellulaire : OCT grand champ chez Perimeter, microscopie confocale à fluorescence chez SamanTree, imagerie optique chez SPCTR."
       },
       {
         "n": "3",
-        "h": "Énergie",
-        "t": "Sur les modèles actuels, la pile finit par s'épuiser ; les nouvelles générations récupèrent l'énergie du mouvement du cœur (piézoélectrique, chez Cairdac) ou de son activité électrique (chez Celtro) pour s'en affranchir."
+        "h": "Décision",
+        "t": "L'IA met en évidence les zones à risque ; le chirurgien retire du tissu supplémentaire pendant la même intervention, l'anatomopathologie restant la référence pour le diagnostic final."
       }
     ],
-    "why": "Le pacemaker sans sonde supprime les complications de sonde et de boîtier, mais les leaders (Medtronic Micra, Abbott Aveir) restent limités par leur pile et la difficulté d'en implanter plusieurs au fil d'une vie. L'innovation se déplace donc vers l'autonomie énergétique, la stimulation multi-chambres et la resynchronisation sans fil : des briques technologiques brevetables, portées par de petites sociétés européennes et américaines qui sont des cibles naturelles pour les géants de la rythmologie — les premiers patients de Cairdac à Prague en sont le jalon du jour.",
+    "why": "Environ 20 % des chirurgies conservatrices du sein aux États-Unis débouchent sur une réopération parce qu'une marge s'avère envahie après coup : un coût humain et économique que ces outils promettent d'effacer. La catégorie vient de se structurer réglementairement — PMA FDA de Claire (Perimeter) en mars 2026, 510(k) de l'Histolog Scanner de SamanTree en 2024 — et l'IA en fait un produit « bloc opératoire » à forte récurrence (consommables, logiciels). La levée de SPCTR montre que de nouveaux entrants européens arrivent par l'imagerie optique, une cible naturelle pour les grands de l'imagerie et de la chirurgie.",
     "startups": [
       {
-        "name": "Cairdac",
-        "use": "Développe ALPS, pacemaker sans sonde alimenté par un récupérateur piézoélectrique du mouvement cardiaque ; premiers patients implantés à Prague (étude ASCEND), Series A de 17 M€",
-        "place": "Antony, France"
+        "name": "SPCTR",
+        "use": "Développe SPCTRone, imagerie optique + IA qui analyse les berges en peropératoire dans le cancer du sein ; seed de 2,8 M€ en novembre 2026, marquage CE en préparation",
+        "place": "Utrecht / Groningue, Pays-Bas"
       },
       {
-        "name": "Celtro",
-        "use": "Conçoit un pacemaker sans pile ni sonde dont la puce récupère l'énergie de l'activité électrique du cœur via de multiples électrodes ; encore au stade préclinique",
-        "place": "Dresde, Allemagne"
+        "name": "SamanTree Medical",
+        "use": "Son Histolog Scanner (microscopie confocale à fluorescence) est marqué CE et autorisé 510(k) par la FDA ; l'étude SHIELD a rapporté une baisse de 67 % des réopérations ; extension de Series B menée par Karista en 2026 pour le lancement américain",
+        "place": "Lausanne, Suisse"
       },
       {
-        "name": "EBR Systems",
-        "use": "Son système WiSE CRT, approuvé par la FDA en avril 2025, stimule le ventricule gauche sans sonde grâce à une électrode réceptrice alimentée par ultrasons, en complément d'un pacemaker existant",
-        "place": "Sunnyvale, États-Unis"
+        "name": "Perimeter Medical Imaging AI",
+        "use": "Claire (OCT grand champ + IA ImgAssist) est devenu en mars 2026 le premier dispositif d'imagerie à IA approuvé par la FDA (PMA) pour les marges du cancer du sein, avec 88,1 % de précision dans l'essai pivot",
+        "place": "Toronto, Canada"
       }
     ],
     "sources": [
       {
-        "publisher": "EP Europace (PMC)",
-        "title": "A novel leadless pacemaker powered by a piezoelectric energy harvester",
-        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13300453/"
+        "publisher": "AdvaMed (communiqué Perimeter)",
+        "title": "Perimeter Medical Imaging AI's 'Claire' Becomes First FDA-approved AI-Enabled Imaging Device for Breast Cancer Surgery",
+        "url": "https://www.advamed.org/industry-updates/news/perimeter-medical-imaging-ais-claire-becomes-first-fda-approved-ai-enabled-imaging-device-for-breast-cancer-surgery/"
       },
       {
-        "publisher": "FDA",
-        "title": "Premarket Approval (PMA) P240028 — WiSE CRT System, EBR Systems",
-        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=P240028"
+        "publisher": "Medical Device Network",
+        "title": "SamanTree Medical's Histolog scanner shows promise in breast surgery outcomes",
+        "url": "https://medicaldevice-network.com/news/samantree-scanner-breast-surgery"
       },
       {
-        "publisher": "Celtro",
-        "title": "Energy harvesting from biological cells",
-        "url": "https://celtro.de/"
-      },
-      {
-        "publisher": "BioSpace",
-        "title": "Cairdac Announces First-in-Human Implantations of Its Autonomous Leadless Pacemaker",
-        "url": "https://www.biospace.com/press-releases/cairdac-announces-first-in-human-implantations-of-its-autonomous-leadless-pacemaker"
+        "publisher": "IO+",
+        "title": "Dutch startup SPCTR raises €2.8M for AI-guided cancer surgery",
+        "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
       }
     ]
   }
