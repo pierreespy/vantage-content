@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-27",
   "words": [
     {
+      "term": "EV",
+      "full": "Extracellular Vesicles",
+      "fr": "Extracellular vesicles",
+      "field": "Regenerative medicine / drug delivery",
+      "definition": "Membrane-bound nanoparticles, with no nucleus and unable to replicate, that cells naturally release to carry proteins, lipids and RNA to other cells: biotech uses them as a \"cell-free\" medicine or as a delivery vehicle.",
+      "parts": [
+        {
+          "label": "Producer cell",
+          "role": "often mesenchymal stromal cells, which give them their anti-inflammatory and reparative effect"
+        },
+        {
+          "label": "Lipid bilayer",
+          "role": "the envelope that protects the cargo and carries surface ligands"
+        },
+        {
+          "label": "Cargo",
+          "role": "proteins, mRNA and microRNA that reprogram the recipient cell"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Production",
+          "t": "Cells are grown, often in bioreactors, and secrete vesicles into their culture medium."
+        },
+        {
+          "n": "2",
+          "h": "Purification",
+          "t": "Vesicles are separated and characterized (size, markers, purity) by ultrafiltration or chromatography, then quality-controlled batch by batch."
+        },
+        {
+          "n": "3",
+          "h": "Action",
+          "t": "Once administered, they bind receptors or are taken up by target cells and release their cargo, which dampens inflammation and promotes repair."
+        }
+      ],
+      "why": "They promise the effect of cell therapies without their risks (no proliferation or differentiation) and with the logistics of a drug: a storable, even freeze-dried, re-dosable product. The bottleneck is industrial: batch heterogeneity, non-standardized processes and poorly predictive potency assays, which the ISEV society's MISEV2023 guidelines aim to frame. Alofisel's failure at Takeda cooled the cell-based approach in Crohn's fistulas; EVerZom, backed by €13.3M in EU funding, is playing the vesicle version. A still underfunded field where Europe is ahead.",
+      "startups": [
+        {
+          "name": "EVerZom",
+          "use": "Inserm spinout: EVerGel, adipose stromal cell vesicles with a hydrogel, heading into a Phase 1b/2a in Crohn's fistulas (€13.3M SATURN EU consortium, November 2026)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "EXO Biologics",
+          "use": "EXOB-001, mesenchymal stem cell vesicles given via the endotracheal route to prevent bronchopulmonary dysplasia in extremely preterm infants; EVENEW Phase 1/2, the first EMA-authorized trial of this kind of exosome",
+          "place": "Belgium"
+        },
+        {
+          "name": "Ciloa",
+          "use": "CNRS and University of Montpellier spinout engineering exosomes to carry proteins; APN-sEV (adiponectin) candidate in type 2 diabetes and obesity, backed by €6.5M from France 2030 in 2025",
+          "place": "Montpellier, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Journal of Extracellular Vesicles (ISEV)",
+          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850029/"
+        },
+        {
+          "publisher": "Frontiers in Bioengineering and Biotechnology",
+          "title": "Mesenchymal Stem Cell-Derived Extracellular Vesicles: Opportunities and Challenges for Clinical Translation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7511661/"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "EVerZom leads €13.3M EU project to test extracellular vesicles where Takeda failed",
+          "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/"
+        }
+      ],
+      "date": "2026-11-27",
+      "dateLong": "Nov 27, 2026"
+    },
+    {
       "term": "Intraoperative Margin Assessment",
       "full": "Intraoperative Margin Assessment",
       "fr": "Checking surgical margins during the operation",

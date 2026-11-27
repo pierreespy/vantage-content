@@ -1,161 +1,175 @@
 {
-  "dateLong": "Nov 26, 2026",
+  "dateLong": "Nov 27, 2026",
   "ticker": [
-    { "company": "DESENTUM", "amount": "Ph2 ✓", "kind": "tech" },
-    { "company": "KALVISTA", "amount": "NICE", "kind": "reg" },
-    { "company": "XBRANE", "amount": "China license", "kind": "reg" },
-    { "company": "ENPICOM", "amount": "€22M", "kind": "mna" },
-    { "company": "HANSOH", "amount": "$3.25B", "kind": "mna" },
-    { "company": "FLUICELL", "amount": "SEK 13.7M", "kind": "lev" }
+    { "company": "MATISSE", "amount": "1st patient", "kind": "tech" },
+    { "company": "HANSA", "amount": "EMA", "kind": "reg" },
+    { "company": "DICOT", "amount": "CTA", "kind": "reg" },
+    { "company": "EVERZOM", "amount": "€13.3M EU", "kind": "lev" },
+    { "company": "MICTHERA", "amount": "€4.75M", "kind": "lev" },
+    { "company": "PERHA", "amount": "Acquired", "kind": "mna" }
   ],
   "lead": {
-    "kicker": "Primary endpoint met · Allergen immunotherapy",
-    "title": "Finland's Desentum hits the primary endpoint of its Phase 2 BASIT trial: ten weeks of injections relieve birch allergy for at least 25 weeks",
-    "deck": "In 97 birch pollen-allergic adults randomized double-blind against placebo, DM-101PX, a recombinant birch allergen modified to curb histamine release, reduced nasal symptoms triggered by allergen challenge after just 10 weeks of subcutaneous treatment, with the effect still visible 25 weeks after the last injection, a strong rise in allergen-specific IgG4 and good tolerability (no treatment-related discontinuations, every participant reaching the top dose). Where conventional desensitization runs for several years, the Espoo biotech, backed by a €28M raise in October, is preparing a dose-finding study and then aims for a licensing deal, M&A or an IPO.",
-    "company": "Desentum",
-    "sector": "Immunology",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://www.globenewswire.com/news-release/2026/11/25/3410024/0/en/desentum-announces-successful-outcome-of-phase-2-trial-with-its-short-course-birch-pollen-allergen-immunotherapy-demonstrating-persistent-clinical-symptom-reduction.html"
+    "kicker": "EU funding · Extracellular vesicles",
+    "title": "Inserm spinout EVerZom leads a €13.3M European consortium to test its extracellular vesicles in Crohn's disease fistulas, where Takeda failed",
+    "deck": "The five-year SATURN project brings together 12 partners in France, Spain, Germany, Italy and Belgium under the scientific leadership of Damián García-Olmo (Fundación Jiménez Díaz University Hospital, Madrid); EVerZom receives €2.7M to take EVerGel, vesicles derived from adipose-tissue mesenchymal stromal cells, injected around the perianal fistula with a temperature-sensitive hydrogel placed in the tract, into a Phase 1b/2a (29 to 38 patients, first patient targeted for October 2027) and then a Phase 2b (about 120 patients). Takeda withdrew its cell therapy Alofisel from the EU market in December 2024 after its Phase 3 failed (48.8% combined remission vs. 46.3% on placebo): the Paris-based biotech, which raised a €10M Series A in 2025 and now puts more than 80% of its resources into EVerGel, is betting on a more stable, standardized and re-dosable product.",
+    "company": "EVerZom",
+    "stage": "Series A",
+    "sector": "Biotech",
+    "pillar": "financement",
+    "signalType": "grant_award",
+    "strength": 3,
+    "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/"
   },
   "milestone": {
-    "company": "KalVista Pharmaceuticals",
-    "milestone": "NICE recommendation",
-    "title": "NICE recommends Ekterly (sebetralstat), the first oral on-demand treatment for hereditary angioedema attacks, for the NHS in England and Wales",
-    "summary": "In final draft guidance, the UK health technology assessor backs the oral plasma kallikrein inhibitor from KalVista, now part of Italy's Chiesi Group, for patients aged 12 and older. In the Phase 3 KONFIDENT trial, median time to onset of symptom relief was 1.61 hours with 300 mg sebetralstat versus 6.72 hours on placebo; the most common side effect was headache (9.2%).",
-    "why": "Until now, a hereditary angioedema attack was treated by injection or infusion: a tablet taken at the first symptoms changes care for the UK's 1,000 to 1,500 patients. The same day, Dutch company Pharming paused production of Ruconest, its injectable attack treatment: the shift to oral therapy is squeezing the disease's incumbents.",
-    "place": "Salisbury",
-    "sector": "Immunology",
-    "signalType": "reimbursement",
-    "url": "https://www.biospace.com/press-releases/nice-recommends-ekterly-sebetralstat-the-first-oral-on-demand-treatment-option-for-hereditary-angioedema-hae-attacks"
+    "company": "Matisse Pharmaceuticals",
+    "milestone": "1st patient · Phase 2",
+    "title": "Matisse Pharmaceuticals doses the first patient in SHIELDS-1, its Phase 2 trial of isupartob in sepsis",
+    "summary": "Isupartob, a strongly negatively charged polyanion, captures the extracellular histones released by the immune system during sepsis, which damage blood vessels, fuel inflammation and drive organ failure. The randomized, double-blind, placebo-controlled trial, run in intensive care at eight Thai hospitals, first compares three dose regimens (80 patients) and then a single dose (140 patients), infused for up to 120 hours; interim results are expected by mid-2027.",
+    "why": "Sepsis remains a graveyard for anti-inflammatory drugs: targeting one specific mediator of tissue damage, rather than the whole immune response, is a different bet. The Geleen company, funded by a Series A, secured FDA IND clearance and Fast Track designation in spring 2026: the mid-2027 interim readout will be its next catalyst.",
+    "place": "Geleen",
+    "sector": "Infectious disease",
+    "stage": "Series A",
+    "signalType": "clinical_update",
+    "url": "https://www.manilatimes.net/2026/11/26/tmt-newswire/globenewswire/matisse-pharmaceuticals-announces-first-patient-dosed-in-phase-2-sepsis-trial-shields-1/2478600"
   },
   "deal": {
-    "company": "ENPICOM",
-    "amount": "€22M",
+    "company": "Perha Pharmaceuticals",
+    "amount": "Undisclosed",
     "round": "Acquisition",
-    "thesis": "US-based Schrödinger is buying this 's-Hertogenbosch company, founded by Nicola Bonzanni, for about €22M in cash; its software automates analysis of antibody repertoire sequencing data and ranks candidates with machine learning, and the deal closed the same day. The physics-based simulation specialist thus links upstream biologics discovery to its LiveDesign for Biologics optimization tool: a sign that consolidation of the software building blocks of AI for antibodies has begun, at a price that remains modest for a European platform.",
-    "sector": "AI drug discovery",
-    "url": "https://www.stocktitan.net/news/SDGR/schrodinger-acquires-enpicom-to-establish-end-to-end-computational-siuhbpu7x8k1.html"
+    "thesis": "US-based Ritzey Therapeutics, launched with a $112.5M Series A led by Vida Ventures, is buying the Roscoff biotech founded in 2019 by Laurent Meijer, and with it leucettinib-21, an oral inhibitor of the DYRK1A kinase (encoded on chromosome 21) derived from a marine sponge compound, whose 152-participant Phase 1 finished in June 2026; Ritzey now plans Phase 2 studies of beta-cell function in type 1 and type 2 diabetes and in Down syndrome. A textbook case of a French academic asset, funded by some €6M in rounds and a €2.5M EIC grant, moving under a US flag right after Phase 1 to be repositioned toward a far broader indication than the original one.",
+    "sector": "Biotech",
+    "url": "https://european-biotechnology.com/latest-news/ritzey-buys-little-known-french-biotech-perha-and-its-sea-sponge-inspired-drug/"
   },
   "brefsEurope": [
     {
-      "company": "Pharming",
-      "place": "Leiden",
+      "company": "Hansa Biopharma",
+      "place": "Lund",
       "sector": "Immunology",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Pharming pauses Ruconest production after a failed sterile fill test at its contract manufacturer and warns the FDA of a possible shortage",
-      "summary": "An aseptic process simulation (media fill) failed at the fill-finish subcontractor; production will resume only once the root cause is fixed and the process requalified, and stock covers the US market only until mid-December. Ruconest accounts for about 80% of revenue ($93.8M in the third quarter): shares fell 14.6% in Amsterdam.",
-      "url": "https://www.biospace.com/drug-delivery/pharming-pauses-ruconest-production-over-fill-finish-issue-threatening-us-supply"
+      "title": "SERB and Hansa ask the EMA to convert Idefirix's conditional approval into a standard marketing authorization",
+      "summary": "The filing rests on the European post-authorization study of imlifidase, an enzyme that cleaves IgG antibodies to enable kidney transplantation in highly sensitized patients: 90% of patients met the primary endpoint of one-year graft failure-free survival (patient survival 98%, graft survival 92%). SERB has held the European license since July; in the US, the FDA's decision is due on December 19.",
+      "url": "https://mfn.se/cis/a/hansa-biopharma/hansa-biopharma-ab-serb-pharmaceuticals-and-hansa-biopharma-announce-submission-to-ema-for-conversion-to-standard-marketing-authorization-of-idefirix-in-the-eu-0c57d872"
     },
     {
-      "company": "Bayer",
-      "place": "Leverkusen",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "reimbursement",
-      "strength": 3,
-      "title": "Bayer will pull Kerendia from the German market in mid-December, failing to secure an economically acceptable price",
-      "summary": "In October, the G-BA found no added benefit for finerenone in heart failure with an ejection fraction ≥ 40%; because the AMNOG system sets a single price across all indications, that also drags down reimbursement in chronic kidney disease. A signal for any European biotech targeting Germany, whose prices serve as a benchmark for other countries.",
-      "url": "https://pharmaphorum.com/news/bayer-pulls-kerendia-germany-over-pricing-regime"
-    },
-    {
-      "company": "Xbrane Biopharma",
-      "place": "Solna",
+      "company": "Dicot Pharma",
+      "place": "Uppsala",
       "sector": "Biotech",
       "pillar": "marche",
-      "signalType": "early_partnership",
+      "signalType": "regulatory_milestone",
       "strength": 3,
-      "title": "Xbrane grants Hong Kong Yongtao Pharmaceutical an exclusive license to Ximluci, its ranibizumab biosimilar, in Greater China",
-      "summary": "Yongtao funds registration, market access and commercialization in mainland China, Hong Kong, Macau and Taiwan, while Xbrane keeps manufacturing; $2M upfront if China's NMPA requires no local study, none otherwise, with profit sharing in both cases. NMPA feedback is expected in Q1 2027, with a filing targeted for Q2.",
-      "url": "https://nordiclifescience.org/xbrane-licenses-ximluci-to-yongtao-in-greater-china/"
+      "title": "Dicot Pharma wins French and Dutch clearance for the Phase 2b of LIB-01 in erectile dysfunction",
+      "summary": "Following Sweden, every participating country has now approved the study: at least 200 men across all severities, three monthly dose levels to select the Phase 3 dose, and a primary endpoint at week 12 on the IIEF-EF score. The first part, which sets the highest dose, has started in the US; European dosing will follow, expected in Q1 2027.",
+      "url": "https://nordiclifescience.org/dicot-pharma-cleared-to-run-phase-2b-study-in-france-and-the-netherlands/"
     },
     {
-      "company": "Valneva",
-      "place": "Saint-Herblain",
-      "sector": "Vaccines",
+      "company": "Stallergenes Greer",
+      "place": "Baar",
+      "sector": "Immunology",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "Germany extends Staloral Birch and Staloral 3 Trees to children and adolescents aged 5 to 17",
+      "summary": "The Paul-Ehrlich-Institut broadened the label of these liquid sublingual immunotherapies on the strength of the Phase 3b YOBI trial: 553 young patients in 12 European countries, with a 41.7% improvement in the combined score vs. placebo in the second pollen season. A pediatric opening for allergen immunotherapy, the day after Desentum's positive Phase 2.",
+      "url": "https://www.biospace.com/press-releases/stallergenes-greer-announces-the-extension-of-staloral-birch-and-staloral-3-trees-indications-to-children-and-adolescents-in-germany"
+    },
+    {
+      "company": "Parlement européen",
+      "place": "Strasbourg",
+      "sector": "Regulatory",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 3,
+      "title": "The European Parliament adopts the pharmaceutical reform and the Critical Medicines Act",
+      "summary": "New medicines will get eight years of data protection plus one year of market protection, up to 11 years in total under conditions; priority antimicrobials can earn a one-year transferable exclusivity voucher. The Critical Medicines Act passed 592 to 35; most provisions will apply two years after publication in the Official Journal.",
+      "url": "https://nordiclifescience.org/eu-pharma-reform-clears-parliament/"
+    },
+    {
+      "company": "Gabather",
+      "place": "Södertälje",
+      "sector": "Neuroscience",
       "pillar": "innovation",
       "signalType": "clinical_update",
       "strength": 2,
-      "title": "Valneva delays the next trial of its S4V2 Shigella vaccine while awaiting $143M in Pfizer payments tied to its Lyme disease vaccine",
-      "summary": "A new Phase 2 is meant to optimize dosing and schedule after two encouraging but insufficiently consistent trials; it will wait on regulatory progress for LB6V, whose next three Pfizer milestones depend on first sales in Europe and the US. Cash fell to €85.2M at end-September, and LimmaTech (now part of Lilly) can take back rights in low- and middle-income countries if no global health partner is found by the end of Phase 2.",
-      "url": "https://european-biotechnology.com/latest-news/valneva-delays-next-shigella-trial-as-it-awaits-143m-in-lyme-vaccine-payments-from-pfizer/"
+      "title": "Gabather doses the first patient in the TOTEMS Phase 2 of GT-002 for cognitive impairment in schizophrenia",
+      "summary": "GT-002, a partial positive allosteric modulator of the GABA-A receptor, is compared with oxazepam and placebo in a cross-over design in 20 patients and 30 healthy volunteers at the CNSR research center in Glostrup (Copenhagen University Hospital), funded by Innovation Fund Denmark. No drug is approved for these cognitive symptoms.",
+      "url": "https://www.prnewswire.com/news-releases/first-patient-dosed-in-gabathers-phase-ii-totems-study-of-gt-002-302951318.html"
     },
     {
-      "company": "Zelluna",
-      "place": "Oslo",
-      "sector": "Cell therapy",
-      "pillar": "marche",
-      "signalType": "leadership_hire",
+      "company": "Ovo Labs",
+      "place": "Munich",
+      "sector": "Fertility",
+      "pillar": "innovation",
+      "signalType": "publication_preprint",
       "strength": 2,
-      "title": "Zelluna proposes Adrian Woolfson (ex-Sangamo, Replay founder) as chair and Nerida Scott (ex-J&J Innovation EMEA) for its board",
-      "summary": "The Norwegian biotech develops allogeneic NK cells armed with a T-cell receptor (TCR-NK), including ZI-MA4-1 against MAGE-A4 in solid tumors. An extraordinary general meeting on December 18 is due to approve two business development-savvy profiles, with co-founder Anders Tuv staying on as a director.",
-      "url": "https://www.biospace.com/press-releases/zelluna-asa-notice-of-egm-international-biopharma-executives-adrian-woolfson-and-nerida-scott-proposed-as-new-chair-and-board-member-to-further-strengthen-the-board"
+      "title": "In Science, the Max Planck team of Melina Schuh, Ovo Labs co-founder, stabilizes chromosomes in aging eggs",
+      "summary": "The engineered protein TALhesin binds near the center of chromosomes to hold sister chromatids together, standing in for cohesin that wears out with age: in older mice, the share of properly connected eggs rose from 47% to 74%. Ovo Labs has licensed the technology from Max Planck; it has not yet been tested in human eggs, while 50% to 80% of embryos from women over 40 carry chromosomal abnormalities.",
+      "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/"
     },
     {
-      "company": "Bayer",
-      "place": "Leverkusen",
+      "company": "Cellbox Labs",
+      "place": "Latvia",
+      "sector": "Research tools",
+      "pillar": "naissances",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Latvia's Cellbox Labs secures up to €6.5M from the EIC Accelerator for its AI-driven organ-on-chip",
+      "summary": "A €2.5M grant and up to €4M in equity from the EIC Fund will fund microbiome-compatible human tissue models, automated experimentation (sensors, microscopy, environmental control) and an AI optimization loop. Targets: drug discovery and microbiome-based therapeutics.",
+      "url": "https://www.bionity.com/en/news/1190418/cellbox-labs-secures-up-to-6-5-million-in-eic-accelerator-funding-to-develop-ai-powered-organ-on-chip-platform.html"
+    },
+    {
+      "company": "MicThera",
+      "place": "Lodi Vecchio",
       "sector": "Oncology",
       "pillar": "financement",
-      "signalType": "early_partnership",
-      "strength": 4,
-      "title": "Bayer pays China's Hansoh $150M upfront for HS-20122, a Phase 1 EGFR × c-MET bispecific ADC, in a deal worth up to $3.25B",
-      "summary": "Exclusive global license outside mainland China, Hong Kong, Macau and Taiwan, with up to $3.1B in milestones plus royalties, subject to antitrust clearance; the first target indication is non-small cell lung cancer. A comparable: Europe's big drugmakers keep sourcing early ADCs from China rather than from the continent's biotechs.",
-      "url": "https://european-biotechnology.com/latest-news/bayer-taps-china-again-with-up-to-3-25b-oncology-deal-with-hansoh/"
-    },
-    {
-      "company": "Fluicell",
-      "place": "Mölndal",
-      "sector": "Biotech",
-      "pillar": "financement",
       "signalType": "funding_round",
-      "strength": 2,
-      "title": "Fluicell launches a fully guaranteed SEK 13.7M rights issue to commercialize its Nexocyte bioprinting platform",
-      "summary": "Subscription commitments of about 34% (chair, CEO and shareholders) with Aqurat underwriting the rest; subscription runs December 7–21. Net proceeds, estimated at SEK 11.3M, will fund commercialization of AI-supported heart tissue models for drug screening and its type 1 diabetes collaborations.",
-      "url": "https://mfn.se/a/fluicell/fluicell-genomfor-fullt-garanterad-foretradesemission-om-cirka-13-7-msek-for-att-accelerera-kommersialiseringen-av-nexocyte-inom-fler-marknadssegment"
+      "stage": "Seed",
+      "strength": 3,
+      "title": "MicThera, a spinout of the Institute of Oncology Research in Bellinzona, raises a €4.75M seed for a prostate cancer biologic",
+      "summary": "The round, co-led by Indaco Venture Partners and LIFE BioCEEd with private investors, will take PV048, a first-in-class biologic active in treatment-resistant models, to clinical candidate nomination and IND-enabling studies. The Italian-Swiss company mines metagenomic data for its drug candidates.",
+      "url": "https://www.startupticker.ch/en/news/micthera-raises-4-75-million-to-advance-biologic-for-prostate-cancer"
     }
   ],
   "brefsIntl": [
     {
-      "company": "Cogent Biosciences",
-      "place": "Waltham",
-      "sector": "Oncology",
+      "company": "CMS",
+      "place": "Baltimore",
+      "sector": "Regulatory",
       "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 5,
-      "title": "FDA approves Cogent's Ekitna (bezuclastinib) with sunitinib in gastrointestinal stromal tumors after imatinib",
-      "summary": "In the PEAK trial, the combination extended median progression-free survival to 16.5 months versus 9.2 months on sunitinib alone (50% lower risk), with a 46% versus 26% response rate. Cogent's first drug, it opens up second-line GIST, where GSK is readying its KIT inhibitor velzatinib, in Phase 3.",
-      "url": "https://pharmaphorum.com/news/cogent-gets-its-first-drug-approval-gist-drug-ekitna"
+      "signalType": "reimbursement",
+      "strength": 3,
+      "title": "Medicare sets 2028 negotiated prices for 13 drugs, including Novartis' Cosentyx",
+      "summary": "In the third round under the Inflation Reduction Act, the agency estimates savings of $9.2B (45%) based on 2025 spending, or $5.5B once rebates are included; Trulicity, Orencia, Entyvio and Cimzia are also on the list, while Boehringer Ingelheim renegotiated Tradjenta. A benchmark for valuing European assets aimed at the US market.",
+      "url": "https://www.biopharmadive.com/news/inflation-reduction-act-2028-final-medicare-drug-price/875717/"
     }
   ],
   "word": {
-    "term": "AIT",
-    "full": "Allergen Immunotherapy",
-    "fr": "Allergen desensitization",
-    "field": "Immunology / allergy",
-    "definition": "A treatment that gives small, rising doses of the offending allergen (pollen, peanut, dust mites…) to retrain the immune system so it stops overreacting, rather than merely masking symptoms.",
+    "term": "EV",
+    "full": "Extracellular Vesicles",
+    "fr": "Extracellular vesicles",
+    "field": "Regenerative medicine / drug delivery",
+    "definition": "Membrane-bound nanoparticles, with no nucleus and unable to replicate, that cells naturally release to carry proteins, lipids and RNA to other cells: biotech uses them as a \"cell-free\" medicine or as a delivery vehicle.",
     "parts": [
-      { "label": "Allergen", "role": "the target, natural or recombinant, sometimes modified to be less reactive" },
-      { "label": "Route of administration", "role": "subcutaneous, sublingual, oral or skin (patch)" },
-      { "label": "Regulatory T cells", "role": "the conductors of tolerance (IL-10, TGF-β)" }
+      { "label": "Producer cell", "role": "often mesenchymal stromal cells, which give them their anti-inflammatory and reparative effect" },
+      { "label": "Lipid bilayer", "role": "the envelope that protects the cargo and carries surface ligands" },
+      { "label": "Cargo", "role": "proteins, mRNA and microRNA that reprogram the recipient cell" }
     ],
     "how": [
-      { "n": "1", "h": "Early desensitization", "t": "From the first doses, mast cells and basophils release less histamine, even before antibodies change." },
-      { "n": "2", "h": "Tolerance", "t": "Allergen-specific regulatory T cells emerge and secrete IL-10 and TGF-β, which dampen the allergic response." },
-      { "n": "3", "h": "Blocking antibodies", "t": "Specific IgG4 rises and captures the allergen before it reaches IgE, whose levels decline slowly over months or years." }
+      { "n": "1", "h": "Production", "t": "Cells are grown, often in bioreactors, and secrete vesicles into their culture medium." },
+      { "n": "2", "h": "Purification", "t": "Vesicles are separated and characterized (size, markers, purity) by ultrafiltration or chromatography, then quality-controlled batch by batch." },
+      { "n": "3", "h": "Action", "t": "Once administered, they bind receptors or are taken up by target cells and release their cargo, which dampens inflammation and promotes repair." }
     ],
-    "why": "It is the only treatment able to change the course of allergy, but it remains demanding (years of regular dosing) and can trigger reactions with natural extracts. Modified recombinant allergens, peptides and patches promise shorter, safer courses: Desentum just showed a lasting effect after ten weeks, and DBV is awaiting the FDA on its peanut patch. A niche long overlooked by VCs, where proof of durability can trigger licensing or M&A.",
+    "why": "They promise the effect of cell therapies without their risks (no proliferation or differentiation) and with the logistics of a drug: a storable, even freeze-dried, re-dosable product. The bottleneck is industrial: batch heterogeneity, non-standardized processes and poorly predictive potency assays, which the ISEV society's MISEV2023 guidelines aim to frame. Alofisel's failure at Takeda cooled the cell-based approach in Crohn's fistulas; EVerZom, backed by €13.3M in EU funding, is playing the vesicle version. A still underfunded field where Europe is ahead.",
     "startups": [
-      { "name": "Desentum", "use": "Modified recombinant birch allergen DM-101PX: positive Phase 2 BASIT in November 2026 after 10 weeks of treatment; peanut and cat programs in preclinical", "place": "Espoo, Finland" },
-      { "name": "Aravax", "use": "PVX108, a peptide mix mimicking the T-cell epitopes of peanut allergens, with no whole protein; positive Phase 2 in children and FDA Fast Track designation", "place": "Melbourne, Australia" },
-      { "name": "DBV Technologies", "use": "Epicutaneous immunotherapy with the Viaskin Peanut patch: BLA filed with the FDA in September 2026 for children aged 4 to 7, after the Phase 3 VITESSE trial", "place": "Châtillon, France" }
+      { "name": "EVerZom", "use": "Inserm spinout: EVerGel, adipose stromal cell vesicles with a hydrogel, heading into a Phase 1b/2a in Crohn's fistulas (€13.3M SATURN EU consortium, November 2026)", "place": "Paris, France" },
+      { "name": "EXO Biologics", "use": "EXOB-001, mesenchymal stem cell vesicles given via the endotracheal route to prevent bronchopulmonary dysplasia in extremely preterm infants; EVENEW Phase 1/2, the first EMA-authorized trial of this kind of exosome", "place": "Belgium" },
+      { "name": "Ciloa", "use": "CNRS and University of Montpellier spinout engineering exosomes to carry proteins; APN-sEV (adiponectin) candidate in type 2 diabetes and obesity, backed by €6.5M from France 2030 in 2025", "place": "Montpellier, France" }
     ],
     "sources": [
-      { "publisher": "Clinical and Translational Allergy", "title": "Mechanisms of allergen-specific immunotherapy", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3395833/" },
-      { "publisher": "World Allergy Organization Journal", "title": "Mechanisms of allergen-specific immunotherapy and immune tolerance to allergens", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4430874/" },
-      { "publisher": "Clinical Trials Arena", "title": "Desentum's Phase II birch allergy trial meets primary endpoint", "url": "https://www.clinicaltrialsarena.com/news/desentums-phase-ii-birch-allergy-trial-meets-primary-endpoint/" }
+      { "publisher": "Journal of Extracellular Vesicles (ISEV)", "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850029/" },
+      { "publisher": "Frontiers in Bioengineering and Biotechnology", "title": "Mesenchymal Stem Cell-Derived Extracellular Vesicles: Opportunities and Challenges for Clinical Translation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7511661/" },
+      { "publisher": "European Biotechnology Magazine", "title": "EVerZom leads €13.3M EU project to test extracellular vesicles where Takeda failed", "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/" }
     ]
   }
 }

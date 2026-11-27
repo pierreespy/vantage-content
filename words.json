@@ -2,6 +2,81 @@
   "generatedAt": "2026-11-27",
   "words": [
     {
+      "term": "EV",
+      "full": "Extracellular Vesicles (vésicules extracellulaires)",
+      "fr": "Vésicules extracellulaires",
+      "field": "Médecine régénérative / délivrance de médicaments",
+      "definition": "Des nanoparticules entourées d'une membrane, sans noyau et incapables de se répliquer, que les cellules libèrent naturellement pour transporter protéines, lipides et ARN vers d'autres cellules : la biotech s'en sert comme d'un médicament « acellulaire » ou comme d'un véhicule.",
+      "parts": [
+        {
+          "label": "Cellule productrice",
+          "role": "souvent des cellules stromales mésenchymateuses, qui donnent leur effet anti-inflammatoire et réparateur"
+        },
+        {
+          "label": "Bicouche lipidique",
+          "role": "l'enveloppe qui protège la cargaison et porte des ligands de surface"
+        },
+        {
+          "label": "Cargaison",
+          "role": "protéines, ARNm et microARN qui reprogramment la cellule receveuse"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Production",
+          "t": "Les cellules sont cultivées, souvent en bioréacteur, et sécrètent les vésicules dans leur milieu de culture."
+        },
+        {
+          "n": "2",
+          "h": "Purification",
+          "t": "Les vésicules sont séparées et caractérisées (taille, marqueurs, pureté) par ultrafiltration ou chromatographie, puis contrôlées lot par lot."
+        },
+        {
+          "n": "3",
+          "h": "Action",
+          "t": "Une fois administrées, elles se lient aux récepteurs ou sont absorbées par les cellules cibles et y libèrent leur cargaison, qui calme l'inflammation et favorise la réparation."
+        }
+      ],
+      "why": "Elles promettent l'effet des thérapies cellulaires sans leurs risques (pas de prolifération ni de différenciation) et avec une logistique de médicament : produit conservable, voire lyophilisé, et réinjectable. Le frein reste industriel : hétérogénéité des lots, procédés non standardisés et tests d'activité peu prédictifs, que les guides MISEV2023 de la société savante ISEV tentent d'encadrer. L'échec d'Alofisel chez Takeda a refroidi l'approche cellulaire dans les fistules de Crohn ; EVerZom, porté par 13,3 M€ de fonds européens, joue la version vésiculaire. Un domaine encore sous-financé où l'Europe est en avance.",
+      "startups": [
+        {
+          "name": "EVerZom",
+          "use": "Spin-off de l'Inserm : EVerGel, vésicules de cellules stromales du tissu adipeux avec hydrogel, en route vers une phase 1b/2a dans les fistules de Crohn (consortium européen SATURN de 13,3 M€, novembre 2026)",
+          "place": "Paris, France"
+        },
+        {
+          "name": "EXO Biologics",
+          "use": "EXOB-001, vésicules de cellules souches mésenchymateuses administrées par voie endotrachéale pour prévenir la dysplasie bronchopulmonaire du grand prématuré ; phase 1/2 EVENEW, premier essai d'exosomes de ce type autorisé par l'EMA",
+          "place": "Belgique"
+        },
+        {
+          "name": "Ciloa",
+          "use": "Spin-off du CNRS et de l'université de Montpellier qui ingénie des exosomes pour transporter des protéines ; candidat APN-sEV (adiponectine) dans le diabète de type 2 et l'obésité, soutenu par 6,5 M€ de France 2030 en 2025",
+          "place": "Montpellier, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Journal of Extracellular Vesicles (ISEV)",
+          "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850029/"
+        },
+        {
+          "publisher": "Frontiers in Bioengineering and Biotechnology",
+          "title": "Mesenchymal Stem Cell-Derived Extracellular Vesicles: Opportunities and Challenges for Clinical Translation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7511661/"
+        },
+        {
+          "publisher": "European Biotechnology Magazine",
+          "title": "EVerZom leads €13.3M EU project to test extracellular vesicles where Takeda failed",
+          "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/"
+        }
+      ],
+      "date": "2026-11-27",
+      "dateLong": "27 nov. 2026"
+    },
+    {
       "term": "Intraoperative Margin Assessment",
       "full": "Intraoperative Margin Assessment (évaluation peropératoire des marges)",
       "fr": "Contrôle des marges en cours d'opération",
