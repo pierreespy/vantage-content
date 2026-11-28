@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-28",
   "words": [
     {
+      "term": "TAM",
+      "full": "Tumor-Associated Macrophages (macrophages associés aux tumeurs)",
+      "fr": "Macrophages associés aux tumeurs",
+      "field": "Immuno-oncologie",
+      "definition": "Les macrophages, cellules « nettoyeuses » du système immunitaire, que la tumeur recrute et retourne à son profit pour freiner l'attaque immunitaire : la biotech cherche à les reprogrammer pour qu'ils se remettent à combattre le cancer.",
+      "parts": [
+        {
+          "label": "Macrophage suppresseur",
+          "role": "l'état « M2-like », pro-tumoral, qui calme les lymphocytes T et aide la tumeur à croître"
+        },
+        {
+          "label": "Récepteur cible",
+          "role": "le levier moléculaire : Clever-1, CD47-SIRPα, CD40, LILRB ou récepteurs Toll"
+        },
+        {
+          "label": "Molécule de reprogrammation",
+          "role": "souvent un anticorps qui bloque le signal suppresseur ou active le macrophage"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Recrutement",
+          "t": "La tumeur attire des monocytes du sang, qui se différencient sur place en macrophages et prennent un profil immunosuppresseur."
+        },
+        {
+          "n": "2",
+          "h": "Blocage du signal",
+          "t": "Un anticorps vise un récepteur de ces macrophages, comme Clever-1 pour bexmarilimab ou SIRPα, le signal « ne me mange pas », pour BI 765063."
+        },
+        {
+          "n": "3",
+          "h": "Bascule antitumorale",
+          "t": "Reprogrammés, les macrophages mangent davantage les cellules tumorales, présentent leurs antigènes et relancent les lymphocytes T, d'où l'intérêt de les associer à d'autres traitements."
+        }
+      ],
+      "why": "Après les inhibiteurs de PD-1, le microenvironnement myéloïde est l'un des grands chantiers de l'immuno-oncologie : une revue de l'université de Turku recense près de 200 agents testés dans plus de 700 essais. Mais l'efficacité en monothérapie reste rare, autour de 5 % de réponses pour plusieurs molécules, et beaucoup de programmes ont été abandonnés : la valeur ira aux associations, aux biomarqueurs de sélection et aux cibles plus spécifiques des macrophages. La cession de mitazalimab (CD40) par Alligator pour 0,75 M$ comptant et le démarrage de la phase 2b contrôlée de Faron montrent les deux faces du marché.",
+      "startups": [
+        {
+          "name": "Faron Pharmaceuticals",
+          "use": "Bexmarilimab, anticorps anti-Clever-1 qui reprogramme les macrophages immunosuppresseurs ; premier patient traité en novembre 2026 dans la phase 2b randomisée BEXERA (syndromes myélodysplasiques à haut risque, avec azacitidine)",
+          "place": "Turku, Finlande"
+        },
+        {
+          "name": "Macomics",
+          "use": "Spin-off de l'université d'Édimbourg qui développe des anticorps ciblant les macrophages ; MACO-355, anticorps pan-LILRB qui reprogramme les macrophages suppresseurs en préclinique, présenté en 2024 en études CMC et précliniques préalables à l'IND",
+          "place": "Édimbourg, Royaume-Uni"
+        },
+        {
+          "name": "OSE Immunotherapeutics",
+          "use": "BI 765063, anticorps anti-SIRPα qui lève le signal « ne me mange pas » CD47-SIRPα pour relancer la phagocytose des macrophages ; en phase 1 dans les tumeurs solides avancées, sous licence à Boehringer Ingelheim",
+          "place": "Nantes, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "British Journal of Cancer",
+          "title": "Clinical landscape of macrophage-reprogramming cancer immunotherapies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333586/"
+        },
+        {
+          "publisher": "BioSpace (communiqué Faron)",
+          "title": "Faron Announces First Patient Dosed in Phase 2b BEXERA Trial of Bexmarilimab in Treatment-Naïve HR-MDS",
+          "url": "https://www.biospace.com/press-releases/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds"
+        },
+        {
+          "publisher": "Manufacturing Chemist",
+          "title": "Macomics unveils Anti-Pan-LILRB monoclonal antibody programme",
+          "url": "https://manufacturingchemist.com/Macomics-MACO-355-monoclonal-antibody-programme"
+        },
+        {
+          "publisher": "OSE Immunotherapeutics",
+          "title": "Research & Development",
+          "url": "https://www.ose-immuno.com/en/research-development/"
+        }
+      ],
+      "date": "2026-11-28",
+      "dateLong": "28 nov. 2026"
+    },
+    {
       "term": "Automated Seizure Detection",
       "full": "Automated Seizure Detection (détection automatique des crises d'épilepsie)",
       "fr": "Détection automatique des crises d'épilepsie",

@@ -1,175 +1,174 @@
 {
-  "dateLong": "Nov 27, 2026",
+  "dateLong": "Nov 28, 2026",
   "ticker": [
-    { "company": "MATISSE", "amount": "1st patient", "kind": "tech" },
-    { "company": "HANSA", "amount": "EMA", "kind": "reg" },
-    { "company": "DICOT", "amount": "CTA", "kind": "reg" },
-    { "company": "EVERZOM", "amount": "€13.3M EU", "kind": "lev" },
-    { "company": "MICTHERA", "amount": "€4.75M", "kind": "lev" },
-    { "company": "PERHA", "amount": "Acquired", "kind": "mna" }
+    { "company": "UNDARA", "amount": "€4.15M", "kind": "lev" },
+    { "company": "FARON", "amount": "1st patient", "kind": "tech" },
+    { "company": "THREEPOINT", "amount": "Spin-off", "kind": "new" },
+    { "company": "ALLIGATOR", "amount": "Asset sale", "kind": "mna" },
+    { "company": "EMA", "amount": "TEV", "kind": "reg" },
+    { "company": "OREXO", "amount": "SEK 175M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "EU funding · Extracellular vesicles",
-    "title": "Inserm spinout EVerZom leads a €13.3M European consortium to test its extracellular vesicles in Crohn's disease fistulas, where Takeda failed",
-    "deck": "The five-year SATURN project brings together 12 partners in France, Spain, Germany, Italy and Belgium under the scientific leadership of Damián García-Olmo (Fundación Jiménez Díaz University Hospital, Madrid); EVerZom receives €2.7M to take EVerGel, vesicles derived from adipose-tissue mesenchymal stromal cells, injected around the perianal fistula with a temperature-sensitive hydrogel placed in the tract, into a Phase 1b/2a (29 to 38 patients, first patient targeted for October 2027) and then a Phase 2b (about 120 patients). Takeda withdrew its cell therapy Alofisel from the EU market in December 2024 after its Phase 3 failed (48.8% combined remission vs. 46.3% on placebo): the Paris-based biotech, which raised a €10M Series A in 2025 and now puts more than 80% of its resources into EVerGel, is betting on a more stable, standardized and re-dosable product.",
-    "company": "EVerZom",
-    "stage": "Series A",
-    "sector": "Biotech",
-    "pillar": "financement",
-    "signalType": "grant_award",
+    "kicker": "Spin-off · Cell therapy",
+    "title": "Undara Bio, a Barcelona spin-off of CNIO, Hospital del Mar and Banc de Sang i Teixits, raises a €4.15M seed led by Invivo Partners for a cell immunotherapy against glioblastoma",
+    "deck": "The round, led by Invivo Partners with the Institut Català de Finances and BStartup (Banco Sabadell), is meant to take the first candidate from the RiPPLE platform (Redirected Immune Potentiation through Programmable Living Effectors), built on Luis Álvarez-Vallina's research, towards the clinic: engineered immune cells that target the tumour while reawakening the patient's own anti-tumour immunity, to get around the tumour heterogeneity and immune escape that defeat conventional T-cell therapies. Glioblastoma, the most common primary brain tumour in adults, carries a median survival of 15 to 16 months; the company, led by Carolina Pola with Luis Paz-Ares as co-founder, is CNIO's fourth equity stake, and CNIO has licensed it a jointly owned patent.",
+    "company": "Undara Bio",
+    "stage": "Seed",
+    "sector": "Cell therapy",
+    "pillar": "naissances",
+    "signalType": "funding_round",
     "strength": 3,
-    "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/"
+    "url": "https://www.cnio.es/en/news/cnio-strengthens-its-commitment-to-cell-based-immunotherapy-for-solid-tumours-with-an-equity-stake-in-new-spin-off-undara-bio/"
   },
   "milestone": {
-    "company": "Matisse Pharmaceuticals",
-    "milestone": "1st patient · Phase 2",
-    "title": "Matisse Pharmaceuticals doses the first patient in SHIELDS-1, its Phase 2 trial of isupartob in sepsis",
-    "summary": "Isupartob, a strongly negatively charged polyanion, captures the extracellular histones released by the immune system during sepsis, which damage blood vessels, fuel inflammation and drive organ failure. The randomized, double-blind, placebo-controlled trial, run in intensive care at eight Thai hospitals, first compares three dose regimens (80 patients) and then a single dose (140 patients), infused for up to 120 hours; interim results are expected by mid-2027.",
-    "why": "Sepsis remains a graveyard for anti-inflammatory drugs: targeting one specific mediator of tissue damage, rather than the whole immune response, is a different bet. The Geleen company, funded by a Series A, secured FDA IND clearance and Fast Track designation in spring 2026: the mid-2027 interim readout will be its next catalyst.",
-    "place": "Geleen",
-    "sector": "Infectious disease",
-    "stage": "Series A",
+    "company": "Faron Pharmaceuticals",
+    "milestone": "1st patient · Phase 2b",
+    "title": "Faron doses the first patient in BEXERA, its first randomised placebo-controlled study of bexmarilimab in higher-risk myelodysplastic syndromes",
+    "summary": "Bexmarilimab is a humanised antibody against Clever-1, a receptor on immunosuppressive macrophages that is also expressed on malignant blasts in the bone marrow. The double-blind Phase 2b compares two doses (1 and 3 mg/kg) plus azacitidine against placebo plus azacitidine in around 90 treatment-naïve patients across the UK, the US and continental Europe; the first patient was dosed at King's College Hospital, London.",
+    "why": "In the Phase 1/2 BEXMAB study, the combination produced a 45% complete remission rate in the frontline setting, lasting a median 16.1 months: BEXERA must confirm that signal against a true control arm and set the Phase 3 dose. For the Turku biotech, it is the decisive test of the 'reprogram the macrophages' thesis in a blood cancer where azacitidine alone hits a ceiling.",
+    "place": "Turku",
+    "sector": "Oncology",
     "signalType": "clinical_update",
-    "url": "https://www.manilatimes.net/2026/11/26/tmt-newswire/globenewswire/matisse-pharmaceuticals-announces-first-patient-dosed-in-phase-2-sepsis-trial-shields-1/2478600"
+    "url": "https://www.biospace.com/press-releases/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds"
   },
   "deal": {
-    "company": "Perha Pharmaceuticals",
-    "amount": "Undisclosed",
-    "round": "Acquisition",
-    "thesis": "US-based Ritzey Therapeutics, launched with a $112.5M Series A led by Vida Ventures, is buying the Roscoff biotech founded in 2019 by Laurent Meijer, and with it leucettinib-21, an oral inhibitor of the DYRK1A kinase (encoded on chromosome 21) derived from a marine sponge compound, whose 152-participant Phase 1 finished in June 2026; Ritzey now plans Phase 2 studies of beta-cell function in type 1 and type 2 diabetes and in Down syndrome. A textbook case of a French academic asset, funded by some €6M in rounds and a €2.5M EIC grant, moving under a US flag right after Phase 1 to be repositioned toward a far broader indication than the original one.",
-    "sector": "Biotech",
-    "url": "https://european-biotechnology.com/latest-news/ritzey-buys-little-known-french-biotech-perha-and-its-sea-sponge-inspired-drug/"
+    "company": "Alligator Bioscience",
+    "amount": "$0.75M upfront",
+    "round": "Asset sale",
+    "thesis": "The Lund biotech closed on November 27 the sale of all rights to mitazalimab, a CD40 agonist antibody, to US-based Biossil: $0.75M in cash, up to $108M in milestones and mid-single-digit royalties, with Biossil taking on all development, manufacturing and patent costs. The token entry price for a clinical asset shows how much of a buyer's market it is for cash-strapped biotechs: Alligator, which says its cash runs through December 31, 2027, now relies mostly on milestones and royalties from HLX22 (in Phase 3 at Henlius, data expected in the second half of 2027) and mitazalimab.",
+    "sector": "Oncology",
+    "url": "https://www.biospace.com/press-releases/alligator-bioscience-completes-sale-of-mitazalimab-to-biossil"
   },
   "brefsEurope": [
     {
-      "company": "Hansa Biopharma",
-      "place": "Lund",
-      "sector": "Immunology",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
+      "company": "Threepoint Therapeutics",
+      "place": "Hørsholm",
+      "sector": "RNA",
+      "pillar": "naissances",
+      "signalType": "company_incorporation",
       "strength": 3,
-      "title": "SERB and Hansa ask the EMA to convert Idefirix's conditional approval into a standard marketing authorization",
-      "summary": "The filing rests on the European post-authorization study of imlifidase, an enzyme that cleaves IgG antibodies to enable kidney transplantation in highly sensitized patients: 90% of patients met the primary endpoint of one-year graft failure-free survival (patient survival 98%, graft survival 92%). SERB has held the European license since July; in the US, the FDA's decision is due on December 19.",
-      "url": "https://mfn.se/cis/a/hansa-biopharma/hansa-biopharma-ab-serb-pharmaceuticals-and-hansa-biopharma-announce-submission-to-ema-for-conversion-to-standard-marketing-authorization-of-idefirix-in-the-eu-0c57d872"
+      "title": "Contera Pharma spins its RNA business out into a new company, Threepoint Therapeutics, open to outside investors",
+      "summary": "Owned, like Contera, by South Korea's Bukwang Pharmaceutical and led by Thomas Sager, Threepoint takes over the October 2025 collaboration with Lundbeck and a portfolio headed by CP-102, an antisense oligonucleotide for Canavan disease and its first programme expected in the clinic. Contera keeps CP-012, a bedtime levodopa-carbidopa tablet heading into Phase 2 (DAWN-PD) in Parkinson's disease.",
+      "url": "https://european-biotechnology.com/latest-news/contera-spins-out-rna-drug-company-threepoint-opening-door-to-outside-investment/"
     },
     {
-      "company": "Dicot Pharma",
-      "place": "Uppsala",
-      "sector": "Biotech",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Dicot Pharma wins French and Dutch clearance for the Phase 2b of LIB-01 in erectile dysfunction",
-      "summary": "Following Sweden, every participating country has now approved the study: at least 200 men across all severities, three monthly dose levels to select the Phase 3 dose, and a primary endpoint at week 12 on the IIEF-EF score. The first part, which sets the highest dose, has started in the US; European dosing will follow, expected in Q1 2027.",
-      "url": "https://nordiclifescience.org/dicot-pharma-cleared-to-run-phase-2b-study-in-france-and-the-netherlands/"
+      "company": "Cambridge Stem Cell Institute",
+      "place": "Cambridge",
+      "sector": "Research tools",
+      "pillar": "innovation",
+      "signalType": "grant_award",
+      "strength": 2,
+      "title": "Cambridge opens a £20M national hub to validate human-based alternatives to animal models",
+      "summary": "Led by Matthias Zilbauer at the Cambridge Stem Cell Institute, with the MRC Laboratory of Molecular Biology and the Wellcome Sanger Institute, the hub opened on November 27 to validate organoids, advanced cell models and AI models (NAMs) and to build shared standards with regulators. The goal: cut the failure rate of more than 90% among drug candidates that enter clinical trials.",
+      "url": "https://www.cam.ac.uk/research/news/new-uk-hub-launches-to-advance-next-generation-human-disease-models"
     },
     {
-      "company": "Stallergenes Greer",
-      "place": "Baar",
-      "sector": "Immunology",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "Germany extends Staloral Birch and Staloral 3 Trees to children and adolescents aged 5 to 17",
-      "summary": "The Paul-Ehrlich-Institut broadened the label of these liquid sublingual immunotherapies on the strength of the Phase 3b YOBI trial: 553 young patients in 12 European countries, with a 41.7% improvement in the combined score vs. placebo in the second pollen season. A pediatric opening for allergen immunotherapy, the day after Desentum's positive Phase 2.",
-      "url": "https://www.biospace.com/press-releases/stallergenes-greer-announces-the-extension-of-staloral-birch-and-staloral-3-trees-indications-to-children-and-adolescents-in-germany"
-    },
-    {
-      "company": "Parlement européen",
-      "place": "Strasbourg",
+      "company": "EMA",
+      "place": "Amsterdam",
       "sector": "Regulatory",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
-      "strength": 3,
-      "title": "The European Parliament adopts the pharmaceutical reform and the Critical Medicines Act",
-      "summary": "New medicines will get eight years of data protection plus one year of market protection, up to 11 years in total under conditions; priority antimicrobials can earn a one-year transferable exclusivity voucher. The Critical Medicines Act passed 592 to 35; most provisions will apply two years after publication in the Official Journal.",
-      "url": "https://nordiclifescience.org/eu-pharma-reform-clears-parliament/"
-    },
-    {
-      "company": "Gabather",
-      "place": "Södertälje",
-      "sector": "Neuroscience",
-      "pillar": "innovation",
-      "signalType": "clinical_update",
       "strength": 2,
-      "title": "Gabather doses the first patient in the TOTEMS Phase 2 of GT-002 for cognitive impairment in schizophrenia",
-      "summary": "GT-002, a partial positive allosteric modulator of the GABA-A receptor, is compared with oxazepam and placebo in a cross-over design in 20 patients and 30 healthy volunteers at the CNSR research center in Glostrup (Copenhagen University Hospital), funded by Innovation Fund Denmark. No drug is approved for these cognitive symptoms.",
-      "url": "https://www.prnewswire.com/news-releases/first-patient-dosed-in-gabathers-phase-ii-totems-study-of-gt-002-302951318.html"
+      "title": "EMA opens consultation on the criteria for the transferable exclusivity voucher for priority antibiotics",
+      "summary": "Created by the EU pharmaceutical reform, the voucher (TEV) adds 12 months of data protection to a product of the holder's choice; it will be requested in an initial marketing authorisation application once the provisions take effect, expected in December 2026. The CHMP draft requires an antimicrobial active against a multidrug-resistant organism, a significant clinical benefit and a new mechanism; comments are open until January 31, 2027.",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/antimicrobial-resistance/priority-antimicrobials-transferable-data-exclusivity-vouchers"
     },
     {
-      "company": "Ovo Labs",
-      "place": "Munich",
-      "sector": "Fertility",
-      "pillar": "innovation",
+      "company": "DARWIN EU",
+      "place": "Amsterdam",
+      "sector": "Regulatory",
+      "pillar": "marche",
       "signalType": "publication_preprint",
       "strength": 2,
-      "title": "In Science, the Max Planck team of Melina Schuh, Ovo Labs co-founder, stabilizes chromosomes in aging eggs",
-      "summary": "The engineered protein TALhesin binds near the center of chromosomes to hold sister chromatids together, standing in for cohesin that wears out with age: in older mice, the share of properly connected eggs rose from 47% to 74%. Ovo Labs has licensed the technology from Max Planck; it has not yet been tested in human eggs, while 50% to 80% of embryos from women over 40 carry chromosomal abnormalities.",
-      "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/"
+      "title": "An EMA DARWIN EU study shows obesity has become the leading indication for GLP-1s in Europe",
+      "summary": "Across more than 1.6 million people who started a GLP-1 between 2015 and 2025, in 12 databases from ten countries, obesity became the most common indication in several populations from 2022, driven by semaglutide and tirzepatide; prescribing dips coincide with shortages reported since 2022. A real-world evidence base that will weigh on future filings from obesity challengers.",
+      "url": "https://www.ema.europa.eu/en/news/use-glp-1-medicines-shifts-towards-obesity-treatment-europe-new-study-shows"
     },
     {
-      "company": "Cellbox Labs",
-      "place": "Latvia",
-      "sector": "Research tools",
-      "pillar": "naissances",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Latvia's Cellbox Labs secures up to €6.5M from the EIC Accelerator for its AI-driven organ-on-chip",
-      "summary": "A €2.5M grant and up to €4M in equity from the EIC Fund will fund microbiome-compatible human tissue models, automated experimentation (sensors, microscopy, environmental control) and an AI optimization loop. Targets: drug discovery and microbiome-based therapeutics.",
-      "url": "https://www.bionity.com/en/news/1190418/cellbox-labs-secures-up-to-6-5-million-in-eic-accelerator-funding-to-develop-ai-powered-organ-on-chip-platform.html"
+      "company": "Bavarian Nordic",
+      "place": "Copenhagen",
+      "sector": "Vaccines",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "Bavarian Nordic hires its new CFO, Allan Bødskov Andersen, from Topsoe",
+      "summary": "Currently CFO of clean-energy group Topsoe, previously CFO of DLF and 16 years at Ørsted, where he worked on its IPO, he will join by June 2027 at the latest to succeed Henrik Juuel. An outside-industry profile picked by new CEO Tarja Stenvall.",
+      "url": "https://www.biospace.com/press-releases/allan-bødskov-andersen-appointed-chief-financial-officer-of-bavarian-nordic"
     },
     {
-      "company": "MicThera",
-      "place": "Lodi Vecchio",
-      "sector": "Oncology",
+      "company": "OXB",
+      "place": "Oxford",
+      "sector": "Gene therapy",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
+      "strength": 2,
+      "title": "Viral vector manufacturer OXB adds former Sensorion CEO Nawal Ouzren to its board",
+      "summary": "CEO of French hearing-loss biotech Sensorion from 2017 to 2026, and previously at Shire and Baxalta, she joins OXB's board as an independent non-executive director on January 4, 2027. The Oxford CDMO makes lentiviral, AAV, adenoviral and MVA vectors at sites in the UK, Lyon, Strasbourg and the US.",
+      "url": "https://www.biospace.com/press-releases/oxb-appoints-nawal-ouzren-as-independent-non-executive-director"
+    },
+    {
+      "company": "Orexo",
+      "place": "Uppsala",
+      "sector": "Biotech",
       "pillar": "financement",
       "signalType": "funding_round",
-      "stage": "Seed",
       "strength": 3,
-      "title": "MicThera, a spinout of the Institute of Oncology Research in Bellinzona, raises a €4.75M seed for a prostate cancer biologic",
-      "summary": "The round, co-led by Indaco Venture Partners and LIFE BioCEEd with private investors, will take PV048, a first-in-class biologic active in treatment-resistant models, to clinical candidate nomination and IND-enabling studies. The Italian-Swiss company mines metagenomic data for its drug candidates.",
-      "url": "https://www.startupticker.ch/en/news/micthera-raises-4-75-million-to-advance-biologic-for-prostate-cancer"
+      "title": "Orexo closes its rights issue: SEK 175M gross, 69.2% subscribed and topped up by DNB",
+      "summary": "Launched at SEK 0.80 per share for about SEK 253M, the issue brings in about SEK 175M gross and SEK 145M net; DNB Bank, which underwrote about SEK 159M, had to take up 28% of the shares. Dilution of about 86% for shareholders who did not participate, a sign of how hard it is for listed Nordic biotechs to raise money.",
+      "url": "https://mfn.se/a/orexo/orexo-announces-the-outcome-of-the-rights-issue"
     }
   ],
   "brefsIntl": [
     {
-      "company": "CMS",
-      "place": "Baltimore",
-      "sector": "Regulatory",
+      "company": "Moderna",
+      "place": "Entebbe",
+      "sector": "Vaccines",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Uganda launches Africa's first trial of an mRNA vaccine against Bundibugyo ebolavirus, with Moderna",
+      "summary": "The Uganda Virus Research Institute is enrolling 224 healthy volunteers aged 1 to 65 in this Phase 1 safety and immunogenicity study, against the strain behind the outbreak in the DRC, for which no vaccine or treatment exists. A real-world test of how fast the mRNA platform can respond to an outbreak.",
+      "url": "https://medicalxpress.com/news/2026-11-mrna-ebola-vaccine-trial-uganda.html"
+    },
+    {
+      "company": "Vertex Pharmaceuticals",
+      "place": "Boston",
+      "sector": "Immunology",
       "pillar": "marche",
-      "signalType": "reimbursement",
-      "strength": 3,
-      "title": "Medicare sets 2028 negotiated prices for 13 drugs, including Novartis' Cosentyx",
-      "summary": "In the third round under the Inflation Reduction Act, the agency estimates savings of $9.2B (45%) based on 2025 spending, or $5.5B once rebates are included; Trulicity, Orencia, Entyvio and Cimzia are also on the list, while Boehringer Ingelheim renegotiated Tradjenta. A benchmark for valuing European assets aimed at the US market.",
-      "url": "https://www.biopharmadive.com/news/inflation-reduction-act-2028-final-medicare-drug-price/875717/"
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "FDA pushes back its decision on Vertex's povetacicept in IgA nephropathy by three months",
+      "summary": "Vertex's answer to a late-cycle information request was classed as a 'major amendment': the decision on this dual BAFF/APRIL inhibitor moves from November 30, 2026 to no later than February 28, 2027. A delay of the same length for this dual-target fusion protein, with the FDA saying only that it needs more review time.",
+      "url": "https://www.biospace.com/press-releases/vertex-announces-extension-of-pdufa-target-action-date-by-up-to-three-months-as-fda-completes-review-of-the-biologics-license-application-for-povetacicept-in-iga-nephropathy"
     }
   ],
   "word": {
-    "term": "EV",
-    "full": "Extracellular Vesicles",
-    "fr": "Extracellular vesicles",
-    "field": "Regenerative medicine / drug delivery",
-    "definition": "Membrane-bound nanoparticles, with no nucleus and unable to replicate, that cells naturally release to carry proteins, lipids and RNA to other cells: biotech uses them as a \"cell-free\" medicine or as a delivery vehicle.",
+    "term": "TAM",
+    "full": "Tumor-Associated Macrophages",
+    "fr": "Tumor-associated macrophages",
+    "field": "Immuno-oncology",
+    "definition": "Macrophages, the immune system's 'clean-up' cells, that the tumour recruits and turns to its advantage to hold back the immune attack: biotechs aim to reprogram them so they fight the cancer again.",
     "parts": [
-      { "label": "Producer cell", "role": "often mesenchymal stromal cells, which give them their anti-inflammatory and reparative effect" },
-      { "label": "Lipid bilayer", "role": "the envelope that protects the cargo and carries surface ligands" },
-      { "label": "Cargo", "role": "proteins, mRNA and microRNA that reprogram the recipient cell" }
+      { "label": "Suppressive macrophage", "role": "the pro-tumour 'M2-like' state that dampens T cells and helps the tumour grow" },
+      { "label": "Target receptor", "role": "the molecular lever: Clever-1, CD47-SIRPα, CD40, LILRB or Toll-like receptors" },
+      { "label": "Reprogramming molecule", "role": "often an antibody that blocks the suppressive signal or activates the macrophage" }
     ],
     "how": [
-      { "n": "1", "h": "Production", "t": "Cells are grown, often in bioreactors, and secrete vesicles into their culture medium." },
-      { "n": "2", "h": "Purification", "t": "Vesicles are separated and characterized (size, markers, purity) by ultrafiltration or chromatography, then quality-controlled batch by batch." },
-      { "n": "3", "h": "Action", "t": "Once administered, they bind receptors or are taken up by target cells and release their cargo, which dampens inflammation and promotes repair." }
+      { "n": "1", "h": "Recruitment", "t": "The tumour draws in monocytes from the blood, which mature on site into macrophages and take on an immunosuppressive profile." },
+      { "n": "2", "h": "Signal blockade", "t": "An antibody hits a receptor on these macrophages, such as Clever-1 for bexmarilimab or SIRPα, the 'don't eat me' signal, for BI 765063." },
+      { "n": "3", "h": "Anti-tumour switch", "t": "Once reprogrammed, macrophages engulf more tumour cells, present their antigens and re-energise T cells, which is why they are combined with other treatments." }
     ],
-    "why": "They promise the effect of cell therapies without their risks (no proliferation or differentiation) and with the logistics of a drug: a storable, even freeze-dried, re-dosable product. The bottleneck is industrial: batch heterogeneity, non-standardized processes and poorly predictive potency assays, which the ISEV society's MISEV2023 guidelines aim to frame. Alofisel's failure at Takeda cooled the cell-based approach in Crohn's fistulas; EVerZom, backed by €13.3M in EU funding, is playing the vesicle version. A still underfunded field where Europe is ahead.",
+    "why": "After PD-1 inhibitors, the myeloid microenvironment is one of immuno-oncology's big frontiers: a University of Turku review counts nearly 200 agents tested in more than 700 trials. But monotherapy efficacy remains rare, around 5% response rates for several molecules, and many programmes have been dropped: value will go to combinations, patient-selection biomarkers and more macrophage-specific targets. Alligator's sale of mitazalimab (CD40) for $0.75M in cash and the start of Faron's controlled Phase 2b show both sides of the market.",
     "startups": [
-      { "name": "EVerZom", "use": "Inserm spinout: EVerGel, adipose stromal cell vesicles with a hydrogel, heading into a Phase 1b/2a in Crohn's fistulas (€13.3M SATURN EU consortium, November 2026)", "place": "Paris, France" },
-      { "name": "EXO Biologics", "use": "EXOB-001, mesenchymal stem cell vesicles given via the endotracheal route to prevent bronchopulmonary dysplasia in extremely preterm infants; EVENEW Phase 1/2, the first EMA-authorized trial of this kind of exosome", "place": "Belgium" },
-      { "name": "Ciloa", "use": "CNRS and University of Montpellier spinout engineering exosomes to carry proteins; APN-sEV (adiponectin) candidate in type 2 diabetes and obesity, backed by €6.5M from France 2030 in 2025", "place": "Montpellier, France" }
+      { "name": "Faron Pharmaceuticals", "use": "Bexmarilimab, an anti-Clever-1 antibody that reprograms immunosuppressive macrophages; first patient dosed in November 2026 in the randomised Phase 2b BEXERA (higher-risk myelodysplastic syndromes, with azacitidine)", "place": "Turku, Finland" },
+      { "name": "Macomics", "use": "University of Edinburgh spin-out developing macrophage-targeting antibodies; MACO-355, a pan-LILRB antibody that reprograms suppressive macrophages preclinically, described in 2024 as in CMC and IND-enabling studies", "place": "Edinburgh, UK" },
+      { "name": "OSE Immunotherapeutics", "use": "BI 765063, an anti-SIRPα antibody that lifts the CD47-SIRPα 'don't eat me' signal to restore macrophage phagocytosis; in Phase 1 in advanced solid tumours, licensed to Boehringer Ingelheim", "place": "Nantes, France" }
     ],
     "sources": [
-      { "publisher": "Journal of Extracellular Vesicles (ISEV)", "title": "Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10850029/" },
-      { "publisher": "Frontiers in Bioengineering and Biotechnology", "title": "Mesenchymal Stem Cell-Derived Extracellular Vesicles: Opportunities and Challenges for Clinical Translation", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7511661/" },
-      { "publisher": "European Biotechnology Magazine", "title": "EVerZom leads €13.3M EU project to test extracellular vesicles where Takeda failed", "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/" }
+      { "publisher": "British Journal of Cancer", "title": "Clinical landscape of macrophage-reprogramming cancer immunotherapies", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333586/" },
+      { "publisher": "BioSpace (communiqué Faron)", "title": "Faron Announces First Patient Dosed in Phase 2b BEXERA Trial of Bexmarilimab in Treatment-Naïve HR-MDS", "url": "https://www.biospace.com/press-releases/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds" },
+      { "publisher": "Manufacturing Chemist", "title": "Macomics unveils Anti-Pan-LILRB monoclonal antibody programme", "url": "https://manufacturingchemist.com/Macomics-MACO-355-monoclonal-antibody-programme" },
+      { "publisher": "OSE Immunotherapeutics", "title": "Research & Development", "url": "https://www.ose-immuno.com/en/research-development/" }
     ]
   }
 }

@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-28",
   "words": [
     {
+      "term": "TAM",
+      "full": "Tumor-Associated Macrophages",
+      "fr": "Tumor-associated macrophages",
+      "field": "Immuno-oncology",
+      "definition": "Macrophages, the immune system's 'clean-up' cells, that the tumour recruits and turns to its advantage to hold back the immune attack: biotechs aim to reprogram them so they fight the cancer again.",
+      "parts": [
+        {
+          "label": "Suppressive macrophage",
+          "role": "the pro-tumour 'M2-like' state that dampens T cells and helps the tumour grow"
+        },
+        {
+          "label": "Target receptor",
+          "role": "the molecular lever: Clever-1, CD47-SIRPα, CD40, LILRB or Toll-like receptors"
+        },
+        {
+          "label": "Reprogramming molecule",
+          "role": "often an antibody that blocks the suppressive signal or activates the macrophage"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Recruitment",
+          "t": "The tumour draws in monocytes from the blood, which mature on site into macrophages and take on an immunosuppressive profile."
+        },
+        {
+          "n": "2",
+          "h": "Signal blockade",
+          "t": "An antibody hits a receptor on these macrophages, such as Clever-1 for bexmarilimab or SIRPα, the 'don't eat me' signal, for BI 765063."
+        },
+        {
+          "n": "3",
+          "h": "Anti-tumour switch",
+          "t": "Once reprogrammed, macrophages engulf more tumour cells, present their antigens and re-energise T cells, which is why they are combined with other treatments."
+        }
+      ],
+      "why": "After PD-1 inhibitors, the myeloid microenvironment is one of immuno-oncology's big frontiers: a University of Turku review counts nearly 200 agents tested in more than 700 trials. But monotherapy efficacy remains rare, around 5% response rates for several molecules, and many programmes have been dropped: value will go to combinations, patient-selection biomarkers and more macrophage-specific targets. Alligator's sale of mitazalimab (CD40) for $0.75M in cash and the start of Faron's controlled Phase 2b show both sides of the market.",
+      "startups": [
+        {
+          "name": "Faron Pharmaceuticals",
+          "use": "Bexmarilimab, an anti-Clever-1 antibody that reprograms immunosuppressive macrophages; first patient dosed in November 2026 in the randomised Phase 2b BEXERA (higher-risk myelodysplastic syndromes, with azacitidine)",
+          "place": "Turku, Finland"
+        },
+        {
+          "name": "Macomics",
+          "use": "University of Edinburgh spin-out developing macrophage-targeting antibodies; MACO-355, a pan-LILRB antibody that reprograms suppressive macrophages preclinically, described in 2024 as in CMC and IND-enabling studies",
+          "place": "Edinburgh, UK"
+        },
+        {
+          "name": "OSE Immunotherapeutics",
+          "use": "BI 765063, an anti-SIRPα antibody that lifts the CD47-SIRPα 'don't eat me' signal to restore macrophage phagocytosis; in Phase 1 in advanced solid tumours, licensed to Boehringer Ingelheim",
+          "place": "Nantes, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "British Journal of Cancer",
+          "title": "Clinical landscape of macrophage-reprogramming cancer immunotherapies",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11333586/"
+        },
+        {
+          "publisher": "BioSpace (communiqué Faron)",
+          "title": "Faron Announces First Patient Dosed in Phase 2b BEXERA Trial of Bexmarilimab in Treatment-Naïve HR-MDS",
+          "url": "https://www.biospace.com/press-releases/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds"
+        },
+        {
+          "publisher": "Manufacturing Chemist",
+          "title": "Macomics unveils Anti-Pan-LILRB monoclonal antibody programme",
+          "url": "https://manufacturingchemist.com/Macomics-MACO-355-monoclonal-antibody-programme"
+        },
+        {
+          "publisher": "OSE Immunotherapeutics",
+          "title": "Research & Development",
+          "url": "https://www.ose-immuno.com/en/research-development/"
+        }
+      ],
+      "date": "2026-11-28",
+      "dateLong": "Nov 28, 2026"
+    },
+    {
       "term": "Automated Seizure Detection",
       "full": "Automated Seizure Detection",
       "fr": "Automatic detection of epileptic seizures",

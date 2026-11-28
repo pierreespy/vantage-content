@@ -2,6 +2,78 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-28",
+      "company": "Undara Bio",
+      "title": "Undara Bio, spin-off barcelonaise du CNIO, de l'Hospital del Mar et de la Banc de Sang i Teixits, lève 4,15 M€ en seed auprès d'Invivo Partners pour une immunothérapie cellulaire contre le glioblastome",
+      "url": "https://www.cnio.es/en/news/cnio-strengthens-its-commitment-to-cell-based-immunotherapy-for-solid-tumours-with-an-equity-stake-in-new-spin-off-undara-bio/"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Faron Pharmaceuticals",
+      "title": "Faron traite le premier patient de BEXERA, sa première étude randomisée contre placebo de bexmarilimab dans les syndromes myélodysplasiques à haut risque",
+      "url": "https://www.biospace.com/press-releases/faron-announces-first-patient-dosed-in-phase-2b-bexera-trial-of-bexmarilimab-in-treatment-naive-hr-mds"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Alligator Bioscience",
+      "title": "Alligator Bioscience · Cession d'actif",
+      "url": "https://www.biospace.com/press-releases/alligator-bioscience-completes-sale-of-mitazalimab-to-biossil"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Threepoint Therapeutics",
+      "title": "Contera Pharma sépare son activité ARN dans une nouvelle société, Threepoint Therapeutics, ouverte aux investisseurs extérieurs",
+      "url": "https://european-biotechnology.com/latest-news/contera-spins-out-rna-drug-company-threepoint-opening-door-to-outside-investment/"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Cambridge Stem Cell Institute",
+      "title": "Cambridge inaugure un hub national de 20 M£ pour valider les modèles humains alternatifs à l'animal",
+      "url": "https://www.cam.ac.uk/research/news/new-uk-hub-launches-to-advance-next-generation-human-disease-models"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "EMA",
+      "title": "L'EMA met en consultation les critères du bon d'exclusivité transférable pour les antibiotiques prioritaires",
+      "url": "https://www.ema.europa.eu/en/human-regulatory-overview/public-health-threats/antimicrobial-resistance/priority-antimicrobials-transferable-data-exclusivity-vouchers"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "DARWIN EU",
+      "title": "Une étude DARWIN EU de l'EMA montre que l'obésité est devenue la première indication des GLP-1 en Europe",
+      "url": "https://www.ema.europa.eu/en/news/use-glp-1-medicines-shifts-towards-obesity-treatment-europe-new-study-shows"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Bavarian Nordic",
+      "title": "Bavarian Nordic recrute chez Topsoe son nouveau directeur financier, Allan Bødskov Andersen",
+      "url": "https://www.biospace.com/press-releases/allan-bødskov-andersen-appointed-chief-financial-officer-of-bavarian-nordic"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "OXB",
+      "title": "Le façonnier de vecteurs viraux OXB fait entrer Nawal Ouzren, ex-directrice générale de Sensorion, à son conseil",
+      "url": "https://www.biospace.com/press-releases/oxb-appoints-nawal-ouzren-as-independent-non-executive-director"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Orexo",
+      "title": "Orexo boucle son augmentation de capital : 175 MSEK bruts, souscrite à 69,2 % et complétée par DNB",
+      "url": "https://mfn.se/a/orexo/orexo-announces-the-outcome-of-the-rights-issue"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Moderna",
+      "title": "L'Ouganda lance avec Moderna le premier essai africain d'un vaccin ARNm contre le virus Ebola Bundibugyo",
+      "url": "https://medicalxpress.com/news/2026-11-mrna-ebola-vaccine-trial-uganda.html"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Vertex Pharmaceuticals",
+      "title": "La FDA repousse de trois mois sa décision sur povetacicept de Vertex dans la néphropathie à IgA",
+      "url": "https://www.biospace.com/press-releases/vertex-announces-extension-of-pdufa-target-action-date-by-up-to-three-months-as-fda-completes-review-of-the-biologics-license-application-for-povetacicept-in-iga-nephropathy"
+    },
+    {
       "date": "2026-11-27",
       "company": "EVerZom",
       "title": "La spin-off de l'Inserm EVerZom prend la tête d'un consortium européen de 13,3 M€ pour tester ses vésicules extracellulaires dans les fistules de la maladie de Crohn, là où Takeda a échoué",
@@ -846,72 +918,6 @@
       "company": "Wave Life Sciences",
       "title": "Wave Life Sciences montre à ObesityWeek que son siRNA anti-INHBE réduit la graisse viscérale en préservant la masse maigre",
       "url": "https://www.biospace.com/press-releases/wave-life-sciences-highlights-wve-007-inhbe-sirna-progress-at-obesityweek-2026"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Orakl Oncology",
-      "title": "Orakl Oncology, spin-off de Gustave Roussy, lève 34 M$ en Series A pour prédire la réponse aux anticancéreux avec organoïdes et IA",
-      "url": "https://european-biotechnology.com/latest-news/orakl-raises-34m-to-scale-ai-platform-predicting-cancer-drug-responses/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Commit Biologics",
-      "title": "Commit Biologics désigne COM002, premier candidat de sa plateforme d'anticorps qui recrutent le complément",
-      "url": "https://www.biospace.com/press-releases/commit-biologics-nominates-first-development-candidate-from-bice-its-complement-system-engaging-platform-and-strengthens-senior-leadership"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Neurosterix",
-      "title": "Neurosterix · Series B",
-      "url": "https://european-biotechnology.com/latest-news/addex-spinout-neurosterix-raises-105m-to-advance-schizophrenia-drug-into-phase-2/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Viacure Therapeutics",
-      "title": "Viacure, spin-off de Helmholtz Munich, obtient un projet de près de 10 M€ pour son anticorps anti-Inceptor dans le diabète de type 2",
-      "url": "https://www.bionity.com/en/news/1190319/helmholtz-munich-spin-off-new-approach-to-type-2-diabetes-moves-towards-clinical-testing.html"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Windward Bio",
-      "title": "Windward Bio fixe son IPO sur le Nasdaq à 17 $ par action, avec 50 M$ de Sanofi en placement privé",
-      "url": "https://www.investing.com/news/stock-market-news/windward-bio-prices-ipo-at-17-per-share-on-nasdaq-432SI-5023682"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Mironid",
-      "title": "Mironid renforce son board et son équipe clinique pour la phase 1 de LoAc dans la polykystose rénale",
-      "url": "https://www.biospace.com/press-releases/mironid-strengthens-board-and-clinical-team-to-support-next-phase-of-growth"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "TolerogenixX",
-      "title": "TolerogenixX publie dans Kidney International une preuve de concept de ses cellules tolérogènes MIC dans la néphrite lupique",
-      "url": "https://www.biospace.com/press-releases/new-kidney-international-study-provides-preclinical-proof-of-concept-for-tolerogenixxs-mic-platform-in-lupus-nephritis"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Hemogenyx Pharmaceuticals",
-      "title": "Hemogenyx traite le premier patient de la deuxième cohorte de son CAR-T HG-CT-1 dans la leucémie aiguë myéloïde",
-      "url": "https://www.biospace.com/press-releases/hemogenyx-pharmaceuticals-plc-announces-first-patient-treated-in-second-adult-dose-cohort"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Lakefront Biotherapeutics",
-      "title": "Lakefront (ex-Galapagos) abandonne son inhibiteur de TYK2 GLPG3667, faute de partenaire",
-      "url": "https://european-biotechnology.com/latest-news/lakefront-abandons-galapagos-developed-tyk2-inhibitor-after-unsuccessful-partnering-efforts/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Biolojic Design",
-      "title": "Biolojic Design obtient le feu vert de la FDA pour BD200, premier « multibody » conjugué à entrer en clinique",
-      "url": "https://www.biospace.com/press-releases/biolojic-design-receives-u-s-fda-clearance-of-investigational-new-drug-ind-application-for-bd200-the-first-multibody-to-enter-clinical-trials"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Pfizer",
-      "title": "Blackstone apporte jusqu'à 1,5 Md$ à Pfizer pour financer la phase 3 de son GLP-1 mensuel berobenatide",
-      "url": "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/"
     }
   ]
 }
