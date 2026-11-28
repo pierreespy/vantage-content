@@ -2,6 +2,86 @@
   "generatedAt": "2026-11-28",
   "words": [
     {
+      "term": "PECAN",
+      "full": "Prise En Charge Anticipée Numérique",
+      "fr": "Prise en charge anticipée numérique",
+      "field": "Accès au marché & remboursement",
+      "definition": "Un remboursement provisoire d'un an par l'Assurance maladie, accordé à une thérapie numérique ou à une télésurveillance présumée innovante, le temps qu'elle termine de prouver son bénéfice.",
+      "parts": [
+        {
+          "label": "Avis de la CNEDiMTS",
+          "role": "le filtre clinique : la HAS juge si l'innovation est présumée et si les premières données sont crédibles"
+        },
+        {
+          "label": "Conformité ANS",
+          "role": "le filtre technique : interopérabilité et sécurité vérifiées par l'Agence du numérique en santé"
+        },
+        {
+          "label": "Prise en charge d'un an",
+          "role": "le pont financier : remboursement dérogatoire avant le droit commun"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Déposer",
+          "t": "L'exploitant du dispositif dépose son dossier sur les plateformes Convergence (ANS) et Sésame (HAS) ; l'ANS vérifie l'éligibilité et la conformité en sécurité et interopérabilité."
+        },
+        {
+          "n": "2",
+          "h": "Être évalué",
+          "t": "La CNEDiMTS et l'ANS rendent leur avis, puis les ministres décident ; en cas d'accord, le dispositif est remboursé pendant un an."
+        },
+        {
+          "n": "3",
+          "h": "Basculer en droit commun",
+          "t": "L'exploitant doit demander l'inscription définitive dans les six mois (LPP, pour une thérapie numérique) ou les neuf mois (LATM, pour une télésurveillance), preuves cliniques à l'appui."
+        }
+      ],
+      "why": "Pour une startup de santé numérique française, la PECAN est souvent le premier revenu remboursé et le signal qu'attendent les investisseurs ; mais la barre de preuve est haute : Resilience et Diappymed viennent d'essuyer des refus, et Tilak ne l'a décrochée qu'après un refus de remboursement en droit commun. Pour un VC, la question clé devient le calendrier des essais comparatifs, pas seulement la traction commerciale.",
+      "startups": [
+        {
+          "name": "Tilak Healthcare",
+          "use": "Odysight, télésurveillance des maculopathies chroniques sur smartphone, remboursée via la PECAN après avis favorable de la HAS en 2025, huit mois après un refus de la HAS en droit commun ; plus de 30 000 patients",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Poppins (BMotion Technologies)",
+          "use": "Thérapie numérique par le jeu contre la dyslexie ; avis favorable de la CNEDiMTS à sa prise en charge anticipée en juin 2026, après une levée de 5 M€ menée par Racine² en 2025",
+          "place": "Paris, France"
+        },
+        {
+          "name": "Resilience",
+          "use": "Télésurveillance par données rapportées par les patients ; deux demandes PECAN pour Edra Pro en psychiatrie refusées (mars et novembre 2026), étude pivot attendue en mai 2027",
+          "place": "Paris, France"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "G_NIUS (Agence du numérique en santé)",
+          "title": "Advance Digital Care (PECAN)",
+          "url": "https://gnius.esante.gouv.fr/en/financing/reimbursement-profiles/advance-digital-care-pecan"
+        },
+        {
+          "publisher": "Tilak Healthcare",
+          "title": "Tilak Healthcare obtient le remboursement d'Odysight®, première solution de télésurveillance en ophtalmologie, via le dispositif PECAN",
+          "url": "https://tilakhealthcare.com/wp-content/uploads/2025/10/251010_Press_Release_PECAN_Tilak_FR.pdf"
+        },
+        {
+          "publisher": "Haute Autorité de santé",
+          "title": "POPPINS CLINICAL",
+          "url": "https://www.has-sante.fr/jcms/p_4121551/fr/poppins-clinical"
+        },
+        {
+          "publisher": "TICpharma",
+          "title": "Nouvel avis défavorable à la prise en charge anticipée du DM de télésurveillance en psychiatrie Edra Pro",
+          "url": "https://www.ticpharma.com/story/3434"
+        }
+      ],
+      "date": "2026-11-28",
+      "dateLong": "28 nov. 2026"
+    },
+    {
       "term": "TAM",
       "full": "Tumor-Associated Macrophages (macrophages associés aux tumeurs)",
       "fr": "Macrophages associés aux tumeurs",

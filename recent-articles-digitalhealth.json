@@ -2,6 +2,66 @@
   "_comment": "Mémoire des articles publiés dans l’édition (une, deal, brèves) sur ~14 jours. La tâche du matin la LIT pour ne pas republier les mêmes ; remember-articles.mjs la MET À JOUR après chaque édition (ajout du jour + élagage > 14 j). Voir GENERATION.md.",
   "articles": [
     {
+      "date": "2026-11-28",
+      "company": "Resilience",
+      "title": "Deuxième refus de la HAS pour la prise en charge anticipée d'Edra Pro, la télésurveillance psychiatrique de Resilience",
+      "url": "https://www.ticpharma.com/story/3434"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Isala",
+      "title": "À Isala, un questionnaire de triage numérique avant chaque consultation de suivi en néphrologie rend la moitié des rendez-vous inutiles",
+      "url": "https://www.icthealth.nl/nieuws/digitale-triage-bij-isala-moet-herhaalconsulten-beperken"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Haute Autorité de santé",
+      "title": "La HAS et la CNIL publient leur guide définitif « IA en contexte de soins » pour les établissements et les soignants",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Cour des comptes",
+      "title": "La Cour des comptes juge que les entrepôts de données de santé hospitaliers se sont déployés sans stratégie nationale",
+      "url": "https://www.silicon.fr/uncategorized/entrepots-de-donnees-de-sante-la-cour-des-comptes-pointe-un-deploiement-sans-strategie-claire-230710"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "ANSM",
+      "title": "L'ANSM recense huit erreurs médicamenteuses liées à des conseils d'IA conversationnelle et alerte patients et soignants",
+      "url": "https://www.lemoniteurdespharmacies.fr/business/numerique/e-sante/intelligence-artificielle-8-erreurs-medicamenteuses-signalees-par-lansm"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Diappymed",
+      "title": "Avis défavorable de la CNEDiMTS à la prise en charge anticipée d'Ekiyou, application d'aide au dosage de l'insuline",
+      "url": "https://www.ticpharma.com/story/3433"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "KBV",
+      "title": "Allemagne : le supplément pour l'authentification des patients inconnus en vidéoconsultation prolongé jusqu'à fin 2028",
+      "url": "https://www.aerzteblatt.de/themen/e-health/videosprechstunde-zuschlag-fur-authentifizierung-von-patienten-verlangert-0e26777e-d174-4661-82f9-cee869b71e90"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "Banque des Territoires",
+      "title": "Cinq nouveaux lauréats pour l'appel à projets France 2030 des tiers-lieux d'expérimentation en santé numérique",
+      "url": "https://www.ticsante.com/story?id=8542"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "ViaSlim",
+      "title": "La clinique numérique de l'obésité ViaSlim renonce à son deal de « Höhle der Löwen » et prépare une levée début 2027",
+      "url": "https://www.startupticker.ch/index.php/en/news/hoehle-der-loewen-viaslim-ueberzeugt-mit-digitaler-abnehmklinik"
+    },
+    {
+      "date": "2026-11-28",
+      "company": "AYUN",
+      "title": "La clinique de médecine préventive AYUN lève plus de 900 000 CHF auprès de 93 investisseurs en crowdinvesting",
+      "url": "https://www.startupticker.ch/en/news/fast-eine-million-von-der-crowd-fuer-longevity-startup-ayun"
+    },
+    {
       "date": "2026-11-27",
       "company": "TORTUS",
       "title": "Aux urgences de Leeds, le scribe vocal de TORTUS réduit de 61 % le temps de documentation et sera étendu à tout le service",
@@ -822,48 +882,6 @@
       "company": "Redesign Health",
       "title": "Redesign Health ouvre une activité de growth equity, de la Series A au pré-IPO, dans l'IA de santé",
       "url": "https://hitconsultant.net/2026/11/13/redesign-health-launches-growth-equity-practice-series-a-pre-ipo-healthcare-ai/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Kry",
-      "title": "Kry rachète Min Doktor et dépasse 150 lieux de soins physiques en Suède",
-      "url": "https://www.investorsinhealthcare.com/articles/category/news/sweden-kry-acquires-primary-care-provider-min-doktor-to-expand-its-swedish-clinic-network/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Flo Health",
-      "title": "Flo Health obtient la certification ISO 13485, socle de futurs logiciels dispositifs médicaux",
-      "url": "https://www.prnewswire.com/news-releases/flo-health-earns-iso-13485-certification-for-its-quality-management-system-302936804.html"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Deepinvoice",
-      "title": "Deepinvoice lève 700 000 € en pre-seed, mené par BDOC Plus AG, pour automatiser la facturation médicale par l'IA",
-      "url": "https://www.startup.eu/investments/deepinvoice-700-k-pre-seed-11-2026"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Barts Health NHS Trust",
-      "title": "À Barts Health, 1 350 soignants ont déjà utilisé l'agent IA clinique d'Oracle, ouvert à plus de 2 000",
-      "url": "https://htn.co.uk/2026/11/12/barts-health-project-sees-ai-eye-tracking-tech-to-help-patients-with-speech-difficulties-communicate/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Croydon Health Services NHS Trust",
-      "title": "Croydon Health Services fixe ses priorités IA : voix ambiante aux urgences, Patienteer et dépistage du cancer de la prostate",
-      "url": "https://htn.co.uk/2026/11/12/croydon-health-services-sets-out-ai-use-cases-across-discharge-planning-virtual-wards-documentation-referral-triage-imaging/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "Laguna Health",
-      "title": "Elligint Health rachète Laguna Health et son IA conversationnelle pour la gestion des soins",
-      "url": "https://hitconsultant.net/2026/11/12/elligint-health-acquires-laguna-health-conversational-ai-care-management-helios/"
-    },
-    {
-      "date": "2026-11-13",
-      "company": "ONC et CMS",
-      "title": "L'ONC et les CMS lancent des sprints de test de 10 à 12 semaines pour l'autorisation préalable électronique en FHIR",
-      "url": "https://hitconsultant.net/2026/11/12/onc-cms-launch-electronic-prior-authorization-testing-initiative-fhirplace-2027/"
     }
   ]
 }

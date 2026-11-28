@@ -1,212 +1,106 @@
 {
-  "dateLong": "Nov 27, 2026",
+  "dateLong": "Nov 28, 2026",
   "ticker": [
-    {
-      "company": "TORTUS",
-      "amount": "−61% documentation",
-      "kind": "tech"
-    },
-    {
-      "company": "UKL · AMPEL",
-      "amount": "Open source",
-      "kind": "tech"
-    },
-    {
-      "company": "EU4HEALTH",
-      "amount": "AI / EHDS calls",
-      "kind": "reg"
-    },
-    {
-      "company": "ANS",
-      "amount": "Ségur wave 2",
-      "kind": "reg"
-    },
-    {
-      "company": "KOSME",
-      "amount": "€1M",
-      "kind": "lev"
-    },
-    {
-      "company": "CATHARINA · TU/E",
-      "amount": "€3.5M NWO",
-      "kind": "lev"
-    }
+    { "company": "RESILIENCE", "amount": "PECAN ✗", "kind": "reg" },
+    { "company": "ISALA", "amount": "−35% time", "kind": "tech" },
+    { "company": "HAS · CNIL", "amount": "AI guide", "kind": "reg" },
+    { "company": "COUR DES COMPTES", "amount": "Data audit", "kind": "reg" },
+    { "company": "TIERS-LIEUX FRANCE 2030", "amount": "5 winners", "kind": "new" },
+    { "company": "AYUN", "amount": "CHF 0.9M", "kind": "lev" }
   ],
   "lead": {
-    "kicker": "AI voice scribe · Emergency care",
-    "title": "In Leeds' emergency department, TORTUS's AI voice scribe cuts documentation time by 61% and will be extended across the whole department",
-    "deck": "Published on November 26, results from a three-month pilot (February to April) in the ambulatory area of the Leeds General Infirmary emergency department show 61% less documentation time and an average of 13 minutes saved per consultation, accuracy that stayed high on medications and allergies, and no serious safety incidents; the tool listens to the consultation through wireless microphones and drafts the note, which the clinician finalises after a manual check. Leeds Teaching Hospitals will now roll it out in phases to emergency nurses and to the majors, minors and paediatrics areas. For the London startup, which in June became the first ambient voice technology to achieve Class IIa medical device status under UKCA marking, it is proof of use in the hospital's most demanding setting, just as NHS trusts launch their AI scribe procurements.",
-    "company": "TORTUS",
-    "sector": "Clinical AI",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
+    "kicker": "PECAN opinion · Mental health",
+    "title": "France's HAS rejects early reimbursement for Resilience's Edra Pro psychiatric remote monitoring for a second time",
+    "deck": "The CNEDiMTS has issued a new unfavourable opinion on early reimbursement (PECAN) for Edra Pro, Resilience's app that collects and analyses patient-reported outcomes and alerts the care team when a patient deteriorates, for adults treated for moderate-to-severe major depressive episodes or bipolar disorder; the new retrospective single-arm observational study and satisfaction survey submitted show some favourable signals, but \"no signal was detected on depressive symptoms\", the primary endpoint of the pivotal study whose final results are due in May 2027. It is the second refusal after March 2026, and it lands weeks after the €48M raise led by PSG Equity to extend the platform to other specialties and abroad: psychiatry, new ground for this oncology remote-monitoring specialist, will need comparative data before it is reimbursed in France.",
+    "company": "Resilience",
+    "stage": "Growth",
+    "sector": "Mental health",
+    "pillar": "marche",
+    "signalType": "reimbursement",
     "strength": 3,
-    "url": "https://healthcaretoday.com/article/emergency-clinicians-in-leeds-benefit-from-ai-note-taking-tool"
+    "url": "https://www.ticpharma.com/story/3434"
   },
   "milestone": {
-    "company": "Universitätsklinikum Leipzig",
-    "milestone": "Open-source release",
-    "title": "Leipzig University Hospital open-sources \"Ampel\", its clinical decision support system that alerts care teams to critical conditions that went unnoticed",
-    "summary": "Developed since 2018 within the MedKIT department of medical AI, the platform analyses digitally available patient data to flag risks and critical conditions, without replacing the physician's decision; it started in laboratory medicine and has grown into a cross-specialty infrastructure. The hospital is releasing source code, technical components, documentation and two preprints (regulatory concept and architecture) so other institutions can build their own software compliant with the EU MDR; Dresden is already testing the transfer and Schleswig-Holstein University Hospital is preparing a go-live in 2027.",
-    "why": "It is an alternative to buying proprietary software: a university hospital that builds and certifies its own tool, then shares it along with its regulatory approach. For decision-support vendors, it creates a \"commons\" competitor and raises the bar on transparency and in-house MDR compliance.",
-    "place": "Leipzig",
-    "sector": "Clinical AI",
-    "signalType": "publication_preprint",
-    "url": "https://www.aerzteblatt.de/themen/e-health/open-source-uniklinik-leipzig-stellt-sein-klinisches-entscheidungs-unterstutzungssystem-zur-verfugung-9daf50c6-24a9-44f0-bf12-2aea69a89118"
-  },
-  "deal": {
-    "company": "Kosme",
-    "amount": "€1M",
-    "round": "Seed",
-    "thesis": "The Rennes startup, co-founded by Stéphane Guivarc'h (founder of Office Santé, acquired in early 2026 by Groupe Crédit Agricole), raises about €1M from Bpifrance (Bourse French Tech), the Brittany Region, mutual insurer MBA Mutuelle and Alban Boyé (Trecobat) for a hybrid platform that helps healthcare professionals choose where and how to practise: job offers, zoning rules, public aid and territorial data in one place, personalised scoring and human support, free for clinicians, launching in early 2027. The thesis: in a country where 87% of the territory is classed as a medical desert, where France's 1.2 million health professionals set up practice becomes a data market that insurers and regions have every reason to fund.",
-    "sector": "Digital Health",
-    "url": "https://www.jaimelesstartups.fr/news/kosme-levee-de-fonds-1-millions-euros-soignants-lieu-exercice/"
+    "company": "Isala",
+    "milestone": "Pilot results",
+    "title": "At Isala, a digital triage questionnaire before each nephrology follow-up visit shows half of appointments are unnecessary",
+    "summary": "In the WACHT-NIET research project, run by the Zwolle hospital with regional GPs, the University of Twente and patients, chronic kidney disease patients receive a short digital questionnaire before their follow-up visit: do they want to see their specialist, and to discuss what? First results published on November 25: in 52% of cases both patient and clinician judged the consultation unnecessary, and total consultation time per patient fell by about 35%; the project is funded by a €499,000 ZonMw grant.",
+    "why": "Default follow-up visits for chronic disease are one of the largest pools of hospital capacity: a tool as simple as a pre-visit questionnaire frees up a third of it. For remote follow-up and triage vendors, it is a quantified argument and a model that can be transposed to other chronic specialties.",
+    "place": "Zwolle",
+    "sector": "Telehealth",
+    "signalType": "clinical_update",
+    "url": "https://www.icthealth.nl/nieuws/digitale-triage-bij-isala-moet-herhaalconsulten-beperken"
   },
   "brefsEurope": [
-    {
-      "company": "Ditto",
-      "place": "Rotterdam",
-      "sector": "Digital Health",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 3,
-      "title": "Ditto launches Ditto Familie to share a relative's care tracking, and insurer ONVZ offers it to members who are carers",
-      "summary": "Launched on November 26, the feature lets users manage several profiles (themselves, a parent, a child): the owner decides who has access and can revoke it, co-managers add appointments, record consultations and prepare questions, followers receive updates, all end-to-end encrypted. Dutch insurer ONVZ is actively offering it to informal carers; according to the SCP, one carer in five lacks knowledge about their relative's condition or medication.",
-      "url": "https://www.skipr.nl/nieuws/zorg-app-ditto-laat-familie-van-patient-voortaan-zorggegevens-inzien/"
-    },
-    {
-      "company": "Catharina Ziekenhuis",
-      "place": "Eindhoven",
-      "sector": "Clinical AI",
-      "pillar": "innovation",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Catharina Hospital and TU/e win €3.5M from NWO for OCTAVE-CAD, a digital twin of the heart that simulates treatments before choosing one",
-      "summary": "Over about six years, the project combines medical data, AI and digital heart models to test options and their risks virtually for patients with both a narrowed heart valve and narrowed coronary arteries. Interventional cardiologist Pim Tonino notes that a single patient may have seven or eight valve options: the computer should help predict the best one.",
-      "url": "https://www.skipr.nl/nieuws/catharina-ziekenhuis-krijgt-35-miljoen-voor-digitale-kopie-van-het-hart/"
-    },
-    {
-      "company": "North East and North Cumbria ICB",
-      "place": "Newcastle",
-      "sector": "Health data",
-      "pillar": "innovation",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "North East England's secure data environment is being used to map polypharmacy from the prescribing data of hundreds of GP practices",
-      "summary": "Newcastle University researchers are analysing how medicine use varies by age, sex, deprivation and over time, to target the groups that would benefit most from a medication review; GP prescribing data is de-identified and analysis happens in place with tools such as RStudio. Separately, NHS England is sounding out the market, for a total of £6.75M, on a hospital medicines data tool (stock, daily issuance, price comparison).",
-      "url": "https://htn.co.uk/2026/11/26/north-east-and-north-cumbria-secure-data-environment-analyses-medicines-use/"
-    },
-    {
-      "company": "OCDE",
-      "place": "Europe",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "publication_preprint",
-      "strength": 2,
-      "title": "Health at a Glance: Europe 2026: only 5 of 24 countries surveyed have a national health AI strategy, and 28% of Europeans access their records online",
-      "summary": "The OECD-European Commission report published on November 25 describes a \"digital health implementation gap\": the EU scores 87% on technical capability for electronic health records, but use ranges from 5% in Germany to 74% in Finland; AI-assisted imaging is used in around 75% of countries, often before systems can assess its safety and value. It calls for continuous evaluation of tools and training clinicians against automation bias.",
-      "url": "https://www.euronews.com/2026/11/25/europe-is-embracing-digital-health-but-do-patients-actually-benefit"
-    },
-    {
-      "company": "HaDEA",
-      "place": "Brussels",
-      "sector": "Regulatory",
-      "pillar": "marche",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "EU4Health: four DG SANTE calls worth €19.35M in total to prepare the EHDS and assess clinical AI locally",
-      "summary": "HaDEA's calendar sets publication on November 26 and closing on February 24, 2027: €14.35M for an EHDS readiness package on secondary use of health data, €3M for AI supporting EHDS compliance, €1M for local performance assessment of healthcare AI and €1M for a multimodal AI ecosystem for preventing neurodegenerative diseases. A direct opening for data and AI-validation startups.",
-      "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en"
-    },
-    {
-      "company": "Agence du numérique en santé",
-      "place": "Paris",
-      "sector": "Hospital software",
-      "pillar": "marche",
-      "signalType": "regulatory_milestone",
-      "strength": 2,
-      "title": "Ségur digital programme: wave 2 launches for pharmacy management software, from national patient ID to e-prescriptions",
-      "summary": "Published in the Journal officiel in early November, the order requires pharmacy software vendors to support the national health identifier (INS), feeding and reading the DMP in Mon espace santé, MSSanté secure messaging, the pharmaceutical record, document structuring, access security, e-prescriptions and automated reporting of epidemiological data. The timeline runs about two and a half years: 6 months for the administrative file, 15 for proof of compliance, 18 to validate listing with the ANS.",
-      "url": "https://www.ticsante.com/story?id=8540"
-    }
+    { "company": "Haute Autorité de santé", "place": "Saint-Denis", "sector": "Regulatory", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "France's HAS and CNIL publish their final guide on AI in care settings for hospitals and clinicians",
+      "summary": "Published on November 27 after a public consultation, the joint guide covers the full lifecycle of an AI system in 11 sheets (governance, procurement and contracting, training, patient information and rights, human oversight, traceability, vigilance, end of life) and will serve as the reference for the AI criteria in hospital certification. For vendors, it sets out what hospitals will now require in their contracts.",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil" },
+    { "company": "Cour des comptes", "place": "Paris", "sector": "Regulatory", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 3,
+      "title": "France's Court of Audit finds hospital health data warehouses were rolled out without a national strategy",
+      "summary": "The report published on November 26 counts 54 hospital warehouses (out of 156 health data warehouses according to the CNIL), funded with €75M from France 2030 across 16 winning projects; it asks the State to clarify its strategy by 2027, calls for mixed funding (self-financing, services, fees under the EHDS) and raises the question of requiring SecNumCloud on top of HDS certification.",
+      "url": "https://www.silicon.fr/uncategorized/entrepots-de-donnees-de-sante-la-cour-des-comptes-pointe-un-deploiement-sans-strategie-claire-230710" },
+    { "company": "ANSM", "place": "Saint-Denis", "sector": "Regulatory", "pillar": "marche",
+      "signalType": "regulatory_milestone", "strength": 2,
+      "title": "France's ANSM records eight medication errors linked to conversational AI advice and warns patients and clinicians",
+      "summary": "According to the November 25 statement, eight cases were reported between 2024 and 2026 in patients aged 17 to 89, one of them hospitalised, mostly overdoses (two involving paracetamol) and mix-ups when AI was used to translate reports or prescriptions; the agency, which believes the figure is underestimated, asks for any adverse effect to be reported with a mention of AI use.",
+      "url": "https://www.lemoniteurdespharmacies.fr/business/numerique/e-sante/intelligence-artificielle-8-erreurs-medicamenteuses-signalees-par-lansm" },
+    { "company": "Diappymed", "place": "France", "sector": "DTx", "pillar": "marche",
+      "signalType": "reimbursement", "strength": 2,
+      "title": "CNEDiMTS issues unfavourable opinion on early reimbursement for Ekiyou, an insulin dosing app",
+      "summary": "The device targeted people with diabetes on basal-bolus regimens using pens; the commission set aside the qualitative studies on methodological grounds, and the single-arm EKIYOU-Study 1 (16 patients, unpublished) shows no significant difference in time spent between 70 and 180 mg/dl at eight weeks. The week's second PECAN refusal, after Edra Pro.",
+      "url": "https://www.ticpharma.com/story/3433" },
+    { "company": "KBV", "place": "Berlin", "sector": "Telehealth", "pillar": "marche",
+      "signalType": "reimbursement", "strength": 3,
+      "title": "Germany extends the surcharge for authenticating unknown patients in video consultations until end-2028",
+      "summary": "The Extended Evaluation Committee renewed, over the health insurers' objections, EBM code 01444 (10 points, billable once per quarter) that practices receive for manually entering the insurance data of a patient seen by video; it was due to expire at the end of 2026. A review is scheduled by September 30, 2028, depending on whether a nationwide technical identification solution is available.",
+      "url": "https://www.aerzteblatt.de/themen/e-health/videosprechstunde-zuschlag-fur-authentifizierung-von-patienten-verlangert-0e26777e-d174-4661-82f9-cee869b71e90" },
+    { "company": "Banque des Territoires", "place": "Paris", "sector": "Fund", "pillar": "naissances",
+      "signalType": "grant_award", "strength": 3,
+      "title": "Five new winners in France 2030's call for digital health experimentation hubs",
+      "summary": "Around €1.19M in support for €2.65M of investment: Basolight (AI-assisted imaging, Nice University Hospital), OpMA Prevent (remote follow-up of chronic respiratory failure, HopeCare and Paris Saint-Joseph hospital), PREDIA DT2 (UX Care, Genopole), OnCoChoisit (AI that makes oncology reports understandable, Centre Léon-Bérard) and DÉCLIC (IPSO Santé). The call, run by Banque des Territoires, has €63M until 2027 for a network of 37 hubs.",
+      "url": "https://www.ticsante.com/story?id=8542" },
+    { "company": "ViaSlim", "place": "Zurich", "sector": "Telehealth", "pillar": "financement",
+      "signalType": "funding_round", "strength": 2,
+      "title": "Digital obesity clinic ViaSlim walks away from its Swiss Dragons' Den deal and plans a raise in early 2027",
+      "summary": "Founded in 2024 by physicians Gezim Dervishi and Norbert Niebuhr, the startup (telemedicine, coaching, treatments including GLP-1s, practices in Zurich, Bern and Basel) had accepted CHF 400,000 for 9% on air; it dropped the deal after growing: more than 2,500 active patients, cash-flow positive since Q1 2026, CHF 2.5M revenue targeted this year, and no institutional investor to date.",
+      "url": "https://www.startupticker.ch/index.php/en/news/hoehle-der-loewen-viaslim-ueberzeugt-mit-digitaler-abnehmklinik" },
+    { "company": "AYUN", "place": "Zurich", "sector": "Digital Health", "pillar": "financement",
+      "signalType": "funding_round", "strength": 2,
+      "title": "Preventive medicine clinic AYUN raises more than CHF 900,000 from 93 crowd investors",
+      "summary": "The campaign closed on November 27 on Conda.ch to fund the expansion of its Zurich clinic, its technology platform and new locations; AYUN reports around 1,500 customers, CHF 2.7M in revenue since its 2024 launch, its first months of positive EBITDA and its first corporate clients.",
+      "url": "https://www.startupticker.ch/en/news/fast-eine-million-von-der-crowd-fuer-longevity-startup-ayun" }
   ],
   "brefsIntl": [],
   "word": {
-    "term": "Synthetic Data",
-    "full": "Synthetic Health Data",
-    "fr": "Synthetic health data",
-    "field": "Health data & privacy",
-    "definition": "Records of \"fake patients\" generated by an algorithm from real data: they reproduce the same statistical patterns without matching any real person.",
+    "term": "PECAN",
+    "full": "Prise En Charge Anticipée Numérique (early digital reimbursement)",
+    "fr": "Early digital reimbursement",
+    "field": "Market access & reimbursement",
+    "definition": "A one-year provisional reimbursement by French national health insurance, granted to a digital therapy or remote-monitoring service presumed to be innovative, while it finishes proving its benefit.",
     "parts": [
-      {
-        "label": "Source data",
-        "role": "the template: a real patient dataset, with whatever biases it carries"
-      },
-      {
-        "label": "Generator",
-        "role": "the engine: a statistical or AI model that learns the data's structure and produces new records"
-      },
-      {
-        "label": "Utility / privacy evaluation",
-        "role": "the check: verifying results stay faithful and no one can be re-identified"
-      }
+      { "label": "CNEDiMTS opinion", "role": "the clinical filter: the HAS judges whether innovation is presumed and whether early data are credible" },
+      { "label": "ANS compliance", "role": "the technical filter: interoperability and security checked by the French digital health agency" },
+      { "label": "One-year coverage", "role": "the financial bridge: exceptional reimbursement ahead of standard listing" }
     ],
     "how": [
-      {
-        "n": "1",
-        "h": "Learn",
-        "t": "A model is trained on the real data to reproduce its characteristics and structure; this step is itself processing of personal data."
-      },
-      {
-        "n": "2",
-        "h": "Generate",
-        "t": "It produces artificial records, partially (only some variables) or fully synthetic, whose analysis should yield results close to the original."
-      },
-      {
-        "n": "3",
-        "h": "Test the risk",
-        "t": "Re-identification risk (membership inference, attribute disclosure) is measured and inherited bias corrected: until that risk is shown to be negligible, the data is still treated as personal."
-      }
+      { "n": "1", "h": "Apply", "t": "The device operator files on the Convergence (ANS) and Sésame (HAS) platforms; the ANS checks eligibility and compliance with security and interoperability rules." },
+      { "n": "2", "h": "Get assessed", "t": "The CNEDiMTS and the ANS give their opinions, then ministers decide; if approved, the device is reimbursed for one year." },
+      { "n": "3", "h": "Move to standard coverage", "t": "The operator must apply for permanent listing within six months (LPP, for a digital therapy) or nine months (LATM, for remote monitoring), backed by clinical evidence." }
     ],
-    "why": "Hospitals leave most of their data unused because they cannot share it: synthetic data promises to open it up to research, trials (partly simulated control arms) and AI training without exposing patients. The EHDS and EU4Health calls on data reuse are creating demand; the risk for investors is regulatory, since the \"non-personal\" status of such data still has to be proven case by case.",
+    "why": "For a French digital health startup, PECAN is often the first reimbursed revenue and the signal investors wait for; but the evidence bar is high: Resilience and Diappymed have just been turned down, and Tilak only secured it after a refusal of standard reimbursement. For a VC, the key question becomes the timeline of comparative trials, not just commercial traction.",
     "startups": [
-      {
-        "name": "Aindo",
-        "use": "SISSA spin-off, EIC Accelerator winner, over €11M raised; generates synthetic cohorts for RWE and trials, and is building a cardiology decision-support tool with Centro Cardiologico Monzino",
-        "place": "Trieste, Italy"
-      },
-      {
-        "name": "Octopize",
-        "use": "\"Avatar\" method that creates one synthetic patient for each real individual, validated in npj Digital Medicine; published a synthetic data guide with the Health Data Hub",
-        "place": "Nantes, France"
-      },
-      {
-        "name": "Syntho",
-        "use": "Synthetic data platform for healthcare and the public sector; industry partner of the University of Amsterdam's ELSA Lab on fairer healthcare AI",
-        "place": "Amsterdam, Netherlands"
-      }
+      { "name": "Tilak Healthcare", "use": "Odysight, smartphone remote monitoring of chronic maculopathies, reimbursed via PECAN after a favourable HAS opinion in 2025, eight months after an HAS refusal of standard coverage; more than 30,000 patients", "place": "Paris, France" },
+      { "name": "Poppins (BMotion Technologies)", "use": "Game-based digital therapy for dyslexia; favourable CNEDiMTS opinion on early reimbursement in June 2026, after a €5M round led by Racine² in 2025", "place": "Paris, France" },
+      { "name": "Resilience", "use": "Remote monitoring based on patient-reported outcomes; two PECAN applications for Edra Pro in psychiatry rejected (March and November 2026), pivotal study due in May 2027", "place": "Paris, France" }
     ],
     "sources": [
-      {
-        "publisher": "Information Commissioner's Office (ICO)",
-        "title": "Synthetic data",
-        "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/privacy-enhancing-technologies/what-pets-are-there/synthetic-data"
-      },
-      {
-        "publisher": "PHG Foundation (Cambridge)",
-        "title": "Synthetic health data, real regulatory challenge",
-        "url": "https://www.phgcambridge.org/blog/synthetic-data-real-regulatory-challenge/"
-      },
-      {
-        "publisher": "Open",
-        "title": "C’è una start up italiana che vuole usare l’intelligenza artificiale per rivoluzionare la sanità (senza violare la privacy)",
-        "url": "https://www.open.online/2026/07/14/aindo-dati-sintetici-ia-sanita/"
-      },
-      {
-        "publisher": "Syntho",
-        "title": "Syntho Joins UvA-Led ELSA Lab to Advance Fair and Inclusive AI in Healthcare",
-        "url": "https://www.syntho.ai/syntho-partners-uva-elsa-lab-fair-inclusive-ai-healthcare/"
-      }
+      { "publisher": "G_NIUS (Agence du numérique en santé)", "title": "Advance Digital Care (PECAN)", "url": "https://gnius.esante.gouv.fr/en/financing/reimbursement-profiles/advance-digital-care-pecan" },
+      { "publisher": "Tilak Healthcare", "title": "Tilak Healthcare obtient le remboursement d'Odysight®, première solution de télésurveillance en ophtalmologie, via le dispositif PECAN", "url": "https://tilakhealthcare.com/wp-content/uploads/2025/10/251010_Press_Release_PECAN_Tilak_FR.pdf" },
+      { "publisher": "Haute Autorité de santé", "title": "POPPINS CLINICAL", "url": "https://www.has-sante.fr/jcms/p_4121551/fr/poppins-clinical" },
+      { "publisher": "TICpharma", "title": "Nouvel avis défavorable à la prise en charge anticipée du DM de télésurveillance en psychiatrie Edra Pro", "url": "https://www.ticpharma.com/story/3434" }
     ]
   }
 }
