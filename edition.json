@@ -1,208 +1,199 @@
 {
-  "dateLong": "27 nov. 2026",
+  "dateLong": "28 nov. 2026",
   "ticker": [
     {
-      "company": "CORWAVE",
-      "amount": "Faisabilité ✓",
+      "company": "LAMPSY HEALTH",
+      "amount": "€1.1M",
+      "kind": "lev"
+    },
+    {
+      "company": "MEDTRONIC",
+      "amount": "1er implant",
       "kind": "tech"
     },
     {
-      "company": "NEURALINK",
-      "amount": "Pivot FDA",
-      "kind": "reg"
-    },
-    {
-      "company": "AMSTERDAM MEDTECH",
-      "amount": "Création",
+      "company": "PINNACLE NEURO",
+      "amount": "Spin-off",
       "kind": "new"
     },
     {
-      "company": "SALVIA",
-      "amount": "€25M",
-      "kind": "lev"
+      "company": "EUDAMED",
+      "amount": "MDCG 2026-7",
+      "kind": "reg"
     },
     {
-      "company": "SPCTR",
-      "amount": "€2.8M",
-      "kind": "lev"
+      "company": "MEDIWHALE",
+      "amount": "FDA",
+      "kind": "reg"
     },
     {
-      "company": "SYNAPSE MEDICINE",
-      "amount": "Négo. excl.",
-      "kind": "mna"
+      "company": "FUDAN BCI",
+      "amount": "1er patient",
+      "kind": "tech"
     }
   ],
   "lead": {
-    "kicker": "Résultats cliniques · Assistance cardiaque",
-    "title": "CorWave valide chez ses cinq premiers patients sa pompe cardiaque à membrane ondulante et décroche jusqu'à 51,9 M€ d'aide européenne",
-    "deck": "Présentée au sommet EACTS MCS d'Amsterdam (19-21 novembre) et annoncée le 26 novembre, l'étude de faisabilité de l'assistance ventriculaire gauche (LVAS) de CorWave a atteint son critère principal : les cinq patients en insuffisance cardiaque avancée, implantés au St Vincent's Hospital de Sydney et à l'UMC Heart Center d'Astana, sont tous vivants et sans événement indésirable lié au dispositif à 30 jours, avec plus de 650 jours cumulés de support sans panne de pompe ni thrombose. Au lieu d'une turbine, une membrane en polymère ondule au rythme du cœur pour imiter son pompage naturel ; la medtech de Clichy (plus de 100 M€ levés auprès de Sofinnova, Novo Holdings, Ysios, l'EIC Fund et Bpifrance) obtient en parallèle jusqu'à 51,9 M€ via le PIEEC Tech4Cure — la plus grosse dotation du programme — et prépare l'étude pivot qui doit soutenir son marquage CE.",
-    "company": "CorWave",
-    "sector": "Cardio",
-    "pillar": "innovation",
-    "signalType": "clinical_update",
-    "strength": 4,
-    "url": "https://www.biospace.com/press-releases/corwave-reports-positive-feasibility-study-results-for-its-wave-membrane-lvad"
+    "kicker": "Levée & certification · Neurotech",
+    "title": "Lampsy Health lève 1,1 M€ pour lancer en Europe sa lampe de chevet qui détecte les crises d'épilepsie nocturnes sans capteur porté",
+    "deck": "Annoncé le 27 novembre, le tour de la startup portugaise, issue de l'Instituto Superior Técnico de Lisbonne, est mené par la Fundação Ageas et Portugal Ventures, avec Angels Way, Phira Ventures et des business angels stratégiques, en complément du Pre-Accelerator de l'EIC. Sa lampe intègre une caméra infrarouge et un algorithme d'IA embarqué qui reconnaît les mouvements des crises tonico-cloniques (plus de 97 % de précision revendiquée sur plus de 9 200 heures de données hospitalières) et alerte automatiquement les proches : déjà certifiée comme dispositif médical dans l'UE, elle vise un lancement commercial au premier trimestre 2027 en Europe et au Royaume-Uni, avec une liste d'attente de plus de 7 500 personnes dans 20 pays.",
+    "company": "Lampsy Health",
+    "stage": "Seed",
+    "sector": "Neurotech",
+    "pillar": "financement",
+    "signalType": "funding_round",
+    "strength": 3,
+    "url": "https://tech.eu/2026/11/27/lampsy-health-raises-eur11m-to-shine-a-light-on-undetected-night-time-seizures/"
   },
   "milestone": {
-    "company": "Neuralink",
-    "milestone": "Étude pivot autorisée",
-    "title": "Neuralink obtient le feu vert de la FDA pour LINK, premier essai pivot d'une interface cerveau-machine implantable aux États-Unis",
-    "summary": "Annoncée le 25 novembre, l'autorisation lance l'étude LINK chez des adultes américains atteints de SLA (maladie de Charcot) sévèrement paralysés : elle doit montrer qu'ils peuvent piloter ordinateurs et téléphones par la pensée au quotidien, avec environ 24 mois de suivi et une surveillance de la sécurité à long terme sur plusieurs centres. Plus de 30 personnes portent déjà l'implant dans les études de faisabilité menées aux États-Unis, au Canada et au Royaume-Uni.",
-    "why": "Un essai pivot est la dernière marche avant une demande d'autorisation de mise sur le marché : la neurotech implantable quitte le stade expérimental pour entrer dans une logique de dossier réglementaire. C'est un repère de calendrier et de standard de preuve pour toute la filière, y compris les acteurs européens des implants neuraux, qui seront jugés à cette aune par les investisseurs.",
-    "place": "Fremont (Californie)",
-    "sector": "Neurotech",
-    "signalType": "regulatory_milestone",
-    "url": "https://thenextweb.com/news/neuralink-fda-approval-link-pivotal-study-als"
-  },
-  "deal": {
-    "company": "Salvia BioElectronics",
-    "amount": "25 M€",
-    "round": "Venture debt (BEI)",
-    "thesis": "La Banque européenne d'investissement prête 25 M€ en venture debt, dans le cadre d'InvestEU, à la medtech d'Eindhoven qui avait bouclé une Series B de 60 M$ en 2025 : de la dette non dilutive adossée à un actif clinique avancé, pour financer les essais européens et américains (dont RECLAIM-II, lancé aux États-Unis) de son implant ultrafin contre la migraine résistante. Le signe que la neuromodulation périphérique, encore pré-commerciale, est jugée assez dérisquée pour être financée par la dette publique européenne.",
-    "sector": "Neurotech",
-    "url": "https://ioplus.nl/en/posts/25-million-for-salvia-bioelectronics-migraine-treatment"
+    "company": "Medtronic",
+    "milestone": "Première mondiale",
+    "title": "L'hôpital Hammersmith de Londres implante le premier patient au monde avec Restoria, le nouveau pacemaker de stimulation du système de conduction de Medtronic",
+    "summary": "Réalisée la semaine précédant l'annonce du 27 novembre par l'équipe du Dr Daniel Keene (Imperial College Healthcare NHS Trust), l'implantation inaugure Restoria CSP, l'un des cinq pacemakers de la gamme Vitalis marquée CE en octobre. Au lieu de stimuler la paroi du ventricule droit, il cible les voies électriques naturelles du cœur, intègre un moniteur de morphologie pour suivre la stimulation dans le temps, se contrôle à distance et tolère mieux la radiothérapie.",
+    "why": "La stimulation du système de conduction (CSP) passe du geste d'expert, réalisé avec des stimulateurs conçus pour autre chose, à un produit dédié chez le leader du marché : c'est le signe que le standard de la stimulation cardiaque est en train de basculer. Pour les startups européennes du rythme (sondes, stimulateurs sans sonde, outils d'implantation), c'est le nouveau comparatif clinique et commercial à intégrer.",
+    "place": "Londres",
+    "sector": "Cardio",
+    "signalType": "clinical_update",
+    "url": "https://www.medicaldevice-network.com/news/uk-hospital-completes-world-first-implantation-of-new-medtronic-pacemaker/"
   },
   "brefsEurope": [
     {
-      "company": "SPCTR",
-      "place": "Utrecht / Groningue",
-      "sector": "Imagerie",
-      "pillar": "financement",
-      "signalType": "funding_round",
-      "strength": 3,
-      "stage": "Seed",
-      "title": "SPCTR lève 2,8 M€ pour dire au chirurgien, en salle, s'il reste des cellules tumorales en bordure de la pièce opératoire",
-      "summary": "Son dispositif SPCTRone combine imagerie optique et IA pour analyser les berges du tissu retiré pendant l'opération du cancer du sein ; il a été testé à l'UMC Utrecht et au Centre académique du sein de Groningue. Le tour réunit le fonds VGZ Voorop in Zorg, Future Tech Ventures, l'agence NV NOM, des business angels et le Fonds européen pour une transition juste, pour une étude multicentrique, une première série d'appareils et le marquage CE.",
-      "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
-    },
-    {
-      "company": "Synapse Medicine",
-      "place": "Bordeaux",
-      "sector": "Digital Health",
-      "pillar": "financement",
-      "signalType": "acquisition",
-      "strength": 3,
-      "title": "Equasens entre en négociations exclusives pour prendre la majorité de Synapse Medicine, éditeur de MedGPT",
-      "summary": "Fondée en 2017, la société bordelaise revendique 7 dispositifs médicaux marqués CE classe IIb, une base de données médicamenteuse agréée par la HAS et l'assistant d'IA MedGPT, déployé dans des dizaines d'hôpitaux dont cinq CHU et disponible dans dix pays européens ; ses outils touchent plus de 400 000 professionnels de santé. Conditions financières non communiquées : une sortie industrielle type pour les logiciels dispositifs médicaux d'aide à la prescription.",
-      "url": "https://equasens.com/wp-content/uploads/2026/11/CP_EQUASENS_Acquisition_FR.pdf"
-    },
-    {
-      "company": "BiBBInstruments",
-      "place": "Lund",
-      "sector": "Diagnostics",
-      "pillar": "marche",
-      "signalType": "early_partnership",
-      "strength": 2,
-      "title": "BiBBInstruments reçoit une nouvelle commande américaine pour EndoDrill GI, sa biopsie motorisée sous écho-endoscopie",
-      "summary": "Son distributeur TaeWoong Medical USA commande pour environ 1,2 M SEK (118 000 $), livraison prévue au premier trimestre 2027, après 1,75 M SEK de commandes en septembre. Fondée par un chercheur en cancérologie de l'université de Lund, la société présente EndoDrill GI comme le premier instrument de biopsie motorisé autorisé (510(k) FDA et marquage CE) pour l'écho-endoscopie, un outil pour mieux prélever les tumeurs du pancréas.",
-      "url": "https://news.cision.com/bibbinstruments-ab/r/bibbinstruments-receives-new-order-for-endodrill--gi-from-the-us,c4428589"
-    },
-    {
-      "company": "Calla Lily Clinical Care",
-      "place": "Londres",
-      "sector": "MedTech",
-      "pillar": "innovation",
-      "signalType": "grant_award",
-      "strength": 3,
-      "title": "Calla Lily Clinical Care obtient 700 000 £ d'Innovate UK pour adapter son dispositif intravaginal Callavid aux probiotiques",
-      "summary": "Accordée via le programme Growth Catalyst: Investor Partnerships (projet total de 1 M£ avec investissement privé apparié), la subvention finance le projet FLORA : améliorer le transfert et la rétention de lactobacilles avec sa plateforme brevetée d'administration intravaginale, et bâtir un modèle de laboratoire de colonisation bactérienne, en visant un premier produit en vente libre.",
-      "url": "https://med-techinsights.com/calla-lily-clinical-care-awarded-innovate-uk-grant/"
-    },
-    {
-      "company": "Amsterdam MedTech",
-      "place": "Amsterdam",
+      "company": "Pinnacle Neuroscience",
+      "place": "Cambridge",
       "sector": "MedTech",
       "pillar": "naissances",
-      "signalType": "early_partnership",
+      "signalType": "grant_award",
+      "strength": 3,
+      "title": "Cambridge crée la spin-off Pinnacle Neuroscience pour commercialiser eVRT, un « casque » de rééducation des vertiges à domicile",
+      "summary": "L'équipe du Pr Manohar Bance (SENSE Lab, université de Cambridge) obtient 248 783 £ d'UKRI pour préparer la fabrication et la certification du dispositif, et 149 918 £ du programme NIHR THRIVE pour le co-développer avec patients et soignants, après 145 000 £ de Cambridge Enterprise. Le capteur porté à l'oreille vérifie que les exercices de rééducation vestibulaire sont bien faits et une app permet au kiné d'ajuster le traitement ; la spin-off est en cours de création avec Cambridge Enterprise, un pilote à domicile est prévu.",
+      "url": "https://www.news-medical.net/news/20261127/Cambridge-researchers-develop-wearable-device-to-treat-balance-disorders.aspx"
+    },
+    {
+      "company": "Mölnlycke",
+      "place": "Göteborg",
+      "sector": "MedTech",
+      "pillar": "marche",
+      "signalType": "leadership_hire",
       "strength": 2,
-      "title": "Amsterdam UMC, l'UvA et la VU créent Amsterdam MedTech pour accélérer le passage des innovations au patient",
-      "summary": "L'initiative relie cliniciens, chercheurs et industriels autour de l'imagerie, de l'IA et de la robotique, appliquées à l'oncologie et au cardiovasculaire, dans le cadre du plan de croissance MedTech néerlandais (le meilleur écosystème medtech d'Europe d'ici 2035). Premier projet : diagnostiquer et traiter un cancer du poumon en une seule visite grâce à la microscopie avancée et à l'IA — un futur vivier de spin-offs.",
-      "url": "https://ioplus.nl/en/posts/amsterdam-universities-join-forces-to-fast-track-medtech"
+      "title": "Mölnlycke fait entrer Börje Ekholm (ex-Ericsson) et Kristian Villumsen (ex-Coloplast) à son conseil avant sa scission en deux sociétés",
+      "summary": "Annoncées le 26 novembre, les deux nominations doivent accompagner la séparation prévue du spécialiste suédois des pansements et des produits chirurgicaux en deux entités autonomes ; Sharon James quitte le conseil. L'arrivée d'un ancien patron de Coloplast, aujourd'hui président de Demant, signale une préparation sérieuse de la séparation — et de futurs mouvements de portefeuille dans le soin des plaies.",
+      "url": "https://news.cision.com/molnlycke/r/molnlycke-announces-changes-to-its-board-of-directors,c4429350"
+    },
+    {
+      "company": "Commission européenne",
+      "place": "Bruxelles",
+      "sector": "Réglementaire",
+      "pillar": "marche",
+      "signalType": "regulatory_milestone",
+      "strength": 2,
+      "title": "La Commission publie le guide MDCG 2026-7 sur les rapports d'évaluation technique et les PSUR dans EUDAMED",
+      "summary": "Publié le 26 novembre, le guide encadre la façon dont les organismes notifiés déposent dans la base européenne leurs rapports d'évaluation de la documentation technique et leur évaluation des rapports périodiques de sécurité (PSUR) sous le MDR. Il arrive alors que les quatre premiers modules d'EUDAMED sont obligatoires depuis le 28 mai 2026 : la transparence des dossiers devient une réalité opérationnelle pour les fabricants, startups comprises.",
+      "url": "https://health.ec.europa.eu/latest-updates/new-guidance-document-mdcg-2026-7-technical-documentation-assessment-report-and-psur-evaluation-2026-11-26_en"
     }
   ],
   "brefsIntl": [
     {
-      "company": "DeepHealth",
-      "place": "États-Unis",
+      "company": "Mediwhale",
+      "place": "Séoul",
       "sector": "Imagerie",
       "pillar": "marche",
       "signalType": "regulatory_milestone",
       "strength": 5,
-      "title": "DeepHealth obtient la 510(k) de Mammo Risk, qui prédit le risque de cancer du sein à 3-5 ans à partir d'une mammographie 3D",
-      "summary": "Clearance K262709 du 23 novembre : l'IA, entraînée sur 220 000 examens, estime le risque à partir des seules images de tomosynthèse, sans questionnaire ni examen supplémentaire, avec des performances homogènes sur plus de 65 000 mammographies de dix sites américains. Sa génération précédente (risque à deux ans) est déjà marquée CE en Europe et validée par des chercheurs du Karolinska Institutet.",
-      "url": "https://itnonline.com/content/fda-clears-deephealths-ai-can-predict-five-year-breast-cancer-risk-3d-mammogram"
+      "title": "Mediwhale obtient sa première 510(k) pour Dr. Noon CVD, une IA qui estime le risque cardiovasculaire à partir d'une photo de rétine",
+      "summary": "Annoncé le 27 novembre, le logiciel combine l'image du fond d'œil à l'âge et au sexe pour estimer le risque à 10 ans d'un premier événement cardiovasculaire athéroscléreux et classe le patient en trois catégories. Un comparable direct pour l'« oculomique », où plusieurs équipes européennes cherchent à faire de la rétine un biomarqueur de santé générale.",
+      "url": "https://www.prnewswire.com/news-releases/mediwhale-announces-first-fda-510k-clearance-for-its-retinal-ai-cardiovascular-risk-assessment-software-302951428.html"
+    },
+    {
+      "company": "Université Fudan",
+      "place": "Shanghai",
+      "sector": "Neurotech",
+      "pillar": "innovation",
+      "signalType": "clinical_update",
+      "strength": 2,
+      "title": "Fudan et l'hôpital Huashan font parler une patiente atteinte de SLA avec une interface cerveau-machine sans fil de 512 canaux",
+      "summary": "Rapporté le 26 novembre, ce premier essai chinois d'une BCI invasive sans fil dédiée au chinois atteint plus de 95 % de précision à environ 80 caractères par minute en parole vocalisée, et plus de 90 % à environ 110 caractères par minute en parole silencieuse, restituée avec la voix clonée de la patiente. La course mondiale aux implants de communication s'accélère, aussi hors des États-Unis.",
+      "url": "https://realtech.media/news/rt-bd3583b07a2769565142e691_fudan_team_tests/"
     }
   ],
   "word": {
-    "term": "Intraoperative Margin Assessment",
-    "full": "Intraoperative Margin Assessment (évaluation peropératoire des marges)",
-    "fr": "Contrôle des marges en cours d'opération",
-    "field": "Chirurgie oncologique · Imagerie peropératoire",
-    "definition": "Vérifier, pendant l'opération et en quelques minutes, que le tissu retiré autour d'une tumeur est bien « propre » sur ses bords, pour que le chirurgien puisse enlever immédiatement ce qui reste au lieu d'attendre le résultat d'anatomopathologie plusieurs jours plus tard.",
+    "term": "Automated Seizure Detection",
+    "full": "Automated Seizure Detection (détection automatique des crises d'épilepsie)",
+    "fr": "Détection automatique des crises d'épilepsie",
+    "field": "Neurologie · Dispositifs de surveillance",
+    "definition": "Des dispositifs (caméra, bracelet ou petit patch EEG) qui repèrent seuls, grâce à un algorithme, qu'une crise d'épilepsie est en cours — surtout les crises convulsives nocturnes — et préviennent immédiatement un proche ou un soignant.",
     "parts": [
       {
-        "label": "Pièce opératoire",
-        "role": "le tissu retiré, dont on examine les surfaces (les berges)"
+        "label": "Capteur",
+        "role": "caméra infrarouge et micro, bracelet (mouvement, activité électrodermale) ou électrode EEG"
       },
       {
-        "label": "Capteur d'imagerie",
-        "role": "OCT, microscopie confocale ou imagerie optique qui voit la microstructure du tissu"
+        "label": "Algorithme",
+        "role": "reconnaît la signature d'une crise (mouvements, signaux physiologiques ou cérébraux) en filtrant les fausses alertes"
       },
       {
-        "label": "Algorithme d'IA",
-        "role": "signale au chirurgien les zones suspectes de cellules tumorales"
+        "label": "Alerte",
+        "role": "notifie l'aidant ou l'équipe soignante et horodate l'événement pour le neurologue"
       }
     ],
     "how": [
       {
         "n": "1",
-        "h": "Prélèvement",
-        "t": "Dès l'ablation de la tumeur (par exemple lors d'une chirurgie conservatrice du sein), la pièce est posée sur l'appareil, au bloc, sans préparation histologique longue."
+        "h": "Captation",
+        "t": "Le dispositif enregistre en continu, sans gêner le sommeil : vidéo et son chez Lampsy ou Nelli, mouvement et réponse électrodermale au poignet chez Empatica, signal EEG sur patch chez Epitel."
       },
       {
         "n": "2",
-        "h": "Imagerie",
-        "t": "Le système balaie les berges à une résolution quasi cellulaire : OCT grand champ chez Perimeter, microscopie confocale à fluorescence chez SamanTree, imagerie optique chez SPCTR."
+        "h": "Analyse",
+        "t": "Un algorithme, souvent embarqué, compare le signal aux signatures des crises, en particulier tonico-cloniques ; ses performances sont mesurées contre la vidéo-EEG, l'examen de référence."
       },
       {
         "n": "3",
-        "h": "Décision",
-        "t": "L'IA met en évidence les zones à risque ; le chirurgien retire du tissu supplémentaire pendant la même intervention, l'anatomopathologie restant la référence pour le diagnostic final."
+        "h": "Action",
+        "t": "En cas de crise probable, une alerte part vers les proches ou l'équipe, et le journal des événements alimente le suivi du traitement par le neurologue."
       }
     ],
-    "why": "Environ 20 % des chirurgies conservatrices du sein aux États-Unis débouchent sur une réopération parce qu'une marge s'avère envahie après coup : un coût humain et économique que ces outils promettent d'effacer. La catégorie vient de se structurer réglementairement — PMA FDA de Claire (Perimeter) en mars 2026, 510(k) de l'Histolog Scanner de SamanTree en 2024 — et l'IA en fait un produit « bloc opératoire » à forte récurrence (consommables, logiciels). La levée de SPCTR montre que de nouveaux entrants européens arrivent par l'imagerie optique, une cible naturelle pour les grands de l'imagerie et de la chirurgie.",
+    "why": "Les crises nocturnes passent souvent inaperçues alors qu'elles sont associées au risque de mort subite inattendue dans l'épilepsie (SUDEP) : surveiller la nuit est un besoin non couvert pour les familles comme pour les hôpitaux. La catégorie s'est structurée réglementairement — 510(k) de Nelli (Neuro Event Labs) en 2025, EpiMonitor d'Empatica autorisé par la FDA et certifié MDR, plateforme REMI d'Epitel — et le passage au sans-contact (caméra) ouvre le marché du domicile. La levée de Lampsy montre qu'un dispositif certifié, peu coûteux et grand public peut se financer tôt avec une demande déjà visible.",
     "startups": [
       {
-        "name": "SPCTR",
-        "use": "Développe SPCTRone, imagerie optique + IA qui analyse les berges en peropératoire dans le cancer du sein ; seed de 2,8 M€ en novembre 2026, marquage CE en préparation",
-        "place": "Utrecht / Groningue, Pays-Bas"
+        "name": "Lampsy Health",
+        "use": "Lampe de chevet à caméra infrarouge et IA embarquée qui détecte les crises tonico-cloniques nocturnes et alerte les proches ; certifiée dispositif médical dans l'UE, 1,1 M€ levés en novembre 2026 auprès de la Fundação Ageas et de Portugal Ventures",
+        "place": "Lisbonne, Portugal"
       },
       {
-        "name": "SamanTree Medical",
-        "use": "Son Histolog Scanner (microscopie confocale à fluorescence) est marqué CE et autorisé 510(k) par la FDA ; l'étude SHIELD a rapporté une baisse de 67 % des réopérations ; extension de Series B menée par Karista en 2026 pour le lancement américain",
-        "place": "Lausanne, Suisse"
+        "name": "Neuro Event Labs",
+        "use": "Nelli, système de surveillance des crises par analyse audio et vidéo sans capteur porté, autorisé par la FDA (510(k) K251506, novembre 2025) en complément de la surveillance en établissement ; soutenu par l'EIC Fund",
+        "place": "Tampere, Finlande"
       },
       {
-        "name": "Perimeter Medical Imaging AI",
-        "use": "Claire (OCT grand champ + IA ImgAssist) est devenu en mars 2026 le premier dispositif d'imagerie à IA approuvé par la FDA (PMA) pour les marges du cancer du sein, avec 88,1 % de précision dans l'essai pivot",
-        "place": "Toronto, Canada"
+        "name": "Empatica",
+        "use": "EpiMonitor, couple bracelet EmbracePlus + application qui détecte les crises tonico-cloniques généralisées, autorisé par la FDA (K250515) pour adultes et enfants dès 6 ans et certifié sous le MDR européen",
+        "place": "Milan, Italie / Boston"
+      },
+      {
+        "name": "Epitel",
+        "use": "REMI, patchs EEG sans fil jetables portés jusqu'à 30 jours, avec l'outil d'IA Vigilenz qui signale a posteriori les crises électrographiques ; Series B de 26 M$ en 2026",
+        "place": "Salt Lake City, États-Unis"
       }
     ],
     "sources": [
       {
-        "publisher": "AdvaMed (communiqué Perimeter)",
-        "title": "Perimeter Medical Imaging AI's 'Claire' Becomes First FDA-approved AI-Enabled Imaging Device for Breast Cancer Surgery",
-        "url": "https://www.advamed.org/industry-updates/news/perimeter-medical-imaging-ais-claire-becomes-first-fda-approved-ai-enabled-imaging-device-for-breast-cancer-surgery/"
+        "publisher": "Tech.eu",
+        "title": "Lampsy Health raises €1.1M to shine a light on undetected night-time seizures",
+        "url": "https://tech.eu/2026/11/27/lampsy-health-raises-eur11m-to-shine-a-light-on-undetected-night-time-seizures/"
       },
       {
-        "publisher": "Medical Device Network",
-        "title": "SamanTree Medical's Histolog scanner shows promise in breast surgery outcomes",
-        "url": "https://medicaldevice-network.com/news/samantree-scanner-breast-surgery"
+        "publisher": "FDA (510(k) K251506)",
+        "title": "Nelli (Version 7.11) — Premarket Notification",
+        "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251506"
       },
       {
-        "publisher": "IO+",
-        "title": "Dutch startup SPCTR raises €2.8M for AI-guided cancer surgery",
-        "url": "https://ioplus.nl/en/posts/dutch-startup-spctr-raises-28m-for-ai-guided-cancer-surgery"
+        "publisher": "FDA (510(k) K250515)",
+        "title": "EpiMonitor — 510(k) decision letter",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250515.pdf"
+      },
+      {
+        "publisher": "The Next Web",
+        "title": "Only 27% of US hospitals can run an EEG. Epitel raised $26m for the rest",
+        "url": "https://thenextweb.com/news/epitel-26m-series-b-wireless-eeg-remote-seizure-monitoring"
       }
     ]
   }

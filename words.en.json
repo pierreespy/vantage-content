@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "words": [
+    {
+      "term": "Automated Seizure Detection",
+      "full": "Automated Seizure Detection",
+      "fr": "Automatic detection of epileptic seizures",
+      "field": "Neurology · Monitoring devices",
+      "definition": "Devices (camera, wristband or small EEG patch) that recognise on their own, through an algorithm, that an epileptic seizure is under way — especially convulsive night-time seizures — and immediately alert a relative or caregiver.",
+      "parts": [
+        {
+          "label": "Sensor",
+          "role": "infrared camera and microphone, wristband (motion, electrodermal activity) or EEG electrode"
+        },
+        {
+          "label": "Algorithm",
+          "role": "recognises a seizure's signature (movements, physiological or brain signals) while filtering out false alarms"
+        },
+        {
+          "label": "Alert",
+          "role": "notifies the caregiver or care team and time-stamps the event for the neurologist"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Capture",
+          "t": "The device records continuously without disturbing sleep: video and sound at Lampsy or Nelli, wrist motion and electrodermal response at Empatica, EEG signal on a patch at Epitel."
+        },
+        {
+          "n": "2",
+          "h": "Analysis",
+          "t": "An algorithm, often on-device, compares the signal with seizure signatures, especially tonic-clonic ones; its performance is measured against video-EEG, the reference test."
+        },
+        {
+          "n": "3",
+          "h": "Action",
+          "t": "When a seizure is likely, an alert goes to relatives or the care team, and the event log feeds the neurologist's treatment follow-up."
+        }
+      ],
+      "why": "Night-time seizures often go unnoticed even though they are linked to the risk of sudden unexpected death in epilepsy (SUDEP): overnight monitoring is an unmet need for families and hospitals alike. The category has taken regulatory shape — a 510(k) for Nelli (Neuro Event Labs) in 2025, Empatica's EpiMonitor cleared by the FDA and MDR-certified, Epitel's REMI platform — and the shift to contactless (camera) sensing opens up the home market. Lampsy's round shows that a certified, low-cost, consumer-facing device can raise early money with demand already visible.",
+      "startups": [
+        {
+          "name": "Lampsy Health",
+          "use": "Bedside lamp with an infrared camera and on-device AI that detects night-time tonic-clonic seizures and alerts relatives; certified as a medical device in the EU, raised €1.1M in November 2026 from Fundação Ageas and Portugal Ventures",
+          "place": "Lisbon, Portugal"
+        },
+        {
+          "name": "Neuro Event Labs",
+          "use": "Nelli, a seizure monitoring system that analyses audio and video with no body-worn sensor, FDA-cleared (510(k) K251506, November 2025) as an adjunct to monitoring in healthcare facilities; backed by the EIC Fund",
+          "place": "Tampere, Finland"
+        },
+        {
+          "name": "Empatica",
+          "use": "EpiMonitor, an EmbracePlus wristband + app pairing that detects generalised tonic-clonic seizures, FDA-cleared (K250515) for adults and children aged 6 and up and certified under the EU MDR",
+          "place": "Milan, Italy / Boston"
+        },
+        {
+          "name": "Epitel",
+          "use": "REMI, disposable wireless EEG patches worn for up to 30 days, with the Vigilenz AI tool that flags electrographic seizures retrospectively; $26M Series B in 2026",
+          "place": "Salt Lake City, USA"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Lampsy Health raises €1.1M to shine a light on undetected night-time seizures",
+          "url": "https://tech.eu/2026/11/27/lampsy-health-raises-eur11m-to-shine-a-light-on-undetected-night-time-seizures/"
+        },
+        {
+          "publisher": "FDA (510(k) K251506)",
+          "title": "Nelli (Version 7.11) — Premarket Notification",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251506"
+        },
+        {
+          "publisher": "FDA (510(k) K250515)",
+          "title": "EpiMonitor — 510(k) decision letter",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250515.pdf"
+        },
+        {
+          "publisher": "The Next Web",
+          "title": "Only 27% of US hospitals can run an EEG. Epitel raised $26m for the rest",
+          "url": "https://thenextweb.com/news/epitel-26m-series-b-wireless-eeg-remote-seizure-monitoring"
+        }
+      ],
+      "date": "2026-11-28",
+      "dateLong": "Nov 28, 2026"
+    },
     {
       "term": "Synthetic Data",
       "full": "Synthetic Health Data",

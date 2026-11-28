@@ -1,6 +1,91 @@
 {
-  "generatedAt": "2026-11-27",
+  "generatedAt": "2026-11-28",
   "words": [
+    {
+      "term": "Automated Seizure Detection",
+      "full": "Automated Seizure Detection (détection automatique des crises d'épilepsie)",
+      "fr": "Détection automatique des crises d'épilepsie",
+      "field": "Neurologie · Dispositifs de surveillance",
+      "definition": "Des dispositifs (caméra, bracelet ou petit patch EEG) qui repèrent seuls, grâce à un algorithme, qu'une crise d'épilepsie est en cours — surtout les crises convulsives nocturnes — et préviennent immédiatement un proche ou un soignant.",
+      "parts": [
+        {
+          "label": "Capteur",
+          "role": "caméra infrarouge et micro, bracelet (mouvement, activité électrodermale) ou électrode EEG"
+        },
+        {
+          "label": "Algorithme",
+          "role": "reconnaît la signature d'une crise (mouvements, signaux physiologiques ou cérébraux) en filtrant les fausses alertes"
+        },
+        {
+          "label": "Alerte",
+          "role": "notifie l'aidant ou l'équipe soignante et horodate l'événement pour le neurologue"
+        }
+      ],
+      "how": [
+        {
+          "n": "1",
+          "h": "Captation",
+          "t": "Le dispositif enregistre en continu, sans gêner le sommeil : vidéo et son chez Lampsy ou Nelli, mouvement et réponse électrodermale au poignet chez Empatica, signal EEG sur patch chez Epitel."
+        },
+        {
+          "n": "2",
+          "h": "Analyse",
+          "t": "Un algorithme, souvent embarqué, compare le signal aux signatures des crises, en particulier tonico-cloniques ; ses performances sont mesurées contre la vidéo-EEG, l'examen de référence."
+        },
+        {
+          "n": "3",
+          "h": "Action",
+          "t": "En cas de crise probable, une alerte part vers les proches ou l'équipe, et le journal des événements alimente le suivi du traitement par le neurologue."
+        }
+      ],
+      "why": "Les crises nocturnes passent souvent inaperçues alors qu'elles sont associées au risque de mort subite inattendue dans l'épilepsie (SUDEP) : surveiller la nuit est un besoin non couvert pour les familles comme pour les hôpitaux. La catégorie s'est structurée réglementairement — 510(k) de Nelli (Neuro Event Labs) en 2025, EpiMonitor d'Empatica autorisé par la FDA et certifié MDR, plateforme REMI d'Epitel — et le passage au sans-contact (caméra) ouvre le marché du domicile. La levée de Lampsy montre qu'un dispositif certifié, peu coûteux et grand public peut se financer tôt avec une demande déjà visible.",
+      "startups": [
+        {
+          "name": "Lampsy Health",
+          "use": "Lampe de chevet à caméra infrarouge et IA embarquée qui détecte les crises tonico-cloniques nocturnes et alerte les proches ; certifiée dispositif médical dans l'UE, 1,1 M€ levés en novembre 2026 auprès de la Fundação Ageas et de Portugal Ventures",
+          "place": "Lisbonne, Portugal"
+        },
+        {
+          "name": "Neuro Event Labs",
+          "use": "Nelli, système de surveillance des crises par analyse audio et vidéo sans capteur porté, autorisé par la FDA (510(k) K251506, novembre 2025) en complément de la surveillance en établissement ; soutenu par l'EIC Fund",
+          "place": "Tampere, Finlande"
+        },
+        {
+          "name": "Empatica",
+          "use": "EpiMonitor, couple bracelet EmbracePlus + application qui détecte les crises tonico-cloniques généralisées, autorisé par la FDA (K250515) pour adultes et enfants dès 6 ans et certifié sous le MDR européen",
+          "place": "Milan, Italie / Boston"
+        },
+        {
+          "name": "Epitel",
+          "use": "REMI, patchs EEG sans fil jetables portés jusqu'à 30 jours, avec l'outil d'IA Vigilenz qui signale a posteriori les crises électrographiques ; Series B de 26 M$ en 2026",
+          "place": "Salt Lake City, États-Unis"
+        }
+      ],
+      "sources": [
+        {
+          "publisher": "Tech.eu",
+          "title": "Lampsy Health raises €1.1M to shine a light on undetected night-time seizures",
+          "url": "https://tech.eu/2026/11/27/lampsy-health-raises-eur11m-to-shine-a-light-on-undetected-night-time-seizures/"
+        },
+        {
+          "publisher": "FDA (510(k) K251506)",
+          "title": "Nelli (Version 7.11) — Premarket Notification",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K251506"
+        },
+        {
+          "publisher": "FDA (510(k) K250515)",
+          "title": "EpiMonitor — 510(k) decision letter",
+          "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K250515.pdf"
+        },
+        {
+          "publisher": "The Next Web",
+          "title": "Only 27% of US hospitals can run an EEG. Epitel raised $26m for the rest",
+          "url": "https://thenextweb.com/news/epitel-26m-series-b-wireless-eeg-remote-seizure-monitoring"
+        }
+      ],
+      "date": "2026-11-28",
+      "dateLong": "28 nov. 2026"
+    },
     {
       "term": "Synthetic Data",
       "full": "Synthetic Health Data (données de santé synthétiques)",
